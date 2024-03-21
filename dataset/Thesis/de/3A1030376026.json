@@ -1,0 +1,133 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1164501526",
+            "sameAs": "Schenk, Konrad"
+        },
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Groß, Horst-Michael"
+        },
+        {
+            "@id": "gnd:129669881",
+            "sameAs": "Böhme, Hans-Joachim"
+        },
+        {
+            "@id": "gnd:140327002",
+            "sameAs": "Wöhler, Christian"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4006311-2",
+            "sameAs": "Bewegung"
+        },
+        {
+            "@id": "gnd:4047390-9",
+            "sameAs": "Prognose"
+        },
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "gnd:4199255-6",
+            "sameAs": "Kollisionsschutz"
+        },
+        {
+            "@id": "gnd:4267628-9",
+            "sameAs": "Bahnplanung"
+        },
+        {
+            "@id": "gnd:4464685-9",
+            "sameAs": "Framework (Informatik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1030376026",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (117 Seiten)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1030376026",
+                "(firstid)GBV:1030376026"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Contribution to the long term prediction of motion trajectories",
+            "abstract": "Viele Anwendungen in der mobilen und kognitiven Robotik erfordern einen Prädiktionsmechanismus, um die zukünftigen Aufenthaltsorte bewegter Objekte zu schätzen. Ein autonomes Auto muss beispielsweise die Absichten der anderen Verkehrsteilnehmer schätzen können, um Kollisionen zu vermeiden und die Verkehrsregeln einzuhalten. Ein Serviceroboter muss hingegen in der Lage sein, die Bewegungsspuren der Personen in seiner Umgebung vorherzusagen, um in einer sozial akzeptablen Art und Weise zu navigieren und die Passanten nicht zu behindern. Fast alle Prädiktionsalgorithmen, die in der Literatur zu finden sind, beschäftigen sich mit der Kurzzeitprädiktion und sind auf spezielle Problemstellungen angepasst. Die Lösung einer neuen Problemstellung, welche eine Langzeitprädiktion benötigt (z.B. ein personalisierter Shopping-Assistent, oder eine intelligente Stauvorhersage), ist daher oft mit umfangreichem Forschungs- und Entwicklungsaufwand verbunden. Das Ziel dieser Dissertationsschrift liegt darin, sich dieses Defizits anzunehmen und der wissenschaftlichen Gemeinschaft ein vielseitig einsetzbares Langzeitprädiktionsframework zur Verfügung zu stellen. Das Framework trifft keine Annahmen über das jeweilige System und kann somit auf einfache Art und Weise an die spezifischen Anforderungen der individuellen Problemstellung angepasst werden. Das Framework selbst besteht aus drei Elementen: - Ein topologisches Modell, welches mit Hilfe eines Clustering Algorithmus anhand von Beobachtungen erstellt wird. Daraus resultiert ein topologischer Graph, welcher den Zustandsraum effizient abbildet und eine praktikable Repräsentation von Trajektorien ermöglicht. - Ein probabilistisches Modell, welches den topologischen Graphen um Übergangswahrscheinlichkeiten und Wahrscheinlichkeitsverteilungen der Übergangszeiten ergänzt. - Das eigentliche Prädiktionsframework, welches beide Modelle integriert. Mit Hilfe eines flussbasierten Algorithmus errechnet es für eine gegebene Eingabetrajektorie die zukünftigen Aufenthaltswahrscheinlichkeitsverteilungen über den gesamten Zustandsraum. Die im Rahmen dieser Arbeit durchgeführten Experimente zeigen, dass das vorgestellte Langzeitprädiktionsframework für Bewegungstrajektorien in der Lage ist, sich mit mehreren State of the Art Algorithmen zu messen, ohne dabei auf problemspezifische Bewegungsmodelle zurückzugreifen, physikalische Gesetze zu beachten, oder einschränkende Annahmen über den Zustandsraum des Systems zu treffen. Weiterhin enthalten die Experimente umfangreiche Auswertungen und Ergebnisse, um einen aussagekräftigen Vergleich mit künftigen Prädiktionsalgorithmen zu ermöglichen.",
+            "contributor": [
+                "gnd:129669806",
+                "gnd:140327002",
+                "gnd:129669881"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1164501526",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4047390-9",
+                "gnd:4464685-9",
+                "gnd:4006311-2",
+                "gnd:4191911-7",
+                "gnd:4267628-9",
+                "gnd:4199255-6"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

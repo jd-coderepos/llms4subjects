@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1072782359",
+            "sameAs": "Wist, Dominic"
+        },
+        {
+            "@id": "gnd:4159102-1",
+            "sameAs": "Hardwarebeschreibungssprache"
+        },
+        {
+            "@id": "gnd:4271581-7",
+            "sameAs": "Asynchrones Schaltwerk"
+        },
+        {
+            "@id": "gnd:4312536-0",
+            "sameAs": "Entwurfsautomation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A718861051",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 152 S., 1947 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Zorn, Werner",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)DNB:1022935313",
+                "(ppn)718861051"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=bk, id=10641853X)53.55 - Mikroelektronik",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)620",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Attacking complexity in logic synthesis of asynchronous circuits",
+            "abstract": "Most of the microelectronic circuits fabricated today are synchronous, i.e. they are driven by one or several clock signals. Synchronous circuit design faces several fundamental challenges such as high-speed clock distribution, integration of multiple cores operating at different clock rates, reduction of power consumption and dealing with voltage, temperature, manufacturing and runtime variations. Asynchronous or clockless design plays a key role in alleviating these challenges, however the design and test of asynchronous circuits is much more difficult in comparison to their synchronous counterparts. A driving force for a widespread use of asynchronous technology is the availability of mature EDA (Electronic Design Automation) tools which provide an entire automated design flow starting from an HDL (Hardware Description Language) specification yielding the final circuit layout. Even though there was much progress in developing such EDA tools for asynchronous circuit design during the last two decades, the maturity level as well as the acceptance of them is still not comparable with tools for synchronous circuit design. In particular, logic synthesis (which implies the application of Boolean minimisation techniques) for the entire system&apos;s control path can significantly improve the efficiency of the resulting asynchronous implementation, e.g. in terms of chip area and performance. However, logic synthesis, in particular for asynchronous circuits, suffers from complexity problems. Signal Transitions Graphs (STGs) are labelled Petri nets which are a widely used to specify the interface behaviour of speed independent (SI) circuits - a robust subclass of asynchronous circuits. STG decomposition is a promising approach to tackle complexity problems like state space explosion in logic synthesis of SI circuits. The (structural) decomposition of STGs is guided by a partition of the output signals and generates a usually much smaller component STG for each partition member, i.e. a component STG with a much smaller state space than the initial specification. However, decomposition can result in component STGs that in isolation have so-called irreducible CSC conflicts (i.e. these components are not SI synthesisable anymore) even if the specification has none of them. A new approach is presented to avoid such conflicts by introducing internal communication between the components. So far, STG decompositions are guided by the finest output partitions, i.e. one output per component. However, this might not yield optimal circuit implementations. Efficient heuristics are presented to determine coarser partitions leading to improved circuits in terms of chip area. For the new algorithms correctness proofs are given and their implementations are incorporated into the decomposition tool DESIJ. The presented techniques are successfully applied to some benchmarks - including &apos;real-life&apos; specifications arising in the context of control resynthesis - which delivered promising results.",
+            "alternative": "Komplexitätsbewältigung in der Logiksynthese asynchroner Schaltungen",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1072782359",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4271581-7"
+                },
+                {
+                    "@id": "gnd:4312536-0"
+                },
+                {
+                    "@id": "gnd:4159102-1"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

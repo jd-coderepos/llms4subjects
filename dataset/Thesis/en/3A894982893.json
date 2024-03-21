@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1137238658",
+            "sameAs": "Abdo, Nichola"
+        },
+        {
+            "@id": "gnd:2024338-8",
+            "sameAs": "Albert-Ludwigs-Universität Freiburg"
+        },
+        {
+            "@id": "gnd:4033447-8",
+            "sameAs": "Künstliche Intelligenz"
+        },
+        {
+            "@id": "gnd:4396128-9",
+            "sameAs": "Serviceroboter"
+        },
+        {
+            "@id": "gnd:5299644-X",
+            "sameAs": "Albert-Ludwigs-Universität Freiburg, Fakultät für Angewandte Wissenschaften"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A894982893",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 256 Seiten, Illustrationen, Diagramme)",
+            "identifier": [
+                "(doi)10.6094/UNIFR/12904",
+                "(ppn)894982893",
+                "(firstid)DNB:1137466286"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)500",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc)621.3",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Learning to solve manipulation tasks from non-expert users in human-centered environments",
+            "abstract": "Abstract: A key goal of robotics research is to develop intelligent service robots that are capable of undertaking a variety of tasks in our everyday environments. To realize this, robots should be equipped with the capabilities to reason about and manipulate a rich spectrum of everyday objects to achieve desirable spatial relations using them, for example to organize objects on shelves or set a table for dinner.&lt;br&gt;&lt;br&gt;However, to operate intelligently in domestic environments, robots should overcome several challenges. For example, there usually are several valid ways of attending to everyday chores depending on the environment and the preferences of the end-users. Moreover, robots will constantly encounter novel objects while attending to arbitrary tasks. Such factors render it infeasible for an expert to pre-program a robot with sufficient knowledge to handle all situations. Instead, robots should be able to continuously learn from their users and attend to tasks without having to constantly query them.&lt;br&gt;&lt;br&gt;In this thesis, we present several contributions that address these challenges and enable robots to acquire manipulation skills to achieve desirable object configurations by interacting with their users and environments. Firstly, we present a novel approach based on recommender system theory that allows a robot to predict user preferences by extracting patterns of organizing objects across several users. This enables the robot to tailor its behavior to a specific user when solving a task such as organizing objects in containers. Secondly, we propose novel techniques to infer the multi-modal spatial constraints necessary to model and generalize a new manipulation action using a small number of demonstrations. We build on these techniques and propose a novel approach&lt;br&gt;to learning sequential manipulation tasks from non-expert users. Our contribution goes beyond existing paradigms by allowing the robot to sequence actions and improvise feasible task solutions without requiring the user to provide an explicit goal state for planning. Finally, we tackle the problem of lifelong learning of spatial relations and generalizing them to objects of various shapes and sizes. For this, we propose a novel approach based on distance metric learning to allow a robot to leverage its previous knowledge of relations to efficiently learn and generalize new ones.&lt;br&gt;&lt;br&gt;We extensively evaluate our proposed approaches using real-world data acquired from different user ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2024338-8",
+                "gnd:5299644-X",
+                "gnd:1137238658"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4033447-8"
+                },
+                {
+                    "@id": "gnd:4396128-9"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/12904",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

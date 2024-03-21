@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1071066277",
+            "sameAs": "Szalai, Thomas"
+        },
+        {
+            "@id": "gnd:143248340",
+            "sameAs": "Petzoldt, Jürgen"
+        },
+        {
+            "@id": "gnd:4127438-6",
+            "sameAs": "Mikrocontroller"
+        },
+        {
+            "@id": "gnd:4161856-7",
+            "sameAs": "Inselnetz"
+        },
+        {
+            "@id": "gnd:4182084-8",
+            "sameAs": "Spannungsregelung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A719899850",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: II, 62 S., 7,05 MB)",
+            "creator": "Zhang, Jun",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)719899850",
+                "(firstid)GBV:719899850"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Realisierung einer Spannungs- und Strombegrenzungsregelung im 3- und 1-phasigen Inselnetz bei unterschiedlichen Lasten mit Hilfe des Microcontrollers XC 167",
+            "abstract": "Die Zielstellung der Arbeit ist eine strombegrenzte Spannungsregelung zu entwickeln um die Phasenfehler der Inselnetzspannung zu korrigieren und Überstrom im Inselnetz zu vermeiden. Dabei wurde eine Uniplatine mit einem Microcontroller von XC-167 verwendet, damit dem Regelungskonzept von Theorie nach Praxis umgesetzt kann. Zu Beginn wurde der Versuchsstand dimensioniert und gebaut. Danach wurde ein PWMModulator programmiert um ein Drehstromsystem zu bilden. Ein Messfilter wurde auch dimensioniert damit die Spannungsgrundwelle auszuwerten. Die Vorgehensweise der Programmierung und Filterdimensionierung wurde dokumentiert und kann als Lernmaterial verwendet werden. Dann wurde das Regelungskonzept entwickelt und durch Verwendung des Microcontrollers XC-167 das Regelungskonzept umgesetzt. Im Anschluss wurde die Regelung getestet mit verschiedener Last und mit der Theoretischen Betrachtungen verglichen.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1071066277"
+                },
+                {
+                    "@id": "gnd:143248340"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4161856-7"
+                },
+                {
+                    "@id": "gnd:4182084-8"
+                },
+                {
+                    "@id": "gnd:4127438-6"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

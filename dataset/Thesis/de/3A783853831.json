@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1032134216",
+            "sameAs": "Waldhorst, Oliver"
+        },
+        {
+            "@id": "gnd:130006491",
+            "sameAs": "Mitschele-Thiel, Andreas"
+        },
+        {
+            "@id": "gnd:4128252-8",
+            "sameAs": "Kommunikationsprotokoll"
+        },
+        {
+            "@id": "gnd:4139374-0",
+            "sameAs": "Architektur (Informatik)"
+        },
+        {
+            "@id": "gnd:4308416-3",
+            "sameAs": "Internet"
+        },
+        {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universitätsverlag Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A783853831",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XII, 258 S., 9,51 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Müller, Paul",
+            "http://purl.org/dc/elements/1.1/creator": "Liers, Florian",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:783853831",
+                "(ppn)783853831"
+            ],
+            "publisher": "Universitätsverlag Ilmenau",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=ddc)004.6"
+            ],
+            "title": "Forwarding on gates : a flexible and scalable inter-network layer supporting in-network functions",
+            "abstract": "Flexibilität und Skalierbarkeit sind mit heutigen Architekturen für Computernetzwerke schwierig zu erzielen. Das Internet wurde zum Beispiel als einfaches Transportnetzwerk für Pakete mit einer kleinen und eingeschränkten Menge von Funktionen entworfen. Erweiterungen für Mobilität oder Dienstgüte erzeugen einen hohen Verwaltungsaufwand und skalieren nicht. Insbesondere letzteres ist das schwerstwiegende Problem für flexible Netzwerke. Deshalb beschreibt diese Dissertation eine neue Architektur mit dem Namen \"Forwarding on Gates\" (FoG), welche beliebige Funktionen für große Netzwerke auf flexible und skalierende Weise bereitstellt. FoG nutzt die Vorteile eines rekursiven Referenzmodells und folgt nicht dem traditionellen OSI Referenzmodell. Es ist allgemeiner anwendbar als andere Architekturen und bietet beispielweise mehr Funktionsmerkmale als eine aus dem Internet und MPLS kombinierte Architektur. FoG stellt durch die dynamische Mischung von verbindungsorientierten und verbindungslosen Aspekten einen optimalen Dienst bereit. FoG basiert auf einem neuen Kommunikationsmodell, welches ausschließlich mit Funktionsblöcken operiert. Durch die Verkettung dieser Blöcke ist es FoG möglich, Anforderungen von Anwendungen auf dynamische und flexible Weise zu erfüllen. Im Gegensatz zu anderen Ansätzen ist die Verkettung nicht nur in den Stacks von Endsystemen sondern auch in Weiterleitungssystemen im Netzwerk möglich. Diese flexible Platzierung von Funktionen eröffnet einen Markt für Funktionen. Kunden können dabei flexibel die zu ihren Anforderungen passenden Funktionen auswählen. Anbieter können diese Auswahl durch Richtlinien beeinflussen, welche sie autonom festlegen können. FoG ermöglicht das skalierende Anbieten von Funktionen durch eine flexible Verteilung von Zuständen zwischen Funktionsanbietern und -nutzern. Im Gegensatz zu Lösungen, die auf IP basieren, erreicht FoG eine signifikante Reduzierung der maximalen Anzahl von Zuständen, die ein Knoten handhaben können muss und eine wesentlich homogenere Verteilung der Zustände im Allgemeinen. Darüber hinaus kann sich das Routing von FoG an eine optimale Kombination von Routenanfragen und Informationsmengen anpassen. In Abhängigkeit von der Kombination kann es mit weniger Informationen auszukommen, als für IP-Netzwerke benötigt würden.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130006491"
+                },
+                {
+                    "@id": "gnd:1032134216"
+                }
+            ],
+            "creator": "gnd:7635051-4",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4139374-0"
+                },
+                {
+                    "@id": "gnd:4128252-8"
+                },
+                {
+                    "@id": "gnd:4308416-3"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

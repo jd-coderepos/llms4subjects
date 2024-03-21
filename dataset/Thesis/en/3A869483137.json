@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1114681113",
+            "sameAs": "Wesenberg, Matthias"
+        },
+        {
+            "@id": "gnd:4003326-0",
+            "sameAs": "Astrophysik"
+        },
+        {
+            "@id": "gnd:4130803-7",
+            "sameAs": "Magnetohydrodynamik"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4220855-5",
+            "sameAs": "Finite-Volumen-Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869483137",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)BSZ:106737252",
+                "(contract)FRUB-opus-792",
+                "(ppn)869483137"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Astrophysik",
+                "(classificationName=ddc)510",
+                "(classificationName=linseach:mapping)mat",
+                "Nichtlineares hyperbolisches System",
+                "Finite-Volumen-Methode",
+                "Computersimulation",
+                "Magnetohydrodynamik"
+            ],
+            "title": "Efficient finite-volume schemes for magnetohydrodynamic simulations in solar physics",
+            "abstract": "Abstract: We present efficient finite-volume schemes for solving&lt;br&gt;the equations of (compressible) magnetohydrodynamics (MHD) in one, two, and&lt;br&gt;three spatial dimensions. We introduce a new approximate Riemann solver for the&lt;br&gt;ideal gas MHD equations (MHD-HLLEM) that outperforms all other solvers&lt;br&gt;considered. We present and compare several Riemann solvers that are suitable&lt;br&gt;for the real gas case of an arbitrary equation of state (EOS) (e.g., RGDW and&lt;br&gt;RGMHD-HLLEM). If the evaluation of the EOS is expensive, we suggest using an&lt;br&gt;adaptively-refined table for the EOS. Our error indicator facilitates a&lt;br&gt;significant enhancement of the codes&apos; efficiencies by using locally-adapted&lt;br&gt;grids. We introduce a new limiter (DEOmod) for linear reconstructions on&lt;br&gt;unstructured triangular grids in 2d that represents a clear improvement of&lt;br&gt;the approaches commonly used. Simulations in physically-unbounded domains are&lt;br&gt;enabled by the proposed transparent boundary conditions. We show that the new&lt;br&gt;hyperbolic divergence cleaning technique is a highly effective and efficient&lt;br&gt;approach for reducing errors in the divergence of the numerical approximation&lt;br&gt;to the magnetic field. Our 3d code is parallelized for distributed-memory&lt;br&gt;machines and comprises dynamic load balancing and local grid adaption on&lt;br&gt;unstructured hexahedral or tetrahedral grids.&lt;br&gt;&lt;br&gt;All our comparisons of solvers are based on considering their efficiencies,&lt;br&gt;i.e., the computational time required for reaching the same errors.&lt;br&gt;We construct one- and two-dimensional&lt;br&gt;Riemann problems whose exact solution is known at least in parts of the&lt;br&gt;computational domain. The suitability and efficiency of our multidimensional&lt;br&gt;codes for applications from solar physics is demonstrated by simulations of&lt;br&gt;magnetic fluxtubes. However, neither our new approaches nor their&lt;br&gt;implementations are restricted to solar physics. Furthermore, our new limiter&lt;br&gt;and the error indicator can be used for arbitrary time-dependent hyperbolic&lt;br&gt;systems of conservation laws",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1114681113",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4003326-0",
+                "gnd:4130803-7",
+                "gnd:4148259-1",
+                "gnd:4220855-5"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

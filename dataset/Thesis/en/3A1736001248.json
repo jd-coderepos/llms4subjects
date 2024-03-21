@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1081174676",
+            "sameAs": "Abedjan, Ziawasch"
+        },
+        {
+            "@id": "gnd:120763478",
+            "sameAs": "Lehner, Wolfgang"
+        },
+        {
+            "@id": "gnd:1219914924",
+            "sameAs": "Harmouch, Hazar"
+        },
+        {
+            "@id": "gnd:129576379",
+            "sameAs": "Naumann, Felix"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universität Potsdam"
+        },
+        {
+            "@id": "gnd:7670125-6",
+            "sameAs": "Data-Profiling"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1736001248",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ii, 115 Seiten, 5450 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1736001248",
+                "(ppn)1736001248",
+                "(doi)10.25932/publishup-47455"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.31",
+                "(classificationName=bk, id=106410857)54.61 - Datenverarbeitungsmanagement",
+                "Informationssystem",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Single-column data profiling",
+            "abstract": "The research area of data profiling consists of a large set of methods and processes to examine a given dataset and determine metadata about it. Typically, different data profiling tasks address different kinds of metadata, comprising either various statistics about individual columns (Single-column Analysis) or relationships among them (Dependency Discovery). Among the basic statistics about a column are data type, header, the number of unique values (the column&apos;s cardinality), maximum and minimum values, the number of null values, and the value distribution. Dependencies involve, for instance, functional dependencies (FDs), inclusion dependencies (INDs), and their approximate versions. Data profiling has a wide range of conventional use cases, namely data exploration, cleansing, and integration. The produced metadata is also useful for database management and schema reverse engineering. Data profiling has also more novel use cases, such as big data analytics. The generated metadata describes the structure of the data at hand, how ...",
+            "contributor": [
+                "gnd:120763478",
+                "gnd:1081174676",
+                "gnd:129576379"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1219914924",
+                "gnd:2120681-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:7670125-6"
+            },
+            "isLike": "doi:10.25932/publishup-47455",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

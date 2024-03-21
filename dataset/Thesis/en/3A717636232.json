@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1021355593",
+            "sameAs": "Best, Eike"
+        },
+        {
+            "@id": "gnd:136626890",
+            "sameAs": "Olderog, Ernst-Rüdiger"
+        },
+        {
+            "@id": "gnd:4045388-1",
+            "sameAs": "Petri-Netz"
+        },
+        {
+            "@id": "gnd:4130702-1",
+            "sameAs": "Fairness (Informatik)"
+        },
+        {
+            "@id": "gnd:4136085-0",
+            "sameAs": "Ordnungsreduktion"
+        },
+        {
+            "@id": "gnd:4137542-7",
+            "sameAs": "Temporale Logik"
+        },
+        {
+            "@id": "gnd:4434799-6",
+            "sameAs": "Model Checking"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A717636232",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XII, 215 S., 1,4 MB)",
+            "creator": "Rakow, Astrid",
+            "identifier": [
+                "(ppn)717636232",
+                "(firstid)DNB:1022124684"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)m",
+                "(classificationName=ddc)m",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Slicing and reduction techniques for model checking Petri nets",
+            "abstract": [
+                "In this work we develop two Petri net reduction approaches, Petri net slicing and cutvertex reductions, to tackle the state space explosion problem for model checking. Petri net reductions are transformations of the Petri net that decrease its size. As a mean against the state space explosion problem for model checking they have to preserve temporal properties and reduce its state space. Petri net reductions can conveniently be daisy chained with other methods fighting state space explosion. For a given net N and temporal logic formula f, both approaches determine a net N&apos; that contains at least scp(f), the set of the Petri net places f refers to, and simplifies the remaining net such that N&apos; is equivalent with respect to f. To preserve liveness properties, we show that it suffices to assume a form of weak fairness, which we call relative fairness. We consider the temporal logic CTL* and its sublogics. &lt;engl.&gt;",
+                "In der vorliegenden Arbeit werden zwei Reduktionsansätze für Petri-Netze vorgestellt, Petri-Netz Slicing und Cutvertex Reduktionen. Beide Ansätze zielen darauf ab, der Zustandsraumexplosion beim Model Checken entgegenzuwirken. Dazu transformieren sie ein gegebenes Petri-Netz in ein kleineres Netz, so dass gleichzeitig die untersuchte Eigenschaft bewahrt wird. Da Petri-Netz-Reduktionen das Modell transformieren, können sie leicht mit anderen Methoden kombiniert werden. Für ein gegebenes Netz N und eine temporal-logische Eigenschaft f bestimmen beide Ansätze ein Netz N&apos;, das wenigstens scp(f), die Menge der Petri-Netzstellen auf die sich f bezieht, enthält, und vereinfachen das übrige Netz so, dass N&apos; in Bezug auf f äquivalent zu N ist. Wir zeigen, dass es genügt, eine schwache Form von Fairness anzunehmen, die wir relative Fairness nennen, um Lebendigkeitseigenschaften zu erhalten. Als temporale Logik untersuchen wir CTL* und ihre Teillogiken. &lt;dt.&gt;"
+            ],
+            "alternative": "Slicing- und Reduktionstechniken für das Model Checking von Petri-Netzen",
+            "contributor": [
+                "gnd:136626890",
+                "gnd:1021355593"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4137542-7",
+                "gnd:4136085-0",
+                "gnd:4045388-1",
+                "gnd:4434799-6",
+                "gnd:4130702-1"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

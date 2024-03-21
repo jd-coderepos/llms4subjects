@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1074435036",
+            "sameAs": "Nopper, Tobias Johannes"
+        },
+        {
+            "@id": "gnd:4131023-8",
+            "sameAs": "Logische Schaltung"
+        },
+        {
+            "@id": "gnd:4135577-5",
+            "sameAs": "Verifikation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A832528730",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)BSZ:442681429",
+                "(contract)FRUB-opus-10154",
+                "(doi)10.6094/UNIFR/10154",
+                "(ppn)832528730"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Verifikation unvollständiger Schaltkreise",
+            "abstract": [
+                "Zusammenfassung: Die vorliegende Arbeit betrachtet verschiedene Aspekte der formalen Verifikation unvollständiger Schaltkreise. Unvollständige Schaltkreise sind sequentielle Schaltkreise, in denen einige Teile unbekannt sind; wir modellieren diese unbekannten Bereiche durch „Black Boxes“ mit unbekanntem sequentiellen Verhalten. Wir nehmen an, dass Black Boxes durch beliebige sequentielle Schaltkreise mit der gleichen Anzahl von Ein- und Ausgängen ersetzt werden können. Es gibt mehrere Anwendungen für die formale Verifikation unvollständiger Schaltkreise, wie etwa die Verifikation noch nicht fertiggestellter Designs in einem frühen Stadium der Entwicklung, Fehlerlokalisation in einem fehlerhaften Schaltkreis und die Abstraktion komplexer Teilschaltkreise zur Beschleunigung der Verifikation. Zuerst betrachten wir das grundlegende Problem der symbolischen CTL-Modellprüfung unvollständiger Schaltkreise; dabei untersuchen wir zu einem gegebenen CTL-Ausdruck zwei Fragestellungen: Zum einen, ob sich ein unvollständiger Schaltkreis so vervollständigen lässt, dass der CTL-Ausdruck erfüllt wird („Ist der CTL-Ausdruck realisierbar?“) und zum anderen, ob der CTL-Ausdruck für alle Vervollständigungen des unvollständigen Schaltkreises erfüllt wird („Ist der CTL-Ausdruck valide?“). Zur Beantwortung dieser Fragen verwenden wir mehrere approximative Modellierungen der Black Boxes, auf Grundlage derer wir obige Fragen korrekt beantworten können. Zusätzlich betrachten wir eine Methode zur exakten Beantwortung der beiden Fragen unter der Annahme, dass die Ersetzungen der Black Boxes bezüglich der Anzahl der hinzugefügten Flipflops beschränkt sind. Für den Fall, dass die durch Black Boxes modellierten Bereiche im Schaltkreis nicht vollständig unbekannt sind, betrachten wir die Möglichkeit, „Annahmen“ über das sequentielle Verhalten der Black Boxes zu spezifizieren und in der Modellprüfung zu berücksichtigen. Zusätzlich untersuchen wir Heuristiken, die aus einer Menge von Annahmen diejenigen auswählen, die zum Beweis der Realisierbarkeit bzw. Validität eines CTL-Ausdrucks ausreichen. Erfüllt ein Schaltkreis eine Spezifikation nicht, werden üblicherweise Gegenbeispiele generiert, die dem Entwickler den Fehler illustrieren und ihm helfen, den Fehler zu verstehen. Hierzu sollten Gegenbeispiele möglichst verständlich sein und über so wenige Komponenten wie möglich argumentieren. In diesem Kont ...",
+                "Zusammenfassung: In this work, different aspects of formal verification of incomplete designs are investigated. Incomplete designs are sequential circuits in which some parts are unknown. These unknown parts are considered to be “Black Boxes” with unknown sequential behavior that can be replaced by any other sequential circuit with the same number of inputs and outputs as the according Black Box.There are many applications for formal verification applied to incomplete designs, such as early verification checks on unfinished designs, error localization in faulty designs, and the abstraction of complex parts of a design in order to simplify the model checking task.First, we consider the problem of performing CTL model checking for an incomplete circuit. For this, we examine two questions: Is there a completion of the incomplete circuit so that the CTL property is satisfied (“Is the CTL property realizable?”) and is the CTL property satisfied for all possible completions of the incomplete circuit (“Is the CTL property realizable?”). A series of approximate, yet sound algorithms to analyze incomplete designs with increasing quality and computational resources is presented. Additionally, we consider a concept for exact symbolic model checking of incomplete designs containing several Black Boxes with bounded memory.Due to its approximative nature, symbolic model checking for incomplete designs may be unable to provide proofs when the approximations are too coarse. Therefore, we investigate a method to include assumptions about the Black Box behavior into the model checking routine. Additionally, we consider different heuristic-based approaches to automatically select a subset of local component assumptions that is sufficient to prove or disprove a given CTL property.If an implementation does not fulfill its specification, counterexamples are used to explain the error effect to the designer. In order to be understood by the designer, counterexamples should be simple, i.e. they should be as general as possible and assign values to a minimal number of input signals. The concept of Black Boxes can also be used to mask out components for counterexample computation. By doing so, the resulting counterexample argues about a reduced number of components in the system facilitating the tasks of understanding and correcting the error.Finally, we consider a method that integrates BDD-based symbolic model checking into SAT-based bounded model checking for incomple ..."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1074435036",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4131023-8"
+                },
+                {
+                    "@id": "gnd:4135577-5"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/10154"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

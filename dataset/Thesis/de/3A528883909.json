@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130020788",
+            "sameAs": "Haardt, Martin"
+        },
+        {
+            "@id": "gnd:132014971",
+            "sameAs": "Thomä, Reiner"
+        },
+        {
+            "@id": "gnd:133265846",
+            "sameAs": "Stanković, Veljko"
+        },
+        {
+            "@id": "gnd:4142611-3",
+            "sameAs": "Antennengruppe"
+        },
+        {
+            "@id": "gnd:7540075-3",
+            "sameAs": "MIMO"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A528883909",
+            "@type": "bibo:Thesis",
+            "P1053": "XX, 126 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Matsumoto, Tadashi",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)528883909",
+                "(firstid)GBV:528883909"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106417665)53.74 - Hochfrequenztechnik, Funktechnik",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Multi-user MIMO wireless communications",
+            "abstract": "Mehrantennensysteme sind auf Grund der erhöhten Bandbreiteneffizienz und Leistung eine Schlüsselkomponente von Mobilfunksystemen der Zukunft. Diese ermöglichen das gleichzeitige Senden von mehreren, räumlich getrennten Datenströmen zu verschiedenen Nutzern. Die zentrale Fragestellung in der Praxis ist, ob der ursprünglich vorausgesagte Kapazitätsgewinn in realistischen Szenarios erreicht wird und welche spezifischen Gewinne durch zusätzliche Antennen und das Ausnutzen von Kanalkenntnis am Sender und Empfänger erzielt werden, was andererseits einen Zuwachs an Overhead oder nötiger Rechenleistung bedeutet.In dieser Arbeit werden neue lineare und nicht-lineare MU-MIMO Precoding-Verfahren vorgestellt. Der verfolgte Ansatz zur Bestimmung der Precoding-Matrizen ist allgemein anwendbar und die entstandenen Algorithmen können zur Optimierung von verschiedenen Kriterien mit beliebig vielen Antennen an der Mobilstation eingesetzt werden. Das wurde durch die Berechnung der Precoding-Matrix in zwei Schritten erreicht. Im ersten Schritt wird die Überschneidung der Zeilenräume minimiert, die durch die effektiven Kanalmatrizen verschiedener Nutzer aufgespannt werden. Basierend auf mehreren parallelen Einzelnutzer-MIMO-Kanälen wird im zweiten Schritt die Systemperformanz bezüglich bestimmter Kriterien optimiert.Aus der gängigen Literatur ist bereits bekannt, dass für Nutzer mit nur einer Antenne das MMSE Kriterium beim precoding optimal aber nicht bei Nutzern mit mehreren Antennen. Deshalb werden in dieser Arbeit zwei neue Mehrnutzer MIMO Strategien vorgestellt, die vom MSE Kriterium abgeleitet sind, nämlich sukzessives MMSE und RBD. Bei der sukzessiven Verarbeitung mit einer entsprechenden Anpassung der Sendeleistungsverteilung kann die volle Diversität des Systems ausgeschöpft werden. Die Kapazität nähert sich dabei der maximalen Summenrate des Systems an. Bei gemeinsamer Verarbeitung der MIMO Kanäle wird unabhängig vom Grad der Mehrnutzerinterferenz die maximale Diversität erreicht.Die genannten Techniken setzen entweder eine aktuelle oder eine über einen längeren Zeitraum gemittelte Kanalkenntnis vorraus. Aus diesem Grund müssen die Auswirkungen von Kanal-Schätzfehlern und Einflüsse des Transceiver Front-Ends auf die Verfahren näher untersucht werden.Für eine weitergehende Abschätzung der Mehrantennensysteme muss die Performanz des Gesamtsystems untersucht werden, da viele Einflüsse auf die räumliche Signalverarbeitung bei Betrachtung eines einzelnen Links nicht erkennbar sind. Es wurde gezeigt, dass mit MIMO Precoding Strategien ein Vielfaches der Datenrate eines Systems mit nur einer Antenne erzielt werden kann, während der Overhead durch Pilotsymbole und Steuersignale nur geringfügig zunimmt.",
+            "contributor": [
+                "gnd:132014971",
+                "gnd:130020788"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:133265846",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:7540075-3",
+                "gnd:4142611-3"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/528883909.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

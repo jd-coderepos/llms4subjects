@@ -1,0 +1,124 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135938261",
+            "sameAs": "Nichtlineare modellprädiktive Regelung"
+        },
+        {
+            "@id": "gnd:1153348004",
+            "sameAs": "Wen, Yuanqiao"
+        },
+        {
+            "@id": "gnd:1196231176",
+            "sameAs": "Abdelaal, Mohamed"
+        },
+        {
+            "@id": "gnd:120512726",
+            "sameAs": "Hahn, Axel"
+        },
+        {
+            "@id": "gnd:1209157535",
+            "sameAs": "Fränzle, Martin"
+        },
+        {
+            "@id": "gnd:4199255-6",
+            "sameAs": "Kollisionsschutz"
+        },
+        {
+            "@id": "gnd:4390818-4",
+            "sameAs": "Optimierungsproblem"
+        },
+        {
+            "@id": "gnd:7714938-5",
+            "sameAs": "Autonomes Fahrzeug"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A104874311X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xx, 161 Seiten, 3,2 MB)",
+            "identifier": [
+                "(ppn)104874311X",
+                "(firstid)DNB:1176106481"
+            ],
+            "subject": [
+                "(classificationName=ddc)620",
+                "(classificationName=ddc)006.3",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Nonlinear model predictive control for trajectory tracking and collision avoidance of surface vessels : by Mohamed Elsayed Hasan Abdelaal ; reviewers: Prof. Dr.-Ing. Axel Hahn, Prof. Dr. Martin Fränzle, Prof. Dr. Yuanqiao Wen",
+            "abstract": [
+                "This thesis presents a combined Nonlinear Model Predictive Control for trajectory tracking of surface vessels, and collision avoidance into a single control scheme. This scheme is suitable for critical maneuvering of autonomous vessels in near-collision situation due to the explicit utilization of the dynamic model and the ship domain in the design. A nonlinear optimization problem is formulated to minimize the deviation of the vessel states from a time varying reference generated over a finite horizon by a virtual vessel with sideslip angle compensation. Collision avoidance is embedded into the trajectory tracking control problem as a time-varying nonlinear constraint of position states to account for static and dynamic obstacles. The ship domain of the vessel is assumed to be either circular or elliptical disk. The effectiveness of the presented approaches are evaluated using MATLAB and ACADO toolkit for automatic control and dynamic optimization.",
+                "Diese Arbeit zeigt ein kombiniertes Nonlinear Model Predictive Control (NMPC, Nichtlineares Modell für Prädiktive Steuerung). Mit diesem Modell wird die Verfolgung der Position und Geschwindigkeit von Schiffen sowie die Kollisionsvermeidung von statischen und dynamischen Objekten in einem Kontrollschema kombiniert. Dieses Schema ist für kritische Manöver von autonomen Schiffen in Situationen mit beinahe-Kollisionen geeignet, da es in seinem Design explizit das Modell für die Schiffsdynamik sowie die Schiffsdomäne mit einbezieht. Es beachtet den Sideslip-winkel und wirkt Umwelteinflüssen entgegen. Es wird angenommen, dass die Schiffsdomänen entweder rund oder elliptisch ist. In der Arbeit wird ein nicht-lineares Optimierungsproblem formuliert, um die Abweichung der Schiffszustände zu einer zeitvariablen Referenz zu minimieren. Die Kollisionsvermeidung ist in das Trajektorienverfolgungsproblem als eine zeitvariante, nicht-lineare Bedingung integriert, um Hindernisse zu berücksichtigen."
+            ],
+            "alternative": "Nichtlineare modellbasierte prädiktive Regelung für Trajektorie-Verfolgung und Kollision Vermeidung von Oberflächenschiffen",
+            "contributor": [
+                "gnd:1153348004",
+                "gnd:120512726",
+                "gnd:1209157535"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1196231176",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4390818-4"
+                },
+                {
+                    "@id": "gnd:4199255-6"
+                },
+                {
+                    "@id": "gnd:1135938261"
+                },
+                {
+                    "@id": "gnd:7714938-5"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

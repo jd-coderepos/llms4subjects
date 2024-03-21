@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1124028595",
+            "sameAs": "Blockchain"
+        },
+        {
+            "@id": "gnd:138711429",
+            "sameAs": "Zhao, Wenbing"
+        },
+        {
+            "@id": "gnd:4033329-2",
+            "sameAs": "Kryptologie"
+        },
+        {
+            "@id": "gnd:4123192-2",
+            "sameAs": "Fehlertoleranz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1766067999",
+            "@type": "bibo:Book",
+            "P1053": "xxx, 431 Seiten",
+            "description": "Diagramme",
+            "identifier": [
+                "(isbn13)9781119681953",
+                "(firstid)KXP:1766067999",
+                "(ppn)1766067999"
+            ],
+            "publisher": "Wiley",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Electronic data processing",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=ddc)004/.36",
+                "Blockchains (Databases)",
+                "(classificationName=loc)QA76.9.D5"
+            ],
+            "title": "From traditional fault tolerance to blockchain",
+            "abstract": "\"The primary challenge in dependable distributed computing is the difficulty in achieving distributed consensus. Traditional consensus algorithms all depend on the knowledge of a membership and rely on multi-round voting, which are inevitably highly complex and non-scalable. Bitcoin completely abandoned the traditional approach by converting the leader election into a stochastic process where mining nodes compete to solve a puzzle and the one who solves the puzzle would proceed to creating the next block. Because the consensus is achieved probabilistically, it is unavoidable that sometimes two or more blocks are created at the same block height, in which case, nodes would follow a conflict resolution rule, where the branch that has the most cumulative difficulty would be selected as the main chain. This new way of reaching consensus opened the door for building large-scale systems that use consensus as their basis for operation. A few years later in 2015, Ethereum became the first platform that supports Turing-complete computing using smart contract, which made it possible to develop arbitrary complex decentralized applications. This book will explain in depth how blockchain consensus works and how the blockchain technology could be used to develop secure and dependable systems.\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:138711429",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4123192-2",
+                "gnd:4033329-2",
+                "gnd:1124028595"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1766067999.pdf",
+            "P60163": "Hoboken, NJ"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1158528841",
+            "sameAs": "Chamanara, Javad"
+        },
+        {
+            "@id": "gnd:1168760348",
+            "sameAs": "Data Scientist"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4011149-0",
+            "sameAs": "Datentyp"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:4148871-4",
+            "sameAs": "Datenformat"
+        },
+        {
+            "@id": "gnd:4197730-0",
+            "sameAs": "Datenintegration"
+        },
+        {
+            "@id": "gnd:4201275-2",
+            "sameAs": "Heterogenität"
+        },
+        {
+            "@id": "gnd:4378490-2",
+            "sameAs": "Abfrageverarbeitung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1020549815",
+            "@type": "bibo:Thesis",
+            "P1053": "xxiii, 206 Seiten",
+            "description": [
+                "Illustrationen, Diagramme",
+                "30 cm"
+            ],
+            "identifier": [
+                "(ppn)1020549815",
+                "(firstid)GBV:1020549815"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106418882)54.52 - Software engineering",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Querying heterogeneous data in an in-situ unified agile system",
+            "abstract": "Data integration provides a unified view of data by combining different data sources. In today’s multi-disciplinary and collaborative research environments, data is often produced and consumed by various means, multiple researchers operate on the data in different divisions to satisfy various research requirements, and using different query processors and analysis tools. This makes data integration a crucial component of any successful data intensive research activity. The fundamental difficulty is that data is heterogeneous not only in syntax, structure, and semantics, but also in the way it is accessed and queried. We introduce QUIS (QUery In-Situ), an agile query system equipped with a unified query language and a federated execution engine. It is capable of running queries on heterogeneous data sources in an in-situ manner. Its language provides advanced features such as virtual schemas, heterogeneous joins, and polymorphic result set representation. QUIS utilizes a federation of agents to transform a given input query written in its language to a (set of) computation models that are executable on the designated data sources. Federative query virtualization has the disadvantage that some aspects of a query may not be supported by the designated data sources. QUIS ensures that input queries are always fully satisfied. Therefore, if the target data sources do not fulfill all of the query requirements, QUIS detects the features that are lacking and complements them in a transparent manner. QUIS provides union and join capabilities over an unbound list of heterogeneous data sources; in addition, it offers solutions for heterogeneous query planning and optimization. In brief, QUIS is intended to mitigate data access heterogeneity through query virtualization, on-the-fly transformation, and federated execution. It offers in-Situ querying, agile querying, heterogeneous data source querying, unifeied execution, late-bound virtual schemas, and Remote execution.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1158528841",
+                "gnd:36164-1"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4011149-0"
+                },
+                {
+                    "@id": "gnd:4197730-0"
+                },
+                {
+                    "@id": "gnd:4201275-2"
+                },
+                {
+                    "@id": "gnd:4378490-2"
+                },
+                {
+                    "@id": "gnd:4148871-4"
+                },
+                {
+                    "@id": "gnd:1168760348"
+                },
+                {
+                    "@id": "gnd:4123037-1"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/1020549815.pdf",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

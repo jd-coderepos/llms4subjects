@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:11859527X",
+            "sameAs": "Poe, Edgar Allan 1809-1849"
+        },
+        {
+            "@id": "gnd:119176602",
+            "sameAs": "Bloom, Harold"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A018651097",
+            "@type": "bibo:Book",
+            "P1053": "VII, 167 S",
+            "identifier": [
+                "(firstid)GBV:018651097",
+                "(isbn)1555460119",
+                "(ppn)018651097"
+            ],
+            "publisher": "Chelsea House Publ.",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "Poe, Edgar Allan",
+                "(classificationName=ddc)813/.3",
+                "(classificationName=loc)PS2618.T32",
+                "(classificationName=rvk)HT 6555",
+                "Fantasy fiction, American",
+                "Horror tales, American",
+                "(classificationName=bk, id=106415417)18.06 - Angloamerikanische Literatur"
+            ],
+            "title": "The tales of Poe",
+            "abstract": "A collection of critical essays on Poe&apos;s tales of horror arranged in chronological order of publication",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:119176602"
+                }
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:11859527X"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781555460112.pdf",
+            "P30128": "Modern critical interpretations",
+            "P60163": "New York, N.Y. [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4011975-0",
+            "sameAs": "Deutschunterricht"
+        },
+        {
+            "@id": "gnd:4167437-6",
+            "sameAs": "Leseinteresse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A275509966",
+            "@type": "bibo:Book",
+            "P1053": "266 S.",
+            "creator": [
+                "Schiefele, Hans",
+                "Stocker, Karl"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(isbn)3407340443",
+                "(firstid)GBV:275509966",
+                "(ppn)275509966"
+            ],
+            "publisher": "Beltz",
+            "subject": [
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=rvk)GB 2970",
+                "(classificationName=rvk)DX 1000",
+                "(classificationName=rvk)GB 2978",
+                "(classificationName=dbn)53",
+                "(classificationName=rvk)EC 1456",
+                "(classificationName=dbn)22",
+                "(classificationName=linseach:mapping)lit"
+            ],
+            "title": "Literatur-Interesse : Ansatzpunkte einer Literaturdidaktik",
+            "abstract": "Literaturangaben",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4167437-6"
+                },
+                {
+                    "@id": "gnd:4011975-0"
+                }
+            ],
+            "tableOfContents": "http://d-nb.info/900550538/04",
+            "P30128": "Reihe Pädagogik",
+            "P60163": "Weinheim [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

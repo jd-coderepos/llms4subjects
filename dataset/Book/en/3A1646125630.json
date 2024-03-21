@@ -1,0 +1,145 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4045388-1",
+            "sameAs": "Petri-Netz"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4139305-3",
+            "sameAs": "Zustandsgraph"
+        },
+        {
+            "@id": "gnd:4261480-6",
+            "sameAs": "Systementwurf"
+        },
+        {
+            "@id": "gnd:4333722-3",
+            "sameAs": "Formale Methode"
+        },
+        {
+            "@id": "gnd:4401225-1",
+            "sameAs": "Diskretes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1646125630",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIII, 166 p. Also available online, digital)",
+            "http://purl.org/dc/elements/1.1/contributor": "Karatkevich, Andrei",
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9783540715603",
+                "(ppn)1646125630",
+                "(firstid)BSZ:276372875",
+                "(doi)10.1007/978-3-540-71560-3"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "subject": [
+                "Robotics.",
+                "(classificationName=ddc)004.210151135",
+                "System theory.",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106410555)30.10 - Systemtheorie",
+                "(classificationName=msc)*93-02",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=msc)93C65",
+                "Engineering",
+                "(classificationName=rvk)SI 845",
+                "(classificationName=loc)TJ223.M53",
+                "(classificationName=ddc)629.8",
+                "Mechatronics.",
+                "(classificationName=msc)94D05",
+                "Control engineering.",
+                "(classificationName=linseach:mapping)tec",
+                "Systems theory",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik"
+            ],
+            "title": "Dynamic Analysis of Petri Net-Based Discrete Systems",
+            "abstract": [
+                "Design of modern digital hardware systems and of complex software systems is almost always connected with parallelism. For example, execution of an object-oriented p- gram can be considered as parallel functioning of the co-operating objects; all modern operating systems are multitasking, and the software tends to be multithread; many complex calculation tasks are solved in distributed way. But designers of the control systems probably have to face parallelism in more evident and direct way. Controllers rarely deal with just one controlled object. Usually a system of several objects is to be controlled, and then the control algorithm naturally turns to be parallel. So, classical and very deeply investigated model of discrete device, Finite State Machine, is not expressive enough for the design of control devices and systems. Theoretically in most of cases behavior of a controller can be described by an FSM, but usually it is not convenient; such FSM description would be much more complex, than a parallel specification (even as a network of several communicating FSMs).",
+                "Main Notions, Problems and Methods -- Reduced Reachability Graphs -- Decomposition for Analysis -- Analysis by Solving Logical Equations — Calculation of Siphons and Traps -- Verification of Detailed System Descriptions -- Conclusion."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-LNI",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE"
+            ],
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4261480-6"
+                },
+                {
+                    "@id": "gnd:4139305-3"
+                },
+                {
+                    "@id": "gnd:4075860-6"
+                },
+                {
+                    "@id": "gnd:4401225-1"
+                },
+                {
+                    "@id": "gnd:4333722-3"
+                },
+                {
+                    "@id": "gnd:4045388-1"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9783540714644.pdf",
+            "isLike": "doi:10.1007/978-3-540-71560-3",
+            "P30128": [
+                "Bücher",
+                "SpringerLink"
+            ],
+            "P60163": "Berlin, Heidelberg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

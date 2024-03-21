@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118540238",
+            "sameAs": "Goethe, Johann Wolfgang von 1749-1832"
+        },
+        {
+            "@id": "gnd:118764608",
+            "sameAs": "Sengle, Friedrich"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A27565933X",
+            "@type": "bibo:Book",
+            "P1053": "256 S",
+            "identifier": [
+                "(firstid)GBV:27565933X",
+                "(ppn)27565933X",
+                "(isbn)3476006778"
+            ],
+            "publisher": "Metzler &amp; Poeschel",
+            "subject": [
+                "(classificationName=rvk)GK 4001",
+                "Goethe, Johann Wolfgang von",
+                "(classificationName=ddc)831/.6",
+                "(classificationName=rvk)GK 4441",
+                "1749-1832",
+                "(classificationName=dbn)53",
+                "(classificationName=loc)PT2168",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=linseach:mapping)lit",
+                "Criticism and interpretation"
+            ],
+            "title": "Neues zu Goethe : Essays und Vorträge",
+            "abstract": "Friedrich Sengle: \"Neues zu Goethe\". Essays und Vorträge. Metzlersche Verlagsbuchhandlung, Stuttgart 1989. 256 S., geb., 68,- DM",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118764608",
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118540238"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht003435106.pdf",
+            "P60163": "Stuttgart"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

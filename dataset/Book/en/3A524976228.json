@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4128359-4",
+            "sameAs": "Analog-Digital-Umsetzer"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A524976228",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Snelgrove, W. Martin",
+            "creator": "Cherry, James A.",
+            "description": [
+                "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "v.: digital"
+            ],
+            "identifier": [
+                "(ppn)524976228",
+                "(isbn13)9780306470523",
+                "(doi)10.1007/b117617",
+                "(firstid)GBV:524976228"
+            ],
+            "publisher": "Kluwer Academic Publishers",
+            "subject": [
+                "(classificationName=bk, id=106414070)53.52 - Elektronische Schaltungen",
+                "Systems engineering",
+                "(classificationName=loc)TK7887.6",
+                "Engineering",
+                "(classificationName=ddc)621.381536",
+                "Electronic circuits.",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)621.3815",
+                "Electrical engineering."
+            ],
+            "title": "Continuous-Time Delta-Sigma Modulators for High-Speed A/D Conversion : Theory, Practice and Fundamental Performance Limits",
+            "abstract": [
+                "Delta-Sigma Modulation Concepts -- Designing Continuous-Time Modulators -- Delta—Sigma Modulator Implementation Issues -- Excess Loop Delay -- Clock Jitter and Quantizer Metastability -- A High-Speed Band Pass ??M Design Procedure -- A 4GHZ Fourth-Order Band Pass ? ?M -- Conclusions.",
+                "Among analog-to-digital converters, the delta-sigma modulator has cornered the market on high to very high resolution converters at moderate speeds, with typical applications such as digital audio and instrumentation. Interest has recently increased in delta-sigma circuits built with a continuous-time loop filter rather than the more common switched-capacitor approach. Continuous-time delta-sigma modulators offer less noisy virtual ground nodes at the input, inherent protection against signal aliasing, and the potential to use a physical rather than an electrical integrator in the first stage for novel applications like accelerometers and magnetic flux sensors. More significantly, they relax settling time restrictions so that modulator clock rates can be raised. This opens the possibility of wideband (1 MHz or more) converters, possibly for use in radio applications at an intermediate frequency so that one or more stages of mixing might be done in the digital domain. Continuous-Time Delta-Sigma Modulators for High-Speed A/D Conversion: Theory, Practice and Fundamental Performance Limits covers all aspects of continuous-time delta-sigma modulator design, with particular emphasis on design for high clock speeds. The authors explain the ideal design of such modulators in terms of the well-understood discrete-time modulator design problem and provide design examples in Matlab. They also cover commonly-encountered non-idealities in continuous-time modulators and how they degrade performance, plus a wealth of material on the main problems (feedback path delays, clock jitter, and quantizer metastability) in very high-speed designs and how to avoid them. They also give a concrete design procedure for a real high-speed circuit which illustrates the tradeoffs in the selection of key parameters. Detailed circuit diagrams, simulation results and test results for an integrated continuous-time 4 GHz band-pass modulator for A/D conversion of 1 GHz analog signals are also presented. Continuous-Time Delta-Sigma Modulators for High-Speed A/D Conversion: Theory, Practice and Fundamental Performance Limits concludes with some promising modulator architectures and a list of the challenges that remain in this exciting field."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4128359-4"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9780792386254.pdf",
+            "volume": "521",
+            "isLike": "doi:10.1007/b117617",
+            "P30128": [
+                "The International Series in Engineering and Computer Science, Analog Circuits and Signal Processing",
+                "The Springer International Series in Engineering and Computer Science"
+            ],
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4011152-0",
+            "sameAs": "Datenverarbeitung"
+        },
+        {
+            "@id": "gnd:4188417-6",
+            "sameAs": "Visualisierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A861153189",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xii, 80 Seiten)",
+            "creator": [
+                "Silva, Cláudio T.",
+                "Etiene, Tiago",
+                "Kirby, Robert M."
+            ],
+            "description": [
+                "Illustrationen",
+                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)861153189",
+                "(isbn)1627058346",
+                "(isbn13)9781627058346",
+                "(firstid)GBV:861153189"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "subject": [
+                "Visualization",
+                "Visual programming (Computer science)",
+                "(classificationName=ddc)001.4226",
+                "(classificationName=linseach:mapping)inf",
+                "Information visualization",
+                "Computer software",
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=loc)QA76.9.I52"
+            ],
+            "title": "An introduction to verification of visualization techniques",
+            "abstract": [
+                "3. Validation and verification in simulation science -- 3.1 A canonical example -- 3.2 A realistic example -- 3.2.1 Temporal discretization --",
+                "As we increase our reliance on computer-generated information, often using it as part of our decision-making process, we must devise tools to assess the correctness of that information. Consider, for example, software embedded on vehicles, used for simulating aircraft performance, or used in medical imaging. In those cases, software correctness is of paramount importance as there&apos;s little room for error. Software verification is one of the tools available to attain such goals. Verification is a well known and widely studied subfield of computer science and computational science and the goal is to help us increase confidence in the software implementation by verifying that the software does what it is supposed to do. The goal of this book is to introduce the reader to software verification in the context of visualization. In the same way we became more dependent on commercial software, we have also increased our reliance on visualization software. The reason is simple: visualization is the lens through which users can understand complex data, and as such it must be verified. The explosion in our ability to amass data requires tools not only to store and analyze data, but also to visualize it. This book is comprised of six chapters. After an introduction to the goals of the book, we present a brief description of both worlds of visualization (Chapter 2) and verification (Chapter 3). We then proceed to illustrate the main steps of the verification pipeline for visualization algorithms. We focus on two classic volume visualization techniques, namely, Isosurface Extraction (Chapter 4) and Direct Volume Rendering (Chapter 5). We explain how to verify implementations of those techniques and report the latest results in the field of verification of visualization techniques. The last chapter concludes the book and highlights new research topics for the future",
+                "1. Introduction --",
+                "4. Isosurface verification -- 4.1 An isosurface extraction primer -- 4.1.1 Mathematical definition -- 4.1.2 Isosurface approximation -- 4.2 Overview of the verification procedure -- 4.3 Discretization errors -- 4.3.1 Algebraic distance convergence errors -- 4.3.2 Normal convergence errors -- 4.4 Verification algorithm -- 4.5 Application examples -- 4.6 Results -- 4.6.1 VTK marching cubes -- 4.6.2 Macet -- 4.7 Discussion -- 4.8 Conclusion --",
+                "2. Visualization in the real world -- 2.1 Visualizing data -- 2.1.1 Precursors of modern visualizations -- 2.2 Visualization pipeline -- 2.3 Building reliable visualizations -- 2.3.1 The pursuit of a correct marching cubes algorithm -- 2.4 Path to verification --",
+                "6. Conclusion -- Bibliography -- Authors&apos; biographies",
+                "5. Volume rendering verification -- 5.1 A volume rendering primer -- 5.1.1 Solving the volume rendering equation -- 5.2 Why verify volume rendering techniques -- 5.2.1 Overview of the verification procedure -- 5.3 Discretization errors -- 5.4 Verification algorithms -- 5.4.1 Convergence analysis -- 5.4.2 Order of accuracy -- 5.5 Application examples -- 5.6 Results -- 5.6.1 Voreen -- 5.6.2 VTK fixed-point volume ray cast -- 5.6.3 VTK volume ray caster -- 5.7 Discussion -- 5.8 Conclusions --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4188417-6"
+                },
+                {
+                    "@id": "gnd:4011152-0"
+                }
+            ],
+            "volume": "#22",
+            "P30128": "Synthesis lectures on visual computing: computer graphics, animation, computational photography, and imaging",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

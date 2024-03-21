@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120012162",
+            "sameAs": "Hirschfeld, Robert"
+        },
+        {
+            "@id": "gnd:4567206-4",
+            "sameAs": "Constraint-Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A785186476",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (PDF-Datei: 53 S., 2.441 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Felgentreff, Tim",
+                "Borning, Alan"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)785186476",
+                "(firstid)GBV:785186476"
+            ],
+            "publisher": "Univ.-Verl.",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.117",
+                "(classificationName=ddc)005.116",
+                "(classificationName=bk, id=106418890)54.53 - Programmiersprachen",
+                "(classificationName=ddc)005.133",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "Babelsberg : specifying and solving constraints on object behavior",
+            "abstract": "Constraints allow developers to specify desired properties of systems in a number of domains, and have those properties be maintained automatically. This results in compact, declarative code, avoiding scattered code to check and imperatively re-satisfy invariants. Despite these advantages, constraint programming is not yet widespread, with standard imperative programming still the norm. There is a long history of research on integrating constraint programming with the imperative paradigm. However, this integration typically does not unify the constructs for encapsulation and abstraction from both paradigms. This impedes re-use of modules, as client code written in one paradigm can only use modules written to support that paradigm. Modules require redundant definitions if they are to be used in both paradigms. We present a language – Babelsberg – that unifies the constructs for en- capsulation and abstraction by using only object-oriented method definitions for both declarative and imperative code. Our prototype – Babelsberg/R – is an extension to Ruby, and continues to support Ruby’s object-oriented se- mantics. It allows programmers to add constraints to existing Ruby programs in incremental steps by placing them on the results of normal object-oriented message sends. It is implemented by modifying a state-of-the-art Ruby virtual machine. The performance of standard object-oriented code without con- straints is only modestly impacted, with typically less than 10% overhead compared with the unmodified virtual machine. Furthermore, our architec- ture for adding multiple constraint solvers allows Babelsberg to deal with constraints in a variety of domains. We argue that our approach provides a useful step toward making con- straint solving a generic tool for object-oriented programmers. We also provide example applications, written in our Ruby-based implementation, which use constraints in a variety of application domains, including interactive graphics, circuit simulations, data streaming with both hard and soft constraints on performance, and configuration file Management.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:120012162",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4567206-4"
+            },
+            "volume": "81",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Softwaresystemtechnik an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

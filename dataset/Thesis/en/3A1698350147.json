@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:121017572X",
+            "sameAs": "Dormans, Jerry"
+        },
+        {
+            "@id": "gnd:4014414-8",
+            "sameAs": "Elementarteilchenphysik"
+        },
+        {
+            "@id": "gnd:4127286-9",
+            "sameAs": "Hochenergiephysik"
+        },
+        {
+            "@id": "gnd:4128082-9",
+            "sameAs": "Quantenchromodynamik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1698350147",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ix, 159 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1698350147",
+                "(firstid)KXP:1698350147",
+                "(contract)FRUB-opus-165598",
+                "(doi)10.6094/UNIFR/165598"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)539.75"
+            ],
+            "title": "On the automation of NNLO QCD corrections",
+            "abstract": "Abstract: The expected precision of the measurements at the high-luminosity LHC will require theory predictions at NNLO in QCD to be provided for a large class of high-multiplicity processes which makes an automated approach highly desirable. In this thesis we develop and implement algorithms in the goal towards achieving such an automation. &lt;br&gt;&lt;br&gt;First of all, a novel method for the computation of analytic expressions of multi-loop virtual amplitudes is presented. It relies on functional interpolation algorithms to reconstruct the analytic expressions of the amplitudes from targeted numerical evaluations. The numerical evaluation of the amplitudes is performed exactly using finite field arithmetics in the framework of multi-loop numerical unitarity. The complexity of the interpolation is reduced by expressing the amplitudes in a basis of special functions and by using physical and analytical properties to remove any redundant information from their coefficients.  After the reconstruction in the finite field, the result is simplified by performing a multivariate partial fractioning that yields compact expressions which benefit both their rational reconstruction and the efficiency and stability of their numerical evaluation. &lt;br&gt;&lt;br&gt;As a main result of this thesis, we showcase the application of the approach to provide, for the first time, analytic expressions for a complete set of independent two-loop five-parton helicity amplitudes in the leading-color approximation that are relevant for the NNLO QCD phenomenology of three-jet production at hadron colliders. In order to achieve these results, we have developed the C++ framework Caravel, in which we implement both the multi-loop numerical unitarity method and the functional reconstruction algorithms employed. We have designed Caravel to be able to compute a variety of processes in a semi-automated fashion.&lt;br&gt;&lt;br&gt;Second, we provide an independent implementation of the N-Jettiness slicing method in its adaptation to color-singlet final states in the library scet++. The library is embedded into a Monte Carlo program to compute NLO and NNLO QCD corrections to the neutral-current Drell-Yan process. Finally, we present a critical review of the application of the N-Jettiness slicing method to more complex processes of relevance at the high-luminosity LHC and its potential for automation",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:121017572X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4128082-9",
+                "gnd:4014414-8",
+                "gnd:4127286-9"
+            ],
+            "isLike": "doi:10.6094/UNIFR/165598",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

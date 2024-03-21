@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1197574115",
+            "sameAs": "Koldehofe, Boris"
+        },
+        {
+            "@id": "gnd:4121677-5",
+            "sameAs": "Softwarearchitektur"
+        },
+        {
+            "@id": "gnd:4462531-5",
+            "sameAs": "Ereignisgesteuertes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1681366738",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "identifier": [
+                "(ppn)1681366738",
+                "(firstid)DNB:1198403306"
+            ],
+            "publisher": "Universitäts- und Landesbibliothek Darmstadt",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)ST 234",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Principles of building scalable and robust event-based systems",
+            "abstract": "Event-based systems are of tremendous importance for a wide range of distributed applications interacting with physical processes, e.g., traffic management, financial services, manufacturing processes, or health services. Event-based systems support to monitor, analyze events of interest efficiently. Therefore, they enable distributed applications to respond to detected events in the form of appropriate actions. Event-based systems provide as part of the publish/subscribe paradigm, mechanisms for the scalable integration of a variety of information sources, e.g., dedicated sensor networks, mobile devices, or cameras. In addition, event-based systems allow as part of the event processing paradigm to detect correlations between events from distinct information sources. Event-based systems ensure two important forms of decoupling of importance building scalable distributed applications. Decoupling producers of information and consumers of information by ensuring that neither producers need to keep state on the interested consumers nor consumers need to know the producers of information, is a key principle for scalable communications. Furthermore, a step-wise correlation from primary events to events of importance for distributed applications is an enabler to specify distributed applications independent from the underlying sensor infrastructure at hand. In this thesis, we present and discuss principles of building scalable and robust event-based systems. On the one hand, this requires distributed mechanisms to fulfill a wide spectrum of distinct application requirements, e.g., being bandwidth efficient and providing events with low end-to-end latency. On the other hand, the underlying mechanisms for event-based systems need to deal with many levels of dynamics, e. g., dynamics in the rate at which events are produced, dynamics in the interest of producers and consumers, mobility of consumer and producer, failures and changing security privileges to access events. In the context of mechanisms for event distribution, operator execution, operator migration, operator recovery and secure access to events, we highlight problems in the scalable and robust design of those mechanisms. We give an overview on related work in the field and present in a tutorial manner the ideas of six own contributions for realizing distributed event-based systems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1197574115",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4121677-5",
+                "gnd:4462531-5"
+            ],
+            "P60163": "Darmstadt"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

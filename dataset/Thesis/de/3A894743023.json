@@ -1,0 +1,131 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:111508738",
+            "sameAs": "Rjasanow, Sergej"
+        },
+        {
+            "@id": "gnd:1137512806",
+            "sameAs": "Mahmoud, Muhanad"
+        },
+        {
+            "@id": "gnd:12031892X",
+            "sameAs": "Babovsky, Hans"
+        },
+        {
+            "@id": "gnd:128708115",
+            "sameAs": "Runge, Erich"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "gnd:4146261-0",
+            "sameAs": "Boltzmann-Gleichung"
+        },
+        {
+            "@id": "gnd:4163881-5",
+            "sameAs": "Kinetische Gastheorie"
+        },
+        {
+            "@id": "gnd:4532701-4",
+            "sameAs": "Hochleistungsrechnen"
+        },
+        {
+            "@id": "gnd:4648250-7",
+            "sameAs": "Diskretisierungsverfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A894743023",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)894743023",
+                "(firstid)GBV:894743023"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy",
+                "Algorithmus",
+                "Boltzmann-Gleichung",
+                "(classificationName=ddc)530.13"
+            ],
+            "title": "Entwurf und Programmierung von numerischen Verfahren und Algorithmen zur Lösung der Boltzmann-Gleichung",
+            "abstract": "Die Boltzmann-Gleichung ist eine mesoskopische Gleichung, welche Gas-Strömungen im Übergang zur Teilchendynamik beschreibt. Die Methoden zur Lösung der Boltzmann Gleichung sind ein wichtiges Forschungsthema. In dieser Arbeit interessieren wir uns für die sogenannten deterministischen Schemata, die mit diskreten Geschwindigkeitsmodellen (DVMs) verbunden ist. Zuerst wurden die Grundlagen für DVM zusammengetragen. Dann haben wir für Gase mit kleiner Knudsen-Zahl, in den allgemeinen Fällen, die Konvergenz zu der Maxwell-Verteilung bewiesen. Danach haben wir grundsätzlich eine Detailansicht über die Linearisierung des Stoßoperators und die Eigenschaften der linearisierten Matrix ermittelt. Weiterhin haben wir eine Diskretisierung des Geschwindigkeitsraums (Für 2- und 3-Dimensionen) definiert und einige DVMs untersucht. Außerdem wurden hier die Begriffe \"vollständiges Modell\" und \"vollständige Stoßmenge\" definiert und Methoden, um die minimale vollständige Stoßmodelle zu erstellen, entwickelt. Der logisch nachfolgende Schritt ist verschiedene vollständige Stoßmodelle zu entwickeln, sowie untereinander und mit einigen unvollständigen Modellen zu vergleichen, als auch einen genaueren Blick auf die rechnerische Komplexität zu werfen. Danach wurde die Lösung der Boltzmann-Gleichung in den komplexen Randbedingungen untersucht. Die Algorithmen wurden dargestellt, um beliebige Anfangswerte und Randbedingungen verwenden. Man kann durch diese Algorithmen jedes Gasmodell (Ortsraum-Geometrie) in einem Bild darstellen/speichern und in unserem Programm verwenden. Schließlich haben wir numerische Experimente für die Boltzmann-Gleichung durchgeführt. Die Ergebnisse wurden mit denen der physikalischen Experimente und/oder mit den Ergebnissen der anderen numerischen Methoden verglichen.",
+            "contributor": [
+                "gnd:128708115",
+                "gnd:111508738",
+                "gnd:12031892X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1137512806"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4648250-7",
+                "gnd:4532701-4",
+                "gnd:4128130-5",
+                "gnd:4163881-5",
+                "gnd:4146261-0"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1132829860",
+            "sameAs": "Alte DNA"
+        },
+        {
+            "@id": "gnd:1160786313",
+            "sameAs": "Metagenomik"
+        },
+        {
+            "@id": "gnd:1190748932",
+            "sameAs": "Warinner, Christina"
+        },
+        {
+            "@id": "gnd:1274377943",
+            "sameAs": "Panagiotou, Gianni"
+        },
+        {
+            "@id": "gnd:1299761453",
+            "sameAs": "Borry, Maxime"
+        },
+        {
+            "@id": "gnd:1299844227",
+            "sameAs": "Bon, Céline"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4169816-2",
+            "sameAs": "Mikroflora"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1857220447",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (132 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1857220447",
+                "(firstid)KXP:1857220447"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc-dbn)579",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Expanding the ancient DNA bioinformatics toolbox, and its applications to archeological microbiomes",
+            "abstract": "The 1980s were very prolific years not only for music, but also for molecular biology and genetics, with the first publications on the microbiome and ancient DNA. Several technical revolutions later, the field of ancient metagenomics is now progressing full steam ahead, at a never seen before pace. While generating sequencing data is becoming cheaper every year, the bioinformatics methods and the compute power needed to analyze them are struggling to catch up. In this thesis, I propose new methods to reduce the sequencing to analysis gap, by introducing scalable and parallelized softwares for ancient DNA metagenomics analysis. In manuscript A, I first introduce a method for estimating the mixtures of different sources in a sequencing sample, a problem known as source tracking. I then apply this method to predict the original sources of paleofeces in manuscript B. In manuscript C, I propose a new method to scale the lowest common ancestor calling from sequence alignment files, which brings a solution for the computational intractability of fitting ever growing metagenomic reference database indices in memory. In manuscript D, I present a method to statistically estimate in parallel the ancient DNA deamination damage, and test it in the context of de novo assembly. Finally, in manuscript E, I apply some of the methods developed in this thesis to the analyis of ancient wine fermentation samples, and present the first ancient genomes of ancient fermentation bacteria. Taken together, the tools developed in this thesis will help the researchers working in the field of ancient DNA metagenomics to scale their analysis to the massive amount of sequencing data routinely produced nowadays.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1299844227"
+                },
+                {
+                    "@id": "gnd:1190748932"
+                },
+                {
+                    "@id": "gnd:1274377943"
+                }
+            ],
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1299761453"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4611085-9"
+                },
+                {
+                    "@id": "gnd:4169816-2"
+                },
+                {
+                    "@id": "gnd:1160786313"
+                },
+                {
+                    "@id": "gnd:1132829860"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

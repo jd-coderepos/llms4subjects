@@ -1,0 +1,147 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1019038101",
+            "sameAs": "Ziegler, Martin"
+        },
+        {
+            "@id": "gnd:1064125948",
+            "sameAs": "ISLE Steuerungstechnik und Leistungselektronik e.V."
+        },
+        {
+            "@id": "gnd:121791939",
+            "sameAs": "Schmidt, Heidemarie"
+        },
+        {
+            "@id": "gnd:1236404564",
+            "sameAs": "Brandel, Oliver"
+        },
+        {
+            "@id": "gnd:139255710",
+            "sameAs": "Töpfer, Hannes"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4047987-0",
+            "sameAs": "Quanteninterferometer"
+        },
+        {
+            "@id": "gnd:4170727-8",
+            "sameAs": "Multiplexer"
+        },
+        {
+            "@id": "gnd:4298739-8",
+            "sameAs": "Supraleitungs-Bolometer"
+        },
+        {
+            "@id": "gnd:4346673-4",
+            "sameAs": "Terahertzbereich"
+        },
+        {
+            "@id": "gnd:4384869-2",
+            "sameAs": "Detektor-Array"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1761868187",
+            "@type": "bibo:Thesis",
+            "P1053": "xviii, 130, III Seiten",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)1761868187",
+                "(firstid)KXP:1761868187",
+                "(isbn13)9783948595043"
+            ],
+            "publisher": "Verlag ISLE",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Methode zur Ansteuerung einer Multiplexausleseschaltung für kryogene Sensorarrays mittels supraleitender Digitalelektronik",
+            "abstract": [
+                "https://www.gbv.de/dms/ilmenau/abs/1724111906brand.txt",
+                "Für spektroskopische und bildgebende Anwendungen im Sub-Millimeter-Wellenlängenbereich sind supraleitende Strahlungssensoren aufgrund ihrer außergewöhnlichen Empfindlichkeit von besonderem Interesse. Dabei steigt die Anzahl der in einem Array integrierten Sensoren stetig. Dies erfordert Multiplexverfahren, um die Anzahl der Leitungen, die in die Kryostufe führen, zu reduzieren und damit den Wärmeeintrag zu verringern. Eine Implementierung des Codemultiplexverfahrens verwendet Stromsteuerungsschalter (CSS) als Polaritätsschalter, die auf supraleitenden Quanteninterferometern (SQUIDs) basieren. Die vorliegende Arbeit stellt ein Konzept vor, das eine supraleitende Digitalelektronik (RSFQ) zur Steuerung dieser Schalter verwendet. Die SQUIDs des CSS werden dafür jeweils induktiv mit der Speicherschleife eines RSFQ-Delay-Flip-Flops (DFF) gekoppelt. Eine Zustandsänderung in den DFFs erfolgt durch Speicherung eines magnetischen Flussquants, die wiederum eine Änderung des magnetischen Flusses in den gekoppelten SQUIDs bewirkt. Damit lässt sich der Signalweg durch den CSS beeinflussen und die Polarität des Schalters steuern. Über eine Kaskadierung mehrerer dieser RSFQ-gekoppelten Schalter in Reihe lassen sich CSS-basierte Multiplexerschaltungen aufbauen. Der Zustand des Multiplexers kann dadurch mittels digitaler RSFQ-Signale gesteuert werden. Die notwendigen Schritte zur Umsetzung des Konzepts sind ausführlich in der Arbeit beschrieben. Die Ausgangskomponenten sowie die neu entwickelten Schaltelemente wurden mit Hilfe von Simulationsrechnungen analysiert beziehungsweise entworfen und anschließend experimentell validiert. Dazu wird auch deren Leistungsfähigkeit miteinander verglichen. Die Schritte für eine Implementierung der neuen Bauelemente zu Multiplexerschaltungen werden vorgestellt. Darüber hinaus wurden Maßnahmen aufgezeigt und diskutiert, welche für einen Einsatz des Systems im sensornahen Betrieb erforderlich sind. Erste Umsetzungen wurden im Rahmen der Arbeit bereits realisiert."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1019038101"
+                },
+                {
+                    "@id": "gnd:121791939"
+                },
+                {
+                    "@id": "gnd:139255710"
+                }
+            ],
+            "creator": [
+                "gnd:1064125948",
+                "gnd:1236404564",
+                "gnd:2125187-3"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "http://d-nb.info/1236706080/04",
+            "subject": [
+                "gnd:4298739-8",
+                "gnd:4047987-0",
+                "gnd:4384869-2",
+                "gnd:4346673-4",
+                "gnd:4170727-8"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1761868187.pdf",
+            "volume": "Band 16",
+            "P30128": "Forschungsberichte aus dem Institut für Informationstechnik",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "relation": "http://purl.org/dc/terms/relation",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

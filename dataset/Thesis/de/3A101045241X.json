@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1152824546",
+            "sameAs": "Diarra, Aboubacar"
+        },
+        {
+            "@id": "gnd:13280123X",
+            "sameAs": "Fengler, Wolfgang"
+        },
+        {
+            "@id": "gnd:134295390",
+            "sameAs": "Zimmermann, Armin"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4127501-9",
+            "sameAs": "Ethernet"
+        },
+        {
+            "@id": "gnd:4131397-5",
+            "sameAs": "Echtzeitsystem"
+        },
+        {
+            "@id": "gnd:4191569-0",
+            "sameAs": "Kraftfahrzeugelektronik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A101045241X",
+            "@type": "bibo:Thesis",
+            "P1053": "iv, 209 Seiten",
+            "contributor": "Grzemba, Andreas",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:101045241X",
+                "(ppn)101045241X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Real-time capabilities of future Ethernet-based in-vehicle time and safety-critical networks",
+            "abstract": "Die Integration von Ethernet in künftige In-Fahrzeugnetze für Applikation des automatisierten Fahrens erweist sich als eine vielschichtige Aufgabe für Netzwerk-Ingenieure. Die damit einhergehende Komplexität steigt mit der größer werdenden Anzahl von kommunizierenden Geräten sowie mit den Funktionen im In-Fahrzeug Netzwerk-Ökosystem. Diese Netzwerke stellen sich als zeit- und sicherheitskritisch dar, die darüber hinaus diffizilen Echtzeitanforderungen gerecht werden müssen. Es gilt strenge Datenübertragungsdeadlines einzuhalten um die Systemvorhersagbarkeit und die Zuverlässigkeit der Uhrsynchronisation zu verbessern. Um letzteres zu gewährleisten ist eine schnelle Synchronisation der Start-up Zeit erforderlich, sowie eine robuste Uhrsynchronisation - ebenso im Falle des Auftretens eines Netzwerksfehlers. Des Weiteren sind zu den bereits genannten technischen Anforderungen ebenfalls Kosteneffizienzmaßnahmen zu beachten. Infolgedessen hat sich die Automobilindustrie für IEEE Ethernet Audio Video Bridging und Time Sensitive Networking (AVB/TSN) Standard Technologien entschieden. Einzelne AVB/TSN Datenbehandlungsmechanismen wurden bereits präzisiert oder sind gegenwärtig im Begriff spezifiziert zu werden, um sogenannte \"Quality of Services\" in Bezug auf eine (ultra) niedrige End-to-End Datenübertragungslatenz zu garantieren. Jedoch sind weitere Faktoren für das genaue Voraussagen des zeitlichen Verhaltens eines Systems um mithin die notwendigen Ressourcen garantieren zu können, für eine rechtzeitige Übertragung von kritischen Paketen. Daher haben sich mehrere wissenschaftliche Studien analytisch und experimentell mit dem Thema \"maximale Latenzzeiten mit AVB\" auseinandergesetzt. Diese werden im Rahmen der vorliegenden Arbeit diskutiert, verbessert und erweitert, um eine Lösung bezüglich der rechtzeitigen Übertragung von kritischen Daten zu liefern. Außerdem müssen die AVB/TSN Uhrsynchronisationsmechanismen am Start-up des Fahrzeugsystems beschleunigt werden. Dies wird ebenfalls durch eine Reihe von technischen Konzepten in der vorliegenden Abhandlung elaboriert. Überdies werden neue, fehlertolerante Uhrsynchronisationskonzepte vorgestellt, die zur Erreichung schnellere \"Recovery\" Zeiten dienlich sein werden.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:13280123X"
+                },
+                {
+                    "@id": "gnd:134295390"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": [
+                "gnd:1152824546",
+                "gnd:2125187-3"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4191569-0",
+                "gnd:4127501-9",
+                "gnd:4131397-5"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/101045241X.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4143713-5",
+            "sameAs": "Autonomes System"
+        },
+        {
+            "@id": "gnd:4184696-5",
+            "sameAs": "Temperatursensor"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A644457074",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 137 S., 6,1 MB)",
+            "creator": "Jedermann, Reiner",
+            "identifier": [
+                "(ppn)644457074",
+                "(firstid)GBV:644457074"
+            ],
+            "publisher": "Staats- und Universitaetsbibliothek [Host]",
+            "subject": [
+                "(classificationName=bk, id=181571803)50.22 - Sensorik",
+                "(classificationName=rvk)ZQ 3950",
+                "(classificationName=rvk)QR 800",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=rvk)ZO 3950",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)620",
+                "(classificationName=ddc)530",
+                "(classificationName=bk, id=106416383)55.20 - Straßenfahrzeugtechnik"
+            ],
+            "title": "Autonome Sensorsysteme in der Transport- und Lebensmittellogistik",
+            "abstract": "Autonomous agents, transport telematics, wireless sensor networks, intelligent container. - A concise supervision of food products during transport is an essential precondition for the improvement of their quality and reduction of losses. However, existing remote or telemetric systems implement only parts of the entire supervision task. Standard systems measure temperature only at one or two points, and the evaluation of sensor data has to be done manually. This thesis presents a system which measures a spatial profile of temperature and other parameters. The idea of remote transport supervision is extended to a self-contained sensor system that locally processes measurement data and detects critical situations autonomously. The algorithms for sensor data evaluation are implemented inside the means of transport; they can either share a common embedded processor unit or run separately on wireless sensors nodes, which are attached to the loaded freight objects. The system automatically adapts the supervision process to different kinds of goods. This intelligent container combines technologies from different fields, such as RFID, wireless sensor networks, and telemetric system, which have so far been applied separately. A shelf life model, based on the dynamic temperature profile, estimates the amount of quality loss during transport. The quality supervision is implemented as a set of software agents. Each freight object is supervised by an individual sensory way bill . A demonstration system for the supervision of food transports shows the feasibility of this new approach.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4143713-5"
+                },
+                {
+                    "@id": "gnd:4184696-5"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

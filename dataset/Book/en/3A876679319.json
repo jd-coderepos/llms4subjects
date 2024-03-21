@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4026661-8",
+            "sameAs": "Implementation"
+        },
+        {
+            "@id": "gnd:4197538-8",
+            "sameAs": "TCP/IP"
+        },
+        {
+            "@id": "gnd:4337730-0",
+            "sameAs": "LINUX"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A876679319",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (1 PDF (xxviii, 772 Seiten))",
+            "creator": [
+                "Venkatesulu, M. Ajakumar",
+                "Seth, Sameer",
+                "John Wiley &amp; Sons",
+                "IEEE Xplore (Online Service)"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1002/9780470377833",
+                "(firstid)GBV:876679319",
+                "(isbn)0470377836",
+                "(ppn)876679319",
+                "(isbn13)9780470377833"
+            ],
+            "publisher": "Wiley, IEEE Computer Society",
+            "subject": [
+                "Electronic books",
+                "(classificationName=loc)TK5105.585",
+                "TCP/IP (Computer network protocol)",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=bk, id=106418904)54.54 - Betriebssysteme",
+                "Linux",
+                "(classificationName=rvk)ST 206",
+                "Network performance (Telecommunication)",
+                "(classificationName=ddc)004.62",
+                "(classificationName=ddc)004.62 22",
+                "(classificationName=rvk)ST 261",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "TCP/IP architecture, design and implementation in Linux",
+            "abstract": [
+                "7. TCP SEND -- 7.1 TCP Segmentation Unit for Sending Data -- 7.2 Segmentation with Scatter–Gather Technique -- 7.3 Sending OOB Data -- 7.4 Flow for TCP Segmentation Unit and Send Process -- 7.5 Functional Level Flow for Segmentation and Send Mechanism -- 7.6 Summary -- 8. TCP RECEIVE -- 8.1 Queuing Mechanism -- 8.2 Processing of TCP Data from the Receive Queue -- -- 8.3 TCP Urgent Byte Processing -- -- 8.4 DATA Flow Diagram for Receiving Data over the TCP Socket -- 8.5 Summary -- 9. TCP MEMORY MANAGEMENT -- 9.1 Transmit Side TCP Memory Management -- 9.2 Receive Side TCP Memory Management -- -- 9.3 Freeing of Memory Allocated to a Receive Buffer -- 9.4 System-Wide Control Parameters Are Worth Noticing When It Comes to TCP Memory Management -- 9.5 Summary -- 10. TCP TIMERS -- 10.2 TCP Retransmit Timer -- 10.3 Zero Window Probe Timer -- -- 10.4 Delay ACK Timer -- -- 10.5 Keepalive Timer -- 10.6 SYN-ACK Timer -- 10.7 TIME_WAIT Timer -- -- 10.7.8 __tcp_tw_hashdance() -- 10.8 Summary -- 11. TCP CORE PROCESSING -- 11.1 TCP Incoming Segment Processing -- 11.2 Fast Path Processing -- 11.3 Slow Path Processing -- 11.4 Processing of Incoming ACK -- -- 11.5 Processing of SACK blocks -- -- 11.6 Reordering Length -- 11.7 Processing TCP Urgent Pointer -- 11.8 Processing Data Segments in Slow Path -- -- 11.9 Overview of Core TCP Processing -- 11.10 Summary -- 12. TCP STATE PROCESSING -- 12.1 Overview of State Processing -- 12.2 TCP States -- 12.3 Processing of Duplicate/Partial ACKs in Recovery State -- -- 12.4 Processing of Duplicate/Partial ACKs in Loss State -- -- 12.5 Default Processing of TCP States -- -- 12.6 Processing of TCP Non-open States when ACKed Beyond tp → high_seq -- -- 12.7 Summary -- 13. NETLINK SOCKETS -- 13.1 Introduction to Netlink Sockets -- 13.2 Netlink Socket Registration and Initialization at Boot Time -- 13.3 How Is the Kernel Netlink Socket Created? -- 13.4 How Is the User Netlink Socket Created? -- 13.5 Netlink Data Structures -- 13.6 Other Important Data Strutures",
+                "Preface -- Acknowledgments -- 1. INTRODUCTION -- 1.1 Overview of TCP/IP Stack -- 1.2 Source Code Organization for Linux 2.4.20 -- 1.3 TCP/IP Stack and Kernel Control Paths -- 1.4 Linux Kernel Until Version 2.4 Is Non-preemptible -- 1.5 Linux Process and Thread -- 1.6 Kernel Synchronization Mechanism -- 1.7 Application Interfaces for TCP/IP Programming -- 1.8 Shutdown -- 1.9 I/O -- 1.10 TCP State -- 1.11 Summary -- 2. PROTOCOL FUNDAMENTALS -- 2.1 TCP -- 2.2 TCP Options (RFC 1323) -- 2.3 TCP Data Flow -- 2.4 Delayed Acknowledgment -- 2.5 Nagle&apos;s Algorithm (RFC 896) -- 2.6 TCP Sliding Window Protocol -- 2.7 Maximizing TCP Throughput -- 2.8 TCP Timers -- 2.9 TCP Congestion Control -- 2.10 TCP Performance and Reliability -- 2.11 IP (Internet Protocol) -- 2.12 Routing -- 2.13 netstat -- 2.14 traceroute -- 2.15 ICMP -- 2.16 ping -- 2.17 ARP/RARP -- 2.18 Summary -- 3. KERNEL IMPLEMENTATION OF SOCKETS -- 3.1 Socket Layer -- 3.2 VFS and Socket -- 3.3 Protocol Socket Registration -- 3.4 struct inet_protosw -- 3.5 Socket Organization in the Kernel -- 3.6 Socket -- 3.7 inet_create -- 3.8 Flow Diagram for Socket Call -- 3.9 Summary -- 4. KERNEL IMPLEMENTATION OF TCP CONNECTION SETUP -- 4.1 Connection Setup -- 4.2 Bind -- 4.3 Listen -- 4.4 Connection Request Handling by Kernel -- 4.5 Accept -- 4.6 Client Side Setup -- 4.7 Summary -- 5. sk_buff AND PROTOCOL HEADERS -- 5.1 struct sk_buff -- 5.2 struct skb_shared_info -- 5.3 sk_buff and DMA_SKB_FRAG_STRUCT -- 5.4 Routines Operating on sk_buff -- 5.5 sk_buff Builds Protocol Headers as It Traverses Down the Protocol Layers -- -- 5.6 sk_buff Extracts Protocol Headers as It Traverses Up the Protocol Layers When a Packet Arrives -- 5.7 Summary -- 6. MOVEMENT OF sk_buff ACROSS PROTOCOL LAYERS -- 6.1 Packet Traversing Down the TCP/IP Stack -- 6.2 Routed Packet Ready for Transmission -- 6.3 Kernel Flow for a Packet Moving Down the Stack -- 6.4 Packet Traversing Up the TCP/IP Stack -- 6.5 Kernel Flow for a Packet Moving Up the Stack -- 6.6 Summary",
+                "13.7 Netlink Packet Format -- 13.8 Netlink Socket Example Command for Adding a qdisc -- 13.9 Flow Diagram for tc Command in Kernel Space -- 13.10 Summary -- 14. IP ROUTING -- 14.1 Routing -- 14.2 Policy-Based Routing -- 14.3 Multipathing -- 14.4 Record Route Options (RFC 791) and Processing by Linux Stack -- 14.5 Source Routing -- 14.6 Linux Kernel Implementation of Routing Table and Caches -- 14.7 Routing Cache Implementation Overview -- 14.8 Managing Routing Cache -- 14.9 Implementation Overview of Forwarding Information Base (FIB) -- -- 14.10 Adding New Entry in Routing Table Using ip Command (RT Netlink Interface) -- -- 14.11 What Happens When the ip Command Is Run with a Rule Option for Adding an Entry in the Routing Table? -- 14.12 FIB Traversal Flow Diagram -- 14.13 Summary -- -- 15. IP QUALITY OF SERVICE IN LINUX (IP QoS) -- 15.1 Introduction -- 15.2 Basic Components of Linux Traffi c Control -- 15.3 Linux Implementation of pfi fo_fast qdisc -- 15.4 Queueing Discipline Data Structure -- 15.5 tc User Program and Kernel Implementation Details -- -- 15.6 The tc Commands for Creating Class Hierarchy for CBQ -- -- 15.7 Filters -- 15.8 u32 Filter Implementation -- -- 15.9 Route Filter Implementation -- -- 15.10 Enqueue -- -- 15.11 Overview of Linux Implementation of CBQ -- 15.12 cbq_dequeue() -- 15.13 Summary -- -- 16. IP FILTER AND FIREWALL -- 16.1 Netfi lter Hook Framework -- 16.2 Netfi lter Hooks on IP Stack -- 16.3 Overview of Netfi lter Hooks on Linux TCP-IP Stack -- 16.4 Registration of Netfi lter Hooks -- 16.5 Processing of Netfi lter Hooks -- 16.6 Compatibility Framework -- 16.7 Ip Chains -- 16.8 How Is the Packet Filtered with Ipchains -- 16.9 Iptables -- 16.10 Iptables Filter Rules and Target Organization -- 16.11 Organization of Filter Rules and Target for Iptables -- 16.12 Filtering Packets with Iptables -- 16.13 Summary -- -- 17. NET SOFTIRQ -- 17.1 Why Net SoftIRQs, and How Do We Raise Them? -- 17.2 How Are SoftIRQs Are Processed, and When? -- 17.3 Registration of SoftIRQs",
+                "17.4 Packet Reception and Delayed Processing by Rx SoftIRQ -- 17.5 Processing of Net Rx SoftIRQ -- 17.6 Packet Transmission and SoftIRQ -- 17.7 Summary -- 18. TRANSMISSION AND RECEPTION OF PACKETS -- 18.1 DMA Ring Buffers for Transmission and Reception of Packets -- 18.2 Packet Reception Process -- 18.3 Packet Transmission Process -- 18.4 Implementation of Reception and Transmission of Packets -- 18.5 Rx Interrupt for Reception of Packets -- 18.6 Transmission of Packets -- 18.7 Summary -- 19. lkcd AND DEBUGGING TCP/IP STACK -- 19.1 lkcd Source and Patches -- 19.2 Touching the Socket -- 19.3 Looking into the Receive Socket Buffer -- 19.3.1 Route Information in sk_buff -- 19.4 Peep into Send Socket Buffer -- 19.5 TCP Segmentation Unit -- 19.6 Send Congestion Window and ssthresh -- 19.7 Retransmissions and Route -- 19.8 Peeping into Connection Queues and SYN Queues -- 19.9 Routing and IP Qos lcrash Steps -- 19.10 CBQ (Class-Based) Queueing Discipline lcrash Steps -- 19.11 U32 Filters -- 19.12 Route Filters -- 19.13 FIB Table lcrash Output for Setting Up the Realm Using ip Command -- 19.14 lcrash Output for Setting Up Route Filter Using tc Command -- 19.15 Netlink Data Structure -- 19.16 Summary -- 20. NEXT EDITION -- Bibliography -- Index",
+                "The only single-source reference on the concept and implementation of TCP/IP in LinuxAs open source software becomes a trusted part of business and research systems, it&apos;s no wonder that a combination of the Transmission Control Protocol/Internet Protocol (TCP/IP) and the Linux operating system is becoming more common. TCP/IP&apos;s prevalence allows easy communication among computers using various operating systems, whether Windows, Mac OS, Linux, or Unix. And Linux—because it is open source and thus modifiable—has become a frequent choice for developers who want a customizable operating system on which to build their applications.This book describes the design and implementation of TCP/IP in Linux, from simple client-server applications to more complex executions. Topical coverage includes:. Basic socket concepts and implementations. The Linux implementation of network packets. TCP read/write. TCP algorithms for data transmission and congestion control. TCP timers. IP layer and routing tables implementation. IP forwarding and quality of service implementation. Netfilter hooks for the stacks. Network Soft IRQ. How to debug a TCP/IP stackAll topics are discussed in a concise, step-by-step manner and the book is complemented with helpful illustrations to give readers a better understanding of the subject. TCP/IP Architecture, Design, and Implementation in Linux is an indispensable resource for embedded-network product developers, network security product developers, IT network architects, researchers, and graduate students"
+            ],
+            "alternative": "Architecture, design and implementation in Linux",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-35-WEL",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4026661-8"
+                },
+                {
+                    "@id": "gnd:4197538-8"
+                },
+                {
+                    "@id": "gnd:4337730-0"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9780470147733.pdf",
+            "isLike": "doi:10.1002/9780470377833",
+            "P60163": "Hoboken, New Jersey"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

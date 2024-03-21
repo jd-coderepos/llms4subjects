@@ -1,0 +1,146 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1078756694",
+            "sameAs": "Römer, Ulrich"
+        },
+        {
+            "@id": "gnd:1153614073",
+            "sameAs": "Ring, Tobias"
+        },
+        {
+            "@id": "gnd:1153614103",
+            "sameAs": "Langer, Sabine Christine"
+        },
+        {
+            "@id": "gnd:36227-X",
+            "sameAs": "Technische Universität Braunschweig"
+        },
+        {
+            "@id": "gnd:4000988-9",
+            "sameAs": "Akustik"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4114528-8",
+            "sameAs": "Mathematisches Modell"
+        },
+        {
+            "@id": "gnd:4130350-7",
+            "sameAs": "Referenzmodell"
+        },
+        {
+            "@id": "gnd:4135577-5",
+            "sameAs": "Verifikation"
+        },
+        {
+            "@id": "gnd:4187357-9",
+            "sameAs": "Validierung"
+        },
+        {
+            "@id": "gnd:4338132-7",
+            "sameAs": "Numerisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1691520101",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (PDF-Datei: 4 MB)",
+            "identifier": [
+                "(ppn)1691520101",
+                "(doi)10.24355/dbbs.084-202003031456-0",
+                "(firstid)KXP:1691520101"
+            ],
+            "publisher": "Shaker Verlag",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=10640752X)33.12 - Akustik",
+                "Akustik",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106420488)50.21 - Messtechnik",
+                "(classificationName=ddc)620.2",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Effiziente Unsicherheitsquantifizierung in der Akustik mittels eines Multi-Modell-Verfahrens",
+            "abstract": "Die Arbeit im Bereich der Akustik ist, wie in vielen anderen Fachdisziplinen, vom Einsatz numerischer Berechnungsmethoden geprägt. Das wahrscheinlich am weitesten verbreitete Verfahren zur Lösung partieller Differentialgleichungen ist die Finite-Elemente-Methode (FEM). Die FEM gehört zur Klasse der Diskretisierungsverfahren. Trotz stetig steigender Leistung der verwendeten Computer sind numerische Berechnungen mit Diskretisierungsverfahren weiterhin speicher- und zeitintensiv. Daher haben sich Modellreduktionsverfahren zur Beschleunigung der Berechnung etabliert. Der Einsatz in der Akustik stellt dabei besondere Herausforderungen, die durch existierende Verfahren nur unzureichend adressiert werden. Vor allem für Berechnungen großer Strukturen im hohen Frequenzbereich erzielen die etablierten Verfahren eine geringe Reduktion des Berechnungsaufwands. Der für Berechnungen erforderliche Modellierungsprozess ist nicht eindeutig, für eine Fragestellung sind häufig mehrere Modelle verwendbar. Die Modelle unterscheiden sich hinsichtlich ihrer Ergebnisqualität und des zur Lösung erforderlichen Berechnungsaufwands. Häufig korrelieren diese Größen. Für Berechnungen mit der FEM im Frequenzbereich hängt die Einsetzbarkeit der zur Verfügung stehenden Modelle häufig von der Frequenz ab. Bei vielen verfügbaren Modellen kann somit für einzelne Frequenzbereiche jeweils das Modell verwendet werden, das bei geringstem Berechnungsaufwand eine ausreichende Ergebnisqualität bietet. Dies ist die Idee der vorliegenden Arbeit. Die vorliegende Arbeit entwickelt ein Multi-Modell-Verfahren speziell für Anwendungen in der Akustik. Das Verfahren ermöglicht den Einsatz vereinfachter Modelle gemeinsam mit einem zu lösenden Referenzmodell zur Lösung einer gegebenen Berechnungsaufgabe. Das Referenzmodell ist dasjenige Modell, von dem im gesamten Frequenzbereich eine ausreichende Ergebnisqualität erwartet wird. Die zur Verfügung stehenden vereinfachten Modelle werden gegen das Referenzmodell validiert. Ein Kernaspekt des entwickelten Verfahrens ist die Entwicklung des dazu verwendeten Validierungsprozesses. Für den Fall einer erfolgreichen Validierung wird das Referenzmodell durch das vereinfachte Modell ersetzt. Eine Budgetplanung quantifiziert die Kosten zur Lösung der Modelle und setzt diese so ein, dass eine Rechenzeitersparnis erreicht wird. Das entwickelte Verfahren wird für verschiedene Klassen vereinfachter Modelle verifiziert. Dazu werden vereinfachte Modelle auf verschiedenen Abstraktionsebenen des Modellierungsprozesses aus dem Referenzmodell abgeleitet. Dies sind das Realitätsmodell, das mathematische und das numerische Modell. Für vereinfachte Modelle, die durch Variation des numerischen Modells erzeugt werden, erzielt das Verfahren gute Ergebnisse. Es wird eine Rechenzeitersparnis bei einem akzeptablen Fehler der approximierten Systemantwort erreicht. Weiterhin kann gezeigt werden, dass die erzielbare Rechenzeitersparnis mit dem resultierenden Fehler korreliert. Das Verfahren ermöglicht somit die Abwägung zwischen einer genauen, langsamen Lösung und einer schnellen Näherungslösung. Nach der Verifikation wird das auf entwickelte Multi-Modell-Verfahren stochastische Untersuchungen mit der Monte Carlo-Methode und der globalen Sensitivitätsanalyse angewendet. Für diese Vielfachauswertungs-Anwendungen wird eine zusätzliche Rechenzeitersparnis erzielt, da die erforderlichen Validierungsprozesse ab der zweiten Berechnung entfallen können. Auch für diese Anwendungsfälle werden die zu berechnenden Größen, die statistischen Eigenschaften der Ausgangsgröße, mit einem geringen Fehler ermittelt. Insgesamt steht mit dem entwickelten Multi-Modell-Verfahren ein Ansatz zur Verfügung, mit dem die numerische Berechnung mit der FEM beschleunigt werden kann. Aufgrund der Berücksichtigung der Anforderungen numerischer Berechnungen von Wellenausbreitung mit Diskretisierungsverfahren ist es besonders für den Einsatz in der Akustik geeignet.",
+            "contributor": [
+                "gnd:1078756694",
+                "gnd:1153614103"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36227-X",
+                "gnd:1153614073"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4130350-7",
+                "gnd:4187357-9",
+                "gnd:4114528-8",
+                "gnd:4338132-7",
+                "gnd:4017233-8",
+                "gnd:4135577-5",
+                "gnd:4000988-9"
+            ],
+            "volume": "2020, Band 1",
+            "isLike": "doi:10.24355/dbbs.084-202003031456-0",
+            "P30128": "Schriften des Instituts für Akustik",
+            "P60163": "Düren"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

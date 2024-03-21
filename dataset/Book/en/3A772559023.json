@@ -1,0 +1,126 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4011152-0",
+            "sameAs": "Datenverarbeitung"
+        },
+        {
+            "@id": "gnd:4054947-1",
+            "sameAs": "Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4121267-8",
+            "sameAs": "Filterung (Stochastik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A772559023",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (PDF-Datei: 83 S.)",
+            "creator": [
+                "Spanias, Andreas",
+                "Banavar, Mahesh",
+                "Kovvali, Narayan"
+            ],
+            "description": [
+                "Ill., graph. Darst",
+                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781627051408",
+                "(ppn)772559023",
+                "(doi)10.2200/S00534ED1V01Y201309SPR012",
+                "(firstid)GBV:772559023"
+            ],
+            "publisher": "Morgan &amp; Claypool",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=msc)68W30",
+                "Signal processing",
+                "(classificationName=msc)94A12",
+                "(classificationName=loc)TK5102.9",
+                "Electronic books",
+                "MATLAB",
+                "(classificationName=ddc)621.382",
+                "Kalman filtering",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik",
+                "(classificationName=ddc)621.382/2",
+                "(classificationName=msc)*94-01",
+                "(classificationName=msc)68-01"
+            ],
+            "title": "An introduction to Kalman filtering with MATLAB examples",
+            "abstract": [
+                "5. Conclusion -- Notation -- Bibliography -- Authors&apos; biographies",
+                "2. The estimation problem -- 2.1 Background -- 2.1.1 Example: maximum-likelihood estimation in Gaussian noise -- 2.2 Linear estimation -- 2.3 The Bayesian approach to parameter estimation -- 2.3.1 Example: estimating the bias of a coin -- 2.4 Sequential Bayesian estimation -- 2.4.1 Example: the 1-D Kalman filter --",
+                "3. The Kalman filter -- 3.1 Theory -- 3.2 Implementation -- 3.2.1 Sample MATLAB code -- 3.2.2 Computational issues -- 3.3 Examples -- 3.3.1 Target tracking with radar -- 3.3.2 Channel estimation in communications systems -- 3.3.3 Recursive least squares (RLS) adaptive filtering --",
+                "4. Extended and decentralized Kalman filtering -- 4.1 Extended Kalman filter -- 4.1.1 Example: predator-prey system -- 4.2 Decentralized Kalman filtering -- 4.2.1 Example: distributed object tracking --",
+                "The Kalman filter is the Bayesian optimum solution to the problem of sequentially estimating the states of a dynamical system in which the state evolution and measurement processes are both linear and Gaussian. Given the ubiquity of such systems, the Kalman filter finds use in a variety of applications, e.g., target tracking, guidance and navigation, and communications systems. The purpose of this book is to present a brief introduction to Kalman filtering. The theoretical framework of the Kalman filter is first presented, followed by examples showing its use in practical applications. Extensions of the method to nonlinear problems and distributed applications are discussed. A software implementation of the algorithm in the MATLAB programming language is provided, as well as MATLAB code for several example applications discussed in the manuscript",
+                "1. Introduction --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)H-ZDB-105-MCS",
+                "(collectioncode)H-ZDB-4-NLEBK"
+            ],
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4121267-8"
+                },
+                {
+                    "@id": "gnd:4011152-0"
+                },
+                {
+                    "@id": "gnd:4054947-1"
+                }
+            ],
+            "volume": "12",
+            "isLike": "doi:10.2200/S00534ED1V01Y201309SPR012",
+            "P30128": "Synthesis lectures on signal processing",
+            "P60163": "[San Rafael, Calif. ]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

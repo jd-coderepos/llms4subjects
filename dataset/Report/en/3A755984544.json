@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4157404-7",
+            "sameAs": "Glättung"
+        },
+        {
+            "@id": "gnd:7618675-1",
+            "sameAs": "Funktionelle Kernspintomografie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A755984544",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (15 S., 634 KB)",
+            "contributor": "Welvaert, Marijke",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)755984544",
+                "(firstid)GBV:755984544"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)62P10",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106421557)44.09 - Medizintechnik",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=linseach:mapping)med"
+            ],
+            "title": "Adaptive smoothing as inference strategy : more specificity for unequally sized or neighboring regions",
+            "abstract": "Although spatial smoothing of fMRI data can serve multiple purposes, increasing the sensitivity of activation detection is probably its greatest benefit. However, this increased detection power comes with a loss of specificity when non-adaptive smoothing (i.e. the standard in most software packages) is used. Simulation studies and analysis of experimental data was performed using the R packages neu- Rosim and fmri. In these studies, we systematically investigated the effect of spatial smoothing on the power and number of false positives in two particular cases that are often encountered in fMRI research: (1) Single condition activation detection for regions that differ in size, and (2) multiple condition activation detection for neighbouring regions. Our results demonstrate that adaptive smoothing is superior in both cases because less false positives are introduced by the spatial smoothing process compared to standard Gaussian smoothing or FDR inference of unsmoothed data",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4157404-7"
+                },
+                {
+                    "@id": "gnd:7618675-1"
+                },
+                {
+                    "@id": "gnd:4006684-8"
+                }
+            ],
+            "volume": "1805",
+            "P30128": "Preprint / Weierstraß-Institut für Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

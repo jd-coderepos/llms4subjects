@@ -1,0 +1,113 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4113276-2",
+            "sameAs": "Datenbanksystem"
+        },
+        {
+            "@id": "gnd:4183255-3",
+            "sameAs": "Stichwort"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723615896",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (155 Seiten)",
+            "creator": [
+                "Yu, Jeffrey Xu",
+                "Chang, Lijun",
+                "Qin, Lu"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:723615896",
+                "(isbn13)9781608451968",
+                "(ppn)723615896"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=loc)ZA3075",
+                "(classificationName=msc)68P15",
+                "(classificationName=msc)68-02",
+                "(classificationName=ddc)028",
+                "Keyword searching",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)68U35",
+                "Electronic books",
+                "(classificationName=loc)ZA4460",
+                "Database searching",
+                "(classificationName=msc)*68P10",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken",
+                "(classificationName=ddc)025.04"
+            ],
+            "title": "Keyword Search in Databases : Jeffrey Xu Yu, Lu Qin, and Lijun Chang, Chinese University of Hong Kong",
+            "abstract": [
+                "The book is organized as follows. In Chapter 1, we highlight the main research issues on the structural keyword search in different contexts. In Chapter 2, we focus on supporting structural keyword search in a relational database management system using the SQL query language. We concentrate on how to generate a set of SQL queries that can find all the structural information among records in a relational database completely, and how to evaluate the generated set of SQL queries efficiently. In Chapter 3,we discuss graph algorithms for structural keyword search by treating an entire relational database as a large data graph. In Chapter 4, we discuss structural keyword search in a large tree-structuredXMLdatabase. In Chapter 5,we highlight several interesting research issues regarding keyword search on databases. The book can be used as either an extended survey for people who are interested in the structural keyword search or a reference book for a postgraduate course on the related topics",
+                "It has become highly desirable to provide users with flexible ways to query/search information over databases as simple as keyword search like Google search. This book surveys the recent developments on keyword search over databases, and focuses on finding structural information among objects in a database using a set of keywords. Such structural information to be returned can be either trees or subgraphs representing how the objects, that contain the required keywords, are interconnected in a relational database or in an XML database. The structural keyword search is completely different from finding documents that contain all the user-given keywords. The former focuses on the interconnected object structures, whereas the latter focuses on the object content",
+                "Preface -- 1. Introduction -- 2. Schema-based keyword search on relational databases: 2.1. Introduction; 2.2. Candidate network generation; 2.3. Candidate network evaluation; 2.4. Other keyword search semantics -- 3. Graph-based keyword search: 3.1. Graph model and problem definition; 3.2. Polynomial delay and Dijkstras algorithm; 3.3. Steiner tree-based keyword search; 3.4. Distinct root-based keyword search; 3.5. Subgraph-based keyword search -- 4. Keyword search in XML databases: 4.1. XML and problem definition; 4.2. SLCA-based semantics; 4.3. Identify meaningful return information; 4.4. ELCA-based semantics; 4.5. Other approaches -- 5. Other topics for keyword search on databases: 5.1. Keyword search across databases; 5.2. Keyword search on spatial databases; 5.3. Variations of keyword search on databases -- Bibliography -- Authors&apos; biographies"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4072803-1",
+                "gnd:4183255-3",
+                "gnd:4113276-2"
+            ],
+            "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DE004B78DC0F942DCC4D8C125779B00548612.pdf",
+            "volume": "#1",
+            "P30128": "Synthesis Lectures on Data Management",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

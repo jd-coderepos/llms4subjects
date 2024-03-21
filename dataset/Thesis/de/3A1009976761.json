@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1209157535",
+            "sameAs": "Fränzle, Martin"
+        },
+        {
+            "@id": "gnd:4057635-8",
+            "sameAs": "Stochastisches System"
+        },
+        {
+            "@id": "gnd:4064324-4",
+            "sameAs": "Wahrscheinlichkeitsrechnung"
+        },
+        {
+            "@id": "gnd:4510314-8",
+            "sameAs": "Hybrides System"
+        },
+        {
+            "@id": "gnd:4567206-4",
+            "sameAs": "Constraint-Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1009976761",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XX, 113 Seiten, 2,6MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Zuliani, Paolo",
+            "creator": "Gao, Yang",
+            "identifier": [
+                "(firstid)DNB:1147559287",
+                "(ppn)1009976761"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Verification of stochastic systems by stochastic satisfiability modulo theories with continuous domain (CSSMT)",
+            "abstract": [
+                "Inspiriert durch stochastische Logiken wurde kürzlich eine quantitative Erweiterung der existierenden Satisfiability Modulo Theory (SMT) entwickelt. Diese, sogenannte Stochastic Satisfiability Modulo Theory, erweitert die SMT, indem neben den All- und Existenz-Quantoren weitere, randomisierte Quantoren eingeführt wurden. Das Lösen der entsprechenden SSMT Formeln unter der Einschränkung von diskreten Quantoren wurde bereits durch Tino Teige et al. adressiert. Einer der größten limitierenden Faktoren solcher Ansätze ist, dass die Quantoren auf beschränkte Bereiche über endlichen Grundmengen limitiert sind. Um kontinuierliche Verteilungen in existierende SSMT Methoden zu integrieren, soll in dieser Arbeit die Erweiterung SSMT over continuous quantifier domains (CSSMT) entwickelt werden, welche die erwähnten Einschränkungen relaxiert, sodass nun auch SSMT Ausdrücke behandelt werden können welche Verteilungen mit kontinuierlichem Träger beinhalten. &lt;dt.&gt;",
+                "Stochastic Satisfiability Modulo Theories (SSMT) is a quantitative extension of Satisfiability Modulo Theories (SMT) inspired by stochastic logics. It extends SMT by randomized quantifiers, facilitating capture of stochastic game properties in the logic, like reachability analysis of hybrid-state Markov decision processes. Solving SSMT formulae with quantification over finite and thus discrete domain has been addressed by Tino Teige et al. A major limitation of the SSMT solving approach is that all quantifiers are confined to range over finite domains. As this implies that the support of probability distributions have to be finite, a large number of phenomena cannot be expressed within the SSMT framework. To overcome this limitation, this thesis relaxes the constraints on the domains of randomized variables, now also admitting dense probability distributions in SSMT solving, which yields SSMT over continuous quantifier domains (CSSMT). &lt;engl.&gt;"
+            ],
+            "alternative": "Verifikation von stochastischen Systemen durch Satisfiability Modulo Theory mit kontinuierlichem Domain (CSSMT)",
+            "contributor": "gnd:1209157535",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4064324-4",
+                "gnd:4510314-8",
+                "gnd:4567206-4",
+                "gnd:4057635-8"
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

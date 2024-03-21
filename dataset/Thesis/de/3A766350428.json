@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1048163660",
+            "sameAs": "Büker, Matthias"
+        },
+        {
+            "@id": "gnd:141393858",
+            "sameAs": "Damm, Werner"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4131397-5",
+            "sameAs": "Echtzeitsystem"
+        },
+        {
+            "@id": "gnd:4238369-9",
+            "sameAs": "Aufgabengliederung"
+        },
+        {
+            "@id": "gnd:4329066-8",
+            "sameAs": "MATLAB"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "gnd:4480546-9",
+            "sameAs": "SIMULINK"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A766350428",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 247 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Fränzle, Martin",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)766350428",
+                "(firstid)GBV:766350428"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=10641884X)54.27 - Prozessrechner",
+                "(classificationName=ddc)006.22",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation"
+            ],
+            "title": "An automated semantic-based approach for creating task structures",
+            "abstract": [
+                "Diese Arbeit ist im Bereich der sicherheitskritischen eingebetteten Systeme angesiedelt und stellt ein automatisiertes formal fundiertes Verfahren vor um aus einem Simulink-Modell eine optimierte Task-Struktur zu erstellen. Auf Basis eines erweiterten Tasknetzwerk-Formalismus wird dazu zunächst eine formale Übersetzungsvorschrift auf Simulink Block-Ebene definiert. Da die so entstehenden Tasks sehr feingranular und unausgewogen hinsichtlich ihres benötigten Rechenbedarfs (sogenanntes Taskgewicht) sind, wird in einem zweiten Schritt eine optimierte Task-Struktur gebildet, indem Tasks miteinander verschmolzen werden. Dabei wird als Optimierungsziel die Kommunikation zwischen Tasks minimiert und die Taskgewichte balanciert. Zudem wird formal nachgewiesen, dass sowohl die Übersetzung als auch die Verschmelzung von Tasks die Ausführungssemantik von Simulink erhält. Der komplette Ansatz wurde in Form einer automatisierten Werkzeugkette implementiert und anhand einer Fallstudie evaluiert. &lt;dt.&gt;",
+                "This work is settled in the area of safety-critical embedded systems and presents a formally funded approach for automatically creating an optimized task structure from a Simulink model. Based on an extended task network formalism, in a first step, a formal translation scheme on Simulink block level is defined. Because the resulting tasks are very fine-grained and unbalanced with respect to their required computation demand (denoted as task weight), in a second step, an optimized task structure is created by formally merging tasks with each other. Here, the optimization goal is to minimize inter-task communication and to balance the weights of tasks. Additionally, it is formally proven that both the translation and the merging of tasks preserves the formal execution semantics of Simulink. The whole approach was implemented as an automated tool-chain and evaluated with the help of a case study. &lt;engl.&gt;"
+            ],
+            "contributor": "gnd:141393858",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1048163660",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4480546-9",
+                "gnd:4238369-9",
+                "gnd:4043664-0",
+                "gnd:4396978-1",
+                "gnd:4329066-8",
+                "gnd:4131397-5"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

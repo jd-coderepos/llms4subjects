@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1196237697",
+            "sameAs": "Göddeke, Dominik"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4038376-3",
+            "sameAs": "Mehrgitterverfahren"
+        },
+        {
+            "@id": "gnd:4044779-0",
+            "sameAs": "Partielle Differentialgleichung"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4582114-8",
+            "sameAs": "Grafikprozessor"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A63474352X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (299 S., 4,62 MB)",
+            "identifier": [
+                "(ppn)63474352X",
+                "(firstid)GBV:63474352X"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=10640816X)31.45 - Partielle Differentialgleichungen",
+                "(classificationName=bk, id=181569892)54.25 - Parallele Datenverarbeitung",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106418920)54.73 - Computergraphik",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Fast and accurate finite-element multigrid solvers for PDE simulations on GPU clusters",
+            "abstract": "The main contribution of this thesis is to demonstrate that graphics processors (GPUs) as representatives of emerging many-core architectures are very well-suited for the fast and accurate solution of large sparse linear systems of equations, using parallel multigrid methods on heterogeneous compute clusters. Such systems arise for instance in the discretisation of (elliptic) partial differential equations with finite elements. We report on at least one order of magnitude speedup over highly-tuned conventional CPU implementations, without sacrificing neither accuracy nor functionality. In more detail, this thesis includes the following contributions: Single precision floating point computations may be insufficient for the class of problems considered in this thesis. We revisit mixed precision iterative refinement techniques to not only increase the accuracy of computed results, but also to increase the efficiency of the solution process. Both on CPUs and on GPUs, we demonstrate a significant performance improvement without loss of accuracy compared to computing in high precision only ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1196237697",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4582114-8"
+                },
+                {
+                    "@id": "gnd:4038376-3"
+                },
+                {
+                    "@id": "gnd:4075860-6"
+                },
+                {
+                    "@id": "gnd:4017233-8"
+                },
+                {
+                    "@id": "gnd:4044779-0"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

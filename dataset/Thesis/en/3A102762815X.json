@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1035781379",
+            "sameAs": "Brzuska, Christopher"
+        },
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universität Hamburg"
+        },
+        {
+            "@id": "gnd:1143237161",
+            "sameAs": "Technische Universität Hamburg, Institute of Embedded Systems"
+        },
+        {
+            "@id": "gnd:1163418765",
+            "sameAs": "Becker, Daniela"
+        },
+        {
+            "@id": "gnd:132198975",
+            "sameAs": "Zimmermann, Karl-Heinz"
+        },
+        {
+            "@id": "gnd:4033329-2",
+            "sameAs": "Kryptologie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A102762815X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 95 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.15480/882.1720",
+                "(firstid)GBV:102762815X",
+                "(ppn)102762815X"
+            ],
+            "subject": [
+                "aggregation",
+                "LWE",
+                "privacy",
+                "cryptography",
+                "(classificationName=linseach:mapping)inf",
+                "encryption",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit"
+            ],
+            "title": "LWE-based encryption schemes and their applications in privacy-friendly data aggregation",
+            "abstract": [
+                "Wir konstruieren neue Verschlüsselungssysteme basierend auf dem Learning With Errors Problem and lösen die folgenden Probleme: Durch datenschutzfreundliche Aggregation lassen sich Daten von mehreren Nutzern unter Wahrung ihrer Privatsphäre aggregieren ohne dem Aggregator zu vertrauen. Unsere Systeme verbessern sowohl Laufzeit als auch Bandbreite der Verschlüsselung, insbesondere die Entschlüsselung ist ca. 150 Mal schneller als zuvor. Überdies stellen wir die erste Lösung für datenschutzfreundliche Werbung auf sozialen Medien vor - unsere Architektur hat hohe Sicherheits- und Privacy-Garantien und bietet kryptographische Beweise für die Korrektheit der Ergebnisse.",
+                "We construct new Learning With Errors-based encryption schemes in order to solve two problems: privacy-preserving data aggregation and privacy-friendly social media marketing. The former allows for the aggregation of privacy-sensitive data from multiple users without trusting the aggregator. Our schemes improve over the state-of-the-art both in terms of runtime and bandwidth e ciency. In particular, our decryption routine is about 150 times faster compared to previous results. Secondly, we propose the first known solution for privacy-friendly social media marketing. Our construction maintains strong security and privacy guarantees and provides cryptographic proofs of correctness."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1035781379"
+                },
+                {
+                    "@id": "gnd:132198975"
+                }
+            ],
+            "creator": [
+                "gnd:1143237161",
+                "gnd:1112763473",
+                "gnd:1163418765"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4033329-2"
+            },
+            "isLike": "doi:10.15480/882.1720",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

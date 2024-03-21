@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4425226-2",
+            "sameAs": "Krylov-Verfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1737520826",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(XIV, 686 p. 184 illus.)",
+            "creator": [
+                "Duintjer Tebbens, Jurjen",
+                "Meurant, Gérard"
+            ],
+            "description": [
+                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualitätsmitteln"
+            ],
+            "identifier": [
+                "(ppn)1737520826",
+                "(isbn13)9783030552510",
+                "(firstid)KEP:058980571",
+                "(doi)10.1007/978-3-030-55251-0"
+            ],
+            "publisher": "Springer International Publishing",
+            "subject": [
+                "(classificationName=ddc)518",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=rvk)SK 915",
+                "Numerical analysis.",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106407740)31.25 - Lineare Algebra, multilineare Algebra"
+            ],
+            "title": "Krylov Methods for Nonsymmetric Linear Systems : From Theory to Computations",
+            "abstract": [
+                "This book aims to give an encyclopedic overview of the state-of-the-art of Krylov subspace iterative methods for solving nonsymmetric systems of algebraic linear equations and to study their mathematical properties. Solving systems of algebraic linear equations is among the most frequent problems in scientific computing; it is used in many disciplines such as physics, engineering, chemistry, biology, and several others. Krylov methods have progressively emerged as the iterative methods with the highest efficiency while being very robust for solving large linear systems; they may be expected to remain so, independent of progress in modern computer-related fields such as parallel and high performance computing.The mathematical properties of the methods are described and analyzed along with their behavior in finite precision arithmetic. A number of numerical examples demonstrate the properties and the behavior of the described methods. Also considered are the methods’ implementations and coding as Matlab®-like functions. Methods which became popular recently are considered in the general framework of Q-OR (quasi-orthogonal )/Q-MR (quasi-minimum) residual methods. This book can be useful for both practitioners and for readers who are more interested in theory. Together with a review of the state-of-the-art, it presents a number of recent theoretical results of the authors, some of them unpublished, as well as a few original algorithms. Some of the derived formulas might be useful for the design of possible new methods or for future analysis. For the more applied user, the book gives an up-to-date overview of the majority of the available Krylov methods for nonsymmetric linear systems, including well-known convergence properties and, as we said above, template codes that can serve as the base for more individualized and elaborate implementations.",
+                "1. Notation, definitions and tools -- 2. Q-OR and Q-MR methods -- 3. Bases for Krylov subspaces -- 4. FOM/GMRES and variants -- 5. Methods equivalent to FOM or GMRES- 6. Hessenberg/CMRH -- 7. BiCG/QMR and Lanczos algorithms -- 8. Transpose-free Lanczos methods -- 9. The IDR family -- 10. Restart, deflation and truncation -- 11. Related topics -- 12. Numerical comparison of methods -- A. Test matrices and short biographical notices -- References -- Index."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4425226-2"
+            },
+            "volume": "57",
+            "isLike": "doi:10.1007/978-3-030-55251-0",
+            "P30128": [
+                "Springer eBook Collection",
+                "Springer Series in Computational Mathematics"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

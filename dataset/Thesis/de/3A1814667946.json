@@ -1,0 +1,137 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:121667375",
+            "sameAs": "Rädlein, Edda"
+        },
+        {
+            "@id": "gnd:1230166483",
+            "sameAs": "Schneckenburger, Max"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4128683-2",
+            "sameAs": "Glaskeramik"
+        },
+        {
+            "@id": "gnd:4175006-8",
+            "sameAs": "Polieren"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universitätsverlag Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1814667946",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxv, 162 Seiten, Seite xxvii-lx)",
+            "contributor": [
+                "Börret, Reiner",
+                "Fähnle, Oliver"
+            ],
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(doi)10.22032/dbt.52077",
+                "(ppn)1814667946",
+                "(firstid)KXP:1814667946"
+            ],
+            "publisher": "Universitätsverlag Ilmenau",
+            "subject": [
+                "(classificationName=ddc)670.427",
+                "Optisches Bauelement",
+                "Polieren",
+                "(classificationName=rvk)ZM 8370",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)670",
+                "Prozessüberwachung",
+                "Prozessführung",
+                "Prozessoptimierung",
+                "(classificationName=linseach:mapping)fer"
+            ],
+            "title": "Machine learning Modell für die Abtragsvorhersage in der Roboter-Glaskeramik-Politur",
+            "abstract": "Im 21. Jahrhundert gehören optische Systeme zu den Schlüsseltechnologien und spielen eine entscheidende Rolle im technischen Fortschritt. Hochgenaue optische Linsen finden sich u. a. in Astrospiegeln, Lasergyroskopen oder Lithographie-Linsen und die Anforderungen an Stückzahl und Qualität steigen kontinuierlich. Einer der letzten Prozessschritte in der Fertigungskette von Glas Hochleistungsoptiken ist in der Regel die Politur. Von diesem Prozessschritt hängt maßgeblich die Bauteilqualität ab. Trotz langer Tradition und Verwendung in der Industrie herrscht immer noch kein umfassendes Prozessverständnis. Zwar sind empirische Parametersätze vorhanden, jedoch gibt es keine Erkenntnis, inwiefern sich eine Änderung einzelner Parameter auf den Materialabtrag auswirkt. Während zahlreiche Untersuchungen empirische Prozessmodelle betrachteten, blieb der Einsatz von datengetriebenen Poliermodellen bislang weitgehend unbeachtet. Ziel dieser Arbeit ist daher die Entwicklung eines datengetriebenen Poliermodells für die Robotergestützte-Politur von Optiken. Durch den Einsatz von Sensoren am Bearbeitungskopf werden alle relevanten Prozessparameter aufgezeichnet. Durch Datenanalyse können Anomalien und Muster im Prozess detektiert und darauf reagiert bzw. für weitere Analysen genutzt werden. Des Weiteren wird auf Grundlage der Daten ein maschinenlernendes Modell zur Vorhersage von Materialabtrag auf gekrümmten Flächen erstellt und validiert. Das vorliegende Machine learning Modell bildet den betrachteten Polierprozess ab und Einflüsse auf diesen werden durch den Sensoreinsatz abgebildet. Das Modell erreicht eine Vorhersagengenauigkeit des Abtrages von 99,22 % (R2-Wert), welches bei Prozessvorhersagen als sehr gut bewertet wird.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:121667375"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": [
+                "gnd:7635051-4",
+                "gnd:1230166483",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4128683-2"
+                },
+                {
+                    "@id": "gnd:4175006-8"
+                }
+            ],
+            "volume": "Band 24",
+            "isLike": "doi:10.22032/dbt.52077",
+            "P30128": "Werkstofftechnik aktuell",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

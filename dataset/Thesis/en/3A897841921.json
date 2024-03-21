@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1139866516",
+            "sameAs": "Jost, Aurélie"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:4287503-1",
+            "sameAs": "Hochauflösendes Verfahren"
+        },
+        {
+            "@id": "gnd:4290958-2",
+            "sameAs": "Fluoreszenzmikroskopie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A897841921",
+            "@type": "bibo:Thesis",
+            "P1053": "vii, 117 Seiten",
+            "description": [
+                "Illustrationen, Diagramme",
+                "29,5 cm"
+            ],
+            "identifier": [
+                "(firstid)GBV:897841921",
+                "(ppn)897841921"
+            ],
+            "subject": [
+                "(classificationName=bk, id=10641013X)42.03 - Methoden und Techniken der Biologie",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=linseach:mapping)che",
+                "(classificationName=bk, id=106407791)35.16 - Photochemie"
+            ],
+            "title": "Improving structured illumination microscopy by blind reconstruction and multifocus detection",
+            "abstract": "Structured Illumination Microscopy (SIM) is a super-resolution microscopy method which enables a two-fold resolution enhancement with respect to classical wide-field (WF) fluorescence microscopy. In SIM, the sample is illuminated by a pattern, typically a sinusoidal grid of light. This pattern is typically the result of interference of either two or three plane waves. The wide dissemination of SIM is limited by the difficulties arising during the necessary numerical reconstruction. Artefacts are observed in the SIM reconstructed images if the illumination pattern is distorted or unknown. Blind-SIM is a deconvolution-based reconstruction approach that enables to reconstruct both the sample and the illumination pattern. Blind-SIM is able to reconstruct partially or fully unknown illumination patterns and is therefore robust to distortions. However, so far blind-SIM was not able to process data from thick samples where the visibility of the fringes is reduced by the presence of out-of-focus light. In this work, we present the thick slice blind-SIM algorithm which reconstructs a 3D stack from a 2D measurement, thus removing the out-of-focus light. The acquisition speed in 3D SIM is limited by the axial scanning and sequential focusing. Using a multifocus detection enables to simultaneously acquire a focal series. Merging SIM excitation with multifocus detection (MF-SIM) permits to enhance the volumetric acquisition speed of 3D SIM as well as removing the need for axial mechanical scanning, a source of sample drift and vibrations. The recorded MF-SIM data does not obey the same theoretical description as the conventional scanning 3D SIM data. Hence, the classical approach for 3D SIM reconstruction cannot be applied. We developed a deconvolution-based algorithm using known 3D illumination pattern that can be applied to the reconstruction of MF-SIM data. The results demonstrate enhanced resolution in all three dimensions.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1139866516"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4290958-2"
+                },
+                {
+                    "@id": "gnd:4123037-1"
+                },
+                {
+                    "@id": "gnd:4287503-1"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/897841921.pdf",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

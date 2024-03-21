@@ -1,0 +1,126 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1079390154",
+            "sameAs": "Wagner, Claus"
+        },
+        {
+            "@id": "gnd:1100082107",
+            "sameAs": "Bandaru, Vinodh"
+        },
+        {
+            "@id": "gnd:122306538",
+            "sameAs": "Boeck, Thomas"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4130803-7",
+            "sameAs": "Magnetohydrodynamik"
+        },
+        {
+            "@id": "gnd:4177959-9",
+            "sameAs": "Reynolds-Zahl"
+        },
+        {
+            "@id": "gnd:4296739-9",
+            "sameAs": "Lorentz-Kraft"
+        },
+        {
+            "@id": "gnd:4690080-9",
+            "sameAs": "Numerische Strömungssimulation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A864395558",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vi, 119 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Knaepen, Bernhard",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)GBV:864395558",
+                "(ppn)864395558"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)538",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Magnetohydrodynamic duct and channel flows at finite magnetic Reynolds numbers",
+            "abstract": "Magnetohydrodynamische Kanalströmungen (MHD-KS) wurden bisher nur bei vernachlässigbar kleiner magnetischer Reynoldszahl $R_m$ untersucht. Bei endlichem $R_m$ wird das sekundäre Magnetfeld signifikant, was zu einer gekoppelten Entwicklung von Magnetfeld und leitfähiger Strömung führt. Die Charakterisierung solcher Strömungen ist essentiell für das Verständnis von wandbegrenzter MHD-Turbulenz und in Anwendungen wie z.B. elektromagnetischen Pumpen und der induktiven Strömungsmessung. Die Dissertation stellt ein Verfahren für die direkte numerische Simulation (DNS) von MHD-KS bei endlichem $R_m$ vor, welches dann auf drei Probleme angewendet wird. Am Anfang der Arbeit steht eine kurze Übersicht zur MHD und zum Stand des Wissens zu MHD-KS. Danach folgt eine Beschreibung des physikalischen Modells für die MHD-KS mit elektrisch isolierenden Wänden. Im Hauptteil der Arbeit wird ein hybrides Berechnungsverfahren entwickelt und implementiert, das auf finiten Differenzen sowie dem Randintegralverfahren basiert. Es dient zur Lösung der Induktionsgleichung mit Randbedingungen, die für einen stetigen Anschluss des Magnetfelds auf den Gebietsrändern zwischen Innen- und Außenraum sorgen. Eine detaillierte  Verifikation des Codes wird durch Vergleich mit der quasistatischen Näherung vorgenommen. Anschließend wird das Zeitverhalten der Lorentzkraft bei beschleunigter Bewegung einer leitfähigen rechteckigen Stange in einem lokalisierten Magnetfeld untersucht. Die Zeitantwort der Lorentzkraft hängt linear von $R_m$ ab und stimmt gut mit Experimenten überein. Für große $R_m$ sind die Maximalwerte der Lorentzkraft umgekehrt proportional zu $R_m$. Im Weiteren wird das dynamische \"Weglaufen\" der Geschwindigkeit infolge von magnetischer Flussverdrängung in einer zweidimensionalen MHD-KS untersucht. Der Vergleich mit einem eindimensionalen Modell zeigt eine gute Übereinstimmung für das sogenannte Hartmann-Regime und den Bifurkationspunkt zum sogenannten Poiseuille-Regime, bei dem allerdings die Geschwindigkeit vom Modell überschätzt wird. Die Wellenlänge des Magnetfelds ist für den Bifurkationspunkt entscheidend. Abschließend wird die turbulente Hartmannströmung untersucht. Bei endlichem $R_m$ verschiebt sich die Relaminarisierung zu größeren Hartmannzahlen und es  wird großskalige Turbulenz angeregt. Zwischen den Shercliff-Schichten und dem Strömungskern verringern sich die Reynoldsspannungen mit steigendem $R_m$, was zu höherer mittlerer Geschwindigkeit und flacheren Geschwindigkeitsprofilen führt.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1079390154"
+                },
+                {
+                    "@id": "gnd:122306538"
+                }
+            ],
+            "creator": [
+                "gnd:1100082107",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4690080-9"
+                },
+                {
+                    "@id": "gnd:4177959-9"
+                },
+                {
+                    "@id": "gnd:4296739-9"
+                },
+                {
+                    "@id": "gnd:4130803-7"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

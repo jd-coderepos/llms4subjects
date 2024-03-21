@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1074045580",
+            "sameAs": "Orgis, Thomas"
+        },
+        {
+            "@id": "gnd:4003397-1",
+            "sameAs": "Atmosphäre"
+        },
+        {
+            "@id": "gnd:4416235-2",
+            "sameAs": "Mehrskalenanalyse"
+        },
+        {
+            "@id": "gnd:4588309-9",
+            "sameAs": "Diskontinuierliche Galerkin-Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A78950796X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 61674 KB, V, 160 S.)",
+            "contributor": "Dethloff, Klaus",
+            "identifier": [
+                "(firstid)DNB:1052346006",
+                "(ppn)78950796X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=bk, id=106407058)38.81 - Atmosphäre",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Unstetige Galerkin-Diskretisierung niedriger Ordnung in einem atmosphärischen Multiskalenmodell",
+            "abstract": "Die Dynamik der Atmosphäre der Erde umfasst einen Bereich von mikrophysikalischer Turbulenz über konvektive Prozesse und Wolkenbildung bis zu planetaren Wellenmustern. Für Wettervorhersage und zur Betrachtung des Klimas über Jahrzehnte und Jahrhunderte ist diese Gegenstand der Modellierung mit numerischen Verfahren. Mit voranschreitender Entwicklung der Rechentechnik sind Neuentwicklungen der dynamischen Kerne von Klimamodellen, die mit der feiner werdenden Auflösung auch entsprechende Prozesse auflösen können, notwendig. Der dynamische Kern eines Modells besteht in der Umsetzung (Diskretisierung) der grundlegenden dynamischen Gleichungen für die Entwicklung von Masse, Energie und Impuls, so dass sie mit Computern numerisch gelöst werden können. Die vorliegende Arbeit untersucht die Eignung eines unstetigen Galerkin-Verfahrens niedriger Ordnung für atmosphärische Anwendungen. Diese Eignung für Gleichungen mit Wirkungen von externen Kräften wie Erdanziehungskraft und Corioliskraft ist aus der Theorie nicht selbstverständlich. Es werden nötige Anpassungen beschrieben, die das Verfahren stabilisieren, ohne sogenannte „slope limiter” einzusetzen. Für das unmodifizierte Verfahren wird belegt, dass es nicht geeignet ist, atmosphärische Gleichgewichte stabil darzustellen. Das entwickelte stabilisierte Modell reproduziert eine Reihe von Standard-Testfällen der atmosphärischen Dynamik mit Euler- und Flachwassergleichungen in einem weiten Bereich von räumlichen und zeitlichen Skalen. Die Lösung der thermischen Windgleichung entlang der mit den Isobaren identischen charakteristischen Kurven liefert atmosphärische Gleichgewichtszustände mit durch vorgegebenem Grundstrom einstellbarer Neigung zu(barotropen und baroklinen)Instabilitäten, die für die Entwicklung von Zyklonen wesentlich sind. Im Gegensatz zu früheren Arbeiten sind diese Zustände direkt im z-System(Höhe in Metern)definiert und müssen nicht aus Druckkoordinaten übertragen werden.Mit diesen Zuständen, sowohl als Referenzzustand, von dem lediglich die Abweichungen numerisch betrachtet werden, und insbesondere auch als Startzustand, der einer kleinen Störung unterliegt, werden verschiedene Studien der Simulation von barotroper und barokliner Instabilität durchgeführt. Hervorzuheben ist dabei die durch die Formulierung von Grundströmen mit einstellbarer Baroklinität ermöglichte simulationsgestützte Studie des Grades der baroklinen Instabilität verschiedener Wellenlängen in Abhängigkeit von statischer Stabilität und vertikalem Windgradient als Entsprechung zu Stabilitätskarten aus theoretischen Betrachtungen in der Literatu",
+            "alternative": "Low-order discontinuous Galerkin discretization in an atmospheric multi-scale model",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1074045580",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4416235-2"
+                },
+                {
+                    "@id": "gnd:4003397-1"
+                },
+                {
+                    "@id": "gnd:4588309-9"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

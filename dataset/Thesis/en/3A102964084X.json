@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1162525347",
+            "sameAs": "Fleischauer, Markus"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4076110-1",
+            "sameAs": "Phylogenie"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A102964084X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (127 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.35164",
+                "(ppn)102964084X",
+                "(firstid)GBV:102964084X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik"
+            ],
+            "title": "Fast and accurate supertrees : towards large scale phylogenies",
+            "abstract": "Phylogenetics is the study of evolutionary relationships between biological entities; phylogenetic trees (phylogenies) are a visualization of these evolutionary relationships. Accurate approaches to reconstruct hylogenies from sequence data usually result in NPhard optimization problems, hence local search heuristics have to be applied in practice. These methods are highly accurate and fast enough as long as the input data is not too large. Divide-and-conquer techniques are a promising approach to boost scalability and accuracy of those local search heuristics on very large datasets. A divide-and-conquer method breaks down a large phylogenetic problem into smaller sub-problems that are computationally easier to solve. The sub-problems (overlapping trees) are then combined using a supertree method. Supertree methods merge a set of overlapping phylogenetic trees into a supertree containing all taxa of the input trees. The challenge in supertree reconstruction is the way of dealing with conflicting information in the input trees. Many different algorithms for different objective functions have been suggested to resolve these conflicts. In particular, there are methods that encode the source trees in a matrix and the supertree is constructed applying a local search heuristic to optimize the respective objective function. The most widely used supertree methods use such local search heuristics. However, to really improve the scalability of accurate tree reconstruction by divide-and-conquer approaches, accurate polynomial time methods are needed for the supertree reconstruction step. In this work, we present approaches for accurate polynomial time supertree reconstruction in particular Bad Clade Deletion (BCD), a novel heuristic supertree algorithm with polynomial running time. BCD uses minimum cuts to greedily delete a locally minimal number of columns from a matrix representation to make it compatible. Different from local search heuristics, it guarantees to return the directed perfect phylogeny for the input matrix, corresponding to the parent tree of the input trees if one exists. BCD can take support values of the source trees into account without an increase in complexity. We show how reliable clades can be used to restrict the search space for BCD and how those clades can be collected from the input data using the Greedy Strict Consensus Merger. Finally, we introduce a beam search extension for the BCD algorithm that keeps alive a constant number of partial solutions in each top-down iteration phase. The guaranteed worst-case running time of BCD with beam search extension is still polynomial. We present an exact and a randomized subroutine to generate suboptimal partial solutions. In our thorough evaluation on several simulated and biological datasets against a representative set of supertree methods we found that BCD is more accurate than the most accurate supertree methods when using support values and search space restriction on simulated data. Simultaneously BCD is faster than any other evaluated method. The beam search approach improved the accuracy of BCD on all evaluated datasets at the cost of speed. We found that BCD supertrees can boost maximum likelihood tree reconstruction when used as starting tree. Further, BCD could handle large scale datasets where local search heuristics did not converge in reasonable time. Due to its combination of speed, accuracy, and the ability to reconstruct the parent tree if one exists, BCD is a promising approach to enable outstanding scalability of divide-and-conquer approaches.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1162525347"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4611085-9"
+                },
+                {
+                    "@id": "gnd:4076110-1"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.35164",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:171528603",
+            "sameAs": "Politis, Dimitris N."
+        },
+        {
+            "@id": "gnd:4037612-6",
+            "sameAs": "Markov-Kette"
+        },
+        {
+            "@id": "gnd:4121498-5",
+            "sameAs": "Prädiktor"
+        },
+        {
+            "@id": "gnd:4129903-6",
+            "sameAs": "Regressionsanalyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1654090298",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XVII, 246 p. 22 illus., 5 illus. in color, online resource)",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1654090298",
+                "(firstid)BSZ:455187991",
+                "(isbn13)9783319213477",
+                "(doi)10.1007/978-3-319-21347-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=msc)62M10",
+                "(classificationName=loc)QA276-280",
+                "(classificationName=msc)*62-02",
+                "(classificationName=msc)62M20",
+                "Statistics",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)62G08",
+                "Mathematical statistics",
+                "(classificationName=msc)62J02",
+                "(classificationName=ddc)519.5",
+                "(classificationName=rvk)SK 840",
+                "(classificationName=msc)62J05",
+                "(classificationName=msc)62M02",
+                "(classificationName=msc)62P20"
+            ],
+            "title": "Model-Free Prediction and Regression : A Transformation-Based Approach to Inference",
+            "abstract": [
+                "The Model-Free Prediction Principle expounded upon in this monograph is based on the simple notion of transforming a complex dataset to one that is easier to work with, e.g., i.i.d. or Gaussian. As such, it restores the emphasis on observable quantities, i.e., current and future data, as opposed to unobservable model parameters and estimates thereof, and yields optimal predictors in diverse settings such as regression and time series. Furthermore, the Model-Free Bootstrap takes us beyond point prediction in order to construct frequentist prediction intervals without resort to unrealistic assumptions such as normality. Prediction has been traditionally approached via a model-based paradigm, i.e., (a) fit a model to the data at hand, and (b) use the fitted model to extrapolate/predict future data. Due to both mathematical and computational constraints, 20th century statistical practice focused mostly on parametric models. Fortunately, with the advent of widely accessible powerful computing in the late 1970s, computer-intensive methods such as the bootstrap and cross-validation freed practitioners from the limitations of parametric models, and paved the way towards the `big data&apos; era of the 21st century. Nonetheless, there is a further step one may take, i.e., going beyond even nonparametric models; this is where the Model-Free Prediction Principle is useful. Interestingly, being able to predict a response variable Y associated with a regressor variable X taking on any possible value seems to inadvertently also achieve the main goal of modeling, i.e., trying to describe how Y depends on X. Hence, as prediction can be treated as a by-product of model-fitting, key estimation problems can be addressed as a by-product of being able to perform prediction. In other words, a practitioner can use Model-Free Prediction ideas in order to additionally obtain point estimates and confidence intervals for relevant parameters leading to an alternative, transformation-based approach to statistical inference",
+                "Prediction: some heuristic notions -- The Model-free Prediction Principle -- Model-based prediction in regression -- Model-free prediction in regression -- Model-free vs. model-based confidence intervals -- Linear time series and optimal linear prediction -- Model-based prediction in autoregression -- Model-free inference for Markov processes -- Predictive inference for locally stationary time series -- Model-free vs. model-based volatility prediction"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:171528603",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4037612-6"
+                },
+                {
+                    "@id": "gnd:4121498-5"
+                },
+                {
+                    "@id": "gnd:4129903-6"
+                }
+            ],
+            "isLike": "doi:10.1007/978-3-319-21347-7",
+            "P30128": [
+                "SpringerLink",
+                "Bücher",
+                "Frontiers in Probability and the Statistical Sciences"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

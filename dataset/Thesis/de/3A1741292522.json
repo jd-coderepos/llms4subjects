@@ -1,0 +1,129 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046573225",
+            "sameAs": "Hash-Tabelle"
+        },
+        {
+            "@id": "gnd:1149938927",
+            "sameAs": "Panagiotou, Konstantinos"
+        },
+        {
+            "@id": "gnd:1173122729",
+            "sameAs": "Walzer, Stefan"
+        },
+        {
+            "@id": "gnd:130020761",
+            "sameAs": "Dietzfelbinger, Martin"
+        },
+        {
+            "@id": "gnd:140232281",
+            "sameAs": "Mitzenmacher, Michael"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4323071-4",
+            "sameAs": "Hash-Algorithmus"
+        },
+        {
+            "@id": "gnd:4332175-6",
+            "sameAs": "Datenspeicherung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1741292522",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ix, 165 Seiten)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1741292522",
+                "(ppn)1741292522"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc)005.7",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Random hypergraphs for hashing-based data structures",
+            "abstract": "Diese Arbeit behandelt Wörterbücher und verwandte Datenstrukturen, die darauf aufbauen, mehrere zufällige Möglichkeiten zur Speicherung jedes Schlüssels vorzusehen. Man stelle sich vor, Information über eine Menge S von m = |S| Schlüsseln soll in n Speicherplätzen abgelegt werden, die durch [n] = {1,…,n} indiziert sind. Jeder Schlüssel x [ELEMENT OF] S bekommt eine kleine Menge e(x) [SUBSET OF OR EQUAL TO] [n] von Speicherplätzen durch eine zufällige Hashfunktion unabhängig von anderen Schlüsseln zugewiesen. Die Information über x darf nun ausschließlich in den Plätzen aus e(x) untergebracht werden. Es kann hierbei passieren, dass zu viele Schlüssel um dieselben Speicherplätze konkurrieren, insbesondere bei hoher Auslastung c = m/n. Eine erfolgreiche Speicherung der Gesamtinformation ist dann eventuell unmöglich. Für die meisten Verteilungen von e(x) lässt sich Erfolg oder Misserfolg allerdings sehr zuverlässig vorhersagen, da für Auslastung c unterhalb eines gewissen Auslastungsschwellwertes c* die Erfolgswahrscheinlichkeit nahezu 1 ist und für c jenseits dieses Auslastungsschwellwertes nahezu 0 ist. Hauptsächlich werden wir zwei Arten von Datenstrukturen betrachten: - Eine Kuckucks-Hashtabelle ist eine Wörterbuchdatenstruktur, bei der jeder Schlüssel x [ELEMENT OF] S zusammen mit einem assoziierten Wert f(x) in einem der Speicherplätze mit Index aus e(x) gespeichert wird. Die Verteilung von e(x) wird hierbei vom Hashing-Schema festgelegt. Wir analysieren drei bekannte Hashing-Schemata und bestimmen erstmals deren exakte Auslastungsschwellwerte im obigen Sinne. Die Schemata sind unausgerichtete Blöcke, Doppel-Hashing sowie ein Schema für dynamisch wachsenden Schlüsselmengen. - Auch eine Retrieval-Datenstruktur speichert einen Wert f(x) für alle x [ELEMENT OF] S. Diesmal sollen die Werte in den Speicherplätzen aus e(x) eine lineare Gleichung erfüllen, die den Wert f(x) charakterisiert. Die entstehende Datenstruktur ist extrem platzsparend, aber ungewöhnlich: Sie ist ungeeignet um Fragen der Form \"ist y [ELEMENT OF] S?\" zu beantworten. Bei Anfrage eines Schlüssels y wird ein Ergebnis z zurückgegeben. Falls y [ELEMENT OF] S ist, so ist z = f(y) garantiert, andernfalls darf z ein beliebiger Wert sein. - Wir betrachten zwei neue Hashing-Schemata, bei denen die Elemente von e(x) in einem oder in zwei zusammenhängenden Blöcken liegen. So werden gute Zugriffszeiten auf Word-RAMs und eine hohe Cache-Effizienz erzielt. Eine wichtige Frage ist, ob Datenstrukturen obiger Art in Linearzeit konstruiert werden können. Die Erfolgswahrscheinlichkeit eines naheliegenden Greedy-Algorithmus weist abermals ein Schwellwertverhalten in Bezug auf die Auslastung c auf. Wir identifizieren ein Hashing-Schema, das diesbezüglich einen besonders hohen Schwellwert mit sich bringt. In der mathematischen Modellierung werden die Speicherpositionen [n] als Knoten und die Mengen e(x) für x [ELEMENT OF] S als Hyperkanten aufgefasst. Drei Eigenschaften der entstehenden Hypergraphen stellen sich dann als zentral heraus: Schälbarkeit, Lösbarkeit und Orientierbarkeit. Weite Teile dieser Arbeit beschäftigen sich daher mit den Wahrscheinlichkeiten für das Vorliegen dieser Eigenschaften abhängig von Hashing Schema und Auslastung, sowie mit entsprechenden Schwellwerten. Eine Rückübersetzung der Ergebnisse liefert dann Datenstrukturen mit geringen Anfragezeiten, hoher Speichereffizienz und geringen Konstruktionszeiten. Die theoretischen Überlegungen werden dabei durch experimentelle Ergebnisse ergänzt und gestützt.",
+            "contributor": [
+                "gnd:140232281",
+                "gnd:1149938927",
+                "gnd:130020761"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1173122729"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:1046573225"
+                },
+                {
+                    "@id": "gnd:4332175-6"
+                },
+                {
+                    "@id": "gnd:4323071-4"
+                },
+                {
+                    "@id": "gnd:4072803-1"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

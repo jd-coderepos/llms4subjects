@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4003747-2",
+            "sameAs": "Ausländischer Schüler"
+        },
+        {
+            "@id": "gnd:4062872-3",
+            "sameAs": "Verhaltensstörung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A015620832",
+            "@type": "bibo:Book",
+            "P1053": "IV, 94 S",
+            "creator": "Malecha, Bodo",
+            "description": "Ill",
+            "identifier": [
+                "(ppn)015620832",
+                "(isbn)3881295526",
+                "(firstid)GBV:015620832"
+            ],
+            "publisher": "Haag + Herchen",
+            "subject": [
+                "(classificationName=dbn)11",
+                "Psychische Störung",
+                "Sozialisation durch Schule",
+                "(classificationName=rvk)DT 7000",
+                "Ausländischer Schüler",
+                "(classificationName=dbn)22",
+                "Ausländisches Kind",
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=dbn)14",
+                "Gastarbeiter",
+                "Verhaltensgestörtes Kind"
+            ],
+            "title": "Das verhaltensgestörte Gastarbeiterkind an deutschen Schulen : Ursachen und Auswege",
+            "abstract": "Literaturverzeichnis",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1982",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4062872-3"
+                },
+                {
+                    "@id": "gnd:4003747-2"
+                }
+            ],
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

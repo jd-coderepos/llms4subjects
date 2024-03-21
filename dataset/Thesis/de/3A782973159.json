@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1050204190",
+            "sameAs": "Hesse, Tobias"
+        },
+        {
+            "@id": "gnd:124594212",
+            "sameAs": "Sattel, Thomas"
+        },
+        {
+            "@id": "gnd:4267628-9",
+            "sameAs": "Bahnplanung"
+        },
+        {
+            "@id": "gnd:7714938-5",
+            "sameAs": "Autonomes Fahrzeug"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A782973159",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XXIII, 242 S., 40,26 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Lemmer, Karsten",
+                "Wallaschek, Jörg"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:782973159",
+                "(ppn)782973159"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Predictive forcefield trajectory planning for automated vehicles",
+            "abstract": "Autofahren ist eine komplexe und herausfordernde Aufgabe, wie die unzähligen meist auf menschliches Fehlverhalten zurückzuführenden Unfälle Jahr für Jahr belegen. Daher arbeiten Automobilindustrie und Forschung fieberhaft daran, die stetig wachsenden technischen Möglichkeiten im Bereich der Sensorik, Datenverarbeitung und Kommunikation für den Fahrer nutzbar machen. Um dem Fahrer in Zukunft aber auch in komplexen Situationen eine qualifizierte Assistenz oder Automatisierung bieten zu können, die den Fahrer vorausschauend unterstützt oder gar selber handelt, ist eine detaillierte Trajektorienplanung unabdingbar. Der Beitrag dieser Arbeit besteht hauptsächlich in dem neu entwickelten Trajektorienplanungsverfahren, das die Vorteile einer A*-basierten Graphensuche sowie die von vorausschauenden Potentialfeldansätzen in einem Initialisierungs- und einem Optimierungsschritt ausnutzt. Dabei werden Bahn und Geschwindigkeitsprofil simultan geplant. Die grundlegende Weiterentwicklung der Trajektorienoptimierung liegt in einer Erweiterung, die die simultane Planung bzw. Optimierung von Weg und Geschwindigkeitsprofil ermöglicht. Im Unterschied zu früheren Entwicklungsständen der Methode wird hier der dynamische Fahrzeugzustand berücksichtigt. Außerdem wurden durch die Verwendung lokaler Koordinatensysteme viele vorherige Einschränkungen auf bestimmte Straßenverläufe eliminiert. Die stichprobenbasierte Trajektorieninitialisierung basiert auf der Weiterentwicklung eines Anytime Weighted A* (AWA*) Verfahrens. Der Suchraum (Längsposition, Querposition, Zeit, Orientierung und Geschwindigkeit) wird hier durch einen offline generierten \"State-lattice\" diskretisiert, was eine effiziente Suche und eine Art der Auflösungs-Vollständigkeit gewährleistet. Zusätzlich zu der Entwicklung des beschriebenen Trajektorienplanungsverfahrens wurde ein Versuchsfahrzeug aufgebaut, um die Anwendbarkeit des entwickelten Verfahrens für autonomes Fahren zu demonstrieren. Dazu wurde ein BMW mit der notwendigen Aktorik, Sensorik und Informationsverarbeitung ausgestattet. Die Zustandsbestimmung basiert auf der Datenfusion aus GPS und Inertialsensorik. Durch die Konstruktion geeigneter Adapter wurden Lenkung, Bremssystem und Antriebsstrang automatisiert und sind über einen PC steuerbar. Die Fahrzeugregelung besteht aus einer Reihe unterlagerter Regelkreise sowie einem Regleransatz zur integrierten Längs- und Querführung nach dem Prinzip der nichtlinearen Entkopplung.Die Anwendbarkeit des Planungsverfahrens zur Online-Trajektorienplanung, sowie die Funktionsfähigkeit der implementierten Hard- und Software zur Fahrzeugregelung wurden in Fahrversuchen erfolgreich demonstriert.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:124594212"
+                }
+            ],
+            "creator": "gnd:1050204190",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7714938-5"
+                },
+                {
+                    "@id": "gnd:4267628-9"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

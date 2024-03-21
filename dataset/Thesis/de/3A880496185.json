@@ -1,0 +1,121 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027072291",
+            "sameAs": "Werner, Herbert"
+        },
+        {
+            "@id": "gnd:1051121949",
+            "sameAs": "Quadrocopter"
+        },
+        {
+            "@id": "gnd:1220441066",
+            "sameAs": "Rosero García, Esteban Emilio"
+        },
+        {
+            "@id": "gnd:132198975",
+            "sameAs": "Zimmermann, Karl-Heinz"
+        },
+        {
+            "@id": "gnd:16058694-X",
+            "sameAs": "Technische Universität Hamburg-Harburg, Institut für Regelungstechnik"
+        },
+        {
+            "@id": "gnd:2067664-5",
+            "sameAs": "Technische Universität Hamburg-Harburg"
+        },
+        {
+            "@id": "gnd:4389058-1",
+            "sameAs": "Mehragentensystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A880496185",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource ( XV, 111 Seiten )",
+            "identifier": [
+                "(ppn)880496185",
+                "(firstid)GBV:880496185"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik",
+                "Multi agents",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec",
+                "Level curve tracking",
+                "Cooperative control",
+                "Quad-rotor helicopters",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "Source seeking"
+            ],
+            "title": "Cooperative source seeking and level curve tracking for multi-agent systems",
+            "abstract": [
+                "In dieser Arbeit wird das Problem der kooperativen Regelung zur Quellensuche und Verfolgung von Niveaulinien für Multi-Agenten-Systeme behandelt, die über eine beschränkte ungerichtete Topologie vernetzt sind. Für diesen Zweck werden verteilte Regelungsalgorithmen vorgeschlagen, die den autonomen Agenten das Erreichen der Quelle eines unbekannten Skalarfeldes ermöglichen oder ihnen die Verfolgung einer gewünschten Niveaukurve erlauben. Jeder einzelne Agent schätzt die Richtung des Gradienten, wobei er ausschließlich auf die lokal gesammelten Informationen angewiesen ist, die ihm in Form der relativen Positionsdaten anderer Agenten sowie der Konzentrationswerte des Skalarfeldes an seiner eigenen Position zur Verfügung stehen. Die vorgestellten Regelungsalgorithmen bestehen aus einer Formationsregelung, die die Agenten in gewünschter geometrischer Formation hält, und aus einer Zielverfolgungskompomente, die die Agenten in Quellrichtung oder entlang einer erwünschten Niveaukurve fliegen lässt. In Verlauf der Untersuchung werden sowohl einfache als auch doppelte Integratormodelle berücksichtigt, sowie auch lineare zeitinvariante (LTI-) Modelle und nicht-holonome Systeme. Stabilitätsbedingungen und Simulationsergebnisse sowohl für einfache und doppelte Integratoren wie auch für LTI-Systeme werden präsentiert.",
+                "In this thesis, the cooperative source seeking and the level curve tracking problem using a group of agents under an undirected constrained communication topology are addressed. To solve it, distributed control algorithms enabling agents to drive towards an unknown scalar field&apos;s source or to move along a desired scalar field&apos;s level curve are proposed. Each agent estimates a gradient direction based only on neighbouring agents&apos; relative position information and scalar field&apos;s concentration values at their own location. The control algorithms presented are based on both a formation control component ( keeping agents in a desired geometric driving pattern) and a trajectory control component (steering agents in the source&apos;s direction or along the desired level curve). Along this work single and double integrators are considered, as well as linear time invariant (LTI) and non-holonomic systems. Stability conditions and simulation results are provided for single and double integrators, as well as for LTI systems."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1027072291"
+                },
+                {
+                    "@id": "gnd:132198975"
+                }
+            ],
+            "creator": [
+                "gnd:2067664-5",
+                "gnd:1220441066",
+                "gnd:16058694-X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4389058-1"
+                },
+                {
+                    "@id": "gnd:1051121949"
+                }
+            ],
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

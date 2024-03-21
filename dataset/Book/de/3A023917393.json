@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118162411",
+            "sameAs": "Häntzschel, Günter"
+        },
+        {
+            "@id": "gnd:118634607",
+            "sameAs": [
+                "Wohmann, Gabriele",
+                "Wohmann, Gabriele 1932-2015"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A023917393",
+            "@type": "bibo:Book",
+            "P1053": "166 S.",
+            "description": "18 cm",
+            "identifier": [
+                "(firstid)GBV:023917393",
+                "(isbn)3406086918",
+                "(ppn)023917393"
+            ],
+            "publisher": "Beck [u.a.]",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=dbn)53",
+                "(classificationName=ddc)838/.91409",
+                "(classificationName=rvk)GN 9928"
+            ],
+            "title": "Gabriele Wohmann",
+            "abstract": "Literaturverzeichnis",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:118634607"
+                },
+                {
+                    "@id": "gnd:118162411"
+                }
+            ],
+            "issued": "1982",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118634607"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht001053748.pdf",
+            "volume": "30",
+            "P30128": "Autorenbücher",
+            "P60163": "München"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

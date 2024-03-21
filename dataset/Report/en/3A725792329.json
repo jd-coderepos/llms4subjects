@@ -1,0 +1,118 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:141123966",
+            "sameAs": "Neumann, Stefan"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4132847-4",
+            "sameAs": "Graph-Grammatik"
+        },
+        {
+            "@id": "gnd:7537632-5",
+            "sameAs": "SysML"
+        },
+        {
+            "@id": "gnd:7616754-9",
+            "sameAs": "Modelltransformation"
+        },
+        {
+            "@id": "gnd:7665620-2",
+            "sameAs": "AUTOSAR"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A725792329",
+            "@type": "bibo:Report",
+            "P1053": "VI, 51 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Wätzoldt, Sebastian",
+            "http://purl.org/dc/elements/1.1/creator": "Hildebrandt, Stephan",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)725792329",
+                "(firstid)GBV:725792329",
+                "(isbn13)9783869561912"
+            ],
+            "publisher": "Universitätsverlag Potsdam",
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften"
+            ],
+            "title": "Industrial case study on the integration of SysML and AUTOSAR with triple graph grammars",
+            "abstract": "During the overall development of complex engineering systems different modeling notations are employed. For example, in the domain of automotive systems system engineering models are employed quite early to capture the requirements and basic structuring of the entire system, while software engineering models are used later on to describe the concrete software architecture. Each model helps in addressing the specific design issue with appropriate notations and at a suitable level of abstraction. However, when we step forward from system design to the software design, the engineers have to ensure that all decisions captured in the system design model are correctly transferred to the software engineering model. Even worse, when changes occur later on in either model, today the consistency has to be reestablished in a cumbersome manual step. In this report, we present in an extended version of [Holger Giese, Stefan Neumann, and Stephan Hildebrandt. Model Synchronization at Work: Keeping SysML and AUTOSAR Models Consistent. In Gregor Engels, Claus Lewerentz, Wilhelm Schäfer, Andy Schürr, and B. Westfechtel, editors, Graph Transformations and Model Driven Enginering - Essays Dedicated to Manfred Nagl on the Occasion of his 65th Birthday, volume 5765 of Lecture Notes in Computer Science, pages 555–579. Springer Berlin / Heidelberg, 2010.] how model synchronization and consistency rules can be applied to automate this task and ensure that the different models are kept consistent. We also introduce a general approach for model synchronization. Besides synchronization, the approach consists of tool adapters as well as consistency rules covering the overlap between the synchronized parts of a model and the rest. We present the model synchronization algorithm based on triple graph grammars in detail and further exemplify the general approach by means of a model synchronization solution between system engineering models in SysML and software engineering models in AUTOSAR which has been developed for an industrial partner. In the appendix as extension to [19] the meta-models and all TGG rules for the SysML to AUTOSAR model synchronization are documented.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:173277950",
+                "gnd:141123966"
+            ],
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7665620-2"
+                },
+                {
+                    "@id": "gnd:7616754-9"
+                },
+                {
+                    "@id": "gnd:7537632-5"
+                },
+                {
+                    "@id": "gnd:4132847-4"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/725792329.pdf",
+            "volume": "57",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Softwaresystemtechnik an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

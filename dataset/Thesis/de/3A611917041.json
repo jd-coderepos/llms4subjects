@@ -1,0 +1,135 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10194020-8",
+            "sameAs": "Technische Universität Hamburg-Harburg, Institut für Mechanik und Meerestechnik"
+        },
+        {
+            "@id": "gnd:109012453",
+            "sameAs": "Kreuzer, Edwin"
+        },
+        {
+            "@id": "gnd:131805495",
+            "sameAs": "Wagner, Jörg F."
+        },
+        {
+            "@id": "gnd:139682988",
+            "sameAs": "Pick, Marc-André"
+        },
+        {
+            "@id": "gnd:4006321-5",
+            "sameAs": "Bewegungsgleichung"
+        },
+        {
+            "@id": "gnd:4052385-8",
+            "sameAs": "Schiff"
+        },
+        {
+            "@id": "gnd:4054117-4",
+            "sameAs": "Seegang"
+        },
+        {
+            "@id": "gnd:4055072-2",
+            "sameAs": "Simulation"
+        },
+        {
+            "@id": "gnd:4168847-8",
+            "sameAs": "Manövrierfähigkeit"
+        },
+        {
+            "@id": "gnd:4198196-0",
+            "sameAs": "Schiffsrumpf"
+        },
+        {
+            "@id": "gnd:4511937-5",
+            "sameAs": "Online-Ressource"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A611917041",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (XI, 139 S., 7.1 MB)",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)611917041",
+                "(firstid)GBV:611917041"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106420577)55.40 - Schiffstechnik, Schiffbau",
+                "Kalman-Filter, Schiff, Schiffsbewegung, Inertialmesseinheit",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=rvk)ZO 6200",
+                "(classificationName=ddc)620",
+                "(classificationName=bk, id=181569973)55.44 - Schiffsführung",
+                "(classificationName=linseach:mapping)ver"
+            ],
+            "title": "Ein Beitrag zur numerischen und experimentellen Untersuchung extremer Schiffsbewegungen",
+            "abstract": "Die Dynamik von Schiffen kann bei kleinen Anregungen durch lineare Modelle exakt beschrieben und analysiert werden. Wachsen die Anregungen, können die Bewegungen Amplituden annehmen, bei denen die Nichtlinearitäten des Systems nicht mehr vernachlässigt werden können. In diesen Fällen können das Bewegungsverhalten und das Vorhandensein kritischer Bewegungszustände nur noch im Zeitbereich untersucht werden, was auf Simulationen hinausläuft. Das Ergebnis einer Simulation eines nichtlinearen dynamischen Systems ist jedoch stark von den Parametern des Systems sowie von den Anfangsbedingungen abhängig, so dass zu jeder Kombination aus Anfangsbedingungen und Systemparametern eine Simulation erstellt werden müsste, um die Reaktion eines Schiffes auf alle relevanten Seegangsbedingungen bewerten zu können. Seit zwei Jahrzehnten stehen effiziente mathematische Analyseverfahren zur Behandlung stark nichtlinearer Probleme zur Verfügung. In dieser Arbeit wird mit Hilfe der lokalen Verzweigungsanalyse die Existenz kritischer Bewegungsformen gezeigt. Die hydrodynamischen Kräfte und Momente werden dabei mit dem Programmpaket Simbel berechnet. Trotz einer Modifikation der in Simbel implementierten Hydrodynamikberechnung stellte sich heraus, dass die Analyse eines vollständig modellierten Schiffes bis heute noch nicht zufriedenstellend gelingt, da die Rechenzeiten immer noch sehr lang sind. Das gleiche gilt für die Möglichkeit, in Versuchen preisgünstig gezielt kritische Stellen, die zu einer abrupten Änderung des Systemverhaltens durch eine minimale Parameteränderung führen, im Experiment zu zeigen. Dabei soll es in diesen Versuchen im Entwicklungsstadium der Methoden nicht um die Untersuchung eines speziellen Schiffsrumpfes unter möglichst realen Seegangsbedingungen gehen, sondern um den experimentellen Nachweis der numerisch ermittelten Phänomene. In der vorgestellten Arbeit wird zu beiden Problemen ein Lösungsansatz entwickelt und die Tauglichkeit demonstriert. Für die Versuche ist ein Versuchsschwimmkörper mit einfacher Geometrie entwickelt worden, mit dem im Labor des Institutes umfangreiche Parameterstudien kostengünstig durchgeführt werden können. Das dafür entwickelte berührungslose Positions- und Lagemesssystem liefert Messwerte mit einer Genauigkeit von bis zu einem halben Millimeter in den translatorischen und von einem Hundertstel Grad bei den rotatorischen Freiheitsgraden bei einer Frequenz von 228Hz. Diese Präzision bei einer so hohen Dynamik wird durch den Einsatz eines integrierten Messsystems aus Stereokamera und einer Inertialmesseinheit (IMU) der tactical gradeKlasse, die durch ein erweitertes kontinuierlichdiskretes KalmanFilter in Echtzeit miteinander kombiniert werden, erreicht. Sowohl die IMU als auch die Stereokamera wurden aus Standardkomponenten aufgebaut, so dass sämtliche Sensorrohdaten und die Zwischenwerte jeder Verarbeitungsstufe vorliegen. Dieser Vorteil im Vergleich zum Einsatz einer kommerziellen IMU oder Stereokamera ermöglicht die Umsetzung unterschiedlicher Integrationstiefen bei der Kombination beider Systeme. In der rechenintensivsten Variante werden Parameter beider Subsysteme als Zustandsgröße des Gesamtsystems geführt, so dass sich einzelne Kameraparameter und IMUSensorfehler während des Betriebs schätzen und kompensieren lassen. Im Wellenkanal des Institutes für Mechanik und Meerestechnik ist kein Platz für umfangreiche Manöver oder Tests mit dem fahrenden Schwimmkörper vorhanden. Daher werden die Versuche hier auf einen stehenden oder langsam fahrenden Schwimmkörper beschränkt, was jedoch nur eine geringe Einschränkung für die Methodenvalidierung bedeutet. Durch ein dynamisches Positioniersystem wird der Schwimmkörper bei Wellenanregungen auf seiner Sollposition gehalten, ohne dass dabei die Roll- oder die Stampfbewegungen nennenswert angeregt werden. Die Positioniergenauigkeit liegt bei schwachen Anregungen bei schlimmstenfalls ±2mm, bei hohen Wellen und starken Bewegungen liegt die Genauigkeit bei ca. ±10mm quer zu den Wellen und ca. ±30mm in Wellenrichtung. Mit dieser Versuchsanordnung ist es zukünftig möglich, unter beliebigen Winkeln zu den einfallenden Wellen gut wiederholbare Messungen durchzuführen, bei denen man sich in Abstimmung mit den Berechnungen den kritischen Systemzuständen nähern kann. Da die Messungen, die Regelung und die Wellenklappensteuerung miteinander vernetzt sind, kann diese Parametersuche weitestgehend automatisiert ablaufen und gegebenenfalls durch Optimierer beschleunigt werden. Die numerischen Untersuchungen werden durch ein hier in dieser Arbeit entwickeltes Modellreduktionsverfahren beschleunigt, mit dem die Ordnung des mathematischen Systems deutlich reduziert werden kann. Dies verkürzt zum einen die Rechenzeit, führt aber vor allen Dingen zu einem schnelleren Einschwingen des Systems auf eine periodische Bewegung.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:131805495"
+                },
+                {
+                    "@id": "gnd:109012453"
+                }
+            ],
+            "creator": [
+                "gnd:139682988",
+                "gnd:10194020-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4168847-8",
+                "gnd:4198196-0",
+                "gnd:4006321-5",
+                "gnd:4052385-8",
+                "gnd:4055072-2",
+                "gnd:4511937-5",
+                "gnd:4054117-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

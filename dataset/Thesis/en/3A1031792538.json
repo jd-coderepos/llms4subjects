@@ -1,0 +1,109 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1167451600",
+            "sameAs": "Schilling, Christian"
+        },
+        {
+            "@id": "gnd:4003953-5",
+            "sameAs": "Automatentheorie"
+        },
+        {
+            "@id": "gnd:4044614-1",
+            "sameAs": "Parameterschätzung"
+        },
+        {
+            "@id": "gnd:4135577-5",
+            "sameAs": "Verifikation"
+        },
+        {
+            "@id": "gnd:4213494-8",
+            "sameAs": "Lineares zeitinvariantes System"
+        },
+        {
+            "@id": "gnd:4411406-0",
+            "sameAs": "Erreichbarkeitsmenge"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1031792538",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (116 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.6094/UNIFR/16396",
+                "(ppn)1031792538",
+                "(contract)FRUB-opus-16396",
+                "(firstid)BSZ:511187424"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Fundamental techniques for the scalable analysis of systems",
+            "abstract": [
+                "Abstract: This thesis introduces three fundamental techniques for the analysis of systems.&lt;br&gt;&lt;br&gt;A new algorithm for the automatic parameter synthesis in stochastic systems.&lt;br&gt;The algorithm performs a search in the parameter domain and integrates precise but slow stochastic simulation and less precise but fast approximation techniques.&lt;br&gt;During the search, the algorithm uses a fast approximation technique as long as the search stays within the same region in the parameter domain, and only applies the precise stochastic simulation if a new region in the parameter domain is entered.&lt;br&gt;&lt;br&gt;A new minimization algorithm for a specific class of visibly pushdown automata.&lt;br&gt;The class is general, and the motivation for the class stems from its use in trace abstraction.&lt;br&gt;Trace abstraction is an approach to verify programs with procedures.&lt;br&gt;In this context, minimization is crucial to circumvent the state explosion problem.&lt;br&gt;The algorithm reduces the minimization of the automaton to the synthesis of an appropriate equivalence relation.&lt;br&gt;The synthesis of an appropriate equivalence relation reduces to finding a maximal satisfying assignment to a Boolean formula.&lt;br&gt;&lt;br&gt;A new algorithm for reachability analysis of continuous systems with linear dynamics and nondeterministic inputs (LTI systems).&lt;br&gt;The achievement of the algorithm is to integrate set-based operations and linear algebra operations in such a way that the application of the (notoriously costly) set operations is restricted to low dimensions.&lt;br&gt;&lt;br&gt;To summarize, we present three techniques for the scalable analysis of systems.&lt;br&gt;The techniques are proven to be effective in advancing the state of the art",
+                "Abstract: Diese Dissertation stellt drei fundamentale Techniken zur Analyse von Systemen vor.&lt;br&gt;&lt;br&gt;Ein neuer Algorithmus zur automatischen Parametersynthese in stochastischen Systemen.&lt;br&gt;Der Algorithmus führt eine Parametersuche durch, wobei er präzise, aber langsame stochastische Simulation und weniger präzise, aber schnelle Approximationstechniken integriert.&lt;br&gt;Für diese Suche wird solange eine schnelle Approximationstechnik verwendet, wie sich die Suche in derselben Region im Parameterraum bewegt.&lt;br&gt;Nur wenn eine neue Region betreten wird, wird die präzise stochastische Simulation eingesetzt.&lt;br&gt;&lt;br&gt;Ein neuer Minimierungsalgorithmus für eine Klasse von Visibly Pushdown-Automaten.&lt;br&gt;Die Automatenklasse ist motiviert durch ihre Verwendung in Trace Abstraction, einer Verifikationsmethode für Programme mit Prozeduren.&lt;br&gt;Minimierung ist entscheidend, um die kombinatorische Explosion des Zustandsraums zu umgehen.&lt;br&gt;Der Algorithmus reduziert die Automatenminimierung auf die Synthese einer geeigneten Äquivalenzrelation.&lt;br&gt;Die Synthese erfolgt durch das Finden einer maximal erfüllenden Belegung für eine aussagenlogische Formel.&lt;br&gt;&lt;br&gt;Ein neuer Algorithmus zur Erreichbarkeitsanalyse von kontinuierlichen Systemen mit linearer Dynamik und Nichtdeterminismus (sog. LTI-Systeme).&lt;br&gt;Der Algorithmus integriert Mengenoperation und Operationen aus der linearen Algebra derart, dass die Anwendung der (notorisch teuren) Mengenoperationen in niedrigen Dimensionen durchgeführt wird.&lt;br&gt;&lt;br&gt;Zusammenfassend zeigen wir in dieser Dissertation drei Verfahren zur skalierbaren Analyse von Systemen, die den aktuellen Stand der Technik weiterentwickeln"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1167451600",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4003953-5",
+                "gnd:4411406-0",
+                "gnd:4044614-1",
+                "gnd:4213494-8",
+                "gnd:4135577-5"
+            ],
+            "isLike": "doi:10.6094/UNIFR/16396",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

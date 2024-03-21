@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1035152541",
+            "sameAs": "Sellmann, Martin"
+        },
+        {
+            "@id": "gnd:118509357",
+            "sameAs": "Berg, Günther Heinrich von 1765-1843"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A024253367",
+            "@type": "bibo:Book",
+            "P1053": "294 S.",
+            "description": "Ill",
+            "identifier": [
+                "(isbn)3873581582",
+                "(ppn)024253367",
+                "(firstid)GBV:024253367"
+            ],
+            "publisher": "Holzberg",
+            "subject": [
+                "(classificationName=dbn)63",
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=bk, id=181571579)15.51 - Niedersachsen, Bremen",
+                "Rechtswissenschaften. 19. Jahrhundert",
+                "(classificationName=loksys-fbr)jur 003.7 ea",
+                "(classificationName=rvk)NR 4970",
+                "(classificationName=ddc)943.5907"
+            ],
+            "title": "Günther Heinrich von Berg : 1765 - 1843; e. Württemberger als Beamter u. Staatsmann in Diensten niedersächs. Staaten zur Zeit d. Aufklärung u. Restauration",
+            "abstract": "Literaturverzeichnis",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1035152541",
+            "issued": "1982",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118509357"
+            },
+            "tableOfContents": "https://swbplus.bsz-bw.de/bsz024253367inh.htm",
+            "volume": "21",
+            "P30128": "Oldenburger Studien",
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

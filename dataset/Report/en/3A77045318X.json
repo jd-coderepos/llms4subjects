@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:113590547",
+            "sameAs": "Weske, Mathias"
+        },
+        {
+            "@id": "gnd:13068595X",
+            "sameAs": "Fahland, Dirk"
+        },
+        {
+            "@id": "gnd:4213132-7",
+            "sameAs": "Datenmanagement"
+        },
+        {
+            "@id": "gnd:4353072-2",
+            "sameAs": "Prozessmanagement"
+        },
+        {
+            "@id": "gnd:7690691-7",
+            "sameAs": "BPMN"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A77045318X",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (PDF-Datei: 40 S., 2.071 KB)",
+            "creator": [
+                "Pufahl, Luise",
+                "Meyer, Andreas"
+            ],
+            "description": "graph Darst.",
+            "identifier": [
+                "(ppn)77045318X",
+                "(firstid)GBV:77045318X"
+            ],
+            "publisher": "Univ.-Verl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106410857)54.61 - Datenverarbeitungsmanagement",
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken"
+            ],
+            "title": "Modeling and enacting complex data dependencies in business processes",
+            "abstract": "Enacting business processes in process engines requires the coverage of control flow, resource assignments, and process data. While the first two aspects are well supported in current process engines, data dependencies need to be added and maintained manually by a process engineer. Thus, this task is error-prone and time-consuming. In this report, we address the problem of modeling processes with complex data dependencies, e.g., m:n relationships, and their automatic enactment from process models. First, we extend BPMN data objects with few annotations to allow data dependency handling as well as data instance differentiation. Second, we introduce a pattern-based approach to derive SQL queries from process models utilizing the above mentioned extensions. Therewith, we allow automatic enactment of data-aware BPMN process models. We implemented our approach for the Activiti process engine to show applicability.",
+            "contributor": "gnd:113590547",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:13068595X"
+            },
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4213132-7",
+                "gnd:7690691-7",
+                "gnd:4353072-2"
+            ],
+            "volume": "74",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Softwaresystemtechnik an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

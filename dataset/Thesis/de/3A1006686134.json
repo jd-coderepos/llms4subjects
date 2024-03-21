@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1025524764",
+            "sameAs": "Bewegungsmelder"
+        },
+        {
+            "@id": "gnd:1051120403",
+            "sameAs": "Omnidirektionaler Antrieb"
+        },
+        {
+            "@id": "gnd:111337879",
+            "sameAs": "Rothe, Hendrik"
+        },
+        {
+            "@id": "gnd:1188619225",
+            "sameAs": "Schale, Florian"
+        },
+        {
+            "@id": "gnd:130009342",
+            "sameAs": "Weiß, Mathias"
+        },
+        {
+            "@id": "gnd:130803553",
+            "sameAs": "Zimmermann, Klaus"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4053059-0",
+            "sameAs": "Schnittstelle"
+        },
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "gnd:4238812-0",
+            "sameAs": "Mechatronik"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1006686134",
+            "@type": "bibo:Thesis",
+            "P1053": "178 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1006686134",
+                "(firstid)GBV:1006686134"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106419447)50.25 - Robotertechnik",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Mechatronische Lösungen für die Sensorik und Informationsverarbeitung radgetriebener mobiler Roboter",
+            "abstract": "Diese Arbeit befasst sich mit der radgetriebenen mobilen Robotik aus der Sicht der Mechatronik. Am Beispiel des omnidirektionalen Roboters M11 werden die strukturelle Systemanalyse und das Zusammenwirken von Aktorik, Energieversorgung, Sensorik, Informationsübertragung sowie Informationsverarbeitung und Regelung beschrieben. Im Speziellen werden folgende, für viele mobile Robotersysteme relevante Aufgabenbereiche betrachtet: - Bewegungsplanung und Systemregelung auf Basis der kinematischen Analyse der Roboterstruktur, - Messung kinematischer Bewegungsgrößen durch indirekte bzw. direkte Messverfahren, - Messtechnische Überwachung der Energieversorgung, - Kommunikationsverfahren zum Datenaustausch zwischen Systembaugruppen, - Digitale Informationsverarbeitung durch Eingebettete Rechnersysteme und deren Programmierung. Den Schwerpunkt in diesem Kontext bilden effiziente Lösungsansätze, welche Ergebnisse liefern, ohne dabei hohe Anforderungen an die Rechnerhardware zu stellen. Alle in dieser Arbeit vorgestellten Lösungen zur Positionierung mobiler Roboter können energie- und kostensparend realisiert werden. Eine dieser Lösungen ist ein berührungsloses optisches Messprinzip aus drei Sensoren, basierend auf dem Lasersensor einer Computermaus, zur Messung der Roboterposition (2D Lage und Orientierung) sowie der Robotergeschwindigkeit. Vorteil dieses Messverfahrens ist es, dass die Messergebnisse durch temporär auftretenden Radschlupf nicht beeinflusst werden. Das Positionsmesssystem wurde für Geschwindigkeiten bis 0.6 m/s erfolgreich erprobt. Ein weiterer spezieller Lösungsansatz in dieser Arbeit ist das Multi Master Peripherie Bussystem. Es ist für den Einsatz in räumlich begrenzten verteilten Eingebetteten Systemen mit mechatronischen Grundcharakter (Zusammenwirken von Aktorik, Sensorik und Informationsverarbeitung) spezifiziert. Das Bussystem ermöglicht, auf Basis des Seriellen Peripherie Interfaces, den simultanen Betrieb von mehreren gleichberechtigten aktiven MasterTeilnehmern z. B. [my]C und passiven Peripherie-Teilnehmern wie z. B. Sensoren. Eine effiziente echtzeitfähige Datenübertragung innerhalb mechatronischer Systeme kann mit diesem Kommunikationssystem realisiert werden. Das Multi Master Peripherie Bussystem wurde innerhalb des mobilen Roboters M11 exemplarisch mit bis zu 16 Mbit/s erprobt.",
+            "contributor": [
+                "gnd:130009342",
+                "gnd:130803553",
+                "gnd:111337879"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1188619225"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4191911-7",
+                "gnd:4396978-1",
+                "gnd:4053059-0",
+                "gnd:4238812-0",
+                "gnd:1025524764",
+                "gnd:1051120403"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/1006686134.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

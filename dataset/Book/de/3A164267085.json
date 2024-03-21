@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118587943",
+            "sameAs": "Nietzsche, Friedrich 1844-1900"
+        },
+        {
+            "@id": "gnd:189410000",
+            "sameAs": "Böhmer, Otto A."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A164267085",
+            "@type": "bibo:Book",
+            "P1053": "363 S",
+            "description": "22 cm",
+            "identifier": [
+                "(firstid)GBV:164267085",
+                "(isbn)3821841168",
+                "(ppn)164267085"
+            ],
+            "publisher": "Eichborn",
+            "subject": [
+                "(classificationName=ddc)833/.914",
+                "(classificationName=loc)PT2662.O37",
+                "(classificationName=rvk)GN 9999",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=bk, id=181571714)17.97 - Texte eines einzelnen Autors",
+                "(classificationName=dbn)59",
+                "(classificationName=loksys-fbl)GT 900 böh 3"
+            ],
+            "title": "Der Hammer des Herrn : Roman",
+            "abstract": "Roman über Nietzsche",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:189410000",
+            "issued": "1994",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118587943"
+            },
+            "volume": "116",
+            "P30128": "Die Andere Bibliothek",
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

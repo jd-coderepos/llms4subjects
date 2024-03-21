@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1121142877",
+            "sameAs": "3D-Sensor"
+        },
+        {
+            "@id": "gnd:1148466835",
+            "sameAs": "Kowarschik, Richard"
+        },
+        {
+            "@id": "gnd:1168830044",
+            "sameAs": "Lehmann, Peter"
+        },
+        {
+            "@id": "gnd:1249530202",
+            "sameAs": "Wong, Eugene"
+        },
+        {
+            "@id": "gnd:172488176",
+            "sameAs": "Tutsch, Rainer"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4045892-1",
+            "sameAs": "Fotogrammetrie"
+        },
+        {
+            "@id": "gnd:4169749-2",
+            "sameAs": "Metrologie"
+        },
+        {
+            "@id": "gnd:4665670-4",
+            "sameAs": "Streifenprojektion"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1786356546",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (130 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1786356546",
+                "(ppn)1786356546"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)006.37",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Development of a calibration pipeline for a monocular-view structured illumination 3D sensor utilizing an array projector",
+            "abstract": "Commercial off-the-shelf digital projection systems are commonly used in active structured illumination photogrammetry of macro-scale surfaces due to their relatively low cost, accessibility, and ease of use. They can be described as inverse pinhole modelled. The calibration pipeline of a 3D sensor utilizing pinhole devices in a projector-camera setup configuration is already well-established. Recently, there have been advances in creating projection systems offering projection speeds greater than that available from conventional off-the-shelf digital projectors. However, they cannot be calibrated using well established techniques based on the pinole assumption. They are chip-less and without projection lens. This work is based on the utilization of unconventional projection systems known as “array projectors” which contain not one but multiple projection channels that project a temporal sequence of illumination patterns. None of the channels implement a digital projection chip or a projection lens. To workaround the calibration problem, previous realizations of a 3D sensor based on an array projector required a stereo-camera setup. Triangulation took place between the two pinhole modelled cameras instead. However, a monocular setup is desired as a single camera configuration results in decreased cost, weight, and form-factor. This study presents a novel calibration pipeline that realizes a single camera setup. A generalized intrinsic calibration process without model assumptions was developed that directly samples the illumination frustum of each array projection channel. An extrinsic calibration process was then created that determines the pose of the single camera through a downhill simplex optimization initialized by particle swarm. Lastly, a method to store the intrinsic calibration with the aid of an easily realizable calibration jig was developed for re-use in arbitrary measurement camera positions so that intrinsic calibration does not have to be repeated.",
+            "contributor": [
+                "gnd:1148466835",
+                "gnd:1168830044",
+                "gnd:172488176"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1249530202",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4045892-1",
+                "gnd:4169749-2",
+                "gnd:4665670-4",
+                "gnd:1121142877"
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

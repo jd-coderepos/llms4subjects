@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4011149-0",
+            "sameAs": "Datentyp"
+        },
+        {
+            "@id": "gnd:4177306-8",
+            "sameAs": "Reduktion"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A566548992",
+            "@type": "bibo:Thesis",
+            "P1053": "XXII, 380 S.",
+            "creator": "Westphal, Bernd",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:566548992",
+                "(ppn)566548992"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)629.20289",
+                "(classificationName=bk, id=10641089X)54.30 - Systemarchitektur: Allgemeines",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=181569876)54.50 - Programmierung: Allgemeines",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Specification and verification of dynamic topology systems : on the applicability of query- and data-type-reduction-based abstractions",
+            "abstract": [
+                "Dynamic Communication Systems (DTR) bestehen aus einer veraenderlichen und unbeschraenkten Anzahl von eingebetteten Systemen, die in veraenderlichen Kommunikationstopologien interagieren. Ein prominentes Beispiel ist ein verteilter Algorithmus zur Verwaltung von Fahrzeug-Kolonnen, wobei ein Fahrzeug einem eingebetteten System entspricht. In dieser Arbeit wird die Eignung einer bestimmten, fuer parametrisierte Systeme bekannten Abstraktion zur Verifikation von DTS in einem Graph-basierten Kontext untersucht. Dazu fuehren wir basierend auf klassischen Transitionssystemen ein neues formales Modell solcher Systeme ein und schlagen eine Temporallogik 1. Stufe vor, die insbesondere das vorzeitige Verschwinden von Agenten adequat behandelt. Die praktische Relevanz des Verfahrens wird anhand von Fallstudien demonstriert unter Verwendung einer syntaktischen Transformation, die ausgehend von einer High-Level-Beschreibung des Originalsystems das endliche, abstrakte Transitionssystem liefert. &lt;dt.&gt;",
+                "A Dynamic Topology Systems (DTS) is composed of a varying and unbounded number of embedded systems interacting in a varying communication topology.  A prominent example is distributed control of car platooning, where each cars is seen as a single embedded system.  We address the need of formal verification for such critical systems by investigating a certain abstraction technique known for parameterised systems. To this end, we propose a new computational model of DTS, a conservative extension of classical transitions systems, and a first-order extension of classical temporal logic which in particular caters faithfully for pre-mature disappearance of agents. The potential of the studied abstraction is assessed via a new, graph-based formalisation. The practical applicability is demonstrated by case-studies employing a syntactical transformation procedure which efficiently yields the finite abstract transition system, given a high-level description of the original systems. &lt;engl.&gt;"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4396978-1",
+                "gnd:4011149-0",
+                "gnd:4177306-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

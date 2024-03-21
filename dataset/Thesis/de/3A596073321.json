@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1215789025",
+            "sameAs": "Knösche, Thomas R."
+        },
+        {
+            "@id": "gnd:136257364",
+            "sameAs": "Güllmar, Daniel"
+        },
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:4002073-3",
+            "sameAs": "Anisotropie"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4070747-7",
+            "sameAs": "Elektroencephalogramm"
+        },
+        {
+            "@id": "gnd:4152222-9",
+            "sameAs": "Energie-Impuls-Tensor"
+        },
+        {
+            "@id": "gnd:4254087-2",
+            "sameAs": "Magnetoencephalographie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A596073321",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 167 S., 41,2 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Reichenbach, Jürgen R.",
+            "identifier": [
+                "(ppn)596073321",
+                "(firstid)DNB:992945828"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=bk, id=106409980)44.90 - Neurologie",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415921)44.32 - Medizinische Mathematik, medizinische Statistik",
+                "(classificationName=ddc)616.075"
+            ],
+            "title": "Anisotropic EEG/MEG volume conductor modeling based on diffusion tensor imaging",
+            "abstract": "Die vorliegende Arbeit befasst sich mit der Volumenleitermodellierung auf Basis der Finiten Elemente für EEG/MEG Untersuchungen unter Einbeziehung von Anistropieinformation, die mit Hilfe der Magnetresonanzdiffusionstensorbildgebung (MR-DTI) gewonnen wurde. Im ersten Teil der Arbeit wurde der Einfluss unvollständig bestimmter Wichtungsparamter (b-Matrix) auf die zu rekonstruierenden Diffusionstensoren untersucht. Die Unvollständigkeit bezieht sich dabei auf die Tatsache, dass im Allgemeinen nur die starken Diffusionsgradienten zur Berechnung der b-Matrix herangezogen werden. Es wurde gezeigt, dass besonders bei Aufnahmen mit hoher räumlicher Auflösung der Anteil der Bildgradienten an der b-Matrix nicht mehr vernachlässigbar ist. Weiterhin wurde gezeigt, wie man die b-Matrizen korrekt analytisch bestimmt und damit einen systematischen Fehler vermeidet. Für den Fall, dass nicht ausreichend Informationen zur Verfügung stehen um die analytische Bestimmung durchzuführen, wurde eine Lösung vorgeschlagen, die es mit Hilfe von Phantommessungen ermöglicht eine parametrisierte b-Matrix zu bestimmen. Der zweite Teil widmet sich der Erstellung hochaufgelöster realistischer Volumenleitermodelle detailliert beschrieben. Besonders die Transformation der Diffusionstensordaten in Leitfähigkeitstensoren. Zudem wurde eine Vorgehensweise beschrieben, die es erlaubt, einen T1-gewichteten MR-Datensatz vollautomatisch in fünf verschiedene Gewebesegmente (weiches Gewebe, graue und weiße Substanz, CSF und Schädelknochen) zu unterteilen. Der dritte Teil der Arbeit befasst sich mit dem Einfluss der anisotropen Leitfähigkeit in der weißen Hirnsubstanz auf EEG und MEG unter Verwendung eines Tier- sowie eines Humanmodells. Um den Einfluss der verschiedenen Methoden der Transformation von DTI Daten in Leitfähigkeitsdaten zu untersuchen, wurden verschiedenen Modelle sowohl mit gemessener als auch mit künstlicher Anisotropie erstellt. In der Tiermodellstudie wurden EEG und in der Humanmodellstudie EEG und MEG Simulationen sowohl mit den anisotropen Modellen als auch mit einem isotropen Modell durchgeführt und miteinander verglichen. Dabei wurde gefunden, dass sowohl der topographische Fehler (RDM) als auch der Magnitudenfehler stark durch das Einbeziehen von Anisotropieinformationen beeinflusst wird. Es wurde auch gezeigt, dass sowohl die Position als auch die Orientierung einer dipolaren Quelle in Bezug auf das anisotrope Segment einen großen Effekt...",
+            "contributor": [
+                "gnd:143795244",
+                "gnd:1215789025"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:136257364",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4152222-9"
+                },
+                {
+                    "@id": "gnd:4254087-2"
+                },
+                {
+                    "@id": "gnd:4017233-8"
+                },
+                {
+                    "@id": "gnd:4002073-3"
+                },
+                {
+                    "@id": "gnd:4070747-7"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

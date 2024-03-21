@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118536672",
+            "sameAs": "Fühmann, Franz"
+        },
+        {
+            "@id": "gnd:118613723",
+            "sameAs": [
+                "Shakespeare, William",
+                "Shakespeare, William 1564-1616"
+            ]
+        },
+        {
+            "@id": "gnd:4036910-9",
+            "sameAs": "Märchen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1603649247",
+            "@type": "bibo:Book",
+            "P1053": "103 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Hoffmann, Carl",
+            "description": "Ill.",
+            "identifier": [
+                "(isbn)3358010120",
+                "(firstid)BSZ:261397826",
+                "(ppn)1603649247"
+            ],
+            "publisher": "Kinderbuchverl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)DX 4150",
+                "(classificationName=linseach:mapping)pae"
+            ],
+            "title": "Shakespeare-Märchen",
+            "abstract": "Inhalt: Perikles. Ein Sommernachtstraum. Das Wintermärchen. Ab 11 Jahre",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:118613723"
+                }
+            ],
+            "creator": "gnd:118536672",
+            "issued": "1988",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:118613723",
+                "gnd:4036910-9"
+            ],
+            "tableOfContents": "http://d-nb.info/207716005/04",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

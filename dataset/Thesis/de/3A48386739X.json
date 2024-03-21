@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118151169",
+            "sameAs": "Junk, Michael"
+        },
+        {
+            "@id": "gnd:12031892X",
+            "sameAs": "Babovsky, Hans"
+        },
+        {
+            "@id": "gnd:129989258",
+            "sameAs": "Andallah, Laek Sazzad"
+        },
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "gnd:4146261-0",
+            "sameAs": "Boltzmann-Gleichung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A48386739X",
+            "@type": "bibo:Thesis",
+            "P1053": "141 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Klar, Axel",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)48386739X",
+                "(firstid)GBV:48386739X"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)510",
+                "(classificationName=bk, id=106407937)33.06 - Mathematische Methoden der Physik",
+                "(classificationName=bk, id=106423266)33.25 - Thermodynamik, statistische Physik",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "A hexagonal collision model for the numerical solution of the Boltzmann equation",
+            "abstract": "In kompakter Form werden die Hauptergebnisse der diskreten Boltzmann-Gleichung basierend auf hexagonalen Elementen vorgestellt. Zwecks Lösung dieses Problems mittels des hexagonalen diskreten Geschwindigkeitsmodells, werden im R2̂ automatisch beliebig große Sechseckgitter generiert. Zur Identifikation jeder Sechseckstruktur wird gezeigt, dass der Mittelpunkt eines beliebigen regulären Hexagons entweder in die Mitte eines Basishexagons fällt oder ein Gitterknoten ist. Wir beweisen, dass bei Zugrundelegung des binären Stoßgesetzes der globale Stoßoperator in einem beschränkten Sechseckgitter in R2̂ nur eine künstliche Invariante besitzt, die auch aufgezeigt wird. Wir formulieren ein N-Schicht-Modell zum Aufstellen von generellen Formeln für alle möglichen regulären Hexagons auf dem Gitter G_N dieser Schicht und beweisen damit ihre Existenz. Dazu bestimmen wir den numerischen Aufwand (flops) zur Auswertung des Boltzmann-Stoßoperators im N-Schicht-Modell. Weiterhin entwickeln wir die kinetische Theorie der diskreten Boltzmann-Gleichung für eine hexagonale Diskretisierung in R3̂. Das hexagonale Stoßmodell in R3̂ wird vorgestellt und das lokale Stoßmodell dazu ist ein 12-Geschwindigkeitsmodell entsprechend den 12 Ecken eines kubischen Oktahedron (&apos;hexagonaler Kubus&apos; bzw. &apos;h-Kubus&apos;). Die Berücksichtigung nur des binären Stoßgesetzes in dem lokalen Stoßmodell führt hier auf drei künstliche Invarianten. Aber bei Einbeziehung des Drei-Teilchen-Stoßgesetzes wird das Auftreten dieser künstlichen Invarianten vermieden. Wir beweisen, dass das 3D-hexagonale Modell die grundlegenden Eigenschaften der klassischen kinetischen Theorie erfüllt. Schließlich zeigen wir noch, dass dieses 3D-Modell der genannten Theorie auch mit dem 2-Teilchen-Stoßgesetz ab dem 216-Geschwindigkeitsmodell genügt. Wir präsentieren die Konstruktionen der Gleichgewichtsverteilung für das allgemeine 2D N-Schicht-Modell und für das 3D-Modell, wobei die Gleichgewichtsverteilung sich auf die Parameter von Masse, Momenten und kinetischen Energie beziehen. Wir geben dazu numerische Ergebnisse für das 2D als auch 3D hexagonale Modell an.",
+            "contributor": [
+                "gnd:118151169",
+                "gnd:12031892X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:129989258",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4146261-0"
+                },
+                {
+                    "@id": "gnd:4128130-5"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/48386739X.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

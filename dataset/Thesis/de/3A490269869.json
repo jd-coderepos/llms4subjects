@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4020202-1",
+            "sameAs": "Geodäsie"
+        },
+        {
+            "@id": "gnd:4197730-0",
+            "sameAs": "Datenintegration"
+        },
+        {
+            "@id": "gnd:4261642-6",
+            "sameAs": "Geoinformationssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A490269869",
+            "@type": "bibo:Thesis",
+            "P1053": "XII, 206 S.",
+            "creator": "Kampshoff, Stefan",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)490269869",
+                "(firstid)GBV:490269869"
+            ],
+            "publisher": "Hochsch.-Bibl.",
+            "subject": [
+                "(classificationName=ddc-dbn)520",
+                "(classificationName=ssg)16,13",
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=bk, id=106415859)38.73 - Geodäsie",
+                "(classificationName=bk, id=181570149)74.48 - Geoinformationssysteme"
+            ],
+            "title": "Integration heterogener raumbezogener Objekte aus fragmentierten Geodatenbeständen",
+            "abstract": "Die Aufgabe der Integration heterogener raumbezogener Objekte aus fragmentierten Geodatenbeständen, die in zahlreichen Varianten in der Praxis anzutreffen ist, wird in dieser Arbeit analysiert und gelöst. Ausgehend von einer Analyse der Anwendungsfälle der geometrischen Integration werden verschiedene Prozessmodelle für die Lösung des Integrationsproblems aufgezeigt. Die drei wesentlichen Schritte der geometrischen Integration sind das Zuordnungsproblem homologer räumlicher Objekte, die Suche impliziter geometrischer Relationen und die Bestimmung und Durchführung einer Transformation, die sämtliche Quell-Datenbestände in einen homogenen Ziel-Datenbestand überführt. Es wird ein einfaches Modell einer Karte definiert, in dem sich die geometrische Integration als Transformationsproblem zwischen der idealisierten wahren Karte, die in der Praxis nur partiell gegeben ist, und multiplen Realisierungen von Karten, die durch zufällige und unbekannte systematische Fehler verfälscht sind darstellt. Im statistischen Modell wird der Zusammenhang zwischen der wahren Karte und ihren Realisierungen als vektorieller räumlicher Zufallsprozesses aufgefasst und mit den Methoden der Geostatistik und klassischen Schätzverfahren untersucht. Ein wesentliches Ergebnis ist eine statistische Begründung und Modellierung der entfernungsabhängigen relativen Lagegenauigkeit (Nachbarschaftsgenauigkeit) in raumbezogenen Datenbeständen. Auf der Basis dieser Hypothese werden mit dem intrinsischen Kriging und der Kollokation zwei Modelle der Transformation vorgeschlagen. Als Alternative zu der stochastischen Modellierung wird das deterministische Modell der Topologie der euklidischen Ebene betrachtet ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4197730-0"
+                },
+                {
+                    "@id": "gnd:4261642-6"
+                },
+                {
+                    "@id": "gnd:4020202-1"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

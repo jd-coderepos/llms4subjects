@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4035843-4",
+            "sameAs": "Computerlinguistik"
+        },
+        {
+            "@id": "gnd:4204326-8",
+            "sameAs": "Bayes-Verfahren"
+        },
+        {
+            "@id": "gnd:4233548-6",
+            "sameAs": "Disambiguierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1651918953",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIII, 70 p. 4 illus, digital)",
+            "creator": "Hristea, Florentina T.",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)BSZ:37606434X",
+                "(ppn)1651918953",
+                "(isbn13)9781283908252",
+                "(isbn13)9783642336935",
+                "(isbn)1283908255",
+                "(doi)10.1007/978-3-642-33693-5"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Statistics",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)519.5",
+                "(classificationName=loc)QA276-280",
+                "Computer science",
+                "Artificial intelligence"
+            ],
+            "title": "The Naïve Bayes Model for Unsupervised Word Sense Disambiguation : Aspects Concerning Feature Selection",
+            "abstract": [
+                "This book presents recent advances (from 2008 to 2012) concerning use of the Naïve Bayes model in unsupervised word sense disambiguation (WSD). While WSD, in general, has a number of important applications in various fields of artificial intelligence (information retrieval, text processing, machine translation, message understanding, man-machine communication etc.), unsupervised WSD is considered important because it is language-independent and does not require previously annotated corpora. The Naïve Bayes model has been widely used in supervised WSD, but its use in unsupervised WSD has led to more modest disambiguation results and has been less frequent. It seems that the potential of this statistical model with respect to unsupervised WSD continues to remain insufficiently explored. The present book contends that the Naïve Bayes model needs to be fed knowledge in order to perform well as a clustering technique for unsupervised WSD and examines three entirely different sources of such knowledge for feature selection: WordNet, dependency relations and web N-grams. WSD with an underlying Naïve Bayes model is ultimately positioned on the border between unsupervised and knowledge-based techniques. The benefits of feeding knowledge (of various natures) to a knowledge-lean algorithm for unsupervised WSD that uses the Naïve Bayes model as clustering technique are clearly highlighted. The discussion shows that the Naïve Bayes model still holds promise for the open problem of unsupervised WSD.",
+                "1.Preliminaries -- 2.The Naïve Bayes Model in the Context of Word Sense Disambiguation -- 3.Semantic WordNet-based Feature Selection -- 4.Syntactic Dependency-based Feature Selection -- 5.N-Gram Features for Unsupervised WSD with an Underlying Naïve Bayes Model References -- Index. ."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4233548-6"
+                },
+                {
+                    "@id": "gnd:4204326-8"
+                },
+                {
+                    "@id": "gnd:4035843-4"
+                }
+            ],
+            "tableOfContents": "http://d-nb.info/1025399129/04",
+            "isLike": "doi:10.1007/978-3-642-33693-5",
+            "P30128": [
+                "SpringerLink",
+                "SpringerBriefs in Statistics",
+                "Bücher"
+            ],
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

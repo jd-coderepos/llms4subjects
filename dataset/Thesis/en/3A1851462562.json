@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1231238062",
+            "sameAs": "Stein, Benno"
+        },
+        {
+            "@id": "gnd:13395255X",
+            "sameAs": "Biemann, Chris"
+        },
+        {
+            "@id": "gnd:4002899-9",
+            "sameAs": "Argumentation"
+        },
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4284757-6",
+            "sameAs": "Natürlichsprachiges System"
+        },
+        {
+            "@id": "gnd:4423007-2",
+            "sameAs": "Suchmaschine"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851462562",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (133 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Ajjour, Yamen",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1851462562",
+                "(firstid)KXP:1851462562",
+                "(doi)10.25643/bauhaus-universitaet.6403"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Argumentation",
+                "Sprachphilosophie",
+                "Dialogverarbeitung",
+                "(classificationName=ddc-dbn)006.31"
+            ],
+            "title": "Addressing Controversial Topics in Search Engines",
+            "abstract": "Search engines are very good at answering queries that look for facts. Still, information needs that concern forming opinions on a controversial topic or making a decision remain a challenge for search engines. Since they are optimized to retrieve satisfying answers, search engines might emphasize a specific stance on a controversial topic in their ranking, amplifying bias in society in an undesired way. Argument retrieval systems support users in forming opinions about controversial topics by retrieving arguments for a given query. In this thesis, we address challenges in argument retrieval systems that concern integrating them in search engines, developing generalizable argument mining approaches, and enabling frame-guided delivery of arguments. Adapting argument retrieval systems to search engines should start by identifying and analyzing information needs that look for arguments. To identify questions that look for arguments we develop a two-step annotation scheme that first identifies whether the context of a question is controversial, and if so, assigns it one of several question types: factual, method, and argumentative. Using this annotation scheme, we create a question dataset from the logs of a major search engine and use it to analyze the characteristics of argumentative questions. The analysis shows that the proportion of argumentative questions on controversial topics is substantial and that they mainly ask for reasons and predictions. The dataset is further used to develop a classifier to uniquely map questions to the question types, reaching a convincing F1-score of 0.78.  While the web offers an invaluable source of argumentative content to respond to argumentative questions, it is characterized by multiple genres (e.g., news articles and social fora). Exploiting the web as a source of arguments relies on developing argument mining approaches that generalize over genre. To this end, we approach the problem of how to extract argument units in a genre-robust way. Our experiments on argument unit segmentation show that transfer across genres is rather hard to achieve using existing sequence-to-sequence models.  Another property of text which argument mining approaches should generalize over is topic. Since new topics appear daily on which argument mining approaches are not trained, argument mining approaches should be developed in a topic-generalizable way. Towards this goal, we analyze the coverage of 31 argument corpora across topics using three topic ontologies. The analysis shows that the topics covered by existing argument corpora are biased toward a small subset of easily accessible controversial topics, hinting at the inability of existing approaches to generalize across topics. In addition to corpus construction standards, fostering topic generalizability requires a careful formulation of argument mining tasks. Same side stance classification is a reformulation of stance classification that makes it less dependent on the topic. First experiments on this task show promising results in generalizing across topics.  To be effective at persuading their audience, users of an argument retrieval system should select arguments from the retrieved results based on what frame they emphasize of a controversial topic. An open challenge is to develop an approach to identify the frames of an argument. To this end, we define a frame as a subset of arguments that share an aspect. We operationalize this model via an approach that identifies and removes the topic of arguments before clustering them into frames. We evaluate the approach on a dataset that covers 12,326 frames and show that identifying the topic of an argument and removing it helps to identify its frames.",
+            "contributor": [
+                "gnd:13395255X",
+                "gnd:1231238062"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:5180842-0",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4423007-2",
+                "gnd:4072803-1",
+                "gnd:4284757-6",
+                "gnd:4002899-9"
+            ],
+            "isLike": "doi:10.25643/bauhaus-universitaet.6403",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

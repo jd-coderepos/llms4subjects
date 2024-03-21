@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10181818-X",
+            "sameAs": "Technische Universität Hamburg-Harburg, Institut für Sicherheit in Verteilten Anwendungen"
+        },
+        {
+            "@id": "gnd:1132276268",
+            "sameAs": "Gollmann, Dieter"
+        },
+        {
+            "@id": "gnd:4293034-0",
+            "sameAs": "Zugriffskontrolle"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A715566636",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: IX, 123 S., 5137 KB)",
+            "contributor": "Posegga, Joachim",
+            "creator": "Baker, Hannah Kyungsun",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)715566636",
+                "(firstid)GBV:715566636"
+            ],
+            "publisher": "Techn. Univ. Hamburg-Harburg, Univ.-Bibl.",
+            "subject": [
+                "RBAC",
+                "(classificationName=rvk)ST 277",
+                "XACML",
+                "(classificationName=ddc-dbn)004",
+                "security policy",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=ddc-dbn)350",
+                "Sicherheitsrichtlinien",
+                "access control",
+                "inter-domain collaboration",
+                "Zugriffskontrolle",
+                "(classificationName=linseach:mapping)inf",
+                "Inter-Domain-Kolloboration"
+            ],
+            "title": "Decentralized authorization for inter-domain collaborations with iRBAC framework",
+            "abstract": [
+                "Inter-domain collaborations are composed of a series of tasks, whose run-time environment stretches over heterogeneous systems governed by different sets of policies. Though the collaborators are willing to allow access to their services and resources from outside of their administrative domains in order to reach the common goals of collaborations, they still desire to retain control over deciding under which conditions their resources should be available and which internal information to disclose to their collaborators. For instance, personally identifiable information (PII) is one of the sensitive data collaborators wish to protect. However, more often than not PII is a prerequisite to granting access permissions when the user is from a different administrative domain. Within business-to-business (B2B) collaboration scenarios, however, information on the persons role within the collaborations is actually more relevant than the PIIs. In order to satisfy autonomous administrations of collaborators including protection of end-users PIIs, it is essential that authorization policies and mechanisms do not require exchanges of PIIs. Moreover, the administrations of the security policies are to be operated in a decentralized manner. This then opens up requirements of interoperability and scalability of an authorization solution for inter-domain collaborations in terms of policy specifications, enforcement, and administrations. This thesis proposes an authorization solution that presents not only a model that provides a logical structure of security policies but also a methodology to guide the construction process of the policies and a set of modules that allows decentralized, autonomous administration of the security policies throughout their lifetime. Together these components render an authorization solution to collaborative systems built with standard protocols. In summary, the three components are: * Model is elaborated from role-based access control (RBAC) [ANS04] with an additional indirect layer called interactive Roles (iRoles). This layer abstracts authorized end-users within collaborators local domains. By introducing the additional indirection, iRoles enable autonomous policy administration on userrole and rolepermission assignments. Equally importantly, it provides transparent linkage between local end-users in collaborators domains and functional roles in collaboration definitions. * Methodology is a step-by-step guideline that provides a process of building security policies based on this model. The end result of the process is a security policy built in terms of definitions of iRoles in the format of an eXtensible Access Control Mark-up Language (XACML) [Mos05] standardized policy, which is one of the most commonly used standards by the reference monitors. * Modules is a tool-set, also called the interactive RBAC (iRBAC), which enables decentralized operations of autonomous administration of the security policies built according to the methodology. A unique contribution of this work is its full coverage of support for the different stages of the lifecycle of the security policies for inter-domain collaborations. Though a case study has been conducted, a real-time scaled deployment is yet to be applied. Additionally, suitable methods of evaluating this work are still to be established. Nonetheless, this thesis presents the bridging elements of an authorization solution to fill the gap between the works of research communities and the needs of the real world scenarios of inter-domain collaborations not in parts but as a whole composition.",
+                "In Inter-Domain-Kollobarationen werden Aufgaben über Domänengrenzen hinweg bearbeitet. Obwohl die Partner bereit sind, Zugang zu Diensten und Ressourcen von außerhalb ihrer administrativen Domäne zu erlauben, wollen sie die Kontrolle darüber behalten, unter welchen Bedingungen ihre Ressourcen und internen Informationen den Partnern zur Verfügung gestellt werden. Zum Beispiel gehören Persönlich Identifizierbare Informationen (PII) zu den sensitiven Daten, welche die Partner schützen wollen. Doch oft ist PII eine Voraussetzung für die Gewährung der Zugangsberechtigungen für Benutzer aus einer anderen administrativen Domäne. Innerhalb von Business-to-Business (B2B) Kollobarations Szenarien ist Information über die Rolle der Person innerhalb der Kollobaration wichtiger als die PII. Für die autonome Verwaltungen der Partner einschließlich des Schutzes der Endnutzer PII ist es unerlässlich, dass die Autorisierungsrichtlinien und Mechanismen nicht den Austausch von PII erfordern. Außerdem ist die Verwaltung der Sicherheitsrichtlinien dezentral zu betreiben. Dies führt zu Anforderungen an die Interoperabilität und Skalierbarkeit einer Autorisationslösung für Inter-Domain Kollobarationen im Bereich der Spezifikation, Durchsetzung und Verwaltung von Sicherheitsrichtlinien. In dieser Arbeit wird eine Lösung zur Autorisation vorgeschlagen, die ein Modell, d.h. eine logische Struktur von Sicherheitsrichtlinien, eine Methodik für die Erstellung von Sicherheitsrichtlinien, und eine Reihe von Modulen, welche eine dezentrale, autonome Verwaltung der Sicherheitsrichtlinien über deren gesamte Lebensdauer ermöglichen, beinhaltet. Zusammen bilden diese Komponenten eine komplette Lösung zur Zugriffskontrolle auf der Grundlage von Standard-Protokollen. * Modell Das Modell basiert auf dem Role-Based Access Control (RBAC) Modell mit einer zusätzlichen Zwischenebene, den sogenannten interactive Roles. Diese Schicht abstrahiert den autorisierten Endnutzer in den lokalen Domänen des Partners. Die Einführung von iRoles ermöglicht Sicherheitsrichtlinien autonom mittels BenutzerRolle und RolleBerechtigungszuweisungen zu verwalten. Zudem unterstützt das Framework die transparente Verknüpfung zwischen den lokalen Endbenutzern in ihren Domänen und den funktionalen Rollen in den Definitionen der Kollaborationen. * Methodik Die Methodik ist eine Schritt-für-Schritt-Anleitung, welche einen Prozess zum Aufbau von Sicherheitsrichtlinien basierend auf dem Modell bereitstellt. Das Endergebnis des Prozesses sind die Sicherheitsrichtlinien, geschrieben in der eXtensible Access Control Markup Language (XACML). * Module Die Module führen die autonome, dezentrale Verwaltung der Sicherheitsrichtlinien aus, die nach der Methodik erzeugt wurden. Der Beitrag dieser Arbeit ist die vollständige Abdeckung der Unterstützung für die verschiedenen Phasen des Lebenszyklus der Sicherheitsrichtlinien für Inter-Domain Kollaborationen. Obwohl eine Fallstudie für die Lösung durchgeführt wurde ist, muss der Lösungsansatz noch in der Praxis umgesetzt und evaluiert werden. Nichtsdestotrotz stellt diese Arbeit einen ersten Schritt dar, um die Lücke zwischen der Forschungsresultaten und der Praxis der Inter-domain Kollaborationen zu schließen."
+            ],
+            "alternative": "Dezentralisierte Zulassungsverfahren für Inter-Domain Kollaborationen mit iRBAC",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1132276268"
+                }
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:10181818-X"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4293034-0"
+            }
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

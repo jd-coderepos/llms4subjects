@@ -1,0 +1,141 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1076580386",
+            "sameAs": "Manzoni, Andrea"
+        },
+        {
+            "@id": "gnd:1076580890",
+            "sameAs": "Negri, Federico"
+        },
+        {
+            "@id": "gnd:120370158",
+            "sameAs": "Quarteroni, Alfio"
+        },
+        {
+            "@id": "gnd:4044779-0",
+            "sameAs": "Partielle Differentialgleichung"
+        },
+        {
+            "@id": "gnd:4228198-2",
+            "sameAs": "Reduzierte-Basis-Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1657941248",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIV, 296 p. 62 illus., 35 illus. in color, online resource)",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9783319154312",
+                "(doi)10.1007/978-3-319-15431-2",
+                "(ppn)1657941248",
+                "(firstid)BSZ:445320281"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Mathematical models.",
+                "Partial differential equations.",
+                "Mathematics",
+                "Differential equations, partial",
+                "(classificationName=msc)65Nxx",
+                "(classificationName=rvk)SK 540",
+                "Applied mathematics.",
+                "(classificationName=ddc)515.353",
+                "Fluid mechanics.",
+                "(classificationName=msc)65Y20",
+                "(classificationName=loc)QA370-380",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)*65Mxx",
+                "(classificationName=msc)65-01",
+                "Hydraulic engineering",
+                "Engineering mathematics",
+                "(classificationName=msc)80Mxx",
+                "(classificationName=msc)80A20"
+            ],
+            "title": "Reduced Basis Methods for Partial Differential Equations : An Introduction",
+            "abstract": [
+                "This book provides a basic introduction to reduced basis (RB) methods for problems involving the repeated solution of partial differential equations (PDEs) arising from engineering and applied sciences, such as PDEs depending on several parameters and PDE-constrained optimization. The book presents a general mathematical formulation of RB methods, analyzes their fundamental theoretical properties, discusses the related algorithmic and implementation aspects, and highlights their built-in algebraic and geometric structures. More specifically, the authors discuss alternative strategies for constructing accurate RB spaces using greedy algorithms and proper orthogonal decomposition techniques, investigate their approximation properties and analyze offline-online decomposition strategies aimed at the reduction of computational complexity. Furthermore, they carry out both a priori and a posteriori error analysis. The whole mathematical presentation is made more stimulating by the use of representative examples of applicative interest in the context of both linear and nonlinear PDEs. Moreover, the inclusion of many pseudocodes allows the reader to easily implement the algorithms illustrated throughout the text. The book will be ideal for upper undergraduate students and, more generally, people interested in scientific computing.",
+                "1 Introduction -- 2 Representative problems: analysis and (high-fidelity) approximation -- 3 Getting parameters into play -- 4 RB method: basic principle, basic properties -- 5 Construction of reduced basis spaces -- 6 Algebraic and geometrical structure -- 7 RB method in actions -- 8 Extension to nonaffine problems -- 9 Extension to nonlinear problems -- 10 Reduction and control: a natural interplay -- 11 Further extensions -- 12 Appendix A Elements of functional analysis."
+            ],
+            "contributor": [
+                "gnd:1076580890",
+                "gnd:1076580386"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:120370158",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4228198-2"
+                },
+                {
+                    "@id": "gnd:4044779-0"
+                }
+            ],
+            "volume": "92",
+            "isLike": "doi:10.1007/978-3-319-15431-2",
+            "P30128": [
+                "SpringerLink",
+                "UNITEXT",
+                "La Matematica per il 3+2",
+                "Bücher"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:116539275",
+            "sameAs": "Erken, Günther"
+        },
+        {
+            "@id": "gnd:118526952",
+            "sameAs": [
+                "Dorst, Tankred",
+                "Dorst, Tankred 1925-2017"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A272532657",
+            "@type": "bibo:Book",
+            "P1053": "423 S.",
+            "description": "Ill.",
+            "identifier": [
+                "(ppn)272532657",
+                "(firstid)GBV:272532657",
+                "(isbn)3518385739"
+            ],
+            "publisher": "Suhrkamp-Taschenbuch-Verl.",
+            "subject": [
+                "(classificationName=rvk)GN 4059",
+                "(classificationName=dbn)53",
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=loksys-fbl)GT 900 dor 6",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=ddc)832/.914"
+            ],
+            "title": "Tankred Dorst",
+            "abstract": "Bibliogr. u. Literaturverz. S. 406 - 424",
+            "contributor": [
+                "gnd:116539275",
+                "gnd:118526952"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118526952"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht003399735.pdf",
+            "volume": "2073",
+            "P30128": [
+                "Suhrkamp-Taschenbuch",
+                "Materialien"
+            ],
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

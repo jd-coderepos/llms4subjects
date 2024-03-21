@@ -1,0 +1,121 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4011134-9",
+            "sameAs": "Datenschutz"
+        },
+        {
+            "@id": "gnd:4139362-4",
+            "sameAs": "Anonymisierung"
+        },
+        {
+            "@id": "gnd:4173908-5",
+            "sameAs": "Personenbezogene Daten"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A72361590X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (138 Seiten)",
+            "creator": [
+                "Fu, Ada Wai-Chee",
+                "Wong, Raymond Chi-Wing"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:72361590X",
+                "(ppn)72361590X",
+                "(isbn13)9781608452170"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "subject": [
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=loc)HF5548.37",
+                "Database security",
+                "Data mining",
+                "(classificationName=ddc)005.8",
+                "(classificationName=loc)QA76.9.D314",
+                "(classificationName=msc)*68P01",
+                "Data protection",
+                "(classificationName=linseach:mapping)jur",
+                "(classificationName=ddc)658.478",
+                "(classificationName=msc)68-01",
+                "(classificationName=bk, id=106422472)86.55 - Datenschutzrecht",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)68P25",
+                "Electronic books"
+            ],
+            "title": "Privacy-Preserving Data Publishing : An Overview",
+            "abstract": [
+                "4. Multiple-time data publishing -- Individual-based correlation -- Data publishing from static microdata -- Data publishing from dynamic microdata -- Sensitive value-based correlation -- Protection for permanent sensitive values -- Protection for transient sensitive values -- Conclusion --",
+                "A. Definition of entropy l-diversity and recursive l-diversity -- Authors&apos; biographies",
+                "Privacy preservation has become a major issue in many data analysis applications. When a data set is released to other parties for data analysis, privacy-preserving techniques are often required to reduce the possibility of identifying sensitive information about individuals. For example, in medical data, sensitive information can be the fact that a particular patient suffers from HIV. In spatial data, sensitive information can be a specific location of an individual. In web surfing data, the information that a user browses certain websites may be considered sensitive. Consider a dataset containing some sensitive information is to be released to the public. In order to protect sensitive information, the simplest solution is not to disclose the information. However, this would be an overkill since it will hinder the process of data analysis over the data from which we can find interesting patterns. Moreover, in some applications, the data must be disclosed under the government regulations. Alternatively, the data owner can first modify the data such that the modified data can guarantee privacy and, at the same time, the modified data retains sufficient utility and can be released to other parties safely. This process is usually called as privacy-preserving data publishing. In this monograph, we study how the data owner can modify the data and how the modified data can preserve privacy and protect sensitive information",
+                "7. Future research directions -- One-time data publishing -- Multiple-time data publishing -- Publishing graph data -- Publishing data of other forms --",
+                "6. Other datatypes -- Spatial data -- With anonymizer -- Without anonymizer -- Transactional data -- Conclusion --",
+                "5. Graph data -- Data model -- Adversary attacks -- Assumption of adversary knowledge -- Active attacks -- Utility of the published data -- K-anonymity -- Vertex degree -- 1-neighborhood -- Vertex partitioning -- K-automorphism -- Multiple releases of data graphs -- Other approaches -- Future directions --",
+                "1. Introduction -- Data publishing -- Significance -- Organization --",
+                "3. One-time data publishing -- Knowledge about quasi-identifiers -- Knowledge about the distribution of sensitive values -- Knowledge about the linkage of individuals to sensitive values -- Information that some individuals do not have some sensitive values -- Information that some individuals have some sensitive values -- Knowledge about the relationship among individuals -- Knowledge about anonymization -- Knowledge mined from the microdata -- Knowledge mined from the published data -- How to use published data -- Aggregate queries -- Information loss -- Evaluation with data mining and data analysis tools -- Querying over an uncertain database -- Conclusion --",
+                "2. Fundamental concepts -- Anonymization -- Information loss metric -- Privacy models -- Other privacy models -- Conclusion --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4011134-9"
+                },
+                {
+                    "@id": "gnd:4173908-5"
+                },
+                {
+                    "@id": "gnd:4139362-4"
+                }
+            ],
+            "volume": "#3",
+            "P30128": "Synthesis Lectures on Data Management",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

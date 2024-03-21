@@ -1,0 +1,118 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1104702959",
+            "sameAs": "Benzel, Timo"
+        },
+        {
+            "@id": "gnd:123044898",
+            "sameAs": "Möckel, Andreas"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4014238-3",
+            "sameAs": "Elektroantrieb"
+        },
+        {
+            "@id": "gnd:4129297-2",
+            "sameAs": "Getriebegeräusch"
+        },
+        {
+            "@id": "gnd:4141377-5",
+            "sameAs": "Adaptives Filter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A857467646",
+            "@type": "bibo:Thesis",
+            "P1053": "VII, 145 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Dölling, Rolando",
+                "Waßmuth, Joachim"
+            ],
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)GBV:857467646",
+                "(ppn)857467646"
+            ],
+            "subject": [
+                "(classificationName=ddc)621.811",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=106418033)53.16 - Elektrische und elektronische Steuerungs- und Regelungssysteme",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=bk, id=106418637)53.33 - Elektrische Maschinen und Antriebe",
+                "(classificationName=ddc)621.31042",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106410628)52.20 - Antriebstechnik, Getriebelehre"
+            ],
+            "title": "Aktive Reduktion von Getriebegeräuschen in elektrischen Antriebsaggregaten",
+            "abstract": "Die vorliegende Arbeit stellt ein Verfahren zur aktiven Reduktion von Getriebegeräuschen vor. Gegenstand der Betrachtung ist ein Antriebsaggregat, bestehend aus einer elektrischen Maschine, die ein Stirnradgetriebe unter Last antreibt. Im Rahmen dieser Arbeit wird eine Regelung entwickelt, die unter Einspeisung von Drehmomentwelligkeiten das Getriebegeräusch reduziert. Die Regelung besteht aus einer Reihe digitaler Filter, deren Koeffizienten vom Least-Mean-Squares Algorithmus, oder auch Delta-Regel genannt, während der Laufzeit angepasst werden. Der Least-Mean-Squares Algorithmus basiert auf einem Gradientenverfahren, das während der Laufzeit explizit ausgewertet wird. Zur Optimierung der Filterkoeffizienten verwendet der Algorithmus den gemessenen Rotorwinkel, die geschätzte Drehzahl, das geschätzte Drehmoment der elektrischen Maschine und ein, an der Gehäuseoberfläche gemessenes, Beschleunigungssignal. Das Filter passt die Phase und Amplitude einer künstlich erzeugten Drehmomentwelligkeit so an, dass die Oberflächenbeschleunigung an den Getriebefrequenzen minimiert wird. Mit dem hier entwickelten Regelverfahren ist es möglich, mehrere Harmonische der Zahneingriffsfrequenz zu kompensieren. Im Gegensatz zu bisher wissenschaftlich untersuchten Ansätzen benötigt das hier vorgestellte Verfahren keine zusätzlichen Aktuatoren. Darüber hinaus ist es mit diesem Verfahren möglich, Stellgrößenbeschränkungen durch die elektrische Maschine zu berücksichtigen. Das Verhalten des Reglers wird in einem dreiteiligen Simulationsmodell analysiert, das aus einer elektrischen Maschine, einem Stirnradgetriebe und einem Gehäuse besteht. Das Regelverfahren wird am Prüfstand mit einem Prüfling validiert, der eine permanenterregte Synchronmaschine und ein zweistufiges Stirnradgetriebe in einem Aluminiumgehäuse vereint. Am Prüfstand reduziert das Regelverfahren die Schalldruckamplitude der ersten zwei Harmonischen des Getriebegeräuschs, wobei die zweite Harmonische eine Frequenz von bis zu 1300 Hz aufweist. Das Verfahren erreicht im gemessenen Luftschall eine Reduktion von bis zu 14 dB in der ersten Harmonischen und bis zu 19 dB in der zweiten Harmonischen. Damit erreicht das Verfahren eine, mit bisherigen Ansätzen vergleichbare, Reduktion der Getriebegeräusche ohne die Verwendung von zusätzlichen Aktuatoren.",
+            "contributor": "gnd:123044898",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1104702959"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4014238-3"
+                },
+                {
+                    "@id": "gnd:4141377-5"
+                },
+                {
+                    "@id": "gnd:4129297-2"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/abs/857467646benze.txt",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

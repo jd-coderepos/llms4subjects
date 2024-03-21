@@ -1,0 +1,160 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027721567",
+            "sameAs": "Schumann, Maik"
+        },
+        {
+            "@id": "gnd:120787350",
+            "sameAs": "Kühn, Olaf"
+        },
+        {
+            "@id": "gnd:130009334",
+            "sameAs": "Linß, Gerhard"
+        },
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4045388-1",
+            "sameAs": "Petri-Netz"
+        },
+        {
+            "@id": "gnd:4167271-9",
+            "sameAs": "Leistungsbewertung"
+        },
+        {
+            "@id": "gnd:4179449-7",
+            "sameAs": "Scheduling"
+        },
+        {
+            "@id": "gnd:4191571-9",
+            "sameAs": "Datenfluss"
+        },
+        {
+            "@id": "gnd:4377479-9",
+            "sameAs": "Pipeline-Verarbeitung"
+        },
+        {
+            "@id": "gnd:4520890-6",
+            "sameAs": "Skalierbarkeit"
+        },
+        {
+            "@id": "gnd:4613846-8",
+            "sameAs": "Parallelisierung"
+        },
+        {
+            "@id": "gnd:4767115-4",
+            "sameAs": "Ablaufverfolgung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A729563669",
+            "@type": "bibo:Thesis",
+            "P1053": "XVII, 218 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Nehse, Uwe",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:729563669",
+                "(ppn)729563669",
+                "(isbn13)9783938843734"
+            ],
+            "publisher": "ISLE",
+            "subject": [
+                "(classificationName=ddc)006.37",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=rvk)ST 330",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=rvk)ZQ 6270",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=181569892)54.25 - Parallele Datenverarbeitung"
+            ],
+            "title": "Datengetriebene parallelisierte Ablaufsteuerung für die automatisierte industrielle Bildverarbeitung",
+            "abstract": "Gegenstand der vorliegenden Dissertation ist die Beschleunigung durch Parallelisierung für Algorithmen der industriellen Bildverarbeitung. Dazu wird ein Darstellungsmodell für Algorithmen auf Basis von Datenflüssen formal hergeleitet und dahingehend erweitert, dass notwendige Steuerungsstrukturen wie Verzweigungen und Schleifen integriert werden können. Der Stand der Technik zur parallelen Ausführung von Bildverarbeitungsalgorithmen kennt vielfältige Ansätze, welche jedoch häufig zusätzliche Hardwarekomponenten benötigen. Außerdem stützen sich diese Verfahren fast ausschließlich auf das Prinzip der Datenparallelisierung von Teilalgorithmen, was jedoch bei vielen Aufgaben der industriellen Bildverarbeitung nicht angewendet werden kann. Das in dieser Arbeit formalisierte und untersuchte Modell der Parallelisierung auf Basis von Datenflüssen erlaubt eine automatische Beschleunigung der Abarbeitung von Abläufen durch Identifikation von unabhängigen Operationen, sodass diese gleichzeitig ausgeführt werden können. Anhand von Untersuchungen zur Struktur von Abläufen aus dem Praxiseinsatz von Bildverarbeitungssystemen für optische Geometriemessung wird gezeigt, dass Bildverarbeitungsverfahren ein hohes bisher ungenutztes Parallelisierungspotenzial besitzen. An zwei Beispielimplementierungen wird dargestellt, wie sich ein solches System in Abhängigkeit von der Granularität der verwendeten Befehle und der verfügbaren Hardware verhält. Erwartungsgemäß kann das Parallelisierungspotenzial im Allgemeinen nicht vollständig genutzt werden. Die vorliegende Arbeit belegt jedoch, dass trotzdem eine erhebliche Beschleunigung von Bildverarbeitungsabläufen durch den Einsatz einer auf Datenflüssen basierenden Parallelisierung möglich ist, sodass neue Einsatzfelder und höhere Arbeitsgeschwindigkeiten für Bildverarbeitungslösungen erschlossen werden können.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130009334"
+                },
+                {
+                    "@id": "gnd:120787350"
+                }
+            ],
+            "creator": "gnd:1027721567",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4006684-8"
+                },
+                {
+                    "@id": "gnd:4767115-4"
+                },
+                {
+                    "@id": "gnd:4191571-9"
+                },
+                {
+                    "@id": "gnd:4613846-8"
+                },
+                {
+                    "@id": "gnd:4377479-9"
+                },
+                {
+                    "@id": "gnd:4167271-9"
+                },
+                {
+                    "@id": "gnd:4045388-1"
+                },
+                {
+                    "@id": "gnd:4520890-6"
+                },
+                {
+                    "@id": "gnd:4179449-7"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/729563669.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

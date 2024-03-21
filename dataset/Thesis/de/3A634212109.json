@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:142135364",
+            "sameAs": "Schulz, Markus"
+        },
+        {
+            "@id": "gnd:4203980-0",
+            "sameAs": "Nichtparametrische Schätzung"
+        },
+        {
+            "@id": "gnd:4745075-7",
+            "sameAs": "Nichtparametrische Regression"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A634212109",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 221 S., 1231 KB)",
+            "identifier": [
+                "(firstid)HBZ:HT016485326",
+                "(ppn)634212109"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)519.536",
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Effizientes Schätzen von Erwartungswerten im nichtparametrischen Regressionsmodell mit fehlenden Zielvariablen",
+            "abstract": "In dieser Arbeit wird ein nichtparametrisches Regressionsmodell mit zentrierten Fehlern und Zielvariablen, die zufällig fehlen (MAR), untersucht. Unser Hauptziel ist es, einen Schätzer für den Erwartungswert einer Funktion der Beobachtungen zu finden, der im Hájek-Le Cam-Sinne effizient ist. In einigen ähnlichen Modellen wie einem linearen oder einem parametrischen Regressionsmodell haben andere Autoren effiziente Schätzer für den gleichen Erwartungswert konstruiert. Das hier betrachtete Problem wurde noch nicht behandelt, selbst im Fall nicht fehlender Daten. Daher muss man in einem ersten Schritt lokale asymptotische Normalität (LAN) des Modells nachgewiesen. Da der kanonische Gradient eines geeigneten Funktionals wesentlich für die Effizienz ist, wird er als nächstes berechnet. Dann wird mit vollständiger Imputation der Zielvariablen durch nichtparametrische Schätzer bedingter Erwartungswerte ein Schätzer konstruiert. Dafür wird die Regressionsfunktion durch eine beschränkte Version des Nadaraya-Watson-Schätzers geschätzt. Um zu untersuchen, ob der so konstruierte Schätzer effizient ist, wird die asymptotische Linearität des Schätzers und seine Einflussfunktion hergeleitet und mit dem kanonischen Gradienten verglichen. Es zeigt sich, dass der Schätzer nicht effizient ist. Dies unterscheidet sich vom Ergebnis im linearen und im parametrischen Regressionsmodell. Dennoch passt die bestimmte Einflussfunktion ganz gut zur gewünschten. Nach Addition eines Korrekturtermes erhalten wir schließlich einen effizienten Schätzer. Der letzte Schritt kann auch als zweiter Teil dieser Arbeit angesehen werden. Er enthält Argumente, die zuvor im Fall fehlender Daten noch nicht benutzt worden sind.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:142135364",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4203980-0",
+                "gnd:4745075-7"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

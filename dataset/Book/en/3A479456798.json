@@ -1,0 +1,136 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4032317-1",
+            "sameAs": "Kontrolltheorie"
+        },
+        {
+            "@id": "gnd:4133922-8",
+            "sameAs": "Prozessüberwachung"
+        },
+        {
+            "@id": "gnd:4134751-1",
+            "sameAs": "Berechnungskomplexität"
+        },
+        {
+            "@id": "gnd:4139305-3",
+            "sameAs": "Zustandsgraph"
+        },
+        {
+            "@id": "gnd:4196828-1",
+            "sameAs": "Diskretes Ereignissystem"
+        },
+        {
+            "@id": "gnd:4530728-3",
+            "sameAs": "Binäres Entscheidungsdiagramm"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A479456798",
+            "@type": "bibo:Book",
+            "P1053": "XIII, 184 S",
+            "creator": [
+                "Wonham, W. Murray",
+                "Ma, Chuan",
+                "Wonham, Walter Murray"
+            ],
+            "description": [
+                "graph. Darst",
+                "235 mm x 155 mm"
+            ],
+            "identifier": [
+                "(ppn)479456798",
+                "(ean)978-540-25069-2",
+                "(ean)9783540250692",
+                "(firstid)GBV:479456798",
+                "(isbn)3540250697"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)004",
+                "(classificationName=ddc-dbn)620",
+                "Discrete-time systems",
+                "Supervisory control systems",
+                "(classificationName=loc)TJ222",
+                "(classificationName=bk, id=106419412)50.20 - Automatisierungstechnik",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=msc)*93-02",
+                "(classificationName=msc)93C55",
+                "(classificationName=rvk)SI 845",
+                "(classificationName=msc)93C85",
+                "(classificationName=ddc)629.8",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik"
+            ],
+            "title": "Nonblocking supervisory control of state tree structures",
+            "abstract": "It is well-known that the optimal nonblocking supervisory control problem is NP-hard, subject in particular to state space explosion that is exponential in the number of system components. This monograph proposes to manage complexity by organizing the system as a State Tree Structure (STS). STS are an adaptation of statecharts to Supervisory Control Theory. Based on STS an efficient recursive symbolic algorithm is presented that can perform nonblocking supervisory control design in reasonable time and memory for complex systems, with resulting tractable and highly comprehensible controllers. TOC:Introduction.- State Tree Structures: Basics.- Nonblocking Supervisory Control of State Tree Structures.- Symbolic Computation of State Tree Structures.- The Production Cell Example.- The AIP Example.- Conclusions and Future Research",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "http://www.loc.gov/catdir/enhancements/fy0824/2005923293-t.html",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4196828-1"
+                },
+                {
+                    "@id": "gnd:4134751-1"
+                },
+                {
+                    "@id": "gnd:4139305-3"
+                },
+                {
+                    "@id": "gnd:4032317-1"
+                },
+                {
+                    "@id": "gnd:4530728-3"
+                },
+                {
+                    "@id": "gnd:4133922-8"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/479456798.PDF",
+            "volume": "317",
+            "P30128": "Lecture notes in control and information sciences",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "relation": "http://purl.org/dc/terms/relation",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

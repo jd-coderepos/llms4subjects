@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129502103",
+            "sameAs": "Weidling, Christoph"
+        },
+        {
+            "@id": "gnd:130020761",
+            "sameAs": "Dietzfelbinger, Martin"
+        },
+        {
+            "@id": "gnd:4323071-4",
+            "sameAs": "Hash-Algorithmus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A462036537",
+            "@type": "bibo:Thesis",
+            "P1053": "134 Bl.",
+            "contributor": [
+                "Sanders, P.",
+                "Goerdt, A."
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:462036537",
+                "(ppn)462036537"
+            ],
+            "subject": [
+                "(classificationName=ddc)004",
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Platzeffiziente Hashverfahren mit garantierter konstanter Zugriffszeit",
+            "abstract": "Wir stellen ein neues Verfahren zur Konstruktion einer minimalen perfekten Hashfunktion (MPHF) und ein neues cachefreundliches dynamisches Wörterbuch vor, beschreiben die neuen Verfahren algorithmisch und analysieren sie hinsichtlich Platzbedarf und Laufzeit. Für die Analyse nehmen wir an, dass die in den Verfahren benutzten Hashfunktionen volle Unabhängigkeit gewährleisten. Schließlich werden wir jeweils experimentelle Resultate angeben und interpretieren. Wir zeigen, dass man eine minimale perfekte Hashfunktion für n Schlüssel mit einem Platzbedarf von 0.93n Wörtern in erwarteter Zeit O(n) realisieren kann. Zur Auswertung der MPHF werden 2 Hashfunktionen berechnet und zwei Speicherzugriffe durchgeführt. Unser dynamisches Wörterbuch benötigt (1+epsilon)n Platz für ein beliebiges epsilon &gt; 0. Bei der Suche müssen 2 Hashfunktionen ausgewertet und 2d Speicherzellen inspiziert werden, die in zwei zusammenhängenden Speicherbereichen liegen, wobei d &gt;= 1+3.26 ln(1/epsilon). Wir können zeigen, dass für d &gt;= 90.1 ln(1/epsilon) die erwartete Einfügezeit für einen neuen Schlüssel konstant ist. Am Ende werden wir zeigen, wie man dynamisches Hashing mit Zeichenketten cachefreundlich realisieren kann.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130020761"
+                }
+            ],
+            "creator": "gnd:129502103",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:4323071-4"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/462036537.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

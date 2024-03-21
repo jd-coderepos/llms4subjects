@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118563076",
+            "sameAs": [
+                "Kleist, Heinrich",
+                "Kleist, Heinrich von 1777-1811"
+            ]
+        },
+        {
+            "@id": "gnd:120962144",
+            "sameAs": "Fischer-Lichte, Erika"
+        },
+        {
+            "@id": "gnd:4099273-1",
+            "sameAs": "Prinz Friedrich von Homburg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A272018201",
+            "@type": "bibo:Book",
+            "P1053": "115 S.",
+            "description": "Ill.",
+            "identifier": [
+                "(ppn)272018201",
+                "(isbn)3425064002",
+                "(firstid)GBV:272018201"
+            ],
+            "publisher": "Diesterweg",
+            "subject": [
+                "(classificationName=dbn)53",
+                "Kleist, Heinrich ^von",
+                "(classificationName=dbn)22",
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=rvk)GK 5164",
+                "(classificationName=ddc)832.6"
+            ],
+            "title": "Heinrich von Kleist: Prinz Friedrich von Homburg",
+            "abstract": "Neufassung",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:118563076"
+                }
+            ],
+            "creator": "gnd:120962144",
+            "issued": "1985",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4099273-1"
+                },
+                {
+                    "@id": "gnd:118563076"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht002126308.pdf",
+            "P30128": "Grundlagen und Gedanken zum Verständnis des Dramas",
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

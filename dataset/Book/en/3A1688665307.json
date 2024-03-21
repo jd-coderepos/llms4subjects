@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1183951485",
+            "sameAs": "Daszczuk, Wiktor B."
+        },
+        {
+            "@id": "gnd:4421492-3",
+            "sameAs": "Verteilte Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1688665307",
+            "@type": "bibo:Book",
+            "P1053": "xviii, 238 pages",
+            "description": [
+                "23 cm",
+                "illustrations (some color)"
+            ],
+            "identifier": [
+                "(firstid)KXP:1688665307",
+                "(ppn)1688665307",
+                "(isbn13)9783030128340",
+                "(isbn)3030128342"
+            ],
+            "publisher": "Springer",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Electronic data processing",
+                "Electronic data processing ; Distributed processing",
+                "(classificationName=ddc)004.6",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "(classificationName=loc)QA76.9.D5"
+            ],
+            "title": "Integrated model of distributed systems",
+            "abstract": [
+                "Preface -- Acknowledgments -- Chapter 1. Introduction -- Chapter 2. Related work on deadlock and termination detection techniques -- Chapter 3. Integrated Model of Distributed Systems -- Chapter 4. Model Checking of IMDS specifications in the Dedan environment -- etc.",
+                "In modern distributed systems, such as the Internet of Things or cloud computing, verifying their correctness is an essential aspect. This requires modeling approaches that reflect the natural characteristics of such systems: the locality of their components, autonomy of their decisions, and their asynchronous communication. However, most of the available verifiers are unrealistic because one or more of these features are not reflected. Accordingly, in this book we present an original formalism: the Integrated Distributed Systems Model (IMDS), which defines a system as two sets (states and messages), and a relation of the \"actions\" between these sets. The server view and the traveling agents view of the system provide communication duality, while general temporal formulas for the IMDS allow automatic verification. The features that the model checks include: partial deadlock and partial termination, communication deadlock and resource deadlock. Automatic verification can support the rapid development of distributed systems. Further, on the basis of the IMDS, the Dedan tool for automatic verification of distributed systems has been developed"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1183951485",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": "gnd:4421492-3",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1688665307.pdf",
+            "volume": "volume 817",
+            "P30128": "Studies in computational intelligence",
+            "P60163": "Cham, Switzerland"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

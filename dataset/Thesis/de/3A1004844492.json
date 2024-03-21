@@ -1,0 +1,109 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:107647831X",
+            "sameAs": "Zinner, Helge"
+        },
+        {
+            "@id": "gnd:13002077X",
+            "sameAs": "Seitz, Jochen"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4127501-9",
+            "sameAs": "Ethernet"
+        },
+        {
+            "@id": "gnd:4426067-2",
+            "sameAs": "Middleware"
+        },
+        {
+            "@id": "gnd:4496068-2",
+            "sameAs": "Dienstgüte"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1004844492",
+            "@type": "bibo:Thesis",
+            "P1053": "iii, 141 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Waas, Thomas",
+            "creator": "Hager, Markus",
+            "description": "Diagramme (teilweise farbig)",
+            "identifier": [
+                "(ppn)1004844492",
+                "(firstid)GBV:1004844492"
+            ],
+            "subject": [
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "LINDA : Leistungsmanagement in Netzwerken mit Dienstgüteadaption - am Beispiel einer Ethernet-Middleware",
+            "abstract": "Diese Arbeit präsentiert einen Lösungsvorschlag für die Realisierung von Dienstgüte in Ethernet-Netzwerken. Das zentrale Element hierfür ist ein Softwaresystem bestehend aus einer Middleware, welche die Kommunikation im Netzwerk gemäß den Vorgaben regelt. Dieser Ansatz wurde theoretisch konzipiert als auch praktisch programmiert. Die Implementierung der Lösung diente als Grundlage für die Leistungsbewertung des vorgestellten Ansatzes. Ergänzend zur Evaluierung des charakteristischen Verhaltens der Middleware unter verschiedenen Anforderungen werden auch Untersuchungen und Alternativen präsentiert, die aufzeigen, wie das System im Hinblick auf die Erfordernisse angepasst werden kann, die sich bei größeren Netzwerken ergeben. Der vorgestellt Lösungsansatz bietet eine Alternative zu bestehenden Dienstgüte-Funktionen, die mittels der Kommunikationsprotokolle und Ethernet-Hardware umgesetzt werden. Der Vorteil der Middleware liegt darin, dass diese unabhängig von den Funktionen des Netzwerks arbeitet, so dass keine besonderen Vorgaben an die Kommunikationsinfrastruktur gestellt werden müssen. Da die Realisierung der Dienstgüte rein durch die Software der Middleware umgesetzt wird, sind darüber hinaus alle Freiheitsgrade gegeben, um das Dienstgüte-Konzept frei an individuelle Bedürfnisse anzupassen.",
+            "contributor": [
+                "gnd:13002077X",
+                "gnd:107647831X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2125187-3"
+            },
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4127501-9"
+                },
+                {
+                    "@id": "gnd:4426067-2"
+                },
+                {
+                    "@id": "gnd:4496068-2"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/1004844492.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

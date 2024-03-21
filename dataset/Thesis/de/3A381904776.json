@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4127980-3",
+            "sameAs": "Regressionsmodell"
+        },
+        {
+            "@id": "gnd:4178265-3",
+            "sameAs": "Robuste Schätzung"
+        },
+        {
+            "@id": "gnd:4220666-2",
+            "sameAs": "Ecke"
+        },
+        {
+            "@id": "gnd:4353527-6",
+            "sameAs": "Kernschätzung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A381904776",
+            "@type": "bibo:Thesis",
+            "P1053": "94 S",
+            "creator": "Hillebrand, Martin",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)381904776",
+                "(firstid)GBV:381904776"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "On robust corner-preserving smoothing in image processing",
+            "abstract": [
+                "Die vorliegende Dissertation behandelt Konsistenz, Robustheit und Erhalten von                  Unstetigkeitsstellen durch M-Kernschätzer in ein- und zweidimensionaler Regression. Der                  M-Kernschätzer wurde von Härdle und Gasser (1984) mit einer monotonen Scorefunktion                  eingeführt. Sie liefern einen - allerdings nur eingeschränkt gültigen - Konsistenzbeweis und                  zeigen die Minimax-Eigenschaft. Chu et al. (1998) wählen eine Dichte als (zurückfallende)                  Scorefunktion. Dabei stellen sie eine gute sprungerhaltende Eigenschaft des Schätzers fest. Allerdings ist, wie in dieser Arbeit gezeigt wird, der Schätzer unter den Annahmen von Chu et al. (1998) nicht konsistent. In dieser Arbeit werden vollständige Beweise für                  qualitative Robustheit und Konsistenz sowohl für monotone als auch zurückfallende Schätzer                  geführt. Außerdem wird die Konsistenz bei Sprungstellen (&apos;sprungerhaltende&apos; Eigenschaft) für den zurückfallenden Schätzer gezeigt. In einem weiteren Schritt wird der zurückfallende M-Kernschätzer auf Bilder angewendet, die als zweidimensionale Regressionsfunktionen                  betrachtet werden können. Es wird gezeigt, dass der zurückfallende M-Kernschätzer sogar                  spitze Ecken erhält, was in Kombination mit der qualitativen asymptotischen Robustheit                  eine einzigartige Eigenschaft ist. Um eine quantitative nichtasymptotische Robustheit zu                  erhalten, wird der Getrimmte M-Kernschätzer eingeführt, der die eckenerhaltende                  Eigenschaft des zurückfallenden M-Kernschätzers mit der Robustheit des LTS-Schätzers gegen Ausreißer vereinigt. &lt;dt.&gt;",
+                "This Ph.D. thesis treats consistency, robustness and dicontinuity-preserving issues of M-kernel estimators in one- and two-dimensional regression. The M-kernel smoother was first introduced by Härdle and Gasser (1984) who provide a restricted valid proof of consistency for a monotone score function and show the minimax property. Chu et al. (1998) take a density as (redescending) score function. They observe a good jump-preserving property. However, as shown in this thesis, consistency cannot be achieved under the assumptions given in their paper. In this thesis, complete proofs for robustness and consistency of both monotone and redescending M-kernel smoothers are provided. Further, consistency close to a discontinuity (called &apos;jump-preserving&apos; property) is shown for the redescending M-kernel smoother. In a further step the redescending M-kernel smoother is applied to images which can be regarded as two-dimensional regression functions. It is shown that the redescending M-kernel smoother even preserves sharp corners which is, in combination with qualitative asymptotic robustness, a unique property among                  nonparametric smoothers. To achieve a quantitative nonasymptotic robustness property, the Trimmed M-Kernel Estimator is introduced combining the corner-preserving property of the redescending M-kernel smoother and the robustness against outliers of the LTS estimator. &lt;engl.&gt;"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4220666-2",
+                "gnd:4178265-3",
+                "gnd:4353527-6",
+                "gnd:4127980-3",
+                "gnd:4006684-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

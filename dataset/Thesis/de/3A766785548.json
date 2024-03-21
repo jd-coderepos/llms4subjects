@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4027145-6",
+            "sameAs": "Instandhaltung"
+        },
+        {
+            "@id": "gnd:4054433-3",
+            "sameAs": "Selbsttest"
+        },
+        {
+            "@id": "gnd:4076370-5",
+            "sameAs": "Programmierung"
+        },
+        {
+            "@id": "gnd:4126276-1",
+            "sameAs": "Technisches System"
+        },
+        {
+            "@id": "gnd:4238812-0",
+            "sameAs": "Mechatronik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A766785548",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": [
+                "Rammig, Franz Josef",
+                "Schäfer, Wilhelm",
+                "Tichy, Matthias"
+            ],
+            "creator": "Priesterjahn, Claudia",
+            "identifier": [
+                "(ppn)766785548",
+                "(firstid)HBZ:CT004000931"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106419404)50.16 - Technische Zuverlässigkeit, Instandhaltung",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10642131X)52.88 - Feinwerktechnik, Mechatronik",
+                "(classificationName=ddc-dbn)910",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering",
+                "(classificationName=ddc)621"
+            ],
+            "title": "Analyzing self-healing operations in mechatronic systems",
+            "abstract": "Selbstheilung kann in mechatronischen Systemen eingesetzt werden, um die Auftrittswahrscheinlichkeiten von Gefahren zu reduzieren. Selbstheilende mechatronische Systeme reagieren zur Laufzeit auf Fehler im System, indem sie ihre Architektur rekonfigurieren. Das heißt, zur Laufzeit werden Komponenten ausgetauscht oder Kommunikationsverbindungen verändert, um zu vermeiden, dass Fehler Gefahren verursachen. Diese Reaktion unterliegt harten Echtzeitbedingungen, da der beabsichtigte Selbstheilungseffekt bei einer zu späten Reaktion nicht eintritt. Um zu beurteilen, ob eine Selbstheilungsoperation die Auftrittswahrscheinlichkeit einer Gefahr reduziert, müssen die Propagierungszeiten von Fehlern und der Effekt der Selbstheilungsoperation auf die Fehlerpropagierung betrachtet werden. In dieser Arbeit wird eine Analyse vorgestellt, die Selbstheilungsoperationen analysiert und dabei die beiden oben genannten Probleme berücksichtigt. Die Analyse wird mit Hilfe von Fehlerpropagierungsmodellen ausgeführt, die Informationen über Propagierungszeiten enthalten. Die Fehlerpropagierungsmodelle werden dabei automatisch aus den Verhaltensmodellen der Systemkomponenten generiert. Außerdem kann bei rekonfigurierbaren mechatronischen Systemen der Fall auftreten, dass zum Entwurfszeitpunkt nicht alle Systemarchitekturen bekannt sind, die zur Laufzeit erzeugt werden können. Das gilt vor allem für Systeme von Systemen, die sich erst zur Laufzeit treffen. Um Aussagen über den Erfolg von Selbstheilungsaktionen treffen zu können, wird jedoch eine konkrete Systemarchitektur benötigt. Deshalb stellen wir in dieser Arbeit einen Ansatz vor, der es erlaubt, Selbstheilungsoperationen zur Laufzeit zu analysieren. Systemarchitekturen, in denen trotz der Anwendung einer Selbstheilungsoperation die Gefahrenwahrscheinlichkeit den zulässigen Wert übersteigt, werden gesperrt.. - Self-healing may be used to reduce occurrence probabilities of hazards in mechatronic systems, which are applied in safety-critical environments. Self-healing mechatronic systems react to failures by a reconfiguration of the architecture during runtime. This means, the exchange of components or the modification of the components&apos; connections, in order to avoid that a failure results in a hazard. This reaction is subject to hard real-time constraints, because reacting too late does not yield the intended self-healing effects. In order to judge whether a self-healing operation reduces the probability of the hazard successfully, we must consider the failure propagation times and the effect of the self-healing operation on the propagation of failures. In this thesis, we present an analysis of self-healing operations that particularly considers the problems mentioned above. This analysis operates on failure propagation models that contain information about propagation times. The failure propagation models are generated automatically from the behavior models of system components.In the domain of reconfigurable mechatronic systems, not all architectural configurations of a system that are constructed at runtime may be known at design time. This applies in particular to systems of systems. These systems only meet at runtime and establish connections in order to cooperate. These connections may lead to configurations that were unknown at design time. However, the analysis of self-healing operations requires concrete architectural configurations. We consequently present a framework that allows for executing our analysis of self-healing operations at runtime. Reconfigurations are locked if they construct configurations whose hazard occurrence probabilities exceed the valid hazard occurrence probability of the system.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4126276-1"
+                },
+                {
+                    "@id": "gnd:4076370-5"
+                },
+                {
+                    "@id": "gnd:4238812-0"
+                },
+                {
+                    "@id": "gnd:4054433-3"
+                },
+                {
+                    "@id": "gnd:4027145-6"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

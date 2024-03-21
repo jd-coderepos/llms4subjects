@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128751851",
+            "sameAs": "Hilbe, Joseph M."
+        },
+        {
+            "@id": "gnd:14277507X",
+            "sameAs": "Robinson, Andrew"
+        },
+        {
+            "@id": "gnd:4121722-6",
+            "sameAs": "Statistisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1604795956",
+            "@type": "bibo:Book",
+            "P1053": "XII, 243 S.",
+            "identifier": [
+                "(isbn13)9781439858028",
+                "(firstid)BSZ:39213201X",
+                "(ppn)1604795956"
+            ],
+            "publisher": "CRC, Taylor &amp; Francis",
+            "subject": [
+                "(classificationName=rvk)SK 830",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=linseach:mapping)mat",
+                "Estimation theory",
+                "(classificationName=ddc-dbn)MAT029000",
+                "(classificationName=ddc)519.5/44",
+                "(classificationName=loc)QA276.8"
+            ],
+            "title": "Methods of statistical model estimation",
+            "abstract": "\"Preface Methods of Statistical Model Estimation has been written to develop a particular pragmatic viewpoint of statistical modelling. Our goal has been to try to demonstrate the unity that underpins statistical parameter estimation for a wide range of models. We have sought to represent the techniques and tenets of statistical modelling using executable computer code. Our choice does not preclude the use of explanatory text, equations, or occasional pseudo-code. However, we have written computer code that is motivated by pedagogic considerations first and foremost. An example is in the development of a single function to compute deviance residuals in Chapter 4. We defer the details to Section 4.7, but mention here that deviance residuals are an important model diagnostic tool for GLMs. Each distribution in the exponential family has its own deviance residual, defined by the likelihood. Many statistical books will present tables of equations for computing each of these residuals. Rather than develop a unique function for each distribution, we prefer to present a single function that calls the likelihood appropriately itself. This single function replaces five or six, and in so doing, demonstrates the unity that underpins GLM. Of course, the code is less efficient and less stable than a direct representation of the equations would be, but our goal is clarity rather than speed or stability. This book also provides guidelines to enable statisticians and researchers from across disciplines to more easily program their own statistical models using R. R, more than any other statistical application, is driven by the contributions of researchers who have developed scripts, functions, and complete packages for the use of others in the general research community\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:14277507X",
+                "gnd:128751851"
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:4121722-6"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781439858028.pdf",
+            "P30128": "A Chapman &amp; Hall book",
+            "P60163": "Boca Raton, London [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

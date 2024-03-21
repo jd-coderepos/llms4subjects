@@ -1,0 +1,144 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4115453-8",
+            "sameAs": "Optionspreis"
+        },
+        {
+            "@id": "gnd:4193909-8",
+            "sameAs": "C++"
+        },
+        {
+            "@id": "gnd:4206283-4",
+            "sameAs": "Black-Scholes-Modell"
+        },
+        {
+            "@id": "gnd:4268390-7",
+            "sameAs": "Volatilität"
+        },
+        {
+            "@id": "gnd:4381572-8",
+            "sameAs": "Derivat (Wertpapier)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655444557",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XII, 244p, online resource)",
+            "creator": "Buff, Robert",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1655444557",
+                "(isbn13)9783642563232",
+                "(doi)10.1007/978-3-642-56323-2",
+                "(firstid)BSZ:404694004"
+            ],
+            "publisher": "Springer-Verlag",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Optionspreistheorie",
+                "(classificationName=msc)*91-01",
+                "(classificationName=msc)91G20",
+                "Stochastischer Prozess",
+                "Economics, Mathematical .",
+                "Volatilität",
+                "Theorie",
+                "(classificationName=ddc)519",
+                "(classificationName=rvk)QK 620",
+                "(classificationName=rvk)SK 980",
+                "(classificationName=rvk)QK 660",
+                "(classificationName=msc)91G10",
+                "Mathematics",
+                "Black-Scholes-Modell",
+                "(classificationName=msc)91-08",
+                "PC-Software",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=msc)62P05",
+                "Finance",
+                "(classificationName=loc)HB135-147",
+                "Nichtlineare Dynamik",
+                "(classificationName=bk, id=106414763)85.30 - Investition, Finanzierung",
+                "Social sciences—Mathematics."
+            ],
+            "title": "Uncertain Volatility Models — Theory and Application",
+            "abstract": [
+                "1 Introduction -- I Computational Finance: Theory -- 2 Notation and Basic Definitions -- 3 Continuous Time Finance -- 4 Scenario-Based Evaluation and Uncertainty -- II Algorithms for Uncertain Volatility Models -- 5 A Lattice Framework -- 6 Algorithms for Vanilla Options -- 7 Algorithms for Barrier Options -- 8 Algorithms for American Options -- 9 Exotic Volatility Scenarios -- III Object-Oriented Implementation -- 10 The Architecture of Mtg -- 11 The Class Hierarchy of MtgLib-External -- 12 The Class Hierarchy of MtgLib-Internal -- 13 Extensions for Monte-Carlo Pricing and Calibration -- A The Network Application MtgClt/MtgSvr -- B The Scripting Language MtgScript -- C Mathematica Extensions -- References.",
+                "This book introduces Uncertain Volatility Models in mathematical finance. Uncertain Volatility Models evaluate option portfolios under worst- and best-case scenarios when the volatility coefficient of the pricing model cannot be determined exactly. The user defines subjective volatility constraints; within those constraints, extremal prices are computed. This book studies two types of constraints: volatility bands with upper and lower bounds, and shock scenarios with short periods of extreme volatility, but unknown timing. Uncertain Volatility Models are nonlinear. Worst- and best-case scenarios applied to isolated option positions do not always lead to the same extremal volatility. When applied to an options portfolio, a diversification effect reduces the overall exposure to volatility fluctuations within the subjective constraints. This book explores algorithmic issues that arise due to nonlinearity. Because Uncertain Volatility Models must be applied to option portfolios as a whole, they are difficult to implement on a computer if the portfolio contains barrier or American options. This book is for graduate students, researchers and practitioners who wish to study advanced aspects of volatility risk in portfolios of vanilla and exotic options."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "relation": "https://swbplus.bsz-bw.de/bsz096332166kap.htm",
+            "subject": [
+                "gnd:4268390-7",
+                "gnd:4206283-4",
+                "gnd:4193909-8",
+                "gnd:4115453-8",
+                "gnd:4381572-8"
+            ],
+            "tableOfContents": [
+                "https://swbplus.bsz-bw.de/bsz096332166inh.htm",
+                "https://external.dandelon.com/download/attachments/dandelon/ids/DEAGI16EAA.pdf"
+            ],
+            "isLike": "doi:10.1007/978-3-642-56323-2",
+            "P30128": [
+                "Bücher",
+                "Springer Finance",
+                "Springer Finance Lecture Notes",
+                "SpringerLink"
+            ],
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "relation": "http://purl.org/dc/terms/relation",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

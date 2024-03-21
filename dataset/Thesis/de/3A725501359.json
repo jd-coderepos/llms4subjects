@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135937567",
+            "sameAs": "Modellprädiktive Regelung"
+        },
+        {
+            "@id": "gnd:1162974796",
+            "sameAs": "Worthmann, Karl"
+        },
+        {
+            "@id": "gnd:4140375-7",
+            "sameAs": "Abtastung"
+        },
+        {
+            "@id": "gnd:4171761-2",
+            "sameAs": "Nichtlineare Stabilitätstheorie"
+        },
+        {
+            "@id": "gnd:4177371-8",
+            "sameAs": "Regelgüte"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A725501359",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)BVB:BV040351227",
+                "(ppn)725501359"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=rvk)SK 880",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Stability analysis of unconstrained receding horizon control schemes",
+            "abstract": "Das Thema dieser Dissertation ist die modellprädiktive Regelung (MPC). Insbesondere werden weder Endbedingungen noch Endkosten in die Problemformulierung aufgenommen. Das Ziel dabei ist es eine relaxierte Lyapunov-Ungleichung zu zeigen, um asymptotische Stabilität des bzw. Güteabschätzungen an den mittels modellprädiktiver Regelung geschlossenen Regelkreis folgern zu können. Dazu wird, basierend auf einer Kontrollierbarkeitsannahme, eine Stabilitätsbedingung hergeleitet, die anschließend einer Sensitivitätsanalyse bzgl. des Prädiktions- und Kontrollhorizonts unterzogen wird. Letztere führt auf Kriterien für den Entwurf geeigneter Stufenkosten und erlaubt zudem den Nachweis nützlicher Symmetrie- und Monotonieeigenschaften, welche die Grundlage für die anschließende Algorithmenentwicklung darstellen. Die Verwendung der so motivierten Algorithmen ermöglicht es, den Prädiktionshorizont ohne Abstriche bzgl. der garantierten Regelgüte zu verkürzen und so den Rechenaufwand erheblich zu reduzieren. Viele praktisch relevante, zeitdiskret modellierte Regelstrecken sind aus abgetasteten Differentialgleichungen abgeleitet worden. Dies motiviert es Effekte zu untersuchen, die aus der Verwendung sehr kurzer Abtastraten bzw. damit einhergehender feiner Diskretisierungen resultieren. In diesem Zusammenhang wird eine Wachstumsbedingung eingeführt, mit deren Hilfe zum Beispiel Stetigkeitseigenschaften in unserer Stabilitätsanalyse berücksichtigt werden können - ein entscheidender Schritt hin zu so genannten akkumulierten Schranken, welche auf weiter verbesserte Güteabschätzungen führen. Zudem wird die Anwendbarkeit und Effektivität der hergeleiteten Resultate anhand mehrerer Beispiele demonstriert. So wird unter anderem eine Klasse von Reaktions- Diffusionsgleichungen betrachtet.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1162974796",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4171761-2"
+                },
+                {
+                    "@id": "gnd:1135937567"
+                },
+                {
+                    "@id": "gnd:4177371-8"
+                },
+                {
+                    "@id": "gnd:4140375-7"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

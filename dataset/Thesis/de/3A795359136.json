@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1056902248",
+            "sameAs": "Zellmann, Stefan"
+        },
+        {
+            "@id": "gnd:4128144-5",
+            "sameAs": "Supercomputer"
+        },
+        {
+            "@id": "gnd:4702113-5",
+            "sameAs": "Volumen-Rendering"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A795359136",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)HBZ:HT018369817",
+                "(ppn)795359136"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106418920)54.73 - Computergraphik",
+                "(classificationName=bk, id=181569892)54.25 - Parallele Datenverarbeitung",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Interactive high performance volume rendering",
+            "abstract": [
+                "Diese Dissertation fokussiert sich auf direktes Volume Rendering auf Höchstleistungsrechnern. Weil für direkte Visualierungsmethoden keine geometrische Hilfsrepräsentation niedrigerer Dimension benötigt wird, so dass der gesamte wissenschaftliche Datensatz im Arbeitsspeicher vorgehalten werden muss, ist der Ressourcenbedarf dieser Familie von Algorithmen immens. Im Allgemeinen bietet sich zur Implementierung eher Grafikhardware an. Diese wird von Höchstleistungsrechnern häufig aber nicht zur Verfügung gestellt, so dass der Visualisierungsalgorithmus speziell für die verfügbare, für den universellen Einsatz gedachte, Hardware implementiert werden muss. Das stete Wachstum wissenschaftlicher Datensätze impliziert Datenbewegungen im großen Maße vom Höchstleistungsrechner zur Workstation des Wissenschaftlers. Außerdem besteht zunehmend der Bedarf danach, Zwischenergebnisse bereits während der Simulation begutachten zu können. Diese zwei Faktoren begründen die Relevanz dessen, Direktes Volume Rendering für Höchstleistungsrechner zu portieren. Der Beitrag dieser Arbeit ist zu diesem Zwecke zweigeteilt. Im Rahmen des ersten Teilbeitrags werden auf der Basis einer Software-Architekturbeschreibung, die generelle Implementierungen von Direktem Volume Rendering für hochgradig parallele Plattformen lanciert, Details zur parallelen Implementierun für zahlreiche moderne Architekturen erörtert. Dieser Teilbeitrag resultiert in einer hochgradig parallelen Implementierung, die auf zahlreichen Plattformen effizient lauffähig ist. Der zweite Teilbeitrag behandelt die Darstellungsphase in der “Verteilten Volume Rendering Pipeline”. Rendering auf Höhstleistungsrechnern basiert typischerweis auf Remote Rendering Techniken. Diese Dissertation schlägt eine Remote Rendering Technik vor, mit deren Hilfe es möglich ist, Latenzen zu verstecken, und die deshalb in interaktiven Umgebungen zum Einsatz kommen kann.",
+                "Zsfassung in dt. und engl. Sprache",
+                "Scientific Visualization; Direct Volume Rendering; Remote Rendering; High Performance Computing"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1056902248",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4128144-5",
+                "gnd:4702113-5"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

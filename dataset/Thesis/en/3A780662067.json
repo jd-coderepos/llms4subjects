@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:113329067",
+            "sameAs": "Trächtler, Ansgar"
+        },
+        {
+            "@id": "gnd:4052368-8",
+            "sameAs": "Schienenfahrzeug"
+        },
+        {
+            "@id": "gnd:4126692-4",
+            "sameAs": "Spurführung"
+        },
+        {
+            "@id": "gnd:4177447-4",
+            "sameAs": "Reglerentwurf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A780662067",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Böcker, Joachim",
+            "creator": "Geisler, Jens",
+            "identifier": [
+                "(firstid)HBZ:CT004000975",
+                "(ppn)780662067"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106405691)55.30 - Schienenfahrzeugtechnik, Eisenbahntechnik",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik"
+            ],
+            "title": "Selbstoptimierende Spurführung für ein neuartiges Schienenfahrzeug",
+            "abstract": "In dieser Arbeit wird die Entwicklung von zwei selbstoptimierenden Reglern fürdie aktive Spurführung eines neuartigen Schienenfahrzeugs vorgestellt. Mithilfe aktiv lenkbarer Achsen kann der mit einer passiven Spurführung verbundene Kompromiss zwischen Verschleiß und Laufstabilität überwunden werden. Durchdie Selbstoptimierung wird der Regler zur Laufzeit so an die jeweilige Situationangepasst, dass die Stellenergie und die Regelgüte unabhängig von der Amplitude der Störungen sind und so z. B. auf bestimmte feste Werte eingestellt werdenkönnen. Der erste Regleransatz basiert auf der Vorsteuerung von modellprädiktiv optimierten Trajektorien, die mit einem P-Regler stabilisiert werden. Bei derzweiten Methode wird die Rückführungsmatrix eines vollständigen Zustandsreglers situationsabhängig optimiert. Beiden Methoden gemeinsam ist das Konzeptder \"Selbstoptimierung durch Mehrzieloptimierung\". Dabei wird zunächst für alleAnforderungen ein separates Gütekriterium formuliert. Danach wird das Mehrzieloptimierungsproblem durch die mathematische Formulierung der gewünschten Relation zwischen den Anforderungen in ein skalares Optimierungsproblemüberführt. Diese Vorgehensweise ist sehr allgemein und lässt sich auf viele andereRegelungsaufgaben übertragen. Die vorliegende Arbeit leistet daher über die vorgestellte konkrete Anwendung hinaus einen generellen Beitrag zur Entwicklungselbstoptimierender Systeme.. - In this thesis, the development of two self-optimizing controllers for the activeguidance of an innovative rail vehicle is presented. Using actively steerable axles,the compromise between abrasive wear and stability that is inherent to passiveguidance can be suspended. A self-optimization algorithm adjusts the controllerat runtime to the current situation such that the actuation energy and the controller performance are no longer affected by disturbances. The first controllerconcept comprises a feed forward control of model based optimized trajectoriesthat are stabilised by a proportional feedback controller. The second concept isbased on a linear state feedback controller where the feedback law is optimized atruntime. Both methods share the concept of \"self-optimization by multi-objectiveoptimization\". In multi-objective optimization, all requirements are formulated asa separate criterion. Subsequently, a scalar optimization problem is derived bymathematically defining the desired quantitative relation between the separateobjectives. This approach is not limited to any one controller design method.Therefore, the contribution of this thesis is not only to the presented applicationsbut further to the general method of designing self-optimizing systems.",
+            "alternative": "Selfoptimizing guidance controller for a new type of rail vehicle",
+            "contributor": "gnd:113329067",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4177447-4",
+                "gnd:4126692-4",
+                "gnd:4052368-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:4219666-8",
+            "sameAs": "Rendering"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A780183738",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Domik-Kienegger, Gitta",
+            "creator": "Petring, Ralf",
+            "identifier": [
+                "(firstid)HBZ:CT004000968",
+                "(ppn)780183738"
+            ],
+            "subject": [
+                "(classificationName=ddc)005",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Multi-Algorithmen-Rendering : Darstellung heterogener 3-D-Szenen in Echtzeit : Real-time 3D rendering of heterogeneous scenes",
+            "abstract": [
+                "Many large virtual 3D scenes are not structured evenly, for example because they exhibit a highly varying density distribution of their polygons. For such heterogeneous data, there is no single algorithm that constantly performs well with any type of scene and that is able to render the scene at each position fast with the same high image quality. For a small set of scenes, this situation can be improved, if an experienced user is able to manually assign different rendering algorithms to particular parts of the scene. We introduce the Multi- Algorithm-Rendering method which automatically deploys different rendering algorithms simultaneously for a broad range of scene types. The method divides the scene into suitable subregions and measures the behavior of the different algorithms for each region in a preprocessing step. During runtime, this data is utilized to compute an estimate for the quality and running time of the available rendering algorithms from the observers point of view. By solving an optimizing problem embedded in a control cycle, the image quality can be optimized by the appropriate assignment of algorithms to regions, while keeping the achieved frame rate almost constant. In an experimental evaluation, we compare our methods running time and image quality with that of standard rendering algorithms.",
+                "Viele große virtuelle 3-D-Szenen sind nicht gleichmäßig strukturiert, z. B. weil sie eine stark schwankende Dichteverteilung der Geometrie aufweisen. Für solche ungleichmäßig strukturierten Szenen gibt es keinen Algorithmus, der an allen Betrachterpositionen gut funktioniert, also für beliebige Positionen ein Bild mit guter Qualität in annehmbarer Zeit darstellt. Für eine kleine Teilmenge dieser Szenen kann die Situation verbessert werden, indem ein erfahrener Benutzer per Hand für einzelne Bereiche einer Szene entscheidet, mit welchem Algorithmus diese dargestellt werden. In dieser Arbeit wird ein Verfahren vorgestellt, welches automatisch unterschiedliche Algorithmen gleichmäßig strukturierten Bereichen einer Szene zuordnet. Die Methode teilt dafür die Szene in brauchbare Bereiche auf und misst das Verhalten unterschiedlicher Algorithmen auf diesen Bereichen in einem Vorberechnungsschritt. Zur Laufzeit werden diese Daten dann genutzt, um eine Vorhersage für die Laufzeit und den entstehenden Bildfehler der einzelnen Algorithmen auf den Bereichen der Szene abhängig von der Position des Betrachters zu erhalten. Mittels Lösens eines in einen Regelkreis eingebetteten Optimierungsproblems kann dann die Bildqualität durch eine geschickte Zuordnung von Algorithmen zu Bereichen bei nahezu konstanter Bildrate optimiert werden. In einer experimentellen Evaluierung werden sowohl Laufzeit als auch Bildqualität unserer Methode mit denen von Standardverfahren verglichen."
+            ],
+            "alternative": "Multi-Algorithm-Rendering",
+            "contributor": "gnd:110026063",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4219666-8"
+            }
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:115639403",
+            "sameAs": "Žmegač, Viktor"
+        },
+        {
+            "@id": "gnd:4015464-6",
+            "sameAs": "Erzählung"
+        },
+        {
+            "@id": "gnd:4113292-0",
+            "sameAs": "Deutsch"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A02725514X",
+            "@type": "bibo:Book",
+            "P1053": "XXV, 750 S.",
+            "description": "25 cm",
+            "identifier": [
+                "(isbn)3761080476",
+                "(firstid)GBV:02725514X",
+                "(ppn)02725514X"
+            ],
+            "publisher": "Athenäum-Verl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=dbn)08a",
+                "(classificationName=rvk)GE 6844",
+                "Geschichte 1789-1978"
+            ],
+            "title": "Das große deutsche Erzählbuch",
+            "abstract": "88 ausgewählte deutschsprachige Erzähltexte aus den letzten zwei Jahrhunderten.",
+            "contributor": "gnd:115639403",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1979",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4015464-6",
+                "gnd:4113292-0"
+            ],
+            "P60163": "Königstein/Ts."
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046197991",
+            "sameAs": "Heinze, Thomas"
+        },
+        {
+            "@id": "gnd:120457342",
+            "sameAs": "Amme, Wolfram"
+        },
+        {
+            "@id": "gnd:1296491080",
+            "sameAs": "Schäfer, André"
+        },
+        {
+            "@id": "gnd:1296591212",
+            "sameAs": "Koschke, Rainer"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4116522-6",
+            "sameAs": "Softwareentwicklung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A185305450X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (151 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:185305450X",
+                "(ppn)185305450X"
+            ],
+            "subject": [
+                "Softwareentwicklung",
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)005.13",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "Codeklonerkennung mit Dominatorinformationen",
+            "abstract": "If an existing function in a software project is copied and reused (in a slightly modiﬁed version), the result is a code clone. If there was an error or vulnerability in the original function, this error or vulnerability is now contained in several places in the software project. This is one of the reasons why research is being done to develop powerful and scalable clone detection techniques. In this thesis, a new clone detection method is presented that uses paths and path sets derived from the dominator trees of the functions to detect the code clones. A dominator tree is a special form of the control ﬂow graph, which does not contain cycles. The dominator tree based method has been implemented in the StoneDetector tool and can detect code clones in Java source code as well as in Java bytecode. It has equally good or better recall and precision results than previously published code clone detection methods. The evaluation was performed using the BigCloneBench. Scalability measurements showed that even source code with several 100 million lines of code can be searched in a reasonable time. In order to evaluate the bytecode based StoneDetector variant, the BigCloneBench ﬁles had to be compiled. For this purpose, the Stubber tool was developed, which can compile Java source code ﬁles without the required libraries. Finally, it could be shown that using the register code generated from the Java bytecode, similar recall and precision values could be achieved compared to the source code based variant. Since some machine learning studies specify that very good recall and precision values can be achieved for all clone types, a machine learning method was trained with dominator trees. It could be shown that the results published by the studies are not reproducible on unseen data.",
+            "contributor": [
+                "gnd:1296591212",
+                "gnd:120457342",
+                "gnd:1046197991"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1296491080"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4116522-6"
+            },
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

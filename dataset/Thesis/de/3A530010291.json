@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:132806746",
+            "sameAs": "Zhebel, Elena"
+        },
+        {
+            "@id": "gnd:4035826-4",
+            "sameAs": "Lineares Gleichungssystem"
+        },
+        {
+            "@id": "gnd:4038376-3",
+            "sameAs": "Mehrgitterverfahren"
+        },
+        {
+            "@id": "gnd:4177885-6",
+            "sameAs": "Restriktion (Mathematik)"
+        },
+        {
+            "@id": "gnd:4324734-9",
+            "sameAs": "Unvollständige Dreieckszerlegung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A530010291",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 104 S., 844 KB)",
+            "identifier": [
+                "(firstid)DNB:98371049X",
+                "(ppn)530010291"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)518.43",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "A multigrid method with matrix dependent transfer operators for 3D diffusion problems with jump coefficients",
+            "abstract": "Gegeben sei ein lineares Gleichungssystem $Au = f$ mit Koeffizientenmatrix $A$, welche eine spezielle block-tridiagonale Struktur besitzt. Solche lineare Gleichungssysteme entstehen bei der Diskretisierung dreidimensionaler elliptischer Randwertprobleme mit 7- oder 27-Punkte-Stern. In geophysikalischen Anwedungen, insbesondere bei Aufgaben aus der Geoelektrik, haben die Randwertprobleme unstetige Koeffizienten und sind meistens auf nicht-uniformen Gittern diskretisiert. Klassische geometrische Mehrgitterverfahren konvergieren um so langsamer, je stärker die Koeffizientensprünge ausfallen. Außerdem kann die Konvergenz durch die Variation der Gitterabstände beeinträchtigt werden. Zur Lösung wird ein matrix-abhängiges Mehrgitterverfahren vorgestellt. Als Glätter wird eine unvollständige Block LU-Zerlegung verwendet. Die Gittertransferoperationen werden anhand der Einträge der Matrix $A$ ermittelt. Das resultierende Verfahren erweist sich als sehr robust, insbesondere wenn es als Vorkonditionierung für das Verfahren der konjugierten Gradienten eingesetzt wird.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:132806746",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4324734-9",
+                "gnd:4177885-6",
+                "gnd:4038376-3",
+                "gnd:4035826-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

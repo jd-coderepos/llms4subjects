@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4006851-1",
+            "sameAs": "Biologie"
+        },
+        {
+            "@id": "gnd:4032016-9",
+            "sameAs": "Kompost"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A023422394",
+            "@type": "bibo:Book",
+            "P1053": "67 S",
+            "creator": "Bockemühl, Jochen",
+            "identifier": [
+                "(isbn)3723502237",
+                "(firstid)GBV:023422394",
+                "(ppn)023422394"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106409212)48.52 - Pflanzenernährung, Düngung",
+                "(classificationName=loksys)lan 129",
+                "(classificationName=dbn)39",
+                "(classificationName=linseach:mapping)hor"
+            ],
+            "title": "Vom Leben des Komposthaufens",
+            "abstract": "Aus: Elemente der Naturwissenschaft. 1978,2",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1981",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4006851-1"
+                },
+                {
+                    "@id": "gnd:4032016-9"
+                }
+            ],
+            "tableOfContents": "http://d-nb.info/820446254/04",
+            "P60163": "Dornach/Schweiz"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

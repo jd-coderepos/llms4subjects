@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118070339",
+            "sameAs": "Lucks, Stefan"
+        },
+        {
+            "@id": "gnd:124494520X",
+            "sameAs": "List, Eik"
+        },
+        {
+            "@id": "gnd:132416514",
+            "sameAs": "Armknecht, Frederik"
+        },
+        {
+            "@id": "gnd:4033329-2",
+            "sameAs": "Kryptologie"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1776027906",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (258 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.25643/bauhaus-universitaet.4523",
+                "(firstid)KXP:1776027906",
+                "(ppn)1776027906"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Cryptanalysis",
+                "(classificationName=ddc)005.82"
+            ],
+            "title": "Design, Analysis, and Implementation of Symmetric-key (Authenticated) Ciphers",
+            "abstract": "Modern cryptography has become an often ubiquitous but essential part of our daily lives. Protocols for secure authentication and encryption protect our communication with various digital services, from private messaging, online shopping, to bank transactions or exchanging sensitive information. Those high-level protocols can naturally be only as secure as the authentication or encryption schemes underneath. Moreover, on a more detailed level, those schemes can also at best inherit the security of their underlying primitives. While widespread standards in modern symmetric-key cryptography, such as the Advanced Encryption Standard (AES), have shown to resist analysis until now, closer analysis and design of related primitives can deepen our understanding. The present thesis consists of two parts that portray six contributions: The first part considers block-cipher cryptanalysis of the round-reduced AES, the AES-based tweakable block cipher Kiasu-BC, and TNT. The second part studies the design, analysis, and implementation of provably secure authenticated encryption schemes. In general, cryptanalysis aims at finding distinguishable properties in the output distribution. Block ciphers are a core primitive of symmetric-key cryptography which are useful for the construction of various higher-level schemes, ranging from authentication, encryption, authenticated encryption up to integrity protection. Therefore, their analysis is crucial to secure cryptographic schemes at their lowest level. With rare exceptions, block-cipher cryptanalysis employs a systematic strategy of investigating known attack techniques. Modern proposals are expected to be evaluated against these techniques. The considerable effort for evaluation, however, demands efforts not only from the designers but also from external sources. The Advanced Encryption Standard (AES) is one of the most widespread block ciphers nowadays. Therefore, it is naturally an interesting target for further analysis. Tweakable block ciphers augment the usual inputs of a secret key and a public plaintext by an additional public input called tweak. Among various proposals through the previous decade, this thesis identifies Kiasu-BC as a noteworthy attempt to construct a tweakable block cipher that is very close to the AES. Hence, its analysis intertwines closely with that of the AES and illustrates the impact of the tweak on its security best. Moreover, it revisits a generic tweakable block cipher Tweak-and-Tweak (TNT) and its instantiation based on the round-reduced AES. The first part investigates the security of the AES against several forms of differential cryptanalysis, developing distinguishers on four to six (out of ten) rounds of AES. For Kiasu-BC, it exploits the additional freedom in the tweak to develop two forms of differential-based attacks: rectangles and impossible differentials. The results on Kiasu-BC consider an additional round compared to attacks on the (untweaked) AES. The authors of TNT had provided an initial security analysis that still left a gap between provable guarantees and attacks. Our analysis conducts a considerable step towards closing this gap. For TNT-AES - an instantiation of TNT built upon the AES round function - this thesis further shows how to transform our distinguisher into a key-recovery attack. Many applications require the simultaneous authentication and encryption of transmitted data. Authenticated encryption (AE) schemes provide both properties. Modern AE schemes usually demand a unique public input called nonce that must not repeat. Though, this requirement cannot always be guaranteed in practice. As part of a remedy, misuse-resistant and robust AE tries to reduce the impact of occasional misuses. However, robust AE considers not only the potential reuse of nonces. Common authenticated encryption also demanded that the entire ciphertext would have to be buffered until the authentication tag has been successfully verified. In practice, this approach is difficult to ensure since the setting may lack the resources for buffering the messages. Moreover, robustness guarantees in the case of misuse are valuable features. The second part of this thesis proposes three authenticated encryption schemes: RIV, SIV-x, and DCT. RIV is robust against nonce misuse and the release of unverified plaintexts. Both SIV-x and DCT provide high security independent from nonce repetitions. As the core under SIV-x, this thesis revisits the proof of a highly secure parallel MAC, PMAC-x, revises its details, and proposes SIV-x as a highly secure authenticated encryption scheme. Finally, DCT is a generic approach to have n-bit secure deterministic AE but without the need of expanding the ciphertext-tag string by more than n bits more than the plaintext. From its first part, this thesis aims to extend the understanding of the (1) cryptanalysis of round-reduced AES, as well as the understanding of (2) AES-like tweakable block ciphers. From its second part, it demonstrates how to simply extend known approaches for (3) robust nonce-based as well as (4) highly secure deterministic authenticated encryption.",
+            "contributor": [
+                "gnd:118070339",
+                "gnd:132416514"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:124494520X",
+                "gnd:5180842-0"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4033329-2"
+            },
+            "isLike": "doi:10.25643/bauhaus-universitaet.4523",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

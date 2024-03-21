@@ -1,0 +1,139 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1145989985",
+            "sameAs": "Röbenack, Klaus"
+        },
+        {
+            "@id": "gnd:1268854697",
+            "sameAs": "Posielek, Tobias"
+        },
+        {
+            "@id": "gnd:129394947",
+            "sameAs": "Reger, Johann"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4048579-1",
+            "sameAs": "Raumfahrzeug"
+        },
+        {
+            "@id": "gnd:4132964-8",
+            "sameAs": "Nichtlineare Regelung"
+        },
+        {
+            "@id": "gnd:4133187-4",
+            "sameAs": "Temperaturmessung"
+        },
+        {
+            "@id": "gnd:4158614-1",
+            "sameAs": "Gyroskop"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1827840293",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (198 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Moreno Pérez, Jaine Alberto",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1827840293",
+                "(doi)10.22032/dbt.53449",
+                "(ppn)1827840293"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "Zustandsbeobachter",
+                "Parameterschätzung",
+                "Robuste Regelung",
+                "Beobachter",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=rvk)ZO 8300",
+                "Lageregelung",
+                "Zustandsschätzung",
+                "(classificationName=linseach:mapping)ver",
+                "Nichtlineares System",
+                "(classificationName=ddc-dbn)629.47"
+            ],
+            "title": "Observability studies for spacecraft attitude determination based on temperature data",
+            "abstract": "Die Schätzung und Steuerung der Fluglage ist elementar für jede Raumfahrzeugmission. Die erforderliche Genauigkeit hängt von der jeweiligen Mission und ihren Nutzlasten ab. Ein funktionierendes Lageregelungssystem ist jedoch immer unverzichtbar, um die Zielgenauigkeit und Stabilität der Nutzlasten zu gewährleisten, die für den Erfolg der Mission entscheidend sind. Daher ist es sinnvoll, redundante Methoden zur Schätzung und Regelung der aktuellen Fluglage einzusetzen. Diese Arbeit fokussiert sich primär auf die Lageschätzung. Hierbei wird untersucht ob und wie Temperaturmessungen für die Lagebestimmung genutzt werden können. Diese Untersuchung wird durchgeführt, indem die zugrundeliegenden mathematischen Beschreibungen der Fluglage sowie der Temperaturdynamik betrachtet werden. Auf deren Grundlage wird dann ein Beobachter zur Lageschätzung entwickelt, der sich hauptsächlich auf die Temperaturdaten von zwei verschiedenen Sensorkonfigurationen stützt. In der ersten Konfiguration wird nur ein einziger Temperatursensor verwendet, dessen Informationen mit Gyroskopmessungen fusioniert werden, um die Lage zu bestimmen. Dies wird durch eine Transformation in Normalform und eine neuartige Lagebeschreibung erreicht. Auftretende Mehrdeutigkeiten bei der Lagebestimmung sowie alternative Beobachterdesigns werden vorgestellt. Die Analyse zeigt, dass mit dem vorgeschlagenen Beobachter lokale Aussagen zur Lageschätzung getroffen werden können - vorausgesetzt, die verwendeten Modelle und Messungen sind ausreichend genau und es steht genügend Rechenleistung zur Verfügung. In der zweiten Konfiguration werden sechs Paare von Temperatursensoren betrachtet. Jedes Paar besteht aus zwei Sensoren mit unterschiedlichen physikalischen Eigenschaften und zeigt in Richtung einer anderen Raumfahrzeugachse. Diese Sensorsignale enthalten genügend Informationen, um die Fluglage zu rekonstruieren, ohne dass die Verwendung von Ableitungen höherer Ordnung erforderlich ist. Es wird ein Algorithmus vorgeschlagen, der die Position der Sonne und der Erde schätzt und diese zur Bestimmung der Lage verwendet. Die Beobachter für beide Konfigurationen verwenden eine Transformation in eine kanonische Form, um ihre Schätzungen zu erhalten. Die resultierenden Beobachter sind daher sowohl in den transformierten als auch in den ursprünglichen Koordinaten formuliert. Während diese Beobachter unter Annahmen die häufig in der Literatur verwendeten werden äquivalent sind, kann es, sobald diese Annahmen fallengelassen werden, zu einer Reihe interessanter Phänomene wie Mehrdeutigkeit der Lösungen und sogar Instabilität kommen. Diese Phänomene werden an unserem vorgestellten System veranschaulicht und es werden Methoden vorgeschlagen, um sie zu bewältigen. Die für die zweite Konfiguration entworfenen Beobachter werden auf die von der Raumsondenmission GRACE erhaltenen Daten angewandt. Dabei hat sich gezeigt, dass die vorgeschlagenen Modelle für die Temperaturschätzung mit einem R2-Wert zwischen 78,8 % und 99,9 % gut geeignet sind. Die vorgeschlagenen Algorithmen erlauben eine Genauigkeit mit einem mittleren Fehler über eine Umlaufbahn von weniger als fünf Grad und lassen sich nachweislich leicht durch zusätzliche Messungen ergänzen.",
+            "contributor": [
+                "gnd:129394947",
+                "gnd:1145989985"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1268854697"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4048579-1"
+                },
+                {
+                    "@id": "gnd:4133187-4"
+                },
+                {
+                    "@id": "gnd:4132964-8"
+                },
+                {
+                    "@id": "gnd:4158614-1"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.53449",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

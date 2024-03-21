@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1037053141",
+            "sameAs": "Optischer Fluss"
+        },
+        {
+            "@id": "gnd:1214197329",
+            "sameAs": "Ilg, Eddy"
+        },
+        {
+            "@id": "gnd:4186957-6",
+            "sameAs": "Unsicherheit"
+        },
+        {
+            "@id": "gnd:4193791-0",
+            "sameAs": "Schätzung"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1725882558",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 157 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-166315",
+                "(firstid)KXP:1725882558",
+                "(ppn)1725882558",
+                "(doi)10.6094/UNIFR/166315"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.42",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Estimating optical flow with convolutional neural networks",
+            "abstract": [
+                "Abstract: Optical flow estimation is a fundamental discipline in computer vision. Applications range from camera stabilization, image compression, action recognition and motion segmentation to structure from motion.&lt;br&gt;&lt;br&gt;In the past, many attempts have been made to solve the problem by establishing an energy function and optimizing it with discrete or variational methods. The difficult aspects of optical flow, such as occlusions, discontinuities and the aperture problem, are hard to integrate into such energy minimization and pose inevitable limitations.&lt;br&gt;&lt;br&gt;This thesis presents an orthogonal approach to estimate optical flow with Convolu- tional Neural Networks (CNNs) and shows that such networks are able to learn a better heuristic than engineered methods.&lt;br&gt;&lt;br&gt;First, an end-to-end encoder-decoder network named FlowNetS and a Siamese network named FlowNetC with an explicit correlation unit are presented. The approach is then taken further to a network pipeline named FlowNet2, with several refinement stages in which occlusions and motion boundaries are also integrated.&lt;br&gt;&lt;br&gt;The results show that optical flow estimation with CNNs is possible and that CNNs can perform among state-of-the-art methods while being orders of magnitude faster in runtime. Moreover, in motion boundary and occlusion estimation, CNNs significantly outperform traditional methods and are state of the art. Being able to estimate such high-quality flow in real time has changed the possible use cases and has had a significant impact on applications. Finally, CNNs have the advantage of being able to learn priors for specific scenarios as well as for the aperture problem from training data.&lt;br&gt;&lt;br&gt;In order to take possible applications even further, a multi-hypothesis network named FlowNetH is introduced and a stack of networks to estimate an uncertainty measure along with the flow is presented. The evaluation shows that the uncertainties are state of the art, too, and that CNNs are able to inform about the reliability of their own flow predictions very well.&lt;br&gt;&lt;br&gt;The reader is finally left with an outlook of how the approach can be brought to a multi-modal probabilistic setting and how it can be used as a building block for larger systems in future",
+                "Abstract: Die Schätzung ..."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1214197329",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4193791-0"
+                },
+                {
+                    "@id": "gnd:4186957-6"
+                },
+                {
+                    "@id": "gnd:1037053141"
+                },
+                {
+                    "@id": "gnd:4226127-2"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/166315",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

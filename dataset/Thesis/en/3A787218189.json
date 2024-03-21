@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1052085121",
+            "sameAs": "Hufsky, Franziska"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4037882-2",
+            "sameAs": "Massenspektrometrie"
+        },
+        {
+            "@id": "gnd:4138579-2",
+            "sameAs": "Metabolit"
+        },
+        {
+            "@id": "gnd:4155138-2",
+            "sameAs": "Fragmentierung"
+        },
+        {
+            "@id": "gnd:4596131-1",
+            "sameAs": "High throughput screening"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A787218189",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (115 Seiten)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)787218189",
+                "(firstid)GBV:787218189"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106421425)42.11 - Biomathematik, Biokybernetik",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc)543.65",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Novel methods for the analysis of small molecule fragmentation mass spectra",
+            "abstract": "The identification of small molecules, such as metabolites, in a high throughput manner plays an important in many research areas. Mass spectrometry (MS) is one of the predominant analysis technologies and is much more sensitive than nuclear magnetic resonance spectroscopy. Fragmentation of the molecules is used to obtain information beyond its mass. Gas chromatography-MS is one of the oldest and most widespread techniques for the analysis of small molecules. Commonly, the molecule is fragmented using electron ionization (EI). Using this technique, the molecular ion peak is often barely visible in the mass spectrum or even absent. We present a method to calculate fragmentation trees from high mass accuracy EI spectra, which annotate the peaks in the mass spectrum with molecular formulas of fragments and explain relevant fragmentation pathways. Fragmentation trees enable the identification of the molecular ion and its molecular formula if the molecular ion is present in the spectrum. The method works even if the molecular ion is of very low abundance. MS experts confirm that the calculated trees correspond very well to known fragmentation mechanisms.Using pairwise local alignments of fragmentation trees, structural and chemical similarities to already-known molecules can be determined. In order to compare a fragmentation tree of an unknown metabolite to a huge database of fragmentation trees, fast algorithms for solving the tree alignment problem are required. Unfortunately the alignment of unordered trees, such as fragmentation trees, is NP-hard. We present three exact algorithms for the problem. Evaluation of our methods showed that thousands of alignments can be computed in a matter of minutes. Both the computation and the comparison of fragmentation trees are rule-free approaches that require no chemical knowledge about the unknown molecule and thus will be very helpful in the automated analysis of metabolites that are not included in common libraries.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1052085121",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4155138-2"
+                },
+                {
+                    "@id": "gnd:4037882-2"
+                },
+                {
+                    "@id": "gnd:4596131-1"
+                },
+                {
+                    "@id": "gnd:4138579-2"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

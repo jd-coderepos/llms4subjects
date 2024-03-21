@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4127438-6",
+            "sameAs": "Mikrocontroller"
+        },
+        {
+            "@id": "gnd:4434799-6",
+            "sameAs": "Model Checking"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A573172439",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (171 S., 1,36 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Schlich, Bastian",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)573172439",
+                "(contract)AIB-2008-14",
+                "(firstid)GBV:573172439"
+            ],
+            "publisher": "RWTH",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641853X)53.55 - Mikroelektronik",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=rvk)ST 170"
+            ],
+            "title": "Model checking of software for microcontrollers",
+            "abstract": "Software of microcontrollers is getting more and more complex. It is mandatory to extensively analyze their software as errors can lead to severe failures or cause high costs. Model checking is a formal method used to verify whether a system satisfies certain properties. This thesis describes a new approach for model checking software for microcontrollers. In this approach, assembly code is used for model checking instead of an intermediate representation such as C code. The development of [mc]square, which is a microcontroller assembly code model checker implementing this approach, is detailed. [mc]square has a modular architecture to cope with the hardware dependency of this approach. The single steps of the model checking process are divided into separate packages. The creation of the states is conducted by a specific simulator, which is the only hardware-dependent package. Within the simulator, the different microcontrollers are modeled accurately. This work describes the modeling of the ATMEL ATmega16 microcontroller and details implemented abstraction techniques, which are used to tackle the state-explosion problem. These abstraction techniques include lazy interrupt evaluation, lazy stack evaluation, delayed nondeterminism, dead variable reduction, and path reduction. Delayed nondeterminism introduces symbolic states, which represent a set of states, into [mc]square while still explicit model checking techniques are used. Thus, we successfully combined explicit and symbolic model checking techniques. A formal model of the simulator, which we developed to prove the correctness of abstraction techniques, is described. In this work, the formal model is used to show the correctness of delayed nondeterminism. To show the applicability of the approach, two case studies are described. In these case studies, we used programs of different sizes. All these programs were created by students in lab courses, during  diploma theses, or in exercises without the intention to use them for model checking.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4434799-6"
+                },
+                {
+                    "@id": "gnd:4127438-6"
+                }
+            ],
+            "volume": "2008,14",
+            "P30128": "Aachener Informatik-Berichte",
+            "P60163": "Aachen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

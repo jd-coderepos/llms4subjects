@@ -1,0 +1,118 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:123209897",
+            "sameAs": "Gottschalk, Wolfram"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4044196-9",
+            "sameAs": "Ottomotor"
+        },
+        {
+            "@id": "gnd:4141045-2",
+            "sameAs": "Abgasturbolader"
+        },
+        {
+            "@id": "gnd:4170297-9",
+            "sameAs": "Modellierung"
+        },
+        {
+            "@id": "gnd:4431076-6",
+            "sameAs": "Triebstrang"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1020021721",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (X, 133 Seiten)",
+            "contributor": [
+                "Neumann, Jens",
+                "Eißler, Werner"
+            ],
+            "creator": "Heyden, Cornelius",
+            "identifier": [
+                "(firstid)GBV:1020021721",
+                "(ppn)1020021721"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "Ladungswechsel",
+                "Motor",
+                "Turbine",
+                "(classificationName=linseach:mapping)tec",
+                "Fahrzeug",
+                "Ottomotor",
+                "Triebstrang",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Modellierung und Auslegung von Antriebssträngen mit abgasturboaufgeladenen Ottomotoren",
+            "abstract": "Bei der Auslegung von Antriebssträngen mit abgasturboaufgeladenen Ottomotoren ist das transiente Betriebsverhalten des Verbrennungsmotors von besonderem Interesse. Ein wesentlicher Grund ist die thermodynamische Kopplung von Verbrennungsmotor und Abgasturbolader. Diese hindert den Verbrennungsmotor, einer spontanen Lastanforderung zu folgen und hat bedeutenden Einfluss auf das transiente Beschleunigungsverhalten des Fahrzeugs. Die Simulation des Verbrennungsmotors zusammen mit dem Fahrzeug ermöglicht die Auswertung signifikanter Auslegungsparameter. Aufgrund ihrer hohen Komplexität und langen Rechenzeit genügen zyklusaufgelöste Motorprozess-Simulationen nicht den Anforderungen, die an die Antriebsauslegung in der Vorentwicklung gestellt werden. Darum wird in dieser Arbeit ein Mittelwertmodell zur Auslegung von Antriebssträngen mit abgasturboaufgeladenen Ottomotoren entwickelt. Im Mittelwertmodell wird die Arbeitsprozessrechnung durch einen Datensatz ersetzt und der Ladungswechsel durch nulldimensionale (konzentrierte) Volumina modelliert. Nachdem die Größe des Turboladers entscheidenden Einfluss auf den transienten Motorprozess ausübt, wird die Wechselwirkung zwischen Abgasturbolader und Verbrennungsmotor untersucht. Um mit einem einzigen Datensatz unterschiedliche Turboladergrößen zu erfassen, wird bei der Vorausberechnung des Datensatzes die Turbine durch eine skalierbare Abgasdrossel ersetzt. Für die Skalierung wird eine Korrelation zwischen Turbinengröße und dem Durchmesser der Abgasdrossel vorgestellt. Zwei neue Gleichungen für Turbinenfaktoren werden hergeleitet, um den Linearisierungsfehler in der Mittelwert-Turbine zu kompensieren. Die neu eingeführten Turbinenfaktoren befähigen das Mittelwertmodell zur Vorausberechnung des transienten Betriebsverhaltens. Das Modell wird erfolgreich mit Messdaten aus transienten Fahrmanövern abgeglichen und es werden Anwendungsbeispiele, u. a. mit einem hybridisierten Antriebsstrang gezeigt. Das entwickelte Mittelwertmodell verkürzt die Rechenzeit gegenüber einem zyklusaufgelösten Verbrennungsmotormodell um den Faktor 30-40 und eignet sich insbesondere für Auslegungsrechnungen, in denen Parameter wie Achsübersetzung oder Turboladergröße systematisch variiert werden.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:123209897"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:2125187-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4044196-9"
+                },
+                {
+                    "@id": "gnd:4170297-9"
+                },
+                {
+                    "@id": "gnd:4431076-6"
+                },
+                {
+                    "@id": "gnd:4141045-2"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

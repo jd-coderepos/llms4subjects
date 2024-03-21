@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130001112",
+            "sameAs": "Brandenburg, Karlheinz"
+        },
+        {
+            "@id": "gnd:131729160",
+            "sameAs": "Heinz, Thorsten"
+        },
+        {
+            "@id": "gnd:136867715",
+            "sameAs": "Husar, Peter"
+        },
+        {
+            "@id": "gnd:4020725-0",
+            "sameAs": "Gestaltpsychologie"
+        },
+        {
+            "@id": "gnd:4075127-2",
+            "sameAs": "Musikhören"
+        },
+        {
+            "@id": "gnd:4125741-8",
+            "sameAs": "Lautwahrnehmung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A512916675",
+            "@type": "bibo:Thesis",
+            "P1053": "145 Bl.",
+            "http://purl.org/dc/elements/1.1/contributor": "Distler, Hartwig",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)512916675",
+                "(firstid)GBV:512916675"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106405950)24.46 - Musikalische Akustik",
+                "(classificationName=bk, id=106405853)24.44 - Musikpsychologie",
+                "(classificationName=bk, id=106413163)77.50 - Psychophysiologie",
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=ddc)612.85",
+                "(classificationName=bk, id=106412280)77.12 - Gestaltpsychologie"
+            ],
+            "title": "Ein physiologisch gehörgerechtes Verfahren zur automatisierten Melodietranskription",
+            "abstract": "Das Thema dieser Dissertation ist die Implementierung eines Verfahrens zur automatisierten Transkription von Musik. Die Fähigkeit des Menschen, insbesondere die von musikalischen Experten, bezüglich der Wahrnehmung musikalischer Inhalte kann von aktuellen technischen Systemen bei weitem nicht reproduziert werden. Einen plausiblen Ansatz, um diese Lücke für Anwendungen der automatisierten Musikanalyse zu schliessen, stellt die Verwendung perzeptuell motivierter Strategien dar. Die vorliegende Arbeit wendet daher konsequent grundlegende Verarbeitungsmechanismen der menschlichen auditorischen Peripherie sowie kognitiv höher angesiedelter Gehirnzentren an. In einer ausfürlichen Darstellung des Standes der Technik werden die aktuellen Algorithmen zur Bestimmung der Grundfrequenzen und zur Segmentierung musikalischer Phrasen sowie deren Anwendung in monophonen und polyphonen Melodietranskriptionssystemen erläutert. Nach der Beschreibung der fundamentalen physiologischen Komponenten der auditorischen Peripherie und Prinzipien der Gestaltpsychologie werden die in dieser Arbeit verwendeten Modelle der teilweise aktiven Schallvorverarbeitung des Innenohres erläutert. Im Bereich der auditiven Weiterverarbeitung werden Prozesse der Frequenzwahrnehmung sowie ein auf gestaltbasierenden Annahmen aufgebautes eigenes Hierarchiemodell eingeführt. Neben der Aufstellung dieses Hierarchiemodells besteht der Kernpunkt der Arbeit in der Implementierung der ausgewählten Modelle bezüglich monophoner und polyphoner Transkriptionsstrategien. Gehörgerechte Pitchextraktion, psychoakustisch motivierte Segmentierung und musiktheoretisch untermauerte Nachbearbeitung bilden die Basis einstimmiger Analyse. Die Untersuchung von Partialtoninterferenzen, polyphonen Pitchhypothesen und Ansätzen zur Oktaverkennung sollen als Grundlage weiterführender Arbeiten im mehrstimmigen Anwendungsfall aufgefasst werden. Die Arbeit schliesst mit der Evaluierung des Verfahrens anhand der Diskussion einer Anzahl verschiedener Testreihen im Umfeld eines Metadaten-Suchsystems. Die erhaltenen Ergebnisse verdeutlichen das (auch kommerzielle) Anwendungspotential der vorgestellten Methode.",
+            "contributor": [
+                "gnd:130001112",
+                "gnd:136867715"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:131729160",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4125741-8"
+                },
+                {
+                    "@id": "gnd:4075127-2"
+                },
+                {
+                    "@id": "gnd:4020725-0"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/512916675.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

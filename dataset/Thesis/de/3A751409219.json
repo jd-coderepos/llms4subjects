@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:103726973X",
+            "sameAs": "Zec, Mladen"
+        },
+        {
+            "@id": "gnd:139255710",
+            "sameAs": "Töpfer, Hannes"
+        },
+        {
+            "@id": "gnd:4066375-9",
+            "sameAs": "Wirbelstromverfahren"
+        },
+        {
+            "@id": "gnd:4067689-4",
+            "sameAs": "Zerstörungsfreie Werkstoffprüfung"
+        },
+        {
+            "@id": "gnd:4296739-9",
+            "sameAs": "Lorentz-Kraft"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A751409219",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIV, 126 S., 33,02 MB)",
+            "contributor": [
+                "Bíró, Oszkár",
+                "Gratkowski, Stanislaw"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:751409219",
+                "(ppn)751409219"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Theory and numerical modelling of Lorentz force eddy current testing",
+            "abstract": "Diese Arbeit beschreibt die theoretische und numerische Untersuchung des neuen zerströungsfreien Materialprüfverfahrens namens Lorentzkraft-Wirbelstromprüfung (LET). LET basiert auf der Messung der Lorentzkraft (LK), die auf ein Magnetsystem wirkt, welches sich in der Nähe eines leitfähigen Probekörpers bewegt. Um die zugrundeliegenden physikalischen Prinzipien vorzustellen, wird zuerst ein kanonisches Modell untersucht, welches \"kriechender Magnet\" genannt wird. Durch die vereinfachte Konfguration, ist sowohl eine tiefgründige analytische Beschreibung als auch eine effektive numerische Simulation möglich. Um realistische LET-Konfgurationen zu untersuchen, wird eine neue numerische Methodik basierend auf der Finiten Elemente Methode (FEM) entwickelt. Der sogenannte Logischer-Ausdruck-Ansatz (LEA) erlaubt eine schnelle und genaue Modellierung transienter Wirbelstromprobleme mit beweglichen Teilen in einem statischen numerischen Netz. Die Ergebnisse werden mittels der bekannten \"Sliding-Mesh\"-Methode (SMT) verifiziert und mittels Experiment validiert. Die Studie zeigt die Genauigkeit des LEA für alle Werte der magnetischen Reynoldszahl bei Verringerung der Gesamtsimulationszeit um mehr als das 10-fache. Die vorgeschlagene numerische Methodik wird daraufhin angewendet, um die Anwendbarkeit und das Einsatzpotential von LET zu ermitteln. Die Simulationen werden für zwei charakteristische LET-Konfigurationen durchgeführt, (i) einen defektfreien und (ii) einen Probekörper mit definierten Defekten. Im Falle eines defektfreien Probekörpers wird beobachtet, dass LET für die kontaktlose Messung der elektrischen Leitfähigkeit des Probekörpers genutzt werden kann. Das \"Lorentzkraft-Sigmometrie\" genannte Verfahren ist robust gegenüber Änderungen des Lift-Off-Abstandes und der Magnetstärke. Die Studie des Probekörpers mit Defekt resultiert in Richtlinien zur effektiven Kraftmessung. Der Einfluss bestimmter Magnetformen und -größen auf die Detektion und Rekonstruktion von Defekten wird ebenfalls untersucht. Die vorliegende Arbeit unterstreicht die Notwendigkeit einer differentiellen LK-Messung. Dafür wird ein neuer und günstiger differentieller LK-Sensor entwickelt, welcher auf etablierter Spannungsmessung beruht. Die spezifische Modifikation der ursprünglichen LET-Konfguration wird \"Differentielle Lorentzkraft-Wirbelstromprüfung\" genannt.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:139255710"
+                }
+            ],
+            "creator": "gnd:103726973X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4296739-9"
+                },
+                {
+                    "@id": "gnd:4066375-9"
+                },
+                {
+                    "@id": "gnd:4067689-4"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1057603562",
+            "sameAs": "Paris, Reine-Marie"
+        },
+        {
+            "@id": "gnd:113556233",
+            "sameAs": "Lallemand, Annette"
+        },
+        {
+            "@id": "gnd:118814516",
+            "sameAs": [
+                "Claudel, Camille",
+                "Claudel, Camille 1864-1943"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A024707538",
+            "@type": "bibo:Book",
+            "P1053": "375 S.",
+            "description": [
+                "24 cm",
+                "zahlr. Ill."
+            ],
+            "identifier": [
+                "(ppn)024707538",
+                "(isbn)3100590023",
+                "(firstid)GBV:024707538"
+            ],
+            "publisher": "Fischer",
+            "subject": [
+                "(classificationName=linseach:mapping)sow",
+                "Camille Claudel",
+                "(classificationName=dbn)46",
+                "(classificationName=loksys-fbs)PB 260",
+                "(classificationName=loksys-fbs)RL 155",
+                "(classificationName=rvk)LI 99999"
+            ],
+            "title": "Camille Claudel : 1864 - 1943",
+            "abstract": "Literaturverz. S. 372 - [376]",
+            "alternative": "Camille Claudel &lt;dt.&gt;",
+            "contributor": [
+                "gnd:118814516",
+                "gnd:113556233"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1057603562",
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118814516"
+            },
+            "tableOfContents": "http://d-nb.info/942636961/04",
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

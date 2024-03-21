@@ -1,0 +1,129 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1199398624",
+            "sameAs": "Wechsung, Maximilian"
+        },
+        {
+            "@id": "gnd:1199406147",
+            "sameAs": "Fokianos, Konstantinos"
+        },
+        {
+            "@id": "gnd:128407670",
+            "sameAs": "Meister, Alexander"
+        },
+        {
+            "@id": "gnd:136894437",
+            "sameAs": "Neumann, Michael H."
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4038974-1",
+            "sameAs": "Methode der kleinsten Quadrate"
+        },
+        {
+            "@id": "gnd:4127980-3",
+            "sameAs": "Regressionsmodell"
+        },
+        {
+            "@id": "gnd:4346436-1",
+            "sameAs": "GARCH-Prozess"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1681707489",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (207 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1681707489",
+                "(ppn)1681707489",
+                "(doi)10.22032/dbt.39874"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)519.23",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Nonparametric least squares estimation in integer-valued GARCH models",
+            "abstract": "In this thesis we consider Poisson regression models for count data. Suppose we observe a time series of count variables. Given the information about the past, each count variable has a Poisson distribution with a random intensity. The time series of intensities is unobservable, but we impose a functional relationship between the current intensity and the preceding pair of intensity and count observation. In the literature some consideration has been given to parametric models of the linear INGARCH(1,1) type or more involved ones like the log linear model. In these cases √n-consistency of the partial maximum likelihood estimator has been proven. Suppose that the relationship between a count variable and the respectively preceding pair of count and intensity variables is given by a link function that cannot be characterized by a finite-dimensional parameter. We call this model a nonparametric integer valued GARCH model. In order to obtain a suitable estimation equation in this nonparametric model, a contractive condition has to be imposed on the true link function. We analyze the rate of convergence of a least squares estimator that is inspired by the work of Meister and Kreiß (2016). We prove uniform mixing of the univariate count process and use the derived properties to apply some classical tools from empirical process theory. The size of the class of admissible functions determines the rate of convergence, which is a common property of nonparametric models. Since this estimator is computationally rather impractical, we also analyze the behavior of an approximate least squares estimator. In contrast to the analysis of the first estimator, the examination of the estimator’s asymptotic quality is based on the exploitation of martingale properties instead of mixing. The approximate least squares estimator is indeed computable, and we take the opportunity to conduct experiments to illustrate the proposed statistical procedure. An exposition of the experimental results will conclude this thesis.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1199406147"
+                },
+                {
+                    "@id": "gnd:128407670"
+                },
+                {
+                    "@id": "gnd:136894437"
+                }
+            ],
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1199398624"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4346436-1"
+                },
+                {
+                    "@id": "gnd:4038974-1"
+                },
+                {
+                    "@id": "gnd:4127980-3"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.39874",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

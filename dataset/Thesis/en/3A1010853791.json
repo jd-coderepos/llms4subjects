@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1150665440",
+            "sameAs": "Mücke, Nicole"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universität Potsdam"
+        },
+        {
+            "@id": "gnd:4125161-1",
+            "sameAs": "Inverses Problem"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4705893-6",
+            "sameAs": "Direkte Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1010853791",
+            "@type": "bibo:Thesis",
+            "P1053": "159 Seiten",
+            "contributor": "Blanchard, Gilles",
+            "identifier": [
+                "(ppn)1010853791",
+                "(firstid)GBV:1010853791"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Direct and inverse problems in machine learning : kernel methods and spectral regularization",
+            "abstract": "We analyze an inverse noisy regression model under random design with the aim of estimating the unknown target function based on a given set of data, drawn according to some unknown probability distribution. Our estimators are all constructed by kernel methods, which depend on  a Reproducing Kernel Hilbert Space structure using spectral regularization methods. A first main result establishes upper and lower bounds for the rate of convergence under a given source condition assumption, restricting the class of admissible distributions. But since kernel methods scale poorly when massive datasets are involved, we study one example for saving computation time and memory requirements in more detail. We show that Parallelizing spectral algorithms also leads to minimax optimal rates of convergence provided the number of machines is chosen appropriately. We emphasize that so far all estimators depend on the assumed  a-priori smoothness of the target function and on the eigenvalue decay of the kernel covariance operator, which are in…",
+            "alternative": [
+                "Direkte und inverse Probleme im maschinellen Lernen",
+                "Kern-Methoden und spektrale Regularisierung"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2120681-8",
+                "gnd:1150665440"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4705893-6"
+                },
+                {
+                    "@id": "gnd:4125161-1"
+                },
+                {
+                    "@id": "gnd:4193754-5"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/1010853791.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

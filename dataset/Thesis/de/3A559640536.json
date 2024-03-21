@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130226785",
+            "sameAs": "Philippow, Ilka"
+        },
+        {
+            "@id": "gnd:13280123X",
+            "sameAs": "Fengler, Wolfgang"
+        },
+        {
+            "@id": "gnd:134273389",
+            "sameAs": "Schwefer, Gabriel"
+        },
+        {
+            "@id": "gnd:4047594-3",
+            "sameAs": "Prozesssteuerung"
+        },
+        {
+            "@id": "gnd:4126945-7",
+            "sameAs": "Systementwicklung"
+        },
+        {
+            "@id": "gnd:4138444-1",
+            "sameAs": "Softwareproduktionsumgebung"
+        },
+        {
+            "@id": "gnd:4191569-0",
+            "sameAs": "Kraftfahrzeugelektronik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A559640536",
+            "@type": "bibo:Thesis",
+            "P1053": "VII, 265 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Schieferdecker, Ina",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)559640536",
+                "(firstid)GBV:559640536"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)629.202840285512",
+                "(classificationName=bk, id=106418122)54.51 - Programmiermethodik",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Pattern-oriented transformations between analysis and design models (POTAD)",
+            "abstract": "Eine Antwort auf viele aktuelle Anforderungen im Elektrik/Elektronik-Bereich der Fahrzeugentwicklung ist ein durchgängig modellbasierter Entwicklungsprozess, der Modelle der System- und Softwareentwicklung integriert. Ein Systemmodell beschreibt mit der logischen Systemarchitektur die Funktionen eines Fahrzeugs und mit der technischen Systemarchitektur die realisierende Elektrik/Elektronik, wie z.B. Steuergeräte, Sensoren/Aktoren und Bussysteme. Im Rahmen der Softwareentwicklung muss für einzelne Funktionen aus der logischen Systemarchitektur unter Berücksichtigung der technischen Systemarchitektur und weiterer Anforderungen ein Softwaredesignmodell erstellt werden. Aktuelle modellbasierte Entwicklungsansätze versprechen mit Hilfe des Konzepts der Modelltransformation den Übergang zwischen Modellen unterschiedlicher Entwicklungsphasen automatisieren zu können. Dieses Konzept bietet sich dazu an, aus einem Systemarchitekturmodell ein Grundgerüst eines Softwaredesignmodells zu erzeugen und damit einen Teil der Softwareentwicklungsaktivitäten zu automatisieren. Die Analyse dieser Arbeit zeigt, dass die erarbeiteten domänenspezifischen Anforderungen, die für solch ein Szenario an einen Modelltransformationsmechanismus gestellt werden müssen, durch aktuelle Ansätze nicht vollständig erfüllt werden. Der eigene Ansatz Pattern-Oriented Transformations between Analysis and Designmodels (POTAD) verwendet die logische Systemarchitektur im Rahmen der Softwareentwicklung als Analysemodell und systematisiert dessen Zusammenhang mit dem Designmodell auf der Basis von Analyse- und Designmustern. Für ein im Analysemodell gefundenes Analysemuster instanziiert eine                  POTAD-Transformationsregel mit Hilfe dieser Systematik in Abhängigkeit nichtfunktionaler An-forderungen und der technischen Systemarchitektur unterschiedliche Designmuster im Designmodell.Gleichzeitig werden Verknüpfungen zwischen den Analyse- und Designmustern angelegt, die zur späteren Verfolgung von Designentscheidungen genutzt werden. Anhand eines dem POTAD-Entwicklungsprozess folgenden Prototyps, der die in der POTAD-Transformationssprache formulierten Regeln ausführen kann und die Verfolgbarkeit werkzeugseitig unterstützt, wird die Realisierbarkeit des Lösungsansatzes gezeigt. POTAD wurde durch studentische Arbeiten anhand einer Fallstudie überprüft, die typische Eigenschaften der betrachteten Domäne abdeckt. Die Ergebnisse dieser Arbeiten haben die Tauglichkeit von POTAD gezeigt, die Methodik und die Transformationssprache verbessert und Grenzen aufgezeigt.",
+            "contributor": [
+                "gnd:13280123X",
+                "gnd:130226785"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:134273389",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4138444-1"
+                },
+                {
+                    "@id": "gnd:4047594-3"
+                },
+                {
+                    "@id": "gnd:4191569-0"
+                },
+                {
+                    "@id": "gnd:4126945-7"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/559640536.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

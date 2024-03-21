@@ -1,0 +1,136 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:102673729X",
+            "sameAs": "Hinze, Michael"
+        },
+        {
+            "@id": "gnd:1036289656",
+            "sameAs": "Löhner, Rainald"
+        },
+        {
+            "@id": "gnd:1047466414",
+            "sameAs": "Siebenborn, Martin"
+        },
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universität Hamburg"
+        },
+        {
+            "@id": "gnd:1120147859",
+            "sameAs": "Technische Universität Hamburg, Institut für Fluiddynamik und Schiffstheorie"
+        },
+        {
+            "@id": "gnd:122358910",
+            "sameAs": "Rung, Thomas"
+        },
+        {
+            "@id": "gnd:1237059755",
+            "sameAs": "Kühl, Niklas"
+        },
+        {
+            "@id": "gnd:4077970-1",
+            "sameAs": "Strömungsmechanik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1772244015",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 210 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.15480/882.3794",
+                "(ppn)1772244015",
+                "(firstid)KXP:1772244015"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "Maritime Applications",
+                "Adjoint-Based Sensitivity Analysis",
+                "(classificationName=ddc)620.1064",
+                "(classificationName=ddc-dbn)620",
+                "Shape Optimization",
+                "(classificationName=linseach:mapping)tec",
+                "Computational Fluid Dynamics",
+                "Turbulent Two-Phase Flow",
+                "(classificationName=bk, id=106413783)50.33 - Technische Strömungsmechanik"
+            ],
+            "title": "Adjoint-based shape optimization constraint by turbulent two-phase Navier-Stokes systems",
+            "abstract": [
+                "Ziel dieser Arbeit ist die Weiterentwicklung gradientenbasierter Optimierungsmethoden für nicht parametrisierte Formen, unter Verwendung eines adjungierten Reynolds-Gemittelten Navier-Stokes (engl. RANS) Ansatzes für nicht mischbare Zweiphasenströmungen. Besonderes Augenmerk liegt auf dem Kompromiss zwischen adjungierter Konsistenz und industrieller Prozessfähigkeit. Die Arbeiten lassen sich in vier Bausteine (I-IV) gliedern: Kompatible voll turbulente (I) primale (physikalische) und (II) duale (mathematische, adjungierte) Beziehungen zusammen mit geeigneten Zielfunktionalformulierungen (III) werden mit Neugier und Skepsis zugleich analysiert, um die erforderliche Genauigkeit, Robustheit und Effizienz zu erreichen. Die Geometrie-Routine (IV), welche die berechneten Sensitivitäten in Formänderungen und Gitteranpassungen umsetzt, ist entscheidend für die Effizienz des Prozesses, die technische Nutzbarkeit des Ergebnisses und die HPC-Fähigkeit. Es werden verschiedene Aspekte des simulationsgestützten Formoptimierungsprozesses behandelt. Die Gemeinsamkeit dieser Forschung besteht darin, potenzielle Probleme eingehender zu analysieren, anstatt Ad-hoc-Maßnahmen zu formulieren. Der Leitgedanke folgt dabei häufig dem Konzept des \"Learning from the Adjoints\". Es zeigt sich, dass mögliche Schwächen eines adjungierten Ansatzes - z.B. bei der Entwicklung von (kontinuierlichen) analytischen Lösungen in Verbindung mit (diskreten) Konvergenzproblemen - oft auf Schwächen der primalen Formulierung zurückzuführen sind und eine Verdrehung der Forschungsfrage zu fruchtbaren Einsichten führen kann. Beiträge zu (I) beziehen sich auf die Entwicklung eines effizienten ingenieurwissenschaftlichen Cahn-Hilliard (CH) Volume-of-Fluid (VoF) Ansatzes. Ausgehend von analytischen Überlegungen für ein Modellproblem wird eine nicht lineare Zustandsgleichung abgeleitet, die eine Indikatorfunktion mit den Fluideigenschaften in Beziehung setzt. Baustein (II) umfasst die Herleitung diskreter adjungierter VoF-Formulierungen und die Implementierung einer adjungierten VoF-Subcycling-Strategie. Der Vorschlag einer diskret differenzierbaren Zustandsgleichung, zusammen mit einer neuartigen Kombination aus einer inkonsistenten adjungierten VoF-Methode und dem CH-VoF-Ansatz, ermöglicht eine robuste und (flexibel-) konsistente adjungierte zweiphasige Formulierung. Ein weiterer Hauptteil befasst sich mit einem kontinuierlichen adjungierten Komplement zu 2D, inkompressiblen, Grenzschichtgleichungen erster Ordnung. Die Ergebnisse unterstützen die heuristische Vernachlässigung des adjungierten transponierten Konvektionsterms und bieten analytische Ausdrücke für adjungierte laminare Grenzschichtparameter. Die Arbeit befasst sich darüber hinaus auch mit der Verbesserung von adjungierten Untersuchungen turbulenter Strömungen. Unter Verwendung von Mischungsweglängen-Argumenten wird die Strategie der eingefrorenen Turbulenz um einen konsistenten Ansatzes auf Basis des universellen Wandgesetztes erweitert. Ein algebraischer Ausdruck liefert eine konsistente Schließung der adjungierten Impulsgleichung im logarithmischen Bereich über der strömungsmechanischen Wand. Die räumliche Entkopplung der Kontrolle vom Ziel (III) wirkt sich auf die Formulierung von Randbedingungen aus und verringert den Iterationsaufwand, wenn die Entwurfsfläche nicht die gesamte benetzte Oberfläche abdeckt. Zusätzlich wird eine implizite Oberflächenmetrik vorgestellt, um den inhärent glatten Gradienten (IV) aus der möglichen rauen Sensitivitätsableitung zu extrahieren. Besondere Aufmerksamkeit wird der Einhaltung geometrischer Nebenbedingungen gewidmet, z. B. die Erhaltung eines konstanten verdrängten Volumens oder maximale Hauptabmessungen. Schließlich wird dem gradientenbasierten Optimierungsverfahren ein adaptives Schwimmlagemodul hinzugefügt, welches nicht differenziert und während der adjungierten Simulation als eingefroren behandelt wird. Anhand von Beispielen wird die Leistungsfähigkeit des Ansatzes unterstrichen und es werden teilweise drastisch verbesserte Schiffsrumpfformen erzielt. Es wird gezeigt, dass das Vernachlässigen der Schwimmlageänderung zu Optimierungsverlusten führen kann, wenn die endgültig optimierte Form freigegeben wird. Die Anwendungen beziehen sich fast ausnahmslos auf maritime Zweiphasenströmungen auf industrieller Ebene, einige adressieren sogar Großausführungskonfigurationen. Sie beziehen sich auf ein Kriso-Containerschiff, ein generisches Unterwasserfahrzeug, eine Doppelendfähre und ein Offshore-Versorgungsschiff.",
+                "The thesis aims to advance gradient-based optimization methods for non-parametrized shapes exposed to immiscible two-phase flows using an adjoint Reynolds-Averaged Navier-Stokes (RANS) approach. Attention is given to the trade-off between adjoint consistency and industrial process capability. The efforts can be structured into four building blocks (I-IV): Compatible fully turbulent (I) primal (physical) and (II) dual (mathematical, adjoint) relationships together with appropriate objective functional formulations (III) are analysed with curiosity and scepticism at the same time, in order to attain the required accuracy, robustness and efficiency. The geometry engine (IV), which translates the computed sensitivities into shape deformations and grid adjustments, is crucial for the efficiency of the process, the technical usability of the result, and the HPC capability. Different aspects of the simulation-driven shape optimization process are addressed. This research’s common ground is to analyse potential issues in greater depth rather than to formulate ad-hoc measures. The guiding principle frequently follows the concept of ”Learning from the Adjoints”. It is seen that potential weaknesses displayed by an adjoint approach –e.g. when developing (continuous) analytical solutions, in conjunction with (discrete) convergence problems– are often attributable to weaknesses of the primal formulation and a twist of the research question can lead to fruitful insights. Contributions to (I) refer to the development of an efficient engineering Cahn-Hilliard (CH) Volume-of-Fluid (VoF) branch. In line with analytical considerations for a model problem, a nonlinear Equation of State (EoS) is derived to relate an indicator function with the fluid properties. Building block (II) covers the derivation of discrete adjoint VoF formulations and the implementation of an adjoint VoF sub-cycling strategy. The suggestion of a discretely differentiable EoS, together with a novel combination of an inconsistent adjoint VoF method and the CH-VoF approach, allows for a robust and (flexible-) consistent adjoint two-phase formulation. Another major part is concerned with a continuous adjoint complement to 2D, incompressible, first-order boundary-layer equations. The findings support the heuristic neglect of the adjoint transposed convection term and offer analytical expressions for adjoint laminar boundary-layer parameters. The thesis is also concerned with improving adjoint investigations of turbulent flows using mixing-length arguments for the frozen turbulence strategy and a Law of the Wall consistent approach. An algebraic expression provides a consistent closure of the adjoint momentum equation in the logarithmic layer. Spatial decoupling of the control from the objective (III) affects the formulation of boundary conditions and reduces iterative efforts when the design surface does not cover the entire wetted surface. Additionally, an implicit surface metric approach is presented to extract the inherently smooth gradient (IV) out of the possible rough sensitivity derivative. Attention is devoted to compliance with geometrical constraints, e.g. constant volume or maximum outer dimensions. Finally, an adaptive floatation module is added to the gradient-based optimization procedure, which is not differentiated and considered frozen during the adjoint simulation. Examples included underline the capability of the frozen floatation approach and provide partially drastically improved ship hull shapes. It is demonstrated that fixed floatation can lead to optimization losses when the final shape is released. Almost without exception, applications relate to maritime two-phase flows at the industrial level. Some of them are conducted even in full-scale. They refer to a Kriso container ship, a generic submarine, a double-ended ferry, and an offshore-supply vessel."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1036289656"
+                },
+                {
+                    "@id": "gnd:1047466414"
+                },
+                {
+                    "@id": "gnd:122358910"
+                },
+                {
+                    "@id": "gnd:102673729X"
+                }
+            ],
+            "creator": [
+                "gnd:1237059755",
+                "gnd:1120147859",
+                "gnd:1112763473"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4077970-1"
+            },
+            "isLike": "doi:10.15480/882.3794",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

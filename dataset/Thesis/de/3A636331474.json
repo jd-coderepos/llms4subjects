@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130009334",
+            "sameAs": "Linß, Gerhard"
+        },
+        {
+            "@id": "gnd:14250503X",
+            "sameAs": "Anding, Katharina"
+        },
+        {
+            "@id": "gnd:4065287-7",
+            "sameAs": "Weizen"
+        },
+        {
+            "@id": "gnd:4126457-5",
+            "sameAs": "Qualitätssicherung"
+        },
+        {
+            "@id": "gnd:4129594-8",
+            "sameAs": "Maschinelles Sehen"
+        },
+        {
+            "@id": "gnd:7662116-9",
+            "sameAs": "Besatz (Pflanzenbau)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A636331474",
+            "@type": "bibo:Thesis",
+            "P1053": "VIII, 235 S.",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Petersen, Brigitte",
+                "Woll, Ralf"
+            ],
+            "description": [
+                "Ill., graph. Darst.",
+                "30 cm"
+            ],
+            "identifier": [
+                "(firstid)GBV:636331474",
+                "(isbn13)9783938843543",
+                "(ppn)636331474"
+            ],
+            "publisher": "ISLE",
+            "subject": [
+                "(classificationName=linseach:mapping)hor",
+                "(classificationName=ddc)633.116",
+                "(classificationName=rvk)ZE 10800",
+                "(classificationName=bk, id=106420720)58.34 - Lebensmitteltechnologie",
+                "(classificationName=linseach:mapping)cet",
+                "(classificationName=ddc-dbn)630"
+            ],
+            "title": "Automatisierte Qualitätssicherung von Getreide mit überwachten Lernverfahren in der Bildverarbeitung",
+            "abstract": "Weizen ist als elementares Grundnahrungsmittel weltweit eine der bedeutendsten Getreidesorten und somit spielt dessen Qualitätssicherung eine wichtige Rolle für die Lebensmittelsicherheit in der Nahrungsmittelproduktion. Die schädlichen Effekte einiger giftiger Besatzfraktionen, wie z. B. pilzgeschädigten Getreides, Mutterkorn usw., auf die Gesundheit sind hinreichend bekannt. Die manuelle Analyse der Bestandteile einer Getreideprobe wird mit dem Begriff Besatzanalyse bezeichnet. Stand der Technik in der Besatzanalyse von Getreide ist die manuell-visuelle Inspektion einer Getreideprobe durch den erfahrenen Laborassistenten oder Müllermeister, welche teuer (arbeitsintensiv), zeitintensiv und fehleranfällig ist. Ziel ist die Automatisierung des Verfahrens durch intelligente Machine-Learning-Routinen. Bei der Umsetzung des automatisierten Erkennungsverfahrens sind die verschiedenen Einflussfaktoren und deren Querabhängigkeiten zu analysieren und optimale Konfigurationen zu finden. Wesentliche interagierende Faktoren sind die Datensatzcharakteristik, die Komponenten der Hardware und Softwarealgorithmik (Bsp.: Merkmalsextraktion und -selektion) sowie die Parametereinstellung des eigentlichen Klassifikationsalgorithmus. Diese Stellräder im Optimierungsprozess des Erkennungssystems unterliegen einer hohen Komplexität und sind dem entsprechend mit einem hohen Aufwand an Untersuchungen verbunden. Die Lösung eines jeden Erkennungsproblems bedarf einer charakteristischen Datensatzbasis. Insbesondere der Charakter des gegebenen Datensatzes hat einen starken Einfluss auf die erreichbare Klassifikationsperformance. Dies verdeutlicht die Relevanz der Anforderungsspezifikation an einen geeigneten Datensatz. Einflussfaktoren der Datensatzcharakteristik sind die Datensatzstrukturierung (Klassenaufteilung), die Anzahl an verfügbaren Trainingsinstanzen sowie die Anzahl an vom Experten fehlsortierten Objekten im Trainingsdatensatz (falsches Apriori-Wissen). Es ist sehr schwierig, in der Literatur quantitative Aussagen zu diesen Einflussfaktoren und zu optimalen Konfigurationen zu finden. Somit stellt das Design eines automatisierten Erkennungssystems eine individuelle und nichttriviale Aufgabe dar. Die Arbeit verfolgt zwei Ziele, die Automatisierung der Besatzanalyse von Getreide mit einer bestmöglichen Erkennungsperformance sowie die Beleuchtung der Einflussfaktoren der komplexen Erkennungsaufgabe und deren Optimierungsmöglichkeiten. Insbesondere unter Beachtung der hohen Komplexität und Nichtlinearität dieser Multiklassen-Erkennungsaufgabe, resultierend auf der Naturprodukt bedingten hohen Intraklassenvariabilität bei gleichzeitig zum Teil gering ausgeprägter Interklassenvariabilität, ist die Lösung im hohen Maße als anspruchsvoll zu betrachten. Die Objekte werden zunächst mit einer angepassten Bildaufnahmehardware (3-CCD-Farbzeilenkamera, Kombination aus angepassten Auf- und Durchlicht) aufgenommen. So entstand ein umfangreicher Datensatz aus 23 Subklassen (einwandfreier Weizen; diverse Kornbesatzklassen und Schwarzbesatzklassen) und insgesamt ca. 95.000 Instanzen. In dieser Arbeit wurden zahlreiche Algorithmen bestehender Bildverarbeitungstoolboxen (Machine-Learning-Toolbox Weka 3.5, Bildverarbeitungsbibliothek Halcon 8.0) auf das gegebene Problem angewendet. So wurden diverse Klassifikatoren (Support-Vektor-Maschinen, Entscheidungsbäume, Naive-Bayes-Klassifikatoren, uvm.) auf ihre spezifische Eignung hin untersucht. Nach der Optimierung der wesentlichen Einflussfaktoren (optimale Datensatzstrukturierung und Merkmalsselektion) erreicht die Nu-SVM mit rbf-Kern dabei als bester Klassifikator (mit deutlichem Abstand zu anderen Klassifikatoren) sehr gute Einzelerkennungsraten von 89,4% bis zu 99,3% bei einer Gesamterkennungsrate von 96,5%. Gleichzeitig konnten Aussagen zur Übertragbarkeit auf andere ähnlich komplexe Erkennungsprobleme gegeben werden.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130009334"
+                }
+            ],
+            "creator": "gnd:14250503X",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7662116-9"
+                },
+                {
+                    "@id": "gnd:4065287-7"
+                },
+                {
+                    "@id": "gnd:4129594-8"
+                },
+                {
+                    "@id": "gnd:4126457-5"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/636331474.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

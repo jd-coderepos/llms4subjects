@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1015214991",
+            "sameAs": "Gürlebeck, Klaus"
+        },
+        {
+            "@id": "gnd:103573382X",
+            "sameAs": "Könke, Carsten"
+        },
+        {
+            "@id": "gnd:134070615",
+            "sameAs": "Werner, Frank"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4145338-4",
+            "sameAs": "Biegetheorie"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A175141891X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (274 Seiten, 18 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Silvestre, Nuno",
+            "creator": "Bianco, Marcelo José",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)175141891X",
+                "(doi)10.25643/bauhaus-universitaet.4391",
+                "(firstid)KXP:175141891X"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)530.14",
+                "(classificationName=bk, id=181570335)56.03 - Methoden im Bauingenieurwesen",
+                "(classificationName=bk, id=10642050X)50.31 - Technische Mechanik",
+                "(classificationName=linseach:mapping)bau"
+            ],
+            "title": "Coupling between Shell and Generalized Beam Theory (GBT) elements",
+            "abstract": "In the last decades, Finite Element Method has become the main method in statics and dynamics analysis in engineering practice. For current problems, this method provides a faster, more flexible solution than the analytic approach. Prognoses of complex engineer problems that used to be almost impossible to solve are now feasible. Although the finite element method is a robust tool, it leads to new questions about engineering solutions. Among these new problems, it is possible to divide into two major groups: the first group is regarding computer performance; the second one is related to understanding the digital solution. Simultaneously with the development of the finite element method for numerical solutions, a theory between beam theory and shell theory was developed: Generalized Beam Theory, GBT. This theory has not only a systematic and analytical clear presentation of complicated structural problems, but also a compact and elegant calculation approach that can improve computer performance. Regrettably, GBT was not internationally known since the most publications of this theory were written in German, especially in the first years. Only in recent years, GBT has gradually become a fertile research topic, with developments from linear to non-linear analysis. Another reason for the misuse of GBT is the isolated application of the theory. Although recently researches apply finite element method to solve the GBT&apos;s problems numerically,  the coupling between finite elements of  GBT and other theories (shell, solid, etc) is not the subject of previous research. Thus, the main goal of this dissertation is the coupling between GBT and shell/membrane elements. Consequently, one achieves the benefits of both sides: the versatility of shell elements with the high performance of GBT elements. Based on the assumptions of GBT, this dissertation presents how the separation of variables leads to two calculation&apos;s domains of a beam structure: a cross-section modal analysis and the longitudinal amplification axis. Therefore, there is the possibility of applying the finite element method not only in the cross-section analysis, but also the development for an exact GBT&apos;s finite element in the longitudinal direction. For the cross-section analysis, this dissertation presents the solution of the quadratic eigenvalue problem with an original separation between plate and membrane mechanism. Subsequently, one obtains a clearer representation of the deformation mode, as well as a reduced quadratic eigenvalue problem. Concerning the longitudinal direction, this dissertation develops the novel exact elements, based on hyperbolic and trigonometric shape functions. Although these functions do not have trivial expressions, they provide a recursive procedure that allows periodic derivatives to systematise the development of stiffness matrices. Also, these shape functions enable a single-element discretisation of the beam structure and ensure a smooth stress field. From these developments, this dissertation achieves the formulation of its primary objective: the connection of GBT and shell elements in a mixed model. Based on the displacement field, it is possible to define the coupling equations applied in the master-slave method. Therefore, one can model the structural connections and joints with finite shell elements and the structural beams and columns with GBT finite element. As a side effect, the coupling equations limit the displacement field of the shell elements under the assumptions of GBT, in particular in the neighbourhood of the coupling cross-section. Although these side effects are almost unnoticeable in linear analysis, they lead to cumulative errors in non-linear analysis. Therefore, this thesis finishes with the evaluation of the mixed GBT-shell models in non-linear analysis.zeige weniger",
+            "contributor": [
+                "gnd:1015214991",
+                "gnd:134070615",
+                "gnd:103573382X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:5180842-0"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4017233-8"
+                },
+                {
+                    "@id": "gnd:4145338-4"
+                }
+            ],
+            "volume": "2021,2",
+            "isLike": "doi:10.25643/bauhaus-universitaet.4391",
+            "P30128": "ISM-Bericht",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

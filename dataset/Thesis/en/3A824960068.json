@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1123221367",
+            "sameAs": "Mikromontage"
+        },
+        {
+            "@id": "gnd:142748641",
+            "sameAs": "Gauthier, Michaël"
+        },
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4248058-9",
+            "sameAs": "Montagesystem"
+        },
+        {
+            "@id": "gnd:4347749-5",
+            "sameAs": "Field programmable gate array"
+        },
+        {
+            "@id": "gnd:4582923-8",
+            "sameAs": "Mikrobearbeitung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A824960068",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (XIII, 145 S., 4 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Fatikow, Sergej",
+            "creator": "Diederichs, Claas",
+            "identifier": [
+                "(ppn)824960068",
+                "(firstid)DNB:1069985945"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106421409)52.80 - Montage, Handhabungstechnik",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Fast and robust camera-based motion tracking using FPGAs in microrobotics",
+            "abstract": [
+                "In Mikromontagesystemen werden Positionen von Werkstücken und Manipulatoren oft durch Mikroskope und Kameras erfasst und ausgewertet. In der Arbeit werden verschiedene Ansätze untersucht, die drei Merkmale Wiederholrate, Latenz und Jitter zu verbessern. Als bester Ansatz hat sich die Benutzung eines Field Programmable Gate Arrays (FPGA) herausgestellt. Durch die Nutzung bekannter sowie neu entwickelten BLOB-Eigenschaften kann ein erkanntes Objekt klassifiziert werden. Eine neuartige Hardware-Implementierung des Binary Large OBject (BLOB) Extraction Algorithmus wurde entwickelt, die alle drei Merkmale im Vergleich zu einer PC-Lösung signifikant verbessern. Der entwickelte Prototyp wurde in eine Mikrohandhabungsstation integriert und konnte dort die Prozesszeit einer einzelnen Pick and Place Operation von 15 Sekunden auf unter 2 Sekunden verbessern. Der Prototyp wurde weiterhin in einem System zur Straßenschilderkennung eingesetzt. &lt;dt.&gt;",
+                "In microhandling, the optical sensor is often the only way to obtain position information about tools and specimen. In the thesis, different approaches to improving the timing performance of motion tracking in microrobotics are exploited. Firstly, a real-time operating system is used to control the scheduling of tasks. Secondly, a hardware-software co-design strategy was used: An FPGA-implementation of a tracking algorithm was utilized on an embedded system. While the real-time operating system improved all characteristics slightly, the FPGA implementation showed huge improvements especially on latency, jitter and predictability. The achievable update-rate was improved fromm 100 Hz to 1.8 GHz. The developed FPGA-solution was integrated into a microhandling station to evaluate the performance. With the integration it was possible to reduce the time of a single pick-and-place operation from 15 seconds to less than two seconds. To show the flexibility of the developed algorithm, the prototype was also applied to a traffic-sign recognition system. &lt;engl.&gt;"
+            ],
+            "alternative": "Schnelle, robuste kamera-basierte Bewegungsverfolgung in der Mikrorobotik mit Hilfe von FPGAs",
+            "contributor": "gnd:142748641",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4582923-8"
+                },
+                {
+                    "@id": "gnd:1123221367"
+                },
+                {
+                    "@id": "gnd:4347749-5"
+                },
+                {
+                    "@id": "gnd:4006684-8"
+                },
+                {
+                    "@id": "gnd:4248058-9"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

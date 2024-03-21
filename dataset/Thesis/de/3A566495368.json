@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130001112",
+            "sameAs": "Brandenburg, Karlheinz"
+        },
+        {
+            "@id": "gnd:130244864",
+            "sameAs": "Wernstedt, Jürgen"
+        },
+        {
+            "@id": "gnd:135731747",
+            "sameAs": "Uhle, Christian"
+        },
+        {
+            "@id": "gnd:17290997X",
+            "sameAs": "Herre, Jürgen"
+        },
+        {
+            "@id": "gnd:4040802-4",
+            "sameAs": "Musik"
+        },
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4178059-0",
+            "sameAs": "Rhythmik"
+        },
+        {
+            "@id": "gnd:4191522-7",
+            "sameAs": "Tonsignal"
+        },
+        {
+            "@id": "gnd:4314440-8",
+            "sameAs": "Merkmalsextraktion"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A566495368",
+            "@type": "bibo:Thesis",
+            "P1053": "144 S.",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:566495368",
+                "(ppn)566495368"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": "(classificationName=linseach:automatic)rest",
+            "title": "Automatisierte Extraktion rhythmischer Merkmale zur Anwendung in Music Information Retrieval-Systemen",
+            "abstract": "Das Thema dieser Dissertation ist die Extraktion von Merkmalen, die rhythmische Eigenschaften von Audiosignalen beschreiben. Diese Merkmale sind für die Anwendung in Music Information Retrieval (MIR)-Systemen ausgewählt. Obwohl in der Vergangenheit an der Extraktion rhythmischer Merkmale wie zum Beispiel Tempo und Taktart in großem Umfang gearbeitet wurde, erreichen aktuelle Verfahren nicht die Erkennungsleistung eines geübten Zuhörers. Eine der Ursache dafür wird in der Auswertung von Informationen auf unterschiedlichen Abstraktionsebenen beim Menschen vermutet, eine weitere bei der Berücksichtigung von \\mbox{musikalischem} Vorwissen. Der hier beschriebene Ansatz orientiert sich an diesen Analyse\\-mechanismen. Zur Identifikation von geeigneten Merkmalen und relevanten Aspekten der menschlichen Verarbeitung der Schallsignale werden Grundlagen aus Musiktheorie, Psychoakustik und Kognitionswissenschaft erklärt. Bekannte Verfahren zur Extraktion rhythmischer Merkmale werden in einer ausführlichen Darstellung des Standes der Technik anschließend erläutert. Der Hauptteil der Arbeit enthält eine Zusammenstellung von Verfahren des maschinellen Hörens, die Informationen auf unterschiedlichen Abstraktionsebenen auswerten. Eine kompakte Darstellung der metrischen Struktur wird zur Ermittlung der metrischen Merkmale vorgestellt.Da einerseits die Auswertung von Low-level-Merkmalen die Anwendung von musikalischem Vorwissen nur in geringen Maß ermöglicht, und andererseits die Informationen auf höheren Abstraktionsebenen durch ihre Fehlerhaftigkeit die Erkennungsleistung in verschiedenen Situationen einschränken können, werden die Ergebnisse der verschiedenen Verfahren in Abhängigkeit ihrer Konfidenzmaße zu einem Gesamtergebnis zusammengefasst. Die Extraktion von rhythmischen Merkmalen aus den Informationen maschinell detektierter perkussiver Instrumente stellt einen Fortschritt im Vergleich zu bekannten Arbeiten dar. Eine Segmentierung in charakteristische Abschnitte des Audiosignals, die zum Beispiel Strophe oder Refrain repräsentieren, wird als Vorverarbeitungsschritt zur Analyse vorgestellt und die dadurch erreichte signifikante Verbesserung der Erkennungs\\-leistung nachgewiesen. Die Leistungsfähigkeit der Verfahren wird anhand eines umfangreichen Testdatensatzes evaluiert und die Eignung der extrahierten Merkmale in einem MIR-System untersucht.",
+            "contributor": [
+                "gnd:130244864",
+                "gnd:17290997X",
+                "gnd:130001112"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:135731747",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4191522-7",
+                "gnd:4040802-4",
+                "gnd:4178059-0",
+                "gnd:4072803-1",
+                "gnd:4314440-8"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/566495368.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

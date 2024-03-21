@@ -1,0 +1,141 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1022420135",
+            "sameAs": "Hadoop"
+        },
+        {
+            "@id": "gnd:1038076579",
+            "sameAs": "Gertz, Michael"
+        },
+        {
+            "@id": "gnd:1129113116",
+            "sameAs": "Apache Spark"
+        },
+        {
+            "@id": "gnd:120420392",
+            "sameAs": "Sattler, Kai-Uwe"
+        },
+        {
+            "@id": "gnd:1206215402",
+            "sameAs": "Hagedorn, Stefan"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4176992-2",
+            "sameAs": "Rastergrafik"
+        },
+        {
+            "@id": "gnd:4206012-6",
+            "sameAs": "Raumdaten"
+        },
+        {
+            "@id": "gnd:4464685-9",
+            "sameAs": "Framework (Informatik)"
+        },
+        {
+            "@id": "gnd:4802620-7",
+            "sameAs": "Big Data"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1724473328",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (148 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Seeger, Bernhard",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1724473328",
+                "(ppn)1724473328"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.7",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken"
+            ],
+            "title": "Efficient processing of large-scale spatio-temporal data",
+            "abstract": "Millionen Geräte, wie z.B. Mobiltelefone, Autos und Umweltsensoren senden ihre Positionen zusammen mit einem Zeitstempel und weiteren Nutzdaten an einen Server zu verschiedenen Analysezwecken. Die Positionsinformationen und übertragenen Ereignisinformationen werden als Punkte oder Polygone dargestellt. Eine weitere Art räumlicher Daten sind Rasterdaten, die zum Beispiel von Kameras und Sensoren produziert werden. Diese großen räumlich-zeitlichen Datenmengen können nur auf skalierbaren Plattformen wie Hadoop und Apache Spark verarbeitet werden, die jedoch z.B. die Nachbarschaftsinformation nicht ausnutzen können - was die Ausführung bestimmter Anfragen praktisch unmöglich macht. Die wiederholten Ausführungen der Analyseprogramme während ihrer Entwicklung und durch verschiedene Nutzer resultieren in langen Ausführungszeiten und hohen Kosten für gemietete Ressourcen, die durch die Wiederverwendung von Zwischenergebnissen reduziert werden können. Diese Arbeit beschäftigt sich mit den beiden oben beschriebenen Herausforderungen. Wir präsentieren zunächst das STARK Framework für die Verarbeitung räumlich-zeitlicher Vektor- und Rasterdaten in Apache Spark. Wir identifizieren verschiedene Algorithmen für Operatoren und analysieren, wie diese von den Eigenschaften der zugrundeliegenden Plattform profitieren können. Weiterhin wird untersucht, wie Indexe in der verteilten und parallelen Umgebung realisiert werden können. Außerdem vergleichen wir Partitionierungsmethoden, die unterschiedlich gut mit ungleichmäßiger Datenverteilung und der Größe der Datenmenge umgehen können und präsentieren einen Ansatz um die auf Operatorebene zu verarbeitende Datenmenge frühzeitig zu reduzieren. Um die Ausführungszeit von Programmen zu verkürzen, stellen wir einen Ansatz zur transparenten Materialisierung von Zwischenergebnissen vor. Dieser Ansatz benutzt ein Entscheidungsmodell, welches auf den tatsächlichen Operatorkosten basiert. In der Evaluierung vergleichen wir die verschiedenen Implementierungs- sowie Konfigurationsmöglichkeiten in STARK und identifizieren Szenarien wann Partitionierung und Indexierung eingesetzt werden sollten. Außerdem vergleichen wir STARK mit verwandten Systemen. Im zweiten Teil der Evaluierung zeigen wir, dass die transparente Wiederverwendung der materialisierten Zwischenergebnisse die Ausführungszeit der Programme signifikant verringern kann.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120420392"
+                },
+                {
+                    "@id": "gnd:1038076579"
+                }
+            ],
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1206215402"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4802620-7"
+                },
+                {
+                    "@id": "gnd:4176992-2"
+                },
+                {
+                    "@id": "gnd:1129113116"
+                },
+                {
+                    "@id": "gnd:4464685-9"
+                },
+                {
+                    "@id": "gnd:4206012-6"
+                },
+                {
+                    "@id": "gnd:1022420135"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

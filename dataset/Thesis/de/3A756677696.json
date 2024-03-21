@@ -1,0 +1,147 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1160258074",
+            "sameAs": "Düster, Alexander"
+        },
+        {
+            "@id": "gnd:140779663",
+            "sameAs": "Krüger, Stefan"
+        },
+        {
+            "@id": "gnd:140779922",
+            "sameAs": "Abdel-Maksoud, Moustafa"
+        },
+        {
+            "@id": "gnd:16039850-2",
+            "sameAs": "Technische Universität Hamburg-Harburg, Institut für Entwerfen von Schiffen und Schiffssicherheit"
+        },
+        {
+            "@id": "gnd:4052385-8",
+            "sameAs": "Schiff"
+        },
+        {
+            "@id": "gnd:4052449-8",
+            "sameAs": "Schiffsunfall"
+        },
+        {
+            "@id": "gnd:4056693-6",
+            "sameAs": "Stabilität"
+        },
+        {
+            "@id": "gnd:4154922-3",
+            "sameAs": "Fluten"
+        },
+        {
+            "@id": "gnd:4690080-9",
+            "sameAs": "Numerische Strömungssimulation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A756677696",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XI, 107 S., 9.521 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Papanikolaou, Apostolos D.",
+            "http://purl.org/dc/elements/1.1/creator": "Dankowski, Hendrik",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:756677696",
+                "(ppn)756677696"
+            ],
+            "publisher": "Techn. Univ. Hamburg-Harburg, Univ.-Bibl.",
+            "subject": [
+                "ship safety",
+                "Flutung",
+                "(classificationName=ddc-dbn)620",
+                "Unfalluntersuchungen",
+                "Schiffssicherheit",
+                "Safety",
+                "(classificationName=bk, id=106420577)55.40 - Schiffstechnik, Schiffbau",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc)623.8176",
+                "Hydrostatik",
+                "hydrostatic",
+                "flooding"
+            ],
+            "title": "A fast and explicit method for simulating flooding and sinkage scenarios of ships",
+            "abstract": [
+                "Zahlreiche schwere Seeunfälle von Schiffen wurden in der Vergangenheit ausgelöst durch Wassereinbruch und anschließender weitergehender Flutung der wasserdichten Unterteilung, welche zum Sinken und dem Totalverlust der Schiffe führte. Daher besteht ein hoher Bedarf an numerischen Simulationsmethoden, mit denen diese Flutungsvorgänge genauer untersucht werden könnten. Dadurch könnten solche Unfälle in Zukunft vermieden werden und sicherere Schiffsentwürfe entwickelt werden. Die Rekonstruktion der Unfallvorgänge wird erschwert durch die hohe Komplexität der inneren Unterteilung von Schiffen und der daraus resultierenden großen Anzahl an Flutungswegen. Aus diesem Grund wird ein numerisches Berechnungsprogramm entwickelt, welches in der Lage ist, diese Vorgänge schnell und direkt zu analysieren und vorhersagen zu können, um so auch Kenntnisse über die einzelnen Zwischenflutungszustände zu erlangen. Die Validierung der Methode erfolgt anhand von drei Testfällen eines Modellversuches und drei realen Unfällen, die bereits umfangreich untersuchten wurden: Die Unfällen der European Gateway, der Heraklion und der Estonia. Die Ergebnisse der neuen Methode in diesen Anwendungen sind sehr vielversprechend. Die quasi-statische Methode ermittelt den zeitlichen Verlauf der Flutung des Schiffes und die daraus resultierenden Schwimmlagen. Die Beschreibung des Flutungssystems, welches aus den Öffnungen und Räumen gebildet wird, erfolgt mit Hilfe gerichteter Graphen. Die Strömungen durch die Öffnungen der komplexen Unterteilung eines Schiffes werden idealisiert mit Hilfe der inkompressiblen Bernoulli-Gleichung berechnet. Teilgetauchte, große Öffnungen werden ebenso berücksichtigt wie zeitlich veränderliche Öffnungen, deren Eigenschaften im Laufe der Simulation unter bestimmten Bedingungen verändert werden. Somit können zum Beispiel berstende Fenster modelliert werden, die erst ab einem bestimmten Druckniveau durchlässig werden. Optional kann der Einfluss der Kompression von eingeschlossener Luft berücksichtigt werden. Nach Bestimmung der neuen Verteilung des Wassers und der Ermittlung der Füllstände in den einzelnen Räumen wird die korrespondierende hydrostatische Gleichgewichts-Schwimmlage bestimmt. Die Simulation wird fortgeführt, bis sich entweder diese Schwimmlage nicht mehr ändert oder das Schiff keine Auftriebsreserve mehr hat und von der Wasseroberfläche verschwindet. Durch die direkte Integration der Simulationsmethode in das schiffbauliche Entwurfssystem E4 ist eine konsistente Datenmodellierung gewährleistet und eine Kopplung mit bestehenden und neuen Methoden möglich. Es wird Wert darauf gelegt, die entscheidenden Effekte hinreichend genau abzubilden, ohne die Komplexität unnötig zu erhöhen und damit die Geschwindigkeit der Simulation zu verringern. Dies erlaubt dem Anwender, verschiedene mögliche Varianten des Unfallhergangs innerhalb kürzester Zeit zu berechnen, um zum Beispiel den Einfluss einer eventuell geöffneten wasserdichten Tür auf einen Unfallhergang untersuchen zu können.",
+                "Many severe ship accidents in the past were caused by a large water ingress followed by the progressive flooding of the watertight integrity of the ships and finally resulted in the sinking and total loss of the vessels. These accidents show a high demand for a better understanding of the flooding of ships with the help of numerical methods. This would allow to avoid such accidents in the future and to find new designs with an increased capability to withstand flooding. The circumstances of the accidents, which involve flooding are difficult to understand due to the complexity of the inner subdivision and the large number of resulting flooding paths. Hence, a fast numerical simulation method is developed in this thesis to analyse and predict such flooding events. The validation of the method comprises the comparison with experimental results from three test cases of a model test and the re-investigation of three severe ship accidents, which have been carefully investigated before: The accident of the European Gateway, the Heraklion and the Estonia. The results obtained with the new method in these applications are very promising. A quasi-static approach in the time domain is chosen to compute the flooding of the inner subdivision and the resulting equilibrium floating position at each intermediate time step. The flooding paths are modelled with the help of directed graphs. The water fluxes through the openings are computed by a hydraulic model based on the Bernoulli equation. Large and partly flooded holes are taken into account, as well as conditional openings like breaking windows or the flooding through completely filled compartments. The effect of air compression can be taken into account as well if this is required for a certain case. After the determination of the new flood water distribution and the corresponding filling levels in each compartment, the resulting equilibrium floating position is computed. The simulation ends, either if the intermediate floating position does not change any more or if all buoyancy reserve is lost and the ship starts to submerge below the sea surface. The method is developed within the ship design system E4, which ensures a consistent data model and allows the direct coupling with existing and new methods. All essential effects are taken into account without unnecessarily increasing the complexity of the model as this would lower the performance of the simulation method. The method enables the user to study many flooding scenarios within a short period, for example to investigate the influence of watertight doors that were left open."
+            ],
+            "alternative": "Ein schnelles und explizites Verfahren zur Simulation von Flutungs- und Sinkvorgängen von Schiffen",
+            "contributor": [
+                "gnd:140779663",
+                "gnd:140779922",
+                "gnd:1160258074"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:16039850-2",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4690080-9"
+                },
+                {
+                    "@id": "gnd:4052449-8"
+                },
+                {
+                    "@id": "gnd:4052385-8"
+                },
+                {
+                    "@id": "gnd:4056693-6"
+                },
+                {
+                    "@id": "gnd:4154922-3"
+                }
+            ],
+            "volume": "668",
+            "P30128": "Schriftenreihe Schiffbau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

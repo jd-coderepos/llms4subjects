@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4135410-2",
+            "sameAs": "Flugzeugaerodynamik"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "gnd:7706777-0",
+            "sameAs": "Flugdaten"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1753344069",
+            "@type": "bibo:Book",
+            "P1053": "xi, 66 Seiten",
+            "creator": [
+                "Mohamed, Majeed",
+                "Dongare, Vikalp"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1753344069",
+                "(ppn)1753344069",
+                "(isbn13)9789811601033"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=bk, id=106420585)55.50 - Luftfahrzeugtechnik",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "Astronautics.",
+                "Mathematical models.",
+                "Automotive engineering.",
+                "Aerospace engineering."
+            ],
+            "title": "Aircraft aerodynamic parameter estimation from flight data using neural partial differentiation",
+            "abstract": "This book presents neural partial differentiation as an estimation algorithm for extracting aerodynamic derivatives from flight data. It discusses neural modeling of the aircraft system. The neural partial differentiation approach discussed in the book helps estimate parameters with their statistical information from the noisy data. Moreover, this method avoids the need for prior information about the aircraft model parameters. The objective of the book is to extend the use of the neural partial differentiation method to the multi-input multi-output aircraft system for the online estimation of aircraft parameters from an established neural model. This approach will be relevant for the design of an adaptive flight control system. The book also discusses the estimation of aerodynamic derivatives of rigid and flexible aircraft which are treated separately. The longitudinal and lateral-directional derivatives of aircraft are estimated from flight data. Besides the aerodynamic derivatives, mode shape parameters of flexible aircraft are also identified in the book as part of identification for the state space aircraft model. Since the detailed description of the approach is illustrated through the block diagram and their results are presented in tabular form with figures of parameters converge to their estimates, the contents of this book are intended for readers who want to pursue a postgraduate and doctoral degree in science and engineering. This book is useful for practicing scientists, engineers, and teachers in the field of aerospace engineering.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4226127-2"
+                },
+                {
+                    "@id": "gnd:7706777-0"
+                },
+                {
+                    "@id": "gnd:4135410-2"
+                }
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1753344069.pdf",
+            "P30128": "SpringerBriefs in applied sciences and technology",
+            "P60163": "Singapore"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

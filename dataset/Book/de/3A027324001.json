@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4008626-4",
+            "sameAs": "Buchhandel"
+        },
+        {
+            "@id": "gnd:4011882-4",
+            "sameAs": "Deutschland"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A027324001",
+            "@type": "bibo:Book",
+            "P1053": "136 S.",
+            "creator": "Henze, Eberhard",
+            "description": "25 cm",
+            "identifier": [
+                "(isbn)3920514181",
+                "(ppn)027324001",
+                "(firstid)GBV:027324001"
+            ],
+            "publisher": "Verl. \"Buchhändler heute\"",
+            "subject": [
+                "Geschichte 1450-1970",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=bk, id=106403605)06.21 - Buchgeschichte",
+                "(classificationName=ssg)BBI",
+                "(classificationName=dbn)02",
+                "(classificationName=bk, id=106415204)06.25 - Buchhandel",
+                "(classificationName=rvk)AN 18100"
+            ],
+            "title": "Kleine Geschichte des deutschen Buchwesens",
+            "abstract": "Literaturverzeichnis",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1983",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4008626-4"
+                },
+                {
+                    "@id": "gnd:4011882-4"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht002557505.pdf",
+            "P30128": "Das Fachwissen des Buchhändlers",
+            "P60163": "Düsseldorf"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

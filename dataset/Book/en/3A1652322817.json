@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4033329-2",
+            "sameAs": "Kryptologie"
+        },
+        {
+            "@id": "gnd:4271270-1",
+            "sameAs": "Stromchiffre"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1652322817",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIX, 399 p. 71 illus, digital)",
+            "creator": "Klein, Andreas",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)BSZ:381838943",
+                "(ppn)1652322817",
+                "(doi)10.1007/978-1-4471-5079-4",
+                "(isbn13)9781447150794"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=msc)94A60",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=msc)11T71",
+                "(classificationName=msc)94A55",
+                "(classificationName=msc)68P25",
+                "Computer science—Mathematics.",
+                "(classificationName=loc)QA76.9.A43",
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=msc)*94-01",
+                "Mathematics",
+                "Computational complexity",
+                "(classificationName=ddc)518.1",
+                "(classificationName=rvk)SK 170",
+                "Algorithms",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Stream Ciphers",
+            "abstract": [
+                "Introduction to Stream Ciphers -- Linear Feedback Shift Registers -- Non-linear Combinations of LFSRs -- Correlation Attacks -- BDD-Based Attacks -- Algebraic Attacks -- Irregular Clocked Shift Registers -- The Security of Mobile Phones (GSM) -- RC4 and Related Ciphers -- The eStream Project -- The Blum-Blum-Shub Generator and Related Ciphers -- Mathematical Background -- Part IV Exercises with Solutions.",
+                "In cryptography, ciphers is the technical term for encryption and decryption algorithms. They are an important sub-family that features high speed and easy implementation and are an essential part of wireless internet and mobile phones.  Unlike block ciphers, stream ciphers work on single bits or single words and need to maintain an internal state to change the cipher at each step. Typically stream ciphers can reach higher speeds than block ciphers but they can be more vulnerable to attack. Here, mathematics comes into play. Number theory, algebra and statistics are the key to a better understanding of stream ciphers and essential for an informed decision on their safety.  Since the theory is less developed, stream ciphers are often skipped in books on cryptography. This book fills this gap. It covers the mathematics of stream ciphers and its history, and also discusses many modern examples and their robustness against attacks.  Part I covers linear feedback shift registers, non-linear combinations of LFSRs, algebraic attacks and irregular clocked shift registers. Part II studies some special ciphers including the security of mobile phones, RC4 and related ciphers, the eStream project and the blum-blum-shub generator and related ciphers.  Stream Ciphers requires basic knowledge of algebra and linear algebra, combinatorics and probability theory and programming. Appendices in Part III help the reader with the more complicated subjects and provides the mathematical background needed. It covers, for example, complexity, number theory, finite fields, statistics, combinatorics. Stream Ciphers concludes with exercises and solutions and is directed towards advanced undergraduate and graduate students in mathematics and computer science."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4271270-1"
+                },
+                {
+                    "@id": "gnd:4033329-2"
+                }
+            ],
+            "isLike": "doi:10.1007/978-1-4471-5079-4",
+            "P30128": [
+                "Bücher",
+                "SpringerLink"
+            ],
+            "P60163": "London"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

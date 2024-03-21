@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027189210",
+            "sameAs": "Discovery Service"
+        },
+        {
+            "@id": "gnd:1153165872",
+            "sameAs": "Opasjumruskit, Kobkaew"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4154995-8",
+            "sameAs": "Formalismus (Mathematik)"
+        },
+        {
+            "@id": "gnd:7713781-4",
+            "sameAs": "Internet der Dinge"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1014663784",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (311 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1014663784",
+                "(firstid)GBV:1014663784",
+                "(doi)10.22032/dbt.34266"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=475288947)54.84 - Webmanagement"
+            ],
+            "title": "Cross-formalism resource discovery in smart environments",
+            "abstract": "Nowadays, the Internet of Things (IoT) is becoming progressively colloquial to media. However, when there are trillions of resources out there, how can we spontaneously specify the resource we need? Therefore, one of the main research questions is the device and service discovery. Many standard web services descriptions are used to describe not only web services but also physical devices. These devices are encapsulated under the web service communication layer to make them available on the Internet. This technique enables automatic discovery, configuration, and execution of resources in dynamic environments. Thus, we focus on the resource description language that allows semantic annotation. Nevertheless, there is no single standard formalism to describe resources. It is more tactful to handle multiple description formalisms simultaneously. This thesis presents a cross-formalism resource discovery technique which utilizes the user context and resource’s context to improve the recommendation of resources. The discovery process should not be restricted to single resource description formalism. Moreover, the matching algorithm should be user-aware and environmentally adaptive, i.e. depending on the user’s current situation, rather than limit to keyword-based search. This thesis explains the implementation detail and shows the evaluation of each implemented module. We aimed to prove that the quality of the result is improved significantly compared to conventional discovery techniques. To demonstrate the usability of the proposed method, we deploy it in MERCURY. MERCURY is a platform that allows both businesses to engage with their customers and end users to create custom-made applications. Within the context of MERCURY, registration, assembling, and execution of resources need the automatic resource discovery. Since the implementation of this work is designed to be a standalone service, there is no restriction to use it under the domain of MERCURY.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1153165872"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:1027189210",
+                "gnd:7713781-4",
+                "gnd:4154995-8"
+            ],
+            "isLike": "doi:10.22032/dbt.34266",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1199470953",
+            "sameAs": "Köcher, Chris"
+        },
+        {
+            "@id": "gnd:122813375",
+            "sameAs": "Kuske, Dietrich"
+        },
+        {
+            "@id": "gnd:132718596",
+            "sameAs": "Muscholl, Anca"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4170465-4",
+            "sameAs": "Monoid"
+        },
+        {
+            "@id": "gnd:4334087-8",
+            "sameAs": "Erreichbarkeit"
+        },
+        {
+            "@id": "gnd:4831958-2",
+            "sameAs": "Automat (Automatentheorie)"
+        },
+        {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universitätsverlag Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1833752821",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 247 Seiten)",
+            "contributor": "Zetzsche, Georg",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)1833752821",
+                "(firstid)KXP:1833752821",
+                "(doi)10.22032/dbt.53804"
+            ],
+            "publisher": "Universitätsverlag Ilmenau",
+            "subject": [
+                "Finite-Elemente-Methode",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004.01",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=rvk)ST 136",
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik"
+            ],
+            "title": "Verification of automata with storage mechanisms",
+            "abstract": "Ein wichtiges Forschungsthema in der Informatik ist die Verifikation, d.h., die Analyse von Systemen bezüglich ihrer Korrektheit. Diese Analyse erfolgt in zwei Schritten: Zuerst müssen wir das System und die gewünschten Eigenschaften formalisieren. Anschließend benötigen wir Algorithmen zum Testen, ob das System die Eigenschaften erfüllt. Oftmals können wir das Systemals endlichen Automaten mit geeignetem Speichermechanismus modellieren, z.B. rekursive Programme sind im Wesentlichen Automaten mit einem Stack. Hier betrachten wir Automaten mit zwei Varianten von Stacks und Queues: 1. Partiell vergessliche Stacks und Queues, welche bestimmte Teile ihrer Inhalte jederzeit vergessen können. Diese können für unzuverlässige Systeme verwendet werden. 2. Verteilte Stacks und Queues, d.h., mehrere Stacks und Queues mit vordefinierter Synchronisierung. Häufig lassen sich die Eigenschaften unserer Modelle mithilfe des (wiederholten) Erreichbarkeitsproblems in unseren Automaten lösen. Dabei ist bekannt, dass die Entscheidbarkeit dieser Probleme oftmals stark vom konkreten Datentyp des Speichers abhängt. Beide Probleme können für Automaten mit einem Stack in Polynomialzeit gelöst werden. Sie sind jedoch unentscheidbar, wenn wir Automaten mit einer Queue oder zwei Stacks betrachten. In bestimmten Spezialfällen sind aber dennoch in der Lage diese Systeme zu verifizieren. So können wir beispielsweise bestimmte Automaten mit mehreren Stacks betrachten - so genannte Asynchrone Kellerautomaten. Diese bestehen aus mehreren (lokalen) Automaten mit jeweils einem Stack. Wann immer diese Automaten etwas in mind. einen Stack schreiben, müssen sie unmittelbar zuvor von diesen Stacks etwas lesen. Das (wiederholte) Erreichbarkeitsproblem ist in asynchronen Kellerautomaten in Polynomialzeit entscheidbar. Wir können zudem das Erreichbarkeitsproblem von Queueautomaten durch Exploration des Konfigurationsraums semi-entscheiden. Hierzu können wir mehrere aufeinanderfolgende Transitionen zu so genannten Meta-Transformationen zusammenfassen und diese in einem Schritt simulieren. Hier betrachten wir Meta-Transformationen, die zwischen dem Lesen und Schreiben von Wörtern aus zwei gegebenen regulären Sprachen alternieren. Diese Meta-Transformationen können in Polynomialzeit ausgeführt werden. Für dieses Ergebnis müssen wir jedoch zunächst verschiedene algebraische Eigenschaften der Queues betrachten.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132718596"
+                },
+                {
+                    "@id": "gnd:122813375"
+                }
+            ],
+            "creator": [
+                "gnd:7635051-4",
+                "gnd:2125187-3",
+                "gnd:1199470953"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4831958-2"
+                },
+                {
+                    "@id": "gnd:4001183-5"
+                },
+                {
+                    "@id": "gnd:4170465-4"
+                },
+                {
+                    "@id": "gnd:4334087-8"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.53804",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

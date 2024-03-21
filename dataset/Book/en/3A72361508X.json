@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4035843-4",
+            "sameAs": "Computerlinguistik"
+        },
+        {
+            "@id": "gnd:4194196-2",
+            "sameAs": "Textanalyse"
+        },
+        {
+            "@id": "gnd:4560829-5",
+            "sameAs": "Annotation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A72361508X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (159 Seiten)",
+            "creator": "Wilcock, Graham",
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)72361508X",
+                "(firstid)GBV:72361508X",
+                "(isbn13)9781598297393",
+                "(doi)10.2200/S00194ED1V01Y200905HLT003"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "subject": [
+                "Linguistic analysis (Linguistics)",
+                "Electronic books",
+                "XML (Document markup language)",
+                "(classificationName=ddc)418",
+                "(classificationName=rvk)ES 900",
+                "(classificationName=loc)P118.2 .W889 2009",
+                "Corpora (Linguistics)",
+                "(classificationName=rvk)ER 765",
+                "(classificationName=loc)P98.3",
+                "(classificationName=ddc)410.285",
+                "Computational linguistics",
+                "(classificationName=linseach:mapping)lin",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=rvk)ST 680"
+            ],
+            "title": "Introduction to Linguistic Annotation and Text Analytics",
+            "abstract": [
+                "Working with XML -- Introduction -- XML basics -- XML parsing and validation -- XML transformations -- In-line annotations -- Stand-off annotations -- Annotation standards -- Further reading -- Linguistic annotation -- Levels of linguistic annotation -- WordFreak annotation tool -- Sentence boundaries -- Tokenization -- Part-of-speech tagging -- Syntactic parsing -- Semantics and discourse -- WordFreak with OpenNLP -- Further reading -- Using statistical NLP tools -- Statistical models -- OpenNLP and Stanford NLP tools -- Sentences and tokenization -- Statistical tagging -- Chunking and parsing -- Named entity recognition -- Coreference resolution -- Further reading -- Annotation interchange -- XSLT transformations -- WordFreak-OpenNLP transformation -- Gate XML format -- Gate-WordFreak transformation -- XML metadata interchange: XMI -- WordFreak-XMI transformation -- Towards interoperability -- Further reading -- Annotation architectures -- Gate -- Gate information extraction tools -- Annotations with JAPE rules -- Customizing GATE gazetteers -- UIMA -- UIMA wrappers for OpenNLP tools -- Annotations with regular expressions -- Customizing UIMA dictionaries -- Further reading -- Text analytics -- Text analytics tools -- Named entity recognition -- Training statistical models -- Coreference resolution -- Information extraction -- Text mining and searching -- New directions -- Further reading -- Bibliography",
+                "Linguistic annotation and text analytics are active areas of research and development, with academic conferences and industry events such as the Linguistic Annotation Workshops and the annual Text Analytics Summits. This book provides a basic introduction to both fields, and aims to show that good linguistic annotations are the essential foundation for good text analytics. After briefly reviewing the basics of XML,with practical exercises illustrating in-line and stand-off annotations, a chapter is devoted to explaining the different levels of linguistic annotations. The reader is encouraged to create example annotations using the WordFreak linguistic annotation tool. The next chapter shows how annotations can be created automatically using statistical NLP tools, and compares two sets of tools, the OpenNLP and Stanford NLP tools. The second half of the book describes different annotation formats and gives practical examples of how to interchange annotations between different formats using XSLT transformations. The two main text analytics architectures,GATE and UIMA, are then described and compared, with practical exercises showing how to configure and customize them. The final chapter is an introduction to text analytics, describing the main applications and functions including named entity recognition, coreference resolution and information extraction, with practical examples using both open source and commercial tools. Copies of the example files, scripts, and stylesheets used in the book are available from the companion website, located at http://sites.morganclaypool.com/wilcock"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4560829-5"
+                },
+                {
+                    "@id": "gnd:4194196-2"
+                },
+                {
+                    "@id": "gnd:4035843-4"
+                }
+            ],
+            "volume": "#3",
+            "isLike": "doi:10.2200/S00194ED1V01Y200905HLT003",
+            "P30128": "Synthesis Lectures on Human Language Technologies",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

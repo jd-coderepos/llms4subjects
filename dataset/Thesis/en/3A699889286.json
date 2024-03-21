@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4042805-9",
+            "sameAs": "Numerische Mathematik"
+        },
+        {
+            "@id": "gnd:4121428-6",
+            "sameAs": "Optimale Kontrolle"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A699889286",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 138 S., 1721 KB)",
+            "creator": "May, Andreas",
+            "identifier": [
+                "(ppn)699889286",
+                "(firstid)GBV:699889286"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)a",
+                "(classificationName=ddc)a",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "Entwicklung und Implementierung eines Verfahrens zur Verwendung der indirekten Methode zur Lösung von Optimalsteuerungsproblemen",
+            "abstract": [
+                "The present work deals with the numerical solution of optimal control problems. Therefore the maximum principle is used. Its application leads to a multi-point boundary value problem. Now the task is to develop a program package which ist able to solve such multi-point boundary value problems numerically using the multiple shooting method. Different demands on the Development of the software were made. The handling is designed more intuitive and more convenient by using a graphical user interface. Another goal is to assure that the problem data is independent of the source code, so that the source code can remain untouched. The user of the program doesnt́ need any programming knowledge. The functionality will be expanded when compared to existing implementations to exploit the possibilities of the multiple shooting method and to adapt the methods to the problem to be solved. First, the theoretical basis of the optimal control and the maximum principle are described. The multiple shooting method is presented and extended, so that also multi-point boundary value problems can be solved with this method. It also discusses the implementation of other mathematical methods, which are used. These are the Newton method, including relaxation and using a Broyden-Update, several methods to solve initial value problems (Dormand-Prince and Rosenbrock-Method) and the singular value decomposition. In addition, the components and functions of the program package are described, for ...",
+                "Numerische Mathematik, Optimale Steuerung"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4121428-6"
+                },
+                {
+                    "@id": "gnd:4042805-9"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

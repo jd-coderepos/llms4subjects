@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4049991-1",
+            "sameAs": "Riemannsche Fläche"
+        },
+        {
+            "@id": "gnd:4127814-8",
+            "sameAs": "Minimalfläche"
+        },
+        {
+            "@id": "gnd:4338132-7",
+            "sameAs": "Numerisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A50461536X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 137 S., 9611 KB)",
+            "creator": "Schmies, Markus",
+            "identifier": [
+                "(ppn)50461536X",
+                "(firstid)GBV:50461536X"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106408100)31.52 - Differentialgeometrie",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ssg)17,1",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)516.3620285",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "Computational methods for Riemann surfaces and helicoids with handles",
+            "abstract": "We develop methods for the numerical treatment of Riemann surfaces and apply them to the problem of computing and visualizing helicoids with handles. Using Schottky uniformization to represent Riemann surfaces, we explicitly express differentials and integrals of the Riemann surfaces as series, and we find a priori criteria for their convergence that can be evaluated efficiently. We also develop algorithms for the evaluation of these series within prescribed error bounds and study their efficiency. Riemann theta functions are a basic technical tool for the description of finite gap solutions of integrable systems. We give a survey of computational methods for their evaluation and present new implementations as well as new algorithms and compare them with current methods. As an application we perform numerical experiments resulting in images of helicoids with up to six handles. Our numerical experiments strongly suggest that there exists exactly one embedded helicoid of a given genus. We also obtain immersed examples of genus-one helicoids with less symmetry than previously known examples. We close with a description of the software libraries that have been created in the context of this thesis.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4049991-1",
+                "gnd:4127814-8",
+                "gnd:4338132-7"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120377543",
+            "sameAs": "Hoppe, Ulrich"
+        },
+        {
+            "@id": "gnd:136867715",
+            "sameAs": "Husar, Peter"
+        },
+        {
+            "@id": "gnd:137841248",
+            "sameAs": "Maschotta, Ralph"
+        },
+        {
+            "@id": "gnd:4006617-4",
+            "sameAs": "Bildgebendes Verfahren"
+        },
+        {
+            "@id": "gnd:4314440-8",
+            "sameAs": "Merkmalsextraktion"
+        },
+        {
+            "@id": "gnd:4330129-0",
+            "sameAs": "Kreuzkorrelation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A603738605",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 200 S., 24,2 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Golz, Martin",
+            "identifier": [
+                "(firstid)DNB:994563566",
+                "(ppn)603738605"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc)610.28",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415921)44.32 - Medizinische Mathematik, medizinische Statistik",
+                "(classificationName=ddc-dbn)610"
+            ],
+            "title": "Merkmalslistenbasierte Kreuzkorrelationsmethoden für die medizinische Bildverarbeitung",
+            "abstract": "Kreuzkorrelationsverfahren werden in der Bildverarbeitung aufgrund ihrer Robustheitgegenüber verschiedenen Bild- und Objektstörungen vorwiegend zum Finden von Objekten in Bildern eingesetzt. Generell besitzen diese Algorithmen jedoch einen hohen Rechenaufwand. Daher wird nach Verfahren gesucht, mit denen der Rechenaufwand gesenkt werden kann, ohne die Qualität der Ergebnisse zu reduzieren.Im Rahmen dieser Arbeit werden merkmalslistenbasierte Kreuzkorrelationsverfahren(MlKV) vorgestellt, ihre Vor- und Nachteile zunächst anhand synthetischer Bilder aufgezeigt und anschließend mit den pixelbasierten Kreuzkorrelationsverfahren verglichen. Die MlKV werden aus der generalisierten Radontransformation unter Zuhilfenahme der Image-Point-Mapping-Technik abgeleitet. Durch die Verwendung von Bildlisten und einer vorherigen Merkmalsextraktion wird, durch Weglassen von Listeneinträgen mit einem Wert von Null, die Anzahl der Berechnungsschritte erheblich gesenkt. Werden anstelle des multiplikativen Abstandsmaßes bei der Berechnung der MlKV alternative Abstandsmaße verwendet, weichen die Ergebnisse zu den pixelbasierten Verfahren ab. Inwieweit sich dies positiv oder negativ auf die Ergebnisse der Kreuzkorrelationsverfahren auswirkt, wird in dieser Arbeit dargelegt. Die MlKV reagieren empfindlich gegenüber allen Veränderungen der Objekte und sind abhängig vom verwendeten Merkmalsextraktionsverfahren. Durch eine vorherigeMerkmalsextraktion sind die Werte der Kreuzkorrelationskoeffizienten und das Peak-Signal-to-Noise-Ratio im Vergleich zu den pixelbasierten Kreuzkorrelationsverfahrensehr hoch. Hierdurch sind diese Verfahren in der Lage, kleine Abweichungen zwischenden Objekten zu erkennen. Darüber hinaus ermöglichen sie eine robuste Detektion von Objekten, selbst unter schwierigen Bildbedingungen. Die MlKV sind auch bei nichtkünstlichen Bildern bis zu zwölf mal schneller als pixelbasierte Kreuzkorrelationsverfahren.Als beste Kombination aus Merkmalsextraktionsverfahren und MlKV hat sich diein dieser Arbeit vorgestellte, regelbasierte Kantenerkennung in Kombination mit einerdifferenzbasierten merkmalslistenbasierten Kreuzkorrelation erwiesen. Die regelbasierteKantenerkennung wurde entwickelt, um die Anforderungen, die an die Merkmalsextraktionsverfahrendurch die MlKV gestellt werden, zu erfüllen. Sie ermöglicht, sowohl die genaue Detektion der Position selbst ein Pixel breiter Kantenanstiege, als auch die Detektionvon sehr langen Kantenanstiegen. Die Einsetzbarkeit der vorgestellten Verfahren wird anhand verschiedener Aufgabenstellungen aus der medizinischen Bildverarbeitung gezeigt. Die Vorteile der regelbasierten Kantenerkennung werden bei der Segmentierung der Glottis in Hochgeschwindigkeitsaufnahmen ausgenutzt. Die MlKV werden zur Bewegungsdetektion von Fundusbildern des Augenhintergrundes eingesetzt. Weiterhin wird ein Verfahren zur Unterstützung der Dosimetrie der Radiorezeptortherapie vorgestellt, das die MlKV verwendet. Die für diese Untersuchungen notwendigen Algorithmen werden mit Hilfe einer hierfür entwickelten objektorientierten Softwarearchitektur implementiert, die zur schnellen Implementierung von wiederverwendbaren, erweiterbaren und austauschbaren Komponenten dient. Sie ist eine Kombination aus dem Pipes and Filters-, dem Reflection- und dem Microkernel-Muster.",
+            "contributor": [
+                "gnd:120377543",
+                "gnd:136867715"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:137841248",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4330129-0",
+                "gnd:4006617-4",
+                "gnd:4314440-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

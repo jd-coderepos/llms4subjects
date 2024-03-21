@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017003394",
+            "sameAs": "Kanka, Mario"
+        },
+        {
+            "@id": "gnd:13000930X",
+            "sameAs": "Sinzinger, Stefan"
+        },
+        {
+            "@id": "gnd:4025643-1",
+            "sameAs": "Holografie"
+        },
+        {
+            "@id": "gnd:4039238-7",
+            "sameAs": "Mikroskopie"
+        },
+        {
+            "@id": "gnd:4150634-0",
+            "sameAs": "Dreidimensionale Rekonstruktion"
+        },
+        {
+            "@id": "gnd:4162004-5",
+            "sameAs": "Interferenzmikroskopie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A671180835",
+            "@type": "bibo:Thesis",
+            "P1053": "XII, 113 S.",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Kreuzer, Hans Jürgen",
+                "Riesenberg, Rainer"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(isbn13)9783863600105",
+                "(firstid)GBV:671180835",
+                "(ppn)671180835"
+            ],
+            "publisher": "Univ.-Verl. Ilmenau",
+            "subject": [
+                "(classificationName=ddc-dbn)500",
+                "(classificationName=ddc)502.82",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=bk, id=106415980)30.03 - Methoden und Techniken in den Naturwissenschaften"
+            ],
+            "title": "Bildrekonstruktion in der digitalen inline-holografischen Mikroskopie",
+            "abstract": "Ein kohärent beleuchtetes Pinhole erzeugt sphärische Wellenfronten, welche durch ein mikroskopisches Objekt beeinflusst werden. Das hinter dem Objekt entstehende Interferenzmuster heißt Hologramm und wird mit einem 2D-Bild-Detektor aufgezeichnet. In der digitalen inlineholografischen Mikroskopie wird mit einem Computer aus einem solchen Hologramm ein Bild des mikroskopischen Objekts rekonstruiert. Das 1. Rayleigh-Sommerfeld Beugungsintegral beschreibt die Wellenausbreitung in skalarer Näherung und eignet sich zur Rekonstruktion von Inline-Hologrammen für eine linsenlose Mikroskopie. Der numerische Aufwand ist aufgrund einer notwendigen Interpolation des Hologramms direkt abhängig von der optischen Auflösung im Objektbild. Bei Verwendung von 2D-Bild-Sensoren (CCD, CMOS) mit 4 Millionen oder mehr Pixel sowie handelsüblicher Desktop-PCs ist mit Rekonstruktionszeiten von mehreren Minuten und oft auch mit einem die Kapazitäten des Computers übersteigenden Speicherbedarf zu rechnen. In der vorliegenden Arbeit werden zwei neue Rekonstruktionsmethoden für die linsenlose digitale inline-holografische Mikroskopie vorgestellt. Diese Methoden berechnen das 1. Rayleigh-Sommerfeld Integral für sphärische Wellenfronten. Dabei wird das Hologramm ähnlich einem Schachbrett in identisch große Teilhologramme zerlegt. Diese Teilhologramme werden nacheinander phasenmodifiziert, interpoliert und zu einer neuen Wellenfront wieder zusammengefügt. Auf diese Weise sind die Anforderungen an den Speicher des Computers erheblich reduziert. Die Methoden führen die notwendige Interpolation des Hologramms indirekt im Fourier-Raum aus, sodass der numerische Aufwand nicht länger von der optischen Auflösung abhängt. Die erste der Methoden verursacht geringfügige Interpolationsartefakte, welche mit der zweiten, einer um den Faktor 2.5 langsameren Methode vermieden werden. Mit einer weiteren Methode zur Vorfilterung des Hologramms ist es nun auch möglich, einen beliebigen Ausschnitt der Objektebene zu rekonstruieren. Ein Desktop-PC (2.66 GHz) rekonstruiert ein Hologramm mit 4 Millionen Pixel in etwa 6 Sekunden. Spezielle Hardware-Komponenten wie Grafikkarten kamen dabei nicht zum Einsatz. In Experimenten wurden Hologramme von 1 my m großen Polymethylmethacrylat-Kugeln (PMMA) ohne abbildende Optik detektiert und Bilder dieser Kugeln mit einer NA von 0.7 rekonstruiert, wobei das lichtübertragende Medium Luft war (Brechungsindex n = 1). Das dabei rekonstruierte, erweiterte Bildfeld hatte einen Durchmesser von etwa 260 my m. Damit im Zusammenhang wird eine Dimensionierung für ein digitales inline-holografisches Mikroskop vorgeschlagen sowie die sich daraus ergebenden Grenzen und mögliche Erweiterungen diskutiert.",
+            "contributor": "gnd:13000930X",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1017003394",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4025643-1"
+                },
+                {
+                    "@id": "gnd:4162004-5"
+                },
+                {
+                    "@id": "gnd:4039238-7"
+                },
+                {
+                    "@id": "gnd:4150634-0"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/671180835.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

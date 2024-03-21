@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:139264035",
+            "sameAs": "Martin, Roland"
+        },
+        {
+            "@id": "gnd:4768355-7",
+            "sameAs": "Transienten-Elektromagnetik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A612191974",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 233 S., 7186 KB)",
+            "identifier": [
+                "(ppn)612191974",
+                "(firstid)DNB:997021616"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ssg)16,13",
+                "(classificationName=ddc)550.287"
+            ],
+            "title": "Development and application of 2D and 3D transient electromagnetic inverse solutions based on adjoint Green functions : a feasibility study for the spatial reconstruction of conductivity distributions by means of sensitivities",
+            "abstract": "To enhance interpretation capabilities of transient electromagnetic (TEM) methods, a multidimensional inverse solution is introduced, which allows for a explicit sensitivity calculation with reduced computational effort. The main conservation of computational load is obtained by solving Maxwell&apos;s equations directly in time domain. This is achieved by means of a high efficient Krylov-subspace technique that is particularly developed for the fast computation of EM fields in the diffusive regime. Traditional modeling procedures for Maxwell&apos;s equations yields solutions independently for every frequency or, in the time domain, at a given time through explicit time stepping. Because of this, frequency domain methods are rendered extremely time consuming for multi-frequency simulations. Likewise the stability conditions required by explicit time stepping techniques often result in highly inefficient calculations for large diffusion times and conductivity contrasts. The computation of sensitivities is carried out using the adjoint Green functions approach. For time domain applications, it is realized by convolution of the background electrical field information, originating from the primary signal, with the impulse response of the receiver acting as secondary source. In principle, the adjoint formulation may be extended allowing for a fast gradient calculation without calculating and storing the whole sensitivity matrix but just the gradient of the data residual. This technique, which is also known as migration, is widely used for seismic and, to some extend, for EM methods as well. However, the sensitivity matrix, which is not easily given by migration techniques, plays a central role in resolution analysis and would therefore be discarded ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:139264035",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4768355-7"
+            }
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

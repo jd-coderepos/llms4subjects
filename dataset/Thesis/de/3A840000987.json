@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058278150",
+            "sameAs": "Ament, Christoph"
+        },
+        {
+            "@id": "gnd:1058918613",
+            "sameAs": "Baumgartl, Hanna"
+        },
+        {
+            "@id": "gnd:112690319",
+            "sameAs": "Weckenmann, Albert"
+        },
+        {
+            "@id": "gnd:130008370",
+            "sameAs": "Jäger, Gerd"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4150927-4",
+            "sameAs": "Dynamische Waage"
+        },
+        {
+            "@id": "gnd:4338132-7",
+            "sameAs": "Numerisches Modell"
+        },
+        {
+            "@id": "gnd:4409497-8",
+            "sameAs": "Elektromagnetische Waage"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A840000987",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XII, 154 S., 11,18 MB)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:840000987",
+                "(ppn)840000987"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=rvk)ZQ 3750"
+            ],
+            "title": "Optimierung dynamischer Waagen nach dem Prinzip der elektromagnetischen Kraftkompensation mittels numerischer Modelle zur Systemsimulation",
+            "abstract": "Der Einsatz von elektromagnetisch kraftkompensierten Waagen (EMKW) in der dynamischen Wägetechnik vereint die Forderung nach hohen Auflösungen bei guter Reproduzierbarkeit mit der nach möglichst geringen Messzeiten. Um diesen ambitionierten Zielen gerecht werden zu können, bedarf es EMKW, welche in ihren Komponenten und deren Zusammenspiel hinsichtlich ihrer dynamischen Eigenschaften optimiert sind. Diese Optimierung kann experimentell oder auf numerischem Wege erfolgen, wobei letztere Variante den großen Vorteil birgt, dass die zeitaufwändige und teure Fertigung von Prototypen entfällt. In dieser Arbeit werden zwei Herangehensweisen zur Modellerstellung für die Optimierung einer dynamischen EMKW vorgestellt: Auf Basis der Modellierung der Mechanik mittels eines Starrkörpermodells sowie mittels eines FEM-Modells. Diese mechanischen Modelle werden mit Modellen für die übrigen Komponenten in Form von Kennlinien und Übertragungsfunktionen zu je einem Gesamtmodell verknüpft, welches das komplexe Verhalten des mechatronischen Systems EMKW sowohl im offenen als auch im geschlossenen Regelkreis sehr gut abbildet. Um die Fertigung von Prototypen umgehen zu können, lag besonderes Augenmerk darauf, das Verhalten sämtlicher Komponenten anhand von Simulationen beschreiben zu können. Hierfür wurden insbesondere Methoden zur Abbildung höherer Schwingungsformen in Starrkörpermodellen durch gezieltes Einbringen von Zusatzgelenken und Federsteifigkeiten, sowie die Modellierung der Systemdämpfung durch Wirbelströme untersucht. Darüber hinaus konnte eine allgemeine Faustregel zur geeigneten Wahl der Schrittweitensteuerung ermittelt und erprobt werden. Die entstandenen Modelle sind leicht handhabbar, universell und auf verschiedene Bauformen von EMKW anwendbar. Zur Validierung der Modelle wurden Simulationsergebnisse mit charakteristischen Messwerten verglichen. Um diese zu generieren kamen zwei speziell hierfür konzipierte Lastwechslereinrichtungen mit pneumatisch bzw. elektromagnetisch wirkendem Prinzip zum Einsatz. Mit letzterem wurde darüber hinaus gezeigt, dass auf Grund der mechanischen Eigenschaften einer EMKW eine Systemidentifikation an zwei Eingängen (Hebel und Waagschale) sinnvoll und empfehlenswert ist. Auf Basis der erzielten Erkenntnisse erfolgte die Dimensionierung eines Digitalreglers, mit dem eine signifikante Verbesserung der Performance erzielt wurde.",
+            "contributor": [
+                "gnd:112690319",
+                "gnd:1058278150",
+                "gnd:130008370"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1058918613",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4409497-8",
+                "gnd:4017233-8",
+                "gnd:4338132-7",
+                "gnd:4150927-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

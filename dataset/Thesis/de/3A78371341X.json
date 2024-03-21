@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4511937-5",
+            "sameAs": "Online-Ressource"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A78371341X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Nowak, Curt",
+            "identifier": [
+                "(ppn)78371341X",
+                "(firstid)GBV:78371341X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Abbiegeverbote",
+                "Wegsucheverfahren",
+                "Turn Restrictions",
+                "(classificationName=ddc-dbn)330",
+                "Optimal Path Search",
+                "Contraction Hierarchies",
+                "(classificationName=linseach:mapping)oek",
+                "OpenStreetMap"
+            ],
+            "title": "Schnelle Wegsucheverfahren auf digitalen Straßenkarten -- Entwicklung, Implementierung und Anwendungsbeispiel bei einem Logistikdienstleister",
+            "abstract": [
+                "The solution to many real-world transportation planning problems is combinatorially comprehensive, complex, and some of the necessary information is not available in a sufficiently structured form. Hence, standard solving methods are often not applicable. This holds for courier and express providers&apos; operational dispatching, where vehicles are assigned to customer orders. Typically, dialog-oriented decision support systems (DSS) are used to generate recommendations from which a human dispatcher selects the most profitable one by means of domain-specific knowledge. In this process, solutions that consolidate the freight of multiple customer orders onto a single vehicle are usually particularly favorable. This work examines optimization of the dispatching process with particular attention to the potential of freight consolidation. In order to uncover possible savings by consolidating, many alternative vehicle routes need to be determined and compared with each other. For this purpose, fast routing algorithms are essential. These algorithms form the first focus of this work. Based on a comparative literature overview of classical&apos;&apos; as well as current routing algorithms, the center of attention is put on contraction hierarchies (CH) as they provide a particularly favorable ratio of query speed-up to additional memory requirement. Both optimizations of hierarchy creation and new enhancements for queries in CH are studied. The considerable merits of these approaches are empirically shown through extensive benchmarks on digital road maps provided by the OpenStreetMap project. More realistic routes are obtained when routing algorithms take turn restrictions into account. First, common approaches from literature are presented for this purpose. Next, the adaptive search is introduced as a more efficient new approach, and adjusted for usage in CH. The above-mentioned query enhancements can easily be applied to this method. The advantages of the adaptive search in CH over the edge-based search that is employed for turn restriction aware routing in earlier literature is emphasized by further benchmarks. For the second focus of this work --~the vehicle routing problem with freight consolidation~-- first, a thorough mathematical model is developed. Next, model assumptions are extracted from past operational real-world data provided by IN tIME Express Logistik GmbH. Eventually, the recursive savings algorithm is introduced as a heuristic that can generate freight consolidation recommendations in the context of a DSS. Employed in multiple benchmarks based upon the past operational data, it reveals considerable cost savings compared to former dispatching decisions.",
+                "Die Lösung vieler straßengebundener Transportplanungsprobleme aus der Praxis ist kombinatorisch aufwendig, komplex und manche der notwendigen Informationen liegen nicht hinreichend strukturiert vor. Standard-Lösungsverfahren sind daher für sie oft ungeeignet. Dies gilt auch für die operative Disposition bei Express- und Direkt-Kurierdienstleistern, bei der Entscheidungen über die Zuweisung von Fahrzeugen zu Aufträgen getroffen werden. Üblicherweise kommen für diese Aufgabe dialogorientierte Entscheidungsunterstützungssysteme (EUS) zum Einsatz, welche Vorschläge generieren, aus denen menschliche Disponenten unter Einbezug von domänenspezifischem Wissen den günstigsten auswählen. Lösungen, bei denen die Frachten mehrerer Aufträge auf einem Fahrzeug konsolidiert werden, sind dabei häufig besonders wirtschaftlich. Diese Arbeit beschäftigt sich mit der Optimierung der Disposition im Hinblick auf das Konsolidierungspotential der Frachten. Zum Aufdecken möglicher Ersparnisse durch Konsolidierung müssen viele alternative Fahrzeugrouten ermittelt und verglichen werden. Hierfür sind schnelle Verfahren zur Wegsuche von zentraler Bedeutung. Diese Verfahren bilden den ersten Schwerpunkt der Arbeit. Aufbauend auf einem vergleichenden Überblick \"klassischer\"&apos; sowie aktueller Wegsucheverfahren wird mit den Contraction Hierarchies (CH) ein hierarchisches Verfahren in den Mittelpunkt gestellt, das ein besonders vorteilhaftes Verhältnis von Suchgeschwindigkeit zu benötigtem Speicherbedarf aufweist. Untersucht werden Optimierungen der Hierarchie-Erzeugung sowie neue Erweiterungen der Wegsuche in CH. In ausführlichen Benchmarks auf digitalen Straßenkarten des OpenStreetMap-Projekts werden die deutlichen Verbesserungen durch diese Erweiterungen empirisch nachgewiesen. Eine größere Realitätsnähe der berechneten Routen ergibt sich durch die Berücksichtigung von Abbiegebeschränkungen bei der Wegsuche. Nach der Vorstellung der in der Literatur hierfür üblichen Ansätze wird mit der adaptiven Wegsuche ein leistungsstarkes neues Verfahren für diesen Zweck präsentiert und für den Einsatz in CH angepasst. Die oben genannten Erweiterungen der Wegsuche sind mühelos auf dieses Verfahren übertragbar. Weitere Benchmarks unterstreichen die Vorteile der adaptiven gegenüber der in früherer Literatur eingesetzten pfeilbasierten Suche nach Wegen mit Abbiegebeschränkungen in CH. Für den zweiten Schwerpunkt der Arbeit, das Konsolidierungsproblem, wird zunächst ein ausführliches mathematisches Modell entwickelt. Es folgt eine Extraktion realitätsnaher Modellannahmen aus operativen Vergangenheitsdaten der IN tIME Express Logistik GmbH. Mit dem rekursiven Savingsverfahren wird schließlich eine neue Heuristik präsentiert, die es ermöglicht, Konsolidierungsvorschläge im Rahmen eines EUS zu generieren. Sie offenbart in mehreren, auf den Vergangenheitsdaten basierenden Benchmarks ein deutliches Kosteneinsparungspotential gegenüber früheren Dispositionsentscheidungen."
+            ],
+            "alternative": "Übers. des Hauptsacht.: Fast Optimal Path Search on Digital Road Maps -- Development, Implementation, and Example of Use at a Logistics Service Provider",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4511937-5"
+            }
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

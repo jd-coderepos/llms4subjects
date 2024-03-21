@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118516574",
+            "sameAs": "Bucharin, Nikolaj Ivanovič"
+        },
+        {
+            "@id": "gnd:118640402",
+            "sameAs": "Lenin, Vladimir Ilʹič 1870-1924"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A022318488",
+            "@type": "bibo:Book",
+            "P1053": "208 S",
+            "description": [
+                "25 cm",
+                "Ill"
+            ],
+            "identifier": [
+                "(ppn)022318488",
+                "(firstid)GBV:022318488"
+            ],
+            "publisher": "Verlag für Literatur und Politik",
+            "subject": [
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=bk, id=181570890)15.74 - Russland",
+                "(classificationName=loksys-fbs)GD 161"
+            ],
+            "title": "Lenin : Leben und Werk",
+            "abstract": "Große Sozialistische Oktoberrevolution",
+            "contributor": "gnd:118516574",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1924",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118640402"
+            },
+            "P60163": "Wien"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

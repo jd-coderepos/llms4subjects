@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1197574115",
+            "sameAs": "Koldehofe, Boris"
+        },
+        {
+            "@id": "gnd:4027266-7",
+            "sameAs": "Interaktion"
+        },
+        {
+            "@id": "gnd:4032386-9",
+            "sameAs": "Kooperation"
+        },
+        {
+            "@id": "gnd:4200453-6",
+            "sameAs": "Verteilter Algorithmus"
+        },
+        {
+            "@id": "gnd:4399931-1",
+            "sameAs": "Virtuelle Realität"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A487621018",
+            "@type": "bibo:Thesis",
+            "P1053": "VIII, 175 S",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(isbn)9172915722",
+                "(firstid)GBV:487621018",
+                "(ppn)487621018"
+            ],
+            "publisher": "Chalmers Univ. of Technology",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=rvk)ST 340",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation"
+            ],
+            "title": "Distributed algorithms and educational simulation/visualisation in collaborative environments",
+            "abstract": "This thesis examines a general class of applications called collaborative environments which allow in real-time multiple users to share and modify information in spite of not being present at the same physical location. Two views on collaborative environments have been taken by examining algorithms supporting the implementation of collaborative environments as well as using collaboration to support educational visualisation/simulation environments in the context of distributed computing. - Important algorithmic aspects of collaborative environments are to provide scalable communication which allows interest management of processes and deal with modification of information among collaborators in an efficient and consistent manner. However, to support real-time interactions one may need to trade strong reliability guarantees for efficiency and scalability. This work examines lightweight decentralised peer-to-peer algorithms which can scale to a large number of processes and offer reliability expressed with probabilistic guarantees. - Besides proposing and evaluating peer-to-peer algorithms on support for large scale event dissemination, this work considers the impact of buffer management and membership in achieving stable performance even under critical system parameters. Moreover, we examine consistency management as well as interest management in combination with lightweight peer-to-peer dissemination schemes. Lightweight cluster consistency management allows a dynamic set of processes to perform updates on a set of processes which is observed in optimistic causal order. Topic-aware membership management supports lightweight dissemination schemes to propagate events which correspond only to their interest by providing a fair work distribution are the same time. - The second part deals with collaboration in the context of educational simulation/visualisation. We present and evaluate a visualisation/simulation environment for distributed algorithms called LYDIAN which helps studying distributed algorithms and protocols. Besides looking at what environments such as LYDIAN should provide in order to be successfully used in class, we consider the use of collaboration in providing more interactivity in simulation environments as well as a possibility for new visualisations of learning concepts to evolve.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1197574115",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4399931-1",
+                "gnd:4032386-9",
+                "gnd:4200453-6",
+                "gnd:4027266-7"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/ilmenau/toc/487621018.PDF",
+            "volume": "N.S., 2254",
+            "P30128": [
+                "Technical report / Department of Computer Science and Engineering, Chalmers University of Technology",
+                "D",
+                "Doktorsavhandlingar vid Chalmers Tekniska Högskola"
+            ],
+            "P60163": "Göteborg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

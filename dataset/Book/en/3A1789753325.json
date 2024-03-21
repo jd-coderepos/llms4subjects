@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1153019000",
+            "sameAs": "Kubernetes"
+        },
+        {
+            "@id": "gnd:4548264-0",
+            "sameAs": "Open Source"
+        },
+        {
+            "@id": "gnd:7687494-1",
+            "sameAs": "Git (Software)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1789753325",
+            "@type": "bibo:Book",
+            "P1053": "xx, 322 Seiten",
+            "creator": [
+                "Matyushentsev, Alexander",
+                "Yuen, Billy",
+                "Ekenstam, Todd",
+                "Suen, Jesse"
+            ],
+            "description": [
+                "24 cm",
+                "Illustrationen, Diagramme"
+            ],
+            "identifier": [
+                "(firstid)KXP:1789753325",
+                "(ppn)1789753325",
+                "(isbn13)9781617297977",
+                "(isbn)1617297275",
+                "(isbn13)9781617297274"
+            ],
+            "publisher": "Manning",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Open source software",
+                "Git (Computer file)",
+                "Application software",
+                "(classificationName=ddc)005.3",
+                "(classificationName=loc)QA76.9.A25",
+                "Application software ; Development",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418874)54.81 - Anwendungssoftware"
+            ],
+            "title": "GitOps and Kubernetes : continuous deployment with Argo CD, Jenkins X, and Flux",
+            "abstract": [
+                "Part 1. Background.  1. Why GitOps? -- 2. Kubernetes and GitOps -- Part 2. Patterns and processes.  3. Environment management -- 4. Pipelines -- 5. Deployment strategies -- 6. Access control and security -- 7. Secrets -- 8. Observability -- Part 3. Tools.  9. Argo CD -- 10. Jenkins X -- 11. Flux.",
+                "\"GitOps and Kubernetes introduces a radical idea--managing your infrastructure with the same Git pull requests you use to manage your codebase. In this in-depth tutorial, you&apos;ll learn to operate infrastructures based on powerful-but-complex technologies such as Kubernetes with the same Git version control tools most developers use daily. With these GitOps techniques and best practices, you&apos;ll accelerate application development without compromising on security, easily roll back infrastructure changes, and seamlessly introduce new team members to your automation process.\" --",
+                "With GitOps you use the Git version control system to organize and manage your infrastructure just like any other codebase.  It&apos;s an excellent model for applications deployed as containers and pods on Kubernetes.  \"GitOps and Kubernetes\" teaches you how to use Git and the GitOps methodology to manage a Kubernetes cluster.  The book interleaves theory with practice, presenting core Ops concepts alongside easy-to-implement techniques so you can put GitOps into action.  Learn to develop pipelines that race changes, roll back mistakes, and audit container deployment"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4548264-0",
+                "gnd:7687494-1",
+                "gnd:1153019000"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1789753325.pdf",
+            "P30128": "Continuous depcyment with Argo CD, Jenkins X, and Flux",
+            "P60163": "Shelter Island"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1064023886",
+            "sameAs": "Open Data"
+        },
+        {
+            "@id": "gnd:1112561048",
+            "sameAs": "Zielesny, Achim"
+        },
+        {
+            "@id": "gnd:124004067",
+            "sameAs": "Rarey, Matthias"
+        },
+        {
+            "@id": "gnd:128763922",
+            "sameAs": "Steinbeck, Christoph"
+        },
+        {
+            "@id": "gnd:1308539576",
+            "sameAs": "Brinkhaus, Otto"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4145448-0",
+            "sameAs": "Bildsegmentierung"
+        },
+        {
+            "@id": "gnd:4167869-2",
+            "sameAs": "Literaturauswertung"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4290091-8",
+            "sameAs": "Computational chemistry"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1869418255",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (150 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1869418255",
+                "(firstid)KXP:1869418255",
+                "(doi)10.22032/dbt.59052"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)543",
+                "Maschinelles Lernen",
+                "Mustererkennung",
+                "Open Data",
+                "Computational chemistry",
+                "Bildsegmentierung",
+                "Anwendung",
+                "(classificationName=linseach:mapping)che",
+                "Neuronales Netz",
+                "Chemie",
+                "Literaturauswertung",
+                "(classificationName=ddc-dbn)540"
+            ],
+            "title": "Development of deep learning applications for the automated extraction of chemical information from scientific literature",
+            "abstract": "This dissertation focuses on developing deep learning applications for extracting chemical information from scientific literature, particularly targeting the automated recognition of molecular structures in images. DECIMER Segmentation, a novel application, employs a Mask Region-based Convolutional Neural Network (MRCNN) model to segment chemical structures in documents, aided by a mask expansion algorithm, marking a significant advancement in processing chemical literature. The Optical Chemical Structure Recognition (OCSR) tool DECIMER Image Transformer uses an encoder-decoder architecture to convert chemical structure depictions into the machine-readable SMILES format. The model has been trained on over 450 million pairs of images and SMILES representations. Its ability to interpret various depiction styles, including hand-drawn structures, sets a new standard in OCSR. To artificially generate large and diverse OCSR training datasets using multiple cheminformatics toolkits, RanDepict was developed. The diversification of training data ensures robust model generalisation across different chemical structure depictions. A unique dataset of hand-drawn molecule images was created to evaluate the model&apos;s performance in interpreting these challenging depictions. This dataset further contributes to the understanding of automated structure recognition from diverse styles. The integration of these technologies led to the creation of DECIMER.ai, an open-source web application that combines segmentation and interpretation tools, allowing users to extract and process chemical information from literature efficiently. The work concludes with a discussion on the significance of open data in advancing molecular informatics, highlighting the potential to broader chemical research domains. By adhering to FAIR data standards and open-source principles, the tools developed for this dissertation are designed for adaptability and future development within the community.",
+            "contributor": [
+                "gnd:124004067",
+                "gnd:1112561048",
+                "gnd:128763922"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1308539576"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4040936-3"
+                },
+                {
+                    "@id": "gnd:4167869-2"
+                },
+                {
+                    "@id": "gnd:4145448-0"
+                },
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4290091-8"
+                },
+                {
+                    "@id": "gnd:1064023886"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.59052",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

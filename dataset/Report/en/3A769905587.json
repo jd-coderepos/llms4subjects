@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104394219X",
+            "sameAs": "Spaltenorientiertes Datenbanksystem"
+        },
+        {
+            "@id": "gnd:121975193",
+            "sameAs": "Plattner, Hasso"
+        },
+        {
+            "@id": "gnd:139082700",
+            "sameAs": "Krüger, Jens"
+        },
+        {
+            "@id": "gnd:4213701-9",
+            "sameAs": "Kostenschätzungsmodell"
+        },
+        {
+            "@id": "gnd:7744803-0",
+            "sameAs": "In-Memory-Datenbank"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A769905587",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (PDF-Datei: 4.888 KB, V, 84 S.)",
+            "creator": "Schwalb, David",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:769905587",
+                "(ppn)769905587"
+            ],
+            "publisher": "Univ.-Verl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Cache conscious column organization in in-memory column stores",
+            "abstract": "Cost models are an essential part of database systems, as they are the basis of query performance optimization. Based on predictions made by cost models, the fastest query execution plan can be chosen and executed or algorithms can be tuned and optimised. In-memory databases shifts the focus from disk to main memory accesses and CPU costs, compared to disk based systems where input and output costs dominate the overall costs and other processing costs are often neglected. However, modelling memory accesses is fundamentally different and common models do not apply anymore. This work presents a detailed parameter evaluation for the plan operators scan with equality selection, scan with range selection, positional lookup and insert in in-memory column stores. Based on this evaluation, a cost model based on cache misses for estimating the runtime of the considered plan operators using different data structures is developed. Considered are uncompressed columns, bit compressed and dictionary encoded columns with sorted and unsorted dictionaries. Furthermore, tree indices on the columns and dictionaries are discussed. Finally, partitioned columns consisting of one partition with a sorted and one with an unsorted dictionary are investigated. New values are inserted in the unsorted dictionary partition and moved periodically by a merge process to the sorted partition. An efficient attribute merge algorithm is described, supporting the update performance required to run enterprise applications on read-optimised databases. Further, a memory traffic based cost model for the merge process is provided.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:139082700"
+                },
+                {
+                    "@id": "gnd:121975193"
+                }
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:7744803-0",
+                "gnd:4213701-9",
+                "gnd:104394219X"
+            ],
+            "volume": "67",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Softwaresystemtechnik an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

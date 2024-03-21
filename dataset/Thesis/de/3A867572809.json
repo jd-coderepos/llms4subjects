@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058751557",
+            "sameAs": "Datenflussanalyse"
+        },
+        {
+            "@id": "gnd:4038397-0",
+            "sameAs": "Mehrprozessorsystem"
+        },
+        {
+            "@id": "gnd:4131397-5",
+            "sameAs": "Echtzeitsystem"
+        },
+        {
+            "@id": "gnd:4713349-1",
+            "sameAs": "Zeitbehafteter Automat"
+        },
+        {
+            "@id": "gnd:7638167-5",
+            "sameAs": "Synchrone Übertragung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A867572809",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (IV, 236 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Rettberg, Achim",
+                "Kreutz, Marcio Eduardo"
+            ],
+            "creator": "Fakih, Maher Ali",
+            "identifier": [
+                "(firstid)DNB:1111038813",
+                "(ppn)867572809"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "State-based real-time analysis of synchronous data-flow (SDF) applications on MPSoCs with shared communication resources",
+            "abstract": [
+                "Die zeitliche Analyse Echtzeitanwendungen mit harten Echtzeitanforderungen die auf Multi-Processor System-on-Chip (MPSoC)-Plattformen ausgeführt werden, stellt größere Herausforderungen im Vergleich zu herkömmlichen Single-Processor Plattformen dar. Dies ergibt sich aus der großen Anzahl von gemeinsam genutzten Rechen-, Kommunikations- und Speicherressourcen in heutigen MPSoCs. Doch dies ist eine unverzichtbare Anforderung um ihre Nutzung in sicherheitskritischen Anwendungsbereichen zu ermöglichen (zum Beispiel Luftfahrt, Automobilindustrie). In dieser Arbeit wird eine zustandsbasierte Echtzeitanalysemethodik für Synchrone Datenfluss (SDF) -orientierten Anwendungen, die auf MPSoC Architekturen ausgeführt werden, vorgeschlagen. Dieser Ansatz nutzt Timed Automata (TA) als gemeinsames semantisches Modell, um die Ober-/Untergrenzen der Ausführungszeit (Best-Case und Worst-Case-Ausführungszeiten) von SDF Akteuren, Kommunikations-FIFOs und deren Zuordnung sowie deren Nutzung von MPSoC-Ressourcen zu repräsentieren. Beispielsweise wird der Ablaufplanung (scheduling) der SDFGs sowie deren Protokolle die für die Kommunikation mit lokalen und gemeinsam genutzten Ressourcen verwendet werden, modelliert. Das resultierende Netzwerk von TA wird, zum Ermitteln der sicheren zeitlichen Grenzen der gewählten Implementierung, mithilfe der UPPAAL Model-Checker analysiert. &lt;dt.&gt;",
+                "The timing analysis of hard real-time applications running on Multi-Processor System-on-Chip (MPSoC) platforms is much more challenging compared to traditional single processor. This comes from the large number of shared processing, communication and memory resources available in today’s MPSoCs. Yet, this is an indispensable challenge for enabling their usage with hard-real time systems in safety critical application domains (e.g. avionics, automotive). In this thesis, a state-based real-time analysis methodology for Synchronous Data Flow (SDF) oriented applications running on MPSoCs is proposed. This approach utilizes Timed Automata (TA) as a common semantic model to represent execution time boundaries (best-case and worst-case execution times) of SDF actors and communication FIFOs and their mapping as well as their utilization of MPSoC resources, including the scheduling of SDFGs and shared communication resource access protocols for interconnects, local and shared memories. The resulting network of TA is analyzed using the UPPAAL model-checker for obtaining safe timing bounds of the chosen implementation. &lt;engl.&gt;"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4713349-1"
+                },
+                {
+                    "@id": "gnd:4131397-5"
+                },
+                {
+                    "@id": "gnd:1058751557"
+                },
+                {
+                    "@id": "gnd:4038397-0"
+                },
+                {
+                    "@id": "gnd:7638167-5"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

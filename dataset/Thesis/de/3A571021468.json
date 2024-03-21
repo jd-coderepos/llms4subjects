@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130159727",
+            "sameAs": "Kühnhauser, Winfried"
+        },
+        {
+            "@id": "gnd:4228085-0",
+            "sameAs": "Fehlerabschätzung"
+        },
+        {
+            "@id": "gnd:4426067-2",
+            "sameAs": "Middleware"
+        },
+        {
+            "@id": "gnd:4496068-2",
+            "sameAs": "Dienstgüte"
+        },
+        {
+            "@id": "gnd:4614855-3",
+            "sameAs": "Streaming (Kommunikationstechnik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A571021468",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 259 S., 6935 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Plagemann, Thomas",
+                "Nahrstedt, Klara"
+            ],
+            "creator": "Eichhorn, Alexander",
+            "identifier": [
+                "(ppn)571021468",
+                "(firstid)GBV:571021468"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc)006.76",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Content-aware multimedia communications",
+            "abstract": "Der Bedarf unsere Gesellschaft nach kostengünstiger und zuverlässiger Kommunikation wächst stetig. Während wir uns selbst immer mehr von modernen Kommunikationstechnologien abhängig machen, müssen die Ingenieure dieser Technologien sowohl den Bedarf nach schneller Einführung neuer Produkte befriedigen als auch die wachsende Komplexität der Systeme beherrschen. Gerade die Übertragung multimedialer Inhalte wie Video und Audiodaten ist nicht trivial. Einer der prominentesten Gründe dafür ist die Unzuverlässigkeit heutiger Netzwerke, wie z.B.~dem Internet. Paketverluste und schwankende Laufzeiten können die Darstellungsqualität massiv beeinträchtigen. Wie jüngste Entwicklungen im Bereich der Streaming-Protokolle zeigen, sind jedoch Qualität und Robustheit der Übertragung effizient kontrollierbar, wenn Streamingprotokolle Informationen über den Inhalt der transportierten Daten ausnutzen. Existierende Ansätze, die den Inhalt von Multimediadatenströmen beschreiben, sind allerdings meist auf einzelne Kompressionsverfahren spezialisiert und verwenden berechnungsintensive Metriken. Das reduziert ihren praktischen Nutzen deutlich. Außerdem erfordert der Informationsaustausch eine enge Kooperation zwischen Applikationen und Transportschichten. Da allerdings die Schnittstellen aktueller Systemarchitekturen nicht darauf vorbereitet sind, müssen entweder die Schnittstellen erweitert oder alternative Architekturkonzepte geschaffen werden. Die Gefahr beider Varianten ist jedoch, dass sich die Komplexität eines Systems dadurch weiter erhöhen kann. Das zentrale Ziel dieser Dissertation ist es deshalb, schichtenübergreifende Koordination bei gleichzeitiger Reduzierung der Komplexität zu erreichen. Hier leistet die Arbeit zwei Beträge zum aktuellen Stand der Forschung. Erstens definiert sie ein universelles Modell zur Beschreibung von Inhaltsattributen, wie Wichtigkeiten und Abhängigkeitsbeziehungen innerhalb eines Datenstroms. Transportschichten können dieses Wissen zur effizienten Fehlerkontrolle verwenden. Zweitens beschreibt die Arbeit das Noja Programmiermodell für multimediale Middleware. Noja definiert Abstraktionen zur Übertragung und Kontrolle multimedialer Ströme, die die Koordination von Streamingprotokollen mit Applikationen ermöglichen. Zum Beispiel können Programmierer geeignete Fehlersemantiken und Kommunikationstopologien auswählen und den konkreten Fehlerschutz dann zur Laufzeit verfeinern und kontrollieren.",
+            "contributor": "gnd:130159727",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4426067-2"
+                },
+                {
+                    "@id": "gnd:4496068-2"
+                },
+                {
+                    "@id": "gnd:4614855-3"
+                },
+                {
+                    "@id": "gnd:4228085-0"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

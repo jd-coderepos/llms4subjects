@@ -1,0 +1,130 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:114926506X",
+            "sameAs": "Brückner, Markus"
+        },
+        {
+            "@id": "gnd:130006491",
+            "sameAs": "Mitschele-Thiel, Andreas"
+        },
+        {
+            "@id": "gnd:13002077X",
+            "sameAs": "Seitz, Jochen"
+        },
+        {
+            "@id": "gnd:133961222",
+            "sameAs": "Müller, Paul"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4029932-6",
+            "sameAs": "Katastrophenschutz"
+        },
+        {
+            "@id": "gnd:4138349-7",
+            "sameAs": "Satellitenfunk"
+        },
+        {
+            "@id": "gnd:4139364-8",
+            "sameAs": "Nachrichtenübertragungstechnik"
+        },
+        {
+            "@id": "gnd:4244904-2",
+            "sameAs": "Telekommunikationsdienst"
+        },
+        {
+            "@id": "gnd:4496068-2",
+            "sameAs": "Dienstgüte"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A100959012X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (147 Seiten)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)GBV:100959012X",
+                "(ppn)100959012X"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106417657)53.73 - Nachrichtenübertragung",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)004.6"
+            ],
+            "title": "A QoS model for highly variable mobile networks",
+            "abstract": "Aufgabe eines reservierungsbasierten QoS-Systems ist die Garantie spezifischer Übertragungsparameter für Datenflüsse in Umgebungen mit begrenzten Ressourcen. Zu diesem Zweck muss das System verschiedene Anforderungen gegeneinander abwägen und eine Ressourcenzuteilung maximalen Wertes für die Nutzer finden. In existierenden Lösungen leidet die Ressourcenzuteilung unter eine Informationslücke: die Netzwerkschicht betrachtet einzelne Datenströme ohne Kenntnis ihrer Beziehungen in höheren Schichten. Durch diese Lücke kann es zur Zuteilung von Ressourcen an nicht nutzbare Reservierungen kommen, die auf andere, nicht aktive Ströme angewiesen sind. Dies resultiert in einer Verschwendung von Ressourcen, welche anderweitig besser zur Erbringung von Diensten genutzt werden könnten. Die vorliegende Arbeit schlägt ein QoS-System der Netzwerkschicht vor, welches Kenntnis über die existierenden Pfadbeziehungen besitzt. Diese werden als Ausdrücke der Aussagenlogik formuliert, in denen die Zustände der reservierten Pfade als Boolesche Variablen repräsentiert werden. Durch Auswertung der entsprechenden Ausdrücke kann der Optimierungsprozess verschwendete Ressourcen erkennen und vermeiden. Das Optimierungsproblem ist eine Instanz des Rucksackproblems mit Nebenbedingungen. Durch Umwandlung in ein Mixed Integer Linear Program können durch existierende Algorithmen wie Branch-and-Cut optimale Ressourcenzuteilungen in vertretbarer Zeit berechnet werden. Die vorliegenden Ergebnisse zeigen, dass die Optimierung ohne Kenntnis der Pfadbeziehungen in bestimmten Szenarien bis zu 75% der zugeteilten Ressourcen verschwendet. Eine Lösung dieses Problems erlaubt eine wesentlich effizientere Nutzung begrenzter Ressourcen und damit den Transport einer deutlich großen Zahl an Anwendungssitzungen. Zusammen mit einem netzseitigen Ressourcenmanagement, welches Reservierungen pausieren und fortsetzen kann, ist dieser Ansatz besonders für stark veränderliche Netze mit langen Übertragungsverzögerungen geeignet. Das Netz findet autonom eine optimale Ressourcenzuteilung, ohne die begrenzten Ressourcen durch zusätzliche Signalisierung zu belasten.",
+            "contributor": [
+                "gnd:130006491",
+                "gnd:13002077X",
+                "gnd:133961222"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:114926506X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4029932-6",
+                "gnd:4138349-7",
+                "gnd:4244904-2",
+                "gnd:4139364-8",
+                "gnd:4496068-2"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

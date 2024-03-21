@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129984094",
+            "sameAs": "Čížek, Jiří"
+        },
+        {
+            "@id": "gnd:4019752-9",
+            "sameAs": "Gehirn"
+        },
+        {
+            "@id": "gnd:4120806-7",
+            "sameAs": "Kernspintomografie"
+        },
+        {
+            "@id": "gnd:4129799-4",
+            "sameAs": "Positronen-Emissions-Tomografie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A490270875",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 145 S., 4776 KB)",
+            "identifier": [
+                "(ppn)490270875",
+                "(firstid)GBV:490270875"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106415921)44.32 - Medizinische Mathematik, medizinische Statistik",
+                "(classificationName=linseach:mapping)med",
+                "(classificationName=bk, id=106421557)44.09 - Medizintechnik",
+                "(classificationName=bk, id=106418920)54.73 - Computergraphik",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Robust algorithms for registration of 3D images of human brain",
+            "abstract": "This thesis is concerned with the process of automatically aligning 3D medical images of human brain. It concentrates on rigid-body matching of Positron Emission Tomography images (PET) and Magnetic Resonance images (MR) within one patient and on non-linear matching of PET images of different patients. In recent years, mutual information has proved to be an excellent criterion for automatic registration of intra-individual images from different modalities. We propose and evaluate a method that combines a multi-resolution optimization of mutual information with an efficient segmentation of background voxels and a modified principal axes algorithm. We show that an acceleration factor of 6-7 can be achieved without loss of accuracy and that the method significantly reduces the rate of unsuccessful registrations. Emphasis was also laid on creation of an automatic registration system that could be used routinely in clinical environment. Non-linear registration tries to reduce the inter-individual variability of shape and structure between two brain images by deforming one image so that homologous regions in both images get aligned. It is an important step of many procedures in medical image processing and analysis. We present a novel algorithm for an automatic non-linear registration of PET images based on hierarchical volume subdivisions and local affine optimizations. It produces a C2-continuous deformation function and guarantees that the deformation is one-to-one. Performance of the algorithm was evaluated on more than 600 clinical PET images.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:129984094",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4120806-7",
+                "gnd:4019752-9",
+                "gnd:4129799-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

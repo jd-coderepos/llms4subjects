@@ -1,0 +1,125 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1021091308",
+            "sameAs": "Görges, Daniel"
+        },
+        {
+            "@id": "gnd:1042006857",
+            "sameAs": "Elektromobilität"
+        },
+        {
+            "@id": "gnd:1123536457",
+            "sameAs": "Reichweitenangst"
+        },
+        {
+            "@id": "gnd:118727450X",
+            "sameAs": "Lipowsky, Tobias"
+        },
+        {
+            "@id": "gnd:120094665",
+            "sameAs": "Hedrich, Lars"
+        },
+        {
+            "@id": "gnd:120642689",
+            "sameAs": "Li, Pu"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4390818-4",
+            "sameAs": "Optimierungsproblem"
+        },
+        {
+            "@id": "gnd:4508380-0",
+            "sameAs": "Elektrofahrrad"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1664840737",
+            "@type": "bibo:Thesis",
+            "P1053": "XXIV, 191 Seiten",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1664840737",
+                "(ppn)1664840737"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "Entwicklung einer echtzeitfähigen und optimalen Unterstützungssteuerung von Elektrofahrrädern unter Berücksichtigung von Streckendaten",
+            "abstract": [
+                "https://www.gbv.de/dms/ilmenau/abs/1664840737lipow.txt",
+                "Im Kampf gegen die Klimaerwärmung stellt die Elektromobilität und damit auch das Elektrofahrrad einen wichtigen Baustein dar. Ein Hauptkritikpunkt an Elektrofahrrädern ist die kurze Reichweite in Kombination mit der langen Ladedauer. Die Fahrer befürchten, unterwegs \"liegen\" zu bleiben und die Fahrt ohne Motorunterstützung beenden zu müssen (sog. \"Reichweitenangst\"). Da viele Einflussfaktoren die Reichweite beeinträchtigen, fällt es den Fahrern zudem schwer eine energieeffiziente Fahrstrategie zu planen. Viele nutzen daher die Akkukapazität nicht vollständig aus und absolvieren ihre Fahrt langsamer als notwendig. Dieses Problem wird hier angegangen, indem ein Fahrmodus für Elektrofahrräder entwickelt wird, der den Fahrer auf einer beliebigen vorgegebenen Strecke so unterstützt, dass diese unter Einhaltung einer zur Verfügung stehenden Energiemenge des Akkus schnellstmöglich absolviert wird. Hierfür werden zuerst Erkenntnisse im Modell gewonnen. Es wird ein Optimierungsproblem aufgestellt, das mithilfe des CMSC-Verfahrens zuverlässig und effizient gelöst wird. Zur Ableitung der späteren Onlineumsetzung werden definierte Fahrszenarien in der Optimierung analysiert. Dabei wird festgestellt, dass es optimal ist, den Fahrer mit einer konstanten Geschwindigkeit zu unterstützen. Diese kann jedoch nicht direkt berechnet werden, da sie von vielen unbekannten Faktoren abhängt. Andererseits beeinflussen unbekannte Parameter die optimale Entladekurve nur gering. Basierend auf diesem Wissen, wird ein echtzeitfähiges Berechnungsverfahren mit adaptiver Nachregelung modellbasiert entworfen und anschließend auf dem Elektrofahrrad implementiert. Mithilfe der robusten Entladekurve wird dabei die Fahrgeschwindigkeit des Elektrofahrrads eingeregelt und während der Fahrt korrigiert. Durch Simulationen und Testfahrten wird nachgewiesen, dass der entwickelte Algorithmus eine Verbesserung im Vergleich zu den herkömmlichen Fahrmodi darstellt. Strecken können über 10% schneller bei gleichem Energieverbrauch absolviert werden. Jedoch ist die Ersparnis von vielen Einflussfaktoren abhängig und somit keine allgemeingültige Aussage möglich. Allerdings konnte gezeigt werden, dass der Algorithmus die gestellten Anforderungen zur Bekämpfung der Reichweitenangst erfüllt. Dem Nutzer wird diese Sorge und die Strategieplanung abgenommen, was zu einem großen Sicherheits- und Komfortgewinn führt."
+            ],
+            "contributor": [
+                "gnd:120642689",
+                "gnd:120094665",
+                "gnd:1021091308"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:118727450X",
+                "gnd:2125187-3"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:1123536457",
+                "gnd:4508380-0",
+                "gnd:1042006857",
+                "gnd:4390818-4"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/ilmenau/toc/1664840737.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

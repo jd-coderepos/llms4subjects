@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058278150",
+            "sameAs": "Ament, Christoph"
+        },
+        {
+            "@id": "gnd:1066225168",
+            "sameAs": "Mashi, Mohammad"
+        },
+        {
+            "@id": "gnd:138070326",
+            "sameAs": "Rauschenbach, Thomas"
+        },
+        {
+            "@id": "gnd:4033447-8",
+            "sameAs": "Künstliche Intelligenz"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4197554-6",
+            "sameAs": "Wissensbasiertes System"
+        },
+        {
+            "@id": "gnd:4258171-0",
+            "sameAs": "Produktionsregelsystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A816873364",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 117 S., 3,37 MB)",
+            "contributor": "Bohn, Christian",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:816873364",
+                "(ppn)816873364"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)670"
+            ],
+            "title": "Konzeption und Einsatz wissensbasierter Systeme als ergänzende Systeme in der Fertigung",
+            "abstract": "Im Rahmen der vorliegenden Arbeit werden Ansätze vorgestellt, die zur Entwicklung von wissensbasierten Systemen erstens zur Bewertung und Verbesserung der Qualität einer Produktion und zweitens zur Bestimmung der Parameter eines Steuerungsprozesses beitragen und sich als Weiterentwicklung der Forschungen des Fachgebietes in Richtung der künstlichen Intelligenz einordnen lassen. Das erste System steuert die Bewertung der Qualität einer Produktion über eine Kamera. Mit Hilfe eines Bildbearbeitungstools (Schwarz-Weiß- oder Farbbild) lassen sich zunächst die Farben im Bild segmentieren. Jedes Segment korrespondiert dabei mit einem Objekt oder Teilobjekt im Datenmaterial (Film). Ausgewählte Eigenschaften der Objekte, von denen die Qualitätsbewertung abhängt, werden in einer Objektmatrix dargestellt. Das System benötigt Wissen über die vorhandenen Objekte, um den Objekten im Bewertungsablauf eine Bedeutung zuweisen zu können. Dieses Wissen wird in Form von Regeln bereitgestellt. Wenn wissensbasierte Systeme nur aus Regeln bestehen, werden sie \"regelbasierte Systeme\" genannt (Rajendra &amp; Priti, 2010). Da in dieser Arbeit nur Regeln genutzt werden, werden die Begriffe Wissensbasiertes System, Regelbasiertes System und Expertensystem hier synonym verwendet. Nachdem die Darstellung der Eigenschaften der Objekte in der Objektmatrix gefunden wurde, orientiert sich die Bewertungsstrategie an diesen Regeln (Regelbasis) in folgenden Schritten:* Filterung der Objekte, Aufteilung der verbundene Objekte, Bereinigung der Objekteigenschaften, Bestimmung der Anzahl der vorhandenen Objekte. Auf diese Weise werden Objekte lokalisiert, mit denen in der Bewertungsphase gearbeitet wird. Durch eine Befragung von Experten wurde eine Referenz-Qualität festgelegt. Auf Grundlage dieser Expertendaten bewertet das Regelbasierte System die Qualität der Objekte durch Vergleich mit der Referenz-Qualität und schlägt einen Korrekturplan vor, um die Qualität zu verbessern. Methodisch wird so durch die Kombination von Bildbearbeitung und Wissensbasiertem System die Qualität der Produktion bewertet. Das wissensbasierte System ist für den Einsatz in solchen bestehenden Produktionen geeignet, in denen die Bewertungen für unterschiedliche Qualitätsmerkmale verfügbar sind. Hierzu wird nur eine entsprechende Bewertungsstrategie (Regel-Interpreter) benötigt. Die Leistungsfähigkeit des hier entwickelten Systems wird beim ersten Beispiel im Bereich des Qualitätsmanagements gezeigt. Auch zur Verbesserung der Qualität von Produktionen können Regelbasierte Systeme verwendet werden, um die Parameter eines Steuerungsprozesses zu bestimmen. Zunächst werden die Parameter eines Steuerungsprozesses durch mehrere Versuche gemessen. Dann wird durch Maschinelles Lernen das Wissen über diesen Prozess in Regeln dargestellt. Es werden wichtige Parameter eines Prozesses festgestellt, um ein Vorhersagesystem für Diese zu erstellen. Mit diesem Regelbasierten System werden inverse Funktionen für diese Parameter implementiert. Die Leistungsfähigkeit der hier entwickelten inversen Funktionen wird im zweiten Beispiel in dieser Arbeit getestet.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:138070326"
+                },
+                {
+                    "@id": "gnd:1058278150"
+                }
+            ],
+            "creator": "gnd:1066225168",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4258171-0"
+                },
+                {
+                    "@id": "gnd:4197554-6"
+                },
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4033447-8"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

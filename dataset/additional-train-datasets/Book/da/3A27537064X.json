@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1056936959",
+            "sameAs": "Urbach, Tilman"
+        },
+        {
+            "@id": "gnd:118510754",
+            "sameAs": [
+                "Bienek, Horst",
+                "Bienek, Horst 1930-1990"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A27537064X",
+            "@type": "bibo:Book",
+            "P1053": "279 S.",
+            "description": "Ill.",
+            "identifier": [
+                "(firstid)GBV:27537064X",
+                "(ppn)27537064X",
+                "(isbn)3446158995"
+            ],
+            "publisher": "Hanser",
+            "subject": [
+                "(classificationName=ddc)833/.914",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=rvk)GN 3233",
+                "(classificationName=loc)PT2662.I39",
+                "(classificationName=linseach:mapping)lit",
+                "Bienek, Horst",
+                "(classificationName=dbn)53"
+            ],
+            "title": "Horst Bienek : Aufsätze, Materialien, Bibliographie",
+            "abstract": "Bibliogr. S. 242 - 260",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:118510754"
+                },
+                {
+                    "@id": "gnd:1056936959"
+                }
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118510754"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht003545555.pdf",
+            "P60163": "München [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

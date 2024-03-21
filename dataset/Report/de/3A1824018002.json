@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1068096934",
+            "sameAs": "Universitätsverlag Potsdam"
+        },
+        {
+            "@id": "gnd:1069348694",
+            "sameAs": "Schneider, Sven"
+        },
+        {
+            "@id": "gnd:1143617126",
+            "sameAs": "Maximova, Maria"
+        },
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut für Digital Engineering"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4389058-1",
+            "sameAs": "Mehragentensystem"
+        },
+        {
+            "@id": "gnd:4451062-7",
+            "sameAs": "Transformation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1824018002",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (37 Seiten, 1723 KB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-54585",
+                "(isbn13)9783869565316",
+                "(firstid)KXP:1824018002",
+                "(ppn)1824018002"
+            ],
+            "publisher": "Universitätsverlag Potsdam",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "(classificationName=ddc-dbn)006.3",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Invariant analysis for multi-agent graph transformation systems using k-Induction",
+            "abstract": [
+                "Die Analyse von Verhaltensmodellen wie Graphtransformationssystemen (GTSs) ist von zentraler Bedeutung im Model Driven Engineering. GTSs führen jedoch häufig zu unhanhabbar großen oder sogar unendlichen Zustandsräumen und können mit mehreren oder sogar unendlich vielen Startgraphen ausgestattet sein. Um diese Probleme abzumildern, wurden statische Analysetechniken entwickelt, die auf endlichen symbolischen Darstellungen von Mengen von Zuständen oder Pfaden basieren. Wir konzentrieren uns auf die Technik der k-Induktion zur Ermittlung von Invarianten, die unter Verwendung von Graphbedingungen spezifiziert sind. Zum Zweck der Analyse erzeugt die k-Induktion symbolische Rückwärtspfade von einem symbolischen Zustand, der eine Verletzung einer Kandidateninvariante darstellt, um Informationen darüber zu sammeln, wie diese Verletzung erreicht werden konnte, wodurch möglicherweise Widersprüche zu angenommenen Invarianten gefunden werden. GTSs, bei denen mehrere Agenten regelmäßig unabhängig voneinander Aktionen ausführen, können derzeit jedoch nicht mit dieser Technik analysiert werden, da die Unabhängigkeit zwischen Rückwärtsschritten das Sammeln von relevantem Wissen möglicherweise verhindert. In diesem Artikel erweitern wir die k-Induktion auf GTSs mit mehreren Agenten und unterstützen dadurch eine breite Palette zusätzlicher GTSs. Als laufendes Beispiel betrachten wir eine unbegrenzte Anzahl von Shuttles, die auf einer großen Tracktopologie fahren und die ihre Geschwindigkeit an Geschwindigkeitsbegrenzungen anpassen, um ein Entgleisen zu vermeiden. Als zentralen Beitrag entwickeln wir Beschneidungstechniken basierend auf Kausalität und Unabhängigkeit zwischen Rückwärtsschritten und verifizieren, dass die k-Induktion unter dieser Anpassung korrekt bleibt und in Fällen terminiert, in denen sie zuvor nicht terminierte.",
+                "The analysis of behavioral models such as Graph Transformation Systems (GTSs) is of central importance in model-driven engineering. However, GTSs often result in intractably large or even infinite state spaces and may be equipped with multiple or even infinitely many start graphs. To mitigate these problems, static analysis techniques based on finite symbolic representations of sets of states or paths thereof have been devised. We focus on the technique of k-induction for establishing invariants specified using graph conditions. To this end, k-induction generates symbolic paths backwards from a symbolic state representing a violation of a candidate invariant to gather information on how that violation could have been reached possibly obtaining contradictions to assumed invariants. However, GTSs where multiple agents regularly perform actions independently from each other cannot be analyzed using this technique as of now as the independence among backward steps may prevent the gathering of relevant knowledge altogether. In this paper, we extend k-induction to GTSs with multiple agents thereby supporting a wide range of additional GTSs. As a running example, we consider an unbounded number of shuttles driving on a large-scale track topology, which adjust their velocity to speed limits to avoid derailing. As central contribution, we develop pruning techniques based on causality and independence among backward steps and verify that k-induction remains sound under this adaptation as well as terminates in cases where it did not terminate before."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1069348694",
+                "gnd:173277950",
+                "gnd:1155270444",
+                "gnd:1143617126",
+                "gnd:1068096934"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4451062-7",
+                "gnd:4389058-1"
+            ],
+            "volume": "Nr. 143",
+            "isLike": "doi:10.25932/publishup-54585",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Digital Engineering an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

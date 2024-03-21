@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058278150",
+            "sameAs": "Ament, Christoph"
+        },
+        {
+            "@id": "gnd:1080825606",
+            "sameAs": "Zschäck, Stephan"
+        },
+        {
+            "@id": "gnd:132799448",
+            "sameAs": "Manske, Eberhard"
+        },
+        {
+            "@id": "gnd:4076594-5",
+            "sameAs": "Regelungstechnik"
+        },
+        {
+            "@id": "gnd:4132966-1",
+            "sameAs": "Koordinatenmesstechnik"
+        },
+        {
+            "@id": "gnd:4139559-1",
+            "sameAs": "Zustandsregler"
+        },
+        {
+            "@id": "gnd:4226247-1",
+            "sameAs": "PID-Regler"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A844747386",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XV, 157 S., 8,32 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Sawodny, Oliver",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)844747386",
+                "(firstid)GBV:844747386"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Mehrgrößenregelung von Nanopositionier- und Nanomessmaschinen mit großen Bewegungsbereichen",
+            "abstract": "Gegenstand der vorliegenden Dissertation ist die Entwicklung eines modellbasierten Regelungskonzeptes für wälzkörpergeführte mehrachsige Nanopositionier- und Nanomessmaschinen mit Bewegungsbereichen von mehreren hundert Millimetern. Das Ziel ist eine signifikante Reduzierung der dynamischen Regelfehler gegenüber bisherigen Ansätzen. Aufgrund der Wälzkörperführungen wird das Systemverhalten besonders bei niedrigen Bewegungsgeschwindigkeiten durch nichtlineare Reibkräfte dominiert. Darüber hinaus hat eine Bewegung in einer Maschinenachse im Allgemeinen Auswirkungen auf die anderen Bewegungsachsen. Um die notwendigen Positioniergenauigkeiten zu erreichen, muss das Regelungssystem daher die Reibkraft effektiv kompensieren und gleichzeitig die Verkopplungen zwischen den Maschinenachsen explizit berücksichtigen. Das Zielsystem ist der Prototyp einer dreiachsigen Nanopositionier- und Nanomessmaschine mit einem Bewegungsbereich von 200 x 200 x 25 mm 3 , welche an der Technischen Universität Ilmenau entwickelt wurde. Ausgangspunkt des Regelungsentwurfes ist die Modellierung des Zielsystems. Besonderer Fokus liegt dabei auf der dynamischen Beschreibung der Reibkraft. Dazu wird ein physikalisch motivierter Ansatz verwendet und zu einem Reibmodell mit mehreren Zustandsgrößen weiterentwickelt. Für die Einzelachsen werden zunächst ein adaptiver Zustandsregler sowie ein nichtlinearer Kompensationsregler, mit dem Ziel einer effektiven Reibkraftkompensation, entworfen. Die Reibparameter des adaptiven Zustandsreglers werden mittels rekursiver Regression nachgeführt, während beim Kompensationsregler die unbekannten Zustände durch ein erweitertes Kalman-Filter geschätzt werden. Die experimentellen Untersuchungen bezüglich der beiden Regler zeigen deutlich die Überlegenheit des Kompensationsreglers gegenüber dem adaptiven Zustandsregler. Um zusätzlich zur Reibkraftkompensation eine Entkopplung der Bewegungsachsen zu erreichen, wird der nichtlineare Kompensationsregler mit dem Konzept eines Entkopplungsreglers kombiniert. Die Leistungsfähigkeit dieser Mehrgrößenregelung wird abschließend am Zielsystem untersucht. Es zeigt sich, dass sowohl für Bewegungen entlang einer Achse als auch für Bewegungen im Raum Positionierabweichungen erzielt werden, die bisher mit wälzkörpergeführten Messsysteme nicht erreicht wurden.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1058278150"
+                },
+                {
+                    "@id": "gnd:132799448"
+                }
+            ],
+            "creator": "gnd:1080825606",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4226247-1",
+                "gnd:4076594-5",
+                "gnd:4132966-1",
+                "gnd:4139559-1"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

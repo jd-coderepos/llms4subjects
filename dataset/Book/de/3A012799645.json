@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:123489709",
+            "sameAs": "Dornberger, Walter"
+        },
+        {
+            "@id": "gnd:4045005-3",
+            "sameAs": "Peenemünde"
+        },
+        {
+            "@id": "gnd:4064090-5",
+            "sameAs": "V-Waffe"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A012799645",
+            "@type": "bibo:Book",
+            "P1053": "313 S.",
+            "description": "Ill.",
+            "identifier": [
+                "(firstid)GBV:012799645",
+                "(isbn)3762804044",
+                "(ppn)012799645"
+            ],
+            "publisher": "Bechtle",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Peenemünde ; V-Waffe ; Geschichte ; Erlebnisbericht",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=ddc)358.1/7523/0943",
+                "Geschichte",
+                "V-Waffe ; Peenemünde ; Geschichte ; Erlebnisbericht"
+            ],
+            "title": "Peenemuende : die Geschichte der V-Waffen",
+            "abstract": "Erw. Neuausg.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:123489709",
+            "issued": "1981",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4064090-5",
+                "gnd:4045005-3"
+            ],
+            "P60163": "Esslingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

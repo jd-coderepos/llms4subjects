@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1032138750",
+            "sameAs": "Nguyen, Hoang-Huy"
+        },
+        {
+            "@id": "gnd:4056995-0",
+            "sameAs": "Statistik"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:7862975-5",
+            "sameAs": "Hochdimensionale Daten"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A735721602",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 126 S., 8244 KB)",
+            "identifier": [
+                "(ppn)735721602",
+                "(firstid)GBV:735721602"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Multi-step linear discriminant analysis and its applications",
+            "abstract": [
+                "We introduce a multi-step machine learning approach and use it to classify data from EEG-based brain computer interfaces. This approach works very well for high-dimensional EEG data. First all features are divided into subgroups and linear discriminant analysis is used to obtain a score for each subgroup. Then it is applied to subgroups of the resulting scores. This procedure is iterated until there is only one score remaining and this one is used for classification. In this way we avoid estimation of the high-dimensional covariance matrix of all features. We investigate the classifi cation performance with special attention to the small sample size case. For the normal model, we study the asymptotic error rate when dimension p and sample size n tend to in nity. This indicates how to de fine the sizes of subgroups at each step. In addition we present a theoretical error bound for the spatio-temporal normal model with separable covariance matrix, which results in a recommendation on how subgroups should be formed for this kind of data. Finally some techniques, for example wavelets and independent component analysis, are used to extract features of some kind of EEG-based brain computer interface data.",
+                "Maschinelles Lernen, Statistik, Hoch-dimensionale Daten, Statistics, High-Dimensional Data, Classification"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1032138750",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7862975-5"
+                },
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4056995-0"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

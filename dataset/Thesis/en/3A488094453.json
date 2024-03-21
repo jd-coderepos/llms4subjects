@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4012469-1",
+            "sameAs": "Diskretisierung"
+        },
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "gnd:4129061-6",
+            "sameAs": "Evolutionsgleichung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A488094453",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 155 S., 2384 KB)",
+            "creator": "Thümmler, Vera",
+            "identifier": [
+                "(ppn)488094453",
+                "(firstid)GBV:488094453"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106407724)31.44 - Gewöhnliche Differentialgleichungen",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "Numerical analysis of the method of freezing traveling waves",
+            "abstract": "This thesis deals with special solutions of parabolic partial differential equations (PDE) u_t = A u_xx + f(u, u_x), namely traveling waves of the form u(x,t) = w(x-c t). Here w denotes the profile of the wave and c its velocity. The pair (w,c) is an equilibrium of a partial differential algebraic equation (PDAE) which is constructed by inserting the ansatz u(x,t) = v(x-g(t),t) in PDE and adding an additional phase condition. By discretization with finite differences on a finite grid, one obtains a differential algebraic equation (DAE). In the thesis the effect of the transformation PDE -&gt; PDAE (the &apos;freezing of the wave&apos;) and of the discretization PDAE -&gt; DAE to existence and stability of traveling wave solutions, or more general, of relative equilibria, is analyzed. One of the main results is the proof of the existence of an equilibrium of DAE which corresponds to (w,c) and which inherits the stability properties of the traveling wave.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4129061-6"
+                },
+                {
+                    "@id": "gnd:4128130-5"
+                },
+                {
+                    "@id": "gnd:4012469-1"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

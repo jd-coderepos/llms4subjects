@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:173921027",
+            "sameAs": "Stenström, Per"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4121121-2",
+            "sameAs": "Datenkompression"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A859025667",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xvii, 68 Seiten)",
+            "creator": [
+                "Wood, David Allen",
+                "Arelakis, Angelos",
+                "Sardashti, Somayeh"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781627057042",
+                "(ppn)859025667",
+                "(firstid)GBV:859025667",
+                "(isbn)1627057048"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Memory hierarchy (Computer science)",
+                "(classificationName=loc)QA76.9.D33",
+                "(classificationName=linseach:mapping)inf",
+                "Data compression (Computer science)",
+                "(classificationName=ddc)005.746",
+                "(classificationName=rvk)ST 284"
+            ],
+            "title": "A primer on compression in the memory hierarchy",
+            "abstract": [
+                "4. Memory compression -- 4.1 Baseline system architecture of a compressed memory system -- 4.2 Compression algorithms -- 4.3 Compressed memory organizations -- 4.3.1 The IBM MXT approach -- 4.3.2 The Ekman/Stenstrom approach -- 4.3.3 The decoupled zero-compression approach -- 4.3.4 The linear compressed pages approach -- 4.4 Summary --",
+                "3. Cache compression -- 3.1 Cache compaction taxonomy -- 3.2 Cache compaction mechanisms -- 3.2.1 Simple compaction mechanisms -- 3.2.2 Supporting variable size compression -- 3.2.3 Decoupled compressed caches -- 3.2.4 Skewed compressed caches -- 3.3 Policies to manage compressed caches -- 3.4 Cache compression to improve cache power and area -- 3.5 Summary --",
+                "This synthesis lecture presents the current state-of-the-art in applying low-latency, lossless hardware compression algorithms to cache, memory, and the memory/cache link. There are many non-trivial challenges that must be addressed to make data compression work well in this context. First, since compressed data must be decompressed before it can be accessed, decompression latency ends up on the critical memory access path. This imposes a significant constraint on the choice of compression algorithms. Second, while conventional memory systems store fixed-size entities like data types, cache blocks, and memory pages, these entities will suddenly vary in size in a memory system that employs compression. Dealing with variable size entities in a memory system using compression has a significant impact on the way caches are organized and how to manage the resources in main memory. We systematically discuss solutions in the open literature to these problems. Chapter 2 provides the foundations of data compression by first introducing the fundamental concept of value locality. We then introduce a taxonomy of compression algorithms and show how previously proposed algorithms fit within that logical framework. Chapter 3 discusses the different ways that cache memory systems can employ compression, focusing on the tradeoffs between latency, capacity, and complexity of alternative ways to compact compressed cache blocks. Chapter 4 discusses issues in applying data compression to main memory and Chapter 5 covers techniques for compressing data on the cache-to-memory links. This book should help a skilled memory system designer understand the fundamental challenges in applying compression to the memory hierarchy and introduce him/her to the state-of-the-art techniques in addressing them",
+                "6. Concluding remarks -- References -- Authors&apos; biographies",
+                "1. Introduction --",
+                "5. Cache/memory link compression -- 5.1 Link compression for narrow value locality -- 5.2 Link compression for clustered value locality -- 5.3 Link compression for temporal value locality -- 5.3.1 The citron scheme -- 5.3.2 Frequent value encoding -- 5.4 Link compression methods applied to compressed memory data -- 5.5 Summary --",
+                "2. Compression algorithms -- 2.1 Value locality -- 2.2 Compression algorithm taxonomy -- 2.3 Classification of compression algorithms -- 2.3.1 Run-length encoding -- 2.3.2 Lempel-Ziv (LZ) coding -- 2.3.3 Huffman coding -- 2.3.4 Frequent value compression (FVC) -- 2.3.5 Frequent pattern compression (FPC) -- 2.3.6 Base-delta-immediate (BDI) -- 2.3.7 Cache packer (C-PACK) -- 2.3.8 Deduplication -- 2.3.9 Instruction compression -- 2.3.10 Floating-point compression -- 2.3.11 Hybrid compression -- 2.4 Metrics to evaluate the success of a compression algorithm -- 2.5 Summary --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:173921027"
+            },
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4001183-5",
+                "gnd:4121121-2"
+            ],
+            "volume": "#36",
+            "P30128": "Synthesis lectures on computer architecture",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "gnd:4135346-8",
+            "sameAs": "Optionspreistheorie"
+        },
+        {
+            "@id": "gnd:4206283-4",
+            "sameAs": "Black-Scholes-Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A484440470",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 157 S., 1292 KB)",
+            "creator": "Int-Veen, Rainer",
+            "identifier": [
+                "(ppn)484440470",
+                "(firstid)GBV:484440470"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc-dbn)330",
+                "(classificationName=bk, id=106414763)85.30 - Investition, Finanzierung",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Transformationen zur Vermeidung numerischer Dispersion und Verfahren zur Steuerung der Zeitschrittweite für die numerische Optionsbewertung",
+            "abstract": "Die numerische Bewertung amerikanischer Optionen erfordert die Lösung eines linearen Komplementaritätsproblems, dessen Bestandteil die Black-Scholes (Un)gleichung ist. Finite-Differenzen-Diskretisierungen dieser partiellen Differentialgleichung (PDE) können numerische Dispersion erzeugen. Die daraus resultierenden Oszillationen machen ein Hedging der Option unmöglich. Durch geeignete Transformationen ist es möglich, numerische Dispersion zu vermeiden. Diese Arbeit analysiert die Dispersions-Eigenschaften bekannter und neuer Transformationen der Black-Scholes PDE. Für dispersionsfreie Transformationen wird das Problem in eine zeitabhängige Folge von Linearen Programmen überführt. Aufgrund der vorzeitigen Ausübungsmöglichkeit ist für jeden dieser Zeitschritte eine Glättung der numerischen Lösung mittels L-stabiler Diskretisierungsverfahren notwendig. Um den numerischen Aufwand gering zu halten werden verschiedene Verfahren vorgestellt, die die Anzahl der notwendigen Zeitschritte reduzieren. Der Knackpunkt ist dabei der zeitlichen Verlauf der Lösung der PDE. Die Black-Scholes PDE ist eine Verwandte der Wärmeleitungsgleichung und zeigt ein qualitativ ähnliches Verhalten. Es stellt sich heraus, das diese Schrittweitensteuerung effektiv arbeitet. Trotz der teureren Verwendung einer alternativen Lösung wird ein Speed-up zu den bisher gebräuchlichen Verfahren erreicht. Allerdings steckt der Aufwand nun hauptsächlich im Auffinden der Ausübungsgrenze. Die gefundenen Methoden lassen sich auf einige exotische Optionstypen übertragen.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4128130-5"
+                },
+                {
+                    "@id": "gnd:4206283-4"
+                },
+                {
+                    "@id": "gnd:4135346-8"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

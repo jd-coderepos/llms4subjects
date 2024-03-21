@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4378490-2",
+            "sameAs": "Abfrageverarbeitung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723616035",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (89 Seiten)",
+            "creator": [
+                "Carmel, David",
+                "Yom-Tov, Elad"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781608453580",
+                "(firstid)GBV:723616035",
+                "(doi)10.2200/S00235ED1V01Y201004ICR015",
+                "(ppn)723616035"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "subject": [
+                "Search engines",
+                "(classificationName=ddc)025.04",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=rvk)ST 270",
+                "(classificationName=loc)TK5105.884",
+                "(classificationName=loc)HD9999",
+                "Information retrieval",
+                "(classificationName=msc)68-02",
+                "Querying (Computer science)",
+                "Electronic books",
+                "(classificationName=msc)*68P20"
+            ],
+            "title": "Estimating the Query Difficulty for Information Retrieval",
+            "abstract": [
+                "7. A general model for query difficulty -- Geometrical illustration -- General model -- Validating the general model -- The relationship between aspect coverage and query difficulty -- Validating the relationship between aspect coverage and query difficulty -- Summary --",
+                "Many information retrieval (IR) systems suffer from a radical variance in performance when responding to users&apos; queries. Even for systems that succeed very well on average, the quality of results returned for some of the queries is poor. Thus, it is desirable that IR systems will be able to identify \"difficult\" queries so they can be handled properly. Understanding why some queries are inherently more difficult than others is essential for IR, and a good answer to this important question will help search engines to reduce the variance in performance, hence better servicing their customer needs. Estimating the query difficulty is an attempt to quantify the quality of search results retrieved for a query from a given collection of documents. This book discusses the reasons that cause search engines to fail for some of the queries, and then reviews recent approaches for estimating query difficulty in the IR field. It then describes a common methodology for evaluating the prediction quality of those estimators, and experiments with some of the predictors applied by various IR methods over several TREC benchmarks. Finally, it discusses potential applications that can utilize query difficulty estimators by handling each query individually and selectively, based upon its estimated difficulty",
+                "6. Combining predictors -- Linear regression -- Combining pre-retrieval predictors -- Combining post-retrieval predictors -- Combining predictors based on statistical decision theory -- Evaluating the UEF framework -- Results -- Combining predictors in the UEF model -- Summary --",
+                "9. Summary and conclusions -- Summary -- What next -- Concluding remarks -- Bibliography -- Authors&apos; biographies",
+                "2. Basic concepts -- The retrieval task -- The prediction task -- Linear correlation -- Rank correlation -- Prediction robustness -- Summary --",
+                "8. Applications of query difficulty estimation -- Feedback: to the user and to the system -- Federation and metasearch -- Content enhancement using missing content analysis -- Selective query expansion -- Selective expansion based on query drift estimation -- Adaptive use of pseudo relevance feedback -- Other uses of query difficulty prediction -- Summary --",
+                "1. Introduction: the robustness problem of information retrieval -- Reasons for retrieval failures, the RIA workshop -- Instability in retrieval, the TREC&apos;s robust tracks -- Estimating the query difficulty -- Summary --",
+                "5. Post-retrieval prediction methods -- Clarity -- Definition -- Examples -- Other clarity measures -- Robustness -- Query perturbation -- Document perturbation -- Retrieval perturbation -- Cohesion -- Score distribution analysis -- Evaluating post-retrieval methods -- Prediction sensitivity -- Summary --",
+                "4. Pre-retrieval prediction methods -- Linguistic approaches -- Statistical approaches -- Definitions -- Specificity -- Similarity -- Coherency -- Term relatedness -- Evaluating pre-retrieval methods -- Summary --",
+                "3. Query performance prediction methods --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4072803-1"
+                },
+                {
+                    "@id": "gnd:4378490-2"
+                }
+            ],
+            "volume": "#15",
+            "isLike": "doi:10.2200/S00235ED1V01Y201004ICR015",
+            "P30128": "Synthesis Lectures on Information Concepts, Retrieval, and Services",
+            "P60163": "San Rafael"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4020929-5",
+            "sameAs": "Gewöhnliche Differentialgleichung"
+        },
+        {
+            "@id": "gnd:4172168-8",
+            "sameAs": "Numerische Integration"
+        },
+        {
+            "@id": "gnd:4187357-9",
+            "sameAs": "Validierung"
+        },
+        {
+            "@id": "gnd:4323820-8",
+            "sameAs": "Erfüllbarkeitsproblem"
+        },
+        {
+            "@id": "gnd:4510314-8",
+            "sameAs": "Hybrides System"
+        },
+        {
+            "@id": "gnd:4511937-5",
+            "sameAs": "Online-Ressource"
+        },
+        {
+            "@id": "gnd:4769528-6",
+            "sameAs": "Bounded Model Checking"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A794117767",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 186 S., 1,7 MB)",
+            "contributor": [
+                "Ramdani, Nacim",
+                "Fränzle, Martin"
+            ],
+            "creator": "Eggers, Andreas",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:794117767",
+                "(ppn)794117767"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)DDC004",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106407724)31.44 - Gewöhnliche Differentialgleichungen"
+            ],
+            "title": "Direct handling of ordinary differential equations in constraint-solving-based analysis of hybrid systems",
+            "abstract": [
+                "In this thesis, the behavior of hybrid discrete-continuous systems is analyzed using a Bounded Model Checking (BMC) approach, i.e. by finitely unwinding the systems&apos; transition relations as formulae. Contrary to earlier BMC approaches for hybrid systems, we allow Ordinary Differential Equations (ODEs) directly in the formula, introducing the problem class of Satisfiability (SAT) modulo ODE. The main contribution of the thesis and its underlying publications is the direct handling of SAT modulo ODE formulae by combining the iSAT solver for boolean combinations of non-linear arithmetic constraints with the VNODE-LP library for computing validated numerical enclosures for ODE solutions. This iSAT-ODE solver comprises several algorithmic enhancements, like caching of intermediate results and previous queries, bracketing systems, and the deduction of trajectory directions, all of which are subjected to evaluation on academic case studies and compared with results from the literature. &lt;engl.&gt;",
+                "In dieser Arbeit werden hybrid diskret-kontinuierliche Systeme mittels endlicher Abrollungen ihrer Transitionssysteme analysiert. Die dabei entstehenden Formeln enthalten dabei, im Gegensatz zu Ansätzen aus der Literatur, direkt gewöhnliche Differentialgleichungen. Die Arbeit und die ihr zu Grunde liegenden Publikationen führen hierzu die Formelklasse \"Satisfiability modulo ODE\" ein und beschreiben die Kombination des iSAT-Erfüllbarkeitsprüfers für boolesche Kombinationen nichtlinearer arithmetischer Bedingungen mit der VNODE-LP-Programmbibliothek für die Berechnung sicherer Einschließungen der Lösungsmengen gewöhnlicher Differentialgleichungen. Der resultierende iSAT-ODE-Erfüllbarkeitsprüfer enthält algorithmische Verfeinerungen wie die Speicherung von Zwischenergebnissen und beantworteter Anfragen, Einhüllendensysteme, sowie Deduktion von Trajektorienrichtungen. Diese werden experimentell anhand akademischer Fallstudien evaluiert und mit der Literatur verglichen. &lt;dt.&gt;"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4020929-5",
+                "gnd:4769528-6",
+                "gnd:4172168-8",
+                "gnd:4187357-9",
+                "gnd:4511937-5",
+                "gnd:4510314-8",
+                "gnd:4323820-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

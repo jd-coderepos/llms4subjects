@@ -1,0 +1,128 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1026296293",
+            "sameAs": "Wacker, Matthias"
+        },
+        {
+            "@id": "gnd:132440237",
+            "sameAs": "Witte, Herbert"
+        },
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:4014254-1",
+            "sameAs": "Elektroencephalographie"
+        },
+        {
+            "@id": "gnd:4174170-5",
+            "sameAs": "Phasensynchronisierung"
+        },
+        {
+            "@id": "gnd:4254087-2",
+            "sameAs": "Magnetoencephalographie"
+        },
+        {
+            "@id": "gnd:4258796-7",
+            "sameAs": "Visueller Reiz"
+        },
+        {
+            "@id": "gnd:4626990-3",
+            "sameAs": "Zeit-Frequenz-Analyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723416095",
+            "@type": "bibo:Thesis",
+            "P1053": "VIII, 93 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Hinrichs, Hermann",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:723416095",
+                "(isbn13)9783843905602",
+                "(ppn)723416095"
+            ],
+            "publisher": "Dr. Hut",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106415921)44.32 - Medizinische Mathematik, medizinische Statistik"
+            ],
+            "title": "Dynamic phase analysis of MEG and EEG signals",
+            "abstract": "Experimente zum Photic Driving bieten hervorragende Möglichkeiten, die dynamischen Phaseneigenschaften neuronaler Oszillationen zu untersuchen. Durch repetitive Lichtstimulation werden daran gekoppelte oszillatorische Hirnaktivität hervorgerufen. Wegen der zu erwartenden Synchronisationseffekte eignen sich Hirnaktivitäten während photic driving sehr gut zur Testung von Phasenanalysemethoden. Die vorgestellten Untersuchungen zeigen drei Haupteinschränkungen bisher verwendeter Methoden, die eine Entwicklung neuer Analysetechniken erforderlich machen. Die Mitnahme der Alphafrequenz hin zur Stimulationsfrequenz soll durch eine Momentanfrequenzschätzung quantifiziert werden. Da die Aktivität unterbrochen sein kann und Phasensprünge auftreten, ist die Schätzung sehr fehleranfällig. Ein neuer Algorithmus wird entwickelt, der die Momentanfrequenz als die Zeit-Frequenz-Trajektorie mit maximaler Energie bestimmt. Eine effiziente Implementierung wird durch Spline-basierte Chirp-Atome erreicht. Die Wahl der optimalen Zeit-Frequenz-Auflösung ist ein entscheidender Punkt für die Analyse. Aktuelle Methoden zur frequenzselektiven Phasenextraktion erzwingen ein bestimmtes Zeit-Frequenz-Erscheinungsbild, welches von den gewählten Parametern der Methode abhängt. Eine neue Methode wird eingeführt, welche die ursprüngliche Zeit-Frequenz-Charakteristik des Signals erhält. Sie zerlegt das Signal in Atome, die mit der Gabortransformation analysiert werden. Hierbei entspricht das Analysefenster der jeweiligen Atomeinhüllenden. Dies ermöglicht erstmalig eine datenadaptive, frequenzselektive Phasenextraktion und macht das Zeit-Frequenz-Erscheinungsbild zu einem interpretierbaren Ergebnis. Mögliche Synchronisationen zwischen der Alpha-Oszillation und den Gammaband-Aktivitäten können mithilfe des n:m Phasensynchronisationsindex analysiert. Bisherige Verfahren können für bestimmte Frequenzkombinationen zu einem sehr hohen Rauschniveau führen, sodass selbst starke Synchronisationen zwischen den betreffenden Frequenzen nicht erkannt werden können. Ein neuer Ansatz wird vorgestellt, welcher den Frequenzraum unterteilt und damit die Identifikation stabiler Synchronisationen ermöglicht. Hierdurch wird sowohl die Zuverlässigkeit als auch die tatsächliche Verwendbarkeit der Synchronisationsanalyse erhöht.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132440237"
+                },
+                {
+                    "@id": "gnd:143795244"
+                }
+            ],
+            "creator": "gnd:1026296293",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4174170-5"
+                },
+                {
+                    "@id": "gnd:4258796-7"
+                },
+                {
+                    "@id": "gnd:4014254-1"
+                },
+                {
+                    "@id": "gnd:4254087-2"
+                },
+                {
+                    "@id": "gnd:4626990-3"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/723416095.PDF",
+            "P60163": "München"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

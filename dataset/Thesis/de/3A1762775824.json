@@ -1,0 +1,134 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042312915",
+            "sameAs": "Meyer, Bernd"
+        },
+        {
+            "@id": "gnd:1209959178",
+            "sameAs": "Botti, Silvana"
+        },
+        {
+            "@id": "gnd:122725751",
+            "sameAs": "Sierka, Marek"
+        },
+        {
+            "@id": "gnd:1236908716",
+            "sameAs": "Becker, Martin"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4151980-2",
+            "sameAs": "Elektrostatisches Feld"
+        },
+        {
+            "@id": "gnd:4240945-7",
+            "sameAs": "Monte-Carlo-Simulation"
+        },
+        {
+            "@id": "gnd:4316422-5",
+            "sameAs": "Spannungstensor"
+        },
+        {
+            "@id": "gnd:7712127-2",
+            "sameAs": "Atomlagenabscheidung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1762775824",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (100 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.49206",
+                "(ppn)1762775824",
+                "(firstid)KXP:1762775824"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530",
+                "Spannungstensor",
+                "Dünne Schicht",
+                "Atomlagenabscheidung",
+                "(classificationName=ddc)530.4175",
+                "Substrat",
+                "Plasma",
+                "Ausgangsmaterial"
+            ],
+            "title": "Manipulation der Materialeigenschaften von atomar abgeschiedenen Oxid-Dünnschichten mit elektrischem Feld : experimentelles und computergestütztes Design",
+            "abstract": "Die vorliegende Arbeit beschäftigt sich mit der Entwicklung einer Methode zur Simulation der plasmaunterstützten Atomlagenabscheidung (engl.: plasma-enhanced atomic layer deposition, PEALD) mit elektrischem Feld. Der Schwerpunkt der Arbeit liegt in der Anwendung und Implementierung eines Monte-Carlo-(MC)-Simulationsschemas unter Verwendung eines ReaxFF-Reaktionskraftfeldes. Das MC-Schema wird auf ein realistisches, experimentell betrachtetes Beispielsystem angewandt, bestehend aus dem Präkursor Bisdiethylaminosilan (BDEAS) und einem hydroxylierten SiO2-Substrat. Es wird gezeigt, dass die Anwendung eines elektrischen Feldes während des Plasmapulses den Energieübertrag der feldbeschleunigten Ionen auf die Oberfläche erhöht und somit direkt die Oberflächenreaktionen beeinflusst. Die Verdichtung der abgeschiedenen Dünnschichten wird anhand der Betrachtung von freien Gibbs-Reaktionsenergien und Besetzungswahrscheinlichkeiten einfach- und zweifach-koordinierter Präkursor-Produkte theoretisch erklärt. Die Simulationsergebnisse werden durch experimentelle Daten vollständig bestätigt. Zusätzlich wird im Rahmen dieser Arbeit eine Dichtefunktionaltheorie-(DFT)-Implementierung des Spannungstensors unter Verwendung von Gaußschen Basisfunktionen vorgestellt, welche die Optimierung von Gittervektoren periodischer Systeme erlaubt, und die Bereitstellung eines vollständig DFT-strukturoptimierten, zweidimensional-periodischen Substrates für die MC-Simulationen ermöglicht. Die Besonderheit der Implementierung liegt in der effizienten Berechnung des Coulomb-Beitrags durch Kombination der Density-Fitting-(DF)- und Continuous-Fast-Multipole-Methode (CFMM). Das günstige Skalierungsverhalten der Spannungstensor-Implementierung wird anhand verschiedener Modellsysteme demonstriert.",
+            "contributor": [
+                "gnd:1042312915",
+                "gnd:1209959178",
+                "gnd:122725751"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1236908716",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4151980-2",
+                "gnd:4240945-7",
+                "gnd:4316422-5",
+                "gnd:7712127-2"
+            ],
+            "isLike": "doi:10.22032/dbt.49206",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

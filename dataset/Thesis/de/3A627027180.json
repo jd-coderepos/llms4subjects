@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:137592736",
+            "sameAs": "Weber, Matthias"
+        },
+        {
+            "@id": "gnd:4153178-4",
+            "sameAs": "Schallortung"
+        },
+        {
+            "@id": "gnd:4154784-6",
+            "sameAs": "Flugzeugkabine"
+        },
+        {
+            "@id": "gnd:4162226-1",
+            "sameAs": "Inverse Methode"
+        },
+        {
+            "@id": "gnd:4179371-7",
+            "sameAs": "Schallgeber"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A627027180",
+            "@type": "bibo:Thesis",
+            "P1053": "8,102 Kb text",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(doi)10.24405/428",
+                "(ppn)627027180",
+                "(firstid)GBV:627027180"
+            ],
+            "publisher": "Bibliothek der HSU",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=106420518)50.36 - Technische Akustik",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106420801)58.56 - Lärmschutz, Erschütterungsdämpfung",
+                "(classificationName=ddc)620",
+                "(classificationName=bk, id=106420585)55.50 - Luftfahrzeugtechnik",
+                "(classificationName=linseach:mapping)cet"
+            ],
+            "title": "Inverse Schallquellenortung in stehenden Wellenfeldern und ihre Anwendung auf Flugzeugkabinen",
+            "abstract": "Die Identifikation von Lärmquellen in der Flugzeugkabine ist insbesondere bei tiefen Frequenzen schwierig, da das sich ausbildende stehende Schallfeld keinen direkten Rückschluss auf Schallquellen zulässt. In der Arbeit wird ein neuer Ansatz zur Rekonstruktion von Schalldruck und Schallschnelle auf dem Kabinenrand vorgestellt, der auf der inversen Finite-Elemente-Methode (IFEM) beruht. --- Dieses Vorgehen bedarf zunächst der Aufnahme von Messwerten im Kabineninneren. In einem zweiten Schritt werden diese den Knoten eines akustischen Finite-Elemente-Modells zugeordnet. Befinden sich alle Schallquellen auf dem Kabinenrand, kann das aus dem numerischen Modell resultierende Gleichungssystem umsortiert werden, und zwar derart, dass mit Hilfe von Regularisierungsverfahren und einer Energienorm die Berechnung der unbekannten Randlasten auch bei Störung der Messwerte möglich wird. --- Zunächst wird die zweidimensionale Umsetzung der IFEM zur Schallquellenortung be-schrieben. Nach der numerischen Verifikation erfolgt die Validierung des Verfahrens unter Laborbedingungen an einem einfachen 2D-Modell. --- Anschließend wird die IFEM in einer Flugzeugkabine angewendet. Dies beinhaltet zunächst die Erstellung eines dreidimensionalen akustischen Modells. Anschließend erfolgt der Nachweis der Funktionsfähigkeit in zwei Messkampagnen  zuerst in der leeren Flug-zeugkabine, dann in der bestuhlten Kabine, wobei das Schallfeld mit verschiedenen internen Quellen angeregt wird. Abschließend wird die Intensitätsverteilung am Kabinenrand bei ex-terner Anregung bestimmt.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:137592736",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4153178-4",
+                "gnd:4179371-7",
+                "gnd:4162226-1",
+                "gnd:4154784-6"
+            ],
+            "volume": "2010, Mai",
+            "isLike": "doi:10.24405/428",
+            "P30128": "Bericht aus der Professur für Mechatronik / Helmut-Schmidt-Universität",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

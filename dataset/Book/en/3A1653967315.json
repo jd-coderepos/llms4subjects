@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4017102-4",
+            "sameAs": "Film"
+        },
+        {
+            "@id": "gnd:4056995-0",
+            "sameAs": "Statistik"
+        },
+        {
+            "@id": "gnd:4802620-7",
+            "sameAs": "Big Data"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1653967315",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (VIII, 64 p. 53 illus., 45 illus. in color, online resource)",
+            "contributor": [
+                "Mentzer, Kevin",
+                "Zhang, Changan",
+                "McLaughlin, Mark-David"
+            ],
+            "creator": "Haughton, Dominique",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)BSZ:455182094",
+                "(ppn)1653967315",
+                "(isbn13)9783319094267",
+                "(doi)10.1007/978-3-319-09426-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)519.5",
+                "Computer graphics",
+                "(classificationName=loc)QA276-280",
+                "(classificationName=linseach:mapping)rest",
+                "Data mining",
+                "Statistics",
+                "(classificationName=rvk)AP 45900"
+            ],
+            "title": "Movie Analytics : A Hollywood Introduction to Big Data",
+            "abstract": [
+                "What do we know about analyzing movie data: section on past literature.- What does \"Big Data\" mean; the data scientist point of view.- Visualization of very large networks: the co-starring social network.- Movie attendance and trends -- Oscar prediction and prediction markets -- Can we predict Oscars from Twitter and movie review data",
+                "Movies will never be the same after you learn how to analyze movie data, including key data mining, text mining and social network analytics concepts. These techniques may then be used in endless other contexts. In the movie application, this topic opens a lively discussion on the current developments in big data from a data science perspective. This book is geared to applied researchers and practitioners and is meant to be practical. The reader will take a hands-on approach, running text mining and social network analyses with software packages covered in the book. These include R, SAS, Knime, Pajek and Gephi. The nitty-gritty of how to build datasets needed for the various analyses will be discussed as well. This includes how to extract suitable Twitter data and create a co-starring network from the IMDB database given memory constraints. The authors also guide the reader through an analysis of movie attendance data via a realistic dataset from France"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4802620-7"
+                },
+                {
+                    "@id": "gnd:4056995-0"
+                },
+                {
+                    "@id": "gnd:4017102-4"
+                }
+            ],
+            "isLike": "doi:10.1007/978-3-319-09426-7",
+            "P30128": [
+                "SpringerBriefs in Statistics",
+                "SpringerLink",
+                "Bücher"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

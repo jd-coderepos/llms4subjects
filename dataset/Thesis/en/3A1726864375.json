@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1015214991",
+            "sameAs": "Gürlebeck, Klaus"
+        },
+        {
+            "@id": "gnd:1120622646",
+            "sameAs": "Rabczuk, Timon"
+        },
+        {
+            "@id": "gnd:4170297-9",
+            "sameAs": "Modellierung"
+        },
+        {
+            "@id": "gnd:4376916-0",
+            "sameAs": "NURBS"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "gnd:7718401-4",
+            "sameAs": "Isogeometrische Analyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1726864375",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xviii, 135 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Bordas, Stéphane",
+            "http://purl.org/dc/elements/1.1/creator": "Chan, Chiu Ling",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25643/bauhaus-universitaet.4208",
+                "(firstid)KXP:1726864375",
+                "(ppn)1726864375"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)518",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Smooth representation of thin shells and volume structures for isogeometric analsysis",
+            "abstract": "The purpose of this study is to develop self-contained methods for obtaining smooth meshes which are compatible with isogeometric analysis (IGA). The study contains three main parts. We start by developing a better understanding of shapes and splines through the study of an image-related problem. Then we proceed towards obtaining smooth volumetric meshes of the given voxel-based images. Finally, we treat the smoothness issue on the multi-patch domains with C1 coupling. Following are the highlights of each part. First, we present a B-spline convolution method for boundary representation of voxel-based images. We adopt the filtering technique to compute the B-spline coefficients and gradients of the images effectively. We then implement the B-spline convolution for developing a non-rigid images registration method. The proposed method is in some sense of “isoparametric”, for which all the computation is done within the B-splines framework. Particularly, updating the images by using B-spline composition promote smooth transformation map between the images. We show the possible medical applications of our method by applying it for registration of brain images. Secondly, we develop a self-contained volumetric parametrization method based on the B-splines boundary representation. We aim to convert a given voxel-based data to a matching C1 representation with hierarchical cubic splines. The concept of the osculating circle is employed to enhance the geometric approximation, where it is done by a single template and linear transformations (scaling, translations, and rotations) without the need for solving an optimization problem. Moreover, we use the Laplacian smoothing and refinement techniques to avoid irregular meshes and to improve mesh quality. We show with several examples that the method is capable of handling complex 2D and 3D configurations. In particular, we parametrize the 3D Stanford bunny which contains irregular shapes and voids. Finally, we propose the B´ezier ordinates approach and splines approach for C1 coupling. In the first approach, the new basis functions are defined in terms of the B´ezier Bernstein polynomials. For the second approach, the new basis is defined as a linear combination of C0 basis functions. The methods are not limited to planar or bilinear mappings. They allow the modeling of solutions to fourth order partial differential equations (PDEs) on complex geometric domains, provided that the given patches are G1 continuous. Both methods have their advantages. In particular, the B´ezier approach offer more degree of freedoms, while the spline approach is more computationally efficient. In addition, we proposed partial degree elevation to overcome the C1-locking issue caused by the over constraining of the solution space. We demonstrate the potential of the resulting C1 basis functions for application in IGA which involve fourth order PDEs such as those appearing in Kirchhoff-Love shell models, Cahn-Hilliard phase field application, and biharmonic problems.",
+            "contributor": [
+                "gnd:1120622646",
+                "gnd:1015214991"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:5180842-0",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:7718401-4",
+                "gnd:4376916-0",
+                "gnd:4170297-9"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/weimar/toc/172677192X_toc.pdf",
+            "volume": "2020,2",
+            "isLike": "doi:10.25643/bauhaus-universitaet.4208",
+            "P30128": "ISM-Bericht",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

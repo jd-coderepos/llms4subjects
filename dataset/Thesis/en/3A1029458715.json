@@ -1,0 +1,160 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universität Hamburg"
+        },
+        {
+            "@id": "gnd:1159998078",
+            "sameAs": "Technische Universität Hamburg, Institut für Konstruktion und Festigkeit von Schiffen"
+        },
+        {
+            "@id": "gnd:1160258074",
+            "sameAs": "Düster, Alexander"
+        },
+        {
+            "@id": "gnd:1165322242",
+            "sameAs": "König, Marcel"
+        },
+        {
+            "@id": "gnd:140779922",
+            "sameAs": "Abdel-Maksoud, Moustafa"
+        },
+        {
+            "@id": "gnd:2036489-1",
+            "sameAs": "VDI-Verlag, Düsseldorf"
+        },
+        {
+            "@id": "gnd:4128556-6",
+            "sameAs": "Offshorebauwerk"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4189962-3",
+            "sameAs": "Windturbine"
+        },
+        {
+            "@id": "gnd:4314754-9",
+            "sameAs": "Fluid-Struktur-Wechselwirkung"
+        },
+        {
+            "@id": "gnd:7544635-2",
+            "sameAs": "Mehrfeldproblem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1029458715",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XVI, 263 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1029458715",
+                "(doi)10.15480/882.1736",
+                "(isbn13)9783183351183",
+                "(firstid)GBV:1029458715"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "Fluid-Structure Interaction",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106419986)52.56 - Regenerative Energieformen, alternative Energieformen",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=bk, id=106410601)52.30 - Strömungskraftmaschinen, Turbomaschinen",
+                "Floating Offshore Wind Turbines",
+                "Partitioned Solution Approach",
+                "Maritime Applications",
+                "Multifield Problems",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften",
+                "Landing Maneuver of Crew Transfer Vessels to Offshore Structures"
+            ],
+            "title": "Partitioned solution strategies for strongly-coupled fluid-structure interaction problems in maritime applications",
+            "abstract": [
+                "Gekoppelte Mehrfeldprobleme treten in einer Vielzahl ingenieurstechnischer Anwendungen auf. In dieser Arbeit wird ein partitionierter Lösungsansatz verfolgt, der nicht nur die Verwendung unterschiedlicher Diskretisierungsschemata für die einzelnen Teilprobleme erlaubt, sondern auch den Einsatz spezialisierter und effizienter Löser, was Modularität, Performanz und Software-Wiederverwendbarkeit verbessert. Ein Framework für die partitionierte Analyse von allgemeinen Mehrfeldproblemen wird vorgestellt und in der generischen Software-Bibliothek comana implementiert, die mithilfe von Benchmark-Problemen überprüft und auf anspruchsvolle Probleme der Fluid-Struktur-Interaktion aus dem maritimen Sektor angewendet wird.",
+                "Many engineering applications are governed by coupled multifield phenomena. In this thesis, a partitioned solution approach is followed to solve these kind of problems, which does not only enable the use of different discretization schemes for each of the subproblems but also allows to reuse specialized and efficient solvers, which enhances modularity, software reusability, and performance. A framework for the partitioned analysis of general multifield problems is proposed and implemented in the generic software library comana, which is verified against various benchmark problems and successfully applied to sophisticated fluid-structure interaction problems from the martitime industry."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1160258074"
+                },
+                {
+                    "@id": "gnd:140779922"
+                }
+            ],
+            "creator": [
+                "gnd:1112763473",
+                "gnd:1165322242",
+                "gnd:1159998078",
+                "gnd:2036489-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4148259-1"
+                },
+                {
+                    "@id": "gnd:7544635-2"
+                },
+                {
+                    "@id": "gnd:4128556-6"
+                },
+                {
+                    "@id": "gnd:4189962-3"
+                },
+                {
+                    "@id": "gnd:4314754-9"
+                }
+            ],
+            "isLike": "doi:10.15480/882.1736",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1022420135",
+            "sameAs": "Hadoop"
+        },
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4238872-7",
+            "sameAs": "Verteiltes System"
+        },
+        {
+            "@id": "gnd:4284757-6",
+            "sameAs": "Natürlichsprachiges System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A715251465",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (ix, 165 Seiten)",
+            "creator": [
+                "Lin, Jimmy",
+                "Dyer, Chris"
+            ],
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)BVB:BV040092884",
+                "(doi)10.2200/S00274ED1V01Y201006HLT007",
+                "(isbn13)9781608453436",
+                "(ppn)715251465"
+            ],
+            "publisher": "Morgan &amp; Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Parallel processing (Electronic computers)",
+                "(classificationName=rvk)ST 270",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.726",
+                "(classificationName=loc)QA76.9.D3",
+                "Cloud computing",
+                "Database management",
+                "(classificationName=ddc)005.7565",
+                "MapReduce (Computer program)",
+                "Electronic data processing",
+                "Hadoop (Computer program)"
+            ],
+            "title": "Data-intensive text processing with MapReduce",
+            "abstract": [
+                "6. EM algorithms for text processing -- Expectation maximization -- Maximum likelihood estimation -- A latent variable marble game -- MLE with latent variables -- Expectation maximization -- An EM example -- Hidden Markov models -- Three questions for hidden Markov models -- The forward algorithm -- The Viterbi algorithm -- Parameter estimation for HMMs -- Forward-backward training: summary -- EM in MapReduce -- HMM training in MapReduce -- Case study: word alignment for statistical machine translation -- Statistical phrase-based translation -- Brief digression: language modeling with MapReduce -- Word alignment -- Experiments -- EM-like algorithms -- Gradient-based optimization and log-linear models -- Summary and additional readings --",
+                "Bibliography -- Authors&apos; biographies",
+                "1. Introduction -- Computing in the clouds -- Big ideas -- Why is this different -- What this book is not --",
+                "4. Inverted indexing for text retrieval -- Web crawling -- Inverted indexes -- Inverted indexing: baseline implementation -- Inverted indexing: revised implementation -- Index compression -- Byte-aligned and word-aligned codes -- Bit-aligned codes -- Postings compression -- What about retrieval -- Summary and additional readings --",
+                "Includes bibliographical references",
+                "7. Closing remarks -- Limitations of MapReduce -- Alternative computing paradigms -- MapReduce and beyond --",
+                "5. Graph algorithms -- Graph representations -- Parallel breadth-first search -- PageRank -- Issues with graph processing -- Summary and additional readings --",
+                "2. MapReduce basics -- Functional programming roots -- Mappers and reducers -- The execution framework -- Partitioners and combiners -- The distributed file system -- Hadoop cluster architecture -- Summary --",
+                "3. MapReduce algorithm design -- Local aggregation -- Combiners and in-mapper combining -- Algorithmic correctness with local aggregation -- Pairs and stripes -- Computing relative frequencies -- Secondary sorting -- Relational joins -- Reduce-side join -- Map-side join -- Memory-backed join -- Summary --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)H-GBV-EBRARY-UBCL",
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4284757-6",
+                "gnd:4193754-5",
+                "gnd:1022420135",
+                "gnd:4238872-7",
+                "gnd:4072803-1",
+                "gnd:4075860-6"
+            ],
+            "volume": "#7",
+            "isLike": "doi:10.2200/S00274ED1V01Y201006HLT007",
+            "P30128": "Synthesis lectures on human language technologies",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

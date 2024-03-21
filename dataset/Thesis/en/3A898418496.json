@@ -1,0 +1,130 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10072785-2",
+            "sameAs": "Helmut-Schmidt-Universität"
+        },
+        {
+            "@id": "gnd:1074857399",
+            "sameAs": "Helmut-Schmidt-Universität, Professur für Angewandte Mathematik"
+        },
+        {
+            "@id": "gnd:130511226",
+            "sameAs": "Fügenschuh, Armin"
+        },
+        {
+            "@id": "gnd:308624-0",
+            "sameAs": "Thayer School of Engineering"
+        },
+        {
+            "@id": "gnd:4053369-4",
+            "sameAs": "Schüler"
+        },
+        {
+            "@id": "gnd:4076370-5",
+            "sameAs": "Programmierung"
+        },
+        {
+            "@id": "gnd:4126464-2",
+            "sameAs": "Lernsoftware"
+        },
+        {
+            "@id": "gnd:4167290-2",
+            "sameAs": "Leistungsmessung"
+        },
+        {
+            "@id": "gnd:4428654-5",
+            "sameAs": "Data Mining"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898418496",
+            "@type": "bibo:Thesis",
+            "P1053": "102 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Bonfert-Taylor, Petra",
+            "http://purl.org/dc/elements/1.1/creator": "Öztürk, Alisan",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)898418496",
+                "(firstid)GBV:898418496"
+            ],
+            "publisher": "Helmut-Schmidt-Universität, Universität der Bundeswehr Hamburg",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106418122)54.51 - Programmiermethodik",
+                "(classificationName=ddc-dbn)370"
+            ],
+            "title": "A data-driven approach to improve the teaching of programming : a thesis submitted to the Faculty of the Helmut Schmidt University in partial fulfillment of the requirements for the degree of Master of Science",
+            "abstract": "Zusammenassung: In today’s IT-driven world, programming skills are indispensable for engineers.While there are different approaches to teaching students how to code, it is usefulregardless to have meaningful data on student performance, for example in orderto determine early on which students could benefit from extra help. At the ThayerSchool of Engineering, we have developed a platform- independent in-browserprogramming environment which allows students to focus on the basics ofprogramming without the distractions of having to deal with complicated editorsor servers. This environment is additionally linked to students’ accounts and canbe embedded in our Learning Management System, where students mustcomplete daily assignments. All data of the students’ interactions with theplatform are captured, resulting in a unique data set from a full on-campusintroductory programming course. Based on this data set, we evaluated variousmetrics that quantify a student’s error compilation behavior and showed that theycan be implemented in a different context and be of use as students’ performancemetrics. In addition, we found out that small programming assignments whichcover the basic concepts of programming are essential for students’ success.Linked to these assignments, we present two metrics which show that studentswho spend more time on average on these assignments, as well as solve fewerassignments, are more likely to perform worse on the course. In combination withthe error compilation metrics, we built multiple regression models that performedsuperior to individual models. Furthermore, we implemented machine learningalgorithms that could accurately predict at-risk students with up to seven days ofintervention time left before the first midterm exam. Based on our results, we canshow that a data-driven analysis in an introductory programming course can beutilized to assist both, students that are struggling to pass the course andeducators in getting insights on student learning.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130511226"
+                }
+            ],
+            "creator": [
+                "gnd:308624-0",
+                "gnd:1074857399",
+                "gnd:10072785-2"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4167290-2",
+                "gnd:4053369-4",
+                "gnd:4076370-5",
+                "gnd:4428654-5",
+                "gnd:4126464-2"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/898418496.pdf",
+            "volume": "# 57 (2017)",
+            "P30128": "Angewandte Mathematik und Optimierung Schriftenreihe",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

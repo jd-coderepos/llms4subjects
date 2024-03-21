@@ -1,0 +1,146 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1168504872",
+            "sameAs": "Universität Greifswald"
+        },
+        {
+            "@id": "gnd:1202554970",
+            "sameAs": "Herbst, Lina"
+        },
+        {
+            "@id": "gnd:4037944-9",
+            "sameAs": "Mathematik"
+        },
+        {
+            "@id": "gnd:4076110-1",
+            "sameAs": "Phylogenie"
+        },
+        {
+            "@id": "gnd:4136102-7",
+            "sameAs": "Rekonstruktion"
+        },
+        {
+            "@id": "gnd:4150352-1",
+            "sameAs": "DNS-Sequenz"
+        },
+        {
+            "@id": "gnd:4182103-8",
+            "sameAs": "Sparsamkeit"
+        },
+        {
+            "@id": "gnd:4193791-0",
+            "sameAs": "Schätzung"
+        },
+        {
+            "@id": "gnd:4234398-7",
+            "sameAs": "Genauigkeit"
+        },
+        {
+            "@id": "gnd:4385397-3",
+            "sameAs": "Ahnen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1686898770",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (PDF-Datei: 225 Seiten, 1158 Kilobyte)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Fischer, Mareike",
+                "Thatte, Bhalchandra D."
+            ],
+            "description": "Diagramme (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1686898770",
+                "(ppn)1686898770"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=bk, id=106421425)42.11 - Biomathematik, Biokybernetik",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)572.86",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Ancestral sequence reconstruction with Maximum Parsimony and its accuracy in mathematical phylogenetics",
+            "abstract": [
+                "In phylogenetics, evolutionary relationships of different species are represented by phylogenetic trees. In this thesis, we are mainly concerned with the reconstruction of ancestral sequences and the accuracy of this reconstruction given a rooted binary phylogenetic tree. For example, we wish to estimate the DNA sequences of the ancestors given the observed DNA sequences of today living species. In particular, we are interested in reconstructing the DNA sequence of the last common ancestor of all species under consideration. Note that this last common ancestor corresponds to the root of the tree. There exist various methods for the reconstruction of ancestral sequences. A widely used principle for ancestral sequence reconstruction is the principle of parsimony (Maximum Parsimony). This principle means that the simplest explanation it the best. Applied to the reconstruction of ancestral sequences this means that a sequence which requires the fewest evolutionary changes along the tree is reconstructed. Thus, the number of changes is minimized, which explains the name of Maximum Parsimony. Instead of estimating a whole DNA sequence, Maximum Parsimony considers each position in the sequence separately. Thus in the following, each sequence position is regarded separately, and we call a single position in a sequence state. It can happen that the state of the last common ancestor is reconstructed unambiguously, for example as A. On the other hand, Maximum Parsimony might be ...",
+                "Mathematische Phylogenetik, Mathematical Phylogenetic"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1202554970",
+                "gnd:1168504872"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4385397-3"
+                },
+                {
+                    "@id": "gnd:4076110-1"
+                },
+                {
+                    "@id": "gnd:4234398-7"
+                },
+                {
+                    "@id": "gnd:4193791-0"
+                },
+                {
+                    "@id": "gnd:4182103-8"
+                },
+                {
+                    "@id": "gnd:4150352-1"
+                },
+                {
+                    "@id": "gnd:4037944-9"
+                },
+                {
+                    "@id": "gnd:4136102-7"
+                }
+            ],
+            "P60163": "Greifswald"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

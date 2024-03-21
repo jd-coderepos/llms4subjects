@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4005330-1",
+            "sameAs": "Bein"
+        },
+        {
+            "@id": "gnd:4013384-9",
+            "sameAs": "Dynamik"
+        },
+        {
+            "@id": "gnd:4017975-8",
+            "sameAs": "Fortbewegung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A876679696",
+            "@type": "bibo:Book",
+            "P1053": "Online Ressource",
+            "contributor": "Sadati, Nasser",
+            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)876679696",
+                "(isbn13)9781118393741",
+                "(isbn13)9781118393703",
+                "(isbn)1118393708",
+                "(isbn)1283593246",
+                "(isbn13)9781118317075",
+                "(isbn13)9781283593243",
+                "(isbn)1118317076",
+                "(isbn)1118393740",
+                "(firstid)GBV:876679696"
+            ],
+            "publisher": "Wiley, IEEE Press",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=181571161)50.32 - Dynamik, Schwingungslehre",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften",
+                "Mobile robots",
+                "(classificationName=ddc)629.8932",
+                "Electronic books",
+                "Robots",
+                "(classificationName=loc)TJ211.415",
+                "Walking",
+                "(classificationName=ddc)629.8/932",
+                "Motion"
+            ],
+            "title": "Hybrid control and motion planning of dynamical legged locomotion",
+            "abstract": [
+                "6.5.2 Flight Phase Control Law 178 -- 6.6 Event-Based Update Laws for Hybrid Invariance 181 -- 6.6.1 Takeoff Update Laws 184 -- 6.6.2 Impact Update Laws 185 -- 6.7 Stabilization Problem 186 -- 6.8 Simulation Results 189 -- 7. Stabilization of Periodic Orbits for Walking with Passive Knees 193 -- 7.1 Introduction 193 -- 7.2 Open-Loop Model of Walking 194 -- 7.2.1 Mechanical Model of the Planar Bipedal Robot 194 -- 7.2.2 Dynamics of the Single Support Phase 195 -- 7.2.3 Impact Map 195 -- 7.2.4 Open-Loop Impulsive Model of Walking 196 -- 7.3 Motion Planning Algorithm 197 -- 7.4 Numerical Example 200 -- 7.5 Continuous-Times Controllers 202 -- 7.6 Event-Based Controllers 209 -- 7.6.1 Hybrid Invariance 209 -- 7.6.2 Continuity of the Continuous-Time Controllers During the Within-Stride Transitions 212 -- 7.7 Stabilization Problem 213 -- 7.8 Simulation of the Closed-Loop Hybrid System 217 -- 8. Continuous-Time Update Laws During Continuous Phases of Locomotion 221 -- 8.1 Introduction 221 -- 8.2 Invariance of the Exponential Stability Behavior for a Class of Impulsive Systems 222 -- 8.3 Outline of the Proof of Theorem 8.1 224 -- 8.4 Application to Legged Locomotion 227 -- A. Proofs Associated with Chapter 3 229 -- A.1 Proof of Lemma 3.3 229 -- A.2 Proof of Lemma 3.4 230 -- A.3 Proof of Lemma 3.7 230 -- B. Proofs Associated with Chapter 4 233 -- B.1 Proof of Lemma 4.2 233 -- B.2 Proof of Theorem 4.2 234 -- C. Proofs Associated with Chapter 6 237 -- C.1 Proof of Lemma 6.1 237 -- C.2 Proof of Lemma 6.2 238 -- C.3 Invertibility of the Stance Phase Decoupling Matrix on the Periodic Orbit 240 -- Bibliography 241 -- Index 249",
+                "\"This book provides a comprehensive presentation of issues and challenges faced by researchers and practicing engineers in motion planning and hybrid control of dynamical legged locomotion. The major features range from offline and online motion planning algorithms to generate desired feasible periodic walking and running motions and tow-level control schemes, including within-stride feedback laws, continuous time update laws and event-based update laws, to asymptotically stabilize the generated desired periodic orbits. This book describes the current state of the art and future directions across all domains of dynamical legged locomotion so that readers can extend proposed motion planning algorithms and control methodologies to other types of planar and 3D legged robots\"--",
+                "Preface ix -- 1. Introduction 1 -- 1.1 Objectives of Legged Locomotion and Challenges in Controlling Dynamic Walking and Running 1 -- 1.2 Literature Overview 4 -- 1.2.1 Tracking of Time Trajectories 4 -- 1.2.2 Poincar&apos;e Return Map and Hybrid Zero Dynamics 5 -- 1.3 The Objective of the Book 7 -- 1.3.1 Hybrid Zero Dynamics in Walking with Double Support Phase 7 -- 1.3.2 Hybrid Zero Dynamics in Running with an Online Motion Planning Algorithm 8 -- 1.3.3 Online Motion Planning Algorithms for Flight Phases of Running 9 -- 1.3.4 Hybrid Zero Dynamics in 3D Running 10 -- 1.3.5 Hybrid Zero Dynamics in Walking with Passive Knees 11 -- 1.3.6 Hybrid Zero Dynamics with Continuous-Time Update Laws 12 -- 2. Preliminaries in Hybrid Systems 13 -- 2.1 Basic Definitions 13 -- 2.2 Poincar&apos;e Return Map for Hybrid Systems 16 -- 2.3 Low-Dimensional Stability Analysis 23 -- 2.4 Stabilization Problem 28 -- 3. Asymptotic Stabilization of Periodic Orbits forWalking with Double Support Phase 35 -- 3.1 Introduction 35 -- 3.2 Mechanical Model of a Biped Walker 37 -- 3.2.1 The Biped Robot 37 -- 3.2.2 Dynamics of the Flight Phase 37 -- 3.2.3 Dynamics of the Single Support Phase 39 -- 3.2.4 Dynamics of the Double Support Phase 40 -- 3.2.5 Impact Model 43 -- 3.2.6 Transition from the Double Support Phase to the Single Support Phase 45 -- 3.2.7 Hybrid Model of Walking 45 -- 3.3 Control Laws for the Single and Double Support Phases 46 -- 3.3.1 Single Support Phase Control Law 46 -- 3.3.2 Double Support Phase Control Law 49 -- 3.4 Hybrid Zero Dynamics (HZD) 54 -- 3.4.1 Analysis of HZD in the Single Support Phase 55 -- 3.4.2 Analysis of HZD in the Double Support Phase 57 -- 3.4.3 Restricted Poincar&apos;e Return Map 58 -- 3.5 Design of an HZD Containing a Prespecified Periodic Solution 60 -- 3.5.1 Design of the Output Functions 60 -- 3.5.2 Design of u1d and u2d 62 -- 3.6 Stabilization of the Periodic Orbit 67 -- 3.7 Motion Planning Algorithm 71 -- 3.7.1 Motion Planning Algorithm for the Single Support Phase 72",
+                "3.7.2 Motion Planning Algorithm for the Double Support Phase 73 -- 3.7.3 Constructing a Period-One Orbit for the Open-Loop Hybrid Model of Walking 76 -- 3.8 Numerical Example for the Motion Planning Algorithm 77 -- 3.9 Simulation Results of the Closed-Loop Hybrid System 82 -- 3.9.1 Effect of Double Support Phase on Angular Momentum Transfer and Stabilization 82 -- 3.9.2 Effect of Event-Based Update Laws on Momentum Transfer and Stabilization 92 -- 4. Asymptotic Stabilization of Periodic Orbits for Planar Monopedal Running 95 -- 4.1 Introduction 95 -- 4.2 Mechanical Model of a Monopedal Runner 97 -- 4.2.1 The Monopedal Runner 97 -- 4.2.2 Dynamics of the Flight Phase 97 -- 4.2.3 Dynamics of the Stance Phase 98 -- 4.2.4 Open-Loop Hybrid Model of Running 99 -- 4.3 Reconfiguration Algorithm for the Flight Phase 99 -- 4.3.1 Determination of the Reachable Set 103 -- 4.4 Control Laws for Stance and Flight Phases 120 -- 4.4.1 Stance Phase Control Law 121 -- 4.4.2 Flight Phase Control Law 122 -- 4.4.3 Event-Based Update Law 124 -- 4.5 Hybrid Zero Dynamics and Stabilization 125 -- 4.6 Numerical Results 127 -- 5. Online Generation of Joint Motions During Flight Phases of Planar Running 137 -- 5.1 Introduction 137 -- 5.2 Mechanical Model of a Planar Open Kinematic Chain 138 -- 5.3 Motion Planning Algorithm to Generate Continuous Joint Motions 140 -- 5.3.1 Determining the Reachable Set from the Origin 143 -- 5.3.2 Motion Planning Algorithm 150 -- 5.4 Motion Planning Algorithm to Generate Continuously Differentiable Joint Motions 152 -- 6. Stabilization of Periodic Orbits for 3D Monopedal Running 159 -- 6.1 Introduction 159 -- 6.2 Open-Loop Hybrid Model of a 3D Running 160 -- 6.2.1 Dynamics of the Flight Phase 162 -- 6.2.2 Dynamics of the Stance Phase 163 -- 6.2.3 Transition Maps 164 -- 6.2.4 Hybrid Model 166 -- 6.3 Design of a Period-One Solution for the Open-Loop Model of Running 167 -- 6.4 Numerical Example 172 -- 6.5 Within-Stride Controllers 175 -- 6.5.1 Stance Phase Control Law 175"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-35-WEL",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4017975-8"
+                },
+                {
+                    "@id": "gnd:4005330-1"
+                },
+                {
+                    "@id": "gnd:4013384-9"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781118317075.pdf",
+            "volume": "3",
+            "P30128": "IEEE press series on systems science and engineering",
+            "P60163": "Hoboken"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

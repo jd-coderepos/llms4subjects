@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1195900805",
+            "sameAs": "Lüdtke, Ulrich"
+        },
+        {
+            "@id": "gnd:13021163X",
+            "sameAs": "Karcher, Christian"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4014305-3",
+            "sameAs": "Elektromagnetisches Feld"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4129610-2",
+            "sameAs": "Strömungsmesstechnik"
+        },
+        {
+            "@id": "gnd:4296739-9",
+            "sameAs": "Lorentz-Kraft"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869375180",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (109 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Pothérat, Alban",
+            "http://purl.org/dc/elements/1.1/creator": "Terzijska, Džulia",
+            "description": "Illustrationen, graphische Darstellungen",
+            "identifier": [
+                "(ppn)869375180",
+                "(firstid)GBV:869375180"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)538.4",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Optimization of magnetic field sources for weakly conducting media in Lorentz force velocimetry",
+            "abstract": "Diese Arbeit beschreibt die theoretische und numerische Optimierung der neuartigen kontaktlosen Messmethode Lorentzkraftanemometrie (LKA). Die LKA basiert auf der Messung der Lorentzkraft, die auf ein Magnetsystem nahe einem elektrisch leitfähigen Medium wirkt. Flüssigkeiten mit einer niedrigen Leitfähigkeit von einigen S/m stellen eine besondere Herausforderung dar. Hier ist die Lorentzkraft relativ klein verglichen mit Messungen an flüssig Metallen, deren Leitfähigkeit 10 6 Größenordnungen größer ist. Äußere Störungen haben einen viel größeren Einfluss auf die Messungen und es ist unerlässlich die Qualität des Signals für die Anwendung in der Industrie zu verbessern. Eine Möglichkeit dieses Ziel zu erreichen, die Optimierung des Magnetsystems, steht im Focus dieser Arbeit. Um Kenntnisse in die optimale fundamentale Form des magnetischen Feldes zu erhalten wird ein Aufbau von Dipolen untersucht. Unter bestimmten Bedingungen ist die analytische Lösung dieses Problem möglich. Komplexere Dipolanordnungen werden numerisch mit Simulationssoftware basierend auf der finiten Elemente Methode (FEM) optimiert. Die Orientierung der magnetischen Momente und die Positionen der Dipole gehören zur möglichen Menge der Entscheidungsvariablen. Ihr Einfluss wird in unterschiedlichen Dipolproblemen untersucht um auf mögliche Design-Lösungen für ein praktisches Magnetsystem zu schlussfolgern. Die Eignung mehrerer Optimierungsalgorithmen wird getestet und verglichen. Hohe Anforderungen werden an die Algorithmen gesellt. Die Zielfunktion hat eine sehr komplexe globale Landschaft mit vielen lokalen Extrema, so dass das Auffinden der globalen Maxima schwierig ist. Ein weiteres Hindernis sind die teuren Funktionsauswertungen die durch die FEM-Modelle zur Verfügung gestellt werden. Es werden nur die Eingabeparameter angegeben mit denen das Softwareprogramm die Zielfunktion berechnet. Diese Art von Problemen können als Blackbox Probleme evaluiert werden, die besonders schwer zu optimieren sind. Die Kenntnisse die durch die verschiedenen Dipolprobleme gewonnen wurden, werden angewendet um ein realistische Magnetsystem für die Anwendung in der LKA numerisch zu optimieren und zu analysieren.",
+            "contributor": [
+                "gnd:1195900805",
+                "gnd:13021163X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2125187-3",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4129610-2",
+                "gnd:4014305-3",
+                "gnd:4043664-0",
+                "gnd:4296739-9",
+                "gnd:4017233-8"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1125404795",
+            "sameAs": "Kübler, Thomas"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universität Tübingen"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4136909-9",
+            "sameAs": "Fahrer"
+        },
+        {
+            "@id": "gnd:4145965-9",
+            "sameAs": "Blickverhalten"
+        },
+        {
+            "@id": "gnd:4172615-7",
+            "sameAs": "Operateur"
+        },
+        {
+            "@id": "gnd:4187713-5",
+            "sameAs": "Vergleich"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A880443081",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 164 Seiten)",
+            "identifier": [
+                "(firstid)BSZ:483402036",
+                "(doi)10.15496/publikation-15862",
+                "(ppn)880443081"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Algorithms for the comparison of visual scan patterns",
+            "abstract": "Unsere Handlungen und Absichten spiegeln sich in den Bewegungen unserer Augen wieder. Die visuelle Exploration wird von einem Mix an kognitiven Prozessen und dem Konflikt sowohl Details erkennen zu können, als auch einen aktuellen Überblick zu bewahren, angetrieben. Deshalb ist es schwierig den Effekt einzelner Verhaltensfaktoren zu isolieren. Diese Arbeit untersucht, wie Augenbewegungssequenzen miteinander verglichen werden können. Dieser Vergleich ist Herzstück fast jeder Eye-Tracking Studie und beantwortet Fragen wie: \"Unterscheidet sich das Blickverhalten einer Patientengruppe von der Kontrollgruppe?\", \"Wie unterscheidet sich das Explorationsverhalten von Experten und Anfängern?\", \"Wie wirkt sich die Komposition eines Bildes auf den Blick des Betrachters aus?\" Dafür sind mehrere Verarbeitungsprozesse der Augenbewegungen notwendig: Die Frage der Datenqualität wird mit Schwerpunkt auf Benchmarks zur Sicherstellung guter Pupillenerkennung, Blickrichtungsbestimmung und Augenbewegungsklassifikation in dynamischen Szenarien behandelt. Außerdem werden Blickdaten mit anderen physiologischen Signalen, wie EKG, Hautleitwert und Pupillendurchmesser kombiniert. Die Fusion dieser sich ergänzenden Sensoren ermöglicht es Blick- und Aufmerksamkeitszuwendung voneinander zu trennen. In dieser Arbeit wird ein neuer Algorithmus für den Vergleich von visuellen Blicksequenzen vorgestellt, der auf Häufigkeitsverteilung kurzer Teilsequenzen in der Gesamtsequenz basiert. Kombiniert mit einem maschinellen Lernverfahren kann sich diese Methode selbstständig an eine Vielzahl von Applikationen anpassen. Visualisierungsformen und Aggregationsmethoden für häufig genutzte Blickpfade, die ebenfalls auf der Annahme basieren, dass diese kurzen Teilsequenzen charakteristisch für viele Anwendungen sind, werden demonstriert. Die vorgestellte Methode wird auf einem neuen Datensatz, der ein breites Spektrum an typischen Eye-Tracking Experimenten enthält, gegen den Stand der Technik evaluiert. Diese Daten enthalten sowohl statische, als auch hochdynamische Realszenarien. So kann die Aufgabenstellung des Betrachters während einer seriellen Suchaufgabe aber auch während der komplexeren Aufgabenstellung des Yarbus Experiments signifikant über der Ratewahrscheinlichkeit klassifiziert werden. Außerdem ist es möglich Fahrtüchtigkeit und durchgeführte Nebenaufgabe eines Fahrzeugführers, sowie den Erfahrungslevel von Chirurgen zu bestimmen. Dieser neuartige Ansatz ist in der Lage den Einfluss einzelner Faktoren auf eine Blicksequenz zu identifizieren. Im Gegensatz zu anderen Methoden generalisiert der Ansatz auf ein breites Spektrum an experimentellen Designs.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1125404795",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4172615-7",
+                "gnd:4136909-9",
+                "gnd:4187713-5",
+                "gnd:4145965-9",
+                "gnd:4040936-3"
+            ],
+            "isLike": "doi:10.15496/publikation-15862",
+            "P60163": "Tübingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

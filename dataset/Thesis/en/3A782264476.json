@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1074045890",
+            "sameAs": "Vogel, Kristin"
+        },
+        {
+            "@id": "gnd:4123823-0",
+            "sameAs": "Naturgefahr"
+        },
+        {
+            "@id": "gnd:4137042-9",
+            "sameAs": "Risikoanalyse"
+        },
+        {
+            "@id": "gnd:4567228-3",
+            "sameAs": "Bayes-Netz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A782264476",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 11441 KB, X, 84 Bl.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Scherbaum, Frank",
+            "identifier": [
+                "(ppn)782264476",
+                "(firstid)DNB:1048476014"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=bk, id=181569981)43.48 - Regionale Umweltprobleme",
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Applications of Bayesian networks in natural hazard assessments",
+            "abstract": "Even though quite different in occurrence and consequences, from a modeling perspective many natural hazards share similar properties and challenges. Their complex nature as well as lacking knowledge about their driving forces and potential effects make their analysis demanding: uncertainty about the modeling framework, inaccurate or incomplete event observations and the intrinsic randomness of the natural phenomenon add up to different interacting layers of uncertainty, which require a careful handling. Nevertheless deterministic approaches are still widely used in natural hazard assessments, holding the risk of underestimating the hazard with disastrous effects. The all-round probabilistic framework of Bayesian networks constitutes an attractive alternative. In contrast to deterministic proceedings, it treats response variables as well as explanatory variables as random variables making no difference between input and output variables. Using a graphical representation Bayesian networks encode the dependency relations between the variables in a directed acyclic graph: variables are represented as nodes and (in-)dependencies between variables as (missing) edges between the nodes. The joint distribution of all variables can thus be described by decomposing it, according to the depicted independences, into a product of local conditional probability distributions, which are defined by the parameters of the Bayesian network. In the framework of this thesis the Bayesian network approach is applied to different natural hazard domains (i.e. seismic hazard, flood damage and landslide assessments). Learning the network structure and parameters from data, Bayesian networks reveal relevant dependency relations between the included variables and help to gain knowledge about the underlying processes. The problem of Bayesian network learning is cast in a Bayesian framework, considering the network structure and parameters as random variables itself and searching for the most likely combination of both, which corresponds to the maximum a posteriori (MAP score) of their joint distribution given the observed data. Although well studied in theory the learning of Bayesian networks based on real-world data is usually not straight forward and requires an adoption of existing algorithms. Typically arising problems are the handling of continuous variables, incomplete observations and the interaction of both. Working with continuous distributions requires assumptions about the allowed families of distributions. To \"let the data speak\" and avoid wrong assumptions, continuous variables are instead discretized here, thus allowing for a completely data-driven and distribution-free learning. An extension of the MAP score, considering the discretization as random variable as well, is developed for an automatic multivariate discretization, that takes interactions between the variables into account. The discretization process is nested into the network learning and requires several iterations. Having to face incomplete observations on top, this may pose a computational burden. Iterative proceedings for missing value estimation become quickly infeasible. A more efficient albeit approximate method is used instead, estimating the missing values based only on the observations of variables directly interacting with the missing variable. Moreover natural hazard assessments often have a primary interest in a certain target variable. The discretization learned for this variable does not always have the required resolution for a good prediction performance. Finer resolutions for (conditional) continuous distributions are achieved with continuous approximations subsequent to the Bayesian network learning, using kernel density estimations or mixtures of truncated exponential functions. All our proceedings are completely data-driven. We thus avoid assumptions that require expert knowledge and instead provide domain independent solutions, that are applicable not only in other natural hazard assessments, but in a variety of domains struggling with uncertainties.",
+            "alternative": "Anwendungen von Bayes&apos;schen Netzen bei der Einschätzung von Naturgefahren",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1074045890",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4567228-3",
+                "gnd:4123823-0",
+                "gnd:4137042-9"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

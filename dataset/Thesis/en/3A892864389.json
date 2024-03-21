@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10049268-X",
+            "sameAs": "Albert-Ludwigs-Universität Freiburg, Fakultät für Mathematik und Physik"
+        },
+        {
+            "@id": "gnd:1038061687",
+            "sameAs": "Patschkowski, Tim"
+        },
+        {
+            "@id": "gnd:108436347X",
+            "sameAs": "Albert-Ludwigs-Universität Freiburg, Abteilung für Mathematische Stochastik"
+        },
+        {
+            "@id": "gnd:2024338-8",
+            "sameAs": "Albert-Ludwigs-Universität Freiburg"
+        },
+        {
+            "@id": "gnd:4139581-5",
+            "sameAs": "Dichte (Stochastik)"
+        },
+        {
+            "@id": "gnd:4226777-8",
+            "sameAs": "Nichtparametrische Statistik"
+        },
+        {
+            "@id": "gnd:4304375-6",
+            "sameAs": "Abschätzung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A892864389",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (177 Seiten)",
+            "identifier": [
+                "(contract)FRUB-opus-12715",
+                "(firstid)DNB:1135134197",
+                "(doi)10.6094/UNIFR/12715",
+                "(ppn)892864389"
+            ],
+            "subject": [
+                "(classificationName=msc)62G07",
+                "(classificationName=msc)62-02",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)62G09",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "New approaches to locally adaptive nonparametric estimation and inference",
+            "abstract": "Abstract: This thesis is concerned with new approaches to locally adaptive estimation and inference. More specifically, this work focusses on estimation and inference related to probability densities in the framework of nonparametric statistics. Indeed, it investigates both on adaptation to lowest density regions and on locally adaptive confidence bands. The two distinct topics are presented in two self-contained chapters. &lt;br&gt;In the first chapter, a scheme for locally adaptive bandwidth selection is proposed which sensitively shrinks the bandwidth of a kernel estimator at lowest density regions, such as the support boundary, which are unknown to the statistician. In case of a Hölder continuous density, this locally minimax-optimal bandwidth is shown to be smaller than the usual rate, even in case of homogeneous smoothness. A new type of risk bound with respect to a density-dependent standardized loss of this estimator is established. This bound is fully non-asymptotic and allows to deduce convergence rates at lowest density regions that can be substantially faster than n^(-1/2). It is complemented by a weighted minimax lower bound which splits into two regimes depending on the value of the density. The new estimator adapts into the second regime, and it is shown that simultaneous adaptation into the fastest regime is not possible in principle as long as the Hölder exponent is unknown. Consequences on plug-in rules for support recovery  are worked out in detail. In contrast to those with classical density estimators, the plug-in rules based on the new construction are minimax-optimal, up to some logarithmic factor. &lt;br&gt;In the second chapter, we develop honest and locally adaptive confidence bands for probability densities. They provide substantially improved confidence statements in case of inhomogeneous smoothness, and are easily implemented and visualized. The thesis contributes conceptual work on locally adaptive inference as a straightforward modification of the global setting imposes severe obstacles for statistical purposes. We introduce a statistical notion of local Hölder regularity and prove a correspondingly strong version of local adaptivity. We substantially relax the straightforward localization of the self-similarity condition in order not to rule out prototypical densities. The set of densities permanently excluded from the consideration is shown to be pathological in a mathematically rigorous sense. On a technical level, the crucial c ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:10049268-X",
+                "gnd:2024338-8",
+                "gnd:1038061687",
+                "gnd:108436347X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4226777-8"
+                },
+                {
+                    "@id": "gnd:4304375-6"
+                },
+                {
+                    "@id": "gnd:4139581-5"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/12715",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

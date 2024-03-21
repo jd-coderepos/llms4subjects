@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4075677-4",
+            "sameAs": "Optischer Sensor"
+        },
+        {
+            "@id": "gnd:4307964-7",
+            "sameAs": "Sensorsystem"
+        },
+        {
+            "@id": "gnd:4311226-2",
+            "sameAs": "Objektverfolgung"
+        },
+        {
+            "@id": "gnd:4582612-2",
+            "sameAs": "Datenfusion"
+        },
+        {
+            "@id": "gnd:4622983-8",
+            "sameAs": "Fahrerassistenzsystem"
+        },
+        {
+            "@id": "gnd:4809985-5",
+            "sameAs": "Radarsensor"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A394337816",
+            "@type": "bibo:Thesis",
+            "P1053": "XVI, 150 S",
+            "creator": "Stüker, Dirk",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)394337816",
+                "(firstid)GBV:394337816"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=bk, id=106416383)55.20 - Straßenfahrzeugtechnik",
+                "(classificationName=linseach:mapping)ver"
+            ],
+            "title": "Heterogene Sensordatenfusion zur robusten Objektverfolgung im automobilen Straßenverkehr",
+            "abstract": [
+                "Future driver assistance systems will require not only information about the current state of a vehicle but also a perception and modelling of the environment. Depending on the complexity of the assistance function it will have a variable scale of details. Safety systems - like automatic breaking - have to meet the highest requirements. The geometric as well as the dynamic parameters of potential collision partners have to be calculated as precisely as possible. Because no state-of-the-art sensor device is able to meet the whole variety of requirements, a sensor data fusion of heterogenous sensors is therefore essential. Here the advantages of radar sensors measuring the dynamic properties of objects can be combined with the advantages of optical sensors measuring their geometric dimension. In order to achieve an optimal fusion, however, different aspects have to be considered. Three of those are covered by this thesis and will be presented after a detailed bibliography: The processing of asynchronous sensor data, an improved sensor model for optical sensors in particular, and finally a fusion architecture for a varying observability of the state vector. This thesis will show different possibilities to modify a Kalman filter architecture in order to stabilize object tracking especially when the perspective is changing - which is typical for overtaking manoeuvres. The advantages of the proposed algorithms will be demonstrated on the basis of real sensor data. &lt;engl.&gt;",
+                "Zukünftige Fahrerassistenzsysteme benötigen neben der Information über den aktuellen Fahrzustand eine Umgebungserfassung und -modellierung. Je nach Komplexität der Assistenzfunktion wird diese einen unterschiedlichen Detaillierungsgrad aufweisen, wobei für Sicherheitssysteme - wie beispielsweise einen automatischen Bremseingriff - die höchsten Anforderungen gelten. Sowohl die geometrischen als auch die dynamischen Merkmale potenzieller Kollisionspartner müssen möglichst genau bestimmt werden. Da keine heute verfügbare Sensorik in der Lage ist, allen Anforderungen gerecht zu werden, ist die Sensordatenfusion von heterogenen Sensoren erforderlich. Hierbei können die Vorteile von Radarsensoren bei der Bestimmung der dynamischen Objekteigenschaften mit den Vorteilen optischer Systeme bei der Bestimmung der geometrischen Merkmale kombiniert werden. Für eine optimale Fusion sind jedoch unterschiedliche Aspekte zu berücksichtigen, von denen im Anschluss an einen umfassenden Literaturüberblick drei behandelt werden: Die Verarbeitung asynchroner Sensordaten, ein verbessertes Sensormodell insbesondere für optische Sensoren und eine Fusionsarchitektur für variable Beobachtbarkeit von Zustandsgrößen. Im Rahmen der Arbeit wird auf konkrete Modifikationsmöglichkeiten einer Kalman-Filter-Architektur eingegangen, um die Objektverfolgung insbesondere beim Wechsel der Perspektive - wie sie beispielsweise bei Überholmanövern auftritt - zu stabilisieren. Die Vorteile der vorgestellten Algorithmen werden anhand von realen Messdaten demonstriert. &lt;dt.&gt;"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4622983-8"
+                },
+                {
+                    "@id": "gnd:4075677-4"
+                },
+                {
+                    "@id": "gnd:4311226-2"
+                },
+                {
+                    "@id": "gnd:4582612-2"
+                },
+                {
+                    "@id": "gnd:4809985-5"
+                },
+                {
+                    "@id": "gnd:4307964-7"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

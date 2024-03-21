@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:123224748",
+            "sameAs": "Höpfner, Hagen"
+        },
+        {
+            "@id": "gnd:4128256-5",
+            "sameAs": "Änderung"
+        },
+        {
+            "@id": "gnd:4130535-8",
+            "sameAs": "Relationales Datenbanksystem"
+        },
+        {
+            "@id": "gnd:4167271-9",
+            "sameAs": "Leistungsbewertung"
+        },
+        {
+            "@id": "gnd:4170280-3",
+            "sameAs": "Mobilfunk"
+        },
+        {
+            "@id": "gnd:4332175-6",
+            "sameAs": "Datenspeicherung"
+        },
+        {
+            "@id": "gnd:4378490-2",
+            "sameAs": "Abfrageverarbeitung"
+        },
+        {
+            "@id": "gnd:4432978-7",
+            "sameAs": "Endgerät"
+        },
+        {
+            "@id": "gnd:4520996-0",
+            "sameAs": "Client"
+        },
+        {
+            "@id": "gnd:4705888-2",
+            "sameAs": "Relevanz-Feedback"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A483941492",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 142 S., 2550 KB)",
+            "identifier": [
+                "(ppn)483941492",
+                "(firstid)GBV:483941492"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Relevanz von Änderungen für Datenbestände mobiler Clients",
+            "abstract": [
+                "Datenbanken, mobile Clients, Informationssysteme, Kohärenz",
+                "Aufgrund der Entwicklungen auf dem Sektor der Mobiletelefone ist davon auszugehen, dass die Anzahl kleiner, leichtgewichtiger mobiler Endgeräte, welche als Clients von Datenbanksystemen genutzt werden, weiter ansteigt. Ein wesentliches Problem in diesem Szenario ist die langsame und teure Datenübertragung in Funknetzwerken. Aus Sicht der Nutzer derartiger Technologien ist es somit nicht sinnvoll bzw. wünschenswert, Daten, welche keinen direkten Nutzen für sie bieten, auf das Mobilgerät zu übertragen. Des Weiteren werden einmal empfangene Daten lokal gespeichert und wiederverwendet (Caching). Ändern sich Daten auf dem Server des Informationssystems, müssen die mobilen Clients, welche von einer Änderung betroffen sind, ermittelt und darüber informiert werden. Im Rahmen dieser Dissertation wird gezeigt, dass eine derartige exakte Relevanzprüfung nur mithilfe der Daten in der Datenbank realisiert werden kann. Andere Verfahren, welche das Problem auf semantischer Ebene adressieren, funktionieren nur, wenn die unterstützte Anfragesprache stark eingeschränkt wird und können selbst dann zur falschen Feststellung einer Relevanz führen. Insbesonderen in Informationssystemen mit einer großen Anzahl mobiler Clients kommt es dazu, dass verschiedene Nutzer gleiche oder zumindest ähnliche Anfragen stellen. Diese Eigenschaft wird hier genutzt, um basierend auf einer speziellen Anfragenotation syntaktisch gleiche Teile mehrerer Anfragen gemeinsam auf Relevanz zu testen. Hierzu werden die Anfragen in einem Anfragebaum gespeichert, welcher die IDs der Clients referenziert. Die Relevanzprüfung erfolgt durch Traversieren des Baumes. In der vorliegenden Arbeit werden verschiedene Anfrageindexstrukturen diskutiert und die Menge der notwendigen Relevanztest formal auf der Basis der Relationenmodells hergeleitet. Abschließend werden die theoretisch erarbeiteten Techniken evaluiert und Vorschläge für ihre Optimierung diskutiert."
+            ],
+            "alternative": "Update relevance for data on mobile clients",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:123224748",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4378490-2",
+                "gnd:4332175-6",
+                "gnd:4170280-3",
+                "gnd:4167271-9",
+                "gnd:4705888-2",
+                "gnd:4432978-7",
+                "gnd:4520996-0",
+                "gnd:4128256-5",
+                "gnd:4130535-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

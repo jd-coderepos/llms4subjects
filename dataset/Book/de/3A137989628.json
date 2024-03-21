@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:116019891",
+            "sameAs": "Bab, Julius"
+        },
+        {
+            "@id": "gnd:118540238",
+            "sameAs": [
+                "Goethe, Johann Wolfgang",
+                "Goethe, Johann Wolfgang von 1749-1832"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A137989628",
+            "@type": "bibo:Book",
+            "P1053": "120 S",
+            "description": [
+                "25 cm",
+                "Ill"
+            ],
+            "identifier": [
+                "(firstid)GBV:137989628",
+                "(ppn)137989628"
+            ],
+            "publisher": "Meyer-Ilschen",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur"
+            ],
+            "title": "Das Leben Goethes : eine Botschaft",
+            "abstract": "Titel enth. in den \"Schwarzen Listen\", die während des NS-Terrors den Bücherverbrennungen 1933 zugrunde lagen",
+            "contributor": "gnd:118540238",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:116019891",
+            "issued": "1922",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118540238"
+            },
+            "P30128": "Dichtung und Dichter",
+            "P60163": "Stuttgart"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

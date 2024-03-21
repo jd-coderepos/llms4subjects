@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1092325816",
+            "sameAs": "Ruckdeschel, Peter"
+        },
+        {
+            "@id": "gnd:1219467448",
+            "sameAs": "Pluhar, Marius"
+        },
+        {
+            "@id": "gnd:132863510",
+            "sameAs": "Christiansen, Marcus C."
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4057630-9",
+            "sameAs": "Stochastischer Prozess"
+        },
+        {
+            "@id": "gnd:4168923-9",
+            "sameAs": "Markov-Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1737889250",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 218 Seiten, 2,6 MB)",
+            "identifier": [
+                "(firstid)DNB:1219653136",
+                "(ppn)1737889250"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)360",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=linseach:mapping)pae"
+            ],
+            "title": "Finding Markovian models for insurance processes by expanding state spaces",
+            "abstract": [
+                "Variable Length Markov Chains (VLMC) are a subclass of Markov processes. They are able to fully display dependencies in time-homogeneous data while being less complex than a Markov process of sufficiently large order. But VLMC fail to meet requirements of insurance applications, e.g. they cannot display time-dependencies in a natural way. In order to meet those requirements we extend the concept of VLMC and introduce a new class of models: time-inhomogeneous Variable Length Markov Chains (tiVLMC). We propose and implement a fitting algorithm for tiVLMC within an uncensored and a censored data setting. The calculation of prospective reserves is discussed and we train and tune tiVLMC-models on two real life data sets. We also develop smoothing procedures for tiVLMC-models that ensure their interpretability.",
+                "Variable Length Markov Chains (VLMC) sind eine Unterklasse von Markov-Prozessen. Diese Modelle können eine zeithomogene Abhängigkeitsstruktur in Daten erkennen und vollständig wiedergeben, ohne dass zeitgleich ihre Komplexität explodiert. Leider basiert das VLMC-Kalkül aber auf Annahmen, welche im Versicherungskontext klar verletzt sind. Zum Beispiel können VLMC zeitliche Abhängigkeiten nicht auf natürliche Art und Weise modellieren. Wir verallgemeinern das VLMC-Kalkül und entwickeln eine neue Modellklasse: time-inhomogeneous Variable Length Markov Chains (tiVLMC). Wir konstruieren und implementieren einen Algorithmus zur Modellanpassung von tiVLMC an unzensierte als auch an zensierte Daten. Wir diskutieren die Berechnung von Deckungsrückstellungen und stellen konkrete tiVLMC-Modelle für zwei verschiedene Datensätze vor. Außerdem entwickeln wir Verfahren zur Glättung von tiVLMC-Modellen und stellen so die Erklärbarkeit der Modelle sicher."
+            ],
+            "alternative": "Konstruieren von Markov-Modellen für Versicherungsprozesse durch Erweitern des Zustandraumes",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132863510"
+                },
+                {
+                    "@id": "gnd:1092325816"
+                }
+            ],
+            "creator": "gnd:1219467448",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4168923-9"
+                },
+                {
+                    "@id": "gnd:4001183-5"
+                },
+                {
+                    "@id": "gnd:4057630-9"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4057833-1",
+            "sameAs": "Strahlentherapie"
+        },
+        {
+            "@id": "gnd:4127470-2",
+            "sameAs": "Dosimetrie"
+        },
+        {
+            "@id": "gnd:4162347-2",
+            "sameAs": "Ionenstrahl"
+        },
+        {
+            "@id": "gnd:4240945-7",
+            "sameAs": "Monte-Carlo-Simulation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A618747052",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (87 S., XXXI Bl. = 10,44 mb)",
+            "contributor": [
+                "Vordermark, Dirk",
+                "Jäkel, Oliver",
+                "Trimper, Steffen"
+            ],
+            "creator": "Henkner, Katrin",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:618747052",
+                "(doi)10.25673/104",
+                "(ppn)618747052"
+            ],
+            "publisher": "Universitäts- und Landesbibliothek Sachsen-Anhalt",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=ddc)615.842",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=bk, id=106409360)44.64 - Radiologie"
+            ],
+            "title": "Monte Carlo simulations for dosimetry and treatment planning in hadron therapy",
+            "abstract": [
+                "Um in der Strahlentherapie von der im Vergleich zu Photonen erhöhten Dosiskonformität mit Protonen und Schwerionen profitieren zu können, müssen die Dosimetrie und die Bestrahlungsplanung verbessert werden. Dosisverteilungen werden klinisch mit Näherungsalgorithmen berechnet. Monte Carlo (MC) Methoden ermöglichen jedoch eine viel genauere Berechnung von Dosis und Reichweite. In dieser Arbeit wird das MC Programm SHIELD-HIT verwendet um die Genauigkeit des Näherungsverfahrens zu untersuchen und Skalierungsmethoden zu entwickeln. Weiterhin wird das Ionisierungspotential für Wasser neu bestimmt, was die Berechnung von Reichweiten erheblich verbessert. Es wird erstmalig das Verhältnis der Massenbremsvermögen Wasser/Luft für Ionen mit MC bestimmt, welches Dosismessungen erheblich verbessert. SHIELD-HIT wird an experimentelle Winkel- und Tiefenverteilungen sowie Ladungsmessungen angepasst, was die Berechnung von biologischer und physikalischer Dosis verbessert. Als eine direkt klinisch relevante Anwendung, wurde die Neutronenbelastung, des Patienten bei Kohlenstoffbestrahlung untersucht.",
+                "Monte Carlo; Heavy Ion Therapy; SHIELD-HIT; Heavy Ion Treatment Planning; Heavy Ion Dosimetry; I-value",
+                "Monte Carlo; Schwerionentherapie; SHIELD-HIT; Schwerionen -Bestrahlungsplanung; Schwerionen – Dosimetrie, Ionisationspotential"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4127470-2",
+                "gnd:4240945-7",
+                "gnd:4057833-1",
+                "gnd:4162347-2"
+            ],
+            "isLike": "doi:10.25673/104"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

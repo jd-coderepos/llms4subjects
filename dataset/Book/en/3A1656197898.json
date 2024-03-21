@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4059318-6",
+            "sameAs": "Teilchenbeschleuniger"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4734701-6",
+            "sameAs": "Programmcode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1656197898",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXIII, 347 p. 11 illus. in color, online resource)",
+            "creator": "Forest, Etienne",
+            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1656197898",
+                "(doi)10.1007/978-4-431-55803-3",
+                "(firstid)BSZ:468155805",
+                "(isbn13)9784431558033"
+            ],
+            "publisher": "Springer Japan",
+            "subject": [
+                "Particle acceleration",
+                "Physics",
+                "(classificationName=ddc)539.73",
+                "(classificationName=linseach:mapping)phy",
+                "Computer programming",
+                "(classificationName=bk, id=10640749X)33.50 - Physik der Elementarteilchen und Felder: Allgemeines",
+                "(classificationName=bk, id=106408038)33.40 - Kernphysik",
+                "(classificationName=loc)QC770-798"
+            ],
+            "title": "From Tracking Code to Analysis : Generalised Courant-Snyder Theory for Any Accelerator Model",
+            "abstract": [
+                "This book illustrates a theory well suited to tracking codes, which the author has developed over the years. Tracking codes now play a central role in the design and operation of particle accelerators. The theory is fully explained step by step with equations and actual codes that the reader can compile and run with freely available compilers. In this book, the author pursues a detailed approach based on finite “s”-maps, since this is more natural as long as tracking codes remain at the centre of accelerator design. The hierarchical nature of software imposes a hierarchy that puts map-based perturbation theory above any other methods. The map-based approach, perhaps paradoxically, allows ultimately an implementation of the Deprit-Guignard-Schoch algorithms more faithful than anything found in the standard literature. This hierarchy of methods is not a personal choice: it follows logically from tracking codes overloaded with a truncated power series algebra package. After defining abstractly and briefly what a tracking code is, the author illustrates most of the accelerator perturbation theory using an actual code: PTC. This book may seem like a manual for PTC; however, the reader is encouraged to explore other tools as well. The presence of an actual code ensures that readers will have a tool with which they can test their understanding. Codes and examples will be available from various sites since PTC is in MAD-X (CERN) and BMAD (Cornell).",
+                "Introduction -- The linear transverse normal form: one degree of freedom -- The nonlinear transverse normal form: one degree of freedom -- Classification of linear normal forms -- Nonlinear normal forms -- Spin normal form -- The nonlinear spin-orbital phase advance: the mother of all algorithms -- Deprit-Guignard perturbation theory faithful to the code -- Here is the conclusion of this book -- Phasors basis: why do I reject symplectic phasors? -- The logarithm of a map -- Stroboscopic average for the ISF vector n -- Hierarchy of Analytical Methods."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-PHA",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXP"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4734701-6"
+                },
+                {
+                    "@id": "gnd:4059318-6"
+                },
+                {
+                    "@id": "gnd:4148259-1"
+                }
+            ],
+            "isLike": "doi:10.1007/978-4-431-55803-3",
+            "P30128": [
+                "Bücher",
+                "SpringerLink"
+            ],
+            "P60163": "[Tokyo]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

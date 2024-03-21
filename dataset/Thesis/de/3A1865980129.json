@@ -1,0 +1,124 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universität Hamburg"
+        },
+        {
+            "@id": "gnd:1120147859",
+            "sameAs": "Technische Universität Hamburg, Institut für Fluiddynamik und Schiffstheorie"
+        },
+        {
+            "@id": "gnd:1149184019",
+            "sameAs": "Kriegesmann, Benedikt"
+        },
+        {
+            "@id": "gnd:122358910",
+            "sameAs": "Rung, Thomas"
+        },
+        {
+            "@id": "gnd:1251328938",
+            "sameAs": "Pache, Rupert"
+        },
+        {
+            "@id": "gnd:4000589-6",
+            "sameAs": "Aerodynamik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1865980129",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (184 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1865980129",
+                "(firstid)KXP:1865980129",
+                "(doi)10.15480/882.8718"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "Numerische Strömungssimulation",
+                "(classificationName=ddc)620: Engineering and Applied Operations",
+                "Umströmung",
+                "(classificationName=linseach:mapping)phy",
+                "Strömungsfeld",
+                "Aerodynamik",
+                "(classificationName=linseach:mapping)tec",
+                "Windkanal",
+                "Fluid-Struktur-Wechselwirkung",
+                "Mathematisches Modell",
+                "(classificationName=bk, id=106413783)50.33 - Technische Strömungsmechanik",
+                "(classificationName=ddc-dbn)623.82"
+            ],
+            "title": "Datenbasierte Modellierung der aerodynamischen Lasten auf Überwasserschiffe",
+            "abstract": [
+                "The aerodynamic loads on the superstrucure of ships are influenced by different environmental and operational parameters. In order to determine the loads depending on the system parameters on board in near-real time, data-based surrogate models are developed. High-resolution pressure fields based on hybrid RANS/LES simulations are used as data basis. For the data basis a dimension reduction is performed. To create a fully parametrized model, the functional relationship between the system parameters and the model coefficients is represented by a regression. The surrogate modelling allows an efficient and accurate prediction of the pressure fields and resulting loads for arbitrary values of the system parameters.",
+                "Die aerodynamischen Lasten auf Überwasserschiffe werden von unterschiedlichen Umwelt- und Betriebsparametern beeinflusst. Um die Lasten in Abhängigkeit der Systemparameter an Bord in nahezu-Echtzeit bestimmen zu können, werden Ersatzmodelle entwickelt. Als Datengrundlage dienen hochaufgelöste Druckfelder basierend auf hybriden RANS/LES-Simulationen. Für die Datenbasis wird eine Dimensionsreduktion durchgeführt. Um ein vollständig parametrisiertes Modell zu erstellen, wird der funktionale Zusammenhang zwischen den Systemparametern und den Modellkoeffizienten durch eine Regression abgebildet. Die Surrogate-Modellierung ermöglicht die effiziente Vorhersage des Druckfeldes und der Lasten für beliebige Werte der Systemparameter."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122358910"
+                },
+                {
+                    "@id": "gnd:1149184019"
+                }
+            ],
+            "creator": [
+                "gnd:1112763473",
+                "gnd:1251328938",
+                "gnd:1120147859"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4000589-6"
+            },
+            "isLike": "doi:10.15480/882.8718",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1013575695",
+            "sameAs": "Drumm, Helge"
+        },
+        {
+            "@id": "gnd:123291968",
+            "sameAs": "Smolić, Aljoscha"
+        },
+        {
+            "@id": "gnd:130001112",
+            "sameAs": "Brandenburg, Karlheinz"
+        },
+        {
+            "@id": "gnd:142882445",
+            "sameAs": "Seidel, Hans-Peter"
+        },
+        {
+            "@id": "gnd:4052097-3",
+            "sameAs": "Schatten"
+        },
+        {
+            "@id": "gnd:4402508-7",
+            "sameAs": "Interaktives Video"
+        },
+        {
+            "@id": "gnd:4601677-6",
+            "sameAs": "MPEG 4"
+        },
+        {
+            "@id": "gnd:7519196-9",
+            "sameAs": "Dreidimensionales Video"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A664257623",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 185 S., 23,8 MB)",
+            "identifier": [
+                "(ppn)664257623",
+                "(firstid)GBV:664257623"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)621.3",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.69",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Interaktive Darstellung von Schatten auf Basis von MPEG-4 Szenenbeschreibungen",
+            "abstract": "In der vorliegenden Arbeit konnte verdeutlicht werden, welche Eigenschaften Schatten haben und aus welchen wahrnehmungspsychologischen Gründen auf deren Verwendung bei interaktiven Darstellungen nicht grundsätzlich verzichtet werden kann. Dabei wurde mit Beispielen belegt, dass Schatten in vielen Fällen zu einer deutlich besseren Wahrnehmung führen. Als ein weiteres Ergebnis dieser Arbeit wurde eine allgemein gültige Methode entwickelt, mit deren Hilfe sich Schattenbeziehungen in Szenengraphen mathematisch ausdrücken lassen. Deren Ergebnis ist die entwickelte Theorie der Schattenrelation. Diese besagt, dass sich mit der Festlegung von Objektbeziehungen zwischen Lichtquellen l, Oberflächen o und Schattenobjekten s in einem Szenengraph als 3-Tupel (l, o, s) eine berechenbare Schattenrelation ergibt. Für die 3-Tupel (l, o, s) einer Schattenrelation wurden Evaluationskriterien definiert und Methoden entwickelt, die es ermöglichen, die Wahrscheinlichkeit der Schattenentstehung durch den Ausschluss von 3-Tupeln zu erhöhen. So lassen sich mit diesen Werkzeugen bereits auf einem sehr niedrigen Abstraktionsniveau Optimierungen durchführen. Der MPEG-4 AFX Standard hat sich für eine normierte Schattenbeschreibung als ein hervorragendes Integrationsumfeld erwiesen. Die MPEG-4 SDL wurde in den Kontext formaler Sprachen eingeordnet. Zur Einbindung der Schattenbeschreibung in die MPEG-4 SDL wurden die bestehenden Randbedingungen untersucht. Mit den vorgestellten mathematischen und sprachlichen Grundlagen wurde eine Syntax und Semantik geschaffen, die sich nahtlos in die existierende SDL eingliedert. Dabei wurden die bestehenden Definitionen weder geändert, noch in irgendeiner Weise negativ beeinflusst. Der Shadow Knoten ermöglicht die Erzeugung von Occludern, Receivern und körperbehafteten Lichtquellen zur Schattendarstellung durch den Autor einer MPEG-4 Szene bei Anwendung der neu entwickelten Schattenbeschreibung. Für die auftretenden Spezialfälle der Semantik wurden attraktive Lösungen gefunden. Trotzdem ist die Schattenbeschreibung für den Autor einer MPEG-4 Szene einfach und flexibel geblieben. Die Anwendung dieser genormten Schattenbeschreibung kann sich positiv auf die Verbreitung des Standards selbst auswirken, da interaktive Darstellungen mit Schatten eine neue Qualität bieten. Die Schattenbeschreibung wurde unabhängig von Berechnungsverfahren definiert. Das hat den Vorteil, dass diese ohne Anpassungsprobleme auf andere szenengraph-basierte 3D-Beschreibungen übertragen werden kann und für künftige Entwicklungen in Hard und Software weit offen ist. Spinnt man den Faden noch weiter, dann kann man feststellen, dass das Prinzip einer Relation auch auf die Beschreibung von Reflexionen übertragen werden könnte, da es sich gleichfalls um Vorgänge handelt, die sich als Objektbeziehungen ausdrücken lassen. Für die Integration in den MPEG-4 AFX Standard müssten dann aber in jedem Fall die dafür bestehenden Randbedingungen erfüllt werden. Auch die Methoden zur Optimierung der dabei verwendeten Tupel würden sich von den hier beschriebenen Verfahren unterscheiden. Die technische Umsetzung der grundlegenden Konzepte konnte erfolgreich durchgeführt werden. Die Darstellung von Schatten im Kontext eines lokalen Beleuchtungsmodells wurde mit der Verwendung von Depth-Shadow Mapping, Per-Pixel Beleuchtung und Per-Pixel Attenuation realisiert. Die exakte Darstellung von diffusen und von spekularen Reflexionen sowie die Verwendung des Wirkungsbereichs von Lichtquellen wurde erreicht. Das entwickelte Multipass-Rendering Verfahren ist in der Lage, die durch den Autor festgelegten Schatteneigenschaften cast und receive für das Depth Shadow Mapping Verfahren zu berücksichtigen. Zum Nachweis der Funktionalität des Attributs penumbra des Shadow Knotens wurde das Verfahren der Jittering Lights mit fünf Samples verwendet. Die damit erreichte Interaktivität war zwar ausreichend, aber nicht wirklich überzeugend. Eine größere Verarbeitungsgeschwindigkeit könnte mit der Single Sample Shadows Methode erreicht werden, da hier nur ein Pass für die Penumbraberechnung ausreicht. Trotzdem wurde die Interaktivität bei moderater Komplexität der Szenen bereits mit gängiger PC-Konsumer-Hardware nachgewiesen. Dazu wurde ein PC mit einer Intel Pentium 4 CPU mit 3.2 GHz und einer GForceFX 5600 Grafikkarte verwendet. Aufgrund der vielen Fragmentoperationen im Texturspeicher hat sich die Bandbreite zur Adressierung des Texturspeichers als ein Schwachpunkt erwiesen. Es ist deshalb darauf zu achten, dass die Grafikkarte zur Adressierung des Texturspeichers möglichst 256 Bit verwendet. Wenn man sich die Frage stellt wo der Trend in der Entwicklung der Grafikhardware für Schattenberechnung hingeht, dann ist denkbar, dass sich spezielle Hardware für interaktives Ray Tracing in den nächsten Jahren durchsetzen kann. Endlich wäre man in der Lage die Attribute für eine physikalisch basierte Lichtausbreitung in die Beschreibung der vorhandenen Tools aufzunehmen. Das Anwendungsfeld für MPEG-4 AFX Szenen bliebe somit nicht nur auf den High-End Bereich beschränkt. Das in dieser Arbeit entwickelte Konzept zur Schattenbeschreibung auf der Basis einer Schattenrelation lässt sich ohne weiteres im Umfeld der zukünftigen Entwicklungen im Bereich des Ray Tracings anwenden. Dabei kann die OpenRT API eine Grundlage zur Implementierung in eine Softwareapplikation bieten. Eine wichtige sprachliche Weiterentwicklung im MPEG-4 Standard ist die derzeit forcierte Standardisierung vieler existierender Knoten in XMT-A und XMT-O. Speziell für die Autorensysteme ist XMT-A und XMT-O im Vergleich zu BIFS, als Austauschformat besser, da es jederzeit für den Autor als Klartext lesbar ist. Die Schattendefinition in Form des Shadow Knotens lässt sich mit nur minimalem Aufwand in XMT integrieren. Wie die Ergebnisse der vorliegenden Arbeit belegen, konnten wichtige noch offene Punkte in der Beschreibung von Schatten mit allgemein gültigen Ansätzen gelöst werden. Die Standardisierung des Shadow Knotens im MPEG-4 AFX Standard ist demnächst abgeschlossen. Mit großer Spannung bleibt abzuwarten, wie stark die Resonanz darauf sein wird.",
+            "contributor": [
+                "gnd:142882445",
+                "gnd:123291968",
+                "gnd:130001112"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1013575695",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4052097-3",
+                "gnd:4601677-6",
+                "gnd:4402508-7",
+                "gnd:7519196-9"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

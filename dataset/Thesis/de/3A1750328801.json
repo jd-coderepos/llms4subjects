@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120512726",
+            "sameAs": "Hahn, Axel"
+        },
+        {
+            "@id": "gnd:1226269125",
+            "sameAs": "Walter, Jörg"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "gnd:4012044-2",
+            "sameAs": "Diagramm"
+        },
+        {
+            "@id": "gnd:4047390-9",
+            "sameAs": "Prognose"
+        },
+        {
+            "@id": "gnd:4135913-6",
+            "sameAs": "Task"
+        },
+        {
+            "@id": "gnd:4137876-3",
+            "sameAs": "Energiebedarf"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4532701-4",
+            "sameAs": "Hochleistungsrechnen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1750328801",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (213 Seiten, 29 MB)",
+            "identifier": [
+                "(firstid)DNB:1227579586",
+                "(ppn)1750328801"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.2",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Predicting power and timing of large-scale distributed applications on highly heterogeneous platforms",
+            "abstract": [
+                "Im Bereich des Hoch- und Höchstleistungsrechnens werden hochgradig parallele Anwendungen auf verteilten Systemen mit hunderten von Rechenknoten ausgeführt. Durch die Dimensionen von Plattformen und Programmen sind Vorhersagen über Laufzeit und Energiebedarf dieser Programme schwierig. Zudem behandeln die meisten Vorhersagemethoden nur den Zeitaspekt, da bis vor kurzem der Energiebedarf für die meisten Entwickler keine Bedeutung hatte. Ich stelle in dieser Arbeit einen neuen Ansatz vor, der mit einer Simulationstechnik arbeitet, wie er im Bereich der eingebetteten Systeme verbreitet ist. Will man eine solche Technik auf die Größenordnung von HPC-Systemen anwenden, kann jedoch die eigentliche Anwendungsfunktionalität nicht mehr ausgeführt werden. Stattdessen benutzt die vorgestellte Methodik eine abstrakte Simulation auf Basis von Task-Graphen, wie sie im HPC-Bereich beliebt sind, und die Gemeinsamkeiten mit synchronen Datenflussgraphen aus dem Bereich der eingebetteten Systeme haben.",
+                "Applications in the high-performance computing (HPC) domain are often designed to run on cluster-like distributed platforms with hundreds of nodes. Due to the size of both - applications and platforms - predictions of application run time and energy usage is challenging. Furthermore, most HPC prediction methodologies only address timing, because energy predictions used to have little relevance for HPC application design. I propose a new approach to this challenge based on a simulation technique well known in the embedded computing domain. In order to apply such a methodology at HPC scale, I cannot execute actual applications during simulation. I use abstract simulation based on the Task Graph model of computation, which is popular in HPC and which has properties similar to the synchronous dataflow model that is popular in the embedded domain."
+            ],
+            "alternative": "Vorhersage von Zeit- und Energieverhalten großer verteilter Anwendungen auf hochgradig heterogenen Plattformen",
+            "contributor": [
+                "gnd:17228242X",
+                "gnd:120512726"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1226269125",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4137876-3",
+                "gnd:4532701-4",
+                "gnd:4012044-2",
+                "gnd:4135913-6",
+                "gnd:4047390-9",
+                "gnd:4148259-1"
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

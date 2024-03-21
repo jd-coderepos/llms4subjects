@@ -1,0 +1,124 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:11384610X",
+            "sameAs": "Brunnett, Guido"
+        },
+        {
+            "@id": "gnd:128935308",
+            "sameAs": "Michalik, Pavol"
+        },
+        {
+            "@id": "gnd:130020729",
+            "sameAs": "Brüderlin, Beat"
+        },
+        {
+            "@id": "gnd:4069794-0",
+            "sameAs": "CAD"
+        },
+        {
+            "@id": "gnd:4154388-9",
+            "sameAs": "Filter (Mathematik)"
+        },
+        {
+            "@id": "gnd:4182396-5",
+            "sameAs": "Spline-Interpolation"
+        },
+        {
+            "@id": "gnd:4198736-6",
+            "sameAs": "Freiformfläche"
+        },
+        {
+            "@id": "gnd:4348101-2",
+            "sameAs": "Singulärwertzerlegung"
+        },
+        {
+            "@id": "gnd:4384798-5",
+            "sameAs": "B-Spline"
+        },
+        {
+            "@id": "gnd:4567206-4",
+            "sameAs": "Constraint-Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A380028387",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 152 S., 2249 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Hagen, Hans",
+            "identifier": [
+                "(firstid)GBV:380028387",
+                "(ppn)380028387"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc)620.00420285",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=10642002X)52.72 - Fertigungsautomatisierung"
+            ],
+            "title": "Methods for constraint-based conceptual free-form surface design",
+            "abstract": "Der constraint-basierte Entwurf von Freiformflächen ist eine mächtige Methode im Computer gestützten Entwurf. Bekannte Realisierungen beschränken sich jedoch meist auf Interpolation von Rand- und isoparametrischen Kurven. In diesem Zusammenhang sind die sog. \"Multi-patch\" Methoden die am weitesten verbreitete Vorgehensweise. Hier versucht man Flächenverbände aus einem Netz von dreidimensionalen Kurven (oft gemischt mit unstrukturierten Punktewolken) derart zu generieren, dass die Kurven und Punkte von den Flächen interpoliert werden. Die Kurven werden als Ränder von rechteckigen oder dreieckigen bi-polynomialen oder polynomialen Flächen betrachtet. Unter dieser Einschränkung leidet die Flexibilität des Verfahrens. In dieser Dissertation schlagen wir vor, beliebige, d.h. auch nicht iso-parametrische, Kurven zu verwenden. Dadurch ergeben sich folgende Vorteile: Erstens kann so beispielsweise eine B-spline Fläche entlang einer benutzerdefinierten Kurve verformt werden während andere Kurven oder Punkte fixiert sind. Zweitens, kann eine B-spline Fläche Kurven interpolieren, die sich nicht auf iso-parametrische Linien der Fläche abbilden lassen. Wir behandeln drei Arten von Constraints: Inzidenz einer beliebigen Kurve auf einer B-spline Fläche, Fixieren von Flächennormalen entlang einer beliebigen Kurve (dieser Constraint dient zur Herstellung von tangentialen Übergängen zwischen zwei Flächen) und die sog. Variational Constrains. Letztere dienen unter anderem zur Optimierung der physikalischen und optischen Eigenschaften der Flächen. Es handelt sich hierbei um die Gausschen Normalgleichungen der Flächenfunktionale zweiter Ordnung, wie sie in der Literatur bekannt sind. - Die Dissertation gliedert sich in zwei Teile. Der erste Teil befasst sich mit der Aufstellung der linearen Gleichungssysteme, welche die oben erwähnten Constraints repräsentieren. Der zweite Teil behandelt Methoden zum Lösen dieser Gleichungssysteme. - Der Kern des ersten Teiles ist die Erweiterung und Generalisierung des auf Polarformen (Blossoms) basierenden Algorithmus für Verkettung von Polynomen auf Bezier und B-spline Basis: Gegeben sei eine B-spline Fläche und eine B-spline Kurve im Parameterraum der Fläche. Wir zeigen, dass die Kontrollpunkte der dreidimensionalen Flächenkurve, welche als polynomiale Verkettung der beiden definiert ist, durch eine im Voraus berechenbare lineare Tranformation (eine Matrix) der Flächenkontrollpunkte ausgedrückt werden können. Dadurch können Inzidenzbeziehungen zwischen Kurven und Flächen exakt und auf eine sehr elegante und kompakte Art definiert werden. Im Vergleich zu den bekannten Methoden ist diese Vorgehensweise effizienter, numerisch stabiler und erhöht nicht die Konditionszahl der zu lösenden linearen Gleichungen. Die Effizienz wird erreicht durch Verwendung von eigens dafür entwickelten Datenstrukturen und sorgfältige Analyse von kombinatorischen Eigenschaften von Polarformen. - Die Gleichungen zur Definition von Tangentialitäts- und Variational Constraints werden als Anwendung und Erweiterung dieses Algorithmus implementiert. Beschrieben werden auch symbolische und numerische Operationen auf B-spline Polynomen (Multiplikation, Differenzierung, Integration). Dabei wird konsistent die Matrixdarstellung von B-spline Polynomen verwendet. - Das Lösen dieser Art von Constraintproblemen bedeutet das Finden der Kontrollpunkte einer B-spline Fläche derart, dass die definierten Bedingungen erfüllt werden. Dies wird durch Lösen von, im Allgemeinen, unterbestimmten und schlecht konditionierten linearen Gleichungssystemen bewerkstelligt. Da in solchen Fällen keine eindeutige, numerisch stabile Lösung existiert, führen die üblichen Methoden zum Lösen von linearen Gleichungssystemen nicht zum Erfolg. - Wir greifen auf die Anwendung von sog. Regularisierungsmethoden zurück, die auf der Singulärwertzerlegung (SVD) der Systemmatrix beruhen. Insbesondere wird die L-curve eingesetzt, ein \"numerischer Hochfrequenzfilter\", der uns in die Lage versetzt eine stabile Lösung zu berechnen. Allerdings reichen auch diese Methoden im Allgemeinen nicht aus, eine Fläche zu generieren, welche die erwünschten ästhetischen und physikalischen Eigenschaften besitzt. Verformt man eine Tensorproduktfläche entlang einer nicht isoparametrischen Kurve, entstehen unerwünschte Oszillationen und Verformungen. Dieser Effekt wird \"Surface-Aliasing\" genannt. Wir stellen zwei Methoden vor um diese Aliasing-Effekte zu beseitigen: Die erste Methode wird vorzugsweise für Deformationen einer existierenden B-spline Fläche entlang einer nicht isoparametrischen Kurve angewendet. Es erfogt eine Umparametrisierung der zu verformenden Fläche derart, dass die Kurve in der neuen Fläche auf eine isoparametrische Linie abgebildet wird. Die Umparametrisierung einer B-spline Fläche ist keine abgeschlossene Operation; die resultierende Fläche besitzt i.A. keine B-spline Darstellung. Wir berechnen eine beliebig genaue Approximation der resultierenden Fläche mittels Interpolation von Kurvennetzen, die von der umzuparametrisierenden Fläche gewonnen werden. Die zweite Methode ist rein algebraisch: Es werden zusätzliche Bedingungen an die Lösung des Gleichungssystems gestellt, die die Aliasing-Effekte unterdrücken oder ganz beseitigen. Es wird ein restriktionsgebundenes Minimum einer Zielfunktion gesucht, deren globales Minimum bei \"optimaler\" Form der Fläche eingenommen wird. Als Zielfunktionen werden Glättungsfunktionale zweiter Ordnung eingesetzt. Die stabile Lösung eines solchen Optimierungsproblems kann aufgrund der nahezu linearen Abhängigkeit des Gleichungen nur mit Hilfe von Regularisierungsmethoden gewonnen werden, welche die vorgegebene Zielfunktion berücksichtigen. Wir wenden die sog. Modifizierte Singulärwertzerlegung in Verbindung mit dem L-curve Filter an. Dieser Algorithmus minimiert den Fehler für die geometrischen Constraints so, dass die Lösung gleichzeitig möglichst nah dem Optimum der Zielfunktion ist.",
+            "contributor": [
+                "gnd:11384610X",
+                "gnd:130020729"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:128935308",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4198736-6",
+                "gnd:4567206-4",
+                "gnd:4384798-5",
+                "gnd:4182396-5",
+                "gnd:4348101-2",
+                "gnd:4154388-9",
+                "gnd:4069794-0"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

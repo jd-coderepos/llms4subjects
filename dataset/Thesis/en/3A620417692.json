@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4115453-8",
+            "sameAs": "Optionspreis"
+        },
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "gnd:4463623-4",
+            "sameAs": "Lévy-Prozess"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A620417692",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 169 S., 17,9 MB)",
+            "creator": "Quecke, Sebastian",
+            "identifier": [
+                "(firstid)GBV:620417692",
+                "(ppn)620417692"
+            ],
+            "publisher": "Niedersächsische Staats- und Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106414763)85.30 - Investition, Finanzierung",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc)332.632283015185"
+            ],
+            "title": "Efficient numerical methods for pricing American options under Lévy models",
+            "abstract": "Two new numerical methods for the valuation of American and Bermudan options are proposed, which admit a large class of asset price models for the underlying. In particular, the methods can be applied with Lévy models that admit jumps in the asset price. These models provide a more realistic description of market prices and lead to better calibration results than the well-known Black-Scholes model. The proposed methods are not based on the indirect approach via partial differential equations, but directly compute option prices as risk-neutral expectation values. The expectation values are approximated by numerical quadrature methods. While this approach is initially limited to European options, the proposed combination with interpolation methods also allows for pricing of Bermudan and American options. Two different interpolation methods are used. These are cubic splines on the one hand and a mesh-free interpolation by radial basis functions on the other hand. The resulting valuation methods allow for an adaptive space discretization and error control. Their numerical properties are analyzed and, finally, the methods are validated and tested against various single-asset and multi-asset options under different market models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4115453-8",
+                "gnd:4128130-5",
+                "gnd:4463623-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

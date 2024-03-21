@@ -1,0 +1,143 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1015214991",
+            "sameAs": "Gürlebeck, Klaus"
+        },
+        {
+            "@id": "gnd:1120622646",
+            "sameAs": "Rabczuk, Timon"
+        },
+        {
+            "@id": "gnd:1162633700",
+            "sameAs": "Bordas, Stéphane P. A."
+        },
+        {
+            "@id": "gnd:1268719498",
+            "sameAs": "Yousefi, Hassan"
+        },
+        {
+            "@id": "gnd:4044779-0",
+            "sameAs": "Partielle Differentialgleichung"
+        },
+        {
+            "@id": "gnd:4124313-4",
+            "sameAs": "Tichonov-Regularisierung"
+        },
+        {
+            "@id": "gnd:4215427-3",
+            "sameAs": "Wavelet"
+        },
+        {
+            "@id": "gnd:4247928-9",
+            "sameAs": "Adaptives System"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1817267574",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (356 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1817267574",
+                "(ppn)1817267574",
+                "(doi)10.25643/bauhaus-universitaet.4717"
+            ],
+            "subject": [
+                "Mehrskalenanalyse",
+                "Hyperbolische Differentialgleichung",
+                "Erhaltungssatz",
+                "(classificationName=ddc)518",
+                "Numerische Strömungssimulation",
+                "Wavelet",
+                "Adaptives Verfahren",
+                "(classificationName=ddc-dbn)510",
+                "Numerisches Verfahren",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Discontinuous propagating fronts: linear and nonlinear systems",
+            "abstract": "The aim of this study is controlling of spurious oscillations developing around discontinuous solutions of both linear and non-linear wave equations or hyperbolic partial differential equations (PDEs). The equations include both first-order and second-order (wave) hyperbolic systems. In these systems even smooth initial conditions, or smoothly varying source (load) terms could lead to discontinuous propagating solutions (fronts). For the first order hyperbolic PDEs, the concept of central high resolution schemes is integrated with the multiresolution-based adaptation to capture properly both discontinuous propagating fronts and effects of fine-scale responses on those of larger scales in the multiscale manner. This integration leads to using central high resolution schemes on non-uniform grids; however, such simulation is unstable, as the central schemes are originally developed to work properly on uniform cells/grids. Hence, the main concern is stable collaboration of central schemes and multiresoltion-based cell adapters. Regarding central schemes, the considered approaches are: 1) Second order central and central-upwind schemes; 2) Third order central schemes; 3) Third and fourth order central weighted non-oscillatory schemes (central-WENO or CWENO); 4) Piece-wise parabolic methods (PPMs) obtained with two different local stencils. For these methods, corresponding (nonlinear) stability conditions are studied and modified, as well. Based on these stability conditions several limiters are modified/developed as follows: 1) Several second-order limiters with total variation diminishing (TVD) feature, 2) Second-order uniformly high order accurate non-oscillatory (UNO) limiters, 3) Two third-order nonlinear scaling limiters, 4) Two new limiters for PPMs. Numerical results show that adaptive solvers lead to cost-effective computations (e.g., in some 1-D problems, number of adapted grid points are less than 200 points during simulations, while in the uniform-grid case, to have the same accuracy, using of 2049 points is essential). Also, in some cases, it is confirmed that fine scale responses have considerable effects on higher scales.  In numerical simulation of nonlinear first order hyperbolic systems, the two main concerns are: convergence and uniqueness. The former is important due to developing of the spurious oscillations, the numerical dispersion and the numerical dissipation. Convergence in a numerical solution does not guarantee that it is the physical/real one (the uniqueness feature). Indeed, a nonlinear systems can converge to several numerical results (which mathematically all of them are true). In this work, the convergence and uniqueness are directly studied on non-uniform grids/cells by the concepts of local numerical truncation error and numerical entropy production, respectively. Also, both of these concepts have been used for cell/grid adaptations. So, the performance of these concepts is also compared by the multiresolution-based method. Several 1-D and 2-D numerical examples are examined to confirm the efficiency of the adaptive solver. Examples involve problems with convex and non-convex fluxes. In the latter case, due to developing of complex waves, proper capturing of real answers needs more attention. For this purpose, using of method-adaptation seems to be essential (in parallel to the cell/grid adaptation). This new type of adaptation is also performed in the framework of the multiresolution analysis. ...",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1120622646"
+                },
+                {
+                    "@id": "gnd:1015214991"
+                },
+                {
+                    "@id": "gnd:1162633700"
+                }
+            ],
+            "creator": [
+                "gnd:1268719498",
+                "gnd:5180842-0"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4124313-4"
+                },
+                {
+                    "@id": "gnd:4215427-3"
+                },
+                {
+                    "@id": "gnd:4044779-0"
+                },
+                {
+                    "@id": "gnd:4247928-9"
+                }
+            ],
+            "isLike": "doi:10.25643/bauhaus-universitaet.4717",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

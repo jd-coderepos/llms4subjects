@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1106393066",
+            "sameAs": "Saseendran Kumar, Sreedhar"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "gnd:4825546-4",
+            "sameAs": "Bestärkendes Lernen (Künstliche Intelligenz)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1019868015",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (181 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-15396",
+                "(firstid)BSZ:502380055",
+                "(ppn)1019868015",
+                "(doi)10.6094/UNIFR/15396"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc)600",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)600",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "A paradigm for autonomous targeted interaction with biological neuronal networks",
+            "abstract": "Abstract: Targeted interaction with networks in the brain holds immense therapeutic potential as a clinical technique for the treatment of neurological disorders like epilepsy and Parkinson&apos;s Disease. Aided by technological advances, electrical stimulation of the brain is increasingly explored as a therapeutic strategy. Most current approaches involve continuous stimulation with heuristically chosen parameter settings -- the open loop paradigm -- where the influence of ongoing neuronal activity on stimulation outcome is discounted. Consequently, they fail to achieve targeted interaction and may even contribute to stimulus-induced side-effects. To fully leverage electrical stimulation as a therapeutic, augmentative or research tool, there is a need to re-imagine it in a closed-loop setting, where the stimulator is able to respond appropriately to the current `state&apos; of the network.&lt;br&gt;&lt;br&gt;Closed-loop control of neuronal network activity is, however, a highly non-trivial problem. Control strategies typically rely on a suitable dynamical model of the system. However, a broadly accepted mathematical theory for the collective ongoing activity of large neuronal populations is unavailable. The interaction between external stimuli and ongoing activity is also poorly understood and is characterized by irregular and complex dynamics (stochastic, non-linear and non-stationary). Further, in a clinical context, it is often not feasible to specify explicit responses or output patterns a priori, unlike in conventional regulation and tracking problems. Factors like these make it cumbersome to define tractable control problems for biological neuronal networks.&lt;br&gt;&lt;br&gt;How can the closed-loop methodology be exploited to approach neurobiological control problems? In this thesis we propose a novel autonomous paradigm using methods of Reinforcement Learning (RL) to address this challenge. We implemented the technical framework of the paradigm and experimentally assessed its ability to optimize stimulation strategies and adapt to temporal heterogeneities in neuronal network activity.&lt;br&gt;&lt;br&gt;RL emphasizes learning from direct interaction with the system without relying on exemplary supervision or complete models. To develop the concept and algorithms, we established the technical framework of the paradigm with generic neuronal networks in vitro as a model system. These networks retain the richness of cellular level processes and networked neurophysiological mechanisms characteris ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1106393066",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4226127-2",
+                "gnd:4825546-4"
+            ],
+            "isLike": "doi:10.6094/UNIFR/15396",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

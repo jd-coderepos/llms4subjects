@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4123192-2",
+            "sameAs": "Fehlertoleranz"
+        },
+        {
+            "@id": "gnd:4294597-5",
+            "sameAs": "Verteiltes Dateiverwaltungssystem"
+        },
+        {
+            "@id": "gnd:4742677-9",
+            "sameAs": "Datenreplikation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A670981990",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (12 S., 179 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Kolbeck, Björn",
+            "identifier": [
+                "(ppn)670981990",
+                "(firstid)GBV:670981990"
+            ],
+            "publisher": "Konrad-Zuse-Zentrum für Informationstechnik",
+            "subject": [
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Fault-tolerant and decentralized lease coordination in distributed systems",
+            "abstract": "Applications which need exclusive access to a shared resource in dis- tributed systems require a fault-tolerant and scalable mechanism to coordinate this exclusive access. Examples of such applications include distributed file systems and master/slave data replication. We present Flease, an algorithm for decentralized and fault-tolerant lease coordination in distributed systems. Our algorithm allows the pro- cesses competing for a resource to coordinate exclusive access through leases among themselves without a central component. The resulting system easily scales with an increasing number of nodes and resources. We prove that Flease ensures exclusive access, i.e. guarantees that there is at most one valid lease at any time.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4294597-5"
+                },
+                {
+                    "@id": "gnd:4123192-2"
+                },
+                {
+                    "@id": "gnd:4742677-9"
+                }
+            ],
+            "volume": "2010,2",
+            "P30128": "ZIB-Report / Konrad-Zuse-Zentrum für Informationstechnik Berlin",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

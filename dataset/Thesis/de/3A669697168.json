@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1016883226",
+            "sameAs": "Rudolf, Daniel"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4037612-6",
+            "sameAs": "Markov-Kette"
+        },
+        {
+            "@id": "gnd:4508520-1",
+            "sameAs": "Markov-Ketten-Monte-Carlo-Verfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A669697168",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (102 Seiten)",
+            "identifier": [
+                "(firstid)GBV:669697168",
+                "(ppn)669697168"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)a",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)a",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "Explicit error bounds for Markov chain Monte Carlo",
+            "abstract": "Wir beweisen explizite, d.h., nicht-asymptotische Fehlerabschätzungen für Markov-Ketten-Monte-Carlo-Methoden. Ziel ist es, den Erwartungswert einer Funktion f bzgl. eines Maßes π zu berechnen. Verschiedene Konvergenzeigenschaften von Markov-Ketten implizieren verschiedene Fehlerabschätzungen. Für gleichmäßig ergodische und reversible Markov-Ketten beweisen wir eine untere und eine obere Fehlerschranke bzgl. der L2-Norm von f. Wenn eine L2-Spektrallücke existiert, die eine schwächere Konvergenzeigenschaft als die gleichmäßige Ergodizität darstellt, dann zeigen wir eine obere Fehlerschranke bzgl. der Lp-Norm für p&gt;2. Das so genannte Aufwärmen ist ein gebräuchliches Mittel um den Algorithmus abzustimmen. Wir schlagen ein Rezept für die Wahl der Aufärmzeit vor und begründen dieses ausführlich. Die Fehlerabschätzungen werden anschließend auf das Problem der Integration bzgl. einer nicht normierten Dichte angewendet. Genauer gesagt betrachten wir die Integration bzgl. log-konkaver Dichtefunktionen und die Integration über konvexe Körper. Durch die Verwendung des Metropolis-Algorithmus und des Hit-and-run-Algorithmus zeigen wir, dass diese beiden Probleme \"polynomial tractable\" sind.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1016883226"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4037612-6",
+                "gnd:4508520-1"
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

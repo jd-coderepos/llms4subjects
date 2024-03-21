@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1081641991",
+            "sameAs": "Brdar, Slavko"
+        },
+        {
+            "@id": "gnd:4268740-8",
+            "sameAs": "Numerische Wettervorhersage"
+        },
+        {
+            "@id": "gnd:4588309-9",
+            "sameAs": "Diskontinuierliche Galerkin-Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A734396708",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(contract)FRUB-opus-8862",
+                "(ppn)734396708",
+                "(firstid)BSZ:377386707"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)510",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A higher order locally adaptive discontinuous Galerkin approach for atmospheric simulations",
+            "abstract": [
+                "Zusammenfassung: In this study we apply discontinuous Galerkin approach for mesoscale atmospheric simulations. Convection dominated viscous Euler equations are considered. Equations for cloud water and water vapor are contained in the equation set and the viscosity represents a simple turbulence closure. To efficiently discretize the viscous part, a compact discontinuous Galerkin 2 (CDG2) scheme is derived and proved to be stable for Poisson&apos;s equations, for which an error estimate has been derived. The stability requirements for Poisson&apos;s equations seem to hold in the nonlinear case, in both, convection dominated as well as diffusion dominated flow regimes. An adaptive scheme is proposed and compared with a uniform scheme on structured grids using a simple adaptation indicator, and the efficiency of both approaches has been asserted. The time step limitation which naturally appears in multiscale problems when using explicit time stepping, has been addressed by using an appropriate semi-implicit splitting. An efficiency of semi-implicit schemes has been investigated. Finally, a detailed comparison of the implemented DUNE code with the operational code of the German Weather Service (DWD) has been carried out for idealized atmospheric test cases",
+                "Zusammenfassung: In dieser Arbeit, beschäftigen wir uns mit dem discontinuous Galerkin Verfahren für atmosphärische Simulationen auf der Mesoskala. Wir betrachten Eulersche Gleichungen mit Viskosität und dominierter Konvektion. Diese Gleichungen fassen zwei zusätzliche Gleichungen für das Wolkenwasser und der Dampf um. Dabei dient die Viskosität als ein einfachstes Turbulenzmodell. Ein neues Verfahren, namens compact discontinuous Galerkin 2 (CDG2), wird hergeleitet um die Viskosität besser zu diskretisieren. Für dieses Verfahren wird bewiesen dass es eine Fehlerabschätzung für Poissonsche Gleichung erfüllt. Es wird auch gezeigt, dass dieses Verfahren auch für entsprechende nichtlineare Gleichungen, entweder mit dominierter Konvektion oder dominierter Diffusion, gute Ergebnisse ergibt. Weiterhin, schlagen wir einen lokal-adaptiven Indikator vor, und vergleichen das entsprechende Verfahren mit Verfahren auf strukturierten Gittern. Dabei wird die Effizienz beide Verfahren gemessen. Die Zeitschrittlimitierung, die natürlicherweise in Multiskalenproblemen, die explizite Zeitintegration benutzen, auftritt, wird mittels semi-implizites Zeitintegration behoben. Die Effizienz des semi-impliziten Verfahrens wird gemessen und verglichen. Letztendlich, vergleichen wir den implementierten Code mit dem operationellem Code des Deutschen Wetterdiensts (DWD) für einige idealisierte Testfälle"
+            ],
+            "alternative": [
+                "Übers. des Hauptsacht.: Ein lokal-adaptives Discontinuous Galerkin Verfahren höherer Ordnung für atmosphärische Simulationen",
+                "Ein lokal-adaptives Discontinuous Galerkin Verfahren höherer Ordnung für atmosphärische Simulationen"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1081641991",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4268740-8",
+                "gnd:4588309-9"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

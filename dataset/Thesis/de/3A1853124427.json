@@ -1,0 +1,118 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1209157535",
+            "sameAs": "Fränzle, Martin"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "gnd:4767762-4",
+            "sameAs": "Sicherheitskritisches System"
+        },
+        {
+            "@id": "gnd:4844806-0",
+            "sameAs": "Zeitgesteuertes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1853124427",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 114 Seiten, 5 MB)",
+            "creator": "Seyyedi, Razi",
+            "identifier": [
+                "(firstid)DNB:1293490296",
+                "(ppn)1853124427"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004.2",
+                "Eingebettetes System",
+                "Simulation",
+                "(classificationName=ddc-dbn)004",
+                "Task",
+                "Echtzeitsystem",
+                "Systementwurf",
+                "(classificationName=linseach:mapping)inf",
+                "Verifikation",
+                "Computersimulation"
+            ],
+            "title": "Globally Accurate Locally Inaccurate (GALI) : on the combination of time-triggered architectures with instruction accurate simulators for the analysis of system behavior",
+            "abstract": [
+                "Zeitgesteuerte Architekturen werden wegen ihres deterministischen und vorhersehbaren Verhaltens häufig in sicherheitskritischen Systemen eingesetzt. Den bestehenden Lösungen mangelt es jedoch an Beobachtungs- und Fehlerbehebungsmöglichkeiten. Um dieses Problem zu lösen, schlagen wir GALI vor, eine neuartige Simulationstechnik. GALI steht für \"Globally Accurate, Locally Inaccurate\" (global genau, lokal ungenau) und beschleunigt die Simulation von zeitgesteuerten Systemen bei gleichzeitiger Verbesserung der Beobachtbarkeit und Fehlersuche. Es nutzt eine befehlsgenaue Simulation mit einer vorbestimmten zeitgesteuerten Systemkonfiguration und wendet diskrete zeitgesteuerte Ausführung an, um schnelle und genaue Ergebnisse zu erzielen. Das unterstützende Tooling-Ökosystem generiert die erforderliche Infrastruktur. Unsere Evaluierung zeigt, dass GALI ein präzises Verhalten wie zyklusgenaue Simulationen erreicht und einen minimalen Overhead wie ungezeitete Simulationen hat.",
+                "Time-Triggered (TT) architectures are widely used in safety-critical computer systems for their deterministic and predictable behavior. However, existing solutions lack observability and debugging capabilities. To address this, we propose GALI, a novel simulation technique. GALI, which stands for \"Globally Accurate, Locally Inaccurate,\" speeds up the simulation of time-triggered systems while enhancing observability and debugging. It utilizes an instruction-accurate simulation with a predetermined time-triggered system configuration and applies discrete timed execution to produce fast and accurate results. The supporting tooling ecosystem generates platform and application components, including board-support packages, binary files, communication channels, and required infrastructure. Our evaluation demonstrates that GALI achieves precise behavior similar to cycle-accurate simulations while incurring minimal overhead, comparable to untimed simulations."
+            ],
+            "alternative": "Globally Accurate Locally Inaccurate (GALI)$dzur Kombination von zeitgesteuerten Architekturen mit befehlsgenauen Simulatoren für die Analyse des Systemverhaltens",
+            "contributor": [
+                "gnd:1209157535",
+                "gnd:17228242X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4396978-1"
+                },
+                {
+                    "@id": "gnd:4844806-0"
+                },
+                {
+                    "@id": "gnd:4148259-1"
+                },
+                {
+                    "@id": "gnd:4767762-4"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

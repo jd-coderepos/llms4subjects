@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1022346466",
+            "sameAs": "Krauße, Dominik"
+        },
+        {
+            "@id": "gnd:120094665",
+            "sameAs": "Hedrich, Lars"
+        },
+        {
+            "@id": "gnd:133159523",
+            "sameAs": "Sommer, Ralf"
+        },
+        {
+            "@id": "gnd:4112519-8",
+            "sameAs": "Analoge integrierte Schaltung"
+        },
+        {
+            "@id": "gnd:4146535-0",
+            "sameAs": "Breitbandverstärker"
+        },
+        {
+            "@id": "gnd:4155400-0",
+            "sameAs": "Frequenzgang"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A71557499X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 121 S., 7,53 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Hennig, Eckhard",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:71557499X",
+                "(ppn)71557499X"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)m",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)m"
+            ],
+            "title": "Synthese von Frequenzgangskompensationsnetzwerken für integrierte Breitband-Signalverstärker",
+            "abstract": "Die moderne Kommunikationstechnik unterliegt der Forderung, immer größere Datenmengen zu übertragen. Dabei werden z.B. von Sensoren sehr schwache Signale aufgenommen, die anschließend verstärkt werden müssen. Die Signalverstärker, die heutzutage dafür benötigt werden, müssen Frequenzbereiche von Null bis zu mehreren hundert MHz und damit mehrere Frequenzdekaden abdecken. Gleichzeitig wird aufgrund dieser Bandbreitenforderung die Stabilität von Verstärkerschaltungen mit zunehmender Frequenz zu einem Problem in der Schaltungstechnik. Stabilität bedeutet im weitesten Sinne, dass ein Verstärker bei beliebiger Anregung keine Schwingungsneigung am Ausgang zeigt. Üblicherweise wird Stabilität bei Verstärkern dadurch erreicht, indem man den Frequenzgang kompensiert. Das kann dadurch geschehen, dass der Frequenzbereich, in dem der Verstärker zu Schwingungen neigt, durch Kompensationsnetzwerke bedämpft wird und damit keine Anregung durch Rückkopplung auf den Eingang der Schaltung mehr vorhanden ist. Der Nachteil, der dadurch erkauft wird, ist, dass die Bandbreite eines frequenzgangskompensierten Verstärkers gegenüber der unkompensierten aber instabilen Schaltung sehr stark verringert wird. Der Grund dieser Verringerung liegt in der Art und Weise der Kompensationsmethodik. Im Rahmen dieser Arbeit soll ein methodischer Ansatz vorgestellt werden, der automatisch mit Hilfe des Rechners Frequenzgangskompensationsnetzwerke für Breitband-Signalverstärker synthetisiert. Diese Methodik basiert auf der Bestimmung von Eigenwerten und Eigenwertempfindlichkeiten, aus denen Schlussfolgerungen über einzubringende komplexe Kompensationsnetzwerke gezogen werden. Diese Kompensationsnetzwerke werden anschließend mit den Methoden der mathematischen Optimierung dimensioniert und nachträglich mit modernen Schaltungsoptimierern frequenzgangsoptimiert. Der Vorteil des Verfahrens, welches auch direkte Kompensation genannt wird, ist, dass die nun kompensierte Verstärkerschaltung genau für ihren speziellen Anwendungsfall konzipiert ist und somit Bandbreiten erreicht werden, die durch konservative Ansätze nicht möglich waren. Das Syntheseverfahren läuft vollautomatisch ab und kommt ohne Kenntnis der Eigenschaften der Verstärkerstrukturen und ohne Expertenwissen aus. Die gesamte Methodik wird anhand eines Komplettentwurfs eines industriell gefertigten Signalverstärkers für HD-TV-Anwendungen demonstriert.",
+            "contributor": [
+                "gnd:133159523",
+                "gnd:120094665"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1022346466",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4146535-0",
+                "gnd:4112519-8",
+                "gnd:4155400-0"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

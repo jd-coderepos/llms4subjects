@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130224227",
+            "sameAs": "Lambeck, Steven"
+        },
+        {
+            "@id": "gnd:13398169X",
+            "sameAs": "Puta, Horst"
+        },
+        {
+            "@id": "gnd:13398172X",
+            "sameAs": "Günther, Manfred"
+        },
+        {
+            "@id": "gnd:4134711-0",
+            "sameAs": "Zeitdiskretes Regelungssystem"
+        },
+        {
+            "@id": "gnd:4177447-4",
+            "sameAs": "Reglerentwurf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A371244064",
+            "@type": "bibo:Thesis",
+            "P1053": "VIII, 124 S",
+            "http://purl.org/dc/elements/1.1/contributor": "Lunderstädt, Reinhardt",
+            "description": [
+                "graph. Darst",
+                "21 cm"
+            ],
+            "identifier": [
+                "(ean)9783932633799",
+                "(isbn)3932633792",
+                "(firstid)GBV:371244064",
+                "(ppn)371244064"
+            ],
+            "publisher": "ISLE",
+            "subject": [
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik",
+                "(classificationName=dbn)37",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Analyse und Entwurf von Anti-Windup-Erweiterungen für zeitdiskrete Regler im Frequenzbereich",
+            "abstract": "In der vorliegenden Dissertation werden verschiedene Wege der Analyse und des Entwurfs von \"Anti-Windup\"-Erweiterungen (AW-Erweiterungen) für zeitdiskrete Regelkreise mit Stellgrößenbegrenzungen erläutert. Diese Erweiterungen des linear entworfenen Reglers führen im Allgemeinen zu einer deutlichen Verbesserung des Führungs- und Störverhaltens. Nach einer Vorstellung weit verbreiteteter AW-Maßnahmen wird, basierend auf der Interpretation der Stellgrößenbegrenzung als nichtlineare \"Störung\", eine verallgemeinerte Regelkreisstruktur mit AW-Erweiterung eingeführt, die in die Struktur eines nichtlinearen Standardregelkreises umgeformt werden kann. Somit sind Verfahren der Stabilitätsanalyse nichtlinearer Systeme im Frequenzbereich, wie das Popov-Kriterium oder die Methode der harmonischen Balance, anwendbar. Als mögliche Entwurfswege für die AW-Erweiterung werden eine Methode der Pol-Nullstellen-Vorgabe der \"Stör\"-Übertragungsfunktion und eine Methode basierend auf der Nutzung von Frequenzkennlininien des Linearteils des nichtlinearen Standardregelkreises im Bodediagramm vorgeschlagen.  Die zweite Methode erweist sich als besser nutzbar, da hier der Entwurf der AW-Erweiterung unter Beachtung der Stabilitätseigenscchaften des Regelkreises durchgeführt werden kann und durch die Bodediagrammtechnik ein ingenieurtechnisch einfach handhabbares Werkzeug zur Verfügung steht. Eine Verbesserung des Regelverhaltens für Anwendungen in einem großen Arbeitsbereich lässt sich durch eine in dieser Arbeit vorgestellte adaptive Struktur der AW-Erweiterung, in der ein freier Parameter in Abhängigkeit von Dauer und Betrag der Überschreitung der Stellgrößenbegrenzung variiert wird, erreichen. Auf das in der Literatur wenig beachtete Störverhalten von Regelkreisen mit AW-Erweiterung sowie die Berücksichtigung einer Begrenzung der Stellgeschwindigkeit wird ebenfalls im Rahmen dieser Arbeit näher eingegangen. Durch die Nutzung von Frequenzkennlinien ist sowohl eine plausible Erklärung der durch diese Problematik bedingten Effekte als auch ein modifizierter Entwurf der AW-Erweiterung möglich.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:13398172X"
+                },
+                {
+                    "@id": "gnd:13398169X"
+                }
+            ],
+            "creator": "gnd:130224227",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "http://www.gbv.de/dms/ilmenau/abs/371244064lambe.txt",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4134711-0"
+                },
+                {
+                    "@id": "gnd:4177447-4"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/371244064.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "relation": "http://purl.org/dc/terms/relation",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

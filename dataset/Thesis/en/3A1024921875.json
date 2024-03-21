@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2024276-1",
+            "sameAs": "Martin-Luther-Universität Halle-Wittenberg"
+        },
+        {
+            "@id": "gnd:4139305-3",
+            "sameAs": "Zustandsgraph"
+        },
+        {
+            "@id": "gnd:4191095-3",
+            "sameAs": "Zufallsauswahl"
+        },
+        {
+            "@id": "gnd:4277661-2",
+            "sameAs": "Zufallsgraph"
+        },
+        {
+            "@id": "gnd:4508520-1",
+            "sameAs": "Markov-Ketten-Monte-Carlo-Verfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1024921875",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (188 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Brandes, Ulrik",
+                "Müller-Hannemann, Matthias"
+            ],
+            "creator": "Rechner, Steffen",
+            "identifier": [
+                "(firstid)GBV:1024921875",
+                "(ppn)1024921875",
+                "(doi)10.25673/2241"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Markov Chain Monte Carlo algorithms for the uniform sampling of combinatorial objects",
+            "abstract": [
+                "Zufallsauswahl; Markov-Chain Monte Carlo; zufällige Graphen; Binärmatrizen mit beschränkten Randsummen; bipartite Graphen mit beschränkten Knotengraden; perfekte Matchings in bipartiten Graphen; Analyse von Zustandsgraphen",
+                "random sampling; Markov-Chain Monte Carlo; random graphs; binary matrices with restricted margins; bipartite graphs with restricted degrees; perfect matchings in bipartite graphs; state graph analysis",
+                "In dieser Arbeit untersuche ich die Effizienz von Markov-Chain Monte Carlo (MCMC) Algorithmen zum gleichverteilten Erzeugen zufälliger kombinatorischer Strukturen. Zu diesem Zweck habe ich eine Software namens marathon entwickelt, welche ich zur Berechnung struktureller Eigenschaften von Markov-Ketten einsetze, die rein analytisch schwer zu bestimmen wären. Ich verwende diese Software, um MCMC-Algorithmen aus drei Problemklassen zu untersuchen. Zunächst untersuche ich drei bekannte Methoden zum Erzeugen zufälliger bipartiter Graphen mit festen Knotengraden. Unter anderem zeige ich, welcher Algorithmus am besten für den Einsatz in speziellen ökologischen Anwendungen geeignet ist. Anschließend betrachte ich das Erzeugen zufälliger bipartiter Graphen mit beschränkten Knotengraden. Ich führe zwei neue MCMC-Algorithmen ein und untersuche auf experimentellem Wege deren Effizienz. Schließlich analysiere ich Algorithmen zum zufälligen Erzeugen perfekter Matchings in bipartiten Graphen. Dabei identifiziere ich Initialzustände, die eine polynomielle beziehungsweise exponentielle Mischzeit besitzen.",
+                "In this thesis, we discuss a family of sampling methods known as Markov chain Monte Carlo (MCMC) algorithms. To support the analysis of such algorithms,we developed the software tool marathon, designed to determine properties of Markov chains that are usually hard to find analytically. We apply our software to experimentally assess the efficiency of several MCMC algorithms from three sampling applications. First, we address three well-known MCMC algorithms for the uniform sampling of bipartite graphs with fixed degrees. In a set of experiments, we show which sampling algorithm works best in certain types of ecological applications. Motivated by the work with incomplete data, we next address the uniform sampling of bipartite graphs whose degrees lie in prescribed intervals. After introducing two new MCMC algorithms, we give a proof of their correctness and experimentally assess their efficiency. Finally, we address the uniform sampling of perfect matchings in bipartite graphs. In a set of experiments with two special classes of bipartite graphs, we identify initial states that require a polynomial and an exponential number of steps."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2024276-1"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4191095-3",
+                "gnd:4139305-3",
+                "gnd:4277661-2",
+                "gnd:4508520-1"
+            ],
+            "isLike": "doi:10.25673/2241",
+            "P60163": "Halle"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1122649029",
+            "sameAs": "Schüler, Lennart"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universität Jena"
+        },
+        {
+            "@id": "gnd:4026309-5",
+            "sameAs": "Hydrologie"
+        },
+        {
+            "@id": "gnd:4296576-7",
+            "sameAs": "Schadstofftransport"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A880804505",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (116 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:880804505",
+                "(ppn)880804505"
+            ],
+            "subject": [
+                "(classificationName=rvk)TZ 9510",
+                "(classificationName=bk, id=106406957)38.86 - Grundwasser",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Filtered density functions for uncertainty assessments of transport in groundwater",
+            "abstract": "It is estimated that fifty percent of the drinking water is extracted from groundwater sources. But the groundwater quality is threatened by contaminants. Risk assessments are applied to geohydrological systems in order to estimate if they pose a risk through groundwater pollution. These risks not only depend on the impact of the contaminants, but also on the their propagation in the groundwater. Properties of the subsurface have a strong impact on the groundwater flow and therefore also on the transport of solutes. The scarcity of data together with the heterogeneity of the subsurface can cause the uncertainty of the transport predictions to be so large that they cannot be neglected. Consequently, the uncertainty needs to be included in the risk assessments. This is possible by using a geostatistical representation of the subsurface, which results in a probabilistic description of the transport processes. Probability density function (PDF) methods provide an integrated framework to predict the transport of solutes in which uncertainties are incorporated seamlessly. But PDF methods require the assumption of a statistically homogeneous conductivity field. This is problematic. Using spatially averaged quantities instead of stochastic averages, an alternative to PDF methods is found: the filtered density function (FDF) methods. The aim of the research presented here is to develop such an FDF method for predicting the transport in groundwater. Therefore, three steps are necessary. An efficient and accurate numerical solver for FDF equations needs to be developed. In a second step, the parameters contained by the equations have to be filtered. And finally, an appropriate mixing model needs to be found for approximating the unclosed mixing term. The mixing term is of particular interest because it has a direct impact on the uncertainty evolution. In summary, this work contributes towards the development of an FDF framework applied to the transport in groundwater.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1122649029",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4026309-5"
+                },
+                {
+                    "@id": "gnd:4296576-7"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

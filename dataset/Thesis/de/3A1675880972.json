@@ -1,0 +1,127 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1203068662",
+            "sameAs": "Rosenbaum, Tobias"
+        },
+        {
+            "@id": "gnd:143248340",
+            "sameAs": "Petzoldt, Jürgen"
+        },
+        {
+            "@id": "gnd:172662036",
+            "sameAs": "Lindemann, Andreas"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4137133-1",
+            "sameAs": "Punktschweißen"
+        },
+        {
+            "@id": "gnd:4141756-2",
+            "sameAs": "Aktives Filter"
+        },
+        {
+            "@id": "gnd:4150175-5",
+            "sameAs": "Diskrete Fourier-Transformation"
+        },
+        {
+            "@id": "gnd:4307169-7",
+            "sameAs": "Mittelfrequenz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1675880972",
+            "@type": "bibo:Thesis",
+            "P1053": "VIII, 149 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Heck, Thomas",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)1675880972",
+                "(firstid)KXP:1675880972"
+            ],
+            "subject": [
+                "(classificationName=bk, id=181570459)53.03 - Methoden und Techniken der Elektrotechnik",
+                "(classificationName=bk, id=106420070)52.82 - Fügetechnik",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)mas"
+            ],
+            "title": "Realisierung einer dynamischen Oberschwingungskompensation für industrielle Schweißprozesse",
+            "abstract": [
+                "https://www.gbv.de/dms/ilmenau/abs/1675880972rosen.txt",
+                "Die in dieser Arbeit vorgestellte Kompensationslösung ist unter besonderer Beachtung der Eigenschaften von Mittelfrequenzschweißmaschinen entwickelt worden. Aus den Vorgaben war eine frequenzselektiv arbeitende Lösung zu entwickeln. Nach einer Untersuchung von bekannten Oberschwingungsanalysemethoden hinsichtlich ihres dynamischen Verhaltens sind die Oberschwingungsanalysemethoden auf einen typischen Netzstrom einer Punktschweißmaschine angewendet worden. Für die rekursive diskrete Fourieranalyse wurde ein Verfahren entwickelt, um das grenzstabile Verhalten in ein stabiles Verhalten zu überführen. Das Verfahren führt zu keinem Amplitudenfehler, und es sind nur wenige zusätzliche Rechenschritte notwendig, denn es wird auf Zwischenergebnisse der Rechnung zurückgegriffen. Durch die Erweiterung der RDFT um 4 Additionen bzw. Subtraktionen konnte die RDFT in eine RDFT-rKs überführt werden. Die Harmonischen liegen direkt als Gleichgrößen für das Mit- und Gegensystem der symmetrischen Komponenten, bezogen auf entsprechend rotierende Koordinatensysteme, getrennt vor. Auch kann die RDFT-rKs auf die gleiche Weise wie die RDFT in ein stabiles Verhalten gezwungen werden. Für B6C Gleichrichterlasten ist eine Beobachterstruktur für die Anwendung der RDFT-rKs entwickelt worden. Diese ermöglicht für bestimmte Lasten eine Bestimmung der Oberschwingungen in ein Sechstel Netzperiode. Der Oberschwingungsstrom ist 3,33 ms nach einem Sprung bestimmt. Mit dem Beobachter kann die Dynamik um den Faktor sechs erhöht werden. Die Oberschwingungsanalyseverfahren wurden hinsichtlich ihrer Implementierbarkeit in Festkomma-DSP untersucht. Die Grenzen und Einflüsse der Festkommaverarbeitung sind mit in die Auswahl der realisierten Verfahren eingeflossen. Ein Vergleich hinsichtlich des Rechenzeitbedarfs und benötigten Speichers ist für das dqi und die RDFT-rKs dargestellt. Für eine Oberschwingungskompensation sind zwei Hauptkomponenten ausschlaggebend. Zum einen ist eine schnelle Oberschwingungsdetektion erforderlich, um einen Kompensationsstrom vorzugeben, als zweites wird eine Stromquelle benötigt, die den Strom mit einer hinreichenden Dynamik bereitstellen kann. Für den industriellen Einsatz muss die Stromquelle auch einen Kompensationsstrom bereitstellen können, der in einem 4 bis 5 MVA Netz benötigt wird. Um mit verfügbaren Leistungshalbleitern dynamische Stromquellen für Industrienetze zu realisieren ist eine Multiphasentechnik zur Ansteuerung von parallelen Halbleitern untersucht worden. Verschiedene Trägersignale für die Pulsweitenmodulation wurden verglichen."
+            ],
+            "contributor": [
+                "gnd:172662036",
+                "gnd:143248340"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1203068662"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4141756-2"
+                },
+                {
+                    "@id": "gnd:4137133-1"
+                },
+                {
+                    "@id": "gnd:4150175-5"
+                },
+                {
+                    "@id": "gnd:4307169-7"
+                }
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/ilmenau/toc/1675880972.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

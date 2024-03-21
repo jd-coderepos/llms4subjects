@@ -1,0 +1,130 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1116446944",
+            "sameAs": "Vollmer, Christian"
+        },
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Groß, Horst-Michael"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4157147-2",
+            "sameAs": "Geste"
+        },
+        {
+            "@id": "gnd:4208631-0",
+            "sameAs": "Trajektorie (Kinematik)"
+        },
+        {
+            "@id": "gnd:4314440-8",
+            "sameAs": "Merkmalsextraktion"
+        },
+        {
+            "@id": "gnd:4610668-6",
+            "sameAs": "Spärliche Codierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A872003817",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 151 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Giese, Martin",
+                "Eggert, Julian"
+            ],
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)872003817",
+                "(firstid)GBV:872003817"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "subject": [
+                "(classificationName=ddc)006.31",
+                "Anwendungssoftware",
+                "Spärliche Codierung",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Weiterentwicklung und Anwendung von Sparse-Coding-Verfahren für die Analyse von Armbewegungstrajektorien",
+            "abstract": "Eine von vielen Modalitäten zur Vermittlung von Information in Interaktion zwischen Mensch und Maschine ist die Gestik. Mit Hilfe dynamischer Gesten können sowohl Begriffe, als auch Emotionen kommuniziert werden. In dieser Arbeit wird der zeitliche Verlauf der Position einer Gliedmaße bei Ausführung der Geste, die sogenannte Bewegungstrajektorie, betrachtet. Damit eine Maschine Gesten wahrnehmen kann, müssen die Trajektorien mittels Sensoren aufgenommen werden und anschließend durch eine entsprechende Verarbeitung der Daten interpretiert werden. Dabei kommt ein mehrstufiger Mustererkennungsprozess zum Einsatz. Ein Schritt in diesem Prozess ist die Merkmalsextraktion, welche das aufgenommene Signal in einer kompakten Form darstellt. Diese Arbeit widmet sich einer Untersuchung zur Anwendung von Sparse Coding in der Merkmalsextraktion für Bewegungstrajektorien. Sparse Coding kann eine Datenmenge durch eine beschränkte Menge repräsentativer, wiederkehrender Merkmale darstellen. Diese Merkmale werden in einer Lernphase aus Trainingsdaten gelernt und in der Kannphase in einem unbekannten Signal detektiert. Dieses Konzept hat gegenüber konventionellen Methoden zur Merkmalsextraktion in zeitlichen Signalen den Vorteil, dass die Merkmale optimal an die Daten angepasst sind und so die charakteristischen Eigenschaften der Trainingsdaten beschreiben. In dieser Arbeit wird das Verfahren für die Anwendung auf Bewegungstrajektorien optimiert. Es wird untersucht, unter welchen Rahmenbedingungen Sparse Coding für Bewegungstrajektorien anwendbar ist und wie die aufgenommenen Daten vorverarbeitet werden müssen. Des Weiteren werden die Auswirkungen des Verfahrens auf nachgelagerte Verarbeitungsschritte im Mustererkennungsprozess, wie die Klassifikation und die Generierung von Bewegungstrajektorien, betrachtet. Die Leistungsfähigkeit des Verfahrens beim Einsatz in der Gestenerkennung wird in Experimenten anhand eines, im Rahmen dieser Arbeit selbst erstellten, Datensatzes demonstriert. Um die Generalisierbarkeit des Verfahrens auf andere Anwendungsdomänen zu untersuchen, wird es auf Benchmark-Datensätze aus den Bereichen der Activity Recognition und der Handschrifterkennung angewendet. Des Weiteren wird eine echtzeitfähige Implementierung des Verfahrens in einer Demonstrator-Applikation vorgestellt.",
+            "contributor": "gnd:129669806",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1116446944"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4040936-3"
+                },
+                {
+                    "@id": "gnd:4610668-6"
+                },
+                {
+                    "@id": "gnd:4314440-8"
+                },
+                {
+                    "@id": "gnd:4208631-0"
+                },
+                {
+                    "@id": "gnd:4157147-2"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

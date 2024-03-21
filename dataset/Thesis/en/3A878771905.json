@@ -1,0 +1,136 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1030375127",
+            "sameAs": "Beucke, Karl"
+        },
+        {
+            "@id": "gnd:103573382X",
+            "sameAs": "Könke, Carsten"
+        },
+        {
+            "@id": "gnd:1124633405",
+            "sameAs": "Schwedler, Michael"
+        },
+        {
+            "@id": "gnd:131937685",
+            "sameAs": "Rank, Ernst"
+        },
+        {
+            "@id": "gnd:4060592-9",
+            "sameAs": "Tragwerk"
+        },
+        {
+            "@id": "gnd:4376916-0",
+            "sameAs": "NURBS"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universität Weimar"
+        },
+        {
+            "@id": "gnd:7718401-4",
+            "sameAs": "Isogeometrische Analyse"
+        },
+        {
+            "@id": "gnd:7861550-1",
+            "sameAs": "Building Information Modeling"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A878771905",
+            "@type": "bibo:Thesis",
+            "P1053": "xx, 216 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:878771905",
+                "(ppn)878771905"
+            ],
+            "publisher": "Institut für Strukturmechanik",
+            "subject": [
+                "(classificationName=bk, id=10642050X)50.31 - Technische Mechanik",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Integrated structural analysis using isogeometric finite element methods",
+            "abstract": "The gradual digitization in the architecture, engineering, and construction industry over the past fifty years led to an extremely heterogeneous software environment, which today is embodied by the multitude of different digital tools and proprietary data formats used by the many specialists contributing to the design process in a construction project. Though these projects become increasingly complex, the demands on financial efficiency and the completion within a tight schedule grow at the same time. The digital collaboration of project partners has been identified as one key issue in successfully dealing with these challenges. Yet currently, the numerous software applications and their respective individual views on the design process severely impede that collaboration. An approach to establish a unified basis for the digital collaboration, regardless of the existing software heterogeneity, is a comprehensive digital building model contributed to by all projects partners. This type of data management known as building information modeling (BIM) has many benefits, yet its adoption is associated with many difficulties and thus, proceeds only slowly. One aspect in the field of conflicting requirements on such a digital model is the cooperation of architects and structural engineers. Traditionally, these two disciplines use different abstractions of reality for their models that in consequence lead to incompatible digital representations thereof. The onset of isogeometric analysis (IGA) promised to ease the discrepancy in design and analysis model representations. Yet, that initial focus quickly shifted towards using these methods as a more powerful basis for numerical simulations. Furthermore, the isogeometric representation alone is not capable of solving the model abstraction problem. It is thus the intention of this work to contribute to an improved digital collaboration of architects and engineers by exploring an integrated analysis approach on the basis of an unified digital model and solid geometry expressed by splines. In the course of this work, an analysis framework is developed that utilizes such models to automatically conduct numerical simulations commonly required in construction projects. In essence, this allows to retrieve structural analysis results from BIM models in a fast and simple manner, thereby facilitating rapid design iterations and profound design feedback. The BIM implementation Industry Foundation Classes (IFC) is reviewed with regard to its capabilities of representing the unified model. The current IFC schema strongly supports the use of redundant model data, a major pitfall in digital collaboration. Additionally, it does not allow to describe the geometry by volumetric splines. As the pursued approach builds upon a unique model for both, architectural and structural design, and furthermore requires solid geometry, necessary schema modifications are suggested. Structural entities are modeled by volumetric NURBS patches, each of which constitutes an individual subdomain that, with regard to the analysis, is incompatible with the remaining full model. The resulting consequences for numerical simulation are elaborated in this work. The individual subdomains have to be weakly coupled, for which the mortar method is used. Different approaches to discretize the interface traction fields are implemented and their respective impact on the analysis results is evaluated. All necessary coupling conditions are automatically derived from the related geometry model. The weak coupling procedure leads to a linear system of equations in saddle point form, which, owed to the volumetric modeling, is large in size and, the associated coefficient matrix has, due to the use of higher degree basis functions, a high bandwidth. The peculiarities of the system require adapted solution methods that generally cause higher numerical costs than the standard procedures for symmetric, positive-definite systems do. Different methods to solve the specific system are investigated and an efficient parallel algorithm is finally proposed. When the structural analysis model is derived from the unified model in the BIM data, it does in general initially not meet the requirements on the discretization that are necessary to obtain sufficiently accurate analysis results. The consequently necessary patch refinements must be controlled automatically to allowfor an entirely automatic analysis procedure. For that purpose, an empirical refinement scheme based on the geometrical and possibly mechanical properties of the specific entities is proposed. The level of refinement may be selectively manipulated by the structural engineer in charge. Furthermore, a Zienkiewicz-Zhu type error estimator is adapted for the use with isogeometric analysis results. It is shown that also this estimator can be used to steer an adaptive refinement procedure.",
+            "alternative": "Integrierte Tragwerksanalysen mittels isogeometrischer Finite-Elemente-Methoden",
+            "contributor": [
+                "gnd:131937685",
+                "gnd:103573382X",
+                "gnd:1030375127"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1124633405",
+                "gnd:5180842-0"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7861550-1"
+                },
+                {
+                    "@id": "gnd:4060592-9"
+                },
+                {
+                    "@id": "gnd:4376916-0"
+                },
+                {
+                    "@id": "gnd:7718401-4"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/weimar/toc/878771905_toc.pdf",
+            "volume": "2016,2",
+            "P30128": "ISM-Bericht / Institut für Strukturmechanik, Bauhaus-Universität Weimar",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

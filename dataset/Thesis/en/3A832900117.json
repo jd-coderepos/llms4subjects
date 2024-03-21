@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:107495999X",
+            "sameAs": "Muñiz Rodríguez, Marco Antonio"
+        },
+        {
+            "@id": "gnd:4434799-6",
+            "sameAs": "Model Checking"
+        },
+        {
+            "@id": "gnd:4713349-1",
+            "sameAs": "Zeitbehafteter Automat"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A832900117",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(doi)10.6094/UNIFR/10161",
+                "(contract)FRUB-opus-10161",
+                "(ppn)832900117",
+                "(firstid)BSZ:443155577"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Model checking for time division multiple access systems",
+            "abstract": "Zusammenfassung: The TDMA paradigm is often used for safety critical real-time systems. Its basic idea is to allow a large number of components to share a communication channel by assigning them pairwise disjoint time slots for the communication. The thesis shows that one can exploit the specifics of the TDMA paradigm in order to overcome the state explosion problem for TDMA systems.The first part of the thesis presents a formal foundation for TDMA systems, based on the new concepts of periodic cyclic timed automata and concatenation. A system obtained by the concatenation of a number of components is bisimilar to the one obtained by their parallel composition. Replacing the parallel composition of components by their concatenation yields a reduction of the cost of model checking (the reduction of time is quadratic in the number of components).The second part of the thesis extends the previous set of mathematical, semantics-based concepts with the more pragmatic, syntax-based concepts of sequential timed automata and sequential composition. A system obtained by sequential composition of a number of components is only weakly bisimilar to the one obtained by their parallel composition. Replacing the parallel composition of components by their sequential composition yields an additional reduction of the cost of model checking (the additional reduction of time is exponential in the number of components).The third part of the thesis introduces the concept of quasi-equal clocks. The elimination of quasi-equal clocks can bring yet another form of reduction of the cost of model checking (a reduction of time and space which can be exponential in the number of clocks). Quasi-equal clocks can be detected automatically by a new abstraction-based analysis.The practical potential of the results presented in this thesis is illustrated by an experimental evaluation. Applied to an industrial TDMA based fire alarm system, the new approach uncovered several design errors. Upon their removal, it could successfully verify the system",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:107495999X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4713349-1",
+                "gnd:4434799-6"
+            ],
+            "isLike": "doi:10.6094/UNIFR/10161"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

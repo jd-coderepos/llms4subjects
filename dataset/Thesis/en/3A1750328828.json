@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:111582192X",
+            "sameAs": "Larsen, Kim Guldstrand"
+        },
+        {
+            "@id": "gnd:1227368682",
+            "sameAs": "Schwammberger, Maike"
+        },
+        {
+            "@id": "gnd:136626890",
+            "sameAs": "Olderog, Ernst-Rüdiger"
+        },
+        {
+            "@id": "gnd:4056783-7",
+            "sameAs": "Stadtverkehr"
+        },
+        {
+            "@id": "gnd:7714938-5",
+            "sameAs": "Autonomes Fahrzeug"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1750328828",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 198 Seiten, 2,9 MB)",
+            "identifier": [
+                "(firstid)DNB:1227579608",
+                "(ppn)1750328828"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=ddc-dbn)360"
+            ],
+            "title": "Distributed controllers for provably safe, live and fair autonomous car manoeuvres in urban traffic",
+            "abstract": [
+                "Während der letzten Jahre erobern autonome Fahrsysteme mehr und mehr die Märkte. Deshalb ist es insbesondere wichtig, zentrale Funktionen dieser Systeme sicherzustellen. Das Hauptanliegen dieser Doktorarbeit ist es, logische Schlussfolgerungen über Eigenschaften autonomer Fahrmanöver an innerstädtischen Kreuzungen zu ermöglichen. Hierfür werden ein Abstraktes Modell für Stadtverkehr-Netzwerke und die Verkehrs-Logik Urban Multi-lane Spatial Logic (UMLSL) eingeführt. Zudem werden als erweiterte Realzeitautomaten modellierte Kreuzungs-Controller vorgestellt, die UMLSL-Formeln für Abbiege-Manöver an Kreuzungen benutzen. Wir zeigen über logische Schlussfolgerungen die Sicherheit (\"Kollisionsfreiheit\") des Kreuzungs-Controllers und untersuchen die Lebendigkeit (\"etwas gutes passiert irgendwann\") und Fairness (\"kein Vordrängeln\") der Controller mit Hilfe des Model-Checking Tools UPPAAL. Als Fallstudie stellen wir zudem ein Kommunikations-Protokoll zum Warnen vor Unfällen vor.",
+                "While automated driving techniques are increasingly capturing the market, it is particularly important to consider vital functional properties of these systems. We introduce an approach to logically reason about functional properties of crossing manoeuvres at intersections. To this end, we introduce an abstract model for urban traffic situations and extended timed automata crossing controllers using formulae of our traffic logic Urban Multi-lane Spatial Logic (UMLSL) for turn manoeuvres at intersections. We show that even at complex intersections we can use purely spatial reasoning, detached from the underlying car dynamics, to prove safety (collision freedom) of the crossing controllers. We also examine liveness (something good finally happens) and fairness (no queue-jumping) of the controllers with the help of UPPAAL, a model-checker for (extended) timed automata. Furthermore, we introduce a case study, where we adapt the approach to a hazard warning communication protocol."
+            ],
+            "alternative": "Verteilte Steuerungen für beweisbar sichere, lebendige und faire autonome Fahrmanöver im Stadtverkehr",
+            "contributor": [
+                "gnd:111582192X",
+                "gnd:136626890"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1227368682",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4056783-7",
+                "gnd:7714938-5"
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

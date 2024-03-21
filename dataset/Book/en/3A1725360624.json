@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:171184645",
+            "sameAs": "Andrei, Neculai"
+        },
+        {
+            "@id": "gnd:4157995-1",
+            "sameAs": "Gradientenverfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1725360624",
+            "@type": "bibo:Book",
+            "P1053": "xxviii, 498 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1725360624",
+                "(doi)10.1007/978-3-030-42950-8",
+                "(firstid)KXP:1725360624",
+                "(isbn13)9783030429492"
+            ],
+            "publisher": "Springer Nature",
+            "subject": [
+                "(classificationName=msc)90C30",
+                "Mathematical optimization.",
+                "Mathematical models.",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)90C90",
+                "(classificationName=msc)90C06",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=msc)65K05",
+                "(classificationName=ddc)519.6",
+                "(classificationName=bk, id=106408143)31.48 - Variationsrechnung",
+                "(classificationName=msc)49M37"
+            ],
+            "title": "Nonlinear conjugate gradient methods for unconstrained optimization",
+            "abstract": [
+                "1. Introduction -- 2. Linear Conjugate Gradient Algorithm -- 3. General Convergence Results for Nonlinear Conjugate Gradient Methods -- 4. Standard Conjugate Gradient Methods -- 5. Acceleration of Conjugate Gradient Algorithms -- 6. Hybrid and Parameterized Conjugate Gradient Methods -- 7. Conjugate Gradient Methods as Modifications of the Standard Schemes -- 8. Conjugate Gradient Methods Memoryless BFGS Preconditioned -- 9. Three-Term Conjugate Gradient Methods -- 10. Other Conjugate Gradient Methods -- 11. Discussion and Conclusions -- References -- Author Index -- Subject Index.",
+                "Two approaches are known for solving large-scale unconstrained optimization problems—the limited-memory quasi-Newton method (truncated Newton method) and the conjugate gradient method. This is the first book to detail conjugate gradient methods, showing their properties and convergence characteristics as well as their performance in solving large-scale unconstrained optimization problems and applications. Comparisons to the limited-memory and truncated Newton methods are also discussed. Topics studied in detail include: linear conjugate gradient methods, standard conjugate gradient methods, acceleration of conjugate gradient methods, hybrid, modifications of the standard scheme, memoryless BFGS preconditioned, and three-term. Other conjugate gradient methods with clustering the eigenvalues or with the minimization of the condition number of the iteration matrix, are also treated. For each method, the convergence analysis, the computational performances and the comparisons versus other conjugate gradient methods are given. The theory behind the conjugate gradient algorithms presented as a methodology is developed with a clear, rigorous, and friendly exposition; the reader will gain an understanding of their properties and their convergence and will learn to develop and prove the convergence of his/her own methods. Numerous numerical studies are supplied with comparisons and comments on the behavior of conjugate gradient algorithms for solving a collection of 800 unconstrained optimization problems of different structures and complexities with the number of variables in the range [1000,10000]. The book is addressed to all those interested in developing and using new advanced techniques for solving unconstrained optimization complex problems. Mathematical programming researchers, theoreticians and practitioners in operations research, practitioners in engineering and industry researchers, as well as graduate students in mathematics, Ph.D. and master students in mathematical programming, will find plenty of information and practical applications for solving large-scale unconstrained optimization problems and applications by conjugate gradient methods."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:171184645",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:4157995-1"
+            },
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1725360624.pdf",
+            "volume": "volume 158",
+            "isLike": "doi:10.1007/978-3-030-42950-8",
+            "P30128": "Springer optimization and its applications",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

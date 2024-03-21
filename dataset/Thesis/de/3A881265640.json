@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4152718-5",
+            "sameAs": "Ereignis"
+        },
+        {
+            "@id": "gnd:4410055-3",
+            "sameAs": "Datenstrom"
+        },
+        {
+            "@id": "gnd:4639271-3",
+            "sameAs": "Social Media"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A881265640",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Kriegel, Hans-Peter",
+            "creator": "Weiler, Michael",
+            "identifier": [
+                "(ppn)881265640",
+                "(firstid)DNB:1125371617"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Event detection in high throughput social media",
+            "abstract": "...In dieser Arbeit werden wir mit unserer Forschung zu dem Gebiet der Ereignis-Erkennung beitragen. Als ersten Beitrag stellen wir eine Methode vor, die in der Lage ist, große Datenmengen zu verarbeiten. Dies geschieht durch einen effizienten inkrementellen Algorithmus, der ungewöhnliche Textmuster im Datenstrom identifiziert. Der Benutzer braucht hierfür keinerlei Einschränkungen bezüglich der Daten zu spezifizieren (wie z.B. Hashtags). Dazu stellen wir ein Signifikanzmaß vor, um Ereignisse zu erkennen, bevor sie zu Schlagzeilen werden. Mit Methoden aus dem Forschungsgebiet der Ausreißererkennung und mit Hash-Tabellen, ähnlich der Heavy-Hitter Datenstruktur, werden wir einen Algorithmus entwerfen, der alle Worte, Wort Paare und Positionsdaten effizient verarbeiten kann. Durch einen Vergleich neu beobachteter Werte mit Statistiken der früheren Daten, können wir sofort signifikante Abweichungen mit minimaler Verzögerung melden. Dies macht unser System zu einer vollautomatischen sozialen Medien-Berichterstattung in Echtzeit. - Als zweiten Beitrag befassen wir uns mit der ungleich verteilten Nutzung von Social Media, welche zu verzerrten Ergebnissen führt, falls...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4152718-5",
+                "gnd:4040936-3",
+                "gnd:4410055-3",
+                "gnd:4639271-3"
+            ],
+            "P60163": "München"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:111488613",
+            "sameAs": "Dormagen, Adelheid"
+        },
+        {
+            "@id": "gnd:118572113",
+            "sameAs": [
+                "Lessing, Doris",
+                "Lessing, Doris 1919-2013"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A021632901",
+            "@type": "bibo:Book",
+            "P1053": "102 S",
+            "description": [
+                "Ill",
+                "20 cm"
+            ],
+            "identifier": [
+                "(isbn)3803121493",
+                "(ppn)021632901",
+                "(firstid)GBV:021632901"
+            ],
+            "publisher": "Wagenbach",
+            "subject": [
+                "(classificationName=loksys-fbs)PD 23",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=dbn)52",
+                "(classificationName=rvk)HN 5404",
+                "(classificationName=loksys-fbs)WO 52",
+                "(classificationName=rvk)DX 4350"
+            ],
+            "title": "Das Leben meiner Mutter : mit Bildern aus Afrika",
+            "abstract": "Orig.-Ausg. gesondert u.d.T.: Lessing, Doris: Impertinent daughters u.: Lessing, Doris: My mother&apos;s life",
+            "contributor": "gnd:111488613",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118572113",
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118572113"
+            },
+            "volume": "149",
+            "P30128": "Wagenbachs Taschenbücherei",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

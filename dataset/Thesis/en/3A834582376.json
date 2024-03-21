@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4046196-8",
+            "sameAs": "Plagiat"
+        },
+        {
+            "@id": "gnd:4132784-6",
+            "sameAs": "Informationsbeschaffung"
+        },
+        {
+            "@id": "gnd:4188417-6",
+            "sameAs": "Visualisierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A834582376",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (24 208 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Fröhlich, Bernd",
+                "Streit, Marc"
+            ],
+            "creator": "Riehmann, Patrick",
+            "identifier": [
+                "(firstid)GBV:834582376",
+                "(ppn)834582376"
+            ],
+            "subject": [
+                "Informatik",
+                "(classificationName=bk, id=106415212)06.74 - Informationssysteme",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=linseach:mapping)rest",
+                "Visualisierung"
+            ],
+            "title": "Advanced Visual Interfaces for Informed Decision-Making",
+            "abstract": "This thesis presents new interactive visualization techniques and systems intended to support users with real-world decisions such as selecting a product from a large variety of similar offerings, finding appropriate wording as a non-native speaker, and assessing an alleged case of plagiarism. The Product Explorer is a significantly improved interactive Parallel Coordinates display for facilitating the product selection process in cases where many attributes and numerous alternatives have to be considered. A novel visual representation for categorical and ordered data with only few occurring values, the so-called extended areas, in combination with cubic curves for connecting the parallel axes, are crucial for providing an effective overview of the entire dataset and to facilitate the tracing of individual products. The visual query interface supports users in quickly narrowing down the product search to a small subset or even a single product. The scalability of the approach towards a large number of attributes and products is enhanced by the possibility of setting some constraints on final attributes and, therefore, reducing the number of considered attributes and data items. Furthermore, an attribute repository allows users to focus on the most important attributes at first and to bring in additional criteria for product selection later in the decision process. A user study confirmed that the Product Explorer is indeed an excellent tool for its intended purpose for casual users. The Wordgraph is a layered graph visualization for the interactive exploration of search results for complex keywords-in-context queries. The system relies on the Netspeak web service and is designed to support non-native speakers in finding customary phrases. Uncertainties about the commonness of phrases are expressed with the help of wildcard-based queries. The visualization presents the alternatives for the wildcards in a multi-column layout: one column per wildcard with the other query fragments in between. The Wordgraph visualization displays the sorted results for all wildcards at once by appropriately arranging the words of each column. A user study confirmed that this is a significant advantage over simple textual result lists. Furthermore, visual interfaces to filter, navigate, and expand the graph allow interactive refinement and expansion of wildcard-containing queries. Furthermore, this thesis presents an advanced visual analysis tool for assessing and presenting alleged cases of plagiarism and provides a three-level approach for exploring the so-called finding spots in their context. The overview shows the relationship of the entire suspicious document to the set of source documents. An intermediate glyph-based view reveals the structural and textual differences and similarities of a set of finding spots and their corresponding source text fragments. Eventually, the actual fragments of the finding spot can be shown in a side-by-side view with a novel structured wrapping of both the source, as well as the suspicious text. The three different levels of detail are tied together by versatile navigation and selection operations. Reviews with plagiarism experts confirm that this tool can effectively support their workflow and provides a significant improvement over existing static visualizations for assessing and presenting plagiarism cases. The three main contributions of this research have a lot in common aside from being carefully designed and scientifically grounded solutions to real-world decision problems. The first two visualizations facilitate the decision for a single possibility out of many alternatives, whereas the latter ones deal with text at varying levels of detail. All visual representations are clearly structured based on horizontal and vertical layers contained in a single view and they all employ edges for depicting the most important relationships between attributes, words, or different levels of detail. A detailed analysis considering the context of the established decision-making literature reveals that important steps of common decision models are well-supported by the three visualization systems presented in this thesis.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4132784-6"
+                },
+                {
+                    "@id": "gnd:4188417-6"
+                },
+                {
+                    "@id": "gnd:4046196-8"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

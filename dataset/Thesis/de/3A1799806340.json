@@ -1,0 +1,153 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1066407088",
+            "sameAs": "Software-defined networking"
+        },
+        {
+            "@id": "gnd:1135597375",
+            "sameAs": "Deep learning"
+        },
+        {
+            "@id": "gnd:1209706350",
+            "sameAs": "Convolutional Neural Network"
+        },
+        {
+            "@id": "gnd:1251017452",
+            "sameAs": "Alshra&apos;a, Abdullah Soliman"
+        },
+        {
+            "@id": "gnd:13002077X",
+            "sameAs": "Seitz, Jochen"
+        },
+        {
+            "@id": "gnd:136084575",
+            "sameAs": "Del Galdo, Giovanni"
+        },
+        {
+            "@id": "gnd:136915515",
+            "sameAs": "Schussmann, Jürgen"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4054790-5",
+            "sameAs": "Sicherheit"
+        },
+        {
+            "@id": "gnd:4070085-9",
+            "sameAs": "Rechnernetz"
+        },
+        {
+            "@id": "gnd:4152114-6",
+            "sameAs": "Emulation"
+        },
+        {
+            "@id": "gnd:7544166-4",
+            "sameAs": "DoS-Attacke"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1799806340",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 153 Seiten)",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(doi)10.22032/dbt.51449",
+                "(firstid)KXP:1799806340",
+                "(ppn)1799806340"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)ST 277",
+                "(classificationName=rvk)ST 276",
+                "(classificationName=rvk)ST 200",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=ddc)005.8"
+            ],
+            "title": "Intrusion Detection System against Denial of Service attack in Software-Defined Networking",
+            "abstract": "Das exponentielle Wachstum der Online-Dienste und des über die Kommunikationsnetze übertragenen Datenvolumens macht es erforderlich, die Struktur traditioneller Netzwerke durch ein neues Paradigma zu ersetzen, das sich den aktuellen Anforderungen anpasst. Software-Defined Networking (SDN) ist hierfür eine fortschrittliche Netzwerkarchitektur, die darauf abzielt, das traditionelle Netzwerk in ein flexibleres Netzwerk umzuwandeln, das sich an die wachsenden Anforderungen anpasst. Im Gegensatz zum traditionellen Netzwerk ermöglicht SDN die Entkopplung von Steuer- und Datenebene, um Netzwerkressourcen effizient zu überwachen, zu konfigurieren und zu optimieren. Es verfügt über einen zentralisierten Controller mit einer globalen Netzwerksicht, der seine Ressourcen über programmierbare Schnittstellen verwaltet. Die zentrale Steuerung bringt jedoch neue Sicherheitsschwachstellen mit sich und fungiert als Single Point of Failure, den ein böswilliger Benutzer ausnutzen kann, um die normale Netzwerkfunktionalität zu stören. So startet der Angreifer einen massiven Datenverkehr, der als Distributed-Denial-of-Service Angriff (DDoSAngriff) von der SDN-Infrastrukturebene in Richtung des Controllers bekannt ist. Dieser DDoS-Angriff führt zu einer Sättigung der Steuerkanal-Bandbreite und belegt die Ressourcen des Controllers. Darüber hinaus erbt die SDN-Architektur einige Angriffsarten aus den traditionellen Netzwerken. Der Angreifer fälscht beispielweise die Pakete, um gutartig zu erscheinen, und zielt dann auf die traditionellen DDoS-Ziele wie Hosts, Server, Anwendungen und Router ab. In dieser Arbeit wird das Verhalten von böswilligen Benutzern untersucht. Anschließend wird ein Intrusion Detection System (IDS) zum Schutz der SDN-Umgebung vor DDoS-Angriffen vorgestellt. Das IDS berücksichtigt dabei drei Ansätze, um ausreichendes Feedback über den laufenden Verkehr durch die SDN-Architektur zu erhalten: die Informationen von einem externen Gerät, den OpenFlow-Kanal und die Flow-Tabelle. Daher besteht das vorgeschlagene IDS aus drei Komponenten. Das Inspector Device verhindert, dass böswillige Benutzer einen Sättigungsangriff auf den SDN-Controller starten. Die Komponente Convolutional Neural Network (CNN) verwendet eindimensionale neuronale Faltungsnetzwerke (1D-CNN), um den Verkehr des Controllers über den OpenFlow-Kanal zu analysieren. Die Komponente Deep Learning Algorithm(DLA) verwendet Recurrent Neural Networks (RNN), um die vererbten DDoS-Angriffe zu erkennen. Sie unterstützt auch die Unterscheidung zwischen bösartigen und gutartigen Benutzern als neue Gegenmaßnahme. Am Ende dieser Arbeit werden alle vorgeschlagenen Komponenten mit dem Netzwerkemulator Mininet und der Programmiersprache Python modelliert, um ihre Machbarkeit zu testen. Die Simulationsergebnisse zeigen hierbei, dass das vorgeschlagene IDS im Vergleich zu mehreren Benchmarking- und State-of-the-Art-Vorschlägen überdurchschnittliche Leistungen erbringt.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:136084575"
+                },
+                {
+                    "@id": "gnd:136915515"
+                },
+                {
+                    "@id": "gnd:13002077X"
+                }
+            ],
+            "creator": [
+                "gnd:1251017452",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:7544166-4",
+                "gnd:1066407088",
+                "gnd:4152114-6",
+                "gnd:4070085-9",
+                "gnd:4054790-5",
+                "gnd:1135597375",
+                "gnd:1209706350"
+            ],
+            "isLike": "doi:10.22032/dbt.51449",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

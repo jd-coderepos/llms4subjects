@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "gnd:7569134-6",
+            "sameAs": "Lokalisierung (Robotik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A747073821",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Schneider, Frank",
+            "identifier": [
+                "(ppn)747073821",
+                "(firstid)HBZ:HT017649336"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)629.8932",
+                "(classificationName=ddc-dbn)910",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Formation navigation and relative localisation of multi-robot systems",
+            "abstract": "...The presented method enables a group of mobile robots to start at an unknown location in an unknown environment and then to incrementally estimate their own positions and the relative locations of the other robots using only sensor information. The result is a robust, fast and precise approach, which does not need any preconditions or special assumptions about the environment. To validate the approach extensive tests with both, real and simulated, robots have been conducted. For a more specific evaluation, the Mean Localisation Error (MLE) is introduced. The conducted experiments include a comparison between the proposed Extended Kalman Filter and a standard SLAM-based approach. The developed method robustly delivered an accuracy better than 2 cm and performed at least as well as the SLAM approach. The algorithm coped with scattered groups of robots while moving on arbitrarily shaped paths. - In summary, this thesis presents novel approaches to the field of coordinated navigation in multi-robot systems. The results facilitate cooperative movements of robot groups as well as relative localisation among the group members. In addition, a solid foundation for a non-environment related metric for formation navigation is introduced.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7569134-6"
+                },
+                {
+                    "@id": "gnd:4191911-7"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

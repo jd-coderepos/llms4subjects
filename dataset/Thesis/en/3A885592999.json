@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:115498370",
+            "sameAs": "Hüllermeier, Eyke"
+        },
+        {
+            "@id": "gnd:4410055-3",
+            "sameAs": "Datenstrom"
+        },
+        {
+            "@id": "gnd:4802620-7",
+            "sameAs": "Big Data"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A885592999",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxiii, 216 Seiten)",
+            "creator": "Shaker, Ammar",
+            "identifier": [
+                "(ppn)885592999",
+                "(firstid)HBZ:CT004001846",
+                "(doi)10.17619/UNIPB/1-79"
+            ],
+            "subject": [
+                "(classificationName=ddc)001",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Novel methods for mining and learning from data streams",
+            "abstract": "Die vorliegende Arbeit befasst sich mit dem Erwerb von Wissen durch Lernen aus nichtstationären Datenströmen. Ein Datenstrom besteht aus einer kontinuierlichen Folge von Datenobjekten, wobei sich Eigenschaften des datengenerierenden Prozesses im Laufe der Zeit ändern können. Sowohl die Kontinuität und Dynamik als auch die Nichtstationarität von Datenströmen gehen einher mit neuen Herausforderungen für Methoden des maschinellen Lernens.Zwei neue Methoden zum überwachten Lernen (Klassifikation und Regression) auf Datenströmen werden in der Arbeit vorgestellt: IBL-Streams und eFPT. IBLStreams ist ein instanzbasiertes Verfahren und als solches besonders gut geeignet, inkrementell zu lernen und sich adaptiv an Veränderungen des datengenerierenden Prozesses anzupassen, vor allem im Vergleich zu modellbasierten Ansätzen. Der zweite Ansatz, \"evolving Fuzzy Pattern Trees\" (eFPT), kombiniert Konzepte der Fuzzy-Logik mit der Flexibilität nichtlinearer Aggregationsfunktionen und der Ausdrucksstärke hierarchischer Strukturen, um interpretierbare Modelle in Form kompakter Bäume zu induzieren. Für diese sogenannten \"fuzzy pattern trees\" werden Lernverfahren entwickelt, die es ermöglichen, Bäume inkrementell zu lernen und an Veränderungen des Datenstroms anzupassen.Ein weiterer Beitrag der Arbeit ist ein experimenteller Ansatz, der darauf abzielt, eine wichtige Eigenschaft von Methoden zum Lernen auf Datenströmen zu untersuchen, nämlich die Fähigkeit, auf einen so genannten \"concept change\" zu reagieren. Hierunter versteht man eine plötzliche oder graduelle Änderung des datengenerierenden Prozesses, der in der Regel zu einer (temporären) Verschlechterung der Prädiktionsgüte führt. .... - In this thesis we elaborate on knowledge acquisition and learning from non-stationary data streams. A data stream is formed by consecutively arriving data examples, whose data generating process may change in the course of time. Both the cumulative and the non-stationary nature of the data within a stream create a challenge for traditional machine learning methods.Concentrating on adaptive supervised learning from data streams, we introduce two novel learning methods: IBLStreams and eFPT. IBLStreams is an instance-based learner that shows how instance-based learning approaches, compared to model-based approaches, are naturally incremental besides their inherent ability to adapt upon the occurrence of a concept change. Evolving fuzzy pattern trees (eFPTs) utilize the potential interpretability of the fuzzy logic concepts in inducing compact trees; the induced trees offer the tradeoff between compact interpretable models and generalization performance. eFPTs attempt to dynamically evolve the induced tree in order to reflect any change in the underlying data generating process.We also introduce \"recovery analysis\" as a new type of evaluation for adaptive supervised learners on data streams. It is an experimental protocol to assess the learner&apos;s ability to learn and recover after a concept change. The resulting recovery pattern of the learning method can be analyzed both graphically and numerically using recovery measures.Apart from the full supervision offered in the streams studied in the previous approaches, we also consider streams of events: such a stream contains temporal events emitted from instances under observation. For a given instance, the survival time is the time this instance spends in the study until experiencing the event of interest. ...",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:115498370"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4802620-7"
+                },
+                {
+                    "@id": "gnd:4410055-3"
+                }
+            ],
+            "isLike": "doi:10.17619/UNIPB/1-79",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

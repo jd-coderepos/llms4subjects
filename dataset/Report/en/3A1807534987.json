@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1068096934",
+            "sameAs": "Universitätsverlag Potsdam"
+        },
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut für Digital Engineering"
+        },
+        {
+            "@id": "gnd:120012162",
+            "sameAs": "Hirschfeld, Robert"
+        },
+        {
+            "@id": "gnd:1273511786",
+            "sameAs": "Domänenspezifische Sprache"
+        },
+        {
+            "@id": "gnd:4134837-0",
+            "sameAs": "Programmierumgebung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1807534987",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (135 Seiten, 1916 KB)",
+            "creator": [
+                "Eichenroth, Friedrich",
+                "Rein, Patrick"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1807534987",
+                "(isbn13)9783869565033",
+                "(firstid)KXP:1807534987",
+                "(doi)10.25932/publishup-49124"
+            ],
+            "publisher": "Universitätsverlag Potsdam",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=181569876)54.50 - Programmierung: Allgemeines",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418890)54.53 - Programmiersprachen",
+                "(classificationName=ddc)006.35"
+            ],
+            "title": "Fast packrat parsing in a live programming environment : improving left-recursion in parsing expression grammars",
+            "abstract": [
+                "Language developers who design domain-specific languages or new language features need a way to make fast changes to language definitions. Those fast changes require immediate feedback. Also, it should be possible to parse the developed languages quickly to handle extensive sets of code. Parsing expression grammars provides an easy to understand method for language definitions. Packrat parsing is a method to parse grammars of this kind, but this method is unable to handle left-recursion properly. Existing solutions either partially rewrite left-recursive rules and partly forbid them, or use complex extensions to packrat parsing that are hard to understand and cost-intensive. We investigated methods to make parsing as fast as possible, using easy to follow algorithms while not losing the ability to make fast changes to grammars. We focused our efforts on two approaches. One is to start from an existing technique for limited left-recursion rewriting and enhance it to work for general left-recursive grammars. The second approach is to design a grammar compilation process to find left-recursion before parsing, and in this way, reduce computational costs wherever possible and generate ready to use parser classes.",
+                "Rewriting parsing expression grammars is a task that, if done in a general way, unveils a large number of cases such that any rewriting algorithm surpasses the complexity of other left-recursive parsing algorithms. Lookahead operators introduce this complexity. However, most languages have only little portions that are left-recursive and in virtually all cases, have no indirect or hidden left-recursion. This means that the distinction of left-recursive parts of grammars from components that are non-left-recursive holds great improvement potential for existing parsers. In this report, we list all the required steps for grammar rewriting to handle left-recursion, including grammar analysis, grammar rewriting itself, and syntax tree restructuring. Also, we describe the implementation of a parsing expression grammar framework in Squeak/Smalltalk and the possible interactions with the already existing parser Ohm/S. We quantitatively benchmarked this framework directing our focus on parsing time and the ability to use it in a live programming context. Compared with Ohm, we achieved massive parsing time improvements while preserving the ability to use our parser it as a live programming tool. The work is essential because, for one, we outlined the difficulties and complexity that come with grammar rewriting. Also, we removed the existing limitations that came with left-recursion by eliminating them before parsing."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1068096934"
+                },
+                {
+                    "@id": "gnd:120012162"
+                },
+                {
+                    "@id": "gnd:1155270444"
+                }
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4134837-0",
+                "gnd:1273511786"
+            ],
+            "volume": "Nr. 135",
+            "isLike": "doi:10.25932/publishup-49124",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Digital Engineering an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

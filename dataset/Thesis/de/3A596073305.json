@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130008370",
+            "sameAs": "Jäger, Gerd"
+        },
+        {
+            "@id": "gnd:4070477-4",
+            "sameAs": "Digitalfilter"
+        },
+        {
+            "@id": "gnd:4113314-6",
+            "sameAs": "Digitale Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4150927-4",
+            "sameAs": "Dynamische Waage"
+        },
+        {
+            "@id": "gnd:4186132-2",
+            "sameAs": "Triggern"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A596073305",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 141 S., 2522 KB)",
+            "contributor": [
+                "Pfeifer, Tilo",
+                "Bahrs, Uwe"
+            ],
+            "creator": "Dontsova, Svitlana",
+            "identifier": [
+                "(ppn)596073305",
+                "(firstid)DNB:992944333"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106417657)53.73 - Nachrichtenübertragung",
+                "(classificationName=ddc)531.140287",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=bk, id=106420488)50.21 - Messtechnik"
+            ],
+            "title": "Digitale Signalverarbeitung in der dynamischen Wägetechnik",
+            "abstract": "Gegenstand der vorliegenden Arbeit ist die Entwicklung der Algorithmen der digitalen Signalverarbeitung in der dynamischen Wägetechnik. Alle Betrachtungen beziehen sich auf einen Typ der dynamischen Waagen, die Kontrollwaage. Die dargelegten Verfahren sind für jeden anderen Waagentyp anwendbar, der für die dynamischen Messungen eingesetzt wird. Die erforderlichen messtechnischen Parameter der Kontrollwaagen anhand der Klassifizierung nach der internationalen metrologischen Empfehlungen OIML R51 und unter Berücksichtigung der Anforderungen der Fertigpackungsverordnung wurden berechnet. Im Störspektrum einer Kontrollwaage spielen harmonische Komponenten eine dominierende Rolle. Ein Teil der Arbeit beschäftigt sich mit den Untersuchungen dieser Art der Störsignale. Es wurde der Einfluss der Abtastrate auf das Spektrum und die Standardabweichung des Quantisierungsfehlers bei der Signaldigitalisierung erläutert, ein Verfahren zur Ermittlung der tatsächlichen Größe der Aliasingfrequenzen beschrieben, die Änderung der Standardabweichung einer mit einem Mittelwertbildner gefilterten harmonischen Schwingung in Abhängigkeit von der Filterordnung untersucht. Der Schwerpunkt der Arbeit liegt im Entwurf der digitalen Filter, die als kaskadierte Mittelwertbildner verwirklicht werden. Diese Filterart zeichnet sich durch eine Reihe der Vorteile aus. Dazu gehören eine einfache Realisierbarkeit, die Möglichkeit zur schnellen Umstellung der Gruppenlaufzeit und die leichte Anpassung an die Signalform. Alle diese Eigenschaften entsprechen den Anforderungen an die digitale Signalverarbeitung in der dynamischen Wägetechnik. Es wurden Algorithmen zum Entwurf der angepassten Filterung auf Basis der kaskadierten Mittelwertbildnerstrukturen sowohl im Zeit- als auch im Frequenzbereich vorgestellt und verglichen. Im praktischen Teil wurde die Umsetzung eines der Verfahren in einer realen Waage gezeigt. Zur Triggerung der Zeitpunkte des Messanfangs und des Messendes werden Lichtschranken eingesetzt, die am Anfang und am Ende des Wägebandes angebracht sind. In der vorliegenden Arbeit wurde eine modifizierte Variante der Lichtschrankenanordnung beschrieben, die die Möglichkeit vorsieht, die Gruppenlaufzeit des eingesetzten Filters an die verfügbare Messzeit anzupassen. Praktische Umsetzung des Prinzips wurde gezeigt. Ein weiterer Ansatz, der in der Verwendung zu diesem Zweck digitaler Differenzierer besteht, wurde herausgearbeitet.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130008370"
+                }
+            ],
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4113314-6"
+                },
+                {
+                    "@id": "gnd:4070477-4"
+                },
+                {
+                    "@id": "gnd:4186132-2"
+                },
+                {
+                    "@id": "gnd:4150927-4"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

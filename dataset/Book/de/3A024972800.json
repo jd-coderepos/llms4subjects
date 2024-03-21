@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118536672",
+            "sameAs": "Fühmann, Franz 1922-1984"
+        },
+        {
+            "@id": "gnd:123320690",
+            "sameAs": "Wittstock, Uwe"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A024972800",
+            "@type": "bibo:Book",
+            "P1053": "102 S.",
+            "description": "18 cm",
+            "identifier": [
+                "(firstid)GBV:024972800",
+                "(ppn)024972800",
+                "(isbn)3406331572"
+            ],
+            "publisher": "Beck",
+            "subject": [
+                "Fühmann, Franz",
+                "(classificationName=rvk)GN 4767",
+                "(classificationName=ddc)838/.91409",
+                "(classificationName=dbn)53",
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur"
+            ],
+            "title": "Franz Fühmann",
+            "abstract": "Uwe Wittstock: \"Franz Fühmann\". Autorenbuch. C. H. Beck&apos;sche Verlagsbuchhandlung, München 1988. BsR 610. 103 S., br., 14,80 DM",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:123320690",
+            "issued": "1988",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118536672"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht003174751.pdf",
+            "volume": "610",
+            "P30128": [
+                "Beck&apos;sche Reihe",
+                "Autorenbücher"
+            ],
+            "P60163": "München"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

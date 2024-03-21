@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1028971737",
+            "sameAs": "Lemke, Christian"
+        },
+        {
+            "@id": "gnd:120420392",
+            "sameAs": "Sattler, Kai-Uwe"
+        },
+        {
+            "@id": "gnd:4121121-2",
+            "sameAs": "Datenkompression"
+        },
+        {
+            "@id": "gnd:4343439-3",
+            "sameAs": "SAP R/3"
+        },
+        {
+            "@id": "gnd:7744803-0",
+            "sameAs": "In-Memory-Datenbank"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A731774825",
+            "@type": "bibo:Thesis",
+            "P1053": "143 S.",
+            "contributor": [
+                "Lehner, Wolfgang",
+                "Gertz, Michael"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)731774825",
+                "(isbn13)9783843906449",
+                "(firstid)GBV:731774825"
+            ],
+            "publisher": "Dr. Hut",
+            "subject": [
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Physische Datenbankoptimierung in hauptspeicherbasierten Column-Store-Systemen",
+            "abstract": "Im heutigen Informationszeitalter ist es für Unternehmen entscheidend, möglichst schnell auf sehr große Datenmengen zuzugreifen und komplexe Berechnungen effizient darauf ausführen zu können. Weil Anfragen zur Entscheidungsunterstützung in den meisten Fällen nur einen Bruchteil aller Spalten benötigen, hat sich in diesem Bereich das Konzept der spaltenweisen Datenorganisation als vorteilhaft erwiesen. Bedingt durch die anfänglich geringen Einsatzmöglichkeiten und den nur begrenzt verfügbaren Hauptspeicher wurde das physische Design von hauptspeicherbasierten Column-Store-Systemen jedoch lange Zeit nicht tiefergehend untersucht. Das Ziel dieser Dissertation besteht nun darin, den Einsatz von leichtgewichtigen Kompressionstechniken in Column Stores zur effizienten Speicherung von Massendaten und zur Beschleunigung von Anfragen zu untersuchen und Empfehlungen für den optimalen Einsatz zu geben. Als leichtgewichtige Kompressionstechniken werden in dieser Arbeit Verfahren bezeichnet, bei denen für die Dekompression wenige Prozessorzyklen und kaum zusätzlicher Hauptspeicher erforderlich ist. Um trotzdem eine hohe Kompressionsrate zu erzielen, werden mehrere Heuristiken vorgestellt, die mit Hilfe von Informationen über die Datenverteilung und Abhängigkeiten zwischen Spalten die Daten geeignet umsortieren. Für die effiziente Bestimmung der funktionalen Abhängigkeiten wird ein auf Sampling basierendes Verfahren vorgestellt, das statt der Häufigkeit von Werten und Wertepaaren die Entropie als Maß verwendet und damit auch bei einer kleinen Stichprobe zuverlässig funktioniert. Die ermittelten Informationen werden weiterhin dazu genutzt, abhängige Spalten zu kombinieren und dadurch den Speicherplatzbedarf weiter zu reduzieren. Neben einer effektiven Kompression ist für eine schnelle Anfrageausführung auch die Anpassung von häufig verwendeten Anfrageoperatoren, wie dem Scan oder die Aggregation, notwendig.Die vorgestellten Algorithmen operieren direkt auf den komprimierten Datenstrukturen und vermeiden damit eine teure Dekompression von Werten. Zusätzlich zu den beschriebenen Software-Optimierungen wird auch ein Überblick über Verfahren gegeben, die moderne Hardware zur Beschleunigung von Anfragen ausnutzen.Abschließend werden alle entwickelten Heuristiken und Algorithmen in ein bestehendes Produkt (\\ice) integriert und detailliert ausgewertet. Dabei wird deutlich, dass Anfragen mit bestimmten Zugriffsmustern auf komprimierten Daten langsamer sind und nur durch neue, angepasste Algorithmen schnell ausgeführt werden können.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120420392"
+                }
+            ],
+            "creator": "gnd:1028971737",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7744803-0"
+                },
+                {
+                    "@id": "gnd:4343439-3"
+                },
+                {
+                    "@id": "gnd:4121121-2"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/731774825.PDF",
+            "P60163": "München"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

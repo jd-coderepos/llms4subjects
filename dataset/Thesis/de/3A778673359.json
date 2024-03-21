@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1047674734",
+            "sameAs": "Tran, Dang Hoan"
+        },
+        {
+            "@id": "gnd:120420392",
+            "sameAs": "Sattler, Kai-Uwe"
+        },
+        {
+            "@id": "gnd:4064363-3",
+            "sameAs": "Waldbrand"
+        },
+        {
+            "@id": "gnd:4120839-0",
+            "sameAs": "Änderungserkennung"
+        },
+        {
+            "@id": "gnd:4123236-7",
+            "sameAs": "Frühwarnsystem"
+        },
+        {
+            "@id": "gnd:4307964-7",
+            "sameAs": "Sensorsystem"
+        },
+        {
+            "@id": "gnd:4410055-3",
+            "sameAs": "Datenstrom"
+        },
+        {
+            "@id": "gnd:4582612-2",
+            "sameAs": "Datenfusion"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A778673359",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIV, 167 S., 1,68 MB)",
+            "contributor": [
+                "Fischer, Peter",
+                "Gaber, Mohamed Medhat"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)778673359",
+                "(firstid)GBV:778673359"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Change detection in streaming data",
+            "abstract": "Unter Änderungserkennung wird der Prozess der Erkennung von Unterschieden im Zustand eines Objekts oder Phänomens verstanden, wenn dieses zu verschiedenen Zeitpunkten oder an verschiedenen Orten beobachtet wird. Im Kontext der Datenstromverarbeitung stellt dieser Prozess die Segmentierung eines Datenstroms anhand der identifizierten Punkte, an denen sich die Stromdynamiken ändern, dar. Die Fähigkeit, Änderungen in den Stromdaten zu erkennen, darauf zu reagieren und sich daran anzupassen, spielt in vielen Anwendungsbereichen, wie z.B. dem Aktivitätsüberwachung, dem Datenstrom-Mining und Maschinenlernen sowie dem Datenmanagement hinsichtlich Datenmenge und Datenqualität, eine wichtige Rolle. Dezentralisierte Änderungserkennung kann in vielen interessanten und wichtigen Anwendungsbereichen, wie z.B. in Umgebungsüberwachungssystemen oder medizinischen Überwachungssystemen, eingesetzt werden. Obgleich es eine Vielzahl von Arbeiten im Bereich der verteilten Änderungserkennung und Datenfusion gibt, liegt der Fokus dieser Arbeiten meist lediglich auf der Erkennung von einmaligen Änderungen. Die einmalige Änderungserkennungsmethode erfordert die einmalige Verarbeitung der Daten als Antwort auf die auftretende Änderung. Der Kompromiss einer kontinuierlichen, verteilten Erkennung von Änderungen umfasst die Erkennungsgenauigkeit, die Speichereffizienz sowie die Berechnungseffizienz. Um dieses Ziel zu erreichen, wird das Flächenbrandwarnsystem als motivierendes Szenario genutzt. Basierend auf den Herausforderungen und Anforderungen dieses Warnsystems wird ein Algorithmus zur Erkennung von Änderungen in Stromdaten als Teil einer Gesamtlösung für das Flächenbrandwarnsystem vorgestellt. Durch die Auswahl verschiedener Modelle zur lokalen und verteilten Änderungserkennung sowie verschiedener Datenaustauschprotokolle können verschiedene Systemdesigns entwickelt werden. Basierend auf diesem Ansatz leistet diese Dissertation nachfolgend aufgeführte Beiträge. Es wird ein allgemeines 2-Fenster Framework zur Erkennung von Änderungen in einem einzelnen Datenstrom vorgestellt. Weiterhin wird ein allgemeines synopsenbasiertes Framework zur Änderungserkennung beschrieben. Mittels theoretischer und empirischer Analysen wird gezeigt, dass die Erkennungs-Performance des synopsenbasierten Änderungsdetektors ähnlich der eines nicht-synopsenbasierten ist, solange eine Distanzfunktion, welche die Änderungen quantifiziert, während der Erstellung der Synopse eingehalten wird. Es wird Cluster-basierte Änderungserkennung und Cluster-Pflege über gleitenden Fenstern vorgestellt. Weiterhin wird ein Framework zur verteilten Änderungserkennung in drahtlosen Sensornetzwerken beschrieben. Basierend auf dem 2-Phasen Stromdaten-Cluster-Ansatz, welcher weitestgehend zur Clusterung eines einzelnen Datenstroms eingesetzt wird, wird ein verteiltes Framework zur Clusterung von Stromdaten vorgestellt.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:120420392"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:1047674734",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4123236-7",
+                "gnd:4064363-3",
+                "gnd:4307964-7",
+                "gnd:4120839-0",
+                "gnd:4410055-3",
+                "gnd:4582612-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

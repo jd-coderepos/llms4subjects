@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1084012464",
+            "sameAs": "Mattern, Christopher"
+        },
+        {
+            "@id": "gnd:130020761",
+            "sameAs": "Dietzfelbinger, Martin"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universität Ilmenau"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4121121-2",
+            "sameAs": "Datenkompression"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A847800245",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (iii, 173 Seiten)",
+            "contributor": [
+                "Østergaard, Jan",
+                "Veness, Joel"
+            ],
+            "identifier": [
+                "(ppn)847800245",
+                "(firstid)GBV:847800245"
+            ],
+            "publisher": "Universitätsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen"
+            ],
+            "title": "On statistical data compression",
+            "abstract": "Im Zuge der stetigen Weiterentwicklung moderner Technik wächst die Menge an zu verarbeitenden Daten. Es gilt diese Daten zu verwalten, zu übertragen und zu speichern. Dafür ist Datenkompression unerlässlich. Gemessen an empirischen Kompressionsraten zählen Statistische Datenkompressionsalgorithmen zu den Besten. Diese Algorithmen verarbeiten einen Eingabetext buchstabenweise. Dabei verfährt man für jeden Buchstaben in zwei Phasen - Modellierung und Kodierung. Während der Modellierung schätzt ein Modell, basierend auf dem bereits bekannten Text, eine Wahrscheinlichkeitsverteilung für den nächsten Buchstaben. Ein Kodierer überführt die Verteilung und den Buchstaben in ein Codewort. Umgekehrt ermittelt der Dekodierer aus der Verteilung und dem Codewort den kodierten Buchstaben. Die Wahl des Modells bestimmt den statistischen Kompressionsalgorithmus, das Modell ist also von zentraler Bedeutung. Ein Modell mischt typischerweise viele einfache Wahrscheinlichkeitsschätzer. In der statistischen Datenkompression driften Theorie und Praxis auseinander. Theoretiker legen Wert auf Modelle, die mathematische Analysen zulassen, vernachlässigen aber Laufzeit, Speicherbedarf und empirische Verbesserungen; Praktiker verfolgen den gegenteiligen Ansatz. Die PAQ-Algorithmen haben die Überlegenheit des praktischen Ansatzes verdeutlicht. Diese Arbeit soll Theorie und Praxis annähren. Dazu wird das Handwerkszeug des Theoretikers, die Codelängenanlyse, auf Algorithmen des Praktikers angewendet. Es werden Wahrscheinlichkeitsschätzer, basierend auf gealterten relativen Häufigkeiten und basierend auf exponentiell geglätteten Wahrscheinlichkeiten, analysiert. Weitere Analysen decken Methoden ab, die Verteilungen durch gewichtetes arithmetisches und geometrisches Mitteln mischen und Gewichte mittels Gradientenverfahren bestimmen. Die Analysen zeigen, dass sich die betrachteten Verfahren ähnlich gut wie idealisierte Vergleichsverfahren verhalten. Methoden aus PAQ werden mit dieser Arbeit erweitert und mit einer theoretischen Basis versehen. Experimente stützen die Analyseergebnisse. Ein weiterer Beitrag dieser Arbeit ist Context Tree Mixing (CTM), eine Verallgemeinerung von Context Tree Weighting (CTW). Durch die Kombination von CTM mit Methoden aus PAQ entsteht ein theoretisch fundierter Kompressionsalgorithmus, der in Experimenten besser als CTW komprimiert.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130020761"
+                }
+            ],
+            "creator": [
+                "gnd:1084012464",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4121121-2",
+                "gnd:4001183-5"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4014777-0",
+            "sameAs": "Englisch"
+        },
+        {
+            "@id": "gnd:4129935-8",
+            "sameAs": "Automatische Sprachanalyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A131331019",
+            "@type": "bibo:Book",
+            "P1053": "IX, 248 S",
+            "contributor": [
+                "Eyes, Elizabeth",
+                "Black, Ezra"
+            ],
+            "description": "graph. Darst",
+            "identifier": [
+                "(isbn)9051834780",
+                "(ppn)131331019",
+                "(firstid)GBV:131331019"
+            ],
+            "publisher": "Rodopi",
+            "subject": [
+                "(classificationName=linseach:mapping)lin",
+                "(classificationName=bk, id=106415697)18.04 - Englische Sprache",
+                "(classificationName=bk, id=106405012)17.46 - Mathematische Linguistik",
+                "(classificationName=rvk)ES 940",
+                "(classificationName=loksys-fbl)EB 280",
+                "(classificationName=rvk)HF 184",
+                "(classificationName=ddc)425/.0285"
+            ],
+            "title": "Statistically-driven computer grammars of English : the IBM/Lancaster approach",
+            "abstract": "Klappentext:  This book is about building computer programs that parse (analyze, or diagram) sentences of a real-world English. The English we are concerned with might be a corpus of everyday, naturally-occurring prose, such as the entire text of this morning&apos;s newspaper. Most programs that now exist for this purpose are not very successful at finding the correct analysis for everyday sentences. In contrast, the programs described here make use of a more successful statistically-driven approach. Our book is, first, a record of a five-year research collaboration between IBM and Lancaster University. Large numbers of real-world sentences were fed into the memory of a program for grammatical analysis (including a detailed grammar of English) and processed by statistical methods. The idea is to single out the correct parse, among all those offered by the grammar, on the basis of probabilities. Second, this is a how-to book, showing how to build and implement a statistically-driven broad-coverage grammar of English. We even supply our own grammar, with the necessary statistical algorithms, and with the knowledge needed to prepare a very large set (or corpus) of sentences so that it can be used to guide the statistical processing of the grammar&apos;s rules.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1993",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4014777-0"
+                },
+                {
+                    "@id": "gnd:4129935-8"
+                }
+            ],
+            "volume": "8",
+            "P30128": "Language and computers",
+            "P60163": "Amsterdam [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

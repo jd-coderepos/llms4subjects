@@ -1,0 +1,135 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:12181761X",
+            "sameAs": "Appelrath, Hans-Jürgen"
+        },
+        {
+            "@id": "gnd:1219087130",
+            "sameAs": "Nieße, Astrid"
+        },
+        {
+            "@id": "gnd:17410149X",
+            "sameAs": "Sonnenschein, Michael"
+        },
+        {
+            "@id": "gnd:4012002-8",
+            "sameAs": "Dezentrale Energieversorgung"
+        },
+        {
+            "@id": "gnd:4046235-3",
+            "sameAs": "Planung"
+        },
+        {
+            "@id": "gnd:4165465-1",
+            "sameAs": "Kraftwerkseinsatz"
+        },
+        {
+            "@id": "gnd:4200453-6",
+            "sameAs": "Verteilter Algorithmus"
+        },
+        {
+            "@id": "gnd:4296704-1",
+            "sameAs": "Einsatz"
+        },
+        {
+            "@id": "gnd:4301882-8",
+            "sameAs": "Ablaufsteuerung"
+        },
+        {
+            "@id": "gnd:7576812-4",
+            "sameAs": "Virtuelles Kraftwerk"
+        },
+        {
+            "@id": "gnd:7708028-2",
+            "sameAs": "Intelligentes Stromnetz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A828645442",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIX, 305 S., 5 MB)",
+            "contributor": "Meer, Hermann",
+            "identifier": [
+                "(firstid)GBV:828645442",
+                "(ppn)828645442"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)333.7"
+            ],
+            "title": "Verteilte kontinuierliche Einsatzplanung in Dynamischen Virtuellen Kraftwerken",
+            "abstract": [
+                "This thesis presents DynaSCOPE as distributed control method for continuous energy scheduling for dynamic virtual power plants (DVPP). DVPPs aggregate the ﬂexibility of distributed energy units to address current energy markets. As an extension of the Virtual Power Plant concept they show high dynamics in aggregation and operation of energy units. Whereas operation schedules are set up for all energy units in a day-ahead planning procedure, incidents may render these schedules infeasible during execution, like deviation from prognoses or outages. Thus, a continuous scheduling process is needed to ensure product fulﬁllment. With DynaSCOPE, software agents representing single energy units solve this problem in a completely distributed heuristic approach. Using a stepped concept, several damping mechanisms are applied to allow minimum disturbance while continuously trying to fulﬁll the product as contracted at the market. &lt;engl.&gt;",
+                "Mit DynaSCOPE wird in dieser Arbeit ein algorithmisch verteiltes Verfahren für die kontinuierliche Einsatzplanung in Dynamischen Virtuellen Kraftwerken (DVPP) vorgestellt. DVPPs bündeln die Flexibilitäten dezentraler Energieanlagen für den Handel an Energiemärkten. Als Erweiterung des Konzeptes Virtueller Kraftwerke zeigen sie große Dynamik in Zusammensetzung und Betrieb. Aufgabe der kontinuierlichen Einsatzplanung ist es, Abweichungen vom vorab definierten Fahrplan einer Energieanlage (z.B. Prognoseabweichungen oder Ausfälle) zu erkennen sowie eine neue oder angepasste Einsatzplanung zu ermitteln, mit der diese Abweichungen weitestgehend kompensiert werden. In einem vollständig verteilten, heuristischen Verfahren detektieren Software-Agenten, die eine Energieanlage in einem DVPP repräsentieren, auftretende Fahrplanabweichungen. Die gestufte Verarbeitung dieser Abweichungen ermöglicht die Dämpfung der Systemunruhe im von Ereignissen geprägten Betrieb dezentraler Energieanlagen. &lt;dt.&gt;"
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:17410149X"
+                },
+                {
+                    "@id": "gnd:12181761X"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:1219087130",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:7708028-2",
+                "gnd:4301882-8",
+                "gnd:4200453-6",
+                "gnd:4046235-3",
+                "gnd:4296704-1",
+                "gnd:7576812-4",
+                "gnd:4165465-1",
+                "gnd:4012002-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

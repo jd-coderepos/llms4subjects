@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110382048",
+            "sameAs": "Papst, Manfred"
+        },
+        {
+            "@id": "gnd:111092515",
+            "sameAs": "Fienbork, Matthias"
+        },
+        {
+            "@id": "gnd:118590359",
+            "sameAs": [
+                "Orwell, George",
+                "Orwell, George 1903-1950"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A023081619",
+            "@type": "bibo:Book",
+            "P1053": "372 S",
+            "description": [
+                "18 cm",
+                "Ill"
+            ],
+            "identifier": [
+                "(firstid)GBV:023081619",
+                "(isbn)3257212259",
+                "(ppn)023081619"
+            ],
+            "publisher": "Diogenes",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=rvk)HM 3855",
+                "(classificationName=dbn)52",
+                "(classificationName=ddc)823.9",
+                "(classificationName=bk, id=10640539X)18.05 - Englische Literatur",
+                "(classificationName=loksys-fbl)ER 900 orw 7",
+                "Orwell, George"
+            ],
+            "title": "Über George Orwell",
+            "abstract": "Bibliogr. u. Litverz.",
+            "contributor": [
+                "gnd:110382048",
+                "gnd:111092515",
+                "gnd:118590359"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1984",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118590359"
+            },
+            "volume": "21225",
+            "P30128": "Diogenes Taschenbuch",
+            "P60163": "Zürich"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

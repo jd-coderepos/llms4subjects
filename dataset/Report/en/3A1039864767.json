@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1069348694",
+            "sameAs": "Schneider, Sven"
+        },
+        {
+            "@id": "gnd:1143617126",
+            "sameAs": "Maximova, Maria"
+        },
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut für Digital Engineering"
+        },
+        {
+            "@id": "gnd:1168635489",
+            "sameAs": "Sakizloglou, Lucas"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4021842-9",
+            "sameAs": "Graph"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1039864767",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (29 Seiten, 1802 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1039864767",
+                "(ppn)1039864767"
+            ],
+            "publisher": "Universitätsverlag Potsdam",
+            "subject": [
+                "(classificationName=bk, id=106418963)31.12 - Kombinatorik, Graphentheorie",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Metric temporal graph logic over typed attributed graphs",
+            "abstract": [
+                "Various kinds of typed attributed graphs are used to represent states of systems from a broad range of domains. For dynamic systems, established formalisms such as graph transformations provide a formal model for defining state sequences. We consider the extended case where time elapses between states and introduce a logic to reason about these sequences. With this logic we express properties on the structure and attributes of states as well as on the temporal occurrence of states that are related by their inner structure, which no formal logic over graphs accomplishes concisely so far. Firstly, we introduce graphs with history by equipping every graph element with the timestamp of its creation and, if applicable, its deletion. Secondly, we define a logic on graphs by integrating the temporal operator until into the well-established logic of nested graph conditions. Thirdly, we prove that our logic is equally expressive to nested graph conditions by providing a suitable reduction. Finally, the implementation of this reduction allows for the tool-based analysis of metric temporal properties for state sequences.",
+                "Verschiedene Arten von getypten attributierten Graphen werden benutzt, um Zustände von Systemen in vielen unterschiedlichen Anwendungsbereichen zu beschreiben. Der etablierte Formalismus der Graphtransformationen bietet ein formales Model, um Zustandssequenzen für dynamische Systeme zu definieren. Wir betrachten den erweiterten Fall von solchen Sequenzen, in dem Zeit zwischen zwei verschiedenen Systemzuständen vergeht, und führen eine Logik ein, um solche Sequenzen zu beschreiben. Mit dieser Logik drücken wir zum einen Eigenschaften über die Struktur und die Attribute von Zuständen aus und beschreiben zum anderen temporale Vorkommen von Zuständen, die durch ihre innere Struktur verbunden sind. Solche Eigenschaften können bisher von keiner der existierenden Logiken auf Graphen vergleichbar darstellt werden. Erstens führen wir Graphen mit Änderungshistorie ein, indem wir jedes Graphelement mit einem Zeitstempel seiner Erzeugung und, wenn nötig, seiner Löschung versehen. Zweitens definieren wir eine Logik auf Graphen, indem wir den Temporaloperator Until in die wohl-etablierte Logik der verschachtelten Graphbedingungen integrieren. Drittens beweisen wir, dass unsere Logik gleich ausdrucksmächtig ist, wie die Logik der verschachtelten Graphbedingungen, indem wir eine passende Reduktionsoperation definieren. Zuletzt erlaubt uns die Implementierung dieser Reduktionsoperation die werkzeukbasierte Analyse von metrisch-temporallogischen Eigenschaften für Zustandssequenzen zu führen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1143617126",
+                "gnd:1155270444",
+                "gnd:173277950",
+                "gnd:1069348694",
+                "gnd:1168635489"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4021842-9"
+            },
+            "volume": "Nr. 123",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Digital Engineering an der Universität Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

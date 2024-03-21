@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:113972729X",
+            "sameAs": "Lenz, Moritz"
+        },
+        {
+            "@id": "gnd:4709495-3",
+            "sameAs": "Perl 6"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1658640578",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIV, 201 p. 12 illus., 4 illus. in color, online resource)",
+            "description": [
+                "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualitätsmitteln"
+            ],
+            "identifier": [
+                "(firstid)BSZ:496912933",
+                "(doi)10.1007/978-1-4842-3228-6",
+                "(ppn)1658640578",
+                "(isbn13)9781484232286"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Open source software.",
+                "(classificationName=loc)QA76.7-76.73",
+                "(classificationName=ddc)005.13",
+                "(classificationName=loc)QA76.76.C65",
+                "Computer programming",
+                "Programming languages (Electronic computers)",
+                "Computer Science",
+                "(classificationName=linseach:mapping)inf",
+                "Computer science",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Parsing with Perl 6 Regexes and Grammars : A Recursive Descent into Parsing",
+            "abstract": [
+                "Write good regexes and parsers with the Perl 6 programming language. You’ll see how regexes are used for searching, parsing, and validation: in particular the grammar extension makes them uniquely suitable for parsing, the main focus of this book.  Written by Perl 6 expert Moritz Lenz, a core contributor of Rakudo, Parsing with Perl 6 Regexes and Grammars starts from the very basics of regular expressions, and then explores how they integrate with regular Perl 6 code. Then follows a deeper exploration of how regexes work under the hood and a discussion of common techniques for constructing regexes and exploring the data under scrutiny. Later material goes beyond relatively simple formats to reusable named regexes and grammars, which permit code reuse in grammars, and shows how to write parsers for more involved data formats. Error reporting and case studies wrap up the topic. While regexes allow you to search for patterns in text and validate input, Perl 6 regexes advance that concept: you’ll see how they are easier to read, yet much more powerful, than the traditional \"Perl-compatible regular expression\". With improved reusability and backtracking control, you will be able to write complete parsers with the help of this book. You will: Discover the building blocks of Perl 6 regexes  Handle regex mechanics and master useful regex techniques  Extract data and work with patterns among these use cases  Reuse named regexes and other grammars as components or templates  Write full parsers, including advanced error reporting and data extraction  Learn how to parse nested scopes and indention-based formats",
+                "1. What are Regexes and Grammars? -- 2. Getting Started with Perl 6 -- 3. Building Blocks of Regexes -- 4. Regexes and Perl 6 Code -- 5. Extracting Data from Regex Matches -- 6. Regex Mechanics -- 7. Regex Techniques -- 8. Reusing and Composing Regexes -- 9. Parsing With Grammars -- 10. Extracting Data From Matches -- 11. Generating Good Parse Error Messages -- 12. Unicode and Natural Language -- 13. Case Studies"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:113972729X",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-CWD"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4709495-3"
+            },
+            "isLike": "doi:10.1007/978-1-4842-3228-6",
+            "P30128": [
+                "SpringerLink",
+                "Bücher"
+            ],
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

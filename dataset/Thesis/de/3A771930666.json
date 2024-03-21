@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1044411821",
+            "sameAs": "Bernard, Markus"
+        },
+        {
+            "@id": "gnd:134295390",
+            "sameAs": "Zimmermann, Armin"
+        },
+        {
+            "@id": "gnd:4025993-6",
+            "sameAs": "Hubschrauber"
+        },
+        {
+            "@id": "gnd:4445205-6",
+            "sameAs": "Lufttransport"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A771930666",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 164 S., 19,05 MB)",
+            "contributor": [
+                "Hommel, Günter",
+                "Kondak, Konstantin"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:771930666",
+                "(ppn)771930666"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "A system of autonomously flying helicopters for load transportation",
+            "abstract": "Die Arbeit beschreibt Entwurf, Umsetzung und Validierung eines autonomen Lastentransportsystems, welches auf Basis mehrerer Modellhubschrauber realisiert wurde. Abhängig von den Anforderungen der zu transportierenden Last kann die Anzahl der verwendeten Hubschrauber individuell angepasst werden. Die präsentierten Modelle und Regler wurden durch Computersimulationen und reale Flugversuche verifiziert. Zwei nichtlineare Modelle werden präsentiert: Ein Model für Konfigurationen bestehend aus einem Helikopter und einer Last (single-lift) und eines für Konfigurationen bestehend aus zwei bzw. mehreren Helikoptern und einer Last (dual- und multi-lift). Neben diesen komplexen Modellen werden vereinfachte Modelle vorgestellt, die für den Reglerentwurf verwendet werden. Ein generischer Orientierungsregler wird entwickelt, der für die Regelung aller beschriebenen Transportkonfigurationen verwendet werden kann. Durch die Nutzung dieses Reglers vereinfacht sich der Entwurf der Translationsregler erheblich. Drei Translationsregler werden beschrieben: Ein Regler für single-lift Konfigurationen, der eine aktive Unterdrückung von Lastschwingungen erlaubt, und ein verteilter Regler für multi-lift Konfigurationen. Weiterhin wird ein dual-lift Regler präsentiert, der eine Kombination der anderen Regler darstellt. Die Regler für dual- und multi-lift Konfigurationen verwenden keine mechanischen Hilfskonstrukte wie Abstandshalter. Die Position der Last wird durch die Orientierung des Seils, gemessen nahe dem Helikopterrumpf, bestimmt. Externe Störungen wie Windstöße können eine Eigenschwingung des Seils anregen, welche die ermittelte Lastposition verfälscht. Die Eigenschwingung des Seils sowie der Einfluss der verwendeten Messeinrichtung werden analysiert. Auf Basis dieser Analyse wird ein Lastbeobachter entwickelt und in mehreren Experimenten verifiziert. Dieser Lastbeobachter ist von essentieller Wichtigkeit für den sicheren Betrieb des Lastentransportsystems, insbesondere bei schlechten Wetterbedingungen. Die entwickelten nichtlinearen Modelle des Systems wie auch die Regler der single- und multi-lift Konfigurationen wurden durch Flugversuche validiert. Dabei hat das System bewiesen, dass es auch bei sehr schlechten Wetterbedingungen einsetzbar ist.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:134295390"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:1044411821",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4445205-6"
+                },
+                {
+                    "@id": "gnd:4025993-6"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
