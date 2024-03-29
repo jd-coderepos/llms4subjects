@@ -16,7 +16,7 @@ Since the GND is periodically updated, you can follow the following steps to obt
 
 (_note: The MARC format was developed by Henriette Avram at the Library of Congress during the 1960s. Avram's work was instrumental in creating a standardized format for the representation and exchange of bibliographic data in machine-readable form, paving the way for modern library cataloging systems. The MARC (Machine-Readable Cataloging) format is a standard for the representation and communication of bibliographic and related information in machine-readable form. It's used by libraries and related organizations to catalog and exchange information about books, journals, and other materials. The format structures data in records, with each record divided into fields that contain specific pieces of bibliographic information_)
 
-### 3. Download GND Sachbegriff Records
+#### 3. Download GND Sachbegriff Records
 - Search for two files (MARC21 or MARC21-xml formats) containing `gnd-sachbegriff` in its name.
 - Download the file with `.xml` extension. Thats it!
 
