@@ -1,6 +1,6 @@
-### About
+## About
 
-This readme provides the steps to obtain the GND Sachbegriff (subject heading) authority records downloaded as file. E.g., file named as `authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml`. 
+This readme provides the instructionss to obtain the GND Sachbegriff (subject heading) authority records. E.g., file named as `authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml`. 
 
 ### Instructions to download the latest GND Sachbegriff file
 
