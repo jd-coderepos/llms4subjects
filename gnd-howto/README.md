@@ -100,6 +100,8 @@ A file will be a collection of GND Sachbegriff (subject heading) records. Below 
   </record>
 ```
 
+A file can be expected to contain over a million unique sachbegriff (or subject heading) records. A recent download contained 1,860,338 unique subject heading records.
+
 #### GND Sachbegriff Record Interpretation Guide -- How to read a GND Sachbegriff Record?
 
 A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic record for ensuring consistency in cataloging across German-speaking libraries. Each part of the record holds specific data about the subject term:
@@ -237,6 +239,11 @@ The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/g
 | 913          | GND Subject Subcategory Code                          | [Link](https://www.loc.gov/marc/authority/ad913.html) |
 
 Data fields with tags `150` and `550` can be seen as central to interpreting a GND Sachbegriff record. The tag `150` supplies the subject heading label. While tag `550` provides a broader term or related subject.
+
+
+### IV] Train an LLM on the GND
+
+Refer to the following guide that can 
 
 
 
