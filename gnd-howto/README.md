@@ -159,6 +159,23 @@ Context:
 The record highlights Viehhändlersprache's role as a cultural and linguistic artifact, reflecting the mixing of linguistic elements in professional and social contexts among cattle traders in specific regions of Germany.
 
 
+[Example 2](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg2) Sachbegriff Record Summary
+
+Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
+- **Name:** Janus-Pressen-Schrift
+- **Meaning:** The term refers to a specific type or style of typeface associated with the Janus Press.
+
+Description:
+The Janus-Pressen-Schrift is linked to the activities of Walter Tiemann (1876-1951), a notable figure in the history of type design, and the Gebr. Klingspor foundry based in Offenbach, Main, Germany. It represents a specific design or style created or influenced by Tiemann and produced by the Janus Press and Gebr. Klingspor around 1907.
+
+Related Terms (`<datafield tag="550">`) 
+- **Renaissance-Antiqua:** A broader term indicating the general category of typefaces Janus-Pressen-Schrift belongs to, characterized by its humanist and classical proportions inspired by the Renaissance period.
+- **Tiemann-Mediaeval:** A related term or possibly another typeface design by Walter Tiemann, suggesting a connection or stylistic similarity to Janus-Pressen-Schrift.
+
+Context:
+This record highlights the Janus-Pressen-Schrift as a significant contribution to the art of typography, reflecting the collaboration between Walter Tiemann, a prominent type designer, and the Gebr. Klingspor type foundry. The creation year mentioned is 1907, situating the typeface in the early 20th century, a period of innovation and artistic exploration in type design.
+
+
 
 
 ### III] MARC 21 tags meaning
