@@ -142,6 +142,22 @@ Understanding the structure of these records is crucial for those involved in li
 ##### Other examples
 
 
+[Example 1](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg1) Sachbegriff Record Summary
+
+Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
+- **Name:** Viehhändlersprache
+- **Meaning:** Cattle Traders' Language
+
+Description:
+Viehhändlersprache is a sociolect used by cattle traders in Westphalia and the northern Rhineland of Germany. It incorporates elements from **Yiddish** and **Rotwelsch**, making it a unique blend of languages that served as a form of communication among traders.
+
+Related Terms (`<datafield tag="550">`) 
+- **Sondersprache:** A special language, indicating Viehhändlersprache is a specific sociolect within this broader category.
+- **Yiddish & Rotwelsch:** Both are integral to the development of Viehhändlersprache, with Yiddish being a historical language of the Ashkenazi Jews and Rotwelsch serving as a sociolect for the itinerant and marginalized groups in German-speaking areas.
+
+Context:
+The record highlights Viehhändlersprache's role as a cultural and linguistic artifact, reflecting the mixing of linguistic elements in professional and social contexts among cattle traders in specific regions of Germany.
+
 
 
 ### III] MARC 21 tags meaning
