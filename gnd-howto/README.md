@@ -176,6 +176,21 @@ Context:
 This record highlights the Janus-Pressen-Schrift as a significant contribution to the art of typography, reflecting the collaboration between Walter Tiemann, a prominent type designer, and the Gebr. Klingspor type foundry. The creation year mentioned is 1907, situating the typeface in the early 20th century, a period of innovation and artistic exploration in type design.
 
 
+[Example 3](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg3) Sachbegriff Record Summary
+
+Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
+- **Name:** Berufsfachschule für Massage
+- **Meaning:** Vocational School for Massage
+
+Description:
+The subject heading "Berufsfachschule für Massage" refers to specialized vocational schools that offer education and training in the field of massage therapy. These institutions provide theoretical knowledge and practical skills necessary for students to become professional massage therapists.
+
+Related Terms (`<datafield tag="550">`) 
+- **Berufsfachschule:** A broader term indicating that the "Berufsfachschule für Massage" is a specific type of vocational school. This term highlights the institution's role in providing specialized vocational education and training in various fields, with massage therapy being one such specialization.
+
+Context:
+This record points out the educational framework and specialization of vocational schools in the healthcare and wellness sector, specifically focusing on massage therapy. It underscores the importance of specialized training for aspiring massage therapists, providing them with the requisite skills and knowledge for their professional development.
+
 
 
 ### III] MARC 21 tags meaning
