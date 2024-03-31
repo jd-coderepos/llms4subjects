@@ -243,7 +243,5 @@ Data fields with tags `150` and `550` can be seen as central to interpreting a G
 
 ### IV] Train an LLM on the GND
 
-Refer to the following guide that can 
-
-
+Refer to this [GUIDE](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/train-an-llm.md) for a step-by-step overview on training an LLM with the GND.
 
