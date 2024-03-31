@@ -2,7 +2,7 @@
 
 This readme provides the instructionss to obtain the GND Sachbegriff (subject heading) authority records. E.g., file named as `authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml`. 
 
-### I. Instructions to download the latest GND Sachbegriff file
+### I] Instructions to download the latest GND Sachbegriff file
 
 Since the GND is periodically updated, you can follow the following steps to obtain the latest GND Sachbegriff authority records.
 
@@ -21,7 +21,7 @@ Since the GND is periodically updated, you can follow the following steps to obt
 - Download the file with `.xml` extension. Thats it!
 
 
-### II. Sample GND Sachbegriff record
+### II] Sample GND Sachbegriff record
 
 ```
   <record type="Authority">
@@ -102,7 +102,7 @@ Since the GND is periodically updated, you can follow the following steps to obt
 
 
 
-### III. MARC 21 codes meanings
+### III] MARC 21 codes meanings
 
 The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows the set of 36 unique MARC 21 codes seen for a recent download of a GND Sachbegriff file. 
 
