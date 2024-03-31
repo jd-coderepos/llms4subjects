@@ -23,6 +23,8 @@ Since the GND is periodically updated, you can follow the following steps to obt
 
 ### II] Sample GND Sachbegriff record
 
+A file will be a collection of GND Sachbegriff (subject heading) records. Below is one example record.
+
 ```
   <record type="Authority">
     <leader>00000nz  a2200000nc 4500</leader>
@@ -98,7 +100,7 @@ Since the GND is periodically updated, you can follow the following steps to obt
   </record>
 ```
 
-#### How to read a GND Sachbegriff Record | GND Sachbegriff Record Interpretation Guide
+#### How to read a GND Sachbegriff Record -- GND Sachbegriff Record Interpretation Guide
 
 A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic record for ensuring consistency in cataloging across German-speaking libraries. Each part of the record holds specific data about the subject term:
 
@@ -125,13 +127,11 @@ A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic re
   - `670`: Sources of information.
   - `913`: System-specific information.
 
-##### Example
-
-The given sample GND Sachbegriff record above can be minimally read as follows:
+##### How to minimally read the given sample GND Sachbegriff record above?
 
 - `024` field includes the unique GND identifier and a link to the term's GND record.
 - `040` field indicates the cataloging agency (DE-101) and that the record's content is in German.
-- `150` field contains the main subject term, e.g., "A 302 D".
+- `150` field contains the subject heading name, e.g., "A 302 D".
 - `550` field shows a related term, e.g., "Integrierte Schaltung" (Integrated Circuit), suggesting a relationship between the subjects.
 
 The sample record's subject heading name is "A 302 D." Regarding the meaning of "A 302 D", without additional context provided in the record or without specific knowledge of this classification, it's challenging to ascertain its precise meaning directly from this snippet alone. However, the `<datafield>` with tag `550` provides a broader term or related subject, which is "Integrierte Schaltung" (Integrated Circuit). This suggests that "A 302 D" might be related to a specific aspect, type, or application of integrated circuits within the classification system used by GND, possibly indicating a specific standard, model, or technology category associated with integrated circuits.
@@ -139,10 +139,14 @@ The sample record's subject heading name is "A 302 D." Regarding the meaning of 
 Understanding the structure of these records is crucial for those involved in library and information management.
 
 
+##### Other examples
+
+
+
 
 ### III] MARC 21 tags meaning
 
-The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows the set of 36 unique MARC 21 codes seen for a recent download of a GND Sachbegriff file.
+The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 tags seen. The table below shows the set of 36 unique MARC21 tags seen in a recent download of a GND Sachbegriff file.
 
 | MARC 21 data field tags | Description                                           | Link |
 |--------------|-------------------------------------------------------|------|
