@@ -104,7 +104,7 @@ A file will be a collection of GND Sachbegriff (subject heading) records. Below 
 
 A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic record for ensuring consistency in cataloging across German-speaking libraries. Each part of the record holds specific data about the subject term:
 
-##### Key Components
+###### Key Components
 
 - **Record Type**: `Authority` indicates a record for standardized information about subjects, persons, organizations, etc.
 
@@ -127,7 +127,7 @@ A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic re
   - `670`: Sources of information.
   - `913`: System-specific information.
 
-##### How to minimally read the given sample GND Sachbegriff record above?
+###### How to minimally read the given sample GND Sachbegriff record above?
 
 - `024` field includes the unique GND identifier and a link to the term's GND record.
 - `040` field indicates the cataloging agency (DE-101) and that the record's content is in German.
@@ -139,7 +139,7 @@ The sample record's subject heading name is "A 302 D." Regarding the meaning of 
 Understanding the structure of these records is crucial for those involved in library and information management.
 
 
-##### Other examples
+###### Other examples
 
 
 [Example 1](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg1) Sachbegriff Record Summary
@@ -157,7 +157,6 @@ Related Terms (`<datafield tag="550">`)
 
 Context:
 The record highlights Viehhändlersprache's role as a cultural and linguistic artifact, reflecting the mixing of linguistic elements in professional and social contexts among cattle traders in specific regions of Germany.
-
 
 
 ### III] MARC 21 tags meaning
