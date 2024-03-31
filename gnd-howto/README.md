@@ -8,7 +8,7 @@ Since the GND is periodically updated, you can follow the following steps to obt
 
 #### 1. Access the GND Data
 - Go to the [GND homepage](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html).
-- Scroll to **Metadata services** and select [**Full copies available through WWW/SFTP servers in MARC 21, MARC21-XML**](https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/Gesamtabzuege/gesamtabzuege_node.html).
+- Scroll to the **Metadata services** section and select [**Full copies available through WWW/SFTP servers in MARC 21, MARC21-XML**](https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/Gesamtabzuege/gesamtabzuege_node.html).
 
 #### 2. Find the Complete Sets
 - On the new page, locate the **Complete sets** section.
@@ -20,6 +20,86 @@ Since the GND is periodically updated, you can follow the following steps to obt
 - Search for two files (MARC21 or MARC21-xml formats) containing `gnd-sachbegriff` in its name.
 - Download the file with `.xml` extension. Thats it!
 
+
+### Sample GND Sachbegriff record
+
+```
+  <record type="Authority">
+    <leader>00000nz  a2200000nc 4500</leader>
+    <controlfield tag="001">040000028</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20100106125650.0</controlfield>
+    <controlfield tag="008">880701n||azznnbabn           | ana    |c</controlfield>
+    <datafield tag="024" ind1="7" ind2=" ">
+      <subfield code="a">4000002-3</subfield>
+      <subfield code="0">http://d-nb.info/gnd/4000002-3</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-101)040000028</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-588)4000002-3</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="z">(DE-588c)4000002-3</subfield>
+      <subfield code="9">v:zg</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">DE-101</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="9">r:DE-101</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="d">0832</subfield>
+    </datafield>
+    <datafield tag="042" ind1=" " ind2=" ">
+      <subfield code="a">gnd1</subfield>
+    </datafield>
+    <datafield tag="065" ind1=" " ind2=" ">
+      <subfield code="a">31.9b</subfield>
+      <subfield code="2">sswd</subfield>
+    </datafield>
+    <datafield tag="075" ind1=" " ind2=" ">
+      <subfield code="b">s</subfield>
+      <subfield code="2">gndgen</subfield>
+    </datafield>
+    <datafield tag="079" ind1=" " ind2=" ">
+      <subfield code="a">g</subfield>
+      <subfield code="q">s</subfield>
+    </datafield>
+    <datafield tag="083" ind1="0" ind2="4">
+      <subfield code="a">621.381537</subfield>
+      <subfield code="9">d:2</subfield>
+      <subfield code="9">t:2010-01-06</subfield>
+      <subfield code="2">23/ger</subfield>
+    </datafield>
+    <datafield tag="150" ind1=" " ind2=" ">
+      <subfield code="a">A 302 D</subfield>
+    </datafield>
+    <datafield tag="550" ind1=" " ind2=" ">
+      <subfield code="0">(DE-101)040272427</subfield>
+      <subfield code="0">(DE-588)4027242-4</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4027242-4</subfield>
+      <subfield code="a">Integrierte Schaltung</subfield>
+      <subfield code="4">obal</subfield>
+      <subfield code="4">https://d-nb.info/standards/elementset/gnd#broaderTermGeneral</subfield>
+      <subfield code="w">r</subfield>
+      <subfield code="i">Oberbegriff allgemein</subfield>
+    </datafield>
+    <datafield tag="670" ind1=" " ind2=" ">
+      <subfield code="a">Vorlage</subfield>
+    </datafield>
+    <datafield tag="913" ind1=" " ind2=" ">
+      <subfield code="S">swd</subfield>
+      <subfield code="i">s</subfield>
+      <subfield code="a">A 302 D</subfield>
+      <subfield code="0">(DE-588c)4000002-3</subfield>
+    </datafield>
+  </record>
+```
+
+
+### Clarification on the MARC 21 codes
 
 
 
