@@ -98,17 +98,53 @@ Since the GND is periodically updated, you can follow the following steps to obt
   </record>
 ```
 
-#### How to read a GND record
+#### How to read a GND Sachbegriff Record | GND Sachbegriff Record Interpretation Guide
+
+A GND (Gemeinsame Normdatei) Sachbegriff record is a structured bibliographic record for ensuring consistency in cataloging across German-speaking libraries. Each part of the record holds specific data about the subject term:
+
+##### Key Components
+
+- **Record Type**: `Authority` indicates a record for standardized information about subjects, persons, organizations, etc.
+
+- **Leader**: Fixed-length field with codes for record characteristics.
+
+- **Control Fields**:
+  - `001`: Control number.
+  - `003`: Control number identifier (e.g., DE-101).
+  - `005`: Date/time of the latest record transaction.
+  - `008`: Fixed-length data elements like date entered, publication status, and language.
+
+- **Data Fields**: Contain descriptive information, each identified by a tag number and subdivided into subfields (`subfield code`):
+  - `024`, `035`: Standard numbers and identifiers, including the GND identifier and URL to the GND database.
+  - `040`: Cataloging source, language, and institution code.
+  - `042`: Authentication code.
+  - `065`, `075`, `079`: Classification codes.
+  - `083`: Classification number with additional elements like assignment date.
+  - `150`: Main heading of the subject authority record.
+  - `550`: Related subject terms, indicating hierarchical relationships.
+  - `670`: Sources of information.
+  - `913`: System-specific information.
+
+##### Example
+
+The given sample GND Sachbegriff record above can be minimally read as follows:
+
+- `024` field includes the unique GND identifier and a link to the term's GND record.
+- `040` field indicates the cataloging agency (DE-101) and that the record's content is in German.
+- `150` field contains the main subject term, e.g., "A 302 D".
+- `550` field shows a related term, e.g., "Integrierte Schaltung" (Integrated Circuit), suggesting a relationship between the subjects.
+
+The sample record's subject heading name is "A 302 D." Regarding the meaning of "A 302 D", without additional context provided in the record or without specific knowledge of this classification, it's challenging to ascertain its precise meaning directly from this snippet alone. However, the `<datafield>` with tag `550` provides a broader term or related subject, which is "Integrierte Schaltung" (Integrated Circuit). This suggests that "A 302 D" might be related to a specific aspect, type, or application of integrated circuits within the classification system used by GND, possibly indicating a specific standard, model, or technology category associated with integrated circuits.
+
+Understanding the structure of these records is crucial for those involved in library and information management.
 
 
 
-### III] MARC 21 codes meanings
+### III] MARC 21 tags meaning
 
-The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows the set of 36 unique MARC 21 codes seen for a recent download of a GND Sachbegriff file. 
+The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows the set of 36 unique MARC 21 codes seen for a recent download of a GND Sachbegriff file.
 
-#### datafield codes
-
-| MARC 21 Code | Description                                           | Link |
+| MARC 21 data field tags | Description                                           | Link |
 |--------------|-------------------------------------------------------|------|
 | 024          | Other Standard Identifier                             | [Link](https://www.loc.gov/marc/authority/ad024.html) |
 | 035          | System Control Number                                 | [Link](https://www.loc.gov/marc/authority/ad035.html) |
@@ -120,7 +156,7 @@ The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/g
 | 079          | GND Control Number                                    | [Link](https://www.loc.gov/marc/authority/ad079.html) |
 | 083          | Classification Number                                 | [Link](https://www.loc.gov/marc/authority/ad083.html) |
 | 089          | Authority Record Control Number or Standard Number    | [Link](https://www.loc.gov/marc/authority/ad089.html) |
-| 150          | Main Heading - Subject                                | [Link](https://www.loc.gov/marc/authority/ad150.html) |
+| **150**          | **Main Heading - Subject**                                | [Link](https://www.loc.gov/marc/authority/ad150.html) |
 | 260          | Complex See Reference - Subject                       | [Link](https://www.loc.gov/marc/authority/ad260.html) |
 | 377          | Associated Language                                   | [Link](https://www.loc.gov/marc/authority/ad377.html) |
 | 380          | Form of Work                                          | [Link](https://www.loc.gov/marc/authority/ad380.html) |
@@ -132,7 +168,7 @@ The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/g
 | 511          | See Also From Tracing - Geographic Subdivision        | [Link](https://www.loc.gov/marc/authority/ad511.html) |
 | 530          | See Also From Tracing - Form Subdivision              | [Link](https://www.loc.gov/marc/authority/ad530.html) |
 | 548          | Chronological Term                                    | [Link](https://www.loc.gov/marc/authority/ad548.html) |
-| 550          | See Also From Tracing - Topical Term (Related Subject Terms) | [Link](https://www.loc.gov/marc/authority/ad550.html) |
+| **550**          | **See Also From Tracing - Topical Term (Related Subject Terms)** | [Link](https://www.loc.gov/marc/authority/ad550.html) |
 | 551          | Geographic Name                                       | [Link](https://www.loc.gov/marc/authority/ad551.html) |
 | 667          | Nonpublic General Note                                | [Link](https://www.loc.gov/marc/authority/ad667.html) |
 | 670          | Source Data Found                                     | [Link](https://www.loc.gov/marc/authority/ad670.html) |
@@ -147,10 +183,7 @@ The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/g
 | 912          | GND Subject Category Code                             | [Link](https://www.loc.gov/marc/authority/ad912.html) |
 | 913          | GND Subject Subcategory Code                          | [Link](https://www.loc.gov/marc/authority/ad913.html) |
 
-
-
-
-Each datafield can 
+Data fields with tags `150` and `550` can be seen as central to interpreting a GND Sachbegriff record. The tag `150` supplies the subject heading label. While tag `550` provides a broader term or related subject.
 
 
 
