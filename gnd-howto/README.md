@@ -104,48 +104,49 @@ Since the GND is periodically updated, you can follow the following steps to obt
 
 ### III. MARC 21 codes meanings
 
-The following script reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows all unique MARC 21 codes seen for a download of a GND Sachbegriff file with the timestamp of this file. 
+The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 codes seen. The table below shows the set of 36 unique MARC 21 codes seen for a recent download of a GND Sachbegriff file. 
 
 #### datafield codes
 
-| MARC 21 Code | Description | Link |
-|--------------|-------------|------|
-| 024          | Other Standard Identifier | [Link](https://www.loc.gov/marc/authority/ad024.html) |
-| 035          | System Control Number | [Link](https://www.loc.gov/marc/authority/ad035.html) |
-| 040          | Cataloging Source | [Link](https://www.loc.gov/marc/authority/ad040.html) |
-| 042          | Authentication Code | [Link](https://www.loc.gov/marc/authority/ad042.html) |
-| 043          | Geographic Area Code | [Link](https://www.loc.gov/marc/authority/ad043.html) |
-| 065          | Other Classification Number | [Link](https://www.loc.gov/marc/authority/ad065.html) |
-| 075          | Application History Note | [Link](https://www.loc.gov/marc/authority/ad075.html) |
-| 079          | GND Control Number | [Link](https://www.loc.gov/marc/authority/ad079.html) |
-| 083          | Classification Number | [Link](https://www.loc.gov/marc/authority/ad083.html) |
-| 089          | Authority Record Control Number or Standard Number | [Link](https://www.loc.gov/marc/authority/ad089.html) |
-| 150          | Heading - Subject | [Link](https://www.loc.gov/marc/authority/ad150.html) |
-| 260          | Complex See Reference - Subject | [Link](https://www.loc.gov/marc/authority/ad260.html) |
-| 377          | Associated Language | [Link](https://www.loc.gov/marc/authority/ad377.html) |
-| 380          | Form of Work | [Link](https://www.loc.gov/marc/authority/ad380.html) |
-| 410          | Series Statement/Added Entry - Subject | [Link](https://www.loc.gov/marc/authority/ad410.html) |
-| 450          | See Also Reference - Subject | [Link](https://www.loc.gov/marc/authority/ad450.html) |
-| 451          | See Reference - Subject | [Link](https://www.loc.gov/marc/authority/ad451.html) |
-| 500          | See Also From Tracing - General Subdivision | [Link](https://www.loc.gov/marc/authority/ad500.html) |
-| 510          | See Also From Tracing - Chronological Subdivision | [Link](https://www.loc.gov/marc/authority/ad510.html) |
-| 511          | See Also From Tracing - Geographic Subdivision | [Link](https://www.loc.gov/marc/authority/ad511.html) |
-| 530          | See Also From Tracing - Form Subdivision | [Link](https://www.loc.gov/marc/authority/ad530.html) |
-| 548          | Chronological Term | [Link](https://www.loc.gov/marc/authority/ad548.html) |
-| 550          | Subject Term | [Link](https://www.loc.gov/marc/authority/ad550.html) |
-| 551          | Geographic Name | [Link](https://www.loc.gov/marc/authority/ad551.html) |
-| 667          | Nonpublic General Note | [Link](https://www.loc.gov/marc/authority/ad667.html) |
-| 670          | Source Data Found | [Link](https://www.loc.gov/marc/authority/ad670.html) |
-| 675          | Source Data Not Found | [Link](https://www.loc.gov/marc/authority/ad675.html) |
-| 677          | Definition and Scope Note | [Link](https://www.loc.gov/marc/authority/ad677.html) |
-| 678          | Biographical or Historical Data | [Link](https://www.loc.gov/marc/authority/ad678.html) |
-| 680          | Public General Note | [Link](https://www.loc.gov/marc/authority/ad680.html) |
-| 682          | Deleted Heading Information | [Link](https://www.loc.gov/marc/authority/ad682.html) |
-| 700          | Heading - Personal Name | [Link](https://www.loc.gov/marc/authority/ad700.html) |
-| 750          | Heading - Geographic Name | [Link](https://www.loc.gov/marc/authority/ad750.html) |
-| 751          | Added Entry - Geographic Name | [Link](https://www.loc.gov/marc/authority/ad751.html) |
-| 912          | GND Subject Category Code | [Link](https://www.loc.gov/marc/authority/ad912.html) |
-| 913          | GND Subject Subcategory Code | [Link](https://www.loc.gov/marc/authority/ad913.html) |
+| MARC 21 Code | Description                                           | Link |
+|--------------|-------------------------------------------------------|------|
+| 024          | Other Standard Identifier                             | [Link](https://www.loc.gov/marc/authority/ad024.html) |
+| 035          | System Control Number                                 | [Link](https://www.loc.gov/marc/authority/ad035.html) |
+| 040          | Cataloging Source                                     | [Link](https://www.loc.gov/marc/authority/ad040.html) |
+| 042          | Authentication Code                                   | [Link](https://www.loc.gov/marc/authority/ad042.html) |
+| 043          | Geographic Area Code                                  | [Link](https://www.loc.gov/marc/authority/ad043.html) |
+| 065          | Other Classification Number                           | [Link](https://www.loc.gov/marc/authority/ad065.html) |
+| 075          | Application History Note                              | [Link](https://www.loc.gov/marc/authority/ad075.html) |
+| 079          | GND Control Number                                    | [Link](https://www.loc.gov/marc/authority/ad079.html) |
+| 083          | Classification Number                                 | [Link](https://www.loc.gov/marc/authority/ad083.html) |
+| 089          | Authority Record Control Number or Standard Number    | [Link](https://www.loc.gov/marc/authority/ad089.html) |
+| 150          | Main Heading - Subject                                | [Link](https://www.loc.gov/marc/authority/ad150.html) |
+| 260          | Complex See Reference - Subject                       | [Link](https://www.loc.gov/marc/authority/ad260.html) |
+| 377          | Associated Language                                   | [Link](https://www.loc.gov/marc/authority/ad377.html) |
+| 380          | Form of Work                                          | [Link](https://www.loc.gov/marc/authority/ad380.html) |
+| 410          | Series Statement/Added Entry - Subject                | [Link](https://www.loc.gov/marc/authority/ad410.html) |
+| 450          | See Also Reference - Subject                          | [Link](https://www.loc.gov/marc/authority/ad450.html) |
+| 451          | See Reference - Subject                               | [Link](https://www.loc.gov/marc/authority/ad451.html) |
+| 500          | See Also From Tracing - General Subdivision           | [Link](https://www.loc.gov/marc/authority/ad500.html) |
+| 510          | See Also From Tracing - Chronological Subdivision     | [Link](https://www.loc.gov/marc/authority/ad510.html) |
+| 511          | See Also From Tracing - Geographic Subdivision        | [Link](https://www.loc.gov/marc/authority/ad511.html) |
+| 530          | See Also From Tracing - Form Subdivision              | [Link](https://www.loc.gov/marc/authority/ad530.html) |
+| 548          | Chronological Term                                    | [Link](https://www.loc.gov/marc/authority/ad548.html) |
+| 550          | See Also From Tracing - Topical Term (Related Subject Terms) | [Link](https://www.loc.gov/marc/authority/ad550.html) |
+| 551          | Geographic Name                                       | [Link](https://www.loc.gov/marc/authority/ad551.html) |
+| 667          | Nonpublic General Note                                | [Link](https://www.loc.gov/marc/authority/ad667.html) |
+| 670          | Source Data Found                                     | [Link](https://www.loc.gov/marc/authority/ad670.html) |
+| 675          | Source Data Not Found                                 | [Link](https://www.loc.gov/marc/authority/ad675.html) |
+| 677          | Definition and Scope Note                             | [Link](https://www.loc.gov/marc/authority/ad677.html) |
+| 678          | Biographical or Historical Data                       | [Link](https://www.loc.gov/marc/authority/ad678.html) |
+| 680          | Public General Note                                   | [Link](https://www.loc.gov/marc/authority/ad680.html) |
+| 682          | Deleted Heading Information                           | [Link](https://www.loc.gov/marc/authority/ad682.html) |
+| 700          | Heading - Personal Name                               | [Link](https://www.loc.gov/marc/authority/ad700.html) |
+| 750          | Heading - Geographic Name                             | [Link](https://www.loc.gov/marc/authority/ad750.html) |
+| 751          | Added Entry - Geographic Name                         | [Link](https://www.loc.gov/marc/authority/ad751.html) |
+| 912          | GND Subject Category Code                             | [Link](https://www.loc.gov/marc/authority/ad912.html) |
+| 913          | GND Subject Subcategory Code                          | [Link](https://www.loc.gov/marc/authority/ad913.html) |
+
 
 
 
