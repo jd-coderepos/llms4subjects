@@ -197,7 +197,7 @@ This record points out the educational framework and specialization of vocationa
 
 ### III] MARC 21 tags meaning
 
-The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 tags seen. The table below shows the set of 36 unique MARC21 tags seen in a recent download of a GND Sachbegriff file.
+The following [script](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-how-to/scripts/print-unique-MARC21-codes.py) reads all records in a GND Sachbegriff file and prints out the unique MARC21 tags seen. The table below shows the set of 36 unique MARC21 tags seen in a recent download of a GND Sachbegriff file.
 
 | MARC 21 data field tags | Description                                           | Link |
 |--------------|-------------------------------------------------------|------|
@@ -243,5 +243,5 @@ Data fields with tags `150` and `550` can be seen as central to interpreting a G
 
 ### IV] Train an LLM on the GND
 
-Refer to this [GUIDE](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/train-an-llm.md) for a step-by-step overview on training an LLM with the GND.
+Refer to this [GUIDE](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-how-to/train-an-llm.md) for a step-by-step overview on training an LLM with the GND.
 
