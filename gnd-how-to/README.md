@@ -144,7 +144,7 @@ Understanding the structure of these records is crucial for those involved in li
 ###### READING THREE OTHER EXAMPLE RECORDS
 
 
-[Example 1](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg1) Sachbegriff Record Summary
+[Example 1](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-how-to/records/record-eg1) Sachbegriff Record Summary
 
 Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
 - **Name:** Viehhändlersprache
