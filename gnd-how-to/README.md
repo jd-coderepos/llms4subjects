@@ -161,7 +161,7 @@ Context:
 The record highlights Viehhändlersprache's role as a cultural and linguistic artifact, reflecting the mixing of linguistic elements in professional and social contexts among cattle traders in specific regions of Germany.
 
 
-[Example 2](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg2) Sachbegriff Record Summary
+[Example 2](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-how-to/records/record-eg2) Sachbegriff Record Summary
 
 Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
 - **Name:** Janus-Pressen-Schrift
@@ -178,7 +178,7 @@ Context:
 This record highlights the Janus-Pressen-Schrift as a significant contribution to the art of typography, reflecting the collaboration between Walter Tiemann, a prominent type designer, and the Gebr. Klingspor type foundry. The creation year mentioned is 1907, situating the typeface in the early 20th century, a period of innovation and artistic exploration in type design.
 
 
-[Example 3](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-howto/records/record-eg3) Sachbegriff Record Summary
+[Example 3](https://github.com/jd-coderepos/llms4subjects/blob/main/gnd-how-to/records/record-eg3) Sachbegriff Record Summary
 
 Subject Heading (`<datafield>` with tag `150`, where `<subfield code="a">` specifies the subject heading)
 - **Name:** Berufsfachschule für Massage
