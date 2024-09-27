@@ -1,0 +1,139 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1213471362",
+            "sameAs": "Digitaler Zwilling"
+        },
+        {
+            "@id": "gnd:1304368696",
+            "sameAs": "Cai, Hui"
+        },
+        {
+            "@id": "gnd:134094646",
+            "sameAs": "Westermann, Dirk"
+        },
+        {
+            "@id": "gnd:134133676",
+            "sameAs": "Haubrock, Jens"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4183750-2",
+            "sameAs": "Stromrichterregler"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "gnd:4279392-0",
+            "sameAs": "Verteilungsnetz"
+        },
+        {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universit\u00e4tsverlag Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1882059298",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XII, 168 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Ulbig, Andreas",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(doi)10.22032/dbt.59235",
+                "(ppn)1882059298",
+                "(firstid)KXP:1882059298"
+            ],
+            "publisher": "Universit\u00e4tsverlag Ilmenau",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)ZN 8520",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "Regelungssystem",
+                "(classificationName=ddc-dbn)621.3192",
+                "Netzstabilit\u00e4t",
+                "Neuronales Netz"
+            ],
+            "title": "Adaptive control of converters dominated distribution network based on digital twins",
+            "abstract": "Mit der zunehmenden Einspeisung und Verteilung von erneuerbaren Energien im Stromnetz w\u00e4chst die Anzahl der Stromrichter (SR). Dies kann zu einer Destabilisierung des Systems aufgrund mehrerer Faktoren f\u00fchren, von denen einer auf die Reglerparameter der Stromrichter zur\u00fcckzuf\u00fchren ist. Es erfordert eine Parametrierung und Optimierung der genannten Parameter. Die vorliegende Arbeit widmet sich der zentralen Forschungsfrage, wie die Stabilit\u00e4t eines Stromrichter-dominierten Verteilnetzes bei variierenden Betriebs-punkten durch das dynamisch adaptive Regelverfahren verbessert werden kann. F\u00fcr die Parametrierung der Regler wird ein Reinforcement Learning (RL)-Agent vorgeschlagen, der adaptiv geeignete Reglerparameter in Abh\u00e4ngigkeit von den Systemzust\u00e4nden erzeugt, um die Stabilit\u00e4t zu gew\u00e4hrleisten und zu verbessern. In dieser Arbeit wird zun\u00e4chst ein digitaler Zwilling (DZ) des untersuchten Netzes mit Hilfe von Parametersch\u00e4tzungen konstruiert. Das DZ-Modell wird verwendet, um Trainingsdaten f\u00fcr einen auf einem k\u00fcnstlichen neuronalen Netz (KNN) basierenden Zustandssch\u00e4tzer zu erzeugen, der den stabilen Zustand des Systems pr\u00e4zise und effizient bestimmen soll. Dar\u00fcber hinaus wird ein Klein-signal-Stabilit\u00e4tsindikator (SI) unter Verwendung des D\u00e4mpfungsgrades des dominanten Eigenwerts f\u00fcr das DZ-Modell entwickelt. Da der SI dem RL-Agenten die Systemstabilit\u00e4tsreserve w\u00e4hrend des RL-Trainings anzeigt, ist der Agent letztendlich in der Lage, optimale Reglerparameter f\u00fcr die Stromrichters auszugeben. Mittels numerischer Fallstudien wird die Funktionsf\u00e4higkeit des vorgeschlagenen Ansatzes verifiziert, dass die Netzstabilit\u00e4t durch die vorgeschlagene adaptive Kontrollmethode verbessert werden kann.",
+            "contributor": [
+                "gnd:134094646",
+                "gnd:134133676"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:7635051-4",
+                "gnd:1304368696",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4183750-2",
+                "gnd:4279392-0",
+                "gnd:1213471362",
+                "gnd:4226127-2"
+            ],
+            "volume": "Band 37",
+            "isLike": "doi:10.22032/dbt.59235",
+            "P30128": "Ilmenauer Beitr\u00e4ge zur elektrischen Energiesystem-, Ger\u00e4te- und Anlagentechnik (IBEGA)",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

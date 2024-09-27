@@ -1,6 +1,14 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1025493990",
+            "sameAs": "Hartmann, Thomas"
+        },
+        {
+            "@id": "gnd:124950256X",
+            "sameAs": "Slav\u00edkov\u00e1, Lenka"
+        },
+        {
             "@id": "gnd:4016960-1",
             "sameAs": "Feuchtgebiet"
         },
@@ -26,11 +34,11 @@
         },
         {
             "@id": "gnd:4200802-5",
-            "sameAs": "Maßnahme"
+            "sameAs": "Ma\u00dfnahme"
         },
         {
             "@id": "gnd:4249689-5",
-            "sameAs": "Naturnaher Gewässerausbau"
+            "sameAs": "Naturnaher Gew\u00e4sserausbau"
         },
         {
             "@id": "gnd:4249691-3",
@@ -38,25 +46,22 @@
         },
         {
             "@id": "gnd:4443995-7",
-            "sameAs": "Überschwemmungsgebiet"
+            "sameAs": "\u00dcberschwemmungsgebiet"
         },
         {
             "@id": "gnd:4453039-0",
-            "sameAs": "Überschwemmungsgefahr"
+            "sameAs": "\u00dcberschwemmungsgefahr"
         },
         {
             "@id": "gnd:4529395-8",
-            "sameAs": "Wiedervernässung"
+            "sameAs": "Wiedervern\u00e4ssung"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1676307591",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource (XVII, 228 p. 18 illus., 9 illus. in color)",
-            "contributor": [
-                "McCarthy, Simon",
-                "Slavíková, Lenka",
-                "Hartmann, Thomas"
-            ],
+            "P1053": "1 Online-Ressource (xvii, 228 Seiten)",
+            "contributor": "McCarthy, Simon",
+            "description": "Diagramme, Illustrationen, Karten",
             "identifier": [
                 "(doi)10.1007/978-3-030-23842-1",
                 "(ppn)1676307591",
@@ -84,10 +89,18 @@
             ],
             "title": "Nature-based flood risk management on private land : disciplinary perspectives on a multidisciplinary challenge",
             "abstract": [
-                "This open access book addresses the various disciplinary aspects of nature-based solutions in flood risk management on private land. In recent decades, water management has been moving towards nature-based solutions. These are assumed to be much more multi-purpose than traditional “grey infrastructures” and seem to be regarded as a panacea for many environmental issues. At the same time, such measures require more – and mostly privately owned – land and more diverse stakeholder involvement than traditional (grey) engineering approaches. They also present challenges related to different disciplines. Nature-based solutions for flood risk management not only require technical expertise, but also call for interdisciplinary insights from land-use planning, economics, property rights, sociology, landscape planning, ecology, hydrology, agriculture and other disciplines to address the challenges of implementing them. Ultimately, nature-based flood risk management is a multi-disciplinary endeavor. Featuring numerous case studies of nature-based flood risk management accompanied by commentaries, this book presents brief academic reflections from two different disciplinary perspectives that critically highlight which specific aspects are of significance, and as such, underscore the multi-disciplinary nature of the challenges faced",
-                "Part I: Introduction -- Nature-based solutions in flood risk management -- Nature-based solutions &amp; issues of scale -- Part II: small scale property solutions -- Small retention programme in the Polish forests -- Privately funded natural water retention measures in the Czech Republic -- Experimenting with re-parcelling by means of land swop -- Part III: Medium sized infrastructure solutions -- Rivers and their floodplains in city of Plzeň (CZ): System of urban wetlands as nature based flood protection measures -- The “Blue Zone Rhine Valley”: a regional planning instrument for future-oriented flood management in a dynamic risk environment -- Part VI: Large scale catchment solutions -- Adaptation of climate impacts via relocation of dykes: Governmental challenges in the biosphere reserve “River Landscape ELBE-Brandenburg” -- West European Climate Corridor / Green Rhine Corridor -- Part V: Conclusion. Towards a multidisciplinary approach to nature-based flood risk management"
+                "This open access book addresses the various disciplinary aspects of nature-based solutions in flood risk management on private land. In recent decades, water management has been moving towards nature-based solutions. These are assumed to be much more multi-purpose than traditional \u201cgrey infrastructures\u201d and seem to be regarded as a panacea for many environmental issues. At the same time, such measures require more \u2013 and mostly privately owned \u2013 land and more diverse stakeholder involvement than traditional (grey) engineering approaches. They also present challenges related to different disciplines. Nature-based solutions for flood risk management not only require technical expertise, but also call for interdisciplinary insights from land-use planning, economics, property rights, sociology, landscape planning, ecology, hydrology, agriculture and other disciplines to address the challenges of implementing them. Ultimately, nature-based flood risk management is a multi-disciplinary endeavor. Featuring numerous case studies of nature-based flood risk management accompanied by commentaries, this book presents brief academic reflections from two different disciplinary perspectives that critically highlight which specific aspects are of significance, and as such, underscore the multi-disciplinary nature of the challenges faced",
+                "Part I: Introduction -- Nature-based solutions in flood risk management -- Nature-based solutions & issues of scale -- Part II: small scale property solutions -- Small retention programme in the Polish forests -- Privately funded natural water retention measures in the Czech Republic -- Experimenting with re-parcelling by means of land swop -- Part III: Medium sized infrastructure solutions -- Rivers and their floodplains in city of Plze\u0148 (CZ): System of urban wetlands as nature based flood protection measures -- The \u201cBlue Zone Rhine Valley\u201d: a regional planning instrument for future-oriented flood management in a dynamic risk environment -- Part VI: Large scale catchment solutions -- Adaptation of climate impacts via relocation of dykes: Governmental challenges in the biosphere reserve \u201cRiver Landscape ELBE-Brandenburg\u201d -- West European Climate Corridor / Green Rhine Corridor -- Part V: Conclusion. Towards a multidisciplinary approach to nature-based flood risk management"
             ],
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:1025493990"
+                },
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:124950256X"
+                }
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-EES",
                 "(collectioncode)ZDB-2-SXEE",
@@ -129,6 +142,7 @@
             "@type": "@id"
         },
         "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -146,9 +160,9 @@
         },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "abstract": "http://purl.org/dc/terms/abstract",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "title": "http://purl.org/dc/elements/1.1/title",
         "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",

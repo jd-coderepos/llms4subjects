@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120619792",
+            "sameAs": "Tempelmeier, Horst"
+        },
+        {
+            "@id": "gnd:121396584",
+            "sameAs": "Helber, Stefan"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A568420063",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource, 24 S., Text",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Buschk\u00fchl, Lisbeth",
+                "Sahling, Florian"
+            ],
+            "identifier": [
+                "(firstid)GBV:568420063",
+                "(ppn)568420063"
+            ],
+            "publisher": "Fachbereich Wirtschaftswiss., Univ.",
+            "subject": [
+                "Produktionsplanung",
+                "Produktionskapazit\u00e4t",
+                "(classificationName=linseach:automatic)mat",
+                "Losgr\u00f6\u00dfe",
+                "Theorie",
+                "Scheduling-Verfahren",
+                "Heuristik"
+            ],
+            "title": "Solving a multi-level capacitated lot sizing problem with multi-period setup carry-over via a fix-and-optimize heuristic",
+            "abstract": "This paper presents a new algorithm for the dynamic Multi-Level Capacitated Lot Sizing Problem with Setup Carry-Overs (MLCLSP-L). The MLCLSP-L is a big-bucket model that allows the production of any number of products within a period, but it incorporates partial sequencing of the production orders in the sense that the first and the last product produced in a period are determined by the model. We solve a model which is applicable to general bill-of-material structures and which includes minimum lead times of one period and multi-period setup carry-overs. Our algorithm solves a series of mixed-integer linear programs in an iterative so-called Fix-and-Optimize approach. In each instance of these mixed-integer linear programs a large number of binary setup variables is fixed whereas only a small subset of these variables is optimized, together with the complete set of the inventory and lot size variables. A numerical study shows that the algorithm provides high-quality results and that the computational effort is moderate.",
+            "contributor": [
+                "gnd:121396584",
+                "gnd:120619792"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "400",
+            "P30128": "Discussion papers / School of Economics and Management of the Hanover Leibniz University",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

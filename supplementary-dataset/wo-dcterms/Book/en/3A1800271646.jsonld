@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1800271646",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(XIX, 245 p. 63 illus., 62 illus. in color.)",
+            "creator": [
+                "Vossepoel, Femke C.",
+                "Evensen, Geir",
+                "van Leeuwen, Peter Jan"
+            ],
+            "identifier": [
+                "(ppn)1800271646",
+                "(isbn13)9783030967093",
+                "(firstid)KEP:077580273",
+                "(doi)10.1007/978-3-030-96709-3"
+            ],
+            "publisher": "Springer International Publishing",
+            "subject": [
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=linseach:mapping)geo",
+                "Statistics .",
+                "(classificationName=ddc)910.02",
+                "(classificationName=ddc)550",
+                "Physical geography.",
+                "Sampling (Statistics)."
+            ],
+            "title": "Data Assimilation Fundamentals : A Unified Formulation of the State and Parameter Estimation Problem",
+            "abstract": [
+                "This open-access textbook's significant contribution is the unified derivation of data-assimilation techniques from a common fundamental and optimal starting point, namely Bayes' theorem. Unique for this book is the \"top-down\" derivation of the assimilation methods. It starts from Bayes theorem and gradually introduces the assumptions and approximations needed to arrive at today's popular data-assimilation methods. This strategy is the opposite of most textbooks and reviews on data assimilation that typically take a bottom-up approach to derive a particular assimilation method. E.g., the derivation of the Kalman Filter from control theory and the derivation of the ensemble Kalman Filter as a low-rank approximation of the standard Kalman Filter. The bottom-up approach derives the assimilation methods from different mathematical principles, making it difficult to compare them. Thus, it is unclear which assumptions are made to derive an assimilation method and sometimes even which problem it aspires to solve. The book's top-down approach allows categorizing data-assimilation methods based on the approximations used. This approach enables the user to choose the most suitable method for a particular problem or application. Have you ever wondered about the difference between the ensemble 4DVar and the \"ensemble randomized likelihood\" (EnRML) methods? Do you know the differences between the ensemble smoother and the ensemble-Kalman smoother? Would you like to understand how a particle flow is related to a particle filter? In this book, we will provide clear answers to several such questions. The book provides the basis for an advanced course in data assimilation. It focuses on the unified derivation of the methods and illustrates their properties on multiple examples. It is suitable for graduate students, post-docs, scientists, and practitioners working in data assimilation.",
+                "Introduction -- Part I Mathematical Formulation: Problem formulation -- Maximum a posteriori solution -- Strong-constraint 4DVar -- Weak constraint 4DVar -- Kalman \ufb01lters and 3DVar -- Randomized-maximum-likelihood sampling -- Low-rank ensemble methods -- Fully nonlinear data assimilation -- Localization and in\ufb02ation -- Methods\u2019 summary -- Part II Examples and Applications: A Kalman \ufb01lter with the Roessler model -- Linear EnKF update -- EnKF for an advection equation -- EnKF with the Lorenz equations -- 3Dvar and SC-4DVar for the Lorenz 63 model -- Representer method with an Ekman-\ufb02ow model -- Comparison of methods on a scalar model -- Particle \ufb01lter for seismic-cycle estimation -- Particle \ufb02ow for a quasi-geostrophic model -- EnRML for history matching petroleum models -- ESMDA with a SARS-COV-2 pandemic model -- Final summary -- References -- Index. ."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-EES",
+                "(collectioncode)ZDB-2-SXEE",
+                "(collectioncode)ZDB-2-SOB"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-030-96709-3",
+            "P30128": "Springer Textbooks in Earth Sciences, Geography and Environment",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

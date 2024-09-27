@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1826597395",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (19 Seiten, 796,83 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Laschos, Vaios",
+                "Geuter, Jonathan"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1826597395",
+                "(doi)10.20347/WIAS.PREPRINT.2978",
+                "(ppn)1826597395"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Generative adversarial learning of Sinkhorn algorithm initializations",
+            "abstract": "The Sinkhorn algorithm [Cut13] is the state-of-the-art to compute approximations of optimal transport distances between discrete probability distributions, making use of an entropically regularized formulation of the problem. The algorithm is guaranteed to converge, no matter its initialization. This lead to little attention being paid to initializing it, and simple starting vectors like the n-dimensional one-vector are common choices. We train a neural network to compute initializations for the algorithm, which significantly outperform standard initializations. The network predicts a potential of the optimal transport dual problem, where training is conducted in an adversarial fashion using a second, generating network. The network is universal in the sense that it is able to generalize to any pair of distributions of fixed dimension. Furthermore, we show that for certain applications the network can be used independently.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2140666-2",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2978",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2978",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

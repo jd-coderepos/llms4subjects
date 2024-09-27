@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130368547",
+            "sameAs": "R\u00e4biger, Dirk"
+        },
+        {
+            "@id": "gnd:4186769-5",
+            "sameAs": "Umladeproblem"
+        },
+        {
+            "@id": "gnd:4426082-9",
+            "sameAs": "Wurzelbaum"
+        },
+        {
+            "@id": "gnd:4500954-5",
+            "sameAs": "Approximationsalgorithmus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A503007714",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 159 S., 924 KB)",
+            "identifier": [
+                "(firstid)GBV:503007714",
+                "(ppn)503007714"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106418963)31.12 - Kombinatorik, Graphentheorie",
+                "(classificationName=bk, id=106418815)54.10 - Theoretische Informatik",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Semi-pr\u00e4emptives Transportieren",
+            "abstract": "Das Problem, einen Roboter (oder ein Fahrzeug) so zwischen n Stationen zu steuern, da\u00df m Objekte von ihrem Ausgangspunkt zu ihrem Ziel transportiert werden k\u00f6nnen und dabei die zur\u00fcckgelegte Fahrstrecke minimiert wird, bezeichnet man als Pickup--And--Delivery--Problem. Diese Aufgabenstellung ist in der Vergangenheit gut untersucht worden, sogar wenn die Stationen auf eine besondere Weise angeordnet sind, z.B. in einer Reihe oder im Kreis. \u00dcblicherweise darf der Roboter entweder jede oder keine Station als Umladestation benutzen. Man spricht in diesen F\u00e4llen von einem pr\u00e4emptiven bzw. nicht--pr\u00e4emptiven Transport. Wir werden diese Konzepte verallgemeinern, indem nur ein Teil der Stationen f\u00fcr das Umladen benutzt werden darf. In Anlehnung an die beiden anderen Versionen soll diese Fragestellung semi--pr\u00e4emptiv hei\u00dfen. Dabei differenzieren wir zwischen einer exogenen und einer endogenen Variante. In der ersten darf der Roboter nur an gekennzeichneten Stationen umladen. In der zweiten teilen wir ihm eine Zahl k mit, und es ist Teil der Aufgabenstellung zu entscheiden, an welchen k Stationen umgeladen wird. Wir zeigen, da\u00df sowohl die exogene als auch die endogene Version auf einem Pfad und auf einem Kreis effizient l\u00f6sbar ist und geben jeweils dynamische L\u00f6sungverfahren an. Beide Varianten sind auf B\u00e4umen NP--vollst\u00e4ndig. F\u00fcr den exogenen Fall geben wir einen Approximationsalgorithmus mit einer G\u00fcte von 4/3 an. F\u00fcr die endogene Aufgabenstellung pr\u00e4sentieren wir eine (4/3+c)--Approximation f\u00fcr beliebiges c > 0. Schlie\u00dflich nutzen ein bekanntes Resultat, um eine Approximation f\u00fcr das exogene und endogene Transportproblem auf metrisch gewichteten Graphen angeben zu k\u00f6nnen. Aus der angewandten Problemstellung ergibt sich ein graphentheoretisches Teilproblem, das wir n\u00e4her untersuchen. In einem gerichteten Graphen G=(V,E^r\\dot\\cup E^b) mit einer rot/blau--partitionierten Kantenmenge soll zu gegebener Kostenfunktion eine kostenminimale und aufspannende Arboreszenz bestimmt werden, die h\u00f6chstens d blaue Kanten benutzt. Wir geben ein voll polynomielles Approximationsschema an. Dieses nutzen wir, um das endogene Transportproblem auf B\u00e4umen zu approximieren.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:130368547",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4500954-5"
+                },
+                {
+                    "@id": "gnd:4186769-5"
+                },
+                {
+                    "@id": "gnd:4426082-9"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

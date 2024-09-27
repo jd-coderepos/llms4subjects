@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120642689",
+            "sameAs": "Li, Pu"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4271836-3",
+            "sameAs": "Pr\u00e4diktive Regelung"
+        },
+        {
+            "@id": "gnd:4300608-5",
+            "sameAs": "Hierarchische Optimierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A72710943X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 53 S., 1,63 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Hopfgarten, Siegbert",
+            "creator": "Lazutkin, Evgeny",
+            "identifier": [
+                "(firstid)GBV:72710943X",
+                "(ppn)72710943X"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Comparison of hierarchical and distributed optimization for model predictive control",
+            "abstract": "In dieser Arbeit wurde die Anwendung von hierarchischen (Wechselwirkungsbalance-Methode (engl.: Interaction Balance Method (IBM)) und verteilten Optimierungsverfahren (Han-Algorithmus) vorgestellt. Das Ziel ist, zu erkennen, welche am besten zur Steuerung von Wasserversorgungssystemen oderanderen \u00e4hnlichen Systemen geeignet ist, und um den Vergleich und die Analyse der Verfahren zu beurteilen. Die Implementation und Simulation wurden unter Verwendung der Software MATLAB\u00ae durchgef\u00fchrt. Um die Aufgabe zu l\u00f6sen, wurde folgender Ansatzgew\u00e4hlt. Nach der Literatursichtung in Bezug auf die hierarchischen und verteilten Methoden wurde die MPC-Technik untersucht. Erste Untersuchungen wurden an einem vereinfachten Wasserversorgungssystem vorgenommen. Dann wurden diese Methoden auf ein aggregiertes Wasserversorgungssystem angewendet und um die entsprechende Beschreibung erg\u00e4nzt, die die Vorg\u00e4nge in einer realit\u00e4tsnahenen Situation besser widerspiegelt. Basierend auf den Untersuchungen k\u00f6nnen die folgenden Schl\u00fcsse erfolgen. Zur Optimierung von Systemen mit einer geringen Anzahl von Variablen und Kopplungen zwischen ihnen sollte eine hierarchische Struktur verwendet werden, weil diese Verfahren zu genaueren Ergebnissen in einer k\u00fcrzeren Zeit f\u00fchren. F\u00fcr Systeme mit einer gro\u00dfen Anzahl von Variablen und Kopplungen ist die verteilte Struktur f\u00fcr die Optimierung besser geeignet. Die Anzahl der Variablen und Kopplungen beeinflussen CPU-Frequenz den Optimierungsprozess. Daraus resultieren die unterschiedlichen CPU-Zeiten f\u00fcr die Optimierung. Weil MATLAB\u00ae interpretativ arbeitet, entstehen relativ lange CPU-Zeiten. Der verteilte Han-Algorithmus, seine verbesserte und modifizierte Version wurden noch nichtvollst\u00e4ndig untersucht, insbesondere im Hinblick auf die Konvergenz und den Parameter \u03b8, also die Art und Weise seiner Bestimmung. In diesem Papier zur Bestimmung dieses Parameters wurde die \u00abBisection-Intervall-Methode\u00bb verwendet. Der St\u00f6rvektor (Verbrauch) beeinflusst den Optimierungsprozess, was bedeutet, dass unter den verschiedenen Werten des Verbrauchs die verteilten Algorithmen die gleichen Optimierungsprobleme mit verschiedenem CPU-Zeitbedarf l\u00f6sen k\u00f6nnen. Der Autor schl\u00e4gt f\u00fcr die weitere Arbeit vor: - Verwendung einer anderen Programmiersprache wie z. B. C/C++; - Verwendung einer anderen Methode, um den Parameter \u03b8 zu finden; - Verwendung eines schnelleren und leistungsf\u00e4higeren Rechners; - Verwendung der Parallel Computing Toolbox\u2122 in MATLAB \u00ae.",
+            "contributor": "gnd:120642689",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4271836-3"
+                },
+                {
+                    "@id": "gnd:4043664-0"
+                },
+                {
+                    "@id": "gnd:4300608-5"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

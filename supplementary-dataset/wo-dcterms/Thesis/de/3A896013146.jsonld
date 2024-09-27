@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1051540224",
+            "sameAs": "Pinkwart, Niels"
+        },
+        {
+            "@id": "gnd:135615631",
+            "sameAs": "Schmidt-Thieme, Lars"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A896013146",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XIV, 125 Seiten)",
+            "creator": "Schatten, Carlotta",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)GBV:896013146",
+                "(ppn)896013146"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=ddc-dbn)370"
+            ],
+            "title": "Sequencing in Intelligent Tutoring Systems based on online learning Recommenders",
+            "abstract": [
+                "In dieser Arbeit entwickeln und testen wir Algorithmen f\u00fcr Learning Analytics, die die personalisierte Sequenzierung von Matheaufgaben erlauben. Die Sequenzierung schl\u00e4gt die n\u00e4chste Aufgabe einem Sch\u00fcler vor, die seine Lernbed\u00fcrfnisse entspricht. Unsere L\u00f6sung basiert auf Vygotskys \u201eZone of Proximal Development\u201c (ZPD), das die weder zu einfachen noch zu schwierigen Aufgaben f\u00fcr den Sch\u00fcler bestimmt. Der Sequenzer, auch Vygotsky Policy Sequencer genannt, ist in der Lage Aufgaben im ZPD zu erkennen, dank die von einem Vorhersagealgorithmus gesch\u00e4tzte zuk\u00fcnftige Leistung des Sch\u00fclers. Die Arbeit enth\u00e4lt folgende Beitr\u00e4ge: (1) Die Evaluation der Anwendbarkeit von Matrix Factorization als Inhaltsdom\u00e4ne unabh\u00e4ngige Algorithmus f\u00fcr die Vorhersage der Leistung der Sch\u00fcler. (2) Anpassung und Evaluation eines Matrix Factorization basierenden Algorithmus, der die zeitliche Evolution der Sch\u00fclerkenntnisse einbezieht. (3) Entwicklung von zwei Ans\u00e4tzen f\u00fcr die Aktualisierung von Matrix Factorization basierenden Modellen durch den Kalman Filter. Zwei Aktualisierungsfunktionen sind benutzt: (a) eine einfache, die nur die letzte vom Sch\u00fcler gesehene Aufgabe betrachtet, und (b) eine, die in der Lage ist, seine fehlenden Kompetenzen einzusch\u00e4tzen. (4) Ein neues Verfahren von Machine Learning gesteuerte Sequenzer zu testen durch die Modellierung einer simulierten Umgebung, die aus simulierte Sch\u00fclern und Aufgaben mit stetigen erzielten und gebrauchten F\u00e4higkeiten und Schwierigkeitsgraden besteht. (5) Die Entwicklung einer minimal eingreifenden API f\u00fcr die leichte Integration von Machine Learning basierende Komponente in gr\u00f6\u00dfere Systeme, um das Integrationsrisiko und die Kosten vom Know-How-Transfer zu minimieren. Dank all diesen Beitr\u00e4gen, wurde der VPS in ein gro\u00dfes kommerzielles System integriert und mit 100 Kinder f\u00fcr einen Monat getestet. Der VPS zeigte Lerneffekte und wahrgenommene Erlebnisse, die mit den von den ITS Sequenzer vergleichbar sind. Infolge der besseren VPS Modellierf\u00e4higkeiten konnten die Sch\u00fcler beendeten die Aufgaben schneller l\u00f6sen.",
+                "In this thesis we design and test Learning Analytics algorithms for personalized tasks' sequencing that suggests the next task to a student according to his/her specific needs. Our solution is based on a sequencing policy derived from the Vygotsky's Zone of Proximal Development (ZPD), which denes those tasks that are neither too easy not too dicult for the student. The sequencer, called Vygotsky Policy Sequencer (VPS), can identify tasks in the ZPD thanks to the information it receives from performance prediction algorithms able to estimate the knowledge of the student. Under this context we describe hereafter the thesis contributions. (1) A feasibility evaluation of domain independent Matrix Factorization applied in ITS for Performance Prediction. (2) An adaption and the related evaluation of a domain independent update for online learning Matrix Factorization in ITS. (3) A novel Matrix Factorization update method based on Kalman Filters approach. Two different updating functions are used: (a) a simple one considering the task just seen, and (b) one able to derive the skills' deficiency of the student. (4) A new method for offline testing of machine learning controlled sequencers by modeling simulated environment composed by a simulated students and tasks with continuous knowledge and score representation and different diffculty levels. (5) The design of a minimal invasive API for the lightweight integration of machine learning components in larger systems to minimize the risk of integration and the cost of expertise transfer. Profiting from all these contributions, the VPS was integrated in a commercial system and evaluated with 100 children over a month. The VPS showed comparable learning gains and perceived experience results with those of the ITS sequencer. Finally, thanks to its better modeling abilities, the students finish faster the assigned tasks."
+            ],
+            "contributor": [
+                "gnd:135615631",
+                "gnd:1051540224"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

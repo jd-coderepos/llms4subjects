@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1663277907",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xvii, 147 Seiten)",
+            "creator": "Altisen, Karine",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(ppn)1663277907",
+                "(firstid)KXP:1663277907",
+                "(isbn13)9781681735375",
+                "(doi)10.2200/S00908ED1V01Y201903DCT015"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Data structures (Computer science).",
+                "(classificationName=ddc)004",
+                "(classificationName=msc)68W15",
+                "Information theory.",
+                "Computer science.",
+                "(classificationName=linseach:mapping)inf",
+                "Coding theory.",
+                "(classificationName=msc)*68-01"
+            ],
+            "title": "Introduction to distributed self-stabilizing algorithms",
+            "abstract": [
+                "This book aims at being a comprehensive and pedagogical introduction to the concept of self-stabilization, introduced by Edsger Wybe Dijkstra in 1973. Self-stabilization characterizes the ability of a distributed algorithm to converge within finite time to a configuration from which its behavior is correct (i.e., satisfies a given specification), regardless the arbitrary initial configuration of the system. This arbitrary initial configuration may be the result of the occurrence of a finite number of transient faults. Hence, self-stabilization is actually considered as a versatile non-masking fault tolerance approach, since it recovers from the effect of any finite number of such faults in an unified manner. Another major interest of such an automatic recovery method comes from the difficulty of resetting malfunctioning devices in a large-scale (and so, geographically spread) distributed system (the Internet, Pair-to-Pair networks, and Delay Tolerant Networks are examples of such distributed systems). Furthermore, self-stabilization is usually recognized as a lightweight property to achieve fault tolerance as compared to other classical fault tolerance approaches. Indeed, the overhead, both in terms of time and space, of state-of-the-art self-stabilizing algorithms is commonly small. This makes self-stabilization very attractive for distributed systems equipped of processes with low computational and memory capabilities, such as wireless sensor networks. After more than 40 years of existence, self-stabilization is now sufficiently established as an important field of research in theoretical distributed computing to justify its teaching in advanced research-oriented graduate courses. This book is an initiation course, which consists of the formal definition of self-stabilization and its related concepts, followed by a deep review and study of classical (simple) algorithms, commonly used proof schemes and design patterns, as well as premium results issued from the self-stabilizing community. As often happens in the self-stabilizing area, in this book we focus on the proof of correctness and the analytical complexity of the studied distributed self-stabilizing algorithms. Finally, we underline that most of the algorithms studied in this book are actually dedicated to the high-level atomic-state model, which is the most commonly used computational model in the self-stabilizing area. However, in the last chapter, we present general techniques to achieve self-stabilization in the low-level message passing model, as well as example algorithms.",
+                "Preface -- Acknowledgments -- Introduction -- Preliminaries -- Coloring under a Locally Central Unfair Daemon -- Synchronous Unison -- BFS Spanning Tree Under a Distributed Unfair Daemon -- Dijkstra's Token Ring -- Hierarchical Collateral Composition -- Self-Stabilization in Message Passing Systems -- Bibliography -- Authors' Biographies -- Index."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)BSZ-2-SXSC-mc11",
+                "(collectioncode)ZDB-105-MC11",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)BSZ-2-SXSC-syc8",
+                "(collectioncode)ZDB-2-SXSC"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#15",
+            "isLike": "doi:10.2200/S00908ED1V01Y201903DCT015",
+            "P30128": [
+                "Synthesis lectures on distributed computing",
+                "Computer & information science",
+                "Synthesis digital library of engineering and computer science",
+                "collection eleven"
+            ],
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:132548240",
+            "sameAs": "Weihs, Claus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A491984251",
+            "@type": "bibo:Report",
+            "P1053": "8 S",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "R\u00f6ver, Christian",
+                "Klefenz, Frank"
+            ],
+            "description": "Ill",
+            "identifier": [
+                "(ppn)491984251",
+                "(firstid)GBV:491984251"
+            ],
+            "publisher": "Univ., SFB 475",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Identification of musical instruments by means of the Hough-transformation",
+            "abstract": "In order to distinguish between the sounds of different musical instruments, certain instrument-specific sound features have to be extracted from the time series representing a given recorded sound. The Hough Transform is a pattern recognition procedure that is usually applied to detect specific curves or shapes in digital pictures (Shapiro, 1978). Due to some similarity between pattern recognition and statistical curve fitting problems, it may as well be applied to sound data (as a special case of time series data). The transformation is parameterized to detect sinusoidal curve sections in a digitized sound, the motivation being that certain sounds might be identified by certain oscillation patterns. The returned (transformed) data is the timepoints and amplitudes of detected sinusoids, so the result of the transformation is another &lsquo;condensed&rsquo; time series. This specific Hough Transform is then applied to sounds played by different musical instruments. The generated data is investigated for features that are specific for the musical instrument that played the sound. Several classification methods are tried out to distinguish between the instruments and it turns out that RDA (a hybrid method combining LDA and QDA) (Friedman, 1989) performs best. The resulting error rate is better than those achieved by humans (Bruderer, 2003).",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:132548240",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "volume": "2004,67",
+            "P30128": "Technical Report / Sonderforschungsbereich 475, Komplexit\u00e4tsreduktion in Multivariaten Datenstrukturen, Universit\u00e4t Dortmund",
+            "P60163": "Dortmund"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

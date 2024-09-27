@@ -1,12 +1,20 @@
 {
     "@graph": [
         {
+            "@id": "gnd:10009431-4",
+            "sameAs": "George Routledge & Sons, London"
+        },
+        {
             "@id": "gnd:1240340079",
             "sameAs": "Ivanova, Milena"
         },
         {
+            "@id": "gnd:1310072620",
+            "sameAs": "Murphy, Alice"
+        },
+        {
             "@id": "gnd:4000626-8",
-            "sameAs": "Ästhetik"
+            "sameAs": "\u00c4sthetik"
         },
         {
             "@id": "gnd:4015999-1",
@@ -20,15 +28,17 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1848677731",
             "@type": "bibo:Book",
             "P1053": "vi, 236 Seiten",
-            "http://purl.org/dc/elements/1.1/contributor": "Murphy, Alice",
-            "description": "Illustrationen",
+            "description": [
+                "24 cm",
+                "Illustrationen"
+            ],
             "identifier": [
                 "(isbn13)9781032203881",
                 "(ppn)1848677731",
                 "(firstid)KXP:1848677731",
                 "(isbn13)9781032205076"
             ],
-            "publisher": "Routledge",
+            "publisher": "Routledge, Taylor & Francis Group",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=loc)Q175.32.A47",
                 "(classificationName=rvk)TB 2280",
@@ -38,13 +48,16 @@
                 "(classificationName=linseach:mapping)rest"
             ],
             "title": "The aesthetics of scientific experiments",
-            "abstract": "Klappentext: \"This collection provides an analysis of the concept of beauty in the evaluation of experiments. What properties do practicing experimenters value? How have the aesthetic properties of scientific experiments changed over the years? Secondly, the volume looks at the role that aesthetic factors, including negative values such as ugliness, as well as experiences of the sublime and the profound, play in the construction of an experiment and its reception. Thirdly, the chapters provide in-depth historical case studies from the Royal Society, which also allows for a study of the depiction of scientific experiment in artworks, as well as contemporary examples from the LHC and cases of AI-designed experiments. Finally, it offers a exploration of the commonalities between how we learn from experiments on the one hand, and the cognitive value of artworks on the other\"--",
-            "contributor": [
-                "Technische Informationsbibliothek (TIB)",
-                {
-                    "@id": "gnd:1240340079"
-                }
+            "abstract": [
+                "\"This collection provides an analysis of the concept of beauty in the evaluation of experiments. What properties do practicing experimenters value? How have the aesthetic properties of scientific experiments changed over the years? Secondly, the volume looks at the role that aesthetic factors, including negative values such as ugliness, as well as experiences of the sublime and the profound, play in the construction of an experiment and its reception. Thirdly, the chapters provide in-depth historical case studies from the Royal Society, which also allows for a study of the depiction of scientific experiment in artworks, as well as contemporary examples from the Large Hadron Collider and cases of experiments designed by artificial intelligence. Finally, it offers an exploration of the commonalities between how we learn from experiments on the one hand and the cognitive value of artworks on the other.\" (Seite [i])",
+                "Inhaltsverzeichnis: Introduction / Milena Ivanova and Alice Murphy -- 1. The aesthetic value of scientific experiments / Milena Ivanova -- 2. Beautiful experiments in art and science / Claire Anscomb -- 3. Robert Boyle (1627-1691) and the aesthetics of chemical experimentation / Alexander Wragge-Morley -- 4. Science as revelation: 'The alchymist ...' by Joseph Wright of Derby / Adrian Holme -- 5. Towards a new aesthetics of science: aesthetic cultures and the processes and objects of regard / Adrian Currie -- 6. Profound experiments / Alice Murphy -- 7. Experimental science as epistemic expansion: new work for a theory of the sublime / Glenn Parsons -- 8. Aesthetic cognitivism, experimental shielding, and explanatory reasoning / James Nguyen -- 9. Something from nothing: 'non-discovery' and transformations in high energy experimental physics at the Large Hadron Collider / Sophie Ritson -- 10. The future won't be pretty: the nature and value of ugly, AI-designed experiments / Michael T. Stuart"
             ],
+            "contributor": [
+                "gnd:1310072620",
+                "gnd:1240340079"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:10009431-4",
             "issued": "2023",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -62,18 +75,27 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "relation": "http://purl.org/dc/terms/relation",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "license": "http://purl.org/dc/terms/license",
         "title": "http://purl.org/dc/elements/1.1/title",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
@@ -86,8 +108,6 @@
             "@type": "@id"
         },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

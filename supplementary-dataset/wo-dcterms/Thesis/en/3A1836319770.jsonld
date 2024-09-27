@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1147011699",
+            "sameAs": "Gall, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:1281112178",
+            "sameAs": "Reimers, Christian"
+        },
+        {
+            "@id": "gnd:17311895X",
+            "sameAs": "Denzler, Joachim"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1836319770",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (209 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1836319770",
+                "(ppn)1836319770"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
+                "(classificationName=ddc-dbn)006.32",
+                "(classificationName=linseach:mapping)inf",
+                "Neuronales Netz"
+            ],
+            "title": "Understanding deep learning",
+            "abstract": "Deep neural networks have reached impressive performance in many tasks in computer vision and its applications. However, research into understanding deep neural networks is challenging due to the evaluation. Since it is unknown which features deep neural networks use, it is hard to empirically evaluate whether a result for which feature is used by a deep neural network is correct. The state- of-the-art for understanding which features a deep neural network uses to reach its prediction is sailiency maps. However, all methods built on sailiency maps share shortcomings that open a gap between the current state-of-the-art and the requirements for understanding deep neural networks. This work describes a method that does not suffer from these shortcomings. To this end, we employ the framework of causal modeling to determine whether a feature is used by the neural network. We present theoretical evidence that our method is able to correctly identify if a feature is used. Furthermore, we demonstrate two studies as empirical evidence. First, we show that our method can further the understanding of automatic skin lesion classifiers. There, we find that some of the features in the ABCD rule are used by the classifiers to identify melanoma but not to identify seborrheic keratosis. In contrast, all classifiers highly rely on the bias variables, particularly the age of the patient and the existence of colorful patches in the input image. Second we apply our method to adversarial debiasing. In adversarial debiasing, we want to stop a neural network from using a known bias variable. We demonstrate in a toy example and an example on real- world images that our approach outperforms the state-of-the-art in adversarial debiasing.",
+            "contributor": [
+                "gnd:17311895X",
+                "gnd:1147011699"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1281112178",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

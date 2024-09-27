@@ -1,8 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1327327880",
+            "sameAs": "Takesaki, Masamichi"
+        },
+        {
             "@id": "gnd:4013161-0",
-            "sameAs": "Dualität"
+            "sameAs": "Dualit\u00e4t"
         },
         {
             "@id": "gnd:4129366-6",
@@ -10,7 +14,7 @@
         },
         {
             "@id": "gnd:4187974-0",
-            "sameAs": "Verschränktes Produkt"
+            "sameAs": "Verschr\u00e4nktes Produkt"
         },
         {
             "@id": "gnd:4388395-3",
@@ -24,9 +28,8 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655124706",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (XII, 140 p, online resource)",
-            "contributor": "Takesaki, Masamichi",
             "creator": "Nakagami, Yoshiomi",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(firstid)BSZ:404652255",
                 "(isbn13)9783540095224",
@@ -49,7 +52,12 @@
             ],
             "title": "Duality for Crossed Products of von Neumann Algebras",
             "abstract": "Action, co-action and duality -- Elementary properties of crossed products -- Integrability and dominance -- Spectrum -- Perturbations of actions and co-actions -- Relative commutant of crossed products -- Applications to galois theory.",
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1327327880"
+                }
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-SXMS",
                 "(collectioncode)ZDB-2-BAE",
@@ -78,7 +86,7 @@
                 "SpringerLink",
                 "Springer eBook Collection",
                 "Lecture Notes in Mathematics",
-                "Bücher",
+                "B\u00fccher",
                 "Mathematics and Statistics"
             ],
             "P60163": "Berlin, Heidelberg"
@@ -96,7 +104,6 @@
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "description": "http://purl.org/dc/elements/1.1/description",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "volume": "http://purl.org/ontology/bibo/volume",
@@ -109,6 +116,7 @@
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
+        "contributor": "http://purl.org/dc/terms/contributor",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "creator": "http://purl.org/dc/elements/1.1/creator",

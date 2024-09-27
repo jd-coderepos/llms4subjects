@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:133890201",
+            "sameAs": "Dickhaus, Thorsten-Ingo"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A868731021",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (35 Seiten, 3.873 kB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Schildknecht, Konstantin",
+                "Tabelow, Karsten"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)868731021",
+                "(firstid)GBV:868731021"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "More specific signal detection in functional magnetic resonance imaging by false discovery rate control for hierarchically structured systems of hypotheses",
+            "abstract": "Signal detection in functional magnetic resonance imaging (fMRI) inherently involves the problem of testing a large number of hypotheses. A popular strategy to address this multiplicity is the control of the false discovery rate (FDR). In this work we consider the case where prior knowledge is available to partition the set of all hypotheses into disjoint subsets or families, e. g., by a-priori knowledge on the functionality of certain regions of interest. If the proportion of true null hypotheses differs between families, this structural information can be used to increase statistical power. We propose a two-stage multiple test procedure which first excludes those families from the analysis for which there is no strong evidence for containing true alternatives. We show control of the family-wise error rate at this first stage of testing. Then, at the second stage, we proceed to test the hypotheses within each non-excluded family and obtain asymptotic control of the FDR within each family in this second stage. Our main mathematical result is that this two-stage strategy implies asymptotic control of the FDR with respect to all hypotheses. In simulations we demonstrate the increased power of this new procedure in comparison with established procedures in situations with highly unbalanced families. Finally, we apply the proposed method to simulated and to real fMRI data.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:133890201",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2127",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

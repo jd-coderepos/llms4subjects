@@ -10,11 +10,27 @@
         },
         {
             "@id": "gnd:123304075",
-            "sameAs": "Dümpelmann, Sonja"
+            "sameAs": "D\u00fcmpelmann, Sonja"
         },
         {
             "@id": "gnd:1282097695",
-            "sameAs": "Schönle, Daniel"
+            "sameAs": "Sch\u00f6nle, Daniel"
+        },
+        {
+            "@id": "gnd:4004955-3",
+            "sameAs": "Bautechnik"
+        },
+        {
+            "@id": "gnd:4025677-7",
+            "sameAs": "Holzbau"
+        },
+        {
+            "@id": "gnd:4166524-7",
+            "sameAs": "Land-art"
+        },
+        {
+            "@id": "gnd:7700528-4",
+            "sameAs": "Landschaftsarchitektur"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1796442984",
@@ -22,7 +38,7 @@
             "P1053": "224 Seiten",
             "description": [
                 "24 cm x 17 cm",
-                "Illustrationen, Pläne"
+                "Illustrationen, Pl\u00e4ne"
             ],
             "identifier": [
                 "(isbn13)9783035603323",
@@ -31,17 +47,17 @@
                 "(ppn)1796442984",
                 "(firstid)DNB:1253737975"
             ],
-            "publisher": "Birkhäuser",
+            "publisher": "Birkh\u00e4user",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)bau",
                 "(classificationName=ddc-dbn)720",
                 "Geschichte 1980-2023",
                 "(classificationName=linseach:mapping)arc",
-                "(classificationName=bk, id=106417681)56.65 - Bauökologie, Baubiologie",
+                "(classificationName=bk, id=106417681)56.65 - Bau\u00f6kologie, Baubiologie",
                 "(classificationName=rvk)ZH 3050"
             ],
-            "title": "Wachsende Architektur : Einführung in die Baubotanik",
-            "abstract": "Ein wachsendes, lebendes Haus, ein Gebäude aus einer Pflanze scheint ein Widerspruch in sich zu sein. Dennoch wussten schon die Khasi in Ostindien die Luftwurzeln von Gummibäumen zu Fußgängerbrücken zu verbinden und in Süddeutschland bildeten über Jahrhunderte hinweg Tanzlinden den Dorfmittelpunkt. Daran anknüpfend widmet sich die Baubotanik dem Entwerfen mit Bäumen. Realisierte Bauten, Versuchsreihen, Entwurfsstudien und visionäre Konzepte weisen den Weg zu einer neuen grünen Architektur. Diese Einführung geht auf die botanischen Wachstumsgesetze ein, die die Bauten leiten und erklärt die Grundlagen des Konstruierens mit lebenden Bäumen. Das Buch regt zu einem ganz neuen Blick auf Architektur an, die gleichsam zu einem Teil der Stadtnatur wird.",
+            "title": "Wachsende Architektur : Einf\u00fchrung in die Baubotanik",
+            "abstract": "Ein wachsendes, lebendes Haus, ein Geb\u00e4ude aus einer Pflanze scheint ein Widerspruch in sich zu sein. Dennoch wussten schon die Khasi in Ostindien die Luftwurzeln von Gummib\u00e4umen zu Fu\u00dfg\u00e4ngerbr\u00fccken zu verbinden und in S\u00fcddeutschland bildeten \u00fcber Jahrhunderte hinweg Tanzlinden den Dorfmittelpunkt. Daran ankn\u00fcpfend widmet sich die Baubotanik dem Entwerfen mit B\u00e4umen. Realisierte Bauten, Versuchsreihen, Entwurfsstudien und vision\u00e4re Konzepte weisen den Weg zu einer neuen gr\u00fcnen Architektur. Diese Einf\u00fchrung geht auf die botanischen Wachstumsgesetze ein, die die Bauten leiten und erkl\u00e4rt die Grundlagen des Konstruierens mit lebenden B\u00e4umen. Das Buch regt zu einem ganz neuen Blick auf Architektur an, die gleichsam zu einem Teil der Stadtnatur wird.",
             "contributor": [
                 "Technische Informationsbibliothek (TIB)",
                 {
@@ -56,20 +72,26 @@
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
-            "subject": "gnd:1058423312",
+            "subject": [
+                "gnd:4004955-3",
+                "gnd:7700528-4",
+                "gnd:1058423312",
+                "gnd:4025677-7",
+                "gnd:4166524-7"
+            ],
             "tableOfContents": "http://www.gbv.de/dms/weimar/toc/1796442984_toc.pdf",
             "P60163": "Basel"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
-            "@type": "@id"
-        },
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",

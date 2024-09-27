@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1100398295",
+            "sameAs": "Vidal, Mar\u00eda-Esther"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1884602266",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (4.7 GByte)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Figuera, M\u00f3nica",
+                "Rohde, Philipp D."
+            ],
+            "identifier": [
+                "(firstid)KXP:1884602266",
+                "(doi)10.25835/0035739",
+                "(ppn)1884602266"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": [
+                "(classificationName=linseach:automatic)mat",
+                "(classificationName=linseach:automatic)inf"
+            ],
+            "title": "Trav-SHACL : benchmarks, experimental settings, and evaluation",
+            "abstract": "This collection includes all the data and scripts necessary to reproduce the results from the experimental evaluation of Trav-SHACL at WWW'21. The data is modified data from the Lehigh University Benchmark. The collection comprises nine data sets of three different sizes: Small Knowledge Graph (SKG) models eight universities, Medium Knowledge Graph (MKG) models 32 universities, Large Knowledge Graph (LKG) models 256 universities. There are three data sets of each size. They differ only in those triples that link an entity to a university, i.e., the university the entity is linked to. This was done in order to achieve different percentages of valid universities when evaluating the SHACL shape schemas for the above-mentioned paper. The data is available for download in Turtle format and preloaded for the use with Virtuoso 7.20.3229. In order to reproduce the results reported, you will only need the archive of the scripts as the shapes are also included in that script and the data will be downloaded automatically.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1100398295",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/0035739",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A848599837",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Meyer auf der Heide, Friedhelm",
+                "Scheideler, Christian"
+            ],
+            "creator": "Eikel, Martina",
+            "identifier": [
+                "(firstid)HBZ:CT004001455",
+                "(ppn)848599837"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)000"
+            ],
+            "title": "Insider-Resistant Distributed Storage Systems",
+            "abstract": [
+                "rtet.. - In this work we present distributed information and storage systems that are provably robust against attacks by an insider adversary, i.e., an adversary with complete knowledge of the system. Our systems break the barrier between allowing significantly more than a polylogarithmic number of servers to be attacked by an insider adversary on the one hand, but still adhering to polylogarithmic efficiency bounds (in the number of servers) and at most logarithmic redundancy on the other hand. First, we present Basic IRIS, a distributed information system that works provably correctly despite the existence of an insider adversary that may crash up to O(n^(1/loglog(n))) servers (with n being the number of servers in the system). To be more precise, Basic IRIS provably correctly serves any set of lookup requests (with at most O(1) requests per server not crashed) with polylogarithmic time and work and a constant redundancy. By extending Basic IRIS, we end up with Enhanced IRIS, a distributed information system that tolerates even up to a constant fraction of all servers to be crashed by an insider adversary with a logarithmic redundancy. Building on IRIS, we present RoBuSt, a distributed storage system that additionally answers write requests with polylogarithmic time and work and a logarithmic redundancy. Finally, we strengthened the adversary even further by allowing it to corrupt the servers storage. To be more precise, the adversary may corrupt the permanent storage of the servers, but it is not allowed to corrupt the servers' main memory or the protocol itself. With OSIRIS we present a distributed storage system that provably correctly serves any set of lookup and write requests (with at most O(1) requests per server) despite the existence of an insider adversary that may corrupt the storage of up to O(n^(1/loglog(n))) servers while asymptotically adhering to the same ++",
+                "In dieser Arbeit stellen wir verteilte Informations- und Speichersysteme vor, die gegen Angriffe eines Insiders beweisbar robust sind. Ein Insider ist dabei ein Gegner, der Wissen \u00fcber das gesamte System hat. Unsere Systeme erlauben signifikant mehr als polylogarithmisch viele durch einen Insider angegriffene Server und garantieren gleichzeitig polylogarithmische Schranken f\u00fcr die Effizienz (in Anzahl der Server) und eine h\u00f6chstens logarithmische Redundanz. Zuerst stellen wir Basic IRIS vor, ein verteiltes Informationssystem, das trotz der Existenz eines Insiders, der bis zu O(n^(1/loglog(n))) Server abst\u00fcrzen lassen kann, beweisbar korrekt arbeitet (wobei n die Anzahl der Server im System bezeichnet). Genauer gesagt beantwortet Basic IRIS jede Menge von Suchanfragen (mit h\u00f6chstens O(1) Anfragen pro nicht abgest\u00fcrzten Server) in polylogarithmischer Zeit und mit polylogarithmischem Aufwand pro Server bei konstanter Redundanz. Durch Erweiterung von Basic IRIS erhalten wir Enhanced IRIS, ein verteiltes Informationssystem mit logarithmischer Redundanz, das gegen einen Insider robust ist, der einen konstanten Anteil aller Server zum Absturz bringen kann.Aufbauend auf IRIS stellen wir mit RoBuSt ein verteiltes Speichersystem vor, das zus\u00e4tzlich Schreibanfragen effizient beantwortet und logarithmische Redundanz besitzt. Abschlie\u00dfend verst\u00e4rken wir den betrachteten Gegner noch weiter, indem wir diesem das Korrumpieren des Speichers der Server erlauben. Das hei\u00dft, der Gegner darf den permanenten Speicher der Server korrumpieren, jedoch nicht deren Arbeitsspeicher oder Protokolle. Mit OSIRIS stellen wir ein verteiltes Speichersystem mit asymptotisch gleicher Effizienz und Redundanz wie RoBuSt vor, das jede Menge von Such- und Schreibanfragen trotz der Pr\u00e4senz eines Insiders, der den Speicher von O(n^(1/loglog(n))) Servern korrumpieren darf, beweisbar korrekt beantwo++. - In this work we present distributed information and storage systems that are provably robust against attacks by an insider adversary, i.e., an adversary with complete knowledge of the system. Our systems break the barrier between allowing significantly more than a polylogarithmic number of servers to be attacked by an insider adversary on the one hand, but still adhering to polylogarithmic efficiency bounds (in the number of servers) and at most logarithmic redundancy on the other hand. First, we present Basic IRIS, a distributed information system that works provably correctly despite the existence of an insider adversary that may crash up to O(n^(1/loglog(n))) servers (with n being the number of servers in the system). To be more precise, Basic IRIS provably correctly serves any set of lookup requests (with at most O(1) requests per server not crashed) with polylogarithmic time and work and a constant redundancy. By extending Basic IRIS, we end up with Enhanced IRIS, a distributed information system that tolerates even up to a constant fraction of all servers to be crashed by an insider adversary with a logarithmic redundancy. Building on IRIS, we present RoBuSt, a distributed storage system that additionally answers write requests with polylogarithmic time and work and a logarithmic redundancy. Finally, we strengthened the adversary even further by allowing it to corrupt the servers storage. To be more precise, the adversary may corrupt the permanent storage of the servers, but it is not allowed to corrupt the servers' main memory or the protocol itself. With OSIRIS we present a distributed storage system that provably correctly serves any set of lookup and write requests (with at most O(1) requests per server) despite the existence of an insider adversary that may corrupt the storage of up to O(n^(1/loglog(n))) servers while asymptotically adhering to the same ++"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

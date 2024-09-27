@@ -1,0 +1,109 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1032134216",
+            "sameAs": "Waldhorst, Oliver"
+        },
+        {
+            "@id": "gnd:130006491",
+            "sameAs": "Mitschele-Thiel, Andreas"
+        },
+        {
+            "@id": "gnd:13002077X",
+            "sameAs": "Seitz, Jochen"
+        },
+        {
+            "@id": "gnd:4170280-3",
+            "sameAs": "Mobilfunk"
+        },
+        {
+            "@id": "gnd:4330656-1",
+            "sameAs": "Authentifikation"
+        },
+        {
+            "@id": "gnd:4496068-2",
+            "sameAs": "Dienstg\u00fcte"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A731311655",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XII, 163 S., 2,96 MB)",
+            "creator": "Alnasouri, Esam",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)731311655",
+                "(firstid)GBV:731311655"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)004.62",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "QoS-aware mobility management in IP-based communication networks : analysis, design and implementation",
+            "abstract": "Der allgegenw\u00e4rtige Zugang zu Informationen, jederzeit und \u00fcberall, ist ein wichtiges Merkmal k\u00fcnftiger All-IP-Mobilfunktnetze, die verschiedene Systeme miteinander verbinden, dabei dynamischer und flexibler sein werden. Der Einsatz dieser Netze erfordert es jedoch, viele Herausforderungen zu \u00fcberwinden. Eine der wichtigsten im Rahmen dieser Arbeit, ist die Frage, wie Quality of Service (QoS) Eigenschaften in solchen hoch dynamischen, mobilen Umgebungen zu garantieren sind. Bekannterma\u00dfen beeinflusst die Mobilit\u00e4t von Mobilknoten (MN) die Dienstg\u00fcte in mobilen Netzen, da QoS-Parameters f\u00fcr die Ende-zu-Ende-Kommunikation vereinbart werden. Daher m\u00fcssen L\u00f6sungen entwickelt werden, die nahtlose Mobilit\u00e4t, bei gleichzeitigen QoS-Garantien nach Handoffs, unterst\u00fctzen. Diese Herausforderung ist das Hauptziel der vorliegenden Dissertation, die einen umfassenden \u00dcberblick \u00fcber die bestehenden Mobilit\u00e4ts- und QoS-Managment-L\u00f6sungen in IP-basierten Netzen liefert, gefolgt von einem Einblick in Methoden zur Kopplung von Mobilit\u00e4tsmanagement und QoS-L\u00f6sungen. Nach Betrachtung der Vor- und Nachteile bestehender Ans\u00e4tze, kommt die Dissertation zu dem Schluss, dass hybride Strategien vielversprechend sind und zu praktikablen L\u00f6sungen weiterentwickelt werden k\u00f6nnen, die sowohl Mobilit\u00e4ts- als auch QoS-Anforderungen auf effiziente Weise,in allen zuk\u00fcnftigen IP-Mobilfunknetzen erf\u00fcllen k\u00f6nnen. Auf dieser Grundlage schl\u00e4gt die Dissertation ein neues Hybrid-Protokoll, genannt \"QoS-aware Mobile IP Fast Authentication Protocol\" (QoMIFA), vor. Unser Vorschlag integriert MIFA als Mobilit\u00e4ts-Management-Protokoll mit RSVP als QoS Reservierungsprotokoll. MI-FA wird aufgrund seiner F\u00e4higkeit zu schnellen, sicheren und robusten Handoffs gew\u00e4hlt. RSVP hingegen dient als Standardl\u00f6sung zur Bereitstellung von QoS in bestehenden IP-basierten Netzen. Unter Einhaltung der Hybrid-Architektur wird RSVP um ein neues Objekt, genannt \"Mobility Object\" erweitert, welches MIFA-Kontrollnachrichten kapselt. Nach der Spezifikation des neuen Vorschlags, bewertet die Dissertation auch seine Leistung im Vergleich zu dem bekannten \"Simple QoS Signaling Protocol\" (Simple QoS), mittels Simulationsstudien, modelliert mit dem \"Network Simluator 2\" (NS2). In der Auswertung werden der Einflusses der Netzwerklast und der Geschwindigkeit des Mobilknotens untersucht. Die hierzu verwendeten Leistungsparameter umfassen die Ressourcen-Reservierungs-Latenz, die Anzahl verlorener Pakete pro Handoff, die Anzahl der, vor Abschluss der Reservierung, mit Best-Effort-Eigenschaften \u00fcbertragenen Pakete pro Handoff und die Wahrscheinlichkeit von Verbindungsabbr\u00fcchen. Unsere mittels Simulation erzielten Ergebnisse zeigen, dass QoMIFA schnelle und nahtlose Handoffs mit schneller Ressourcenreservierung nach Handoffs kombinieren kann. Unter Ber\u00fccksichtigung des Einflusses der Netzwerklast, ist nachweisbar, dass QoMIFA eine besser Leistung als Simple QoS in allen untersuchten Szenarien mit geringer, mittlerer und hoher Last erreicht. Bei Betrachtung des Einflusses der Bewegungsgeschwindigkeit des Mobilknotens auf die Leistung, lassen sich unter beiden Protokollen Ping-Pong-Effekte beobachten, welche zu h\u00f6heren Ressourcen-Reservierungs-Latenzen, mehr verlorenen Paketen und mehr Best-Effort-Paketen pro Handoff bei geringeren Geschwindigkeiten f\u00fchren. Der st\u00e4rkste Einfluss dieser Pinp-Pong-Effekte ist jeweils bei 3 km/h zu beobachten. Allerdings verh\u00e4lt sich QoMIFA unter allen untersuchten Bewegungsgeschwindigkeiten besser als Simple QoS und kann Mobilknoten auch bei hohen Geschwindigkeiten bedienen. In Anschluss an die simulationsgest\u00fctzte Evaluierung, sch\u00e4tzt die Dissertation die Signalisierungskosten beider Protokolle unter Betrachtung der Kosten f\u00fcr Ortslokalise-rung und Paketzustellung. Im Ergebnis erreicht QoMIFA die zuvor genannten Leistungsverbesserungen auf Kosten von gr\u00f6\u00dferen Ortslokalisierungskosten und leicht h\u00f6herer Paketzustellungskosten.",
+            "contributor": [
+                "gnd:1032134216",
+                "gnd:130006491",
+                "gnd:13002077X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4496068-2"
+                },
+                {
+                    "@id": "gnd:4330656-1"
+                },
+                {
+                    "@id": "gnd:4170280-3"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

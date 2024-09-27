@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1163401471",
-            "sameAs": "Goppelsröder, Fabian"
+            "sameAs": "Goppelsr\u00f6der, Fabian"
         },
         {
             "@id": "gnd:118634313",
@@ -15,10 +15,11 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A840831366",
             "@type": "bibo:Book",
-            "P1053": "1 online resource (168 pages)",
+            "P1053": "1 Online-Ressource (164 Seiten)",
             "identifier": [
                 "(isbn13)9783839407646",
                 "(firstid)GBV:840831366",
+                "(doi)10.1515/9783839407646",
                 "(doi)10.14361/9783839407646",
                 "(ppn)840831366"
             ],
@@ -33,17 +34,19 @@
                 "German History of Philosophy",
                 "Literature",
                 "Style, Literary.",
+                "(classificationName=bk, id=106403672)08.25 - Zeitgen\u00f6ssische westliche Philosophie",
                 "Literature.",
+                "(classificationName=bk, id=106403303)08.34 - Sprachphilosophie",
                 "Aesthetics",
                 "Analytical Philosophy",
                 "Philosophy",
-                "PHILOSOPHY / History &amp; Surveys / Modern",
+                "PHILOSOPHY / History & Surveys / Modern",
                 "Philosophie.",
                 "Philosophy (General)",
                 "(classificationName=rvk)CI 5017"
             ],
             "title": "Zwischen Sagen und Zeigen : Wittgensteins Weg von der literarischen zur dichtenden Philosophie",
-            "abstract": "Ludwig Wittgensteins Philosophie war immer schon Philosophieren. Das »Wie«, die Form, ist ihm nicht lediglich marginaler Zusatz zum eigentlich wichtigen Inhalt. Seine philosophische (Überzeugungs-)Kraft liegt nicht allein in seinen Argumenten - sie ist auch Folge des literarisch-poetischen Charakters seiner Texte. Nicht zuletzt das macht sein Õuvre zu einem über das Gesagte hinausgehenden Werk. Jenseits der strikten Unterscheidung in frühe und späte Werkphase nimmt dieses Buch die Dimension eines auf Wahrnehmung mit allen Sinnen zielenden, aisthetischen Philosophierens zum Ausgangspunkt einer Rekonstruktion des Wittgenstein&apos;schen Denkwegs.",
+            "abstract": "Ludwig Wittgensteins Philosophie war immer schon Philosophieren. Das \u00bbWie\u00ab, die Form, ist ihm nicht lediglich marginaler Zusatz zum eigentlich wichtigen Inhalt. Seine philosophische (\u00dcberzeugungs-)Kraft liegt nicht allein in seinen Argumenten - sie ist auch Folge des literarisch-poetischen Charakters seiner Texte. Nicht zuletzt das macht sein \u00d5uvre zu einem \u00fcber das Gesagte hinausgehenden Werk. Jenseits der strikten Unterscheidung in fr\u00fche und sp\u00e4te Werkphase nimmt dieses Buch die Dimension eines auf Wahrnehmung mit allen Sinnen zielenden, aisthetischen Philosophierens zum Ausgangspunkt einer Rekonstruktion des Wittgenstein'schen Denkwegs.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:1163401471",
             "isPartOf": [
@@ -59,7 +62,10 @@
                 "gnd:118634313",
                 "gnd:4045791-6"
             ],
-            "isLike": "doi:10.14361/9783839407646",
+            "isLike": [
+                "doi:10.1515/9783839407646",
+                "doi:10.14361/9783839407646"
+            ],
             "P30128": "Edition Moderne Postmoderne",
             "P60163": "Bielefeld"
         }
@@ -77,6 +83,10 @@
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "abstract": "http://purl.org/dc/terms/abstract",
@@ -89,10 +99,6 @@
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "contributor": "http://purl.org/dc/terms/contributor",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "isLike": {
-            "@id": "http://umbel.org/umbel#isLike",
-            "@type": "@id"
-        },
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

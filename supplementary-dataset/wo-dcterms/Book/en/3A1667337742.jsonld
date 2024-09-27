@@ -14,7 +14,7 @@
         },
         {
             "@id": "gnd:4058448-3",
-            "sameAs": "Südostasien"
+            "sameAs": "S\u00fcdostasien"
         },
         {
             "@id": "gnd:4121590-4",
@@ -22,48 +22,49 @@
         },
         {
             "@id": "gnd:4186634-4",
-            "sameAs": "Überschwemmung"
+            "sameAs": "\u00dcberschwemmung"
         },
         {
             "@id": "gnd:4293487-4",
-            "sameAs": "Überflutung"
+            "sameAs": "\u00dcberflutung"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1667337742",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (156 Seiten)",
-            "contributor": [
-                "Aris, Azmi",
-                "Yusop, Zulkifli",
+            "http://purl.org/dc/elements/1.1/contributor": [
                 "Alias, Nor Eliza",
-                "Annammala, Kogila Vani"
+                "Annammala, Kogila Vani",
+                "Aris, Azmi",
+                "Yusop, Zulkifli"
             ],
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte.",
             "identifier": [
-                "(ppn)1667337742",
-                "(firstid)KEP:04437240X",
                 "(isbn13)9781787565517",
-                "(doi)10.1108/S2040-7262201820"
+                "(doi)10.1108/S2040-7262201820",
+                "(ppn)1667337742",
+                "(firstid)KEP:04437240X"
             ],
             "publisher": "Emerald Publishing Limited",
             "http://purl.org/dc/elements/1.1/subject": [
-                "Technology, engineering, agriculture",
+                "Science ; Environmental Science",
                 "Flood forecasting ; Asia ; Case studies",
-                "Flood control ; Asia ; Case studies",
+                "(classificationName=linseach:mapping)bau",
                 "(classificationName=bk, id=106422006)56.30 - Wasserbau",
                 "(classificationName=ddc)333.910095",
-                "Science ; Environmental Science",
-                "(classificationName=linseach:mapping)bau"
+                "Flood control ; Asia ; Case studies",
+                "Technology, engineering, agriculture"
             ],
             "title": "Improving flood management, prediction and monitoring : case studies in Asia",
             "abstract": "Flood risk management requires a multi-disciplinary approach with experts from the fields of health, town planning, civil engineering, computer science and mathematical statistics. This volume presents chapters highlighting the methodologies and tools developed to improve flood management and flood risk reduction. Chapters in this important volume consider research on Emerging economies and developing countries and the case studies are focused in Malaysia, China and South-East Asia. The book presents key research from areas of the globe where flood management has not traditionally been studied but where the effects of climate change and natural disasters present huge challenges for societies in the region. This volume, edited by leaders in the field of disaster management, would of be particular interest to students, researchers and policy specialists involved with examining flood related risk reduction methods and systems for key decision makers.",
-            "dcterms:contributor": [
+            "contributor": [
                 "Technische Informationsbibliothek (TIB)",
                 {
                     "@id": "gnd:131617109"
                 }
             ],
             "isPartOf": [
+                "(collectioncode)ZDB-1-BMEN",
                 "(collectioncode)ZDB-1-EPB",
                 "(collectioncode)ZDB-55-BME"
             ],
@@ -72,12 +73,12 @@
             "license": "national licence",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
-                "gnd:4058448-3",
                 "gnd:4186634-4",
-                "gnd:4009937-4",
                 "gnd:4121590-4",
+                "gnd:4058448-3",
                 "gnd:4029932-6",
-                "gnd:4293487-4"
+                "gnd:4293487-4",
+                "gnd:4009937-4"
             ],
             "volume": "volume 20",
             "isLike": "doi:10.1108/S2040-7262201820",
@@ -88,35 +89,35 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "issued": "http://purl.org/dc/terms/issued",
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "description": "http://purl.org/dc/elements/1.1/description",
-        "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "medium": {
-            "@id": "http://purl.org/dc/terms/medium",
-            "@type": "@id"
-        },
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "volume": "http://purl.org/ontology/bibo/volume",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "abstract": "http://purl.org/dc/terms/abstract",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "isLike": {
-            "@id": "http://umbel.org/umbel#isLike",
-            "@type": "@id"
-        },
-        "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

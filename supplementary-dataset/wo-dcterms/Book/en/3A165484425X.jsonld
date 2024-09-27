@@ -1,8 +1,12 @@
 {
     "@graph": [
         {
+            "@id": "gnd:172292921",
+            "sameAs": "Ockendon, John R."
+        },
+        {
             "@id": "gnd:4032018-2",
-            "sameAs": "Kompressible Strömung"
+            "sameAs": "Kompressible Str\u00f6mung"
         },
         {
             "@id": "gnd:4121912-0",
@@ -12,9 +16,8 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A165484425X",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (VII, 243 p. 60 illus. in color, online resource)",
-            "contributor": "Ockendon, John R.",
             "creator": "Ockendon, Hilary",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(firstid)BSZ:455235635",
                 "(isbn13)9781493933815",
@@ -46,8 +49,9 @@
             "title": "Waves and Compressible Flow",
             "abstract": [
                 "Introduction -- The Equations of Inviscid Compressible Flow -- Models for Linear Wave Propagation -- Theories for Linear Waves -- Nonlinear Waves in Fluids -- Shock Waves -- Epilogue.",
-                "Now in its second edition, this book continues to give readers a broad mathematical basis for modelling and understanding the wide range of wave phenomena encountered in modern applications. New and expanded material includes topics such as elastoplastic waves and waves in plasmas, as well as new exercises. Comprehensive collections of models are used to illustrate the underpinning mathematical methodologies, which include the basic ideas of the relevant partial differential equations, characteristics, ray theory, asymptotic analysis, dispersion, shock waves, and weak solutions. Although the main focus is on compressible fluid flow, the authors show how intimately gasdynamic waves are related to wave phenomena in many other areas of physical science. Special emphasis is placed on the development of physical intuition to supplement and reinforce analytical thinking. Each chapter includes a complete set of carefully prepared exercises, making this a suitable textbook for students in applied mathematics, engineering, and other physical sciences. Reviews of the first edition: \"This book … is an introduction to the theory of linear and nonlinear waves in fluids, including the theory of shock waves. … is extraordinarily accurate and free of misprints … . I enjoyed reading this book. … most attractive and enticing appearance, and I’m certain that many readers who browse through it will wish to buy a copy. The exercises … are excellent. … A beginner who worked through these exercises would not only enjoy himself or herself, but would rapidly acquire mastery of techniques used…in JFM and many other journals…\" (C. J. Chapman, Journal of Fluid Mechanics, Vol. 521, 2004) \"The book targets a readership of final year undergraduates and first year graduates in applied mathematics. In the reviewer’s opinion, it is very well designed to catch the student’s interest … while every chapter displays essential features in some important area of fluid dynamics. Additionally, students may practice by solving 91 exercises. This volume is mainly devoted to inviscid flows. … The book is very well written.\" (Denis Serre, Mathematical Reviews, 2004) ."
+                "Now in its second edition, this book continues to give readers a broad mathematical basis for modelling and understanding the wide range of wave phenomena encountered in modern applications. New and expanded material includes topics such as elastoplastic waves and waves in plasmas, as well as new exercises. Comprehensive collections of models are used to illustrate the underpinning mathematical methodologies, which include the basic ideas of the relevant partial differential equations, characteristics, ray theory, asymptotic analysis, dispersion, shock waves, and weak solutions. Although the main focus is on compressible fluid flow, the authors show how intimately gasdynamic waves are related to wave phenomena in many other areas of physical science. Special emphasis is placed on the development of physical intuition to supplement and reinforce analytical thinking. Each chapter includes a complete set of carefully prepared exercises, making this a suitable textbook for students in applied mathematics, engineering, and other physical sciences. Reviews of the first edition: \"This book \u2026 is an introduction to the theory of linear and nonlinear waves in fluids, including the theory of shock waves. \u2026 is extraordinarily accurate and free of misprints \u2026 . I enjoyed reading this book. \u2026 most attractive and enticing appearance, and I\u2019m certain that many readers who browse through it will wish to buy a copy. The exercises \u2026 are excellent. \u2026 A beginner who worked through these exercises would not only enjoy himself or herself, but would rapidly acquire mastery of techniques used\u2026in JFM and many other journals\u2026\" (C. J. Chapman, Journal of Fluid Mechanics, Vol. 521, 2004) \"The book targets a readership of final year undergraduates and first year graduates in applied mathematics. In the reviewer\u2019s opinion, it is very well designed to catch the student\u2019s interest \u2026 while every chapter displays essential features in some important area of fluid dynamics. Additionally, students may practice by solving 91 exercises. This volume is mainly devoted to inviscid flows. \u2026 The book is very well written.\" (Denis Serre, Mathematical Reviews, 2004) ."
             ],
+            "contributor": "gnd:172292921",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SXMS",
@@ -66,7 +70,7 @@
             "isLike": "doi:10.1007/978-1-4939-3381-5",
             "P30128": [
                 "Texts in Applied Mathematics",
-                "Bücher",
+                "B\u00fccher",
                 "SpringerLink"
             ],
             "P60163": "New York"
@@ -75,6 +79,10 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
@@ -82,7 +90,6 @@
         },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",

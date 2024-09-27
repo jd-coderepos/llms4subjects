@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1194949096",
+            "sameAs": "Gro\u00dfe, Ivo"
+        },
+        {
+            "@id": "gnd:4121722-6",
+            "sameAs": "Statistisches Modell"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A810778343",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (159 Bl. = 4,83 mb)",
+            "contributor": "Cerquides Bueno, Jes\u00fas",
+            "creator": "Eggeling, Ralf",
+            "identifier": [
+                "(firstid)GBV:810778343",
+                "(ppn)810778343",
+                "(doi)10.25673/1359"
+            ],
+            "publisher": "Universit\u00e4ts- und Landesbibliothek Sachsen-Anhalt",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)[DDC22ger] 000",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Learning inhomogeneous parsimonious Markov models with application to DNA sequence analysis",
+            "abstract": [
+                "Bioinformatik; maschinelles Lernen; probabilistische graphische Modelle; parsimonische Kontextb\u00e4ume; Modellselektion; verborgene Variablen; Transkriptionsfaktorbindestellen; de-novo Motivsuche; statistische Abh\u00e4ngigkeiten",
+                "Statistical modeling of functional oligonucleotides such as transcription factor binding sites, i.e., inferring a sequence motif with the incentive of predicting new instances, is one of the classic fields within bioinformatics. Most of the previous work in this field is based on a comparatively simple motif model that assumes statistical independence among all nucleotide. Making use of additional features is to date limited by insufficient statistical models that suffer from overfitting. In this work we propose a new class of statistical models that allows modeling complex features in the data while keeping the parameter space small in order to avoid overfitting. For inferring these models from data, we propose different Bayesian and non-Bayesian learning approaches, both for fully observable data and in the presence of latent variables. We apply models and learning algorithms to investigate the phenomenon of statistical dependencies within sequence motifs of DNA-binding proteins. Using de novo motif discovery on ChIP-seq data, we find that intra-motif dependencies are prevalent in nature and that modeling them increases prediction accuracy.",
+                "bioinformatics; machine learning; probabilistic graphical models; parsimonious context trees; model selection; latent variables; transcription factor binding sites; de-novo motif discovery; statistical dependencies",
+                "Statistische Modellierung von funktionalen Oligonukleotiden wie Transkriptionsfaktorbindungsstellen ist eines der klassischen Teilgebiete der Bioinformatik. Viele der bisherige Arbeiten auf diesem Gebiet basieren auf einem vergleichsweise einfachen Modell, welches statistische Unabh\u00e4ngigkeit unter allen Nukleotiden innerhalb der Bindestellen annimmt. Diese Arbeit besch\u00e4ftigt sich mit einer neuen Klasse von statistischen Modellen, welche die Modellierung statistischer Abh\u00e4ngigkeiten zwischen benachbarten Nukleotiden erm\u00f6glicht und dabei eine sparsame Parameterisierung verwendet. Zum Lernen dieser Modelle werden verschiedene Bayessche und nicht-Bayessche Lernans\u00e4tze sowohl f\u00fcr vollst\u00e4ndig beobachtbare Daten als auch in Gegenwart von verborgenen Variablen diskutiert. Die Methodik wird verwendet, um Eigenschaften funktionaler Transkriptionsfaktorbindestellen auf Basis von ChIP-seq Daten zu untersuchen. Die Ergebnisse zeigen, dass statistische Abh\u00e4ngigkeiten innerhalb von Bindestellen in der Natur weit verbreitet sind, und dass deren Modellierung die Vorhersage von Transkriptionsfaktorbindestellen verbessert."
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:1194949096"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4611085-9",
+                "gnd:4121722-6",
+                "gnd:4193754-5"
+            ],
+            "isLike": "doi:10.25673/1359"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

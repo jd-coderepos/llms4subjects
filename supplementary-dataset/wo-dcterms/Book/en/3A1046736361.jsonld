@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1046736361",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "contributor": "Hahn, Jinyong",
+            "creator": [
+                "National Bureau of Economic Research",
+                "Angrist, Joshua D."
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:1046736361",
+                "(doi)10.3386/t0241",
+                "(ppn)1046736361"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "When to Control for Covariates?  Panel-Asymptotic Results for Estimates of Treatment Effects",
+            "abstract": "The problem of how to control for covariates is endemic in evaluation research.  Covariate-matching provides an appealing control strategy, but with continuous or high-dimensional covariate vectors, exact matching may be impossible or involve small cells.  Matching observations that have the same propensity score produces unbiased estimates of causal effects whenever covariate-matching does, and also has an attractive dimension-reducing property.  On the other hand, conventional asymptotic arguments show that covariate-matching is (asymptotically) more efficient that propensity score-matching.  This is because the usual asymptotic sequence has cell sizes growing to infinity, with no benefit from reducing the number of cells.  Here, we approximate the large sample behavior of difference matching estimators using a panel-style asymptotic sequence with fixed cell sizes and the number of cells increasing to infinity.  Exact calculations in simple examples and Monte Carlo evidence suggests this generates a substantially improved approximation to actual finite-sample distributions.  Under this sequence, propensity-score-matching is most likely to dominate exact matching when cell sizes are small, the explanatory power of the covariates conditional on the propensity score is low, and/or the probability of treatment is close to zero or one.  Finally, we introduce a random-effects type combination estimator that provides finite-sample efficiency gains over both covariate-matching and propensity-score-matching",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "1999",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. t0241",
+            "isLike": "doi:10.3386/t0241",
+            "P30128": "NBER technical working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1020166274",
+            "sameAs": "Rebholz, Leo G."
+        },
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1031933670",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (9 Seiten, 228 kB)",
+            "identifier": [
+                "(ppn)1031933670",
+                "(doi)10.20347/WIAS.PREPRINT.2534",
+                "(firstid)GBV:1031933670"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS), Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Pressure-induced locking in mixed methods for time-dependent (Navier\u2013)Stokes equations",
+            "abstract": "We consider inf-sup stable mixed methods for the time-dependent incompressible Stokes and Navier\u2013Stokes equations, extending earlier work on the steady (Navier-)Stokes Problem. A locking phenomenon is identified for classical inf-sup stable methods like the Taylor-Hood or the Crouzeix-Raviart elements by a novel, elegant and simple numerical analysis and corresponding numerical experiments, whenever the momentum balance is dominated by forces of a gradient type. More precisely, a reduction of the L2 convergence order for high order methods, and even a complete stall of the L2 convergence order for lowest-order methods on preasymptotic meshes is predicted by the analysis and practically observed. On the other hand, it is also shown that (structure-preserving) pressure-robust mixed methods do not suffer from this locking phenomenon, even if they are of lowest-order. A connection to well-balanced schemes for (vectorial) hyperbolic conservation laws like the shallow water or the compressible Euler equations is made.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1020166274",
+                "gnd:134253523",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2534",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2534",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

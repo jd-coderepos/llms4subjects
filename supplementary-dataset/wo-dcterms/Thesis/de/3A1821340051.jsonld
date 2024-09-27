@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universit\u00e4t Hamburg"
+        },
+        {
+            "@id": "gnd:112555729X",
+            "sameAs": "Technische Universit\u00e4t Hamburg, Institut f\u00fcr Hochfrequenztechnik"
+        },
+        {
+            "@id": "gnd:1197764402",
+            "sameAs": "K\u00f6lpin, Alexander"
+        },
+        {
+            "@id": "gnd:1272265838",
+            "sameAs": "Erhardt, Stefan"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1821340051",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (VII, 173 Seiten)",
+            "contributor": "Gardill, Markus",
+            "description": "Illustrationen, Diagramme, Karten",
+            "identifier": [
+                "(firstid)KXP:1821340051",
+                "(ppn)1821340051",
+                "(doi)10.15480/882.4680"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "Mobilfunk",
+                "(classificationName=ddc)600: Technik",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "(classificationName=ddc-dbn)621.3",
+                "Fledermaustracking",
+                "Software Defined Radio",
+                "Funklokalisation",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.384191"
+            ],
+            "title": "Langzeit-Funklokalisierungsverfahren mit extrem energieeffizienten, miniaturisierten Mobilfunkloggern",
+            "abstract": [
+                "Im Bereich des Tier- und Artenschutzes sowie der \u00d6kologie stellen Bewegungsprofile eine wichtige Methode der Raumnutzungs- und Verhaltensanalyse dar. Die Erforschung des Bewegungsverhaltens von Flederm\u00e4usen stellt dabei insbesondere hohe technische Anforderungen an entsprechende Ortungssysteme. Das geringe Gewicht und das lichtscheue Verhalten europ\u00e4ischer Fledermausarten bedingt eine Ressourcenlimitierung und die Notwendigkeit, die f\u00fcr die gesamte Laufzeit ben\u00f6tigte Energie von Beginn an vorhalten zu m\u00fcssen, da lokale Energiegewinnung (z.B. mit Solarzellen) nicht umsetzbar ist. In den letzten Jahren wurden mehrere spezifisch auf Flederm\u00e4use zugeschnittene Funklokalisierungssysteme ver\u00f6ffentlicht, mit welchen die pr\u00e4zisen Flugbewegungen und das Sozial- und Jagdverhalten der Tiere erfasst werden k\u00f6nnen. Prinzipbedingt sind damit jedoch nur eingeschr\u00e4nkte Reichweiten und Laufzeiten realisierbar, weshalb diese f\u00fcr weitr\u00e4umige Migrationsanalysen ungeeignet sind. Die vorliegende Arbeit stellt ein neuartiges Funklokalisierungsverfahren f\u00fcr die Migrationsanalyse von Flederm\u00e4usen vor, das erstmals Positionsaufzeichnungen mit durchg\u00e4ngig hoher zeitlicher Aufl\u00f6sung \u00fcber eine Migrationsperiode erm\u00f6glicht. Das Verfahren basiert auf der Erfassung von Mobilfunkzellen, deren Standorte a priori bekannt sind und die zur Positionssch\u00e4tzung verwendet werden. Ein Kernpunkt dieser Arbeit stellt der Systementwurf eines miniaturisierten Mobilfunkloggers dar, welcher als Software-Defined-Radio aus einem integrierten Sub-GHz-Transceiver und einem ARM Cortex-M4-Mikrocontroller realisiert wurde. Hierf\u00fcr wurde ein auf Echtzeitf\u00e4higkeit optimierter GSM-Stack implementiert, mit dem GSM-Zellen im 900-MHz-Band erfasst und deren BCCH dekodiert werden k\u00f6nnen. Neben zus\u00e4tzlicher Beschleunigungs- und Temperatursensorik besitzt der Logger eine Funktionalit\u00e4t zur R\u00fcckgewinnung und zum Datendownload \u00fcber eine 868-MHz-Funkschnittstelle. Der mit einem Faserverbundwerkstoff robust aufgebaute Logger weist beim Formfaktor einer 1-Eurocent-M\u00fcnze ein Gewicht von 2,0 g auf und erzielte eine Messdauer von 11,2 Monaten bei vier Messungen pro Tag. In mehreren Feldtests wurde das System erfolgreich auf Flederm\u00e4usen eingesetzt. F\u00fcr einen zweiw\u00f6chigen Kurzzeiteinsatz mit einem Messintervall von 10 Minuten wurden die Logger auf Tieren der Art Gro\u00dfes Mausohr (Myotis myotis) aufgeklebt. Die aufgezeichneten Daten konnten t\u00e4glich im Quartier per Funk heruntergeladen und das Bewegungsverhalten der n\u00e4chtlichen Ausfl\u00fcge bestimmt werden. Zur Langzeit-Migrationsanalyse wurden die Logger an der Haut von Gro\u00dfen Abendseglern (Nyctalus noctula) vern\u00e4ht und f\u00fchrten vier Messungen pro Tag durch. Diese erst selten angewandte Befestigungsmethode stellte sich als unzureichend heraus, weshalb nur ein Logger wiedergewonnen werden konnte. Dessen Migrationsverhalten konnte jedoch im Detail in einer bisher unerreichten Aufl\u00f6sung rekonstruiert werden.",
+                "In the area of wildlife and species conservation and ecology, movement profiles are an important method for spatial and behavioral analyses. Research on the movement behavior of bats imposes high technical demands on appropriate tracking systems. The low weight and the photophobic behavior of European species implies a resource limitation and the necessity to have the energy required for the entire run time from the very beginning, since energy harvesting (e.g. with solar cells) is not feasible. In recent years, several radio localization systems specifically tailored to bats have been published, which can be used to record precise flight movements and the social and hunting behavior of the animals. However, due to their functional principle, only limited ranges and run times can be realized, which makes them unsuitable for long-range migration analyses. This thesis introduces a novel radio localization method for bat migration analysis that, for the first time, provides position records with consistently high temporal resolution over one migration periode. The method is based on the detection of cellular base stations, whose locations are known a priori and which are used for position estimation. A key point of this work is the system design of a miniaturized cellular logger, which was realized as a software defined radio consisting of an integrated sub-GHz transceiver and an ARM Cortex-M4 microcontroller. For this purpose, a GSM stack optimized for real-time capability was implemented to detect GSM cells in the 900 MHz band and decode their BCCH. In addition to supplementary acceleration and temperature sensing, the logger has a functionality for recovery and data download via an 868 MHz radio interface. Ruggedly constructed with a fiber composite, the logger has a weight of 2.0 g with the form factor of a 1 Eurocent coin and achieved a measurement lifetime of 11.2 months with four measurements per day. The system was successfully deployed on bats in several field tests. For a two-week short-term deployment with a measurement interval of 10 minutes, the loggers were glued to animals of the species greater mouse-eared bats (Myotis myotis). The recorded data could be downloaded daily by radio in the roost and the movement behavior of the nocturnal excursions could be analyzed. For long-term migration analysis, the loggers were sutured to the skin of common noctules (Nyctalus noctula) and took four measurements per day. This method of attachment, which has been rarely used before, turned out to be insufficient, so only one logger could be recovered. However, its migration behavior could be reconstructed in detail with a previously unreached resolution."
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:1197764402"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": [
+                "gnd:1112763473",
+                "gnd:112555729X",
+                "gnd:1272265838"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15480/882.4680",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

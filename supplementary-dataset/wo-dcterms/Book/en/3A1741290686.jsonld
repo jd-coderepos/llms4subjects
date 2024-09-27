@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027205658",
+            "sameAs": "McKenna, Russell"
+        },
+        {
+            "@id": "gnd:1052100686",
+            "sameAs": "Torriti, Jacopo"
+        },
+        {
+            "@id": "gnd:121187144",
+            "sameAs": "Ardone, Armin"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1741290686",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (circa 39 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Kleinebrahm, Max",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1741290686",
+                "(firstid)KXP:1741290686",
+                "(doi)10.5445/IR/1000126271"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie (KIT)",
+            "subject": "(classificationName=linseach:automatic)rest",
+            "title": "Using neural networks to model long-term dependencies in occupancy behavior",
+            "abstract": "Models simulating household energy demand based on different occupant and household types and their behavioral patterns have received increasing attention over the last years due the need to better understand fundamental characteristics that shape the demand side. Most of the models described in the literature are based on Time Use Survey data and Markov chains. Due to the nature of the underlying data and the Markov property, it is not sufficiently possible to consider long-term dependencies over several days in occupant behavior. An accurate mapping of long-term dependencies in behavior is of increasing importance, e.g. for the determination of flexibility potentials of individual households urgently needed to compensate supply-side fluctuations of renewable based energy systems. The aim of this study is to bridge the gap between social practice theory, energy related activity modelling and novel machine learning approaches. The weaknesses of existing approaches are addressed by combining time use survey data with mobility data, which provide information about individual mobility behavior over periods of one week. In social practice theory, emphasis is placed on the sequencing and repetition of practices over time. This suggests that practices have a memory. Transformer models based on the attention mechanism and Long short-term memory (LSTM) based neural networks define the state of the art in the field of natural language processing (NLP) and are for the first time introduced in this paper for the generation of weekly activity profiles. In a first step an autoregressive model is presented, which generates synthetic weekly mobility schedules of individual occupants and thereby captures long-term dependencies in mobility behavior. In a second step, an imputation model enriches the weekly mobility schedules with detailed information about energy relevant at home activities. The weekly activity profiles build the basis for multiple use cases one of which is modelling consistent electricity, heat and mobility demand profiles of households. The approach developed provides the basis for making high-quality weekly activity data available to the general public without having to carry out complex application procedures.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1052100686",
+                "gnd:121187144",
+                "gnd:171556542",
+                "gnd:1027205658"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 49 (November 2020)",
+            "isLike": "doi:10.5445/IR/1000126271",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

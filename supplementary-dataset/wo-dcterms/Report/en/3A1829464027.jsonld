@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1262800153",
+            "sameAs": "Eigel, Martin"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1829464027",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (22 Seiten, 360,70 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Kirstein, Max",
+                "Sommer, David"
+            ],
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2981",
+                "(firstid)KXP:1829464027",
+                "(ppn)1829464027"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Tensor-train kernel learning for Gaussian processes",
+            "abstract": "We propose a new kernel learning approach based on efficient low-rank tensor compression for Gaussian process (GP) regression. The central idea is to compose a low-rank function represented in a hierarchical tensor format with a GP covariance function. Compared to similar deep neural network architectures, this approach facilitates to learn significantly more expressive features at lower computational costs as illustrated in the examples. Additionally, over-fitting is avoided with this compositional model by taking advantage of its inherent regularisation properties. Estimates of the generalisation error are compared to five baseline models on three synthetic and six real-world data sets. The experimental results show that the incorporated tensor network enables a highly accurate GP regression with a comparatively low number of trainable parameters. The observed performance is clearly superior (usually by an order of magnitude in mean squared error) to all examined standard models, in particular to deep neural networks with more than 1000 times as many parameters.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:1262800153"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2981",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2981",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

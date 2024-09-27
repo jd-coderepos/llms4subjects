@@ -5,12 +5,16 @@
             "sameAs": "Peter Lang GmbH"
         },
         {
+            "@id": "gnd:1306311594",
+            "sameAs": "Bartsch, Maike"
+        },
+        {
             "@id": "gnd:4046612-7",
             "sameAs": "Polizeiorganisation"
         },
         {
             "@id": "gnd:4065783-8",
-            "sameAs": "Königreich Westfalen"
+            "sameAs": "K\u00f6nigreich Westfalen"
         },
         {
             "@id": "gnd:4137557-9",
@@ -20,8 +24,10 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851504729",
             "@type": "bibo:Thesis",
             "P1053": "776 Seiten",
-            "creator": "Bartsch, Maike",
-            "description": "21 cm x 14.8 cm, 1052 g",
+            "description": [
+                "1 Illustration",
+                "21 cm x 14.8 cm, 1052 g"
+            ],
             "identifier": [
                 "(firstid)DNB:1293115878",
                 "(ean)9783631889725",
@@ -32,26 +38,28 @@
             ],
             "publisher": "Peter Lang",
             "http://purl.org/dc/elements/1.1/subject": [
-                "Gender Studies: Frauen und Mädchen",
-                "(classificationName=ddc-dbn)900",
+                "Gender Studies: Frauen und M\u00e4dchen",
                 "LITERARY CRITICISM / Feminist",
-                "LITERARY CRITICISM / Ancient &amp; Classical",
-                "ELT: learning material &amp; coursework",
+                "LITERARY CRITICISM / Ancient & Classical",
+                "ELT: learning material & coursework",
                 "Gender studies: women",
-                "Feminism &amp; feminist theory",
+                "Feminism & feminist theory",
                 "Englisch",
+                "(classificationName=ddc-dbn)360",
                 "(classificationName=rvk)NO 6100",
+                "(classificationName=ddc-dbn)943",
                 "FOREIGN LANGUAGE STUDY / English as a Second Language",
-                "Literary studies: classical, early &amp; medieval",
+                "Literary studies: classical, early & medieval",
                 "Literary theory",
                 "English",
+                "(classificationName=ddc-dbn)940",
                 "Literaturtheorie",
                 "(classificationName=bk, id=181569701)15.43 - Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
                 "History",
                 "Feminismus und feministische Theorie",
                 "(classificationName=loksys-fbs)Hist 5547",
                 "Fremdsprachenerwerb, Fremdsprachendidaktik",
-                "LITERARY CRITICISM / Semiotics &amp; Theory",
+                "LITERARY CRITICISM / Semiotics & Theory",
                 "Literaturwissenschaft: Antike und Mittelalter",
                 "Geschichte",
                 "Geschichte 1807-1813",
@@ -59,12 +67,13 @@
                 "HISTORY / General",
                 "(classificationName=linseach:mapping)his"
             ],
-            "title": "Macht und Ohnmacht : hohe Polizei und lokale Herrschaftspraxis im Königreich Westphalen (1807-1813)",
-            "abstract": "Die Existenz einer politischen, teilweise im Geheimen agierenden Polizei war in nachträglichen Bewertungen des napoleonischen \"Modellstaats\" auf deutschem Boden für ehemalige Untertanen besonders relevant. Von der Forschung wurde zwar bisher die Diskrepanz zwischen Anspruch und Wirklichkeit der französischen Politik im Satellitenstaat ausgiebig bedacht, nicht aber die Rolle der staatlichen Polizei. Bei der vorliegenden Studie stehen die Akteure im napoleonisch regierten, aber selbstverwalteten Königreich Westphalen im Fokus - und damit das Aufeinandertreffen der Untertanen und Machtvollzieher im lokalen Raum. Zwang und Eigeninteresse, soziale Hintergründe, nationale Zugehörigkeit und Geschlecht prägten die Herrschaftsverhältnisse und Herrschaftspraktiken und deren emotionale Aufladung",
+            "title": "Macht und Ohnmacht : hohe Polizei und lokale Herrschaftspraxis im K\u00f6nigreich Westphalen (1807-1813)",
+            "abstract": "Die Existenz einer politischen, teilweise im Geheimen agierenden Polizei war in nachtr\u00e4glichen Bewertungen des napoleonischen \"Modellstaats\" auf deutschem Boden f\u00fcr ehemalige Untertanen besonders relevant. Von der Forschung wurde zwar bisher die Diskrepanz zwischen Anspruch und Wirklichkeit der franz\u00f6sischen Politik im Satellitenstaat ausgiebig bedacht, nicht aber die Rolle der staatlichen Polizei. Bei der vorliegenden Studie stehen die Akteure im napoleonisch regierten, aber selbstverwalteten K\u00f6nigreich Westphalen im Fokus - und damit das Aufeinandertreffen der Untertanen und Machtvollzieher im lokalen Raum. Zwang und Eigeninteresse, soziale Hintergr\u00fcnde, nationale Zugeh\u00f6rigkeit und Geschlecht pr\u00e4gten die Herrschaftsverh\u00e4ltnisse und Herrschaftspraktiken und deren emotionale Aufladung",
             "contributor": "Technische Informationsbibliothek (TIB)",
-            "dcterms:creator": {
-                "@id": "gnd:1065711506"
-            },
+            "creator": [
+                "gnd:1065711506",
+                "gnd:1306311594"
+            ],
             "issued": "2023",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -74,12 +83,14 @@
                 "gnd:4065783-8",
                 "gnd:4137557-9"
             ],
+            "tableOfContents": "https://d-nb.info/1293115878/04",
             "isLike": "doi:10.3726/b20977",
             "P60163": "Lausanne"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
@@ -89,15 +100,20 @@
         "issued": "http://purl.org/dc/terms/issued",
         "contributor": "http://purl.org/dc/terms/contributor",
         "license": "http://purl.org/dc/terms/license",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "title": "http://purl.org/dc/elements/1.1/title",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "abstract": "http://purl.org/dc/terms/abstract",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -106,8 +122,6 @@
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "description": "http://purl.org/dc/elements/1.1/description",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

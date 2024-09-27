@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1124847243",
+            "sameAs": "Bannoura, Amir"
+        },
+        {
+            "@id": "gnd:4123135-1",
+            "sameAs": "Empf\u00e4nger"
+        },
+        {
+            "@id": "gnd:4789222-5",
+            "sameAs": "Drahtloses Sensorsystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A88044181X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 113 Seiten, Illustrationen, Diagramme)",
+            "identifier": [
+                "(contract)FRUB-opus-11633",
+                "(ppn)88044181X",
+                "(doi)10.6094/UNIFR/11633",
+                "(firstid)BSZ:483292419"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)537",
+                "(classificationName=ddc)537",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Algorithms and applications for low power wireless sensor networks using wake-up receivers",
+            "abstract": "Abstract: Energy is the driving problem of wireless sensor networks (WSNs). Usually, sensor nodes operate for a long period of time and the only source of power supply is battery cells. The di\ufb03culty of accessing and exchanging the batteries leads to a desire for maintenance-free sensor nodes. The functionality of WSNs can be extended through the use of low power microprocessors, sensors and radio transceivers. The availability of low power hardware components provides a technological break-through for wake-up receivers. These receivers interact only when a special wake-up signal addresses them. When a wake-up signal is received, the wake-up receiver triggers the sensor node to activate its radio transceiver. Each sensor node has the capability of transmitting a wake-up signal to a near-by sensor node. Data communication occurs only when the node switches on its transceiver. During this time, the rest of the nodes remain in a sleep state to sustain their energy supply. Here, the nodes avoid overhearing the exchange of data packets which are not intended to them. On the contrary, the duty cycle process of waking up periodically to check the medium for messages or synchronizing with other sensor nodes is not necessary. This raises the hope that duty-cycling might soon be replaced by the wake-up receivers. Nevertheless, the wake-up receivers have to resolve several challenges to be able to participate e\ufb03ciently in sensor networks. The high energy demand of wake-up signals and the short wake-up coverage ranges compared to data communication diminish the capabilities of sensor nodes. Therefore, in this work new wake-up algorithms are developed to address the shortcoming in the technology to overcome the challenges imposed on the networks through empowering the nodes with the ability to identify e\ufb03cient ways to manage their energy resources. Still, these shortcomings have a direct e\ufb00ect on the ability of the network to maintain its connectivity. In general, the nodes can construct a wake-up network and a data communication network depending on the nodes coverage ranges. A node failure in the wake-up network might disconnect the node from delivering the data to their neighbors in the data network because of the inability of the nodes to wake them up. Hybrid algorithms that combine duty-cycle and wake-up receivers will solve this problem through maintaining active backbones to allow the sensor network to remain connected. Moreover, wake-up receivers have an ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1124847243",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4789222-5"
+                },
+                {
+                    "@id": "gnd:4123135-1"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/11633",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

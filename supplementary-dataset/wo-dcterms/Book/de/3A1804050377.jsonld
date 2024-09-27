@@ -14,7 +14,7 @@
         },
         {
             "@id": "gnd:4020548-4",
-            "sameAs": "Geschlechterverhältnis"
+            "sameAs": "Geschlechterverh\u00e4ltnis"
         },
         {
             "@id": "gnd:4037363-0",
@@ -26,7 +26,7 @@
         },
         {
             "@id": "gnd:4069349-1",
-            "sameAs": "Berufstätigkeit"
+            "sameAs": "Berufst\u00e4tigkeit"
         },
         {
             "@id": "gnd:4071776-8",
@@ -34,7 +34,7 @@
         },
         {
             "@id": "gnd:4123701-8",
-            "sameAs": "Männlichkeit"
+            "sameAs": "M\u00e4nnlichkeit"
         },
         {
             "@id": "gnd:4563270-4",
@@ -44,13 +44,16 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1804050377",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (281 Seiten)",
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots",
+            "description": [
+                "Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots"
+            ],
             "identifier": [
                 "(isbn13)9783779968016",
                 "(firstid)KEP:077965183",
                 "(ppn)1804050377"
             ],
-            "publisher": "Beltz Verlagsgruppe",
+            "publisher": "Beltz Juventa",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc)305.3361",
                 "Geschlecht",
@@ -62,14 +65,14 @@
                 "Gender Studies",
                 "(classificationName=linseach:mapping)sow",
                 "Geschlechterforschung",
-                "Männerforschung",
+                "M\u00e4nnerforschung",
                 "Erwerbsarbeit",
-                "Men&apos;s Studies",
+                "Men's Studies",
                 "Gender",
                 "Stereotypen"
             ],
-            "title": "Geschlechterordnung zwischen Wandel und Permanenz : Symbolische Tiefenstrukturen in Erzählungen männlicher Ärzte",
-            "abstract": "Dieser Forschungsband betrachtet aus soziologischer Perspektive die Gleichzeitigkeit von Stabilität und Wandel als ein Symptom für die Spannungen zwischen den dauerhaft und stabil internalisierten Dispositionen auf der Mikroebene und den sich wandelnden Rahmenbedingungen auf der Makroebene. Die Autorin verdeutlicht, dass die kognitiven Strukturen einzelner sozialer Akteur:innen ein Schlüssel zum Verständnis von Trägheitseffekten bzw. Umbrüchen in hochkomplexen sozialen Feldern sind. Die »symbolischen Tiefenstrukturen«, die aus den Erzählungen von Chirurgen, Internisten und Kinderärzten hervorgehen, weisen auf Wandlungsspielräume und -resistenzen hin. Dabei zeigt sich, dass der Wandel innerhalb der Permanenz besteht.",
+            "title": "Geschlechterordnung zwischen Wandel und Permanenz : symbolische Tiefenstrukturen in Erz\u00e4hlungen m\u00e4nnlicher \u00c4rzte",
+            "abstract": "Dieser Forschungsband betrachtet aus soziologischer Perspektive die Gleichzeitigkeit von Stabilit\u00e4t und Wandel als ein Symptom f\u00fcr die Spannungen zwischen den dauerhaft und stabil internalisierten Dispositionen auf der Mikroebene und den sich wandelnden Rahmenbedingungen auf der Makroebene. Die Autorin verdeutlicht, dass die kognitiven Strukturen einzelner sozialer Akteur:innen ein Schl\u00fcssel zum Verst\u00e4ndnis von Tr\u00e4gheitseffekten bzw. Umbr\u00fcchen in hochkomplexen sozialen Feldern sind. Die \u00bbsymbolischen Tiefenstrukturen\u00ab, die aus den Erz\u00e4hlungen von Chirurgen, Internisten und Kinder\u00e4rzten hervorgehen, weisen auf Wandlungsspielr\u00e4ume und -resistenzen hin. Dabei zeigt sich, dass der Wandel innerhalb der Permanenz besteht.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:1042139555",
             "isPartOf": [
@@ -97,6 +100,7 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -105,20 +109,19 @@
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
+        "title": "http://purl.org/dc/elements/1.1/title",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "abstract": "http://purl.org/dc/terms/abstract",
         "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "contributor": "http://purl.org/dc/terms/contributor",
         "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "title": "http://purl.org/dc/elements/1.1/title",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"

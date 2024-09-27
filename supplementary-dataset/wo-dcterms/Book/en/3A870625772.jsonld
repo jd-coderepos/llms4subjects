@@ -1,8 +1,12 @@
 {
     "@graph": [
         {
-            "@id": "gnd:7512476-2",
-            "sameAs": "Pflanzenbiotechnologie"
+            "@id": "gnd:4045599-3",
+            "sameAs": "Pflanzenz\u00fcchtung"
+        },
+        {
+            "@id": "gnd:4069491-4",
+            "sameAs": "Biotechnologie"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A870625772",
@@ -39,7 +43,10 @@
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
-            "subject": "gnd:7512476-2",
+            "subject": [
+                "gnd:4045599-3",
+                "gnd:4069491-4"
+            ],
             "tableOfContents": "http://www.loc.gov/catdir/enhancements/fy1622/2016955174-t.html",
             "volume": "1511",
             "P30128": [
@@ -51,17 +58,18 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
-            "@type": "@id"
-        },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
         "contributor": "http://purl.org/dc/elements/1.1/contributor",
@@ -76,7 +84,6 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

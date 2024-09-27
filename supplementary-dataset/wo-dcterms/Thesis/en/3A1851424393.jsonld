@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1294906216",
+            "sameAs": "Pfeuffer, Julianus"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851424393",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (Seite C-T, 203 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1851424393",
+                "(doi)10.15496/publikation-83990",
+                "(firstid)KXP:1851424393"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio",
+                "Proteomanalyse",
+                "Bioinformatik",
+                "Arbeitsablauf",
+                "Algorithmus"
+            ],
+            "title": "Computational methods for protein inference in shotgun proteomics experiments",
+            "abstract": [
+                "Since the beginning of this millennium, the advent of high-throughput methods in numerous fields of the life sciences led to a shift in paradigms. A broad variety of technologies emerged that allow comprehensive quantification of molecules involved in biological processes. Simultaneously, a major increase in data volume has been recorded with these techniques through enhanced instrumentation and other technical advances. By supplying computational methods that automatically process raw data to obtain biological information, the field of bioinformatics plays an increasingly important role in the analysis of the ever-growing mass of data. Computational mass spectrometry in particular, is a bioinformatics field of research which provides means to gather, analyze and visualize data from high-throughput mass spectrometric experiments. For the study of the entirety of proteins in a cell or an environmental sample, even current techniques reach limitations that need to be circumvented by simplifying the samples subjected to the mass spectrometer. These pre-digested (so-called bottom-up) proteomics experiments then pose an even bigger computational burden during analysis since complex ambiguities need to be resolved during protein inference, grouping and quantification. In this thesis, we present several developments in the pursuit of our goal to provide means for a fully automated analysis of complex and large-scale bottom-up proteomics experiments. Firstly, due to prohibitive computational complexities in state-of-the-art Bayesian protein inference techniques, a refined, more stable technique for performing inference on sums of random variables was developed to enable a variation of standard Bayesian inference for the problem. nextflow and part of a set of standardized, well-tested, and community-maintained workflows by the nf-core collective. Our workflow runs on large-scale data with complex experimental designs and allows a one-command analysis of local and publicly available data sets with state-of-the-art accuracy on various high-performance computing environments or the cloud.",
+                "In den letzten Jahrzehnten kam es zu einem signifikanten Anstiegs des Einsatzes von Hochdurchsatzmethoden in verschiedensten Bereichen der Naturwissenschaften, welche zu einem regelrechten Paradigmenwechsel f\u00fchrte. Eine gro\u00dfe Anzahl an neuen Technologien wurde entwickelt um die Quantifizierung von Molek\u00fclen, die in verschiedenste biologische Prozesse involviert sind, voranzutreiben und zu beschleunigen. Damit einhergehend konnte eine betr\u00e4chtliche Steigerung an Daten festgestellt werden, die durch diese verbesserten Methoden generiert wurden. Durch die Bereitstellung von computergest\u00fctzten Verfahren zur Analyse eben dieser Masse an Rohdaten, spielt der Forschungsbereich der Bioinformatik eine immer gr\u00f6\u00dfere Rolle bei der Extraktion biologischer Erkenntnisse. Im Speziellen hilft die computergest\u00fctzte Massenspektrometrie bei der Prozessierung, Analyse und Visualisierung von Daten aus massenspektrometrischen Hochdursatzexperimenten. Bei der Erforschung der Gesamtheit aller Proteine einer Zelle oder einer anderweitigen Probe biologischen Materials, kommen selbst neueste Methoden an ihre Grenzen. Deswegen greifen viele Labore zu einer, dem Massenspektrometer vorgeschalteten, Verdauung der Probe um die Komplexit\u00e4t der zu messenden Molek\u00fcle zu verringern. Diese sogenannten \"Bottom-up\"-Proteomikexperimente mit Massenspektrometern f\u00fchren allerdings zu einer erh\u00f6hten Schwierigkeit bei der anschlie\u00dfenden computergest\u00fctzen Analyse. Durch die Verdauung von Proteinen zu Peptiden m\u00fcssen komplexe Mehrdeutigkeiten w\u00e4hrend Proteininferenz, Proteingruppierung und Proteinquantifizierung ber\u00fccksichtigt und/oder aufgel\u00f6st werden. Im Rahmen dieser Dissertation stellen wir mehrere Entwicklungen vor, die dabei helfen sollen eine effiziente und vollst\u00e4ndig automatisierte Analyse von komplexen und umfangreichen \\glqq Bottom-up\\grqq{}-Proteomikexperimenten zu erm\u00f6glichen. Um die hinderliche Komplexit\u00e4t diskreter, Bayes'scher Proteininferenzmethoden zu verringern, wird neuerdings von sogenannten Faltungsb\u00e4umen (engl. \"convolution trees\") Gebrauch gemacht. Diese bieten bis jetzt jedoch keine genaue und gleichzeitig numerisch stabile M\u00f6glichkeit um \"max-product\"-Inferenz zu betreiben. Deswegen wird in dieser Dissertation zun\u00e4chst eine neue Methode beschrieben die das mithilfe eines st\u00fcckweisen bzw. extrapolierendem Verfahren erm\u00f6glicht. Basierend auf der Integration dieser Methode in eine mitentwickelte Bibliothek f\u00fcr Bayes'sche Inferenz, wird dann ein OpenMS-Tool f\u00fcr Proteininferenz pr\u00e4sentiert. Dieses Tool erm\u00f6glicht effiziente Proteininferenz auf Basis eines diskreten Bayes'schen Netzwerks mithilfe eines \"loopy belief propagation\" Algorithmus'. Trotz der streng probabilistischen Formulierung des Problems \u00fcbertrifft unser Verfahren die meisten etablierten Methoden in Recheneffizienz. Das Interface des Algorithmus' bietet au\u00dferdem einzigartige Eingabe- und Ausgabeoptionen, wie z.B. das Regularisieren der Anzahl von Proteinen in einer Gruppe, proteinspezifische \"Priors\", oder rekalibrierte \"Posteriors\" der Peptide. Schlie\u00dflich zeigt diese Arbeit einen kompletten, einfach zu benutzenden, aber trotzdem skalierenden Workflow f\u00fcr Proteininferenz und -quantifizierung, welcher um das neue Tool entwickelt wurde. Die Pipeline wurde in nextflow implementiert und ist Teil einer Gruppe von standardisierten, regelm\u00e4\u00dfig getesteten und von einer Community gepflegten Standardworkflows geb\u00fcndelt unter dem Projekt nf-core. Unser Workflow ist in der Lage selbst gro\u00dfe Datens\u00e4tze mit komplizierten experimentellen Designs zu prozessieren. Mit einem einzigen Befehl erlaubt er eine (Re-)Analyse von lokalen oder \u00f6ffentlich verf\u00fcgbaren Datens\u00e4tzen mit kompetetiver Genauigkeit und ausgezeichneter Performance auf verschiedensten Hochleistungsrechenumgebungen oder der Cloud."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1294906216"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-83990",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

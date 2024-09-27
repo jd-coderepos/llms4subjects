@@ -1,22 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1091073562",
+            "sameAs": "Compton, Robert N."
+        },
+        {
+            "@id": "gnd:1275988873",
+            "sameAs": "Hammer, Nathan"
+        },
+        {
             "@id": "gnd:4176916-8",
             "sameAs": "Raman-Spektroskopie"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1807343618",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(XI, 115 p. 78 illus., 23 illus. in color.)",
+            "P1053": "1 Online-Ressource (xi, 115 Seiten)",
             "creator": [
                 "Hager, J. Stewart",
-                "Hammer, Nathan I.",
-                "Compton, Robert N.",
                 "Lambert, Ethan C."
             ],
             "description": [
-                "Erworben aus Studienqualitätsmitteln",
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Diagramme"
             ],
             "identifier": [
                 "(isbn13)9783030993955",
@@ -24,7 +31,7 @@
                 "(ppn)1807343618",
                 "(doi)10.1007/978-3-030-99395-5"
             ],
-            "publisher": "Springer International Publishing",
+            "publisher": "Springer",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc)543.54",
                 "Atmospheric science.",
@@ -37,12 +44,20 @@
                 "Lasers.",
                 "Molecular spectroscopy."
             ],
-            "title": "Raman Spectroscopy Under Liquid Nitrogen (RUN)",
+            "title": "Raman spectroscopy under liquid nitrogen (RUN)",
             "abstract": [
                 "Chapter 1. Introduction to Raman Under Liquid Nitrogen (RUN) -- Chapter 2. Fundamentals of Raman Spectroscopy and Raman under Nitrogen (RUN) -- Chapter 3. Experimental Methods of RUN, SERSUN and GHRUNS -- Chapter 4. Polarized Raman Spectroscopy using RUN and GHRUNS -- Chapter 5. RUN Spectroscopy for the C60 Fullerene Molecule -- Chapter 6. Lattice Modes in Raman Spectroscopy under Liquid Nitrogen -- Chapter 7. Surface-enhanced Raman scattering under liquid nitrogen (SERSUN) -- Chapter 8. Raman spectra of typical solvents at room temperature and under liquid nitrogen.",
                 "This book describes a simple yet innovative method for performing Raman spectroscopy of samples submerged under liquid nitrogen. While Raman spectroscopy has proven to be a powerful tool for the characterization of the structure of matter in the gaseous, liquid, and solid phases, one major difficulty in its application has been laser damage to the material under investigation, especially for biological samples. This book demonstrates how immersion of the sample in liquid nitrogen protects the sample from thermal degradation and oxidation at high incident laser power and allows improvements in sensitivity and spectral resolution over room-temperature Raman spectroscopy, leading to the so-called RUN (Raman Spectroscopy Under liquid Nitrogen) technique. Cooling to liquid nitrogen temperature also allows the selection of the lowest energy molecular conformation for molecules which may have many low energy conformers. In addition, the presence of liquid nitrogen over a roughened surface improves the sensitivity of Surface Enhanced Raman Spectroscopy (SERS), enabling the closely related SERSUN (Surface-Enhanced Raman Spectroscopy Under liquid Nitrogen) technique. This book starts with the theoretical and experimental basics of Raman and polarized Raman spectroscopy, before moving on to detailed descriptions of RUN and SERSUN. Room temperature and RUN spectra are provided for over fifty molecules."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1275988873"
+                },
+                {
+                    "@id": "gnd:1091073562"
+                }
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-SXP",
                 "(collectioncode)ZDB-2-SEB",
@@ -53,7 +68,7 @@
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": "gnd:4176916-8",
-            "volume": "121",
+            "volume": "volume 121",
             "isLike": "doi:10.1007/978-3-030-99395-5",
             "P30128": [
                 "Springer eBook Collection",
@@ -64,8 +79,11 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "issued": "http://purl.org/dc/terms/issued",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
         "abstract": "http://purl.org/dc/terms/abstract",
         "creator": "http://purl.org/dc/elements/1.1/creator",
         "subject": {
@@ -86,15 +104,12 @@
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
-        "volume": "http://purl.org/ontology/bibo/volume",
         "contributor": "http://purl.org/dc/terms/contributor",
-        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

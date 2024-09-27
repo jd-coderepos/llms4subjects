@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1013082-2",
-            "sameAs": "Internationaler Währungsfonds"
+            "sameAs": "Internationaler W\u00e4hrungsfonds"
         },
         {
             "@id": "gnd:10371972-6",
@@ -10,7 +10,7 @@
         },
         {
             "@id": "gnd:112165-0",
-            "sameAs": "Japan, Ōkurashō"
+            "sameAs": "Japan, \u014ckurash\u014d"
         },
         {
             "@id": "gnd:171635817",
@@ -32,9 +32,10 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A845869914",
             "@type": "bibo:Conference",
             "P1053": "Online-Ressource (215 p)",
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(firstid)GBV:845869914",
+                "(doi)10.5089/9781557756343.071",
                 "(isbn13)9781557756343",
                 "(ppn)845869914",
                 "(isbn)1557756341"
@@ -64,6 +65,7 @@
                 "gnd:4000695-5"
             ],
             "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DE_SUB_HamburgA8F0C08628BF5F99C125728400567EFA.pdf",
+            "isLike": "doi:10.5089/9781557756343.071",
             "P60163": "Washington, DC"
         }
     ],
@@ -77,6 +79,10 @@
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
         "publisher": "http://purl.org/dc/elements/1.1/publisher",

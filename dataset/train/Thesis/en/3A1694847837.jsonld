@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:103573382X",
+            "sameAs": "K\u00f6nke, Carsten"
+        },
+        {
+            "@id": "gnd:138039267",
+            "sameAs": "Koch, Christian"
+        },
+        {
+            "@id": "gnd:4015134-7",
+            "sameAs": "Erdbeben"
+        },
+        {
+            "@id": "gnd:4172613-3",
+            "sameAs": "Operante Konditionierung"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1694847837",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (131 Seiten)",
+            "contributor": "Wiering, Marco",
+            "http://purl.org/dc/elements/1.1/creator": "Radmard Rahmani, Hamid",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1694847837",
+                "(doi)10.25643/bauhaus-universitaet.4135",
+                "(firstid)KXP:1694847837"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)bau",
+                "seismic control",
+                "tuned mass damper",
+                "earthquake",
+                "machine learning",
+                "structural control",
+                "reinforcement learning",
+                "(classificationName=ddc)624.17",
+                "(classificationName=ddc-dbn)624"
+            ],
+            "title": "Artificial Intelligence Approach for Seismic Control of Structures",
+            "abstract": "Abstract In the first part of this research, the utilization of tuned mass dampers in the vibration control of tall buildings during earthquake excitations is studied. The main issues such as optimizing the parameters of the dampers and studying the effects of frequency content of the target earthquakes are addressed. Abstract The non-dominated sorting genetic algorithm method is improved by upgrading generic operators, and is utilized to develop a framework for determining the optimum placement and parameters of dampers in tall buildings. A case study is presented in which the optimal placement and properties of dampers are determined for a model of a tall building under different earthquake excitations through computer simulations. Abstract In the second part, a novel framework for the brain learning-based intelligent seismic control of smart structures is developed. In this approach, a deep neural network learns how to improve structural responses during earthquake excitations using feedback control. Abstract Reinforcement learning method is improved and utilized to develop a framework for training the deep neural network as an intelligent controller. The efficiency of the developed framework is examined through two case studies including a single-degree-of-freedom system and a high-rise building under different earthquake excitation records. Abstract The results show that the controller gradually develops an optimum control policy to reduce the vibrations of a structure under an earthquake excitation through a cyclical process of actions and observations. Abstract It is shown that the controller efficiently improves the structural responses under new earthquake excitations for which it was not trained. Moreover, it is shown that the controller has a stable performance under uncertainties.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:138039267"
+                },
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:103573382X"
+                }
+            ],
+            "creator": "gnd:5180842-0",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4172613-3"
+                },
+                {
+                    "@id": "gnd:4015134-7"
+                }
+            ],
+            "isLike": "doi:10.25643/bauhaus-universitaet.4135",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -2,11 +2,11 @@
     "@graph": [
         {
             "@id": "gnd:1013082-2",
-            "sameAs": "Internationaler Währungsfonds"
+            "sameAs": "Internationaler W\u00e4hrungsfonds"
         },
         {
             "@id": "gnd:4014954-7",
-            "sameAs": "Entwicklungsländer"
+            "sameAs": "Entwicklungsl\u00e4nder"
         },
         {
             "@id": "gnd:4071034-8",
@@ -20,17 +20,21 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A845857215",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (147 p)",
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9781557757357",
+                "(doi)10.5089/9781557757357.071",
                 "(ppn)845857215",
                 "(firstid)GBV:845857215",
                 "(isbn)1557757356"
             ],
             "publisher": "International Monetary Fund",
-            "http://purl.org/dc/elements/1.1/subject": "(classificationName=linseach:automatic)rest",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)QC 347",
+                "(classificationName=linseach:mapping)oek"
+            ],
             "title": "External evaluation of the ESAF : report",
-            "abstract": "One result of the IMF&apos;s move to increased openness are independent external evaluations of important IMF policies, to complement its own in-house evaluations. This paper, prepared by a team of evaluators, includes in addition to the external evaluation, a statement by Bernd Esdar, Chairman of the Executive Director&apos;s group concerned with external evaluations; the summing up by IMF Managing Director Michel Camdessus of the Executive Board&apos;s discussion of the report; the terms of reference; and the IMF staff&apos;s response to the evaluation",
+            "abstract": "One result of the IMF's move to increased openness are independent external evaluations of important IMF policies, to complement its own in-house evaluations. This paper, prepared by a team of evaluators, includes in addition to the external evaluation, a statement by Bernd Esdar, Chairman of the Executive Director's group concerned with external evaluations; the summing up by IMF Managing Director Michel Camdessus of the Executive Board's discussion of the report; the terms of reference; and the IMF staff's response to the evaluation",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:1013082-2",
             "isPartOf": "(collectioncode)ZDB-310-IMOA",
@@ -44,6 +48,7 @@
                 "gnd:4014954-7",
                 "gnd:4071034-8"
             ],
+            "isLike": "doi:10.5089/9781557757357.071",
             "P60163": "Washington, D.C"
         }
     ],
@@ -65,6 +70,10 @@
         "license": "http://purl.org/dc/terms/license",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
         "issued": "http://purl.org/dc/terms/issued",
         "abstract": "http://purl.org/dc/terms/abstract",
         "title": "http://purl.org/dc/elements/1.1/title",

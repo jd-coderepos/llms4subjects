@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A493685219",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (14 S., 215,8 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Schreier, Manfred",
+                "Grah, Aleksander",
+                "Nowak, Ulrich"
+            ],
+            "identifier": [
+                "(ppn)493685219",
+                "(firstid)GBV:493685219"
+            ],
+            "publisher": "ZIB",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Parameter estimation and accuracy matching strategies for 2-D reactor models",
+            "abstract": "The mathematical modeling of a special modular catalytic reactor kit leads to a system of partial differential equation in two space dimensions. As customary, this model contains unconfident physical parameters, which may be adapted to fit experimental data. To solve this nonlinear least squares problem we apply a damped Gauss-Newton method. A method of lines approach is used to evaluate the associated model equations. By an a priori spatial discretization a large DAE system is derived and integrated with an adaptive, linearly-implicit extrapolation method. For sensitivity evaluation we apply an internal numerical differentiation technique, which reuses linear algebra information from the model integration. In order not to interfere the control of the Gauss-Newton iteration these computations are done usually very accurately and, therefore, very costly. To overcome this difficulty, we discuss several accuracy adaptation strategies, e.g., a master-slave mode. Finally, we present some numerical experiments.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2003, 52",
+            "P30128": "ZIB-report",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

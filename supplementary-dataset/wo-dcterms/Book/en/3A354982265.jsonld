@@ -1,12 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1089551169",
+            "sameAs": "Myers, Garth"
+        },
+        {
             "@id": "gnd:4000695-5",
             "sameAs": "Afrika"
         },
         {
             "@id": "gnd:4022153-2",
-            "sameAs": "Großbritannien"
+            "sameAs": "Gro\u00dfbritannien"
         },
         {
             "@id": "gnd:4056754-0",
@@ -14,7 +18,7 @@
         },
         {
             "@id": "gnd:4058393-4",
-            "sameAs": "Südafrika (Kontinent)"
+            "sameAs": "S\u00fcdafrika (Kontinent)"
         },
         {
             "@id": "gnd:4073624-6",
@@ -32,7 +36,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A354982265",
             "@type": "bibo:Book",
             "P1053": "XXII, 199 S",
-            "creator": "Myers, Garth Andrew",
             "description": [
                 "24 cm",
                 "Ill., Kt"
@@ -53,7 +56,7 @@
                 "(classificationName=bk, id=106411039)74.72 - Stadtplanung, kommunale Planung",
                 "Geschichte 1920-2000",
                 "(classificationName=ddc)307.1/216/096",
-                "(classificationName=bk, id=181569752)15.92 - Afrika südlich der Sahara",
+                "(classificationName=bk, id=181569752)15.92 - Afrika s\u00fcdlich der Sahara",
                 "(classificationName=loc)HT169.A3",
                 "(classificationName=linseach:mapping)arc",
                 "(classificationName=linseach:mapping)sow",
@@ -64,6 +67,7 @@
             "abstract": "Enframing and reframing African cities -- The interstitiality of colonial lives -- Colonial Nairobi -- Colonial Lusaka -- Colonial Zanzibar -- Revolutionary Zanzibar -- Lilongwe -- Conclusion",
             "alternative": "Power",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1089551169",
             "issued": "2003",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -106,10 +110,13 @@
         "abstract": "http://purl.org/dc/terms/abstract",
         "title": "http://purl.org/dc/elements/1.1/title",
         "license": "http://purl.org/dc/terms/license",
-        "alternative": "http://purl.org/dc/terms/alternative",
         "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:13011359X",
+            "sameAs": "Rogers, Leonard C. G."
+        },
+        {
             "@id": "gnd:4027556-5",
             "sameAs": "Investition"
         },
@@ -32,8 +36,7 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1652023763",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (X, 156 p. 44 illus., 3 illus. in color, digital)",
-            "creator": "Rogers, L. C. G",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9781299197893",
                 "(ppn)1652023763",
@@ -68,6 +71,7 @@
                 "Readers of this book will learn how to solve a wide range of optimal investment problems arising in finance and economics. Starting from the fundamental Merton problem, many variants are presented and solved, often using numerical techniques that the book also covers. The final chapter assesses the relevance of many of the models in common use when applied to data."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:13011359X",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SMA",
                 "(collectioncode)ZDB-2-SEB",
@@ -91,7 +95,7 @@
             "P30128": [
                 "SpringerLink",
                 "SpringerBriefs in Quantitative Finance",
-                "Bücher"
+                "B\u00fccher"
             ],
             "P60163": "Berlin, Heidelberg"
         }
@@ -99,6 +103,10 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -121,7 +129,6 @@
         },
         "abstract": "http://purl.org/dc/terms/abstract",
         "contributor": "http://purl.org/dc/terms/contributor",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"

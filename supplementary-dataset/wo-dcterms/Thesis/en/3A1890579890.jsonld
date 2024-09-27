@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1334213267",
+            "sameAs": "Lonardi, Alessandro"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1890579890",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 133 Seiten)",
+            "description": "Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1890579890",
+                "(firstid)KXP:1890579890",
+                "(doi)10.15496/publikation-94541"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)380",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)388.041",
+                "Netzwerk",
+                "Transportproblem"
+            ],
+            "title": "Designing networks with adaptation rules and optimal transport",
+            "abstract": [
+                "Efficient transportation of resources is critical for network functionality at all scales. However, while natural systems adapt over time to achieve optimal structures for transportation, man-made networks are not built with a comparable evolutionary mechanism. Consequently, these structures frequently fall short of meeting their intended design criteria. This thesis presents adaptation rules rooted in biological systems that enable the design of plausible man-made infrastructures. Specifically, we extrapolate mathematical models classically used to study, for instance, the transport of nutrients in plants or the human body and extend them to model different problems with a paradigm shift: Use such equations to get instrumental insight on how to build artificial networks. We connect adaptation rules and optimality with Optimal Transport (OT) theory. Initially, we formulate adaptation equations tailored to the problem at hand. Then, we aim to find a well-defined Lyapunov functional for these equations, which is interpretable as the cost to transport mass along the edges of a network. This is the cost minimized in OT. This link allows us to leverage optimization insights and methods to enhance performance and validate our adaptation schemes. While this mechanism is established for greedy routing problems, we extend it to more complex scenarios. First, we consider a multicommodity problem where different immiscible mass types move in a shared network. By interacting in one infrastructure, the mass types contribute to minimizing a unique cost. We observe that thoughtfully devising the coupling of mass types is pivotal to producing optimal networks. We also explore traffic congestion regimes controlled through a critical exponent entering the adaptation rules and its corresponding optimization formulation. The multicommodity adaptation equations are used to study the routing of passengers in the Paris M\u00e9tro and the streets of Bordeaux. These applications showcase which stations are crucial to alleviating traffic under targeted node failures and that trams are a valuable alternative to reduce bus congestion. Furthermore, we employ this method for ameliorating supervised image classification with OT. Here, mass types are RGB color distributions of images, and the OT cost is used as a proxy to assess their similarity. Second, we study optimal designs of transportation networks with time-dependent input mass loads. Our fundamental assumption is to model the slow evolution of the network infrastructure, which is governed by periodic and fast-fluctuating mass entering its nodes. By postulating the existence of these two different time scales, we derive closed-form adaptation rules that reduce the transport cost upon convergence. Additionally, they enable connecting analytical properties of the mass loads---their Fourier coefficients---with the topology of optimal networks. We use this method to study the robustness of Bordeaux's bus network. Third, we frame the competition of a network manager and greedy passengers competing in a bilevel optimization problem. The first aims to minimize traffic by tolling roads, while the second move to reduce their travel costs. To solve the problem, we devise a scheme where adaptation rules for greedy routing are alternated with closed-form Projected Stochastic Gradient Descent for tuning edge weights. Our study on the international E-road network demonstrates that an informed tolling of roads effectively trades off travel time against congestion and can help reduce the carbon footprint of roads. To make our results reproducible, we complement our methods with open-source codes. In summary, our models provide a systematic approach to designing optimal transportation networks for different tasks. These tools are valuable for practitioners interested in these problems, for example, policymakers aiming to assess whether a transport infrastructure effectively meets user demand.",
+                "Ein effizienter Ressourcentransport ist f\u00fcr die Funktionalit\u00e4t von Netzen auf allen Ebenen von entscheidender Bedeutung. W\u00e4hrend sich nat\u00fcrliche Systeme im Laufe der Zeit anpassen, um optimale Strukturen f\u00fcr den Transport zu erreichen, werden vom Menschen geschaffene Infrastrukturen nicht mit einem vergleichbaren Evolutionsmechanismus gebaut. Infolgedessen erf\u00fcllen diese Strukturen h\u00e4ufig nicht die ihnen zugedachten Gestaltungskriterien. In dieser Arbeit werden Anpassungsregeln vorgestellt, die in biologischen Systemen verwurzelt sind und den Entwurf plausibler vom Menschen geschaffener Infrastrukturen erm\u00f6glichen. Konkret werden mathematische Modelle, die klassischerweise zur Untersuchung des N\u00e4hrstofftransports in Pflanzen oder im menschlichen K\u00f6rper verwendet werden, extrapoliert und durch einen Paradigmenwechsel zur Modellierung verschiedener Szenarien erweitert: Wir nutzen solche Gleichungen, um instrumentelle Erkenntnisse \u00fcber den Aufbau k\u00fcnstlicher Netzwerke zu gewinnen. Wir ziehen eine Verbindung zwischen Anpassungsregeln und Optimalit\u00e4t mit der Optimal Transport (OT) Theorie. Zun\u00e4chst formulieren wir Anpassungsgleichungen, die auf das jeweilige Problem zugeschnitten sind. Dann versuchen wir, ein wohldefiniertes Lyapunov-Funktional f\u00fcr diese Gleichungen zu finden, das als die Kosten f\u00fcr den Transport von Masse entlang der Kanten eines Netzwerks interpretiert werden kann. Dies sind die Kosten, die in OT minimiert werden. Diese Verbindung erm\u00f6glicht es uns, Erkenntnisse und Methoden der Optimierung zu nutzen, um die Leistung zu verbessern und unsere Anpassungsschemata zu validieren. W\u00e4hrend dieser Mechanismus f\u00fcr gierige Routing-Probleme etabliert ist, erweitern wir ihn auf komplexere Szenarien. Zun\u00e4chst betrachten wir ein Multicommodity-Problem, bei dem sich verschiedene nicht mischbare Massenarten in einem gemeinsamen Netz bewegen. Indem sie in einer Infrastruktur interagieren, tragen die Massentypen dazu bei, die einmaligen Kosten zu minimieren. Wir stellen fest, dass eine durchdachte Kopplung der Massentypen f\u00fcr die Schaffung optimaler Netze von zentraler Bedeutung ist. Wir untersuchen auch Verkehrs\u00fcberlastungsregime, die durch einen kritischen Exponenten in den Anpassungsregeln kontrolliert werden, sowie die entsprechende Optimierungsformulierung. Die Multicommodity-Anpassungsgleichungen werden verwendet, um die Bef\u00f6rderung von Fahrg\u00e4sten in der Pariser M\u00e9tro und in den Stra\u00dfen von Bordeaux zu untersuchen. Diese Anwendungen zeigen, welche Stationen entscheidend sind, um den Verkehr bei gezielten Knotenausf\u00e4llen zu entlasten, und dass Stra\u00dfenbahnen eine wertvolle Alternative sind, um die \u00dcberlastung der Busse zu verringern. Au\u00dferdem setzen wir diese Methode zur Verbesserung der \u00fcberwachten Bildklassifizierung mit OT ein. In diesem Fall sind die Massentypen RGB-Farbverteilungen von Bildern, und die OT-Kosten werden als Proxy f\u00fcr die Bewertung ihrer \u00c4hnlichkeit verwendet. Zweitens untersuchen wir die optimale Gestaltung von Transportnetzen, in welche Massen zeitabh\u00e4ngig eingef\u00fchrt werden. Unsere Hauptannahme ist die Modellierung der langsamen Entwicklung der Netzinfrastruktur, die durch periodische und schnell schwankende Massen, die in die Knoten eintreten, bestimmt wird. Indem wir die Existenz dieser beiden unterschiedlichen Zeitskalen postulieren, leiten wir Anpassungsregeln in geschlossener Form ab, die die Transportkosten bei Konvergenz reduzieren. Au\u00dferdem erm\u00f6glichen sie es, analytische Eigenschaften der Massen---ihre Fourier-Koeffizienten---mit der Topologie optimaler Netze zu verbinden. Wir verwenden diese Methode, um die Robustheit des Busnetzes von Bordeaux zu untersuchen. Drittens stellen wir den Wettbewerb zwischen einem Netzmanager und gierigen Fahrg\u00e4sten dar, die in einem zweistufigen Optimierungsproblem konkurrieren. Der erste versucht, das Verkehrsaufkommen durch die Erhebung von Stra\u00dfenbenutzungsgeb\u00fchren zu minimieren, w\u00e4hrend der zweite versucht, seine Reisekosten zu senken. Zur L\u00f6sung des Problems entwickeln wir ein Schema, bei dem sich Anpassungsregeln f\u00fcr gieriges Routing mit einem in geschlossener Form projizierten stochastischen Gradientenabstieg zur Abstimmung der Kantengewichte abwechseln. Unsere Studie \u00fcber das internationale E-Road-Netz zeigt, dass eine informierte Mauterhebung f\u00fcr Stra\u00dfen einen wirksamen Ausgleich zwischen Reisezeit und Staus schafft und dazu beitragen kann, den CO2-Fu\u00dfabdruck von Stra\u00dfen zu verringern. Um unsere Ergebnisse reproduzierbar zu machen, erg\u00e4nzen wir unsere Methoden mit Open-Source-Codes. Zusammenfassend l\u00e4sst sich sagen, dass unsere Modelle einen systematischen Ansatz f\u00fcr die Gestaltung von Verkehrsnetzen bieten, die f\u00fcr verschiedene Aufgaben optimal sind. Diese Werkzeuge sind wertvoll f\u00fcr Personen, die sich f\u00fcr diese Probleme interessieren, z.B. f\u00fcr politische Entscheidungstr\u00e4ger, die beurteilen wollen, ob eine Verkehrsinfrastruktur die Nachfrage der Nutzer effektiv erf\u00fcllt."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1334213267"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-94541",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

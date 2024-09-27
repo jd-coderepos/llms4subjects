@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A868727695",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 877 kB)",
+            "creator": [
+                "L\u00fccken, Leonhard",
+                "Yanchuk, Serhiy"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:868727695",
+                "(ppn)868727695"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Detection and storage of multivariate temporal sequences by spiking pattern reverberators",
+            "abstract": "We consider networks of spiking coincidence detectors in continuous time. A single detector is a finite state machine that emits a pulsatile signal whenever the number incoming inputs exceeds a threshold within a time window of some tolerance width. Such finite state models are well-suited for hardware implementations of neural networks, as on integrated circuits (IC) or field programmable arrays (FPGAs) but they also reflect the natural capability of many neurons to act as coincidence detectors. We pay special attention to a recurrent coupling structure, where the delays are tuned to a specific pattern. Applying this pattern as an external input leads to a self-sustained reverberation of the encoded pattern if the tuning is chosen correctly. In terms of the coupling structure, the tolerance and the refractory time of the individual coincidence detectors, we determine conditions for the uniqueness of the sustained activity, i.e., for the funcionality of the network as an unambiguous pattern detector. We also present numerical experiments, where the functionality of the proposed pattern detector is demonstrated replacing the simplistic finite state models by more realistic Hodgkin-Huxley neurons and we consider the possibility of implementing several pattern detectors using a set of shared coincidence detectors. We propose that inhibitory connections may aid to increase the precision of the pattern discrimination.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2122",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

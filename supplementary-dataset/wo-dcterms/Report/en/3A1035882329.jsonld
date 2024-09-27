@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122164458",
+            "sameAs": "Saake, Gunter"
+        },
+        {
+            "@id": "gnd:5114828-6",
+            "sameAs": "Otto-von-Guericke-Universit\u00e4t Magdeburg, Fakult\u00e4t f\u00fcr Informatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1035882329",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (12 ungez\u00e4hlte Seiten, 0,2 MB)",
+            "creator": [
+                "Jendersie, Robert",
+                "Wagner, Johann",
+                "Pinnecke, Marcus",
+                "Wallewein-Eising, Marten",
+                "Wuensche, Johannes"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1035882329",
+                "(contract)FIN-003-2018",
+                "(firstid)GBV:1035882329"
+            ],
+            "publisher": "Fakult\u00e4t f\u00fcr Informatik, Otto-von-Guericke-Universit\u00e4t Magdeburg",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Thread management for high performance database systems : design and implementation",
+            "abstract": "Processing tasks in parallel is used in nearly all applications to keep up with the requirements of modern software systems. However, the current implementation of parallel processing in GECKODB, a graph database system developed in our group, requires to spawn many short-lived threads that execute a single task and then terminate. This creates a lot of overhead since the threads are not being reused. To counter this effect, we implemented a thread pool to be used in GECKODB to reduce the additional time required to create and close thousands of threads. In this paper, we show our implementation of a thread pool to process independent tasks in parallel, including the waiting for a set of processed tasks. We also compare the thread pool implementation against the current one. Additionally, we show that the task and thread pool configuration, depending on the use case, has a high impact on the thread pool performance. At the end of our evaluation, we show that the implementation fulfils all given requirements and generally reduce overhead compared to creating and spawning threads individually.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:5114828-6"
+                },
+                {
+                    "@id": "gnd:122164458"
+                }
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "003-2018",
+            "P30128": "Technical Report / Otto-von-Guericke-Universit\u00e4t Magdeburg, Fakult\u00e4t f\u00fcr Informatik",
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

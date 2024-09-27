@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1024992683",
+            "sameAs": "Meier, Arne"
+        },
+        {
+            "@id": "gnd:1054821305",
+            "sameAs": "Friedrich, Tobias"
+        },
+        {
+            "@id": "gnd:105577789X",
+            "sameAs": "Fernau, Henning"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1815704276",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 192 Seiten, 4652 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "Schirneck, Friedrich Martin",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-55672",
+                "(firstid)KXP:1815704276",
+                "(ppn)1815704276"
+            ],
+            "subject": [
+                "(classificationName=ddc)005.75",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Enumeration algorithms in data profiling",
+            "abstract": "Data profiling is the extraction of metadata from relational databases. An important class of metadata are multi-column dependencies. They come associated with two computational tasks. The detection problem is to decide whether a dependency of a given type and size holds in a database. The discovery problem instead asks to enumerate all valid dependencies of that type. We investigate the two problems for three types of dependencies: unique column combinations (UCCs), functional dependencies (FDs), and inclusion dependencies (INDs). We first treat the parameterized complexity of the detection variants. We prove that the detection of UCCs and FDs, respectively, is W[2]-complete when parameterized by the size of the dependency. The detection of INDs is shown to be one of the first natural W[3]-complete problems. We further settle the enumeration complexity of the three discovery problems by presenting parsimonious equivalences with well-known enumeration problems. Namely, the discovery of UCCs is equivalent to the famous transversal ...",
+            "alternative": "Aufz\u00e4hlungsalgorithmen f\u00fcr das Data Profiling",
+            "contributor": [
+                "gnd:1024992683",
+                "gnd:1054821305",
+                "gnd:105577789X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2120681-8",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-55672",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

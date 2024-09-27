@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1292889748",
+            "sameAs": "Ghosh, Partha"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1847108458",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxiv, 121 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1847108458",
+                "(ppn)1847108458",
+                "(doi)10.15496/publikation-82895"
+            ],
+            "subject": [
+                "Maschinelles Lernen",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Bildverarbeitung",
+                "(classificationName=ddc-dbn)006.31"
+            ],
+            "title": "Reining in the deep generative models",
+            "abstract": "Diese Doktorarbeit untersucht die Kontrollierbarkeit generativer Modelle (insbesondere VAEs und GANs), angewandt haupts\u00e4chlich auf Bilder. Wir verbessern 1. die Qualit\u00e4t der generierten Bilder durch das Entfernen der willk\u00fcrlichen Annahme \u00fcber den Prior, 2. die Performanz der Klassifikation durch das w\u00e4hlen einer passenden Verteilung im latenten Raum und 3., die Inferenzperformanz durch die gleichzeitige Optimierung einer Kostenfunktion f\u00fcr die Generierung und Inferenz. Variationale Autoencoder (VAEs) sind ein sehr n\u00fctzliches Werkzeug, da sie als Basis f\u00fcr eine Vielzahl von Aufgaben im Bereich \u201eMaschinelles Lernen\u201c verwendet werden k\u00f6nnen, wie beispielsweise f\u00fcr teil\u00fcberwachtes Lernen, lernen von Repr\u00e4sentationen, und un\u00fcberwachtem Lernen, usw. Die von VAEs generierten Bilder sind meist stark gegl\u00e4ttet, was die praktische Anwendung deutlich limitiert. Als Erkl\u00e4rung hierf\u00fcr dienen zwei Hypothesen: erstens, ein schlechtes Modell der Likelihood and zweitens, einen zu einfachen Prior. Wir untersuchen diese Hypothesen durch das Erstellen eines deterministischen Autoencoders, den wir regularisierten Autoencoder (RAE) nennen, von dem Stichproben gezogen werden k\u00f6nnen. Diese Erg\u00e4nzung erlaubt es uns beliebige Prior-Verteilungen im latenten Raum vorzugeben, wodurch wir Hypothese Eins untersuchen. Diese Untersuchung f\u00fchrt zur Schlussfolgerung, dass der Hauptgrund f\u00fcr die verschwommenen Bilder eines VAEs ein schlecht gew\u00e4hltes Prior Modell ist. Des Weiteren zeigen wir, dass die Kombination generativer (z.B. VAE-Objektiv) und diskriminativer (z.B. Klassifikatoren) Kostenfunktionen die Performanz f\u00fcr beide steigert. Daf\u00fcr verwenden wir eine spezielle Variante eines RAE zum Erstellen eines Klassifikators, der robust gegen \u201eAdversarial Attacks\u201c ist. Konditionierte generative Modelle haben das Potential die Animationsindustrie, neben anderer Industrien, zu revolutionieren. Um dies zu erreichen m\u00fcssen zwei Schl\u00fcsselvoraussetzungen erf\u00fcllt werden: erstens eine hohe Qualit\u00e4t der generierten Daten (d.h. die Erzeugung von hoch aufl\u00f6senden Bildern) und zweitens die generierten Daten m\u00fcssen ihrer Konditionierung folgen (d.h. erzeugte Bilder m\u00fcssen die durch die Konditionierung festgelegten Eigenschaften erf\u00fcllen). Wir verwenden die Pixel-lokalisierte Korrelation zwischen der Konditionierungsvariable und dem generierten Bild, um einen starken Zusammenhang zwischen beiden sicherzustellen. Dadurch erhalten wir pr\u00e4zise Kontrolle \u00fcber die generierten Daten. Dar\u00fcber hinaus zeigen wir, dass das Schlie\u00dfen des Generations-Inferenz Kreises (beide gemeinsam trainieren) von latenten Variablenmodellen zur Verbesserung von sowohl der Generierungskomponente als auch der Inferenzkomponente f\u00fchrt. Dies erm\u00f6glicht das gemeinsame Trainieren eines generativen Modells und eines Modells f\u00fcr Inferenz in einem einheitlichen Rahmen. Dies ist sowohl im \u00fcberwachten, als auch im teil\u00fcberwachten Lernen, m\u00f6glich. Mit diesem vorgeschlagenen Ansatz ist es m\u00f6glich einen robusten Klassifikator zu trainieren, durch die Verwendung der Marginalen Likelihood eines Datenpunktes, der Entfernung der willk\u00fcrlichen Annahme \u00fcber den Prior, der Abmilderung der Diskrepanz zwischen Prior- und Posterior-Verteilung, und des Schlie\u00dfens des Generations-Inferenz Kreises. In dieser Arbeit untersuchen wir die Implikationen von jedem dieser Themen in vielf\u00e4ltigen Aufgaben der Bildklassifizierung und Bildgenerierung.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1292889748"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-82895",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

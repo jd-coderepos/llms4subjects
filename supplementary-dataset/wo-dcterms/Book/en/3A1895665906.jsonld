@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122864360",
+            "sameAs": "Brenner, Claus"
+        },
+        {
+            "@id": "gnd:128997524",
+            "sameAs": "Sch\u00f6n, Steffen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1895665906",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (219.2 MByte)",
+            "creator": [
+                "Ernst, Dominik",
+                "Tennstedt, Benjamin",
+                "Zou, Qianqian",
+                "Moftizaheh, Rohzin",
+                "Axmann, Jeldrik",
+                "Su, Jingyao",
+                "Alkhatib, Hamza",
+                "Yuan, Yunshuang"
+            ],
+            "identifier": [
+                "(ppn)1895665906",
+                "(doi)10.25835/75o9yrc0",
+                "(firstid)KXP:1895665906"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "LUCOOP: Leibniz University cooperative perception and urban navigation dataset : a real-world multi-vehicle multi-modal V2V and V2X dataset",
+            "abstract": "Recently published datasets have been increasingly comprehensive with respect to their variety of simultaneously used sensors, traffic scenarios, environmental conditions, and provided annotations. However, these datasets typically only consider data collected by one independent vehicle. Hence, there is currently a lack of comprehensive, real-world, multi-vehicle datasets fostering research on cooperative applications such as object detection, urban navigation, or multi-agent SLAM. In this paper, we aim to fill this gap by introducing the novel LUCOOP dataset, which provides time-synchronized multi-modal data collected by three interacting measurement vehicles. The driving scenario corresponds to a follow-up setup of multiple rounds in an inner city triangular trajectory. Each vehicle was equipped with a broad sensor suite including at least one LiDAR sensor, one GNSS antenna, and up to three IMUs. Additionally, Ultra-Wide-Band (UWB) sensors were mounted on each vehicle, as well as statically placed along the trajectory enabling both V2V and V2X range measurements. Furthermore, a part of the trajectory was monitored by a total station resulting in a highly accurate reference trajectory. The LUCOOP dataset also includes a precise, dense 3D map point cloud, acquired simultaneously by a mobile mapping system, as well as an LOD2 city model of the measurement area. We provide sensor measurements in a multi-vehicle setup for a trajectory of more than 4 km and a time interval of more than 26 minutes, respectively. Overall, our dataset includes more than 54,000 LiDAR frames, approximately 700,000 IMU measurements, and more than 2.5 hours of 10 Hz GNSS raw measurements along with 1 Hz data from a reference station. Furthermore, we provide more than 6,000 total station measurements over a trajectory of more than 1 km and 1,874 V2V and 267 V2X UWB measurements. Additionally, we offer 3D bounding box annotations for evaluating object detection approaches, as well as highly accurate ground truth poses for each vehicle throughout the measurement campaign.",
+            "alternative": "LUCOOP: Leibniz University cooperative perception and urban navigation dataset / Forschungsdaten",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:128997524"
+                },
+                {
+                    "@id": "gnd:122864360"
+                }
+            ],
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/75o9yrc0",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1258541459",
+            "sameAs": "Hertel, Eike"
+        },
+        {
             "@id": "gnd:4137488-5",
             "sameAs": "Elementargeometrie"
         },
@@ -11,11 +15,10 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1799733335",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(XIII, 137 S. 81 Abb., 30 Abb. in Farbe.)",
-            "creator": "Hertel, Eike",
+            "P1053": "1 Online-Ressource (XIII, 136 Seiten, 81 Abb., 30 Abb. in Farbe)",
             "description": [
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
-                "Erworben aus Studienqualitätsmitteln"
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
             ],
             "identifier": [
                 "(isbn13)9783662646113",
@@ -23,19 +26,20 @@
                 "(firstid)KEP:077524055",
                 "(doi)10.1007/978-3-662-64611-3"
             ],
-            "publisher": "Springer Berlin Heidelberg",
+            "publisher": "Springer Spektrum",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc)516",
                 "(classificationName=linseach:mapping)mat",
                 "(classificationName=rvk)SK 380",
                 "Geometry."
             ],
-            "title": "Altes und Neues aus der Geometrie : Elementare Diskrete Geometrie",
+            "title": "Altes und Neues aus der Geometrie : elementare diskrete Geometrie",
             "abstract": [
-                "Parallelenproblem - Endliche Geometrien -- Konstruktion regulärer Polygone – Symmetrie -- Quadratur des Kreises – Zerlegungsgleichheit -- Verdoppelung des Würfels – Zerlegungsparadoxien -- Dreiteilung des Winkels – Pflasterungen.",
-                "In diesem Lehrbuch werden alte und neue Probleme der Geometrie wie Kreisquadratur, Würfelverdopplung und Winkeldreiteilung vorgestellt und weitergedacht bis zu Fragen und Problemen der elementaren diskreten Geometrie. Der Zugang zu diesem im Schulunterricht häufig zu kurz kommenden Stoff ist bewusst einfach gehalten, Lehrer und Schüler profitieren also gleichermaßen von diesem spannenden Ausflug in die Geometrie. Der Autor Prof. i.R. Dr. Eike Hertel, Fakultät für Mathematik und Informatik, Universität Jena."
+                "Parallelenproblem - Endliche Geometrien -- Konstruktion regul\u00e4rer Polygone \u2013 Symmetrie -- Quadratur des Kreises \u2013 Zerlegungsgleichheit -- Verdoppelung des W\u00fcrfels \u2013 Zerlegungsparadoxien -- Dreiteilung des Winkels \u2013 Pflasterungen.",
+                "In diesem Lehrbuch werden alte und neue Probleme der Geometrie wie Kreisquadratur, W\u00fcrfelverdopplung und Winkeldreiteilung vorgestellt und weitergedacht bis zu Fragen und Problemen der elementaren diskreten Geometrie. Der Zugang zu diesem im Schulunterricht h\u00e4ufig zu kurz kommenden Stoff ist bewusst einfach gehalten, Lehrer und Sch\u00fcler profitieren also gleicherma\u00dfen von diesem spannenden Ausflug in die Geometrie. Der Autor Prof. i.R. Dr. Eike Hertel, Fakult\u00e4t f\u00fcr Mathematik und Informatik, Universit\u00e4t Jena."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1258541459",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SEB",
                 "(collectioncode)ZDB-2-SNA"
@@ -49,7 +53,7 @@
                 "gnd:4137488-5"
             ],
             "isLike": "doi:10.1007/978-3-662-64611-3",
-            "P60163": "Berlin, Heidelberg"
+            "P60163": "Berlin"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -59,9 +63,12 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "license": "http://purl.org/dc/terms/license",
         "issued": "http://purl.org/dc/terms/issued",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
@@ -70,14 +77,14 @@
             "@type": "@id"
         },
         "abstract": "http://purl.org/dc/terms/abstract",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"

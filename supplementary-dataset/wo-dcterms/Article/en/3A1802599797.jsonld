@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1028974965",
+            "sameAs": "Bretschneider, Peter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1802599797",
+            "@type": "bibo:Article",
+            "http://purl.org/dc/elements/1.1/creator": "Eckner, Stefanie",
+            "identifier": [
+                "(doi)10.1049/icp.2021.2512",
+                "(ppn)1802599797",
+                "(firstid)KXP:1802599797"
+            ],
+            "publisher": "Curran Associates, Inc.",
+            "subject": [
+                "(classificationName=bk, id=106423428)53.30 - Elektrische Energietechnik: Allgemeines",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=106416383)55.20 - Stra\u00dfenfahrzeugtechnik"
+            ],
+            "title": "Multiagent-system based smart charging algorithm for a time-variant set of electric vehicles",
+            "abstract": "The electrification of the mobility sector is of major importance on the way to a carbon-free society. However, delivering the charging power for the increasing number of electric vehicles may create considerable strain for the supply grid. On the other hand, the long parking hours of an average vehicle facilitate the use of smart charging algorithms, which in the future might even provide an operating reserve for the electrical grid. Therefore, a well thought-out approach to private and public charging stations will assure the success of the coupling between the sectors of electricity and mobility. We present a multiagent system, which allocates balanced charging power to satisfy simulated charging requests from a set of charging stations sharing one grid connection point with limited power input. The multiagent system with a time-discretisation of one minute is based on the python osbrain module. The merit function includes the target of meeting all charging demands in the given time and the goal of distributing the power consumption as uniformly over time as possible. A variable set of parameters allows to probe the range between focussing on fulfilment of charging requests and supplying maximum flexibility to the local grid. Additionally, the performance of the multiagent system is discussed in the context of scalability and efficiency of the algorithm.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1028974965",
+            "extent": "100-104",
+            "isPartOf": [
+                "(isbn13)9781713852216",
+                "(ppn)1808029216"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "pageStart": "100",
+            "isLike": "doi:10.1049/icp.2021.2512",
+            "P30128": "5th E-Mobility Power System Integration Symposium (EMOB 2021)",
+            "P60163": "Red Hook, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "extent": "http://purl.org/dc/terms/extent",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

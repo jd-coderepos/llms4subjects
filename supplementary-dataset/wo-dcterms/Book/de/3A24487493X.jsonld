@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:115828443",
+            "sameAs": "Schickert, Hartmut"
+        },
+        {
             "@id": "gnd:120161133",
             "sameAs": "Kotre, John N."
         },
@@ -11,14 +15,14 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A24487493X",
             "@type": "bibo:Book",
-            "P1053": "319 S",
+            "P1053": "319 Seiten",
             "description": "20 cm",
             "identifier": [
                 "(ppn)24487493X",
                 "(firstid)DNB:953597989",
                 "(isbn)3423360895"
             ],
-            "publisher": "Dt. Taschenbuch-Verl.",
+            "publisher": "Deutscher Taschenbuch-Verlag",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=rvk)DF 4500",
                 "(classificationName=rvk)EC 7410",
@@ -27,10 +31,15 @@
                 "(classificationName=rvk)CP 5000",
                 "(classificationName=dbn)11"
             ],
-            "title": "Der Strom der Erinnerung : wie das Gedächtnis Lebensgeschichten schreibt",
-            "abstract": "Unveränderte Taschenbuchausgabe der hochinteressanten und spannenden, gut verständlichen und vielbeachteten Darstellung über die Unzuverlässigkeit der menschlichen Erinnerungen (zur gebundenen Ausgabe unter dem Titel \"Weiße Handschuhe\" siehe ID 50/96). Im autobiographischen Gedächtnis, so der Psychologe Kotre, sind Erinnerungen an Menschen, Orte, Dinge, Ereignisse und Gefühle gespeichert, die in die Geschichte des eigenen Lebens eingehen. Das Gedächtnis ist aber kein gewissenhafter Chronist, vielmehr revidiert es sich im Laufe des Lebens immer wieder und vermischt dabei ständig Fakten und Phantasie, um ein überhöhtes Bild von unserer Identität zu zeichnen. (2) (LK/DU: Heckmann)",
-            "alternative": "White gloves &lt;dt.&gt;",
-            "contributor": "Technische Informationsbibliothek (TIB)",
+            "title": "Der Strom der Erinnerung : wie das Ged\u00e4chtnis Lebensgeschichten schreibt",
+            "abstract": "Unver\u00e4nderte Taschenbuchausgabe der hochinteressanten und spannenden, gut verst\u00e4ndlichen und vielbeachteten Darstellung \u00fcber die Unzuverl\u00e4ssigkeit der menschlichen Erinnerungen (zur gebundenen Ausgabe unter dem Titel \"Wei\u00dfe Handschuhe\" siehe ID 50/96). Im autobiographischen Ged\u00e4chtnis, so der Psychologe Kotre, sind Erinnerungen an Menschen, Orte, Dinge, Ereignisse und Gef\u00fchle gespeichert, die in die Geschichte des eigenen Lebens eingehen. Das Ged\u00e4chtnis ist aber kein gewissenhafter Chronist, vielmehr revidiert es sich im Laufe des Lebens immer wieder und vermischt dabei st\u00e4ndig Fakten und Phantasie, um ein \u00fcberh\u00f6htes Bild von unserer Identit\u00e4t zu zeichnen. (2) (LK/DU: Heckmann)",
+            "alternative": "White gloves",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:115828443"
+                }
+            ],
             "creator": "gnd:120161133",
             "issued": "1998",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
@@ -40,7 +49,7 @@
             "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/AT0023D8B7190D09F62F0C1257D190023E21B.pdf",
             "volume": "36089",
             "P30128": "dtv",
-            "P60163": "München"
+            "P60163": "M\u00fcnchen"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -50,16 +59,18 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "volume": "http://purl.org/ontology/bibo/volume",
         "title": "http://purl.org/dc/elements/1.1/title",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "alternative": "http://purl.org/dc/terms/alternative",
         "abstract": "http://purl.org/dc/terms/abstract",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
@@ -69,9 +80,7 @@
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "alternative": "http://purl.org/dc/terms/alternative",
         "contributor": "http://purl.org/dc/terms/contributor",
         "issued": "http://purl.org/dc/terms/issued",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",

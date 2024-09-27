@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:118196464",
+            "sameAs": "Leiner, Bernd"
+        },
+        {
             "@id": "gnd:4056995-0",
             "sameAs": "Statistik"
         },
@@ -8,7 +12,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A230043496",
             "@type": "bibo:Book",
             "P1053": "111 S",
-            "creator": "Leiner, Bernd",
             "description": "graph. Darst",
             "identifier": [
                 "(isbn)3486243306",
@@ -25,20 +28,22 @@
                 "(classificationName=linseach:mapping)mat",
                 "(classificationName=dbn)27"
             ],
-            "title": "Übungsbuch Statistik",
-            "abstract": "Die Übungssammlung enthält 77 Aufgaben zur statistischen Methodenlehre sowie 7 Zusatzaufgaben. Die stets kompakten Lösungsangaben haben reinen Kontrollcharakter, ohne nähere Stofferläuterungen zu geben. Der Autor nennt als Lehrbuch, an das diese Sammlung anzuschließen wäre, verständlicherweise seine \"Einführung in die Statistik\" (5. Auflage vgl. ID 3/92); denkbar ist ohne weiteres auch H. Scheid: \"Wahrscheinlichkeitsrechnung\" (BA 4/93). Wenn auch textlich nicht so weit ausholend wie H. Basler: \"Aufgabensammlung zur statistischen Methodenlehre ...\" (BA 4/92), dennoch weithin zu empfehlen, besonders bei der Vorbereitung auf die Hochschulklausur in Statistik. Vor allem dürfte der handliche Umfang dem Benutzerinteresse entgegenkommen. (2) (Karl Köditz)",
+            "title": "\u00dcbungsbuch Statistik",
+            "abstract": "Die \u00dcbungssammlung enth\u00e4lt 77 Aufgaben zur statistischen Methodenlehre sowie 7 Zusatzaufgaben. Die stets kompakten L\u00f6sungsangaben haben reinen Kontrollcharakter, ohne n\u00e4here Stofferl\u00e4uterungen zu geben. Der Autor nennt als Lehrbuch, an das diese Sammlung anzuschlie\u00dfen w\u00e4re, verst\u00e4ndlicherweise seine \"Einf\u00fchrung in die Statistik\" (5. Auflage vgl. ID 3/92); denkbar ist ohne weiteres auch H. Scheid: \"Wahrscheinlichkeitsrechnung\" (BA 4/93). Wenn auch textlich nicht so weit ausholend wie H. Basler: \"Aufgabensammlung zur statistischen Methodenlehre ...\" (BA 4/92), dennoch weithin zu empfehlen, besonders bei der Vorbereitung auf die Hochschulklausur in Statistik. Vor allem d\u00fcrfte der handliche Umfang dem Benutzerinteresse entgegenkommen. (2) (Karl K\u00f6ditz)",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118196464",
             "issued": "1997",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
             "subject": "gnd:4056995-0",
             "tableOfContents": "http://www.gbv.de/dms/hbz/toc/ht007811363.pdf",
-            "P60163": "München [u.a.]"
+            "P60163": "M\u00fcnchen [u.a.]"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "license": "http://purl.org/dc/terms/license",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "language": {
@@ -58,12 +63,14 @@
             "@type": "@id"
         },
         "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "title": "http://purl.org/dc/elements/1.1/title",
         "issued": "http://purl.org/dc/terms/issued",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1183025556",
+            "sameAs": "Mindlina, Julia"
+        },
+        {
+            "@id": "gnd:121396584",
+            "sameAs": "Helber, Stefan"
+        },
+        {
+            "@id": "gnd:1217072446",
+            "sameAs": "Schnabel, Andr\u00e9"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1826745254",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (circa 27 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "S\u00fcdbeck, Insa",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1826745254",
+                "(ppn)1826745254"
+            ],
+            "publisher": "[Wirtschaftswissenschaftliche Fakult\u00e4t der Leibniz Universit\u00e4t Hannover]",
+            "subject": [
+                "(classificationName=linseach:automatic)rest",
+                "milkrun material supply",
+                "stochastic flow lines",
+                "simulated annealing",
+                "gradient search",
+                "Recurrent neural networks"
+            ],
+            "title": "Using recurrent neural networks for the performance analysis and optimization of stochastic milkrun-supplied flow lines",
+            "abstract": "Long-term throughput, as a key performance indicator of a stochastic flow line, is affected by numerous parameters describing the features of the flow line, such as processing time and buffer size. Fast and accurate evaluation methods for a given set of values for those parameters are a prerequisite to systematically optimize such a flow line. In this paper, we consider the case of a flow line with random processing times, limited buffer capacities and so-called milkruns that supply the machines with material parts that are required to perform, e.g., assembly operations on workpieces. In such a system, shortages in the supply of material parts can limit the performance of the flow line. Up to now, there are no accurate analytical approaches to quantify the complex interactions in such milkrun-supplied flow lines for realistic problem sizes. We propose to use recurrent neural networks to determine the long-term throughput of such flow lines enabling us to evaluate production systems of flexible size. Our results show that the throughput can be determined accurately and quickly via recurrent neural networks. Furthermore, we use this new evaluation procedure as a building block to optimize this type of flow line using gradient and local search techniques.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1217072446",
+                "gnd:1183025556",
+                "gnd:121396584"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "[Nummer: 703 (Nov 2022)]",
+            "P30128": "[Hannover economic papers (HEP)] / [Wirtschaftswissenschaftliche Fakult\u00e4t der Leibniz Universit\u00e4t Hannover]",
+            "P60163": "[Hannover]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

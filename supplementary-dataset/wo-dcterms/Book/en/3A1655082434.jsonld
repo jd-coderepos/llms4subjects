@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1077803974",
+            "sameAs": "Johnstone, Peter"
+        },
+        {
             "@id": "gnd:173616380",
             "sameAs": "Rosebrugh, Robert"
         },
@@ -18,12 +22,11 @@
             "P1053": "Online-Ressource (X, 266 p, online resource)",
             "http://purl.org/dc/elements/1.1/contributor": [
                 "Schumacher, D.",
-                "Paré, Robert",
+                "Par\u00e9, Robert",
                 "Wraith, G. C.",
                 "Wood, R. J."
             ],
-            "creator": "Johnstone, Peter T.",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9783540089148",
                 "(isbn13)9783540357629",
@@ -49,6 +52,7 @@
                     "@id": "gnd:173616380"
                 }
             ],
+            "creator": "gnd:1077803974",
             "isPartOf": [
                 "(collectioncode)ZDB-1-SLN",
                 "(collectioncode)ZDB-2-SEB",
@@ -74,7 +78,7 @@
                 "Lecture Notes in Mathematics",
                 "Springer eBook Collection",
                 "Mathematics and Statistics",
-                "Bücher",
+                "B\u00fccher",
                 "SpringerLink"
             ],
             "P60163": "Berlin, Heidelberg"
@@ -99,11 +103,14 @@
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "volume": "http://purl.org/ontology/bibo/volume",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

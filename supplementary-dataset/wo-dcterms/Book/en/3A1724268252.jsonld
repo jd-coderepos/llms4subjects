@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1724268252",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(IX, 228 p. 2 illus.)",
+            "creator": "Masters, Timothy",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781484259887",
+                "(ppn)1724268252",
+                "(doi)10.1007/978-1-4842-5988-7",
+                "(firstid)KEP:054119650"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "(classificationName=ddc)006.312",
+                "Programming languages (Electronic computers).",
+                "Data mining.",
+                "Computer software.",
+                "(classificationName=linseach:mapping)inf",
+                "Statistics\u00a0."
+            ],
+            "title": "Modern Data Mining Algorithms in C++ and CUDA C : Recent Developments in Feature Extraction and Selection Algorithms for Data Science",
+            "abstract": [
+                "As a serious data miner you will often be faced with thousands of candidate features for your prediction or classification application, with most of the features being of little or no value. You\u2019ll know that many of these features may be useful only in combination with certain other features while being practically worthless alone or in combination with most others. Some features may have enormous predictive power, but only within a small, specialized area of the feature space. The problems that plague modern data miners are endless. This book helps you solve this problem by presenting modern feature selection techniques and the code to implement them. Some of these techniques are: Forward selection component analysis Local feature selection Linking features and a target with a hidden Markov model Improvements on traditional stepwise selection Nominal-to-ordinal conversion All algorithms are intuitively justified and supported by the relevant equations and explanatory material. The author also presents and explains complete, highly commented source code. The example code is in C++ and CUDA C but Python or other code can be substituted; the algorithm is important, not the code that's used to write it. You will: Combine principal component analysis with forward and backward stepwise selection to identify a compact subset of a large collection of variables that captures the maximum possible variation within the entire set. Identify features that may have predictive power over only a small subset of the feature domain. Such features can be profitably used by modern predictive models but may be missed by other feature selection methods. Find an underlying hidden Markov model that controls the distributions of feature variables and the target simultaneously. The memory inherent in this method is especially valuable in high-noise applications such as prediction of financial markets. Improve traditional stepwise selection in three ways: examine a collection of 'best-so-far' feature sets; test candidate features for inclusion with cross validation to automatically and effectively limit model complexity; and at each step estimate the probability that our results so far could be just the product of random good luck. We also estimate the probability that the improvement obtained by adding a new variable could have been just good luck. Take a potentially valuable nominal variable (a category or class membership) that is unsuitable for input to a prediction model, and assign to each category a sensible numeric value that can be used as a model input.",
+                "1. Introduction -- 2. Forward Selection Component Analysis -- 3. Local Feature Selection -- 4. Memory in Time Series Features -- 5. Stepwise Selection on Steroids -- 6. Nominal-to-Ordinal Conversion."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-CWD"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-5988-7",
+            "P30128": "Springer eBook Collection",
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

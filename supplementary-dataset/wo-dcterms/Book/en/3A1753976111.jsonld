@@ -23,8 +23,9 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1753976111",
             "@type": "bibo:Book",
-            "P1053": "xx, 212 Seiten",
+            "P1053": "xx, 212 Seiten, 8 ungez\u00e4hlte Bildtafeln",
             "creator": "Graur, Or",
+            "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(ppn)1753976111",
                 "(isbn13)9780262543149",
@@ -60,7 +61,7 @@
             ],
             "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1753976111.pdf",
             "P30128": "The MIT Press essential knowledge series",
-            "P60163": "Cambridge, Massachusetts"
+            "P60163": "Cambridge"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -73,14 +74,15 @@
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "abstract": "http://purl.org/dc/terms/abstract",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "contributor": "http://purl.org/dc/terms/contributor",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
         "license": "http://purl.org/dc/terms/license",
         "issued": "http://purl.org/dc/terms/issued",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",

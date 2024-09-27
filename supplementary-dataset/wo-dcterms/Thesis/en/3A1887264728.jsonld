@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1327934000",
+            "sameAs": "Croce, Francesco"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1887264728",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (213 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1887264728",
+                "(doi)10.15496/publikation-94297",
+                "(firstid)KXP:1887264728"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Evaluating and improving the robustness of image classifiers against adversarial attacks",
+            "abstract": [
+                "The decisions of state-of-the-art image classifiers based on neural networks can be easily changed by small perturbations of the input which, at the same time, would not fool humans. These \\emph{adversarial} points are ubiquitous and question the deployment of such models in safety-critical systems. Moreover, this phenomenon shows that the networks learn to rely, for classification, on different features of the input images compared to people. The discovery of the existance of adversarial examples opened up several rich research directions: adversarial attacks want to efficiently generate perturbations to fool a target classifier while preserving the original semantic content of the input. To make sure that the ground truth class is not altered, one typically imposes constraints on some $l_p$-norm of the perturbations, or on the number (and location) of modified pixels (sparse attacks). Conversely, defensive mechanisms aim at training models which are not (or less) vulnerable to adversarial manipulations. The effectiveness of empirical defenses is in practice evaluated by measuring the success of adversarial attacks against them. Then it is important to design strong and reliable attacking schemes: in fact, it has been shown that some initially successful defenses were still vulnerable to more sophisticated attacks. An alternative approach which avoids relying on attacks for robustness evaluation is represented by certified defenses. These methods provide guarantees that no adversarial perturbation smaller than some threshold exists for a given clean point. The drawback of this approach is that it is either limited to small networks and datasets or incurs in high computational cost (and the decisions of the classifier become stochastic). In this work, we touch these various aspects of adversarial robustness: first, we derive lower bounds of the adversarial perturbations of ReLU networks, and we use them as regularization during training to obtain provably robust classifiers against either a single or multiple threats. Second, we propose algorithms to generate adversarial perturbations in different threat models, both in the white- and black-box scenarios, i.e. with and without having access to the target network parameters. We consider various $l_p$-bounded attacks for $p\\in\\{\\infty, 2, 1\\}$, sparse attacks (individual pixels, patches, frames), and imperceivable perturbations which are defined adaptively for each input image. We then gather a subset of those methods to form AutoAttack, a protocol for reliable evaluation of adversarial robustness which does not require parameter tuning. Exploiting AutoAttack, we introduce RobustBench, a standardized benchmark to evaluate the progress of the robustness of classifiers against adversarial attacks in the $l_p$-threat models, which also provides access to a larger zoo of adversarially robust models. Since RobustBench imposes some restrictions on the allowed models, we complement it with a study on adaptive test-time defenses which do not satisfy such restrictions but are popular in the literature. Finally, we analyze how to quickly adapt the type of robustness of a given model: a short fine-tuning, even of single epoch, is sufficient to make a classifier adversarially trained against an $l_p$-attack robust to a different $l_q$-bounded threat.",
+                "Die Entscheidungen moderner Bildklassifizierer, die auf neuronalen Netzen basieren, k\u00f6nnen leicht durch kleine St\u00f6rungen der Eingaben ver\u00e4ndert werden, die den Menschen jedoch nicht t\u00e4uschen w\u00fcrden. Diese \\emph{adversarial images} sind allgegenw\u00e4rtig und stellen den Einsatz solcher Modelle in sicherheitskritischen Systemen in Frage. Dar\u00fcber hinaus zeigt dieses Ph\u00e4nomen, dass die Netze lernen, sich bei der Klassifizierung auf andere Merkmale der Eingabebilder zu verlassen als Menschen. Die Entdeckung von \\emph{adversarial examples} er\u00f6ffnete mehrere interessante Forschungsrichtungen: Attacken zielen darauf ab, effizient St\u00f6rungen zu erzeugen, um einen Zielklassifikator zu t\u00e4uschen, w\u00e4hrend der urspr\u00fcngliche semantische Inhalt der Eingabe erhalten bleibt. Um sicherzustellen, dass der semantische Inhalt der wahren Klasse nicht ver\u00e4ndert wird, wird typischerweise die $l_p$-Norm der St\u00f6rungen oder die Anzahl (und der Ort) der ver\u00e4nderten Pixel (sp\u00e4rliche Angriffe) beschr\u00e4nkt. Umgekehrt zielen defensive Mechanismen darauf ab, Modelle zu trainieren, die nicht (oder weniger) anf\u00e4llig f\u00fcr b\u00f6sartige Manipulationen sind. Die Wirksamkeit empirischer Abwehrmechanismen wird in der Praxis durch Messung des Erfolgs b\u00f6sartige Angriffe auf das Modell bewertet. In diesem Fall ist es wichtig, starke und zuverl\u00e4ssige Angriffsverfahren zu entwickeln: Es hat sich n\u00e4mlich gezeigt, dass einige urspr\u00fcnglich erfolgreiche Verteidigungsmechanismen immer noch anf\u00e4llig f\u00fcr ausgefeiltere Angriffe waren. Ein alternativer Ansatz, der es vermeidet, sich bei der Bewertung der Robustheit auf Angriffe zu st\u00fctzen, ist der der zertifizierten Verteidigungsma\u00dfnahmen. Diese Methoden garantieren, dass es f\u00fcr einen gegebenen f\u00fcr ein gegebenes Bild keine b\u00f6sartige St\u00f6rung durch einen Angreifer existiert, die kleiner als ein bestimmter Schwellenwert ist. Der Nachteil dieses Ansatzes ist, dass er entweder auf kleine Netze und Datens\u00e4tze beschr\u00e4nkt ist oder hohe Rechenkosten verursacht (und Klassifikationsentscheidungen stochastisch werden). In dieser Arbeit bearbeiten wir diese verschiedenen Aspekte der Robustheit gegen\u00fcber nachteiligen Einfl\u00fcssen: Erstens leiten wir untere Schranken f\u00fcr die b\u00f6sartigen St\u00f6rungen von ReLU-Netzwerken ab und verwenden sie als Regularisierung w\u00e4hrend des Trainings, um nachweislich robuste Klassifikatoren gegen ein oder mehrere St\u00f6rungsmodelle zu erhalten. Zweitens schlagen wir Algorithmen vor, um b\u00f6sartige St\u00f6rungen in verschiedenen Bedrohungsmodellen zu erzeugen, sowohl im White- als auch im Black-Box-Szenario, d.h. mit und ohne Zugriff auf die Parameter des Zielnetzwerks. Wir betrachten verschiedene $l_p$-begrenzte Angriffe f\u00fcr $p\\in\\{\\infty, 2, 1\\}$, sp\u00e4rliche Angriffe (einzelne Pixel, Patches, Frames) und nicht wahrnehmbare St\u00f6rungen, die adaptiv f\u00fcr jedes Eingabebild definiert werden. Anschlie\u00dfend fassen wir eine Teilmenge dieser Methoden zu AutoAttack zusammen, einem Protokoll zur zuverl\u00e4ssigen Bewertung der Robustheit gegen b\u00f6sartige Attacken, das keine Parametereinstellung erfordert. Unter Ausnutzung von AutoAttack entwickeln wir RobustBench, einem standardisierten Benchmark der es erlaubt den Fortschritt der Robustheit von Klassifikatoren gegen b\u00f6sartige Attacken bez\u00fcglich der $l_p$ Bedrohungsmodelle zu evaluieren, und auch Zugang zu einem gr\u00f6\u00dferen Zoo widerstandsf\u00e4higer Modelle bietet. Da RobustBench einige Beschr\u00e4nkungen an die zul\u00e4ssigen Modelle aufstellt, erg\u00e4nzen wir es durch eine Studie \u00fcber adaptive Verteidigung zur Testzeit, die diese Beschr\u00e4nkungen nicht erf\u00fcllen, aber in der Literatur beliebt sind. Schlie\u00dflich analysieren wir, wie man die Art der Robustheit eines gegebenen Modells schnell anpassen kann: ein kurzes Feintuning, sogar von einer einzigen Epoche, reicht aus, um einen Klassifikator, der gegen einen $l_p$-Angriff trainiert wurde, robust gegen\u00fcber einer anderen $l_q$-begrenzten Bedrohung zu machen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1327934000",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-94297",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

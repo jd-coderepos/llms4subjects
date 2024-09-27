@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1201844193",
+            "sameAs": "Bartlett, Jonathan"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1787989984",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XVII, 328 Seiten)",
+            "description": [
+                "Illustrationen, Diagramme",
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1787989984",
+                "(isbn13)9781484274378",
+                "(firstid)KEP:072916184",
+                "(doi)10.1007/978-1-4842-7437-8"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Software engineering.",
+                "(classificationName=ddc)005.13",
+                "Computer science.",
+                "Programming languages (Electronic computers).",
+                "Computers.",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Learn to Program with Assembly : Foundational Learning for New Programmers",
+            "abstract": [
+                "Many programmers have limited effectiveness because they don't have a deep understanding of how their computer actually works under the hood. In Learn to Program with Assembly, you will learn to program in assembly language - the language of the computer itself. Assembly language is often thought of as a difficult and arcane subject. However, author Jonathan Bartlett presents the material in a way that works just as well for first-time programmers as for long-time professionals. Whether this is your first programming book ever or you are a professional wanting to deepen your understanding of the computer you are working with, this book is for you. The book teaches 64-bit x86 assembly language running on the Linux operating system. However, even if you are not running Linux, a provided Docker image will allow you to use a Mac or Windows computer as well. The book starts with extremely simple programs to help you get your grounding, going steadily deeper with each chapter. At the end of the first section, you will be familiar with most of the basic instructions available on the processor that you will need for any task. The second part deals with interactions with the operating system. It shows how to make calls to the standard library, how to make direct system calls to the kernel, how to write your own library code, and how to work with memory. The third part shows how modern programming language features such as exception handling, object-oriented programming, and garbage collection work at the assembly language level. Additionally, the book comes with several appendices covering various topics such as running the debugger, vector processing, optimization principles, a list of common instructions, and other important subjects. This book is the 64-bit successor to Jonathan Bartlett's previous book, Programming from the Ground Up, which has been a programming classic for more than 15 years. This book covers similar ground but with modern 64-bit processors, and also includes a lot more information about how high level programming language features are implemented in assembly language. What You Will Learn How the processor operates How computers represent data internally How programs interact with the operating system How to write and use dynamic code libraries How high-level programming languages implement their features.",
+                "Chapter 1: Introduction -- Chapter 2: The Truth About Computers -- Part I: Assembly Language Basics -- Chapter 3: Your First Program -- Chapter 4: Registers and Simple Arithmetic -- Chapter 5: Comparison, Branching and Looping -- Chapter 6: Working with Data in Memory -- Chapter 7: Data Records -- Chapter 8: Signed Numbers and Bitwise Operations -- Chapter 9: More Instructions You Should Know -- Part II: Operating System Basics -- Chapter 10: Making System Calls -- Chapter 11: The Stack and Function Calls -- Chapter 12: Calling Functions from Libraries -- Chapter 13: Common and Useful Assembler Directives -- Chapter 14: Dynamic Memory Allocation -- Chapter 15: Dynamic Linking -- Part III: Programming Language Topics -- Chapter 16: Basic Language Features Represented in Assembly Language -- Chapter 17: Tracking Memory Allocations -- Chapter 18: Object-Oriented Programming -- Chapter 19: Conclusion and Acknowledgments -- Part IV: Appendices -- Appendix A: Getting Set Up with Docker -- Appendix B: The Command Line -- Appendix C: Debugging with GDB -- Appendix D: Nasm (Intel) Assembly Language Syntax -- Appendix E: Common x86-64 Instructions -- Appendix F: Floating Point Numbers -- Appendix G: The Starting State of the Stack -- Appendix H: ASCII, Unicode, and UTF-8 -- Appendix I: Optimization -- Appendix J: A Simplified Garbage Collector -- Appendix K: Going to an Even Lower Level."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1201844193",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-7437-8",
+            "P30128": "Springer eBook Collection",
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

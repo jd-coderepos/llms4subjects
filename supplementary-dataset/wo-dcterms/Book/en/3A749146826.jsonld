@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749146826",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (176p)",
+            "contributor": "Hayes, John P.",
+            "creator": "Bhattacharya, Debashis",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(isbn13)9781461315278",
+                "(firstid)GBV:749146826",
+                "(doi)10.1007/978-1-4613-1527-8",
+                "(ppn)749146826"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer science",
+                "Computer aided design",
+                "(classificationName=loc)TA345-345.5",
+                "Computer-aided engineering.",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=ddc)620.00420285",
+                "(classificationName=ddc)670.285",
+                "Electrical engineering.",
+                "Computer engineering"
+            ],
+            "title": "Hierarchical Modeling for VLSI Circuit Testing",
+            "abstract": [
+                "1 Introduction -- 1.1 Background -- 1.2 Prior Work -- 1.3 Outline -- 2 Circuit and Fault Modeling -- 2.1 Vector Sequence Notation -- 2.2 Circuit and Fault Models -- 2.3 Case Study: k-Regular Circuits -- 3 Hierarchical Test Generation -- 3.1 Vector Cubes -- 3.2 Test Generation -- 3.3 Implementation and Experimental Results -- 4 Design for Testability -- 4.1 Ad Hoc Techniques -- 4.2 Level Separation (LS) Method -- 4.3 Case Study: ALU -- 5 Concluding Remarks -- 5.1 Summary -- 5.2 Future Directions -- Appendix A: Proofs of Theorems -- A.1 Proof of Theorem 3.2 -- A.2 Proof of Theorem 3.3 -- A.3 Proof of Theorem 4.1.",
+                "Test generation is one of the most difficult tasks facing the designer of complex VLSI-based digital systems. Much of this difficulty is attributable to the almost universal use in testing of low, gate-level circuit and fault models that predate integrated circuit technology. It is long been recognized that the testing prob\u00ad lem can be alleviated by the use of higher-level methods in which multigate modules or cells are the primitive components in test generation; however, the development of such methods has proceeded very slowly. To be acceptable, high-level approaches should be applicable to most types of digital circuits, and should provide fault coverage comparable to that of traditional, low-level methods. The fault coverage problem has, perhaps, been the most intractable, due to continued reliance in the testing industry on the single stuck-line (SSL) fault model, which is tightly bound to the gate level of abstraction. This monograph presents a novel approach to solving the foregoing problem. It is based on the systematic use of multibit vectors rather than single bits to represent logic signals, including fault signals. A circuit is viewed as a collection of high-level components such as adders, multiplexers, and registers, interconnected by n-bit buses. To match this high-level circuit model, we introduce a high-level bus fault that, in effect, replaces a large number of SSL faults and allows them to be tested in parallel. However, by reducing the bus size from n to one, we can obtain the traditional gate-level circuit and models."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "89",
+            "isLike": "doi:10.1007/978-1-4613-1527-8",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

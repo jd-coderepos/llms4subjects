@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749233540",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 208 p)",
+            "http://purl.org/dc/elements/1.1/contributor": "Biemond, Jan",
+            "creator": "Lagendijk, Reginald L.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(firstid)GBV:749233540",
+                "(ppn)749233540",
+                "(isbn13)9781461539803",
+                "(doi)10.1007/978-1-4615-3980-3"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Electrical engineering.",
+                "Computer vision",
+                "(classificationName=ddc)621.382",
+                "Computer engineering",
+                "(classificationName=linseach:mapping)phy",
+                "Signal processing.",
+                "Image processing",
+                "(classificationName=loc)TK7882.S65",
+                "(classificationName=loc)TA1637-1638",
+                "(classificationName=loc)TK5102.9",
+                "(classificationName=linseach:mapping)elt",
+                "Engineering"
+            ],
+            "title": "Iterative Identification and Restoration of Images",
+            "abstract": [
+                "One of the most intriguing questions in image processing is the problem of recovering the desired or perfect image from a degraded version. In many instances one has the feeling that the degradations in the image are such that relevant information is close to being recognizable, if only the image could be sharpened just a little. This monograph discusses the two essential steps by which this can be achieved, namely the topics of image identification and restoration. More specifically the goal of image identifi\u00ad cation is to estimate the properties of the imperfect imaging system (blur) from the observed degraded image, together with some (statistical) char\u00ad acteristics of the noise and the original (uncorrupted) image. On the basis of these properties the image restoration process computes an estimate of the original image. Although there are many textbooks addressing the image identification and restoration problem in a general image processing setting, there are hardly any texts which give an indepth treatment of the state-of-the-art in this field. This monograph discusses iterative procedures for identifying and restoring images which have been degraded by a linear spatially invari\u00ad ant blur and additive white observation noise. As opposed to non-iterative methods, iterative schemes are able to solve the image restoration problem when formulated as a constrained and spatially variant optimization prob\u00ad In this way restoration results can be obtained which outperform the lem. results of conventional restoration filters.",
+                "1 The Image Identification and Restoration Problem -- 1.1 Introduction -- 1.2 Restoration Methods -- 1.3 Identification Methods -- 1.4 Scope of the Monograph -- 2 Image Formation Models -- 2.1 Blur Models -- 2.2 Image Models -- 2.3 Common Point-spread Functions -- 3 Regularized Image Restoration -- 3.1 Ill-Conditionedness of the Image Restoration Problem -- 3.2 Stochastic Restoration -- 3.3 Algebraic Restoration -- 3.4Multiple Constraints Restoration -- 4 Iterative Image Restoration -- 4.1 VanCittert\u2019s Iteration -- 4.2 Regularization via Truncated Iterations -- 4.3 Iterative Tikhonov-Miller Solution -- 4.4 Implementations with Faster Convergence -- 5 Image Restoration with Ringing Reduction -- 5.1 Analysis of Ringing Artifacts -- 5.2 Constrained Adaptive Iterative Restoration -- 5.3 Conjugate Gradients-based Implementation -- 5.4 Experimental Restoration Results -- 6 Maximum Likelihood Image Identification -- 6.1 Conventional Identification Methods -- 6.2 Maximum Likelihood Estimator -- 6.3Implementations for Noiseless Data -- 6.4Implementations for Noisy Data -- 7 Im\u00e1ge Identification Using the EM-Algorithm -- 7.1 Review of the EM-Algorithm -- 7.2 EM-Algorithm Applied to Image Identification -- 7.3 The E-step of the Algorithm -- 7.4 The M-step of the Algorithm -- 7.5 Experimental Results -- 8 Methods for Improved Image Identification -- 8.1 Parametric Image Identification -- 8.2 Experimental Results Using Parametric Models -- 8.3 Hierarchical Image Identification -- 8.4 Experimental Results Using the Hierarchical Method -- A Eigenvalue Analysis for 2-D Systems -- B Properties of the Iteration (5.21) -- C Derivation of Equation (7.14)."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "118",
+            "isLike": "doi:10.1007/978-1-4615-3980-3",
+            "P30128": "The Springer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

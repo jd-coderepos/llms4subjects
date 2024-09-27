@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:4022153-2",
-            "sameAs": "Großbritannien"
+            "sameAs": "Gro\u00dfbritannien"
         },
         {
             "@id": "gnd:4037363-0",
@@ -14,7 +14,7 @@
         },
         {
             "@id": "gnd:4123701-8",
-            "sameAs": "Männlichkeit"
+            "sameAs": "M\u00e4nnlichkeit"
         },
         {
             "@id": "gnd:4234269-7",
@@ -27,41 +27,52 @@
             "creator": "Harvey, Karen",
             "description": "ill.",
             "identifier": [
-                "(ppn)165800146X",
-                "(isbn13)9780191740978",
                 "(firstid)KEP:052290131",
-                "(doi)10.1093/acprof:oso/9780199533848.001.0001"
+                "(doi)10.1093/acprof:oso/9780199533848.001.0001",
+                "(isbn13)9780191740978",
+                "(ppn)165800146X"
             ],
             "publisher": "Oxford University Press",
             "http://purl.org/dc/elements/1.1/subject": [
-                "Households",
-                "Masculinity",
-                "(classificationName=rvk)NW 8100",
-                "(classificationName=rvk)NN 7500",
-                "(classificationName=ddc)306.85094109033",
-                "Husbands",
+                "History",
+                "18th century",
+                "Men--Great Britain--Identity--History--18th century.",
+                "Identit\u00e4t",
                 "(classificationName=linseach:mapping)his",
+                "Geschichte",
                 "(classificationName=rvk)NW 7600",
-                "(classificationName=bk, id=181570386)15.64 - Großbritannien, Irland"
+                "Husbands",
+                "Masculinity",
+                "Households--Great Britain--History--18th century.",
+                "(classificationName=bk, id=181570386)15.64 - Gro\u00dfbritannien, Irland",
+                "(classificationName=rvk)NW 8100",
+                "Great Britain",
+                "Households",
+                "(classificationName=ddc)306.85094109033",
+                "Mann",
+                "Men--Great Britain--Conduct of life--History--18th century.",
+                "Gro\u00dfbritannien",
+                "(classificationName=rvk)NN 7500",
+                "Haushalt"
             ],
             "title": "The little republic : masculinity and domestic authority in eighteenth-century Britain",
             "abstract": "This title reconstructs the distinctive relationship between the house and masculinity in the 18th century; adds a missing piece to the history of the home, uncovering the hopes and fears men had for their homes and families.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "isPartOf": [
-                "(collectioncode)ZDB-28-OSD",
+                "(collectioncode)ZDB-28-OSH",
                 "(collectioncode)ZDB-28-OOA",
-                "(collectioncode)ZDB-28-OSH"
+                "(collectioncode)ZDB-28-OSD"
             ],
             "issued": "2012",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "open access",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
-                "gnd:4022153-2",
-                "gnd:4123701-8",
-                "gnd:4071776-8",
                 "gnd:4234269-7",
-                "gnd:4037363-0"
+                "gnd:4022153-2",
+                "gnd:4037363-0",
+                "gnd:4071776-8",
+                "gnd:4123701-8"
             ],
             "isLike": "doi:10.1093/acprof:oso/9780199533848.001.0001",
             "P60163": "Oxford"
@@ -70,12 +81,6 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "language": {
-            "@id": "http://purl.org/dc/terms/language",
-            "@type": "@id"
-        },
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "abstract": "http://purl.org/dc/terms/abstract",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -84,20 +89,26 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
-        "contributor": "http://purl.org/dc/terms/contributor",
-        "issued": "http://purl.org/dc/terms/issued",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

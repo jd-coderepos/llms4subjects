@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:130387762",
-            "sameAs": "König, Hans-Joachim"
+            "sameAs": "K\u00f6nig, Hans-Joachim"
         },
         {
             "@id": "gnd:4001670-5",
@@ -19,15 +19,15 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A026316641",
             "@type": "bibo:Book",
-            "P1053": "248 Seiten",
+            "P1053": "248 S.",
             "description": [
-                "24 cm",
-                "Illustrationen"
+                "69 Abb.",
+                "24,5 cm"
             ],
             "identifier": [
                 "(isbn)3876403626",
-                "(firstid)GBV:026316641",
-                "(ppn)026316641"
+                "(ppn)026316641",
+                "(firstid)GBV:026316641"
             ],
             "publisher": "Ploetz",
             "http://purl.org/dc/elements/1.1/subject": [
@@ -39,13 +39,14 @@
                 "(classificationName=linseach:mapping)his",
                 "(classificationName=dbn)63",
                 "Geschichte 1492-1550",
+                "(classificationName=loksys-fbs)Hist 3002",
                 "(classificationName=ssg)0",
                 "Geschichte",
                 "(classificationName=ddc)970.01/5",
                 "Entdeckung"
             ],
             "title": "Die Entdeckung und Eroberung Amerikas : 1492 - 1550",
-            "abstract": "Hans-Joachim König: \"Die Entdeckung und Eroberung Amerikas\" 1492-1550. Ploetz Verlag, Freiburg i. Br. und Würzburg 1992. 256 S., Abb., geb., 68,- DM",
+            "abstract": "In der Reihe Bild-Geschichte des Ploetz-Verlages legt Hans-Joachim K\u00f6nig, Professor f\u00fcr die Geschichte Lateinamerikas in Eichst\u00e4tt, eine fl\u00fcssig geschriebene Darstellung der Conquista Amerikas vor, verlagspolitisch wohl noch durch das Columbus-Jahr 1492 motiviert. Von den ersten Kontakten der kolumbischen Flotte mit den Bewohnern der Karibik bis zur Eroberung und Unterwerfung Mexikos und Perus reicht derbehandelte Zeitabschnitt. Geschrieben als 'Ereignis-Geschichte' f\u00fcr ein interessiertes breites Publikum, informiert das Buch ohne Fu\u00dfnotenballast \u00fcber die wichtigsten Geschehnisse w\u00e4hrend der Conquista Mittel- und S\u00fcdamerikas. Hervorzuheben ist das Bem\u00fchen des Autors, Zeitgenossen, wennm\u00f6glich beteiligte Augenzeugen, Spanier wie Indianer, zu Wort kommen zu lassen.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:130387762",
             "issued": "1992",
@@ -58,25 +59,25 @@
                 "gnd:4014841-5"
             ],
             "tableOfContents": "http://www.gbv.de/dms/hebis-darmstadt/toc/20764146.pdf",
-            "volume": "5",
+            "volume": "Bd. 5",
             "P30128": "Ploetz Bildgeschichte",
             "P60163": "Freiburg [u.a.]"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
@@ -86,14 +87,14 @@
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "contributor": "http://purl.org/dc/terms/contributor",
-        "abstract": "http://purl.org/dc/terms/abstract",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

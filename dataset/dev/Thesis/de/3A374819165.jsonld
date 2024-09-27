@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128715316",
+            "sameAs": "Zahn, Thomas Peter"
+        },
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Gro\u00df, Horst-Michael"
+        },
+        {
+            "@id": "gnd:4150994-8",
+            "sameAs": "Echosperre"
+        },
+        {
+            "@id": "gnd:4172896-8",
+            "sameAs": "Ortung"
+        },
+        {
+            "@id": "gnd:4176198-4",
+            "sameAs": "Psychoakustik"
+        },
+        {
+            "@id": "gnd:4179371-7",
+            "sameAs": "Schallgeber"
+        },
+        {
+            "@id": "gnd:4529621-2",
+            "sameAs": "Pulsverarbeitendes neuronales Netz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A374819165",
+            "@type": "bibo:Thesis",
+            "P1053": "229 S.",
+            "contributor": [
+                "Grothe, Benedikt",
+                "Park, Thomas J."
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)374819165",
+                "(firstid)GBV:374819165"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106410032)44.94 - Hals-Nasen-Ohrenheilkunde",
+                "(classificationName=bk, id=106421557)44.09 - Medizintechnik",
+                "(classificationName=ddc-dbn)150",
+                "(classificationName=linseach:mapping)med",
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=ddc)612.82",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)meda"
+            ],
+            "title": "Neural architecture for echo suppression during sound source localization based on spiking neural cell models",
+            "abstract": "Diese Arbeit untersucht die biologischen Ursachen des psycho-akustischen Pr\u00e4zedenz Effektes, der Menschen in die Lage versetzt, akustische Echos w\u00e4hrend der Lokalisation von Schallquellen zu unterdr\u00fccken. Sie enth\u00e4lt ein Modell zur Echo-Unterdr\u00fcckung w\u00e4hrend der Schallquellenlokalisation, welches in technischen Systemen zur Mensch-Maschine Interaktion eingesetzt werden kann. - Die Grundlagen dieses Modells wurden aus eigenen elektrophysiologischen Experimenten an der Mongolischen W\u00fcstenrennmaus gewonnen. Die dabei erstmalig an der W\u00fcstenrennmaus erzielten Ergebnisse, zeigen ein besonderes Verhalten spezifischer Zellen im Dorsalen Kern des Lateral Lemniscus, einer dedizierten Region des auditorischen Hirnstammes. Die dort sichtbare Langzeithemmung scheint die Grundlage f\u00fcr die Echounterdr\u00fcckung in h\u00f6heren auditorischen Zentren zu sein. Das entwickelte Model war in der Lage dieses Verhalten nachzubilden, und legt die Vermutung nahe, dass eine starke und zeitlich pr\u00e4zise Hyperpolarisation der zugrundeliegende physiologische Mechanismus dieses Verhaltens ist. - Die entwickelte Neuronale Modellarchitektur modelliert das Innenohr und f\u00fcnf wesentliche Kerne des auditorischen Hirnstammes in ihrer Verbindungsstruktur und internen Dynamik. Sie stellt einen neuen Typus neuronaler Modellierung dar, der als Spike-Interaktionsmodell (SIM) bezeichnet wird. SIM nutzen die pr\u00e4zise r\u00e4umlich-zeitliche Interaktion einzelner Aktionspotentiale (Spikes) f\u00fcr die Kodierung und Verarbeitung neuronaler Informationen. Die Basis daf\u00fcr bilden Integrate-and-Fire Neuronenmodelle sowie Hebb'sche Synapsen, welche um speziell entwickelte dynamische Kernfunktionen erweitert wurden. Das Modell ist in der Lage, Zeitdifferenzen von 10 mykrosekunden zu detektieren und basiert auf den Prinzipien der zeitlichen und r\u00e4umlichen Koinzidenz sowie der pr\u00e4zisen lokalen Inhibition. - Es besteht ausschlie\u00dflich aus Elementen einer eigens entwickelten Neuronalen Basisbibliothek (NBL) die speziell f\u00fcr die Modellierung verschiedenster Spike-Interaktionsmodelle entworfen wurde. Diese Bibliothek erweitert die kommerziell verf\u00fcgbare dynamische Simulationsumgebung von MATLAB/SIMULINK um verschiedene Modelle von Neuronen und Synapsen, welche die intrinsischen dynamischen Eigenschaften von Nervenzellen nachbilden. Die Nutzung dieser Bibliothek versetzt sowohl den Ingenieur als auch den Biologen in die Lage, eigene, biologisch plausible, Modelle der neuronalen Informationsverarbeitung ohne   detaillierte Programmierkenntnisse zu entwickeln. Die grafische Oberfl\u00e4che erm\u00f6glicht strukturelle sowie arametrische Modifikationen und ist in der Lage, den Zeitverlauf mikroskopischer Zellpotentiale aber auch makroskopischer Spikemuster w\u00e4hrend und nach der Simulation darzustellen. - Zwei grundlegende Elemente der Neuronalen Basisbibliothek wurden zur Implementierung als spezielle analog-digitale Schaltungen vorbereitet.Erste Silizium Implementierungen durch das Team des DFG Graduiertenkollegs GRK 164 konnten die M\u00f6glichkeit einer vollparallelen on line Verarbeitung von Schallsignalen nachweisen. Durch Zuhilfenahme des im GRK entwickelten automatisierten Layout Generators wird es m\u00f6glich, spezielle Prozessoren zur Anwendung biologischer Verarbeitungsprinzipien in technischen Systemen zu entwickeln. Diese Prozessoren unterscheiden sich grundlegend von den klassischen von Neumann Prozessoren indem sie r\u00e4umlich und zeitlich verteilte Spikemuster, anstatt sequentieller bin\u00e4rer Werte zur Informationsrepr\u00e4sentation nutzen. Sie erweitern das digitale Kodierungsprinzip durch die Dimensionen des Raumes (2 dimensionale Nachbarschaft) der Zeit (Frequenz, Phase und Amplitude) sowie der zeitlichen Dynamik analoger Potentialverl\u00e4ufe. - Diese Dissertation besteht aus sieben Kapiteln, welche den verschiedenen Bereichen der Computational Neuroscience gewidmet sind. - Kapitel 1 beschreibt die Motivation dieser Arbeit welche aus der Absicht r\u00fchren, biologische Prinzipien der Schallverarbeitung zu erforschen und f\u00fcr technische Systeme w\u00e4hrend der Interaktion mit dem Menschen nutzbar zu machen. Zus\u00e4tzlich werden f\u00fcnf Gr\u00fcnde f\u00fcr die Nutzung von Spike-Interaktionsmodellen angef\u00fchrt sowie deren neuartiger Charakter beschrieben. - Kapitel 2 f\u00fchrt die biologischen Prinzipien der Schallquellenlokalisation und den psychoakustischen Pr\u00e4zedenz Effekt ein. Aktuelle Hypothesen zur Entstehung dieses Effektes werden anhand ausgew\u00e4hlter experimenteller Ergebnisse verschiedener Forschungsgruppen diskutiert. - Kapitel 3 beschreibt die entwickelte Neuronale Basisbibliothek und f\u00fchrt die einzelnen neuronalen Simulationselemente ein. Es erkl\u00e4rt die zugrundeliegenden mathematischen Funktionen der dynamischen Komponenten und beschreibt deren generelle Einsetzbarkeit zur dynamischen Simulation spikebasierter Neuronaler Netzwerke. - Kapitel 4 enth\u00e4lt ein speziell entworfenes Modell des auditorischen Hirnstammes beginnend mit den Filterkaskaden zur Simulation des Innenohres, sich fortsetzend \u00fcber mehr als 200 Zellen und 400 Synapsen in 5 auditorischen Kernen bis zum Richtungssensor im Bereich des auditorischen Mittelhirns. Es stellt die verwendeten Strukturen und Parameter vor und enth\u00e4lt grundlegende Hinweise zur Nutzung der Simulationsumgebung. - Kapitel 5 besteht aus drei Abschnitten, wobei der erste Abschnitt die Experimentalbedingungen und Ergebnisse der eigens durchgef\u00fchrten Tierversuche beschreibt. Der zweite Abschnitt stellt die Ergebnisse von 104 Modellversuchen zur Simulationen psycho-akustischer Effekte dar, welche u.a. die F\u00e4higkeit des Modells zur Nachbildung des Pr\u00e4zedenz Effektes testen. Schlie\u00dflich beschreibt der letzte Abschnitt die Ergebnisse der 54 unter realen Umweltbedingungen durchgef\u00fchrten Experimente. Dabei kamen Signale zur Anwendung, welche in normalen sowie besonders stark verhallten R\u00e4umen aufgezeichnet wurden. - Kapitel 6 vergleicht diese Ergebnisse mit anderen biologisch motivierten und technischen Verfahren zur Echounterdr\u00fcckung und Schallquellenlokalisation und f\u00fchrt den aktuellen Status der Hardwareimplementierung ein. - Kapitel 7 enth\u00e4lt schlie\u00dflich eine kurze Zusammenfassung und einen Ausblick auf weitere Forschungsobjekte und geplante Aktivit\u00e4ten.Diese Arbeit m\u00f6chte zur Entwicklung der Computational Neuroscience beitragen, indem sie versucht, in einem speziellen Anwendungsfeld die L\u00fccke zwischen biologischen Erkenntnissen, rechentechnischen Modellen und Hardware Engineering zu schlie\u00dfen. Sie empfiehlt ein neues r\u00e4umlich-zeitliches Paradigma der dynamischen Informationsverarbeitung zur Erschlie\u00dfung biologischer Prinzipien der Informationsverarbeitung f\u00fcr technische Anwendungen.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129669806"
+                }
+            ],
+            "creator": "gnd:128715316",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4176198-4"
+                },
+                {
+                    "@id": "gnd:4179371-7"
+                },
+                {
+                    "@id": "gnd:4172896-8"
+                },
+                {
+                    "@id": "gnd:4529621-2"
+                },
+                {
+                    "@id": "gnd:4150994-8"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/374819165.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A664427138",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (Online-Ressource)",
+            "contributor": "B\u00f6cker, Joachim",
+            "creator": "Mathapati, Shashidhar",
+            "identifier": [
+                "(ppn)664427138",
+                "(firstid)GBV:664427138"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)621.46",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "FPGA-Based High Performance AC Drives",
+            "abstract": "Moderne Stromrichter in Standard- und Servoantrieben werden \u00fcberwiegend mit einem digitalen System gesteuert und geregelt, das aus zwei Prozessoren besteht: Zum Einen aus dem so genannten Mikrokontroller (MC), der die Kommunikation mit der Umgebung \u00fcbernimmt, und zum Anderen aus dem digitalen Signalprozessor (DSP), der f\u00fcr die schnellen Regelschleifen f\u00fcr Strom oder Drehmoment zust\u00e4ndig ist. Beide Prozessoren tauschen sich Daten \u00fcber gemeinsame Speicherbereiche, das so genannte Memory-Mapping, aus. F\u00fcr die Regelung eines Antriebs sind die aktuellen Werte des Stromes und der Rotorposition des Motors notwendig. Um diese Informationen zu erhalten, ist eine Anbindung von Analog-Digital-Wandlern (ADCs) \u00fcber ein geeignetes Interface an den DSP wichtig. Dies wird meist mit diskreten ICs realisiert. Dabei werden die ADCs als externe Bausteine \u00fcber eine serielle Kommunikation mit dem DSP verbunden.Entwickler in der Antriebstechnik w\u00fcrden dieses System gerne f\u00fcr Jahre unver\u00e4ndert lassen. Ver\u00e4nderungen oder Aktualisierungen in den externen Bausteinen zwingen den Entwickler jedoch zur Anpassung der Steuerungshardware. Diese Modifikationen k\u00f6nnen durch die Verwendung von programmierbaren Logikbausteinen, wie z.B. PLDs, realisiert werden. Diese PLDs haben einen eingeschr\u00e4nkten Umfang an Flexibilit\u00e4t und Funktion. In der letzten Zeit sind die Kosten programmierbarer Bausteine drastisch gesunken, w\u00e4hrend deren Funktionsdichte enorm zugenommen hat. Diese beiden Faktoren er\u00f6ffnen f\u00fcr den Systemdesigner die M\u00f6glichkeit, \u00fcber die beschriebenen Logikbausteine hinaus den Weg f\u00fcr die Einf\u00fchrung von FPGAs f\u00fcr die Regelung von Antriebssystemen zu ebnen. Die Motivation dieser Arbeit ist die Untersuchung der optimalen Ausnutzung von FPGA zur L\u00f6sung offener Fragestellungen in der Antriebsregelung.. - The state-of-the-art inverter used in standard and servo AC drives has a control system with two processors. One of them is a microcontroller (MC), whose main job is to accomplish communication with the external world and the other is a DSP (digital signal processor) core, responsible to carry out faster current-control or torque loop. These two processors are memory-mapped for easy exchange of data. To accomplish control, current and rotor position of the motor are necessary to be acquired. To get these information for processing in the DSP, analog-to-digital converters (ADCs) and their associated interface for communication are essential. The interfaces are usually implemented using discrete ICs. The data converters (ADCs) are also external to the DSP; interfaced using serial communication. Design engineers in drives industry like to keep the system untouched for years, but unfortunately, modifications or upgrades in these discrete components or products push the engineers to modify their system. In order to accomplish these hardware modifications, the interfaces can be realized using re-programmable logic chips such as PLDs (programmable logic device). However, PLDs have a very limited range of flexibility and logic capabilities. The cost of the reprogrammable logic has reduced drastically in this decade and along with it the density of logic functions on chip has increased tremendously. These two factors helped the design engineers to think beyond these small interface logic circuits resulting in FPGA entering the field of drive controls. In the near future it is highly probable that FPGAs become the heart of inverter platform to run the control algorithms. The motivation for this thesis is based on utilizing the potential capabilities of FPGA optimally to address the open issues of drive control.",
+            "alternative": "FPGA-basierte Drehstromantriebe hoher Leistungsf\u00e4higkeit",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

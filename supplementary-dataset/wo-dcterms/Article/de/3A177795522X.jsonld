@@ -1,0 +1,139 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:124255647",
+            "sameAs": "Jasperneite, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:137847467",
+            "sameAs": "Gensior, Albrecht"
+        },
+        {
+            "@id": "gnd:143911511",
+            "sameAs": "Flatt, Holger"
+        },
+        {
+            "@id": "gnd:4003957-2",
+            "sameAs": "Automation"
+        },
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4031888-6",
+            "sameAs": "Kommunikationstechnik"
+        },
+        {
+            "@id": "gnd:4161609-1",
+            "sameAs": "Industrieelektronik"
+        },
+        {
+            "@id": "gnd:4208537-8",
+            "sameAs": "Netzwerktopologie"
+        },
+        {
+            "@id": "gnd:4210346-0",
+            "sameAs": "Feldbus"
+        },
+        {
+            "@id": "gnd:4340829-1",
+            "sameAs": "Steuerungssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A177795522X",
+            "@type": "bibo:Article",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Mackensen, Ingo",
+                "Schriegel, Sebastian",
+                "Westerkamp, Jan F."
+            ],
+            "identifier": [
+                "(firstid)KXP:177795522X",
+                "(ppn)177795522X",
+                "(doi)10.25673/39592"
+            ],
+            "publisher": "Institut f\u00fcr Automation und Kommunikation e.V. Magdeburg, An-Institut der Otto-von-Guericke-Universit\u00e4t Magdeburg",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106419595)53.70 - Nachrichtentechnik, Kommunikationstechnik: Allgemeines",
+                "(classificationName=ddc)629.895",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Ethernet-basierte Ultra-Hochgeschwindigkeitskommunikation f\u00fcr eine Regelung dezentraler Einspeiseumrichter von Windenergieanlagen",
+            "abstract": "In diesem Beitrag wird eine Ethernet-Ultra-Hochgeschwindigkeitskommunikation vorgestellt, welche auf der Nutzung von GBit-Ethernet-PHYs in Verbindung mit einer FPGA-Protokollverarbeitung basiert. Hierzu wurde ein mit IEEE 802-Standards kompatibles Protokoll entwickelt, welches es dem Empf\u00e4nger erm\u00f6glicht, Daten bereits vor dem vollst\u00e4ndigen Empfang eines Paketes zu nutzen. Die Protokollverarbeitung wurde vollst\u00e4ndig in Hardware umgesetzt, welche alle Verarbeitungsschritte zwischen der GBit-Schnittstelle des PHYs und der systeminternen Datenschnittstelle vornimmt. Im Rahmen einer Fallstudie wurde ein FPGA-basierter Systemaufbau zur quantitativen Ermittlung der Kommunikationseigenschaften umgesetzt. In jedem Zyklus sendet dabei eine Zentralsteuerung Echtzeitdaten zur Ansteuerung von IGBT-Umrichter-Br\u00fccken und empf\u00e4ngt jeweils Strommesswerte. F\u00fcr die in der Anwendung relevanten Mengen an zu \u00fcbertragenden Echtzeitdaten wurden an dem Aufbau Endezu- Ende-Latenzen in der Gr\u00f6\u00dfenordnung < 1 \u03bcs sowie ein Jitter < 50 ns gemessen. Aufgrund der Protokollverarbeitung repr\u00e4sentieren diese Werte die Kommunikationseigenschaften zwischen den sp\u00e4teren Applikationen, welche in der Steuerung und den verteilten IGBT-Umrichterbr\u00fccken ausgef\u00fchrt werden.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:137847467",
+                "gnd:143911511",
+                "gnd:124255647"
+            ],
+            "extent": "8",
+            "isPartOf": [
+                "(isbn13)9783948749101",
+                "(ppn)1777658276"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4208537-8",
+                "gnd:4210346-0",
+                "gnd:4031888-6",
+                "gnd:4161609-1",
+                "gnd:4006684-8",
+                "gnd:4340829-1",
+                "gnd:4003957-2"
+            ],
+            "isLike": "doi:10.25673/39592",
+            "P30128": "Kommunikation in der Automation (KommA 2021)",
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "extent": "http://purl.org/dc/terms/extent",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

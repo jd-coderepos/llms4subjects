@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:115850724",
-            "sameAs": "Haedrich, Günther"
+            "sameAs": "Haedrich, G\u00fcnther"
         },
         {
             "@id": "gnd:119478145",
@@ -49,7 +49,9 @@
                 "Tourismuswirtschaft",
                 "(classificationName=ssg)14",
                 "Tourism",
-                "Tourismusökonomie",
+                "Tourismus\u00f6konomie",
+                "(classificationName=ddc)910.68",
+                "(classificationName=ddc)338.4/791",
                 "(classificationName=bk, id=106416634)85.99 - Betriebswirtschaft: Sonstiges",
                 "(classificationName=linseach:mapping)spo",
                 "(classificationName=bk, id=106420909)76.60 - Erholung, Tourismus: Allgemeines",
@@ -64,7 +66,7 @@
                 "(classificationName=loksys-fbw)oek 6905"
             ],
             "title": "Tourismus-Management : Tourismus-Marketing und Fremdenverkehrsplanung",
-            "abstract": "Das Buch bietet einen umfassenden Überblick über: 1. Grundlagen und Rahmenbedingungen 2. Instrumente und Methoden der Tourismus- und Fremdenverkehrsforschung 3. Planungsinstrumentarien 4. Ziele und Aufgaben touristischer Leistungsträger 5. Fallbeispiele aus der Praxis 6. Aus- und Fortbildungsmöglichkeiten an Fachhochschulen und Universitäten.",
+            "abstract": "Das Buch bietet einen umfassenden \u00dcberblick \u00fcber: 1. Grundlagen und Rahmenbedingungen 2. Instrumente und Methoden der Tourismus- und Fremdenverkehrsforschung 3. Planungsinstrumentarien 4. Ziele und Aufgaben touristischer Leistungstr\u00e4ger 5. Fallbeispiele aus der Praxis 6. Aus- und Fortbildungsm\u00f6glichkeiten an Fachhochschulen und Universit\u00e4ten.",
             "contributor": [
                 "gnd:119478145",
                 "gnd:170650626",
@@ -81,17 +83,13 @@
                 "gnd:4037278-9",
                 "gnd:4037589-4"
             ],
-            "tableOfContents": [
-                "http://d-nb.info/952875608/04",
-                "http://www.gbv.de/dms/hebis-darmstadt/toc/55894690.pdf"
-            ],
+            "tableOfContents": "http://www.gbv.de/dms/hebis-darmstadt/toc/55894690.pdf",
             "P60163": "Berlin"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "title": "http://purl.org/dc/elements/1.1/title",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
@@ -113,6 +111,7 @@
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

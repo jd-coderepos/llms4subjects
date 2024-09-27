@@ -1,0 +1,75 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:122498909",
+            "sameAs": "Scheideler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A784020213",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Pruhs, Kirk",
+            "creator": "Kling, Peter",
+            "identifier": [
+                "(ppn)784020213",
+                "(firstid)HBZ:CT004001069"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=ddc-dbn)000"
+            ],
+            "title": "Energy-efficient scheduling algorithms",
+            "abstract": "Diese Dissertation besch\u00e4ftigt sich mit dem Entwurf und der Analyse energieeffizienter Schedulingalgorithmen, insbesondere f\u00fcr sogenannte Speed-Scaling Modelle. Diese stellen das theoretische Pendant zu Techniken wie AMDs PowerNOW! und Intels SpeedStep dar, welche es erlauben die Geschwindigkeit von Prozessoren zur Laufzeit an die derzeitigen Bedingungen anzupassen. Theoretische Untersuchungen solcher Modelle sind auf eine Arbeit von Yao, Demers und Shenker [FOCS:1995] zur\u00fcckzuf\u00fchren. Hier kombinieren die Autoren klassisches Deadline-Scheduling mit einem Prozessor der Speed-Scaling beherrscht. Es gilt Jobs verschiedener Gr\u00f6\u00dfe fristgerecht abzuarbeiten und die dabei verwendete Energie zu minimieren. Der Energieverbrauch des Prozessors wird durch eine konvexe Funktion P:\\mathbb{R}_{\\geq0}\\to\\mathbb{R}_{\\geq0} modelliert, welche die Geschwindigkeit auf den Energieverbrauch abbildet. Die vorliegende Arbeit betrachtet verschiedene Varianten des urspr\u00fcnglichen Speed-Scaling Modells. Forschungsrelevante Ergebnisse sind in den Kapiteln 3 bis 6 zu finden und erstrecken sich \u00fcber die im Folgenden beschriebenen Aspekte: (a) Kapitel 3 und 4 betrachten verschiedene Price-Collecting Varianten des Originalproblems. Hier d\u00fcrfen einzelne Deadlines verfehlt werden, sofern eine jobabh\u00e4ngige Strafe gezahlt wird. (b) In Kapitel 5 wird statt des klassischen Deadline-Schedulings eine Linearkombination der durchschnittlichen Antwortzeit und des Energieverbrauchs betrachtet. (c) Das letzte Kapitel betrachtet ein Resource-Constrained Scheduling Modell, in dem sich die Prozessoren zusammen eine gemeinsame, beliebig aufteilbare Ressource teilen.. - This thesis studies the design and quality of energy-efficient scheduling algorithms, especially with respect to speed scaling. Speed scaling finds practical application in techniques like Intel's SpeedStep and AMD's PowerNOW, which allow a processor to change its speed during runtime. This way, it may use low, energy-efficient speeds during the majority of time and only enter a less energy-efficient mode when the workload becomes too high to guarantee a sufficient quality of service. Theoretical investigations of such models were initiated by Yao, Demers, and Shenker [FOCS:1995]. They combined deadline scheduling with speed scaling, striving to schedule all jobs while minimizing the total energy consumption.The results presented in this thesis align with the rich body of literature on variants of this model. The main results are presented in four parts (Chapters 3 to 6). Parts one and two study different price-collecting variants of the original problem, where the scheduler may miss deadlines if it pays a job-specific penalty. Part three replaces the deadline constraints by the flow time objective. The last part introduces a new type of resource constrained scheduling. While it does not directly consider energy, it might be a first step towards a theoretical model where the energy source is shared between several processors.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122498909"
+                },
+                {
+                    "@id": "gnd:110026063"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1691682306",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Mutzel, Petra",
+                "Rauh, Daniel"
+            ],
+            "creator": "Brinkjost, Tobias",
+            "identifier": [
+                "(firstid)DNB:1205156798",
+                "(ppn)1691682306"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek Dortmund",
+            "subject": [
+                "(classificationName=ddc)572.63",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)4"
+            ],
+            "title": "Seconds first! : A thesis dedicated to secondary structure elements",
+            "abstract": "The visualization of a protein is hardly imaginable without secondary structure elements (SSEs). But SSEs play a by far more important role in the field of chemical biology, apart from the creation of fancy protein images. They are essential in structure-based analyses due to their impact on secondary structure prediction and structural protein alignment. However, their proper classification is a challenging issue. There are more than 30 tools available that underline the subjective character of the classification of SSEs. But only two tools have dominated this field of research for decades. Why is that? What are the advantages of hydrogen bond-based methods, despite the fact that they are often unable to assign left-handed helices, PPI-helices, or bent structures? We have developed SCOT, a novel multipurpose software that incorporates the benefits of a multitude of approaches for the classification of helices, strands, and turns in proteins. To our knowledge, it is the very first method that not only captures a variety of rare and basic SSEs (rightand left-handed a-, 310-, 2.27-, plus right-handed p-helices, PPII helices, and b-sheets) in protein structures, but also their irregularities in a single step, and provides proper output and visualization options. SCOT combines the benefits of geometry-based and hydrogen bond-based methods by using hydrogen bond and geometric information to gain insights into the structural space of proteins. Its dual character enables robust classifications of SSEs without major influence on the geometric regularity of the assigned SSEs. In consequence, it is perfectly suited to automatically assign SSEs for subsequent helix- and strand-based protein alignments with methods such as LOCK2. This is especially supported by our elaborate kink detection. All of these benefits are clearly demonstrated by our results. Together with the easy to use visualization of assignments by the means of PyMOL scripts, SCOT enables a comprehensive analysis of regular backbone geometries in protein structures. The high number of available secondary structure assignment methods (SSAMs) hampers a straight forward selection of the most suitable one for a certain application. In addition, relying on the most frequently cited tool must not necessarily result in an optimal choice. Thus, we have developed SNOT to fill the gap of a tool that provides a multitude of objective and rational criteria for the comparison and evaluation of different SSAMs. It provides exhaustive information on geometrical parameters, residue statistics, the consistency with respect to protein flexibility and quality, SSE overlaps and sequence coverage, and the consent of two classifications. We used SNOT to compare SCOT to DSSP, STRIDE, ASSP, SEGNO, DISICL, and SHAFT. The results point toward SCOT's unique features as a solitary multipurpose SSAM with optimal performance for numerous challenges: the support of commonly observed and rare SSEs, the comprehensive assignment of turn types, the elaborate kink detection, the geometric consistency of the SSEs, the robustness with respect to structure quality and protein flexibility, and its superior suitability for SSE-based protein structure alignments. Our analyses of alternative p- and PPII-helix assignments indicate challenges which we try to address with our methodology. There are also hints toward a correlation between the SSEs of a protein and its function. Koch and Waldmann proposed that similar arrangements of SSEs in the neighborhood of a ligand binding site (ligand-sensing cores) can recognize similar scaffolds in disregard of the overall fold. We have developed SLOT to discover these unrevealed similarities which are solely based on SSEs. Its graph-based methodology is able to mimic the geometry of SSEs by using a flexible multi-point representation instead of a straight vector. These points are used to capture the geometry of a protein, i.e., the arrangement of SSEs, in distance matrices. This unique representation enables the comparison of protein structures regardless of their SSEs' directions or SSE sequence. An optimized algorithm to determine the MCS of two given graphs is used to calculate their structural similarity and to ensure fast runtimes. What sets SLOT further apart from its 40 competitors is that it can be used with any external secondary structure classification. Our exhaustive evaluation highlights the benefits of SCOT for the use with SLOT and also covers our optimizations of the comparison algorithm. It additionally questions the applicability of the concept of ligand-sensing cores. In the end, SCOT, SNOT, and SLOT were the beacons on our journey to answer the question: Are there similar ligand-sensing cores or undiscovered structural similarities solely based on SSEs?",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)GBV-BASE-ODISS",
+                "(collectioncode)GBV-ODiss"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Dortmund"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

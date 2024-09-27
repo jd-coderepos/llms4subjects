@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:118642499",
-            "sameAs": "Stalin, Josif Vissarionovič 1878-1953"
+            "sameAs": "Stalin, Josif Vissarionovi\u010d 1878-1953"
         },
         {
             "@id": "gnd:120664437",
@@ -21,49 +21,43 @@
             "@type": "bibo:Book",
             "P1053": "395 S.",
             "identifier": [
-                "(doi)10.1524/9783486711738",
-                "(firstid)BSZ:362331774",
                 "(isbn13)9783486582550",
-                "(ppn)1651357811"
+                "(firstid)BSZ:362331774",
+                "(ppn)1651357811",
+                "(doi)10.1524/9783486711738"
             ],
             "publisher": "Oldenbourg Wissenschaftsverlag GmbH",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=loc)DD",
+                "(classificationName=rvk)NQ 1430",
+                "Geschichte 1928-1933",
                 "HISTORY / General",
+                "(classificationName=bk, id=106418025)89.15 - Kommunismus",
                 "(classificationName=bk, id=181569701)15.43 - Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
+                "(classificationName=linseach:mapping)his",
                 "(classificationName=loc)DD251",
                 "(classificationName=linseach:mapping)sow",
-                "(classificationName=linseach:mapping)his",
-                "(classificationName=ddc)324.24307509043",
-                "Geschichte 1928-1933",
-                "(classificationName=bk, id=106418025)89.15 - Kommunismus",
-                "(classificationName=rvk)NQ 1430"
+                "(classificationName=loc)DD",
+                "(classificationName=ddc)324.24307509043"
             ],
             "title": "In Stalins Gefolgschaft : Moskau und die KPD 1928-1933",
-            "abstract": "Bislang galten die deutschen Kommunisten der Weimarer Republik als gehorsame Befehlsempfänger Moskaus, die peinlich darauf bedacht waren, nicht von der Linie der Komintern abzuweichen. Dass die Beziehungen zwischen KPD und Komintern jedoch sehr viel widersprüchlicher und komplexer waren, zeigt nun Bert Hoppe auf der Basis von jüngst zugänglich gewordenen Dokumenten aus osteuropäischen Archiven.",
+            "abstract": "Bislang galten die deutschen Kommunisten der Weimarer Republik als gehorsame Befehlsempf\u00e4nger Moskaus, die peinlich darauf bedacht waren, nicht von der Linie der Komintern abzuweichen. Dass die Beziehungen zwischen KPD und Komintern jedoch sehr viel widerspr\u00fcchlicher und komplexer waren, zeigt nun Bert Hoppe auf der Basis von j\u00fcngst zug\u00e4nglich gewordenen Dokumenten aus osteurop\u00e4ischen Archiven.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:120664437",
             "isPartOf": [
-                "(collectioncode)ZDB-23-DGG",
-                "(collectioncode)PDA2HUM",
+                "(collectioncode)ZDB-23-OGS",
+                "(collectioncode)ZDB-23-GOA",
                 "(collectioncode)GBV-deGruyter-alles",
                 "(collectioncode)ZDB-23-GHI",
-                "(collectioncode)PDA11SSHE",
-                "(collectioncode)ZDB-23-GBA",
-                "(collectioncode)ZDB-23-GOA",
-                "(collectioncode)PDA1ALL",
-                "(collectioncode)PDA16SSH",
-                "(collectioncode)ZDB-23-OGS",
-                "(collectioncode)PDA14ALL",
-                "(collectioncode)PDA5EBK"
+                "(collectioncode)ZDB-23-DGG",
+                "(collectioncode)ZDB-23-GBA"
             ],
             "issued": "2007",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "open access",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
-                "gnd:118642499",
                 "gnd:2016052-5",
+                "gnd:118642499",
                 "gnd:4948-7"
             ],
             "volume": "74",
@@ -75,38 +69,38 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "abstract": "http://purl.org/dc/terms/abstract",
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
-            "@type": "@id"
-        },
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "issued": "http://purl.org/dc/terms/issued",
-        "language": {
-            "@id": "http://purl.org/dc/terms/language",
-            "@type": "@id"
-        },
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "creator": {
-            "@id": "http://purl.org/dc/terms/creator",
-            "@type": "@id"
-        },
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "volume": "http://purl.org/ontology/bibo/volume",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "contributor": "http://purl.org/dc/terms/contributor",
-        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

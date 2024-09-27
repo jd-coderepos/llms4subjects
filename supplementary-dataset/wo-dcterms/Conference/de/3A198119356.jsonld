@@ -13,6 +13,10 @@
             "sameAs": "Stadt"
         },
         {
+            "@id": "gnd:5028175-6",
+            "sameAs": "Deutsches Institut f\u00fcr Urbanistik"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A198119356",
             "@type": "bibo:Conference",
             "P1053": "181 Seiten",
@@ -22,15 +26,16 @@
                 "(isbn)3881182098",
                 "(ppn)198119356"
             ],
-            "publisher": "Deutsches Inst. für Urbanistik",
+            "publisher": "Deutsches Inst. f\u00fcr Urbanistik",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=bk, id=106411039)74.72 - Stadtplanung, kommunale Planung",
                 "(classificationName=linseach:mapping)arc"
             ],
-            "title": "Die Zukunft des Dienstleistungssektors in der Stadt : Dokumentation eines Workshops im Rahmen des Projekts \"Entscheidungsfelder städtischer Zukunft\" am 22. und 23. Juni 1995 in Mannheim",
-            "abstract": "Dienstleistungen haben für die Volkswirtschaft eine kontinuierlich wachsende Bedeutung. Dies ist an allen relevanten Indikatoren wie  Beschäftigung, Wertschöpfung oder Umsätzen ablesbar. Aus der Analyse der längerfristigen Strukturverschiebungen zwischen den Sektoren und Funktionen kann auf eine Stabilität der Trends geschlossen werden. Auch für die Zukunft ist daher mit weiteren Anteilsverschiebungen zugunsten von Dienstleistungen und zu Lasten der Produktion zu rechnen. Trotz der Entwicklungen und Perspektiven hat der Dienstleistungsbereich in der Wirtschafts- und Regionalforschung oder in der kommunalen Wirtschaftspolitik  und -förderung bislang nicht annähernd vergleichbare Aufmerksamkeit gefunden wie der produzierende  Bereich. Vor diesem Hintergrund veranstaltete das Deutsche Institut für Urbanistik einen Workshop im Rahmen des Projekts \"Entscheidungsfelder städtischer Zukunft\", das als eine Serie von Workshops konzipiert ist und Themenfelder behandelt, die für die Stadtentwicklung von zentraler Bedeutung sind.  Die Veröffentlichung enthält die Vorträge des Workshops sowie Ergebnisse und Schlußfolgerungen.",
+            "title": "Die Zukunft des Dienstleistungssektors in der Stadt : Dokumentation eines Workshops im Rahmen des Projekts \"Entscheidungsfelder st\u00e4dtischer Zukunft\" am 22. und 23. Juni 1995 in Mannheim",
+            "abstract": "Dienstleistungen haben f\u00fcr die Volkswirtschaft eine kontinuierlich wachsende Bedeutung. Dies ist an allen relevanten Indikatoren wie  Besch\u00e4ftigung, Wertsch\u00f6pfung oder Ums\u00e4tzen ablesbar. Aus der Analyse der l\u00e4ngerfristigen Strukturverschiebungen zwischen den Sektoren und Funktionen kann auf eine Stabilit\u00e4t der Trends geschlossen werden. Auch f\u00fcr die Zukunft ist daher mit weiteren Anteilsverschiebungen zugunsten von Dienstleistungen und zu Lasten der Produktion zu rechnen. Trotz der Entwicklungen und Perspektiven hat der Dienstleistungsbereich in der Wirtschafts- und Regionalforschung oder in der kommunalen Wirtschaftspolitik  und -f\u00f6rderung bislang nicht ann\u00e4hernd vergleichbare Aufmerksamkeit gefunden wie der produzierende  Bereich. Vor diesem Hintergrund veranstaltete das Deutsche Institut f\u00fcr Urbanistik einen Workshop im Rahmen des Projekts \"Entscheidungsfelder st\u00e4dtischer Zukunft\", das als eine Serie von Workshops konzipiert ist und Themenfelder behandelt, die f\u00fcr die Stadtentwicklung von zentraler Bedeutung sind.  Die Ver\u00f6ffentlichung enth\u00e4lt die Vortr\u00e4ge des Workshops sowie Ergebnisse und Schlu\u00dffolgerungen.",
             "contributor": "gnd:136362435",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:5028175-6",
             "issued": "1996",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -41,12 +46,13 @@
             ],
             "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/198119356.pdf",
             "volume": "1/96",
-            "P30128": "Materialien / Deutsches Institut für Urbanistik",
+            "P30128": "Materialien / Deutsches Institut f\u00fcr Urbanistik",
             "P60163": "Berlin"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -75,7 +81,10 @@
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

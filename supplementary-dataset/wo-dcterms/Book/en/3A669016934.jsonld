@@ -1,6 +1,14 @@
 {
     "@graph": [
         {
+            "@id": "gnd:102798102X",
+            "sameAs": "Heinosaari, Teiko"
+        },
+        {
+            "@id": "gnd:1027981429",
+            "sameAs": "Ziman, M\u00e1rio"
+        },
+        {
             "@id": "gnd:4155620-3",
             "sameAs": "Mathematische Methode"
         },
@@ -11,14 +19,10 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A669016934",
             "@type": "bibo:Book",
-            "P1053": "XII, 327 S.",
-            "creator": [
-                "Heinosaari, Teiko",
-                "Ziman, Mário"
-            ],
+            "P1053": "XII, 327 Seiten",
             "description": [
                 "26 cm",
-                "Ill., graph. Darst."
+                "Illustrationen, graphische Darstellungen"
             ],
             "identifier": [
                 "(isbn)0521195837",
@@ -52,6 +56,10 @@
                 "\"For almost every student of physics, the first course on quantum theory raises a lot of puzzling questions and creates a very uncertain picture of the quantum world. This book presents a clear and detailed exposition of the fundamental concepts of quantum theory: states, effects, observables, channels and instruments. It introduces several up-to-date topics, such as state discrimination, quantum tomography, measurement disturbance and entanglement distillation. A separate chapter is devoted to quantum entanglement. The theory is illustrated with numerous examples, reflecting recent developments in the field. The treatment emphasises quantum information, though its general approach makes it a useful resource for graduate students and researchers in all subfields of quantum theory. Focusing on mathematically precise formulations, the book summarises the relevant mathematics\"--"
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1027981429",
+                "gnd:102798102X"
+            ],
             "issued": "2012",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -71,9 +79,7 @@
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "issued": "http://purl.org/dc/terms/issued",
         "license": "http://purl.org/dc/terms/license",
@@ -83,11 +89,16 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "description": "http://purl.org/dc/elements/1.1/description",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

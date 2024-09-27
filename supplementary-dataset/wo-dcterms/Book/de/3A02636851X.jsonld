@@ -19,8 +19,12 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A02636851X",
             "@type": "bibo:Book",
-            "P1053": "125 S",
-            "description": "Ill",
+            "P1053": "125 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "K\u00f6gler, Walter",
+                "Schmid, Thomas"
+            ],
+            "description": "Illustrationen",
             "identifier": [
                 "(isbn)3803121892",
                 "(ppn)02636851X",
@@ -31,7 +35,7 @@
                 "Mord",
                 "Sofri, Adriano",
                 "(classificationName=dbn)19",
-                "(classificationName=bk, id=181569671)15.38 - Europäische Geschichte nach 1945",
+                "(classificationName=bk, id=181569671)15.38 - Europ\u00e4ische Geschichte nach 1945",
                 "(classificationName=dbn)63",
                 "Politischer Mord",
                 "(classificationName=linseach:mapping)his",
@@ -39,12 +43,9 @@
                 "Geschichte 1990",
                 "(classificationName=rvk)NQ 8200"
             ],
-            "title": "Der Richter und der Historiker : Überlegungen zum Fall Sofri ; Aus d. Ital. übers.",
-            "abstract": "Carlo Ginzburg: \"Der Richter und der Historiker\". Überlegungen zum Fall Sofri. Aus dem Italienischen von Walter Kögler. Verlag Klaus Wagenbach, Berlin 1991. 128 S., kt., 16,80 DM",
-            "alternative": [
-                "Il giudice e lo storico &lt;dt&gt;",
-                "Il giudice e lo storico &lt;dt.&gt;"
-            ],
+            "title": "Der Richter und der Historiker : \u00dcberlegungen zum Fall Sofri",
+            "abstract": "Carlo Ginzburg: \"Der Richter und der Historiker\". \u00dcberlegungen zum Fall Sofri. Aus dem Italienischen von Walter K\u00f6gler. Verlag Klaus Wagenbach, Berlin 1991. 128 S., kt., 16,80 DM",
+            "alternative": "Il giudice e lo storico",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:12096967X",
             "issued": "1991",
@@ -68,16 +69,16 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "title": "http://purl.org/dc/elements/1.1/title",
         "contributor": "http://purl.org/dc/terms/contributor",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
@@ -87,10 +88,10 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "alternative": "http://purl.org/dc/terms/alternative",
         "issued": "http://purl.org/dc/terms/issued",
-        "volume": "http://purl.org/ontology/bibo/volume",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "abstract": "http://purl.org/dc/terms/abstract",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",

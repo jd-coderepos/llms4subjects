@@ -22,7 +22,7 @@
         },
         {
             "@id": "gnd:4385390-0",
-            "sameAs": "Unitäre Matrix"
+            "sameAs": "Unit\u00e4re Matrix"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1823001831",
@@ -30,28 +30,29 @@
             "P1053": "xii, 138 Seiten",
             "description": "Illustrationen",
             "identifier": [
-                "(doi)10.1017/9781009261692",
-                "(ppn)1823001831",
+                "(isbn13)9781009261685",
                 "(firstid)KXP:1823001831",
-                "(isbn13)9781009261685"
+                "(doi)10.1017/9781009261692",
+                "(ppn)1823001831"
             ],
             "publisher": "Cambridge University Press",
             "http://purl.org/dc/elements/1.1/subject": [
-                "Discrete mathematics",
                 "(classificationName=msc)60-01",
-                "(classificationName=loc)QA166",
-                "Matrices",
-                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
-                "(classificationName=bk, id=106418963)31.12 - Kombinatorik, Graphentheorie",
-                "Algorithms",
-                "(classificationName=msc)05C80",
-                "(classificationName=msc)05-01",
+                "(classificationName=ddc)511/.5",
                 "Graph theory",
                 "Quantum computing",
-                "(classificationName=linseach:mapping)mat"
+                "(classificationName=msc)05C80",
+                "(classificationName=linseach:mapping)mat",
+                "Algorithms",
+                "Matrices",
+                "(classificationName=msc)05-01",
+                "(classificationName=bk, id=106418963)31.12 - Kombinatorik, Graphentheorie",
+                "(classificationName=loc)QA166",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "Discrete mathematics"
             ],
             "title": "Discrete quantum walks on graphs and digraphs",
-            "abstract": "\"Discrete quantum walks are quantum analogues of classical random walks. They are an important tool in quantum computing and a number of algorithms can be viewed as discrete quantum walks, in particular Grover&apos;s search algorithm. These walks are constructed on an underlying graph, and so there is a relation between properties of walks and properties of the graph. This book studies the mathematical problems that arise from this connection, and the different classes of walks that arise. Written at a level suitable for graduate students in mathematics, the only prerequisites are linear algebra and basic graph theory; no prior knowledge of physics is required. The text serves as an introduction to this important and rapidly developing area for mathematicians and as a detailed reference for computer scientists and physicists working on quantum information theory\"--",
+            "abstract": "\"Discrete quantum walks are quantum analogues of classical random walks. They are an important tool in quantum computing and a number of algorithms can be viewed as discrete quantum walks, in particular Grover's search algorithm. These walks are constructed on an underlying graph, and so there is a relation between properties of walks and properties of the graph. This book studies the mathematical problems that arise from this connection, and the different classes of walks that arise. Written at a level suitable for graduate students in mathematics, the only prerequisites are linear algebra and basic graph theory; no prior knowledge of physics is required. The text serves as an introduction to this important and rapidly developing area for mathematicians and as a detailed reference for computer scientists and physicists working on quantum information theory\"--",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": [
                 "gnd:122991893",
@@ -63,10 +64,10 @@
             "medium": "rda:termList/RDACarrierType/1044",
             "relation": "https://zbmath.org/7609830",
             "subject": [
-                "gnd:4385390-0",
                 "gnd:1292255005",
                 "gnd:4156815-1",
-                "gnd:1292254513"
+                "gnd:1292254513",
+                "gnd:4385390-0"
             ],
             "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1823001831.pdf",
             "volume": "484",
@@ -78,40 +79,40 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "medium": {
-            "@id": "http://purl.org/dc/terms/medium",
-            "@type": "@id"
-        },
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "language": {
-            "@id": "http://purl.org/dc/terms/language",
-            "@type": "@id"
-        },
-        "isLike": {
-            "@id": "http://umbel.org/umbel#isLike",
-            "@type": "@id"
-        },
-        "relation": "http://purl.org/dc/terms/relation",
-        "description": "http://purl.org/dc/elements/1.1/description",
-        "contributor": "http://purl.org/dc/terms/contributor",
-        "volume": "http://purl.org/ontology/bibo/volume",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "issued": "http://purl.org/dc/terms/issued",
-        "license": "http://purl.org/dc/terms/license",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
-        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "relation": "http://purl.org/dc/terms/relation",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

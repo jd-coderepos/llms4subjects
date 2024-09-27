@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042154953",
+            "sameAs": "Merdon, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1016067100",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (29 Seiten, 855 KB)",
+            "creator": [
+                "Sch\u00f6berl, Joachim",
+                "Lederer, Philip Lukas"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:1016067100",
+                "(ppn)1016067100",
+                "(doi)10.20347/WIAS.PREPRINT.2462"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS) Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Refined a posteriori error estimation for classical and pressure-robust Stokes finite element methods",
+            "abstract": "Recent works showed that pressure-robust modifications of mixed finite element methods for the Stokes equations outperform their standard versions in many cases. This is achieved by divergence-free reconstruction operators and results in pressure-independent velocity error estimates which are robust with respect to small viscosities. In this paper we develop a posteriori error control which reflects this robustness. The main difficulty lies in the volume contribution of the standard residual-based approach that includes the L2-norm of the right-hand side. However, the velocity is only steered by the divergence-free part of this source term. An efficient error estimator must approximate this divergence-free part in a proper manner, otherwise it can be dominated by the pressure error. To overcome this difficulty a novel approach is suggested that uses arguments from the stream function and vorticity formulation of the Navier\u2013Stokes equations. The novel error estimators only take the curl of the righthand side into account and so lead to provably reliable, efficient and pressure-independent upper bounds in case of a pressure-robust method in particular in pressure-dominant situations. This is also confirmed by some numerical examples with the novel pressure-robust modifications of the Taylor\u2013Hood and mini finite element methods.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1042154953"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2462",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2462",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

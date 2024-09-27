@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027072291",
+            "sameAs": "Werner, Herbert"
+        },
+        {
+            "@id": "gnd:1060116596",
+            "sameAs": "Pfeiffer, Sven"
+        },
+        {
+            "@id": "gnd:16058694-X",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Regelungstechnik"
+        },
+        {
+            "@id": "gnd:173178995",
+            "sameAs": "Lichtenberg, Gerwald"
+        },
+        {
+            "@id": "gnd:2067664-5",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A798130717",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: II, 146 S., 16671 KB)",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)798130717",
+                "(firstid)GBV:798130717"
+            ],
+            "subject": [
+                "DESY",
+                "iterative learning control",
+                "European XFEL",
+                "(classificationName=linseach:mapping)tec",
+                "FLASH",
+                "(classificationName=ddc-dbn)620",
+                "iterativ lernende Regelung",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Symmetric grey box identification and distributed beam-based controller design for free-electron lasers",
+            "abstract": [
+                "Der Europ\u00e4ische R\u00f6ntgenlaser XFEL des Deutschen Elektronen Synchrotron (DESY) in Hamburg ist eine R\u00f6ntgenquelle zur Erzeugung ultrakurzer Laserlichtblitze. Diese wird ab dem Jahr 2015 einzigartige Forschungsm\u00f6glichkeiten er\u00f6ffnen. Elektronen werden in Paketen mittels eines Hochfrequenzfeldes bis zu einer Energie von 17.5 GeV beschleunigt. Anschlie\u00dfend senden die Elektronenpakete laserartig geb\u00fcndelte Strahlung aus, indem diese durch eine besondere Magnetanordnung auf einen Slalomkurs gezwungen werden. Die Regelung der Ankunftszeit und Dichte der Elektronenpakete und dementsprechend die Erzeugung abstands- und intensit\u00e4tsgleicher R\u00f6ntgenlaserblitze erfordert die Kombination einer hochpr\u00e4zisen Regelung des Hochfrequenzfeldes innerhalb der supraleitenden Hohlraumresonatoren mit zus\u00e4tzlichen Strahlinformationen. FLASH, der als Pilotanlage des XFEL betrachtet werden kann, erm\u00f6glicht es die notwendigen Regelungskonzepte bereits vor der Fertigstellung des XFEL zu testen. Im Rahmen dieser Arbeit wird gezeigt, dass die Kombination des physikalischen Verhaltens der einzelnen Komponenten innerhalb der Regelungsschleife einer speziellen orthogonalen Gruppe (SO(2)) gehorcht. Basierend auf der Modellierung des Gesamtsystems wird gezeigt, wie das System mittels eines SO(2) symmetrischen modellbasierten Ansatzes in allen Frequenzbereichen identifiziert werden kann. Die Beschleunigungsmodule werden im gepulsten Modus betrieben, welches die Identifikation des Systems lediglich in einem kleinen Zeitintervall erm\u00f6glicht. Das daraufhin entwickelte symmetrische Regelungskonzept erf\u00fcllt die Anforderungen an eine hochpr\u00e4zise Regelung des Hochfrequenzfeldes. Wiederkehrende Feldfehler von Puls zu Puls werden minimiert, indem ein iterativ lernender Algorithmus die Vorsteuerung der Beschleunigungsmodule anpasst. Dieser Algorithmus konnte durch die Ausnutzung des SO(2) symmetrischen Systemverhaltens und mittels einer Tensor Darstellung vereinfacht werden. Um die geforderte Intensit\u00e4t des Laserlichts zu erzielen, werden magnetische Schikanen zur longitudinalen Kompression der Elektronenpakete eingesetzt. Abh\u00e4ngig von der Energieverteilung innerhalb eines Elektronenpaketes, legen die Elektronen einen unterschiedlich langen Weg innerhalb dieser Schikane zur\u00fcck. Demzufolge f\u00fchrt eine Elektronenenergieanpassung vor einer Schikane zu der M\u00f6glichkeit die Ankunftszeit und Kompression der Elektronen zu regeln. Es wird gezeigt, dass die Vereinigung der strahlbasierten Messdaten mit dem Hochfrequenzfeld zu einer Verbesserung der Ankunftszeit und Kompression der Elektronenpakete f\u00fchrt. Durch diese Energiemodulation ist es notwendig die Endenergie der Elektronenpakete anzupassen. Ein verteiltes Regelungskonzept wurde entwickelt, welche es erm\u00f6glicht diese Energievariationen modellbasiert mittels der Kommunikation benachbarter Regelungsmodule zu minimieren. Die gezeigten Ergebnisse und Messungen wurden am FLASH durchgef\u00fchrt. Die verwendete Hardware am FLASH ist w\u00e4hrend der Entstehung dieser Arbeit weiterentwickelt worden. Parallel wurde die Umsetzbarkeit der entwickelten Konzepte unter Verwendung der neuen Hardware experimentell anhand von Messdaten und in Simulationen validiert.",
+                "The European X-ray Free-Electron Laser (XFEL) at the Deutsches Elektronen Synchtrotron (DESY) in Hamburg will, starting in 2015, open up completely new research opportunities for scientist and industrial users by exploiting ultrashort X-ray laser pulses. Bunches of electrons are accelerated by a radio frequency field inside superconducting cavities up to an energy of 17.5 GeV. A periodic arrangement of magnets forces the accelerated electrons onto a tight slalom path leading to a process in that the electrons emit extremely short and intense X-ray flashes. The generation of equidistant X-ray flashes with a constant intensity requires an extremely high precision field control in combination with beam-based signals. FLASH, which can be seen as a pilot test facility, allows to develop and test controller concepts even before the European XFEL is in operation. In this thesis it is shown that a physical white box model structure, which describes the behavior of each subsystem within the radio frequency field control loop, obeys as first-order approximation the special orthogonal group of dimension two (SO(2)). Presented is a grey box identification approach, which combines the physical model structure with general identification methods. The accelerator modules are operated in a pulsed mode. Thus, the excitation of the system and therefore the identification of the input-output behavior is only possible within a short time period. Developed is an adaptive identification approach with a specified SO(2) symmetric model structure. The proposed controller design strategy fulfills the requirements of a high precision field performance. Adapting the feedforward signal by using an iterative learning control (ILC) algorithm reduces remaining repetitive field errors from pulse to pulse. It is shown, that exploiting the SO(2) symmetric structure and using the developed tensor based ILC representation simplifies the feedforward update computation. Magnetic chicanes, so-called bunch compressors, are used for a longitudinal compression of the electron bunches. Depending on the beam energy distribution, the electrons travel on different trajectories through the bunch compressor. This allows to control the mean beam energy and energy distribution to minimize the bunch arrival time and bunch compression error at the expense of a non-constant beam energy. Besides controlling the latter beam-based signals, a distributed control scheme is presented which minimizes beam energy variations by an information exchange with neighboring controller modules, leading to an improvement of the beam energy performance. The presented results were achieved and measurements were carried out at FLASH. Further important plant upgrades for the XFEL project are a completely new hardware platform, providing a higher sampling rate and measurement precision. The proposed system identification and controller approaches have been validated experimentally and in simulation for both hardware platforms."
+            ],
+            "alternative": "Symmetrische Grey Box Identifikation und verteiltes strahlbasiertes Reglerdesign f\u00fcr Freie-Elektronen-Laser",
+            "contributor": [
+                "gnd:1027072291",
+                "gnd:173178995"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:16058694-X",
+                "gnd:1060116596",
+                "gnd:2067664-5"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

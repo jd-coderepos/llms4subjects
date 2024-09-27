@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:133830780",
+            "sameAs": "Bender, Christian"
+        },
+        {
+            "@id": "gnd:171608402",
+            "sameAs": "Schoenmakers, John"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A503926647",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (19 Seiten, 250 kB)",
+            "http://purl.org/dc/elements/1.1/creator": "Kolodko, Anastasia",
+            "identifier": [
+                "(firstid)GBV:503926647",
+                "(ppn)503926647"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=ddc)332.6322101518282",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Enhanced policy iteration for American options via scenario selection",
+            "abstract": "In Kolodko & Schoenmakers (2004) and Bender & Schoenmakers (2004) a policy iteration was introduced which allows to achieve tight lower approximations of the price for early exercise options via a nested Monte-Carlo simulation in a Markovian setting. In this paper we enhance the algorithm by a scenario selection method. It is demonstrated by numerical examples that the scenario selection can significantly reduce the number of actually performed inner simulations, and thus can heavily speed up the method (up to factor 10 in some examples). Moreover, it is shown that the modified algorithm retains the desirable properties of the original one such as the monotone improvement property, termination after a finite number of iteration steps, and numerical stability.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:133830780",
+                "gnd:171608402",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1071",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

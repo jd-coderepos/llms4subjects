@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749207906",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (152p)",
+            "creator": "Tseng, Ping-Sheng",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4613-1559-9",
+                "(ppn)749207906",
+                "(isbn13)9781461315599",
+                "(firstid)GBV:749207906"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "Microprocessors.",
+                "(classificationName=ddc)004.1",
+                "(classificationName=ddc)004.22",
+                "(classificationName=loc)TK7895.M5",
+                "Computer science",
+                "Signal processing.",
+                "Computer architecture.",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "A Systolic Array Parallelizing Compiler",
+            "abstract": [
+                "1 Introduction -- 2 Systolic array programming -- 2.1 The Warp machine -- 2.2 The W2 programming language -- 2.3 The AL programming language -- 2.4 Related work -- 3 Data relations -- 3.1 Linear data relations -- 3.2 Joint data compatibility classes -- 3.3 Scope of data compatibility classes -- 3.4 Summary -- 4 Loop Distribution -- 4.1 Intercell communication -- 4.2 The basic loop distribution scheme -- 4.3 Distributed loop parallelism -- 4.4 Optimization -- 4.5 Related work -- 5 Implementation -- 5.1 External interface -- 5.2 Compiling DO* loops -- 5.3 The ALIGN* statement -- 5.4 Parallel accumulation -- 5.5 Program debugging -- 6 Evaluation -- 6.1 Matrix computations -- 6.2 2D Fast Fourier Transform -- 6.3 Partial differential equation solvers -- 6.4 Summary -- 7 Conclusions -- A Linear data relations in Livermore Loops -- B Benchmark programs -- B.1 LU decomposition -- B.1.1 Single cell -- B.1.2 Multiple cells -- B.2 QR decomposition -- B.2.1 Single cell -- B.2.2 Multiple cells -- B.3 Singular value decomposition -- B.3.1 Single cell -- B.3.2 Multiple cell -- B.4 2D Fast Fourier Transform -- B.4.1 Single cell -- B.4.2 Multiple cell -- B.5 Partial differential equation solvers -- B.5.1 SOR -- B.5.2 Line SOR -- B.5.3 Two-color SOR.",
+                "Widespread use of parallel processing will become a reality only if the process of porting applications to parallel computers can be largely automated. Usually it is straightforward for a user to determine how an application can be mapped onto a parallel machine; however, the actual development of parallel code, if done by hand, is typically difficult and time consuming. Parallelizing compilers, which can gen\u00ad erate parallel code automatically, are therefore a key technology for parallel processing. In this book, Ping-Sheng Tseng describes a parallelizing compiler for systolic arrays, called AL. Although parallelizing compilers are quite common for shared-memory parallel machines, the AL compiler is one of the first working parallelizing compilers for distributed\u00ad memory machines, of which systolic arrays are a special case. The AL compiler takes advantage of the fine grain and high bandwidth interprocessor communication capabilities in a systolic architecture to generate efficient parallel code. xii Foreword While capable of handling an important class of applications, AL is not intended to be a general-purpose parallelizing compiler."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "106",
+            "isLike": "doi:10.1007/978-1-4613-1559-9",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, High Performance Computing Systems, Networks and Algorithms",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

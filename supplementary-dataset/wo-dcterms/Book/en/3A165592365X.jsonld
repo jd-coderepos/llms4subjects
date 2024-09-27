@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1037417348",
+            "sameAs": "Kitagawa, Genshiro"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A165592365X",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (IX, 119 p. 77 illus., 14 illus. in color, online resource)",
+            "http://purl.org/dc/elements/1.1/contributor": "Peng, Hui",
+            "creator": "Ohtsu, Kohei",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)165592365X",
+                "(isbn13)9784431553038",
+                "(doi)10.1007/978-4-431-55303-8",
+                "(firstid)BSZ:429157827"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=loc)QA276-280",
+                "(classificationName=ddc)519.5",
+                "Mathematical statistics",
+                "Statistics"
+            ],
+            "title": "Time Series Modeling for Analysis and Control : Advanced Autopilot and Monitoring Systems",
+            "abstract": [
+                "Ch1 Introduction (1.1 Necessity of Statistical Modeling for Complex, Large Systems -- 1.2 Model of Ship Motion and Main Engine -- 1.3 Experimental Ships and Outline of Topics Discussed in Remaining Chapters) -- Ch2 Time Series Analysis through AR Modeling (2.1 Univariate Time Series Analysis through AR Modeling -- 2.2 Analysis of Ship Motion through Univariate AR Modeling -- 2.3 Multivariate AR Modeling of Controlled Systems -- 2.4 Power Contribution Analysis of a Feedback System -- 2.5 State-Space Model and Kalman Filter -- 2.6 Piecewise Stationary Modeling -- 2.7 Model-Based Monitoring System -- 2.8 RBF-ARX Modeling for a Nonlinear System) -- Ch3 Design of a Model-Based Autopilot System for Course Keeping Motion (3.1 Statistical Optimal Controller Based on the ARX Model -- 3.2 AR Model-Based Autopilot System -- 3.3 Rudder-Roll Control System -- 3.4 Application to the Marine Main Engine Governor System) -- Ch4 Advanced Autopilot Systems (4.1 Noise-Adaptive Autopilot System -- 4.2 RBF-ARX Model-Based Predictive Control -- 4.3 GPS Signal-Based Computation of a Ship\u2019s Tracking Error and Course Deviation -- 4.4 Tracking Control Approach to Marine Vehicles)",
+                "This book presents multivariate time series methods for the analysis and optimal control of feedback systems. Although ships\u2019 autopilot systems are considered through the entire book, the methods set forth in this book can be applied to many other complicated, large, or noisy feedback control systems for which it is difficult to derive a model of the entire system based on theory in that subject area. The basic models used in this method are the multivariate autoregressive model with exogenous variables (ARX) model and the radial bases function net-type coefficients ARX model. The noise contribution analysis can then be performed through the estimated autoregressive (AR) model and various types of autopilot systems can be designed through the state-space representation of the models. The marine autopilot systems addressed in this book include optimal controllers for course-keeping motion, rolling reduction controllers with rudder motion, engine governor controllers, noise adaptive autopilots, route-tracking controllers by direct steering, and the reference course-setting approach. The methods presented here are exemplified with real data analysis and experiments on real ships. This book is highly recommended to readers who are interested in designing optimal or adaptive controllers not only of ships but also of any other complicated systems under noisy disturbance conditions"
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1037417348"
+                }
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-4-431-55303-8",
+            "P30128": [
+                "SpringerBriefs in Statistics",
+                "JSS Research Series in Statistics",
+                "SpringerLink",
+                "B\u00fccher"
+            ],
+            "P60163": "Tokyo [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

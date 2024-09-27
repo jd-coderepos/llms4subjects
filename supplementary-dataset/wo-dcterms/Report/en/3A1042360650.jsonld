@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1042360650",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (24 Seiten, 3.569 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "Stemper, Benjamin",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2547",
+                "(ppn)1042360650",
+                "(firstid)GBV:1042360650"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Deep calibration of rough stochastic volatility models",
+            "abstract": "Sparked by Al\u00f2s, Le\u00f3n und Vives (2007); Fukasawa (2011, 2017); Gatheral, Jaisson und Rosenbaum (2018), so-called rough stochastic volatility models such as the rough Bergomi model by Bayer, Friz und Gatheral (2016) constitute the latest evolution in option price modeling. Unlike standard bivariate diffusion models such as Heston (1993), these non-Markovian models with fractional volatility drivers allow to parsimoniously recover key stylized facts of market implied volatility surfaces such as the exploding power-law behaviour of the at-the-money volatility skew as time to maturity goes to zero. Standard model calibration routines rely on the repetitive evaluation of the map from model parameters to Black-Scholes implied volatility, rendering calibration of many (rough) stochastic volatility models prohibitively expensive since there the map can often only be approximated by costly Monte Carlo (MC) simulations (Bennedsen, Lunde & Pakkanen, 2017; McCrickerd & Pakkanen, 2018; Bayer et al., 2016; Horvath, Jacquier & Muguruza, 2017). As a remedy, we propose to combine a standard Levenberg-Marquardt calibration routine with neural network regression, replacing expensive MC simulations with cheap forward runs of a neural network trained to approximate the implied volatility map. Numerical experiments confirm the high accuracy and speed of our approach.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1017122695",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2547",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2547",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

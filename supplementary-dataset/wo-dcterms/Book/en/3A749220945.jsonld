@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749220945",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (224p)",
+            "http://purl.org/dc/elements/1.1/contributor": "Newton, A. Richard",
+            "creator": "Saleh, Resve A.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(ppn)749220945",
+                "(isbn13)9781461306955",
+                "(firstid)GBV:749220945",
+                "(doi)10.1007/978-1-4613-0695-5"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer engineering",
+                "Computer-aided engineering.",
+                "Engineering",
+                "(classificationName=linseach:mapping)elt",
+                "Systems engineering",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=loc)TK7888.4",
+                "Electronic circuits.",
+                "(classificationName=ddc)621.3815",
+                "Electrical engineering.",
+                "Computer aided design"
+            ],
+            "title": "Mixed-Mode Simulation",
+            "abstract": [
+                "Our purpose in writing this book was two-fold. First, we wanted to compile a chronology of the research in the field of mixed-mode simulation over the last ten to fifteen years. A substantial amount of work was done during this period of time but most of it was published in archival form in Masters theses and Ph. D. dissertations. Since the interest in mixed-mode simulation is growing, and a thorough review of the state-of-the-art in the area was not readily available, we thought it appropriate to publish the information in the form of a book. Secondly, we wanted to provide enough information to the reader so that a proto\u00ad type mixed-mode simulator could be developed using the algorithms in this book. The SPLICE family of programs is based on the algorithms and techniques described in this book and so it can also serve as docu\u00ad mentation for these programs. ACKNOWLEDGEMENTS The authors would like to dedicate this book to Prof. D. O. Peder\u00ad son for inspiring this research work and for providing many years of support and encouragement The authors enjoyed many fruitful discus\u00ad sions and collaborations with Jim Kleckner, Young Kim, Alberto Sangiovanni-Vincentelli, and Jacob White, and we thank them for their contributions. We also thank the countless others who participated in the research work and read early versions of this book. Lillian Beck provided many useful suggestions to improve the manuscript. Yun\u00ad cheng Ju did the artwork for the illustrations.",
+                "1. Introduction to Mixed-Mode Simulation -- 1.1 The Simulation Problem -- 1.2 Levels of Simulation -- 1.3 Mixed-Mode Simulation -- 1.4 Outline of Book -- 2. Electrical Simulation Techniques -- 2.1 Equation Formulation -- 2.2 Standard Techniques for Transient Analysis -- 2.3 Time-Step Control: Theoretical Issues -- 2.4 Time-Step Control: Implementation Issues -- 3. Relaxation-Based Simulation Techniques -- 3.1 Latency and Multirate Behavior -- 3.2 Overview of Relaxation Methods -- 4. Iterated Timing Analysis -- 4.1 Equation Flow for Nonlinear Relaxation -- 4.2 Timing Analysis Algorithms -- 4.3 Splice 1.7 - Fixed Time-Step ITA -- 4.4 iSplice3.1 - Global-Variable Time-Step ITA -- 4.5 Electrical Events and Event Scheduling -- 5. Gate-Level Simulation -- 5.1 Introduction -- 5.2 Evolution of Logic States -- 5.3 Characterization of Switching Properties -- 5.4 Logic Switching Delay Models -- 5.5 Logic Simulation Algorithm -- 6. Switch-Level Timing Simulation -- 6.1 Introduction -- 6.2 Switch-Level Simulation -- 6.3 A Generalization of the Nine-State Logic Model -- 6.4 Simulation Using the Generalized Model -- 6.5 A Survey of Switch-Level Timing Simulators -- 6.6 The Mixed-Mode Interface -- 7. Implementation of Mixed-Mode Simulation -- 7.1 Simulator Architecture -- 7.2 Event Scheduler Design -- 7.3 Transient Analysis and Event Scheduling -- 7.4 DC Analysis techniques -- 7.5 Mixed-Mode Simulation Examples -- 8. Conclusions and Future Work -- 8.1 Summary -- 8.2 Areas of Future Work -- 8.3 Conclusions -- References -- About the Authors."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "98",
+            "isLike": "doi:10.1007/978-1-4613-0695-5",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

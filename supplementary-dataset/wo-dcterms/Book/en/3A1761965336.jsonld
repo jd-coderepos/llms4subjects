@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129498645",
+            "sameAs": "Rothstein, Jesse"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1761965336",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Feller, Avi",
+                "Ben-Michael, Eli"
+            ],
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "illustrations (black and white)"
+            ],
+            "identifier": [
+                "(doi)10.3386/w28885",
+                "(ppn)1761965336",
+                "(firstid)KEP:066778336"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Kansas",
+                "(classificationName=linseach:automatic)mat",
+                "Kausalanalyse",
+                "Steuerpolitik",
+                "Panel",
+                "Wirkungsanalyse",
+                "Querschnittsanalyse",
+                "Kontrolltheorie"
+            ],
+            "title": "The Augmented Synthetic Control Method",
+            "abstract": "The synthetic control method (SCM) is a popular approach for estimating the impact of a treatment on a single unit in panel data settings. The \"synthetic control\" is a weighted average of control units that balances the treated unit's pre-treatment outcomes and other covariates as closely as possible. A critical feature of the original proposal is to use SCM only when the fit on pre-treatment outcomes is excellent. We propose Augmented SCM as an extension of SCM to settings where such pre-treatment fit is infeasible. Analogous to bias correction for inexact matching, Augmented SCM uses an outcome model to estimate the bias due to imperfect pre-treatment fit and then de-biases the original SCM estimate. Our main proposal, which uses ridge regression as the outcome model, directly controls pre-treatment fit while minimizing extrapolation from the convex hull. This estimator can also be expressed as a solution to a modified synthetic controls problem that allows negative weights on some donor units. We bound the estimation error of this approach under different data generating processes, including a linear factor model, and show how regularization helps to avoid over-fitting to noise. We demonstrate gains from Augmented SCM with extensive simulation studies and apply this framework to estimate the impact of the 2012 Kansas tax cuts on economic growth. We implement the proposed method in the new augsynth R package",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:129498645",
+                "gnd:39157-8"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w28885",
+            "isLike": "doi:10.3386/w28885",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

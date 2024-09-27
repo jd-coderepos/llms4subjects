@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:124380158",
+            "sameAs": "Schimank, Uwe"
+        },
+        {
             "@id": "gnd:4014904-3",
             "sameAs": "Entscheidung"
         },
@@ -10,7 +14,7 @@
         },
         {
             "@id": "gnd:4048507-9",
-            "sameAs": "Rationalität"
+            "sameAs": "Rationalit\u00e4t"
         },
         {
             "@id": "gnd:4055916-6",
@@ -19,11 +23,11 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1809127173",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(XV, 161 S. 3 Abb.)",
-            "creator": "Schimank, Uwe",
+            "P1053": "1 Online-Ressource (XV, 161 Seiten)",
             "description": [
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
-                "Erworben aus Studienqualitätsmitteln"
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Illustrationen, Diagramme"
             ],
             "identifier": [
                 "(doi)10.1007/978-3-658-37196-8",
@@ -31,19 +35,20 @@
                 "(firstid)KEP:079176151",
                 "(isbn13)9783658371968"
             ],
-            "publisher": "Springer Fachmedien Wiesbaden",
+            "publisher": "Springer VS",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc)301.01",
                 "(classificationName=rvk)MS 1290",
                 "Sociology.",
                 "(classificationName=linseach:mapping)sow"
             ],
-            "title": "Entscheiden : Ein soziologisches Brevier",
+            "title": "Entscheiden : ein soziologisches Brevier",
             "abstract": [
-                "Das Buch arbeitet eine soziologische Perspektive auf Entscheiden heraus, die anhand vielfältiger Beispiele illustriert wird. Es vermittelt insbesondere Leserinnen und Lesern, die komplexe Entscheidungen treffen wollen oder müssen, mögliche Vorgehensweisen. Der Autor Dr. Uwe Schimank ist Professor am Institut für Soziologie der Universität Bremen.",
-                "Entscheidungssituationen -- Entscheiden -- Rationalität -- Komplexität -- Komplexitätsprofile -- Praktiken des Entscheidens -- Perfekt rationales Entscheiden -- Begrenzt rationales Entscheiden -- Inkrementalismus -- Planung -- Coping -- Reflexives Entscheiden."
+                "Das Buch arbeitet eine soziologische Perspektive auf Entscheiden heraus, die anhand vielf\u00e4ltiger Beispiele illustriert wird. Es vermittelt insbesondere Leserinnen und Lesern, die komplexe Entscheidungen treffen wollen oder m\u00fcssen, m\u00f6gliche Vorgehensweisen. Der Autor Dr. Uwe Schimank ist Professor am Institut f\u00fcr Soziologie der Universit\u00e4t Bremen.",
+                "Entscheidungssituationen -- Entscheiden -- Rationalit\u00e4t -- Komplexit\u00e4t -- Komplexit\u00e4tsprofile -- Praktiken des Entscheidens -- Perfekt rationales Entscheiden -- Begrenzt rationales Entscheiden -- Inkrementalismus -- Planung -- Coping -- Reflexives Entscheiden."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:124380158",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SEB",
                 "(collectioncode)ZDB-2-SZR"
@@ -74,11 +79,15 @@
         "description": "http://purl.org/dc/elements/1.1/description",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "abstract": "http://purl.org/dc/terms/abstract",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "issued": "http://purl.org/dc/terms/issued",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "contributor": "http://purl.org/dc/terms/contributor",
@@ -86,7 +95,6 @@
         "license": "http://purl.org/dc/terms/license",
         "title": "http://purl.org/dc/elements/1.1/title",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

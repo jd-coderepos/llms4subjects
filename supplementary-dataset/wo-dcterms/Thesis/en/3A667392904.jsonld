@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118605895",
+            "sameAs": "Sauter, Tobias"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A667392904",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (154 S., 90,41 MB)",
+            "identifier": [
+                "(firstid)HBZ:HT016937104",
+                "(ppn)667392904"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc)a",
+                "(classificationName=ssg)14",
+                "(classificationName=ddc-dbn)a",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=bk, id=106411284)38.03 - Methoden und Techniken der Geowissenschaften",
+                "(classificationName=rvk)RB 10183"
+            ],
+            "title": "Application, optimization and uncertainty estimation of global nonlinear nonparametric prediction algorithms : case studies in physical geography",
+            "abstract": "This thesis addresses important aspects in model development and evaluation of nonlinear non-parametric data-driven hydrological and climatological prediction models. Limitations and caveats of data-driven algorithms are discussed using two test cases. Astatic neural network is developed to forecast the runoff of a meso-scale, partly glaciated, alpine catchment area in the southernmost Andes in Patagonia. With an example of snowcover prediction in the Black Forest mountain range issues of stability and error propagation of dynamical neural networks are discussed. Results are evaluated and compared to simple linear methods. Such algorithms are extremely efficient even if knowledge of underlying processes is missing. Since no phenomenological meaning can be assigned to internal model parameters it is difficult to make causal inferences on the predictors. To overcome this issue we propose to estimate different sources of uncertainty in the model input by a global sensitivity analysis. This approach captures the interaction effects in the predictor set which is in particular an important characteristic of nonlinear systems. Based on this knowledge irrelevant predictors can be pruned, thus effectively reducing the number of predictors for more parsimonious models. Further a novel predictor optimization algorithm for precipitation downscaling which allows for nonlinearities in the screening process is presented. The algorithm optimizes both, the predictors and their corresponding domains by self-organizing maps and a simulated annealing algorithm. Due to the nonlinear screening data-driven algorithms significantly improve the ability to capture complex spatio-temporal structures.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118605895",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

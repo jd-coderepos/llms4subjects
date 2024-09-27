@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:141526319",
+            "sameAs": "Willems, Paul"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A631362606",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (247 S., 1,25 MB)",
+            "identifier": [
+                "(ppn)631362606",
+                "(firstid)DNB:1002687853"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004",
+                "(classificationName=ssg)17,1"
+            ],
+            "title": "On MR 3 -type algorithms for the tridiagonal symmetric eigenproblem and the bidiagonal SVD",
+            "abstract": "The thesis \"On MRRR-type Algorithms for the Tridiagonal Symmetric Eigenproblem and the Bidiagonal SVD\" concerns new and improved approaches to compute eigendecompositions of symmetric tridiagonal matrices (problem TSEP) and singular value decompositions of bidiagonal matrices (BSVD). These two intimately related tasks lie at the core of numerical linear algebra, since they represent the respective hardest subtasks to be solved by the standard algorithm to compute eigen-/singular-systems of general dense matrices. The tool that lies in the main focus of this thesis is the algorithm of \"Multiple Relatively Robust Representations (MRRR)\" by Inderjit Dhillon and Beresford Parlett. In a first part the algorithm and its accompanying theory are presented in a revised and modularized, framework-driven form, based on which a series of improvements to the core algorithm itself are developed. The second, and central, part of this thesis concerns how algorithm MRRR can be harnessed to solve BSVD. Building on previous work by Benedikt Gro\u00dfer and Bruno Lang, a rigid body of theory is developed on which three more contributions rest: a better understanding why the so called \"black-box\" approaches cannot work, a rigorous error analysis of the coupling-based algorithm by Gro\u00dfer and Lang, and last but not least a new solution approach using the Golub-Kahan matrix. The third part of the thesis introduces a new algorithm to shift symmetric tridiagonal matrices given in block-factored form with mixed componentwise relative stability. The latter is crucial to allow using the method within MRRR in the first place ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:141526319",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,6 +1,18 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1029721114",
+            "sameAs": "Knobloch, Phillip D. Th."
+        },
+        {
+            "@id": "gnd:1042549192",
+            "sameAs": "Drerup, Johannes"
+        },
+        {
+            "@id": "gnd:1276351321",
+            "sameAs": "Dip\u00e7in, Dilek"
+        },
+        {
             "@id": "gnd:4069466-5",
             "sameAs": "Bildungsreise"
         },
@@ -15,15 +27,11 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1801276781",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(VIII, 256 S. 18 Abb., 17 Abb. in Farbe.)",
-            "contributor": [
-                "Drerup, Johannes",
-                "Knobloch, Phillip D. Th",
-                "Dipcin, Dilek"
-            ],
+            "P1053": "1 Online-Ressource (VIII, 256 Seiten)",
             "description": [
-                "Erworben aus Studienqualitätsmitteln",
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Illustrationen",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
             ],
             "identifier": [
                 "(isbn13)9783662633748",
@@ -31,20 +39,31 @@
                 "(doi)10.1007/978-3-662-63374-8",
                 "(firstid)KEP:077810716"
             ],
-            "publisher": "Springer Berlin Heidelberg",
+            "publisher": "J.B. Metzler",
             "http://purl.org/dc/elements/1.1/subject": [
-                "Education—Philosophy.",
+                "Education\u2014Philosophy.",
                 "Environmental education.",
                 "(classificationName=ddc)370.1",
                 "(classificationName=linseach:mapping)phi",
                 "(classificationName=rvk)CC 3900"
             ],
-            "title": "On the Beaten Track : Zur Theorie der Bildungsreise im Zeitalter des Massentourismus",
+            "title": "On the beaten track : zur Theorie der Bildungsreise im Zeitalter des Massentourismus",
             "abstract": [
                 "Teil I: Historische Perspektiven -- Teil II: Theoretische und empirische Perspektiven -- Teil III: Alternative Perspektiven.",
-                "Wir leben in einer Welt der ausgetretenen Pfade. Es gibt kaum einen Ort auf diesem Planeten, der nicht in ein Objekt und Produkt möglicher touristischer Erfahrung transformiert wurde. Im modernen Massentourismus spiegeln sich wie in einem Brennglas die Ambivalenzen, Paradoxien und Widersprüche (post-)moderner Formen der individuellen und kollektiven Lebensführung und Selbstverständigung. Dies gilt auch für die in diesem Band diskutierten Zusammenhänge zwischen Reisen und Bildung, die nicht zu trennen sind von Formen der sozialen Distinktion, von Hierarchisierungen und von Macht und Politik."
+                "Wir leben in einer Welt der ausgetretenen Pfade. Es gibt kaum einen Ort auf diesem Planeten, der nicht in ein Objekt und Produkt m\u00f6glicher touristischer Erfahrung transformiert wurde. Im modernen Massentourismus spiegeln sich wie in einem Brennglas die Ambivalenzen, Paradoxien und Widerspr\u00fcche (post-)moderner Formen der individuellen und kollektiven Lebensf\u00fchrung und Selbstverst\u00e4ndigung. Dies gilt auch f\u00fcr die in diesem Band diskutierten Zusammenh\u00e4nge zwischen Reisen und Bildung, die nicht zu trennen sind von Formen der sozialen Distinktion, von Hierarchisierungen und von Macht und Politik."
             ],
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1042549192"
+                },
+                {
+                    "@id": "gnd:1276351321"
+                },
+                {
+                    "@id": "gnd:1029721114"
+                }
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-MGE",
                 "(collectioncode)ZDB-2-SEB"
@@ -61,35 +80,34 @@
             "isLike": "doi:10.1007/978-3-662-63374-8",
             "P30128": [
                 "Springer eBook Collection",
-                "Kindheit – Bildung – Erziehung. Philosophische Perspektiven"
+                "Kindheit - Bildung - Erziehung. Philosophische Perspektiven"
             ],
-            "P60163": "Berlin, Heidelberg"
+            "P60163": "Berlin"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "license": "http://purl.org/dc/terms/license",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "issued": "http://purl.org/dc/terms/issued",
         "abstract": "http://purl.org/dc/terms/abstract",
@@ -97,6 +115,7 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

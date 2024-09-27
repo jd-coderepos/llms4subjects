@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1066498008",
+            "sameAs": "Beauzamy, Bernard"
+        },
+        {
             "@id": "gnd:4020236-7",
             "sameAs": "Geometrie"
         },
@@ -16,8 +20,7 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655122320",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (X,104 pages, online resource)",
-            "creator": "Beauzamy, Bernard",
-            "description": "Campusweiter Zugriff (Universität Hannover).- Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover).- Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9783540357544",
                 "(ppn)1655122320",
@@ -35,9 +38,10 @@
                 "Mathematics",
                 "(classificationName=loc)QA1-939"
             ],
-            "title": "Espaces d&apos;Interpolation Réels: Topologie et Géométrie",
-            "abstract": "Definition Des Espaces d&apos;Interpolation -- Proprietes Topologiques Des Espaces d&apos;Interpolation -- Methodes Geometriques Pour l&apos;Etude Des Espaces d&apos;Interpolation -- Dualite Et Reiteration Du Procede d&apos;Interpolation -- Super — Proprietes Et Proprietes Metriques Des Espaces d&apos;Interpolation -- Meilleures Representations Et Proprietes Metriques Non Uniformes -- Quelques \"Defauts\" Du Procede d&apos;Interpolation.",
+            "title": "Espaces d'Interpolation R\u00e9els: Topologie et G\u00e9om\u00e9trie",
+            "abstract": "Definition Des Espaces d'Interpolation -- Proprietes Topologiques Des Espaces d'Interpolation -- Methodes Geometriques Pour l'Etude Des Espaces d'Interpolation -- Dualite Et Reiteration Du Procede d'Interpolation -- Super \u2014 Proprietes Et Proprietes Metriques Des Espaces d'Interpolation -- Meilleures Representations Et Proprietes Metriques Non Uniformes -- Quelques \"Defauts\" Du Procede d'Interpolation.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1066498008",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SXMS",
                 "(collectioncode)ZDB-1-SLN",
@@ -66,7 +70,7 @@
             "P30128": [
                 "SpringerLink",
                 "Springer eBook Collection",
-                "Bücher",
+                "B\u00fccher",
                 "Mathematics and Statistics",
                 "Lecture Notes in Mathematics"
             ],
@@ -75,12 +79,10 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "description": "http://purl.org/dc/elements/1.1/description",
         "issued": "http://purl.org/dc/terms/issued",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
@@ -95,6 +97,10 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -103,6 +109,7 @@
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "title": "http://purl.org/dc/elements/1.1/title",
         "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

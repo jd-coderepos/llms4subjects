@@ -1,0 +1,59 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A856622370",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": "Meyer auf der Heide, Friedhelm",
+            "creator": "J\u00e4hn, Claudius",
+            "identifier": [
+                "(firstid)HBZ:CT004001484",
+                "(ppn)856622370"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Bewertung von Renderingalgorithmen f\u00fcr komplexe 3-D-Szenen",
+            "abstract": "Die Effizienz von Renderingalgorithmen f\u00fcr komplexe virtuelle 3-D-Szenen h\u00e4ngt oft stark von der Position des Betrachters in der Szene ab. Die Bewertung der Algorithmeneffizienz in einer gegebenen Szene erfolgt daher typischerweise durch die Messungen entlang eines charakteristischen Kamerapfades durch die Szene. Objektive Aussagen \u00fcber das generelle Verhalten des Algorithmus sind dabei in ihrer Aussagekraft deutlich beschr\u00e4nkt. Ich stelle ein Verfahren vor, das die evaluierte Kenngr\u00f6\u00dfe von Renderingalgorithmen, wie die Renderingzeit oder Anzahl durchgef\u00fchrter Operationen, als positionsabh\u00e4ngige Szeneneigenschaft betrachtet, deren Verteilung durch adaptives Sampling f\u00fcr alle Positionen der Szene angen\u00e4hert wird. Die statistische Auswertung erlaubt einen direkten, objektiven Vergleich verschiedener Renderingalgorithmen oder Parameterwerte; ihre Visualisierung kann zum Verst\u00e4ndnis des Verhaltens von Algorithmen beitragen. Die vorgestellte Technik l\u00e4sst sich sowohl w\u00e4hrend der Entwicklung von Renderingalgorithmen als auch zur Vorbereitung von konkreten Anwendungsf\u00e4llen verwenden. Des Weiteren wird das punktbasierte Progressive-Blue-Surfels-Renderingverfahrenf\u00fcr die Darstellung hochkomplexer virtueller Szenen vorgestellt. Das Verfahren generiert sortierte Punktfolgen auf der sichtbaren Oberfl\u00e4che der Geometrie der Szene, so dass jeder Pr\u00e4fix der Folge eine gute N\u00e4herung der Geometrie darstellt und die Qualit\u00e4t und Laufzeit durch die Anzahl der dargestellten Punkte fein schrittig eingestellt werden kann. Die Techniken sind in PADrend implementiert, einem Renderingsystem, das speziell f\u00fcr den Entwurf von Renderingalgorithmen entwickelt wurde.. - The efficiency of rendering algorithms for complex virtual 3D scenes does not only dependent on the scenes overall properties, but also on the observers position inside the scene. To experimentally evaluate an algorithm, measurements are typically performed along a characteristic camera path. This allows only for a weak assessment of the algorithms general performance even for a fixed scene. I present an approach to represent aspects of an algorithms behavior, like its running time or the number of performed operations, as position dependent scene properties. The properties distribution can be approximated for all positions in the scene using an adaptive sampling technique. A distributions statistical evaluation allows for a direct and objective comparison of different algorithms and parameter values. Its visualization yields intuitive insight into the algorithms behavior. Additionally, I present the point-based Progressive Blue Surfels rendering algorithm for visualizing highly complex virtual scenes. The algorithm places a sorted sequence of points on the visible surface of the scenes geometry, so that every prefix of the points represents a complete approximation of the geometry. By choosing the rendered sequences length, image quality and running time can be adjusted at runtime. The presented techniques are implemented in PADrend, a rendering system specially designed for supporting the process of developing rendering algorithms.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

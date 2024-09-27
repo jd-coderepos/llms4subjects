@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120900963",
+            "sameAs": "M\u00fcckenheim, Jens"
+        },
+        {
+            "@id": "gnd:122008476X",
+            "sameAs": "Andryeyev, Oleksandr"
+        },
+        {
+            "@id": "gnd:130006491",
+            "sameAs": "Mitschele-Thiel, Andreas"
+        },
+        {
+            "@id": "gnd:134295390",
+            "sameAs": "Zimmermann, Armin"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4216130-7",
+            "sameAs": "Funknetz"
+        },
+        {
+            "@id": "gnd:4390818-4",
+            "sameAs": "Optimierungsproblem"
+        },
+        {
+            "@id": "gnd:4538215-3",
+            "sameAs": "Basisstation (Mobilfunk)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1743351372",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvi, 146 Seiten)",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1743351372",
+                "(ppn)1743351372"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)621.38456"
+            ],
+            "title": "Aerial base station placement in temporary-event scenarios",
+            "abstract": "Die Anforderungen an den Netzdatenverkehr sind in den letzten Jahren dramatisch gestiegen, was ein gro\u00dfes Interesse an der Entwicklung neuartiger L\u00f6sungen zur Erh\u00f6hung der Netzkapazit\u00e4t in Mobilfunknetzen erzeugt hat. Besonderes Augenmerk wurde auf das Problem der Kapazit\u00e4tsverbesserung bei tempor\u00e4ren Veranstaltungen gelegt, bei denen das Umfeld im Wesentlichen dynamisch ist. Um der Dynamik der sich ver\u00e4ndernden Umgebung gerecht zu werden und die Bodeninfrastruktur durch zus\u00e4tzliche Kapazit\u00e4t zu unterst\u00fctzen, wurde der Einsatz von Luftbasisstationen vorgeschlagen. Die Luftbasisstationen k\u00f6nnen in der N\u00e4he des Nutzers platziert werden und aufgrund der im Vergleich zur Bodeninfrastruktur h\u00f6heren Lage die Vorteile der Sichtlinienkommunikation nutzen. Dies reduziert den Pfadverlust und erm\u00f6glicht eine h\u00f6here Kanalkapazit\u00e4t. Das Optimierungsproblem der Maximierung der Netzkapazit\u00e4t durch die richtige Platzierung von Luftbasisstationen bildet einen Schwerpunkt der Arbeit. Es ist notwendig, das Optimierungsproblem rechtzeitig zu l\u00f6sen, um auf Ver\u00e4nderungen in der dynamischen Funkumgebung zu reagieren. Die optimale Platzierung von Luftbasisstationen stellt jedoch ein NP-schweres Problem dar, wodurch die L\u00f6sung nicht trivial ist. Daher besteht ein Bedarf an schnellen und skalierbaren Optimierungsalgorithmen. Als Erstes wird ein neuartiger Hybrid-Algorithmus (Projected Clustering) vorgeschlagen, der mehrere L\u00f6sungen auf der Grundlage der schnellen entfernungsbasierten Kapazit\u00e4tsapproximierung berechnet und sie auf dem genauen SINR-basierten Kapazit\u00e4tsmodell bewertet. Dabei werden suboptimale L\u00f6sungen vermieden. Als Zweites wird ein neuartiges verteiltes, selbstorganisiertes Framework (AIDA) vorgeschlagen, welches nur lokales Wissen verwendet, den Netzwerkmehraufwand verringert und die Anforderungen an die Kommunikation zwischen Luftbasisstationen lockert. Bei der Formulierung des Platzierungsproblems konnte festgestellt werden, dass Unsicherheiten in Bezug auf die Modellierung der Luft-Bodensignalausbreitung bestehen. Da dieser Aspekt im Rahmen der Analyse eine wichtige Rolle spielt, erfolgte eine Validierung moderner Luft-Bodensignalausbreitungsmodelle, indem reale Messungen gesammelt und das genaueste Modell f\u00fcr die Simulationen ausgew\u00e4hlt wurden.",
+            "contributor": [
+                "gnd:120900963",
+                "gnd:130006491",
+                "gnd:134295390"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:122008476X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4390818-4"
+                },
+                {
+                    "@id": "gnd:4216130-7"
+                },
+                {
+                    "@id": "gnd:4538215-3"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

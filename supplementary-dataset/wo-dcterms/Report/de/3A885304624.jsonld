@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1062658302",
+            "sameAs": "Romsy, Mario"
+        },
+        {
+            "@id": "gnd:2116083-1",
+            "sameAs": "Deutschland, Bundesamt f\u00fcr Sicherheit in der Informationstechnik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A885304624",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (207 Seiten, 7,79 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "M\u00fcller, Stephan",
+                "Krummeck, Gerald"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)HBZ:HT019288450",
+                "(ppn)885304624"
+            ],
+            "publisher": "Bundesamt f\u00fcr Sicherheit in der Informationstechnik",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Dokumentation und Analyse des Linux-Pseudozufallszahlengenerators : eine Studie im Auftrag des Bundesamtes f\u00fcr Sicherheit in der Informationstechnik (BSI) : BSI-Projektnummer: 966",
+            "abstract": "Die Beurteilung der Eignung und Qualit\u00e4t kryptographischer Systeme ist in Deutschland Aufgabe des Bundesamtes f\u00fcr Sicherheit in der Informationstechnik (BSI), das daher auch diese Studie des Zufallszahlengenerators von Linux in Auftrag gegeben hat. Linux wird in vielen Servern, Desktopsystemen und mobilen, eingebetten IT-Ger\u00e4ten verwendet, die in sensiblen Bereichen von Wirtschaft und Verwaltung einschlie\u00dflich der kritischen Infrastrukturen zum Einsatz kommen. Gute Zufallszahlen des LRNG sind somit eine Voraussetzung f\u00fcr die Sicherheit der Daten in Beh\u00f6rden und Unternehmen wie auch in den Endger\u00e4ten, die in den Haushalten der B\u00fcrger zum Einsatz kommen. Der Betriebssystem-Kernel Linux stellt \u00fcber die Ger\u00e4tedateien /dev/random und /dev/urandom User-Space-Programmen eine Schnittstelle zu seinem Zufallszahlengenerator (LRNG) bereit. Dessen Funktionen, Eigenschaften und Nutzung werden im Rahmen dieser Analyse untersucht. Dazu geh\u00f6ren u. a. die Entropiegewinnung (d. h. Entropiequellen und deren Ger\u00e4tetreiber), die Durchmischungs- und Ausgabefunktion des Linux-eigenen Entropiepools sowie die \u00dcbergabe an den User-Space (z. B. zu Anwendungsprogrammen). Von besonderem Interesse ist bei dieser Untersuchung neben der Untersuchung der algorithmischen Anteile des LRNG die Absch\u00e4tzung der Entropie der in den LRNG einflie\u00dfenden Rohdaten: Es soll die Frage gekl\u00e4rt werden, ob der LRNG in der Lage ist, 100 Bit Entropie zeitnah, d.h. auch nach einem Systemstart, bereitzustellen.",
+            "alternative": "Analyse des Linux-RNG",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2116083-1",
+                "gnd:1062658302"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "[Bonn]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

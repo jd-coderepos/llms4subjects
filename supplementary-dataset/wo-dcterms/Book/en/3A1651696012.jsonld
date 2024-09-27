@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1651696012",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (VIII, 47 p. 12 illus., 2 illus. in color, digital)",
+            "creator": "Tran, Duc A.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781461446361",
+                "(ppn)1651696012",
+                "(firstid)BSZ:370652673",
+                "(isbn13)9781283624374",
+                "(doi)10.1007/978-1-4614-4636-1",
+                "(isbn)1283624370"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=msc)68P15",
+                "Mathematical optimization",
+                "Mathematics",
+                "Database management",
+                "(classificationName=loc)QA402.5-402.6",
+                "(classificationName=msc)*68-02",
+                "(classificationName=msc)68P20",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)519.6"
+            ],
+            "title": "Data Storage for Social Networks : A Socially Aware Approach",
+            "abstract": [
+                "Evidenced by the success of Facebook, Twitter, and LinkedIn, online social networks (OSNs) have become ubiquitous, offering novel ways for people to access information and communicate with each other. As the increasing popularity of social networking is undeniable, scalability is an important issue for any OSN that wants to serve a large number of users. Storing user data for the entire network on a single server can quickly lead to a bottleneck, and, consequently, more servers are needed to expand storage capacity and lower data request traffic per server. Adding more servers is just one step to address scalability. The next step is to determine how best to store the data across multiple servers. This problem has been widely-studied in the literature of distributed and database systems. OSNs, however, represent a different class of data systems. When a user spends time on a social network, the data mostly requested is her own and that of her friends; e.g., in Facebook or Twitter, these data are the status updates posted by herself as well as that posted by the friends. This so-called social locality should be taken into account when determining the server locations to store these data, so that when a user issues a read request, all its relevant data can be returned quickly and efficiently. Social locality is not a design factor in traditional storage systems where data requests are always processed independently. Even for today\u2019s OSNs, social locality is not yet considered in their data partition schemes. These schemes rely on distributed hash tables (DHT), using consistent hashing to assign the users\u2019 data to the servers. The random nature of DHT leads to weak social locality which has been shown to result in poor performance under heavy request loads. Data Storage for Social Networks: A Socially Aware Approach is aimed at reviewing the current literature of data storage for online social networks and discussing new methods that take into account social awareness in designing efficient data storage.",
+                "1. Introduction (Amazon\u2019s Dynamo, Google\u2019s BigTable, Apache Cassandra).-2. Social Locality in Data Storage (Perfect vs. Imperfect Social Locality, Assumptions and Notations, Optimization Objectives, Multi-Objective Optimization) -- 3. S-PUT (Approach, Algorithm, Numerical Results, Notes) -- 4. S-CLONE (Approach, Algorithm, Numerical Results, Notes)- 5. Epilogue. \u2013References."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4614-4636-1",
+            "P30128": [
+                "B\u00fccher",
+                "SpringerBriefs in Optimization",
+                "SpringerLink"
+            ],
+            "P60163": "New York, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

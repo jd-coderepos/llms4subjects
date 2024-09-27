@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118022946",
+            "sameAs": "Heinrich, Wolfgang"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504359355",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (15 Seiten, 284,42 KB)",
+            "creator": [
+                "Tischler, Thorsten",
+                "Schlundt, Rainer",
+                "Hebermehl, Georg",
+                "H\u00fcbner, Friedrich-Karl"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:504359355",
+                "(doi)10.20347/WIAS.PREPRINT.774",
+                "(ppn)504359355"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=dbn)27"
+            ],
+            "title": "Numerical techniques in the simulation of microwave and laser structures including PML",
+            "abstract": "The properties of circuit structures can be described in terms of their scattering matrix. For the simulation of these structures, we use a Finite Difference Frequency Domain (FDFD) method in order to solve the three dimensional boundary value problem, governed by Maxwells equations. For the computation of the discrete grid equations, advanced preconditioning techniques are applied to reduce the dimension and the number of iterations solving the large-scale systems of linear algebraic equations by means of a block Krylov subspace method. The computational domain is truncated by electric or magnetic walls, open structures are treated using the Perfectly Matched Layer (PML) absorbing boundary condition. Calculating the excitation at the structures ports, one obtains an eigenvalue problem and thus large-scale systems of linear algebraic equations. The interesting modes of smallest attenuation are found solving a sequence of eigenvalue problems of modified matrices. Non-physical PML modes are detected by checking the eigenfunctions. Due to the high wavenumbers that have to be treated in optoelectronic device simulations, the number of modified eigenvalue problems as well as the dimension of the problem grows substantially in comparison to microwave structures. To reduce the execution times a coarse and a fine grid and parallelization techniques are used.",
+            "alternative": "Abweichender Titel:",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:118022946"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 774",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.774",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

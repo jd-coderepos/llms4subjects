@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749211881",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (232p)",
+            "creator": "Iannucci, Robert A.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461315438",
+                "(doi)10.1007/978-1-4613-1543-8",
+                "(ppn)749211881",
+                "(firstid)GBV:749211881"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Microprocessors.",
+                "Operating systems (Computers)",
+                "(classificationName=ddc)004.22",
+                "Compilers (Computer programs).",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7895.M5",
+                "Computer architecture.",
+                "Computer science",
+                "(classificationName=ddc)004.1"
+            ],
+            "title": "Parallel Machines: Parallel Machine Languages : The Emergence of Hybrid Dataflow Computer Architectures",
+            "abstract": [
+                "It is universally accepted today that parallel processing is here to stay but that software for parallel machines is still difficult to develop. However, there is little recognition of the fact that changes in processor architecture can significantly ease the development of software. In the seventies the availability of processors that could address a large name space directly, eliminated the problem of name management at one level and paved the way for the routine development of large programs. Similarly, today, processor architectures that can facilitate cheap synchronization and provide a global address space can simplify compiler development for parallel machines. If the cost of synchronization remains high, the pro\u00ad gramming of parallel machines will remain significantly less abstract than programming sequential machines. In this monograph Bob Iannucci presents the design and analysis of an architecture that can be a better building block for parallel machines than any von Neumann processor. There is another very interesting motivation behind this work. It is rooted in the long and venerable history of dataflow graphs as a formalism for ex\u00ad pressing parallel computation. The field has bloomed since 1974, when Dennis and Misunas proposed a truly novel architecture using dataflow graphs as the parallel machine language. The novelty and elegance of dataflow architectures has, however, also kept us from asking the real question: \"What can dataflow architectures buy us that von Neumann ar\u00ad chitectures can't?\" In the following I explain in a round about way how Bob and I arrived at this question.",
+                "One: The Problem Domain -- 1.1 Abstract Program Representation -- 1.2 Two Fundamental Issues -- 1.3 The Cost of Parallelism -- 1.4 Summary -- Two: The Importance of Processor Architecture -- 2.1 von Neumann Architectures -- 2.2 Dataflow Architectures -- 2.3 Comparison of Approaches -- 2.4 Summary -- Three: A Dataflow / von Neumann Hybrid -- 3.1 Synthesis -- 3.2 Compilation Target Model -- 3.3 Execution Models -- 3.4 Summary -- Four: Compiling for the Hybrid Architecture -- 4.1 DFPG Revisited -- 4.2 Strategic Issues for Partitioning -- 4.3 Code Generator -- 4.4 Summary -- Five: Analysis -- 5.1 Idealized Model -- 5.2 Realistic Model -- 5.3 Summary -- Six: Conclusion -- 6.1 Summary of the Present Work -- 6.2 Future Work -- 6.3 Related Work -- 6.4 Closing Remarks -- References."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "96",
+            "isLike": "doi:10.1007/978-1-4613-1543-8",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Parallel Processing and Fifth Generation Computing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130244864",
+            "sameAs": "Wernstedt, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:13329627X",
+            "sameAs": "Eichhorn, Mike"
+        },
+        {
+            "@id": "gnd:4016862-1",
+            "sameAs": "Fernsteuerung"
+        },
+        {
+            "@id": "gnd:4042803-5",
+            "sameAs": "Bahnsteuerung"
+        },
+        {
+            "@id": "gnd:4136258-5",
+            "sameAs": "Unterwasserfahrzeug"
+        },
+        {
+            "@id": "gnd:4143713-5",
+            "sameAs": "Autonomes System"
+        },
+        {
+            "@id": "gnd:4199255-6",
+            "sameAs": "Kollisionsschutz"
+        },
+        {
+            "@id": "gnd:4267628-9",
+            "sameAs": "Bahnplanung"
+        },
+        {
+            "@id": "gnd:4314334-9",
+            "sameAs": "Objekterkennung"
+        },
+        {
+            "@id": "gnd:4781185-7",
+            "sameAs": "Navigationssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A537668047",
+            "@type": "bibo:Thesis",
+            "P1053": "XIII, 172 S.",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Kuhn, Thomas",
+                "Bachmayer, Ralf"
+            ],
+            "creator": "Eichhorn, Mike-Joachim",
+            "description": [
+                "21 cm",
+                "Ill., graph. Darst."
+            ],
+            "identifier": [
+                "(firstid)GBV:537668047",
+                "(isbn13)9783185127083",
+                "(ppn)537668047"
+            ],
+            "publisher": "VDI-Verl.",
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)623.8257",
+                "(classificationName=bk, id=106413929)50.92 - Meerestechnik",
+                "(classificationName=rvk)ZQ 6230",
+                "(classificationName=rvk)ZO 6500",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=bk, id=181570424)55.24 - Fahrzeugf\u00fchrung, Fahrtechnik",
+                "(classificationName=bk, id=106419447)50.25 - Robotertechnik"
+            ],
+            "title": "Intelligentes F\u00fchrungskonzept f\u00fcr ein autonomes Unterwasserfahrzeug in Sondersituationen",
+            "abstract": "Die vorliegende Arbeit stellt ein vollst\u00e4ndiges und neues Konzept zur Fahrzeugf\u00fchrung in Sondersituationen f\u00fcr ein Autonomes Unterwasserfahrzeug vor. Eine Sondersituation ist dann gegeben, wenn w\u00e4hrend einer Mission Objekte den abzufahrenden Routenplan tangieren. Die m\u00f6glichen Handlungen bestehen im Ausweichen oder in der Identifikation dieser Objekte. Bei der Erstellung des Konzeptes gab es eine Reihe praxisrelevanter Anforderungen (Sicherheit, Robustheit, Rechenzeit, Optimalit\u00e4t) an die zu entwickelnden Verfahren und Algorithmen, die unter den hard- und softwaretechnischen Vorgaben und Arbeitsbedingungen einzuhalten waren. Solche Vorgaben umfassen das nichtholonome, verz\u00f6gerte Bewegungsverhalten des Unterwasserfahrzeuges, die Sensorik zur Bestimmung der Umwelt, die im Fahrzeug eingesetzte Rechentechnik sowie die zu verwendende Entwicklungs- und Kommunikationssoftware. Die Arbeitsbedingungen eines Unterwasserfahrzeuges sind durch ein Man\u00f6vrieren im dreidimensionalen Raum bei einer m\u00f6glichen Seestr\u00f6mung, schlechter Sicht und hohem Wasserdruck unter Einhaltung eines Sicherheitsabstandes zum Meeresbodens und zu den geographischen Hindernissen, technischen Bauten und Altlasten charakterisiert.Das entwickelte Konzept ist modular aufgebaut und umfasst Komponenten zur Kollisions\u00fcberwachung, Zielpunktgenerierung,Kollisionsvermeidung, Fahrzeugf\u00fchrung bei Identifikationsaufgaben sowie zur Fahrzeugsteuerung. F\u00fcr die Kollisions\u00fcberwachung wird ein Zwei-Phasen-Konzept eingesetzt. Dieses Konzept erm\u00f6glicht eine schnelle Kollisions\u00fcberpr\u00fcfung durch die Verwendung einfacher Kollisionstests zur Vorselektion m\u00f6glicher Kollisionskandidaten. Das in dieser Arbeit entwickelte Kollisionsvermeidungssystem besitzt eine hybride Struktur, bei der ein reaktiver (Reaktive Steuerung) und ein planender Ansatz (Wegeplanung) parallel arbeiten. Die Reaktive Steuerung \u00fcbernimmt die F\u00fchrung des Fahrzeuges, w\u00e4hrend die Wegeplanung einen Routenplan generiert.Steht ein Routenplan zur Verf\u00fcgung, arbeitet die Wegeplanung diesen ab. F\u00fcr die Reaktive Steuerung wurde ein neues Verfahren zur geometrischen Konstruktion von Gradientenlinien entwickelt. Es verbindet die Vorteile des von Guldner entwickelten Verfahrens der Harmonischen Dipolpotentiale mit der Forderung einer wegoptimalen Fahrweise unter Ber\u00fccksichtigung des nichtholonomen, verz\u00f6gerten Bewegungsverhaltens des Fahrzeuges. Durch die Forderung der online-Erzeugung eines Routenplanes unter Gew\u00e4hrleistung des Echtzeitverhaltens des Systems wurden graphenbasierte Verfahren f\u00fcr die Wegeplanung untersucht. Diese Verfahren erm\u00f6glichen es, einen optimalen Weg nach definierten Vorgaben in einer kalkulierbaren Zeit zu ermitteln. Zwei neu entwickelte Verfahren zur Generierung eines geometrischen Graphen aus einem Konfigurationsraum mit elliptischen Objektzylindern sowie ein Algorithmus zur Bestimmung der Fahrtkosten unter Einbeziehung der Str\u00f6mungsinformation werden detailliert beschrieben. Obgleich das in dieser Arbeit vorgestellte F\u00fchrungskonzept f\u00fcr ein Autonomes Unterwasserfahrzeug entwickelt wurde, k\u00f6nnen Teile dieser Arbeit auch f\u00fcr boden- und luftgef\u00fchrte Autonome Mobile Systeme angewandt werden.",
+            "alternative": "F\u00fchrung eines autonomen Unterwasserfahrzeuges",
+            "contributor": [
+                "gnd:13329627X",
+                "gnd:130244864"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "http://www.gbv.de/dms/ilmenau/abs/530043378eichh.txt",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4016862-1"
+                },
+                {
+                    "@id": "gnd:4781185-7"
+                },
+                {
+                    "@id": "gnd:4199255-6"
+                },
+                {
+                    "@id": "gnd:4314334-9"
+                },
+                {
+                    "@id": "gnd:4042803-5"
+                },
+                {
+                    "@id": "gnd:4267628-9"
+                },
+                {
+                    "@id": "gnd:4136258-5"
+                },
+                {
+                    "@id": "gnd:4143713-5"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/537668047.PDF",
+            "volume": "1127",
+            "P30128": [
+                "Fortschritt-Berichte VDI",
+                "Reihe 8, Mess-, Steuerungs- und Regelungstechnik"
+            ],
+            "P60163": "D\u00fcsseldorf"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "relation": "http://purl.org/dc/terms/relation",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

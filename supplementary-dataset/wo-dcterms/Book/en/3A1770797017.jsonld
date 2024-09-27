@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1237640199",
-            "sameAs": "Arenas Catalán, Eduardo"
+            "sameAs": "Arenas Catal\u00e1n, Eduardo"
         },
         {
             "@id": "gnd:4038270-9",
@@ -18,7 +18,7 @@
         },
         {
             "@id": "gnd:4130935-2",
-            "sameAs": "Gesundheitsökonomie"
+            "sameAs": "Gesundheits\u00f6konomie"
         },
         {
             "@id": "gnd:4236433-4",
@@ -29,41 +29,46 @@
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (XVII, 200 Seiten)",
             "identifier": [
-                "(isbn13)9781788979658",
-                "(doi)10.4337/9781788979658",
                 "(firstid)BVB:BV047361404",
-                "(ppn)1770797017"
+                "(ppn)1770797017",
+                "(isbn13)9781788979658",
+                "(doi)10.4337/9781788979658"
             ],
             "publisher": "Edward Elgar Publishing",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=linseach:mapping)sow",
-                "Gesundheitsökonomie",
-                "Menschenrecht",
-                "(classificationName=rvk)MS 6200",
-                "lntm",
-                "Soziale Gerechtigkeit",
-                "lbbr",
-                "(classificationName=rvk)MS 6020",
+                "Medizinische Versorgung",
                 "Soziale Ungleichheit",
-                "Medizinische Versorgung"
+                "Right to health",
+                "Health services accessibility",
+                "(classificationName=rvk)MS 6020",
+                "(classificationName=rvk)MS 6200",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=loc)K3260.3",
+                "Soziale Gerechtigkeit",
+                "Menschenrecht",
+                "lntm",
+                "lbbr",
+                "Gesundheits\u00f6konomie"
             ],
             "title": "Human right to health : solidarity in the era of healthcare commercialization",
             "abstract": "This timely book offers a fresh perspective on how to effectively address the issue of unequal access to healthcare. It analyses the human right to health from the underexplored legal principle of solidarity, proposing a non-commercial understanding of the positive obligations inherent in the right to health",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:1237640199",
             "isPartOf": [
+                "(collectioncode)ZDB-77-EEC",
+                "(collectioncode)ZDB-1-EEM",
                 "(collectioncode)ZDB-94-OAB",
-                "(collectioncode)ZDB-1-EEM"
+                "(collectioncode)ZDB-77-EEOA"
             ],
             "issued": "2021",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "open access",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
-                "gnd:4130935-2",
-                "gnd:4074725-6",
-                "gnd:4055736-4",
                 "gnd:4236433-4",
+                "gnd:4074725-6",
+                "gnd:4130935-2",
+                "gnd:4055736-4",
                 "gnd:4038270-9"
             ],
             "isLike": "doi:10.4337/9781788979658",
@@ -77,33 +82,33 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "title": "http://purl.org/dc/elements/1.1/title",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "language": {
-            "@id": "http://purl.org/dc/terms/language",
-            "@type": "@id"
-        },
-        "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "abstract": "http://purl.org/dc/terms/abstract",
-        "creator": {
-            "@id": "http://purl.org/dc/terms/creator",
-            "@type": "@id"
-        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "issued": "http://purl.org/dc/terms/issued",
-        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

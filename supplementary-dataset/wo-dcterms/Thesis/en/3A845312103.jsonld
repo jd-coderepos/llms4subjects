@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129109703",
+            "sameAs": "Suhl, Leena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A845312103",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Koberstein, Achim",
+            "creator": "Hallmann, Corinna",
+            "identifier": [
+                "(firstid)HBZ:CT004001416",
+                "(ppn)845312103"
+            ],
+            "subject": [
+                "(classificationName=ddc)006",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc)330",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)627",
+                "(classificationName=linseach:mapping)bau",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Optimierung von Wasserbeh\u00e4ltern in einem Wasserversorgungssystem mittels einer Kombination aus Netzreduktion, mathematischer Optimierung und hydraulischer Simulation",
+            "abstract": "In den letzten Jahren hat die Optimierung von Wasserversorgungssystemen in Deutschland immer mehr an Bedeutung gewonnen. Einer der Gr\u00fcnde daf\u00fcr ist der gesunkene Wasserbedarf pro Tag und Einwohner in den letzten 20 Jahren. Bei der Planung der Versorgungssysteme wurde ein steigender Wasserbedarf prognostiziert und die Komponenten so konzipiert, dass diese den steigenden Bedarf bew\u00e4ltigen k\u00f6nnen. Da der Bedarf jedoch gesunken ist, gibt es viele Komponenten, die zu gro\u00df dimensioniert sind und daher ineffizient arbeiten. Dazu geh\u00f6ren u. a. Trinkwasserbeh\u00e4lter, die im Fokus dieser Arbeit stehen. Es wird ein L\u00f6sungsprozess pr\u00e4sentiert, mit dem die optimalen Dimensionen und Standorte f\u00fcr Beh\u00e4lter bestimmt werden. Dazu wird ein Optimierungsmodell als nicht-konvexes Mixed Integer Quadratically Constrained Program (MIQCP) formuliert. F\u00fcr die L\u00f6sung des Modells wird eine st\u00fcckweise Linearisierung verwendet. Da es bei gro\u00dfen Netzmodellen zu langen L\u00f6sungszeiten kommen kann, erfolgt vor Erstellung des Optimierungsmodells eine Reduktion des Netzmodells. Um zu \u00fcberpr\u00fcfen, ob die so erhaltene L\u00f6sung zul\u00e4ssig f\u00fcr das originale Netzmodell ist, wird sie mit einer hydraulischen Simulation validiert. Falls sie nicht zul\u00e4ssig ist, werden die Stellen, die zu einer unzul\u00e4ssigen L\u00f6sung f\u00fchren, lokalisiert und markiert. Anschlie\u00dfend wird das originale Netzmodell erneut reduziert. Dabei werden die markierten Stellen f\u00fcr die Reduktion gesperrt, um diese detaillierter betrachten zu k\u00f6nnen. Mit dem neuen reduzierten Netzmodell wird das Verfahren erneut gestartet und solange ausgef\u00fchrt, bis eine L\u00f6sung als zul\u00e4ssig identifiziert wurde. Mit Hilfe dieses L\u00f6sungsprozesses ist es m\u00f6glich, eine Beh\u00e4lteroptimierung f\u00fcr Praxisinstanzen in annehmbarer Zeit durchzuf\u00fchren.. - For several reasons the optimization of water distribution systems has attracted growing attention in Germany in recent years. One of those reasons is a decreasing water consumption in the last two decades. When water distribution systems were originally drafted the planners forecasted an increasing water consumption and hence they were built to handle the predicted amount of water needed. The decreasing water consumption led to numerous components no longer matching the requirements, for instance water tanks, resulting in inefficient performance. This thesis presents a method that determines the optimal dimensions and locations of water tanks in water distribution systems. A non-convex Mixed Integer Quadratically Constrained Program (MIQCP) is formulated to model this planning task. This model is solved via a piecewise linearization. As this may lead to high computing times for large water distribution systems, the size of the water distribution system model is reduced before building the optimization model. To make sure that the solution gained with this reduced version of the system model is feasible, it is verified by a hydraulic simulation. If the solution is not feasible, the locations that are responsible for the infeasible solution are located and locked for reduction. After that the original model is reduced again but without reducing the locked locations. The process starts over with this new reduced model. This is done until the simulation tool identifies a feasible solution. With this method it is possible to solve the tank optimization problem even for real world instances in reasonable time.",
+            "alternative": "Optimizing water tanks in a water distribution system by combining network reduction, mathematical optimization and hydraulic simulation",
+            "contributor": "gnd:129109703",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

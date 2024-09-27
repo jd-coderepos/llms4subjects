@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A72361427X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "creator": "Tobin, Paul",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn)1598291653",
+                "(doi)10.2200/S00073ED1V01Y200612DCS011",
+                "(ppn)72361427X",
+                "(isbn13)9781598291650",
+                "(firstid)GBV:72361427X"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=ddc)621.3822",
+                "(classificationName=linseach:mapping)elt",
+                "Electronic books",
+                "(classificationName=loc)TK7872.F5 .T63 2007",
+                "Signal processing",
+                "PSpice"
+            ],
+            "title": "PSpice for Digital Signal Processing",
+            "abstract": [
+                "PSpice for Digital Signal Processing is the last in a series of five books using Cadence Orcad PSpice version 10.5 and introduces a very novel approach to learning digital signal processing (DSP). DSP is traditionally taught using Matlab/Simulink software but has some inherent weaknesses for students particularly at the introductory level. The 'plug in variables and play' nature of these software packages can lure the student into thinking they possesses an understanding they don't actually have because these systems produce results quickly without revealing what is going on. However, it must be said that, for advanced level work Matlab/Simulink really excel. In this book we start by examining basic signals starting with sampled signals and dealing with the concept of digital frequency. The delay part, which is the heart of DSP, is explained and applied initially to simple FIR and IIR filters. We examine linear time invariant systems starting with the difference equation and applying the z-transform to produce a range of filter type i.e. low-pass, high-pass and bandpass. The important concept of convolution is examined and here we demonstrate the usefulness of the 'log' command in Probe for giving the correct display to demonstrate the 'flip n slip' method. Digital oscillators, including quadrature carrier generation, are then examined. Several filter design methods are considered and include the bilinear transform, impulse invariant, and window techniques. Included also is a treatment of the raised-cosine family of filters. A range of DSP applications are then considered and include the Hilbert transform, single sideband modulator using the Hilbert transform and quad oscillators, integrators and differentiators. Decimation and interpolation are simulated to demonstrate the usefulness of the multi-sampling environment. Decimation is also applied in a treatment on digital receivers. Lastly, we look at some musical applications for DSP such as reverberation/echo using real world signals imported into PSpice using the program Wav2Ascii. The zero-forcing equalizer is dealt with in a simplistic manner and illustrates the effectiveness of equalizing signals in a receiver after transmission",
+                "Introduction to digital signal processing -- Sampling -- Aliasing -- The ADC parameters -- Digital frequency -- Digital samples -- Delay unit and hierarchical blocks -- Transmission line delay -- Laplace delay -- DSP signals: Unit step signal -- Unit impulse signal -- Decaying exponential signal -- Digital sequences -- The z-transform -- Unit impulse -- Unit step -- Unit delay -- Exercises -- Difference equations and the z-transform -- Linear time-invariant systems -- Difference equations -- Digital filter classification -- First-order FIR filter -- z-transforms and difference equations -- Pole-zero constellation and Bibo stability -- Cut-off frequency -- Infinite impulse response filter -- First-order low-pass IIR filter -- Cut-off frequency for the IIR filter -- IIR phase response -- High-pass IIR filter -- The -3 dB cut-off frequency -- Passband gain -- Step response -- Impulse testing -- Bandpass IIR digital filter -- Bandpass pole-zero plot -- The -3 dB cut-off frequency -- Bandpass impulse response -- Simulating digital filters using a netlist -- Digital filters using a Laplace part -- Third-order elliptical filter -- Group delay -- Exercises -- Digital convolution, oscillators, and windowing -- Digital convolution -- Flip and slip method -- DSP sinusoidal oscillator -- Exercises -- Digital filter design methods -- Filter types -- Direct form 1 filter -- Direct form 2 filter -- The transpose filter -- Cascade and parallel filter realizations -- Digital filter specification -- The bilinear transform -- Designing digital filters using the bilinear transform method -- The impulse-invariant filter design technique -- Impulse function generation -- Sampling the impulse response -- Mapping from the s-plane to the z-plane -- Truncating IIR responses to show Gibbs effect -- Designing second-order filters using the impulse-invariant method -- Windowing -- Windows plots -- Windows spectral plots -- Window filter design -- Bartlett window -- The sampled impulse response -- Impulse response of a brick-wall filter -- Designing filters using the window method -- FIR root-raised cosine filter -- Raised cosine FIR filter design -- Root-raised cosine FIR filter design -- Exercises -- Digital signal processing applications -- Telecommunication applications -- Quadrature carrier signals -- Hilbert transform -- The Hilbert impulse response -- The Hilbert amplitude and phase responses -- Single-sideband suppressed carrier modulation -- Differentiator -- Integrator -- Multirate systems: Decimation and interpolation -- Decimation -- Example -- Solution -- Aliasing -- Interpolation -- Decimation and interpolation for noninteger sampling frequencies -- Exercises -- Down-sampling and digital receivers -- Receiver design -- RF sampling -- Down-sampling a passband signal -- Down-sampling a single-sideband signal -- Digital receiver -- DSP and music -- Phasing effect -- Zero-forcing equalizer -- Three-tap zero-forcing equalizer -- Example -- Solution -- Exercises"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598291643.pdf",
+            "volume": "#10",
+            "isLike": "doi:10.2200/S00073ED1V01Y200612DCS011",
+            "P30128": "Synthesis Lectures on Digital Circuits and Systems",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

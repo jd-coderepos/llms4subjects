@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1144279100",
+            "sameAs": "Oswald, Michael"
+        },
+        {
             "@id": "gnd:4046559-7",
             "sameAs": "Politische Sprache"
         },
@@ -15,11 +19,11 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1796781851",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(X, 219 S. 4 Abb.)",
-            "creator": "Oswald, Michael",
+            "P1053": "1 Online-Ressource (X, 219 Seiten)",
             "description": [
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
-                "Erworben aus Studienqualitätsmitteln"
+                "Illustrationen",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
             ],
             "identifier": [
                 "(doi)10.1007/978-3-658-36205-8",
@@ -27,7 +31,7 @@
                 "(isbn13)9783658362058",
                 "(ppn)1796781851"
             ],
-            "publisher": "Springer Fachmedien Wiesbaden",
+            "publisher": "Springer VS",
             "http://purl.org/dc/elements/1.1/subject": [
                 "Communication.",
                 "(classificationName=ddc)320.014",
@@ -40,12 +44,13 @@
                 "Strategie",
                 "Political science."
             ],
-            "title": "Strategisches Framing : Eine Einführung",
+            "title": "Strategisches Framing : eine Einf\u00fchrung",
             "abstract": [
-                "In der Politischen Kommunikation sind Framings allgegenwärtig. Zum einen entstehen sie unwillkürlich, da Themen stets in einer spezifischen Perspektive dargestellt werden. Zum anderen wird die politische Realität auch oft konstruiert. Kommunikatoren setzen dabei ihre Information in einen bestimmten Deutungsrahmen, sie ‚framen‘ das Thema also gezielt und wollen so die Debatte um die jeweilige Angelegenheit leiten oder zumindest mitbestimmen. Dieses Lehrbuch bietet eine Einführung in das Verständnis von Frames und Framing-Strategien. Es liefert einen Abriss über die vielfältige und breitgefächerte Framing-Forschung sowie eine Grundlage für das wissenschaftliche Arbeiten mit Frames. Für die 2. Auflage wurde das Buch grundlegend überarbeitet und aktualisiert. Der Inhalt Einführung: Das Leiten der Diskussion Frames und Framing - Strategisches Framing Strategisches Medien-Framing Frames und Ideologien Methoden der Frame-Analyse Der Autor Dr. Michael Oswald ist Akademischer Rat am Lehrstuhl für Politikwissenschaft der Universität Passau, Associate Research Fellow und Lehrbeauftragter am John F. Kennedy Institut der Freien Universität Berlin und Faculty-Member bei CIFE (Int. Zentrum für Europäische Bildung). .",
-                "Einführung: Das Leiten der Diskussion -- Frames und Framing -- Strategisches Framing -- Strategisches Medien-Framing -- Frames und Ideologien -- Methoden der Frame-Analyse."
+                "In der Politischen Kommunikation sind Framings allgegenw\u00e4rtig. Zum einen entstehen sie unwillk\u00fcrlich, da Themen stets in einer spezifischen Perspektive dargestellt werden. Zum anderen wird die politische Realit\u00e4t auch oft konstruiert. Kommunikatoren setzen dabei ihre Information in einen bestimmten Deutungsrahmen, sie \u201aframen\u2018 das Thema also gezielt und wollen so die Debatte um die jeweilige Angelegenheit leiten oder zumindest mitbestimmen. Dieses Lehrbuch bietet eine Einf\u00fchrung in das Verst\u00e4ndnis von Frames und Framing-Strategien. Es liefert einen Abriss \u00fcber die vielf\u00e4ltige und breitgef\u00e4cherte Framing-Forschung sowie eine Grundlage f\u00fcr das wissenschaftliche Arbeiten mit Frames. F\u00fcr die 2. Auflage wurde das Buch grundlegend \u00fcberarbeitet und aktualisiert. Der Inhalt Einf\u00fchrung: Das Leiten der Diskussion Frames und Framing - Strategisches Framing Strategisches Medien-Framing Frames und Ideologien Methoden der Frame-Analyse Der Autor Dr. Michael Oswald ist Akademischer Rat am Lehrstuhl f\u00fcr Politikwissenschaft der Universit\u00e4t Passau, Associate Research Fellow und Lehrbeauftragter am John F. Kennedy Institut der Freien Universit\u00e4t Berlin und Faculty-Member bei CIFE (Int. Zentrum f\u00fcr Europ\u00e4ische Bildung). .",
+                "Einf\u00fchrung: Das Leiten der Diskussion -- Frames und Framing -- Strategisches Framing -- Strategisches Medien-Framing -- Frames und Ideologien -- Methoden der Frame-Analyse."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1144279100",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SZR",
                 "(collectioncode)ZDB-2-SEB"
@@ -67,20 +72,22 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "issued": "http://purl.org/dc/terms/issued",
-        "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "license": "http://purl.org/dc/terms/license",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "abstract": "http://purl.org/dc/terms/abstract",
-        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
@@ -96,6 +103,7 @@
         },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

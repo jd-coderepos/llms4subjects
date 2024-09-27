@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1268393061",
+            "sameAs": "Roos, Filip"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1816726028",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (100 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1816726028",
+                "(firstid)KXP:1816726028",
+                "(doi)10.15496/publikation-73055"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "Optimierung",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)519.6",
+                "Wahrscheinlichkeit",
+                "Maschinelles Lernen"
+            ],
+            "title": "Probabilistic linear algebra for stochastic optimization",
+            "abstract": "The emergent field of machine learning has by now become the main proponent of data-driven discovery. Yet, with ever more data, it is also faced with new computational challenges. To make machines \"learn\", the desired task is oftentimes phrased as an empirical risk minimization problem that needs to be solved by numerical optimization routines. Optimization in ML deviates from the scope of traditional optimization in two regards. First, ML deals with large datasets that need to be subsampled to reduce the computational burden, inadvertently introducing noise into the optimization procedure. The second distinction is the sheer size of the parameter space which severely limits the amount of information that optimization algorithms store. Both aspects together have made first-order optimization routines a prevalent choice for model training in ML. First-order algorithms use only gradient information to determine a step direction and step length to update the parameters. Inclusion of second-order information about the local curvature has a great potential to improve the performance of the optimizer if done efficiently. Probabilistic curvature estimation for use in optimization is a recurring theme of this thesis and the problem is explored in three different directions that are relevant to ML training. By iteratively adapting the scale of an arbitrary curvature estimate it is possible to circumvent the tedious work of manually tuning the optimizer\u2019s step length during model training. The general form of the curvature estimate naturally extends its applicability to various popular optimization algorithms. Curvature can also be inferred with matrix-variate distributions by projections of the curvature matrix. Noise can then be captured by a likelihood with non-vanishing width, leading to a novel update strategy that uses the inherent uncertainty to estimate the curvature. Finally, a new form of curvature estimate is derived from gradient observations of a nonparametric model. It expands the family of viable curvature estimates used in optimization. An important outcome of the research is to highlight the benefit of utilizing curvature information in stochastic optimization. By considering multiple ways of efficiently leveraging second-order information, the thesis advances the frontier of stochastic optimization and unlocks new avenues for research on the training of large scale ML models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1268393061"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-73055",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

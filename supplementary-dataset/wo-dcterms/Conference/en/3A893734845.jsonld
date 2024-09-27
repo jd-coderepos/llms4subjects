@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1141085518",
+            "sameAs": "Srihari, Sriganesh"
+        },
+        {
+            "@id": "gnd:1141085860",
+            "sameAs": "Yong, Chern Han"
+        },
+        {
+            "@id": "gnd:136886809",
+            "sameAs": "Wong, Limsoon"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A893734845",
+            "@type": "bibo:Conference",
+            "P1053": "1 Online-Ressource (xv, 281 Seiten)",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781970001549",
+                "(ppn)893734845",
+                "(isbn13)9781970001532",
+                "(firstid)GBV:893734845",
+                "(doi)10.1145/3064650"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "Protein-protein interactions ; Computer simulation",
+                "(classificationName=ddc)572.64",
+                "Electronic books",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Computational prediction of protein complexes from protein interaction networks",
+            "abstract": "Complexes of physically interacting proteins constitute fundamental functional units that drive almost all biological processes within cells. A faithful reconstruction of the entire set of protein complexes (the \"complexosome\") is therefore important not only to understand the composition of complexes but also the higher level functional organization within cells. Advances over the last several years, particularly through the use of high-throughput proteomics techniques, have made it possible to map substantial fractions of protein interactions (the \"interactomes\") from model organisms including Arabidopsis thaliana (a flowering plant), Caenorhabditis elegans (a nematode), Drosophila melanogaster (fruit fly), and Saccharomyces cerevisiae (budding yeast). These interaction datasets have enabled systematic inquiry into the identification and study of protein complexes from organisms. Computational methods have played a significant role in this context, by contributing accurate, efficient, and exhaustive ways to analyze the enormous amounts of data. These methods have helped to compensate for some of the limitations in experimental datasets including the presence of biological and technical noise and the relative paucity of credible interactions. In this book, we systematically walk through computational methods devised to date (approximately between 2000 and 2016) for identifying protein complexes from the network of protein interactions (the protein-protein interaction (PPI) network). We present a detailed taxonomy of these methods, and comprehensively evaluate them for protein complex identification across a variety of scenarios including the absence of many true interactions and the presence of false-positive interactions (noise) in PPI networks. Based on this evaluation, we highlight challenges faced by the methods, for instance in identifying sparse, sub-, or small complexes and in discerning overlapping complexes, and reveal how a combination of strategies is necessary to accurately reconstruct the entire complexosome.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:136886809",
+                "gnd:1141085518",
+                "gnd:1141085860"
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-15-ACA",
+                "(collectioncode)ZDB-15-ACM"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "16",
+            "isLike": "doi:10.1145/3064650",
+            "P30128": [
+                "ACM Books",
+                "ACM Digital Library"
+            ],
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

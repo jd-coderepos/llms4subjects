@@ -6,7 +6,11 @@
         },
         {
             "@id": "gnd:36164-1",
-            "sameAs": "Friedrich-Schiller-Universität Jena"
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4020822-9",
+            "sameAs": "Grundwasserverschmutzung"
         },
         {
             "@id": "gnd:4073754-8",
@@ -21,32 +25,42 @@
             "sameAs": "Sonolyse"
         },
         {
+            "@id": "gnd:4381759-2",
+            "sameAs": "Antiklopfmittel"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A35046085X",
             "@type": "bibo:Thesis",
             "P1053": "1 Online-Ressource (83 Seiten)",
+            "description": "Illustrationen, Diagramme, Karten",
             "identifier": [
                 "(ppn)35046085X",
                 "(firstid)GBV:35046085X"
             ],
             "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=dbn)38",
                 "(classificationName=bk, id=106422057)43.12 - Umweltchemie",
-                "(classificationName=linseach:mapping)che"
+                "(classificationName=linseach:mapping)che",
+                "(classificationName=dbn)42"
             ],
             "title": "Sonochemische Transformation von sauerstoffhaltigen Kraftstoffadditiven unter aquatischen Bedingungen",
-            "abstract": "Sauerstoffhaltige Kraftstoffadditive (z.B. Methyl-tert-Butylether) wurden zur langfristigen Verbesserung der Luftqualität eingeführt. Allerdings sind in der Folgezeit besonders in der Umgebung von Tanklagern erhöhte MTBE-Konzentrationen im Grundwasser nachgewiesen wurden. Ein relativ neuer Verfahrensansatz zum Schadstoffabbau im Wasser ist der Einsatz von Ultraschall, die so genannte Aquasonolyse. In dieser Arbeit wurde die Aquasonolyse von Methyl-tert-Butylether, Ethyl-tert-Butylether und tert-Amylmethylether untersucht. Besonderes Interesse galt dabei den verschiedenen geräte- bzw. substanzspezifischen Einfluss-Parametern, wie z.B. Frequenz, Leistung, Konzentration, Zusatzstoffe.",
+            "abstract": "Sauerstoffhaltige Kraftstoffadditive (z.B. Methyl-tert-Butylether) wurden zur langfristigen Verbesserung der Luftqualit\u00e4t eingef\u00fchrt. Allerdings sind in der Folgezeit besonders in der Umgebung von Tanklagern erh\u00f6hte MTBE-Konzentrationen im Grundwasser nachgewiesen wurden. Ein relativ neuer Verfahrensansatz zum Schadstoffabbau im Wasser ist der Einsatz von Ultraschall, die so genannte Aquasonolyse. In dieser Arbeit wurde die Aquasonolyse von Methyl-tert-Butylether, Ethyl-tert-Butylether und tert-Amylmethylether untersucht. Besonderes Interesse galt dabei den verschiedenen ger\u00e4te- bzw. substanzspezifischen Einfluss-Parametern, wie z.B. Frequenz, Leistung, Konzentration, Zusatzstoffe.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": [
                 "gnd:36164-1",
                 "gnd:123863333"
             ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
             "issued": "2002",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "open access",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
+                "gnd:4381759-2",
                 "gnd:4350421-8",
                 "gnd:4274580-9",
-                "gnd:4073754-8"
+                "gnd:4073754-8",
+                "gnd:4020822-9"
             ],
             "P60163": "Jena"
         }
@@ -54,6 +68,10 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -64,10 +82,6 @@
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
-            "@type": "@id"
-        },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "abstract": "http://purl.org/dc/terms/abstract",
         "title": "http://purl.org/dc/elements/1.1/title",
@@ -77,6 +91,8 @@
         },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614490",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (133 Seiten)",
+            "creator": [
+                "Anderson, David",
+                "Padgett, Wayne"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.2200/S00220ED1V01Y200909SPR009",
+                "(isbn13)9781598292596",
+                "(firstid)GBV:723614490",
+                "(ppn)723614490"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=msc)*94A12",
+                "(classificationName=msc)94-02",
+                "Signal processing",
+                "(classificationName=ddc)621.3822",
+                "Electronic books",
+                "(classificationName=loc)TK5102.9 .P33 2009"
+            ],
+            "title": "Fixed-Point Signal Processing",
+            "abstract": [
+                "5. Quantization effects: data and coefficients -- Four types of error -- Data quantization -- Analog-to-digital conversion -- Ranges -- Quantization noise power -- Signal-to-noise ratio -- Saturation and overflow -- Coefficient quantization -- Significant factors in coefficient quantization -- 2nd-order coupled form structure -- Direct form IIR filters, coefficient quantization problems -- Cascaded second-order section filters -- 6. Quantization effects, round-off noise and overflow -- Round-off noise -- Calculation example -- Overflow and scaling -- Overflow review -- Scaling -- Norms -- L(1t) scaling -- L[infinity]w scaling -- L2 norm scaling -- Scale factor comparisons -- Cascaded second order sections -- Design example -- Scaling calculations -- Output noise calculations -- Noise spectrum calculations -- SNR calculations -- Comparing different choices -- Limit cycles -- Glossary -- Bibliography",
+                "This book is intended to fill the gap between the \"ideal precision\" digital signal processing (DSP) that is widely taught, and the limited precision implementation skills that are commonly required in fixed-point processors and field programmable gate arrays (FPGAs). These skills are often neglected at the university level, particularly for undergraduates. We have attempted to create a resource both for a DSP elective course, and for the practicing engineer with a need to understand fixed-point implementation. Although we assume a background in DSP, Chapter 2 contains a review of basic theory, and Chapter 3 reviews random processes to support the noise model of quantization error. Chapter 4 details the binary arithmetic that underlies fixed-point processors, and then introduces fractional format for binary numbers. Chapter 5 covers the noise model for quantization error and the effects of coefficient quantization in filters. Because of the numerical sensitivity of IIR filters, they are used extensively as an example system in both Chapters 5 and 6. Fortunately, the principles of dealing with limited precision can be applied to a wide variety of numerically sensitive systems, not just IIR filters. Chapter 6 discusses the problems of product roundoff error, and various methods of scaling to avoid overflow. Chapter 7 discusses limit cycle effects and a few common methods for minimizing them. There are a number of simple exercises integrated into the text to allow you to test your understanding. Answers to the exercises are included in the footnotes. A number of Matlab examples are provided in the text. They generally assume access to the Fixed- Point Toolbox. If you lack access to this software, consider either purchasing or requesting an evaluation license from The Mathworks. The code listed in the text and other helpful Matlab code is also available at http://www.morganclaypool.com/page/padgett and http://www.rose-hulman.edu/padgett/fpsp. You will also find Matlab exercises designed to demonstrate each of the four types of error discussed in Chapters 5 and 6. Simulink examples are also provided on the web site",
+                "1. Getting started -- Design flow -- Tools -- 2. DSP concepts -- Basic systems theory -- Linear, time-invariant systems -- Difference equations -- Convolution -- Z-transform -- Poles and zeros -- Block diagrams and filter implementation -- Transpose filters -- Cascaded second-order sections -- Frequency response -- Frequency response from the z-transform -- Frequency response examples -- 3. Random processes and noise -- Random variables -- Expectations and moments -- Stationary and ergodic processes -- Definitions and properties -- Random processes and Fourier analysis -- Fourier transform of correlation and covariance -- Power spectral density -- Filtering a random sequence -- Filtering a white random sequence -- Periodograms -- 4. Fixed point numbers -- Binary arithmetic -- Unsigned binary representation -- Addition -- Subtraction -- Multiplication -- Division -- Signed binary representation -- Q-format -- Fixed-point arithmetic -- Multiplication -- Addition -- Rounding -- An FIR filter example -- Quantization example, computing y[0] -- Quantization example, computing y[1] -- Quantization example, results -- Matlab example -- Floating-point -- Block floating-point"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#9",
+            "isLike": "doi:10.2200/S00220ED1V01Y200909SPR009",
+            "P30128": "Synthesis Lectures on Signal Processing",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

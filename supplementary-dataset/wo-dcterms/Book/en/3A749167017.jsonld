@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749167017",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (232p)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Fishburn, John",
+                "Shugard, Don",
+                "Keutzer, Kurt"
+            ],
+            "creator": "Hill, Dwight",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461317074",
+                "(doi)10.1007/978-1-4613-1707-4",
+                "(firstid)GBV:749167017",
+                "(ppn)749167017"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer engineering",
+                "(classificationName=loc)TK1-9971",
+                "Electrical engineering.",
+                "(classificationName=linseach:mapping)elt",
+                "Engineering",
+                "(classificationName=ddc)621.3"
+            ],
+            "title": "Algorithms and Techniques for VLSI Layout Synthesis",
+            "abstract": [
+                "1: Introduction -- 2: The IMAGES Language -- 2.1 Background -- 2.2 Principal Constructs -- 2.3 Geometric Constraints -- 2.4 Geometric Constraint Resolution -- 2.5 Electrical Connectivity -- 2.6 Other IMAGES Features -- 2.7 Interface with the Rest of IDA -- 2.8 Quick Access to Large Designs -- 2.9 The IMAGES Implementation -- 2.10 Summary -- 3: Designer Interaction -- 3.1 Basic Editing Environment -- 3.2 Hybrid Logic/Layout Diagrams -- 3.3 Interactive Simulation -- 3.4 Compaction -- 3.5 Reading from the Top-Down -- 3.6 Editor Internals -- 3.7 Moving on - Icon as a Non-graphical Tool -- 4: Geometric Algorithms -- 4.1 Enhancing the Basic IMAGES Data Structures -- 4.2 Scan-Line Technique -- 4.3 Consolidating Rectangles -- 4.4 Tub Insertion -- 4.5 Hierarchical Net Extraction -- 4.6 Hierarchical Design Rule Checking -- 4.7 Summary -- 5: Enhancements to the IMAGES Language for Synthesis -- 5.1 Stretchable Routing using IMAGES Constraints -- 5.2 Impact on Design Methods -- 5.3 Designer Written \u201cGenerators\u201d -- 5.4 Design Rule Undatable Generators -- 5.5 Summary: Advantages and Limitations -- 6: Automatic Layout of Switch-Level Designs -- 6.1 System Organization -- 6.2 Steps in SC2D -- 6.3 Steps After SC2D -- 6.4 Detailed Layout in SC2 -- 6.5 Performance and Parallel Processing -- 6.6 Summary -- 7: Switch-Level Tools -- 7.1 Transistor Sizing with TILOS -- 7.2 SLICC - An Alternative to Schematics -- 8: Summary and Trends -- 8.1 Summary -- 8.2 VLSI: From Science Fiction to Commodity -- 8.3 Design Style Trends -- Appendix A: Data Structures -- A.1 Basic IDA Data Structures -- A.2 Basic Design Elements -- Appendix B: Background on the \u201ci\u201d Language -- References.",
+                "This book describes a system of VLSI layout tools called IDA which stands for \"Integrated Design Aides. \" It is not a main-line production CAD environment, but neither is it a paper tool. Rather, IDA is an experimental environment that serves to test out CAD ideas in the crucible of real chip design. Many features have been tried in IDA over the years, some successfully, some not. This book will emphasize the former, and attempt to describe the features that have been useful and effective in building real chips. Before discussing the present state of IDA, it may be helpful to understand how the project got started. Although Bell Labs has traditionally had a large and effective effort in VLSI and CAD, researchers at the Murray Hill facility wanted to study the process of VLSI design independently, emphasizing the idea of small team chip building. So, in 1979 they invited Carver Mead to present his views on MOS chip design, complete with the now famous \"lambda\" design rules and \"tall, thin designers. \" To support this course, Steve Johnson (better known for YACC and the portable C compiler) and Sally Browning invented the constraint\u00ad based \"i\" language and wrote a compiler for it. A small collection of layout tools developed rapidly around this compiler, including design rule checkers, editors and simulators."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1988",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "65",
+            "isLike": "doi:10.1007/978-1-4613-1707-4",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

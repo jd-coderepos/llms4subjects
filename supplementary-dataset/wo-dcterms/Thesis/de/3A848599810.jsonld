@@ -1,0 +1,71 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104493350X",
+            "sameAs": "Rammig, Franz Josef"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A848599810",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 160 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Gl\u00e4sser, Uwe",
+            "creator": "Zhao, Yuhong",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)HBZ:CT004001453",
+                "(ppn)848599810"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)002"
+            ],
+            "title": "Online model checking mechanism and its applications",
+            "abstract": "Die vorhandenen Validierungs- und Verifikationstechniken k\u00f6nnen nicht vollst\u00e4ndig sich- erstellen, dass sich die eingebettete Software wirklich wie gew\u00fcnscht verh\u00e4lt, nachdem sie freigegeben oder eingesetzt wurde. Vor diesem Hintergrund stellen wir einen Online Model Checking Mechanismus vor, um die Korrektheit eines aktuellen Ausf\u00fchrungspfades, anstatt die gesamte Korrektheit der eingebetteten Software, sicherzustellen. Es ist dabei nicht das Ziel, einen schnelleren Model Checking Algorithmus vorzulegen. Die Grundidee des Ansatzes ist es, eine Folge von partiellen Modellen, die den aktuellen Ausf\u00fchrungspfad der zu \u00fcberpr\u00fcfenden Software \u00fcberdecken, w\u00e4hrend der Systemausf\u00fchrung zu \u00fcberpr\u00fcfen. Die Fehler, die in den partiellen Modellen erkannt werden, k\u00f6nnen m\u00f6gliche Fehler im Quellcode des zu \u00fcberpr\u00fcfenden Systems anzeigen. Die partiellen Modelle entstehen aus dem Verhaltensmodell des zu \u00fcberpr\u00fcfenden Systems mittels der aktuellen Zustandsinformation, die w\u00e4hrend der Laufzeit periodisch aufgenommen wird. Das Online Model Checking Problem reduziert sich zu Online Erreichbarkeitsanalyse, wobei in jedem \u00dcberpr\u00fcfungszyklus nur endlich viele Schritte auf der Modellebene verfolgt werden. Die zu \u00fcberpr\u00fcfenden Eigenschaften sind Formeln in Linearer Temporaler Logik. Sowohl Sicherheits- wie auch Lebendigkeits\u00fcberpr\u00fcfungen lassen sich dabei auf Erreichbarkeitsanalyse w\u00e4hrend der Laufzeit zur\u00fcckf\u00fchren. Mittels Online Model Checking sind wir in der Lage, die Zust\u00e4nde, die sich beliebig tief in dem Zustandsraum befinden, zu erreichen. Dazu k\u00f6nnen wir auch potenzielle Fehler vorhersagen, selbst wenn der Checking Prozess hinter der Ausf\u00fchrung des zu \u00fcberpr\u00fcfenden Systems zur\u00fcckf\u00e4llt.. - The existing validation and verification techniques cannot completely ensure that the embedded software does behave as desired after it is released or deployed. Against this background, we present an online model checking mechanism aimed to ensure the correctness of the actual execution trace, instead of the universal correctness, of the embedded software system. Notice that we dont mean to propose a faster model checking algorithm. The basic idea is to check during system execution a sequence of bounded models that cover the actual execution trace of the software system under investigation. Errors detected in the bounded models may indicate potential errors in the source code of the target system. The bounded models are derived from the behavioral model of the target system using the actual state information monitored periodically during system execution. The online model checking problem is reduced to online reachability analysis, which tries to look ahead finitely many steps on the model level. The properties to be checked are specified in linear temporal logic. Because the checking process is done on the model level, both safety and liveness properties can be handled during runtime. By doing model checking online, we are able to reach those states that locate arbitrarily deep in the state space and to predict potential errors even if the checking process falls behind the execution of the target system.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:104493350X"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

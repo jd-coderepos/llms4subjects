@@ -5,6 +5,10 @@
             "sameAs": "Kanning, Julian"
         },
         {
+            "@id": "gnd:1068547952",
+            "sameAs": "Esau, Miriam"
+        },
+        {
             "@id": "gnd:128466391",
             "sameAs": "Hofmann, Michael"
         },
@@ -16,10 +20,9 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A731379187",
             "@type": "bibo:Book",
             "P1053": "207 S.",
-            "contributor": "Esau, Miriam",
             "description": [
                 "Ill.",
-                "Erworben aus Studienbeiträgen"
+                "Erworben aus Studienbeitr\u00e4gen"
             ],
             "identifier": [
                 "(isbn13)9783825238643",
@@ -41,13 +44,12 @@
                 "(classificationName=bk, id=181571684)17.82 - Dramatik"
             ],
             "title": "Drama : Grundlagen, Gattungsgeschichte, Perspektiven",
-            "abstract": "Gegenüber anderen Einführungen in die Dramenanalyse (zuletzt F. Schöl︢er: ID-G 25/12, und \"Handbuch Drama\", ID-G 32/12) grenzt sich dieser UTB-Band dadurch ab, dass er den Formenwandel des Dramas im jeweiligen literaturgeschichtlichen Kontext in den Mittelpunkt stellt. Der Autor des Bandes, ein Paderborner Hochschul-Germanist, erarbeitet die vielfältigen künstlerischen Ausdrucksmöglichkeiten der Gattung an konkreten Beispielen, die von der antiken Tragödie bis zum modernen Drama des 20. Jahrhunderts führen. Die Stärke des Bandes sind seine ausführlichen und anregend zu lesenden exemplarischen Interpretationen. Doch auch die Theorie des Dramas, die Begrifflichkeiten und Methoden der Dramenanalyse sowie das Spannungsverhältnis von Drama und Theater werden in Einzelkapiteln prägnant und überwiegend auch allgemein verständlich dargestellt. Illustrationen, grafische Darstellungen, Randtexte und Zusatzerläuterungen sorgen für eine lesefreundliche Textgestalt. Ein hilfreiches Lern- und Arbeitsbuch für Germanistik-Studenten, das auch schon für Deutsch-Leistungskurse gut nutzbar ist",
-            "dcterms:contributor": [
-                {
-                    "@id": "gnd:1042401489"
-                },
-                "Technische Informationsbibliothek (TIB)"
+            "abstract": "Gegen\u00fcber anderen Einf\u00fchrungen in die Dramenanalyse (zuletzt F. Sch\u00f6l\ufe22er: ID-G 25/12, und \"Handbuch Drama\", ID-G 32/12) grenzt sich dieser UTB-Band dadurch ab, dass er den Formenwandel des Dramas im jeweiligen literaturgeschichtlichen Kontext in den Mittelpunkt stellt. Der Autor des Bandes, ein Paderborner Hochschul-Germanist, erarbeitet die vielf\u00e4ltigen k\u00fcnstlerischen Ausdrucksm\u00f6glichkeiten der Gattung an konkreten Beispielen, die von der antiken Trag\u00f6die bis zum modernen Drama des 20. Jahrhunderts f\u00fchren. Die St\u00e4rke des Bandes sind seine ausf\u00fchrlichen und anregend zu lesenden exemplarischen Interpretationen. Doch auch die Theorie des Dramas, die Begrifflichkeiten und Methoden der Dramenanalyse sowie das Spannungsverh\u00e4ltnis von Drama und Theater werden in Einzelkapiteln pr\u00e4gnant und \u00fcberwiegend auch allgemein verst\u00e4ndlich dargestellt. Illustrationen, grafische Darstellungen, Randtexte und Zusatzerl\u00e4uterungen sorgen f\u00fcr eine lesefreundliche Textgestalt. Ein hilfreiches Lern- und Arbeitsbuch f\u00fcr Germanistik-Studenten, das auch schon f\u00fcr Deutsch-Leistungskurse gut nutzbar ist",
+            "contributor": [
+                "gnd:1042401489",
+                "gnd:1068547952"
             ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:128466391",
             "issued": "2013",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
@@ -66,7 +68,7 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "description": "http://purl.org/dc/elements/1.1/description",
@@ -86,6 +88,10 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
@@ -95,7 +101,6 @@
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1014881145",
+            "sameAs": "Unger, Christina"
+        },
+        {
+            "@id": "gnd:140708316",
+            "sameAs": "Cimiano, Philipp"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A165460948X",
+            "@type": "bibo:Book",
+            "P1053": "Online Ressource (1 PDF (xix, 158 pages))",
+            "http://purl.org/dc/elements/1.1/contributor": "McCrae, John",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)165460948X",
+                "(isbn13)9781608459902",
+                "(firstid)BSZ:425017508"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "Computational linguistics",
+                "(classificationName=ddc)006.35",
+                "Ontologies (Information retrieval)",
+                "(classificationName=loc)QA76.9.N38",
+                "(classificationName=linseach:mapping)inf",
+                "Natural language processing (Computer science)",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Ontology-based interpretation of natural language",
+            "abstract": "For humans, understanding a natural language sentence or discourse is so effortless that we hardly ever think about it. For machines, however, the task of interpreting natural language, especially grasping meaning beyond the literal content, has proven extremely difficult and requires a large amount of background knowledge. This book focuses on the interpretation of natural language with respect to specific domain knowledge captured in ontologies. the main contribution is an approach that puts ontologies at the center of the interpretation process. This means that ontologies not only provide a formalization of domain knowledge necessary for interpretation but also support and guide the construction of meaning representations. We start with an introduction to ontologies and demonstrate how linguistic information can be attached to them by means of the ontology lexicon model lemon. These lexica then serve as basis for the automatic generation of grammars, which we use to compositionally construct meaning representations that conform with the vocabulary of an underlying ontology. As a result, the level of representational granularity is not driven by language but by the semantic distinctions made in the underlying ontology and thus by distinctions that are relevant in the context of a particular domain. We highlight some of the challenges involved in the construction of ontology-based meaning representations, and show how ontologies can be exploited for ambiguity resolution and the interpretation of temporal expressions. Finally, we present a question answering system that combines all tools and techniques introduced throughout the book in a real-world application, and sketch how the presented approach can scale to larger, multi-domain scenarios in the context of the Semantic Web",
+            "contributor": [
+                "gnd:1014881145",
+                "gnd:140708316"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#24",
+            "P30128": "Synthesis lectures on human language technologies 1947-4059",
+            "P60163": "San Rafael, California <1537 Fourth Street, San Rafael, CA  94901 USA>"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

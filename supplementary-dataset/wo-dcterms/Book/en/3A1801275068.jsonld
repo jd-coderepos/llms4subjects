@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:139477829",
+            "sameAs": "Pawlaszczyk, Dirk"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1801275068",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XIII, 269 pages)",
+            "contributor": "Hummert, Christian",
+            "description": "191 illustrations (173 in color)",
+            "identifier": [
+                "(ppn)1801275068",
+                "(firstid)KEP:077811976",
+                "(isbn13)9783030984670",
+                "(doi)10.1007/978-3-030-98467-0"
+            ],
+            "publisher": "Springer International Publishing",
+            "subject": [
+                "(classificationName=ddc)005.72",
+                "Data protection.",
+                "Computer architecture.",
+                "Information retrieval.",
+                "Mobile computing.",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Mobile Forensics \u2013 The File Format Handbook : Common File Formats and File Systems Used in Mobile Devices",
+            "abstract": [
+                "This open access book summarizes knowledge about several file systems and file formats commonly used in mobile devices. In addition to the fundamental description of the formats, there are hints about the forensic value of possible artefacts, along with an outline of tools that can decode the relevant data. The book is organized into two distinct parts. First, Part I describes several different file systems that are commonly used in mobile devices: APFS is the file system that is used in all modern Apple devices including iPhones, iPads, and even Apple Computers, like the MacBook series. Ext4 is very common in Android devices and is the successor of the Ext2 and Ext3 file systems that were commonly used on Linux-based computers. The Flash-Friendly File System (F2FS) is a Linux system designed explicitly for NAND Flash memory, common in removable storage devices and mobile devices, which Samsung Electronics developed in 2012. The QNX6 file system is present in Smartphones delivered by Blackberry (e.g. devices that are using Blackberry 10) and modern vehicle infotainment systems that use QNX as their operating system. Second, Part II describes five different file formats that are commonly used on mobile devices: SQLite is nearly omnipresent in mobile devices with an overwhelming majority of all mobile applications storing their data in such databases. The second leading file format in the mobile world are Property Lists, which are predominantly found on Apple devices. Java Serialization is a popular technique for storing object states in the Java programming language. Mobile application (app) developers very often resort to this technique to make their application state persistent. The Realm database format has emerged over recent years as a possible successor to the now ageing SQLite format and has begun to appear as part of some modern applications on mobile devices. Protocol Buffers provide a format for taking compiled data and serializing it by turning it into bytes represented in decimal values, which is a technique commonly used in mobile devices. The aim of this book is to act as a knowledge base and reference guide for digital forensic practitioners who need knowledge about a specific file system or file format. It is also hoped to provide useful insight and knowledge for students or other aspiring professionals who want to work within the field of digital forensics. The book is written with the assumption that the reader will have some existing knowledge and understanding about computers, mobile devices, file systems and file formats.",
+                "Part I: Mobile File System Formats -- 1. APFS -- 2. Ext4 -- 3. The Flash-Friendly File System (F2FS) -- 4. QNX6 -- Part II: Mobile File Formats -- 5. SQLite -- 6. Property Lists -- 7. Java Serialization -- 8. Realm -- 9. Protocol Buffers."
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:139477829"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXCS",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SOB",
+                "(collectioncode)ZDB-2-SCS"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-030-98467-0",
+            "P30128": "Springer eBook Collection",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

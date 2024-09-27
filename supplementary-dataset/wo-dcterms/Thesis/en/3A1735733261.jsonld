@@ -1,0 +1,75 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1212465393",
+            "sameAs": "Ferrari, Francesco"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1735733261",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (149 Seiten)",
+            "identifier": [
+                "(ppn)1735733261",
+                "(contract)FRUB-opus-167378",
+                "(firstid)KXP:1735733261",
+                "(doi)10.6094/UNIFR/167378"
+            ],
+            "subject": [
+                "(classificationName=ddc)572.7",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Computational analysis of global and DOT1L-dependent epigenetic dynamics during in-vitro neuronal differentiation.",
+            "abstract": "Abstract: Histone modifications change greatly during cellular differentiation and contribute to define the transcriptional state and the identity of cells. Chromatin immunoprecipitation followed by sequencing (ChIP-seq) is a method of choice when studying histone modifications genome-wide. New developments of the method allow to identify local protein-DNA binding events (peaks), but also to estimate global changes in the total abundance of histone marks. RELACS (restriction enzyme based labeling of chromatin in situ ) is a high-throughput method that adopts a chromatin barcoding strategy for ultra-parallelized ChIP-seq and is compatible with global estimations of histone modification changes. In this work, we develop and test an automated version of the RELACS protocol, called AutoRELACS. We show that AutoRELACS is a viable method that streamlines ChIP-seq data generation and analysis in a semi-automated fashion, and can be used with limited amounts of biological material. We apply RELACS to an in-vitro neuronal differentiation model to study global and local histone modification changes. We discover that H3K27ac and H3K79me2 change globally during the process, in a genome-wide manner. DOT1L is the only known histone methyltransferase that mediates all three degrees of methylation of H3K79. After inhibiting the enzyme in murine embryonic stem cells (mESC) and in-vitro derived neural progenitors (NPC48h), we characterize the transcriptional and epigenetic effects of DOT1L block in the two cell types. We find that DOT1L inhibition biases the transcriptional state of NPC48h towards neuronal differentiation, inducing upregulation of genes with a poised or Polycomb repressed promoter state. We further show that DOT1L inhibition results in decreased accessibility of intronic and intergenic enhancers bound in-vivo by SOX2 and in a decreased binding of SOX2 to some probed enhancers.<br>Together, this study highlights the importance of quantifying global histone modification dynamics during differentiation, and suggests that DOT1L enzymatic activity may contribute to regulate the neuronal differentiation process by affecting critical enhancers",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1212465393",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/167378",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

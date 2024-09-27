@@ -1,0 +1,121 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:101788207X",
+            "sameAs": "Bocklitz, Thomas Wilhelm"
+        },
+        {
+            "@id": "gnd:1135597375",
+            "sameAs": "Deep learning"
+        },
+        {
+            "@id": "gnd:1276077009",
+            "sameAs": "Houhou, Rola"
+        },
+        {
+            "@id": "gnd:131701819",
+            "sameAs": "Popp, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4176916-8",
+            "sameAs": "Raman-Spektroskopie"
+        },
+        {
+            "@id": "gnd:7616461-5",
+            "sameAs": "Biophotonik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1827884649",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1827884649",
+                "(ppn)1827884649"
+            ],
+            "subject": [
+                "Maschinelles Lernen",
+                "(classificationName=linseach:mapping)che",
+                "(classificationName=bk, id=106415832)35.10 - Physikalische Chemie: Allgemeines",
+                "Bildverarbeitung",
+                "Deep learning",
+                "(classificationName=ddc-dbn)543",
+                "Datenanalyse",
+                "(classificationName=ddc-dbn)540",
+                "(classificationName=bk, id=106419218)35.25 - Spektrochemische Analyse"
+            ],
+            "title": "Inverse and forward modeling tools for biophotonic data",
+            "abstract": "Biophotonic data require specific treatments due to the difficulty of directly extracting information from them. Therefore, artificial intelligence tools including machine learning and deep learning brought into play. These tools can be grouped into inverse modeling, preprocessing and data modeling categories. In each of these three categories, one research question was investigated. First, the aim was to develop a method that can acquire the Raman-like spectra from coherent anti-Stokes Raman scattering (CARS) spectra without apriori knowledge. In general, CARS spectra suffer from the non-resonant background (NRB) contribution, and existing methods were commonly implemented to remove it. However, these methods were not able to completely remove the NRB and need additional preprocessing afterward. Therefore, deep learning via the long-short-term memory network was applied and outperformed these existing methods. Then, a denoising technique via deep learning was developed for reconstructing high-quality (HQ) multimodal images (MM) from low-quality (LQ) ones. Since the measurement of HQ MM images is time-consuming, which is impractical for clinical applications, we developed a network, namely incSRCNN, to directly predict HQ images using only LQ ones. This network shows better performance when compared with standard methods. Finally, we intended to improve the accuracy of the classification model in particular when LQ Raman data or Raman data with varying quality are obtained. Therefore, a novel method based on functional data analysis was implemented, which converts the Raman data into functions and then applies functional dimension reduction followed by a classification method. The results showed better performance for the functional approach in comparison with the classical method.",
+            "contributor": [
+                "gnd:101788207X",
+                "gnd:131701819"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1276077009"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7616461-5"
+                },
+                {
+                    "@id": "gnd:1135597375"
+                },
+                {
+                    "@id": "gnd:4176916-8"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

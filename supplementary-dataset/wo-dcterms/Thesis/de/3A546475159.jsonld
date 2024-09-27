@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4030248-9",
+            "sameAs": "Kennlinie"
+        },
+        {
+            "@id": "gnd:4057635-8",
+            "sameAs": "Stochastisches System"
+        },
+        {
+            "@id": "gnd:4189962-3",
+            "sameAs": "Windturbine"
+        },
+        {
+            "@id": "gnd:4348165-6",
+            "sameAs": "Fluktuation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A546475159",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 102 S.",
+            "creator": "Anahua, Edgar",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)546475159",
+                "(firstid)GBV:546475159"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften",
+                "(classificationName=bk, id=106410601)52.30 - Str\u00f6mungskraftmaschinen, Turbomaschinen",
+                "(classificationName=ddc)621.45",
+                "(classificationName=linseach:mapping)mas"
+            ],
+            "title": "Stochastic analysis of wind turbine power curves",
+            "abstract": [
+                "Diese Arbeit stellt eine neuartige Methode zur Bestimmung von Leistungskennlinien von Windkraftanlage auf Basis von hochfrequenten, fluktuierenden  Messdaten dar. Insbesondere wird gezeigt, wie die Antwort einer Windkraftanlage auf turbulente Windschwankungen im Sekundenbereich berechnet werden kann. Die Methode basiert auf einer stochastischen Differentialgleichung - bekannt als Langevin-Gleichung -  f\u00fcr diffusive Markovprozesse. Zun\u00e4chst wird die stochastische Leistungsabgabe in zwei Komponenten aufgeteilt: i) die deterministische Antwort einer Windkraftanlage, die die Relaxation auf die vorgegebene Regelleistung beschreibt und ii) die stochastische Kraft (Rauschen), die eine intrinsische Eigenschaft der Windenergiewandlung ist. Als Hauptergebnisse zeigen wir, dass unabh\u00e4ngig von der Turbulenzintensit\u00e4t die Leistungskennlinie genau rekonstruiert werden kann. Die Kennlinie ist dabei durch die stabilen Fixpunkte der deterministischen Dynamik gegeben. Die Methode zur Bestimmung dieser Koeffizienten aus Messdaten wird beschrieben und auf numerische Modelldaten sowie reale Leistungsdaten angewendet. Das Verfahren ist universell und nicht nur exakter als das Standardverfahren nach IEC-61400-12, sondern auch effizienter and robuster. Die stochastische Leistungsabgabe wird ausserdem mit Hilfe der 'response theory' analysiert. Um die zeitversetzte Antwort einer Windkraftanlage aus Messdaten abzuleiten, wird ein einfaches Beispiel f\u00fcr die Relaxation im Sonderfall konstanter Leistungsabgabe diskutiert. <dt.>",
+                "This work shows a novel method to characterize the wind turbine's power performance directly from high frequency fluctuating measurements. In particular we show how to evaluate dynamic responses of the wind turbine system on fluctuating wind speed in the range of seconds. The method is based on the stochastic differential equations known as the Langevin equations of diffusive Markov processes. In this analysis the fluctuating wind turbine power output is decomposed into two functions: i) the relaxation, which describes the deterministic dynamic response of the wind turbine to its desired power production; and ii) the stochastic force (noise), which is an intrinsic feature of the system of wind power conversion. As a main result we show that independently of the turbulence intensity of the wind the characteristic of the wind turbine power performance is properly reconstructed. This characteristic is given by their fixed points (steady-states) from the deterministic dynamic relaxation conditioned for given wind speed values. The method to estimate these coefficients directly from the data is presented and applied to numerical model data, as well as, to real world measured power output data. The method is universal and not only more accurate than the current standard procedure of ensemble averaging (IEC-61400-12) but it also allows a faster and robust estimation of wind turbine's power curves. In addition, the stochastic power output of a wind turbine was analyzed in the response theory. To derive the delayed response from measured data a simple example for relaxation in the special case of constant power output is discussed. <engl.>"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4189962-3",
+                "gnd:4030248-9",
+                "gnd:4348165-6",
+                "gnd:4057635-8"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

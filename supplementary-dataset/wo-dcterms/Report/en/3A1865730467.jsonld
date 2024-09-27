@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1865730467",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (46 Seiten, 688,72 KB)",
+            "creator": "Breneis, Simon",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1865730467",
+                "(doi)10.20347/WIAS.PREPRINT.3044",
+                "(ppn)1865730467"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Weak Markovian approximations of rough Heston",
+            "abstract": "The rough Heston model is a very popular recent model in mathematical finance; however, the lack of Markov and semimartingale properties poses significant challenges in both theory and practice. A way to resolve this problem is to use Markovian approximations of the model. Several previous works have shown that these approximations can be very accurate even when the number of additional factors is very low. Existing error analysis is largely based on the strong error, corresponding to the L2 distance between the kernels. Extending earlier results by [Abi Jaber and El Euch, SIAM Journal on Financial Mathematics 10(2):309\u2013349, 2019], we show that the weak error of the Markovian approximations can be bounded using the L1-error in the kernel approximation for general classes of payoff functions for European style options. Moreover, we give specific Markovian approximations which converge super-polynomially in the number of dimensions, and illustrate their numerical superiority in option pricing compared to previously existing approximations. The new approximations also work for the hyper-rough case H > \u22121/2.",
+            "alternative": "Markovian approximations",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1017122695"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3044",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3044",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

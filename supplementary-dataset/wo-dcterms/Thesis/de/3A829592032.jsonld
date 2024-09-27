@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10181818-X",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Sicherheit in Verteilten Anwendungen"
+        },
+        {
+            "@id": "gnd:1132276268",
+            "sameAs": "Gollmann, Dieter"
+        },
+        {
+            "@id": "gnd:1134988362",
+            "sameAs": "Jeske, Tobias"
+        },
+        {
+            "@id": "gnd:120071819",
+            "sameAs": "Federrath, Hannes"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A829592032",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VIII, 238 S., 4,11 MB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)829592032",
+                "(firstid)GBV:829592032"
+            ],
+            "publisher": "Techn. Univ. Hamburg-Harburg, Univ.-Bibl.",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=ddc)004: Informatik",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Sicherheit und Datenschutz in nicht-interaktiven Crowdsourcing Szenarien",
+            "abstract": [
+                "Beim nicht-interaktiven Crowdsourcing senden Endger\u00e4te einem Provider Daten in Echtzeit und ohne Benutzerinteraktion, wodurch sich Anforderungen an die Sicherheit und den Datenschutz ergeben. In dieser Arbeit werden diese Anforderungen erstmals vollst\u00e4ndig definiert und anhand von zwei Szenarien veranschaulicht. Es kann unter anderem gezeigt werden, dass bei modernen Navigationssystemen ein Benutzer-Tracking m\u00f6glich ist und Echtzeitverkehrsdaten unerkannt manipuliert werden k\u00f6nnen. Zur Vermeidung solcher Angriffe werden zwei Protokolle auf Basis von Zero-Knowledge Protokollen vorgestellt und deren Praktikabilit\u00e4t auf verschiedenen Endger\u00e4ten nachgewiesen. Die Implementierung von Zero-Knowledge Protokollen ist zeitaufwendig. Aus diesem Grund wird eine dom\u00e4nenspezifische Eingabesprache eingef\u00fchrt, um die Beschreibung von Zero-Knowledge Protokollen zu vereinfachen. Ein Compiler \u00fcbersetzt die Eingabesprache in eine beliebige Zielsprache. Dabei erfolgt die Beschreibung des Compilerzwischencodes durch spezielle Makros, wodurch bestehender C++ Code leichter als bei anderen Compilerkonzepten integriert werden kann. Auf Grund der speziellen Darstellung des Zwischencodes ist eine automatische Optimierung von rechenintensiven Langzahloperationen m\u00f6glich. Durch Grafikkarten und die Einf\u00fchrung neuer Algorithmen l\u00e4sst sich der Durchsatz an modularen Exponentiationen gegen\u00fcber einer CPU-Implementierung verzehnfachen.$cde$dAbstract",
+                "In non-interactive crowdsourcing scenarios devices send data to a provider in real-time without user interaction, which leads to security and privacy demands. This thesis completely defines and illustrates these requirements for the first time using two scenarios. Among other things, it can be shown that user tracking is possible in modern navigation systems and that real-time traffic data can be manipulated unnoticed. In order to avoid such attacks two protocols are presented on the basis of zero-knowledge protocols and their practicality is proven on different devices. The implementation of zero-knowledge protocols is time-consuming. For this reason, a domain-specific input language is introduced in order to simplify the description of zero-knowledge protocols. A compiler translates the input language into an arbitrary target language. The intermediate code of the compiler is described by special macros, which make the integration of existing C++ code easier than in other compiler concepts. Due to the special presentation of the intermediate code, an automatic optimization of compute-intensive long-number operations is possible. Compared to a CPU implementation, graphics cards and the introduction of new algorithms increase the throughput of modular exponentiations by a factor of ten.$cen$dAbstract"
+            ],
+            "contributor": [
+                "gnd:1132276268",
+                "gnd:120071819"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:10181818-X",
+                "gnd:1134988362"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

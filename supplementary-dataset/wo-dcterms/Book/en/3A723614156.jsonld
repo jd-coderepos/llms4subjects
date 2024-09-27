@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614156",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (96 Seiten)",
+            "creator": "Davis, Justin",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781598291353",
+                "(ppn)723614156",
+                "(firstid)GBV:723614156",
+                "(doi)10.2200/S00044ED1V01Y200609DCS005",
+                "(isbn)1598291351"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Digital electronics",
+                "(classificationName=loc)TK7874.7 .D38 2006",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)621.3815",
+                "Electronic digital computers",
+                "Printed circuits",
+                "Very high speed integrated circuits",
+                "Electronic books"
+            ],
+            "title": "High-Speed Digital System Design",
+            "abstract": [
+                "1. PCB planning for high-speed systems -- 1.1. Learning objectives -- 1.2. Multilayered power distribution system -- Bypass capacitors -- Layout considerations for bypass capacitors -- 1.3. Layer stacking -- Layer basics -- Embedded PCB capacitance -- Layer order -- Stacking stripes -- 1.4. Vias -- Via models -- 2. Ideal transmission lines -- 2.1. Learning objectives -- 2.2. Characteristic impedance -- Measuring characteristic impedance -- Designing for characteristic impedance -- 2.3. Propagation velocity -- 2.4. Reflections -- Bounce diagrams -- 2.5. Impedance compensation -- Load termination -- Source termination -- Power consumption -- Capacitive termination -- Differential termination -- Capacitive and inductive compensation -- 3. Realistic transmission lines -- 3.1. Learning objectives -- 3.2. Telegrapher's equations -- 3.3. RC and LC regions -- Lumped-element region -- RC region -- LC region -- 3.4. Skin effect -- Surface roughness -- Proximity effect -- 3.5. Dielectric losses -- 3.6. Compensating techniques -- Transmitter pre-emphasis -- Receiver equalization -- 3.7. Routing signals through Vias -- 4. Signal quality degradation -- 4.1. Learning objectives -- 4.2. Crosstalk in lumped-element models -- 4.3. Near-end and far-end crosstalk -- 4.4. Crosstalk in Vias -- 4.5. Crosstalk in differential signals",
+                "High-Speed Digital System Design bridges the gap from theory to implementation in the real world. Systems with clock speeds in low megahertz range qualify for high-speed. Proper design results in quality digital transmissions and lowers the chance for errors. This book is for computer and electrical engineers who may or may not have learned electromagnetic theory. The presentation style allows readers to quickly begin designing their own high-speed systems and diagnosing existing designs for errors. After studying this book, readers will be able to: Design the power distribution system for a printed circuit board to minimize noise; Plan the layers of a PCB for signals, power, and ground to maximize signal quality and minimize noise; Include test structures in the printed circuit board to easily diagnose manufacturing mistakes; Choose the best PCB design parameters such a trace width, height, and routed path to ensure the most stable characteristic impedance; Determine the correct termination to minimize reflections; Predict the delay caused by a given PCB trace; Minimize driver power consumption using AC terminations; Compensate for discontinuities along a PCB trace; Use pre-emphasis and equalization techniques to counteract lossy transmission lines; Determine the amount of crosstalk between two traces; Diagnose existing PCBs to determine the sources of errors"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598291346.pdf",
+            "volume": "#5",
+            "isLike": "doi:10.2200/S00044ED1V01Y200609DCS005",
+            "P30128": "Synthesis Lectures on Digital Circuits and Systems",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

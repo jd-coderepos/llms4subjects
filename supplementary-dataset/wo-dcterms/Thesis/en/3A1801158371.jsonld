@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1264808704",
+            "sameAs": "Pohlmann, Markus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1801158371",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Werner, Frank",
+                "Munk, Axel",
+                "Rudolph, Daniel"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1801158371",
+                "(firstid)KXP:1801158371"
+            ],
+            "subject": [
+                "Statistics",
+                "Minimax testing",
+                "Wavelets",
+                "Frame decompositions",
+                "Inverse problems",
+                "(classificationName=ddc)519.5",
+                "(classificationName=ddc-dbn)510",
+                "ARMA processes",
+                "Gaussian processes",
+                "Signal detection",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "On minimax detection of localized signals from indirect or correlated data",
+            "abstract": [
+                "This is a cumulative thesis consisting of two papers, in which we treat two problems related to the detectability of local anomalies within certain types of data. In the first paper, we suppose that a segment of a Gaussian process is observed, i.e. a random vector consisting of $n$ consecutive samples of said process. We assume that the process is stationary, except that its mean may be increased or decreased for a short period of time. We call such a short-term change in its mean a bump. Whether or not a bump in the observed segment can be detected, i.e. whether its existence can be reliab...",
+                "This is a cumulative thesis consisting of two papers, in which we treat two problems related to the detectability of local anomalies within certain types of data.In the first paper, we suppose that a segment of a Gaussian process is observed, i.e. a random vector consisting of $n$ consecutive samples of said process. We assume that the process is stationary, except that its mean may be increased or decreased for a short period of time. We call such a short-term change in its mean a bump. Whether or not a bump in the observed segment can be detected, i.e. whether its existence can be reliably inferred with high significance by a statistical test, depends on its height and its length. We suppose that the length of the bump is known, and aim to find the minimal height, that is required for detection, in an asymptotic setting, i.e. when $n\\to\\infty$. This problem is equivalent to the problem of detecting a rectangular signal of known length from noisy samples. However, in our setting, the noise is not independent. We provide the corresponding asymptotic detection boundary, i.e. we present sharp asymptotic upper and lower bounds for the minimal height that is required for reliable detection.In the second paper, we discuss  whether or not a signal can be detected, when it is known to be an element of some (known) collection of functions (for example multiples of wavelets), or a linear combinations of those functions, and when only indirect and noisy observations are available, i.e. we suppose that only the image of the signal under some linear transformation (a forward operator $A$), that is additionally corrupted by Gaussian white noise, can be observed. We discuss, under which conditions there exist tests that can reliably detect any such signal with high significance. Previously, only the detection of signals which are assumed to be composed of functions which constitute the singular value decomposition (SVD) of the operator $A$, has been analyzed. We provide asymptotic (which, in this setting, means that the variance of the added noise becomes small) as well as non-asymptotic results, and show that, under appropriate conditions, our results are asymptotically sharp.$v2022-06-27$v2022-06-27$xN$4LF"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1264808704",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

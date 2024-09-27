@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1200970764",
+            "sameAs": "Taubert, Frank"
+        },
+        {
+            "@id": "gnd:140625976",
+            "sameAs": "Kollmannsberger, Philip"
+        },
+        {
+            "@id": "gnd:172693527",
+            "sameAs": "B\u00fccker, Martin"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1684938163",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (142 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.40258",
+                "(ppn)1684938163",
+                "(firstid)KXP:1684938163"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc)571.84",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "Automatic reproducibility and parallelism for biological image analysis workflows",
+            "abstract": "Current microscopy techniques hugely profit from modern microscopes producing a massive amount of increasingly complex data which are analysed by sophisticated algorithms. As a result, previously undistinguishable phenomena can be observed. However, this development coincides with new challenges for the biologist executing these experiments. Data storage, data processing, parallelisation, automation, and reproducibility are important factors in mastering these new techniques as they incur additional effort previously of less impact for the biologists. Existing solutions address the mentioned factors separately. Image storage systems manage the storage of data, specialised tool solve individual processing problems, and workflow systems help with automation and ensure reproducibility. Finally, parallelisation is a topic that is slowly gaining traction in the field of the specialised tools. However, there exist gaps between these solutions that the biologist has to bridge by hand, and which lower the overall efficiency. This work introduces a new software, whose design considers the mentioned aspects. It is a plugin to the microscopy images storage system OMERO and is called OPE. This approach eliminates nearly all overhead the biologist faces by integrating a system covering processing, reproducibility, and parallelisation into the data storage.",
+            "contributor": [
+                "gnd:172693527",
+                "gnd:140625976"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1200970764",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.22032/dbt.40258",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1076829996",
+            "sameAs": "S\u00f6kefeld, Martin"
+        },
+        {
             "@id": "gnd:4011882-4",
             "sameAs": "Deutschland"
         },
@@ -10,17 +14,16 @@
         },
         {
             "@id": "gnd:4416719-2",
-            "sameAs": "Türkischer Einwanderer"
+            "sameAs": "T\u00fcrkischer Einwanderer"
         },
         {
             "@id": "gnd:4519498-1",
-            "sameAs": "Interkulturalität"
+            "sameAs": "Interkulturalit\u00e4t"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A865548242",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (184 Seiten)",
-            "contributor": "Sökefeld, Martin",
             "creator": "Erel, Umut",
             "identifier": [
                 "(doi)10.14361/9783839402290",
@@ -33,32 +36,37 @@
                 "Interculturalism",
                 "(classificationName=rvk)MS 3600",
                 "(classificationName=ddc)300",
-                "Kulturelle Identität",
+                "Kulturelle Identit\u00e4t",
                 "(classificationName=rvk)MS 3550",
-                "Interkulturalität",
+                "Interkulturalit\u00e4t",
                 "Social integration",
                 "BRD",
-                "Identität",
+                "Identit\u00e4t",
                 "Muslime",
                 "Culture",
                 "(classificationName=bk, id=106413678)71.52 - Kulturelle Prozesse",
-                "Ausländerpolitik",
+                "Ausl\u00e4nderpolitik",
+                "(classificationName=rvk)LC 58015",
+                "(classificationName=rvk)MH 62968",
+                "(classificationName=dbn)300",
                 "Sociology",
                 "Deutschland",
                 "Migration",
+                "(classificationName=rvk)LB 56340",
                 "Cultural Studies",
                 "(classificationName=linseach:mapping)sow",
                 "Turks",
                 "(classificationName=ddc)325/.25610943",
-                "SOCIAL SCIENCE / Emigration &amp; Immigration",
+                "SOCIAL SCIENCE / Emigration & Immigration",
+                "(classificationName=rvk)LB 48015",
                 "(classificationName=loc)HN445.5"
             ],
-            "title": "Jenseits des Paradigmas kultureller Differenz : neue Perspektiven auf Einwanderer aus der Türkei",
-            "abstract": "Zwar ist in den letzten Jahren der Konsens gewachsen, dass Deutschland ein Einwanderungsland ist, aber der Blick auf Migranten hat sich dadurch nicht wesentlich geändert. Auf der Basis des Paradigmas kultureller Differenz gelten sie nach wie vor als die Anderen, die Fremden. Doch die Fremdheit der Migranten als eine Prämisse der Debatte über Einwanderung in Deutschland verstellt den Blick für eine sehr vielfältige und gar nicht unbedingt fremde Lebenswirklichkeit. Die Beiträge dieses Bandes nun stellen diese Prämisse in Frage. Sie untersuchen, wie in den Diskursen von Gesellschaft, Politik und Wissenschaft die kulturelle Differenz vor allem der Einwanderer aus der Türkei immer wieder festgeschrieben wird und diskutieren anhand neuer theoretischer Zugänge alternative Perspektiven. Damit bereichert der Band die gegenwärtige Diskussion um Migration um notwendige innovative Positionen.",
+            "title": "Jenseits des Paradigmas kultureller Differenz : neue Perspektiven auf Einwanderer aus der T\u00fcrkei",
+            "abstract": "Zwar ist in den letzten Jahren der Konsens gewachsen, dass Deutschland ein Einwanderungsland ist, aber der Blick auf Migranten hat sich dadurch nicht wesentlich ge\u00e4ndert. Auf der Basis des Paradigmas kultureller Differenz gelten sie nach wie vor als die Anderen, die Fremden. Doch die Fremdheit der Migranten als eine Pr\u00e4misse der Debatte \u00fcber Einwanderung in Deutschland verstellt den Blick f\u00fcr eine sehr vielf\u00e4ltige und gar nicht unbedingt fremde Lebenswirklichkeit. Die Beitr\u00e4ge dieses Bandes nun stellen diese Pr\u00e4misse in Frage. Sie untersuchen, wie in den Diskursen von Gesellschaft, Politik und Wissenschaft die kulturelle Differenz vor allem der Einwanderer aus der T\u00fcrkei immer wieder festgeschrieben wird und diskutieren anhand neuer theoretischer Zug\u00e4nge alternative Perspektiven. Damit bereichert der Band die gegenw\u00e4rtige Diskussion um Migration um notwendige innovative Positionen.",
+            "contributor": "gnd:1076829996",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "isPartOf": [
                 "(collectioncode)GBV-deGruyter-alles",
-                "(collectioncode)ZDB-23-DGG",
                 "(collectioncode)ZDB-23-GOA"
             ],
             "issued": "2004",
@@ -78,6 +86,7 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -85,6 +94,10 @@
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
@@ -92,7 +105,6 @@
         "license": "http://purl.org/dc/terms/license",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "abstract": "http://purl.org/dc/terms/abstract",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "title": "http://purl.org/dc/elements/1.1/title",
         "creator": "http://purl.org/dc/elements/1.1/creator",
@@ -106,7 +118,6 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

@@ -1,8 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1248929764",
+            "sameAs": "Ethnopharmakologie"
+        },
+        {
             "@id": "gnd:4024076-9",
             "sameAs": "Heilpflanzen"
+        },
+        {
+            "@id": "gnd:4045693-6",
+            "sameAs": "Pharmazeutische Biologie"
         },
         {
             "@id": "gnd:4250192-1",
@@ -48,7 +56,9 @@
             "medium": "rda:termList/RDACarrierType/1044",
             "subject": [
                 "gnd:4250192-1",
-                "gnd:4024076-9"
+                "gnd:4045693-6",
+                "gnd:4024076-9",
+                "gnd:1248929764"
             ],
             "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1852984848.pdf",
             "P30128": "Exploring medicinal plants",
@@ -57,6 +67,7 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "license": "http://purl.org/dc/terms/license",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
@@ -65,9 +76,9 @@
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
@@ -81,7 +92,6 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

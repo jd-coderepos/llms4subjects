@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1788660145",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (37 Seiten, 1,66 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Hall, Eric",
+                "Tempone, Ra\u00fal F."
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(contract)OSR-2019-CRG8-4033-CRG8-4033",
+                "(doi)10.20347/WIAS.PREPRINT.2916",
+                "(ppn)1788660145",
+                "(firstid)KXP:1788660145"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Weak error rates for option pricing under linear rough volatility",
+            "abstract": "In quantitative finance, modeling the volatility structure of underlying assets is vital to pricing options. Rough stochastic volatility models, such as the rough Bergomi model [Bayer, Friz, Gatheral, Quantitative Finance 16(6), 887-904, 2016], seek to fit observed market data based on the observation that the log-realized variance behaves like a fractional Brownian motion with small Hurst parameter, H < 1/2, over reasonable timescales. Both time series of asset prices and option-derived price data indicate that H often takes values close to 0.1 or less, i.e., rougher than Brownian motion. This change improves the fit to both option prices and time series of underlying asset prices while maintaining parsimoniousness. However, the non-Markovian nature of the driving fractional Brownian motion in rough volatility models poses severe challenges for theoretical and numerical analyses and for computational practice. While the explicit Euler method is known to converge to the solution of the rough Bergomi and similar models, its strong rate of convergence is only H. We prove rate H + 1/2 for the weak convergence of the Euler method for the rough Stein\u2013Stein model, which treats the volatility as a linear function of the driving fractional Brownian motion, and, surprisingly, we prove rate one for the case of quadratic payoff functions. Indeed, the problem of weak convergence for rough volatility models is very subtle; we provide examples demonstrating the rate of convergence for payoff functions that are well approximated by second-order polynomials, as weighted by the law of the fractional Brownian motion, may be hard to distinguish from rate one empirically. Our proof uses Talay\u2013Tubaro expansions and an affine Markovian representation of the underlying and is further supported by numerical experiments. These convergence results provide a first step toward deriving weak rates for the rough Bergomi model, which treats the volatility as a nonlinear function of the driving fractional Brownian motion.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:1017122695"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2916",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2916",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:13284625X",
+            "sameAs": "Caiazzo, Alfonso"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A101659836X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (18 Seiten, 1.913 KB)",
+            "creator": [
+                "M\u00fcller, Lucas O.",
+                "Blanco, Pablo J."
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:101659836X",
+                "(ppn)101659836X",
+                "(doi)10.20347/WIAS.PREPRINT.2484"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS) Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Reduced-order unscented Kalman filter in the frequency domain: Application to computational hemodynamics",
+            "abstract": "Objective: The aim of this work is to assess the potential of the reduced order unscented Kalman filter (ROUKF) in the context of computational hemodynamics, in order to estimate cardiovascular model parameters when employing real patient-specific data. Methods: The approach combines an efficient blood flow solver for one-dimensional networks (for the forward problem) with the parameter estimation problem cast in the frequency space. Namely, the ROUKF is used to correct model parameter after each cardiac cycle, depending on the discrepancies of model outputs with respect to available observations properly mapped into the frequency space. Results: First we validate the filter in frequency domain applying it in the context of a set of experimental measurements for an in vitro model. Second, we perform different numerical experiments aiming at parameter estimation using patient-specific data. Conclusion: Our results demonstrate that the filter in frequency domain allows a faster and more robust parameter estimation, when compared to its time domain counterpart. Moreover, the proposed approach allows to estimate parameters that are not directly related to the network but are crucial for targeting inter-individual parameter variability (e.g., parameters that characterize the cardiac output). Significance: The ROUKF in frequency domain provides a robust and flexible tool for estimating parameters related to cardiovascular mathematical models using in vivo data.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:13284625X"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2484",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2484",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

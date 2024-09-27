@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:124748430",
+            "sameAs": "Angrist, Joshua D."
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A177599628X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": "Kolesar, Michal",
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.3386/w29417",
+                "(ppn)177599628X",
+                "(firstid)KEP:069013462"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "IV-Sch\u00e4tzung",
+                "Mikro\u00f6konometrie",
+                "Sch\u00e4tztheorie",
+                "(classificationName=linseach:automatic)mat",
+                "Kleinste-Quadrate-Methode"
+            ],
+            "title": "One Instrument to Rule Them All : The Bias and Coverage of Just-ID IV",
+            "abstract": "Two-stage least squares estimates in heavily over-identified instrumental variables (IV) models can be misleadingly close to the corresponding ordinary least squares (OLS) estimates when many instruments are weak. Just-identified (just-ID) IV estimates using a single instrument are also biased, but the importance of weak-instrument bias in just-ID IV applications remains contentious. We argue that in microeconometric applications, just-ID IV estimators can typically be treated as all but unbiased and that the usual inference strategies are likely to be adequate. The argument begins with contour plots for confidence interval coverage as a function of instrument strength and explanatory variable endogeneity. These show undercoverage in excess of 5% only for endogeneity beyond that seen even when IV and OLS estimates differ by an order of magnitude. Three widely cited microeconometric applications are used to explain why endogeneity is likely low enough for IV estimates to be reliable. We then show that an estimator that's unbiased given a population first-stage sign restriction has bias exceeding that of IV when the restriction is imposed on the data. But screening on the sign of the estimated first stage is shown to halve the median bias of conventional IV without reducing coverage. To the extent that sign-screening is already part of empirical workflows, reported IV estimates enjoy the minimal bias of sign-screened just-ID IV",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:39157-8",
+                "gnd:124748430"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w29417",
+            "isLike": "doi:10.3386/w29417",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1041898576",
-            "sameAs": "Palmié, Stephan"
+            "sameAs": "Palmi\u00e9, Stephan"
         },
         {
             "@id": "gnd:122385934",
@@ -22,52 +22,53 @@
         },
         {
             "@id": "gnd:4211565-6",
-            "sameAs": "Kulturübertragung"
+            "sameAs": "Kultur\u00fcbertragung"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1775843467",
             "@type": "bibo:Book",
             "P1053": "viii, 565 Seiten",
             "identifier": [
-                "(ppn)1775843467",
-                "(firstid)KXP:1775843467",
                 "(isbn)1912808927",
-                "(isbn13)9781912808922"
+                "(isbn13)9781912808922",
+                "(ppn)1775843467",
+                "(firstid)KXP:1775843467"
             ],
             "publisher": "HAU Books",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=loksys-fbs)Hist 3035",
-                "Anthropology",
+                "Ortiz, Fernando - 1881-1969",
+                "M\u00e9diterran\u00e9e, R\u00e9gion de la - Civilisation",
+                "(classificationName=ddc)972.9",
+                "Civilization",
                 "Mediterranean Region",
-                "Ortiz, Fernando",
-                "(classificationName=bk, id=181570874)15.88 - Mittelamerika, Südamerika",
-                "(classificationName=linseach:mapping)sow",
+                "(classificationName=loc)F1774.O78",
+                "(classificationName=bk, id=181570874)15.88 - Mittelamerika, S\u00fcdamerika",
+                "(classificationName=linseach:mapping)his",
+                "Anthropology",
                 "Caribbean Area",
-                "(classificationName=bk, id=181571846)73.79 - Ethnologie: Sonstiges",
+                "Double appartenance (Sciences sociales)",
+                "Ortiz, Fernando",
                 "(classificationName=loc)GN21",
-                "(classificationName=linseach:mapping)his"
+                "(classificationName=loksys-fbs)Hist 3035",
+                "(classificationName=bk, id=181571846)73.79 - Ethnologie: Sonstiges",
+                "(classificationName=linseach:mapping)sow",
+                "Cultural fusion",
+                "Anthropologie - Cara\u00efbes (R\u00e9gion)"
             ],
             "title": "Fernando Ortiz : Caribbean and Mediterranean counterpoints",
-            "abstract": [
-                "Cuban scholar Fernando Ortiz (1881-1969) coined the term “transculturation” in 1940. This was an early case of theory from the South: concepts developed from an explicitly peripheral epistemological vantage point, and launched as a corrective to European and North American theoretical formulations. What Ortiz proposed was a contrapuntal vision of complexly entangled processes that we, today, would conceptualize as cultural emergence.",
-                "Inspired by Ortiz, this volume engineers an unprecedented conversation between Mediterraneanist and Caribbeanist scholars. It harnesses Ortiz’s mid-20th century theoretical formulations to early 21st century issues pertinent to both regions, including migration, territorial sovereignty, and cultural diversity. The contributors explore this perspective (arguably formed during Ortiz’s youth in late 19th century Menorca) in a dialogue between scholars of the contemporary Caribbean and Mediterranean so as to enable novel analytics for both regions, and more broadly to probe the promises and limits of Ortiz’s contribution for contemporary anthropology."
-            ],
-            "contributor": [
-                "Technische Informationsbibliothek (TIB)",
-                {
-                    "@id": "gnd:1041898576"
-                }
-            ],
+            "abstract": "Fernando Ortiz (1881-1969) coined the term \"transculturation\" in 1940. This was an early case of theory from the South: concepts developed from an explicitly peripheral epistemological vantage point and launched as a corrective to European and North American theoretical formulations. What Ortiz proposed was a contrapuntal vision of complexly entangled processes that we, today, would conceptualize as cultural emergence. Inspired by Ortiz, this volume engineers an unprecedented conversation between Mediterraneanists and Caribbeanists. It harnesses Ortiz's mid-twentieth-century theoretical formulations to early twenty-first-century issues pertinent to both regions, including migration, territorial sovereignty, and cultural diversity. The contributors explore this perspective (arguably formed during Ortiz's youth in late nineteenth-century Menorca) in a dialogue between scholars of the contemporary Caribbean and Mediterranean to enable novel analytics for both regions and to more broadly to probe the promises and limits of Ortiz's contribution for contemporary anthropological research and theorizing --",
+            "contributor": "gnd:1041898576",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "issued": "2023",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
             "subject": [
-                "gnd:4074900-9",
-                "gnd:4133903-4",
-                "gnd:122385934",
                 "gnd:4073241-1",
-                "gnd:4211565-6"
+                "gnd:122385934",
+                "gnd:4211565-6",
+                "gnd:4133903-4",
+                "gnd:4074900-9"
             ],
             "P30128": "HAU books",
             "P60163": "Chicago"
@@ -76,18 +77,16 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "abstract": "http://purl.org/dc/terms/abstract",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "issued": "http://purl.org/dc/terms/issued",
-        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
@@ -96,8 +95,13 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "license": "http://purl.org/dc/terms/license",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

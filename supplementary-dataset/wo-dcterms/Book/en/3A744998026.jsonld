@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A744998026",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XI, 209 p)",
+            "creator": "Walker, Duncan Moore Henry",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)744998026",
+                "(isbn13)9781475719314",
+                "(doi)10.1007/978-1-4757-1931-4",
+                "(firstid)GBV:744998026"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer science",
+                "Computer aided design",
+                "(classificationName=linseach:mapping)rest",
+                "Computer engineering",
+                "Computer-aided engineering.",
+                "(classificationName=ddc)670.285",
+                "Electrical engineering.",
+                "(classificationName=ddc)620.00420285",
+                "(classificationName=loc)TA345-345.5"
+            ],
+            "title": "Yield Simulation for Integrated Circuits",
+            "abstract": [
+                "1. Introduction -- 2. Background -- 3. Defect Models -- 4. Defect Statistics -- 5. Fault Analysis -- 6. VLASIC Implementation -- 7. Redundancy Analysis System -- 8. Fabrication Data -- 9. Conclusions and Current Research -- References.",
+                "In the summer of 1981 I was asked to consider the possibility of manufacturing a 600,000 transistor microprocessor in 1985. It was clear that the technology would only be capable of manufacturing 100,000-200,000 transistor chips with acceptable yields. The control store ROM occupied approximately half of the chip area, so I considered adding spare rows and columns to increase ROM yield. Laser-programmed polysilicon fuses would be used to switch between good and bad circuits. Since only half the chip area would have redundancy, I was concerned that the increase in yield would not outweigh the increased costs of testing and redundancy programming. The fabrication technology did not yet exist, so I was unable to experimentally verify the benefits of redundancy. When the technology did become available, it would be too late in the development schedule to spend time running test chips. The yield analysis had to be done analytically or by simulation. Analytic yield analysis techniques did not offer sufficient accuracy for dealing with complex structures. The simulation techniques then available were very labor-intensive and seemed more suitable for redundant memories and other very regular structures [Stapper 80J. I wanted a simulator that would allow me to evaluate the yield of arbitrary redundant layouts, hence I termed such a simulator a layout or yield simulator. Since I was unable to convince anyone to build such a simulator for me, I embarked on the research myself."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "33",
+            "isLike": "doi:10.1007/978-1-4757-1931-4",
+            "P30128": "The Springer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

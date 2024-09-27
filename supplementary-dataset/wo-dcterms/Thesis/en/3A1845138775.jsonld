@@ -1,0 +1,71 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1845138775",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (79 pages)",
+            "creator": [
+                "Ng, Benny Siu Hon",
+                "Massachusetts Institute of Technology",
+                "Technology and Policy Program"
+            ],
+            "description": [
+                "illustrations (chiefly color), color maps",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1845138775",
+                "(firstid)KEP:092650678"
+            ],
+            "subject": [
+                "(classificationName=linseach:automatic)mas",
+                "Th\u00e8ses et \u00e9crits acad\u00e9miques",
+                "Academic theses"
+            ],
+            "title": "A machine learning approach to evaluating renewable energy technology : an alternative LACE study on solar photo-voltaic (PV)",
+            "abstract": "Currently, renewable technologies are often evaluated using the Levelized cost of electricity (LCOE), which is a measure of building and operating a generating plant over an assumed \ufb01nancial life and duty cycle. Naturally, instead of only measuring the cost, a more holistic approach would be to also assess the economical value of the renewable generating technology. One approach to this would be to measure the Levelized Avoided Cost of Electricity (LACE), which considers what it will cost the grid to generate electricity using renewable technology, amortized over its lifetime. However, estimating avoided cost can be challenging since it requires knowledge of how the renewable technology would perform in electricity generation, especially when taking into account a projected future period. Naturally this would have repercussions in policies adopting greater renewable technologies, further emphasising the importance of an adequate measure of evaluating renewable technology. In this thesis, we explore several methods of evaluating alternative sources of energy, with an in-depth focus on a LACE evaluation of solar PV as an alternative source of electricity generation within CAISO market. Through experimentation of di\ufb00erent variants of a recurrent neural network, an LSTM model was trained to predict 2016 electricity prices of all nodes within CAISO. The model achieved a Mean Absolute Scaled Error (MASE) of 0.761, outperforming a naive baseline using the Day-Ahead prices. Using the predicted prices, the LACE for solar PV was estimated and compared against the LACE computed with perfect knowledge of prices. Even though they had similar mean values, there was a signi\ufb01cant di\ufb00erence in the variance. The e\ufb00ects of improvements in price prediction on the LACE was further explored. We found that the smaller the di\ufb00erence in the estimated LACE to the respective LCOE value, the greater the impact of improving price prediction performance; and was able to place an implicit value of an improvement of price prediction performance. Especially for policy and decision makers, this improvement in electricity price forecasting would directly translate to greater con\ufb01dence when making the decision to switch a solar PV alternative",
+            "alternative": "Alternative LACE study on solar photo-voltaic (PV)",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-1-JSU",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "[Erscheinungsort nicht ermittelbar]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

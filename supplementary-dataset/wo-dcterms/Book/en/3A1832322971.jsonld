@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:115639349",
+            "sameAs": "Birkenstock, Eva"
+        },
+        {
             "@id": "gnd:4027503-6",
             "sameAs": "Interview"
         },
@@ -20,7 +24,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832322971",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (213 Seiten)",
-            "creator": "Birkenstock, Eva",
             "identifier": [
                 "(isbn13)9783037777688",
                 "(firstid)KEP:083873171",
@@ -31,12 +34,13 @@
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)phi",
                 "(classificationName=rvk)CC 7264",
-                "Ethics &amp; moral philosophy",
+                "Ethics & moral philosophy",
                 "(classificationName=ddc)179.7"
             ],
             "title": "Option assistierter Suizid : wann genug ist, entscheide ich",
             "abstract": "The question of whether and under what circumstances assisted suicide is not only in line with the law, but also ethically legitimate beyond the legal dimension, is controversially debated. The debate centers around the fundamental issues of freedom, self-determination, dignity, quality of life and morality. Depending on the interpretation of these values, the stance regarding assisted suicide may vary. The social context is also central: on the one hand, there is concern of an increasing pressure towards shortening fragile life in an ageing society; on the other hand, there is criticism that authorities and gatekeepers unduly restrain individual free will by restricting access. At the core of the book are forty narrative interviews with dialogue partners who have reported on their respective decision-making processes regarding the option of assisted suicide. The values that guide them are discussed, and the analysis of the interview transcripts is embedded in a larger theoretical framework. This results in a differentiated picture in which convergences, but also divergences in values and arguments, emerge. Through interviews embedded in a wider conceptual analysis, this book intends to encourage a debate on the topic as free of ideology as possible, as well as offer tools to guide the decision-making process",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:115639349",
             "isPartOf": "(collectioncode)ZDB-94-OAB",
             "issued": "2022",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
@@ -50,7 +54,7 @@
             ],
             "isLike": "doi:10.33058/seismo.30768",
             "P30128": "Penser la Suisse",
-            "P60163": "Zürich"
+            "P60163": "Z\u00fcrich"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -64,12 +68,15 @@
         "contributor": "http://purl.org/dc/terms/contributor",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "title": "http://purl.org/dc/elements/1.1/title",
         "license": "http://purl.org/dc/terms/license",

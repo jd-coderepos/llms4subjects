@@ -1,22 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "gnd:1008880-5",
-            "sameAs": "Neuseeland, Department of Scientific and Industrial Research"
-        },
-        {
-            "@id": "gnd:1018875-7",
-            "sameAs": "University of Illinois, Department of Geology"
-        },
-        {
-            "@id": "gnd:1019442-3",
-            "sameAs": "National Science Foundation, Office of Polar Programs"
-        },
-        {
-            "@id": "gnd:117124-0",
-            "sameAs": "Kokuritsu Kyokuchi Kenkyūsho, Tokio"
-        },
-        {
             "@id": "gnd:4002208-0",
             "sameAs": "Antarktis"
         },
@@ -38,16 +22,13 @@
                 "(firstid)GBV:226889998"
             ],
             "publisher": "Department of Geology, Northern Illinois University",
-            "http://purl.org/dc/elements/1.1/subject": "(classificationName=linseach:automatic)ber",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:automatic)cet",
+                "(classificationName=linseach:automatic)ber"
+            ],
             "title": "Dry Valley Drilling Project bulletin : DVDP / U.S. National Science Foundation, Office of Polar Programs ; 7: Dry Valley Drilling Project",
             "abstract": "\"Contains a statement of sample distribution policy, nine papers relating to Dry Valley Drilling Project (DVDP) research, and the program of DVDP Seminar II held in Wellington, New Zealand. Drilling from annual ice into western McMurdo Sound (DVDP 15) during the 1975-76 field season brings Phase II of DVDP to a conclusion.\"--",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
-            "creator": [
-                "gnd:1019442-3",
-                "gnd:117124-0",
-                "gnd:1008880-5",
-                "gnd:1018875-7"
-            ],
             "issued": "1976",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -61,13 +42,8 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "contributor": "http://purl.org/dc/elements/1.1/contributor",
-        "creator": {
-            "@id": "http://purl.org/dc/terms/creator",
-            "@type": "@id"
-        },
         "abstract": "http://purl.org/dc/terms/abstract",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
@@ -87,6 +63,7 @@
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "issued": "http://purl.org/dc/terms/issued",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

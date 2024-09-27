@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A751676179",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: IX Bl., 107 S., 8763 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Naumann, Felix",
+            "creator": "Lange, Dustin",
+            "identifier": [
+                "(firstid)DNB:1036314804",
+                "(ppn)751676179"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Effective and efficient similarity search in databases",
+            "abstract": "Given a large set of records in a database and a query record, similarity search aims to find all records sufficiently similar to the query record. To solve this problem, two main aspects need to be considered: First, to perform effective search, the set of relevant records is defined using a similarity measure. Second, an efficient access method is to be found that performs only few database accesses and comparisons using the similarity measure. This thesis solves both aspects with an emphasis on the latter. In the first part of this thesis, a frequency-aware similarity measure is introduced. Compared record pairs are partitioned according to frequencies of attribute values. For each partition, a different similarity measure is created: machine learning techniques combine a set of base similarity measures into an overall similarity measure. After that, a similarity index for string attributes is proposed, the State Set Index (SSI), which is based on a trie (prefix tree) that is interpreted as a nondeterministic finite automaton. For processing range queries, the notion of query plans is introduced in this thesis to describe which similarity indexes to access and which thresholds to apply. The query result should be as complete as possible under some cost threshold. Two query planning variants are introduced: (1) Static planning selects a plan at compile time that is used for all queries. (2) Query-specific planning selects a different plan for each query. For answering top-k queries, the Bulk Sorted Access Algorithm (BSA) is introduced, which retrieves large chunks of records from the similarity indexes using fixed thresholds, and which focuses its efforts on records that are ranked high in more than one attribute and thus promising candidates. The described components form a complete similarity search system. Based on prototypical implementations, this thesis shows comparative evaluation results for all proposed approaches on different real-world data sets, one of which is a large person data set from a German credit rating agency.",
+            "alternative": "Effektive und effiziente \u00c4hnlichkeitssuche in Datenbanken",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

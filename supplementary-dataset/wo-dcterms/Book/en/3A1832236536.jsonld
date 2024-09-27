@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:136191177",
+            "sameAs": "Venema, Derk"
+        },
+        {
             "@id": "gnd:4015701-5",
             "sameAs": "Europa"
         },
@@ -20,7 +24,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832236536",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (342 p.)",
-            "contributor": "Venema, Derk",
             "identifier": [
                 "(firstid)KEP:083955658",
                 "(ppn)1832236536",
@@ -28,15 +31,24 @@
             ],
             "publisher": "Amsterdam University Press",
             "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=181571013)15.24 - Zweiter Weltkrieg",
+                "(classificationName=bk, id=106413481)86.09 - Rechtsgeschichte",
                 "Second World War",
-                "Courts &amp; procedure",
-                "Political structures: totalitarianism &amp; dictatorship",
+                "(classificationName=bk, id=106416510)86.95 - Internationale Gerichtsbarkeit",
+                "Courts & procedure",
+                "Political structures: totalitarianism & dictatorship",
                 "(classificationName=ddc)940.534",
-                "(classificationName=linseach:mapping)his"
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=linseach:mapping)jur"
             ],
             "title": "Supreme Courts Under Nazi Occupation",
-            "abstract": "This is the first extensive treatment of leading judicial institutions under Nazi rule in WWII. It focusses on all democratic countries under German occupation, and provides the details for answering questions like: how can law serve as an instrument of defence against an oppressive regime? Are the courts always the guardians of democracy and rule of law? What role was there for international law? How did the courts deal with dismissals, new appointees, new courts, forced German ordinances versus national law? How did judges justify their actions, help citizens, appease the enemy, protest against injustice? Experts from all democracies that were occupied by the Nazis paint vivid pictures of oppression, collaboration, and resistance. The results are interpreted in a socio-legal framework introducing the concept of &apos;moral hygiene&apos; to explain the clash between normative and descriptive approaches in public opinion and scholarship concerning officials&apos; behaviour in war-time",
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "abstract": "This is the first extensive treatment of leading judicial institutions under Nazi rule in WWII. It focusses on all democratic countries under German occupation, and provides the details for answering questions like: how can law serve as an instrument of defence against an oppressive regime? Are the courts always the guardians of democracy and rule of law? What role was there for international law? How did the courts deal with dismissals, new appointees, new courts, forced German ordinances versus national law? How did judges justify their actions, help citizens, appease the enemy, protest against injustice? Experts from all democracies that were occupied by the Nazis paint vivid pictures of oppression, collaboration, and resistance. The results are interpreted in a socio-legal framework introducing the concept of 'moral hygiene' to explain the clash between normative and descriptive approaches in public opinion and scholarship concerning officials' behaviour in war-time",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:136191177"
+                }
+            ],
             "isPartOf": "(collectioncode)ZDB-94-OAB",
             "issued": "2023",
             "license": "open access",
@@ -62,9 +74,9 @@
         "title": "http://purl.org/dc/elements/1.1/title",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "license": "http://purl.org/dc/terms/license",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "issued": "http://purl.org/dc/terms/issued",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
         "abstract": "http://purl.org/dc/terms/abstract",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "medium": {

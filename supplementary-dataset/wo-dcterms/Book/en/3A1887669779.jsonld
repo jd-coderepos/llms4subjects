@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1166244490",
+            "sameAs": "Goldin, Jacob"
+        },
+        {
+            "@id": "gnd:1329343689",
+            "sameAs": "Wan, Jia"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1887669779",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Lu, Benjamin",
+                "Ho, Daniel E.",
+                "Ouyang, Derek"
+            ],
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)KEP:102823510",
+                "(ppn)1887669779"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "USA",
+                "Economics of Minorities, Races, Indigenous Peoples, and Immigrants; Non-labor Discrimination",
+                "Berechnung",
+                "Ethnische Diskriminierung",
+                "(classificationName=linseach:automatic)mat",
+                "Methodologie",
+                "Demographie",
+                "Sch\u00e4tzung",
+                "General"
+            ],
+            "title": "Quantifying the Uncertainty of Imputed Demographic Disparity Estimates : The Dual-Bootstrap",
+            "abstract": "Measuring average differences in an outcome across racial or ethnic groups is a crucial first step for equity assessments, but researchers often lack access to data on individuals' races and ethnicities to calculate them. A common solution is to impute the missing race or ethnicity labels using proxies, then use those imputations to estimate the disparity. Conventional standard errors mischaracterize the resulting estimate's uncertainty because they treat the imputation model as given and fixed, instead of as an unknown object that must be estimated with uncertainty. We propose a dual-bootstrap approach that explicitly accounts for measurement uncertainty and thus enables more accurate statistical inference, which we demonstrate via simulation. In addition, we adapt our approach to the commonly used Bayesian Improved Surname Geocoding (BISG) imputation algorithm, where direct bootstrapping is infeasible because the underlying Census Bureau data are unavailable. In simulations, we find that measurement uncertainty is generally insignificant for BISG except in particular circumstances; bias, not variance, is likely the predominant source of error. We apply our method to quantify the uncertainty of prevalence estimates of common health conditions by race using data from the American Family Cohort",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1329343689",
+                "gnd:39157-8",
+                "gnd:1166244490"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w32312",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

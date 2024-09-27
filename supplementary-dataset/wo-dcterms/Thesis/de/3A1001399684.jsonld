@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:142089567",
+            "sameAs": "Jager, Tibor"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1001399684",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 221 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Bl\u00f6mer, Johannes",
+            "creator": "Liske, Gennadij",
+            "identifier": [
+                "(firstid)HBZ:CT004001985",
+                "(doi)10.17619/UNIPB/1-220",
+                "(ppn)1001399684"
+            ],
+            "subject": [
+                "(classificationName=ddc)006",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "CCA-Security for predicate encryption schemes",
+            "abstract": "In dieser Dissertationsschrift werfen wir zun\u00e4chst einen kritischen Blick ausgehend vom aktuellen Stand der Forschung auf die Sicherheitsdefinitionen f\u00fcr die pr\u00e4dikatbasierten Verschl\u00fcsselungsverfahren mit \u00f6ffentlichem Index (PE) unter Angriffen mit gew\u00e4hlten Klartexten (CPA) und unter Angriffen mit gew\u00e4hlten Chiffretexten (CCA). Im Gegensatz zu den herk\u00f6mmlichen Public-Key-Verschl\u00fcsselungsverfahren (PKE) betrachten Sicherheitsdefinitionen f\u00fcr PE unter anderem betr\u00fcgerische Benutzerabsprachen. Dies ist durch ein zus\u00e4tzliches Orakel zur Generier\\-ung von Nutzerschl\u00fcsseln modelliert. Wir identifizieren drei unterschiedliche Formalisierungen f\u00fcr die Handhabung der Schl\u00fcssel in der Literatur. Implizit wurde dabei bisher angenommen, dass diese Formalisierungen zum selben Sicherheitsbegriff f\u00fchren. Im Gegensatz zu dieser Annahme zeigen wir, dass die entsprechenden Sicherheitsmodelle in zwei unterschiedlichen Sicherheitsbegriffen unter CPA und in drei unterschiedlichen Sicherheitsbegriffen unter CCA resultieren. Weiterhin, \u00e4hnlich zu den k\u00fcrzlich vorgestellten Ergebnissen f\u00fcr PKE und f\u00fcr die herk\u00f6mmlichen Key Ensapculation Mechanismen (KEM) [BHK15], analysieren wir Feinheiten in den Sicherheitsdefinitionen f\u00fcr PE und Pr\u00e4dikat-KEM (P-KEM) in Bezug auf die Bedingung, die besagt, dass die Entschl\u00fcsselung der Herausforderung nicht angefragt werden darf. W\u00e4hrend die Ergebnisse f\u00fcr PE und PKE sehr \u00e4hnlich sind, unterscheiden sich die Ergebnisse f\u00fcr P-KEM und KEM erheblich. Basierend auf dieser Analyse schlagen wir schlie\u00dflich fundierte Sicherheitsdefinitionen f\u00fcr PE und P-KEM unter verschiedenen Angriffsszenarien vor.Das Hauptresultat dieser Arbeit ist die Entwicklung eines Frameworks sowie von Techniken zur Instanziierung von effizienten, adaptiv sicheren pr\u00e4dikatbasierten .... - In this thesis we first take a critical look at established security definitions for predicate encryption with public index (PE) under chosen-plaintext attacks (CPA) and under chosen-ciphertext attacks (CCA) from the current state of research. In contrast to conventional public-key encryption (PKE), security definitions for PE have to deal with user collusion, which is modeled by an additional key generation oracle. We identify three different formalizations of user secret key handling in the literature implicitly assumed to lead to the same security notion. Contrary to this assumption, we prove that the corresponding models result in two different security notions under CPA and three different security notions under CCA. Similarly to the recent results for PKE and conventional key encapsulation mechanism (KEM) we also analyze subtleties in security definitions for PE and predicate key encapsulation mechanism (P-KEM) regarding the so-called no-challenge-decryption condition. While the results for PE and PKE are similar, the results for P-KEM significantly differ from the corresponding results for conventional KEM. As a conclusion of this investigation we suggest well-grounded security definitions for PE and P-KEM under different attack scenarios.Our main contribution is the development of a general framework and techniques to construct efficient, fully secure predicate encryption schemes with public index withstanding adaptive chosen-ciphertext attacks. We follow the so-called direct chosen-ciphertext approach known from public key encryption [BMW05] and from identity-based encryption [KG09]. The application to sophisticated predicates, as well as the generic nature of our construction, are novel for the underlying techniques. We first develop our approach and proof techniques in composite-order groups based on the recently introduced pair encoding framework ...",
+            "contributor": "gnd:142089567",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-220",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

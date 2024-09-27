@@ -14,43 +14,37 @@
             "P1053": "Online-Ressource (X, 699 S.)",
             "identifier": [
                 "(firstid)GBV:74556206X",
-                "(doi)10.1515/9783110800487",
                 "(ppn)1659425964",
-                "(isbn13)9783110800487"
+                "(isbn13)9783110800487",
+                "(doi)10.1515/9783110800487"
             ],
             "publisher": "De Gruyter",
             "subject": [
-                "(classificationName=linseach:mapping)rel",
                 "RELIGION / Judaism / General",
-                "(classificationName=ddc)296.12407",
-                "Judaism",
-                "(classificationName=ddc)296.1/2407",
+                "(classificationName=linseach:mapping)rel",
                 "(classificationName=rvk)BD 3400",
-                "(classificationName=loc)BM498.5"
+                "(classificationName=ddc)296.12407",
+                "(classificationName=ddc)296.1/2407",
+                "(classificationName=loc)BM498.5",
+                "Judaism"
             ],
             "title": "Tractate Berakhot : Edition, Translation, and Commentary",
-            "abstract": "Frontmatter -- Preface -- Contents -- INTRODUCTIONS -- Chapter 1. מאימתי -- Chapter 2. היה קוךא -- Chapter 3. מי שמתו -- Chapter 4. תפילת השתך -- Chapter 5. אין עומךין -- Chapter 6. כיעד מבךכין -- Chapter 7. שלשה שאכלו -- Chapter 8. אלו דכךיס -- Chapter 9. הךואה -- Indices -- Backmatter",
-            "contributor": "gnd:114374066",
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "abstract": "Frontmatter -- Preface -- Contents -- INTRODUCTIONS -- Chapter 1. \u05de\u05d0\u05d9\u05de\u05ea\u05d9 -- Chapter 2. \u05d4\u05d9\u05d4 \u05e7\u05d5\u05da\u05d0 -- Chapter 3. \u05de\u05d9 \u05e9\u05de\u05ea\u05d5 -- Chapter 4. \u05ea\u05e4\u05d9\u05dc\u05ea \u05d4\u05e9\u05ea\u05da -- Chapter 5. \u05d0\u05d9\u05df \u05e2\u05d5\u05de\u05da\u05d9\u05df -- Chapter 6. \u05db\u05d9\u05e2\u05d3 \u05de\u05d1\u05da\u05db\u05d9\u05df -- Chapter 7. \u05e9\u05dc\u05e9\u05d4 \u05e9\u05d0\u05db\u05dc\u05d5 -- Chapter 8. \u05d0\u05dc\u05d5 \u05d3\u05db\u05da\u05d9\u05e1 -- Chapter 9. \u05d4\u05da\u05d5\u05d0\u05d4 -- Indices -- Backmatter",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:114374066"
+                }
+            ],
             "isPartOf": [
-                "(collectioncode)PDA13ENGE",
-                "(collectioncode)PDA11SSHE",
-                "(collectioncode)PDA17SSHEE",
-                "(collectioncode)ZDB-23-GTR",
-                "(collectioncode)PDA16SSH",
                 "(collectioncode)ZDB-23-GOA",
-                "(collectioncode)PDA5EBK",
-                "(collectioncode)ZDB-23-GBA",
-                "(collectioncode)PDA1ALL",
-                "(collectioncode)EBA-SSHALL",
-                "(collectioncode)EBA-BACKALL",
-                "(collectioncode)PDA2HUM",
-                "(collectioncode)GBV-deGruyter-alles",
-                "(collectioncode)PDA2",
-                "(collectioncode)PDA14ALL",
-                "(collectioncode)PDA7ENG",
                 "(collectioncode)EBA-EBKALL",
-                "(collectioncode)ZDB-23-DGG"
+                "(collectioncode)ZDB-23-DGG",
+                "(collectioncode)ZDB-23-GTR",
+                "(collectioncode)GBV-deGruyter-alles",
+                "(collectioncode)ZDB-23-GBA",
+                "(collectioncode)EBA-BACKALL",
+                "(collectioncode)EBA-SSHALL"
             ],
             "issued": "2000",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
@@ -72,35 +66,32 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "subject": "http://purl.org/dc/elements/1.1/subject",
-        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "contributor": {
-            "@id": "http://purl.org/dc/terms/contributor",
-            "@type": "@id"
-        },
-        "issued": "http://purl.org/dc/terms/issued",
-        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "isLike": {
-            "@id": "http://umbel.org/umbel#isLike",
-            "@type": "@id"
-        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

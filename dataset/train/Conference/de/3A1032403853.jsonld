@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Digital Engineering"
+        },
+        {
+            "@id": "gnd:1168633427",
+            "sameAs": "Plauth, Max"
+        },
+        {
+            "@id": "gnd:172863961",
+            "sameAs": "Polze, Andreas"
+        },
+        {
+            "@id": "gnd:4006650-2",
+            "sameAs": "Bildung"
+        },
+        {
+            "@id": "gnd:4053474-1",
+            "sameAs": "Schule"
+        },
+        {
+            "@id": "gnd:4123065-6",
+            "sameAs": "Digitalisierung"
+        },
+        {
+            "@id": "gnd:7623494-0",
+            "sameAs": "Cloud Computing"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1032403853",
+            "@type": "bibo:Conference",
+            "P1053": "1 Online-Ressource (vii, 70 Seiten)",
+            "creator": "HPI Cloud Symposium \"Operating the Cloud\"",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1032403853",
+                "(firstid)GBV:1032403853"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "subject": [
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.6782"
+            ],
+            "title": "Proceedings of the fifth HPI Cloud Symposium \"Operating the Cloud\" 2017",
+            "abstract": [
+                "Versionsverwaltung ist unter Softwareentwicklern weit verbreitet. Sie verringert das Risiko beim \u00c4ndern der Software und erlaubt den Entwicklern verschiedene Konfigurationen zu verwalten und effizienter zusammenzuarbeiten. Dies wird durch Plattformen zum Teilen von Code wie GitHub oder Bitbucket zus\u00e4tzlich unterst\u00fctzt. Die meisten Versionsverwaltungssysteme verfolgen Dateien (z.B. Git, Mercurial und Subversion), aber manche Programmierumgebungen arbeiten nicht mit Dateien, sondern mit Objekten (viele Smalltalk-Implementierungen tun dies). Nutzer dieser Umgebungen m\u00f6chten Versionsverwaltung f\u00fcr ihre Objekte dennoch einsetzen k\u00f6nnen. Spezialisierte Versionsverwaltungssysteme, wie die f\u00fcr Smalltalk verf\u00fcgbaren (z.B. ENVY/Developer und Monticello), konzentrieren sich auf Methoden, Klassen und Konfigurationen selbiger. Andere von Benutzern definierte und konstruierte Objekte k\u00f6nnen damit oftmals gar nicht oder nur \u00fcber komplizierte Umwege erfasst werden oder es wird ein fest vorgegebenes Format zur Serialisierung verwendet, das nicht f\u00fcr alle Arten von Objekten gleicherma\u00dfen geeignet ist. Desweiteren k\u00f6nnen beliebte, bereits existierende Plattformen f\u00fcr dateibasierte Versionsverwaltung von diesen Systemen nicht verwendet werden oder Adapterl\u00f6sungen m\u00fcssen implementiert und gepflegt werden. Um die Situation von Versionsverwaltung f\u00fcr beliebige Objekte zu verbessern, stellt diese Arbeit ein Framework zum Nachverfolgen, Konvertieren und Speichern von Objekten vor. Es erlaubt Editionen von Objekten in einem austauschbaren, bestehenden Backend-Versionsverwaltungssystem zu speichern. Plattformen f\u00fcr dieses System k\u00f6nnen daher weiterbenutzt werden. Nutzer und Objekte k\u00f6nnen beeinflussen, wie Objekte zur Versionsverwaltung erfasst werden. Dom\u00e4nenspezifische Anforderungen lassen sich umsetzen. Das Speicherformat (d.h. das Dateiformat, wenn ein dateibasiertes Backend benutzt wird) kann auch von Objekt zu Objekt anders sein. Verschiedene Editionen von Objekten k\u00f6nnen verglichen und \u00c4nderungen auf Objektgraphen \u00fcbertragen werden. Ein allgemeiner Ansatz zum Erfassen und Wiederherstellen von Objekten wird beschrieben, welcher jedes Objekt als eine Ansammlung von Slots betrachtet. Dadurch k\u00f6nnen Nutzer sofort anfangen ihre Objekte zu versionieren, ohne dass sie ihre Objekte zun\u00e4chst zur Versionsverwaltung erweitern m\u00fcssen. Die vorgeschlagene Architektur wird anhand einer Prototyp-Implementierung evaluiert, die es erlaubt Objekte in Squeak/Smalltalk mit Git zu versionieren. Der Prototyp verbessert den oben beschriebenen benachteiligten Status von Benutzerobjekten im Bezug auf Versionsverwaltung und erleichtert auch manche Versionsverwaltungs-Operationen f\u00fcr Klassen und Methoden. Er f\u00f6rdert auch neue Probleme zutage, die ebenfalls in dieser Arbeit diskutiert werden. Insofern ist diese Arbeit als ein erster Schritt in Richtung vollumf\u00e4nglicher Versionsverwaltung f\u00fcr beliebige Objekte zu betrachten.",
+                "Version control is a widely used practice among software developers. It reduces the risk of changing their software and allows them to manage different configurations and to collaborate with others more efficiently. This is amplified by code sharing platforms such as GitHub or Bitbucket. Most version control systems track files (e.g., Git, Mercurial, and Subversion do), but some programming environments do not operate on files, but on objects instead (many Smalltalk implementations do). Users of such environments want to use version control for their objects anyway. Specialized version control systems, such as the ones available for Smalltalk systems (e.g., ENVY/Developer and Monticello), focus on a small subset of objects that can be versioned. Most of these systems concentrate on the tracking of methods, classes, and configurations of these. Other user-defined and user-built objects are either not eligible for version control at all, tracking them involves complicated workarounds, or a fixed, domain-unspecific serialization format is used that does not equally suit all kinds of objects. Moreover, these version control systems that are specific to a programming environment require their own code sharing platforms; popular, well-established platforms for file-based version control systems cannot be used or adapter solutions need to be implemented and maintained. To improve the situation for version control of arbitrary objects, a framework for tracking, converting, and storing of objects is presented in this report. It allows editions of objects to be stored in an exchangeable, existing backend version control system. The platforms of the backend version control system can thus be reused. Users and objects have control over how objects are captured for the purpose of version control. Domain-specific requirements can be implemented. The storage format (i.e. the file format, when file-based backend version control systems are used) can also vary from one object to another. Different editions of objects can be compared and sets of changes can be applied to graphs of objects. A generic way for capturing and restoring that supports most kinds of objects is described. It models each object as a collection of slots. Thus, users can begin to track their objects without first having to implement version control supplements for their own kinds of objects. The proposed architecture is evaluated using a prototype implementation that can be used to track objects in Squeak/Smalltalk with Git. The prototype improves the suboptimal standing of user objects with respect to version control described above and also simplifies some version control tasks for classes and methods as well. It also raises new problems, which are discussed in this report as well."
+            ],
+            "contributor": [
+                "gnd:1168633427",
+                "gnd:172863961"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:1155270444"
+            },
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7623494-0"
+                },
+                {
+                    "@id": "gnd:4123065-6"
+                },
+                {
+                    "@id": "gnd:4053474-1"
+                },
+                {
+                    "@id": "gnd:4006650-2"
+                }
+            ],
+            "volume": "Nr. 122",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Digital Engineering an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

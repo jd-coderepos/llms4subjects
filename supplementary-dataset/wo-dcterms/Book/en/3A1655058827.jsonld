@@ -9,12 +9,14 @@
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (X, 250 p, online resource)",
             "creator": "Lee, Min Ho",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
+                "(isbn13)9783540219224",
                 "(isbn13)9783540409786",
                 "(doi)10.1007/b97773",
                 "(firstid)BSZ:404646905",
-                "(ppn)1655058827"
+                "(ppn)1655058827",
+                "(isbn)3540219226"
             ],
             "publisher": "Springer Berlin Heidelberg",
             "http://purl.org/dc/elements/1.1/subject": [
@@ -23,11 +25,13 @@
                 "Algebraic geometry.",
                 "(classificationName=msc)*11F55",
                 "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
                 "(classificationName=rvk)SK 240",
                 "(classificationName=rvk)SI 850",
                 "Mathematics",
                 "Number theory",
                 "Geometry, algebraic",
+                "(classificationName=ssg)17,1",
                 "(classificationName=bk, id=106408119)31.51 - Algebraische Geometrie",
                 "(classificationName=msc)11F50",
                 "(classificationName=bk, id=106408461)31.14 - Zahlentheorie",
@@ -49,12 +53,15 @@
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": "gnd:4003972-9",
-            "tableOfContents": "https://swbplus.bsz-bw.de/bsz111589541inh.htm",
+            "tableOfContents": [
+                "http://d-nb.info/970928823/04",
+                "https://swbplus.bsz-bw.de/bsz111589541inh.htm"
+            ],
             "volume": "1845",
             "isLike": "doi:10.1007/b97773",
             "P30128": [
                 "Mathematics and Statistics",
-                "Bücher",
+                "B\u00fccher",
                 "SpringerLink",
                 "Lecture Notes in Mathematics",
                 "Springer eBook Collection"
@@ -71,14 +78,15 @@
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "issued": "http://purl.org/dc/terms/issued",
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "creator": "http://purl.org/dc/elements/1.1/creator",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "contributor": "http://purl.org/dc/terms/contributor",
         "abstract": "http://purl.org/dc/terms/abstract",
         "description": "http://purl.org/dc/elements/1.1/description",
@@ -87,13 +95,12 @@
             "@type": "@id"
         },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "volume": "http://purl.org/ontology/bibo/volume",
         "license": "http://purl.org/dc/terms/license",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "umbel": "http://umbel.org/umbel#",

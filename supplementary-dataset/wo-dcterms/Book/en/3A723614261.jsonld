@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614261",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "creator": "Tobin, Paul",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781598291612",
+                "(doi)10.2200/S00071ED1V01Y200612DCS009",
+                "(firstid)GBV:723614261",
+                "(ppn)723614261",
+                "(isbn)1598291610"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "PSpice",
+                "(classificationName=ddc)621.382",
+                "Analog electronic systems",
+                "(classificationName=linseach:mapping)elt",
+                "Electronic books",
+                "Telecommunication systems",
+                "(classificationName=loc)TK5102.5 .T59 2007"
+            ],
+            "title": "PSpice for Analog Communications Engineering",
+            "abstract": [
+                "In PSpice for Analog Communications Engineering we simulate the difficult principles of analog modulation using the superb free simulation software Cadence Orcad PSpice V10.5. While use is made of analog behavioral model parts (ABM), we use actual circuitry in most of the simulation circuits. For example, we use the 4-quadrant multiplier IC AD633 as a modulator and import real speech as the modulating source and look at the trapezoidal method for measuring the modulation index. Modulation is the process of relocating signals to different parts of the radio frequency spectrum by modifying certain parameters of the carrier in accordance with the modulating/information signals. In amplitude modulation, the modulating source changes the carrier amplitude, but in frequency modulation it causes the carrier frequency to change (and in phase modulation it's the carrier phase). The digital equivalent of these modulation techniques are examined in PSpice for Digital Communications Engineering, where we look at QAM, FSK, PSK and variants. We examine a range of oscillators and plot Nyquist diagrams showing the marginal stability of these systems. The superhetrodyne principle, the backbone of modern receivers is simulated using discrete components followed by simulating complete AM and FM receivers. In this exercise we examine the problems of matching individual stages",
+                "Amplitude modulation techniques -- Baseband to passband -- The communications channel -- Amplitude modulation -- AM generation: Method 1 -- AM using analog behavioral models: Method 2 -- AM generation: Method 3 -- Power in an AM signal -- Transmission efficiency -- Trapezoidal method: Speech-modulated DSBFC AM signal -- Spectrum of speech-modulated AM signal -- The four-quadrant AD633 multiplier IC -- Linear amplitude modulator -- Multiplying, squaring, and frequency doubling -- Exercises -- AM diode detection and four-quadrant multipliers -- AM detection -- Precision rectifier -- Diagonal clipping distortion -- Choice of time constant -- Automatic gain control -- Probe log command -- Double-sideband suppressed carrier -- Double-balanced modulator -- Coherent detection -- DSBSC production using four-quadrant multipliers -- DSBSC demodulation -- Exercises -- System stability, Nyquist criterion -- Nyquist criterion -- JFET Colpitts oscillator -- The feedback network -- Closed-loop testing -- The output file -- The oscillator output -- Hartley oscillator -- Quartz crystal and equivalent circuits -- Quartz crystal response -- CMOS Colpitts crystal oscillator -- Phase-shift oscillator -- Gain and phase margins -- Nyquist plot -- Nyquist diagram and oscillators -- Exercises -- Superhetrodyne amplitude modulation receivers -- Nonlinear mixing -- JFET nonlinear mixer circuit -- Mixer output -- Superhetrodyning -- Image frequency -- Superhetrodyning and image frequencies -- AM Superhetrodyne receiver -- The input/mixer stage -- The local oscillator: Arithmetic selectivity -- JFET-tuned radio frequency amplifier -- RF-tuned amplifier measurements -- Measuring the output impedance of an RF amplifier -- AC equivalent circuit -- BJT bandpass amplifier -- Tuning capacitance -- Diode detection and automatic gain control -- Power amplifier stage -- Audio output signals -- RF signals -- Speech scrambling -- Exercises -- Frequency modulation principles -- Modulation index -- FM spectrum -- FM production using the VSFFM generator part -- Power in an FM signal -- Varactor diode -- FM oscilloscope display -- FM preemphasis and deemphasis -- FM stereo generation -- FM baseband stereo signals -- Replacing ABM parts with circuitry -- FM stereo reception -- Exercises -- Superhetrodyne frequency modulation receivers -- FM Superhetrodyne receiver -- Mixer stage -- Coupled-tuned RF amplifiers -- Double-tuned intermediate RF amplifier -- Automatic gain control -- The phase-lock loop detector -- PLL compensation -- The lock and capture range -- ABM phase-locked loop -- Frequency demodulation -- Receiver waveforms -- Exercises -- Noise -- Sources of noise -- Noise factor and noise figure -- Defriis' formula -- Common emitter amplifier -- The output file -- Probe expression commands -- The \"(if, then, else)\" command -- Importing noise -- Adding noise to the input signal -- Exercises -- Appendix A -- References"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598291605.pdf",
+            "volume": "#9",
+            "isLike": "doi:10.2200/S00071ED1V01Y200612DCS009",
+            "P30128": "Synthesis Lectures on Digital Circuits and Systems",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

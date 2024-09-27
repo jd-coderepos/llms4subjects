@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1286176166",
+            "sameAs": "Nick, J\u00f6rg Alexander"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1842544306",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (v, 159 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1842544306",
+                "(doi)10.15496/publikation-80448",
+                "(ppn)1842544306"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)515.353",
+                "Wellenausbreitung",
+                "Randelemente-Methode",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Wave scattering from nontrivial boundary conditions",
+            "abstract": [
+                "Die vorliegende Arbeit untersucht numerische Verfahren zur Simulation von akustischen und elektromagnetischen Wellen im Kontext von zeitabh\u00e4ngingen Streuproblemen, die an eine nichttriviale Randbedingung gekoppelt werden. Eine Vielzahl solcher Randbedingungen sind in der Praxis von Interesse, insbesondere wenn mehrere physikalische Skalen involviert sind. Effektive Randbedingungen beinhalten Modelle f\u00fcr d\u00fcnne Schichten auf reflektierenden Materialien, oder beschreiben das Verhalten eines stark absorbierenden Mediums. Motiviert durch diese Anwendungen, behandelt die vorliegende Arbeit drei Klassen von Randbedingungen: 1. akustische Streuprobleme mit einer abstrakten, linearen Randbedingung, die neben den beschriebenen Anwendungen auch akustische Randbedingungen beinhaltet; 2. elektromagnetische Streuprobleme mit einer abstrakten linearen Randbedingung; 3. elektromagnetische Streuprobleme mit einer nichtlinearen Randbedingung. Zur Bearbeitung dieser Problemstellungen werden, basierend auf Repr\u00e4sentationsformeln, zeit-abh\u00e4ngige Randintegralgleichungen hergeleitet. Diese Gleichungen sind vollst\u00e4ndig auf dem Rand des Streuobjekts formuliert und \u00e4quivalent zum urspr\u00fcnglichen Streuproblem. Essenzielle Eigenschaften der zugrunde liegenden zeitabh\u00e4ngigen Randintegraloperatoren und Repr\u00e4sentationsformeln werden mithilfe von Transmissionsproblemen gezeigt. Mithilfe dieser fundamentalen Resultate wird die Wohlgestelltheit der Randintegralgleichungen hergeleitet, womit die Wohlgestelltheit der jeweiligen Randwertprobleme insgesamt gezeigt wird. Die Randintegralgleichungen werden in der Zeit durch Faltungsquadraturen basierend auf den Radau IIA Runge--Kutta Methoden diskretisiert. Die Stabilit\u00e4t der Semi-Diskretisierungen folgen aus den fundamentalen Eigenschaften der Randintegraloperatoren und allgemeinen Eigenschaften der Faltungsquadraturen. Komplementiert wird die Zeitdiskretisierung mit der Randelementmethode im Raum, um Volldiskretisierungen zu konstruieren, deren L\u00f6sungen effektiv berechnet werden k\u00f6nnen. Die resultierenden Verfahren berechnen in einem ersten Schritt die numerischen L\u00f6sungen auf dem Rand. Anschlie\u00dfend k\u00f6nnen die Approximationen durch diskrete Repr\u00e4sentationsformeln an beliebigen Punkten im Gebiet ausgewertet werden. Fehleranalysen leiten Konvergenzraten f\u00fcr die numerischen Approximationen her. Die Notation der Behandlung der linearen Randbedingungen f\u00fcr akustische und elektromagnetische Wellen wurde entsprechend angepasst, sodass Gemeinsamkeiten und Unterschiede herausgestellt werden. F\u00fcr die nichtlinearen Randbedingungen wird eine Fehleranalyse mithilfe neuer Techniken basierend auf diskreten Transmissionsproblemen durchgef\u00fchrt. Alle numerischen Verfahren wurden implementiert und mit verschiedenen Parametern und Gittern getestet. Empirische Konvergenzraten illustrieren und komplementieren die theoretischen Ergebnisse. Visualisierungen der numerischen Approximationen zeigen den Nutzen der untersuchten Verfahren.",
+                "This dissertation studies the numerical approximation of time-dependent acoustic and electromagnetic wave scattering problems in the presence of non-standard boundary conditions. Of particular interest is the numerical treatment of generalized impedance boundary conditions, effective models that approximate the wave-material interaction of partially penetrable obstacles. Classical applications of such boundary conditions are the scattering of highly absorbing materials and perfectly reflecting obstacles with a thin coating. Moreover, acoustic boundary conditions are discussed in the context of the acoustic wave equation. Finally, a class of nonlinear boundary conditions is covered in the context of electromagnetic scattering. Formulated on the time domain, these boundary conditions contain surface differential operators and temporal convolution operators. The resulting boundary value problems on exterior domains are reformulated to retarded boundary integral equations, which are themselves nonlocal in time and space, but fully formulated on the boundary. Several new fundamental properties of the time-harmonic classical potential operators and boundary operators for the acoustic wave equation and the Maxwell's equations are shown, in particular in view of their temporal counterparts. These theoretical results are the necessary preparations for the subsequent numerical analysis of these problems. To derive numerical methods, the boundary integral equations are then discretized in time and space. The temporal discretization is carried out using the Runge--Kutta convolution quadrature method. Fully discrete schemes are derived by combining the time discretization with appropriate boundary element methods in space. Error bounds with specific convergence rates are shown for all boundary conditions. The presentation of the linear boundary conditions is focused on emphasizing the similarities and differences of the acoustic and the electromagnetic settings. The error analysis for the nonlinear scattering problem substantially differs from the analysis of the linear boundary conditions and several new concepts are necessary to overcome the difficulties arising through the nonlinearity of the corresponding boundary integral equation. Numerical experiments illustrate the theoretical results and investigate practical aspects of the proposed methods."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1286176166",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-80448",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

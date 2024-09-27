@@ -1,12 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1333052502",
+            "sameAs": "Richter, Dietmar"
+        },
+        {
             "@id": "gnd:2120681-8",
-            "sameAs": "Universität Potsdam"
+            "sameAs": "Universit\u00e4t Potsdam"
         },
         {
             "@id": "gnd:4017396-3",
-            "sameAs": "Flächennutzung"
+            "sameAs": "Fl\u00e4chennutzung"
         },
         {
             "@id": "gnd:4270905-2",
@@ -16,14 +20,13 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A527139432",
             "@type": "bibo:Thesis",
             "P1053": "90 Seiten",
-            "http://purl.org/dc/elements/1.1/creator": "Richter, Dietmar",
             "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(firstid)GBV:527139432",
                 "(ppn)527139432",
                 "(isbn13)9783939469643"
             ],
-            "publisher": "Universitätsverlag Potsdam",
+            "publisher": "Universit\u00e4tsverlag Potsdam",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)geo",
                 "(classificationName=rvk)RP 50636",
@@ -32,10 +35,13 @@
                 "Geschichte 1988-2000",
                 "(classificationName=bk, id=106411675)74.19 - Europa"
             ],
-            "title": "Flächennutzungswandel in Tirana : Untersuchungen anhand von Landsat TM, Terra ASTER und GIS",
-            "abstract": "Die Zuwanderung nach Tirana führte im Verlauf der 1990er Jahre zu einem enormen Flächenverbrauch auf Kosten landwirtschaftlicher Flächen im Umland der albanischen Hauptstadt. Im Rahmen der vorliegenden Arbeit wird die Entwicklung des rasanten Flächenverbrauchs mit computergestützten Methoden dokumentiert. Grundlage der Untersuchung bilden zwei zu unterschiedlichen Zeitpunkten (1988 und 2000) aufgenommene Satellitenszenen, mit Hilfe derer eine Änderungsanalyse durchgeführt wird. Ziel der Änderungsanalyse ist es, den Flächennutzungswandel zu analysieren, Daten zu generieren und die Ergebnisse in geeigneter Weise zu visualisieren. Zu den protagonistischen Verfahren der Änderungsanalyse zählen sowohl die Maximum-Likelihood Klassifikation sowie ein wissensbasierter Klassifizierungsansatz. Die Ergebnisse der Änderungsanalyse werden in Änderungskarten dargestellt und mittels einer GIS-Software statistisch ausgewertet.",
+            "title": "Fl\u00e4chennutzungswandel in Tirana : Untersuchungen anhand von Landsat TM, Terra ASTER und GIS",
+            "abstract": "Die Zuwanderung nach Tirana f\u00fchrte im Verlauf der 1990er Jahre zu einem enormen Fl\u00e4chenverbrauch auf Kosten landwirtschaftlicher Fl\u00e4chen im Umland der albanischen Hauptstadt. Im Rahmen der vorliegenden Arbeit wird die Entwicklung des rasanten Fl\u00e4chenverbrauchs mit computergest\u00fctzten Methoden dokumentiert. Grundlage der Untersuchung bilden zwei zu unterschiedlichen Zeitpunkten (1988 und 2000) aufgenommene Satellitenszenen, mit Hilfe derer eine \u00c4nderungsanalyse durchgef\u00fchrt wird. Ziel der \u00c4nderungsanalyse ist es, den Fl\u00e4chennutzungswandel zu analysieren, Daten zu generieren und die Ergebnisse in geeigneter Weise zu visualisieren. Zu den protagonistischen Verfahren der \u00c4nderungsanalyse z\u00e4hlen sowohl die Maximum-Likelihood Klassifikation sowie ein wissensbasierter Klassifizierungsansatz. Die Ergebnisse der \u00c4nderungsanalyse werden in \u00c4nderungskarten dargestellt und mittels einer GIS-Software statistisch ausgewertet.",
             "contributor": "Technische Informationsbibliothek (TIB)",
-            "creator": "gnd:2120681-8",
+            "creator": [
+                "gnd:2120681-8",
+                "gnd:1333052502"
+            ],
             "issued": "2007",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -52,7 +58,6 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -82,6 +87,7 @@
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "description": "http://purl.org/dc/elements/1.1/description",
         "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

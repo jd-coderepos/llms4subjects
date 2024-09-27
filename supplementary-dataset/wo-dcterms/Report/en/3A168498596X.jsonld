@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042154953",
+            "sameAs": "Merdon, Christian"
+        },
+        {
+            "@id": "gnd:1172078904",
+            "sameAs": "Gallou\u00ebt, Thierry"
+        },
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A168498596X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 460 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Ga\u00dfmann, Almut",
+                "Akbas, Mine"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)168498596X",
+                "(firstid)KXP:168498596X",
+                "(doi)10.20347/WIAS.PREPRINT.2641"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "A gradient-robust well-balanced scheme for the compressible isothermal Stokes problem",
+            "abstract": "A novel notion for constructing a well-balanced scheme \u2014 a gradient-robust scheme \u2014 is introduced and a showcase application for a steady compressible, isothermal Stokes equations is presented. Gradient-robustness means that arbitrary gradient fields in the momentum balance are well-balanced by the discrete pressure gradient \u2014 if there is enough mass in the system to compensate the force. The scheme is  asymptotic-preserving in the sense that it degenerates for low Mach numbers to a recent inf-sup stable and pressure-robust discretization for the incompressible Stokes equations. The convergence of the coupled FEM-FVM scheme for the nonlinear, isothermal Stokes equations is proved by compactness arguments. Numerical examples illustrate the numerical analysis, and show that the novel approach can lead to a dramatically increased accuracy in nearly-hydrostatic low Mach number flows. Numerical examples also suggest that a straight-forward extension to barotropic situations with nonlinear equations of state is feasible.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:134253523",
+                "gnd:1042154953",
+                "gnd:1172078904"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2641",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2641",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A859340783",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (140 Seiten)",
+            "creator": "Westkott, Maren",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:859340783",
+                "(ppn)859340783"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Neuronal Models of Motor Sequence Learning in the Songbird",
+            "abstract": [
+                "Communication of complex content is an important ability in our everyday life. For communication to be possible, several requirements need to be met: The individual communicated to has to learn to associate a certain meaning with a given sound. In the brain, this sound is represented as a spatio-temporal pattern of spikes, which will thus have to be associated with a different spike pattern representing its meaning. In this thesis, models for associative learning in spiking neurons are introduced in chapters 6 and 7. There, a new biologically plausible learning mechanism is proposed, where a property of the neuronal dynamics - the hyperpolarization of a neuron after each spike it produces - is coupled with a homeostatic plasticity mechanism, which acts to balance inputs into the neuron. In chapter 6, the mechanism used is a version of spike timing dependent plasticity (STDP), a property that was experimentally observed: The direction and amplitude of synaptic change depends on the precise timing of pre- and postsynaptic spiking activity. This mechanism is applied to associative learning of output spikes in response to purely spatial spiking patterns. In chapter 7, a new learning rule is introduced, which is derived from the objective of a balanced membrane potential. This learning rule is shown to be equivalent to a version of STDP and applied to associative learning of precisely timed output spikes in response to spatio-temporal input patterns. The individual communicating has to learn to reproduce certain sounds (which can be associated with a given meaning). To that end, a memory of the sound sequence has to be formed. Since sound sequences are represented as sequences of activation patterns in the brain, learning of a given sequence of spike patterns is an interesting problem for theoretical considerations Here, it is shown that the biologically plausible learning mechanism introduced for associative learning enables recurrently coupled networks of spiking neurons to learn to reproduce given sequences of spikes. These results are presented in chapter 9. Finally, the communicator has to translate the sensory memory into motor actions that serve to reproduce the target sound. This process is investigated in the framework of inverse model learning, where the learner learns to invert the action-perception cycle by mapping perceptions back onto the actions that caused them. Two different setups for inverse model learning are investigated: In chapter 5, a simple setup for inverse model learning is coupled with the learning algorithm used for Perceptron learning in chapter 6 and it is shown that models of the sound generation and perception process, which are non-linear and non-local in time, can be inverted, if the width of the distribution of time delays of self-generated inputs caused by an individual motor spike is not too large. This limitation is mitigated by the model introduced in chapter 8. Both these models have experimentally testable consequences, namely a dip in the autocorrelation function of the spike times in the motor population of the duration of the loop delay, i.e. the time it takes for a motor activation to cause a sound and thus a sensory activation and the time that this sensory activation takes to be looped back to the motor population. Furthermore, both models predict neurons, which are active during the sound generation and during the passive playback of the sound with a time delay equivalent to the loop delay. Finally, the inverse model presented in chapter 8 additionally predicts mirror neurons without a time delay. Both types of mirror neurons have been observed in the songbird [GKGH14, PPNM08], a popular animal model for vocal imitation learning.",
+                "Neurons, pattern classification, songbird, mirror neuron, inverse model, perceptron, chronotron, sequence learning, learning, spike-timing dependent plasticity."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

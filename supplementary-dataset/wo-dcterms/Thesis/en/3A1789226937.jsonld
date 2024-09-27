@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120963205",
+            "sameAs": "Meinel, Christoph"
+        },
+        {
+            "@id": "gnd:1251515223",
+            "sameAs": "Torcato Mordido, Goncalo Filipe"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1789226937",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxxiii, 148 Seiten, 32212 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Martins, Andr\u00e9",
+                "Sudderth, Erik"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-53546",
+                "(firstid)KXP:1789226937",
+                "(ppn)1789226937"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.31",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Diversification, compression, and evaluation methods for generative adversarial networks",
+            "abstract": "Generative adversarial networks (GANs) have been broadly applied to a wide range of application domains since their proposal. In this thesis, we propose several methods that aim to tackle different existing problems in GANs. Particularly, even though GANs are generally able to generate high-quality samples, the diversity of the generated set is often sub-optimal. Moreover, the common increase of the number of models in the original GANs framework, as well as their architectural sizes, introduces additional costs. Additionally, even though challenging, the proper evaluation of a generated set is an important direction to ultimately improve the generation process in GANs. We start by introducing two diversification methods that extend the original GANs framework to multiple adversaries to stimulate sample diversity in a generated set. Then, we introduce a new post-training compression method based on Monte Carlo methods and importance sampling to quantize and prune the weights and activations of pre-trained neural networks without any ...",
+            "contributor": "gnd:120963205",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1251515223",
+                "gnd:2120681-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-53546",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

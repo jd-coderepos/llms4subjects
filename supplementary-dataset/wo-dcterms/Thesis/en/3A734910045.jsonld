@@ -13,10 +13,14 @@
             "sameAs": "Bahnplanung"
         },
         {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universit\u00e4tsverlag Ilmenau"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A734910045",
             "@type": "bibo:Thesis",
             "P1053": "Online-Ressource (PDF-Datei: 92 S., 895,3 KB)",
-            "creator": "Bezák, Pavol",
+            "http://purl.org/dc/elements/1.1/creator": "Bez\u00e1k, Pavol",
             "description": "Ill., graph. Darst.",
             "identifier": [
                 "(firstid)GBV:734910045",
@@ -32,6 +36,7 @@
             "title": "Using motion planning and genetic algorithms in movement optimization of industrial robots",
             "abstract": "The issues of path and trajectory planning algorithms and optimization of industrial manipulator trajectory generation are still not completely solved due to their variability and increasing complexity with the growing number of robot degrees of freedom. Generation of an optimal trajectory can be solved in several ways, such as traditional numeric and more recent approaches, which include evolutionary algorithms and genetic algorithms within them. The first chapter is devoted to a brief overview of path planning methods, especially in mobile robots. The second chapter deals with a more detailed overview of robot path planning methods in continuous and discrete environments. The third chapter describes the most popular motion planning algorithms. The fourth chapter is dedicated to genetic algorithms which we used as an optimization method. The fifth chapter focuses on optimal robot motion control and optimization methods using genetic algorithms as the method for an industrial manipulator control. The next chapter contains a solution and its implementation in support software, as well as the experimental verification of the results. The last chapter evaluates the results and their benefits.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:7635051-4",
             "issued": "2012",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "open access",
@@ -51,12 +56,15 @@
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "contributor": "http://purl.org/dc/terms/contributor",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "license": "http://purl.org/dc/terms/license",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "abstract": "http://purl.org/dc/terms/abstract",

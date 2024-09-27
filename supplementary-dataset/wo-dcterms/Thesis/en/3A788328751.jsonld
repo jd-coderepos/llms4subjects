@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A788328751",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIII, 163 S., 6182 KB)",
+            "creator": "Rogge-Solti, Andreas",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)DNB:1050597265",
+                "(ppn)788328751"
+            ],
+            "publisher": "Univ.-Verl.",
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "Stochastischer Prozess",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=ddc)658.500285",
+                "Prozessmanagement",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Probabilistic estimation of unobserved process events",
+            "abstract": "Organizations try to gain competitive advantages, and to increase customer satisfaction. To ensure the quality and efficiency of their business processes, they perform business process management. An important part of process management that happens on the daily operational level is process controlling. A prerequisite of controlling is process monitoring, i.e., keeping track of the performed activities in running process instances. Only by process monitoring can business analysts detect delays and react to deviations from the expected or guaranteed performance of a process instance. To enable monitoring, process events need to be collected from the process environment. When a business process is orchestrated by a process execution engine, monitoring is available for all orchestrated process activities. Many business processes, however, do not lend themselves to automatic orchestration, e.g., because of required freedom of action. This situation is often encountered in hospitals, where most business processes are manually enacted. Hence, in practice it is often inefficient or infeasible to document and monitor every process activity. Additionally, manual process execution and documentation is prone to errors, e.g., documentation of activities can be forgotten. Thus, organizations face the challenge of process events that occur, but are not observed by the monitoring environment. These unobserved process events can serve as basis for operational process decisions, even without exact knowledge of when they happened or when they will happen. An exemplary decision is whether to invest more resources to manage timely completion of a case, anticipating that the process end event will occur too late. This thesis offers means to reason about unobserved process events in a probabilistic way. We address decisive questions of process managers (e.g., \"when will the case be finished?\", or \"when did we perform the activity that we forgot to document?\") in this thesis. As main contribution, we introduce an advanced probabilistic model to business process management that is based on a stochastic variant of Petri nets. We present a holistic approach to use the model effectively along the business process lifecycle. Therefore, we provide techniques to discover such models from historical observations, to predict the termination time of processes, and to ensure quality by missing data management. We propose mechanisms to optimize configuration for monitoring and prediction, i.e., to offer guidance in selecting important activities to monitor. An implementation is provided as a proof of concept. For evaluation, we compare the accuracy of the approach with that of state-of-the-art approaches using real process data of a hospital. Additionally, we show its more general applicability in other domains by applying the approach on process data from logistics and finance.",
+            "alternative": [
+                "probabilistische Absch\u00e4tzung unbeobachteter Prozessereignisse",
+                "Probabilistische Absch\u00e4tzung Unbeobachteter Prozessereignisse"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

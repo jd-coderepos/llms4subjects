@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:128808438",
+            "sameAs": "Brinkmann, Andr\u00e9"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A663239125",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (Online-Ressource)",
+            "creator": "Effert, Sascha",
+            "identifier": [
+                "(ppn)663239125",
+                "(firstid)HBZ:CT004000028"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.5"
+            ],
+            "title": "Verfahren zur redundanten Datenplatzierung in skalierbaren Speichernetzen",
+            "abstract": "Moderne Datenzentren sind mit einer rasant wachsenden Menge an Daten konfrontiert, welche sie mit immer h\u00f6herer Geschwindigkeit hochverf\u00fcgbar speichern m\u00fcssen. Daher brauchen sie Speichersysteme, welche mit ihren Anforderungen wachsen. Zunehmend werden dazu Speichernetze eingesetzt, in welchen Datenserver einen virtuellen Speicher \u00fcber Festplatten erzeugen. Dabei ist die Last des virtuellen Speichers so zu verteilen, dass die physikalischen Festplatten optimal genutzt werden. Um Ausf\u00e4lle kompensieren zu k\u00f6nnen ist es n\u00f6tig, Daten redundant zu speichern. Die Verfahren zur Datenverteilung m\u00fcssen diesen Anforderungen gerecht werden. Einen wichtigen Beitrag liefern hier pseudorandomisierte Hashfunktionen. Innerhalb dieser Arbeit gehe ich auf verschiedene Speichersysteme ein. Speziell untersuche ich Speichernetze, welche aus Datenservern mit lokalen Festplatten bestehen. F\u00fcr diese zeige ich, wie sie bei verschiedenen Arten der Datenverteilung skalieren. Leider wird keines der betrachteten Speichersysteme allen Anforderungen gerecht. Als L\u00f6sung stelle ich das Verfahren Redundant Share vor, welches alle Anforderungen erf\u00fcllt. Mittels Redundant Share kann eine beliebige Anzahl an Kopien der Daten des virtuellen Speichers wie gefordert verteilt werden. Gleichzeitig erfordert das Hinzuf\u00fcgen neuer Festplatten einen begrenzten Aufwand. Abschlie\u00dfend vermesse ich eine Implementierung von Redundant Share und vergleiche die Ergebnisse mit anderen Verteilern.. - Modern data centers are faced with a rapidly growing amount of data which they have to keep highly available with increasing performance. Therefore they need storage systems, which grow with the demands. Storage networks are more and more used in this area. In such systems data servers create a virtual storage on top of a number of physical hard disks. Therefore the load of the virtual storage has to be distributed in a way that the physical disks are used in an optimal way. It is also important to store all data with redundancies to be able to compensate broken hardware. The algorithms used for data distribution have to solve all these demands. Pseudo randomized hash functions have a big impact in this area. In this dissertation I describe different storage systems. I take a closer look at storage networks with data servers using directly attached hard disks. For these I show how they scale using different kinds of data distribution. Unfortunately none of the described storage systems solves all demands. As a solution I introduce Redundant Share which solves all demands. Using Redundant Share it is possible to distribute an arbitrary number of copies of each piece of data using each hard disk in an optimal way according its capacity. Moreover adding a new physical hard disk ends up in a bounded effort. I perorate with this dissertation by measuring an implementation of Redundant Share and by comparing the results with other distribution algorithms.",
+            "alternative": "Strategies for redundant data placement in scaleable storage networks",
+            "contributor": [
+                "gnd:128808438",
+                "gnd:110026063"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

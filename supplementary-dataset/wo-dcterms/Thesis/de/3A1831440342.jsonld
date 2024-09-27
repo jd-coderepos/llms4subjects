@@ -5,6 +5,14 @@
             "sameAs": "Stackmann, Sophie"
         },
         {
+            "@id": "gnd:135814480",
+            "sameAs": "Herold, Stephanie"
+        },
+        {
+            "@id": "gnd:173203175",
+            "sameAs": "Vinken, Gerhard"
+        },
+        {
             "@id": "gnd:4011455-7",
             "sameAs": "Denkmalpflege"
         },
@@ -37,8 +45,16 @@
             "sameAs": "Kultur"
         },
         {
+            "@id": "gnd:4196468-8",
+            "sameAs": "Ambivalenz"
+        },
+        {
             "@id": "gnd:4200793-8",
-            "sameAs": "Kollektives Gedächtnis"
+            "sameAs": "Kollektives Ged\u00e4chtnis"
+        },
+        {
+            "@id": "gnd:4249063-7",
+            "sameAs": "Integrit\u00e4t"
         },
         {
             "@id": "gnd:4309943-9",
@@ -63,12 +79,11 @@
                 "(firstid)DNB:1277488037",
                 "(doi)10.1515/9783839464939"
             ],
-            "publisher": "transcript Verlag",
+            "publisher": "transcript",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=linseach:mapping)meda",
                 "ART / Museum Studies",
+                "(classificationName=linseach:mapping)rest",
                 "World Heritage Site",
-                "(classificationName=linseach:mapping)sow",
                 "Memory Culture",
                 "(classificationName=ddc-dbn)610",
                 "Cultural Management",
@@ -76,18 +91,24 @@
                 "Cultural Heritage",
                 "Heritage Conservation",
                 "Discourse",
+                "(classificationName=rvk)LH 60310",
                 "Cultural Policy",
                 "Values",
-                "(classificationName=linseach:mapping)pae",
+                "(classificationName=rvk)LB 35000",
+                "(classificationName=bk, id=106406310)20.15 - Restaurierung, Konservierung, F\u00e4lschung",
                 "(classificationName=ddc)612.82",
                 "Culture",
                 "Historical Preservation",
                 "(classificationName=ddc-dbn)612.82",
                 "Conservation"
             ],
-            "title": "Integrität und kulturelles Erbe : das Bedürfnis nach Unversehrtheit und Eindeutigkeit in den Denkmalwissenschaften",
-            "abstract": "Obwohl ein Erbe der Vergangenheit niemals vollständig Teil der Gegenwart sein kann, gibt es das allgegenwärtige Bedürfnis nach einer materiellen oder ideellen Kohärenz von Erbe - beispielsweise, um eine Identität zu definieren. Aus diesem Paradoxon entsteht ein permanenter Konflikt zwischen der Vieldeutigkeit kulturellen Erbes und einer Sehnsucht nach Eindeutigkeit, Kontrolle und Ganzheit, die sich mit dem Begriff der Integrität umschreiben lässt. Sophie Stackmann untersucht erstmals systematisch das Integritäts-Verständnis in Diskursen um Denkmalschutz, kulturelles Erbe und Welterbe. Dabei diskutiert sie auch den grundlegenden Konflikt im Umgang mit kulturellem Erbe",
-            "contributor": "Technische Informationsbibliothek (TIB)",
+            "title": "Integrit\u00e4t und kulturelles Erbe : das Bed\u00fcrfnis nach Unversehrtheit und Eindeutigkeit in den Denkmalwissenschaften",
+            "abstract": "Obwohl ein Erbe der Vergangenheit niemals vollst\u00e4ndig Teil der Gegenwart sein kann, gibt es das allgegenw\u00e4rtige Bed\u00fcrfnis nach einer materiellen oder ideellen Koh\u00e4renz von Erbe \u2013 beispielsweise, um eine Identit\u00e4t zu definieren. Aus diesem Paradoxon entsteht ein permanenter Konflikt zwischen der Vieldeutigkeit kulturellen Erbes und einer Sehnsucht nach Eindeutigkeit, Kontrolle und Ganzheit, die sich mit dem Begriff der Integrit\u00e4t umschreiben l\u00e4sst. Sophie Stackmann untersucht erstmals systematisch das Integrit\u00e4ts-Verst\u00e4ndnis in Diskursen um Denkmalschutz, kulturelles Erbe und Welterbe. Dabei diskutiert sie auch den grundlegenden Konflikt im Umgang mit kulturellem Erbe.",
+            "contributor": [
+                "gnd:135814480",
+                "gnd:173203175"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:1179791924",
             "isPartOf": [
                 "(collectioncode)GBV-deGruyter-alles",
@@ -111,12 +132,15 @@
                 "gnd:4200793-8",
                 "gnd:4125698-0",
                 "gnd:4011455-7",
+                "gnd:4249063-7",
                 "gnd:4309943-9",
+                "gnd:4196468-8",
                 "gnd:4012475-7"
             ],
-            "volume": "3",
+            "tableOfContents": "https://d-nb.info/1263315895/04",
+            "volume": "Band 3",
             "isLike": "doi:10.1515/9783839464939",
-            "P30128": "Cultural Heritage Studies",
+            "P30128": "Cultural heritage studies",
             "P60163": "Bielefeld"
         }
     ],
@@ -125,6 +149,10 @@
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
         },
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
@@ -142,14 +170,14 @@
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "title": "http://purl.org/dc/elements/1.1/title",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "volume": "http://purl.org/ontology/bibo/volume",
         "license": "http://purl.org/dc/terms/license",
         "issued": "http://purl.org/dc/terms/issued",
-        "contributor": "http://purl.org/dc/terms/contributor",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"

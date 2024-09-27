@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122220870",
+            "sameAs": "Schoof, Heiko"
+        },
+        {
+            "@id": "gnd:1261080505",
+            "sameAs": "Fischer, Axel"
+        },
+        {
+            "@id": "gnd:129841110",
+            "sameAs": "Walther, Dirk"
+        },
+        {
+            "@id": "gnd:132123444",
+            "sameAs": "Knoop, Volker"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1807912477",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 122 Seiten, 8212 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1807912477",
+                "(firstid)KXP:1807912477",
+                "(doi)10.25932/publishup-54900"
+            ],
+            "subject": [
+                "(classificationName=ddc)576.5",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "Investigating the impact of genomic compartments contributing to non-Mendelian inheritance based on high throughput sequencing data",
+            "abstract": "More than a century ago the phenomenon of non-Mendelian inheritance (NMI), defined as any type of inheritance pattern in which traits do not segregate in accordance with Mendel\u2019s laws, was first reported. In the plant kingdom three genomic compartments, the nucleus, chloroplast, and mitochondrion, can participate in such a phenomenon. High-throughput sequencing (HTS) proved to be a key technology to investigate NMI phenomena by assembling and/or resequencing entire genomes. However, generation, analysis and interpretation of such datasets remain challenging by the multi-layered biological complexity. To advance our knowledge in the field of NMI, I conducted three studies involving different HTS technologies and implemented two new algorithms to analyze them. In the first study I implemented a novel post-assembly pipeline, called Semi-Automated Graph-Based Assembly Curator (SAGBAC), which visualizes non-graph-based assemblies as graphs, identifies recombinogenic repeat pairs (RRPs), and reconstructs plant mitochondrial genomes (PMG) in a semiautomated workflow. We applied this pipeline to assemblies of three Oenothera species resulting in a spatially folded and circularized model. This model was confirmed by PCR and Southern blot analyses and was used to predict a defined set of 70 PMG isoforms. With Illumina Mate Pair and PacBio RSII data, the stoichiometry of the RRPs was determined quantitatively differing up to three-fold. [...]",
+            "alternative": "Untersuchungen zum Einfluss genomischer Kompartimente auf Nicht-Mendelsche Vererbung unter Nutzung von Hochdurchsatz-Sequenzierungsdaten",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129841110"
+                },
+                {
+                    "@id": "gnd:132123444"
+                },
+                {
+                    "@id": "gnd:122220870"
+                }
+            ],
+            "creator": [
+                "gnd:1261080505",
+                "gnd:2120681-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-54900",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

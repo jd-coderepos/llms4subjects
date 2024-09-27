@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723616752",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (102 Seiten)",
+            "creator": [
+                "Chen, Tsuhan",
+                "Zhang, Cha"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn)1598290770",
+                "(ppn)723616752",
+                "(firstid)GBV:723616752",
+                "(doi)10.2200/S00035ED1V01Y200606IVM006",
+                "(isbn13)9781598290776"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Electronic books",
+                "Computer graphics",
+                "Computer vision",
+                "Radiosity",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=ddc)621.36",
+                "Signal processing",
+                "(classificationName=loc)T385 .Z43 2006"
+            ],
+            "title": "Light Field Sampling",
+            "abstract": [
+                "Light field is one of the most representative image-based rendering techniques that generate novel virtual views from images instead of 3D models. The light field capture and rendering process can be considered as a procedure of sampling the light rays in the space and interpolating those in novel views. As a result, light field can be studied as a high-dimensional signal sampling problem, which has attracted a lot of research interest and become a convergence point between computer graphics and signal processing, and even computer vision. This lecture focuses on answering two questions regarding light field sampling, namely how many images are needed for a light field, and if such number is limited, where we should capture them. The book can be divided into three parts. First, we give a complete analysis on uniform sampling of IBR data. By introducing the surface plenoptic function, we are able to analyze the Fourier spectrum of non-Lambertian and occluded scenes. Given the spectrum, we also apply the generalized sampling theorem on the IBR data, which results in better rendering quality than rectangular sampling for complex scenes. Such uniform sampling analysis provides general guidelines on how the images in IBR should be taken. For instance, it shows that non-Lambertian and occluded scenes often require a higher sampling rate. Next, we describe a very general sampling framework named freeform sampling. Freeform sampling handles three kinds of problems: sample reduction, minimum sampling rate to meet an error requirement, and minimization of reconstruction error given a fixed number of samples. When the to-be-reconstructed function values are unknown, freeform sampling becomes active sampling. Algorithms of active sampling are developed for light field and show better results than the traditional uniform sampling approach. Third, we present a self-reconfigurable camera array that we developed, which features a very efficient algorithm for real-time rendering and the ability of automatically reconfiguring the cameras to improve the rendering quality. Both are based on active sampling. Our camera array is able to render dynamic scenes interactively at high quality. To the best of our knowledge, it is the first camera array that can reconfigure the camera positions automatically",
+                "The light field -- Light field spectral analysis -- Light field uniform sampling -- The free form sampling framework -- Light field active sampling -- The self-reconfigurable camera array -- Conclusions and futurework"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)H-ZDB-105-MCS",
+                "(collectioncode)H-ZDB-4-NLEBK"
+            ],
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598290769.pdf",
+            "volume": "#6",
+            "isLike": "doi:10.2200/S00035ED1V01Y200606IVM006",
+            "P30128": "Synthesis Lectures on Image, Video, and Multimedia Processing",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

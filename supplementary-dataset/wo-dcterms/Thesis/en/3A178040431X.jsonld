@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1246374250",
+            "sameAs": "Bukenberger, Dennis R."
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A178040431X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 196 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-61783",
+                "(ppn)178040431X",
+                "(firstid)KXP:178040431X"
+            ],
+            "subject": [
+                "(classificationName=ddc)518",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Maverick meshing methods",
+            "abstract": [
+                "The digital representation of real-world objects is a classical challenge in computer graphics, most commonly approached with either modeling or, where our focus lies, reconstructing the object from a scan. The information collected during a non-intrusive 3D scan of an object usually gets stored in the form of a point cloud. This loose set of three-dimensional positions only implies the geometry of the sampled surface. There is an established collection of different techniques and approaches to actually recover a closed hull from this kind of information. However, many of those methods still struggle under certain circumstances, produce artifacts, lack detail, or come with other drawbacks. Our goal is to explore this challenge in novel and unconventional ways rather than increment on existing research. This thesis is based on four main contributions, each presenting valuable additions to the state-of-the-art in their individual fields. Our first surface meshing procedure is able to produce pure quad-meshes with adaptive resolution and feature-aligned structures. In contrast to other standard methods, ours does not require frame-fields, parameterization, or even normal information; a simple unoriented point cloud is already sufficient as input. A hierarchical space partitioning structure is utilized to cluster meaningful neighborhoods of the point cloud and interconnect them with quadrangular tiles, using a bottom-up algorithm. Volume meshing procedures usually require at least a surface and some kind of auxiliary input like frame-fields, parameterized mappings, sometimes even handcrafted split planes, singularity graphs, or annotated feature edges. Our hex-meshing pipeline is able to skip the surface precomputation step and reconstruct hex-dominant volume meshes directly from point clouds, and naturally also from surfaces if given. Furthermore, our procedure introduces a novel generalized mesh class, called at-most-hexa meshes: It constrains the meshes to only feature hexahedral or smaller primitives but no general, larger, and arbitrarily shaped polyhedra as it is common in other hex-dominant meshes. A fundamental part of this volume meshing procedure is properly aligning hexahedral cells within the given volume, using a Lloyd relaxation under the L-Infinity norm. Our third contribution allows us to analytically formulate the L-Infinity energy within a cell of the before mentioned relaxation procedure, using tetrahedral geometry extended with a density domain. Moreover, we propose various other application scenarios of tetrahedral meshes under linearly varying density; like analyzing, optimizing, and even 3D printing such geometry with altered mass properties. The fourth contribution introduces another installment of a meshing technique in a rather classical sense, focused on accurate surface reconstructions with fine details, sharp features, and an overall high mesh uniformity. This is realized using a growing mesh complex: Starting from a small trivial initialization mesh or a rough approximation of the target, the mesh progressively assimilates towards the target hull, which can be given as a volumetric function, mesh or point cloud. Furthermore, we show how this method can be adapted to improve the reconstruction accuracy of other meshing pipelines, exemplarily demonstrated on our own quad- and hex-meshed results. Due to the common origin and related fields of research, we first draw the links between the individually proposed contributions in introductory background sections. Each technique is described and discussed in a dedicated chapter but eventually concluded with a joint discussion on future improvements and achieved results.",
+                "Die digitale Abbildung von Objekten aus der realen Welt ist eine zentrale Herausforderung in der Computergrafik. Dabei wird h\u00e4ufig mit Modellierung gearbeitet, oder aber mit der Rekonstruktion von 3D-Abtastungen, worauf der Fokus dieser Arbeit liegt. F\u00fcr gew\u00f6hnlich werden die Daten, die durch eine nicht-invasive 3D-Abtastung des Objekts erfasst werden, in Form einer Punktwolke gespeichert. Diese lose Menge an dreidimensionalen Positionen stellt die Geometrie der abgetasteten Oberfl\u00e4che nur implizit dar. Es existiert bereits eine Vielzahl etablierter Verfahren und Methoden, um geschlossene Oberfl\u00e4chen aus dieser Art der Darstellung zu rekonstruieren. Allerdings haben viele dieser Verfahren auch Schwachstellen: Sie scheitern unter bestimmten Bedingungen, die Ergebnisse beinhalten Artefakte oder es mangelt an Details in der Rekonstruktion. Unser erkl\u00e4rtes Ziel ist es, diese Herausforderung auf noch unbetretenen Wegen anzugehen, ohne uns durch bereits existierende Forschung den Blick f\u00fcr bessere L\u00f6sungen tr\u00fcben zu lassen. So basiert diese Dissertation auf vier Beitr\u00e4gen, die grundlegenden Neuerungen zum aktuellsten Stand der jeweiligen Forschungsbereiche darstellen. Unser erstes Verfahren zur Rekonstruktion einer soliden Objekth\u00fclle ist in der Lage, Oberfl\u00e4chennetze zu erstellen, die sich allein aus viereckigen Elementen zusammensetzen. Diese Netze haben eine adaptive Aufl\u00f6sung, welche auf der Abtastdichte der Punktwolke basiert, w\u00e4hrend sich der Netzfluss entsprechend an der Auspr\u00e4gung bestimmter Objektdetails orientiert. Im Kontrast zu anderen g\u00e4ngigen Verfahren ben\u00f6tigt unseres f\u00fcr die Rekonstruktion keine Orientierungsfelder, Parametrisierungen oder Normalen-Information; eine einfache unorientierte Punktwolke gen\u00fcgt bereits als Eingabe. Daf\u00fcr wird eine hierarchische Raum-Partitionierungsstruktur verwendet, welche die Punktwolke in kleine, zweckm\u00e4\u00dfige Regionen aufteilt und als solche b\u00fcndelt. Jeweils vier davon werden zu einer viereckigen Kachel zusammengefasst. Diese Kacheln werden dann der Hierarchie entlang von unten nach oben miteinander verbunden, was letztendlich zu einer komplett geschlossenen Oberfl\u00e4che f\u00fchrt. Verfahren zur Erstellung von Netzstrukturen f\u00fcr Volumina setzen neben der standardm\u00e4\u00dfigen H\u00fclle oft noch weitere Eingabedaten voraus, wie Orientierungsfelder, parametrisierte funktionale Abbildungen, manchmal sogar manuell erstellte Trennebenen, Singularit\u00e4tsgraphen oder markierte Objektkanten. Unser Volumennetzverfahren ist dabei in der Lage, die Oberfl\u00e4chenvorberechnung zu \u00fcberspringen und Hexaeder-Netze direkt von einer Punktwolke zu rekonstruieren, nat\u00fcrlich aber auch von einer Oberfl\u00e4che, falls diese verf\u00fcgbar ist. Des Weiteren f\u00fchren wir mit diesem Verfahren eine neue generalisierte Netzform ein, die sogenannten H\u00f6chstens-Hexaeder-Netze. Dabei wird das Netz auf Primitive beschr\u00e4nkt, die maximal einem Hexaeder entsprechen oder topologisch kleiner sind. Auf diese Weise enth\u00e4lt es keine generellen und beliebigen Polyeder, wie es in anderen Hexaeder-dominierten Netzen der Fall ist. Ein fundamentaler Schritt im Verfahren zur Erstellung dieser Volumennetze ist es, die Hexaeder aneinander, aber auch an der gegebenen Eingabeform, auszurichten. Daf\u00fcr wird Lloyds Algorithmus, ein iteratives Optimierungsverfahren, in Kombination mit der L-Unendlich-Norm verwendet. Die dritte Hauptkomponente der vorliegenden Arbeit befasst sich explizit mit dem Energieterm einer Zelle, den es in einer solchen L-Unendlich-Optimierung zu minimieren gilt. Daf\u00fcr werden die Zellen in einzelne Tetraeder zerlegt, um selbige sodann durch eine weitere Dimension f\u00fcr Dichte zu erweitern. Dies erm\u00f6glicht es letztendlich, die L-Unendlich-Energie analytisch zu formulieren und geometrische Schwerpunkte entsprechend herzuleiten. Dar\u00fcber hinaus zeigen wir, wie es gelingen kann, Masseneigenschaften mit Tetraeder-Geometrie unter variabler Dichte exakt zu bestimmen. Auf diese Weise k\u00f6nnen parametrisierte Dichtefelder nun auch so optimiert werden, dass bei gleichbleibender Geometrie gew\u00fcnschte Masseneigenschaften erreicht werden. Dies wird unter anderem an einem 3D-gedruckten Bauteil mit optimierten Rotationseigenschaften demonstriert. Das vierte vorgestellte Verfahren bezieht sich wieder auf die urspr\u00fcngliche Herausforderung, eine Punktwolke m\u00f6glichst akkurat zu rekonstruieren. Besondere Anforderungen an Genauigkeit gelten hierbei den sehr feinen Oberfl\u00e4chendetails, scharfen Kanten und einer allgemein hohen Netz-Uniformit\u00e4t. Dieses hohe Ma\u00df an Pr\u00e4zision wird durch eine wachsende Netzstruktur erreicht: Ausgehend von einer trivialen Startform oder groben Approximation des Zielobjekts, beginnt sich das Netz progressiv der Zielh\u00fclle anzun\u00e4hern. Das zu rekonstruierende Objekt kann hierbei als volumetrische Funktion, Oberfl\u00e4chennetz oder Punktwolke angegeben werden. Diese Methode ist zudem daf\u00fcr geeignet, Verbesserungen an bereits bestehenden Rekonstruktionen vorzunehmen, was wir an Beispielen unserer eigenen Vierecks- und Hexaeder-Netze experimentell aufzeigen. In der Einf\u00fchrung dieser Arbeit erl\u00e4utern wir zun\u00e4chst den thematischen Zusammenhang der einzelnen technischen Verfahren und gehen vertiefend auf die dazu ben\u00f6tigten theoretischen Grundlagen ein. In den darauffolgenden Kapiteln werden jeweils ein Verfahren, die Motivation dahinter sowie die damit erreichten Ergebnisse detailliert behandelt. Abschlie\u00dfend werden m\u00f6gliche Weiterentwicklungen und der gesamtwissenschaftlichen Beitrag dieser Arbeit nochmals zusammenfassend zu diskutieren."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1246374250",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-61783",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

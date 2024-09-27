@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A745227961",
+            "@type": "bibo:Book",
+            "P1053": "11 S.",
+            "creator": [
+                "Staelin, Carl",
+                "Garcia-Molina, Hector"
+            ],
+            "description": "28 cm",
+            "identifier": [
+                "(firstid)GBV:745227961",
+                "(ppn)745227961"
+            ],
+            "publisher": "Princeton Univ., Dep. of Computer Science",
+            "subject": [
+                "Computer storage devices",
+                "Computer files",
+                "(classificationName=linseach:automatic)elt",
+                "(classificationName=linseach:automatic)inf"
+            ],
+            "title": "File system design using large memories",
+            "abstract": [
+                "We outline the design of the iPcress File System which uses both a large disk cache and other techniques to improve file system performance. Preliminary performance numbers for iPcress are also presented",
+                "Abstract: \"Over the last few years tremendous strides have been made in CPU performance, but without corresponding strides in I/O performance. Consequently, operating systems must be redesigned to minimize the impact of the I/O bottleneck. Memory is becoming cheaper and may be effectively used to improve I/O performance, but more sophisticated methods than simple demand caching may exist to make caching more effective. Analysis of file use in current file systems has shown the existence of file access patterns which may be exploited to provide better I/O performance. Using experimental data we show file activity is fairly stable over time and we show what implications this has for file system design"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "volume": "90,246",
+            "P30128": "CS-TR",
+            "P60163": "Princeton, NJ"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

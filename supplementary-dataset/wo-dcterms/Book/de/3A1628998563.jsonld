@@ -2,11 +2,11 @@
     "@graph": [
         {
             "@id": "gnd:10095502-2",
-            "sameAs": "Walter de Gruyter GmbH &amp; Co. KG"
+            "sameAs": "Walter de Gruyter GmbH & Co. KG"
         },
         {
             "@id": "gnd:102446055X",
-            "sameAs": "Schwarz, André"
+            "sameAs": "Schwarz, Andr\u00e9"
         },
         {
             "@id": "gnd:120010518",
@@ -14,11 +14,31 @@
         },
         {
             "@id": "gnd:123410436",
-            "sameAs": "Süselbeck, Jan"
+            "sameAs": "S\u00fcselbeck, Jan"
         },
         {
             "@id": "gnd:173620078",
-            "sameAs": "Schuster, Jörg"
+            "sameAs": "Schuster, J\u00f6rg"
+        },
+        {
+            "@id": "gnd:4031883-7",
+            "sameAs": "Kommunikation"
+        },
+        {
+            "@id": "gnd:4035964-5",
+            "sameAs": "Literatur"
+        },
+        {
+            "@id": "gnd:4036020-9",
+            "sameAs": "Literaturkritik"
+        },
+        {
+            "@id": "gnd:4074272-6",
+            "sameAs": "Literarisches Leben"
+        },
+        {
+            "@id": "gnd:4113292-0",
+            "sameAs": "Deutsch"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1628998563",
@@ -33,10 +53,11 @@
                 "(isbn13)9783110541434"
             ],
             "publisher": "De Gruyter",
-            "subject": [
+            "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)lit",
                 "(classificationName=linseach:mapping)lin",
                 "(classificationName=bk, id=106422162)17.75 - Literaturkritik",
+                "Geschichte 1770-2015",
                 "Geschichte 1750-2015",
                 "(classificationName=bk, id=181571706)17.91 - Literatursoziologie",
                 "(classificationName=bk, id=106405403)18.00 - Einzelne Sprachen und Literaturen allgemein",
@@ -53,7 +74,7 @@
                 "(classificationName=rvk)GE 3111"
             ],
             "title": "Transformationen literarischer Kommunikation : Kritik, Emotionalisierung und Medien vom 18. Jahrhundert bis heute",
-            "abstract": "Der Band untersucht Transformationen literarischer Kommunikationsprozesse vom 18. bis ins frühe 21. Jahrhundert. Das Augenmerk gilt den unterschiedlichen Medien und intermedialen Konstellationen literarischer Kommunikation sowie Fragen der Kritik, der Wertung und der Emotionalisierung. Neben Literatur- und KulturwissenschaftlerInnen kommen auch AkteurInnen aus Feuilleton und Hypertextliteratur zu Wort.",
+            "abstract": "Der Band untersucht Transformationen literarischer Kommunikationsprozesse vom 18. bis ins fr\u00fche 21. Jahrhundert. Das Augenmerk gilt den unterschiedlichen Medien und intermedialen Konstellationen literarischer Kommunikation sowie Fragen der Kritik, der Wertung und der Emotionalisierung. Neben Literatur- und KulturwissenschaftlerInnen kommen auch AkteurInnen aus Feuilleton und Hypertextliteratur zu Wort.",
             "contributor": [
                 "gnd:173620078",
                 "gnd:123410436",
@@ -66,6 +87,13 @@
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4113292-0",
+                "gnd:4035964-5",
+                "gnd:4031883-7",
+                "gnd:4036020-9",
+                "gnd:4074272-6"
+            ],
             "tableOfContents": "https://d-nb.info/1127002600/04",
             "volume": "Band 58",
             "P30128": "spectrum Literaturwissenschaft",
@@ -79,7 +107,10 @@
             "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
         },
-        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "description": "http://purl.org/dc/elements/1.1/description",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "issued": "http://purl.org/dc/terms/issued",

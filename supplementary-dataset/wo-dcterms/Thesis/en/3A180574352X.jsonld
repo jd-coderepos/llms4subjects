@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1259003175",
+            "sameAs": "Xiao, Bo"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A180574352X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 155 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-56882",
+                "(ppn)180574352X",
+                "(firstid)KXP:180574352X"
+            ],
+            "subject": [
+                "(classificationName=ddc)551.577",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo",
+                "Hydrogeologie"
+            ],
+            "title": "Three-dimensional non-multi-gaussian simulation of hydraulic conductivity including multiple types of information",
+            "abstract": "Standard geostatistical methods in hydrogeology assume a multi-Gaussian distribution of the log-hydraulic conductivity (K), implying that intermediate values are well connected, embedding isolated zones of high and low values. Two datasets of hydraulic conductivity K from the MAcroDispersion Experiment (MADE) site in Columbus, Mississippi, are analyzed, one measured by direct-push injection-logging (DPIL) at 31,123 observation points in 58 vertical profiles and the other by flowmeter profiling at 2611 observation points in 67 wells. The analysis is performed using copula techniques that do not rely on the assumption of multivariate Gaussianity and provide a means to characterize differing degrees of spatial dependence in different quantiles of the K distribution. This characterization provides better insights into the similarities and differences between the two datasets. In addition to the marginal distributions and two-point geostatistical measures, copula-based bivariate rank correlation and asymmetry measures are analyzed and compared. Furthermore, the parameter estimates obtained by likelihood estimation using n-point theoretical models are analyzed. This analysis confirms the similarity of the spatial dependence of K between the two datasets in terms of their marginal distributions and bivariate measures, particularly in the vertical direction. Clear indications of non-multi-Gaussian spatial dependence structures of K are found at this site. The estimation of the K distribution can be improved by taking into account either non-Gaussianity or a censoring threshold, which are expected to lead to a more realistic description of processes that depend on K. A framework to generate K-field is used that allows non-multi-Gaussian dependence using the multi-objective phase-annealing (PA) method. One objective is to mimic the \u201casymmetry\u201d of the measured K that indicates the degree of non-Gaussianity. The K-field at the MADE site is mimicked using both DPIL and flowmeter datasets for conditioning. The differences in data quality between the datasets are considered. As the mean and variance of the two datasets differ, the K fields are conditioned on the measured values of the flowmeter dataset and the order within the DPIL dataset. The degree of non-Gaussianity is quantified by the asymmetry of the copula, which is accounted for in the three-dimensional conditioning procedure using the spectral phase-annealing method. The impacts of including as much information as possible in the conditioning procedure on key solute-transport characteristics are analyzed using the comparison between the non-multiGaussian method with multi-Gaussian geostatistical approaches. As a transport metric, the one- and two-particle spatial moments of solute plumes and the associated dispersivities resulting from particle-tracking random-walk simulations are considered. The non-multi-Gaussian models generate preferential flow paths that lead to a stronger correlation of velocity at large separation distances and consequently larger dispersivities in comparison to the (quasi) multi-Gaussian models. A better match between modeled and measured solute transport behavior is obtained when asymmetry is included in the geostatistical model for K.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1259003175"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-56882",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

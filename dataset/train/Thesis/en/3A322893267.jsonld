@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4030102-3",
+            "sameAs": "Kausalit\u00e4t"
+        },
+        {
+            "@id": "gnd:4130847-5",
+            "sameAs": "Synchronisierung"
+        },
+        {
+            "@id": "gnd:4209015-5",
+            "sameAs": "Monitoring"
+        },
+        {
+            "@id": "gnd:4238872-7",
+            "sameAs": "Verteiltes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A322893267",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (105 S., 1185 KB)",
+            "contributor": "Rabenseifner, Rolf",
+            "identifier": [
+                "(firstid)GBV:322893267",
+                "(ppn)322893267"
+            ],
+            "publisher": "Univ.",
+            "subject": "(classificationName=linseach:automatic)elt",
+            "title": "Die geregelte logische Uhr, eine globale Uhr f\u00fcr die tracebasierte \u00dcberwachung paralleler Anwendungen",
+            "abstract": "Event tracing and monitoring of the program flow and the message exchanges of parallel applications are difficult if each processor has its own unsynchronized clock. A survey of several strategies to generate a global time is given, and the limits are discussed. The controlled logical clock is presented. It is a new method based on Lamport's logical clock and provides a method to modify inexact timestamps of tracefiles. The new timestamps guarantee the clock condition, i.e. that the receive event of a message has a later timestamp than the send event. With the control algorithm an approximation of the maximum of all local processor clocks is used as global time. The corrected timestamps can also be used for performance measurements with pairs of events in different processes. A piecewise linear backward amortisation of the clock corrections guarantees a minimal error for measurements of time intervals between events in the same process. No additional protocol overhead is needed for the new method while tracing the application. The method can be implemented as a filter for tracefiles or it can be integrated into monitor and debug tools for parallel applications.",
+            "alternative": "The controlled logical clock, a global clock for trace-based monitoring of parallel applications",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4209015-5"
+                },
+                {
+                    "@id": "gnd:4130847-5"
+                },
+                {
+                    "@id": "gnd:4030102-3"
+                },
+                {
+                    "@id": "gnd:4238872-7"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

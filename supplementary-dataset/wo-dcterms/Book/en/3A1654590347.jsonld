@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1249359767",
+            "sameAs": "S\u00f8gaard, Anders"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1654590347",
+            "@type": "bibo:Book",
+            "P1053": "Online Ressource (1 electronic text (x, 93 p.))",
+            "description": [
+                "ill., digital file.",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781608459865",
+                "(ppn)1654590347",
+                "(isbn13)9781608459858",
+                "(firstid)BSZ:424941287"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=ddc)006.35",
+                "(classificationName=linseach:mapping)inf",
+                "Natural language processing (Computer science)",
+                "(classificationName=loc)QA76.9.N38",
+                "Supervised learning (Machine learning)",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Semi-supervised learning and domain adaptation in natural language processing",
+            "abstract": "This book introduces basic supervised learning algorithms applicable to natural language processing (NLP) and shows how the performance of these algorithms can often be improved by exploiting the marginal distribution of large amounts of unlabeled data. One reason for that is data sparsity, i.e., the limited amounts of data we have available in NLP. However, in most real-world NLP applications our labeled data is also heavily biased. This book introduces extensions of supervised learning algorithms to cope with data sparsity and different kinds of sampling bias. This book is intended to be both readable by first-year students and interesting to the expert audience. My intention was to introduce what is necessary to appreciate the major challenges we face in contemporary NLP related to data sparsity and sampling bias, without wasting too much time on details about supervised learning algorithms or particular NLP applications. I use text classification, part-of-speech tagging, and dependency parsing as running examples, and limit myself to a small set of cardinal learning algorithms. I have worried less about theoretical guarantees (\"this algorithm never does too badly\") than about useful rules of thumb (\"in this case this algorithm may perform really well\"). In NLP, data is so noisy, biased, and non-stationary that few theoretical guarantees can be established and we are typically left with our gut feelings and a catalogue of crazy ideas. I hope this book will provide its readers with both. Throughout the book we include snippets of Python code and empirical evaluations, when relevant",
+            "contributor": "gnd:1249359767",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "21",
+            "P30128": "Synthesis lectures on human language technologies 1947-4059",
+            "P60163": "San Rafael, Calif. <1537 Fourth Street, San Rafael, CA  94901 USA>"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

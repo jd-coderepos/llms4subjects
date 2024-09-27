@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:101571045X",
+            "sameAs": "Baumgarten, Daniel"
+        },
+        {
+            "@id": "gnd:1213252245",
+            "sameAs": "Heinemann, David"
+        },
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:172054710",
+            "sameAs": "Dickhaus, Hartmut"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4019627-6",
+            "sameAs": "Gedruckte Schaltung"
+        },
+        {
+            "@id": "gnd:4045892-1",
+            "sameAs": "Fotogrammetrie"
+        },
+        {
+            "@id": "gnd:4236072-9",
+            "sameAs": "L\u00f6tpaste"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1743032102",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (145 Bl\u00e4tter, Blatt a-p)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1743032102",
+                "(firstid)KXP:1743032102"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "3D based analysis for PCB jet printing using ultra-close range photogrammetry",
+            "abstract": "Das PCB Jet Printing ist eine innovative Methode um Lotpaste ohne die Verwendung von Schablonen auf Leiterplatten (PCB - printed circtuit board) zu applizieren. In Fertigungslinien enthaltene Inspektionssysteme sind in der Lage zu entscheiden, ob eine Leiterplatte korrekt bedruckt wurde und somit weiterverwendbar ist. Eine Korrektur fehlerhafter Platten ist in diesem Schritt mit vertretbaren Kosten und Aufwand jedoch nicht mehr m\u00f6glich. Das Ziel dieser Arbeit ist daher die Entwicklung eines integrierbaren und online-f\u00e4higen Inspektionssystems um den Druckprozess zu \u00fcberwachen. Dazu soll das Volumen der Lotpunkte ermittelt werden um dieses bei Bedarf zu korrigieren, bevor die Leiterplatte den Drucker verl\u00e4sst. Somit k\u00f6nnen Unsicherheiten reduziert und die Effizienz des Systems erh\u00f6ht werden. F\u00fcr die Umsetzung wird eine photogrammertrische Rekonstruktion etabliert. Dies beinhaltet das Design und die Realisierung eines Demonstratorsystems. Es wurde ein neuartiger Ansatz f\u00fcr die Kamerakalibrierung im neu eingef\u00fchrten Bereich der ultra-close range normal case photogrammetry vorgeschlagen und \u00fcber den 2D Reprojektionsfehler sowie den 3D Rekonstruktionsfehler evaluiert. Um effizient Bildmerkmale zu extrahieren wurden bekannte Merkmalsextraktoren und -deskriptoren untersucht und beispielsweise in Bezug auf eine Skalenraumprozessierung angepasst. F\u00fcr die Evaluierung wurde ein neuer Parameter eingef\u00fchrt (Solder Joint Feature Coverage - SolFeC), welcher die Abdeckung der Lotpunkte mit Bildmerkmalen beschreibt. Das kalibrierte Kameramodell wurde neben der Rekonstruktion zur modellbasierten Punktkorrespondenzkorrektur verwendet, da dieser Schritt im Nahbereich aufgrund des identischen Erscheinungsbildes verschiedener Lotpunkte eine hohe Herausforderung darstellt. Die Ergebnisse des feature matchings wurde \u00fcber die Parameter precision und recall sowie \u00fcber das Rekonstruktionsergebnis bewertet. Mittels angepasster Kameramodelle wurden die Punktkorrespondenzen zur 3D Rekonstruktion einer Punktwolke verwendet. Diese wird in ein Clustering \u00fcberf\u00fchrt. Anschlie\u00dfend wird jede Lotpunktwolke \u00fcber eine konkave H\u00fclle vermascht und gefiltert. Die Abweichung der berechneten Volumina innerhalb der Lotpunkte mit einem Volumen von mehr als 30 nl betr\u00e4gt weniger als 12%, was mit der Schwankung des Lotpastendrucks korrespondiert. Die allgemeine Abweichung betr\u00e4gt 14%.",
+            "contributor": [
+                "gnd:101571045X",
+                "gnd:143795244",
+                "gnd:172054710"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1213252245"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4236072-9"
+                },
+                {
+                    "@id": "gnd:4045892-1"
+                },
+                {
+                    "@id": "gnd:4019627-6"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

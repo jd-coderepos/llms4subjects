@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A717278514",
+            "@type": "bibo:Report",
+            "P1053": "45 S.",
+            "http://purl.org/dc/elements/1.1/creator": "Krause, Christian",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(isbn13)9783869561714",
+                "(ppn)717278514",
+                "(firstid)GBV:717278514"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)004"
+            ],
+            "title": "Quantitative modeling and analysis of service-oriented real-time systems using interval probabilistic timed automata",
+            "abstract": "One of the key challenges in service-oriented systems engineering is the prediction and assurance of non-functional properties, such as the reliability and the availability of composite interorganizational services. Such systems are often characterized by a variety of inherent uncertainties, which must be addressed in the modeling and the analysis approach. The different relevant types of uncertainties can be categorized into (1) epistemic uncertainties due to incomplete knowledge and (2) randomization as explicitly used in protocols or as a result of physical processes. In this report, we study a probabilistic timed model which allows us to quantitatively reason about nonfunctional properties for a restricted class of service-oriented real-time systems using formal methods. To properly motivate the choice for the used approach, we devise a requirements catalogue for the modeling and the analysis of probabilistic real-time systems with uncertainties and provide evidence that the uncertainties of type (1) and (2) in the targeted systems have a major impact on the used models and require distinguished analysis approaches. The formal model we use in this report are Interval Probabilistic Timed Automata (IPTA). Based on the outlined requirements, we give evidence that this model provides both enough expressiveness for a realistic and modular specifiation of the targeted class of systems, and suitable formal methods for analyzing properties, such as safety and reliability properties in a quantitative manner. As technical means for the quantitative analysis, we build on probabilistic model checking, specifically on probabilistic time-bounded reachability analysis and computation of expected reachability rewards and costs. To carry out the quantitative analysis using probabilistic model checking, we developed an extension of the Prism tool for modeling and analyzing IPTA. Our extension of Prism introduces a means for modeling probabilistic uncertainty in the form of probability intervals, as required for IPTA. For analyzing IPTA, our Prism extension moreover adds support for probabilistic reachability checking and computation of expected rewards and costs. We discuss the performance of our extended version of Prism and compare the interval-based IPTA approach to models with fixed probabilities.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:173277950",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://d-nb.info/1023225689/04",
+            "volume": "56",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Softwaresystemtechnik an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

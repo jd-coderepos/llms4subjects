@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:135830370",
+            "sameAs": "De Vos, Alexis"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1028309988",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xv, 109 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Van Rentergem, Yvan",
+                "De Baerdemacker, Stijn"
+            ],
+            "description": [
+                "Illustrationen",
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn)1681733803",
+                "(firstid)GBV:1028309988",
+                "(doi)10.1007/978-3-031-79895-5",
+                "(ppn)1028309988",
+                "(isbn13)9781681733807"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Engineering.",
+                "Reversible computing",
+                "Electronic circuits.",
+                "Automation.",
+                "Lie groups",
+                "(classificationName=msc)81P68",
+                "Quantum computing",
+                "(classificationName=msc)94C10",
+                "(classificationName=msc)94-02",
+                "Robotics.",
+                "Computers",
+                "Control engineering.",
+                "(classificationName=ddc)620",
+                "(classificationName=loc)TK7888.4",
+                "(classificationName=msc)*81-02",
+                "Logic circuits",
+                "(classificationName=linseach:mapping)phy",
+                "Finite groups"
+            ],
+            "title": "Synthesis of quantum circuits vs. synthesis of classical reversible circuits",
+            "abstract": [
+                "Dual DecompositionSynthesis Efficiency; Refined Synthesis Algorithm; Examples; Variable Ordering; Bottom-Up; The Square Root of the NOT; One-(qu)bit Calculations; Two and Multi-(qu)bit Calculations; More Roots of NOT; NEGATORs; NEGATOR Circuits; The Group ZU(n); The Group XU(n); A Matrix Decomposition; Group Hierarchy; Top; Preliminary Circuit Decomposition; Primal Decomposition; Group Structure; Dual Decomposition; Detailed Procedure; Examples; Synthesis Efficiency; Further Synthesis; An Extra Decomposition; Top-Down; Top vs. Bottom; Light Matrices; Primal Decomposition; Group Hierarchy",
+                "Dual DecompositionConclusion; Polar Decomposition; Bibliography; Authors' Biographies; Index; Blank Page",
+                "At first sight, quantum computing is completely different from classical computing. Nevertheless, a link is provided by reversible computation. Whereas an arbitrary quantum circuit, acting on w qubits, is described by an n x n unitary matrix with n = 2w, a reversible classical circuit, acting on w bits, is described by a 2w x 2w permutation matrix. The permutation matrices are studied in group theory of finite groups (in particular the symmetric group Sn); the unitary matrices are discussed in group theory of continuous groups (a.k.a. Lie groups, in particular the unitary group U(n)). Both the synthesis of a reversible logic circuit and the synthesis of a quantum logic circuit take advantage of the decomposition of a matrix: the former of a permutation matrix, the latter of a unitary matrix. In both cases the decomposition is into three matrices. In both cases the decomposition is not unique",
+                "Intro; Acknowledgments; Introduction; Conventional Computing; Boolean Functions of One Variable; Boolean Functions of Two Variables; Boolean Functions of n Variables; The Minterm Expansion; The Reed-Muller Expansion; The Minimal ESOP Expansion; Group Theory; Reversible Computing; Permutation Groups; A Permutation Decomposition; Matrix Groups; Subgroups; Young Subgroups; Quantum Computing; Bottom-Up vs. Top-Down; Bottom; The Group S_2; Two Important Young Subgroups of S_2w; Controlled Circuits; Controlled NOT Gates; Controlled Circuits vs. Controlled Gates; Primal Decomposition"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:135830370",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXSC",
+                "(collectioncode)BSZ-2-SXSC-syc8",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#54",
+            "isLike": "doi:10.1007/978-3-031-79895-5",
+            "P30128": "Synthesis lectures on digital circuits and systems",
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

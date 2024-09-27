@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042154953",
+            "sameAs": "Merdon, Christian"
+        },
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A871968312",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (25 Seiten, 584 kB)",
+            "creator": [
+                "Sch\u00f6berl, Joachim",
+                "Lederer, Philip L."
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:871968312",
+                "(ppn)871968312"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Divergence-free reconstruction operators for pressure-robust Stokes discretizations with continuous pressure finite elements",
+            "abstract": "Classical inf-sup stable mixed finite elements for the incompressible (Navier-)Stokes equations are not pressure-robust, i.e., their velocity errors depend on the continuous pressure. However, a modification only in the right hand side of a Stokes discretization is able to reestablish pressure-robustness, as shown recently for several inf-sup stable Stokes elements with discontinuous discrete pressures. In this contribution, this idea is extended to low and high order Taylor-Hood and mini elements, which have continuous discrete pressures. For the modification of the right hand side a velocity reconstruction operator is constructed that maps discretely divergence-free test functions to exactly divergence-free ones. The reconstruction is based on local H (div)-conforming flux equilibration on vertex patches, and fulfills certain orthogonality properties to provide consistency and optimal a-priori error estimates. Numerical examples for the incompressible Stokes and Navier-Stokes equations confirm that the new pressure-robust Taylor-Hood and mini elements converge with optimal order and outperform significantly the classical versions of those elements when the continuous pressure is comparably large.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1042154953"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:134253523"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2288",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

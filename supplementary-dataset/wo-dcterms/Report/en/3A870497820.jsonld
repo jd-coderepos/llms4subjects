@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:13284625X",
+            "sameAs": "Caiazzo, Alfonso"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A870497820",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (39 Seiten, 8.647 kB)",
+            "creator": [
+                "Toro, Eleutero F.",
+                "Montecinos, Gino",
+                "M\u00fcller, Lucas O.",
+                "Caforio, Federica",
+                "Blanco, Pablo J."
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:870497820",
+                "(ppn)870497820"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Assessment of reduced order Kalman filter for parameter identification in one-dimensional blood flow models using experimental data",
+            "abstract": "This work presents a detailed investigation of a parameter estimation approach based on the reduced order unscented Kalman filter (ROUKF) in the context of one-dimensional blood flow models. In particular, the main aims of this study are (i) to investigate the effect of using real measurements vs. synthetic data (i.e., numerical results of the same in silico model, perturbed with white noise) for the estimation and (ii) to identify potential difficulties and limitations of the approach in clinically realistic applications in order to assess the applicability of the filter to such setups. For these purposes, our numerical study is based on the in vitro model of the arterial network described by [Alastruey et al. 2011, J. Biomech. 44], for which experimental flow and pressure measurements are available at few selected locations. In order to mimic clinically relevant situations, we focus on the estimation of terminal resistances and arterial wall parameters related to vessel mechanics (Young\u2019s modulus and thickness) using few experimental observations (at most a single pressure or flow measurement per vessel). In all cases, we first perform a theoretical identifiability analysis based on the generalized sensitivity function, comparing then the results obtained with the ROUKF, using either synthetic or experimental data, to results obtained using reference parameters and to available measurements.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:13284625X"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2248",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

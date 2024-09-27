@@ -5,12 +5,8 @@
             "sameAs": "Klotsch, Andreas"
         },
         {
-            "@id": "gnd:118557513",
-            "sameAs": "Jesus Christus"
-        },
-        {
             "@id": "gnd:118964038",
-            "sameAs": "Saramago, José"
+            "sameAs": "Saramago, Jos\u00e9"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1616944560",
@@ -22,7 +18,7 @@
                 "(isbn)3498062816"
             ],
             "publisher": "Rowohlt",
-            "http://purl.org/dc/elements/1.1/subject": [
+            "subject": [
                 "(classificationName=dbn)59",
                 "(classificationName=bk, id=106405233)18.37 - Portugiesische Literatur",
                 "(classificationName=linseach:mapping)lit",
@@ -33,7 +29,7 @@
                 "(classificationName=ssg)7,34"
             ],
             "title": "Das Evangelium nach Jesus Christus : Roman",
-            "abstract": "Der portugiesische Autor rekonstruiert das Leben Christi, wobei er ihn als Mensch unter Menschen zeichnet und die bekannte Geschichte immer neue, phantasievolle Wendungen nehmen läßt.",
+            "abstract": "Der portugiesische Autor rekonstruiert das Leben Christi, wobei er ihn als Mensch unter Menschen zeichnet und die bekannte Geschichte immer neue, phantasievolle Wendungen nehmen l\u00e4\u00dft.",
             "alternative": "O evangelho segundo Jesus Cristo",
             "contributor": "gnd:1013107268",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
@@ -42,7 +38,6 @@
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
-            "subject": "gnd:118557513",
             "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DE0045CB7681B37FDCE9DC12579480042D91D.pdf",
             "P60163": "Reinbek bei Hamburg"
         }
@@ -50,16 +45,13 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
-            "@type": "@id"
-        },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
         "issued": "http://purl.org/dc/terms/issued",
         "contributor": {
             "@id": "http://purl.org/dc/terms/contributor",

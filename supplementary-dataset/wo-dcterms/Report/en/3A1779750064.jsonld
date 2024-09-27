@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1011171775",
+            "sameAs": "Kuzmin, D."
+        },
+        {
+            "@id": "gnd:1221380907",
+            "sameAs": "Jha, Abhinav"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1779750064",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (32 Seiten, 2,25 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "P\u00e1rtl, Ondrej",
+                "Ahmed, Naveed"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1779750064",
+                "(doi)10.20347/WIAS.PREPRINT.2889",
+                "(firstid)KXP:1779750064"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS) Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "An assessment of solvers for algebraically stabilized  discretizations of convection-diffusion-reaction equations",
+            "abstract": "We consider flux-corrected finite element discretizations of 3D convection-dominated transport problems and assess the computational efficiency of algorithms based on such approximations. The methods under investigation include flux-corrected transport schemes and monolithic limiters. We discretize in space using a continuous Galerkin method and P1 or Q1 finite elements. Time integration is performed using the Crank- Nicolson method or an explicit strong stability preserving Runge-Kutta method. Nonlinear systems are solved using a fixed-point iteration method, which requires solution of large linear systems at each iteration or time step. The great variety of options in the choice of discretization methods and solver components calls for a dedicated comparative study of existing approaches. To perform such a study, we define new 3D test problems for time dependent and stationary convection-diffusion-reaction equations. The results of our numerical experiments illustrate how the limiting technique, time discretization and solver impact on the overall performance.",
+            "alternative": "An assessment of solvers for algebraically stabilized discretizations of CDR equations",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1221380907",
+                "gnd:1011171775",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2889",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2889",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

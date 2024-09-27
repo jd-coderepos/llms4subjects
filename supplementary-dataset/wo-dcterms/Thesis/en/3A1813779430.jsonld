@@ -5,6 +5,10 @@
             "sameAs": "Welch Guerra, Max"
         },
         {
+            "@id": "gnd:1318530784",
+            "sameAs": "Arga\u00f1araz, Cecilia Magdalena"
+        },
+        {
             "@id": "gnd:4049040-3",
             "sameAs": "Regionalplanung"
         },
@@ -18,7 +22,7 @@
         },
         {
             "@id": "gnd:43415-2",
-            "sameAs": "Universidad Nacional de Córdoba"
+            "sameAs": "Universidad Nacional de C\u00f3rdoba"
         },
         {
             "@id": "gnd:4819980-1",
@@ -26,14 +30,13 @@
         },
         {
             "@id": "gnd:5180842-0",
-            "sameAs": "Bauhaus-Universität Weimar"
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1813779430",
             "@type": "bibo:Thesis",
             "P1053": "1 Online-Ressource (553 Seiten)",
             "http://purl.org/dc/elements/1.1/contributor": "Buffalo, Luciana",
-            "creator": "Argañaraz, Cecilia Magdalena",
             "description": "Illustrationen, Karten",
             "identifier": [
                 "(doi)10.25643/bauhaus-universitaet.4681",
@@ -48,17 +51,14 @@
                 "(classificationName=linseach:mapping)arc",
                 "(classificationName=rvk)ZH 9037"
             ],
-            "title": "Tiempos imaginados y espacios áridos : controversias en torno al agua en el Valle de Catamarca (siglos XIX-XX)",
-            "abstract": "The thesis addresses journalistic, administrative and judicial historical documentation to analyze the links between aridity and geographical imaginaries in the province of Catamarca (Argentina), from a historical point of view. The research aims to contribute to the understanding of the \"non-hegemonic\" versions of Modernity, its territoriality and the productions of geographic imaginaries that they involve. To provide a broad purpose, it raises as an object of study the ways in which \"modern\" practices, actors, links, discourses and expectations about the territory are mobilized when they are located in a space in \"other\" water conditions. those that are intended to \"civilize\" it.  The general objective of the research is to analyze time-space controversies around water in the city and valley of Catamarca towards 19th and 20th centuries. The specific objectives derived are a) analyzing how various actors are related to waters behavior - in other words, the local water regime – in Catamarca and the meanings built around it. b) to analyze the controversies about the place of Catamarca and its water regime in the local and national geographic imaginary. c) analyze controversies in which the relationships between actors and materialities involved in modernization projects are put into discussion.  These concerns by the experience of the actors and by the historical-spatial imagination of the territory, combined, led to the construction of an interdisciplinary methodology based on tools from anthropology, sociology, geography and history.",
+            "title": "Tiempos imaginados y espacios \u00e1ridos : controversias en torno al agua en el Valle de Catamarca (siglos XIX-XX)",
+            "abstract": "The thesis addresses journalistic, administrative and judicial historical documentation to analyze the links between aridity and geographical imaginaries in the province of Catamarca (Argentina), from a historical point of view. The research aims to contribute to the understanding of the \"non-hegemonic\" versions of Modernity, its territoriality and the productions of geographic imaginaries that they involve. To provide a broad purpose, it raises as an object of study the ways in which \"modern\" practices, actors, links, discourses and expectations about the territory are mobilized when they are located in a space in \"other\" water conditions. those that are intended to \"civilize\" it.  The general objective of the research is to analyze time-space controversies around water in the city and valley of Catamarca towards 19th and 20th centuries. The specific objectives derived are a) analyzing how various actors are related to waters behavior - in other words, the local water regime \u2013 in Catamarca and the meanings built around it. b) to analyze the controversies about the place of Catamarca and its water regime in the local and national geographic imaginary. c) analyze controversies in which the relationships between actors and materialities involved in modernization projects are put into discussion.  These concerns by the experience of the actors and by the historical-spatial imagination of the territory, combined, led to the construction of an interdisciplinary methodology based on tools from anthropology, sociology, geography and history.",
             "contributor": "gnd:121130525",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
-            "dcterms:creator": [
-                {
-                    "@id": "gnd:43415-2"
-                },
-                {
-                    "@id": "gnd:5180842-0"
-                }
+            "creator": [
+                "gnd:43415-2",
+                "gnd:5180842-0",
+                "gnd:1318530784"
             ],
             "isPartOf": "(collectioncode)GBV-ODiss",
             "issued": "2022",
@@ -97,7 +97,10 @@
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",

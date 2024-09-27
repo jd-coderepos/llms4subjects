@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1270433105",
+            "sameAs": "Wolnitza, Marcell Michael"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1799695727",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "W\u00f6rg\u00f6tter, Florentin",
+                "Dellen, Babette",
+                "Kurth, Winfried"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1799695727",
+                "(ppn)1799695727"
+            ],
+            "subject": [
+                "Objekterkennung",
+                "(classificationName=ddc-dbn)004",
+                "Machine Learning",
+                "Maschinelles Lernen",
+                "Bildsegmentierung",
+                "(classificationName=linseach:mapping)inf",
+                "Kalibrieren",
+                "(classificationName=ddc)006.69",
+                "6D-Posenbestimmung",
+                "3D-Objektrekonstruktion",
+                "Dreidimensionale Rekonstruktion",
+                "Szenenanalyse",
+                "3D object reconstruction",
+                "6D pose",
+                "Computer Vision"
+            ],
+            "title": "6D-Posenbestimmung und 3D-Objektrekonstruktion mittels der 2D-Form von Bildsegmenten",
+            "abstract": [
+                "This thesis presents a template-based method for the calculation of the 6D pose with a following 3D reconstruction of objects in a scene. In applications for computer-aided manipulations, e.g., in the field of robotics, these information contribute to the perception of depth. This makes further planning of desired actions such as robot-grasping possible. Knowledge about the object shape is used as a primary key. Templates are saved as images of the object, which are rendered from different perspectives around the specific 3D model. This enables direct calculation of the pose parameters. A d...",
+                "This thesis presents a template-based method for the calculation of the 6D pose with a following 3D reconstruction of objects in a scene. In applications for computer-aided manipulations, e.g., in the field of robotics, these information contribute to the perception of depth. This makes further planning of desired actions such as robot-grasping possible. Knowledge about the object shape is used as a primary key. Templates are saved as images of the object, which are rendered from different perspectives around the specific 3D model. This enables direct calculation of the pose parameters. A deep-learning method is trained and used for object segmentation to obtain 2D shapes from images taken of the scene.The aim of this work is to combine classic approaches for the calculation of pose parameters with deep learning to obtain 2D shapes. The number of free parameters during the registration process for the 6D object pose is reduced by calculating some of them directly from the 2D images. Thus the computations can be faster and the method can be adapted to new experiments more easily using only standard RGB cameras. Modern end-to-end approaches utilizing deep learning often show superior performance regarding precision and computing time in comparison to classic approaches. However, this is usually only true for specific datasets, which they were trained on. Adapting these methods to individual experiments is usually difficult.The performance of the method is evaluated using synthetic data. In robotic experiments, the method was used to obtain 6D pose in a real-world scenario and to perform robotic grasping as proof-of-concept.$yLinzenz",
+                "In dieser Arbeit wird ein templatebasiertes Verfahren zur Berechnung der 6D-Pose von Objekten in einer Szene und anschlie\u00dfender 3D-Rekonstruktion pr\u00e4sentiert. Diese Informationen sind wichtig f\u00fcr Anwendungen, bei denen Objekte computergesteuert manipuliert werden, z.B. im Bereich der Robotik. Sie tragen zur Tiefenwahrnehmung des Robotersystems bei, auf deren Basis gew\u00fcnschte Aktionen, wie das Greifen von Gegenst\u00e4nden, geplant werden k\u00f6nnen. Dabei wird das vorhandene Wissen \u00fcber die Gestalt der Objekte in Form eines 3D-Modells explizit ausgenutzt, um Silhouetten von Bildern aus verschiedenen..."
+            ],
+            "alternative": "6D pose estimation and 3D object reconstruction using the 2D shape of image segments",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1270433105",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1264539150",
+            "sameAs": "El Bahlouli-\u00d6zt\u00fcrk, Asmae"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1812822707",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (unterschiedliche Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1812822707",
+                "(firstid)KXP:1812822707",
+                "(doi)10.15496/publikation-71025"
+            ],
+            "subject": [
+                "(classificationName=ddc)551.51",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Numerical modelling of atmospheric flows over complex sites with special regard to the forest canopy",
+            "abstract": "The present thesis describes the work carried out using the OpenFOAM solver with a Reynolds-Averaged Navier Stokes (RANS) approach to investigate the wind flow at complex sites for wind-energy exploitation. Toward this objective, several physical effects such as buoyancy, forest canopies, Coriolis forces, stratification as well as humidity have been implemented in the model to improve wind-field predictions. First, the wind flow in an urban environment and, more precisely, a university campus is investigated. A stationary logarithmic profile for the wind velocity at the inlet is prescribed. Despite the assumption of a flat terrain, which is a drastic simplification of the real ground, the study shows how a simple canopy model improves the prediction of the flow at the site. The simulation is validated with long term measurements from a network of six stations. Secondly, results from a rural case in the Swabian Alb in Southern Germany, characterized by a forested escarpment, are presented. The model is adapted to atmospheric boundary layer (ABL) flows and a computational domain with a ground conforming to the site orography is built. To get more realistic boundary conditions and to avoid the assumption of logarithmic profiles, the solver is coupled with a numerical weather prediction (NWP) model. The coupling is performed using a one-way approach, i.e the coarse weather model provides input to the OpenFOAM solver through the lateral boundary conditions of the computational domain. Simulations with and without forest are compared. The results with a canopy model clearly show at the lower levels a flow deceleration and an increase in turbulence intensities by a factor of four, when compared to results without forest. The study reveals again the important impact of the forest on the wind-field, especially at turbine-relevant heights. Finally, the transient approach (unsteady RANS) is tested by using time-dependent boundary conditions. The accuracy of the coupling is evaluated by validating the simulation results against measurements from a tall meteorological tower as well as an unmanned aircraft system. Adopting a transient approach leads to an excellent agreement of the model. The thesis shows that an unsteady RANS based solver, which accounts for first-order relevant physics, can be valuable for a wind resource assessment at low computational cost compared to detached-eddy (DES) or large-eddy (LES) simulations.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1264539150",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-71025",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

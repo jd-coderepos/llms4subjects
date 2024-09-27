@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1195091265",
+            "sameAs": "Vemula, Rami"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1666722715",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XIX, 436 Seiten)",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen, Diagramme",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(isbn13)9781484244890",
+                "(ppn)1666722715",
+                "(firstid)KEP:044003390",
+                "(doi)10.1007/978-1-4842-4489-0"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Microsoft software",
+                "Computer science",
+                "(classificationName=ddc)004.165",
+                "Application software.",
+                "Computer Communication Networks",
+                "(classificationName=loc)QA76.76.M52",
+                "Microsoft .NET Framework",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)mat",
+                "Microsoft and .NET",
+                "Computer communication systems."
+            ],
+            "title": "Integrating Serverless Architecture : Using Azure Functions, Cosmos DB, and SignalR Service",
+            "abstract": [
+                "Design, develop, build, and deliver an end-to-end serverless architecture by leveraging Azure services, frameworks, and tools. This book offers a holistic approach, guiding you through the design and development of a Twitter Bot application, while leveraging Azure Functions. Integrating Serverless Architecture begins with an overview of serverless computing and getting started with Azure Functions. Here, you will create a Twitter bot function which scans Twitter for the latest tweets and makes use of dependency injection. Further, you will learn about Azure Cosmos DB where you will cover its change feed mechanism and the repository pattern. You will create a Cosmos DB trigger-based tweet notifier function, which will broadcast the latest tweets to connected clients. You will explore the basics of Azure Service Bus and create a tweet scheduler function, which will prioritize different keywords for the Twitter bot function. Along the way, you will debug, deliver, and test the functions in the Azure environment. This book shows you how to secure your Azure Function secrets with the help of Azure Key Vault. To further your understanding of the technology, you will learn logging and exception handling in Azure Functions. Later in the book, you will build a Twitter bot web application by using ASP.NET Core and Materialize CSS, which will interact with several HTTP-based Azure Functions. The Twitter bot web application allows users to log in through the Twitter Identity Provider, subscribe to different keywords/hashtags, and browse the latest tweets based on subscriptions. You will get started with SignalR Service and integrate it with Azure Functions and web applications. Towards the end you will go through app service authentication on Azure Functions and discover how to configure continuous integration and delivery to Azure Functions. After reading this book, you will be able to understand the steps involved in design, development, and delivery of a workflow using Azure Functions. You will: Design and develop a Twitter bot application using Azure Functions with Azure Web App Service as the front end Leverage Azure Cosmos DB as data storage and trigger notifications using its change feed mechanism Store and retrieve secrets from Azure Key Vault Integrate Azure Functions with Azure SignalR Service to broadcast real-time messages Secure Azure Functions by enabling Twitter identity authentication using built-in App Service authentication Build a continuous integration and continuous delivery pipeline for Azure Functions using Visual Studio Team Services (VSTS)",
+                "Ch 1: New Era of Serverless Computing -- Ch 2: Getting Started with Azure Functions. - Ch 3: Explore Azure Cosmos DB and its Change feed mechanism -- Ch 4:Design Tweet Scheduler Function with Service Bus integration -- Ch 5: Handling Secrets and Exceptions in Azure Functions -- Ch 6: Design and Develop Twitter Bot Web Application -- Ch 7: Getting Started with Azure SignalR Service -- Ch 8: Manage App Settings and implement Authentication in Azure Functions -- Ch 9: Setup Continuous Integration and Continuous Delivery pipeline for Azure Functions"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1195091265",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXPC"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-4489-0",
+            "P30128": [
+                "Springer eBooks",
+                "Springer eBook Collection",
+                "Professional and Applied Computing"
+            ],
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

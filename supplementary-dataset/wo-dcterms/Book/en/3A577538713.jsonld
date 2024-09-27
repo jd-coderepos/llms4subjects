@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:132570327",
+            "sameAs": "Rosemann, Martin"
+        },
+        {
+            "@id": "gnd:141285095",
+            "sameAs": "Nolte, Sandra"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A577538713",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (27 S., 320 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Biewen, Elena",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)577538713",
+                "(firstid)GBV:577538713"
+            ],
+            "publisher": "IAW",
+            "subject": [
+                "Datenqualit\u00e4t",
+                "(classificationName=linseach:automatic)mat",
+                "Statistischer Fehler",
+                "Theorie",
+                "Monte-Carlo-Simulation",
+                "Probit-Modell"
+            ],
+            "title": "Multiplicative measurement error and the simulation extrapolation method",
+            "abstract": "Whereas the literature on additive measurement error has known a considerable treatment, less work has been done for multiplicative noise. In this paper we concentrate on multiplicative measurement error in the covariates, which contrary to additive error not only modi es proportionally the original value, but also conserves the structural zeros. This paper compares three variants to specify the multiplicative measurement error model in the simulation step of the Simulation-Extrapolation (SIMEX) method originally proposed by Cook and Stefanski (1994): i) as an additive one without using a logarithmic transformation, ii) as the well-known logarithmic transformation of the multiplicative error model, and iii) as an approach using the multiplicative measurement error model as such. The aim of the paper is to analyze how well these three approaches reduce the bias caused by the multiplicative measurement error. We apply three variants to the case of data masking by multiplicative measurement error, in order to obtain parameter estimates of the true data generating process. We produce Monte Carlo evidence on how the reduction of data quality can be minimized. -- Errors-in-variables in nonlinear models ; disclosure limitation methods ; multiplicative error",
+            "contributor": [
+                "gnd:132570327",
+                "gnd:141285095"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "39",
+            "P30128": "IAW-Diskussionspapiere",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

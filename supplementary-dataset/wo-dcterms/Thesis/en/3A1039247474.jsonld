@@ -9,8 +9,12 @@
             "sameAs": "Bargheer, Matias"
         },
         {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
             "@id": "gnd:4064211-2",
-            "sameAs": "Wärmeübertragung"
+            "sameAs": "W\u00e4rme\u00fcbertragung"
         },
         {
             "@id": "gnd:4129373-3",
@@ -30,7 +34,7 @@
         },
         {
             "@id": "gnd:4178306-2",
-            "sameAs": "Röntgenbeugung"
+            "sameAs": "R\u00f6ntgenbeugung"
         },
         {
             "@id": "gnd:4186732-4",
@@ -52,7 +56,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1039247474",
             "@type": "bibo:Thesis",
             "P1053": "1 Online-Ressource (xvii, 119 Seiten, 60227 KB)",
-            "creator": "Universität Potsdam",
             "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(ppn)1039247474",
@@ -67,13 +70,14 @@
                 "(classificationName=ddc)537.622"
             ],
             "title": "Ultrafast tailored strain fields in nanostructures",
-            "abstract": "This publication based thesis, which consists of seven published articles, summarizes my contributions to the research field of laser excited ultrafast structural dynamics. The coherent and incoherent lattice dynamics on microscopic length scales are detected by ultrashort optical and X-ray pulses. The understanding of the complex physical processes is essential for future improvements of technological applications. For this purpose, tabletop soruces and large scale facilities, e.g. synchrotrons, are employed to study structural dynamics of longitudinal acoustic strain waves and heat transport. The investigated effects cover timescales from hundreds of femtoseconds up to several microseconds. The main part of this thesis is dedicated to the investigation of tailored phonon wave packets propagating in perovskite nanostructures. Tailoring is achieved either by laser excitation of nanostructured bilayer samples or by a temporal series of laser pulses. Due to the propagation of longitudinal acoustic phonons, the out-of-plane lattice…",
+            "abstract": "This publication based thesis, which consists of seven published articles, summarizes my contributions to the research field of laser excited ultrafast structural dynamics. The coherent and incoherent lattice dynamics on microscopic length scales are detected by ultrashort optical and X-ray pulses. The understanding of the complex physical processes is essential for future improvements of technological applications. For this purpose, tabletop soruces and large scale facilities, e.g. synchrotrons, are employed to study structural dynamics of longitudinal acoustic strain waves and heat transport. The investigated effects cover timescales from hundreds of femtoseconds up to several microseconds. The main part of this thesis is dedicated to the investigation of tailored phonon wave packets propagating in perovskite nanostructures. Tailoring is achieved either by laser excitation of nanostructured bilayer samples or by a temporal series of laser pulses. Due to the propagation of longitudinal acoustic phonons, the out-of-plane lattice\u2026",
             "alternative": "Ultraschnelle massgeschneiderte Dehnungsfelder in Nanostrukturen",
             "contributor": "gnd:124203817",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
-            "dcterms:creator": {
-                "@id": "gnd:1170411584"
-            },
+            "creator": [
+                "gnd:1170411584",
+                "gnd:2120681-8"
+            ],
             "isPartOf": "(collectioncode)GBV-ODiss",
             "issued": "2018",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
@@ -97,7 +101,6 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "contributor": {
             "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
@@ -111,6 +114,10 @@
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

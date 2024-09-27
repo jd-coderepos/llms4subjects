@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1013469062",
+            "sameAs": "Ro\u00dfberg, Michael"
+        },
+        {
+            "@id": "gnd:133950875",
+            "sameAs": "Sch\u00e4fer, G\u00fcnter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1767812558",
+            "@type": "bibo:Article",
+            "http://purl.org/dc/elements/1.1/creator": "Schatz, David",
+            "identifier": [
+                "(firstid)KXP:1767812558",
+                "(ppn)1767812558",
+                "(doi)10.5220/0010262201910203"
+            ],
+            "publisher": "SCITEPRESS - Science and Technology Publications, Lda.",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit"
+            ],
+            "title": "Hydra: practical metadata security for contact discovery, messaging, and dialing",
+            "abstract": "Communication metadata may leak sensitive information even when content is encrypted, e.g. when contacting medical services. Unfortunately, protecting metadata is challenging. Existing approaches for anonymous communications either are vulnerable in a strong (but feasible) threat model or have practicability issues like intense usage of asymmetric cryptography. We propose Hydra, a mix network that is able to provide multiple anonymous services in a uniform way. In contrast to previous messaging systems with strong anonymity, we deliberately use padded onion-encrypted circuits. This allows to support connectionless applications like contact discovery with authenticated key exchange, messaging, and dialing (signalling for connection-oriented communications) with strong anonymity and relatively low latency. Our cryptography benchmarks show that Hydra is able to process messages an order of magnitude faster than state of the art messaging systems with strong anonymity. At the same time, bandwidth overhead is comparable to previous systems. We further develop an analytical model to predict the end-to-end latency of Hydra and validate it in a testbed.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:133950875",
+                "gnd:1013469062"
+            ],
+            "extent": "191-203",
+            "isPartOf": [
+                "(ppn)1747761230",
+                "(isbn13)9789897584916"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "pageStart": "191",
+            "isLike": "doi:10.5220/0010262201910203",
+            "P30128": "ICISSP 2021",
+            "P60163": "[Set\u00fabal]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "extent": "http://purl.org/dc/terms/extent",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

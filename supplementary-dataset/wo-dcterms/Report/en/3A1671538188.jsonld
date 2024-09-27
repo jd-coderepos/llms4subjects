@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:131835475",
+            "sameAs": "Hinterm\u00fcller, Michael"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1671538188",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (52 Seiten, 15,0 MB)",
+            "creator": "Keil, Tobias",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1671538188",
+                "(doi)10.20347/WIAS.PREPRINT.2612",
+                "(firstid)KXP:1671538188"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Optimal control of geometric partial differential equations",
+            "abstract": "Optimal control problems for geometric (evolutionary) partial differential inclusions are considered. The focus is on problems which, in addition to the nonlinearity due to geometric evolution, contain optimization theoretic challenges because of non-smoothness. The latter might stem from energies containing non-smooth constituents such as obstacle-type potentials or terms modeling, e.g., pinning phenomena in microfluidics. Several techniques to remedy the resulting constraint degeneracy when deriving stationarity conditions are presented. A particular focus is on Yosida-type mollifications approximating the original degenerate problem by a sequence of nondegenerate nonconvex optimal control problems. This technique is also the starting point for the development of numerical solution schemes. In this context, also dual-weighted residual based error estimates are addressed to facilitate an adaptive mesh refinement. Concerning the underlying state model, sharp and diffuse interface formulations are discussed. While the former always allows for accurately tracing interfacial motion, the latter model may be dictated by the underlying physical phenomenon, where near the interface mixed phases may exist, but it may also be used as an approximate model for (sharp) interface motion. In view of the latter, (sharp interface) limits of diffuse interface models are addressed. For the sake of presentation, this exposition confines itself to phase field type diffuse interface models and, moreover, develops the optimal control of either of the two interface models along model applications. More precisely, electro-wetting on dielectric is used in the sharp interface context, and the control of multiphase fluids involving spinodal decomposition highlights the phase field technique. Mathematically, the former leads to a Hele-Shaw flow with geometric boundary conditions involving a complementarity system due to contact line pinning, and the latter gives rise to a Cahn-Hilliard Navier-Stokes model including a non-smooth obstacle type potential leading to a variational inequality constraint",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:131835475"
+                }
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2612",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2612",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

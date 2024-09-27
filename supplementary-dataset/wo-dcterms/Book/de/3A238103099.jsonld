@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1230493190",
+            "sameAs": "Vielau, Axel"
+        },
+        {
             "@id": "gnd:4018428-6",
             "sameAs": "Fremdsprachenunterricht"
         },
@@ -16,7 +20,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A238103099",
             "@type": "bibo:Book",
             "P1053": "352 S.",
-            "creator": "Vielau, Axel",
             "description": [
                 "Ill., graph. Darst.",
                 "21 cm"
@@ -39,11 +42,13 @@
                 "(classificationName=bk, id=106405403)18.00 - Einzelne Sprachen und Literaturen allgemein",
                 "(classificationName=loksys-fbl)CK 200",
                 "(classificationName=rvk)ES 680",
-                "(classificationName=rvk)ES 860"
+                "(classificationName=rvk)ES 860",
+                "(classificationName=rvk)HD 150"
             ],
-            "title": "Methodik des kommunikativen Fremdsprachenunterrichts : ein lernerorientiertes Unterrichtskonzept (nicht nur) für die Erwachsenenbildung",
-            "abstract": "Ausgehend von einer knappen Analyse der inneren Abläufe beim Fremdsprachenlernen im Unterricht, verschiedener Lernertypen und kognitiver Strategien schlägt die Methodik eine zusammenhängende Abfolge äußerer Lernarrangements vor, die die inneren Lernprozesse schrittweise anregen, begleiten und kontrollieren. Praktische Beispiele aus verschiedenen Fremdsprachen zeigen, welche Probleme beim Spracherwerb von lernungewohnten Erwachsenen auftreten und wie sie gelöst werden können.",
+            "title": "Methodik des kommunikativen Fremdsprachenunterrichts : ein lernerorientiertes Unterrichtskonzept (nicht nur) f\u00fcr die Erwachsenenbildung",
+            "abstract": "Ausgehend von einer knappen Analyse der inneren Abl\u00e4ufe beim Fremdsprachenlernen im Unterricht, verschiedener Lernertypen und kognitiver Strategien schl\u00e4gt die Methodik eine zusammenh\u00e4ngende Abfolge \u00e4u\u00dferer Lernarrangements vor, die die inneren Lernprozesse schrittweise anregen, begleiten und kontrollieren. Praktische Beispiele aus verschiedenen Fremdsprachen zeigen, welche Probleme beim Spracherwerb von lernungewohnten Erwachsenen auftreten und wie sie gel\u00f6st werden k\u00f6nnen.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1230493190",
             "issued": "1997",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -59,7 +64,6 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -74,16 +78,20 @@
         "title": "http://purl.org/dc/elements/1.1/title",
         "abstract": "http://purl.org/dc/terms/abstract",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

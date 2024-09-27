@@ -10,7 +10,7 @@
         },
         {
             "@id": "gnd:4071013-0",
-            "sameAs": "Europäische Integration"
+            "sameAs": "Europ\u00e4ische Integration"
         },
         {
             "@id": "gnd:4120730-0",
@@ -34,12 +34,13 @@
         },
         {
             "@id": "gnd:5098525-5",
-            "sameAs": "Europäische Union"
+            "sameAs": "Europ\u00e4ische Union"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1752455673",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (VII, 53 Seiten)",
+            "description": "Diagramme",
             "identifier": [
                 "(ppn)1752455673",
                 "(isbn13)9783658332136",
@@ -50,22 +51,24 @@
             "http://purl.org/dc/elements/1.1/subject": [
                 "Social inequality.",
                 "Cultural geography.",
+                "(classificationName=ddc-dbn)320",
                 "Human geography.",
                 "Equality.",
                 "(classificationName=linseach:mapping)sow",
                 "Emigration and immigration.",
                 "(classificationName=ddc)304.8",
-                "Emigration and immigration—Social aspects.",
+                "Emigration and immigration\u2014Social aspects.",
+                "(classificationName=ddc)327.4",
                 "(classificationName=rvk)MK 5205",
-                "(classificationName=bk, id=181570599)89.73 - Europapolitik, Europäische Union",
+                "(classificationName=bk, id=181570599)89.73 - Europapolitik, Europ\u00e4ische Union",
                 "(classificationName=ddc-dbn)300",
                 "(classificationName=ddc)304.82",
                 "Social structure.",
                 "(classificationName=rvk)MK 5010",
                 "Geschichte 1950-2021"
             ],
-            "title": "Die Grenzen der EU : europäische Integration, \"Schengen\" und die Kontrolle der Migration",
-            "abstract": "Dieses Open-Access-Buch blickt auf die Hintergründe der Politik der Freizügigkeit in Europa und diskutiert die Folgen. Die europäische Integration veränderte die Migrationsverhältnisse erheblich: Zwischen den EU-Mitgliedstaaten wurden unter dem Begriff der „Freizügigkeit“ Grenzübertritte sowie Arbeit und Niederlassung von Staatsangehörigen anderer Mitgliedsländer weitgehend erleichtert, Binnengrenzen verloren also an Bedeutung.Zugleich gewann die Frage des Umgangs mit einer gemeinsamen Außengrenze und der Migration von „Drittstaatsangehörigen“ an Gewicht. Das essential erklärt, warum Migration von außerhalb Europas zunehmend als Problem von Sicherheitspolitik verstanden wurde und wieso diese die Maßnahmen zur Ausgestaltung einer gemeinsamen Außengrenze bis heute bestimmt. Der Inhalt Migrations- und Grenzpolitik im Rahmen der europäischen Integration von den 1950er Jahren bis heute Heterogenität der Migrationsverhältnisse in der EU Schengener Abkommen als Beginn einer sicherheitspolitisch geprägten Diskussion über Migration Entwicklung gemeinsamer europäischer Vorstellungen über die Kontrolle der Außengrenzen Stand der EU-Asylpolitik Die Zielgruppen An der Geschichte und Gegenwart Europas sowie an Migration und Migrationspolitik Interessierte; Menschen, die sich fragen, warum gegenwärtig in der EU so intensiv um Migration und Asyl gestritten wird Dozierende und Studierende der Bereiche Migrationsforschung, Europawissenschaften, Geschichtswissenschaft, Sozialwissenschaften Der Autor Dr. Jochen Oltmer ist Professor für Migrationsgeschichte am Institut für Migrationsforschung und Interkulturelle Studien (IMIS) der Universität Osnabrück.",
+            "title": "Die Grenzen der EU : europ\u00e4ische Integration, \"Schengen\" und die Kontrolle der Migration",
+            "abstract": "Dieses Open-Access-Buch blickt auf die Hintergr\u00fcnde der Politik der Freiz\u00fcgigkeit in Europa und diskutiert die Folgen. Die europ\u00e4ische Integration ver\u00e4nderte die Migrationsverh\u00e4ltnisse erheblich: Zwischen den EU-Mitgliedstaaten wurden unter dem Begriff der \u201eFreiz\u00fcgigkeit\u201c Grenz\u00fcbertritte sowie Arbeit und Niederlassung von Staatsangeh\u00f6rigen anderer Mitgliedsl\u00e4nder weitgehend erleichtert, Binnengrenzen verloren also an Bedeutung. Zugleich gewann die Frage des Umgangs mit einer gemeinsamen Au\u00dfengrenze und der Migration von \u201eDrittstaatsangeh\u00f6rigen\u201c an Gewicht. Das essential erkl\u00e4rt, warum Migration von au\u00dferhalb Europas zunehmend als Problem von Sicherheitspolitik verstanden wurde und wieso diese die Ma\u00dfnahmen zur Ausgestaltung einer gemeinsamen Au\u00dfengrenze bis heute bestimmt.",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": [
                 "gnd:129238988",
@@ -89,6 +92,7 @@
                 "gnd:4071013-0",
                 "gnd:4270920-9"
             ],
+            "tableOfContents": "https://d-nb.info/1225496802/04",
             "isLike": "doi:10.1007/978-3-658-33213-6",
             "P30128": [
                 "essentials",
@@ -100,15 +104,16 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "abstract": "http://purl.org/dc/terms/abstract",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "abstract": "http://purl.org/dc/terms/abstract",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "contributor": "http://purl.org/dc/terms/contributor",
@@ -131,6 +136,7 @@
         },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

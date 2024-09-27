@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:131222858X",
+            "sameAs": "Estler, Maximiliane Franziska"
+        },
+        {
+            "@id": "gnd:2002227-X",
+            "sameAs": "Tier\u00e4rztliche Hochschule Hannover"
+        },
+        {
+            "@id": "gnd:4012494-0",
+            "sameAs": "Dissertation"
+        },
+        {
+            "@id": "gnd:4113937-9",
+            "sameAs": "Hochschulschrift"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1876742585",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (126 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Siedenburg, Johannes",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1876742585",
+                "(firstid)KXP:1876742585"
+            ],
+            "publisher": "Tier\u00e4rztliche Hochschule Hannover",
+            "subject": [
+                "Diagnose",
+                "Hundekrankheit",
+                "Maschinelles Lernen",
+                "Hund",
+                "(classificationName=ddc-dbn)630",
+                "(classificationName=ddc-dbn)636.7089",
+                "(classificationName=linseach:mapping)hor",
+                "Ganganalyse"
+            ],
+            "title": "Evaluation einer neuen KI-basierten Software zur kameragest\u00fctzten markerlosen objektiven Ganganalyse der Vordergliedma\u00dfe beim Hund",
+            "abstract": "Neuste Studien im Bereich der objektiven Ganganalyse beim Tier besch\u00e4ftigen sich mit der Erforschung und Einsatzbarkeit von Deep-Learning-Systemen zu markerlosen, kinematischen, kameragest\u00fctzten Untersuchungen. Der Einsatz von kinematischen in Kombination mit kinetischen Untersuchungen gilt zurzeit als Goldstandard in der objektiven Ganganalyse. Meist werden hierbei noch markerbasierte Methoden zur kinematischen Untersuchung genutzt. Die Nutzung der Marker bringt jedoch einige Nachteile mit sich. Vor allem die m\u00f6gliche Beeinflussung des Gangbildes durch die Befestigung der Marker am Tier erweist sich als enorme Beeintr\u00e4chtigung einer ad\u00e4quaten Gangbildanalyse. Der Einsatz markerloser Systeme ist somit ein sinnvoller Schritt. Erst die Entwicklungen im Bereich der k\u00fcnstlichen Intelligenz, welche eine automatische Erfassung der interessanten anatomischen Punkte erm\u00f6glichen, versprechen jedoch eine praktikable Anwendung, da ansonsten ein zeit-, kosten- und personalintensives Labeln aller einzelner Standbilder eines aufgezeichneten Videos zur Analyse n\u00f6tig ist. In dieser Studie wurde eine neue Deep-Learning-Software des Unternehmens \u201eVetVise\u201c auf die Genauigkeit der automatisierten Markerplatzierung bei unterschiedlichen Hunderassen untersucht. Das zugrundeliegende Deep Convolutional Neuronal Network (DCNN) wurde mit 2573 Standbildern trainiert. Ausgewertet wurden ausgew\u00e4hlte Sequenzen von jeweils zwei Videos von elf Hunden. Bei 67,28 % aller Daten konnte insgesamt eine korrekte automatische Platzierung durch das System festgestellt werden. Hier l\u00e4sst sich unterscheiden in tats\u00e4chlich richtig gesetzte Markierungen (29,56 %) und richtig nicht gesetzte Markierungen (37,72 %), wenn der POI (point of interest) im Standbild verdeckt bzw. nicht sichtbar war. Gerade bei den Schulter- und Ellbogengelenken kam es vermehrt zu richtig nicht gesetzten Markierungen, da diese in vielen Sequenzen durchg\u00e4ngig von der Kamera abgewandt waren. Es zeigten sich dann kaum Fehlmarkierungen durch die Software. Die Karpalgelenke wurden meist gleichzeitig von beiden Seiten erfasst und waren nur selten verdeckt. Hier konnte ein h\u00f6herer Anteil an richtig gesetzten Markierungen als bei den anderen Gelenken aufgezeichnet werden. Jedoch war auch der Anteil an Fehlmarkierungen mit 47,20 % bei beiden Karpalgelenken fast doppelt so hoch wie bei den anderen Gelenkpunkten. Bei der Aufschl\u00fcsselung der Werte nach den elf Probanden beziehungsweise nach den 22 Videos zeigte sich gerade bei einem Hund sehr schlechte Werte von unter 50 % richtig gesamt gesetzten...",
+            "alternative": "Evaluation of a new AI-based software for camera-based markerless objective gait analysis of the canine forelimb",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2002227-X",
+                "gnd:131222858X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4113937-9"
+                },
+                {
+                    "@id": "gnd:4012494-0"
+                }
+            ],
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

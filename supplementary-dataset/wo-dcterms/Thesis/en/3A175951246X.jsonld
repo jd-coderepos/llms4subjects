@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1176168932",
+            "sameAs": "\u00c7i\u00e7ek, \u00d6zg\u00fcn"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A175951246X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)DNB:1232644889",
+                "(ppn)175951246X",
+                "(contract)FRUB-opus-194779",
+                "(doi)10.6094/UNIFR/194779"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.37",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Uncertainty estimation and its applications in computer vision",
+            "abstract": "Abstract: Deep learning has become the common practice for most computer vision tasks due to being state-of-the-art in both accuracy and runtime. It has not only revolutionized machine learning and computer vision, but also moved us a big step closer to artificial intelligence. Due to its success, besides academia, it has already been part of many industrial and clinical solutions; from autonomous driving to Instagram\u2019s cyberbullying detection, from Twitter\u2019s tweet curation to Heineken\u2019s data-driven marketing, from music generation to augmenting/replacing radiologists to detect cancer in Computed Tomography scans. While deployment of deep learning approaches is straight-forward as better ones are being developed, for safety-critical applications a big challenge remains: estimating uncertainty. In autonomous systems like self-driving cars, it is of great importance that the system knows when it does not know e.g. heavy rain obscures the vision,<br>the car was trained for highway but is now at Arc de Triomphe in Paris or a koala runs to the street due to a bush fire. Uncertainty estimation not only enables us to quantify the reliability of a decision coming from a system, but when modeled fully, also enables us to solve nondeterministic tasks with more than one possible outcome, such as future prediction: an important aspect of human intelligence. Once we have a reasonable estimation for the uncertainty of a subsystem, another challenge is to make good use of this new data modality by propagating it properly through chains of subsystems to improve the result of the whole system. <br>This thesis starts with a general presentation of the value of deep learning in medical image segmentation. <br>Then, it continues by equipping modern convolutional neural networks with uncertainty estimation in show-cases of optical flow and future localization. <br>Finally, it uses the uncertainty estimation to improve network predictions in tracking cell nuclei tagged with a dynamic protein and future captioning",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1176168932",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/194779",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

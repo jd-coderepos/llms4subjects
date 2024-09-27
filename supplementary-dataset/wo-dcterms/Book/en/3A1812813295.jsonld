@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1265607524",
+            "sameAs": "Sharma, Amit"
+        },
+        {
+            "@id": "gnd:129354759",
+            "sameAs": "Chernozhukov, Victor"
+        },
+        {
+            "@id": "gnd:170367576",
+            "sameAs": "Newey, Whitney K."
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1812813295",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Cinelli, Carlos",
+                "Syrgkanis, Vasilis"
+            ],
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)KEP:081366477",
+                "(ppn)1812813295"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Nichtparametrische Sch\u00e4tzung",
+                "Semiparametric and Nonparametric Methods: General",
+                "(classificationName=linseach:automatic)mat",
+                "Cross-Sectional Models; Spatial Models; Treatment Effect Models; Quantile Regressions; Social Interaction Models",
+                "K\u00fcnstliche Intelligenz",
+                "Cross-Sectional Models; Spatial Models; Treatment Effect Models; Quantile Regressions",
+                "Systematischer Fehler",
+                "Kausalanalyse"
+            ],
+            "title": "Long Story Short : Omitted Variable Bias in Causal Machine Learning",
+            "abstract": "We derive general, yet simple, sharp bounds on the size of the omitted variable bias for a broad class of causal parameters that can be identified as linear functionals of the conditional expectation function of the outcome. Such functionals encompass many of the traditional targets of investigation in causal inference studies, such as, for example, (weighted) average of potential outcomes, average treatment effects (including subgroup effects, such as the effect on the treated), (weighted) average derivatives, and policy effects from shifts in covariate distribution -- all for general, nonparametric causal models. Our construction relies on the Riesz-Frechet representation of the target functional. Specifically, we show how the bound on the bias depends only on the additional variation that the latent variables create both in the outcome and in the Riesz representer for the parameter of interest. Moreover, in many important cases (e.g, average treatment effects and avearage derivatives) the bound is shown to depend on easily interpretable quantities that measure the explanatory power of the omitted variables. Therefore, simple plausibility judgments on the maximum explanatory power of omitted variables (in explaining treatment and outcome variation) are sufficient to place overall bounds on the size of the bias. Furthermore, we use debiased machine learning to provide flexible and efficient statistical inference on learnable components of the bounds. Finally, empirical examples demonstrate the usefulness of the approach",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:170367576",
+                "gnd:39157-8",
+                "gnd:1265607524",
+                "gnd:129354759"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w30302",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

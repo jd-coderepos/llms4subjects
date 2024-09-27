@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:142471178",
+            "sameAs": "Helms, Domenik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A615361994",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 166 S.",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)615361994",
+                "(firstid)GBV:615361994"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)621.395",
+                "(classificationName=bk, id=10641867X)53.51 - Bauelemente der Elektronik",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Leakage models for high level power estimation",
+            "abstract": [
+                "In heutigen sub-100nm CMOS Systemen sind Leckstr\u00f6me von hoher Bedeutung. Diese k\u00f6nnen auf Transistorebene langsam aber genau (BSIM oder PSP) und auf der Gatter-Ebene schneller aber unter Vernachl\u00e4ssigung wichtiger Parameter (Liberty) vorhergesagt werden. In dieser Arbeit werden Modelle auf RT Ebene entwickelt, die schneller als bisherige Gatter Modelle aber nahezu so genau wie Transistormodelle sind. Daf\u00fcr wird eine Modellhierarchie von einfachen Transistorbeschreibungen \u00fcber Gattermodelle bis hin zu RT Soft Makros entwickelt, in der alle wesentlichen Parameter entweder zur n\u00e4chsten Ebene durchgereicht (und sind dann bis hin zur Systemebene verf\u00fcgbar) oder, wo m\u00f6glich, implizit in die Modelle integriert werden. Diese Modelle sind millionenfach schneller als SPICE aber innerhalb von 3.6% - 6.9% Standardabweichung f\u00fcr eine weite Spanne an Temperaturen, Betriebsspannungen und Prozessvariationen. <dt.>",
+                "Leakage currents are a major concern in sub-100nm CMOS. Existing leakage models either offer accurate, but slow simulation at transistor level (BSIM or PSP), or faster gate level modelling, disregarding relevant parameters (Liberty). This thesis develops RT level leakage macro models, being even faster than recent gate level models, while regarding all relevant parameters and thus being just slightly less accurate than transistor level models. A powerful, yet fast single transistor leakage model is presented, which can be characterised using industrial standard models. This model is abstracted in layers, first towards gate models, then RT hard macros, and finally RT soft macros, while explicitly or implicitly preserving parameter influences. All relevant parameters are forwarded through all abstraction layers and can still be explicitly regarded at system level. The final model needs less than a hundred parameters to capture the leakage behaviour of an entire RT component family. A model prediction is up to a million times faster than SPICE and is within 3.6% - 6.9% std. deviation over a wide range of operating conditions and process variation settings. <engl.>"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:142471178",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1145867340",
+            "sameAs": "Whidborne, James F."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749191376",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIX, 277 p)",
+            "creator": "Istepanian, Robert S. H.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4471-0265-6",
+                "(ppn)749191376",
+                "(firstid)GBV:749191376",
+                "(isbn13)9781447102656"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Engineering",
+                "Electronics",
+                "(classificationName=loc)TJ212-225",
+                "Control engineering.",
+                "(classificationName=ddc)003",
+                "Microprogramming",
+                "Microelectronics.",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc)629.8312",
+                "(classificationName=ddc)629.8"
+            ],
+            "title": "Digital Controller Implementation and Fragility : A Modern Perspective",
+            "abstract": "In the usual process of control system design, the assumption is made that the controller is implemented exactly. This assumption is usually reasonable, since clearly, the plant uncertainty is the most significant source of uncertainty in the control system, while controllers are implemented with high-precision hardware. However, inevitably, there will be some amount of uncertainty in the controller, a fact that is largely ignored in existing modern advanced robust control techniques. If the controller is implemented by analogue means, there are some tolerances in the analogue components. More commonly, the controller will be implemented digitally, and consequently there will be uncertainty involved with the quantization in the analogue-digital conversion and rounding in the parameter representation and in the numerical computations. A failure to account for these uncertainties in the controller may result in a controller that is \"fragile\". A controller is fragile in the sense that very small perturbations in the coefficients of the designed controller destabilize the closed-loop control system. This book collects a number of articles which consider the problems of finite-precision computing in digital controllers and filters. Written by leading researchers, topics that the book covers include: - analysis of fragility and finite-precision effects; - design of optimal controller realizations; - design of non-fragile robust controllers; - design of low-complexity digital controllers; - analysis of quantization effects in fuzzy controllers",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1145867340"
+                }
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2001",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4471-0265-6",
+            "P30128": "Advances in Industrial Control",
+            "P60163": "London"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

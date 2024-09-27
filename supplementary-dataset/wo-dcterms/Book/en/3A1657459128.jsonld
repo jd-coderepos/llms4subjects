@@ -1,12 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:131870920",
+            "sameAs": "Funke, Katja"
+        },
+        {
             "@id": "gnd:171029453",
             "sameAs": "Schwartz, Gerd"
         },
         {
             "@id": "gnd:4043147-2",
-            "sameAs": "Öffentliche Investition"
+            "sameAs": "\u00d6ffentliche Investition"
         },
         {
             "@id": "gnd:4337462-1",
@@ -16,11 +20,8 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1657459128",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (XXVII, 306 p, online resource)",
-            "contributor": [
-                "Funke, Katja",
-                "Corbacho, Ana"
-            ],
-            "description": "Campusweiter Zugriff (Universität Hannover). Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "contributor": "Corbacho, Ana",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9780230593992",
                 "(ppn)1657459128",
@@ -33,31 +34,32 @@
                 "Welfare economics",
                 "Infrastructure (Economics)",
                 "Banks and banking",
-                "Öffentliche Investition",
+                "\u00d6ffentliche Investition",
                 "(classificationName=rvk)QR 420",
                 "Welt",
-                "Öffentliche Ausgaben",
+                "\u00d6ffentliche Ausgaben",
                 "Public-private sector cooperation",
                 "(classificationName=loc)HB846-HB846.8",
                 "(classificationName=ddc)332.67/252",
-                "Öffentliche Finanzen",
+                "\u00d6ffentliche Finanzen",
                 "Public investments",
                 "Infrastrukturinvestition",
-                "Öffentlich-private Partnerschaft",
+                "\u00d6ffentlich-private Partnerschaft",
                 "EU-Staaten",
-                "Public Private Partnership",
                 "Macroeconomics",
                 "(classificationName=linseach:mapping)oek",
                 "Economics",
-                "Aufsatzsammlung",
                 "(classificationName=loc)HC79.P83"
             ],
             "title": "Public Investment and Public-Private Partnerships : Addressing Infrastructure Challenges and Managing Fiscal Risks",
-            "abstract": "There are now increasing concerns about the need to upgrade public infrastructure, improve the delivery of public services, and explore new options for partnering with the private sector. This book looks at ways of strengthening the efficiency of public investment and managing the fiscal risks of public-private partnerships",
+            "abstract": "There are now increasing concerns about the need to upgrade public infrastructure, improve the delivery of public services, and explore new options for partnering with the private sector. This book looks at ways of strengthening the efficiency of public investment and managing the fiscal risks of public-private partnerships",
             "dcterms:contributor": [
                 "Technische Informationsbibliothek (TIB)",
                 {
                     "@id": "gnd:171029453"
+                },
+                {
+                    "@id": "gnd:131870920"
                 }
             ],
             "isPartOf": [
@@ -68,7 +70,7 @@
             ],
             "issued": "2008",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
-            "license": "commercial licence",
+            "license": "national licence",
             "medium": "rda:termList/RDACarrierType/1018",
             "subject": [
                 "gnd:4337462-1",
@@ -76,27 +78,21 @@
             ],
             "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DE0101E01AEEFD12F7EFBC125749000497C2C.pdf",
             "isLike": "doi:10.1057/9780230593992",
-            "P30128": [
-                "Procyclicality of Financial Systems in Asia",
-                "Springer ebook collection / Palgrave Economics and Finance Collection 2000 - 2013",
-                "Springer eBook Collection",
-                "Palgrave Economics &amp; Finance Collection",
-                "SpringerLink",
-                "Bücher"
-            ],
+            "P30128": "Procyclicality of Financial Systems in Asia",
             "P60163": "London"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
@@ -107,18 +103,17 @@
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "license": "http://purl.org/dc/terms/license",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "description": "http://purl.org/dc/elements/1.1/description",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "abstract": "http://purl.org/dc/terms/abstract",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

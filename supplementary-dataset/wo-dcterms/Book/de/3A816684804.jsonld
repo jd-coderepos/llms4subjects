@@ -2,7 +2,11 @@
     "@graph": [
         {
             "@id": "gnd:1067599096",
-            "sameAs": "Steinhöfel, Ilka"
+            "sameAs": "Steinh\u00f6fel, Ilka"
+        },
+        {
+            "@id": "gnd:1070954047",
+            "sameAs": "Kunz, Hans J\u00fcrgen"
         },
         {
             "@id": "gnd:1139846248",
@@ -10,7 +14,7 @@
         },
         {
             "@id": "gnd:2076426-1",
-            "sameAs": "Auswertungs- und Informationsdienst für Ernährung, Landwirtschaft und Forsten"
+            "sameAs": "Auswertungs- und Informationsdienst f\u00fcr Ern\u00e4hrung, Landwirtschaft und Forsten"
         },
         {
             "@id": "gnd:4124247-6",
@@ -22,7 +26,7 @@
         },
         {
             "@id": "gnd:4139264-4",
-            "sameAs": "Kälberaufzucht"
+            "sameAs": "K\u00e4lberaufzucht"
         },
         {
             "@id": "gnd:4143126-1",
@@ -36,7 +40,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A816684804",
             "@type": "bibo:Book",
             "P1053": "67 S.",
-            "creator": "Kunz, Hans-Jürgen",
             "description": [
                 "21 cm",
                 "Ill., graph. Darst."
@@ -46,26 +49,21 @@
                 "(ppn)816684804",
                 "(isbn13)9783830811619"
             ],
-            "publisher": "aid infodienst Ernährung, Landwirtschaft, Verbraucherschutz",
+            "publisher": "aid infodienst Ern\u00e4hrung, Landwirtschaft, Verbraucherschutz",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc-dbn)630",
                 "(classificationName=bk, id=106421662)48.60 - Tierproduktion, Tierhaltung: Allgemeines",
                 "(classificationName=linseach:mapping)hor",
                 "(classificationName=rvk)ZD 55000"
             ],
-            "title": "Aufstallungsformen für Kälber",
-            "abstract": "Abgeleitet von den Bedürfnissen der Tiere und unter Berücksichtigung der Tierschutz-Nutztierhaltungsverordnung stellt das Heft bewährte Haltungsverfahren (Kaltstall- und Warmstallhaltung) vor und bewertet sie. Fütterungs- und Tränkesysteme sowie computergestützte Tränketechnik werden detailliert beschrieben. Erweitert wurden in der 5. Auflage der Teil Kälberkrankheiten. Ganz konkret werden Maßnahmen vorgestellt, die bei Durchfallerkrankungen (verursacht durch Coli-Infektionen, Kryptosporidien, Rota-und Corona-Infektion) zu ergreifen sind. Elf Planungsbeispiele aus der Praxis, Neu- und Umbaulösungen verschiedener Größenordnungen, inklusive ökologischer Tierhaltung, werden jeweils mit Stallgrundriss und Schnitt dargestellt  (Quelle: aid).",
+            "title": "Aufstallungsformen f\u00fcr K\u00e4lber",
+            "abstract": "Abgeleitet von den Bed\u00fcrfnissen der Tiere und unter Ber\u00fccksichtigung der Tierschutz-Nutztierhaltungsverordnung stellt das Heft bew\u00e4hrte Haltungsverfahren (Kaltstall- und Warmstallhaltung) vor und bewertet sie. F\u00fctterungs- und Tr\u00e4nkesysteme sowie computergest\u00fctzte Tr\u00e4nketechnik werden detailliert beschrieben. Erweitert wurden in der 5. Auflage der Teil K\u00e4lberkrankheiten. Ganz konkret werden Ma\u00dfnahmen vorgestellt, die bei Durchfallerkrankungen (verursacht durch Coli-Infektionen, Kryptosporidien, Rota-und Corona-Infektion) zu ergreifen sind. Elf Planungsbeispiele aus der Praxis, Neu- und Umbaul\u00f6sungen verschiedener Gr\u00f6\u00dfenordnungen, inklusive \u00f6kologischer Tierhaltung, werden jeweils mit Stallgrundriss und Schnitt dargestellt  (Quelle: aid).",
             "contributor": "Technische Informationsbibliothek (TIB)",
-            "dcterms:creator": [
-                {
-                    "@id": "gnd:2076426-1"
-                },
-                {
-                    "@id": "gnd:1067599096"
-                },
-                {
-                    "@id": "gnd:1139846248"
-                }
+            "creator": [
+                "gnd:1070954047",
+                "gnd:2076426-1",
+                "gnd:1067599096",
+                "gnd:1139846248"
             ],
             "issued": "2015",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
@@ -99,7 +97,10 @@
             "@type": "@id"
         },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "title": "http://purl.org/dc/elements/1.1/title",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",

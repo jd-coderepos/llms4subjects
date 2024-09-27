@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1054618836",
+            "sameAs": "Forbes, Andrew"
+        },
+        {
+            "@id": "gnd:1138458937",
+            "sameAs": "Heintzmann, Rainer"
+        },
+        {
+            "@id": "gnd:1204664870",
+            "sameAs": "Mertz, Jerome"
+        },
+        {
+            "@id": "gnd:131725905X",
+            "sameAs": "Ratsimandresy, Dina"
+        },
+        {
+            "@id": "gnd:1317340531",
+            "sameAs": "Bosman, Gurthwin"
+        },
+        {
+            "@id": "gnd:35910-5",
+            "sameAs": "Stellenbosch University"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4197032-9",
+            "sameAs": "Bilderzeugung"
+        },
+        {
+            "@id": "gnd:4290958-2",
+            "sameAs": "Fluoreszenzmikroskopie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A187933853X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (147 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:187933853X",
+                "(doi)10.22032/dbt.59485",
+                "(ppn)187933853X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=181571102)33.05 - Experimentalphysik",
+                "Fluoreszenzmikroskopie",
+                "(classificationName=ddc-dbn)502.82",
+                "Bildverarbeitung",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)500",
+                "Bilderzeugung"
+            ],
+            "title": "Theory of computing point spread functions",
+            "abstract": "Das Bildgebungsverfahren mit inkoh\u00e4rentem Licht in der Fluoreszenzmikroskopie ist mathematisch formuliert als Faltung eines Objekts mit der optischen Antwort des Systems, der Punktspreizfunktion (PSF). Diese Antwort findet unter bestimmten Bildgebunsbedingungen, wie z.B. der Verschiebungsinvarianz und der Abbe-Sinus-Bedingung, statt. Die Bildqualit\u00e4t und Aufl\u00f6sung eines optischen Systems warden durch die numerische Apertur des Systems und der Wellenl\u00e4nge des emittierten Lichts begrenzt, welche wiederum durch die Beugungsgrenze des optischen Systems definiert wird. Die optische Aufl\u00f6sung und die Bildqualit\u00e4t kann entweder durch eine Weiterentwicklung des Bildgebungsverfahrens in ein Verfahren mit inherent kleinerer PSF oder durch die Umkehrung der Faltung des Objektes mit der PSF durch einen mathematischen Ansatz namens \u201cDekonvolution\u201d unter plausiblen Annahmen verbessert werden. F\u00fcr einen effizienten Dekonvolutionsprozess wird ein realistisches und akkurates Modell der PSF ben\u00f6tigt. In dieser Doktorarbeit pr\u00e4sentieren wir eine Theorie der Berechnung der PSF in der Fluoreszenzmikroskopie unter realistischen Aufnahmebedingungen mit einer gegebenen Anzahl bekannter und unbekannter Bildgebungsparametern. Vier Ans\u00e4tze zur Berechnung der PSF eines Weitfeldsystems, von denen zwei g\u00e4nzlich neu sind, werden entwickelt. Diese neuen PSF-Modelle sind Fourier basiert, einfach zu implementieren, f\u00fcr gekippte stratifizierte Medien geeignet und beziehen die vektoriellen Eigenschaften des Lichtes mit ein. Die schnelle Fourier-Transformation ist ein praktisches Verfahren zur Beschleunigung von PSF-Berechnungen und ihre Stolperfallen werden bei unseren Berechnungen sorgf\u00e4ltig vermieden. Unsere PSF-Modelle werden mit Modellen nach dem aktuellen Stand der theoretischen Wissen-schaft verglichen, experimentell validiert und auf ihre Dekonvolutionseffizienz getestet. Wir zeigen dass unsere PSF Modelle besser als existierende Modelle sind.",
+            "contributor": [
+                "gnd:1054618836",
+                "gnd:1204664870",
+                "gnd:1317340531",
+                "gnd:1138458937"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:131725905X",
+                "gnd:35910-5",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4290958-2",
+                "gnd:4197032-9"
+            ],
+            "isLike": "doi:10.22032/dbt.59485",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

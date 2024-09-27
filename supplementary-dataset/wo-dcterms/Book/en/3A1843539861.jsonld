@@ -23,8 +23,8 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1843539861",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource (xvii, 625 Seiten)",
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots",
+            "P1053": "1 Online-Ressource (xvii, 625 ungez\u00e4hlte Seiten)",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots",
             "identifier": [
                 "(ppn)1843539861",
                 "(firstid)KEP:091398258",
@@ -38,7 +38,7 @@
                 "(classificationName=ddc)180",
                 "(classificationName=linseach:mapping)phi",
                 "Philosophy, Ancient",
-                "(classificationName=bk, id=106402579)08.21 - Griechische Philosophie, römische Philosophie",
+                "(classificationName=bk, id=106402579)08.21 - Griechische Philosophie, r\u00f6mische Philosophie",
                 "Philosophy"
             ],
             "title": "The Oxford handbook of Roman philosophy",
@@ -61,13 +61,14 @@
             ],
             "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9780199328383.pdf",
             "isLike": "doi:10.1093/oxfordhb/9780199328383.001.0001",
-            "P30128": "Oxford handbooks series",
+            "P30128": "Oxford handbooks",
             "P60163": "New York"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "contributor": {
@@ -90,9 +91,8 @@
         },
         "alternative": "http://purl.org/dc/terms/alternative",
         "description": "http://purl.org/dc/elements/1.1/description",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

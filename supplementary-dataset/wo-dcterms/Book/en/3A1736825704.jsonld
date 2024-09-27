@@ -5,6 +5,10 @@
             "sameAs": "Cyberattacke"
         },
         {
+            "@id": "gnd:1242109528",
+            "sameAs": "Oka, Dennis Kengo"
+        },
+        {
             "@id": "gnd:4032690-1",
             "sameAs": "Kraftfahrzeugindustrie"
         },
@@ -20,7 +24,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1736825704",
             "@type": "bibo:Book",
             "P1053": "xiii, 304 Seiten",
-            "creator": "Oka, Dennis Kengo",
             "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(isbn13)9781119710776",
@@ -35,13 +38,14 @@
                 "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
                 "Automotive telematics",
                 "(classificationName=loc)TL272.53",
-                "(classificationName=bk, id=181570424)55.24 - Fahrzeugführung, Fahrtechnik",
+                "(classificationName=bk, id=181570424)55.24 - Fahrzeugf\u00fchrung, Fahrtechnik",
                 "Automotive computers",
                 "(classificationName=linseach:mapping)inf"
             ],
             "title": "Building secure cars : assuring the automotive software development lifecycle",
             "abstract": "\"Connectivity and software-based automotive components are now the norm in motor manufacturing, and there can be more than 100 million lines of code in a modern car, making the vehicle highly vulnerable to hacking and other cybersecurity attacks. In response, the automotive industry is investing heavily in security software, effectively creating secure cars. Written by a seasoned automotive expert with international industry expertise, this book introduces readers to the different types of security solutions, with the aim of helping software development and test teams identify vulnerabilities quickly and efficiently. Common problems and pitfalls, based on real-world experiences, are discussed and solutions provided. The aim of the book is to assist auto industry insiders overcome cybersecurity challenges by incorporating security into their software lifecycle to help build more secure and safe cars\"--",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1242109528",
             "issued": "2021",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -68,7 +72,10 @@
             "@type": "@id"
         },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"

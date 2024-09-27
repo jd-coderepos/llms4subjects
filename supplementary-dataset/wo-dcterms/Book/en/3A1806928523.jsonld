@@ -1,6 +1,14 @@
 {
     "@graph": [
         {
+            "@id": "gnd:122738497",
+            "sameAs": "Kaashoek, Marinus A."
+        },
+        {
+            "@id": "gnd:172488524",
+            "sameAs": "Verduyn Lunel, Sjoerd M."
+        },
+        {
             "@id": "gnd:4012251-7",
             "sameAs": "Differentialoperator"
         },
@@ -26,7 +34,7 @@
         },
         {
             "@id": "gnd:4284513-0",
-            "sameAs": "Vollständigkeit"
+            "sameAs": "Vollst\u00e4ndigkeit"
         },
         {
             "@id": "gnd:4358853-0",
@@ -35,14 +43,10 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1806928523",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(XVI, 350 p. 2 illus. in color.)",
-            "creator": [
-                "Kaashoek, Marinus A.",
-                "Verduyn Lunel, Sjoerd M."
-            ],
+            "P1053": "1 Online-Ressource (xvi, 350 Seiten)",
             "description": [
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
-                "Erworben aus Studienqualitätsmitteln"
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
             ],
             "identifier": [
                 "(ppn)1806928523",
@@ -50,7 +54,7 @@
                 "(isbn13)9783031045080",
                 "(firstid)KEP:078714907"
             ],
-            "publisher": "Springer International Publishing",
+            "publisher": "Birkh\u00e4user",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=bk, id=181569965)31.47 - Operatortheorie",
                 "Operator theory.",
@@ -58,9 +62,13 @@
                 "(classificationName=ddc)515.724",
                 "Differential equations."
             ],
-            "title": "Completeness Theorems and Characteristic Matrix Functions : Applications to Integral and Differential Operators",
+            "title": "Completeness theorems and characteristic matrix functions : applications to integral and differential operators",
             "abstract": "This monograph presents necessary and sufficient conditions for completeness of the linear span of eigenvectors and generalized eigenvectors of operators that admit a characteristic matrix function in a Banach space setting. Classical conditions for completeness based on the theory of entire functions are further developed for this specific class of operators. The classes of bounded operators that are investigated include trace class and Hilbert-Schmidt operators, finite rank perturbations of Volterra operators, infinite Leslie operators, discrete semi-separable operators, integral operators with semi-separable kernels, and period maps corresponding to delay differential equations. The classes of unbounded operators that are investigated appear in a natural way in the study of infinite dimensional dynamical systems such as mixed type functional differential equations, age-dependent population dynamics, and in the analysis of the Markov semigroup connected to the recently introduced zig-zag process.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:122738497",
+                "gnd:172488524"
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-SEB",
                 "(collectioncode)ZDB-2-SMA",
@@ -80,7 +88,7 @@
                 "gnd:4284513-0",
                 "gnd:4012251-7"
             ],
-            "volume": "288",
+            "volume": "volume 288",
             "isLike": "doi:10.1007/978-3-031-04508-0",
             "P30128": [
                 "Operator Theory: Advances and Applications",
@@ -92,27 +100,30 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "title": "http://purl.org/dc/elements/1.1/title",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
@@ -120,7 +131,7 @@
         "description": "http://purl.org/dc/elements/1.1/description",
         "issued": "http://purl.org/dc/terms/issued",
         "license": "http://purl.org/dc/terms/license",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "contributor": "http://purl.org/dc/terms/contributor",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

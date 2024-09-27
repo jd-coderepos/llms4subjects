@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universit\u00e4t Hamburg"
+        },
+        {
+            "@id": "gnd:1153226812",
+            "sameAs": "Bauch, Gerhard"
+        },
+        {
+            "@id": "gnd:1162657286",
+            "sameAs": "Technische Universit\u00e4t Hamburg, Institut f\u00fcr Nachrichtentechnik"
+        },
+        {
+            "@id": "gnd:1228045550",
+            "sameAs": "Ulmschneider, Markus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1749377713",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (VI, 176 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Witrisal, Klaus",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1749377713",
+                "(doi)10.15480/882.3299",
+                "(firstid)KXP:1749377713"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "positioning",
+                "(classificationName=bk, id=106415182)53.84 - Ortungstechnik, Radartechnik",
+                "localization",
+                "(classificationName=ddc-dbn)621.3",
+                "SLAM",
+                "Channel-SLAM",
+                "cooperative positioning",
+                "(classificationName=ddc)004: Informatik",
+                "(classificationName=ddc)621.384191"
+            ],
+            "title": "Cooperative multipath assisted positioning",
+            "abstract": [
+                "Location-awareness has become an important issue in modern life. In environments with good view to the sky, global navigation satellite systems can provide very accurate location estimates. Though, their positioning performance decreases significantly if the view to satellites is blocked. Indoors, no localization solution may be obtained at all. Terrestrial signals such as from telecommunication base stations or wireless local area network routers can be used for indoor localization. However, the localization performance may suffer from multipath propagation when traditional propagation delay-based algorithms are applied. The transmit signal is reflected, scattered and diffracted in the environment, distorting the signal and leading to a bias in the delay estimates. With multipath assisted positioning, a new approach has emerged, that exploits the information in multipath components (MPCs) by treating them as line-of-sight signals from virtual transmitters. While the locations of the physical and virtual transmitters are generally unknown, they can be estimated with simultaneous localization and mapping (SLAM). One SLAM based multipath assisted positioning algorithm is Channel-SLAM, where the user location is estimated simultaneously with creating a map of physical and virtual transmitters. The Channel-SLAM algorithm is limited to single users. There are many settings where multiple users move in the same indoor environment, such as in shopping malls or public buildings. Within this thesis, the Channel-SLAM algorithm is extended by cooperation among users in terms of exchanging maps of transmitter locations. This cooperation can drastically increase the positioning performance of all cooperating users. However, Channel-SLAM is only a relative localization system, as no relation of the user location to an absolute coordinate frame is known. The transformation parameters relating the coordinate systems of a user to the coordinate system of a map the user obtains from a different user are unknown. In addition, the correspondences among transmitters observed by the user and transmitters in the map are unknown. Estimating these transformation parameters and correspondences is referred to as map matching. A robust map matching scheme is crucial for such cooperation. Since the lack of diversity among virtual transmitters leads to ambiguities in map matching, the transmitter state space is augmented by information from where transmitters are visible. A transmitter is visible, if its signal can be received in a LoS condition. We derive two new tracking filters for Channel-SLAM that map not only the locations, but also the visibility information on transmitters. The visibility information increases the robustness of Channel-SLAM by facilitating the detection of loop closures. In addition, it is used to derive a robust data association scheme. Data association in multipath assisted positioning refers to the challenge of associating signal components with transmitters, leading to robust and accurate long-term SLAM. Finally, the increased transmitter diversity through visibility information improves the positioning performance of Channel SLAM by a more robust data association and by enabling user cooperation.",
+                "Das Kennen des eigenen Standorts ist zu einem wichtigen Aspekt in unserem modernen Leben geworden. In Umgebungen mit guter Sicht in den Himmel k\u00f6nnen globale Satellitennavigationssysteme sehr genaue Positionssch\u00e4tzungen liefern. Wenn die Sicht auf den Himmel blockiert ist, nimmt die Genauigkeit dieser Sch\u00e4tzungen rapide ab. Innerhalb von Geb\u00e4uden kann oft gar keine Position bestimmt werden. Auch terrestrische Signale wie beispielsweise von Funkmasten oder kabellosen Routern k\u00f6nnen f\u00fcr die Lokalisierung in Geb\u00e4uden verwendet werden. Die Genauigkeit verschlechtert sich jedoch durch Mehrwegeausbreitung, wenn Algorithmen verwendet werden, die auf Messungen der Signallaufzeit basieren. Das elektromagnetische Sendesignal wird an Objekten reflektiert, gestreut und gebrochen, was zu einem Versatz in den Sch\u00e4tzungen der Laufzeiten f\u00fchrt. Ein neuer Ansatz diesem Problem zu begegnen ist das Ausnutzen von Mehrwegekomponenten. Dabei wird die Information in Mehrwegekomponenten dadurch genutzt, dass diese als Signale von virtuellen Sendern behandelt werden, wobei diese virtuellen Sender Sichtverbindung zum Empf\u00e4nger haben. Zwar sind die Positionen der physikalischen und virtuellen Sender unbekannt, sie k\u00f6nnen jedoch mittels simultaner Positionsbestimmung und Kartenerstellung (Simultaneous Localization and Mapping, SLAM) gesch\u00e4tzt werden. Ein solcher SLAM basierter Algorithmus, der Mehrwegekomponenten ausnutzt, ist Channel-SLAM. Hierbei wird die Position des Benutzers gesch\u00e4tzt, w\u00e4hrend gleichzeitig eine Karte der physikalischen und virtuellen Sender erstellt wird. Channel-SLAM ist auf einen einzelnen Nutzer ausgerichtet. Jedoch gibt es viele Szenarien, in denen sich Nutzer durch dieselben Geb\u00e4ude bewegen, wie beispielsweise in Einkaufszentren oder \u00f6ffentlichen Geb\u00e4uden. In dieser Arbeit wird der Channel-SLAM Algorithmus dahingehend erweitert, dass Nutzer kooperieren, indem sie Karten von Positionen von Sendern untereinander austauschen. Solch eine Zusammenarbeit kann die Positionierungsgenauigkeit aller Benutzer drastisch verbessern. Da im Allgemeinen keine Relation zu einem globalen Koordinatensystem bekannt ist, z\u00e4hlt Channel-SLAM zu den relativen Positionierungsalgorithmen. Die Parameter, die den Zusammenhang zwischen dem lokalen Koordinatensystem des Nutzers und dem einer Karte, die der Nutzer erhalten hat, herstellen, sind in der Regel unbekannt. Au\u00dferdem ist unbekannt, welche der Sender, die der Nutzer beobachtet hat und die in einer Karte sind, einander entsprechen. Das Sch\u00e4tzen dieser Transformationsparameter und der Entsprechungen der Sender wird als Kartenabgleich bezeichnet. Ein robuster Kartenabgleich ist essenziell f\u00fcr eine Kooperation unter Nutzern. Da virtuelle Transmitter nur schwer an Hand ihrer Sendesignale zu unterscheiden sind, treten beim Kartenabgleich oft Mehrdeutigkeiten auf. Deshalb wird der Zustandsraum der Sender um die Information erweitert, an welchen Orten die Signale von welchen Sendern sichtbar sind. In diesem Zusammenhang ist ein Sender sichtbar, wenn sein Signal es in Sichtverbindung empfangen werden kann. Es werden zwei neue Filter f\u00fcr Channel-SLAM hergeleitet, die nicht nur die Positionen, sondern auch Sichtbarkeitsbereiche von Sendern sch\u00e4tzen. Die Hinzunahme der Sichtbarkeitsbereiche macht das Channel-SLAM Verfahren robuster. Zus\u00e4tzlich wird eine robuste Methode zur Datenassoziation hergeleitet. Datenassoziation bezieht sich dabei auf die Herausforderung, Signale physikalischen und virtuellen Sendern zuzuordnen, was essentiell f\u00fcr eine langfristig robuste und genaue Positionssch\u00e4tzung in Channel-SLAM ist. Letztlich erm\u00f6glichen Sichtbarkeitsbereiche einen signifikant robusteren Kartenabgleich, was erst eine Kooperation von Benutzern im Sinne von Kartenaustausch erm\u00f6glicht."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1153226812"
+                }
+            ],
+            "creator": [
+                "gnd:1228045550",
+                "gnd:1112763473",
+                "gnd:1162657286"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15480/882.3299",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1115370928",
+            "sameAs": "Simon, Jens"
+        },
+        {
+            "@id": "gnd:121448339",
+            "sameAs": "Kleine B\u00fcning, Hans"
+        },
+        {
+            "@id": "gnd:138899347",
+            "sameAs": "Ngonga Ngomo, Axel-Cyrille"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A100941352X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 217 Seiten)",
+            "contributor": [
+                "Wehrheim, Heike",
+                "Platzner, Marco"
+            ],
+            "creator": "Travkin, Oleg",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)100941352X",
+                "(firstid)HBZ:CT004002011",
+                "(doi)10.17619/UNIPB/1-247"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)005",
+                "(classificationName=ddc)006"
+            ],
+            "title": "Verifying concurrent programs under weak memory models",
+            "abstract": "Moderne Multicore Prozessoren haben schwache Speichermodelle. Diese Speichermodelle sortieren scheinbar Programm-Operationen um. Damit weichen sie von der \u00fcblicherweise angenommenen Sequenziellen Konsistenz (SC) ab. Bei der Verifikation nebenl\u00e4ufiger Programme m\u00fcssen schwache Semantiken ber\u00fccksichtigt werden. Linearisierbarkeit, ein de-facto Standard Korrektheitskriterium f\u00fcr nebenl\u00e4ufige Datenstrukturen, wurde unter der Annahme von SC definiert und seine Bedeutung unter schwachen Speichermodellen blieb lange unklar. Erst k\u00fcrzlich wurden neue Varianten vorgeschlagen. Wir pr\u00e4sentieren einen Verifikationsansatz f\u00fcr nebenl\u00e4ufige Programme unter den schwachen Speichermodellen TSO und PSO. Der Ansatz basiert auf einer Reduktion von nebenl\u00e4ufigen Programmen unter TSO (resp. PSO) auf SC Programme und erm\u00f6glicht den Einsatz von Standart-SC-Verifikations-Tools. Die Reduktion erfolgt in zwei Schritten: Eine symbolische Exploration, die zu einer Repr\u00e4sentation des Programmverhaltens unter TSO (resp. PSO) als Store Buffer Graph f\u00fchrt. Letzterer wird anschlie\u00dfend in ein neues SC Programm transformiert. Wir beweisen, dass beide Programme verhaltens\u00e4quivalent sind (Bisimulation). Unser Tool Weak2SC implementiert den Ansatz. Au\u00dferdem evaluieren wir den Reduktionsansatz, indem wir ihn gegen \u00fcblichere (explizite) Modelle schwacher Speichersemantiken vergleichen. Wir nehmen existierende Verifikationsans\u00e4tze f\u00fcr Linearisierbarkeit unter SC und adaptieren diese f\u00fcr schwache Speichermodelle. Wir wenden diese Ans\u00e4tze auf eine Menge typischer nebenl\u00e4ufiger Datenstrukturen an und erhalten vielversprechende Resultate. Au\u00dferdem diskutieren wir, wie die verwendeten Verifikationsverfahren mit den neuen Formalisierungen von Linearisierbarkeit unter schwachen Speichermodellen zusammenh\u00e4ngen.. - Modern multicore processors provide weak memory models. These memory models seemingly reorder program operations. Thus, they deviate from the commonly assumed sequential consistency (SC) semantics. Verification techniques for concurrent programs consequently need to take these weak semantics into account. Linearizability, a de-facto standard correctness condition for concurrent data structures, has been defined under assumption of SC and its meaning under weak memory models was uncertain for years. Just recently, new adaptations were proposed. We present a verification approach for concurrent programs under the weak memory models TSO and PSO. The approach is based on a reduction of concurrent programs under TSO (resp. PSO) to an SC program enabling many standard SC verification tools. The reduction involves two steps: a symbolic exploration, which results in a representation of the program behavior under TSO (resp. PSO) as a store buffer graph. The latter is then transformed into a new SC program. We prove both programs to be behaviorally equivalent (bisimulation). Our tool Weak2SC implements the presented approach. Furthermore, we evaluate our reduction approach by comparing it against more common explicit models of weak memory semantics. We take existing approaches for verification of linearizability under SC and adapt them for weak memory models. We apply these approaches to a set of typical concurrent data structures and achieve promising results in terms of performance (resp. proof effort). In addition, we also discuss how the adapted verification approaches relate to the new formalizations of linearizability under weak memory models.",
+            "alternative": "Verifikation nebenl\u00e4ufiger Programme unter schwachen Speichermodellen",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:1115370928"
+                },
+                {
+                    "@id": "gnd:138899347"
+                },
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:121448339"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-247",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

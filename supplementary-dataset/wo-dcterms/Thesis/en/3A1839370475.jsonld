@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1283956152",
+            "sameAs": "Mutschler, Maximus"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1839370475",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XI, 163 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1839370475",
+                "(firstid)KXP:1839370475",
+                "(doi)10.15496/publikation-78442"
+            ],
+            "subject": [
+                "Neuronales Netz",
+                "(classificationName=ddc-dbn)004",
+                "Suchverfahren",
+                "(classificationName=ddc-dbn)006.31",
+                "Optimierung",
+                "(classificationName=linseach:mapping)inf",
+                "Maschinelles Lernen"
+            ],
+            "title": "Empirics-based line searches for Deep Learning",
+            "abstract": "This dissertation takes an empirically based perspective on optimization in deep learning. It is motivated by the lack of empirical understanding of the loss landscape's properties for typical deep learning tasks and a lack of understanding of why and how optimization approaches work for such tasks. We solidified the empirical understanding of stochastic loss landscapes to bring color to these white areas on the scientific map with empiric observations. Based on these observations, we introduce understandable line search approaches that compete with and, in many cases outperform, state-of-the-art line search approaches introduced for the deep learning field. This work includes a comprehensive introduction to optimization focusing on line searches in the deep learning field. Based on and guided by this introduction, empirical observations of typical image-classification benchmark tasks' loss landscapes are presented. Further, observations of how optimizers perform and move on such loss landscapes are given. From these observations, the line search approaches Parabolic Approximation Line Search (PAL) and Large Batch Parabolic Approximation Line Search (LABPAL) are derived. In particular, the latter method outperforms all competing line searches in this field in most cases. Furthermore, these observations reveal that well-tuned Stochastic Gradient Descent is already well approximating an almost exact line search, which in parts explains why it is so hard to beat. Given the empirical observations made, it is straightforward to comprehend why and how our optimization approaches work. This contrasts the methodology of many optimization papers in this field which builds upon non-empirically justified theoretical assumptions. Consequently, a general contribution of this work is that it justifies and demonstrates the importance of empirical work in this rather theoretical field.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1283956152",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-78442",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -41,7 +41,7 @@
             "@type": "bibo:Book",
             "P1053": "429 Seiten",
             "description": [
-                "21.3 cm x 14 cm",
+                "21cm x 14 cm",
                 "Illustrationen"
             ],
             "identifier": [
@@ -51,7 +51,7 @@
                 "(ean)9783593516585",
                 "(ppn)1843180197"
             ],
-            "publisher": "Campus",
+            "publisher": "Campus Verlag",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc-dbn)610",
                 "(classificationName=ddc-dbn)150",
@@ -59,15 +59,20 @@
                 "(classificationName=bk, id=181569701)15.43 - Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
                 "Psychiatry",
                 "History",
+                "(classificationName=bk, id=106409972)44.91 - Psychiatrie, Psychopathologie",
+                "(classificationName=rvk)DT 1100",
                 "History, 20th century",
                 "Geschichte 1945-",
                 "(classificationName=rvk)XB 5600",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=bk, id=106409638)44.01 - Geschichte der Medizin",
                 "Germany",
+                "(classificationName=linseach:mapping)pae",
                 "(classificationName=ddc-dbn)360",
                 "(classificationName=linseach:mapping)his"
             ],
-            "title": "Zwischen Beharrung, Kritik und Reform : psychiatrische Anstalten und Heime für Menschen mit Behinderung in der deutschen Nachkriegsgeschichte",
-            "abstract": "Psychiatrische Anstalten und Einrichtungen für Menschen mit Behinderungen erregten in jüngerer Zeit öffentliche Aufmerksamkeit, da Betroffene ihre dort gemachten Erfahrungen von Gewalt, Vernachlässigung und Ressourcenmangel publik machten. Die Beiträge dieses Bandes analysieren die Entwicklung der institutionellen Strukturen seit der Nachkriegszeit und ordnen das Handeln der Anstaltsleitungen und die wissenschaftlichen Konzepte, die der Ausübung von Gewalt Vorschub leisteten, zeitgeschichtlich ein. Zudem geben sie Einblicke in die Alltagsgeschichte in den Heimen aus der Sicht der Betroffenen.",
+            "title": "Zwischen Beharrung, Kritik und Reform : psychiatrische Anstalten und Heime f\u00fcr Menschen mit Behinderung in der deutschen Nachkriegsgeschichte",
+            "abstract": "Psychiatrische Anstalten und Einrichtungen f\u00fcr Menschen mit Behinderungen erregten in j\u00fcngerer Zeit \u00f6ffentliche Aufmerksamkeit, da Betroffene ihre dort gemachten Erfahrungen von Gewalt, Vernachl\u00e4ssigung und Ressourcenmangel publik machten. Die Beitr\u00e4ge dieses Bandes analysieren die Entwicklung der institutionellen Strukturen seit der Nachkriegszeit und ordnen das Handeln der Anstaltsleitungen und die wissenschaftlichen Konzepte, die der Aus\u00fcbung von Gewalt Vorschub leisteten, zeitgeschichtlich ein. Zudem geben sie Einblicke in die Alltagsgeschichte in den Heimen aus der Sicht der Betroffenen.",
             "contributor": [
                 "gnd:124432107",
                 "gnd:172978645"
@@ -94,18 +99,19 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "title": "http://purl.org/dc/elements/1.1/title",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "contributor": {
             "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
         },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "volume": "http://purl.org/ontology/bibo/volume",
         "issued": "http://purl.org/dc/terms/issued",
@@ -125,7 +131,6 @@
         },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

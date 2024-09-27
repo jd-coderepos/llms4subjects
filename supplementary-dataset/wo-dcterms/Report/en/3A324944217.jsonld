@@ -1,8 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1145511732",
+            "sameAs": "Roth, Hans-Klaus"
+        },
+        {
+            "@id": "gnd:1336248440",
+            "sameAs": "Weinzierl, Uwe"
+        },
+        {
             "@id": "gnd:4128805-1",
-            "sameAs": "Faserverstärkter Kunststoff"
+            "sameAs": "Faserverst\u00e4rkter Kunststoff"
         },
         {
             "@id": "gnd:4149718-1",
@@ -14,24 +22,20 @@
         },
         {
             "@id": "gnd:5143138-5",
-            "sameAs": "Thüringisches Institut für Textil- und Kunststoff-Forschung"
+            "sameAs": "Th\u00fcringisches Institut f\u00fcr Textil- und Kunststoff-Forschung"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A324944217",
             "@type": "bibo:Report",
             "P1053": "71 Bl.",
-            "creator": [
-                "Roth, Hans-Klaus",
-                "Weinzierl, Uwe",
-                "Schultheis, Karin"
-            ],
+            "http://purl.org/dc/elements/1.1/creator": "Schultheis, Karin",
             "description": "Ill., graph. Darst.",
             "identifier": [
                 "(contract)03N1027D8",
                 "(contract)03N1027D",
                 "(contract)03N1027",
-                "(firstid)GBV:324944217",
-                "(ppn)324944217"
+                "(ppn)324944217",
+                "(firstid)GBV:324944217"
             ],
             "publisher": "TITK",
             "http://purl.org/dc/elements/1.1/subject": [
@@ -39,13 +43,15 @@
                 "(classificationName=linseach:mapping)fer",
                 "(classificationName=bk, id=106409220)51.70 - Polymerwerkstoffe, Kunststoffe"
             ],
-            "title": "Niederdielektrisches Trägermaterial - Materialwissenschaftliche Entwicklung polymerer Substratmaterialien und polymerphysikalische Untersuchungen : Schlußbericht zum BMBF-Projekt ; Projektlaufzeit: 1.1.1997 bis 31.12.1999",
+            "title": "Niederdielektrisches Tr\u00e4germaterial - Materialwissenschaftliche Entwicklung polymerer Substratmaterialien und polymerphysikalische Untersuchungen : Schlu\u00dfbericht zum BMBF-Projekt ; Projektlaufzeit: 1.1.1997 bis 31.12.1999",
             "abstract": "Substrate materials, polymers, dielectric properties, polymer fibres reinforced olefines, dielectric polymerlayers",
-            "alternative": "Low-dielectric substrate materials - R &amp; D for polymeric substrate materials and polymer-physical investigations",
+            "alternative": "Low-dielectric substrate materials - R & D for polymeric substrate materials and polymer-physical investigations",
             "contributor": "Technische Informationsbibliothek (TIB)",
-            "dcterms:creator": {
-                "@id": "gnd:5143138-5"
-            },
+            "creator": [
+                "gnd:1145511732",
+                "gnd:1336248440",
+                "gnd:5143138-5"
+            ],
             "issued": "1999",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -71,8 +77,11 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "alternative": "http://purl.org/dc/terms/alternative",
         "abstract": "http://purl.org/dc/terms/abstract",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",

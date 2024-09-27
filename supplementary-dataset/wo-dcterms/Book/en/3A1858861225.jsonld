@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1858861225",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Resource (252 Seiten)",
+            "creator": "Bos, Mara",
+            "identifier": [
+                "(ppn)1858861225",
+                "(isbn13)9781098119416",
+                "(firstid)KEP:08350351X"
+            ],
+            "publisher": "O'Reilly",
+            "subject": [
+                "(classificationName=linseach:lexicon)inf",
+                "Electronic books"
+            ],
+            "title": "Rust Atomics and Locks : low-level concurrency in practice",
+            "abstract": "Cover -- Copyright -- Table of Contents -- Foreword -- Preface -- Who This Book Is For -- Overview of the Chapters -- Code Examples -- Conventions Used in This Book -- Contact Information -- Acknowledgments -- Chapter 1. Basics of Rust Concurrency -- Threads in Rust -- Scoped Threads -- Shared Ownership and Reference Counting -- Statics -- Leaking -- Reference Counting -- Borrowing and Data Races -- Interior Mutability -- Cell -- RefCell -- Mutex and RwLock -- Atomics -- UnsafeCell -- Thread Safety: Send and Sync -- Locking: Mutexes and RwLocks -- Rust's Mutex -- Lock Poisoning -- Reader-Writer Lock -- Waiting: Parking and Condition Variables -- Thread Parking -- Condition Variables -- Summary -- Chapter 2. Atomics -- Atomic Load and Store Operations -- Example: Stop Flag -- Example: Progress Reporting -- Example: Lazy Initialization -- Fetch-and-Modify Operations -- Example: Progress Reporting from Multiple Threads -- Example: Statistics -- Example: ID Allocation -- Compare-and-Exchange Operations -- Example: ID Allocation Without Overflow -- Example: Lazy One-Time Initialization -- Summary -- Chapter 3. Memory Ordering -- Reordering and Optimizations -- The Memory Model -- Happens-Before Relationship -- Spawning and Joining -- Relaxed Ordering -- Release and Acquire Ordering -- Example: Locking -- Example: Lazy Initialization with Indirection -- Consume Ordering -- Sequentially Consistent Ordering -- Fences -- Common Misconceptions -- Summary -- Chapter 4. Building Our Own Spin Lock -- A Minimal Implementation -- An Unsafe Spin Lock -- A Safe Interface Using a Lock Guard -- Summary -- Chapter 5. Building Our Own Channels -- A Simple Mutex-Based Channel -- An Unsafe One-Shot Channel -- Safety Through Runtime Checks -- Safety Through Types -- Borrowing to Avoid Allocation -- Blocking -- Summary -- Chapter 6. Building Our Own \"Arc\".",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-30-PQE",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Beijing"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1284622673",
+            "sameAs": "Herrmann, Franziska"
+        },
+        {
             "@id": "gnd:4022349-8",
             "sameAs": "Grundschule"
         },
@@ -12,7 +16,7 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1860036503",
             "@type": "bibo:Thesis",
             "P1053": "1 Online-Ressource (306 Seiten)",
-            "creator": "Herrmann, Franziska",
+            "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(firstid)KEP:096484144",
                 "(ppn)1860036503",
@@ -25,20 +29,21 @@
                 "Grundschule",
                 "Schreibdidaktik",
                 "(classificationName=bk, id=106404814)17.31 - Spracherwerb",
-                "Pädagogische Phänomenologie",
+                "P\u00e4dagogische Ph\u00e4nomenologie",
                 "Hochschuldidaktik",
                 "Forschendes Lernen",
                 "Kreatives Schreiben",
                 "Kindertextforschung",
-                "Hochschullernwerkstätten",
+                "Hochschullernwerkst\u00e4tten",
                 "Schreibforschung",
                 "(classificationName=rvk)GB 2964",
                 "Hochschule",
                 "Professionsforschung"
             ],
-            "title": "Schöpferische Erfahrungen von Grundschulkindern und Studierenden beim Schreiben : Eine phänomenologische Studie",
-            "abstract": "Schöpferische Erfahrungen sind besondere Erfahrungen des Lernens, die neue Weisen ‚zu sein‘ hervorbringen. Inwiefern zeigen sich diese beim Kreativen Schreiben von Grundschulkindern? Erzählen Kindertexte von Schöpferischen Erfahrungen? Und was kann entstehen, wenn Studierende in Reflexionsgesprächen von ihren Erfahrungen beim Schreiben einer Forschungsarbeit erzählen? Diesen Fragen geht die phänomenologische Studie am Beispiel einer Didaktischen Forschungswerkstatt nach, in der Studierende Kinder beim Schreiben beobachtet haben. Der gewählte Forschungsstil lässt Lernerfahrungen im Schreiben vorstellbar werden wie auch Momente der Sinnbildung, in denen sich bei Kindern und Studierenden Anfänge neuer Erfahrungsweisen zeigen.",
+            "title": "Sch\u00f6pferische Erfahrungen von Grundschulkindern und Studierenden beim Schreiben : eine ph\u00e4nomenologische Studie",
+            "abstract": "Sch\u00f6pferische Erfahrungen sind besondere Erfahrungen des Lernens, die neue Weisen \u201azu sein\u2018 hervorbringen. Inwiefern zeigen sich diese beim Kreativen Schreiben von Grundschulkindern? Erz\u00e4hlen Kindertexte von Sch\u00f6pferischen Erfahrungen? Und was kann entstehen, wenn Studierende in Reflexionsgespr\u00e4chen von ihren Erfahrungen beim Schreiben einer Forschungsarbeit erz\u00e4hlen? Diesen Fragen geht die ph\u00e4nomenologische Studie am Beispiel einer Didaktischen Forschungswerkstatt nach, in der Studierende Kinder beim Schreiben beobachtet haben. Der gew\u00e4hlte Forschungsstil l\u00e4sst Lernerfahrungen im Schreiben vorstellbar werden wie auch Momente der Sinnbildung, in denen sich bei Kindern und Studierenden Anf\u00e4nge neuer Erfahrungsweisen zeigen.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1284622673",
             "isPartOf": [
                 "(collectioncode)ZDB-41-SEL",
                 "(collectioncode)ZDB-41-UTBOA",
@@ -53,12 +58,17 @@
                 "gnd:4165550-3",
                 "gnd:4022349-8"
             ],
+            "P30128": [
+                "Lernen und Studieren in Lernwerkst\u00e4tten",
+                "Forschung Klinkhardt"
+            ],
             "P60163": "Bad Heilbrunn"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -71,15 +81,19 @@
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "abstract": "http://purl.org/dc/terms/abstract",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "issued": "http://purl.org/dc/terms/issued",
         "umbel": "http://umbel.org/umbel#",

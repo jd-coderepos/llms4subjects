@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A839009798",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Rienm\u00fcller, Tobias",
+            "identifier": [
+                "(firstid)GBV:839009798",
+                "(ppn)839009798"
+            ],
+            "publisher": "Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Integral Equation Methods for Ocean Acoustics with Depth-Dependent Background Sound Speed",
+            "abstract": [
+                "Time-harmonic acoustic wave propagation in an ocean with depth-dependent background sound speed can be described by the Helmholtz equation in an infinite, two- or three-dimensional waveguide of finite height. A crucial subproblem for the anayltic and numeric treatment of associated wave propagation problems is a Liouville eigenvalue problem that involves the depth-dependent contrast. For different types of background sound speed profiles, we discuss discretization schemes for the Liouville eigenvalue problem arising in the vertical variable. Due to variational theory in Sobolev spaces, we then show well-posedness of weak solutions to the corresponding scattering problem from a bounded inhomogeneity inside such an ocean: We introduce an exterior Dirichlet-to-Neumann operator for depth-dependent sound speed and prove boundedness, coercivity, and holomorphic dependence of this operator in suitable function spaces adapted to our weak solution theory. Analytic Fredholm theory then implies existence and uniqueness of solution for the scattering problem for all but a countable sequence of frequencies. Introducing the Green's function of the waveguide, we prove equivalence of the source problem for the Helmholtz equation with depth-dependent sound speed profile, Neumann boundary condition on the bottom and Dirichlet boundary condition on the top surface, to the Lippmann-Schwinger integral equation in dimensions two and three. Next, we periodize the Lippmann-Schwinger integral equation in dimensions two and three. The periodized version of the Lippmann-Schwinger integral equation and an interpolation projection onto a space spanned by finitely many eigenfunctions in the vertical variable and trigonometric polynomials in the horizontal variables, two different collocation schemes are derived. A result of Sloan [J.Approx Theory, 39:97-117,1983] on non-polynomial interpolation yields both converge and algebraic convergence rates depending on the smoothness of the inhomogeneity and the source of both schemes. Using one collocation scheme we present numerical results in dimension two. We further present an optimization technique of the vertical transform process, when the height of the obstacle is small compared to the finite height of the ocean, which makes computation in dimension three possible. If several scatters are present in the waveguide, this discretization technique leads to one computational domain containing all scatterers. For a three dimensional waveguide, we reformulate the Lippmann-Schwinger integral equation as a coupled system in an union of several boxes, each containing one part of the scatter.",
+                "Lippmann-Schinger Integral Equation, Wave Propagation, Vainikko Scheme, Ocean Acoustics, Helmhotz Equation, Depth-Dependent Background Sound Speed."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749236760",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XVII, 322 p)",
+            "contributor": [
+                "Luckham, David C.",
+                "Huh, Youm",
+                "Gennart, Benoit A.",
+                "Stanculescu, Alec G."
+            ],
+            "creator": "Augustin, Larry M.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)749236760",
+                "(doi)10.1007/978-1-4615-4042-7",
+                "(isbn13)9781461540427",
+                "(firstid)GBV:749236760"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Systems engineering",
+                "Computers.",
+                "Engineering",
+                "Computer architecture.",
+                "(classificationName=ddc)621.3815",
+                "Computer science",
+                "Electronic circuits.",
+                "Electrical engineering.",
+                "Computer hardware",
+                "(classificationName=loc)TK7888.4",
+                "Microprocessors.",
+                "(classificationName=linseach:mapping)elt",
+                "Computer engineering"
+            ],
+            "title": "Hardware Design and Simulation in VAL/VHDL",
+            "abstract": [
+                "The VHSIC Hardware Description Language (VHDL) provides a standard machine processable notation for describing hardware. VHDL is the result of a collaborative effort between IBM, Intermetrics, and Texas Instruments; sponsored by the Very High Speed Integrated Cir\u00ad cuits (VHSIC) program office of the Department of Defense, beginning in 1981. Today it is an IEEE standard (1076-1987), and several simulators and other automated support tools for it are available commercially. By providing a standard notation for describing hardware, especially in the early stages of the hardware design process, VHDL is expected to reduce both the time lag and the cost involved in building new systems and upgrading existing ones. VHDL is the result of an evolutionary approach to language devel\u00ad opment starting with high level hardware description languages existing in 1981. It has a decidedly programming language flavor, resulting both from the orientation of hardware languages of that time, and from a ma\u00ad jor requirement that VHDL use Ada constructs wherever appropriate. During the 1980's there has been an increasing current of research into high level specification languages for systems, particularly in the software area, and new methods of utilizing specifications in systems de\u00ad velopment. This activity is worldwide and includes, for example, object\u00ad oriented design, various rigorous development methods, mathematical verification, and synthesis from high level specifications. VAL (VHDL Annotation Language) is a simple further step in the evolution of hardware description languages in the direction of applying new methods that have developed since VHDL was designed.",
+                "I A Tutorial Introduction to VAL -- 1 Introduction -- 2 An Overview of VAL -- 3 Timing Models -- 4 Designing With Annotations -- II Examples -- 5 Crazy AND Gate -- 6 D-Type Flip-flop -- 7 Traffic Light Controller -- 8 Stack -- 9 Water Heater Controller -- III The VAL Language Reference Manual -- 11 Lexical Elements -- 12 Design Units -- 13 State Model -- 14 Declarations -- 15 Names and Expressions -- 16 Statements -- 17 Mapping Annotations -- 18 Configuration Annotations -- 19 Miscellaneous -- IV Transformer Implementation Guide -- 20 The VAL Transformer -- V Appendix -- A Syntax Summary -- A.1 Lexical Elements -- A.2 Syntax -- B CPU : VHDL description -- B.1 One bit alu -- B.2 16 bit alu -- B.3 One bit buffer -- B.4 12 bit buffer -- B.5 16 bit buffer -- B.6 CPU -- B.7 CPU configuration -- B.8 CPU support package -- B.9 CPU test bench -- B.10 Or arrays -- B.11 PLA -- B.12 One bit one output register -- B.13 16 bit one output register -- B.14 One bit two output register -- B.15 16 bit two output register."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "112",
+            "isLike": "doi:10.1007/978-1-4615-4042-7",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

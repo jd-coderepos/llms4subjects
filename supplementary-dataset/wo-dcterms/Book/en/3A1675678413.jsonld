@@ -17,16 +17,17 @@
             "@type": "bibo:Book",
             "P1053": "xviii, 276 Seiten",
             "description": [
-                "Illustrationen",
+                "Illustrationen, Diagramme",
                 "24 cm"
             ],
             "identifier": [
                 "(isbn)1492045039",
                 "(isbn13)9781492045038",
                 "(firstid)KXP:1675678413",
+                "(isbn13)9781491975038",
                 "(ppn)1675678413"
             ],
-            "publisher": "O&apos;Reilly",
+            "publisher": "O'Reilly\u00ae",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=bk, id=106418890)54.53 - Programmiersprachen",
                 "(classificationName=ddc)005.73",
@@ -41,7 +42,7 @@
             "title": "Think Julia : how to think like a computer scientist",
             "abstract": [
                 "The way of the program -- Variables, expressions, and statements -- Functions -- Case study: interface design -- Conditionals and recursion -- Fruitful functions -- Iteration -- Strings -- Case study: word play -- Arrays -- Dictionaries -- Tuples -- Case study: data structure selection -- Files -- Structs and objects -- Structs and functions -- Multiple dispatch -- Subtyping -- The goodies : syntax -- The goodies : base and standard library -- Debugging -- Unicode input -- JuliaBox.",
-                "\"If you&apos;re just learning how to program Julia is an excellent JIT-compiled, dynamically typed language with a clean syntax.  This hands-on guide uses Julia 1.0 to walk you through programming one step at a time, beginning with basic programming concepts before moving on to more advanced capabilities, such as creating new types and multiple dispatch.  Designed from the beginning for high performance, Julia is a general-purpose language ideal for not only numerical analysis and computational science but also web programming and scripting.  Through exercises in each chapter, you&apos;ll try not programming concepts as you learn them.  \"Think Julia\" is perfect for students at the high school or college level as well as self-learners and professionals who need to learn programing basics.\"--"
+                "\"If you're just learning how to program Julia is an excellent JIT-compiled, dynamically typed language with a clean syntax.  This hands-on guide uses Julia 1.0 to walk you through programming one step at a time, beginning with basic programming concepts before moving on to more advanced capabilities, such as creating new types and multiple dispatch.  Designed from the beginning for high performance, Julia is a general-purpose language ideal for not only numerical analysis and computational science but also web programming and scripting.  Through exercises in each chapter, you'll try not programming concepts as you learn them.  \"Think Julia\" is perfect for students at the high school or college level as well as self-learners and professionals who need to learn programing basics.\"--"
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": [
@@ -60,10 +61,12 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "description": "http://purl.org/dc/elements/1.1/description",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "license": "http://purl.org/dc/terms/license",
         "creator": {
@@ -73,14 +76,12 @@
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "abstract": "http://purl.org/dc/terms/abstract",
         "title": "http://purl.org/dc/elements/1.1/title",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "issued": "http://purl.org/dc/terms/issued",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "contributor": "http://purl.org/dc/terms/contributor",
         "language": {

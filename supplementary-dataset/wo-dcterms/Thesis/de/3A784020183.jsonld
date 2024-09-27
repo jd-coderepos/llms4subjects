@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104493350X",
+            "sameAs": "Rammig, Franz Josef"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A784020183",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Rettberg, Achim",
+            "creator": "Klobedanz, Kay",
+            "identifier": [
+                "(firstid)HBZ:CT004001066",
+                "(ppn)784020183"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=ddc)000"
+            ],
+            "title": "Towards the design of fault-tolerant distributed real-time systems",
+            "abstract": "Die Anzahl und Komplexit\u00e4t eingebetteter Systeme nimmt stetig zu. Insbesondere f\u00fcr gro\u00dfe verteilte Systeme ist die Ermittlung einer passenden Softwareverteilung eine komplexe Aufgabe. In dieser Arbeit pr\u00e4sentieren wir einen Ansatz zum Entwurf eingebetteter Echtzeitsysteme, der den Systementwickler bei der Ermittlung geeigneter L\u00f6sungen unterst\u00fctzt.Bei sicherheitskritischen Systemen mit harten Echtzeitanforderungen kann die Verletzung einer harten Zeitschranke zu Sch\u00e4den f\u00fchren. Derartige Systeme m\u00fcssen auch immer zuverl\u00e4ssig die vorgesehene Funktionalit\u00e4t liefern. Fehlertoleranz erm\u00f6glicht im Fehlerfall eine sichere und zuverl\u00e4ssige Fortsetzung des Betriebs. Wir betrachten die Kompensation von Hardwarefehlern zur Systemlaufzeit, die zu einem Netzwerk- oder Prozessorausfall f\u00fchren k\u00f6nnen. Alle Ans\u00e4tze zur Fehlertoleranz ben\u00f6tigen redundante Komponenten zur Erkennung und Kompensation von Fehlern. Hardwareredundanz kann dabei in statische und dynamische Redundanz unterteilt werden. Zur Realisierung einer dynamischen Fehlerredundanz pr\u00e4sentieren wir Konzepte f\u00fcr eine rekonfigurierbare Netzwerkarchitektur und zur Koordination der notwendigen Rekonfigurationen. Basierend darauf erweitern wir unseren Ansatz zum Entwurf fehlertoleranter verteilter Echtzeitsysteme. Wir beschreiben die Verwendung des Ansatzes im Quasi-Standard AUTOSAR zum Entwurf automobiler Systeme und demonstrieren dabei die praktische Anwendbarkeit anhand eines realistischen Fallbeispiels.. - The number and complexity of embedded systems is rapidly increasing. Especially for large distributed real-time systems, the determination of a feasible deployment is a complex task. In this thesis we present a design approach for distributed real-time systems that supports the designer to determine an appropriate deployment.Distributed systems with hard real-time constraints are so-called safety-critical systems. In safety-critical systems, missing a hard deadline may cause catastrophic consequences. A system must also reliably provide its intended functionality. Fault tolerance enables a system to continue a safe and reliable operation even in presence of a fault. We focus on the compensation of hardware faults during system runtime resulting in network and processor failures. All fault-tolerant techniques require additional redundant elements to detect and compensate faults. Hardware redundancy is perhaps the most common form of redundancy and can be categorized into static and dynamic redundancy. We apply dynamic redundancy by means of reconfiguration to realize fault tolerance. We present concepts for a reconfigurable network topology and for the coordination of the required reconfigurations. Based on these concepts, we extend our approach to design fault-tolerant distributed real-time systems. We apply our approach to the de facto standard AUTOSAR for automotive system design and approve its feasibility for realistic systems by means of a real-world case study.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:104493350X"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

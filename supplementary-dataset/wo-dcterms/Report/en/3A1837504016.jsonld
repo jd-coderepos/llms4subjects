@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:172188717",
+            "sameAs": "Klein, Rupert"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1837504016",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (26 Seiten, 436,49 KB)",
+            "creator": [
+                "Gel\u00df, Patrick",
+                "Schmidt, Burkhard",
+                "Riedel, Jerome"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2996",
+                "(ppn)1837504016",
+                "(firstid)KXP:1837504016"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "WaveTrain : a Python package for numerical quantum mechanics of chain-like systems based on tensor trains",
+            "abstract": "WAVETRAIN is an open-source software for numerical simulations of chain-like quantum systems with nearest-neighbor (NN) interactions only. The Python package is centered around tensor train (TT, or matrix product) format representations of Hamiltonian operators and (stationary or time-evolving) state vectors. It builds on the Python tensor train toolbox SCIKIT_TT, which provides efficient construction methods and storage schemes for the TT format. Its solvers for eigenvalue problems and linear differential equations are used in WAVETRAIN for the time-independent and time-dependent Schr\u00f6dinger equations, respectively. Employing efficient decompositions to construct low-rank representations, the tensor-train ranks of state vectors are often found to depend only marginally on the chain length N. This results in the computational effort growing only slightly more than linearly with N, thus mitigating the curse of dimensionality. As a complement to the classes for full quantum mechanics, WAVETRAIN also contains classes for fully classical and mixed quantum-classical (Ehrenfest or mean field) dynamics of bipartite systems. The graphical capabilities allow visualization of quantum dynamics \u2018on the fly\u2019, with a choice of several different representations based on reduced density matrices. Even though developed for treating quasi one-dimensional excitonic energy transport in molecular solids or conjugated organic polymers, including coupling to phonons, WAVETRAIN can be used for any kind of chain-like quantum systems, with or without periodic boundary conditions, and with NN interactions only. The present work describes version 1.0 of our WAVETRAIN software, based on version 1.2 of SCIKIT_TT, both of which are freely available from the GitHub platform where they will also be further developed. Moreover, WAVETRAIN is mirrored at SourceForge, within the framework of the WAVEPACKET project for numerical quantum dynamics. Worked-out demonstration examples with complete input and output, including animated graphics, are available.",
+            "alternative": "WaveTrain: A Python package for numerical quantum mechanics",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:172188717"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2996",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2996",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

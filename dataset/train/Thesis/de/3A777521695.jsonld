@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1044006447",
+            "sameAs": "Reuther, Klemens"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4055072-2",
+            "sameAs": "Simulation"
+        },
+        {
+            "@id": "gnd:4140191-8",
+            "sameAs": "Erstarrung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A777521695",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (137 Seiten)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)777521695",
+                "(firstid)GBV:777521695"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)fer",
+                "(classificationName=bk, id=106417843)51.10 - Metallphysik",
+                "(classificationName=ddc)530.414",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)540",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "Methoden zur Reduzierung der Gitteranisotropie bei der Simulation von Erstarrungsvorg\u00e4ngen",
+            "abstract": "Die vorliegende Arbeit besch\u00e4ftigt sich mit der Entwicklung von numerischen Methoden f\u00fcr die Simulation von Erstarrungsvorg\u00e4ngen. Bei der abbildenden Erstarrungssimulation existieren zwei gro\u00dfe Problemfelder: Ein gro\u00dfer Bedarf an Rechenzeit sowie ein unerw\u00fcnschter anisotroper Einfluss des Simulationsgitters. Daher wurden ausgehend von diesen beiden Problemfeldern zwei verschiedene Ans\u00e4tze gew\u00e4hlt: Einerseits wurde untersucht, inwieweit die bekannten, inh\u00e4renten Schwachstellen (insbesondere der anisotrope Einfluss des Simulationsgitters) der etablierten Zellul\u00e4re Automaten-Methode verbessert werden k\u00f6nnen, dass sie mit ihrer geringen Rechenzeit qualitativ und quantitativ auswertbare Ergebnisse produzieren kann. Daf\u00fcr wurde eine Modifikation implementiert, die das verst\u00e4rkte Wachstum der Grenzfl\u00e4che in Gitterrichtung reduziert und gleichzeitig die physikalisch bevorzugte Wachstumsrichtung st\u00e4rkt. Zusammen mit der nach gr\u00fcndlicher Evaluation ausgew\u00e4hlten H\u00f6henfunktionsmethode zur Kr\u00fcmmungsberechnung, welche in der Erstarrungssimulation bisher nicht eingesetzt wurde, wurde mit dieser Modifikation dendritisches Wachstum abseits der Gitterrichtung simuliert. Es gelang, den Gittereinfluss signifikant zu reduzieren und einen qualitativen Fortschritt gegen\u00fcber bisher ver\u00f6ffentlichten Simulationsergebnissen zu erzielen. Der zweite Ansatz bestand in der Entwicklung einer tats\u00e4chlich anisotropiefreien Methode. Durch die Begr\u00fcndung auf einem zuf\u00e4lligen Punktgitter mit paarweisem Minimal-Punktabstand besitzt diese Methode keine bevorzugte Richtung. Durch eine systematische Untersuchung wurde eine modifizierte gitterlose Interpolations- und Integrationsmethode gefunden, die stabile Simulationen auf diesem Punktgitter erlaubt. Mit der Grenzfl\u00e4chenrepr\u00e4sentation durch sich zwischen den Punkten bewegende Partikel wurden zun\u00e4chst verschiedene Testprobleme aus dem Bereich der Erstarrung simuliert, und schlie\u00dflich auch das Wachstum instabiler Grenzfl\u00e4chen erfolgreich berechnet.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1044006447"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4140191-8"
+                },
+                {
+                    "@id": "gnd:4055072-2"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4170280-3",
+            "sameAs": "Mobilfunk"
+        },
+        {
+            "@id": "gnd:4195351-4",
+            "sameAs": "Lokalisation"
+        },
+        {
+            "@id": "gnd:4216132-0",
+            "sameAs": "Datenfunknetz"
+        },
+        {
+            "@id": "gnd:4363314-6",
+            "sameAs": "Tragbarer Personal Computer"
+        },
+        {
+            "@id": "gnd:4462531-5",
+            "sameAs": "Ereignisgesteuertes System"
+        },
+        {
+            "@id": "gnd:4737525-5",
+            "sameAs": "Standortbezogener Dienst"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A32283175X",
+            "@type": "bibo:Thesis",
+            "P1053": "109 p. = 385 KB, text and images",
+            "contributor": "Bauer, Martin",
+            "identifier": [
+                "(ppn)32283175X",
+                "(firstid)GBV:32283175X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": "(classificationName=linseach:automatic)inf",
+            "title": "Event-Management f\u00fcr mobile Benutzer",
+            "abstract": "Event-based communication is popular in many areas of computing. Existing event management systems concentrate on the delivery of event notifications to groups of clients, which are physically connected to computer networks. In most cases they rely on the concept of an 'event producer' and lack a component for observing events themselves, especially regarding complex events whose observation is distributed. Also, existing event management systems are often not well suited for mobile computing environments, particularly with respect to the volatility of wireless connections. The Nexus project at the University of Stuttgart is examining concepts and methods for supporting location- and spatial-aware applications for mobile users. The goal is to develop a global open platform serving as a middleware for these applications. The Nexus Event Service will be a central component of this platform. Its tasks comprise the observation of events, including complex distributed events, and the delivery of event notifications to interested clients. The first part discusses the relevant concepts of event-based communication and mobility. The terminology and the event model are consolidated and extended to cover spatial events. We define an event as an observable change in the state of the environment model. Spatial events are events that are based on the absolute position of objects in space or the relative position of objects to each other. An example for such an event is a user entering a given area or building. The second part presents a high-level architecture for the Nexus Event Service.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4462531-5",
+                "gnd:4216132-0",
+                "gnd:4195351-4",
+                "gnd:4363314-6",
+                "gnd:4737525-5",
+                "gnd:4170280-3"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -19,14 +19,14 @@
             "sameAs": "DeSalvo, Louise A."
         },
         {
+            "@id": "gnd:1326221272",
+            "sameAs": "Vanderbeke, Sybill"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A189091789",
             "@type": "bibo:Book",
             "P1053": "439 S",
-            "contributor": [
-                "Vanderbeke, Sibyll",
-                "Vanderbeke, Sybill",
-                "Vanderbeke, Dirk"
-            ],
+            "http://purl.org/dc/elements/1.1/contributor": "Vanderbeke, Dirk",
             "description": [
                 "Ill",
                 "22 cm"
@@ -49,17 +49,14 @@
                 "(classificationName=loksys-fbs)PB 260"
             ],
             "title": "\"Geliebtes Wesen ...\" : Briefe von Vita Sackville-West an Virginia Woolf",
-            "abstract": "Die grundlegende Biographie Sackville-Wests von V. Glendinning ist hier zuletzt als Taschenbuchausgabe vorgestellt worden: BA 10/94. Über der Autorin besondere Beziehung zu V. Woolf unterrichtete detailliert S. Amrain: ID 35/94. Die vorliegende Briefausgabe (mit eingefügten Passagen Woolfs) ergänzt und bereichert sowohl die Literatur über die exzentrische (literarhistorisch aber sicher nicht weltbewegende) Vita als auch indirekt die über Virginia (eine Autorin von Weltgeltung) - deren \"Gesammelte Briefe\", 3bändig, im Rahmen der neuen Werkausgabe versprochen sind (vgl. u.a. BA 9/93). Die von der amerikanischen Woolf-Expertin De Salvo (vgl. ID 4/91) mitbetreute, von Leaska mit einer einfühlsam-instruktiven Einführung versehene Ausgabe ist ansprechend nobel gedruckt und mit einigen Fotos illustriert. Benutzerorientierte Bibliotheken werden wissen, welche Leserinnengruppe sie damit erfreuen können. (3)",
-            "alternative": "The letters of Vita Sackville-West to Virginia Woolf &lt;dt.&gt;",
-            "dcterms:contributor": [
-                {
-                    "@id": "gnd:11950054X"
-                },
-                {
-                    "@id": "gnd:118635174"
-                },
-                "Technische Informationsbibliothek (TIB)"
+            "abstract": "Die grundlegende Biographie Sackville-Wests von V. Glendinning ist hier zuletzt als Taschenbuchausgabe vorgestellt worden: BA 10/94. \u00dcber der Autorin besondere Beziehung zu V. Woolf unterrichtete detailliert S. Amrain: ID 35/94. Die vorliegende Briefausgabe (mit eingef\u00fcgten Passagen Woolfs) erg\u00e4nzt und bereichert sowohl die Literatur \u00fcber die exzentrische (literarhistorisch aber sicher nicht weltbewegende) Vita als auch indirekt die \u00fcber Virginia (eine Autorin von Weltgeltung) - deren \"Gesammelte Briefe\", 3b\u00e4ndig, im Rahmen der neuen Werkausgabe versprochen sind (vgl. u.a. BA 9/93). Die von der amerikanischen Woolf-Expertin De Salvo (vgl. ID 4/91) mitbetreute, von Leaska mit einer einf\u00fchlsam-instruktiven Einf\u00fchrung versehene Ausgabe ist ansprechend nobel gedruckt und mit einigen Fotos illustriert. Benutzerorientierte Bibliotheken werden wissen, welche Leserinnengruppe sie damit erfreuen k\u00f6nnen. (3)",
+            "alternative": "The letters of Vita Sackville-West to Virginia Woolf <dt.>",
+            "contributor": [
+                "gnd:11950054X",
+                "gnd:118635174",
+                "gnd:1326221272"
             ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "creator": "gnd:118604686",
             "issued": "1995",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
@@ -75,16 +72,20 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "issued": "http://purl.org/dc/terms/issued",
-        "contributor": "http://purl.org/dc/elements/1.1/contributor",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
         },
         "language": {
@@ -103,7 +104,6 @@
             "@type": "@id"
         },
         "alternative": "http://purl.org/dc/terms/alternative",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

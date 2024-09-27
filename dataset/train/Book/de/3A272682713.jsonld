@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118540416",
+            "sameAs": [
+                "Gogh, Vincent",
+                "Gogh, Vincent van 1853-1890"
+            ]
+        },
+        {
+            "@id": "gnd:128949422",
+            "sameAs": "Meister, Guido"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A272682713",
+            "@type": "bibo:Book",
+            "P1053": "328 S",
+            "creator": "Zurcher, Bernard",
+            "description": "\u00fcberwiegend Ill",
+            "identifier": [
+                "(isbn)3777440108",
+                "(firstid)GBV:272682713",
+                "(ppn)272682713"
+            ],
+            "publisher": "Hirmer",
+            "subject": [
+                "(classificationName=ssg)9,10",
+                "(classificationName=dbn)46",
+                "(classificationName=rvk)LI 34505",
+                "(classificationName=bk, id=106406698)21.02 - Geschichte der Malerei",
+                "(classificationName=bk, id=181571080)20.31 - Bildende K\u00fcnstler",
+                "(classificationName=linseach:mapping)pae"
+            ],
+            "title": "Vincent van Gogh",
+            "abstract": "Bernard Zurcher: \"Vincent van Gogh\". \u00dcbersetzt von Guido Meister. Hirmer Verlag, M\u00fcnchen 1985. 328 S., 215 zumeist farbige Abb., geb., 198,- DM",
+            "alternative": "Van Gogh <dt.>",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:128949422"
+                },
+                {
+                    "@id": "gnd:118540416"
+                }
+            ],
+            "issued": "1985",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:118540416"
+            },
+            "tableOfContents": "http://d-nb.info/850747082/04",
+            "P60163": "M\u00fcnchen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

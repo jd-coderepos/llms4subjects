@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1068096934",
-            "sameAs": "Universitätsverlag Potsdam"
+            "sameAs": "Universit\u00e4tsverlag Potsdam"
         },
         {
             "@id": "gnd:1069348694",
@@ -14,7 +14,7 @@
         },
         {
             "@id": "gnd:1155270444",
-            "sameAs": "Hasso-Plattner-Institut für Digital Engineering"
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Digital Engineering"
         },
         {
             "@id": "gnd:173277950",
@@ -39,16 +39,16 @@
                 "(firstid)KXP:1824018002",
                 "(ppn)1824018002"
             ],
-            "publisher": "Universitätsverlag Potsdam",
+            "publisher": "Universit\u00e4tsverlag Potsdam",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)inf",
-                "(classificationName=bk, id=10641240X)54.72 - Künstliche Intelligenz",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
                 "(classificationName=ddc-dbn)006.3",
                 "(classificationName=ddc-dbn)004"
             ],
             "title": "Invariant analysis for multi-agent graph transformation systems using k-Induction",
             "abstract": [
-                "Die Analyse von Verhaltensmodellen wie Graphtransformationssystemen (GTSs) ist von zentraler Bedeutung im Model Driven Engineering. GTSs führen jedoch häufig zu unhanhabbar großen oder sogar unendlichen Zustandsräumen und können mit mehreren oder sogar unendlich vielen Startgraphen ausgestattet sein. Um diese Probleme abzumildern, wurden statische Analysetechniken entwickelt, die auf endlichen symbolischen Darstellungen von Mengen von Zuständen oder Pfaden basieren. Wir konzentrieren uns auf die Technik der k-Induktion zur Ermittlung von Invarianten, die unter Verwendung von Graphbedingungen spezifiziert sind. Zum Zweck der Analyse erzeugt die k-Induktion symbolische Rückwärtspfade von einem symbolischen Zustand, der eine Verletzung einer Kandidateninvariante darstellt, um Informationen darüber zu sammeln, wie diese Verletzung erreicht werden konnte, wodurch möglicherweise Widersprüche zu angenommenen Invarianten gefunden werden. GTSs, bei denen mehrere Agenten regelmäßig unabhängig voneinander Aktionen ausführen, können derzeit jedoch nicht mit dieser Technik analysiert werden, da die Unabhängigkeit zwischen Rückwärtsschritten das Sammeln von relevantem Wissen möglicherweise verhindert. In diesem Artikel erweitern wir die k-Induktion auf GTSs mit mehreren Agenten und unterstützen dadurch eine breite Palette zusätzlicher GTSs. Als laufendes Beispiel betrachten wir eine unbegrenzte Anzahl von Shuttles, die auf einer großen Tracktopologie fahren und die ihre Geschwindigkeit an Geschwindigkeitsbegrenzungen anpassen, um ein Entgleisen zu vermeiden. Als zentralen Beitrag entwickeln wir Beschneidungstechniken basierend auf Kausalität und Unabhängigkeit zwischen Rückwärtsschritten und verifizieren, dass die k-Induktion unter dieser Anpassung korrekt bleibt und in Fällen terminiert, in denen sie zuvor nicht terminierte.",
+                "Die Analyse von Verhaltensmodellen wie Graphtransformationssystemen (GTSs) ist von zentraler Bedeutung im Model Driven Engineering. GTSs f\u00fchren jedoch h\u00e4ufig zu unhanhabbar gro\u00dfen oder sogar unendlichen Zustandsr\u00e4umen und k\u00f6nnen mit mehreren oder sogar unendlich vielen Startgraphen ausgestattet sein. Um diese Probleme abzumildern, wurden statische Analysetechniken entwickelt, die auf endlichen symbolischen Darstellungen von Mengen von Zust\u00e4nden oder Pfaden basieren. Wir konzentrieren uns auf die Technik der k-Induktion zur Ermittlung von Invarianten, die unter Verwendung von Graphbedingungen spezifiziert sind. Zum Zweck der Analyse erzeugt die k-Induktion symbolische R\u00fcckw\u00e4rtspfade von einem symbolischen Zustand, der eine Verletzung einer Kandidateninvariante darstellt, um Informationen dar\u00fcber zu sammeln, wie diese Verletzung erreicht werden konnte, wodurch m\u00f6glicherweise Widerspr\u00fcche zu angenommenen Invarianten gefunden werden. GTSs, bei denen mehrere Agenten regelm\u00e4\u00dfig unabh\u00e4ngig voneinander Aktionen ausf\u00fchren, k\u00f6nnen derzeit jedoch nicht mit dieser Technik analysiert werden, da die Unabh\u00e4ngigkeit zwischen R\u00fcckw\u00e4rtsschritten das Sammeln von relevantem Wissen m\u00f6glicherweise verhindert. In diesem Artikel erweitern wir die k-Induktion auf GTSs mit mehreren Agenten und unterst\u00fctzen dadurch eine breite Palette zus\u00e4tzlicher GTSs. Als laufendes Beispiel betrachten wir eine unbegrenzte Anzahl von Shuttles, die auf einer gro\u00dfen Tracktopologie fahren und die ihre Geschwindigkeit an Geschwindigkeitsbegrenzungen anpassen, um ein Entgleisen zu vermeiden. Als zentralen Beitrag entwickeln wir Beschneidungstechniken basierend auf Kausalit\u00e4t und Unabh\u00e4ngigkeit zwischen R\u00fcckw\u00e4rtsschritten und verifizieren, dass die k-Induktion unter dieser Anpassung korrekt bleibt und in F\u00e4llen terminiert, in denen sie zuvor nicht terminierte.",
                 "The analysis of behavioral models such as Graph Transformation Systems (GTSs) is of central importance in model-driven engineering. However, GTSs often result in intractably large or even infinite state spaces and may be equipped with multiple or even infinitely many start graphs. To mitigate these problems, static analysis techniques based on finite symbolic representations of sets of states or paths thereof have been devised. We focus on the technique of k-induction for establishing invariants specified using graph conditions. To this end, k-induction generates symbolic paths backwards from a symbolic state representing a violation of a candidate invariant to gather information on how that violation could have been reached possibly obtaining contradictions to assumed invariants. However, GTSs where multiple agents regularly perform actions independently from each other cannot be analyzed using this technique as of now as the independence among backward steps may prevent the gathering of relevant knowledge altogether. In this paper, we extend k-induction to GTSs with multiple agents thereby supporting a wide range of additional GTSs. As a running example, we consider an unbounded number of shuttles driving on a large-scale track topology, which adjust their velocity to speed limits to avoid derailing. As central contribution, we develop pruning techniques based on causality and independence among backward steps and verify that k-induction remains sound under this adaptation as well as terminates in cases where it did not terminate before."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
@@ -69,7 +69,7 @@
             ],
             "volume": "Nr. 143",
             "isLike": "doi:10.25932/publishup-54585",
-            "P30128": "Technische Berichte des Hasso-Plattner-Instituts für Digital Engineering an der Universität Potsdam",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Digital Engineering an der Universit\u00e4t Potsdam",
             "P60163": "Potsdam"
         }
     ],

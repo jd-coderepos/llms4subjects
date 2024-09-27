@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A878767754",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (III, 155 Seiten)",
+            "creator": "Huang, Yanqiu",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)878767754",
+                "(firstid)GBV:878767754"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Transmission rate compression based on Kalman filter using spatio-temporal correlation for wireless sensor networks",
+            "abstract": [
+                "Wireless sensor network, Kalman filter, data collection, data compression, data prediction, doubly truncated multivariate normal distribution, power management.",
+                "Wireless sensor networks (WSNs) composed of spatially distributed autonomous sensor nodes have been applied to a wide variety of applications. Due to the limited energy budget of the sensor nodes and long-term operation requirement of the network, energy efficiency is a primary concern in almost any application. Radio communication, known as one of the most expensive processes, can be suppressed thanks to the temporal and spatial correlations. However, it is a challenge to compress the communication as much as possible, while reconstructing the system state with the highest quality. This work proposes the PKF method to compress the transmission rate for cluster based WSNs, which combines a k-step ahead Kalman predictor with a Kalman filter (KF). It provides the optimal reconstruction solution based on the compressed information of a single node for a linear system. Instead of approximating the noisy raw data, PKF aims to reconstruct the internal state of the system. It achieves data filtering, state estimation, data compression and reconstruction within one KF framework and allows the reconstructed signal based on the compressed transmission to be even more precise than transmitting all of the raw measurements without processing. The second contribution is the detailed analysis of PKF. It not only characterizes the effect of the system parameters on the performance of PKF but also supplies a common framework to analyze the underlying process of prediction-based schemes. The transmission rate and reconstruction quality are functions of the system parameters, which are calculated with the aid of (truncated) multivariate normal (MVN) distribution. The transmission of the node using PKF not only determines the current optimal estimate of the system state, but also indicates the range and the transmission probability of the k-step ahead prediction of the cluster head. Besides, one of the prominent results is an explicit expression for the covariance of the doubly truncated MVN distribution. This is the first work that calculates it using the Hessian matrix of the probability density function of a MVN distribution, which improves the traditional methods using moment-generating function and has generality. This contribution is important for WSNs, but also for other domains, e.g., statistics and economics. The PKF method is extended to use spatial correlation in multi-nodes systems without any intra-communication or a coordinator based on the above analysis. Each leaf node executes a PKF independently. The reconstruction quality is further improved by the cluster head using the received information, which is equivalent to further reduce the transmission rate of the node under the guaranteed reconstruction quality. The optimal reconstruction solution, called Rand-ST, is obtained, when the cluster head uses the incomplete information by taking the transmission of each node as random. Rand-ST actually solves the KF fusion problem with colored and randomly transmitted observations, which is the first work addressing this problem to the best of our knowledge. It proves the KF with state augment method is more accurate than the measurement differencing approach in this scenario. The suboptimality of Rand-ST by neglecting the useful information is analyzed, when the transmission of each node is controlled by PKF. The heuristic EPKF methods are thereupon proposed to utilize the complete information, while solving the nonlinear problem through linear approximations. Compared with the available techniques, EPKF methods not only ensure an error bound of the reconstruction for each node, but also allow them to report the emergency event in time, which avoids the loss of penitential important information."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -13,40 +13,47 @@
             "sameAs": "Failing, Lee"
         },
         {
+            "@id": "gnd:4113448-5",
+            "sameAs": "Entscheidungsverhalten"
+        },
+        {
+            "@id": "gnd:4201709-9",
+            "sameAs": "Umweltbezogenes Management"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A663895731",
             "@type": "bibo:Book",
             "P1053": "XI, 299 S.",
             "http://purl.org/dc/elements/1.1/contributor": [
-                "Harstone, M.",
-                "Long, G."
+                "Long, Graham",
+                "Harstone, Michael"
             ],
+            "creator": "Ohlson, Dan",
             "description": [
-                "graph. Darst., Kt.",
-                "25 cm"
+                "25 cm",
+                "graph. Darst., Kt."
             ],
             "identifier": [
-                "(isbn13)9781444333428",
-                "(isbn13)9781444333411",
-                "(ean)978144433411",
-                "(ean)978144433428",
-                "(firstid)BSZ:346651867",
                 "(ppn)663895731",
-                "(isbn)1444333429"
+                "(isbn13)9781444333428",
+                "(firstid)BSZ:346651867",
+                "(isbn13)9781444333411"
             ],
             "publisher": "Wiley-Blackwell",
-            "subject": [
-                "Multiple criteria decision making",
-                "Gruppenentscheidung",
-                "Decision making",
-                "(classificationName=ddc)333.7",
-                "(classificationName=ddc)333.7068",
-                "(classificationName=ddc-dbn)MAT029000",
+            "http://purl.org/dc/elements/1.1/subject": [
                 "Organisationale Entscheidung",
-                "Umweltmanagement",
+                "Multiple criteria decision making",
+                "(classificationName=ddc)333.7",
+                "Gruppenentscheidung",
+                "Environmental management",
                 "(classificationName=loc)GE300",
+                "(classificationName=ddc-dbn)MAT029000",
                 "(classificationName=linseach:mapping)oek",
+                "Umweltmanagement",
+                "(classificationName=rvk)QP 240",
                 "(classificationName=rvk)QT 000",
-                "Environmental management"
+                "Decision making",
+                "(classificationName=ddc)333.7068"
             ],
             "title": "Structured decision making : a practical guide to environmental management choices",
             "abstract": [
@@ -63,6 +70,10 @@
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4113448-5",
+                "gnd:4201709-9"
+            ],
             "tableOfContents": "http://www.gbv.de/dms/zbw/663895731.pdf",
             "P60163": "Oxford [u.a.]"
         }
@@ -70,29 +81,33 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "medium": {
-            "@id": "http://purl.org/dc/terms/medium",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "subject": "http://purl.org/dc/elements/1.1/subject",
-        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "contributor": {
             "@id": "http://purl.org/dc/terms/contributor",
             "@type": "@id"
         },
         "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "issued": "http://purl.org/dc/terms/issued",
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

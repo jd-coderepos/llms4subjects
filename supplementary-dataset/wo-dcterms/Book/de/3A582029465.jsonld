@@ -11,20 +11,20 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A582029465",
             "@type": "bibo:Book",
-            "P1053": "152 S.",
-            "description": "Ill.",
+            "P1053": "152 Seiten",
+            "description": "Illustrationen",
             "identifier": [
                 "(firstid)DNB:990656306",
                 "(ppn)582029465",
                 "(isbn13)9783406585159",
                 "(ean)9783406585159"
             ],
-            "publisher": "Beck",
+            "publisher": "Verlag C. H. Beck",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=bk, id=181569671)15.38 - Europäische Geschichte nach 1945",
+                "(classificationName=bk, id=181569671)15.38 - Europ\u00e4ische Geschichte nach 1945",
                 "Geschichte 1945-2008",
-                "(classificationName=rvk)MG 15030",
                 "(classificationName=ddc)943.087",
+                "(classificationName=rvk)MG 15030",
                 "(classificationName=linseach:mapping)his",
                 "(classificationName=rvk)LH 10070",
                 "(classificationName=rvk)NQ 6080",
@@ -34,7 +34,7 @@
                 "(classificationName=loksys-fbs)UB 230"
             ],
             "title": "Die 101 wichtigsten Fragen - Bundesrepublik Deutschland",
-            "abstract": "Im Mai 2009 wird die Bundesrepublik 60 Jahre alt, Grund genug, Bilanz zu ziehen. Geschichte, auch wenn sie kritisch betrieben wird, darf Vergnügen bereiten, und so beantwortet Edgar Wolfrum in diesem Buch, mal heiter, mal ernst, aber immer wissenschaftlich exakt die wichtigsten Fragen zu unserem Land aus allen Bereichen menschlichen Lebens. Eine kleine Kostprobe: War der 8. Mai 1945 ein Tag der Befreiung? Warum wollte Adenauer \"Keine Experimente\" und Brandt \"Mehr Demokratie wagen\"? Warum sagte Kennedy, dass er ein Berliner sei? Was blieb von der DDR übrig? Was machten die Nazis nach dem Krieg? Wer waren die 68er? Was hat \"Emma\" mit der Frauenquote zu tun? Wer sind die \"Baby-Boomer\"? Warum sind Bildung und Kultur Ländersache? Was machte die \"Sissi-Filme\" so beliebt? Wie sozial ist die soziale Marktwirtschaft? Warum waren die Deutschen so stolz auf ihre D-Mark? Und weshalb heißt die Bundesrepublik eigentlich Bundesrepublik?",
+            "abstract": "Im Mai 2009 wird die Bundesrepublik 60 Jahre alt, Grund genug, Bilanz zu ziehen. Geschichte, auch wenn sie kritisch betrieben wird, darf Vergn\u00fcgen bereiten, und so beantwortet Edgar Wolfrum in diesem Buch, mal heiter, mal ernst, aber immer wissenschaftlich exakt die wichtigsten Fragen zu unserem Land aus allen Bereichen menschlichen Lebens. Eine kleine Kostprobe: War der 8. Mai 1945 ein Tag der Befreiung? Warum wollte Adenauer \u201eKeine Experimente\u201c und Brandt \u201eMehr Demokratie wagen\u201c? Warum sagte Kennedy, dass er ein Berliner sei? Was blieb von der DDR \u00fcbrig? Was machten die Nazis nach dem Krieg? Wer waren die 68er? Was hat \u201eEmma\u201c mit der Frauenquote zu tun? Wer sind die \u201eBaby-Boomer\u201c? Warum sind Bildung und Kultur L\u00e4ndersache? Was machte die \u201eSissi-Filme\u201c so beliebt? Wie sozial ist die soziale Marktwirtschaft? Warum waren die Deutschen so stolz auf ihre D-Mark? Und weshalb hei\u00dft die Bundesrepublik eigentlich Bundesrepublik?",
             "alternative": [
                 "Bundesrepublik Deutschland",
                 "Die hunderteins wichtigsten Fragen - Bundesrepublik Deutschland"
@@ -46,10 +46,13 @@
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
             "subject": "gnd:4011882-4",
-            "tableOfContents": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;doc_number=017072671&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+            "tableOfContents": [
+                "http://bvbr.bib-bvb.de:8991/F?func=service&doc_library=BVB01&doc_number=017072671&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA",
+                "https://d-nb.info/990656306/04"
+            ],
             "volume": "7018",
-            "P30128": "Beck&apos;sche Reihe",
-            "P60163": "München"
+            "P30128": "Beck'sche Reihe",
+            "P60163": "M\u00fcnchen"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -59,31 +62,31 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "contributor": "http://purl.org/dc/terms/contributor",
         "alternative": "http://purl.org/dc/terms/alternative",
-        "abstract": "http://purl.org/dc/terms/abstract",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
         "title": "http://purl.org/dc/elements/1.1/title",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "license": "http://purl.org/dc/terms/license",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "@id"
         },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "issued": "http://purl.org/dc/terms/issued",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "volume": "http://purl.org/ontology/bibo/volume",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "volume": "http://purl.org/ontology/bibo/volume",
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",

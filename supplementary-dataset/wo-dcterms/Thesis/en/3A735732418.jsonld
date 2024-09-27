@@ -13,12 +13,16 @@
             "sameAs": "Steifigkeitsmatrix"
         },
         {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universit\u00e4tsverlag Ilmenau"
+        },
+        {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A735732418",
             "@type": "bibo:Thesis",
             "P1053": "Online-Ressource (PDF-Datei: 126 S., 1,05 MB)",
-            "creator": [
-                "Ďuriš, Rastislav",
-                "Murín, Justín"
+            "http://purl.org/dc/elements/1.1/creator": [
+                "\u010euri\u0161, Rastislav",
+                "Mur\u00edn, Just\u00edn"
             ],
             "description": "graph. Darst.",
             "identifier": [
@@ -36,6 +40,7 @@
             "title": "A solution for 1D non-linear problems for finite elements with full stiffness matrices",
             "abstract": "Structural analysis of structural parts with stiffness variation can be difficult. The stiffness variation of elements can be modelled by average values of cross-sectional and material parameters and applying the fine FE mesh. For elimination of mentioned disadvantages of classical finite element applications, a two-node nonlinear bar element with the continuous longitudinal variation of stiffness was developed in the first part of the monography. The stiffness matrices of the bar element were derived using full geometric nonlinear nonincremental formulation of equilibrium equations without any linearization. In the second part, the stiffness matrices of geometrically nonlinear beam finite element were derived using full nonlinear nonincremental formulation. The matrices of two-node plane beam element with symmetric cross-section and constant stiffness were formulated. The accuracy of new nonlinear elements were compared and assessed by numerical experiments against ANSYS analyses.",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:7635051-4",
             "issued": "2012",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "open access",
@@ -52,6 +57,7 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "volume": "http://purl.org/ontology/bibo/volume",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
@@ -64,9 +70,12 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "title": "http://purl.org/dc/elements/1.1/title",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "issued": "http://purl.org/dc/terms/issued",
         "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "contributor": "http://purl.org/dc/terms/contributor",
@@ -77,7 +86,6 @@
         },
         "description": "http://purl.org/dc/elements/1.1/description",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

@@ -1,8 +1,20 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1044135808",
+            "sameAs": "Rokhlin, Vladimir"
+        },
+        {
+            "@id": "gnd:1044135840",
+            "sameAs": "Xiao, Hong"
+        },
+        {
+            "@id": "gnd:1044691174",
+            "sameAs": "Osipov, Andrei"
+        },
+        {
             "@id": "gnd:4182234-1",
-            "sameAs": "Sphäroidfunktion"
+            "sameAs": "Sph\u00e4roidfunktion"
         },
         {
             "@id": "gnd:4189547-2",
@@ -11,20 +23,15 @@
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1653044667",
             "@type": "bibo:Book",
-            "P1053": "Online-Ressource (XI, 379 p. 30 illus, online resource)",
-            "http://purl.org/dc/elements/1.1/contributor": [
-                "Xiao, Hong",
-                "Rokhlin, Vladimir"
-            ],
-            "creator": "Osipov, Andrei",
-            "description": "Campusweiter Zugriff (Universität Hannover). - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "P1053": "Online-Ressource",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(doi)10.1007/978-1-4614-8259-8",
                 "(isbn13)9781461482598",
                 "(ppn)1653044667",
                 "(firstid)BSZ:395814588"
             ],
-            "publisher": "Springer US",
+            "publisher": "Springer",
             "http://purl.org/dc/elements/1.1/subject": [
                 "Applied mathematics.",
                 "Engineering mathematics",
@@ -49,12 +56,21 @@
                 "(classificationName=loc)QA297-299.4",
                 "Numerical analysis"
             ],
-            "title": "Prolate Spheroidal Wave Functions of Order Zero : Mathematical Tools for Bandlimited Approximation",
+            "title": "Prolate spheroidal wave functions of order zero : mathematical tools for bandlimited approximation",
             "abstract": [
                 "Prolate Spheroidal Wave Functions (PSWFs) are the eigenfunctions of the bandlimited operator in one dimension. As such, they play an important role in signal processing, Fourier analysis, and approximation theory. While historically the numerical evaluation of PSWFs presented serious difficulties, the developments of the last fifteen years or so made them as computationally tractable as any other class of special functions. As a result, PSWFs have been becoming a popular computational tool. The present book serves as a complete, self-contained resource for both theory and computation. It will be of interest to a wide range of scientists and engineers, from mathematicians interested in PSWF as an analytical tool to electrical engineers designing filters and antennas.",
                 "Introduction -- Mathematical and Numerical Preliminaries -- Overview.- Analysis of the Differential Operator.- Analysis of the Integral Operator.- Rational Approximations of PSWFs.-Miscellaneous Properties of PSWFs.- Asymptotic Analysis of PSWFs.- Quadrature Rules and Interpolation via PSWFs.- Numerical Algorithms .-."
             ],
-            "contributor": "Technische Informationsbibliothek (TIB)",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1044135840"
+                },
+                {
+                    "@id": "gnd:1044135808"
+                }
+            ],
+            "creator": "gnd:1044691174",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SMA",
                 "(collectioncode)ZDB-2-SEB",
@@ -73,15 +89,16 @@
             "isLike": "doi:10.1007/978-1-4614-8259-8",
             "P30128": [
                 "Applied Mathematical Sciences",
-                "Bücher",
+                "B\u00fccher",
                 "SpringerLink"
             ],
-            "P60163": "Boston, MA"
+            "P60163": "London"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
@@ -94,25 +111,27 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "contributor": "http://purl.org/dc/terms/contributor",
         "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
-        "title": "http://purl.org/dc/elements/1.1/title",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "isLike": {
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "issued": "http://purl.org/dc/terms/issued",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "license": "http://purl.org/dc/terms/license",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

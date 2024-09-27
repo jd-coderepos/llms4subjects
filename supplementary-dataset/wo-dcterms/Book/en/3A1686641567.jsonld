@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1202941648",
+            "sameAs": "Costello, Tim"
+        },
+        {
+            "@id": "gnd:1202947794",
+            "sameAs": "Blackshear, Lori"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1686641567",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XVII, 202 p. 178 illus.)",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4842-5497-4",
+                "(ppn)1686641567",
+                "(isbn13)9781484254974",
+                "(firstid)KEP:048944416"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Application software",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004"
+            ],
+            "title": "Prepare your data for Tableau : a practical guide to the Tableau data prep tool",
+            "abstract": [
+                "Chapter 1: What is ETL -- Chapter 2: About the Demo Data -- Chapter 3: Connecting to Data -- Chapter 4: UNION Joins -- Chapter 5: Joins -- Chapter 6: Audit -- Chapter 7: Cleaning -- Chapter 8: Group and Replace -- Chapter 9: Aggregate -- Chapter 10: Pivoting Data -- Chapter 11: Output -- Appendix 1: Preparing data IN Tableau.",
+                "Focus on the most important and most often overlooked factor in a successful Tableau project\u2014data. Without a reliable data source, you will not achieve the results you hope for in Tableau. This book does more than teach the mechanics of data preparation. It teaches you: how to look at data in a new way, to recognize the most common issues that hinder analytics, and how to mitigate those factors one by one. Tableau can change the course of business, but the old adage of \"garbage in, garbage out\" is the hard truth that hides behind every Tableau sales pitch. That amazing sales demo does not work as well with bad data. The unfortunate reality is that almost all data starts out in a less-than-perfect state. Data prep is hard. Traditionally, we were forced into the world of the database where complex ETL (Extract, Transform, Load) operations created by the data team did all the heavy lifting for us. Fortunately, we have moved past those days. With the introduction of the Tableau Data Prep tool you can now handle most of the common Data Prep and cleanup tasks on your own, at your desk, and without the help of the data team. This essential book will guide you through: The layout and important parts of the Tableau Data Prep tool Connecting to data Data quality and consistency The shape of the data. Is the data oriented in columns or rows? How to decide? Why does it matter? What is the level of detail in the source data? Why is that important? Combining source data to bring in more fields and rows Saving the data flow and the results of our data prep work Common cleanup and setup tasks in Tableau Desktop You will: Recognize data sources that are good candidates for analytics in Tableau Connect to local, server, and cloud-based data sources Profile data to better understand its content and structure Rename fields, adjust data types, group data points, and aggregate numeric data Pivot data Join data from local, server, and cloud-based sources for unified analytics Review the steps and results of each phase of the Data Prep process Output new data sources that can be reviewed in Tableau or any other analytics tool."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1202947794",
+                "gnd:1202941648"
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-5497-4",
+            "P30128": "Springer eBook Collection",
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

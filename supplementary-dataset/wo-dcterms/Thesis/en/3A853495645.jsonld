@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:103573382X",
+            "sameAs": "K\u00f6nke, Carsten"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A853495645",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (265 Seiten)",
+            "contributor": [
+                "Areias, Pedro",
+                "Rabczuk, Timon"
+            ],
+            "creator": "Vu, Bac Nam",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)853495645",
+                "(firstid)GBV:853495645"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat",
+                "Polymere"
+            ],
+            "title": "Stochastic uncertainty quantification for multiscale modeling of polymeric nanocomposites",
+            "abstract": "Nanostructured materials are extensively applied in many fields of material science for new industrial applications, particularly in the automotive, aerospace industry due to their exceptional physical and mechanical properties. Experimental testing of nanomaterials is expensive, timeconsuming,challenging and sometimes unfeasible. Therefore,computational simulations have been employed as alternative method to predict macroscopic material properties. The behavior of polymeric nanocomposites (PNCs) are highly complex. The origins of macroscopic material properties reside in the properties and interactions taking place on finer scales. It is therefore essential to use multiscale modeling strategy to properly account for all large length and time scales associated with these material systems, which across many orders of magnitude. Numerous multiscale models of PNCs have been established, however, most of them connect only two scales. There are a few multiscale models for PNCs bridging four length scales (nano-, micro-, meso- and macro-scales). In addition, nanomaterials are stochastic in nature and the prediction of macroscopic mechanical properties are influenced by many factors such as fine-scale features. The predicted mechanical properties obtained by traditional approaches significantly deviate from the measured values in experiments due to neglecting uncertainty of material features. This discrepancy is indicated that the effective macroscopic properties of materials are highly sensitive to various sources of uncertainty, such as loading and boundary conditions and material characteristics, etc., while very few stochastic multiscale models for PNCs have been developed. Therefore, it is essential to construct PNC models within the framework of stochastic modeling and quantify the stochastic effect of the input parameters on the macroscopic mechanical properties of those materials. This study aims to develop computational models at four length scales (nano-, micro-, meso- and macro-scales) and hierarchical upscaling approaches bridging length scales from nano- to macro-scales. A framework for uncertainty quantification (UQ) applied to predict the mechanical properties of the PNCs in dependence of material features at different scales is studied. Sensitivity and uncertainty analysis are of great helps in quantifying the effect of input parameters, considering both main and interaction effects, on the mechanical properties of the PNCs. To achieve this major goal, the following tasks are carried out: At nano-scale, molecular dynamics (MD) were used to investigate deformation mechanism of glassy amorphous polyethylene (PE) in dependence of temperature and strain rate. Steered molecular dynamics (SMD)were also employed to investigate interfacial characteristic of the PNCs. At mico-scale, we developed an atomistic-based continuum model represented by a representative volume element (RVE) in which the SWNT\u2019s properties and the SWNT/polymer interphase are modeled at nano-scale, the surrounding polymer matrix is modeled by solid elements. Then, a two-parameter model was employed at meso-scale. A hierarchical multiscale approach has been developed to obtain the structure-property relations at one length scale and transfer the effect to the higher length scales. In particular, we homogenized the RVE into an equivalent fiber. The equivalent fiber was then employed in a micromechanical analysis (i.e. Mori-Tanaka model) to predict the effective macroscopic properties of the PNC. Furthermore, an averaging homogenization process was also used to obtain the effective stiffness of the PCN at meso-scale. Stochastic modeling and uncertainty quantification consist of the following ingredients: - Simple random sampling, Latin hypercube sampling, Sobol\u2019 quasirandom sequences, Iman and Conover\u2019s method (inducing correlation in Latin hypercube sampling) are employed to generate independent and dependent sample data, respectively. - Surrogate models, such as polynomial regression, moving least squares (MLS), hybrid method combining polynomial regression and MLS, Kriging regression, and penalized spline regression, are employed as an approximation of a mechanical model. The advantage of the surrogate models is the high computational efficiency and robust as they can be constructed from a limited amount of available data. - Global sensitivity analysis (SA) methods, such as variance-based methods for models with independent and dependent input parameters, Fourier-based techniques for performing variance-based methods and partial derivatives, elementary effects in the context of local SA, are used to quantify the effects of input parameters and their interactions on the mechanical properties of the PNCs. A bootstrap technique is used to assess the robustness of the global SA methods with respect to their performance. In addition, the probability distribution of mechanical properties are determined by using the probability plot method. The upper and lower bounds of the predicted Young\u2019s modulus according to 95 % prediction intervals were provided. The above-mentioned methods study on the behaviour of intact materials. Novel numerical methods such as a node-based smoothed extended finite element method (NS-XFEM) and an edge-based smoothed phantom node method (ES-Phantom node) were developed for fracture problems. These methods can be used to account for crack at macro-scale for future works. The predicted mechanical properties were validated and verified. They show good agreement with previous experimental and simulations results.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:103573382X"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

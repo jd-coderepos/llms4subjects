@@ -1,0 +1,66 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A715956418",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (PDF-Datei: II, 42 S., 621,50 KB)",
+            "creator": "Brenner, Freimut",
+            "identifier": [
+                "(firstid)GBV:715956418",
+                "(ppn)715956418"
+            ],
+            "publisher": "ICB",
+            "subject": [
+                "Markov-Kette",
+                "Bewertung",
+                "Computernetz",
+                "(classificationName=linseach:automatic)mat",
+                "Performance-Messung"
+            ],
+            "title": "Cumulative measures of absorbing joint Markov chains and an application to Markovian process algebras",
+            "abstract": "Markov Models are of outstanding importance in the performance and reliability evaluation of computer systems and communication networks. In this paper we aim at contributing to the field of Markovian Process Algebras (MPAs). An MPA model is (or may be) the composition of several concurrent sub-components (each of which describes an underlying Markov chain) which may interact with each other through synchronisation. On the one hand the existence of sub-components implies the possibility of the state space explosion problem, i.e. the size of the state space of the Markov chain underlying the composite component grows exponentially in the number of sub-components. On the other hand the interaction of sub-components in general negates the property of independence of their underlying Markov chains, and hence forbids a product-form solution for steady state probabilities. Our target quantities are single steady state probabilities of the Markov chain underlying the composite component. We consider composite components which possess only global synchronisations, i.e. every sub-component is involved in every synchronisation. For this class of MPA models the behaviour of the composite component between two successive synchronisations can be described by the joint process of several absorbing Markov chains. First, a new result on cumulative measures of absorbing joint Markov chains is presented. We compute the mean time to absorption and the mean time the joint Markov chain spends in a certain set before absorption. Our computations do not operate on the state space of the joint Markov chain, and hence the problem of state space explosion is avoided. The computational effort of our method rather depends on convergence properties of the joint Markov chain. Afterwards, this result is applied to compute steady state probabilities for a class of composite components specified as PEPA models which are popular ambassadors of MPAs. It is easily understood that these results carry over from PEPA to other MPA variants.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "12",
+            "P30128": "ICB research report",
+            "P60163": "Essen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

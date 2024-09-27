@@ -1,0 +1,59 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A859996913",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Rammig, Franz-Josef",
+            "creator": "Stahl, Katharina",
+            "identifier": [
+                "(firstid)HBZ:CT004001504",
+                "(ppn)859996913"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Online Anomaly Detection for Reconfigurable Self-X Real-Time Operating Systems",
+            "abstract": "Anomaliedetektion ist ein wertvolles Mittel zur Verbesserung der Laufzeitzuverl\u00e4ssigkeit in selbst-rekonfigurierbaren Echtzeitsystemen. Aufgrund der spezifischen Eigenschaften, die sich aus der Kombination von selbst-rekonfigurierbaren Systemen und Echtzeitsystemen ergeben, muss die eingesetzte Anomaliedetektion spezifische Anforderungen erf\u00fcllen: online-f\u00e4hig sein, leichtgewichtig im Sinne des Verbrauchs von Ressourcen und selbst-lernend. Um mit sich dynamisch \u00e4ndernden Verhalten umgehen zu k\u00f6nnen, muss die Anomaliedetektion eine kontextbezogene Evaluierung des Systemverhaltens umsetzen. Der zentrale Kern dieser Arbeit ist die Online Anomaly Detection, die auf Basis dieser spezifischen Anforderungen entworfen wurde. Das Konzept der Online Anomaly Detection beruht auf der Danger Theory, welche zu den Verfahren der K\u00fcnstlichen Immunsysteme geh\u00f6rt. Das Konzept stellt ein Betriebssystem-Framework zur kontext-bezogenen Klassifizierung von Systemverhalten zur Verf\u00fcgung. Dabei setzt sich das Systemverhalten aus den Systemaufrufen der Anwendungen zusammen und wird auf Basis von Eingangssignalen evaluiert, welche den Betriebssystemzustand als Kontext des Systemverhaltens widerspiegeln. Zur Speicherung der Historie des Systemverhaltens wurde in das Framework eine Wissensbasis (Behavior Knowledge Base) integriert, die mithilfe von Suffixb\u00e4umen eine kompakte Datenstruktur erzeugt. Die Verwendung von Suffixb\u00e4umen erm\u00f6glicht einen Abgleich des Systemverhaltens zur Laufzeit und dessen direkte Ablage in die Wissensbasis. Die Anwendbarkeit der Online Anomaly Detection auf das gegebene Einsatzgebiet wurde im Bezug auf die vorgegebenen Restriktionen anhand einer formalen Analyse bewiesen. Dar\u00fcber hinaus wurde die Online Anomaly Detection im Echtzeitbetriebssystem ORCOS umgesetzt und zur Verifizierung der Anwendbarkeit eine quantitativen Evaluierung durchgef\u00fchrt.... - Anomaly detection is considered as a useful means to enhance the systems run-time dependability in self-reconfiguring real-time systems. Employed in self-reconfiguring real-time systems, anomaly detection requires to fulfill the specific requirements and challenges resulting from the specific characteristics of the application domain: working online, being lightweight in terms of resource consumption, self-learning, and, in order to be able to cope with dynamically changing behavior, it requires a context-related evaluation of behavior. These requirements have been addressed by the Online Anomaly Detection as the central contribution of this thesis. Its concept was inspired by the Danger Theory coming from Artificial Immune Systems and building up an operating system framework for the context-related classification of behavior. Composed of system call sequences executed by the applications tasks, the behavior is evaluated on the basis of input signals reflecting the operating system state determined as the behaviors context. A compact data structure on the basis of Suffix Trees has been integrated into the framework for building up a Behavior Knowledge Base to store the behavior history. Based on the properties of Suffix Trees, it enables online profiling of the behavior including its immediate conservation. The applicability of the Online Anomaly Detection with respect to the given restrictions was proven by formal analysis of the approach and it was verified by a quantitive evaluation of the implementation of the approach within the real-time operating system ORCOS. Furthermore, the performance of the Online Anomaly Detection in terms of its effectiveness was demonstrated by means of a case study using the autonomous BeBot application within a virtual evaluation environment. The evaluations have shown that the Online Anomaly Detection offers a powerful concept to++",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

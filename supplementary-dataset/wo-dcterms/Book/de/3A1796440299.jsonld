@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "gnd:1054658269",
-            "sameAs": "Rühmer, Dennis Patrick"
+            "sameAs": "R\u00fchmer, Dennis Patrick"
         },
         {
             "@id": "gnd:1057016594",
@@ -18,11 +18,15 @@
         },
         {
             "@id": "gnd:4204356-6",
-            "sameAs": "Gebäudeleittechnik"
+            "sameAs": "Geb\u00e4udeleittechnik"
         },
         {
             "@id": "gnd:4259076-0",
             "sameAs": "VM"
+        },
+        {
+            "@id": "gnd:4667788-4",
+            "sameAs": "Netzwerk-gebundene Speicherung"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1796440299",
@@ -41,13 +45,12 @@
             ],
             "publisher": "Rheinwerk",
             "http://purl.org/dc/elements/1.1/subject": [
-                "(classificationName=ddc)004",
                 "(classificationName=linseach:mapping)inf",
                 "(classificationName=ddc-dbn)004",
                 "(classificationName=bk, id=106418580)54.20 - Datenverarbeitungsanlagen: Allgemeines"
             ],
             "title": "Synology NAS : das umfassende Handbuch",
-            "abstract": "Moderne NAS-Systeme können viel mehr als nur Daten speichern. Wie Sie aus Ihrer Synology DiskStation die Schaltzentrale für Ihr lokales Netzwerk oder für Ihr Unternehmen machen, erfahren Sie hier. DennisRühmer und Daniel van Soest zeigen Ihnen in diesem umfassenden Begleiter, wie Sie alles aus Ihrer DiskStation herausholen. Zusammen mit den Netzwerkfachleuten richten Sie automatisierte Backups ein, geben Daten über Ihre persönliche Cloud frei, konfigurieren detaillierte Benutzersteuerungen, nutzen Collaboration-Dienste und integrieren die DiskStation in Ihre Domain. Für Fortgeschrittene, Selbstständige und KMU. Installation, Multimediazentrale und private Cloud. E-Mail-Server, automatisierte Backups, Nextcloud, Virtualisierungsmöglichkeiten",
+            "abstract": "Moderne NAS-Systeme k\u00f6nnen viel mehr als nur Daten speichern. Wie Sie aus Ihrer Synology DiskStation die Schaltzentrale f\u00fcr Ihr lokales Netzwerk oder f\u00fcr Ihr Unternehmen machen, erfahren Sie hier. DennisR\u00fchmer und Daniel van Soest zeigen Ihnen in diesem umfassenden Begleiter, wie Sie alles aus Ihrer DiskStation herausholen. Zusammen mit den Netzwerkfachleuten richten Sie automatisierte Backups ein, geben Daten \u00fcber Ihre pers\u00f6nliche Cloud frei, konfigurieren detaillierte Benutzersteuerungen, nutzen Collaboration-Dienste und integrieren die DiskStation in Ihre Domain. F\u00fcr Fortgeschrittene, Selbstst\u00e4ndige und KMU. Installation, Multimediazentrale und private Cloud. E-Mail-Server, automatisierte Backups, Nextcloud, Virtualisierungsm\u00f6glichkeiten",
             "contributor": "Technische Informationsbibliothek (TIB)",
             "creator": [
                 "gnd:1054658269",
@@ -59,6 +62,7 @@
             "license": "commercial licence",
             "medium": "rda:termList/RDACarrierType/1044",
             "subject": [
+                "gnd:4667788-4",
                 "gnd:4259076-0",
                 "gnd:4196734-3",
                 "gnd:4204356-6"
@@ -72,6 +76,10 @@
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
@@ -90,10 +98,6 @@
             "@type": "@id"
         },
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
-        "subject": {
-            "@id": "http://purl.org/dc/terms/subject",
-            "@type": "@id"
-        },
         "contributor": "http://purl.org/dc/terms/contributor",
         "title": "http://purl.org/dc/elements/1.1/title",
         "abstract": "http://purl.org/dc/terms/abstract",

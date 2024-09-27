@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:136188044",
+            "sameAs": "Demkowicz, Leszek"
+        },
+        {
             "@id": "gnd:4017233-8",
             "sameAs": "Finite-Elemente-Methode"
         },
@@ -22,7 +26,7 @@
         },
         {
             "@id": "gnd:4228085-0",
-            "sameAs": "Fehlerabschätzung"
+            "sameAs": "Fehlerabsch\u00e4tzung"
         },
         {
             "@id": "gnd:4588309-9",
@@ -32,17 +36,17 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A185760413X",
             "@type": "bibo:Book",
             "P1053": "xi, 204 Seiten",
-            "creator": "Demkowicz, Leszek F.",
-            "description": "Illustrationen",
+            "description": "Illustrationen, Diagramme",
             "identifier": [
                 "(firstid)KXP:185760413X",
                 "(isbn13)9781611977721",
                 "(ppn)185760413X"
             ],
-            "publisher": "Society for Industrial and Applied Mathematics",
+            "publisher": "SIAM, Society for Industrial and Applied Mathematics",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
                 "(classificationName=bk, id=106411217)31.46 - Funktionalanalysis",
+                "(classificationName=rvk)SK 910",
                 "(classificationName=rvk)ZI 3310",
                 "Mathematics education -- Numerical mathematics -- Numerical analysis",
                 "(classificationName=msc)97N40",
@@ -55,6 +59,7 @@
             "title": "Mathematical theory of finite elements",
             "abstract": "\"Provides the foundations of the mathematical theory for conforming finite element methods. Focus is on the concept of discrete stability and the exact sequence conforming elements covering both coercive and non-coercive problems\"--",
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:136188044",
             "issued": "2024",
             "language": "http://id.loc.gov/vocabulary/iso639-1/en",
             "license": "commercial licence",
@@ -68,9 +73,10 @@
                 "gnd:4159850-7",
                 "gnd:4017233-8"
             ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/185760413X.pdf",
             "volume": "28",
             "P30128": "Computational science and engineering",
-            "P60163": "Philadelphia, PA, USA"
+            "P60163": "Philadelphia, PA"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -80,27 +86,31 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "license": "http://purl.org/dc/terms/license",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
-        "issued": "http://purl.org/dc/terms/issued",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "title": "http://purl.org/dc/elements/1.1/title",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "volume": "http://purl.org/ontology/bibo/volume",
         "contributor": "http://purl.org/dc/terms/contributor",
         "abstract": "http://purl.org/dc/terms/abstract",
-        "description": "http://purl.org/dc/elements/1.1/description",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

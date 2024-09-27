@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1082389358",
+            "sameAs": "Tinnefeld, Christian"
+        },
+        {
+            "@id": "gnd:121975193",
+            "sameAs": "Plattner, Hasso"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A847314332",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 160 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)847314332",
+                "(firstid)GBV:847314332"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.74"
+            ],
+            "title": "Building a columnar database on shared main memory-based storage : database operator placement in a shared main memory-based storage system that supports data access and code execution",
+            "abstract": "In the field of disk-based parallel database management systems exists a great variety of solutions based on a shared-storage or a shared-nothing architecture. In contrast, main memory-based parallel database management systems are dominated solely by the shared-nothing approach as it preserves the in-memory performance advantage by processing data locally on each server. We argue that this unilateral development is going to cease due to the combination of the following three trends: a) Nowadays network technology features remote direct memory access (RDMA) and narrows the performance gap between accessing main memory inside a server and of a remote server to and even below a single order of magnitude. b) Modern storage systems scale gracefully, are elastic, and provide high-availability. c) A modern storage system such as Stanford's RAMCloud even keeps all data resident in main memory. Exploiting these characteristics in the context of a main-memory parallel database management system is desirable. The advent of RDMA-enabled network \u2026",
+            "alternative": "Die Erstellung einer spaltenorientierten Datenbank auf einem verteilten, Hauptspeicher-basierenden Speichersystem",
+            "contributor": "gnd:121975193",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1082389358",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

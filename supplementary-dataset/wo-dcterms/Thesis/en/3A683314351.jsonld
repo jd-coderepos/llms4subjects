@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1018660240",
+            "sameAs": "Bevermeier, Maik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A683314351",
+            "@type": "bibo:Thesis",
+            "P1053": "IV, 226 S.",
+            "contributor": [
+                "Mertsching, B\u00e4rbel",
+                "H\u00e4b-Umbach, Reinhold"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)683314351",
+                "(firstid)HBZ:CT004000752"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)629.045",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)500"
+            ],
+            "title": "Sensorfusion und sequenzielle Parametersch\u00e4tzung in einer schwach gekoppelten Filterstruktur zur Navigation",
+            "abstract": "Im Rahmen dieser Arbeit werden zwei Ans\u00e4tze aufgegriffen, um die Navigationsl\u00f6sung eines Ortungs-/Navigationssystems zu verbessern: die St\u00fctzung des Systems mit Hilfe von zuverl\u00e4ssigen H\u00f6heninformationen sowie die Sch\u00e4tzung von Rauschprozessparametern zur Ber\u00fccksichtigung zeitlicher Korrelationen in den Sensorsignalen. Die Ausgangsbasis bildet eine schwach gekoppelte Filterstruktur, die es erlaubt, Sensorsignale einer inertialen Messeinheit mit Informationen anderer St\u00fctzsensoren zu fusionieren. Das eingesetzte linearisierte Kalman-Filter erm\u00f6glicht die Sch\u00e4tzung des Fehlers der Navigationsl\u00f6sung, die au\u00dferhalb des Filters fortlaufend auf Basis des Strapdown-Algorithmus bestimmt wird. Das Filter wird u. a. durch satellitenbasierte Positions- und Geschwindigkeits- sowie durch H\u00f6heninformationen gest\u00fctzt, die auf Temperatur- und Luftdruckmessungen in Kombination mit topografischen Daten basieren. Diese Referenzinformationen werden dazu genutzt, um Bias und Skalenfaktorfehler, die aus vereinfachten Annahmen bei der Herleitung der barometrischen H\u00f6henformel resultieren, sch\u00e4tzen und kompensieren zu k\u00f6nnen. Zudem wurde ein Algorithmus entwickelt, der eine sequenzielle Sch\u00e4tzung der als zeitvariant angenommenen Systemrauschvarianzen des Kalman-Filters erm\u00f6glicht, welche den Messrauschvarianzen der zeitlich korrelierten Inertialsensorsignale entsprechen. Dieser Ansatz basiert auf dem Expectation-Maximization-Algorithmus, der in ein Verfahren \u00fcberf\u00fchrt wurde, das die Sensorsignale nicht mehr block-, sondern abtastwertweise verarbeitet. Dabei wurde die Zielfunktion, der bedingte Erwartungswert der Log-Likelihood der kompletten Daten, in eine rekursive Beschreibung \u00fcberf\u00fchrt. Das Optimierungsproblem wird gel\u00f6st, indem die Zielfunktion mit Hilfe des Newton-Verfahrens maximiert wird.. - In this thesis two approaches to the improvement of the navigation solution of a localization system are considered: the additional employment of filtered height information of a barometric sensor device and the utilization of continuously estimated (a priori unknown and time-variant) noise parameters to incorporate the temporal correlation of inertial sensor measurements. The navigation system is based upon a loosely coupled filter structure for fusing sensor information of an inertial measurement unit with information of other supporting sensors like a GPS receiver. The adopted filter is a so-called linearized Kalman filter for estimating the error of the navigation solution, which is continuously determined outside the filter. The Kalman filter estimates are obtained from satellite-based position and velocity information on the one hand and from reliable height information on the other hand. The height information derived from temperature and barometric pressure measurements using the formula of isothermal atmosphere. Additional topographical information is used to determine and adjust bias and scaling factor errors, stemming from inherent simplified assumptions. Further, an algorithm for sequential estimation of time-variant system noise variances of a Kalman filter has been developed. The proposed approach relies on the Expectation-Maximization-algorithm, which processes the observations in batches. The objective function is specified in that way that the conditional expectation of the log-likelihood of the complete data can be described recursively. The optimization problem is solved by maximizing the objective function using Newtons method.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1018660240",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

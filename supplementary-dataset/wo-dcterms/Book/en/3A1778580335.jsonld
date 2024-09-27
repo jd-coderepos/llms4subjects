@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1778580335",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (30 p.)",
+            "creator": [
+                "Ulbrich, Mattias",
+                "Mostowski, Wojciech"
+            ],
+            "identifier": [
+                "(firstid)KEP:069449139",
+                "(ppn)1778580335",
+                "(isbn13)9783319469690"
+            ],
+            "publisher": "Springer Nature",
+            "subject": [
+                "(classificationName=linseach:automatic)inf",
+                "Computing & information technology"
+            ],
+            "title": "Chapter Dynamic Dispatch for Method Contracts Through Abstract Predicates",
+            "abstract": "Dynamic method dispatch is a core feature of object-oriented programming by which the executed implementation for a polymorphic method is only chosen at runtime. In this paper, we present a specification and verification methodology which extends the concept of dynamic dispatch to design-by-contract specifications. The formal specification language JML has only rudimentary means for polymorphic abstraction in expressions. We promote these to fully flexible specification-only query methods called model methods that can, like ordinary methods, be overridden to give specifications a new semantics in subclasses in a transparent and modular fashion. Moreover, we allow them to refer to more than one program state which give us the possibility to fully abstract and encapsulate two-state specification contexts, i.e., history constraints and method postconditions. Finally, we provide an elegant and flexible mechanism to specify restrictions on specifications in subtypes. Thus behavioural subtyping can be enforced, yet it still allows for other specification paradigms.  We provide the semantics for model methods by giving a translation into a first order logic and according proof obligations. We fully implemented this framework in the KeY program verifier and successfully verified relevant examples. We have also implemented an extension to KeY to support permission-based verification of concurrent Java programs. In this context model methods provide a modular specification method to treat code synchronisation through API methods",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-94-OAB",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "[Erscheinungsort nicht ermittelbar]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

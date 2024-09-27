@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614946",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (148 Seiten)",
+            "creator": [
+                "K\u0159ivanek, Jaroslav",
+                "Gautron, Pascal"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.2200/S00180ED1V01Y200903CGR010",
+                "(firstid)GBV:723614946",
+                "(ppn)723614946",
+                "(isbn13)9781598296457"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Computer animation",
+                "(classificationName=loc)T385 .K889 2009",
+                "Electronic books",
+                "(classificationName=loc)TA1637",
+                "Lighting",
+                "(classificationName=linseach:mapping)ver",
+                "Image processing",
+                "(classificationName=ddc)604.2",
+                "(classificationName=ddc)621.367",
+                "(classificationName=linseach:mapping)phy",
+                "Rendering (Computer graphics)"
+            ],
+            "title": "Global Illumination with Irradiance Caching$Jaroslav K\u0159iv\u00e1nek (Cornell University and Charles University, Prague), Pascal Gautron (Thomson Corporate Research, France)",
+            "abstract": [
+                "Introduction to ray tracing and global illumination -- Basic radiometric quantities -- Rendering goal: find radiance -- Ray tracing -- Shading, reflectance, and the BRDF -- Direct and indirect illumination -- Direct illumination -- Indirect illumination -- Illumination integral and rendering equation -- Illumination integral -- Lambertian reflection -- Rendering equation -- Irradiance caching core -- Indirect irradiance calculation -- Irradiance gradients -- Irradiance caching algorithm -- Interpolation -- Distance to surfaces, Ri -- Creating an irradiance record: summary -- Data structure -- Single-reference octree -- Multiple-reference octree -- Last query reuse -- Irradiance caching summary -- Practical rendering with irradiance caching -- Single-pass vs. two-pass image rendering -- Scanline order -- Hierarchical refinement and best candidate pattern -- Two-pass rendering -- Handling complexity -- Ray tracing simplified geometry -- Bump mapping -- Displacement mapping -- Fur, hair & grass -- Motion blur -- Ambient occlusion caching -- Irradiance caching in a complete global illumination solution -- Path grammar -- Illumination components -- Smooth diffuse indirect illumination -- Ideal specular reflection -- Direct illumination -- Glossy indirect illumination -- Recursion -- Multiple indirect bounces using path tracing -- Multiple indirect bounces using recursive irradiance caching -- Multiple indirect bounces using photon mapping -- Irradiance caching on graphics hardware -- Irradiance splatting -- Cache miss detection -- GPU-based record generation -- Hemisphere sampling on the GPU -- Irradiance computation -- Irradiance gradient computation -- Global illumination rendering -- Results -- High quality rendering -- Interactive global illumination -- Conclusion -- Temporal irradiance caching -- Overview of temporal irradiance caching -- Temporal weighting function -- Temporal gradients -- Estimating future irradiance E [t0 +1] -- GPU implementation -- Results -- Conclusion -- A: mathematical foundations -- A.1: (Hemi)spheres: care and feeding -- A.1.1: spherical coordinates -- A.1.2: direction -- A.1.3: solid angle -- A.1.4: differential solid angle -- A.1.5: spherical integration -- A.2: continuous random variables in a nutshell -- A.2.1: random variables and probability density functions -- A.2.2: expected value and variance -- A.3: Monte Carlo integration in a nutshell -- A.3.1: Monte Carlo estimators -- A.3.2: importance sampling: a variance reduction technique -- B: derivation of gradient formulas -- B.1: rotation gradient derivation -- B.2: translation gradient derivation -- C: split-sphere model -- D: annotated references -- D.1: primary sources -- D.2: further reading on irradiance caching -- D.3: background on global illumination",
+                "Irradiance caching is a ray tracing-based technique for computing global illumination on diffuse surfaces. Specifically, it addresses the computation of indirect illumination bouncing off one diffuse object onto another. The sole purpose of irradiance caching is to make this computation reasonably fast. The main idea is to perform the indirect illumination sampling only at a selected set of locations in the scene, store the results in a cache, and reuse the cached value at other points through fast interpolation. This book is for anyone interested in making a production-ready implementation of irradiance caching that reliably renders artifact-free images. Since its invention 20 years ago, the irradiance caching algorithm has been successfully used to accelerate global illumination computation in the Radiance lighting simulation system. Its widespread use had to wait until computers became fast enough to consider global illumination in film production rendering. Since then, its use is ubiquitous. Virtually all commercial and open-source rendering software base the global illumination computation upon irradiance caching. Although elegant and powerful, the algorithm in its basic form often fails to produce artifact-free images. Unfortunately, practical information on implementing the algorithm is scarce. The main objective of this book is to expose the irradiance caching algorithm along with all the details and tricks upon which the success of its practical implementation is dependent. In addition, we discuss some extensions of the basic algorithm, such as a GPU implementation for interactive global illumination computation and temporal caching that exploits temporal coherence to suppress flickering in animations. Our goal is to expose the material without being overly theoretical. However, the reader should have some basic understanding of rendering concepts, ray tracing in particular. Familiarity with global illumination is useful but not necessary to read this book"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#10",
+            "isLike": "doi:10.2200/S00180ED1V01Y200903CGR010",
+            "P30128": "Synthesis Lectures on Computer Graphics and Animation",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

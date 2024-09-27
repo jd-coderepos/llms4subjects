@@ -10,7 +10,7 @@
         },
         {
             "@id": "gnd:4007521-7",
-            "sameAs": "Böschung"
+            "sameAs": "B\u00f6schung"
         },
         {
             "@id": "gnd:4022320-6",
@@ -26,7 +26,7 @@
         },
         {
             "@id": "gnd:4137134-3",
-            "sameAs": "Gründung (Bauwesen)"
+            "sameAs": "Gr\u00fcndung (Bauwesen)"
         },
         {
             "@id": "gnd:4144628-8",
@@ -38,7 +38,7 @@
         },
         {
             "@id": "gnd:4173981-4",
-            "sameAs": "Pfahlgründung"
+            "sameAs": "Pfahlgr\u00fcndung"
         },
         {
             "@id": "gnd:4179751-6",
@@ -54,7 +54,7 @@
         },
         {
             "@id": "gnd:4203585-5",
-            "sameAs": "Flachgründung"
+            "sameAs": "Flachgr\u00fcndung"
         },
         {
             "@id": "gnd:4213792-5",
@@ -72,18 +72,19 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1566614112",
             "@type": "bibo:Book",
             "P1053": "1 Online-Ressource (XXVIII, 1215 Seiten)",
-            "description": "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
             "identifier": [
                 "(isbn13)9783433607350",
                 "(ppn)1566614112",
                 "(isbn)343360732X",
+                "(doi)10.1002/9783433607350",
                 "(isbn13)9783433607343",
                 "(isbn13)9783433607329",
                 "(isbn13)9783433607336",
                 "(firstid)BSZ:496614118",
                 "(isbn)3433607354"
             ],
-            "publisher": "Ernst &amp; Sohn, a Wiley Brand",
+            "publisher": "Ernst & Sohn",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=linseach:mapping)bau",
                 "(classificationName=loc)TA775",
@@ -94,8 +95,8 @@
                 "(classificationName=bk, id=106421018)56.20 - Ingenieurgeologie, Bodenmechanik",
                 "Foundations"
             ],
-            "title": "Grundbau-Taschenbuch ; Teil 3: Gründungen und geotechnische Bauwerke",
-            "abstract": "Das Grundbau-Taschenbuch ist das bekannteste und umfangreichste deutschsprachige Kompendium auf dem Gebiet der Geotechnik und hat seit über 60 Jahren zum Ziel, Entwicklungen, neue Erfahrungen und Erkenntnisse, aktuelle und neue Berechnungs- und Nachweismethoden für die Belange der Baupraxis umfassend zusammenzutragen und transparent zu vermitteln. Für die 8. Auflage wurde es umfassend überarbeitet und aktualisiert.",
+            "title": "Grundbau-Taschenbuch : Teil 3: Gr\u00fcndungen und geotechnische Bauwerke",
+            "abstract": "Das Grundbau-Taschenbuch ist das bekannteste und umfangreichste deutschsprachige Kompendium auf dem Gebiet der Geotechnik und hat seit \u00fcber 60 Jahren zum Ziel, Entwicklungen, neue Erfahrungen und Erkenntnisse, aktuelle und neue Berechnungs- und Nachweismethoden f\u00fcr die Belange der Baupraxis umfassend zusammenzutragen und transparent zu vermitteln. F\u00fcr die 8. Auflage wurde es umfassend \u00fcberarbeitet und aktualisiert.",
             "contributor": "gnd:136689485",
             "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
             "isPartOf": [
@@ -125,13 +126,13 @@
                 "gnd:4144628-8",
                 "gnd:4007521-7"
             ],
-            "P60163": "Berlin"
+            "isLike": "doi:10.1002/9783433607350",
+            "P60163": "Berlin, Germany"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "subject": {
@@ -144,7 +145,7 @@
         },
         "license": "http://purl.org/dc/terms/license",
         "title": "http://purl.org/dc/elements/1.1/title",
-        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "abstract": "http://purl.org/dc/terms/abstract",
         "contributor": {
             "@id": "http://purl.org/dc/terms/contributor",
@@ -153,6 +154,11 @@
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "issued": "http://purl.org/dc/terms/issued",
         "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"

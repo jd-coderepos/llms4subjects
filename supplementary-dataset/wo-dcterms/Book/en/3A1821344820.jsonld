@@ -46,6 +46,7 @@
             "P1053": "1 Online-Ressource (XV, 201 pages)",
             "description": "Diagramme",
             "identifier": [
+                "(doi)10.4337/9781789907551",
                 "(isbn13)9781789907551",
                 "(ppn)1821344820",
                 "(firstid)KEP:077381513"
@@ -87,6 +88,7 @@
                 "gnd:4046531-7",
                 "gnd:4152104-3"
             ],
+            "isLike": "doi:10.4337/9781789907551",
             "P30128": "New horizons in European politics series",
             "P60163": "Cheltenham"
         }
@@ -94,6 +96,7 @@
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
         "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
         "creator": {
             "@id": "http://purl.org/dc/terms/creator",
@@ -105,7 +108,6 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "description": "http://purl.org/dc/elements/1.1/description",
         "license": "http://purl.org/dc/terms/license",
         "issued": "http://purl.org/dc/terms/issued",
@@ -120,6 +122,10 @@
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
         "umbel": "http://umbel.org/umbel#",

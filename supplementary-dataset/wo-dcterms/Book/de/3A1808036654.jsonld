@@ -1,8 +1,16 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1104519445",
+            "sameAs": "Lenhart, Elmar"
+        },
+        {
             "@id": "gnd:118881140",
             "sameAs": "Winkler, Josef 1953"
+        },
+        {
+            "@id": "gnd:121441075",
+            "sameAs": "Bosse, Anke"
         },
         {
             "@id": "gnd:4046449-0",
@@ -10,20 +18,17 @@
         },
         {
             "@id": "gnd:4605581-2",
-            "sameAs": "Intermedialität"
+            "sameAs": "Intermedialit\u00e4t"
         },
         {
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1808036654",
             "@type": "bibo:Book",
-            "P1053": "1 Online-Ressource(IX, 312 S. 17 Abb. in Farbe.)",
-            "http://purl.org/dc/elements/1.1/contributor": [
-                "Lenhart, Elmar",
-                "Glinik, Christina",
-                "Bosse, Anke"
-            ],
+            "P1053": "1 Online-Ressource (IX, 312 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Glinik, Christina",
             "description": [
-                "Erworben aus Studienqualitätsmitteln",
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+                "Illustrationen",
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
             ],
             "identifier": [
                 "(ppn)1808036654",
@@ -31,24 +36,32 @@
                 "(doi)10.1007/978-3-662-63787-6",
                 "(firstid)KEP:07911945X"
             ],
-            "publisher": "Springer Berlin Heidelberg",
+            "publisher": "J.B. Metzler",
             "http://purl.org/dc/elements/1.1/subject": [
                 "(classificationName=ddc)809.05",
                 "(classificationName=linseach:mapping)lit",
                 "Mass media and literature.",
-                "Literature, Modern—21st century.",
+                "Literature, Modern\u201421st century.",
                 "(classificationName=rvk)GN 9923",
-                "Literature, Modern—20th century.",
+                "Literature, Modern\u201420th century.",
                 "Mass media and culture.",
-                "Literature—Philosophy.",
+                "Literature\u2014Philosophy.",
                 "Literature and technology."
             ],
-            "title": "Inter- und transmediale Ästhetik bei Josef Winkler",
+            "title": "Inter- und transmediale \u00c4sthetik bei Josef Winkler",
             "abstract": [
-                "Das Ringen mit und um Sprache und seine Verschränkung mit Leiblichkeit sind zentrale Themen Josef Winklers. Die existentiellen sowie materiellen und medialen Aspekte des Schreibens bilden den Kern seiner performativen Poetologie. Sie ist von Anfang an sowohl intertextuell als auch inter- und transmedial geprägt und strahlt über Literatur hinaus in eine allgemeine Ästhetik. Auf Basis eines breiten kulturanthropologischen Medienbegriffs zeichnen die Beiträge des Bandes an Beispielen aus Winklers Werk und Schreiben intermediale Verbindungen zu Film, Fotografie, bildender Kunst, Theater nach oder verfolgen die transmedialen Umwandlungen von seiner Handschrift bis zum Buch.",
-                "Teil I. Intertextualität – Intermedialität -- Teil II. Transmedialität – Performanz -- Teil III. Inter-/transmediale Performanz – Schreiben."
+                "Das Ringen mit und um Sprache und seine Verschr\u00e4nkung mit Leiblichkeit sind zentrale Themen Josef Winklers. Die existentiellen sowie materiellen und medialen Aspekte des Schreibens bilden den Kern seiner performativen Poetologie. Sie ist von Anfang an sowohl intertextuell als auch inter- und transmedial gepr\u00e4gt und strahlt \u00fcber Literatur hinaus in eine allgemeine \u00c4sthetik. Auf Basis eines breiten kulturanthropologischen Medienbegriffs zeichnen die Beitr\u00e4ge des Bandes an Beispielen aus Winklers Werk und Schreiben intermediale Verbindungen zu Film, Fotografie, bildender Kunst, Theater nach oder verfolgen die transmedialen Umwandlungen von seiner Handschrift bis zum Buch.",
+                "Teil I. Intertextualit\u00e4t \u2013 Intermedialit\u00e4t -- Teil II. Transmedialit\u00e4t \u2013 Performanz -- Teil III. Inter-/transmediale Performanz \u2013 Schreiben."
             ],
-            "contributor": "Technische Informationsbibliothek (TIB)",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:121441075"
+                },
+                {
+                    "@id": "gnd:1104519445"
+                }
+            ],
             "isPartOf": [
                 "(collectioncode)ZDB-2-MGE",
                 "(collectioncode)ZDB-2-SEB"
@@ -62,26 +75,28 @@
                 "gnd:118881140",
                 "gnd:4046449-0"
             ],
-            "volume": "8",
+            "volume": "Band 8",
             "isLike": "doi:10.1007/978-3-662-63787-6",
-            "P30128": "Kontemporär. Schriften zur deutschsprachigen Gegenwartsliteratur",
-            "P60163": "Berlin, Heidelberg"
+            "P30128": "Kontempor\u00e4r. Schriften zur deutschsprachigen Gegenwartsliteratur",
+            "P60163": "Berlin"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "issued": "http://purl.org/dc/terms/issued",
-        "volume": "http://purl.org/ontology/bibo/volume",
         "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "contributor": "http://purl.org/dc/terms/contributor",
-        "description": "http://purl.org/dc/elements/1.1/description",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "language": {
             "@id": "http://purl.org/dc/terms/language",
@@ -91,15 +106,13 @@
             "@id": "http://umbel.org/umbel#isLike",
             "@type": "@id"
         },
-        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "abstract": "http://purl.org/dc/terms/abstract",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
         },
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

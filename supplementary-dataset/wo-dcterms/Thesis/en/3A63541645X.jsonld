@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A63541645X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 71 S., 300 KB)",
+            "creator": "Hoff, Katharina Jasmin",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(firstid)GBV:63541645X",
+                "(ppn)63541645X"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=bk, id=106419501)42.30 - Mikrobiologie",
+                "(classificationName=bk, id=106410458)42.13 - Molekularbiologie",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc)570",
+                "(classificationName=bk, id=106410296)54.89 - Angewandte Informatik: Sonstiges",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "Gene prediction in metagenomic sequencing reads",
+            "abstract": "Gene prediction is an essential step in the annotation of metagenomic sequencing reads. Since most metagenomic reads cannot be assembled into long contigs, specialized gene prediction tools are required for the analysis of short and anonymous DNA fragments. This work describes the metagenomic gene prediction method &rsquo;Orphelia&rsquo;. It consists of a two-stage machine learning approach. In the ?rst stage, linear discriminants for monocodon usage, dicodon usage and translation initiation sites are used to extract features from dna sequences. In the second stage, an arti?cial neural network combines these features with open reading frame length and fragment GC-content to compute the probability that this open reading frame encodes a protein. This probability is used for the classi?cation and scoring of gene candidates. Orphelia is available to the scienti?c community as an intuitive web server application, and as a command line tool ...",
+            "alternative": "Genvorhersage in metagenomischen Sequenzier-Reads",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

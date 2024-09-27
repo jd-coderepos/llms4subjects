@@ -1,6 +1,10 @@
 {
     "@graph": [
         {
+            "@id": "gnd:1067602585",
+            "sameAs": "Pearsall, Thomas P."
+        },
+        {
             "@id": "gnd:4047990-0",
             "sameAs": "Quantenoptik"
         },
@@ -16,10 +20,9 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1659120519",
             "@type": "bibo:Book",
             "P1053": "Online-Ressource (XVII, 292 p. 130 illus., 39 illus. in color, online resource)",
-            "creator": "Pearsall, Tom P.",
             "description": [
-                "Campusweiter Zugriff (Universität Hannover) - Vervielfältigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
-                "Erworben aus Studienqualitätsmitteln"
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
             ],
             "identifier": [
                 "(doi)10.1007/978-3-319-55144-9",
@@ -49,9 +52,10 @@
             "title": "Quantum Photonics",
             "abstract": [
                 "Introduction -- Properties of Electrons -- Photons -- Tunnelling -- Bandstructure of Periodic Structures -- Photons in Periodic Media -- Quantum Cascade Lasers -- Photonics in Resonant Cavities.",
-                "This textbook employs a pedagogical approach that facilitates access to the fundamentals of Quantum Photonics. It contains an introductory description of the quantum properties of photons through the second quantization of the electromagnetic field, introducing stimulated and spontaneous emission of photons at the quantum level. Schrödinger’s equation is used to describe the behavior of electrons in a one-dimensional potential. Tunneling through a barrier is used to introduce the concept of non­locality of an electron at the quantum level, which is closely-related to quantum confinement tunneling, resonant tunneling, and the origin of energy bands in both periodic (crystalline) and aperiodic (non-crystalline) materials. Introducing the concepts of reciprocal space, Brillouin zones, and Bloch’s theorem, the determination of electronic band structure using the pseudopotential method is presented, allowing direct computation of the band structures of most group IV, group III-V, and group II-VI semiconductors. The text is supported by numerous numerical calculations that can be repeated by the student. The book includes an extensive treatment of the time duration of tunneling. The non-local nature of quantum mechanical states is further developed by the proof of Bell’s theorem and an in-depth discussion of its implications for experimental phenomena like quantum tunneling and quantum entanglement. The entangled quantum photon pair is the workhorse for exploring the fundamental non-locality of quantum mechanics, as well as important applications such as quantum cryptography. Further, the book presents the generation of entangled photon pairs by spontaneous parametric downconversion in detail using operators of the quantized photonic field. The physics of laser action is presented using the quantum photonic basis of spontaneous and stimulated emission, highlighting the limits of Maxwell’s equations in describing quantum behavior. Further, the book shows how the quantum confinement of electrons leads to reduced threshold current on the macroscopic level. Quantum cascade and interband cascade laser structures are analyzed using methods developed in earlier chapters to show how band structure engineering can be applied to access photon emission energies that cannot be achieved using conventional materials."
+                "This textbook employs a pedagogical approach that facilitates access to the fundamentals of Quantum Photonics. It contains an introductory description of the quantum properties of photons through the second quantization of the electromagnetic field, introducing stimulated and spontaneous emission of photons at the quantum level. Schr\u00f6dinger\u2019s equation is used to describe the behavior of electrons in a one-dimensional potential. Tunneling through a barrier is used to introduce the concept of non\u00adlocality of an electron at the quantum level, which is closely-related to quantum confinement tunneling, resonant tunneling, and the origin of energy bands in both periodic (crystalline) and aperiodic (non-crystalline) materials. Introducing the concepts of reciprocal space, Brillouin zones, and Bloch\u2019s theorem, the determination of electronic band structure using the pseudopotential method is presented, allowing direct computation of the band structures of most group IV, group III-V, and group II-VI semiconductors. The text is supported by numerous numerical calculations that can be repeated by the student. The book includes an extensive treatment of the time duration of tunneling. The non-local nature of quantum mechanical states is further developed by the proof of Bell\u2019s theorem and an in-depth discussion of its implications for experimental phenomena like quantum tunneling and quantum entanglement. The entangled quantum photon pair is the workhorse for exploring the fundamental non-locality of quantum mechanics, as well as important applications such as quantum cryptography. Further, the book presents the generation of entangled photon pairs by spontaneous parametric downconversion in detail using operators of the quantized photonic field. The physics of laser action is presented using the quantum photonic basis of spontaneous and stimulated emission, highlighting the limits of Maxwell\u2019s equations in describing quantum behavior. Further, the book shows how the quantum confinement of electrons leads to reduced threshold current on the macroscopic level. Quantum cascade and interband cascade laser structures are analyzed using methods developed in earlier chapters to show how band structure engineering can be applied to access photon emission energies that cannot be achieved using conventional materials."
             ],
             "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1067602585",
             "isPartOf": [
                 "(collectioncode)ZDB-2-SXP",
                 "(collectioncode)ZDB-2-PHA",
@@ -69,7 +73,7 @@
             "isLike": "doi:10.1007/978-3-319-55144-9",
             "P30128": [
                 "SpringerLink",
-                "Bücher",
+                "B\u00fccher",
                 "Graduate Texts in Physics"
             ],
             "P60163": "Cham"
@@ -77,6 +81,11 @@
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
     "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
         "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "subject": {
@@ -84,7 +93,6 @@
             "@type": "@id"
         },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "medium": {
             "@id": "http://purl.org/dc/terms/medium",
             "@type": "@id"
@@ -106,7 +114,6 @@
         "issued": "http://purl.org/dc/terms/issued",
         "license": "http://purl.org/dc/terms/license",
         "publisher": "http://purl.org/dc/elements/1.1/publisher",
-        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
         "umbel": "http://umbel.org/umbel#",
         "rdau": "http://www.rdaregistry.info/Elements/u/#",
         "owl": "http://www.w3.org/2002/07/owl#",

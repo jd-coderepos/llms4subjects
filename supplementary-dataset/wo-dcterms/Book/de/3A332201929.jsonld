@@ -24,7 +24,6 @@
             "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A332201929",
             "@type": "bibo:Book",
             "P1053": "XI, 172 S",
-            "creator": "Selchert, Friedrich W.",
             "description": "Ill., graph. Darst",
             "identifier": [
                 "(firstid)GBV:332201929",
@@ -34,6 +33,7 @@
             ],
             "publisher": "Oldenbourg",
             "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=loksys-fbw)oek 8383",
                 "(classificationName=linseach:mapping)oek",
                 "(classificationName=rvk)PE 358",
                 "(classificationName=dbn)17",
@@ -41,13 +41,12 @@
                 "Deutschland",
                 "Jahresabschluss",
                 "Bilanzierung",
-                "(classificationName=rvk)QP 820",
-                "(classificationName=loksys-fbw)oek 8383"
+                "(classificationName=rvk)QP 820"
             ],
-            "title": "Grundlagen der Bilanzierung : Übersichtsdarstellungen",
-            "abstract": "Wie Selchert: \"Grundlagen der betriebswirtschaftlichen Steuerlehre\" (ID 11/93; 4. Auflage 1996 im Handel) als Lernhilfe konzipiert. Ergänzt Studienbücher sehr gut, zum Beispiel \"Jahresabschluß ...\" von Adolf G. Coenenberg (16. Auflage BA 11/97). (3) (LK/E: Kardung)",
-            "contributor": "gnd:170037347",
-            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "title": "Grundlagen der Bilanzierung : \u00dcbersichtsdarstellungen",
+            "abstract": "Wie Selchert: \"Grundlagen der betriebswirtschaftlichen Steuerlehre\" (ID 11/93; 4. Auflage 1996 im Handel) als Lernhilfe konzipiert. Erg\u00e4nzt Studienb\u00fccher sehr gut, zum Beispiel \"Jahresabschlu\u00df ...\" von Adolf G. Coenenberg (16. Auflage BA 11/97). (3) (LK/E: Kardung)",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:170037347",
             "issued": "2001",
             "language": "http://id.loc.gov/vocabulary/iso639-1/de",
             "license": "commercial licence",
@@ -59,7 +58,7 @@
                 "gnd:4129338-1"
             ],
             "tableOfContents": "http://www.gbv.de/dms/hebis-mainz/toc/099510545.pdf",
-            "P60163": "München"
+            "P60163": "M\u00fcnchen"
         }
     ],
     "@id": "urn:x-arq:DefaultGraphNode",
@@ -69,13 +68,14 @@
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
-        "contributor": {
-            "@id": "http://purl.org/dc/terms/contributor",
-            "@type": "@id"
-        },
         "identifier": "http://purl.org/dc/elements/1.1/identifier",
         "license": "http://purl.org/dc/terms/license",
         "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
         "issued": "http://purl.org/dc/terms/issued",
         "description": "http://purl.org/dc/elements/1.1/description",
         "medium": {
@@ -86,7 +86,6 @@
             "@id": "http://purl.org/dc/terms/language",
             "@type": "@id"
         },
-        "creator": "http://purl.org/dc/elements/1.1/creator",
         "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
         "abstract": "http://purl.org/dc/terms/abstract",
         "tableOfContents": "http://purl.org/dc/terms/tableOfContents",

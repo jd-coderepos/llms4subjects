@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1255144084",
+            "sameAs": "Arab Oghli, Omar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1883480779",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (83.2 Kb)",
+            "identifier": [
+                "(doi)10.25835/nop77eg4",
+                "(ppn)1883480779",
+                "(firstid)KXP:1883480779"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Contributions similarity in the Open Research Knowledge Graph : dataset",
+            "abstract": "This evaluation set has been created for evaluating a content-based recommender system in the context of the Open Research Knowledge Graph (ORKG). The recommender system accepts structured ORKG contribution as input and recommends existing contributions in the ORKG semantically relevant to the given one. The evaluation set is manually annotated based on the featured comparisons in the ORKG. In the course of this, it has been distinguished between homogeneous (those who are dissimilar in 2-3 properties) and heterogeneous (otherwise) instances. Multiple annotations have been obtained for the former and exactly one for the latter. It has been also distinguished between \"with_response\" and \"without_response\" instances (50 instances for each). The former are those contributions for them the initial version of the contributions similarity service has found similarities and the latter are the opposite case. This evaluation set has been created and applied on a modified version of the contributions similarity service in the context of this master's thesis. The modified version of the service has simplified the document representation of contributions that are stored in an ElasticSearch index by omitting redundant terms.",
+            "alternative": "Contributions similarity in the Open Research Knowledge Graph$dForschungsdaten",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1255144084",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/nop77eg4",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
