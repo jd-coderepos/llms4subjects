@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:13868796X",
+            "sameAs": "Pozrikidis, Constantine"
+        },
+        {
+            "@id": "gnd:4338507-2",
+            "sameAs": "Wissenschaftliches Rechnen"
+        },
+        {
+            "@id": "gnd:4501553-3",
+            "sameAs": "XML"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A722434049",
+            "@type": "bibo:Book",
+            "P1053": "XV, 243 S.",
+            "description": [
+                "25 cm",
+                "Ill."
+            ],
+            "identifier": [
+                "(isbn13)9781466512276",
+                "(firstid)GBV:722434049",
+                "(ppn)722434049"
+            ],
+            "publisher": "CRC Press, Taylor & Francis",
+            "subject": [
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "(classificationName=msc)68P30",
+                "(classificationName=msc)*68-02",
+                "(classificationName=ddc-dbn)COM060000",
+                "Numerical analysis",
+                "XML (Document markup language)",
+                "(classificationName=ddc-dbn)MAT000000",
+                "Science",
+                "(classificationName=ddc-dbn)MAT021000",
+                "(classificationName=bk, id=475288866)54.55 - Auszeichnungssprachen",
+                "(classificationName=msc)68Pxx",
+                "(classificationName=ddc)006.7/4",
+                "(classificationName=rvk)ST 250",
+                "(classificationName=loc)Q183.9",
+                "(classificationName=msc)68N18",
+                "(classificationName=msc)65Y04",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "XML in scientific computing",
+            "abstract": "\"Preface XML stands for extensible markup language. In fact, XML is not a language, but a systematic way of encoding and formatting data and statements contained in an electronic file according to a chosen tagging system. A tag may represent a general entity, a physical, mathematical, or abstract object, an instruction, or a computer language construct. The data can describe cars and trucks in a dealer's lot, the chapters of a book, the input or output of a scientific experiment or calculation, the eigenvalues of a matrix, and anything else that can be described by numbers and words. Data presentation and description In the XML framework, information is described and presented in the same doc- ument, thus circumventing the need for legends and explanations. For example, we may order: <breakfast> toast and eggs <breakfast> Further cooking instructions can be included between the breakfast tag enclosed by the pointy brackets (<>) and its closure denoted by the slash (/). Data reuse XML data (input) can be read by a person or parsed and processed by a program (application) that produces a new set of data (output.) Although the input is the same, the output depends on the interpretation of the tags formatting the data. The inherent polymorphism allows us to materialize the same original data in different ways. For example: 1. An author may write a book inserting formatting tags between words, equations, and figures according to xml conventions and grammar. The text (data) file can be processed to produce books with different appear- ances. 2. A scientist may write a finite-element code that produces output tagged according to xml conventions\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:13868796X",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4338507-2"
+                },
+                {
+                    "@id": "gnd:4501553-3"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/722434049.pdf",
+            "P30128": "Champman & Hall/CRC numerical analysis and scientific computing",
+            "P60163": "Boca Raton [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
