@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027072291",
+            "sameAs": "Werner, Herbert"
+        },
+        {
+            "@id": "gnd:1135679215",
+            "sameAs": "Starossek, Uwe"
+        },
+        {
+            "@id": "gnd:1162637587",
+            "sameAs": "B\u00e4umer, Richard"
+        },
+        {
+            "@id": "gnd:1163616850",
+            "sameAs": "Technische Universit\u00e4t Hamburg, Institut f\u00fcr Baustatik"
+        },
+        {
+            "@id": "gnd:2067664-5",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1028364555",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (8, 192 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1028364555",
+                "(firstid)GBV:1028364555",
+                "(doi)10.15480/882.1723",
+                "(isbn13)9783745078213"
+            ],
+            "subject": [
+                "Damping device",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "(classificationName=ddc-dbn)620",
+                "Active vibration control",
+                "(classificationName=linseach:mapping)tec",
+                "Twin rotor damper"
+            ],
+            "title": "Active vibration control using the centrifugal forces of eccentrically rotating masses",
+            "abstract": "In this PhD thesis, active vibration control using eccentrically rotating masses is investigated. The basic layout of the so-called twin rotor damper (TRD) consists of two eccentric control masses rotating about two parallel axes. In a preferred mode of op-eration, the continuous rotation mode, both control masses rotate in opposite direction with a constant angular velocity. Under further operational constraints, the generated centrifugal forces superimpose to a harmonic control force in a single direction. The thesis begins with the presentation of control algorithms to ensure the continuous motion of the control masses and anti-phasing between the control force and the velocity of a single degree of freedom (SDOF) oscillator performing mono-frequent vi-brations; thus, the TRD provides the desired damping action. An analytic steady-state response solution of a SDOF oscillator under harmonic excitation with and without the action of the TRD is derived and validated experimentally. The inability of the TRD to damp small vibrations in the continuous rotation mode becomes apparent and is dis-cussed. Subsequently, stochastically forced vibrations are studied. To ensure the anti-phasing between the velocity of the SDOF oscillator and the control force of the TRD, the TRD must deviate from the continuous rotation mode by varying the angular velocity of the rotors. If the required variation of the angular velocity is too high, it is no longer benefi-cial to operate the TRD in the continuous rotation mode. It is shown that below a specific vibration-amplitude threshold, an operation in the continuous rotation mode is no longer beneficial. To additionally control vibrations below the specified vibration-amplitude threshold, the TRD is required to operate in an alternative mode of operation, the so-called swinging mode. Although a greater damping performance is achieved with the continuous rotation mode, the swinging mode is required for the damping of small vibrations. Based on numerical simulations and experiments, the effectiveness of the proposed control-loop and tuning procedure for the damping of stochastically forced vibrations is validated. Finally, the layout of the TRD is modified, allowing for the vibration control of an oscillator with two translational degrees of freedom. The two degree of freedom oscillator performs planar motion and has an elliptic motion path when a free vibration is considered. The control masses now rotate about a single axis. By imposing small variations in the angular velocity, the direction of the control force can be changed in the plane of motion of the two degree of freedom (TDOF) oscillator. This allows for the vibration control of the TDOF oscillator in the continuous rotation mode with small variations in the angular velocities. The control algorithm works as follows. The direction of the major axis of the elliptic motion path is detected. To achieve maximum damping action, the directed harmonic control force is set such that it is in anti-phase with the velocity of the TDOF oscillator along the major axis. The algorithm was validated experimentally for free vibrations and numerically for stochastically forced vibrations. For a TDOF oscillator with small inherent damping, it is shown that the power demand and the energy consumption of the adapted TRD are smaller than those of a conventional active mass damper.",
+            "contributor": [
+                "gnd:1135679215",
+                "gnd:1027072291"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1162637587",
+                "gnd:2067664-5",
+                "gnd:1163616850"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15480/882.1723"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

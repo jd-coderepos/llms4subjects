@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1830037838",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(XVII, 531 p. 241 illus.)",
+            "creator": "Salecha, Rohit",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781484286739",
+                "(firstid)KEP:083428054",
+                "(doi)10.1007/978-1-4842-8673-9",
+                "(ppn)1830037838"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Internet programming.",
+                "(classificationName=linseach:mapping)inf",
+                "Data protection.",
+                "Cloud Computing.",
+                "Open source software.",
+                "(classificationName=ddc)005.3"
+            ],
+            "title": "Practical GitOps : Infrastructure Management Using Terraform, AWS, and GitHub Actions",
+            "abstract": [
+                "Chapter 1: What is GitOps? -- Chapter 2: Introduction to AWS -- Chapter 3: Introduction to Terraform -- Chapter 4: Introduction to SpringBoot App on AW and EKS -- Chapter 8. Authentication and Authorization -- Chapter 9. Security and Secrets Management -- Chapter 10. Observability -- Appendix A: Manually Delete Resources -- Appendix B: Destroy on Terraform Cloud -- Appendix C: Code Compatability.",
+                "Infrastructure as Code (IaC) is gaining popularity and developers today are deploying their application environments through IaC tools to the cloud. However, it can become extremely difficult and time-consuming to manage the state of the infrastructure that has been deployed. This book will provide a complete walkthrough of deploying a SpringBoot application on AWS with multiple environments like production, staging and development. Everything is orchestrated through GitHub Actions and executed through Terraform Cloud to monitor changes in your infrastructure and manage its state. You'll start by reviewing how your infrastructure can be stored in code by spinning up an EC2 server first through the console, then AWS CLI and then using Terraform. You'll then be presented with a practical scenario of setting up a simple EC2 server in a multi-environment (production, staging and development) using GitHub Actions and Terraform Cloud. In the advanced section that follows, this simple EC2 server is expanded into an application that is deployed on an AWS EKS (Elastic Kubernetes Service) using AWS RDS (Relational Database Service) exposed through an AWS ALB (Application Load Balancer) protected using AWS ACM (AWS Certificate Manager), and accessible by setting the AWS Route53. The book then builds up on this infrastructure and demonstrates how it can be deployed in a multi-environment scenario by implementing accounts through AWS organizations. You'll see how to put in restrictions through Service Control Policies, how to protect secrets using AWS Secrets Manager, and how to work with least privileges using IRSA (IAM Roles for Service Accounts). Finally, you'll make the infrastructure more observable using Graphana, Prometheus, and AWS OpenSearch, run security tools, host Route53 zones dynamically based on environments, and implement CloudWatch Alarms for various use cases."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-8673-9",
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1163409154",
+            "sameAs": "Taeumel, Marcel"
+        },
+        {
+            "@id": "gnd:120012162",
+            "sameAs": "Hirschfeld, Robert"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1691548723",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 299 Seiten, 16494 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-44428",
+                "(ppn)1691548723",
+                "(firstid)KXP:1691548723"
+            ],
+            "subject": [
+                "(classificationName=ddc)005.12",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Data-driven tool construction in exploratory programming environments",
+            "abstract": "This work presents a new design for programming environments that promote the exploration of domain-specific software artifacts and the construction of graphical tools for such program comprehension tasks. In complex software projects, tool building is essential because domain- or task-specific tools can support decision making by representing concerns concisely with low cognitive effort. In contrast, generic tools can only support anticipated scenarios, which usually align with programming language concepts or well-known project domains. However, the creation and modification of interactive tools is expensive because the glue that connects data to graphics is hard to find, change, and test. Even if valuable data is available in a common format and even if promising visualizations could be populated, programmers have to invest many resources to make changes in the programming environment. Consequently, only ideas of predictably high value will be implemented. In the non-graphical, command-line world, the situation looks different and inspiring: programmers can easily build their own tools as shell scripts by configuring and combining filter programs to process data. [...]",
+            "alternative": "Datengetriebener Werkzeugbau in explorativen Programmierumgebungen",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120012162"
+                }
+            ],
+            "creator": [
+                "gnd:1163409154",
+                "gnd:2120681-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-44428",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

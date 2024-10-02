@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1016531168",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 255 Seiten)",
+            "creator": "Luttmann, Andreas",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1016531168",
+                "(firstid)GBV:1016531168"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "Modellierung und Simulation von Prozessen mit fest-fl\u00fcssig Phasen\u00fcbergang und freiem Kapillarrand",
+            "abstract": [
+                "Laser beam welding, thermal upsetting, melting, solidification, fluid dynamics, Navier-Stokes, Stefan problem, free capillary surface, wetting, triple junctions, finite element method, interface tracking, interface capturing, ALE formulation, decoupling strategy.",
+                "In this thesis, the material and heat transport for manufacturing processes including a partial melting of metallic workpieces is modeled and simulated. The key aspects of the model are the Navier-Stokes equations including a free capillary surface and wetting for the liquid part and, either a two-phase Stefan problem (interface capturing) or the heat equation in combination with a Stefan condition (interface tracking) to consider the energy balance and allow solid-liquid phase transitions. Both approaches lead to different numerical methods based on an ALE finite element discretization, in which the numerical treatment of the triple junction (solid, liquid, surrounding gas) is crucial. In order to benefit from each method's advantages whilst avoiding their disadvantages, a combined method is proposed. As a simpler but less accurate alternative, a stabilized variant of the interface capturing approach is proposed. The simulation results are validated using experimental data."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

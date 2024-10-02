@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A729524396",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VI, 108 S., 10.611 kB)",
+            "creator": "Basler, Georg",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)729524396",
+                "(firstid)GBV:729524396"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "Mass-balanced randomization : a significance measure for metabolic networks",
+            "abstract": "Complex networks have been successfully employed to represent different levels of biological systems, ranging from gene regulation to protein-protein interactions and metabolism. Network-based research has mainly focused on identifying unifying structural properties, including small average path length, large clustering coefficient, heavy-tail degree distribution, and hierarchical organization, viewed as requirements for efficient and robust system architectures. Existing studies estimate the significance of network properties using a generic randomization scheme - a Markov-chain switching algorithm - which generates unrealistic reactions in metabolic networks, as it does not account for the physical principles underlying metabolism. Therefore, it is unclear whether the properties identified with this generic approach are related to the functions of metabolic networks. Within this doctoral thesis, I have developed an algorithm for mass-balanced randomization of metabolic networks, which runs in polynomial time and samples networks almost uniformly at random. The properties of biological systems result from two fundamental origins: ubiquitous physical principles and a complex history of evolutionary pressure. The latter determines the cellular functions and abilities required for an organism\u2019s survival. Consequently, the functionally important properties of biological systems result from evolutionary pressure. By employing randomization under physical constraints, the salient structural properties, i.e., the smallworld property, degree distributions, and biosynthetic capabilities of six metabolic networks from all kingdoms of life are shown to be independent of physical constraints, and thus likely to be related to evolution and functional organization of metabolism. This stands in stark contrast to the results obtained from the commonly applied switching algorithm. In addition, a novel network property is devised to quantify the importance of reactions by simulating the impact of their knockout. The relevance of the identified reactions is verified by the findings of existing experimental studies demonstrating the severity of the respective knockouts. The results suggest that the novel property may be used to determine the reactions important for viability of organisms. Next, the algorithm is employed to analyze the dependence between mass balance and thermodynamic properties of Escherichia coli metabolism. The thermodynamic landscape in the vicinity of the metabolic network reveals two regimes of randomized networks: those with thermodynamically favorable reactions, similar to the original network, and those with less favorable reactions. The results suggest that there is an intrinsic dependency between thermodynamic favorability and evolutionary optimization. The method is further extended to optimizing metabolic pathways by introducing novel chemically feasibly reactions. The results suggest that, in three organisms of biotechnological importance, introduction of the identified reactions may allow for optimizing their growth. The approach is general and allows identifying chemical reactions which modulate the performance with respect to any given objective function, such as the production of valuable compounds or the targeted suppression of pathway activity. These theoretical developments can find applications in metabolic engineering or disease treatment. The developed randomization method proposes a novel approach to measuring the significance of biological network properties, and establishes a connection between large-scale approaches and biological function. The results may provide important insights into the functional principles of metabolic networks, and open up new possibilities for their engineering.",
+            "alternative": "Massebalancierte Randomisierung : ein Ma\u00df f\u00fcr Signifikanz in metabolischen Netzwerken",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

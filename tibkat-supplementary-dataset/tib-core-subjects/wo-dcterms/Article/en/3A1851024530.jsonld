@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120420392",
+            "sameAs": "Sattler, Kai-Uwe"
+        },
+        {
+            "@id": "gnd:133964868",
+            "sameAs": "May, Norman"
+        },
+        {
+            "@id": "gnd:139493867",
+            "sameAs": "Legler, Thomas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851024530",
+            "@type": "bibo:Article",
+            "creator": [
+                "Lasch, Robert",
+                "Scheirle, Bernhard"
+            ],
+            "identifier": [
+                "(firstid)KXP:1851024530",
+                "(ppn)1851024530"
+            ],
+            "publisher": "Curran Associates, Inc.",
+            "subject": [
+                "(classificationName=linseach:automatic)inf",
+                "(classificationName=linseach:automatic)elt"
+            ],
+            "title": "Cost modelling for optimal data placement in heterogeneous main memory",
+            "abstract": "The cost of DRAM contributes significantly to the operating costs of in-memory database management systems (IMDBMS). Persistent memory (PMEM) is an alternative type of byte-addressable memory that offers - in addition to persistence - higher capacities than DRAM at a lower price with the disadvantage of increased latencies and reduced bandwidth. This paper evaluates PMEM as a cheaper alternative to DRAM for storing table base data, which can make up a significant fraction of an IMDBMS' total memory footprint. Using a prototype implementation in the SAP HANA IMDBMS, we find that placing all table data in PMEM can reduce query performance in analytical benchmarks by more than a factor of two, while transactional workloads are less affected. To quantify the performance impact of placing individual data structures in PMEM, we propose a cost model based on a lightweight workload characterization. Using this model, we show how to place data pareto-optimally in the heterogeneous memory. Our evaluation demonstrates the accuracy of the model and shows that it is possible to place more than 75% of table data in PMEM while keeping performance within 10% of the DRAM baseline for two analytical benchmarks.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:133964868"
+                },
+                {
+                    "@id": "gnd:139493867"
+                },
+                {
+                    "@id": "gnd:120420392"
+                }
+            ],
+            "extent": "2867-2880",
+            "isPartOf": "(ppn)1845637801",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "pageStart": "2867",
+            "P30128": "48th International Conference on Very Large Data Bases (VLDB 2022) ; Part 5 of 6",
+            "P60163": "Red Hook, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "extent": "http://purl.org/dc/terms/extent",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

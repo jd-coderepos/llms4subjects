@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1072584026",
+            "sameAs": "M\u00fchlbauer, Felix"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A718917766",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 3151 KB, 111 S.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Bobda, Christophe",
+            "identifier": [
+                "(firstid)DNB:1023802899",
+                "(ppn)718917766"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)620"
+            ],
+            "title": "Entwurf, Methoden und Werkzeuge f\u00fcr komplexe Bildverarbeitungssysteme auf Rekonfigurierbaren System-on-Chip-Architekturen",
+            "abstract": "Bildverarbeitungsanwendungen stellen besondere Anspr\u00fcche an das ausf\u00fchrende Rechensystem. Einerseits ist eine hohe Rechenleistung erforderlich. Andererseits ist eine hohe Flexibilit\u00e4t von Vorteil, da die Entwicklung tendentiell ein experimenteller und interaktiver Prozess ist. F\u00fcr neue Anwendungen tendieren Entwickler dazu, eine Rechenarchitektur zu w\u00e4hlen, die sie gut kennen, anstatt eine Architektur einzusetzen, die am besten zur Anwendung passt. Bildverarbeitungsalgorithmen sind inh\u00e4rent parallel, doch herk\u00f6mmliche bildverarbeitende eingebettete Systeme basieren meist auf sequentiell arbeitenden Prozessoren. Im Gegensatz zu dieser \"Unstimmigkeit\" k\u00f6nnen hocheffiziente Systeme aus einer gezielten Synergie aus Software- und Hardwarekomponenten aufgebaut werden. Die Konstruktion solcher System ist jedoch komplex und viele L\u00f6sungen, wie zum Beispiel grobgranulare Architekturen oder anwendungsspezifische Programmiersprachen, sind oft zu akademisch f\u00fcr einen Einsatz in der Wirtschaft. Die vorliegende Arbeit soll ein Beitrag dazu leisten, die Komplexit\u00e4t von Hardware-Software-Systemen zu reduzieren und damit die Entwicklung hochperformanter on-Chip-Systeme im Bereich Bildverarbeitung zu vereinfachen und wirtschaftlicher zu machen. Dabei wurde Wert darauf gelegt, den Aufwand f\u00fcr Einarbeitung, Entwicklung als auch Erweiterungen gering zu halten. Es wurde ein Entwurfsfluss konzipiert und umgesetzt, welcher es dem Softwareentwickler erm\u00f6glicht, Berechnungen durch Hardwarekomponenten zu beschleunigen und das zu Grunde liegende eingebettete System komplett zu prototypisieren. Hierbei werden komplexe Bildverarbeitungsanwendungen betrachtet, welche ein Betriebssystem erfordern, wie zum Beispiel verteilte Kamerasensornetzwerke. Die eingesetzte Software basiert auf Linux und der Bildverarbeitungsbibliothek OpenCV. Die Verteilung der Berechnungen auf Software- und Hardwarekomponenten und die daraus resultierende Ablaufplanung und Generierung der Rechenarchitektur erfolgt automatisch. Mittels einer auf der Antwortmengenprogrammierung basierten Entwurfsraumexploration ergeben sich Vorteile bei der Modellierung und Erweiterung. Die Systemsoftware wird mit OpenEmbedded/Bitbake synthetisiert und die erzeugten on-Chip-Architekturen auf FPGAs realisiert.zeige weniger",
+            "alternative": "Design, methodologies and tools for complex image processing systems on reconfigurable system-on-chip-architectures",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1072584026",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

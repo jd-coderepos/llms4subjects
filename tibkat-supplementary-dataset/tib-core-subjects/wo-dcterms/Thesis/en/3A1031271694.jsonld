@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1031271694",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 122 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Quevedo, Daniel",
+                "Mouton, Toit"
+            ],
+            "creator": "Lopez Canon, Andres Mauricio",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1031271694",
+                "(firstid)HBZ:CT004002143",
+                "(doi)10.17619/UNIPB/1-381"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)600"
+            ],
+            "title": "Model predictive control of modular multilevel converters",
+            "abstract": "Die vorliegende Arbeit befasst sich mit der Anwendung modellpr\u00e4diktiver Regelungen (englisch: model predictive control (MPC)) auf modulare Mehrpunktstromrichter (englisch: Modular Multilevel Converter (MMC)). Das zentrale Ziel ist dabei, den Aufwand zur L\u00f6sung des zugrundeliegenden Optimierungsproblems zu reduzieren und gleichzeitig die geforderten Konverterzust\u00e4nde einzuhalten.Typische Modelle f\u00fcr MMCs zeichnen sich durch eine Vielzahl an Zust\u00e4nden und wertdiskreten Eingangsgr\u00f6\u00dfen aus. Derartige Modelle f\u00fchren in Kombination mit MPC insbesondere dann auf komplexe Optimierungsprobleme, wenn lange Pr\u00e4diktionshorizonte erforderlich sind. Um dieses Problem zu umgehen, wird im Rahmen der Arbeit ein vereinfachtes Modell vorgestellt, welches sowohl die Systemordnung reduziert als auch Diskontinuit\u00e4ten resultierend aus wertdiskreten Schaltvorg\u00e4ngen eliminiert. Die Genauigkeit und Grenzen des neuartigen Modellierungsansatzes werden ausgiebig diskutiert, um eine verl\u00e4ssliche Anwendung zu erm\u00f6glichen. Das reduzierte Modell wir anschlie\u00dfend eingesetzt, um geeignete Referenzwerte f\u00fcr die Regelung des MMCs zu bestimmen. Insbesondere wird f\u00fcr das Anwendungsbeispiel in der Arbeit aufgezeigt, wie Referenzwerte so gew\u00e4hlt werden k\u00f6nnen, dass die Restwelligkeit in den einzelnen Modulen des Stromrichters reduziert werden.Die Komplexit\u00e4t des MPC-Optimierungsproblems wird unter Verwendung des vereinfachten Modells weiter reduziert, indem nur je ein wertkontinuierlicher Reglereingriff pro Konverterarm betrachtet wird. Dar\u00fcber hinaus wird untersucht, unter welchen Bedingungen sich ein konvexes Optimierungsproblem ergibt. Diese Bedingungen sind f\u00fcr viele Anwendungsf\u00e4lle erf\u00fcllt, so dass etablierte und effiziente Algorithmen zur L\u00f6sung des Optimierungsproblems eingesetzt werden k\u00f6nnen. Dies ist insbesondere f\u00fcr.... - This work addresses problems that arise with the application of Model Predictive Control (MPC) to Modular Multilevel Converters (MMCs), by aiming to reduce the complexity of the optimization problem associated with the controller while properly tracking the converter states. Due to the complexity of the MMC, principally attributed to the high dimension of its state space model along with the high number of discontinuous switching variables available, solving the optimization problem associated with the MPC can be challenging. This becomes more significant when long prediction horizons are required. In order to address this problem, this work presents a reduced order model that aims to reduce the complexity of the state space model of the MMC and to eliminate the discontinuities associated with the converter switches. In order to validate this approach, the accuracy and limitations of this model are analyzed and identified in detail. Moreover, with the help of the reduced order model, detailed references for the MMC are carefully designed and, for the case presented in this work, reference parameters are selected optimally in order to reduce the voltage ripple in the converter modules.The complexity of the optimization problem associated with the MPC is also reduced with the help of the reduced order model by considering just one continuous control signal per converter arm. To further aid the optimization, a method to derive conditions that guarantee its convexity is presented. By guaranteeing convexity, it is possible to use very well studied and efficient optimization algorithms, easing the application of MPC on MMC, especially in the case where long prediction horizons are required. In order to illustrate the proposed procedure, numerical examples are presented in a simulation environment.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-381",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

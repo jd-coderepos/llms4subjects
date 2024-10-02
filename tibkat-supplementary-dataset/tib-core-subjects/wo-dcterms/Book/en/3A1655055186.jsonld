@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:123535492",
+            "sameAs": "Hand, D. J."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655055186",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (online resource)",
+            "creator": "Everitt, B. S.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1007/978-94-009-5897-5",
+                "(ppn)1655055186",
+                "(firstid)BSZ:404645925",
+                "(isbn13)9789400958975"
+            ],
+            "publisher": "Springer Netherlands",
+            "subject": [
+                "Social sciences.",
+                "Humanities.",
+                "(classificationName=ddc)50",
+                "(classificationName=ddc)001.3",
+                "Science (General)",
+                "(classificationName=ddc)300",
+                "(classificationName=linseach:mapping)rest",
+                "Science, general",
+                "(classificationName=loc)Q1-390"
+            ],
+            "title": "Finite Mixture Distributions",
+            "abstract": [
+                "1 General introduction -- 1.1 Introduction -- 1.2 Some applications of finite mixture distributions -- 1.3 Definition -- 1.4 Estimation methods -- 1.5 Summary -- 2 Mixtures of normal distributions -- 2.1 Introduction -- 2.2 Some descriptive properties of mixtures of normal distributions -- 2.3 Estimating the parameters in normal mixture distributions -- 2.4 Summary -- 3 Mixtures of exponential and other continuous distributions -- 3.1 Exponential mixtures -- 3.2 Estimating exponential mixture parameters -- 3.3 Properties of exponential mixtures -- 3.4 Other continuous distributions -- 3.5 Mixtures of different component types -- 3.6 Summary -- 4 Mixtures of discrete distributions -- 4.1 Introduction -- 4.2 Mixtures of binomial distributions -- 4.3 Mixtures of Poisson distributions -- 4.4 Mixtures of Poisson and binomial distributions -- 4.5 Mixtures of other discrete distributions -- 4.6 Summary -- 5 Miscellaneous topics -- 5.1 Introduction -- 5.2 Determining the number of components in a mixture -- 5.3 Probability density function estimation -- 5.4 Miscellaneous problems -- 5.5 Summary -- References.",
+                "Finite mixture distributions arise in a variety of applications ranging from the length distribution of fish to the content of DNA in the nuclei of liver cells. The literature surrounding them is large and goes back to the end of the last century when Karl Pearson published his well-known paper on estimating the five parameters in a mixture of two normal distributions. In this text we attempt to review this literature and in addition indicate the practical details of fitting such distributions to sample data. Our hope is that the monograph will be useful to statisticians interested in mixture distributions and to re\u00ad search workers in other areas applying such distributions to their data. We would like to express our gratitude to Mrs Bertha Lakey for typing the manuscript. Institute oj Psychiatry B. S. Everitt University of London D. l Hand 1980 CHAPTER I General introduction 1. 1 Introduction This monograph is concerned with statistical distributions which can be expressed as superpositions of (usually simpler) component distributions. Such superpositions are termed mixture distributions or compound distributions. For example, the distribution of height in a population of children might be expressed as follows: h(height) = fg(height: age)f(age)d age (1. 1) where g(height: age) is the conditional distribution of height on age, and/(age) is the age distribution of the children in the population."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:123535492"
+                }
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1981",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-94-009-5897-5",
+            "P30128": [
+                "Springer eBook Collection",
+                "Monographs on Statistics and Applied Probability",
+                "Mathematics and Statistics",
+                "SpringerLink",
+                "B\u00fccher",
+                "Monographs on Applied Probability and Statistics"
+            ],
+            "P60163": "Dordrecht"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

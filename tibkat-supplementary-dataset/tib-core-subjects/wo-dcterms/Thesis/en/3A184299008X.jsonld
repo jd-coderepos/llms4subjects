@@ -1,0 +1,128 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:102199300X",
+            "sameAs": "V\u00f6lker, Conrad"
+        },
+        {
+            "@id": "gnd:128659345X",
+            "sameAs": "Dokhanchi, Najmeh Sadat"
+        },
+        {
+            "@id": "gnd:131698397",
+            "sameAs": "Alt\u0131nsoy, M. Ercan"
+        },
+        {
+            "@id": "gnd:133336115",
+            "sameAs": "Hoffmann, Sabine"
+        },
+        {
+            "@id": "gnd:4048567-5",
+            "sameAs": "Raumakustik"
+        },
+        {
+            "@id": "gnd:4048584-5",
+            "sameAs": "Raumklima"
+        },
+        {
+            "@id": "gnd:4078351-0",
+            "sameAs": "Tomografie"
+        },
+        {
+            "@id": "gnd:4168286-5",
+            "sameAs": "Lufttemperatur"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A184299008X",
+            "@type": "bibo:Thesis",
+            "P1053": "xvi, 136 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)184299008X",
+                "(isbn13)9783000753442",
+                "(firstid)KXP:184299008X"
+            ],
+            "publisher": "Bauhaus-Universit\u00e4t Weimar, Professur f\u00fcr Bauphysik",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)bau",
+                "(classificationName=bk, id=106414941)56.55 - Bauphysik, Bautenschutz"
+            ],
+            "title": "Measurement of the Indoor Air Temperature Distribution using Acoustic Travel-Time Tomography",
+            "abstract": "One of the main criteria determining the thermal comfort of occupants is the air temperature. To monitor this parameter, a thermostat is traditionally mounted in the indoor environment for instance in office rooms in the workplaces, or directly on the radiator or in another location in a room. One of the drawbacks of this conventional method is the measurement at a certain location instead of the temperature distribution in the entire room including the occupant zone. As a result, the climatic conditions measured at the thermostat point may differ from those at the user's location. This not only negatively impacts the thermal comfort assessment but also leads to a waste of energy due to unnecessary heating and cooling. Moreover, for measuring the distribution of the air temperature under laboratory conditions, multiple thermal sensors should be installed in the area under investigation. This requires high effort in both installation and expense.  To overcome the shortcomings of traditional sensors, Acoustic travel-time TOMography (ATOM) offers an alternative based on measuring the transmission sound velocity signals. The basis of the ATOM technique is the first-order dependency of the sound velocity on the medium's temperature. The average sound velocity, along the propagation paths, can be determined by travel-times estimation of a defined acoustic signal between transducers. After the travel-times collection, the room is divided into several volumetric grid cells, i.e. voxels, whose sizes are defined depending on the dimension of the room and the number of sound paths. Accordingly, the spatial air temperature in each voxel can be determined using a suitable tomographic algorithm. Recent studies indicate that despite the great potential of this technique to detect room climate, few experiments have been conducted.   This thesis aims to develop the ATOM technique for indoor climatic applications while coupling the analysis methods of tomography and room acoustics. The method developed in this thesis uses high-energy early reflections in addition to the direct paths between transducers for travel time estimation. In this way, reflections can provide multiple sound paths that allow the room coverage to be maintained even when a few or even only one transmitter and receiver are used.   In the development of the ATOM measurement system, several approaches have been employed, including the development of numerical methods and simulations and conducting experimental measurements, each of which has contributed to the improvement of the system's accuracy. In order to effectively separate the early reflections and ensure adequate coverage of the room with sound paths, a numerical method was developed based on the optimization of the coordinates of the sound transducers in the test room. The validation of the optimal positioning method shows that the reconstructed temperatures were significantly improved by placing the transducers at the optimal coordinates derived from the developed numerical method. The other numerical method developed is related to the selection of the travel times of the early reflections. Accordingly, the detection of the travel times has been improved by adjusting the lengths of the multiple analysis time-windows according to the individual travel times in the reflectogram of the room impulse response. This can reduce the probability of trapping faulty travel times in the analysis time-windows.   The simulation model used in this thesis is based on the image source model (ISM) method for simulating the theoretical travel times of early reflection sound paths. The simulation model was developed to simulate the theoretical travel times up to third-order reflections.   The empirical measurements were carried out in the climate lab of the Chair of Building Physics under different boundary conditions, i.e., combinations of different room air temperatures under both steady-state and transient conditions, and different measurement setups. With the measurements under controllable conditions in the climate lab, the validity of the developed numerical methods was confirmed.   In this thesis, the performance of the ATOM measurement system was evaluated using two measurement setups. The setup for the initial investigations consists of an omnidirectional receiver and a near omnidirectional sound source, keeping the number of transducers as few as possible. This has led to accurately identify the sources of error that could occur in each part of the measuring system. The second measurement setup consists of two directional sound sources and one omnidirectional receiver. This arrangement of transducers allowed a higher number of well-detected travel times for tomography reconstruction, a better travel time estimation due to the directivity of the sound source, and better space utilization. Furthermore, this new measurement setup was tested to determine an optimal selection of the excitation signal. The results showed that for the utilized setup, a linear chirp signal with a frequency range of 200 - 4000 Hz and a signal duration of t = 1 s represents an optimal selection with respect to the reliability of the measured travel times and higher signal-to-noise ratio (SNR).    To evaluate the performance of the measuring setups, the ATOM temperatures were always compared with the temperatures of high-resolution NTC thermistors with an accuracy of \u00b10.2 K. The entire measurement program, including acoustic measurements, simulation, signal processing, and visualization of measurement results are performed in MATLAB software.   In addition, to reduce the uncertainty of the positioning of the transducers, the acoustic centre of the loudspeaker was determined experimentally for three types of excitation signals, namely MLS (maximum length sequence) signals with different lengths and duration, linear and logarithmic chirp signals with different defined frequency ranges. For this purpose, the climate lab was converted into a fully anechoic chamber by attaching absorption panels to the entire surfaces of the room. The measurement results indicated that the measurement of the acoustic centre of the sound source significantly reduces the displacement error of the transducer position.    Moreover, to measure the air temperature in an occupied room, an algorithm was developed that can convert distorted signals into pure reference signals using an adaptive filter. The measurement results confirm the validity of the approach for a temperature interval of 4 K inside the climate lab.   Accordingly, the accuracy of the reconstructed temperatures indicated that ATOM is very suitable for measuring the air temperature distribution in rooms.",
+            "contributor": [
+                "gnd:131698397",
+                "gnd:133336115",
+                "gnd:102199300X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:5180842-0",
+                "gnd:128659345X"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4048584-5",
+                "gnd:4078351-0",
+                "gnd:4048567-5",
+                "gnd:4168286-5"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/weimar/toc/184299008X_toc.pdf",
+            "volume": "8",
+            "P30128": "Schriftenreihe der Professur Bauphysik",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

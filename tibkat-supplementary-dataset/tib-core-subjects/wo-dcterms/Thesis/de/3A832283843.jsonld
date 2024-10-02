@@ -1,0 +1,128 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1146658737",
+            "sameAs": "W\u00f6lfel, Philipp"
+        },
+        {
+            "@id": "gnd:1204383928",
+            "sameAs": "Aum\u00fcller, Martin"
+        },
+        {
+            "@id": "gnd:130020761",
+            "sameAs": "Dietzfelbinger, Martin"
+        },
+        {
+            "@id": "gnd:4011146-5",
+            "sameAs": "Datenstruktur"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:4176929-6",
+            "sameAs": "Randomisierter Algorithmus"
+        },
+        {
+            "@id": "gnd:4193434-9",
+            "sameAs": "Sortierverfahren"
+        },
+        {
+            "@id": "gnd:4323071-4",
+            "sameAs": "Hash-Algorithmus"
+        },
+        {
+            "@id": "gnd:4323960-2",
+            "sameAs": "Lastteilung"
+        },
+        {
+            "@id": "gnd:4382412-2",
+            "sameAs": "Pivot-Operation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A832283843",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VIII, 235 S., 1,63 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Pagh, Rasmus",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)832283843",
+                "(firstid)GBV:832283843"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "On the analysis of two fundamental randomized algorithms : multi-pivot quiocksort and efficient hash functions",
+            "abstract": "Im ersten Teil der vorliegenden Arbeit werden Multi-Pivot-Quicksort-Algorithmen betrachtet. Die Idee mehr als ein Pivotelement im Quicksort-Algorithmus zu nutzen, erschien \u00fcber viele Jahre als unpraktikabel. Dies \u00e4nderte sich, als im Jahr 2009 ein Dual-Pivot-Algorithmus von V. Yaroslavskiy zum Standard-Sortierverfahren in Java 7 wurde. Die vorliegende Arbeit stellt eine Studie von Multi-Pivot-Quicksort-Algorithmen dar, also Quicksort-Varianten, die mit mehr als einem Pivotelement arbeitet. Sie beschreibt die Konstruktionsprinzipien von 2-Pivot-Algorithmen in Bezug auf die bei der Sortierung notwendigen Schl\u00fcsselvergleiche. Ein Ergebnis dieser Untersuchung sind zwei optimale und leicht zu implementierende 2-Pivot-Algorithmen. Die Verallgemeinerung auf >= 3 Pivotelemente ben\u00f6tigt nur kleine Anpassungen. Diese Arbeit betrachtet au\u00dferdem die theoretische Analyse von Kostenma\u00dfen, die es erm\u00f6glichen, Multi-Pivot-Quicksort-Algorithmen hinsichtlich ihres Speicher- und Cacheverhaltens zu vergleichen. Sie schlie\u00dft mit einer Laufzeitstudie der besprochenen Algorithmen. Der zweite Teil der Arbeit besch\u00e4ftigt sich mit dem Einsatz von Hashfunktionen in Algorithmen und Datenstrukturen. Hashfunktionen bilden eine Kernkomponente, z.B. beim Aufbau einer Hashtabelle oder bei Lastbalancierung. Oft wird dabei eine unrealistische Annahme get\u00e4tigt : Die Hashwerte seien voll zuf\u00e4llig. Die Speicherplatzkomplexit\u00e4t einer solchen Funktion ist f\u00fcr den praktischen Einsatz f\u00fcr unverh\u00e4ltnism\u00e4\u00dfig hoch. Das Ziel ist, einfache Konstruktionen zu finden, deren Zufallseigenschaften beweisbar gut sind. Diese Arbeit beschreibt eine solche einfache Konstruktion von Hashfunktionen, die in einer Vielzahl von Anwendungen beweisbar gut ist. Zu diesen Anwendungen z\u00e4hlen Cuckoo Hashing mit einem sogenannten Stash, die Konstruktion einer perfekten Hashfunktion, die Simulation einer uniformen Hashfunktion, verschiedene Algorithmen zur Lastbalancierung und verallgemeinertes Cuckoo Hashing in einer leicht abgeschw\u00e4chten Variante mit verschiedenen Einf\u00fcgealgorithmen. Der zentrale Beitrag dieser Dissertation ist ein einheitliches Analysekonzept. Dieses erm\u00f6glicht es, eine auf Hashfunktionen basierende Datenstruktur oder einen auf Hashfunktionen basierenden Algorithmus nur mit Mitteln der Theorie von Zufallsgraphen zu analysieren, ohne Details der Hashfunktion offenzulegen.",
+            "contributor": [
+                "gnd:130020761",
+                "gnd:1146658737"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1204383928",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4176929-6",
+                "gnd:4011146-5",
+                "gnd:4123037-1",
+                "gnd:4382412-2",
+                "gnd:4193434-9",
+                "gnd:4323071-4",
+                "gnd:4323960-2"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046204688",
+            "sameAs": "Berger, Thomas"
+        },
+        {
+            "@id": "gnd:121438104",
+            "sameAs": "Ilchmann, Achim"
+        },
+        {
+            "@id": "gnd:133755703",
+            "sameAs": "Hotz, Thomas"
+        },
+        {
+            "@id": "gnd:4032317-1",
+            "sameAs": "Kontrolltheorie"
+        },
+        {
+            "@id": "gnd:4056693-6",
+            "sameAs": "Stabilit\u00e4t"
+        },
+        {
+            "@id": "gnd:4122327-5",
+            "sameAs": "Regelungstheorie"
+        },
+        {
+            "@id": "gnd:4134713-4",
+            "sameAs": "Steuerbarkeit"
+        },
+        {
+            "@id": "gnd:4229517-8",
+            "sameAs": "Differential-algebraisches Gleichungssystem"
+        },
+        {
+            "@id": "gnd:7635051-4",
+            "sameAs": "Universit\u00e4tsverlag Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A775706981",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 329 S., 1,84 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Mehrmann, Volker",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:775706981",
+                "(ppn)775706981"
+            ],
+            "publisher": "Universit\u00e4tsverlag Ilmenau",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106410555)30.10 - Systemtheorie",
+                "(classificationName=bk, id=106407724)31.44 - Gew\u00f6hnliche Differentialgleichungen",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "On differential-algebraic control systems",
+            "abstract": "In der vorliegenden Dissertation werden differential-algebraische Gleichungen (differential-algebraic equations, DAEs) der Form d dt Ex = Ax + f betrachtet, wobei E und A beliebige Matrizen sind. Falls E nichtverschwindende Eintr\u00e4ge haben, dann kommen in der Gleichung Ableitungen der entsprechenden Komponenten von x vor. Falls E eine Nullzeile hat, dann kommen in der entsprechenden Gleichung keine Ableitungen vor und sie ist rein algebraisch. Daher werden Gleichungen vom Typ d dt Ex = Ax + f differential-algebraische Gleichungen genannt. Ein Ziel dieser Dissertation ist es, eine strukturelle Zerlegung einer DAE in vier Teile herzuleiten: einen ODE-Anteil, einen nilpotenten Anteil, einen unterbestimmten Anteil und einen \u00fcberbestimmten Anteil. Jeder Anteil beschreibt ein anderes L\u00f6sungsverhalten in Hinblick auf Existenz und Eindeutigkeit von L\u00f6sungen f\u00fcr eine vorgegebene Inhomogenit\u00e4t f und Konsistenzbedingungen an f. Die Zerlegung, namentlich die quasi-Kronecker Form (QKF), verallgemeinert die wohlbekannte Kronecker-Normalform und behebt einige ihrer Nachteile. Die QKF wird ausgenutzt, um verschiedene Konzepte der Kontrollierbarkeit und Stabilisierbarkeit f\u00fcr DAEs mit f = Bu zu studieren. Hier bezeichnet u den Eingang des differential-algebraischen Systems. Es werden Zerlegungen unter System- und Feedback-\u00c4quivalenz, sowie die Folgen einer Behavioral-Steuerung K_x x + K_u u = 0 f\u00fcr die Stabilisierung des Systems untersucht. Falls f\u00fcr das DAE-System zus\u00e4tzlich eine Ausgangs-Gleichung y =Cx gegeben ist, dann l\u00e4sst sich das Konzept der Nulldynamik wie folgt definieren: die Nulldynamik ist, grob gesagt, die Dynamik, die am Ausgang nicht sichtbar ist, d.h. die Menge aller L\u00f6sungs-Trajektorien (x,u,y) mit y = 0. F\u00fcr rechts-invertierbare Systeme mit autonomer Nulldynamik wird eine Zerlegung hergeleitet, welche die Nulldynamik entkoppelt. Diese versetzt uns in die Lage, eine Behavior-Steuerung zu entwickeln, die das System stabilisiert, vorausgesetzt die Nulldynamik selbst ist stabil. Wir betrachten auch zwei Regelungs-Strategien, die von den Eigenschaften der oben genannten System-Klasse profitieren: Hochverst\u00e4rkungs- und Funnel-Regelung. Ein System d dt Ex = Ax + Bu, y =Cx, hat die Hochverst\u00e4rkungseigenschaft, wenn es durch die Anwendung der proportionalen Ausgangsr\u00fcckf\u00fchrung u = -ky, mit k > 0 hinreichend gro\u00df, stabilisiert werden kann. Wir beweisen, dass rechts-invertierbare Systeme mit asymptotisch stabiler Nulldynamik, die eine bestimmte Relativgrad-Annahme erf\u00fcllen, die Hochverst\u00e4rkungseigenschaft haben. W\u00e4hrend der Hochverst\u00e4rkungs-Regler recht einfach ist, ist es jedoch a priori nicht bekannt, wie gro\u00df die Verst\u00e4rkungskonstante k gew\u00e4hlt werden muss. Dieses Problem wird durch den Funnel-Regler gel\u00f6st: durch die adaptive Justierung der Verst\u00e4rkung \u00fcber eine zeitabh\u00e4ngige Funktion k(.) und die Ausnutzung der Hochverst\u00e4rkungseigenschaft wird erreicht, dass gro\u00dfe Werte k(t) nur dann angenommen werden, wenn sie n\u00f6tig sind. Eine weitere wesentliche Eigenschaft ist, dass der Funnel-Regler das transiente Verhalten des Fehlers e = y - y ref der Bahnverfolgung, wobei y ref die Referenztrajektorie ist, beachtet. F\u00fcr einen vordefinierten Performanz-Trichter (funnel) [Psi] wird erreicht, dass e(t) < [Psi](t). Schlie\u00dflich wird der Funnel-Regler auf die Klasse von MNA-Modellen von passiven elektrischen Schaltkreisen mit asymptotisch stabilen invarianten Nullstellen angewendet. Dies erfordert die Einschr\u00e4nkung der Menge der zul\u00e4ssigen Referenztrajektorien auf solche die, in gewisser Weise, die Kirchhoffschen Gesetze punktweise erf\u00fcllen.",
+            "contributor": [
+                "gnd:133755703",
+                "gnd:121438104"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:7635051-4",
+                "gnd:1046204688"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4056693-6"
+                },
+                {
+                    "@id": "gnd:4032317-1"
+                },
+                {
+                    "@id": "gnd:4134713-4"
+                },
+                {
+                    "@id": "gnd:4122327-5"
+                },
+                {
+                    "@id": "gnd:4229517-8"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

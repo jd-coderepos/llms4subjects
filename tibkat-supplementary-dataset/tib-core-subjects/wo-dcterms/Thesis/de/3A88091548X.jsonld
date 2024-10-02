@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1126275360",
+            "sameAs": "Neudert-Schulz, Dominik"
+        },
+        {
+            "@id": "gnd:132014971",
+            "sameAs": "Thom\u00e4, Reiner"
+        },
+        {
+            "@id": "gnd:136084575",
+            "sameAs": "Del Galdo, Giovanni"
+        },
+        {
+            "@id": "gnd:140951164",
+            "sameAs": "Costa, Jo\u00e3o Paulo Carvalho Lustosa"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4054947-1",
+            "sameAs": "Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4142611-3",
+            "sameAs": "Antennengruppe"
+        },
+        {
+            "@id": "gnd:4176653-2",
+            "sameAs": "Quaternion"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A88091548X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 177 Seiten, 25.09 MB)",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)88091548X",
+                "(firstid)GBV:88091548X"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "A contribution to efficient direction finding using antenna arrays",
+            "abstract": "Sicherlich gibt es nicht den einen Algorithmus zur Sch\u00e4tzung der Einfallsrichtung elektromagnetischer Wellen. Statt dessen existieren Algorithmen, die darauf optimiert sind Hunderte Pfade zu finden, mit uniformen linearen oder kreisf\u00f6rmigen Antennen-Arrays genutzt zu werden oder m\u00f6glichst schnell zu sein. Die vorliegende Dissertation befasst sich mit letzterer Art. Wir beschr\u00e4nken uns jedoch nicht auf den reinen Algorithmus zur Richtungssch\u00e4tzung (RS), sondern gehen das Problem in verschiedener Hinsicht an. Die erste Herangehensweise befasst sich mit der Beschreibung der Array-Mannigfaltigkeit (AM). Bisherige Interpolationsverfahren der AM ber\u00fccksichtigen nicht inh\u00e4rent Polarisation. Daher wird separat f\u00fcr jede Polarisation einzeln interpoliert. Wir \u00fcbernehmen den Ansatz, eine diskrete zweidimensionale Fouriertransformation (FT) zur Interpolation zu nutzen. Jedoch verschieben wir das Problem in den Raum der Quaternionen. Dort wenden wir eine zweidimensionale diskrete quaternionische FT an. Somit k\u00f6nnen beide Polarisationszust\u00e4nde als eine einzige Gr\u00f6\u00dfe betrachtet werden. Das sich ergebende Signalmodell ist im Wesentlichen kompatibel mit dem herk\u00f6mmlichen komplexwertigen Modell. Unsere zweite Herangehensweise zielt auf die fundamentale Eignung eines Antennen-Arrays f\u00fcr die RS ab. Zu diesem Zweck nutzen wir die deterministische Cram\u00e9r-Rao-Schranke (Cram\u00e9r-Rao Lower Bound, CRLB). Wir leiten drei verschiedene CRLBs ab, die Polarisationszust\u00e4nde entweder gar nicht oder als gew\u00fcnschte oder st\u00f6rende Parameter betrachten. Dar\u00fcber hinaus zeigen wir auf, wie Antennen-Arrays schon w\u00e4hrend der Design-Phase auf RS optimiert werden k\u00f6nnen. Der eigentliche Algorithmus zur RS stellt die letzte Herangehensweise dar. Mittels einer MUSIC-basierte Kostenfunktion leiten wir effiziente Sch\u00e4tzer ab. Hierf\u00fcr kommt eine modifizierte Levenberg- bzw. Levenberg-Marquardt-Suche zum Einsatz. Da die eigentliche Kostenfunktion hier nicht angewendet werden kann, ersetzen wir diese durch vier verschiedene Funktionen, die sich lokal \u00e4hnlich verhalten. Diese Funktionen beruhen auf einer Linearisierung eines Kroneckerproduktes zweier polarimetrischer Array-Steering-Vektoren. Dabei stellt sich heraus, dass zumindest eine der Funktionen in der Regel zu sehr schneller Konvergenz f\u00fchrt, sodass ein echtzeitf\u00e4higer Algorithmus entsteht.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132014971"
+                },
+                {
+                    "@id": "gnd:136084575"
+                },
+                {
+                    "@id": "gnd:140951164"
+                }
+            ],
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1126275360"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4054947-1",
+                "gnd:4176653-2",
+                "gnd:4142611-3"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

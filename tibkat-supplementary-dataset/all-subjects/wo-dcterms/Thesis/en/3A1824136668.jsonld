@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1274773237",
+            "sameAs": "Merle, Fabian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1824136668",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XVII, 142 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1824136668",
+                "(doi)10.15496/publikation-74525",
+                "(ppn)1824136668"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)518",
+                "Finite-Elemente-Methode",
+                "(classificationName=ddc-dbn)510",
+                "Adaptives Gitter",
+                "Navier-Stokes-Gleichung",
+                "A-posteriori-Absch\u00e4tzung",
+                "(classificationName=linseach:mapping)mat",
+                "Fehlerabsch\u00e4tzung",
+                "Partielle Differentialgleichung",
+                "Adaptives Verfahren"
+            ],
+            "title": "Adaptive concepts for high-dimensional stochastic differential equations",
+            "abstract": "The objective of this thesis is the efficient approximation of high-dimensional stochastic differential equations (SDE's) via newly developed, theoretical-based adaptive methods. The thesis is split into two parts, which motivate and discuss the (temporal) approximation of high-dimensional SDE's from different aspects. Conceptually, the derivation of the corresponding adaptive methods follows the same principle: finding an appropriate scheme for the approximation of the underlying SDE, derivation of a (weak) a posteriori error estimate, and an implementation of an adaptive method based on it. In the first part of this thesis we mainly consider SDE systems emerging from a spatial discretization of a given semilinear stochastic partial differential equation (SPDE). The corresponding adaptive method consists of the semi-implicit Euler scheme and a local refinement/coarsening strategy of the temporal mesh based on a computable error estimator, and generates time step sizes as well as iterates, such that the resulting (weak) error is always less or equal than a prescribed tolerance. The (computable) error estimator directly comes from the related a posteriori error estimate, which is derived by means of the Kolmogorov equation. In this regard, we (globally) bound derivatives of the solution of Kolmogorov's equation via (probabilistic) variation equations independently of the dimension and in terms of derivatives of the underlying test function. At this juncture, the use of the Clark-Ocone formula reduces the complexity of the derivatives to be bounded. Furthermore, the approximation via the semi-implicit Euler scheme allows for stability bounds which are independent of the dimension, and which, in particular, contribute to bound the error estimator. The combination of the above concepts enables an error analysis of the a posteriori estimate resp.~the estimator, which is independent of the dimension, and, in particular, is the key for convergence of the adaptive method, as well as its applicability in high dimensions. Computational experiments compare adaptive meshes with uniform meshes and show a considerable gain in efficiency of the adaptive method. The second part can conceptually be regarded as an extension of the first one and considers SDE systems, which arise from the probabilistic reformulation of an underlying boundary value problem, i.e., of an elliptic/parabolic partial differential equation (PDE) on a bounded domain. Opposed to the setting in the first part, the solution of the SDE here takes values in a bounded domain, which, in particular, involves a convenient exposure to stopping in an approximative framework when the (approximated) solution process is about to leave the domain. To this end, we use an already existing scheme in the literature (slightly modified), which, among other things, replaces unbounded Wiener increments in the generation of (explicit) Euler iterates by bounded ones having the same distribution, and which thus allows to properly control the dynamics of the (approximated) solution process up to the boundary of the domain. Based on this scheme, we derive an a posteriori error estimate from which three error estimators emerge, where each of them captures different dynamics concerning the distance of the approximated process to the boundary. These dynamics are especially reflected in the choice of the local time step size selection (up to the boundary) of the adaptive method, which approximates the solution of the underlying boundary value problem at a fixed point. The choice of the local time step sizes is complemented by a suitable temporal weight factor within the related refinement/coarsening strategy, which, aside from stability results concerning stopping dynamics, ensures the (optimal) convergence of the method with respect to a given tolerance parameter. Computational experiments illustrate a stable application of the method even for violated data requirements, and a substantial gain in efficiency through adaptive (time) mesh generation.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1274773237",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-74525",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

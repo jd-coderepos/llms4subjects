@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4072532-7",
+            "sameAs": "Histopathologie"
+        },
+        {
+            "@id": "gnd:4078351-0",
+            "sameAs": "Tomografie"
+        },
+        {
+            "@id": "gnd:4150634-0",
+            "sameAs": "Dreidimensionale Rekonstruktion"
+        },
+        {
+            "@id": "gnd:4174161-4",
+            "sameAs": "Phasenkontrastverfahren"
+        },
+        {
+            "@id": "gnd:4184235-2",
+            "sameAs": "Synchrotronstrahlung"
+        },
+        {
+            "@id": "gnd:6146838-1",
+            "sameAs": "Universit\u00e4tsverlag G\u00f6ttingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1878324861",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ii, 136 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Frohn, Jasper",
+            "identifier": [
+                "(doi)10.17875/gup2023-2409",
+                "(ppn)1878324861",
+                "(firstid)KXP:1878324861"
+            ],
+            "publisher": "Universit\u00e4tsverlag G\u00f6ttingen",
+            "subject": [
+                "(classificationName=bk, id=106409360)44.64 - Radiologie",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=bk, id=106409301)44.47 - Pathologie"
+            ],
+            "title": "Multi-scale 3D virtual histology via phase-contrast X-ray tomography with synchrotron radiation",
+            "abstract": "To this day, the standard method for investigating biological tissue with cellular resolution is the examination under a light microscope, first denoted as histology by Karl Meyer in 1819. Despite the enormous success and importance of histology, it has two major disadvantages. Firstly, the specimen must be physically cut into thin sections due to the limited penetrating power of optical light, and secondly, additional staining of the specimen is required to achieve sufficient image contrast. Both disadvantages can be overcome by the non-destructive method of propagation-based X-ray phase-contrast tomography. While the mechanism of phase-contrast provides sufficient image contrast to image single cells, a tomographic imaging scheme with penetrating X-rays allows for an undamaged sample by virtually slicing the reconstructed 3D sample volume. In this work, the holotomography setup of the synchrotron endstation \u201eGINIX\u201c (The G\u00f6ttingen Instrument for Nanoscale-Imaging with X-Rays) was extended to a multi-scale X-ray phase-contrast tomography setup suitable for 3D virtual histology by adding two acquisition schemes. Compared to the existing setup, the first additional scheme is a propagation-based microtomography setup, which enlarges the reconstructed 3D volumes by a factor of approx. 64 at a fraction of the acquisition time (ca. 2 min). The second additional scheme aims for higher resolutions. To this end, the X-ray waveguide illumination was combined with photon counting detector with a large field of view and a novel phase reconstruction scheme, which is based on iterative farfield phase retrieval without an \u201eempty-beam correction\u201c in the detector plane.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:6146838-1",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4184235-2"
+                },
+                {
+                    "@id": "gnd:4174161-4"
+                },
+                {
+                    "@id": "gnd:4150634-0"
+                },
+                {
+                    "@id": "gnd:4072532-7"
+                },
+                {
+                    "@id": "gnd:4078351-0"
+                }
+            ],
+            "volume": "volume30",
+            "isLike": "doi:10.17875/gup2023-2409",
+            "P30128": "G\u00f6ttingen Series in X-ray Physics",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

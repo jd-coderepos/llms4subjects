@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1264148712",
+            "sameAs": "Humaidan, Dania"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1811904025",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (101 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1811904025",
+                "(ppn)1811904025",
+                "(doi)10.15496/publikation-70670"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.32",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Fostering event-predictive encodings in recurrent neural networks",
+            "abstract": [
+                "Our interaction with the world is based on the information that we receive and actions that we perform. When we observe the surrounding environment, we obtain new information, which we use to update our beliefs and plan our next steps. It is suggested that we organize this information within separable units, called events. The time points at which an event ends and the next starts are called event boundaries. Understanding the ongoing events and the boundaries between them helps us to better plan the upcoming steps towards our goals deeper into the future. As a result, we can interact with the environment in more versatile, and longer-reaching goal-directed manner. Alongside the use of sensory information to predict upcoming events, it appears that an additional inference process is implemented to infer the causes of our sensory experiences, as suggested by the Bayesian brain hypothesis. When our observations do not match our predictions, we get surprised and try to update our beliefs based on the new information. The update is based on the prediction error between the in- ternal expectations and the sensory observations. In order to minimize the error, we need to be able to predict the upcoming states as accurately as possible, which means that we need to avoid being faced with unpredictable, surprising states. Modeling the temporal evolution of events, and the role of surprise in defining event bound- aries, has attracted lots of attention. The structure within which such modeling can take place would represent a schema for the Bayesian brain model. Moreover, see- ing the connections between different areas of the cortex, and the different temporal dynamics of them, evidence has accumulated that hierarchical, predictive structures develop in our brain, with lower sensory processing layers, which deal with concrete information, and deeper, or upper, layers that are responsible for abstraction, fitting the sensory information into event-characterizing, compact latent encodings. This thesis explores how to construct a neural network-based, hierarchical archi- tecture for surprise-based, event-predictive modeling. First, we explore retrospective gating by tackling the challenge of different moving vehicles as events. Then, we contrast this with prospective gating. In this case we use a set of temporal functions and show that events can be segmented when surprise signals are available. Moreover, we show that event boundary anticipation is useful to enhance the compression of event-characterizing latent encodings. Finally, we extend the structure with a coun- terfactual regularization term, showing that the regularization enhances the stability and robustness of the latent event encodings in a symbolic sequence prediction task. With the achieved robust development of event-predictive encodings, the presented surprise-gated event segmentation structure could be employed in more complex systems to perform other decision-making tasks. Particularly the controlled opening of the surprise gate could be useful in other systems where the efficient and selective activation of contextual information is required.",
+                "Unsere Interaktion mit der Welt basiert auf den Informationen, die wir erhalten, und den Handlungen, die wir ausf\u00fchren. Wenn wir die Umgebung beobachten, erhalten wir neue Informationen, die wir verwenden, um unsere \u00dcberzeugungen zu aktualisieren und unsere n\u00e4chsten Schritte zu planen. Es wird vorgeschlagen, dass wir diese Informationen in trennbare Einheiten, sogenannte Ereignisse, kodieren. Die Zeitpunkte, an denen ein Ereignis endet und das n\u00e4chste beginnt, werden Ereignisgrenzen genannt. Das Verst\u00e4ndnis der laufenden Ereignisse und der Grenzen zwischen ihnen hilft uns, die bevorstehenden Schritte in Richtung unserer Ziele besser zu planen. Dadurch k\u00f6nnen wir uns besser, zielorientiert verhalten. Neben der Nutzung der sensorischen Informationen zur Vorhersage bevorstehen- der Ereignisse wird im Gehirn auch ein Inferenzprozess durchgef\u00fchrt, der die Ursachen dieser sensorischen Erfahrungen ergr\u00fcndet. Dies wird auch von der Bayesschen Gehirnhypothese postuliert. Wenn unsere Beobachtungen nicht mit den Vorhersagen \u00fcbereinstimmen, sind wir \u00fcberrascht und versuchen, unsere \u00dcberzeugungen basierend auf den neuen Informationen zu aktualisieren. Die Aktualisierung erfolgt unter Verwendung des Vorhersagefehlers zwischen den internen Erwartungen und den sensorischen Beobachtungen. Um den Fehler zu minimieren, m\u00fcssen wir die kommenden Zust\u00e4nde so genau wie m\u00f6glich vorhersagen, das hei\u00dft, wir m\u00fcssen vermeiden, mit unvorhersehbaren, \u00fcberraschenden Zust\u00e4nden konfrontiert zu werden. Die Modellierung der zeitlichen Entwicklung von Ereignissen und die Rolle von \u00dcberraschung bei der Definition der Ereignisgrenzen hat viel Aufmerksamkeit auf sich gezogen. Die Struktur, innerhalb derer eine solche Modellierung stattfinden kann, w\u00fcrde ein Schema f\u00fcr das Bayessches Gehirnmodell darstellen. Angesichts der Verbindungen zwischen verschiedenen Bereichen des Kortex und ihrer unterschiedlichen zeitlichen Entwicklungen w\u00e4re eine wahrscheinliche Struktur eine hierarchische Struktur mit einer unteren sensorischen Verarbeitungsschicht, die sich mit konkreten Informationen befasst, und einer oberen Schicht, die f\u00fcr die Abstraktion verantwortlich ist, in dem sie sensorische Informationen in spezifische Ereignisse und konzeptuelle Abstraktionen davon kodiert. Diese Dissertation untersucht, wie eine hierarchische Architektur f\u00fcr \u00fcberraschungsbasierte ereignispr\u00e4diktive Modellierung konstruiert werden kann. Zuerst untersuchen wir retrospektives Gating, indem wir die Herausforderung unterschiedlicher sich bewegender Fahrzeuge als Ereignisse angehen. Dann stellen wir dies dem prospektiven Gating gegen\u00fcber. In diesem Fall verwenden wir eine Reihe von Zeitfunktionen und zeigen, dass Ereignisse segmentiert werden k\u00f6nnen, wenn \u00dcberraschungssignale verf\u00fcgbar sind. Dar\u00fcber hinaus zeigen wir, dass die Antizipation von Ereignisgrenzen n\u00fctzlich ist, um die Komprimierung latenter Ereigniskodierungen zu verbessern. Schlie\u00dflich erweitern wir die Struktur um einen kontrafaktischen Regularisierungsterm und zeigen, dass die Regularisierung die Stabilit\u00e4t und Robustheit der latenten Ereigniskodierungen in einer symbolischen Sequenzvorhersageaufgabe verbessert. Mit der erreichten robusten F\u00f6rderung ereignispr\u00e4diktiver Kodierungen k\u00f6nnte die vorgestellte Ereignissegmentierungsstruktur in komplexeren Systemen weiter untersucht werden, um andere Entscheidungsaufgaben zu erf\u00fcllen. So kann erwartet werden, dass die zielgerichtete Kontrolle und Inferenz von Ereignissen und Ereignisgrenzen auch in anderen Systemen n\u00fctzlich sein wird, insbesondere wenn effiziente und selektive Aktivierungen von Kontextinformationen hilfreich sind."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1264148712",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-70670",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

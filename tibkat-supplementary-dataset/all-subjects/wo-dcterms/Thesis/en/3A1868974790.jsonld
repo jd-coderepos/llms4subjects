@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1308300468",
+            "sameAs": "H\u00f6fer, Timon"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1868974790",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 133 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-88300",
+                "(ppn)1868974790",
+                "(firstid)KXP:1868974790"
+            ],
+            "subject": [
+                "Deep learning",
+                "(classificationName=linseach:mapping)inf",
+                "Objekterkennung",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Implicit object pose estimation on RGB images using deep learning methods",
+            "abstract": "With the rise of robotic and camera systems and the success of deep learning in computer vision, there is growing interest in precisely determining object positions and orientations. This is crucial for tasks like automated bin picking, where a camera sensor analyzes images or point clouds to guide a robotic arm in grasping objects. Pose recognition has broader applications, such as predicting a car's trajectory in autonomous driving or adapting objects in virtual reality based on the viewer's perspective. This dissertation focuses on RGB-based pose estimation methods that use depth information only for refinement, which is a challenging problem. Recent advances in deep learning have made it possible to predict object poses in RGB images, despite challenges like object overlap, object symmetries and more. We introduce two implicit deep learning-based pose estimation methods for RGB images, covering the entire process from data generation to pose selection. Furthermore, theoretical findings on Fourier embeddings are shown to improve the performance of the so-called implicit neural representations - which are then successfully utilized for the task of implicit pose estimation.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1308300468",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-88300",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

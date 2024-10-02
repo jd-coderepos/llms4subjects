@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130814652",
+            "sameAs": "Vater, Stefan"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A546474675",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (42 S., 644 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Klein, Rupert",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)546474675",
+                "(firstid)GBV:546474675"
+            ],
+            "publisher": "Konrad-Zuse-Zentrum f\u00fcr Informationstechnik",
+            "subject": [
+                "(classificationName=bk, id=10640816X)31.45 - Partielle Differentialgleichungen",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=106407937)33.06 - Mathematische Methoden der Physik",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik"
+            ],
+            "title": "Stability of a cartesian grid projection method for zero Froude number shallow water flows",
+            "abstract": "In this paper a Godunov-type projection method for computing approximate solutions of the zero Froude number (incompressible) shallow water equations is presented. It is second-order accurate and locally conserves height (mass) and momentum. To enforce the underlying divergence constraint on the velocity field, the predicted numerical fluxes, computed with a standard second order method for hyperbolic conservation laws, are corrected in two steps. First, a MAC-type projection adjusts the advective velocity divergence. In a second projection step, additional momentum flux corrections are computed to obtain new time level cell-centered velocities, which satisfy another discrete version of the divergence constraint. The scheme features an exact and stable second projection. It is obtained by a Petrov-Galerkin finite element ansatz with piecewise bilinear trial functions for the unknown incompressible height and piecewise constant test functions. The stability of the projection is proved using the theory of generalized mixed finite elements, which goes back to Nicolai\u034f\u0308des (1982). In order to do so, the validity of three different inf-sup conditions has to be shown. Since the zero Froude number shallow water equations have the same mathematical structure as the incompressible Euler equations of isentropic gas dynamics, the method can be easily transfered to the computation of incompressible variable density flow problems.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130814652"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2007,13",
+            "P30128": "ZIB-Report / Konrad-Zuse-Zentrum f\u00fcr Informationstechnik Berlin",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

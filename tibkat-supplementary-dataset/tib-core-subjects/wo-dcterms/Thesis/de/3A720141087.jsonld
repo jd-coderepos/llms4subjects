@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A720141087",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "R\u00f6glin, Heiko",
+                "Meyer auf der Heide, Friedhelm",
+                "Monien, Burkhard"
+            ],
+            "creator": "Tscheuschner, Tobias",
+            "identifier": [
+                "(ppn)720141087",
+                "(firstid)HBZ:CT004000795"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)519.64"
+            ],
+            "title": "The complexity of local max-cut",
+            "abstract": "Die lokale Suche ist einer der erfolgreichsten Ans\u00e4tze zur L\u00f6sung schwerer Optimierungsprobleme. Bei der lokalen Suche ist jeder L\u00f6sung eine Menge von Nachbarl\u00f6sungen zugeordnet. Gesucht ist ein lokales Optimum, das hei\u00dft eine L\u00f6sung, die keinen besseren Nachbarn hat. Um die Komplexit\u00e4t der Berechnung lokaler Optima zu kapseln, haben Johnson et al. (JCSS,1988) die Klasse PLS eingef\u00fchrt. Kurz danach zeigten Sch\u00e4ffer et al. (JOC,1991) PLS-Vollst\u00e4ndigkeit f\u00fcr verschiedene lokale Suchprobleme einschlie\u00dflich des Problems LocalMax-Cut auf Graphen unbeschr\u00e4nkten Grades mit FLIP-Nachbarschaft, in der ein Knoten die Partition wechselt. Dar\u00fcber hinaus zeigten sie zwei weitere Ergebnisse f\u00fcr LocalMax-Cut: Erstens, es hat die Eigenschaft, dass es eine unendliche Familie von Instanzen und initialen L\u00f6sungen gibt, f\u00fcr die jede Folge verbessernder Schritte, die in einem lokalen Optimum endet, exponentiell lang ist (All-exp Eigenschaft). Zweitens, das Problem, ein lokales Optimum zu berechnen, das ausgehend von einem Paar aus Instanz und initialer L\u00f6sung via verbessernder Schritte erreichbar ist (kurz: SAP), ist PSPACE-vollst\u00e4ndig. Auf der anderen Seite zeigte Poljak (JOC,1995), dass h\u00f6chstens quadratisch viele verbessernde Schritte f\u00fcr LocalMax-Cut auf kubischen Graphen m\u00f6glich sind bis ein lokales Optimum erreicht wird. Die vorliegende Arbeit liefert drei Komplexit\u00e4tsergebnisse f\u00fcr LocalMax-Cut. Erstens beh\u00e4lt es die All-exp Eigenschaft auch wenn es auf Graphen mit H\u00f6chstgrad vier eingeschr\u00e4nkt wird. Zweitens ist das SAP PSPACE-vollst\u00e4ndig auf Graphen mit H\u00f6chstgrad vier. Drittens ist die Berechnung eines lokalen Optimums PLS-vollst\u00e4ndig f\u00fcr Graphen mit H\u00f6chstgrad f\u00fcnf.. - Local search is one of the most successful approaches for solving hard optimization problems. In local search, a set of neighbor solutions is assigned to every solution and one asks for a local optimum, i.e., a solution that has no better neighbor. To encapsulate the complexity of finding local optima, Johnson et al. (JCSS,1988) introduced the complexity class PLS. Shortly afterwards, Sch\u00e4ffer et al. (JOC,1991) showed PLS-completeness for several local search problems including LocalMax-Cut on graphs with unbounded degree with a FLIP-neighborhood in which one node changes the partition. Moreover, they showed two further results for LocalMax-Cut: First, there is an infinite family of instances and solutions for which every sequence of improving steps that ends up in a local optimum has exponential length (all-exp property). Second, the StandardAlgorithmProblem (SAP), i.e., the problem of finding a local optimum that is reachable from a given pair of an instance and initial solution via improving steps, is PSPACE-complete. On the positive side, Poljak (JOC,1995) showed that there are at most quadratically many improving steps possible for LocalMax-Cut on cubic graphs. This thesis provides three complexity results for LocalMax-Cut. First, it has the all-exp property if restricted to graphs with maximum degree four. Second, the SAP is PSPACE-complete for graphs with maximum degree four. Third, finding a local optimum is PLS-complete for graphs with maximum degree five.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

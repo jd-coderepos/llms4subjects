@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1151520918",
+            "sameAs": "Radespiel, Rolf"
+        },
+        {
+            "@id": "gnd:1186982861",
+            "sameAs": "Barklage, Alexander"
+        },
+        {
+            "@id": "gnd:36227-X",
+            "sameAs": "Technische Universit\u00e4t Braunschweig"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1879417200",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": "Schr\u00f6der, Wolfgang",
+            "identifier": [
+                "(ppn)1879417200",
+                "(doi)10.24355/dbbs.084-202401171831-0",
+                "(firstid)KXP:1879417200"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)629.47",
+                "LES",
+                "D\u00fcsenstr\u00f6mung",
+                "(classificationName=ddc-dbn)620",
+                "\u00dcberschallstr\u00f6mung",
+                "Laval-D\u00fcse",
+                "(classificationName=linseach:mapping)ver",
+                "Str\u00f6mungsfeld",
+                "Pr\u00fcfstand"
+            ],
+            "title": "Supersonic Wake-Jet Interaction on a Rocket Afterbody with Dual-Bell Nozzles",
+            "abstract": "This thesis deals with the wake and jet flow interaction on a generic space launcher geometry equipped with a dual-bell nozzle. The dual-bell nozzle is a concept for an altitude-compensating nozzle, and promises increased efficiency compared to commonly used nozzles. However, uncertainties in the design and operation of the double bell nozzle remain in the transition process between the two operating conditions of the nozzle and the interaction with an external flow. Hence, this study contributes to understanding the nozzle flow's interaction with an external supersonic flow. Results are obtained by experimental measurements and numerical simulations using RANS and hybrid RANS/LES simulations. The investigations consist of two parts. The first part features a parameter variation regarding the nozzle Reynolds number to identify a Reynolds number range for which the results of the small-scale wind tunnel are comparable to a full-scale application. In the experiments, the low Reynolds number can lead to laminar flow conditions, resulting in a different transition behavior than turbulent flow. Experimental measurements are compared to laminar calculations, RANS, and LES for identifying laminar conditions. The data reveal that the nozzle mode transition depends on the Reynolds number for laminar flow, while it is independent of the Reynolds number for turbulent flow. Thus, it is necessary to apply boundary layer tripping to achieve turbulent conditions in the required Reynolds number range. Furthermore, the tandem nozzle of the wind tunnel needs to be modified to achieve sufficiently high Reynolds numbers. The second part of this study considers the wake jet interaction and its sensitivity to the afterbody geometry and nozzle design. To modify the afterbody geometry, model inserts at the base modify the fairing length to achieve three different characteristics of the shear layer separating at the launcher shoulder. The shear layer reattaches on the nozzle, fairing for the long configuration, considerably upstream of the nozzle end. In the medium configuration, the shear layer reattaches at the nozzle end, causing the turbulent structures to interact directly with the jet flow. Finally, the short fairing length leads to a non-reattaching shear layer so that the nozzle exit is in the recirculation region, which develops below the shear layer. In addition, two different nozzle designs are investigated, which feature distinct stability against pressure fluctuation, resulting in six test cases. Experimental measurements include PIV measurements, schlieren visualization, and unsteady pressure measurements. These measurements also serve as validation data for axisymmetric RANS and LES simulations. With the numerical simulations, applying a time-dependent variation of the nozzle inlet pressure is possible, which is impossible in wind tunnel experiments. Therefore, the numerical simulations provide additional valuable information about the transition stability. Unstable nozzle mode operation occurs for the long configuration, characterized by an alternating switch between the two nozzle operation modes, known as flip-flop mode. This undesired phenomenon can be avoided by choosing a shorter nozzle fairing length and using a nozzle design with higher stability against pressure fluctuations.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1151520918"
+                }
+            ],
+            "creator": [
+                "gnd:1186982861",
+                "gnd:36227-X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.24355/dbbs.084-202401171831-0",
+            "P60163": "Braunschweig"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:121973957X",
+            "sameAs": "Ben Hammouda, Chiheb"
+        },
+        {
+            "@id": "gnd:132826828",
+            "sameAs": "Papapantoleon, Antonis"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A182226958X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (26 Seiten, 1,66 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Samet, Michael",
+                "Tempone, Ra\u00fal"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2968",
+                "(ppn)182226958X",
+                "(firstid)KXP:182226958X"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Optimal damping with hierarchical adaptive quadrature for efficient Fourier pricing of multi-asset options in L\u00e9vy models",
+            "abstract": "Efficient pricing of multi-asset options is a challenging problem in quantitative finance. When the characteristic function is available, Fourier-based methods become competitive compared to alternative techniques because the integrand in the frequency space has often higher regularity than in the physical space. However, when designing a numerical quadrature method for most of these Fourier pricing approaches, two key aspects affecting the numerical complexity should be carefully considered: (i) the choice of the damping parameters that ensure integrability and control the regularity class of the integrand and (ii) the effective treatment of the high dimensionality. To address these challenges, we propose an efficient numerical method for pricing European multi-asset options based on two complementary ideas. First, we smooth the Fourier integrand via an optimized choice of damping parameters based on a proposed heuristic optimization rule. Second, we use sparsification and dimension-adaptivity techniques to accelerate the convergence of the quadrature in high dimensions. Our extensive numerical study on basket and rainbow options under the multivariate geometric Brownian motion and some L\u00e9vy models demonstrates the advantages of adaptivity and our damping rule on the numerical complexity of the quadrature methods. Moreover, our approach achieves substantial computational gains compared to the Monte Carlo method.",
+            "alternative": "Optimal damping for Fourier pricing",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1017122695",
+                "gnd:121973957X",
+                "gnd:2140666-2",
+                "gnd:132826828"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2968",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2968",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

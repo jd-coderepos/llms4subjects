@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:4041456-5",
+            "sameAs": "Navier-Stokes-Gleichung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A775082236",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (PDF-Datei: 23 S., 1.863 KB)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)775082236",
+                "(firstid)GBV:775082236"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=bk, id=106413783)50.33 - Technische Str\u00f6mungsmechanik",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=msc)76D05",
+                "(classificationName=bk, id=10640816X)31.45 - Partielle Differentialgleichungen",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Improving efficiency of coupled schemes for Navier-Stokes equations by a connection to grad-div stabilitzed projection methods",
+            "abstract": "We prove that in finite element settings where the divergence-free subspace of the velocity space has optimal approximation properties, the solution of Chorin/Temam projection methods for Navier-Stokes equations equipped with grad-div stabilization with parameter , converge to the associated coupled method solution with rate gamma as gamma -> ?. We prove this first for backward Euler schemes, and then extend the results to BDF2 schemes, and finally to schemes with outflow boundary conditions. Several numerical experiments are given which verify the convergence rate, and show how using projection methods in this setting with large grad-div stabilization parameters can dramatically improve accuracy.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:134253523"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4041456-5"
+            },
+            "volume": "1835",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

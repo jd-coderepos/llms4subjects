@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A734296320",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 14551 KB, 151 S.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Weckmann, Ute",
+            "creator": "Chen, Xiaoming",
+            "identifier": [
+                "(firstid)DNB:1029243824",
+                "(ppn)734296320"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc-dbn)550"
+            ],
+            "title": "Two-dimensional constrained anisotropic inversion of magnetotelluric data",
+            "abstract": "Tectonic and geological processes on Earth often result in structural anisotropy of the subsurface, which can be imaged by various geophysical methods. In order to achieve appropriate and realistic Earth models for interpretation, inversion algorithms have to allow for an anisotropic subsurface. Within the framework of this thesis, I analyzed a magnetotelluric (MT) data set taken from the Cape Fold Belt in South Africa. This data set exhibited strong indications for crustal anisotropy, e.g. MT phases out of the expected quadrant, which are beyond of fitting and interpreting with standard isotropic inversion algorithms. To overcome this obstacle, I have developed a two-dimensional inversion method for reconstructing anisotropic electrical conductivity distributions. The MT inverse problem represents in general a non-linear and ill-posed minimization problem with many degrees of freedom: In isotropic case, we have to assign an electrical conductivity value to each cell of a large grid to assimilate the Earth's subsurface, e.g. a grid with 100 x 50 cells results in 5000 unknown model parameters in an isotropic case; in contrast, we have the sixfold in an anisotropic scenario where the single value of electrical conductivity becomes a symmetric, real-valued tensor while the number of the data remains unchanged. In order to successfully invert for anisotropic conductivities and to overcome the non-uniqueness of the solution of the inverse problem it is necessary to use appropriate constraints on the class of allowed models. This becomes even more important as MT data is not equally sensitive to all anisotropic parameters. In this thesis, I have developed an algorithm through which the solution of the anisotropic inversion problem is calculated by minimization of a global penalty functional consisting of three entries: the data misfit, the model roughness constraint and the anisotropy constraint. For comparison, in an isotropic approach only the first two entries are minimized. The newly defined anisotropy term is measured by the sum of the square difference of the principal conductivity values of the model. The basic idea of this constraint is straightforward. If an isotropic model is already adequate to explain the data, there is no need to introduce electrical anisotropy at all. In order to ensure successful inversion, appropriate trade-off parameters, also known as regularization parameters, have to be chosen for the different model constraints. Synthetic tests show that using fixed trade-off parameters usually causes the inversion to end up by either a smooth model with large RMS error or a rough model with small RMS error. Using of a relaxation approach on the regularization parameters after each successful inversion iteration will result in smoother inversion model and a better convergence. This approach seems to be a sophisticated way for the selection of trade-off parameters. In general, the proposed inversion method is adequate for resolving the principal conductivities defined in horizontal plane. Once none of the principal directions of the anisotropic structure is coincided with the predefined strike direction, only the corresponding effective conductivities, which is the projection of the principal conductivities onto the model coordinate axes direction, can be resolved and the information about the rotation angles is lost. In the end the MT data from the Cape Fold Belt in South Africa has been analyzed. The MT data exhibits an area (> 10 km) where MT phases over 90 degrees occur. This part of data cannot be modeled by standard isotropic modeling procedures and hence can not be properly interpreted. The proposed inversion method, however, could not reproduce the anomalous large phases as desired because of losing the information about rotation angles. MT phases outside the first quadrant are usually obtained by different anisotropic anomalies with oblique anisotropy strike. In order to achieve this challenge, the algorithm needs further developments. However, forward modeling studies with the MT data have shown that surface highly conductive heterogeneity in combination with a mid-crustal electrically anisotropic zone are required to fit the data. According to known geological and tectonic information the mid-crustal zone is interpreted as a deep aquifer related to the fractured Table Mountain Group rocks in the Cape Fold Belt.",
+            "alternative": "Zweidimensionale constrained anisotrope Inversion von magnetotellurischen Daten",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

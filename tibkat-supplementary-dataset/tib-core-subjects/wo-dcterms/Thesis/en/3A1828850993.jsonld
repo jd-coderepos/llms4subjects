@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1276456697",
+            "sameAs": "Ustyuzhaninov, Ivan"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1828850993",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (45 Seiten, 76 unterschiedliche gez\u00e4hlte Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-75637",
+                "(ppn)1828850993",
+                "(firstid)KXP:1828850993"
+            ],
+            "subject": [
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)006.31",
+                "Neurowissenschaften",
+                "(classificationName=ddc-dbn)004",
+                "Neuronales Netz",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Image representations in deep neural networks and their applications to neural data modelling",
+            "abstract": "Over the last decade, deep neural networks (DNNs) have become a standard tool in computer vision, allowing us to tackle a variety of problems from classifying objects in natural images to generating new images to predicting brain activity. Such a wide applicability of DNNs is something that these models have in common with the human vision, and exploring some of these similarities is the goal of this thesis. DNNs much like human vision are hierarchical models that process an input scene with a series of sequential computations. It has been shown that typically only a few final computations in this hierarchy are problem-specific, while the rest of them are quite general and applicable to a number of problems. The results of intermediate computations in the DNN are often referred to as image representations and their generality is another similarity to human vision which also has general visual areas (e.g. primary visual cortex) projecting further to the specialised ones solving specific visual tasks. We focus on studying DNN image representations with the goal of understanding what makes them so useful for a variety of visual problems. To do so, we discuss DNNs solving a number of specific computer vision problems and analyse similarities and differences of their image representations. Moreover, we discuss how to build DNNs providing image representations with specific properties which enables us to build a \"digital twin\" of the mouse primary visual system to be used as a tool for studying the computations in the brain. Taking these results together, we concluded that in general we are still lacking a good understanding of DNN representations. Despite the progress on some specific problems, it still remains largely an open question how the image information is organised in these representations and how to use it for solving arbitrary visual problems. However, we also argue that thinking of DNNs as \"digital twins\" might be a promising framework for addressing these issues in the future DNN research as they allow us to study image representations by means of computational experiments rather than rely on a priori ideas of how these representations are structured which has proven to be quite challenging.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1276456697"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-75637",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

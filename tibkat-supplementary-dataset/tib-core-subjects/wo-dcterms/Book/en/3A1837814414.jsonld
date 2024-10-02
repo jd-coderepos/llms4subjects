@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1837814414",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (35 pages)",
+            "contributor": "David Locke, Newhouse",
+            "creator": "Melany, Gualavisi",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover).- Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1596/1813-9450-10257",
+                "(ppn)1837814414",
+                "(firstid)KEP:089161513"
+            ],
+            "publisher": "The World Bank",
+            "subject": [
+                "Land Coverage Indicators",
+                "Village Economic Welfare",
+                "(classificationName=linseach:automatic)rest",
+                "Population Density",
+                "Weather Data",
+                "Distance To Major Roads",
+                "Building Patterns",
+                "Night Light Data",
+                "Geospatial Data"
+            ],
+            "title": "Integrating Survey and Geospatial Data to Identify the Poor and Vulnerable : Evidence from Malawi",
+            "abstract": "Generating timely data to identify the poorest villages in developing countries remains a fundamental challenge for existing data systems. This paper investigates the accuracy of four alternative methods for predicting a measure of village economic welfare for approximately 4,500 villages in 10 poor Malawian districts: (1) proxy means test scores calculated from the 2017 social registry, (2) the Meta Relative Wealth Index, (3) predictions derived from a standard household survey and publicly available geospatial indicators, and (4) predictions derived from a two-step approach that first predicts welfare into a hypothetical partial registry of approximately 450 villages, and then predicts welfare into the remaining villages using geospatial indicators. Geospatial indicators include land coverage indicators, weather data, night light data, building patterns, distance to major roads, and population density. Predictions are evaluated against a benchmark village welfare measure, constructed by imputing log per capita consumption from the 2016 integrated household survey into the 2018 household census using gradient boosting. Incorporating the hypothetical partial registry vastly improves the performance of the predictions. When using the partial registry, the rank correlation between the predicted and benchmark welfare measures is 0.75, while those for the other three methods range from -0.02 to 0.2, and similar results are seen when examining the area under the curve. Doubling the size of the partial registry does little to improve predictive performance. The results are robust to using a linear post-Least Absolute Selection and Shrinkage Operator model instead of gradient boosting for prediction. However, predictions using both methods are less accurate when the benchmark welfare measure is derived from a linear post-Least Absolute Selection and Shrinkage Operator model. Overall, the results strongly suggest that collecting partial registries of household-level poverty predictors in low-income contexts can vastly improve the performance of machine learning models that combine survey and satellite imagery for the purpose of village-level targeting",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-110-WBL",
+                "(collectioncode)ZDB-1-WBA"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1596/1813-9450-10257",
+            "P60163": "Washington, D.C"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

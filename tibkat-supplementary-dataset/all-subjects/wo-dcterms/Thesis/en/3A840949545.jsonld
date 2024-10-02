@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1079221042",
+            "sameAs": "Schaudinnus, Norbert"
+        },
+        {
+            "@id": "gnd:4166699-9",
+            "sameAs": "Langevin-Gleichung"
+        },
+        {
+            "@id": "gnd:4170370-4",
+            "sameAs": "Molekulardynamik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A840949545",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(contract)FRUB-opus-10391",
+                "(firstid)BSZ:452270936",
+                "(doi)10.6094/UNIFR/10391",
+                "(ppn)840949545"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Stochastic modeling of biomolecular systems using the data-driven Langevin equation",
+            "abstract": "Zusammenfassung: Nowadays, molecular dynamics (MD) simulations are widely used to understand the dynamics of biomolecular systems.Although MD simulations provide a description in atomistic detail, they are limited with respect to both system size and simulation time for computational reasons.However, dynamics which take place on rather long time scales can often be captured along few collective coordinates.The data-driven Langevin Equation (dLE) is a systematic approach to capture dynamical information in this reduced space, establishing local field estimates from an underlying time series.These fields are in turn used to propagate dynamics.The dLE therefore relies on a clear timescale separation of a low-dimensional coordinate that enables to treat the remaining degrees of freedom as a stochastic bath.This thesis focuses on the characteristics and capabilities of the dLE approach. The property of the dLE to operate in a self-consistent manner can be applied to test the validity of the model assumptions.In particular, an important extension of the dLE is developed which accounts for inertia effects.This more generalized form of the dLE is shown to suitably recover the conformational dynamics of a small peptide system, showing a nontrivial dynamical behavior.Aside from establishing a technical guideline on how to construct a dLE model and verify its functionality, several promising applications are demonstrated.For instance, a dLE-based enhanced sampling scheme is introduced which facilitates to forecast the long-time behavior of a reduced system from short spatially overlapping trajectory samples",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1079221042",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4166699-9",
+                "gnd:4170370-4"
+            ],
+            "isLike": "doi:10.6094/UNIFR/10391"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1011509512",
+            "sameAs": "Jansen, Klaus"
+        },
+        {
+            "@id": "gnd:2024175-6",
+            "sameAs": "Christian-Albrechts-Universit\u00e4t zu Kiel"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A89728786X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "creator": "Klein, Kim-Manuel",
+            "identifier": [
+                "(firstid)DNB:1137867418",
+                "(ppn)89728786X"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "About the Structure and Sensitivity of Integer Linear Programs and their Application in Combinatorial Optimization",
+            "abstract": [
+                "In dieser Dissertation werden Eigenschaften von ganzzahligen linearen Programmen (engl. integer linear programs, kurz: ILPs) untersucht. Von Interesse sind dabei haupts\u00e4chlich ILP-Formulierungen, welche sich aus dem Kontext von algorithmischen Problemstellungen ergeben, wie beispielsweise dem Bin Packing-Problem und dem Scheduling-Problem auf identischen Maschinen. Insbesondere f\u00fcr diese ILPs zeigen wir Strukturaussagen, sowie Aussagen \u00fcber die Sensitivit\u00e4t und k\u00f6nnen so offene algorithmische Fragestellungen im Bereich von Approximation und parametrisierter Komplexit\u00e4t l\u00f6sen. Im Kontext von Sensitivit\u00e4tsaussagen wird untersucht, inwiefern L\u00f6sung des ILPs angepasst werden k\u00f6nnen, wenn sich die Parameter des ILPs leicht \u00e4ndern. Ein klassisches Resultat von Cook u.a. gibt dabei f\u00fcr optimale L\u00f6sungen des ILPs Absch\u00e4tzungen an. In dieser Arbeit betrachten wir Absch\u00e4tzungen f\u00fcr die Senstivit\u00e4t wenn approximative L\u00f6sungen erlaubt sind, d.h. L\u00f6sungen deren Zielfunktionswert h\u00f6chstens um einen Faktor 1+ \\epsilon \u00fcber dem optimalen Zielfunktionswert liegt. Diese Ergebnisse konnten wir auf das Online-Bin Packing-Problem anwenden, wenn eine approximative L\u00f6sung mit G\u00fcte 1+ \\epsilon erreicht werden soll und in beschr\u00e4nktem Ma\u00dfe Items umgepackt werden d\u00fcrfen. Im Kontext von Strukturaussagen wird in dieser Dissertation die Existenz von ILP-L\u00f6sungen bewiesen, welche eine bestimmte vereinfachte Struktur aufweisen. Insbesondere, konnten wir Strukturaussagen f\u00fcr ILPs entwickeln, welche sich aus Formulierungen des Bin Packing-Problems ergeben bzw. nat\u00fcrliche Verallgemeinerungen dieser Formulierung. Dadurch ist es uns zum einen gelungen ein effizientes Approximationsschemata f\u00fcr das Scheduling-Problem auf identischen Maschinen mit einer Laufzeit von 2^{\\tilde{O}(1/\\epsilon)} + poly(n) zu entwicklen und au\u00dferdem konnten wir eine Strukturaussage entwickeln, welche unter anderem Anwendung im Bin Packung-Problem fand, wenn die Anzahl der unterschiedlichen Itemgr\u00f6\u00dfen d beschr\u00e4nkt ist.",
+                "In this thesis we investigate properties of integer linear programs (ILPs) and their algorithmic use. Our main focus are ILP-formulations that come from concrete algorthmic problems like the bin packing problem or the scheduling problem on identical machines. Especially for this kind of ILPs we study structural properties as well as properties for their sensitivity. As a result, we are able to answer open algorithmical questions in the area of approximation and parameterized complexity. In the context of sensitivity we analyze how much an ILP solution has to be adjusted when the parameters of the ILP change. There is a classical results by Cook et al. which gave bounds for that question when optimal solutions are considered. However, in this thesis we investigate the sensitivity of ILPs when approximate solutions are allowed, i.e. solutions that differ by a factor of at most (1+ \\epsilon) from the optimum value. We could apply the obtained results to the online bin packing problem, when an approximation guarantee with ratio $1+ \\epsilon$ has to be fulfilled and repacking of already assigned items (limited by the so called migration factor) is allowed. In the context of structural results, we prove the existence (assuming the ILP is feasible) of solutions of a certain class of ILPs with a certain simplified structure. Specifically, in this thesis, we prove structure properties for ILPs that arise from formulations of bin packing or scheduling problems and natural generalization of those formulations. Based on the those structure properties, we develop an efficient approximation scheme for the scheduling problem on identical machines with a running time of 2^{\\tilde{O}(1/\\epsilon)} + poly}(n) and furthermore, we develop a structure theorem, which is applied to the bin packing problem when the number of different item sizes d is bounded."
+            ],
+            "alternative": "\u00dcber Struktur- und Sensitivit\u00e4tsaussagen in Ganzzahligen Programmen und deren Anwendung in Kombinatorischer Optimierung",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1011509512"
+                }
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:2024175-6"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Kiel"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1292796006",
+            "sameAs": "Otto, Peter"
+        },
+        {
+            "@id": "gnd:129404276",
+            "sameAs": "Karimanzira, Divas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A393447359",
+            "@type": "bibo:Thesis",
+            "P1053": "XX, 193 S",
+            "contributor": [
+                "Baumgart-Schmitt, Rudolf",
+                "Bretthauer, Georg"
+            ],
+            "description": [
+                "graph. Darst",
+                "21 cm"
+            ],
+            "identifier": [
+                "(firstid)GBV:393447359",
+                "(isbn)3932633938",
+                "(ppn)393447359"
+            ],
+            "publisher": "ISLE",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz"
+            ],
+            "title": "Einsatz von K\u00fcnstlichen Neuronalen Netzen zur Steuerung : Regelung komplexer nichtlinearer Systeme",
+            "abstract": "Es wurden Konzepte f\u00fcr den Einsatz neuronaler Netzwerke zur Steuerung und Regelung dynamischer Systeme pr\u00e4sentiert, analysiert und einige neue Strategien vorgeschlagen. Die Untersuchungen liefern Aussagen zur Genauigkeit und Robustheit sowie Echtzeit- und Adaptionsf\u00e4higkeit. Eine quantitative Auswertung des systematischen Vergleichs der verschiedenen neuronalen Regelungskonzepte ist gegeben. Daraus geht eine deutliche Verbesserung des Antwortverhaltens gegen\u00fcber konventionellen Methoden hervor. Hier profitiert die Regelg\u00fcte von der Adaptivit\u00e4t der Regler im jeweiligen Arbeitsbereich. Stabilit\u00e4tseigenschaften der Regelungsstrategien werden auch untersucht. - Als Hauptbeitr\u00e4ge diese Arbeit gelten die folgenden Vorschl\u00e4ge oder Erweiterungen existierender Regelungskonzepte: 1. Implementierung des spezialisierten Lernschemas [Psaltis et al., 1988] mit dem Gau\u00df-Newton statt dem Backpropagation-Verfahren f\u00fcr schnellere Konvergenz. 40% Reduktion der erforderlichen Lernzeit. 2. Verwendung des LQR-G\u00fctekriteriums in der Methode von [Omatu, 1996] zur neuronalen Parameterbestimmung eines PID-Reglers um Schwingungen mehr oder weniger zu bestrafen und eine Erh\u00f6hung der Konvergenzgeschwindigkeit durch einfache L\u00f6sung der Riccati-Gleichung statt durch iteratives optimieren zu erreichen. 3. Modifikation des MLPs mit st\u00fcckweise stetigen St\u00fctzfunktionen f\u00fcr eine bessere Approximation st\u00fcckweise unstetiger Nichtlinearit\u00e4ten, wie Reibung, Inverse der Totzeit u.a. 4. Entwurf des IMC-Reglers mit zwei Freiheitsgraden, und PPC mit Empfindlichkeitsfunktion, um den Regler f\u00fcr St\u00f6r- und F\u00fchrungsverhalten auszulegen. 5. Weil die Einstellparameter der auf G\u00fctekriterien basierenden Regler vom GPC-, und MPR-Typ meist nur unanschaulich interpretiert werden k\u00f6nnen, wurden f\u00fcr diese in der vorliegenden Arbeit neue Einstellstrategien vorgeschlagen, mit deren Hilfe die freien Reglerparameter nun geeignet festzulegen sind. 6. Theoretische \u00dcberlegungen f\u00fcr das NFL-Konzept wurden diskutiert und die Methode der arbeitspunktabh\u00e4ngige Linearisierung umgesetzt und implementiert. 7. Eine Methode zur automatischen Bestimmung der Modellordnung wurde realisiert. 8. Modifikation des MLP-Netzes mit internen Zeitverz\u00f6gerungen zur besseren Approximation von Systemen mit Totzeiten. - Eine neue Klassifikation der NN-Regelungsstrategien wurde vorgestellt. Diese neue Klassifikation kategorisiert die NN-Regelungsstrategien hierarchisch. Auf diese Weise bietet sie Einblicke in die Struktur der NN-Regelungsstrategien und dr\u00fcckt ihre F\u00e4higkeiten und Beschr\u00e4nkungen aus. Zus\u00e4tzlich hilft diese Klassifikation neue NN-Regelungsstrategien, die in der Literatur vorgeschlagen werden, zu identifizieren. In der Erprobung an vielen realen Anwendung konnte schlie\u00dflich die Leistungsf\u00e4higkeit der entwickelten Regelungsverfahren gezeigt werden. Dabei wurden jeweils die neuronalen Regler einem anderen Reglertyp (PID, FLC) gegen\u00fcbergestellt. Bemerkenswert sind bei den Ergebnissen (im Fall von MPR, IMC, FEL app. GPC, PPC) nicht nur die \u00fcberaus zufriedenstellenden regelungstechnischen Resultate, sondern auch die Robustheit gegen\u00fcber St\u00f6rungen und Modellunsicherheiten des Prozesses.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:1292796006"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:129404276",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/393447359.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

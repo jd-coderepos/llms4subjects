@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504354825",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 394,68 KB)",
+            "creator": [
+                "Tischler, Thorsten",
+                "Schlundt, Rainer",
+                "H\u00fcbner, Friedrich-Karl",
+                "Heinrich, Wolfgang",
+                "Zscheile, Horst",
+                "Hebermehl, Georg"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)504354825",
+                "(firstid)GBV:504354825"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": [
+                "(classificationName=dbn)29",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=dbn)27"
+            ],
+            "title": "Simulation of microwave and semiconductor laser structures including absorbing boundary conditions",
+            "abstract": "The electric properties of the circuits are described in terms of their scattering matrix using a three-dimensional boundary value problem for Maxwell's equations. The computational domain is truncated by electric or magnetic walls, open structures are treated using the Perfectly Matched Layer (PML) Absorbing Boundary Condition. The boundary value problem is solved by a finite-volume scheme. This results in a two-step procedure: an eigenvalue problem for general complex matrices and the solution of a large-scale system of linear equations with indefinite symmetric complex matrices. The modes of smallest attenuation are located in a longsome region bounded by two parabolas, and are found solving a sequence of eigenvalue problems of modified matrices. To reduce the execution times a coarse and a fine grid, and two levels of parallelization can be used. For the computation of the discrete grid equations, advanced preconditioning techniques are applied to reduce the dimension and the number of iterations solving the large-scale systems of linear algebraic equations. These matrix problems need to be solved repeatedly for different right-hand sides, but with the same coefficient matrix ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 803",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

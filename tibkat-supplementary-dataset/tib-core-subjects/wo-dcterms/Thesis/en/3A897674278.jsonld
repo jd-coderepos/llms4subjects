@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A897674278",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (119 Seiten)",
+            "creator": "Aydos, G\u00f6k\u00e7e",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)897674278",
+                "(firstid)GBV:897674278"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Parity-based Error Detection with Recomputation for Fault-tolerant Spaceborne Computing",
+            "abstract": [
+                "Error detection-based fault-tolerance, error detection, digital circuit, FPGA, fault-tolerance, dependability, safety, ProASIC3, bitflip, space, parity, dissertation, cross layer, transaction-based processing, triple modular redundancy, TMR, local triple modular redundancy, LTMR, parity-based error detection, PBED.",
+                "In radiation environment (e.g., space, nuclear reactor), electronics can fail due to bitflips in the flipflops of integrated circuits. A common solution is to triplicate the flipflops and connect their outputs to a voter. If one of the three bits is flipped, then the voter outputs the majority value and tolerates the error. This method is called triple modular redundancya (TMR). TMR can cause about 300% area redundancy. An alternative way is error detection with on-demand recomputation, where the recomputation is done by repeating the failed processing request to the processing circuit. The computation is done in consecutive transactions, which we call transaction-based processing. We implemented and evaluated the aforementioned alternative approach using parity checking on the Microsemi ProASIC3 FPGA, which is often used in space applications. The results show that parity-based error detection with our system recovery approach can save up to 54% of the area overhead that would be caused by the TMR, and achieve in most circuits slightly better timing results than TMR on ProASIC3. This area saving can be the key for fitting the application to a space-constrained chip."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

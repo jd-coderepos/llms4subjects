@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1192826299",
+            "sameAs": "Mogstad, Magne"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1787973506",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "creator": [
+                "Bonney, John",
+                "Torgovitsky, Alexander",
+                "Blandhol, Christine"
+            ],
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "illustrations (black and white)"
+            ],
+            "identifier": [
+                "(ppn)1787973506",
+                "(doi)10.3386/w29709",
+                "(firstid)KEP:072937416"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Kleinste-Quadrate-Methode",
+                "(classificationName=linseach:automatic)mat",
+                "Sch\u00e4tztheorie",
+                "Nichtparametrische Sch\u00e4tzung",
+                "Kausalanalyse",
+                "IV-Sch\u00e4tzung"
+            ],
+            "title": "When is TSLS Actually LATE?",
+            "abstract": "Linear instrumental variable estimators, such as two-stage least squares (TSLS), are commonly interpreted as estimating positively weighted averages of causal effects, referred to as local average treatment effects (LATEs). We examine whether the LATE interpretation actually applies to the types of TSLS specifications that are used in practice. We show that if the specification includes covariates, which most empirical work does, then the LATE interpretation does not apply in general. Instead, the TSLS estimator will in general reflect treatment effects for both compliers and always/never-takers, and some of the treatment effects for the always/never-takers will necessarily be negatively weighted. We show that the only specifications that have a LATE interpretation are \"saturated\" specifications that control for covariates nonparametrically, implying that such specifications are both sufficient and necessary for TSLS to have a LATE interpretation, at least without additional parametric assumptions. This result is concerning because, as we document, empirical researchers almost never control for covariates nonparametrically, and rarely discuss or justify parametric specifications of covariates. We develop a decomposition that quantifies the extent to which the usual LATE interpretation fails. We apply the decomposition to four empirical analyses and find strong evidence that the LATE interpretation of TSLS is far from accurate for the types of specifications actually used in practice",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:39157-8"
+                },
+                {
+                    "@id": "gnd:1192826299"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w29709",
+            "isLike": "doi:10.3386/w29709",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

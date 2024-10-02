@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1079530916",
+            "sameAs": "Heizmann, Matthias"
+        },
+        {
+            "@id": "gnd:4135576-3",
+            "sameAs": "Programmverifikation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A843588462",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(ppn)843588462",
+                "(contract)FRUB-opus-10401",
+                "(doi)10.6094/UNIFR/10401",
+                "(firstid)BSZ:45277294X"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Traces, interpolants, and automata : a new approach to automatic software verification",
+            "abstract": "Zusammenfassung: Reliability of software has become vital for our society and the success of our economy. A powerful means that supports the development of reliable software is software verification. Software verification is the task of constructing a mathematical proof that shows the correctness of a program. Manual software verification is error-prone, time consuming, and impractical for large programs. Automatic software verification is a promising technique, but even state-of-the-art verification tools often fail while verifying complex programs.In this thesis, we present a new approach for automatic software verification. Our approach is based on a new view to programs. In this new view, the focus lies not on program states, instead the focus lies on sequences of statements, which we call traces.We view a program as an automaton whose alphabet consists of the program\u2019s statements. Hence each program defines a set of traces. This view allows us to apply automata-theoretic operations on programs. E.g., we can decompose a program, or given a set of traces, we can construct a program for this set of traces.In this thesis we introduce a formalism that enables us to present this connection between programs and sets of traces. Using this formalism we present a new kind of correctness proof for a set of traces. We call such a proof a Floyd-Hoare automaton.We use the theory of nested words to present a new kind of correctness proof for an interprocedural trace. We call such a proof a sequence of nested interpolants. The combination of nested word automata and nested interpolants allow us to apply our new software verification approach also to interprocedural and recursive programs.Furthermore, we demonstrate that we can apply our approach in termination analysis. For termination analysis we consider formal languages over infinite words and consider infinite traces. We present a new kind of termination proof that has two properties with are crucial for us. First, existing methods can be used to construct this kind of termination proof for single traces. Second, this kind of termination proof can be used to show termination for a set of infinite traces. The combination of B\u00fcchi automata and this kind of termination proof allows us to apply our new software verification approach also for termination analysis.Moreover, we consider programs that consist of a single while loop. In our new view on programs, these kinds of programs are exactly those that define a  ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1079530916",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4135576-3"
+            },
+            "isLike": "doi:10.6094/UNIFR/10401"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

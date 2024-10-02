@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1103162950",
+            "sameAs": "Kieling, Katrin"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A860788482",
+            "@type": "bibo:Thesis",
+            "P1053": "XIV, 118 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Scherbaum, Frank",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:860788482",
+                "(ppn)860788482"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc)551.22",
+                "(classificationName=bk, id=106407120)38.38 - Seismologie"
+            ],
+            "title": "Quantification of ground motions by broadband simulations",
+            "abstract": "In many procedures of seismic risk mitigation, ground motion simulations are needed to test systems or improve their effectiveness. For example they may be used to estimate the level of ground shaking caused by future earthquakes. Good physical models for ground motion simulation are also thought to be important for hazard assessment, as they could close gaps in the existing datasets. Since the observed ground motion in nature shows a certain variability, part of which cannot be explained by macroscopic parameters such as magnitude or position of an earthquake, it would be desirable that a good physical model is not only able to produce one single seismogram, but also to reveal this natural variability. In this thesis, I develop a method to model realistic ground motions in a way that is computationally simple to handle, permitting multiple scenario simulations. I focus on two aspects of ground motion modelling. First, I use deterministic wave propagation for the whole frequency range \u2013 from static deformation to approximately 10 Hz \u2013 but account for source variability by implementing self-similar slip distributions and rough fault interfaces. Second, I scale the source spectrum so that the modelled waveforms represent the correct radiated seismic energy. With this scaling I verify whether the energy magnitude is suitable as an explanatory variable, which characterises the amount of energy radiated at high frequencies \u2013 the advantage of the energy magnitude being that it can be deduced from observations, even in real-time. Applications of the developed method for the 2008 Wenchuan (China) earthquake, the 2003 Tokachi-Oki (Japan) earthquake and the 1994 Northridge (California, USA) earthquake show that the fine source discretisations combined with the small scale source variability ensure that high frequencies are satisfactorily introduced, justifying the deterministic wave propagation approach even at high frequencies. I demonstrate that the energy magnitude can be used to calibrate the high-frequency content in ground motion simulations. Because deterministic wave propagation is applied to the whole frequency range, the simulation method permits the quantification of the variability in ground motion due to parametric uncertainties in the source description. A large number of scenario simulations for an M=6 earthquake show that the roughness of the source as well as the distribution of fault dislocations have a minor effect on the simulated variability by diminishing directivity effects, while hypocenter location and rupture velocity more strongly influence the variability. The uncertainty in energy magnitude, however, leads to the largest differences of ground motion amplitude between different events, resulting in a variability which is larger than the one observed. For the presented approach, this dissertation shows (i) the verification of the computational correctness of the code, (ii) the ability to reproduce observed ground motions and (iii) the validation of the simulated ground motion variability. Those three steps are essential to evaluate the suitability of the method for means of seismic risk mitigation.",
+            "alternative": "Quantifizierung von Bodenbewegung durch Breitband-Simulationen",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1103162950",
+                "gnd:2120681-8"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/860788482.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

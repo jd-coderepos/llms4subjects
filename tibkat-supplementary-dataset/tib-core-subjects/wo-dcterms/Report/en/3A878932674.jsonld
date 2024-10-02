@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A878932674",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 813 kB)",
+            "creator": [
+                "Marschall, Manuel",
+                "Eigel, Martin",
+                "Schneider, Reinhold"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)878932674",
+                "(firstid)GBV:878932674",
+                "(doi)10.20347/WIAS.PREPRINT.2363"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Bayesian inversion with a hierarchical tensor representation",
+            "abstract": "The statistical Bayesian approach is a natural setting to resolve the ill-posedness of inverse problems by assigning probability densities to the considered calibration parameters. Based on a parametric deterministic representation of the forward model, a sampling-free approach to Bayesian inversion with an explicit representation of the parameter densities is developed. The approximation of the involved randomness inevitably leads to several high dimensional expressions, which are often tackled with classical sampling methods such as MCMC. To speed up these methods, the use of a surrogate model is beneficial since it allows for faster evaluation with respect to calibration parameters. However, the inherently slow convergence can not be remedied by this. As an alternative, a complete functional treatment of the inverse problem is feasible as demonstrated in this work, with functional representations of the parametric forward solution as well as the probability densities of the calibration parameters, determined by Bayesian inversion. The proposed sampling-free approach is discussed in the context of hierarchical tensor representations, which are employed for the adaptive evaluation of a random PDE (the forward problem) in generalized chaos polynomials and the subsequent high-dimensional quadrature of the log-likelihood. This modern compression technique alleviates the curse of dimensionality by hierarchical subspace approximations of the involved low rank (solution) manifolds. All required computations can be carried out efficiently in the low-rank format. A priori convergence is examined, considering all approximations that occur in the method. Numerical experiments demonstrate the performance and verify the theoretical results.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2363",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2363",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

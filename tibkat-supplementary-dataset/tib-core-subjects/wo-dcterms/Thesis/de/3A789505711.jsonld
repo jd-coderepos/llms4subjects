@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1220109835",
+            "sameAs": "Steinmetz, Nadine"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A789505711",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XVIII, 190 S., 9379 KB)",
+            "contributor": "Meinel, Christoph",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)DNB:1051980976",
+                "(ppn)789505711"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)025.4028564",
+                "(classificationName=ddc)006.332",
+                "(classificationName=ddc)006.696",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Context-aware semantic analysis of video metadata",
+            "abstract": "Im Vergleich zu einer stichwortbasierten Suche erm\u00f6glicht die semantische Suche ein pr\u00e4ziseres und anspruchsvolleres Durchsuchen von (Web)-Dokumenten, weil durch die explizite Semantik Mehrdeutigkeiten von nat\u00fcrlicher Sprache vermieden und semantische Beziehungen in das Suchergebnis einbezogen werden k\u00f6nnen. Eine semantische, Entit\u00e4ten-basierte Suche geht von einer Anfrage mit festgelegter Bedeutung aus und liefert nur Dokumente, die mit dieser Entit\u00e4t annotiert sind als Suchergebnis. Die wichtigste Voraussetzung f\u00fcr eine Entit\u00e4ten-zentrierte Suche stellt die Annotation der Dokumente im Archiv mit Entit\u00e4ten und Kategorien dar. Textuelle Informationen werden analysiert und mit den entsprechenden Entit\u00e4ten und Kategorien versehen, um den Inhalt semantisch erschlie\u00dfen zu k\u00f6nnen. Eine manuelle Annotation erfordert Dom\u00e4nenwissen und ist sehr zeitaufwendig. Die semantische Annotation von Videodokumenten erfordert besondere Aufmerksamkeit, da inhaltsbasierte Metadaten von Videos aus verschiedenen Quellen stammen, verschiedene Eigenschaften und Zuverl\u00e4ssigkeiten besitzen und daher nicht wie Flie\u00dftext behandelt werden k\u00f6nnen. Die vorliegende Arbeit stellt einen semantischen Analyseprozess f\u00fcr Video-Metadaten vor. Die Eigenschaften der verschiedenen Metadatentypen werden analysiert und ein Konfidenzwert ermittelt. Dieser Wert spiegelt die Korrektheit und die wahrscheinliche Mehrdeutigkeit eines Metadatums wieder. Beginnend mit dem Metadatum mit dem h\u00f6chsten Konfidenzwert wird der Analyseprozess innerhalb eines Kontexts in absteigender Reihenfolge des Konfidenzwerts durchgef\u00fchrt. Die bereits analysierten Metadaten dienen als Referenzpunkt f\u00fcr die weiteren Analysen. So kann eine m\u00f6glichst korrekte Analyse der heterogen strukturierten Daten eines Kontexts sichergestellt werden. Am Ende der Analyse eines Metadatums wird die f\u00fcr den Kontext relevanteste Entit\u00e4t aus einer Liste von Kandidaten identifiziert - das Metadatum wird disambiguiert. Hierf\u00fcr wurden verschiedene Disambiguierungsalgorithmen entwickelt, die Beschreibungstexte und semantische Beziehungen der Entit\u00e4tenkandidaten zum gegebenen Kontext in Betracht ziehen. Der Kontext f\u00fcr die Disambiguierung wird f\u00fcr jedes Metadatum anhand der Eigenschaften und Konfidenzwerte zusammengestellt. Der vorgestellte Analyseprozess ist an zwei Hypothesen angelehnt: Um die Analyseergebnisse verbessern zu k\u00f6nnen, sollten die Metadaten eines Kontexts in absteigender Reihenfolge ihres Konfidenzwertes verarbeitet werden und die Kontextgrenzen von Videometadaten sollten durch Segmentgrenzen definiert werden, um m\u00f6glichst Kontexte mit koh\u00e4rentem Inhalt zu erhalten. Durch ausf\u00fchrliche Evaluationen konnten die gestellten Hypothesen best\u00e4tigt werden. Der Analyseprozess wurden gegen mehrere State-of-the-Art Methoden verglichen und erzielt verbesserte Ergebnisse in Bezug auf Recall und Precision, besonders f\u00fcr Metadaten, die aus weniger zuverl\u00e4ssigen Quellen stammen. Der Analyseprozess ist Teil eines Videoanalyse-Frameworks und wurde bereits erfolgreich in verschiedenen Projekten eingesetzt.",
+            "alternative": "Kontextbezogene, semantische Analyse von Videometadaten",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1220109835",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

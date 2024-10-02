@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1896071740",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (18.4 KByte)",
+            "creator": [
+                "Kick, Miriam",
+                "Junker, Philipp",
+                "Jantos, Dustin R."
+            ],
+            "identifier": [
+                "(firstid)KXP:1896071740",
+                "(ppn)1896071740"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Implementation of thermodynamic topology optimization for sequential additive manufacturing including structural self-weight in MATLAB",
+            "abstract": "The development of engineering components often starts digitally and a topology optimization can be the very first step. However, it is important to account for manufacturing properties during the optimization of these structures. For a step-by-step additive manufacturing, we developed a sequential thermodynamic topology optimization and implemented it into the software MATLAB. This optimization process runs step-by-step through predefined sequences. For each sequence, the boundary conditions are updated due to the changed manufacturing load. Furthermore, the design space can be extended and/or reinitialized. Therefore, the optimization properties 1) fixed design, 2) only material can be added or 3) free optimization can be chosen. The next sequence starts when the optimization of the previous sequence converges. Using this MATLAB code, we computed the numerical results for a bridge-like structure in [2]. The given MATLAB code is divided into two files: 1) \u201ctopTTO.m\u201d contains the optimization function for a rectangular design space discretized by 4-node square elements and 2) \u201cexecuter.m\u201d contains the function calls to compute the sequential optimization for the examples in",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

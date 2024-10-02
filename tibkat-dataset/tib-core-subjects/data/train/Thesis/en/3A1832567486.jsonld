@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:112782817",
+            "sameAs": "Peinke, Joachim"
+        },
+        {
+            "@id": "gnd:1275003850",
+            "sameAs": "Yassin, Khaled"
+        },
+        {
+            "@id": "gnd:4151476-2",
+            "sameAs": "Eisbildung"
+        },
+        {
+            "@id": "gnd:4189962-3",
+            "sameAs": "Windturbine"
+        },
+        {
+            "@id": "gnd:4286652-2",
+            "sameAs": "Rotorblatt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832567486",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (14 MB, xviii, 156 Seiten)",
+            "contributor": "Kim, Taeseong",
+            "identifier": [
+                "(ppn)1832567486",
+                "(firstid)DNB:1276329784"
+            ],
+            "publisher": "BIS der Universit\u00e4t Oldenburg",
+            "subject": [
+                "Numerische Str\u00f6mungssimulation",
+                "(classificationName=ddc-dbn)621.4",
+                "Tropfen",
+                "Windturbine",
+                "Fluid-Struktur-Wechselwirkung",
+                "Windkraftwerk",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)mas",
+                "Vereisung",
+                "Aerodynamik"
+            ],
+            "title": "Numerical simulation of ice accretion on coated wind turbine blades",
+            "abstract": [
+                "This thesis aims to develop new OpenFOAM codes to simulate the ice accretion on wind turbine blades in cold climates and the effects of ice-phobic coatings on the overall anti-icing heat. To avoid high computational costs of resolving complex profiles of ice, rough wall functions are used to model the effects of roughness on the airflow without completely resolving the flow field. Water particles carried by air are then tracked using Lagrangian particle tracking to calculate the exact locations of impingement on the surface to determine whether the particles are pinned or bouncing on the surface. The water mass on the surface is determined and the thermodynamic model of icing is solved to determine the ice profile. A 3D rotating wind turbine blade is simulated using the quasi-3D technique and compared with other CFD codes for validation and the expected minimum anti-icing heat in case ordinary surfaces is compared to the ice-phobic case to study the feasibility of such coatings.",
+                "Ziel dieser Doktorarbeit ist die Entwicklung neuer Codes innerhalb OpenFOAM zur Simulation der Eisbildung, das auf dem Rotorblatt im kalten Klima bildet und den Energiebedarf f\u00fcr das Anti-Eis-System zu berechnen. Um \u00fcberm\u00e4\u00dfige Berechnungskosten f\u00fcr die Aufl\u00f6sung komplexer Eisprofile zu vermeiden, k\u00f6nnen rauen Wandfunktionen verwendet werden. Die Luft mitgef\u00fchrten Wasserpartikel werden mithilfe der Lagrangeschen Partikelverfolgung, um den genauen Ort des Auftreffens der Partikel auf der Oberfl\u00e4che zu berechnen und ob sie anhaften bleiben oder zur\u00fcckprallen. Die Wassermasse auf der Oberfl\u00e4che wird danach grechnet und das thermodynamische Modell der Vereisung angewandt wird, um das endg\u00fcltige Eisprofil zu ermitteln. Ein 3D-Windturbinenblatt unter Verwendung der Quasi-3D-Technik ist eingesetzt wird. Diese Technik wird dann mit anderen CFD-Codes verglicht. Au\u00dferdem wird ein Vergleich zwischen der erwarteten Anti-Icing-W\u00e4rme bei normalen und eisabweisenden Oberfl\u00e4chen durchgef\u00fchrt."
+            ],
+            "alternative": "Numerische Simulation der Eisbildung an beschichteten Windturbinenbl\u00e4ttern",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:112782817"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:1275003850",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4151476-2"
+                },
+                {
+                    "@id": "gnd:4189962-3"
+                },
+                {
+                    "@id": "gnd:4286652-2"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

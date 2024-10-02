@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042154953",
+            "sameAs": "Merdon, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A891051422",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (26 Seiten, 480 kB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Ahmed, Naveed",
+                "Linke, Alexander"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:891051422",
+                "(ppn)891051422",
+                "(doi)10.20347/WIAS.PREPRINT.2402"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Towards pressure-robust mixed methods for the incompressible Navier-Stokes equations",
+            "abstract": "In this contribution, classical mixed methods for the incompressible Navier\u2013Stokes equations that relax the divergence constraint and are discretely inf-sup stable, are reviewed. Though the relaxation of the divergence constraint was claimed to be harmless since the beginning of the 1970ies, Poisson locking is just replaced by another more subtle kind of locking phenomenon, which is sometimes called poor mass conservation. Indeed, divergence-free mixed methods and classical mixed methods behave qualitatively in a different way: divergence-free mixed methods are pressure-robust, which means that, e.g., their velocity error is independent of the continuous pressure. The lack of pressure-robustness in classical mixed methods can be traced back to a consistency error of an appropriately defined discrete Helmholtz projector. Numerical analysis and numerical examples reveal that really locking-free mixed methods must be discretely infsup stable and pressure-robust, simultaneously. Further, a recent discovery shows that lockingfree, pressure-robust mixed methods do not have to be divergence-free. Indeed, relaxing the divergence constraint in the velocity trial functions is harmless, if the relaxation of the divergence constraint in some velocity test functions is repaired, accordingly.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1042154953",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2402",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2402",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

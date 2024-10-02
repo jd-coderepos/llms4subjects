@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749207949",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (144p)",
+            "creator": "Hirsh, Haym",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)749207949",
+                "(doi)10.1007/978-1-4613-1557-5",
+                "(isbn13)9781461315575",
+                "(firstid)GBV:749207949"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer science",
+                "(classificationName=linseach:mapping)mas",
+                "Artificial intelligence",
+                "(classificationName=loc)Q334-342",
+                "(classificationName=loc)TJ210.2-211.495",
+                "(classificationName=ddc)006.3"
+            ],
+            "title": "Incremental Version-Space Merging: A General Framework for Concept Learning",
+            "abstract": [
+                "One of the most enjoyable experiences in science is hearing a simple but novel idea which instantly rings true, and whose consequences then begin to unfold in unforeseen directions. For me, this book presents such an idea and several of its ramifications. This book is concerned with machine learning. It focuses on a ques\u00ad tion that is central to understanding how computers might learn: \"how can a computer acquire the definition of some general concept by abstracting from specific training instances of the concept?\" Although this question of how to automatically generalize from examples has been considered by many researchers over several decades, it remains only partly answered. The approach developed in this book, based on Haym Hirsh's Ph.D. dis\u00ad sertation, leads to an algorithm which efficiently and exhaustively searches a space of hypotheses (possible generalizations of the data) to find all maxi\u00ad mally consistent hypotheses, even in the presence of certain types of incon\u00ad sistencies in the data. More generally, it provides a framework for integrat\u00ad ing different types of constraints (e.g., training examples, prior knowledge) which allow the learner to reduce the set of hypotheses under consideration.",
+                "1 Overview -- 1.1 Background: Version Spaces and the Candidate-Elimination Algorithm -- 1.2 Contributions -- 1.3 Reader\u2019s Guide -- 2 Incremental Version-Space Merging -- 2.1 Generalizing Version Spaces -- 2.2 Version-Space Merging -- 2.3 Incremental Version-Space Merging -- 3 The Candidate-Elimination Algorithm: Emulation and Extensions -- 3.1 Learning Example -- 3.2 The Candidate-Elimination Algorithm -- 3.3 Candidate-Elimination Algorithm Emulation -- 3.4 Formal Proof of Equivalence -- 3.5 Ambiguous Training Data -- 3.6 Summary -- 4 Learning from Data with Bounded Inconsistency -- 4.1 Bounded Inconsistency -- 4.2 The Approach -- 4.3 Searching the Version Space -- 4.4 Example -- 4.5 Comparison to Related Work -- 4.6 Discussion -- 4.7 Formal Results -- 4.8 Summary -- 5 Combining Empirical and Analytical Learning -- 5.1 Explanation-Based Generalization -- 5.2 Combining EBG with Incremental Version-Space Merging -- 5.3 Examples -- 5.4 Perspectives -- 5.5 Constraints on the Concept Description Language -- 5.6 Related Work -- 5.7 Summary -- 6 Incremental Batch Learning -- 6.1 RL -- 6.2 The Approach -- 6.3 Example -- 6.4 Summary -- 7 Computational Complexity -- 7.1 Version-Space Formation -- 7.2 Version-Space Merging -- 7.3 Incremental Version-Space Merging -- 7.4 Summary -- 8 Theoretical Underpinnings -- 8.1 Terminology and Notation -- 8.2 Generalizing Version Spaces -- 8.3 Version-Space Intersections -- 8.4 Version-Space Unions -- 8.5 Summary -- 9 Conclusions -- 9.1 Results -- 9.2 Analysis -- 9.3 Open Problems -- 9.4 Summary -- A IVSM Program Listing."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1990",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "104",
+            "isLike": "doi:10.1007/978-1-4613-1557-5",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Knowledge Representation, Learning and Expert Systems",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

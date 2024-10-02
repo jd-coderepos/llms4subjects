@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A744924308",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXI, 304 p)",
+            "contributor": [
+                "Hillman, Robert G.",
+                "Hirsch, Herb L.",
+                "Vemuri, Ranga R.",
+                "Noh, Tim H."
+            ],
+            "creator": "Hanna, James P.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461562436",
+                "(firstid)GBV:744924308",
+                "(ppn)744924308",
+                "(doi)10.1007/978-1-4615-6243-6"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer hardware",
+                "(classificationName=ddc)621.3815",
+                "Engineering",
+                "Computers.",
+                "Electrical engineering.",
+                "Computer engineering",
+                "Electronic circuits.",
+                "(classificationName=linseach:mapping)inf",
+                "Computer aided design",
+                "Computer-aided engineering.",
+                "(classificationName=loc)TK7888.4",
+                "Systems engineering",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Using WAVES and VHDL for Effective Design and Testing : A practical and useful tutorial and application guide for the Waveform and Vector Exchange Specification (WAVES)",
+            "abstract": "The proliferation and growth of Electronic Design Automation (EDA) has spawned many diverse and interesting technologies. One of the most prominent of these technologies is the VHSIC Hardware Description Language, or VHDL. VHDL permits designers of digital modules, components, systems, and even networks to describe their designs both structurally and behaviorally. VHDL also allows simulation of the designs in order to investigate their performance prior to actually implementing them in hardware. Having gained the ability to simulate designs once encoded in VHDL, designers were naturally confronted with the issue of testing these designs. VHDL did not explicitly address the requirement to insert particular digital waveforms, often termed test vectors or patterns, or to subsequently assess the correctness of the response from some digital entity. In a distributed design environment, or even in an isolated one where the design was subject to review or scrutiny by another organization, de-facto methods of testing and evaluating results proved faulty. The reason was a lack of standardization. When organization A designed a circuit and tested it with their self-developed test tools it had a certain behavior. When it was delivered to organization B and B tested it using their test tools, the behavior was different. Was the fault in the circuit, in A's tools, or in B's tools? The only way to resolve this was for both organizations to agree on a test apparatus, validate its correctness and use it consistently. While VHDL was an IEEE standard language, and consistency among myriad designers was fairly well guaranteed, no such standard existed for test waveform generation and assessment. Hence, the value of standardization in the design language was being negated by the lack of such a standard for testing. The Waveform and Vector Exchange Specification, or WAVES, was conceived and designed to solve this testing problem &endash; and it has. Being both a subset of VHDL itself, as well as an IEEE standard, it guarantees both conformity among multiple applications and easy integration with VHDL units under test (UUTs). Using WAVES and VHDL for Effective Design and Testing will serve many purposes. For the WAVES beginner, its tutorial will make the application of WAVES in typical, standard usage straightforward and convenient. For the more advanced user, the advanced topics will provide insight into the nuances of these useful capabilities. For all users, the tools, templ ...",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "1997",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4615-6243-6",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

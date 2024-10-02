@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A66486077X",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (32 S., 1,01 MB)",
+            "contributor": [
+                "Fuhrmann, J\u00fcrgen",
+                "Langmach, Hartmut"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:66486077X",
+                "(ppn)66486077X"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)76V05"
+            ],
+            "title": "A numerical method for mass conservative coupling between fluid flow and solute transport",
+            "abstract": "We present a new coupled discretization approach for species transport in an incompressible fluid. The Navier-Stokes equations for the flow are discretized by the divergence-free Scott-Vogelius element on barycentrically refined meshes guaranteeing LBB stability. The convection-diffusion equation for species transport is discretized by the Voronoi finite volume method. In accordance to the continuous setting, due to the exact integration of the normal component of the flow through the Voronoi surfaces, the species concentration fulfills discrete global and local maximum principles. Besides of the the numerical scheme itself, we present important aspects of its implementation. Further, for the case of homogeneous Dirichlet boundary conditions, we give a convergence proof for the coupled scheme. We report results of the application of the scheme to the interpretation of limiting current measurements in an electrochemical flow cell with cylindrical shape.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:134253523"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1521",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:173444113",
+            "sameAs": "Merz, Peter"
+        },
+        {
+            "@id": "gnd:4024772-7",
+            "sameAs": "Heuristik"
+        },
+        {
+            "@id": "gnd:4031826-6",
+            "sameAs": "Kombinatorische Optimierung"
+        },
+        {
+            "@id": "gnd:4132315-4",
+            "sameAs": "Suchverfahren"
+        },
+        {
+            "@id": "gnd:4625421-3",
+            "sameAs": "Memetischer Algorithmus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A32734055X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (221 S. = 8005 KB)",
+            "identifier": [
+                "(ppn)32734055X",
+                "(firstid)GBV:32734055X"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:automatic)mat",
+                "(classificationName=dbn)28",
+                "(classificationName=linseach:automatic)inf",
+                "(classificationName=dbn)27"
+            ],
+            "title": "Memetic algorithms for combinatorial optimization problems : fitness landscapes and effective search strategies",
+            "abstract": "For many combinatorial optimization problems, no effective algorithms capable of finding guaranteed optimum solutions in short time are available. Therefore, powerful heuristics have been developed that deliver no guarantee to find the optimum, but have shown to be highly effective in many test cases. In this work, a special class of heuristics is investigated. The algorithms under consideration are called memetic algorithms, which are  roughly speaking  hybrids of evolutionary algorithms and problem-specific search algorithms, such as greedy heuristics and local search. In order to provide explanations under which circumstances these memetic algorithms are highly effective, a search space analysis relying on the concept of fitness landscapes is conducted, consisting of an autocorrelation analysis and a fitness distance correlation analysis of the peaks in the fitness landscape. It is shown that the former type of analysis enables a comparison and thus a selection of local search algorithms, while the latter type of analysis provides a guideline for the choice of evolutionary variation operators in the evolutionary meta-algorithm. The search space analysis is conducted for five combinatorial optimization problems, namely the traveling salesman problem, the graph bipartitioning problem, the quadratic assignment problem, NK landscapes, and the unconstrained binary quadratic programming problem. Based on the results of the analysis, new memetic algorithms are presented. Experimental results demonstrate that they are among the best heuristics developed so far for the five problems.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:173444113"
+                }
+            ],
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4625421-3"
+                },
+                {
+                    "@id": "gnd:4024772-7"
+                },
+                {
+                    "@id": "gnd:4031826-6"
+                },
+                {
+                    "@id": "gnd:4132315-4"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

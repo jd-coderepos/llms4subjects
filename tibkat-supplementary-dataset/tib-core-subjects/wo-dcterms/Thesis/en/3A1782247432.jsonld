@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1216906505",
+            "sameAs": "Geiger, Andreas"
+        },
+        {
+            "@id": "gnd:1247639088",
+            "sameAs": "G\u00e4hlert, Nils"
+        },
+        {
+            "@id": "gnd:17311895X",
+            "sameAs": "Denzler, Joachim"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4033447-8",
+            "sameAs": "K\u00fcnstliche Intelligenz"
+        },
+        {
+            "@id": "gnd:4129594-8",
+            "sameAs": "Maschinelles Sehen"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:7714938-5",
+            "sameAs": "Autonomes Fahrzeug"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1782247432",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (175 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1782247432",
+                "(firstid)KXP:1782247432"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Towards real-time 3D vehicle detection from monocular images using deep learning",
+            "abstract": "One key task of the environment perception pipeline for autonomous driving is object detection using monocular RGB images. This task is usually limited to 2D object detection. The question arises whether 3D object detection is also possible using only monocular RGB images. In this dissertation, we evaluate this question specifically for 3D vehicle detection in monocular RGB images in the scope of driver assistance systems and autonomous driving. We use modern deep learning techniques without utilizing temporal information and a so-called 2D-3D lifting. In particular, this includes the estimation of 3D location, orientation, and the size of the object. In addition to a reliable and high-quality detection performance, autonomous driving systems require a short runtime. Therefore, we opt for the best possible trade-off between detection performance and runtime. Since the basis of any deep learning approach is high-quality data, we introduce a new dataset, Cityscapes 3D. This dataset is characterized in particular by its annotations with 9 degrees of freedom, as well as novel and improved evaluation metrics. We published a publicly available benchmark that allows research groups to assess and compare their methods for 3D object detection to those of other researchers. We develop improvements for 2D object detection and prove their effectiveness. Firstly, we increase the 2D detection performance by more than 5% using an adapted error function during training. Secondly, we develop vg-NMS that particularly supports 2D amodal object detection. With MB-Net, BS3D, and 3D-GCK, we develop three different approaches based on the 2D-3D lifting scheme. All developed approaches stand out for their comparably good detection performances and their short runtime. In direct comparison to MB-Net and BS3D, 3D-GCK does not require any post-processing. It estimates all 9 degrees of freedom of a vehicle in 3D space and also requires no prior knowledge about possible vehicle extents.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1216906505"
+                },
+                {
+                    "@id": "gnd:17311895X"
+                }
+            ],
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1247639088"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4129594-8",
+                "gnd:7714938-5",
+                "gnd:4033447-8",
+                "gnd:4193754-5"
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

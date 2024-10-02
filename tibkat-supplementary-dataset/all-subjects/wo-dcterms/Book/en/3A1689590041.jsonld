@@ -1,0 +1,129 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:172478529",
+            "sameAs": "Hill, Mark D."
+        },
+        {
+            "@id": "gnd:4077653-0",
+            "sameAs": "Speicher (Informatik)"
+        },
+        {
+            "@id": "gnd:4176324-5",
+            "sameAs": "Pufferspeicher"
+        },
+        {
+            "@id": "gnd:4214306-8",
+            "sameAs": "Konsistenz (Informatik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1689590041",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xix, 274 Seiten)",
+            "creator": [
+                "Nagarajan, Vijaya",
+                "Sorin, Daniel J.",
+                "Wood, David A."
+            ],
+            "description": [
+                "Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1689590041",
+                "(isbn13)9781681737102",
+                "(firstid)KXP:1689590041",
+                "(doi)10.2200/S00962ED2V01Y201910CAC049"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Computer architecture.",
+                "Microprocessors.",
+                "(classificationName=ddc)621.3815",
+                "(classificationName=bk, id=181570475)54.22 - Datenspeicher",
+                "(classificationName=rvk)ST 153",
+                "(classificationName=linseach:mapping)inf",
+                "Electronic circuits."
+            ],
+            "title": "A primer on memory consistency and cache coherence",
+            "abstract": [
+                "Preface to the Second Edition -- Preface to the First Edition -- Introduction to Consistency and Coherence -- Coherence Basics -- Memory Consistency Motivation and Sequential Consistency -- Total Store Order and the \\lowercase {X -- Relaxed Memory Consistency -- Coherence Protocols -- Snooping Coherence Protocols -- Directory Coherence Protocols -- Advanced Topics in Coherence -- Consistency and Coherence for Heterogeneous Systems -- Specifying and Validating Memory Consistency Models and Cache Coherence -- Authors' Biographies .",
+                "Many modern computer systems, including homogeneous and heterogeneous architectures, support shared memory in hardware. In a shared memory system, each of the processor cores may read and write to a single shared address space. For a shared memory machine, the memory consistency model defines the architecturally visible behavior of its memory system. Consistency definitions provide rules about loads and stores (or memory reads and writes) and how they act upon memory. As part of supporting a memory consistency model, many machines also provide cache coherence protocols that ensure that multiple cached copies of data are kept up-to-date. The goal of this primer is to provide readers with a basic understanding of consistency and coherence. This understanding includes both the issues that must be solved as well as a variety of solutions. We present both high-level concepts as well as specific, concrete examples from real-world systems. This second edition reflects a decade of advancements since the first edition and includes, among other more modest changes, two new chapters: one on consistency and coherence for non-CPU accelerators (with a focus on GPUs) and one that points to formal work and tools on consistency and coherence."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:172478529"
+            },
+            "isPartOf": [
+                "(collectioncode)BSZ-2-SXSC-mc11",
+                "(collectioncode)BSZ-2-SXSC-syc9",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-2-SXSC",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-105-MC11"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4176324-5",
+                "gnd:4214306-8",
+                "gnd:4077653-0"
+            ],
+            "volume": "#49",
+            "isLike": "doi:10.2200/S00962ED2V01Y201910CAC049",
+            "P30128": [
+                "Synthesis lectures on computer architecture",
+                "collection eleven",
+                "Synthesis digital library of engineering and computer science",
+                "Computer & information science"
+            ],
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

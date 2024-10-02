@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A859401316",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Wehrheim, Heike",
+                "Niggemann, Oliver"
+            ],
+            "creator": "Isenberg, Tobias",
+            "identifier": [
+                "(ppn)859401316",
+                "(firstid)HBZ:CT004001499"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)003",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Induction-based Verification of Timed Systems",
+            "abstract": "Die korrekte Funktionalit\u00e4t rechnergesteuerter Systeme ist von gro\u00dfer Wichtigkeit, da diese Systeme oftmals in sicherheitskritischen Szenarios eingesetzt werden. Viele dieser Systeme besitzen zeitgesteuertes Verhalten. Um die Qualit\u00e4t der Systeme sicherzustellen, k\u00f6nnen Modell-basierte Design-Ans\u00e4tze verwendet werden in denen die zu erstellenden Systeme mithilfe von Modellen entworfen werden. Die Nutzung formaler Methoden kann die Abwesenheit von fehlerhaftem Verhalten sicherstellen. In dieser Arbeit werden Netzwerke von zeitlichen Automaten betrachtet. Die Analyse dieser Modelle ist schwierig, insbesondere bei der Exploration gro\u00dfer, komplexer Modelle. Zus\u00e4tzlich gehen bestehende Analyseverfahren nicht effizient mit \u00c4nderungen am Model um. In dieser Arbeit wird eine Technik zur Verifikation von Sicherheitseigenschaften, die die Abwesenheit von fehlerhaftem Verhalten definieren, vorgestellt. Diese Technik hat ein grundlegend anderes Funktionsprinzip als andere Ans\u00e4tze, da sie Induktion nutzt und versucht die explizite Exploration und Speicherung von Zust\u00e4nden zu vermeiden. Hierdurch ist sie eine wertvolle Erg\u00e4nzung zu den bestehenden Ans\u00e4tzen. Bei \u00c4nderungen am Modell werden die errechneten induktiven Invarianten des Ansatzes wiederverwendet. Dies funktioniert sehr gut bei einer speziellen Art von Systemen, genannt Parametrisierte Zeitliche Systeme, in der der Parameter die Anzahl der zeitlichen Automaten vorgibt. Die Technik erlaubt die Verifikation der gesamten Familie an Modellen, unabh\u00e4ngig von der Anzahl an Automaten. Hierzu wird die Sicherheitseigenschaft f\u00fcr die kleineren Modelle verifiziert und danach verwendet, um \u00fcber die gesamte Familie an Modellen zu urteilen. Zus\u00e4tzlich wird untersucht, wie man die induktiven Invarianten f\u00fcr allgemeine \u00c4nderungen und Modelle nutzen kann.. - Computer controlled systems are a foundation to today's society. Correctness of the functionality provided by these systems is of importance, since they are often deployed in safety-critical scenarios. Many of these systems include timed behavior. In order to ensure the quality of these systems, model-based design approaches can be employed where the systems under development are designed using models. The absence of erroneous behavior in these models can be ensured with formal methods. In this work, we use the modeling formalism of networks of timed automata. We approach two deficiencies of analysis techniques for these models. First, they easily run out of memory when exploring large, complex models. Second, they do not handle changes of the models efficiently. We provide a technique for the verification of safety properties specifying the absence of erroneous behavior for networks of timed automata. Our technique deliberately works distinct from other approaches in this field, as it employs induction and avoids explicit exploration and storage of states. In consequence, it is a valuable complement to existing technologies. Furthermore, in the presence of reconfigurations (i.e., changes) we reuse inductive invariants computed by our algorithm. This idea works well for a special class of systems, denoted Parameterized Timed Systems, where the number of timed automata is given as parameter. Our technique enables a verification of the entire system, irrespective of the actual number of automata. To this end, we verify the safety property for the smaller models of the family and reuse the computed inductive invariants to reason about the larger models. In addition, we examine the reusability of the inductive invariant for general models and reconfigurations.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

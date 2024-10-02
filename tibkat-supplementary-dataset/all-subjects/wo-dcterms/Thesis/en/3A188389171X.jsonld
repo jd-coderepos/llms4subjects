@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1323990135",
+            "sameAs": "Ghoorchian, Saeed"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188389171X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxv, 204 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:188389171X",
+                "(doi)10.15496/publikation-93419",
+                "(ppn)188389171X"
+            ],
+            "subject": [
+                "Nichtstation\u00e4rer Prozess",
+                "K\u00fcnstliche Intelligenz",
+                "(classificationName=ddc-dbn)006.31",
+                "(classificationName=linseach:mapping)inf",
+                "Edge computing",
+                "Azyklischer gerichteter Graph",
+                "Empfehlungssystem",
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen",
+                "Best\u00e4rkendes Lernen",
+                "Kausalit\u00e4t",
+                "N-armiger Bandit"
+            ],
+            "title": "Online learning under partial feedback",
+            "abstract": [
+                "Sequential decision-making represents a class of online learning problems where a learning agent interacts with an environment consecutively to optimize a long-term metric. At each round of decision-making, the agent takes action and receives feedback from the environment. The agent's strategy is to improve the decision-making based on observed feedback. The decision-making problem is challenging as often partial feedback information is available to the agent during the learning process; at each round, the agent receives the feedback related to the action taken and does not observe the outcome of any other untaken actions. Besides, the agent has to learn in a random environment without prior knowledge about the statistical characteristics of the random variables involved in the problem. The problem becomes more complicated by considering various real-world constraints during the decision-making process. Therefore, appropriate decision-making strategies are required to address the challenges and solve the problem efficiently. This thesis contributes to the field of online decision-making under uncertainty by formulating novel decision-making problems and developing several algorithms. The proposed methods build upon the multi-armed bandit framework that portrays the exploration-exploitation dilemma, where the agent decides between exploring options to acquire new knowledge and selecting an option by exploiting the existing knowledge. More specifically, this thesis introduces several multi-armed bandit frameworks with various feedback models and objectives, and uses the developed frameworks to model and solve real-world problems. Chapter 3 formulates a budget-limited bandit problem in a dynamic environment where pulling each arm is costly. The developed bandit framework is used to model the computational offloading problem of users' mobile devices to edge servers. To this end, the required time and energy for data transmission and processing are analyzed. We propose an adaptive policy to solve the formulated problem and prove a regret bound on its performance. We use the algorithm to solve a computation offloading problem through simulation and compare its performance with several bandit-based algorithms. In Chapter 4, we introduce a contextual bandit problem with costly observations, where features' states can be observed in exchange for a known and fixed cost. We propose two algorithms for simultaneous and sequential state observations. We prove that the algorithms achieve sublinear regret bounds concerning time. In addition, we evaluate the proposed algorithms in a medical context by applying them to recommend tests and treatments to patients with breast cancer. The results show that our algorithms outperform several context-aware and context-agnostic algorithms. Chapter 5 extends the contextual bandit model proposed in the previous chapter by considering random costs of state observations as well as non-stationary reward and cost generating processes. We propose an algorithm that learns the optimal observations and actions simultaneously. We analyze the proposed algorithm theoretically by proving a sublinear regret bound concerning time. The solution is validated on the real-world problem of ranking nursery school applications and compared with conventional benchmarks. In Chapter 6, we develop a combinatorial semi-bandit framework with causally related rewards, where we model the causal relations by a directed graph in a stationary structural equation model. We propose a policy that determines the causal relations by learning the network's topology and exploits this knowledge to optimize decision-making. We prove that the proposed algorithm achieves a sublinear regret bound in time. Numerical experiments using synthetic data demonstrate the superiority of our proposed algorithm over several combinatorial bandit algorithms. In addition, we employ the proposed framework to analyze the development of Covid-19 in Italy. Finally, Chapter 7 builds upon the framework developed in the previous chapter and extends the model by considering non-stationary environments with delayed feedback, while structural dependencies still exist amongst the arms' reward distributions. We develop a policy that learns the structural dependencies from delayed feedback and utilizes that to optimize the decision-making while adapting to environmental changes. We analyze the algorithm theoretically by proving a regret bound. We evaluate our method using synthetic and real-world datasets and apply our algorithm to detect the regions in Italy that contribute the most to the spread of Covid-19.",
+                "Sequentielle Entscheidungsfindung ist eine Kategorie von Online-Lernproblemen, bei denen ein Lernagent fortlaufend mit einer Umgebung interagiert, um eine langfristige Metrik zu optimieren. In jeder Entscheidungsrunde ergreift der Agent Aktionen und erh\u00e4lt R\u00fcckmeldungen aus der Umwelt. Die Strategie des Agenten besteht darin, die Entscheidungsfindung auf der Basis des beobachteten Feedbacks zu verbessern. Das Entscheidungsfindungsproblem ist eine Herausforderung, da dem Agenten w\u00e4hrend des Lernprozesses oft nur partielle Feedback-Informationen zur Verf\u00fcgung stehen; in jeder Runde erh\u00e4lt der Agent das Feedback f\u00fcr die durchgef\u00fchrte Aktion und beobachtet nicht das Ergebnis anderer nicht durchgef\u00fchrter Aktionen. Au\u00dferdem muss der Agent in einer zuf\u00e4lligen Umgebung lernen, ohne dass er die statistischen Eigenschaften der Zufallsvariablen kennt, die in das Problem involviert sind. Das Problem wird noch komplizierter, wenn w\u00e4hrend des Entscheidungsfindungsprozesses verschiedene Sachzw\u00e4nge ber\u00fccksichtigt werden. Daher sind geeignete Entscheidungsstrategien erforderlich, um die Herausforderungen zu meistern und das Problem effizient zu l\u00f6sen. Diese Arbeit leistet einen Beitrag zum Gebiet der Online-Entscheidungsfindung unter Unsicherheit, indem sie neuartige Entscheidungsprobleme formuliert und mehrere Algorithmen entwickelt. Die vorgeschlagenen Methoden bauen auf dem mehrarmigen Banditen auf, der das Explorations-Ausbeutungs-Dilemma abbildet, bei dem der Agent zwischen der Erkundung von Optionen, um neues Wissen zu erwerben, und der Auswahl einer Option durch Ausbeutung des vorhandenen Wissens entscheidet. Konkret werden in dieser Arbeit mehrere Multi-Armed-Bandit-Frameworks mit verschiedenen Feedbackmodellen und Zielen vorgestellt und die entwickelten Frameworks zur Modellierung und L\u00f6sung realer Probleme eingesetzt. Kapitel 3 formuliert ein budgetbegrenztes Bandit-Problem in einer dynamischen Umgebung, in der das Ziehen jedes Arms kostspielig ist. Der entwickelte Bandit-Rahmen wird verwendet, um das Problem der Verlagerung von Rechenleistung von mobilen Ger\u00e4ten der Benutzer auf Edge-Server zu modellieren. Zu diesem Zweck werden die erforderliche Zeit und Energie f\u00fcr die Daten\u00fcbertragung und -verarbeitung analysiert. Wir schlagen eine adaptive Strategie vor, um das formulierte Problem zu l\u00f6sen und beweisen eine Bedauernsgrenze f\u00fcr seine Leistung. Wir verwenden den Algorithmus, um ein Problem der Rechenauslagerung durch Simulation zu l\u00f6sen und vergleichen seine Leistung mit mehreren Bandit-basierten Algorithmen. In Kapitel 4 f\u00fchren wir ein kontextuelles Bandit-Problem mit kostspieligen Beobachtungen ein, bei dem die Zust\u00e4nde von Merkmalen im Austausch f\u00fcr einen bekannten und festen Preis beobachtet werden k\u00f6nnen. Wir schlagen zwei Algorithmen f\u00fcr simultane und sequentielle Zustandsbeobachtungen vor. Wir beweisen, dass die Algorithmen sublineare Bedauernsschranken bez\u00fcglich der Zeit erreichen. Dar\u00fcber hinaus evaluieren wir die vorgeschlagenen Algorithmen in einem medizinischen Kontext, indem wir sie zur Empfehlung von Tests und Behandlungen f\u00fcr Patienten mit Brustkrebs einsetzen. Die Ergebnisse zeigen, dass unsere Algorithmen mehrere kontextabh\u00e4ngige und kontextagnostische Algorithmen \u00fcbertreffen. Kapitel 5 erweitert das bisherige kontextuelle Bandit-Modell durch die Ber\u00fccksichtigung zuf\u00e4lliger Kosten von Zustandsbeobachtungen sowie nicht-station\u00e4rer Belohnungs- und Kostenerzeugungsprozesse. Wir schlagen einen Algorithmus vor, der die optimalen Beobachtungen und Handlungen gleichzeitig erlernt. Wir analysieren den vorgeschlagenen Algorithmus theoretisch, indem wir eine sublineare Bedauernsgrenze bez\u00fcglich der Zeit beweisen. Die L\u00f6sung wird anhand des realen Problems der Rangfolge von Kindergartenanwendungen validiert und mit herk\u00f6mmlichen Benchmarks verglichen. In Kapitel 6 entwickeln wir einen kombinatorischen Semi-Bandit-Rahmen mit kausal verbundenen Belohnungen, in dem wir die kausalen Beziehungen durch einen gerichteten Graphen in einem station\u00e4ren Strukturgleichungsmodell modellieren. Wir schlagen eine Strategie vor, die die kausalen Beziehungen durch Lernen der Topologie des Netzwerks bestimmt und dieses Wissen zur Optimierung der Entscheidungsfindung nutzt. Wir beweisen, dass der vorgeschlagene Algorithmus eine zeitlich sublineare Regressionsgrenze erreicht. Numerische Experimente mit synthetischen Daten zeigen die \u00dcberlegenheit des von uns vorgeschlagenen Algorithmus gegen\u00fcber mehreren kombinatorischen Bandit-Algorithmen. Dar\u00fcber hinaus verwenden wir den vorgeschlagenen Rahmen, um die Entwicklung von Covid-19 in Italien zu analysieren. Schlie\u00dflich baut Kapitel 7 auf dem im vorigen Kapitel entwickelten Rahmen auf und erweitert das Modell auf nicht-station\u00e4re Umgebungen mit verz\u00f6gerter R\u00fcckkopplung, wobei immer noch strukturelle Abh\u00e4ngigkeiten zwischen den Belohnungsverteilungen der Arme bestehen. Wir entwickeln eine Strategie, die die kausalen Beziehungen aus dem verz\u00f6gerten Feedback lernt und diese zur Optimierung der Entscheidungsfindung bei gleichzeitiger Anpassung an Umweltver\u00e4nderungen nutzt. Wir analysieren den Algorithmus theoretisch, indem wir eine Bedauernsgrenze nachweisen. Wir evaluieren unsere Methode anhand synthetischer und realer Datens\u00e4tze und wenden unseren Algorithmus an, um die Regionen in Italien zu ermitteln, die am meisten zur Verbreitung von Covid-19 beitragen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1323990135",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-93419",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

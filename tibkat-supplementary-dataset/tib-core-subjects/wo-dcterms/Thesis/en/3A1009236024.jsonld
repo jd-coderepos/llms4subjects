@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1009236024",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvi, 137 Seiten)",
+            "creator": "Arslanta\u015f, Yunus Emre",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1009236024",
+                "(ppn)1009236024"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Development of a reachability analysis algorithm for space applications",
+            "abstract": "In the last decades developments in space technology paved the way to more challenging missions like asteroid mining, space tourism and human expansion into the Solar System. These missions require difficult tasks such as real-time capable guidance schemes for re-entry, landing on celestial bodies and implementation of large angle maneuvers for spacecraft. There is a need for an analysis tool to increase the robustness and success of these missions. Reachability analysis contributes to this requirement by obtaining the set of all achievable states for a dynamical system starting from an initial condition with given admissible control inputs of the system. In this study, an optimal control based reachability analysis algorithm is developed for evaluating the performance of the guidance and control methods for space missions considering the desired performance index. The developed method considers a soft-landing problem for a Moon mission as the case study, and attainable area of the lander as the performance index. The method computes feasible trajectories for the lunar lander between the point where the terminal landing maneuver starts and points that constitutes the candidate landing region. The candidate landing region is discretized by equidistant points on a two dimensional plane, i.e. in downrange and crossrange coordinates, and for each grid point a distance function is defined. This distance function acts as an objective function for a related optimal control problem (OCP). Each infinite dimensional OCP is transcribed into a finite dimensional Nonlinear Programming Problem (NLP) by using Pseudo-Spectral Methods (PSM). The NLPs are solved using available tools to obtain feasible trajectories and approximated reachable sets with information about the states of the dynamical system at the grid points. The proposed method approximates reachable sets of the lander with propellant-to-reach and time-to-reach cost by solution of NLPs. A polynomial-based Apollo guidance scheme is used to compare the results for the developed method. The coefficients that define the position of the lander are obtained by solving a series of explicit equations for the given initial and final states. A model inversion based PD controller is designed to track the generated trajectory. Feasible solutions that satisfy safe landing conditions are filtered and the results are compared for the two different approaches. Finally, the uncertainties which are characterized by initial state error and system parameters are also considered. A multivariate trajectory interpolation tool is used to interpolate RS with different initial states. A Riccati equation-based controller is designed to track the previously obtained reference trajectories within presence of the uncertainties. Monte Carlo (MC) simulations are carried out to obtain safe attainable landing area of the lunar lander as probability maps. The same uncertainty set is used to verify these probability maps by propagating the uncertainties using unscented transform. The developed tool analyzes the different guidance and control methods, for the attainable landing area of the lander, under various landing scenarios, with different dynamical models and controller parameters. Numerous quality metrics are used to compare the change of characteristics of the attainable landing area and performance of the guidance and control methods, and selected design parameters.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:103238512X",
+            "sameAs": "Steuerger\u00e4t"
+        },
+        {
+            "@id": "gnd:1067137041",
+            "sameAs": "Eric Cuvillier, Firma"
+        },
+        {
+            "@id": "gnd:1123151490",
+            "sameAs": "Kehr, Sebastian"
+        },
+        {
+            "@id": "gnd:130159727",
+            "sameAs": "K\u00fchnhauser, Winfried"
+        },
+        {
+            "@id": "gnd:133950875",
+            "sameAs": "Sch\u00e4fer, G\u00fcnter"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4116615-2",
+            "sameAs": "Steuerungstechnik"
+        },
+        {
+            "@id": "gnd:4135913-6",
+            "sameAs": "Task"
+        },
+        {
+            "@id": "gnd:4191571-9",
+            "sameAs": "Datenfluss"
+        },
+        {
+            "@id": "gnd:4343107-0",
+            "sameAs": "Laufzeitsystem"
+        },
+        {
+            "@id": "gnd:4366912-8",
+            "sameAs": "Evolution\u00e4rer Algorithmus"
+        },
+        {
+            "@id": "gnd:4613846-8",
+            "sameAs": "Parallelisierung"
+        },
+        {
+            "@id": "gnd:7578671-0",
+            "sameAs": "Motorsteuerung"
+        },
+        {
+            "@id": "gnd:7598578-0",
+            "sameAs": "Mehrkernprozessor"
+        },
+        {
+            "@id": "gnd:7665620-2",
+            "sameAs": "AUTOSAR"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A875722016",
+            "@type": "bibo:Thesis",
+            "P1053": "iii, 199 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Qui\u00f1ones, Eduardo",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ean)9783736994317",
+                "(ppn)875722016",
+                "(firstid)DNB:1122361793",
+                "(isbn13)9783736994317"
+            ],
+            "publisher": "Cuvillier Verlag",
+            "subject": [
+                "(classificationName=rvk)ZO 4230",
+                "(classificationName=bk, id=106410903)54.31 - Rechnerarchitektur",
+                "(classificationName=bk, id=106416383)55.20 - Stra\u00dfenfahrzeugtechnik",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)629.2720285435",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)ver"
+            ],
+            "title": "Parallelization of automotive control software",
+            "abstract": "Der eingebettete Mehrkernprozessor wird als die Hardware-Plattform angesehen, welche den stetig steigenden Rechenanforderungen von Steuerungs-Software in Automobilen gerecht wird. Dieser verf\u00fcgt \u00fcber eine h\u00f6here Rechenleistung und verbraucht weniger Energie. Steuerungs-Software wird entsprechend dem AUTomotive Open System ARchitecture (AUTOSAR)- Standard entwickelt. Runnables, elementare Code-Abschnitte, bilden strukturiert in Software-Components angeordnet das funktionale Verhalten des Reglers ab. Bei der Migration auf Mehrkernprozessoren soll existierende Steuerungs-Software wiederverwendet werden. Gegenstand der Dissertation ist die Migration existierender AUTOSAR-Steuerungs-Software auf Mehrkernprozessorsteuerger\u00e4te. Zentrale Herausforderungen sind: 1) Datenabh\u00e4ngigkeiten zwischen Runnables m\u00fcssen beachtet werden, was die erreichbare Parallelit\u00e4t einschr\u00e4nkt. 2) Der urspr\u00fcngliche Datenfluss und dessen Latenz m\u00fcssen nachgebildet werden, um dasselbe funktionale Verhalten ohne aufw\u00e4ndige Validierung oder Tests zu erreichen. 3) Das Energiesparpotenzial des Prozessors soll genutzt werden. Auf Runnable-Ebene verteilt RunPar Runnables statt Tasks. Dar\u00fcber hinaus wird die Parallelit\u00e4t durch das Konzept der Supertask erh\u00f6ht. Diese gruppiert Runnables von nacheinander ausgef\u00fchrten Tasks, deren Runnables anschlie\u00dfend mittels RunPar verteilt werden. Auf Task-Ebene entkoppelt Timed Implicit Communication (TIC) die Kommunikation zwischen Tasks, um die parallele Ausf\u00fchrung von produzierender und konsumierender Task zu erm\u00f6glichen. Ein Vergleich mit RunPar legt nahe, dass es sich bei Runnable- und Task-Ebenen-Parallelisierung um einander erg\u00e4nzend einzusetzende Strategien handelt. Schlie\u00dflich wird eine koordinierende Strategie vorgeschlagen, welche beide Parallelisierungsebenen kombiniert. Der Verarbeitungspfad von Sensor zu Aktuator wird explizit modelliert. Dies erm\u00f6glicht die Ber\u00fccksichtigung der Latenz. Task-Perioden und Prozessortakt werden anschlie\u00dfend so angepasst, dass Leerlaufzeiten minimiert und Latenzzeiten eingehalten werden. Die Metrik Parallel-Schedule-Quality- wird eingef\u00fchrt, um den Erfolg der Parallelisierung zu quantifizieren. Damit wird es m\u00f6glich den besten parallelen Ausf\u00fchrungsplan auszuw\u00e4hlen. Insgesamt wird dieselbe Antwortzeit wie im Referenzsystem erreicht. Gleichzeitig wird der Energieverbrauch des Steuerger\u00e4tes minimiert.",
+            "contributor": [
+                "gnd:130159727",
+                "gnd:133950875"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1123151490",
+                "gnd:1067137041",
+                "gnd:2125187-3"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7665620-2"
+                },
+                {
+                    "@id": "gnd:4613846-8"
+                },
+                {
+                    "@id": "gnd:4135913-6"
+                },
+                {
+                    "@id": "gnd:4343107-0"
+                },
+                {
+                    "@id": "gnd:4191571-9"
+                },
+                {
+                    "@id": "gnd:4366912-8"
+                },
+                {
+                    "@id": "gnd:7578671-0"
+                },
+                {
+                    "@id": "gnd:7598578-0"
+                },
+                {
+                    "@id": "gnd:103238512X"
+                },
+                {
+                    "@id": "gnd:4116615-2"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/875722016.PDF",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

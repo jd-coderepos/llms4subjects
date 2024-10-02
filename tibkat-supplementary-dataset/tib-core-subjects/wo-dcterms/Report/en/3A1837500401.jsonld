@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:172188717",
+            "sameAs": "Klein, Rupert"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1837500401",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (29 Seiten, 555,40 KB)",
+            "creator": [
+                "Gel\u00df, Patrick",
+                "Matera, Sebastian",
+                "Schmidt, Burkhard"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2995",
+                "(ppn)1837500401",
+                "(firstid)KXP:1837500401"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Quantum dynamics of coupled excitons and phonons in chain-like systems : tensor train approaches and higher-order propagators",
+            "abstract": "We investigate the use of tensor-train approaches to the solution of the time-dependent Schr\u00f6dinger equation for chain-like quantum systems with on-site and nearest-neighbor interactions only. Using the efficient SLIM representation for low-rank tensor train representations of quantummechanical Hamiltonians, we aim at reducing the memory consumption as well as the computation costs, in order to mitigate the curse of dimensionality as much as possible. As an example, coupled excitons and phonons modeled in terms of Fr\u00f6hlich-Holstein type Hamiltonians are studied here. By comparing our tensor-train based results with semi-analytical results, we demonstrate the key role of the ranks of tensor-train representations for quantum state vectors. Both the computational effort of the propagations and the accuracy that can be reached crucially depend on the maximum number of ranks chosen. Typically, an excellent quality of the solutions is found only when the ranks exceeds a certain value. That threshold, however, is very different for excitons, phonons, and coupled systems. One class of propagation schemes used in the present work builds on splitting the Hamiltonian into two groups of interleaved nearest-neighbor interactions which commutate within each of the groups. In addition to the first order Lie-Trotter and the second order Strang\u2013Marchuk splitting schemes, we have also implemented the 4-th order Yoshida-Neri and the 8-th order Kahan-Li symplectic compositions. Especially the latter two are demonstrated to yield very accurate results, close to machine precision. However, due to the computational costs, currently their use is restricted to rather short chains. Another class of propagators involves explicit, time-symmetrized Euler integrators. Building on the traditional second order differencing method, we have also implemented higher order methods. Especially the 4-th order variant is recommended for quantum simulations of longer chains, even though the high precision of the splitting schemes cannot be reached. Moreover, the scaling of the computational effort with the dimensions of the local Hilbert spaces is much more favorable for the differencing than for the splitting schemes.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:172188717"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2995",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2995",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

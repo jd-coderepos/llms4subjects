@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1270314564",
+            "sameAs": "Wlochowitz, Darius"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1799351823",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Wingender, Edgar",
+                "Waack, Stephan"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1799351823",
+                "(firstid)KXP:1799351823"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)bio",
+                "transcription factor",
+                "promoter analysis",
+                "master regulator",
+                "differential expression analysis",
+                "(classificationName=ddc)570.28",
+                "(classificationName=ddc-dbn)570",
+                "transcriptional regulation"
+            ],
+            "title": "A Bioinformatics pipeline for identifying dysregulated pathways in cancer from comparative RNA-Seq transcriptome analysis",
+            "abstract": [
+                "Cancer is characterized as a multifactorial disease which undergoes genetic and epige-netic changes during invasive tumor growth. Thus, numerous tumor samples have beenprofiled using high-throughput sequencing technologies such as microarray and RNAsequencing (RNA-Seq) to obtain their transcriptomes. However, disentangling such high-dimensional data to identify dysregulated signaling pathways remains a difficult task.To close this gap, bioinformatics pipelines are needed to uncover gene misregulation byestablishing causal regulatory links between transcription factors (TFs) and their targetgenes. TFs are proteins that control gene expression by recognizing short motifs calledtranscription factor binding sites (TFBSs) in DNA regulatory regions like promoters, en-hancers, and silencers.To this end, the goal of this thesis was to establish and evaluate a bioinformatics pipelinefor comparing phenotypes based on RNA-Seq. The individual workflows of the pipelinecomprise methods in RNA-Seq data analysis, promoter analysis, comprehensive functionalcategorization, and master regulator analysis (MRA), thereby identifying differentiallyexpressed genes (DEGs), TFs, biological processes, and master regulators (MRs). Forpromoter analysis, a discriminative motif discovery approach using the Boruta featureselection algorithm is proposed, which distinguishes two DEG promoter sequence datasetsbased on TFBS patterns. In addition, a gene clustering approach is proposed using theJensen-Shannon divergence (JSD), principal component analysis (PCA), and the k-meansalgorithm, which groups DEG promoters based on TFBS patterns related to the discrimi-native motifs. The gene clusters obtained are subjected to Gene Ontology (GO) functionalcategorization and MRA.The utility of the pipeline was demonstrated using three heterogenous gene expressionstudies that are characterized by distinct signaling pathway activity in cancer. In the courseof promoter analysis, the results indicated that Boruta\u2019s ranking-based importance scorescan be used to identify biologically relevant TFs. Furthermore, the results indicated clearlyseparated gene clusters characterized by uniquely significant GO terms and MRs.In conclusion, the pipeline provides a useful bioinformatics framework for the comparativestudy of phenotypes based on RNA-Seq to reveal variations in transcriptional regulationand pathway repertoire.$yLinzenz",
+                "Cancer is characterized as a multifactorial disease which undergoes genetic and epige- netic changes during invasive tumor growth. Thus, numerous tumor samples have been profiled using high-throughput sequencing technologies such as microarray and RNA sequencing (RNA-Seq) to obtain their transcriptomes. However, disentangling such high- dimensional data to identify dysregulated signaling pathways remains a difficult task. To close this gap, bioinformatics pipelines are needed to uncover gene misregulation by establishing causal regulatory links between transcription factors (TFs) and their ...",
+                "Krebs ist eine multifaktorielle Erkrankung, die w\u00e4hrend des invasiven Tumorwachstums genetische und epigenetische Ver\u00e4nderungen durchl\u00e4uft. So wurden zahlreiche Tumor- proben mit Hilfe von Hochdurchsatz-Sequenzierungstechnologien wie Microarray und RNA-Sequenzierung (RNA-Seq) profiliert, um ihre Transkriptome zu erhalten. Es bleibt jedoch eine schwierige Aufgabe, solche hochdimensionalen Daten zu entschl\u00fcsseln, um dysregulierte Signalwege zu identifizieren. Um diese L\u00fccke zu schlie\u00dfen, werden bioin- formatische Pipelines ben\u00f6tigt, die die Fehlregulierung von Genen aufdecken, indem sie kausa..."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1270314564",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

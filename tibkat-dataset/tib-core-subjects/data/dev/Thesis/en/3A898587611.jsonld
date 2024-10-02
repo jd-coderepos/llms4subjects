@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1140941666",
+            "sameAs": "Matuszyk, Pawel"
+        },
+        {
+            "@id": "gnd:122165659",
+            "sameAs": "Spiliopoulou, Myra"
+        },
+        {
+            "@id": "gnd:7511891-9",
+            "sameAs": "Empfehlungssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898587611",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (PDF-Datei: 201 Seiten = 4,07 MB)",
+            "identifier": [
+                "(ppn)898587611",
+                "(firstid)GBV:898587611"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Selective learning for recommender systems",
+            "abstract": "... In this work we focus on the stream-based learning, since it has several advantages over the conventional, batch-based learning. One of the advantage is the ability to immediately incorporate new information into a preference model without relearning the entire model. This is an essential feature for real-life recommender systems, as their application scenarios are highly dynamic. Therefore, new information typically appears at a high rate. - Our first type are forgetting methods for stream-based recommender systems. Selecting what information to forget is equivalent to selecting which information to learn from. We propose eleven different forgetting strategies that select the obsolete information to be forgotten and three different algorithms that enforce forgetting on a stream of ratings. We stress that obsolete information is not necessarily old. Next to incorporating new information into a preference model, our forgetting techniques are the second way of adapting to concept drift or shift. - In our second type of selective learning we introduce selective neighbourhood for collaborative filtering methods. It encompasses a novel selection criterion based on the Hoeffding Bound for removing unreliable users from a neighbourhood. Our criterion considers both, the number of common ratings between users and the value of their similarity. - Our last selective approach is based on semi-supervised learning (SSL) for stream-based recommender systems. In this approach a recommender system exploits the abundant unlabelled information (user-item-pairs without ratings), which, typically, reaches 99% of all information. - To exploit this information for training of preference models we propose the first stream-based semi-supervised recommendation framework. In semi-supervised learning, predictions are used as labels. However, not all predictions are equally reliable. We propose components that selectively and incrementally estimate reliability of predictions and filter out the unreliable ones. Only highly reliable predictions are used for training in one of two SSL approaches: cotraining and self-learning. ...",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122165659"
+                }
+            ],
+            "creator": "gnd:1140941666",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:7511891-9"
+            },
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

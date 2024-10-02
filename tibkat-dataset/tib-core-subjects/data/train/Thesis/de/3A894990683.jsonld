@@ -1,0 +1,144 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1089456530",
+            "sameAs": "Ijspeert, Auke Jan"
+        },
+        {
+            "@id": "gnd:124204309",
+            "sameAs": "Hirzinger, Gerhard"
+        },
+        {
+            "@id": "gnd:130008338",
+            "sameAs": "Witte, Hartmut"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4000457-0",
+            "sameAs": "Adaptivregelung"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4012932-9",
+            "sameAs": "Drehmoment"
+        },
+        {
+            "@id": "gnd:4116615-2",
+            "sameAs": "Steuerungstechnik"
+        },
+        {
+            "@id": "gnd:4140871-8",
+            "sameAs": "Gehen"
+        },
+        {
+            "@id": "gnd:4304075-5",
+            "sameAs": "Autonomer Roboter"
+        },
+        {
+            "@id": "gnd:4328194-1",
+            "sameAs": "Hexapode (Robotik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A894990683",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 147 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "G\u00f6rner, Martin",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)894990683",
+                "(firstid)GBV:894990683"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Locomotion and pose estimation in compliant, torque-controlled hexapedal robots",
+            "abstract": "F\u00fcr die planetare Exploration sowie den Einsatz in Katastrophengebieten sind autonome Laufroboter zunehmend von Interesse. In diesen Szenarien sollen sie den Menschen an gef\u00e4hrlichen oder schwer zug\u00e4nglichen Orten ersetzen und dort Erkundungseins\u00e4tze sowie Probenahmen in schwierigem Gel\u00e4nde durchf\u00fchren. Unter der Vielzahl an m\u00f6glichen Systemen bieten im Besonderen kleinere Sechsbeiner einen sehr guten Kompromiss zwischen Stabilit\u00e4t, hoher Beweglichkeit, Vielseitigkeit und einer vertretbaren Komplexit\u00e4t der Regelung. Ein weiterer Vorteil ist ihre Redundanz, die es ihnen erlaubt, den Ausfall einzelner Beine mit geringem Aufwand zu kompensieren. Dementgegen ist die beschr\u00e4nkte Rechenkapazit\u00e4t ein Nachteil der reduzierten Gr\u00f6\u00dfe. Um diesen auszugleichen und das autonome Agieren in einer unbekannten Umgebung zu erm\u00f6glichen, werden daher einfache und effiziente Algorithmen ben\u00f6tigt, die im Zusammenspiel jedoch ein komplexes Verhalten erzeugen. Auf dem Weg zum autonom explorierenden Laufroboter entwickelt diese Arbeit einen robusten, adaptiven und fehlertoleranten Laufalgorithmus sowie eine 6D Eigenbewegungssch\u00e4tzung f\u00fcr nachgiebige, drehmomentgeregelte Sechsbeiner. Besonders herauszustellen ist, dass alle in der Arbeit vorgestellten Algorithmen ausschlie\u00dflich die propriozeptive Sensorik der Beine verwenden. Durch diesen Ansatz kann der Laufprozess von anderen Prozessen, wie der Navigation, getrennt und somit der Datenaustausch effizient gestaltet werden. F\u00fcr die Fortbewegung in unebenem Gel\u00e4nde kombiniert der vorgestellte Laufalgorithmus eine flexible, biologisch inspirierte Gangkoordination mit verschiedenen Einzelbeinreflexen und einer nachgiebigen Gelenkregelung. Hierbei \u00fcbernimmt die Gangkoordination die zeitliche Steuerung der Schrittfolge, w\u00e4hrend die Einzelbeinreflexe f\u00fcr eine r\u00e4umliche Variation der Fu\u00dftrajektorien zust\u00e4ndig sind. Die nachgiebige Gelenkregelung reduziert interne Kr\u00e4fte und erlaubt eine Anpassung der Gelenksteifigkeiten an die lokalen Umgebungsbedingungen sowie den aktuellen Zustand des Roboters. Eine wichtige Eigenschaft des Laufalgorithmus ist seine F\u00e4higkeit, den Ausfall einzelner Beine zu kompensieren. In diesem Fall erfolgt eine Adaption der Gangkoordination \u00fcber die Erneuerung der Nachbarschaftsbeziehungen der Beine. Zus\u00e4tzlich verbessern eine Ver\u00e4nderung der Pose und eine Erh\u00f6hung der Gelenksteifigkeiten die Stabilit\u00e4t des durch den Beinverlust beeintr\u00e4chtigten Roboters. Gleich dem Laufalgorithmus verwendet die 6D Eigenbewegungssch\u00e4tzung nur die Messungen der propriozeptiven Sensoren der Beine. Hierbei arbeitet der Algorithmus in einem dreistufigen Verfahren. Zuerst berechnet er mit Hilfe der Beinkinematik und einer Optimierung die Pose des Roboters. Nachfolgend bestimmt er aus den Gelenkmomentmessungen den Gravitationsvektor und berechnet daraus die Neigungswinkel des Systems. Eine Fusion dieser Werte mit den Nick- und Rollwinkeln der ersten Stufe stabilisiert daraufhin die gesamte Odometrie und reduziert deren Drift. Alle in dieser Arbeit entwickelten Algorithmen wurden mit Hilfe von Simulationen sowie Experimenten mit dem drehmomentgeregelten DLR Krabbler erfolgreich validiert.",
+            "contributor": [
+                "gnd:1089456530",
+                "gnd:130008338",
+                "gnd:124204309"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2125187-3",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4116615-2"
+                },
+                {
+                    "@id": "gnd:4012932-9"
+                },
+                {
+                    "@id": "gnd:4001183-5"
+                },
+                {
+                    "@id": "gnd:4328194-1"
+                },
+                {
+                    "@id": "gnd:4140871-8"
+                },
+                {
+                    "@id": "gnd:4304075-5"
+                },
+                {
+                    "@id": "gnd:4000457-0"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

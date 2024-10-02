@@ -1,0 +1,126 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130876607",
+            "sameAs": "Reichl, Gerald"
+        },
+        {
+            "@id": "gnd:13398169X",
+            "sameAs": "Puta, Horst"
+        },
+        {
+            "@id": "gnd:4030910-1",
+            "sameAs": "Kl\u00e4ranlage"
+        },
+        {
+            "@id": "gnd:4112771-7",
+            "sameAs": "Biologische Abwasserreinigung"
+        },
+        {
+            "@id": "gnd:4176074-8",
+            "sameAs": "Prozessoptimierung"
+        },
+        {
+            "@id": "gnd:4271836-3",
+            "sameAs": "Pr\u00e4diktive Regelung"
+        },
+        {
+            "@id": "gnd:4304916-3",
+            "sameAs": "Systemmodell"
+        },
+        {
+            "@id": "gnd:4657257-0",
+            "sameAs": "Modelica"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A506555593",
+            "@type": "bibo:Thesis",
+            "P1053": "XII, 114 S.",
+            "contributor": [
+                "Otter, Martin",
+                "K\u00f6hne, Manfred"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:506555593",
+                "(isbn)3865377270",
+                "(ppn)506555593",
+                "(ean)9783865377272"
+            ],
+            "publisher": "Cuvillier",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)cet",
+                "(classificationName=ddc)620",
+                "(classificationName=bk, id=106420739)58.51 - Abwassertechnik, Wasseraufbereitung",
+                "(classificationName=rvk)AR 22580",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Optimierte Bewirtschaftung von Kl\u00e4ranlagen basierend auf der Modellierung mit Modelica",
+            "abstract": "Diese Arbeit besch\u00e4ftigt sich mit der simulativen Anwendung eines modellpr\u00e4diktiven Regelungsverfahrens mit einem nichtlinearen Systemmodell zur optimalen Bewirtschaftung von kommunalen biologischen Abwasserreinigungsanlagen am Beispiel der Kl\u00e4ranlage der Stadt Jena. Hierbei stehen zwei Aufgaben im Vordergrund: eine geeignete mathematische Systemmodellierung und die Anwendung eines passenden numerischen Optimierungswerkzeuges. Die Modellierung der Komponenten von Abwasserreinigungsanlagen erfolgt mit der objekt-orientierten Modellierungssprache Modelica, auf deren Grundlage die Systemmodelle mit der Simulationsumgebung Dymola erzeugt werden. Dazu wird eine umfangreiche Modelica-Anwendungsbibliothek WasteWater mit anerkannten Modellen f\u00fcr z. B. das Belebungsbecken und die Nachkl\u00e4rung entwickelt. Zur Formulierung und L\u00f6sung des Optimalsteuerungsproblems im Algorithmus der modellpr\u00e4diktiven Regelung kommt der Optimierungl\u00f6ser Omuses/HQP zum Einsatz, der speziell f\u00fcr hochdimensionale nichtlineare Aufgabenstellungen f\u00fcr dynamische Systeme entwickelt wurde. Das automatisch generierte Gesamtmodell der Kl\u00e4ranlage wird \u00fcber die im Optimierungsl\u00f6ser enthaltene S-Function-Schnittstelle mit der Optimierung verkn\u00fcpft. Die Formulierung der Problemstellung umfasst das nichtlineare Systemmodell, das G\u00fctefunktional mit den Zielen der Optimierung, die notwendigen Steuerungs- und Zustandsbeschr\u00e4nkungen sowie die spezifischen Kostenfunktionen f\u00fcr die Referenzkl\u00e4ranlage. Sowohl die energieoptimale als auch kostenoptimale modellpr\u00e4diktive Regelung der Referenzanlage zeigen, dass bei einer nachhaltigen Abwasserreinigung auch die Minimierung der variablen Betriebskosten bei gleichzeitig niedrigen Abflusswerten der \u00dcberwachungsparameter m\u00f6glich ist.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:13398169X"
+                }
+            ],
+            "creator": "gnd:130876607",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "http://www.gbv.de/dms/ilmenau/abs/506555593reich.txt",
+            "subject": [
+                "gnd:4657257-0",
+                "gnd:4304916-3",
+                "gnd:4176074-8",
+                "gnd:4030910-1",
+                "gnd:4271836-3",
+                "gnd:4112771-7"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/506555593.PDF",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "relation": "http://purl.org/dc/terms/relation",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

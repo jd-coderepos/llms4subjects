@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1175405051",
+            "sameAs": "Aldinger, Johannes"
+        },
+        {
+            "@id": "gnd:4024772-7",
+            "sameAs": "Heuristik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1047089572",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (134 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)BSZ:516225103",
+                "(ppn)1047089572",
+                "(doi)10.6094/UNIFR/17250",
+                "(contract)FRUB-opus-17250"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)300",
+                "(classificationName=ddc)307.1",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=ddc)004"
+            ],
+            "title": "Relaxation heuristics for numeric planning",
+            "abstract": "Abstract: Ein wichtiges Merkmal von intelligenten Agenten ist, das sie denken bevor sie handeln. Handlungsplanung ist das Teilgebiet der K\u00fcnstlichen Intelligenz, welches sich mit dieser Art von Denken besch\u00e4ftigt. Das Ergebnis eines solchen Denkprozesses ist eine Handlungsanweisung f\u00fcr die Schritte des Agenten. Gegeben ein durch Zust\u00e4nde und Aktionen beschriebenes Modell der Welt, ist ein Plan eine Sequenz von Aktionen, welche einen initialen Weltzustand in einen Zustand \u00fcberf\u00fchrt, in welchem eine gew\u00fcnschte Zielbedingung erf\u00fcllt ist.<br><br>Im klassischen Planen werden die Zust\u00e4nde der Welt durch Variablen mit beschr\u00e4nktem Wertebereich beschrieben. Allerdings ist dieser Formalismus f\u00fcr viele reale Anwendungsbereiche nicht ausdrucksstark genug. Um etwa Ressourcen (z.B. die verbleibende Menge Benzin im Tank) oder physikalsiche Gr\u00f6\u00dfen (z.B. die aktuelle Geschwindigkeit eines Autos) zu modellieren, werden numerische Variablen ben\u00f6tigt. In dieser Arbeit besch\u00e4ftigen wir uns mit numerischer Handlungsplanung bei welcher Variablen auch kontinuierliche Werte zugewiesen werden k\u00f6nnen.<br><br>Im Allgemeinen ist die Existenz einer L\u00f6sung eines numerischen Planungsproblems unentscheidbar. Daher untersuchen wir N\u00e4herungsl\u00f6sungen f\u00fcr numerische Planungsprobleme, welche die Kosten von bestimmten numerischen Fakten absch\u00e4tzen, insbesondere solche, die zum erreichen eines Ziels ben\u00f6tigt werden. Im Fokus dieser Arbeit stehen hierbei Intervall-basierte Relaxiserungsheuristiken, da diese auf viele numerische Probleme angewendet werden k\u00f6nnen, insbesondere auch auf Probleme mit nicht-linearen \u00c4nderungen. Bei einigen Problemen bieten die vorgestellten Relaxierungsheuristiken eine gute Orientierungshilfe, aber selbst in F\u00e4llen bei denen die Informationsqualit\u00e4t schwach ist, erm\u00f6glichen Relaxierungsheuristiken eine grundlegende Orientierung f\u00fcr Probleme in welchen spezialisierte L\u00f6sungen nicht verf\u00fcgbar sind",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1175405051",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4024772-7"
+            },
+            "isLike": "doi:10.6094/UNIFR/17250",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

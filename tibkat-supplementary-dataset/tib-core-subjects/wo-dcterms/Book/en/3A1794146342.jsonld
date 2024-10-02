@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:171829581",
+            "sameAs": "Finan, Frederico S."
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1794146342",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "creator": "Pouzo, Demian",
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.3386/w29756",
+                "(firstid)KEP:076805379",
+                "(ppn)1794146342"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Politik",
+                "Bayes-Statistik",
+                "Experiment",
+                "Kausalanalyse",
+                "Randomisierte kontrollierte Studie",
+                "Versuchsplanung",
+                "(classificationName=linseach:automatic)mat"
+            ],
+            "title": "Reinforcing RCTs with Multiple Priors while Learning about External Validity",
+            "abstract": "This paper presents a framework for how to incorporate prior sources of information into the design of a sequential experiment. These sources can include previous experiments, expert opinions, or the experimenter's own introspection. We formalize this problem using a multi-prior Bayesian approach that maps each source to a Bayesian model. These models are aggregated according to their associated posterior probabilities. We evaluate a broad of policy rules according to three criteria: whether the experimenter learns the parameters of the payoff distributions, the probability that the experimenter chooses the wrong treatment when deciding to stop the experiment, and the average rewards. We show that our framework exhibits several nice finite sample properties, including robustness to any source that is not externally valid",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:171829581"
+                },
+                {
+                    "@id": "gnd:39157-8"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w29756",
+            "isLike": "doi:10.3386/w29756",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

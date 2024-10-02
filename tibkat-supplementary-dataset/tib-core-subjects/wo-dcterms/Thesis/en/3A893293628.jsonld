@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1115012479",
+            "sameAs": "Bodden, Eric"
+        },
+        {
+            "@id": "gnd:115498370",
+            "sameAs": "H\u00fcllermeier, Eyke"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A893293628",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 237 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Engels, Gregor",
+                "Becker, Steffen",
+                "Platenius, Marie Christin"
+            ],
+            "creator": "Becker, Matthias Wilhelm",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)893293628",
+                "(firstid)HBZ:CT004001899",
+                "(doi)10.17619/UNIPB/1-133"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Engineering self-adaptive systems with simulation-based performance prediction",
+            "abstract": "Von gro\u00dfen Informationssysteme wird zunehmend gefordert, dass diese \"Web-scale\" sind, also auch f\u00fcr mehrere Millionen Nutzern performant sind. Gerade im Business-to-Business Kontext werden Anforderungen an die Performanz der Informationssysteme vertraglich in Form von Service Level Objectives (SLOs) festgehalten. Oft erm\u00f6glichen es nur Cloud Computing Plattformen, welche nahezu unbegrenzt viele Resourcen auf Abruf anbieten, Informationssysteme zu realisieren, die diese SLOs einhalten. Jedoch besteht durch die pay-per-use Kostenmodelle der Plattformen auch ein Zielkonflikt zwischen dem wirtschaftlichen Betrieb der Informationssysteme und dem Erreichen der SLOs. Selbst-adaptive Systeme k\u00f6nnen diesen Zielkonflikt l\u00f6sen, indem sie die Menge der gemieteten Ressourcen autonom dem Bedarf anpassen und somit einen wirtschaftlichen Betrieb bei Erreichung der SLOs erm\u00f6glichen. In der g\u00e4ngigen Praxis werden selbst-adaptive Systeme jedoch weitestgehend mithilfe der Erfahrung und Faustregeln von Softwaretechnikern entwickelt. Konflikte zwischen SLOs oder Entwurfsfehler, welche die Erreichung der SLOs verhindern, werden oft nur sp\u00e4t im Entwicklungsprozess entdeckt, z.B. erst in der Testphase oder gar erst im Betrieb. Dadurch kommt es in Projekten zur Entwicklung selbst-adaptiver Systeme zu Verz\u00f6gerungen oder die Projekte drohen sogar zu scheitern. Mit SimuLizar stellen wir eine modellgetriebene Methode vor, die es Softwaretechnikern erm\u00f6glicht Entwurfsfehler, welche die Erreichung von SLOs negativ beeinflussen, fr\u00fchzeitig zu erkennen. Zu diesem Zweck definieren wir eine graduelle Erreichung von SLOs, so dass Zielkonflikte zwischen SLOs erkannt und gel\u00f6st werden k\u00f6nnen. Die Erreichung von SLOs l\u00e4sst sich durch die Methode ebenfalls bereits in der Entwurfs-phase vorhersagen. Dadurch werden Verz\u00f6gerungen und das Scheitern von Projekten verhindert.. - Large information systems nowadays are required to perform on a Web-scale with millions of users. Especially in the business-to-business context, the required performance is even contractually specified in the form of service level objectives (SLOs). Often, only cloud computing platforms, which provide virtually unlimited resources and on-demand resource leasing, make information systems that meet these SLOs possible. However, the pay-per-use leasing models of the cloud computing platforms still enforce a trade-off between the achievement of SLOs on the one hand and an economical operation on the other hand. Self-adaptive systems can solve this trade-off by autonomously adapting the amount of leased resources to the actual demand. Thus, these systems accomplish an economical operation and still achieve the SLOs at the same time. However, in current practice, self-adaptive systems are developed based on experience of software engineers and rule-of-thumb. Conflicting SLOs or design deficiencies that limit the achievement of the SLOs are often only discovered in late development phases, i.e. in the testing phase or even in the operation phase. Thus, the development of self-adaptive systems is slowed down or is even at risk to fail.With SimuLizar, we provide a model-driven performance prediction method that supports software engineers in identifying design deficiencies that negatively effect the achievement of service level objectives. For that purpose, we introduce the notion of graded achievement of service level objectives, such that trade-offs between conflicting service level objectives can be revealed and solved. With our method, the achievement of services level objectives becomes predictable early at design-time. Thus, also design deficiencies can be revealed early in self-adaptive system development projects and project failures and delays can be averted.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1115012479"
+                },
+                {
+                    "@id": "gnd:115498370"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-133",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

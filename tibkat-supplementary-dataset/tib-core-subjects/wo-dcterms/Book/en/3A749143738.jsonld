@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749143738",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (258p)",
+            "creator": "Polychronopoulos, Constantine D.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(isbn13)9781461310778",
+                "(doi)10.1007/978-1-4613-1077-8",
+                "(ppn)749143738",
+                "(firstid)GBV:749143738"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Computer science",
+                "(classificationName=ddc)004.1",
+                "(classificationName=loc)TK7895.M5",
+                "Microprocessors.",
+                "Operating systems (Computers)",
+                "Computer architecture.",
+                "(classificationName=ddc)004.22",
+                "Compilers (Computer programs).",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Parallel Programming and Compilers",
+            "abstract": [
+                "The second half of the 1970s was marked with impressive advances in array/vector architectures and vectorization techniques and compilers. This progress continued with a particular focus on vector machines until the middle of the 1980s. The major\u00ad ity of supercomputers during this period were register-to-register (Cray 1) or memory-to-memory (CDC Cyber 205) vector (pipelined) machines. However, the increasing demand for higher computational rates lead naturally to parallel comput\u00ad ers and software. Through the replication of autonomous processors in a coordinated system, one can skip over performance barriers due technology limitations. In princi\u00ad ple, parallelism offers unlimited performance potential. Nevertheless, it is very difficult to realize this performance potential in practice. So far, we have seen only the tip of the iceberg called \"parallel machines and parallel programming\". Parallel programming in particular is a rapidly evolving art and, at present, highly empirical. In this book we discuss several aspects of parallel programming and parallelizing compilers. Instead of trying to develop parallel programming methodologies and paradigms, we often focus on more advanced topics assuming that the reader has an adequate background in parallel processing. The book is organized in three main parts. In the first part (Chapters 1 and 2) we set the stage and focus on program transformations and parallelizing compilers. The second part of this book (Chapters 3 and 4) discusses scheduling for parallel machines from the practical point of view macro and microtasking and supporting environments). Finally, the last part (Le.",
+                "1 Parallel Architectures and Compilers -- 1.1 Introduction -- 1.2 Book Overview -- 1.3 Vector and Parallel Machines -- 1.4 Parallelism in Programs -- 1.5 Basic Concepts and Definitions -- 2 Program restructuring for parallel execution -- 2.1 Data Dependences -- 2.2 Common Optimizations -- 2.3 Transformations for Vector/Parallel Loops -- 2.4 Cycle Shrinking -- 2.5 Loop Spreading -- 2.6 Loop Coalescing -- 2.7 Run-Time Dependence Testing -- 2.8 Subscript Blocking -- 2.9 Future Directions -- 3 A Comprehensive Environment for Automatic Packaging and Scheduling of Parallelism -- 3.1 Introduction -- 3.2 A Comprehensive Approach to Scheduling -- 3.3 Auto-Scheduling Compilers -- 4 Static and Dynamic Loop Scheduling -- 4.1 Introduction -- 4.2 The Guided Self-Scheduling (GSS(k)) Algorithm -- 4.3 Simulation Results -- 4.4 Static Loop Scheduling -- 5 Run-Time Overhead -- 5.1 Introduction -- 5.2 Bounds for Dynamic Loop Scheduling -- 5.3 Overhead of Parallel Tasks -- 5.4 Two Run-Time Overhead Models -- 5.5 Deciding the Minimum Unit of Allocation -- 6 Static Program Partitioning -- 6.1 Introduction -- 6.2 Methods for Program Partitioning -- 6.3 Optimal Task Composition for Chains -- 6.4 Details of Interprocessor Communication -- 7 Static Task Scheduling -- 7.1 Introduction -- 7.2 Optimal Allocations for High Level Spreading -- 7.3 Scheduling Independent Serial Tasks -- 7.4 High Level Spreading for Complete Task Graphs -- 7.5 Bounds for Static Scheduling -- 8 Speedup Bounds for Parallel Programs -- 8.1 Introduction -- 8.2 General Bounds on Speedup -- 8.3 Speedup Measures for Task Graphs -- 8.4 Speedup Measures for Doacr Loops -- 8.5 Multiprocessors vs. Vector/Array Machines -- References."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1988",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "59",
+            "isLike": "doi:10.1007/978-1-4613-1077-8",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Parallel Processing and Fifth Generation Computing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

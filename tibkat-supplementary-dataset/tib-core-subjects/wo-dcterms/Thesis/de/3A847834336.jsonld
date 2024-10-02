@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1132520940",
+            "sameAs": "Grigat, Rolf-Rainer"
+        },
+        {
+            "@id": "gnd:1136639292",
+            "sameAs": "Weltin, Uwe"
+        },
+        {
+            "@id": "gnd:1137896043",
+            "sameAs": "Witt, Jonas"
+        },
+        {
+            "@id": "gnd:16076150-5",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Zuverl\u00e4ssigkeitstechnik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A847834336",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressourcen (vii, [157] Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:847834336",
+                "(ppn)847834336",
+                "(doi)10.15480/882.1282"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)620: Ingenieurwissenschaften",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Visual localization, mapping and reconstruction using edges",
+            "abstract": [
+                "Diese Dissertation befasst sich mit kantenbasierten Methoden zur Stereokorrespondenzsuche, visueller Odometrie, Kartierung und der dichten Oberfl\u00e4chenrekonstruktion. Im Besonderen untexturierte Szenen, in denen merkmalpunktbasierte Methoden versagen, werden untersucht. Zur L\u00f6sung werden komplement\u00e4re Ans\u00e4tze vorgestellt, die auch in der mathematisch minimalen Szenenkonfiguration bestehend aus zwei nichtparallelen Liniensegmenten (polygonalisierte Kanten) funktionieren. Mittels eines neuen liniensegmentbasierten visuellen Odometrie- sowie B\u00fcndelausgleichsansatzes werden Liniensegmentkarten in Szenen von moderater Komplexit\u00e4t bis hin zu untexturierten Szenen erfolgreich rekonstruiert. Die vorgestellte dichte Oberfl\u00e4chenrekonstruktion von Liniensegmentkarten erlaubt den Einsatz bei der Exploration einer Umgebung mittels Robotern in Echtzeit.$cde$dAbstract",
+                "This dissertation proposes edge-based methods for stereo matching, visual localization, mapping and dense reconstruction. Particularly untextured scenes where feature point-based methods fail are investigated in order to develop complementary techniques that can still operate in minimal scene configurations with just two nonparallel line segments (i.e. polygonized edges). Using a new line segment-based visual odometry approach and bundle adjustment formulation, line segment maps are reconstructed in challenging scenes ranging from moderate complexity to virtually no texture. The proposed dense surface reconstruction from line segment maps completes the set of algorithms allowing for scenarios such as real-time robotic exploration.$cen$dAbstract"
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1136639292"
+                },
+                {
+                    "@id": "gnd:1132520940"
+                }
+            ],
+            "creator": [
+                "gnd:1137896043",
+                "gnd:16076150-5"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15480/882.1282",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

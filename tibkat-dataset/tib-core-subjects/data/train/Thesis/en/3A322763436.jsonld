@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4000589-6",
+            "sameAs": "Aerodynamik"
+        },
+        {
+            "@id": "gnd:4041456-5",
+            "sameAs": "Navier-Stokes-Gleichung"
+        },
+        {
+            "@id": "gnd:4058076-3",
+            "sameAs": "Str\u00f6mung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A322763436",
+            "@type": "bibo:Thesis",
+            "P1053": "170 p. = 18789 KB, text and images",
+            "contributor": "Jung, Alexander",
+            "identifier": [
+                "(firstid)GBV:322763436",
+                "(ppn)322763436"
+            ],
+            "subject": "(classificationName=linseach:automatic)phy",
+            "title": "Berechnung der Stator-Rotor-Wechselwirkung in Turbomaschinen",
+            "abstract": "Fluid flow through thermal turbomachines is inherently unsteady due to the succession of stationary and rotating blade rows. Together with the influences of solid walls and rising physical equalization processes, extremely complex, threedimensional flow fields are formed. Modern numerical methods allow a time-accurate simulation of those flow effects. In this way, unsteady flow phenomena can be taken into account in the aerodynamic design process in order to further increase the efficiency of energy conversion in turbomachines. This report describes the modifications to a threedimensional Navier-Stokes solver to enable the simulation of unsteady stator/rotor interaction in turbomachines. A method for the time-accurate coupling of the flow fields in relative moving blade rows is developped. A time transformation allows the use of periodic boundary conditions. In this way, the real blade count ratio of a turbomachine stage is modelled without a periodic extension of the computational domain. In order to enable efficient unsteady simulations, several acceleration techniques which lead to a drastic reduction of the long computation times of explicit, time-accurate integration methods are investigated. The numerical method is used to simulate the flow through a 1.5-stage axial flow turbine. The calculated flow field solution is analysed. Identified flow phenomena are visualized and described. A comparison of the numerical results with experimental data shows the qualification of the method to predict unsteady stator/rotor interaction effects in turbomachines.",
+            "alternative": "Calculation of stator/rotor interaction in turbomachines",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4041456-5"
+                },
+                {
+                    "@id": "gnd:4000589-6"
+                },
+                {
+                    "@id": "gnd:4058076-3"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

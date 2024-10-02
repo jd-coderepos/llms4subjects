@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4044614-1",
+            "sameAs": "Parametersch\u00e4tzung"
+        },
+        {
+            "@id": "gnd:4072712-9",
+            "sameAs": "Identifikation"
+        },
+        {
+            "@id": "gnd:4464685-9",
+            "sameAs": "Framework (Informatik)"
+        },
+        {
+            "@id": "gnd:4726968-6",
+            "sameAs": "Biologisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A730574008",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (150 Bl. = 1,49 mb)",
+            "contributor": [
+                "Schreiber, Falk",
+                "Junker, Bj\u00f6rn H.",
+                "Mangold, Michael"
+            ],
+            "creator": "Baker, Syed Murtuza",
+            "identifier": [
+                "(ppn)730574008",
+                "(doi)10.25673/786",
+                "(firstid)GBV:730574008"
+            ],
+            "publisher": "Universit\u00e4ts- und Landesbibliothek Sachsen-Anhalt",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106410598)54.70 - Computermethodik: Allgemeines",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "A parameter estimation framework for kinetic models of biological systems",
+            "abstract": [
+                "This thesis proposes a parameter estimation framework that has two modules, the parameter estimation module and the identifiability analysis module. The parameter estimation module contains a mathematically stable novel filtering technique named CSUKF that propagates the posterior probability distribution while satisfying the state constraints. It takes both the system and measurement noise into consideration. The identifiability analysis module composed of several data oriented submodules can identify the non-identifiable parameters and can direct towards possible solutions. These submodules rank the parameters depending on their sensitivity towards model output, identifies both the structurally and practically non-identifiable parameters and can then direct towards possible solutions to this non-identifiability by suggesting possible extra measurements. If no extra measurement is possible then an informative prior is formulated based on subjective uncertainty which can then uniquely identify the parameters. The framework is applied successfully to three different biological models in order to estimate the parameters.",
+                "Kalman filter; constrained square-root unscented kalman filter; identifiability analysis; kinetic model; profile likelihood; Sensitivity analysis; informative prior",
+                "Kalman-Filter; begrenzter Quadratwurzel-unscented Kalman-Filter; Indentifizierbarkeitsanalyse; kinetisches Modell; Profil-Likelihood; Sensitivitaetsanalyse; a-priori-Wahrscheinlichkeit",
+                "Das in dieser Arbeit vorgeschlagene Framework besteht aus zwei Modulen, eines zur Parametersch\u00e4tzung und eines zur Identifiability-analyse. Das erstere enth\u00e4lt eine neue, stabile Filtermethode, CSUKF, welche die A-posteriori-Wahrscheinlichkeitsverteilung unter Einhaltung der Zustandsbeschr\u00e4nkungen verwendet. Hierbei ber\u00fccksichtigt sie sowohl Systemrauschen als auch Rauschen in den Messungen. Das Identifiability-modul enth\u00e4lt verschiedene datenorientierte Methoden, welche helfen, nicht-identifizierbare Parameter zu finden und bei deren Behebung unterst\u00fctzen. Diese Submodule ordnen die Parameter in Abh\u00e4ngigkeit ihrer Sensitivit\u00e4t gegen\u00fcber dem Model output, zeigen sowohl strukturell als auch praktisch nicht identifizierbare Parameter auf und k\u00f6nnen weitere Messungen vorschlagen, um die Nicht-identifizierbarkeit zu beheben. Sind weitere Messungen nicht m\u00f6glich wird basierend auf subjektiver Unsicherheit ein informative prior erstellt, um diese Parameter zu identifizieren. Das Framework wurde erfolgreich bei drei biologischen Modellen benutzt, um Parameter abzusch\u00e4tzen."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4072712-9",
+                "gnd:4726968-6",
+                "gnd:4464685-9",
+                "gnd:4044614-1"
+            ],
+            "isLike": "doi:10.25673/786"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

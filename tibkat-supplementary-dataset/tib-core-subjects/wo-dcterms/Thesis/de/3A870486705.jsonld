@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1124872248",
+            "sameAs": "Atallah, Richard"
+        },
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A870486705",
+            "@type": "bibo:Thesis",
+            "P1053": "XII, 147 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Strohh\u00f6fer, Christof",
+                "Supriyanto, Eko"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:870486705",
+                "(ppn)870486705",
+                "(isbn13)9783863761929"
+            ],
+            "publisher": "Optimus Verlag",
+            "subject": [
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=bk, id=106409417)44.85 - Kardiologie, Angiologie",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=bk, id=106421557)44.09 - Medizintechnik",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)med"
+            ],
+            "title": "A physiological closed loop system to prevent intradialytic hypotensive episodes",
+            "abstract": "Intradialytische hypotensive Episoden bleiben weiterhin die h\u00e4ufigsten Komplikationen aller Dialysetherapien. Die Ursachen von hypotensiven Episoden sind multifaktoriell. Dazu geh\u00f6rt unter anderem das Applizieren einer nicht ad\u00e4quaten Ultrafiltrationsrate. Im Rahmen dieser Arbeit wurde ein f\u00fcr Dialysetherapien bestimmter physiologischer Relgelkreis entwickelt, der hypotensive Episoden reduziert beziehungsweise verhindert. Der Regelkreis regelt zwei physiologische Parameter, die den physiologischen Zustand des Patienten w\u00e4hrend einer Dialysetherapie widerspiegeln. Diese zwei physiologischen Parameter sind der systoliche Blutdruck und das relative Blutvolumen. Der Regelkreis evaluiert diese Parameter und stellt eine ad\u00e4quate Ultrafiltrationsrate ein. Der physiologische Regelkreis basiert auf einer Fuzzy Logik und wurde modular entwickelt. Der Regelkreis enth\u00e4lt je ein Modul zur \u00dcberwachung des Kurzzeit- und Langzeittrends des systolischen Blutdruckes, und zus\u00e4tzlich noch ein Modul zur \u00dcberwachung der Ver\u00e4nderung des relativen Blutvolumens. Diese Module \u00fcberwachen den Trend ihrer entsprechenden Parameter und berechnen alle f\u00fcnf Minuten je eine Variable, die den aktuellen kardiovaskul\u00e4ren Zustand des Patienten widerspiegelt. Die drei berechneten Variablen werden in einer Gewichtungseinheit gewichtet und zu einem Wert kombiniert, der den aktuellen kardiovaskul\u00e4ren Zustand des Patienten wiedergibt. Diese kombinierte Variable wird mit dem zum aktuellen Zeitpunkt der Therapie entzogenen Ultrafiltrationsvolumen abgeglichen und f\u00fcr die Berechnung der Ultrafiltrationsrate f\u00fcr die n\u00e4chsten f\u00fcnf Minuten angewendet. Der physiologische Regelkreis wurde mit Hilfe von medizinischen Experten, eines Laboraufbaus und einer Pilot-Studie verifiziert und validiert. Die aus 6 Patienten und 106 Therapien bestehende Pilotstudie zeigte, dass 83% aller Dialysepatienten einen besseren kardiovaskul\u00e4ren Zustand erreichten, wenn sie mit dem entwickelten physiologischen Regelkreis behandelt wurden, verglichen mit einer konstanten Ultrafiltrationsrate. Ein auf dem physiologischen Regelkreis basiertes Produkt ist derzeit in Entwicklung und wird in Dialysemaschinen implementiert.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:143795244"
+                }
+            ],
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1124872248"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/abs/870486705atall.txt",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

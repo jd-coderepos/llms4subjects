@@ -1,0 +1,122 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1188755676",
+            "sameAs": "5G"
+        },
+        {
+            "@id": "gnd:1217885757",
+            "sameAs": "Beamforming (Signalverarbeitung)"
+        },
+        {
+            "@id": "gnd:1229195424",
+            "sameAs": "Amin, Muhammad Bilal"
+        },
+        {
+            "@id": "gnd:130020788",
+            "sameAs": "Haardt, Martin"
+        },
+        {
+            "@id": "gnd:136084575",
+            "sameAs": "Del Galdo, Giovanni"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4142611-3",
+            "sameAs": "Antennengruppe"
+        },
+        {
+            "@id": "gnd:4170280-3",
+            "sameAs": "Mobilfunk"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1761277871",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xviii, 146 Seiten)",
+            "contributor": "Redana, Simone",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1761277871",
+                "(firstid)KXP:1761277871"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)621.38413",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Design and deployment options for sub-6 GHz FDD massive MIMO systems",
+            "abstract": "Um den schnell wachsenden Kapazit\u00e4tsbedarf drahtloser Ger\u00e4te zu befriedigen, zielen die kommenden Mobilfunksysteme der f\u00fcnften Generation (5G) auf unterschiedliche und teilweise extrem anspruchsvolle Konzepte, Techniken und Szenarien in Bezug auf die Anzahl der versorgten Nutzer, Datenraten und Latenzzeiten ab. Von massive MIMO werden erhebliche Leistungsvorteile erwartet, insbesondere in Kombination mit einer engen Zusammenarbeit zwischen den Zellen, einschlie\u00dflich Joint Transmission Coordinated MultiPoint (JT-CoMP), Interferenzunterdr\u00fcckung auf der Seite des Endger\u00e4ts (UE) und einem extrem dichten Einsatz von kleinen Zellen. Die Millimeterwellenb\u00e4nder f\u00fcr 5G werden 2019 zugewiesen, daher m\u00fcssen vorerst alle Leistungsziele von 5G von den Funkfrequenzb\u00e4ndern unter 6 GHz unterst\u00fctzt werden. Das bedeutet, dass f\u00fcr gepaartes und ungepaartes Spektrum sowohl Frequency Division Duplex (FDD) als auch Time Division Duplex (TDD) unterst\u00fctzt werden m\u00fcssen. Massive MIMO, typischerweise als starke \u00dcberprovisionierung von Antennen gegen\u00fcber den bedienten Nutzern konzipiert, verspricht, verschiedene herausfordernde Probleme wie Interzell-Interferenzen, Multi-User-MIMO (MU-MIMO) Scheduling, Abdeckungsl\u00fccken und Kapazit\u00e4tsgrenzen zu l\u00f6sen. Es wird jedoch davon ausgegangen, dass es nur f\u00fcr TDD-Systeme funktioniert, da eine massive MIMO-Downlink-\u00dcbertragung f\u00fcr FDD-Systeme aufgrund von zwei Anforderungen eine besondere Herausforderung darstellt. Erstens muss die Kanalzustandsinformation (CSI) von einer gro\u00dfen Anzahl von Antennen erhalten werden, ohne dass ein unangemessener Overhead durch die \u00dcbertragung orthogonaler Downlink-Referenzsignale von diesen Antennen entsteht. Zweitens m\u00fcssen die relevanten Kanalsch\u00e4tzungen auf der Netzwerkseite ohne einen unrealistischen Overhead f\u00fcr die Uplink-Steuersignalisierung zur Verf\u00fcgung gestellt werden. Ein explodierender Overhead f\u00fcr orthogonale Referenzsignale oder eine begrenzte CSI-Genauigkeit f\u00fchrt zu einer Pilotverschmutzung, die in der Literatur als leistungsbegrenzend beschrieben wurde und insbesondere f\u00fcr empfindliche Interferenzunterdr\u00fcckungssysteme nachteilig ist. Um die Anzahl der Transceiver in einem FDD-Massive-MIMO-System zu reduzieren, haben wir daher ein Framework entwickelt, das auf dem Grid of Beams (GoB)-Konzept basiert. Es wandelt die gro\u00dfe Anzahl von Antennen in effektive Antennenports um, die dann sogar die vorhandenen Empfangssignale von Long Term Evolution - Advanced (LTE-A) nutzen k\u00f6nnen. Um Ungenauigkeiten in der CSI, die zur Basisstation zur\u00fcckgef\u00fchrt wird, effektiv zu bek\u00e4mpfen, ben\u00f6tigen wir au\u00dferdem Algorithmen zur Kanalvorhersage, die eine zuverl\u00e4ssige Vorhersage \u00fcber einen m\u00f6glichst gro\u00dfen Zeithorizont liefern. Zu diesem Zweck haben wir einen verbesserten hybriden Algorithmus entwickelt, der auf zwei modernen Kanalvorhersagealgorithmen basiert. Er liefert eine zuverl\u00e4ssige Vorhersage auch f\u00fcr Kanalkomponenten, die mit niedrigen Signal-Rausch-Verh\u00e4ltnissen empfangen werden. Dar\u00fcber hinaus konzentrieren sich die wesentlichen Massive-MIMO-Schemata auf die Basisstationsseite mit dem Ziel, eine hohe spektrale Effizienz durch MU-MIMO oder eine gro\u00dfe Abdeckung durch starke Beamforming-Gewinne zu erreichen. Die UE-seitige Betrachtung ist typischerweise auf vier oder meist acht Antennenelemente pro UE beschr\u00e4nkt, was durch die entsprechende UE-Komplexit\u00e4t und den begrenzten Platz zur Platzierung weiterer Antennenelemente f\u00fcr den Fall unter 6 GHz gerechtfertigt werden kann. UE-seitiges Beamforming w\u00fcrde jedoch viele Vorteile bieten, die von einer verbesserten Kanalsch\u00e4tzung und Vorhersagegenauigkeit \u00fcber eine effektive St\u00f6rungsunterdr\u00fcckung bis hin zu einer besseren Abdeckung und spektralen Effizienz auf Systemebene reichen. Aus diesem Grund haben wir das neuartige Konzept des \"Virtual Beamforming\" vorgeschlagen, das es uns erm\u00f6glicht, virtuelle Massive-MIMO-Arrays am UE zu bilden, auch wenn es nur ein einziges physisches Antennenelement hat. Es wird angenommen, dass sich das UE mit einer konstanten Geschwindigkeit bewegt und die Empfangssignale f\u00fcr die benachbarten Zeitschlitze gespeichert werden. Diese Messungen werden dann zur Bildung von Strahlformern verwendet, als ob sie von separaten Antennenelementen empfangen w\u00fcrden. Wir erfassen nur einen kleinen r\u00e4umlichen Teilbereich des Kanals und verlieren daher Energie, aber dieser Verlust wird teilweise durch den Gewinn der Strahlformung kompensiert. Virtuelles Beamforming f\u00fchrt zu einer Reduzierung der Anzahl relevanter Mehrwegekomponenten pro Kanalkomponente sowie der Anzahl der Kanalkomponenten selbst und ergibt einen Gewinn an Vorhersagegenauigkeit von ca. 10 dB geringerem normalisierten mittleren quadratischen Fehler im Vergleich zum Fall eines UE mit einer einzelnen Antenne. Auf der anderen Seite kann virtuelles Beamforming, das direkt auf die Nutzdaten angewendet wird, sehr ineffizient sein, da es die erneute \u00dcbertragung von Datensymbolen erfordert. Um diese Herausforderung zu \u00fcberwinden, haben wir ein paralleles \u00dcbertragungsschema \u00fcber einen Satz kodierter virtueller Strahlen entwickelt. Dadurch k\u00f6nnen wir den Effekt der inh\u00e4renten Wieder\u00fcbertragungsstrafe des virtuellen Beamforming reduzieren und wir haben gezeigt, dass eine zuverl\u00e4ssige Kommunikation m\u00f6glich ist. Dar\u00fcber hinaus haben wir ein Framework entwickelt, um eine unterschiedliche Anzahl von virtuellen und physischen Antennenelementen zu einem virtuellen Massive-MIMO-Array zu kombinieren.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:130020788"
+                },
+                {
+                    "@id": "gnd:136084575"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": [
+                "gnd:1229195424",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4170280-3",
+                "gnd:1188755676",
+                "gnd:4142611-3",
+                "gnd:1217885757"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

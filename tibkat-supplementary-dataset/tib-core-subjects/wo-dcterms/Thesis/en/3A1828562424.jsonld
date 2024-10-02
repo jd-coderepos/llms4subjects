@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1276457448",
+            "sameAs": "Huang, Yinghao"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1828562424",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 127 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1828562424",
+                "(firstid)KXP:1828562424",
+                "(doi)10.15496/publikation-75583"
+            ],
+            "subject": [
+                "K\u00fcnstliche Intelligenz",
+                "Motion Capturing",
+                "Computergrafik",
+                "(classificationName=ddc-dbn)006.37",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Deep learning",
+                "Maschinelles Sehen"
+            ],
+            "title": "Whole-body motion capture and beyond : from model-based inference to learning-based regression",
+            "abstract": [
+                "Though effective and successful, traditional marker-less Motion Capture (MoCap) methods suffer from several limitations: 1) they presume a character-specific body model, thus they do not permit a fully automatic pipeline and generalization over diverse body shapes; 2) no objects humans interact with are tracked, while in reality interaction between humans and objects is ubiquitous; 3) they heavily rely on a sophisticated optimization process, which needs a good initialization and strong priors. This process can be slow. We address all the aforementioned issues in this thesis, as described below. Firstly we propose a fully automatic method to accurately reconstruct a 3D human body from multi-view RGB videos, the typical setup for MoCap systems. We pre-process all RGB videos to obtain 2D keypoints and silhouettes. Then we fit the SMPL body model into the 2D measurements in two successive stages. In the first stage, the shape and pose parameters of SMPL are estimated frame-wise sequentially. In the second stage, a batch of frames are refined jointly with an extra DCT prior. Our method can naturally handle different body shapes and challenging poses without human intervention. Then we extend this system to support tracking of rigid objects the subjects interact with. Our setup consists of 6 Azure Kinect cameras. Firstly we pre-process all the videos by segmenting humans and objects and detecting 2D body joints. We adopt the SMPL-X model here to capture body and hand pose. The model is fitted to 2D keypoints and point clouds. Then the body poses and object poses are jointly updated with contact and interpenetration constraints. With this approach, we capture a novel human-object interaction dataset with natural RGB images and plausible body and object motion information. Lastly, we present the first practical and lightweight MoCap system that needs only 6 IMUs. Our approach is based on Bi-directional RNNs. The network can make use of temporal information by jointly reasoning about past and future IMU measurements. To handle the data scarcity issue, we create synthetic data from archival MoCap data. Overall, our system runs ten times faster than traditional optimization-based methods, and is numerically more accurate. We also show it is feasible to estimate which activity the subject is doing by only observing the IMU measurement from a smartwatch worn by the subject. This not only can be useful for a high-level semantic understanding of the human behavior, but also alarms the public of potential privacy concerns. In summary, we advance marker-less MoCap by contributing the first automatic yet accurate system, extending the MoCap methods to support rigid object tracking, and proposing a practical and lightweight algorithm via 6 IMUs. We believe our work makes marker-less and IMUs-based MoCap cheaper and more practical, thus closer to end-users for daily usage.",
+                "Herk\u00f6mmliche markerlose Motion Capture (MoCap)-Methoden sind zwar effektiv und erfolgreich, haben aber mehrere Einschr\u00e4nkungen: 1) Sie setzen ein charakterspezifi-sches K\u00f6rpermodell voraus und erlauben daher keine vollautomatische Pipeline und keine Verallgemeinerung \u00fcber verschiedene Korperformen; 2) es werden keine Objekte verfolgt, mit denen Menschen interagieren, w\u00e4hrend in der Realit\u00e4t die Interaktion zwischen Menschen und Objekten allgegenw\u00e4rtig ist; 3) sie sind in hohem Ma\u00dfe von ausgekl\u00fcgelten Optimierungen abh\u00e4ngig, die eine gute Initialisierung und starke Priorit\u00e4ten erfordern. Dieser Prozess kann sehr zeitaufw\u00e4ndig sein. In dieser Arbeit befassen wir uns mit allen oben genannten Problemen. Zun\u00e4chst schlagen wir eine vollautomatische Methode zur genauen 3D-Rekonstruktion des menschlichen K\u00f6rpers aus RGB-Videos mit mehreren Ansichten vor. Wir verarbeiten alle RGB-Videos vor, um 2D-Keypoints und Silhouetten zu erhalten. Dann passen wir modell in zwei aufeinander folgenden Schritten an die 2D-Messungen an. In der ersten Phase werden die Formparameter und die Posenparameter der SMPL nacheinander und bildweise gescht\u00e4zt. In der zweiten Phase wird eine Reihe von Einzelbildern gemeinsam mit der zus\u00e4tzlichen DCT-Priorisierung (Discrete Cosine Transformation) verfeinert. Unsere Methode kann verschiedene K\u00f6rperformen und schwierige Posen ohne menschliches Zutun verarbeiten. Dann erweitern wir das MoCap-System, um die Verfolgung von starren Objekten zu unterstutzen, mit denen die Testpersonen interagieren. Unser System besteht aus 6 RGB-D Azure-Kameras. Zun\u00e4chst werden alle RGB-D Videos vorverarbeitet, indem Menschen und Objekte segmentiert und 2D-K\u00f6rpergelenke erkannt werden. Das SMPL-X Modell wird hier eingesetzt, um die Handhaltung besser zu erfassen. Das SMPL-XModell wird in 2D-Keypoints und akkumulierte Punktwolken eingepasst. Wir zeigen, dass die K\u00f6rperhaltung wichtige Informationen f\u00fcr eine bessere Objektverfolgung liefert. Anschlie\u00dfend werden die K\u00f6rper- und Objektposen gemeinsam mit Kontakt- und Durch-dringungsbeschrankungen optimiert. Mit diesem Ansatz haben wir den ersten Mensch-Objekt-Interaktionsdatensatz mit nat\u00fcrlichen RGB-Bildern und angemessenen K\u00f6rper und Objektbewegungsinformationen erfasst. Schlie\u00dflich pr\u00e4sentieren wir das erste praktische, leichtgewichtige MoCap-System, das nur 6 Inertialmesseinheiten (IMUs) ben\u00f6tigt. Unser Ansatz basiert auf bi-direktionalen rekurrenten neuronalen Netzen (Bi-RNN). Das Netzwerk soll die zeitliche Abh\u00e4ngigkeit besser ausnutzen, indem es vergangene und zuk\u00fcnftige Teilmessungen der IMUs zu- sammenfasst. Um das Problem der Datenknappheit zu l\u00f6sen, erstellen wir synthetische Daten aus archivierten MoCap-Daten. Insgesamt l\u00e4uft unser System 10 Mal schneller als die Optimierungsmethode und ist numerisch genauer. Wir zeigen auch, dass es m\u00f6glich ist, die Aktivit\u00e4t der Testperson abzusch\u00e4tzen, indem nur die IMU Messung der Smart-watch, die die Testperson tr\u00e4gt, betrachtet wird. Zusammenfassend l\u00e4sst sich sagen, dass wir die markerlose MoCap-Methode weiter-entwickelt haben, indem wir das erste automatische und dennoch genaue System beisteuerten, die MoCap-Methoden zur Unterst\u00fctzung der Verfolgung starrer Objekte erweiterten und einen praktischen und leichtgewichtigen Algorithmus mit 6 IMUs vorschlugen. Wir glauben, dass unsere Arbeit die markerlose MoCap billiger und praktikabler macht und somit den Endnutzern fur den taglichen Gebrauch n\u00e4her bringt."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1276457448",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-75583",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

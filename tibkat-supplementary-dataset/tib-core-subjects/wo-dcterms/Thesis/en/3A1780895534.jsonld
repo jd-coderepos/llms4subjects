@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1780895534",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Michel, Thilo",
+                "Fleck, Ivor"
+            ],
+            "creator": "Schmidt, Sebastian",
+            "identifier": [
+                "(ppn)1780895534",
+                "(firstid)DNB:1245619101"
+            ],
+            "publisher": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg (FAU)",
+            "subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)616.075",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)610"
+            ],
+            "title": "Dosimetry and X-ray spectroscopy with the photon counting pixel detector Dosepix",
+            "abstract": "Dosepix is a pixelated photon-counting detector designed for dosimetry tasks. It employs a silicon sensor to register the deposited energies from photon interactions. Each of its 16 x 16 pixels acquires events independently and can resolve energy. The pixelation of Dosepix ensures that the event rate per pixel is reduced. The deposited energies of registered events can directly be sorted in a configurable internal 16 bin histogram allowing for dead-time free measurements. These features make Dosepix a promising detector for dosimetry and X-ray spectroscopy applications. These tasks are accomplished with systems of one or multiple Dosepix detectors in this thesis. The detectors are used with appropriate filters which attenuate and change the impinging photon spectrum. This increases the information and the ability to measure correctly for different angles of irradiation. The response of the Dosepix detector to photon fields of various energies is simulated for numerous setups and analysed in great detail. Conversion factors from registered photon events to personal dose equivalents, representing stochastic effects of radiation inducing health risks, are optimised and evaluated with measurements. Filters for Dosepix are designed to reduce the number of required detectors for dose estimation in clinical use. A fast energy calibration method for Dosepix is developed via deep learning methods. It only requires the measurement of a single calibration source and is able to work with data of low statistics. A convolutional neural network is developed, which reconstructs an X-ray tube's photon spectrum from measurements with a Dosepix detector system. Additional networks to estimate various characteristics of this spectrum, essential for quality assurance, are established. A detailed simulation of the inner workings of Dosepix at the hardware level is introduced. It describes a detector's behaviour for high photon flux conditions. A system of three Dosepix detectors with different metal filters can measure the personal ...",
+            "alternative": "Dosimetrie und R\u00f6ntgenspektroskopie mit dem photonenz\u00e4hlenden Pixeldetektor Dosepix",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)GBV-ODiss",
+                "(collectioncode)GBV-BASE-ODISS"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Erlangen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

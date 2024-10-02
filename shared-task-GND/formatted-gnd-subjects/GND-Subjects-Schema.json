@@ -4,11 +4,11 @@
     "type": "object",
 	"properties": {
 		"Code": {
-			"description": "GND subject code in the format: gnd:<Identifier>",
+			"description": "GND subject code in the format: gnd:<Identifier> - Code 021 - Field: 2 and a",
 			"type": "string"
 		},
 		"Classification Number": {
-			"description": "Subject classification number",
+			"description": "Subject classification number - Code: 065 - Field: a",
 			"type": "string"
 		},
 		"Classification Name": {
@@ -16,34 +16,34 @@
 			"type": "string"
 		},
 		"Name": {
-			"description": "Subject Name, topical term",
+			"description": "Subject Name, topical term - Code: 150 - Field: a",
 			"type": "string"
 		},
 		"Alternate Name": {
-			"description": "The synonyms/aternate names for this subject",
+			"description": "The synonyms/aternate names for this subject - Code: 450 - Field: a",
 			"type": "array",
 			"items": {
 				"type": "string"
 			}
-		}
+		},
 		"Related Subjects": {
-			"description": "Related subjects names or subdivision record to trace",
+			"description": "Related subjects names or subdivision record to trace - Code: 550 - Field: a",
 			"type": "array",
 			"items": {
 				"type": "string"
 			}
 		},
 		"Source": {
-			"description": "Source citation",
+			"description": "Source citation - Code: 670 - Field: a",
 			"type": "string"
 		},
 		"Source URL": {
-			"description": "Source citation - Uniform Resource Identifier",
+			"description": "Source citation - Uniform Resource Identifier - Code: 670 - Field: u",
 			"type": "string"
 		},
 		"Definition": {
-			"description": "A formal definition of the subject",
+			"description": "A formal definition of the subject - Code: 677 - Field: a",
 			"type": "string"
-		},
+		}
 	}
 }

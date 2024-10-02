@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A833354841",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Ahmed, Mohammed Nour Abdelgwad",
+            "identifier": [
+                "(ppn)833354841",
+                "(firstid)GBV:833354841"
+            ],
+            "publisher": "Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=dbn)621.3",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "An Intelligent Architecture for Legged Robot Terrain Classification Using Proprioceptive and Exteroceptive Data",
+            "abstract": [
+                "In this thesis, we introduce a novel architecture called \"Intelligent Architecture for Legged Robot Terrain Classification Using Proprioceptive and Exteroceptive Data (iARTEC )\". The proposed architecture integrates different terrain characterization and classification with other robotic system components. Within iARTEC , we consider the problem of having a legged robot autonomously learn to identify different terrains. Robust terrain identification can be used to enhance the capabilities of legged robot systems, both in terms of locomotion and navigation. For example, a robot that has learned to differentiate sand from gravel can autonomously modify (or even select a different) path in favor of traversing over a better terrain. The same knowledge of the terrain type can also be used to guide a robot in order to avoid specific terrains. To tackle this problem, we developed four approaches for terrain characterization, classification, path planning, and control for a mobile legged robot. We developed a particle system inspired approach to estimate the robot foot\u00e2 ground contact interaction forces. The approach is derived from the well known Bekker\u00e2 s theory to estimate the contact forces based on its point contact model concepts. It is realistically model real-time 3-dimensional contact behaviors between rigid body objects and the soil. For a real-time capable implementation of this approach, its reformulated to use a lookup table generated from simple contact experiments of the robot foot with the terrain. Also, we introduced a short-range terrain classifier using the robot embodied data. The classifier is based on a supervised machine learning approach to optimize the classifier parameters and terrain it using proprioceptive sensor measurements. The learning framework preprocesses sensor data through channel reduction and filtering such that the classifier is trained on the feature vectors that are closely associated with terrain class. For the long-range terrain type prediction using the robot exteroceptive data, we present an online visual terrain classification system. It uses only a monocular camera with a feature-based terrain classification algorithm which is robust to changes in illumination and view points. For this algorithm, we extract local features of terrains using Speed Up Robust Feature (SURF). We encode the features using the Bag of Words (BoW) technique, and then classify the words using Support Vector Machines (SVMs). In addition, we described a terrain dependent navigation and path planning approach that is based on E* planer and employs a proposed metric that specifies the navigation costs associated terrain types. This generated path naturally avoids obstacles and favors terrains with lower values of the metric. At the low level, a proportional input-scaling controller is designed and implemented to autonomously steer the robot to follow the desired path in a stable manner. iARTEC performance was tested and validated experimentally using several different sensing modalities (proprioceptive and exteroceptive) and on the six legged robotic platform CREX. The results show that the proposed architecture integrating the aforementioned approaches with the robotic system allowed the robot to learn both robot-terrain interaction and remote terrain perception models, as well as the relations linking those models. This learning mechanism is performed according to the robot own embodied data. Based on the knowledge available, the approach makes use of the detected remote terrain classes to predict the most probable navigation behavior. With the assigned metric, the performance of the robot on a given terrain is predicted. This allows the navigation of the robot to be influenced by the learned models. Finally, we believe that iARTEC and the methods proposed in this thesis can likely also be implemented on other robot types (such as wheeled robots), although we did not test this option in our work.",
+                "Legged robot, terrain identification, image classification, path planning, path following, linear control, nonlinear control."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

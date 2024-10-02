@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A635676893",
+            "@type": "bibo:Report",
+            "P1053": "26 S.",
+            "creator": [
+                "Hildebrandt, Stephan",
+                "Lambers, Leen",
+                "Giese, Holger"
+            ],
+            "identifier": [
+                "(firstid)GBV:635676893",
+                "(ppn)635676893",
+                "(isbn13)9783869560786"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "subject": [
+                "(classificationName=ddc)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Toward bridging the gap between formal semantics and implementation of triple graph grammars",
+            "abstract": "The correctness of model transformations is a crucial element for the model-driven engineering of high quality software. A prerequisite to verify model transformations at the level of the model transformation specification is that an unambiguous formal semantics exists and that the employed implementation of the model transformation language adheres to this semantics. However, for existing relational model transformation approaches it is usually not really clear under which constraints particular implementations are really conform to the formal semantics. In this paper, we will bridge this gap for the formal semantics of triple graph grammars (TGG) and an existing efficient implementation. Whereas the formal semantics assumes backtracking and ignores non-determinism, practical implementations do not support backtracking, require rule sets that ensure determinism, and include further optimizations. Therefore, we capture how the considered TGG implementation realizes the transformation by means of operational rules, define required criteria and show conformance to the formal semantics if these criteria are fulfilled. We further outline how static analysis can be employed to guarantee these criteria.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "volume": "37",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Softwaresystemtechnik an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

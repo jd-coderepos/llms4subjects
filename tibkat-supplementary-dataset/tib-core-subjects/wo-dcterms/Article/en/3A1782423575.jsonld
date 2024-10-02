@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1206222867",
+            "sameAs": "Henke, Karsten"
+        },
+        {
+            "@id": "gnd:122131176X",
+            "sameAs": "Nau, Johannes"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1782423575",
+            "@type": "bibo:Article",
+            "creator": "Bock, Robert Niklas",
+            "identifier": [
+                "(firstid)KXP:1782423575",
+                "(ppn)1782423575",
+                "(doi)10.1007/978-3-030-82529-4_3"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Production engineering.",
+                "Computational intelligence.",
+                "Computer engineering.",
+                "Engineering\u2014Data processing.",
+                "Embedded computer systems.",
+                "(classificationName=ddc)006.3",
+                "Industrial engineering.",
+                "Internet of things.",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "GOLDi 2.0: beyond raw digital signals - electrical interface emulation",
+            "abstract": "The interactive hybrid remote lab Grid of online lab devices Ilmenau (GOLDi) has been successfully used internationally for many years as a cloud-based system for controlling electromechanical hardware models with various specification techniques. However, the complexity of digital systems is constantly increasing. To keep up with this trend, the didactic concept of remote labs is also constantly evolving. GOLDi is currently reaching its limitations on complexity and variability because all sensors and actuators are required to communicate via a few binary, not time-sensitive signals. This prevents the usage of sensors and actuators which require specific protocols, modulated or specifically timed signals. We propose a new way of transmitting complex signals including timing information by introducing interface hardware between the control unit and the physical system to emulate the output signals of one as the input signals of the other. This in turn allows for new experiment designs tailored towards more realistic setups of sensors and actuators which provide a much richer learning experience.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:122131176X"
+                },
+                {
+                    "@id": "gnd:1206222867"
+                }
+            ],
+            "extent": "23-34",
+            "isPartOf": [
+                "(isbn13)9783030825287",
+                "(ppn)1772478717"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "pageStart": "23",
+            "isLike": "doi:10.1007/978-3-030-82529-4_3",
+            "P30128": "Online engineering and society 4.0",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "extent": "http://purl.org/dc/terms/extent",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A744949882",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (247S)",
+            "creator": "Vandewalle, Stefan",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(firstid)GBV:744949882",
+                "(isbn13)9783322947611",
+                "(doi)10.1007/978-3-322-94761-1",
+                "(ppn)744949882"
+            ],
+            "publisher": "Vieweg+Teubner Verlag",
+            "subject": [
+                "(classificationName=msc)65-02",
+                "(classificationName=msc)65Y05",
+                "(classificationName=msc)65M06",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)35K15",
+                "(classificationName=loc)TA1-2040",
+                "(classificationName=msc)65M55",
+                "Engineering",
+                "(classificationName=msc)65M12",
+                "(classificationName=ddc)620",
+                "(classificationName=msc)*65M20"
+            ],
+            "title": "Parallel Multigrid Waveform Relaxation for Parabolic Problems",
+            "abstract": "1 Introduction -- 1.1 Numerical simulation and parallel processing -- 1.2 The simulation of time-dependent processes -- 1.3 Outline -- 2 Waveform Relaxation Methods -- 2.1 Introduction -- 2.2 Waveform relaxation: basic ideas -- 2.3 A classification of waveform methods -- 2.4 General convergence results -- 2.5 Convergence analysis for linear systems -- 2.6 Waveform relaxation acceleration techniques -- 2.7 Some concluding remarks -- 3 Waveform Relaxation Methods for Initial Boundary Value Problems -- 3.1 Introduction and notations -- 3.2 Standard waveform relaxation -- 3.3 Linear multigrid acceleration -- 3.4 Convergence analysis -- 3.5 Experimental results -- 3.6 Nonlinear multigrid waveform relaxation -- 3.7 A multigrid method on a space-time grid -- 3.8 Concluding remarks -- 4 Waveform Relaxation for Solving Time-Periodic Problems -- 4.1 Introduction -- 4.2 Standard time-periodic PDE solvers -- 4.3 Time-periodic waveform relaxation -- 4.4 Analysis of the continuous-time iteration -- 4.5 Analysis of the discrete-time iteration -- 4.6 Multigrid acceleration -- 4.7 Autonomous time-periodic problems -- 5 A Short Introduction to Parallel Computers and Parallel Computing -- 5.1 Introduction -- 5.2 Classification of parallel computers -- 5.3 The hypercube topology -- 5.4 The Intel iPSC/2 hypercube multiprocessor -- 5.5 Parallel performance parameters -- 6 Parallel Implementation of Standard Parabolic Marching Schemes -- 6.1 Introduction -- 6.2 Problem class and discretization -- 6.3 Parallel implementation: preliminaries -- 6.4 The explicit update step -- 6.5 The multigrid solver -- 6.6 The tridiagonal systems solver -- 6.7 Timing results on the Intel hypercube -- 6.8 Numerical examples -- 6.9 Concluding remarks -- 7 Computational Complexity of Multigrid Waveform Relaxation -- 7.1 Introduction -- 7.2 Arithmetic complexity -- 7.3 Parallel implementation -- 7.4 Vectorization -- 7.5 Concluding remarks -- 8 Case Studies -- 8.1 Introduction -- 8.2 Programming considerations -- 8.3 Representation of the results -- 8.4 Linear initial boundary value problems -- 8.5 Nonlinear initial boundary value problems -- 8.6 Linear time-periodic problems -- 8.7 Example 7: a nonlinear periodic system -- 8.8 Further remarks, limits of applicability -- 9 Concluding Remarks and Suggestions for Future Research -- A Discretization and Stencils.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SNA",
+                "(collectioncode)ZDB-2-BAD"
+            ],
+            "issued": "1993",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-322-94761-1",
+            "P30128": "Teubner Skripten zur Numerik",
+            "P60163": "Wiesbaden"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

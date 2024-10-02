@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1261051572",
+            "sameAs": "Gao, Yapeng"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1807564517",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 124 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-69548",
+                "(firstid)KXP:1807564517",
+                "(ppn)1807564517"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc)629.892",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Sensor fusion and stroke learning in robotic table tennis",
+            "abstract": "Research on robotic table tennis is attractive for studying diverse algorithms in many fields, such as object detection, robot learning, and sensor fusion, as table tennis is full of challenges in terms of speed and spin. In this thesis, we focus on optimal stroke learning with sensor fusion for a KUKA industrial manipulator. Four high-speed cameras and an IMU are used for object pose detection. To learn an optimal stroke for the robot, a novel policy gradient approach is proposed. Firstly, we develop a multi-camera calibration approach for wide-baseline camera pairs. The initial intrinsic and extrinsic transformations are computed using the classic calibration methods, resulting in a 3D position error of 15.0 mm for four cameras (11.0 mm for each stereo pair) in our test dataset. A novel loss function is proposed to post-optimize them with a new set of pattern images from each camera. The final accuracy is 3.2 mm for stereo cameras and 2.5 mm for four cameras. To efficiently use those cameras, we divide them into two stereo-camera pairs for the ball and racket detection, respectively. With the well-calibrated cameras, the 3D position of the ball can be triangulated when the pixel positions of the ball center are determined with two different approaches: color thresholding and two layers CNN. Secondly, we propose an optimal stroke learning approach for teaching the robot to play table tennis. A realistic simulation environment is built for the ball\u2019s dynamics and the robot\u2019s kinematics. The learning strategy is decomposed into two stages: the ball hitting state prediction and the optimal stroke learning. Based on the controllable and applicable actions in our robot, a multi-dimensional reward function and $Q$-value model are proposed. The comparison with other RL methods is performed using an evaluation dataset of 1000 balls in simulation. An efficient retraining approach is proposed to close the sim-to-real gap. The testing experiments in reality show that the robot can successfully return the ball to the desired target with an error of around 24.9 cm and a success rate of 98% in three different scenarios. Instead of training the policy in simulation, another option is initializing it with the actions of a human player and the corresponding state of the ball. To get the human actions, we directly detect the racket from images and estimate its 6D pose using two proposed approaches: traditional image processing with two cameras and deep learning by fusing one camera and an IMU. The experiment shows the latter method outperforms the former in terms of robustness for both the black and red sides of the racket. The former method is 1.9 cm better in position (2.8 cm versus 4.7 cm), but much slower in speed when the detection head is replaced with YOLOv4. Finally, a behavior cloning experiment is performed to reveal the potential of this work.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1261051572",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-69548",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

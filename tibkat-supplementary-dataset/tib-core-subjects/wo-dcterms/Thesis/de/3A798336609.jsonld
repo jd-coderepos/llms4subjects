@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1059459086",
+            "sameAs": "Hans, Alexander"
+        },
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Gro\u00df, Horst-Michael"
+        },
+        {
+            "@id": "gnd:4059245-5",
+            "sameAs": "Zuverl\u00e4ssigkeit"
+        },
+        {
+            "@id": "gnd:4134712-2",
+            "sameAs": "Regelungssystem"
+        },
+        {
+            "@id": "gnd:4168927-6",
+            "sameAs": "Markov-Entscheidungsprozess"
+        },
+        {
+            "@id": "gnd:4825546-4",
+            "sameAs": "Best\u00e4rkendes Lernen (K\u00fcnstliche Intelligenz)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A798336609",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XII, 146 S., 1,49 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Ernst, Damien",
+                "Zimmermann, Hans-Georg"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)798336609",
+                "(firstid)GBV:798336609"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Advancing the applicability of reinforcement learning to autonomous control",
+            "abstract": "Mit dateneffizientem Reinforcement Learning (RL) konnten beeindruckende Ergebnisse erzielt werden, z.B. f\u00fcr die Regelung von Gasturbinen. In der Praxis erfordert die Anwendung von RL jedoch noch viel manuelle Arbeit, was bisher RL f\u00fcr die autonome Regelung untauglich erscheinen lie\u00df. Die vorliegende Arbeit adressiert einige der verbleibenden Probleme, insbesondere in Bezug auf die Zuverl\u00e4ssigkeit der Policy-Erstellung. Es werden zun\u00e4chst RL-Probleme mit diskreten Zustands- und Aktionsr\u00e4umen betrachtet. F\u00fcr solche Probleme wird h\u00e4ufig ein MDP aus Beobachtungen gesch\u00e4tzt, um dann auf Basis dieser MDP-Sch\u00e4tzung eine Policy abzuleiten. Die Arbeit beschreibt, wie die Sch\u00e4tzer-Unsicherheit des MDP in die Policy-Erstellung eingebracht werden kann, um mit diesem Wissen das Risiko einer schlechten Policy aufgrund einer fehlerhaften MDP-Sch\u00e4tzung zu verringern. Au\u00dferdem wird so effiziente Exploration sowie Policy-Bewertung erm\u00f6glicht. Anschlie\u00dfend wendet sich die Arbeit Problemen mit kontinuierlichen Zustandsr\u00e4umen zu und konzentriert sich auf auf RL-Verfahren, welche auf Fitted Q-Iteration (FQI) basieren, insbesondere Neural Fitted Q-Iteration (NFQ). Zwar ist NFQ sehr dateneffizient, jedoch nicht so zuverl\u00e4ssig, wie f\u00fcr die autonome Regelung n\u00f6tig w\u00e4re. Die Arbeit schl\u00e4gt die Verwendung von Ensembles vor, um die Zuverl\u00e4ssigkeit von NFQ zu erh\u00f6hen. Es werden eine Reihe von M\u00f6glichkeiten der Ensemble-Nutzung entworfen und evaluiert. Bei allen betrachteten RL-Problemen sorgen Ensembles f\u00fcr eine zuverl\u00e4ssigere Erstellung guter Policies. Im n\u00e4chsten Schritt werden M\u00f6glichkeiten der Policy-Bewertung bei kontinuierlichen Zustandsr\u00e4umen besprochen. Die Arbeit schl\u00e4gt vor, FittedPolicy Evaluation (FPE), eine Variante von FQI f\u00fcr Policy Evaluation, mit anderen Regressionsverfahren und/oder anderen Datens\u00e4tzen zu kombinieren, um ein Ma\u00df f\u00fcr die Policy-Qualit\u00e4t zu erhalten. Experimente zeigen, dass Extra-Tree-FPE ein realistisches Qualit\u00e4tsma\u00df f\u00fcr NFQ-generierte Policies liefern kann. Schlie\u00dflich kombiniert die Arbeit Ensembles und Policy-Bewertung, um mit sich \u00e4ndernden RL-Problemen umzugehen. Der wesentliche Beitrag ist das Evolving Ensemble, dessen Policy sich langsam \u00e4ndert, indem alte, untaugliche Policies entfernt und neue hinzugef\u00fcgt werden. Es zeigt sich, dass das Evolving Ensemble deutlich besser funktioniert als einfachere Ans\u00e4tze.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129669806"
+                }
+            ],
+            "creator": "gnd:1059459086",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4825546-4",
+                "gnd:4059245-5",
+                "gnd:4168927-6",
+                "gnd:4134712-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

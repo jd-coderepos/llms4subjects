@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1145587879",
+            "sameAs": "Mertig, Ingrid"
+        },
+        {
+            "@id": "gnd:123388201",
+            "sameAs": "Marques, Miguel"
+        },
+        {
+            "@id": "gnd:1308453574",
+            "sameAs": "Wang, Hai-Chen"
+        },
+        {
+            "@id": "gnd:2024276-1",
+            "sameAs": "Martin-Luther-Universit\u00e4t Halle-Wittenberg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1869101154",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (115 Seiten)",
+            "contributor": "Lathiotakis, Nektarios N.",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1869101154",
+                "(ppn)1869101154",
+                "(doi)10.25673/111542"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)541",
+                "Hochdurchsatzsuche",
+                "machine learning",
+                "Dichtefunktionalformalismus",
+                "maschinelles Lernen",
+                "funktionelles anorganisches Material",
+                "density functional theroy",
+                "Dichtefunktionaltheorie",
+                "high-throughput search",
+                "functional inorganic material",
+                "2D-Motiv",
+                "2D motif",
+                "(classificationName=linseach:mapping)che",
+                "(classificationName=ddc-dbn)540"
+            ],
+            "title": "High-throughput discovery and characterization of inorganic materials using ab-initio methods",
+            "abstract": [
+                "Die Suche nach effizienteren, billigeren und umweltfreundlicheren Alternativen ist eine der dringlichsten Aufgaben der Festk\u00f6rperphysik, doch die Gesamtzahl der m\u00f6glichen Zusammensetzungen und Strukturen im chemischen Raum \u00fcbersteigt die M\u00f6glichkeiten der experimentellen oder theoretischen Brute-Force-Suche. In dieser Arbeit f\u00fchren wir eine prototypbasierte Hochdurchsatzsuche durch. Wir verwenden DFT-Berechnungen, um die Strukturen zu optimieren und ihre thermodynamische Stabilit\u00e4t anhand der Abst\u00e4nde zur konvexen H\u00fclle zu bewerten. Wir zeigen zun\u00e4chst erfolgreiche Suchen f\u00fcr bestimmte Prototypen. Dann verwenden wir eine weniger von Menschenhand gepr\u00e4gte Strategie, die auf einer \u00c4hnlichkeitsskala zwischen Elementen basiert. Wir finden etwa 19k neue stabile Verbindungen. Des Weiteren verwenden wir die trainierten ML-Modelle und generieren und berechnen systematisch m\u00f6gliche zweidimensionale Motive, wobei wir etwa 6,5k neue 2D-Systeme herausfiltern.",
+                "Searching for more efficient, cheaper, and eco-friendly alternatives is one of the most urgent tasks of solid-state physics but the total number of possible compositions and structures in the chemical space exceeds the capability of brute-force experimental or theoretical searches. In this cumulative thesis, we perform prototype-based high-throughput searches in the chemical space. We use density functional theory (DFT) calculations to optimize the structures and evaluate their thermodynamic stability according to distances to the convex hull. We first show that for one specific prototype, using intuition from domain knowledge could achieve successful outcomes. Then, we use a less-human-intervened strategy based on a data-mining similarities scale between elements. We find about 19k new stable compounds. Further, we use the trained machine learning models and systematically generate and calculated possible two-dimensional motifs, we filter out around 6.5k new 2D systems."
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:123388201"
+                },
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1145587879"
+                }
+            ],
+            "creator": [
+                "gnd:1308453574",
+                "gnd:2024276-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25673/111542",
+            "P60163": "Halle"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

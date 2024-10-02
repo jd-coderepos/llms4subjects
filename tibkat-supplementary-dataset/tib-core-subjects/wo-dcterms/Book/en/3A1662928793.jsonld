@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:174090005",
+            "sameAs": "Dechter, Rina"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1662928793",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xiv, 185 Seiten)",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1662928793",
+                "(isbn13)9781681734910",
+                "(doi)10.2200/S00893ED2V01Y201901AIM041",
+                "(firstid)HEB:445859105"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Neural networks (Computer science).",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)*68-02",
+                "(classificationName=msc)62H30",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)006.3",
+                "Artificial intelligence.",
+                "(classificationName=msc)62-09",
+                "(classificationName=msc)68T30",
+                "(classificationName=msc)68T05",
+                "(classificationName=msc)68T10",
+                "Machine learning."
+            ],
+            "title": "Reasoning with probabilistic and deterministic graphical models : exact algorithms",
+            "abstract": [
+                "Graphical models (e.g., Bayesian and constraint networks, influence diagrams, and Markov decision processes) have become a central paradigm for knowledge representation and reasoning in both artificial intelligence and computer science in general. These models are used to perform many reasoning tasks, such as scheduling, planning and learning, diagnosis and prediction, design, hardware and software verification, and bioinformatics. These problems can be stated as the formal tasks of constraint satisfaction and satisfiability, combinatorial optimization, and probabilistic inference. It is well known that the tasks are computationally hard, but research during the past three decades has yielded a variety of principles and techniques that significantly advanced the state of the art. This book provides comprehensive coverage of the primary exact algorithms for reasoning with such models. The main feature exploited by the algorithms is the model's graph. We present inference-based, message-passing schemes (e.g., variable-elimination) and search-based, conditioning schemes (e.g., cycle-cutset conditioning and AND/OR search). Each class possesses distinguished characteristics and in particular has different time vs. space behavior. We emphasize the dependence of both schemes on few graph parameters such as the treewidth, cycle-cutset, and (the pseudo-tree) height. The new edition includes the notion of influence diagrams, which focus on sequential decision making under uncertainty. We believe the principles outlined in the book would serve well in moving forward to approximation and anytime-based schemes. The target audience of this book is researchers and students in the artificial intelligence and machine learning area, and beyond.",
+                "Preface -- Introduction -- Defining Graphical Models -- Inference: Bucket Elimination for Deterministic Networks -- Inference: Bucket Elimination for Probabilistic Networks -- Tree-Clustering Schemes -- AND/OR Search Spaces for Graphical Models -- Combining Search and Inference: Trading Space for Time -- Conclusion -- Bibliography -- Author's Biography."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:174090005",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXSC",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)BSZ-2-SXSC-syc8",
+                "(collectioncode)ZDB-105-MC11",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)BSZ-2-SXSC-mc11"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#41",
+            "isLike": "doi:10.2200/S00893ED2V01Y201901AIM041",
+            "P30128": [
+                "Computer & information science",
+                "Synthesis lectures on artificial intelligence and machine learning",
+                "collection eleven",
+                "Synthesis digital library of engineering and computer science"
+            ],
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

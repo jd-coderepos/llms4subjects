@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1279336307",
+            "sameAs": "Zietlow, Dominik"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832388859",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 144 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-76837",
+                "(firstid)KXP:1832388859",
+                "(ppn)1832388859"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)006.37"
+            ],
+            "title": "An analysis of the inner workings of variational autoencoders",
+            "abstract": "Representation learning, the task of extracting meaningful representations of high-dimensional data, lies at the very core of artificial intelligence research. Be it via implicit training of features in a variety of computer vision tasks, over more old-school, hand-crafted feature extraction mechanisms for, e.g., eye-tracking or other applications, all the way to explicit learning of semantically meaningful data representations. Strictly speaking, any activation of a layer within a neural network can be considered a representation of the input data. This makes the research about achieving explicit control over properties of such representations a fundamentally attractive task. An often desired property of learned representations is called disentanglement. The idea of a disentangled representation stems from the goal of separating sources of variance in the data and consolidates itself in the concept of recovering generative factors. Assuming that every data has its origin in a generative process that produces high-dimensional data given a low-dimensional representation (e.g., rendering images of people given visual attributes, such as hairstyle, camera angle, age, ...), the goal of finding a disentangled representation is to recover those attributes. The Variational Autoencoder (VAE) is a famous architecture commonly used for disentangled representation learning, and this work summarizes an analysis of its inner workings. VAEs achieved a lot of attention due to their, at the time, unparalleled performance as both generative models and inference models for learning disentangled representations. However, note that the disentanglement property of a representation is not invariant to rotations of the learned representation, i.e., rotating a learned representation can change and destroy its disentanglement quality. Given a rotationally symmetric prior over the representations space, the idealized objective function of VAEs is rotationally symmetric. Their success at producing disentangled representations consequently comes as a particular surprise. This thesis discusses why VAEs pursue a particular alignment for their representations and how the chosen alignment is correlated with the generative factors of existing representation learning datasets.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1279336307",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-76837",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2160175-6",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar, Fakult\u00e4t Bauingenieurwesen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A863943993",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": "Rabczuk, Timon",
+            "http://purl.org/dc/elements/1.1/creator": "Amiri, Fatemeh",
+            "identifier": [
+                "(firstid)GBV:863943993",
+                "(ppn)863943993"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Computational modelling of fracture with local maximum entropy approximations",
+            "abstract": "The key objective of this research is to study fracture with a meshfree method, local maximum entropy approximations, and model fracture in thin shell structures with complex geometry and topology. This topic is of high relevance for real-world applications, for example in the automotive industry and in aerospace engineering. The shell structure can be described efficiently by meshless methods which are capable of describing complex shapes as a collection of points instead of a structured mesh. In order to find the appropriate numerical method to achieve this goal, the first part of the work was development of a method based on local maximum entropy (LME) shape functions together with enrichment functions used in partition of unity methods to discretize problems in linear elastic fracture mechanics. We obtain improved accuracy relative to the standard extended finite element method (XFEM) at a comparable computational cost. In addition, we keep the advantages of the LME shape functions,such as smoothness and non-negativity. We show numerically that optimal convergence (same as in FEM) for energy norm and stress intensity factors can be obtained through the use of geometric (fixed area) enrichment with no special treatment of the nodes near the crack such as blending or shifting. As extension of this method to three dimensional problems and complex thin shell structures with arbitrary crack growth is cumbersome, we developed a phase field model for fracture using LME. Phase field models provide a powerful tool to tackle moving interface problems, and have been extensively used in physics and materials science. Phase methods are gaining popularity in a wide set of applications in applied science and engineering, recently a second order phase field approximation for brittle fracture has gathered significant interest in computational fracture such that sharp cracks discontinuities are modeled by a diffusive crack. By minimizing the system energy with respect to the mechanical displacements and the phase-field, subject to an irreversibility condition to avoid crack healing, this model can describe crack nucleation, propagation, branching and merging. One of the main advantages of the phase field modeling of fractures is the unified treatment of the interfacial tracking and mechanics, which potentially leads to simple, robust, scalable computer codes applicable to complex systems. In other words, this approximation reduces considerably the implementation complexity because the numerical tracking of the fracture is not needed, at the expense of a high computational cost. We present a fourth-order phase field model for fracture based on local maximum entropy (LME) approximations. The higher order continuity of the meshfree LME approximation allows to directly solve the fourth-order phase field equations without splitting the fourth-order differential equation into two second order differential equations. Notably, in contrast to previous discretizations that use at least a quadratic basis, only linear completeness is needed in the LME approximation. We show that the crack surface can be captured more accurately in the fourth-order model than the second-order model. Furthermore, less nodes are needed for the fourth-order model to resolve the crack path. Finally, we demonstrate the performance of the proposed meshfree fourth order phase-field formulation for 5 representative numerical examples. Computational results will be compared to analytical solutions within linear elastic fracture mechanics and experimental data for three-dimensional crack propagation. In the last part of this research, we present a phase-field model for fracture in Kirchoff-Love thin shells using the local maximum-entropy (LME) meshfree method. Since the crack is a natural outcome of the analysis it does not require an explicit representation and tracking, which is advantageous over techniques as the extended finite element method that requires tracking of the crack paths. The geometric description of the shell is based on statistical learning techniques that allow dealing with general point set surfaces avoiding a global parametrization, which can be applied to tackle surfaces of complex geometry and topology. We show the flexibility and robustness of the present methodology for two examples: plate in tension and a set of open connected pipes.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2160175-6",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

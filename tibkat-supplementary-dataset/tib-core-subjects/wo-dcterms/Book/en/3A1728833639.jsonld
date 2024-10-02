@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1728833639",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Guvenen, Fatih",
+                "Kleineberg, Tatjana"
+            ],
+            "creator": [
+                "National Bureau of Economic Research",
+                "Arnoud, Antoine"
+            ],
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.3386/w26340",
+                "(ppn)1728833639",
+                "(firstid)KEP:055292976"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Benchmarking Global Optimizers",
+            "abstract": "We benchmark seven global optimization algorithms by comparing their performance on challenging multidimensional test functions as well as a method of simulated moments estimation of a panel data model of earnings dynamics. Five of the algorithms are taken from the popular NLopt open-source library: (i) Controlled Random Search with local mutation (CRS), (ii) Improved Stochastic Ranking Evolution Strategy (ISRES), (iii) Multi-Level Single-Linkage (MLSL) algorithm, (iv) Stochastic Global Optimization (StoGo), and (v) Evolutionary Strategy with Cauchy distribution (ESCH). The other two algorithms are versions of TikTak, which is a multistart global optimization algorithm used in some recent economic applications. For completeness, we add three popular local algorithms to the comparison--the Nelder-Mead downhill simplex algorithm, the Derivative-Free Non-linear Least Squares (DFNLS) algorithm, and a popular variant of the Davidon-Fletcher-Powell (DFPMIN) algorithm. To give a detailed comparison of algorithms, we use a set of benchmarking tools recently developed in the applied mathematics literature. We find that the success rate of many optimizers vary dramatically with the characteristics of each problem and the computational budget that is available. Overall, TikTak is the strongest performer on both the math test functions and the economic application. The next-best performing optimizers are StoGo and CRS for the test functions and MLSL for the economic application",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w26340",
+            "isLike": "doi:10.3386/w26340",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

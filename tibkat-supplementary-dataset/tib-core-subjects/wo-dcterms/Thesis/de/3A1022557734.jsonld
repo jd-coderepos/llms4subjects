@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1158507135",
+            "sameAs": "Mai, Dominic"
+        },
+        {
+            "@id": "gnd:4006882-1",
+            "sameAs": "Biomedizinische Technik"
+        },
+        {
+            "@id": "gnd:4026894-9",
+            "sameAs": "Informatik"
+        },
+        {
+            "@id": "gnd:4129594-8",
+            "sameAs": "Maschinelles Sehen"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1022557734",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "identifier": [
+                "(doi)10.6094/UNIFR/15495",
+                "(ppn)1022557734",
+                "(contract)FRUB-opus-15495",
+                "(firstid)BSZ:504243012"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "A multi-template atlas for volumetric images",
+            "abstract": "Abstract: Biomedizinische Atlanten sind wichtige Werkzeuge, wenn es darum geht Populationsunterschiede basierend auf Bilddaten, wie zum Beispiel Mikroskop- oder MRT-Aufnahmen, zu quantifizieren. <br>Die Kernidee hinter traditionellen Atlas-basierten Quantifikationstechniken ist es, ein repr\u00e4sentatives Template f\u00fcr die Population zu generieren. <br>Dieses Template wird dann auf jedes Individuum der Population registriert, was effektiv die Formvarianz innerhalb der Population normiert.<br>Diese Normierung erlaubt es uns Ereignisse zwischen zwei Individuen quantitativ zu vergleichen, wie zum Beipiel die Kolokalisierungen von Genexpressionsmustern oder Hormongradienten.<br><br>Ein einzelnes holistisches Template ist jedoch nicht ausreichend, wenn wir die Aufl\u00f6sung der Analyse auf einzelne Zellen vergr\u00f6\u00dfern wollen. <br>Der Grund ist, dass die Bildregistrierung nun nicht mehr wohldefiniert ist, was an den topologischen Unterschieden zwischen dem holistischen Atlas-Template und dem Bild eines Individuums liegt.<br><br>In dieser Dissertation pr\u00e4sentieren wir einen Ansatz, einen Multi-Template Atlas automatisch zu generieren, der auf einzelne Zellen des Wurzel-Meristems von registriert werden kann. <br>Die einzelnen Templates dieses Multi-Template Atlasses sind verbunden, so dass alle Analysetechniken von traditionellen Atlanten angewendet werden k\u00f6nnen.<br><br>Die wissenschaftlichen Beitr\u00e4ge dieser Dissertation besch\u00e4ftigen sich mit den Problemen, die auftreten, wenn man einen solchen Multi-Template Atlas erstellt.<br>Wir stellen ein einfaches Distanzma\u00df vor, das es uns erlaubt annotierte Trainingsdaten automatisch zu gruppieren um anschlie\u00dfend mehrere verbundene Atlas-Templates daraus zu generieren.<br>Die manuelle Initialisierung dieser Templates vor der Bildregistrierung ist nicht mehr praktikabel, da wir f\u00fcr jede Zelle eine grobe initiale Positionssch\u00e4tzung ben\u00f6tigen, was auch die Auswahl des korrekten Templates beinhaltet.<br>Wir erforschen M\u00f6glichkeiten, alle initialen Positionen f\u00fcr ein bestimmtes Template zu finden, die zu einer erfolgreichen Bildregistrierung f\u00fchren. <br>Schlie\u00dflich pr\u00e4sentieren wir zwei auf diskriminativem maschinellem Lernen basierende Ans\u00e4tze, welche die Qualit\u00e4t der Registrierung eines Templates validieren",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1158507135",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4006882-1",
+                "gnd:4193754-5",
+                "gnd:4026894-9",
+                "gnd:4129594-8"
+            ],
+            "isLike": "doi:10.6094/UNIFR/15495",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1278383506",
+            "sameAs": "Ramesh, Poornima"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1831229463",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (57, 6, 13, 16, 18 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1831229463",
+                "(firstid)KXP:1831229463",
+                "(doi)10.15496/publikation-76352"
+            ],
+            "subject": [
+                "Deep learning",
+                "(classificationName=ddc-dbn)006.31",
+                "Neuronales Netz",
+                "Nervennetz",
+                "(classificationName=linseach:mapping)inf",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "GANs sch\u00f6n kompliziert : applications of generative adversarial networks",
+            "abstract": "Scientific research progresses via model-building. Researchers attempt to build realistic models of real-world phenomena, ranging from bacterial growth to galactic motion, and study these models as a means of understanding these phenomena. However, making these models as realistic as possible often involves fitting them to experimentally measured data. Recent advances in experimental methods have allowed for the collection of large-scale datasets. Simultaneously, advancements in computational capacity have allowed for more complex model-building. The confluence of these two factors accounts for the rise of machine learning methods as powerful tools, both for building models and fitting these models to large scale datasets. In this thesis, we use a particular machine learning technique: generative adversarial networks (GANs). GANs are a flexible and powerful tool, capable of fitting a wide variety of models. We explore the properties of GANs that underpin this flexibility, and show how we can capitalize on them in different scientific applications, beyond the image- and text-generating applications they are well-known for. Here we present three different applications of GANs. First, we show how GANs can be used as generative models of neural spike trains, and how they are capable of capturing more features of these spike trains compared to other approaches. We also show how this could enable insight into how information about stimuli are encoded in the spike trains. Second, we demonstrate how GANs can be used as density estimators for extending simulation-based Bayesian inference to high-dimensional parameter spaces. In this form, we also show how GANs bridge Bayesian inference methods and variational inference with autoencoders and use them to fit complex climate models to data. Finally, we use GANs to infer synaptic plasticity rules for biological rate networks directly from data. We then show how GANs be used to test the robustness of the inferred rules to differences in data and network initialisation. Overall, we repurpose GANs in new ways for a variety of scientific domains, and show that they confer specific advantages over the state-of-the-art methods in each of these domains.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1278383506"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-76352",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

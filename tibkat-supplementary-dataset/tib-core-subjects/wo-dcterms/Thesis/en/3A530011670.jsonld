@@ -1,0 +1,59 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A530011670",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (156 S., 974 KB)",
+            "creator": "B\u00e4chle, Simone",
+            "identifier": [
+                "(firstid)DNB:983781311",
+                "(ppn)530011670"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ssg)17,1",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)518.63",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Numerical solution of differential-algebraic systems arising in circuit simulation",
+            "abstract": "In this thesis, quasi-linear Differential-Algebraic Equations (DAE) as they arise in circuit simulation are examined. The circuit is described with help of a netlist, e.g. a list which contains the information about all devices in the circuit and the way these devices are connected to each other. With the help of this netlist a DAE is created by using either the classical or the charge oriented Modified Nodal Analysis. One focus of this thesis is the graph theoretical structure of the circuit, which is reflected in the properties of the circuit DAE. For example, it is known that it is possible under certain conditions to determine the differentiation index of such a DAE based on the graph of the circuit. Moreover, it is possible to determine the derivatives of equations which yield hidden constraints. In the course of this work, two methods have been developed that use this structural information to reduce the differentiation index of a circuit DAE if the DAE has differentiation index 2. To this end the graph theoretical foundations are laid out and applied to the existing results. It is shown that because of the graph theoretical results both index reduction methods work without time consuming rank decisions. Therefore these methods are applicable to large circuits. Moreover, the second method which was developed for DAEs arising from the charge oriented Modified Nodal Analysis allows for a physical interpretation. Hence this method not only can be realized as a numerical method that alters the DAE in order to reduce the differentiation index, but also as a method that alters the circuit itself. The second approach has the advantage that existing software for circuit simulation only has to be adapted slightly to use the index reduction method ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

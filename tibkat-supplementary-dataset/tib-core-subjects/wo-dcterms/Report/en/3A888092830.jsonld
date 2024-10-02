@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:133963306",
+            "sameAs": "K\u00f6nig, Wolfgang"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A888092830",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (39 Seiten, 469 kB)",
+            "http://purl.org/dc/elements/1.1/creator": "T\u00f3bi\u00e1s, Andr\u00e1s",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:888092830",
+                "(doi)10.20347/WIAS.PREPRINT.2392",
+                "(ppn)888092830"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A Gibbsian model for message routing in highly dense multi-hop networks",
+            "abstract": "We investigate a probabilistic model for routing in relay-augmented multihop ad-hoc communication networks, where each user sends one message to the base station. Given the (random) user locations, we weigh the family of random, uniformly distributed message trajectories by an exponential probability weight, favouring trajectories with low interference (measured in terms of signal-to-interference ratio) and trajectory families with little congestion (measured by how many pairs of hops use the same relay). Under the resulting Gibbs measure, the system targets the best compromise between entropy, interference and congestion for a common welfare, instead of a selfish optimization. We describe the joint routing strategy in terms of the empirical measure of all message trajectories. In the limit of high spatial density of users, we derive the limiting free energy and analyze the optimal strategy, given as the minimizer(s) of a characteristic variational formula. Interestingly, expressing the congestion term requires introducing an additional empirical measure.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:133963306",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2392",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2392",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

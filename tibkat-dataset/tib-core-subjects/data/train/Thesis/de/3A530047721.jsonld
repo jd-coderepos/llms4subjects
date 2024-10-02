@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1051764955",
+            "sameAs": "Riebisch, Matthias"
+        },
+        {
+            "@id": "gnd:131398369",
+            "sameAs": "Reussner, Ralf"
+        },
+        {
+            "@id": "gnd:13280123X",
+            "sameAs": "Fengler, Wolfgang"
+        },
+        {
+            "@id": "gnd:133258564",
+            "sameAs": "Sochos, Periklis"
+        },
+        {
+            "@id": "gnd:4116521-4",
+            "sameAs": "Software Engineering"
+        },
+        {
+            "@id": "gnd:4336076-2",
+            "sameAs": "Produktlinie"
+        },
+        {
+            "@id": "gnd:4439521-8",
+            "sameAs": "Komponente (Software)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A530047721",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 176 S.",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)530047721",
+                "(firstid)GBV:530047721"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.1",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "The feature-architecture mapping method for feature-oriented development of software product lines",
+            "abstract": "Software Produktlinien sind die Antwort von Software Engineering auf die zuehmende Komplexit\u00e4t und k\u00fcrzeren Produkteinf\u00fchrungszeiten von heutigen Softwaresystemen. Nichtsdestotrotz erfordern Software Produktlinien eine fortgeschrittene Wartbarkeit und hohe Flexibilit\u00e4t. Das kann durch die angemessene Trennung der Belange erreicht werden. Merkmale stellen die Hauptbelange im Kontext von Software Produktlinien dar. Demzufolge sollte ein Merkmal idealerweise in genau einer Architekturkomponente implementiert werden. In der Praxis ist das jedoch nicht immer machbar. Deshalb sollte zumindest ein starkes Mapping zwischen Merkmalen und der Architektur bestehen. Die Methoden zur Entwicklung von Software Produktlinien, die dem Stand der Technik entsprechen, f\u00fchren zu bedeutender Verstreutheit und Vermischung von Merkmalen. In dieser Arbeit wird die Feature-Architecture Mapping (FArM) Methode entwickelt, um ein st\u00e4rkeres Mapping zwischen Merkmalen und der Produktlinien-Architektur zu erzielen. Der Input f\u00fcr FArM besteht in einem initialen Merkmalmodell, das anhand einer Methode zur Dom\u00e4nenanalyse erstellt wurde. Dieses initiale Merkmalmodell wird einer Serie von Transformationen unterzogen.Die Transformationen streben danach ein Gleichgewicht zwischen der Sichtweise von Kunden und Softwarearchitekten einzustellen. Die Merkmalinteraktionen werden w\u00e4hrend der Transformationen ausdr\u00fccklich optimiert. Von jedem Merkmal des transformierten Merkmalmodells wird eine Architekturkomponente abgeleitet. Die Architekturkomponenten implementieren die Applikationslogik der entsprechenden Merkmale. Die Kommunikation zwischen den Komponenten spiegelt die Interaktion zwischenden Merkmalen wider. Dieser Ansatz f\u00fchrt im Vergleich zu den Produktlinien-Entwicklungsmethoden des Stands der Technik zu einem st\u00e4rkeren Mapping zwischen Merkmalen und der Architektur und zu einer h\u00f6heren Variabilit\u00e4t auf Merkmalebene. Diese Eigenschaften haben eine bessere Wartbarkeit und eine vereinfachte generative Produktinstanzierung zur Folge, was wiederum die Flexibilit\u00e4t der Produktlinien steigert. FArM wurde durch ihre Anwendung in einigen Dom\u00e4nen evaluiert, z.B. in den Dom\u00e4nen von Mobiltelefonen und Integrierten Entwicklungsumgebungen (IDEs). Diese Arbeit wird FArM anhand einer Fallstudie in der Dom\u00e4ne von K\u00fcnstlichen Neuronalen Netzwerken pr\u00e4sentieren.",
+            "contributor": [
+                "gnd:131398369",
+                "gnd:1051764955",
+                "gnd:13280123X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:133258564",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4116521-4"
+                },
+                {
+                    "@id": "gnd:4336076-2"
+                },
+                {
+                    "@id": "gnd:4439521-8"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/530047721.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

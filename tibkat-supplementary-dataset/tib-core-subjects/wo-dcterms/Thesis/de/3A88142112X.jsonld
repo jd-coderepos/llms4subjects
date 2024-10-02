@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128967358",
+            "sameAs": "Gauger, Nicolas R."
+        },
+        {
+            "@id": "gnd:130857203",
+            "sameAs": "Walther, Andrea"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A88142112X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 103 Seiten)",
+            "creator": "Sch\u00fctte, Maria",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.17619/UNIPB/1-32",
+                "(ppn)88142112X",
+                "(firstid)HBZ:CT004001799"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)500",
+                "(classificationName=linseach:mapping)rest"
+            ],
+            "title": "On shape sensitivity analysis for 3D time-dependent Maxwell's equations",
+            "abstract": "Gegenstand der Arbeit ist die Detektion beliebiger geometrischer Objekte in einem vorgegebenen Berechnungsgebiet. Dies ist f\u00fcr viele Anwendungen wie z.B. zerst\u00f6rungsfreie Materialpr\u00fcfung wichtig. In dieser Arbeit wird ein Ansatz verwendet, welcher die Verwendung elektromagnetischer Wellen beinhaltet. Die Wellen propagieren durch das Gebiet und werden an dem geometrischen Objekt reflektiert. Aufgrund dieser reflektierten Daten werden R\u00fcckschl\u00fcsse auf den Ort bzw. die Gr\u00f6\u00dfe des Objektes gezogen. Es handelt sich somit um ein inverses Streuproblem. Naheliegende Ans\u00e4tze wie die Verwendung von Indikatorfunktionen f\u00fchren nur bedingt zum Ziel und motivieren die Verwendung eines Shape Calculus Ansatzes, welcher sowohl eine pr\u00e4zisere Rekonstruktion als auch einen geringeren Rechenaufwand verspricht. Methoden aus diesem Bereich differenzieren nach einer Form eines geometrischen Objektes. Ein generalisierter Ansatz zur Behandlung von Problemen, welche durch lineare Zustandsbedingungen restringiert sind, wurde entwickelt und auf die Maxwell-Gleichungen \u00fcbertragen. Basierend auf den theoretischen Ergebnissen wurde ein L\u00f6ser entwickelt, um das Problem numerisch zu l\u00f6sen. Eine vollst\u00e4ndige Implementierung umfasst eine Vorw\u00e4rtssimulation, die Auswertung des Shape Gradienten, wobei die adjungierten Gleichungen einflie\u00dfen, und eine Optimierungsroutine. Verschiedenartige Testf\u00e4lle mit bis zu 1.2*10^9 unbekannten Zustandsvariablen wurden gel\u00f6st und zeigen die Durchf\u00fchrbarkeit dieser Methode.. - The main focus of this thesis lies on the detection of objects with arbitrary geometry in a predefined computational domain. The identification of geometric objects is of special interest for many real-life applications such as non-invasive material testing. In this thesis, we concentrate on a remote sensing approach where electromagnetic waves, which are described by Maxwell's equations, are used. These waves propagate through a computational domain and get reflected at the boundary of the geometric object. Based on the measured reflections the size resp. the location of the object can be reconstructed. This leads to an inverse electromagnetic scattering problem. Naive approaches like the use of an indicator function are rarely successful and motivate the use of a Shape Calculus ansatz. Methods of this class promise more accurate computations and less computational effort. They differentiate functions w.r.t. the underlying domain. A generalized method especially for problems restricted by linear state constraints is derived. Subsequently, Maxwell's equations are examined more closely. Based on the theoretical results, a solver is developed to solve the problem numerically. A complete implementation consists of an appropriate simulation routine, calculation of the shape gradient including the adjoint equations, and an optimization routine. Various test cases with up to 1.2*10^9 state unknowns are solved to demonstrate the practicability of the proposed approach.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130857203"
+                },
+                {
+                    "@id": "gnd:128967358"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-32",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

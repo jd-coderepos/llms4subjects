@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1165006677",
+            "sameAs": "King, Rudibert"
+        },
+        {
+            "@id": "gnd:120642689",
+            "sameAs": "Li, Pu"
+        },
+        {
+            "@id": "gnd:138070326",
+            "sameAs": "Rauschenbach, Thomas"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4125677-3",
+            "sameAs": "Dynamische Optimierung"
+        },
+        {
+            "@id": "gnd:4271836-3",
+            "sameAs": "Pr\u00e4diktive Regelung"
+        },
+        {
+            "@id": "gnd:7714938-5",
+            "sameAs": "Autonomes Fahrzeug"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A104209618X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (121 Seiten)",
+            "creator": "Lazutkin, Evgeny",
+            "description": "Diagramme (teilweise farbig)",
+            "identifier": [
+                "(ppn)104209618X",
+                "(firstid)GBV:104209618X"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)515.6",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Efficient solution approach to nonlinear optimal control problems and application to autonomous driving",
+            "abstract": "Diese Arbeit besch\u00e4ftigt sich mit der numerischen L\u00f6sung von dynamischen nichtlinearen Optimierungsaufgaben und der Entwicklung neuer Methoden f\u00fcr deren Analyse, um die Effizienz der Berechnungen zu erh\u00f6hen. Der Betrieb vieler nat\u00fcrlicher und technischer Prozesse kann als nichtlineares Optimierungsproblem mit Beschr\u00e4nkungen formuliert werden. Aufgrund der steigenden Komplexit\u00e4t wird die L\u00f6sung eines solchen Problems zu einer Herausforderung, insbesondere wenn das Problem in Echtzeit gel\u00f6st werden muss. Der Ansatz des kombinierten Mehrfachschie\u00dfverfahren mit Kollokation ist effizient, um solche Probleme zu l\u00f6sen, auch wenn sie eine schnelle Dynamik aufweisen. So ist das erste Ziel dieser Arbeit die weitere Verbesserung der Rechenleistung durch die Bereitstellung einer analytischen Hesse-Matrix und die Realisierung eines Parallelberechnungs-Schemas. Zun\u00e4chst wurden die Formeln zur Berechnung der Sensitivit\u00e4ten zweiter Ordnung f\u00fcr den kombinierten Ansatz abgeleitet. Mit Hilfe des Mehrfachschie\u00dfverfahrens k\u00f6nnen die L\u00f6sungen von Modellgleichungen und Auswertungen von Sensitivit\u00e4ten erster und zweiter Ordnung f\u00fcr jedes Zeitintervall unabh\u00e4ngig voneinander berechnet werden. Der zweite Beitrag widmet sich daher der Realisierung eines parallelen Rechenschemas. Dadurch wird ein hoher Beschleunigungsfaktor durch Parallelisierung erreicht, der zu einer Reduzierung des Rechenaufwands f\u00fchrt. Als dritter Beitrag wurde eine neuartige Korrelationsanalyse der Steuergr\u00f6\u00dfen eingef\u00fchrt, die auf die Notwendigkeit hinweist, die analytische Hesse-Matrix anstelle seiner Approximation einzusetzen, um ein Optimierungsproblem effizient zu l\u00f6sen. Die numerische Leistung dieser drei Beitr\u00e4ge wurde mit Hilfe von herausfordernden dynamischen Optimierungsproblemen einschlie\u00dflich der optimalen Steuerung eines gro\u00dfen Problems mit mehr als tausend dynamischen Variablen demonstriert. Die kombinierte Methode wandelt das Problem der kontinuierlichen dynamischen Optimierung in ein nichtlineares Programmierungsproblem mit einer vorgegebenen Anzahl der Zeitintervalle um. Es gibt jedoch keine umfassenden Regeln, um diese Anzahl der Zeitintervalle passend zu w\u00e4hlen. Daher widmet sich das vierte Ziel dieser Arbeit der Analyse der zugrunde liegenden Optimierungsprobleme mit dem besonderen Fokus auf der Anzahl der diskreten Zeitintervalle. Aus Anwendungssicht sollte die Anzahl der Zeitintervalle so gew\u00e4hlt werden, dass gleichzeitig die Bilanz zwischen der numerischen Genauigkeit und der Rechenlast zur L\u00f6sung des diskreten Optimierungsproblems erreicht wird. Dar\u00fcber hinaus ist es unerl\u00e4sslich, die Mindestanzahl an Zeitintervallen zu finden, um diese Genauigkeit zu gew\u00e4hrleisten. So wurde im Rahmen der Kollokation auf finiten Elementen ein neuartiger Bilevel-Ansatz vorgeschlagen, bei dem die \u00e4u\u00dfere Schleife f\u00fcr die Ermittlung der minimalen Anzahl von Zeitintervallen zust\u00e4ndig ist und die innere Schleife eine obere Grenze des Approximationsfehlers auswertet, indem sie ein Fehlermaximierungsproblem durch Manipulation der Steuergr\u00f6\u00dfen l\u00f6st. Auf diese Weise kann eine Mindestanzahl von Zeitintervallen festgelegt werden, die eine benutzerdefinierte Fehlertoleranz gew\u00e4hrleistet. Au\u00dferdem wird der Einfluss der Anfangsbedingungen auf den maximalen Approximationsfehler ber\u00fccksichtigt, so dass die ermittelte Anzahl von Intervallen f\u00fcr unterschiedliche Anfangsbedingungen gilt und somit f\u00fcr die nichtlineare modellpr\u00e4diktive Regelung (engl.: nonlinear model predictive control (NMPC)) angewendet werden kann. Mehrere Fallstudien wurden verwendet, um die Wirksamkeit des vorgeschlagenen Ansatzes zu demonstrieren. Sowohl die theoretisch entwickelten Methoden als auch der kombinierte Ansatz wurden mit Hilfe von Open-Source-Software als allgemeines Framework f\u00fcr Testzwecke implementiert. Schlie\u00dflich wurden die entwickelten Methoden auf das autonome Fahren im NMPC-Framework angewendet. Autonomes Fahren ist der aktuelle Trend in der Automobilindustrie mit dem Ziel, vollautomatisierte oder selbstfahrende Fahrzeuge zu entwickeln und zu produzieren. Reglerentwurf und -betrieb von autonomen Fahrzeugen stellen mehrere Herausforderungen dar, weshalb umfangreiche und intensive Forschungsarbeiten notwendig sind, um den wachsenden industriellen Bedarf abzudecken. Die Fahrzeugbewegung wurde als ein dynamisches Optimierungsproblem dargestellt, das online effizient gel\u00f6st wird. Der erfolgreiche Test der NMPC mit zwei Modellfahrzeugen (im Ma\u00dfstab 1:5 und 1:8 im Vergleich zum realen Fahrzeug) zeigte die Effizienz des entwickelten Ansatzes.",
+            "contributor": [
+                "gnd:120642689",
+                "gnd:138070326",
+                "gnd:1165006677"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2125187-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4271836-3",
+                "gnd:4125677-3",
+                "gnd:7714938-5"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

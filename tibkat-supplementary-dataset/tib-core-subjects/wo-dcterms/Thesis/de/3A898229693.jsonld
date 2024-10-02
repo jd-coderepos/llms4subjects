@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1139867555",
+            "sameAs": "Schlagkamp, Stephan"
+        },
+        {
+            "@id": "gnd:4000996-8",
+            "sameAs": "Akzeptanz"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4179449-7",
+            "sameAs": "Scheduling"
+        },
+        {
+            "@id": "gnd:4189152-1",
+            "sameAs": "Wartezeit"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898229693",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (102 Seiten)",
+            "contributor": [
+                "Schwiegelshohn, Uwe",
+                "Tchernykh, Andrei"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.17877/DE290R-18110",
+                "(firstid)HBZ:HT019449348",
+                "(ppn)898229693"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek Dortmund",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=181569892)54.25 - Parallele Datenverarbeitung",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "User-aware performance evaluation and optimization of parallel job schedulers",
+            "abstract": "Die Dissertation User-Aware Performance Evaluation and Optimization of Parallel Job Schedulers besch\u00e4ftigt sich mit der realit\u00e4tsnahen, dynamischen Simulation und Optimierung von Lastsituationen in parallelen Rechensystemen unter Ber\u00fccksichtigung von Feedback-Effekten zwischen Performance und Nutzerverhalten. Die Besonderheit solcher Systeme liegt in der geteilten Nutzung durch mehrere Anwender, was zu einer Einschr \u00e4nkung der Verf\u00fcgbarkeit von Ressourcen f\u00fchrt. Sollten nicht alle Rechenanfragen, die sogenannten Jobs, gleichzeitig ausgef\u00fchrt werden k\u00f6nnen, werden diese in Warteschlangen zwischengespeichert. Da das Verhalten der Nutzer nicht genau bekannt ist, entsteht eine gro\u00dfe Unsicherheit bez\u00fcglich zuk\u00fcnftiger Lastsituationen. Ziel ist es, Methoden zu finden, die eine Ressourcenzuweisung erzeugt, die den Zielvorstellungen der Nutzer soweit wie m\u00f6glich entspricht und diese Methoden realistisch zu evaluieren. Dabei ist auch zu ber\u00fccksichtigen, dass das Nutzerverhalten und die Zielvorstellungen der Nutzer in Abh\u00e4ngigkeit von der Lastsituation und der Ressourcenzuweisung variieren. Es wird ein dreigliedriger Forschungsansatz gew\u00e4hlt: Analyse von Nutzerverhalten unter Ressourcenbeschr\u00e4nkung: In Traces von parallelen Rechensystem zeigt sich, dass die Wartezeit auf Rechenergebnisse mit dem zuk\u00fcnftigen Nutzerverhalten korreliert, d.h. dass es im Durchschnitt l\u00e4nger dauert bis ein Nutzer, der lange warten musste, erneut das System nutzt. Im Rahmen des Promotionsprojekts wurde diese Analyse fortgesetzt und zus\u00e4tzliche Korrelationen zwischen weiteren Systemparametern (neben der Wartezeit) und Nutzerverhalten aufgedeckt. Des Weiteren wurden Funktionen zur Zufriedenheit und Reaktion von Nutzern auf variierende Antwortzeiten von Rechensystemen entwickelt. Diese Ergebnisse wurden durch eine Umfrage unter Nutzern von Parallelrechner an der TU Dortmund erzielt, f\u00fcr die ein spezieller Frageboden entwickelt wurde. Modellierung von Nutzerverhalten und Feedback Wegen des dynamischen Zusammenhangs zwischen Systemgeschwindigkeit und Nutzerverhalten ist es n\u00f6tig, Zuweisungsstrategien in dynamischen, feedback-getriebenen Simulationen zu evaluieren. Hierzu wurde ein mehrstufiges Nutzermodell entwickelt, welches die aktuellen Annahmen an Nutzerverhalten beinhaltet und das zuk\u00fcnftige Hinzuf\u00fcgen von zus\u00e4tzlichen Verhaltenskomponenten erm\u00f6glicht. Die Kernelemente umfassen bisher Modelle f\u00fcr den Tages- und Nachtrhythmus, den Arbeitsrhythmus und Eigenschaften der submittierten Jobs. Das dynamische Feedback ist derart gestaltet, dass erst die Fertigstellung von bestimmten Jobs die zuk\u00fcnftige Jobeinreichung ausl\u00f6st. Optimierung der Allokationsstrategien zur Steigerung der Nutzerzufriedenheit Die mit Hilfe des Fragebogens entwickelte Wartezeitakzeptanz von Nutzern ist durch ein MILP optimiert worden. Das MILP sucht nach L\u00f6sungen, die m\u00f6glichst viele Jobs innerhalb eines akzeptierten Wartezeitfensters startet bzw. die Summe der Versp\u00e4tungen minimiert. Durch die Komplexit\u00e4t dieses Optimierungsalgorithmus besteht die Evaluation bisher nur auf fixierten, statischen Szenarien, die Abbilder bestimmter System- und Warteschlangenzust\u00e4nde abbilden. Deswegen ist weiterhin geplant, Schedulingverfahren zur Steigerung der Anzahl an eingereichten Jobs und der Wartezeitzufriedenheit mit Hilfe des dynamischen Modells zu evaluieren.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1139867555",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4189152-1",
+                "gnd:4000996-8",
+                "gnd:4179449-7",
+                "gnd:4075860-6"
+            ],
+            "isLike": "doi:10.17877/DE290R-18110",
+            "P60163": "Dortmund"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

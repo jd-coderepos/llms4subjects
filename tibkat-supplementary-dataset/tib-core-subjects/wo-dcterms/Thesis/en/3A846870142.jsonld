@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:121448339",
+            "sameAs": "Kleine B\u00fcning, Hans"
+        },
+        {
+            "@id": "gnd:136971113",
+            "sameAs": "Hamann, Heiko"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A846870142",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 211 Seiten)",
+            "creator": "Baumann, Michael",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)HBZ:CT004001443",
+                "(ppn)846870142"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)006",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Learning shepherding behavior",
+            "abstract": "Roboter, die Schafe h\u00fcten sowie die dazu n\u00f6tigen Strategien zum Bewegen von Individuen zu einem Ziel, bieten vielseitige Anwendungen wie z. B. die Rettung von Menschen aus bedrohlichen Lagen oder der Einsatz schwimmender Roboter zur Beseitigung von \u00d6lteppichen. In dieser Arbeit nutzen wir ein Multiagentensystem als Modell der Roboter und Schafe. Wir untersuchen die Komplexit\u00e4t des Schafeh\u00fctens und zeigen einen Greedy-Algorithmus, der in linearer Laufzeit eine fast optimale L\u00f6sung berechnet. Weiterhin analysieren wir, wie solche Strategien gelernt werden k\u00f6nnen, da maschinelles Lernen oftmals vorteilhafte L\u00f6sungen findet. Im Folgenden nutzen wir Reinforcement Learning (RL) als Lernmethode. Damit RL Agenten ihr gelerntes Wissen auch in kontinuierlichen oder sehr gro\u00dfen Zustandsr\u00e4umen (wie im betrachteten Szenario) vorhalten k\u00f6nnen, sind Methoden zur Wissensabstraktion n\u00f6tig. Unsere Methoden kombinieren RL mit adaptiven neuronalen Verfahren und erlauben dem Agenten gleichzeitig Strategien sowie Darstellungen dieses Wissens zu lernen. Beide Verfahren basieren auf dem un\u00fcberwachten Lernverfahren Growing Neural Gas, das eine Vektorquantisierung lernt, indem es neuronale Einheiten im Eingaberaums platziert und bewegt. GNG-Q gruppiert benachbarte Zust\u00e4nde die gleiches Verhalten erfordern (Zustandsraumapproximation); I-GNG-Q wiederum kombiniert Wissen, um eine glatte Bewertungsfunktion zu erhalten (Approximation der Bewertungsfunktion des RL-Agenten). Beide Verfahren beobachten das Verhalten des Lerners um Stellen der Approximation zu finden, die noch verfeinert werden m\u00fcssen. Die Hauptvorteile unserer Verfahren sind u.a., dass sie ohne Kenntnis des Modells der Umgebung automatisch eine passende Aufl\u00f6sung der Approximation bestimmen. Die experimentelle Analyse unterstreicht, dass unsere Methoden sehr effiziente und effektive Strategien erzeugen.. - Artificial shepherding strategies, i.e. using robots to move individuals to given locations, have many applications. For example, people can be guided by mobile robots from dangerous places or swimming robots may help to clean up oil spills. This thesis uses a multiagent system to model the robots and sheep. We analyze the complexity of the shepherding task and present a greedy algorithm that only needs linear time to compute a solution that is proven to be close to optimal. Additionally, we analyze to what extend such strategies can be learned as learning usually provides powerful solutions. This thesis focuses on reinforcement learning (RL) as learning method. To enable RL agents to use their knowledge more efficiently in continuous or large state spaces (as e.g. in the shepherding task), methods to transfer knowledge to unseen but similar situations are required. The approaches developed in this thesis, GNG-Q and I-GNG-Q, combine RL with adaptive neural algorithms and enable the agent to learn behavior in parallel with its representation. Both are based upon the growing neural gas, which is an unsupervised learning approach that learns a vector quantization by placing and adjusting units in the input space. GNG-Q groups states that are spatial close and share the same behavior while I-GNG-Q combines the learned behavior from a larger area of the approximation which results in smoother value functions. Thus, GNG-Q performs a state-space abstraction and I-GNG-Q approximates the value function. Both methods monitor the agent's policy during learning to find regions of the approximation that have to be refined. Amongst many others, the core advantages of our approaches are that they do not need the model of the environment and that the resolution of the approximation is determined automatically. The experimental evaluation underlines that the behaviors learned using our approaches are highly efficient and effective.",
+            "contributor": [
+                "gnd:121448339",
+                "gnd:136971113"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

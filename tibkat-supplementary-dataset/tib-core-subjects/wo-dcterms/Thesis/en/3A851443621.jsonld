@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1060506440",
+            "sameAs": "H\u00e4b-Umbach, Reinhold"
+        },
+        {
+            "@id": "gnd:64857-7",
+            "sameAs": "Universit\u00e4t Paderborn"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A851443621",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (iv, 258 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Raj, Bhiksha",
+            "creator": "Leutnant, Volker",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)HBZ:CT004001457",
+                "(ppn)851443621"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc)500"
+            ],
+            "title": "Bayesian estimation employing a phase-sensitive observation model for noise and reverberation robust automatic speech recognition",
+            "abstract": "Mit der zunehmenden Nutzung und Verbreitung von automatischen Spracherkennungssystemen steigen auch die Anforderungen an eben diese Systeme im Hinblick auf Robustheit gegen\u00fcber Nachhall und Hintergrundst\u00f6rungen. Im besonderen Ma\u00dfe gilt dies f\u00fcr Freisprechsysteme. Zwar erh\u00f6hen diese den Bedienungskomfort f\u00fcr die Nutzer, sorgen aber auch daf\u00fcr, dass das Sprachsignal auf verschiedene Arten gest\u00f6rt werden kann. Da das Training des akustischen Modells eines automatischen Spracherkennungssystems oftmals mit ungest\u00f6rten Sprachsignalen durchgef\u00fchrt wird, sorgen Nachhall und Hintergrundst\u00f6rungen daf\u00fcr, dass es w\u00e4hrend der Erkennung zu einer statistischen Diskrepanz zwischen den gespeicherten Modellen und den beobachteten Merkmalsvektoren kommt. Als Konsequenz dieser Fehlanpassung lassen sich steigende Wortfehlerraten des Erkenners beobachten. Aber auch wenn bereits auf Merkmalsvektoren von verrauschten und verhallten Sprachsignalen trainiert wurde, kommt es zu Verschlechterungen der Erkennungsergebnisse. Diese lassen sich auf die Verletzung der so genannten \"conditional-independence\" Annahme, auf welche die \"Hidden Markov Modell\"-basierte Spracherkennung fu\u00dft, durch die, durch den Nachhall bedingten, verst\u00e4rkten zeitlichen Korrelationen der Merkmalsvektoren zur\u00fcckf\u00fchren. Um diese Probleme adressieren zu k\u00f6nnen, wird in dieser Arbeit eine detaillierte (statistische) Analyse der Auswirkung von Nachhall und Hintergrundst\u00f6rungen auf das Sprachsignal und schlussendlich auf die Merkmalsvektoren, welche f\u00fcr die Erkennung verwendet werden, durchgef\u00fchrt. Daraus wird dann ein neuartiges Beobachtungsmodell, welches die Merkmale des verrauschten und verhallten Sprachsignals mit denen des ungest\u00f6rten Sprachsignals und denen der Hintergrundst\u00f6rung in Beziehung setzt, entwickelt .... - Speech recognition technology has been emerging into everyday life. The acceptance of speech recognition systems is, however, still suffering from their lack of robustness w.r.t. acoustic environmental noise and reverberation. This problem is probably most severe when hands-free systems are employed to capture human speech. While allowing the user to move freely without the need of wearing a headset or holding a microphone, performance of hands- free systems is particularly highly sensitive to the acoustic conditions of the environment they are employed in. The reason for this may be found in the increased distance of the speaker to the microphone compared to the use of a headset, which leads to a degradation of the acoustic signal. Since the training of a speech recognizers acoustic model is often carried out with clean speech signals, the signal modification by reverberation and noise results in a mismatch between the statistics of the observed feature vectors at training and testing stage, and thus in an increased word error rate. But even in the case of matched noisy reverberant training the performance deteriorates, since the temporal feature correlations introduced by reverberation violate the conditional independence assumption inherent to hidden Markov model based speech recognition. In this thesis a detailed (statistical) analysis of how reverberation and noise affect the speech signal and eventually the feature vectors passed to the recognizer is carried out to address those issues. The findings lead to the derivation of a novel statistical observation model which relates the features of the noisy reverberant speech signal to those of the underlying clean speech signal and the noise. It is eventually employed in the context of model-based Bayesian feature enhancement with subsequent speech recognition. The derived observation model thereby generalizes both the observation model for noisy speech ...",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1060506440"
+                }
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:64857-7"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

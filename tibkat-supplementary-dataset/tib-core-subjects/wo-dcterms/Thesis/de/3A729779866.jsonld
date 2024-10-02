@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1015547257",
+            "sameAs": "Schimmler, Manfred"
+        },
+        {
+            "@id": "gnd:1027172687",
+            "sameAs": "Starke, Christoph"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A729779866",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (xviii, 176 S.)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)729779866",
+                "(firstid)DNB:1026442737"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "Wertpapierhandel",
+                "Algorithmus",
+                "Strategie",
+                "Finanzanalyse",
+                "(classificationName=ddc)332.632220285",
+                "(classificationName=ddc-dbn)330",
+                "Theorie",
+                "Computerunterst\u00fctzung",
+                "Data Mining"
+            ],
+            "title": "High Performance Computing zur technischen Finanzmarktanalyse",
+            "abstract": "Auf Grundlagen der technischen Finanzmarktanalyse wird ein Algorithmus f\u00fcr eine sicherheitsorientierte Wertpapierhandelsstrategie entwickelt. Ma\u00dfgeblich f\u00fcr den Erfolg der Handelsstrategie ist dabei eine m\u00f6glichst optimale Gewichtung mehrerer Indikatoren. Die Ermittlung dieser Gewichte erfolgt in einer sogenannten Kalibrierungsphase, die extrem rechenintensiv ist. Bei einer direkten Implementierung auf einem herk\u00f6mmlichen High Performance PC w\u00fcrde diese Kalibrierungsphase zigtausend Jahre dauern. Deshalb wird eine parallele Version des Algorithmus entwickelt, die hervorragend f\u00fcr die massiv parallele, FPGA-basierte Rechnerarchitektur der RIVYERA geeignet ist, die am Lehrstuhl f\u00fcr technische Informatik der Christian-Albrechts-Universit\u00e4t zu Kiel entwickelt wurde. Durch mathematisch \u00e4quivalente Transformationen und Optimierungsschritte aus verschiedenen Bereichen der Informatik gelingt eine FPGA-Implementierung mit einer im Vergleich zu dem PC mehr als 22.600-fach h\u00f6heren Performance. Darauf aufbauend wird durch die zus\u00e4tzliche Entwicklung eines zweiphasigen Iterationsverfahrens schlie\u00dflich eine praxistaugliche Version des Algorithmus entwickelt, die je Kalibrierung weniger als 12 Minuten Rechenzeit ben\u00f6tigt. Der Stromverbrauch ist dabei etwa 99,99% geringer als bei einer Durchf\u00fchrung des Kalibrierungsalgorithmus auf dem PC. Die abschlie\u00dfende finanzwirtschaftliche Evaluierung zeigt an Beispielen aus dem Bereich des Fondshandels den wirtschaftlichen Erfolg der Handelsstrategie.",
+            "contributor": "gnd:1015547257",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1027172687",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

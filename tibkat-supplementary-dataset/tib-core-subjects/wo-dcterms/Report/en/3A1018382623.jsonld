@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:173381804",
+            "sameAs": "Fuhrmann, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1018382623",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (20 Seiten, 647 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Patriarca, Matteo",
+                "Koprucki, Thomas",
+                "Farrell, Patricio"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1018382623",
+                "(doi)10.20347/WIAS.PREPRINT.2498",
+                "(firstid)GBV:1018382623"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS), Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Highly accurate quadrature-based Scharfetter-Gummel schemes for charge transport in degenerate semiconductors",
+            "abstract": "We introduce a family of two point flux expressions for charge carrier transport described by drift-diffusion problems in degenerate semiconductors with non-Boltzmann statistics which can be used in Vorono\u00ef finite volume discretizations. In the case of Boltzmann statistics, Scharfetter and Gummel derived such fluxes by solving a linear two point boundary value problem yielding a closed form expression for the flux. Instead, a generalization of this approach to the nonlinear case yields a flux value given implicitly as the solution of a nonlinear integral equation. We examine the solution of this integral equation numerically via quadrature rules to approximate the integral as well as Newton\u2019s method to solve the resulting approximate integral equation. This approach results into a family of quadrature-based Scharfetter-Gummel flux approximations. We focus on four quadrature rules and compare the resulting schemes with respect to execution time and accuracy. A convergence study reveals that the solution of the approximate integral equation converges exponentially in terms of the number of quadrature points. With very few integration nodes they are already more accurate than a state-of-the-art reference flux, especially in the challenging physical scenario of high nonlinear diffusion. Finally, we show that thermodynamic consistency is practically guaranteed.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:173381804"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2498",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2498",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

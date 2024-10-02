@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1275523773",
+            "sameAs": "Tebbe, Jonas"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1827037504",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 113 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1827037504",
+                "(ppn)1827037504"
+            ],
+            "subject": [
+                "Maschinelles Sehen",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc-dbn)629.892",
+                "Operante Konditionierung",
+                "Robotik",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Adaptive robot systems in highly dynamic environments : a table tennis robot",
+            "abstract": [
+                "Hintergrund: Tischtennis bietet ideale Bedingungen, um Kamera-basierte Roboterarme am Limit zu testen. Die besondere Herausforderung liegt in der hohen Geschwindigkeit des Spiels und in der gro\u00dfen Varianz von Spin und Tempo jedes einzelnen Schlages. Die bisherige Forschung mit Tischtennisrobotern beschr\u00e4nkt sich jedoch auf einfache Szenarien, d.h. auf langsame B\u00e4lle mit einer geringen Rotation. Forschungsziel: Es soll ein lernf\u00e4higer Tischtennisroboter entwickelt werden, der mit dem Spin menschlicher Gegner umgehen kann. Methoden: Das vorgestellte Robotersystem besteht aus sechs Komponenten: Ballpositionserkennung, Ballspinerkennung, Balltrajektorienvorhersage, Schlagparameterbestimmung, Robotertrajektorienplanung und Robotersteuerung. Zuerst wird der Ball mit traditioneller Bildverarbeitung in den Kamerabildern lokalisiert. Mit iterativer Triangulation wird dann seine 3D-Position berechnet. Aus der Kurve der Ballpositionen wird die aktuelle Position und Geschwindigkeit des Balles ermittelt. F\u00fcr die Spinerkennung werden drei Methoden pr\u00e4sentiert: Die ersten beiden verfolgen die Bewegung des aufgedruckten Ball-Logos auf hochaufl\u00f6senden Bildern durch Computer Vision bzw. Convolutional Neural Networks. Im dritten Ansatz wird die Flugbahn des Balls unter Ber\u00fccksichtigung der Magnus-Kraft analysiert. Anhand der Position, der Geschwindigkeit und des Spins des Balls wird die zuk\u00fcnftige Flugbahn berechnet. Daf\u00fcr wird die physikalische Diffenzialgleichung mit Gravitationskraft, Luftwiderstandskraft und Magnus-Kraft schrittweise gel\u00f6st. Mit dem berechneten Zustand des Balls am Schlagpunkt haben wir einen Reinforcement-Learning-Algorithmus trainiert, der bestimmt, mit welchen Schlagparametern der Ball zu treffen ist. Eine passende Robotertrajektorie wird von der Reflexxes-Bibliothek generiert. %Der Roboter wird dann mit einer Frequenz von 250 Hz angesteuert. Ergebnisse: In der quantitativen Auswertung erzielen die einzelnen Komponenten mindestens so gute Ergebnisse wie vergleichbare Tischtennisroboter. Im Hinblick auf das Forschungsziel konnte der Roboter - ein Konterspiel mit einem Menschen f\u00fchren, mit bis zu 60 R\u00fcckschl\u00e4gen, - unterschiedlichen Spin (\u00dcber- und Unterschnitt) retournieren - und mehrere Tischtennis\u00fcbungen innerhalb von 200 Schl\u00e4gen erlernen. Schlu\u00dffolgerung: Bedeutende algorithmische Neuerungen f\u00fchren wir in der Spinerkennung und beim Reinforcement Learning von Schlagparametern ein. Dadurch meistert der Roboter anspruchsvollere Spin- und \u00dcbungsszenarien als in vergleichbaren Arbeiten.",
+                "Background: Robotic table tennis systems offer an ideal platform for pushing camera-based robotic manipulation systems to the limit. The unique challenge arises from the fast-paced play and the wide variation in spin and speed between strokes. The range of scenarios under which existing table tennis robots are able to operate is, however, limited, requiring slow play with low rotational velocity of the ball (spin). Research Goal: We aim to develop a table tennis robot system with learning capabilities able to handle spin against a human opponent. Methods: The robot system presented in this thesis consists of six components: ball position detection, ball spin detection, ball trajectory prediction, stroke parameter suggestion, robot trajectory generation, and robot control. For ball detection, the camera images pass through a conventional image processing pipeline. The ball\u2019s 3D positions are determined using iterative triangulation and these are then used to estimate the current ball state (position and velocity). We propose three methods for estimating the spin. The first two methods estimate spin by analyzing the movement of the logo printed on the ball on high-resolution images using either conventional computer vision or convolutional neural networks. The final approach involves analyzing the trajectory of the ball using Magnus force fitting. Once the ball\u2019s position, velocity, and spin are known, the future trajectory is predicted by forward-solving a physical ball model involving gravitational, drag, and Magnus forces. With the predicted ball state at hitting time as state input, we train a reinforcement learning algorithm to suggest the racket state at hitting time (stroke parameter). We use the Reflexxes library to generate a robot trajectory to achieve the suggested racket state. Results: Quantitative evaluation showed that all system components achieve results as good as or better than comparable robots. Regarding the research goal of this thesis, the robot was able to - maintain stable counter-hitting rallies of up to 60 balls with a human player, - return balls with different spin types (topspin and backspin) in the same rally, - learn multiple table tennis drills in just 200 strokes or fewer. Conclusion: Our spin detection system and reinforcement learning-based stroke parameter suggestion introduce significant algorithmic novelties. In contrast to previous work, our robot succeeds in more difficult spin scenarios and drills."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1275523773"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

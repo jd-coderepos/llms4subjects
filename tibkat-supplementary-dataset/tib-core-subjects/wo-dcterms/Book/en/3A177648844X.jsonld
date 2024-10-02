@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1245807609",
+            "sameAs": "Steif, Ken"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A177648844X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Resource (xxii, 229 Seiten)",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen"
+            ],
+            "identifier": [
+                "(firstid)KEP:069794898",
+                "(isbn13)9781000401615",
+                "(isbn)100040157X",
+                "(isbn13)9781003054658",
+                "(ppn)177648844X",
+                "(isbn)100305465X",
+                "(isbn13)9781000401578",
+                "(isbn)1000401618"
+            ],
+            "publisher": "CRC Press, Taylor & Francis",
+            "subject": [
+                "COMPUTERS / General",
+                "(classificationName=rvk)QH 234",
+                "(classificationName=linseach:mapping)sow",
+                "(classificationName=ddc)352.3/80285",
+                "Political planning",
+                "BUSINESS & ECONOMICS / Statistics",
+                "United States",
+                "Electronic books",
+                "COMPUTERS / Computer Graphics / General",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=rvk)MD 7600"
+            ],
+            "title": "Public policy analytics : code and context for data science in government",
+            "abstract": "<P>Preface Introduction <strong>Indicators for Transit Oriented Development </strong>1.1 Why Start With Indicators? 1.1.1 Mapping & scale bias in areal aggregate data 1.2 Setup 1.2.1 Downloading & wrangling Census data 1.2.2 Wrangling transit open data 1.2.3 Relating tracts & subway stops in space 1.3 Developing TOD Indicators 1.3.1 TOD indicator maps 1.3.2 TOD indicator tables 1.3.3 TOD indicator plots 1.4 Capturing three submarkets of interest 1.5 Conclusion: Are Philadelphians willing to pay for TOD? 1.6 Assignment -- Study TOD in your city <strong>Expanding the Urban Growth Boundary</strong>2.1 Introduction -- Lancaster development2.1.1 The bid-rent model2.1.2 Setup Lancaster data 2.2 Identifying areas inside & outside of the Urban Growth Area 2.2.1 Associate each inside/outside buffer with its respective town2.2.2 Building density by town & by inside/outside the UGA 2.2.3 Visualize buildings inside & outside the UGA2.3 Return to Lancaster's Bid Rent 2.4 Conclusion -- On boundaries 2.5 Assignment -- Boundaries in your community <strong>Intro to geospatial machine learning, Part 1 </strong>3.1 Machine learning as a Planning tool 3.1.1 Accuracy & generalizability 3.1.2 The machine learning process 3.1.3 The hedonic model 3.2 Data wrangling -- Home price & crime data 3.2.1 Feature Engineering -- Measuring exposure to crime 3.2.2 Exploratory analysis: Correlation3.3 Introduction to Ordinary Least Squares Regression 3.3.1 Our first regression model3.3.2 More feature engineering & colinearity 3.4 Cross-validation & return to goodness of fit3.4.1 Accuracy -- Mean Absolute Error 3.4.2 Generalizability -- Cross-validation 3.5 Conclusion -- Our first model 3.6 Assignment -- Predict house prices <strong>Intro to geospatial machine learning, Part 2</strong>4.1 On the spatial process of home prices 4.1.1 Setup & Data Wrangling 4.2 Do prices & errors cluster? The Spatial Lag4.2.1 Do model errors cluster? -- Moran's I4.3 Accounting for neighborhood 4.3.1 Accuracy of the neighborhood model 4.3.2 Spatial autocorrelation in the neighborhood model 4.3.3 Generalizability of the neighborhood model4.4 Conclusion -- Features at multiple scales<strong>Geospatial risk modeling -- Predictive Policing </strong>5.1 New predictive policing tools 5.1.1 Generalizability in geospatial risk models 5.1.2 From Broken Windows Theory to Broken Windows Policing 5.1.3 Setup 5.2 Data wrangling: Creating the fishnet5.2.1 Data wrangling: Joining burglaries to the fishnet 5.2.2 Wrangling risk factors 5.3 Feature engineering -- Count of risk factors by grid cell 5.3.1 Feature engineering -- Nearest neighbor features 5.3.2 Feature Engineering -- Measure distance to one point 5.3.3 Feature Engineering -- Create the final-net 5.4 Exploring the spatial process of burglary 5.4.1 Correlation tests 5.5 Poisson Regression 5.5.1 Cross-validated Poisson Regression 5.5.2 Accuracy & Generalzability 5.5.3 Generalizability by neighborhood context5.5.4 Does this model allocate better than traditional crime hotspots? 5.6 Conclusion -- Bias but useful? 5.7 Assignment -- Predict risk <strong>People-based ML models</strong>6.1 Bounce to work6.2 Exploratory analysis 6.3 Logistic regression6.3.1 Training/Testing sets 6.3.2 Estimate a churn model 6.4 Goodness of Fit 6.4.1 Roc Curves 6.5 Cross-validation 6.6 Generating costs and benefits 6.6.1 Optimizing the cost/benefit relationship 6.7 Conclusion -- churn 6.8 Assignment -- Target a subsidy <strong>People-Based ML Models: Algorithmic Fairness</strong>7.1 Introduction 7.1.1 The spectre of disparate impact 7.1.2 Modeling judicial outcomes 7.1.3 Accuracy and generalizability in recidivism algorithms 7.2 Data and exploratory analysis 7.3 Estimate two recidivism models 7.3.1 Accuracy & Generalizability 7.4 What about the threshold?7.5 Optimizing 'equitable' thresholds 7.6 Assignment -- Memo to the Mayor <strong>Predicting rideshare demand</strong>8.1 Introduction -- ride share 8.2 Data Wrangling -- ride share 8.2.1 Lubridate8.2.2 Weather data 8.2.3 Subset a study area using neighborhoods 8.2.4 Create the final space/time panel 8.2.5 Split training and test8.2.6 What about distance features? 8.3 Exploratory Analysis -- ride share 8.3.1 Trip-Count serial autocorrelation 8.3.2 Trip-Count spatial autocorrelation 8.3.3 Space/time correlation? 8.3.4 Weather8.4 Modeling and validation using purrr::map8.4.1 A short primer on nested tibbles 8.4.2 Estimate a ride share forecast 8.4.3 Validate test set by time 8.4.4 Validate test set by space 8.5 Conclusion -- Dispatch8.6 Assignment -- Predict bike share tripsConclusion -- Algorithmic Governance Index",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1245807609",
+            "isPartOf": [
+                "(collectioncode)ZDB-7-TFC",
+                "(collectioncode)BSZ-7-TFC-GIGA",
+                "(collectioncode)GBV-7-TFC-MAGD",
+                "(collectioncode)GBV-7-TFC-TIB",
+                "(collectioncode)GBV-7-TFC-MRI-EBA"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P30128": "Chapman & Hall/CRC data science series",
+            "P60163": "Boca Raton"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

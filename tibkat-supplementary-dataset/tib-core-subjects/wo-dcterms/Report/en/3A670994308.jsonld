@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A670994308",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource ( 24 S., 736 KB)",
+            "creator": [
+                "G\u00f6tschel, Sebastian",
+                "Weiser, Martin"
+            ],
+            "identifier": [
+                "(ppn)670994308",
+                "(firstid)GBV:670994308"
+            ],
+            "publisher": "Konrad-Zuse-Zentrum f\u00fcr Informationstechnik",
+            "subject": [
+                "(classificationName=msc)94A29",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)65K10",
+                "(classificationName=msc)49M29",
+                "(classificationName=msc)65M60",
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik"
+            ],
+            "title": "State trajectory compression for optimal control with parabolic PDEs",
+            "abstract": "In optimal control problems with nonlinear time-dependent 3D PDEs, full 4D discretizations are usually prohibitive due to the storage requirement. For this reason gradient and Newton type methods working on the reduced functional are often employed. The computation of the reduced gradient requires one solve of the state equation forward in time, and one backward solve of the adjoint equation. The state enters into the adjoint equation, again requiring the storage of a full 4D data set. We propose a lossy compression algorithm using an inexact but cheap predictor for the state data, with additional entropy coding of prediction errors. As the data is used inside a discretized, iterative algorithm, lossy compression maintaining a certain error bound turns out to be suffcient.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2010,5",
+            "P30128": "ZIB-Report / Konrad-Zuse-Zentrum f\u00fcr Informationstechnik Berlin",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

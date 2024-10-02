@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:142925004",
+            "sameAs": "Erath, Christoph"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A643739866",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)BSZ:335438628",
+                "(ppn)643739866"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)510",
+                "Numerical analysis",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ssg)17,1"
+            ],
+            "title": "Coupling of the Finite Volume Method and the Boundary Element Method - Theory, Analysis, and Numerics",
+            "abstract": "We develop a discretization scheme for the coupling of the finite volume method and the boundary element method in two dimensions, which describes, for example, the transport of a concentration in a fluid. The discrete system maintains naturally local conservation. In a bounded interior domain we approximate a diffusion convection reaction problem either by the finite volume element method or by the cell-centered finite volume method, whereas in the corresponding exterior domain the Laplace problem is solved by the boundary element method. On the coupling boundary we have appropriate transmission conditions. A weighted upwind scheme guarantees the stability of the method also for convection dominated problems. We show existence and uniqueness of the continuous system and provide an a~priori analysis for the coupling with the finite volume element method. For both coupling systems we derive residual-based a~posteriori estimates, which give upper and lower bounds for the error between the exact solution and the approximate solution. These bounds measure the error in an energy (semi-) norm and are robust in the sense that they do not depend on the variation of the model data. The local contributions of the a~posteriori estimates are used to steer an adaptive mesh-refining algorithm. Numerical experiments show that our adaptive coupling is an efficient method for the numerical treatment of transmission problems, which exhibit local behavior.",
+            "contributor": "gnd:142925004",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122725751",
+            "sameAs": "Sierka, Marek"
+        },
+        {
+            "@id": "gnd:1324502460",
+            "sameAs": "Sharma, Manas"
+        },
+        {
+            "@id": "gnd:1324565632",
+            "sameAs": "Fink, Karin"
+        },
+        {
+            "@id": "gnd:144003546",
+            "sameAs": "Bahmann, Hilke"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4258514-4",
+            "sameAs": "Dichtefunktionalformalismus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188447568X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (125 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)188447568X",
+                "(firstid)KXP:188447568X",
+                "(doi)10.22032/dbt.59873"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "Quantenphysik",
+                "(classificationName=bk, id=106407910)33.23 - Quantenphysik",
+                "Dichtefunktionalformalismus",
+                "(classificationName=ddc-dbn)541",
+                "(classificationName=ddc-dbn)540"
+            ],
+            "title": "Density functional theory based embedding for molecular and periodic systems",
+            "abstract": "Complex chemical systems pose formidable challenges to electronic structure theory. While density functional theory (DFT), a popular lower-level quantum mechanical method, can efficiently handle large systems with hundreds of atoms, it is plagued by issues such as self-interaction error and the use of approximate exchange-correlation functionals. On the other hand, correlated wavefunction theory (WFT) methods like coupled cluster (CC) theories, are much more accurate but prohibitively expensive for systems with more than $\\sim50$ atoms. Therefore, balancing accuracy against computational cost is crucial when selecting an electronic structure method. Usually, the relevant and interesting chemical phenomenon tends to be localized to a small active region of the complete system, such as the adsorption site of the molecule, or the vicinity of the defect. This is where embedding techniques come into the picture. Embedding methods offer a promising compromise to bridge the accuracy versus cost gap, by allowing to split the larger system into an active and environment subsystem. The active subsystem, which is the region of interest, can then be treated using a more accurate and computationally demanding method while the environment can be treated using a lower-level theory like DFT and the influence of the environment on the active subsystem is accounted for by the chosen embedding formalism. This thesis presents a practical and efficient implementation of density functional theory (DFT) based embedding, wherein the environment is treated at the DFT level, and its influence on the active subsystem is accounted for via an embedding potential which is a functional of the subsystem densities. The implementation supports both periodic and aperiodic systems, with the essence being the expansion of orbitals and electron density using Gaussian basis functions, rather than plane waves.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1324565632"
+                },
+                {
+                    "@id": "gnd:122725751"
+                },
+                {
+                    "@id": "gnd:144003546"
+                }
+            ],
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1324502460"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4258514-4"
+            },
+            "isLike": "doi:10.22032/dbt.59873",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

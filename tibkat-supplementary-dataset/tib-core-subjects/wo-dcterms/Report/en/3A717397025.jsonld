@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A717397025",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (PDF-Datei: 114 S., 1,80 MB)",
+            "creator": "Unland, Rainer",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)717397025",
+                "(firstid)GBV:717397025"
+            ],
+            "publisher": "Inst. f\u00fcr Wirtschaftsinformatik",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "TOPAZ : a tool kit for the assembly of transaction managers for non-standard applications",
+            "abstract": "\"Advanced database applications\", such as CAD/CAM, CASE, large AI applications or image and voice processing, place demands on transaction management which differ substantially from those in traditional database applications. In particular, there is a need to support \"enriched\" data models (which include, for example, complex objects or version and configuration management), \"synergistic\" cooperative work, and application- or user-supported consistency. Unfortunately, the demands are not only sophisticated but also diversified, which means that different application areas might even place contradictory demands on transaction management. This paper deals with these problems and offers a solution by introducing a flexible and adaptable tool kit approach for transaction management. This tool kit enables a database implementor or applications designer to assemble application-specific transaction managers. Each such transaction manager is meant to provide a number of individualized, application-specific transaction types. Such transaction types can be constructed by selecting a meaningful subset from a \"starter set\" of basic constituents. Among the basic components provided by the starter set are those for concurrency control, recovery, and transaction processing control. In a first step these basic components are assembled and adapted to each other to form a kind of (nonexecutable) \"skeleton\" transaction. Skeleton transactions can be customized to make them a more meaningful basis for the construction of executable transaction type. Finally, executable transaction types can be constructed by equipping appropriate skeleton transaction with the specific semantics of the transaction model of choice. To be able to emulate each kind of application environment the different transaction types must be executable in any order within a nested transaction hierarchy. For this reason we propose a kind of \"meta\" (transaction) model. It specifies the constraints and rules which need to be obeyed by each transaction type. Particular emphasis is placed on the integration of flexible and powerful concepts for a comprehensive support of cooperative work.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1994",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "34",
+            "P30128": "Arbeitsberichte des Instituts f\u00fcr Wirtschaftsinformatik",
+            "P60163": "M\u00fcnster"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

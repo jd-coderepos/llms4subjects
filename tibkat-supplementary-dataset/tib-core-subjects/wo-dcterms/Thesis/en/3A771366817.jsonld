@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4116521-4",
+            "sameAs": "Software Engineering"
+        },
+        {
+            "@id": "gnd:4151002-1",
+            "sameAs": "Echtzeitverarbeitung"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A771366817",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Schneider, Klaus",
+            "creator": "Brandt, Jens",
+            "identifier": [
+                "(ppn)771366817",
+                "(firstid)DNB:1042939454"
+            ],
+            "publisher": "Technische Universit\u00e4t Kaiserslautern",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=linseach:mapping)oek"
+            ],
+            "title": "Synchronous Models for Embedded Software",
+            "abstract": "Compared to traditional software design, the design of embedded software is even more challenging: In addition to the correct implementation of the systems, one has to consider non-functional constraints such as real-time behavior, reliability, and energy consumption. Moreover, many embedded systems are used in safety-critical applications where errors can lead to enormous damages and even to the loss of human live. For this reason, formal verification is applied in many design flows using different kinds of formal verification methods. The synchronous model of computation has shown to be well-suited in this context. Its core is the paradigm of perfect synchrony which assumes that the overall system behavior is divided into a sequence of reactions, and all computations within a reaction are completed in zero time. This temporal abstraction simplifies reactive programming in that developers do not have to bother about many low-level details related to timing, synchronization and scheduling. This thesis is dedicated to this design flow, and it presents the author's contributions to it.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4116521-4",
+                "gnd:4396978-1",
+                "gnd:4151002-1"
+            ],
+            "P60163": "Kaiserslautern"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

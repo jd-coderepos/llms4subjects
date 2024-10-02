@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1055976310",
+            "sameAs": "G\u00f6rgen, Ralph"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "gnd:4055072-2",
+            "sameAs": "Simulation"
+        },
+        {
+            "@id": "gnd:4159737-0",
+            "sameAs": "Heterogenes System"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "gnd:7616754-9",
+            "sameAs": "Modelltransformation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A785777423",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VIII, 159 S., 1,9 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Fr\u00e4nzle, Martin",
+            "identifier": [
+                "(firstid)DNB:1049782011",
+                "(ppn)785777423"
+            ],
+            "subject": [
+                "(classificationName=ddc)004.028",
+                "(classificationName=bk, id=106418823)54.23 - Rechnerhardware",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)DDC004",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=bk, id=10641853X)53.55 - Mikroelektronik",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation"
+            ],
+            "title": "Effiziente Integration von Hardwarebeschreibungen in Simulink/TDF-Simulationen",
+            "abstract": [
+                "This thesis describes a method for the efficient integration of digital hardware components into system models. The model of the hardware component is given in a hardware description language. The entire system is modelled in Simulink. Existing co-simulation methods require a lot of additional computational efforts to synchronise the simulator tools and exchange data between them. The approach presented here is based on a transformation of the hardware model, which allows its execution directly in the context of the Simulink model. As no separate simulator is needed to simulate the hardware component, the overhead for synchronisation and data exchange is reduced significantly. Hence, the overall system simulation becomes faster. In addition, a further optimisation of the simulation performance is presented. The transformed hardware model enables this improvement and is based on skipping phases without state changes in the simulation. <engl.>",
+                "In dieser Arbeit wird eine Methode zur effizienten Integration von digitalen Hardwarekomponenten in Systemmodelle vorgestellt. Das Modell der Hardwarekomponente liegt in einer Hardwarebeschreibungssprache vor, das Gesamtsystem ist in Simulink modelliert. W\u00e4hrend bei existierenden Methoden zur Ko-Simulation gro\u00dfer Mehraufwand zur Synchronisation der Simulatoren und zum Datenaustausch erforderlich ist, basiert der hier entwickelte Ansatz auf einer Transformation des Hardwaremodells, das dann direkt im Kontext des Simulink-Modells ausgef\u00fchrt werden kann. Da kein eigenst\u00e4ndiger Simulator f\u00fcr das Hardwaremodell ben\u00f6tigt wird, ist der Mehraufwand f\u00fcr Synchronisation und Datenaustausch stark reduziert und die Simulation des Gesamtsystems wird deutlich schneller. Dar\u00fcber hinaus wird eine weitere Optimierung vorgestellt, die durch die Transformation des Hardwaremodells m\u00f6glich wird und auf dem \u00dcberspringen von Phasen ohne Zustands\u00e4nderungen in der Simulation basiert. <dt.>"
+            ],
+            "alternative": "Efficient Integration of Hardware-Descriptions into Simulink/TDF-Simulations",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:17228242X"
+                }
+            ],
+            "creator": "gnd:1055976310",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7616754-9"
+                },
+                {
+                    "@id": "gnd:4055072-2"
+                },
+                {
+                    "@id": "gnd:4159737-0"
+                },
+                {
+                    "@id": "gnd:4396978-1"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

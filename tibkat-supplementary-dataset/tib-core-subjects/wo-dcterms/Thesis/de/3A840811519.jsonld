@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122813375",
+            "sameAs": "Kuske, Dietrich"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4135577-5",
+            "sameAs": "Verifikation"
+        },
+        {
+            "@id": "gnd:4137542-7",
+            "sameAs": "Temporale Logik"
+        },
+        {
+            "@id": "gnd:4175841-9",
+            "sameAs": "Programmanalyse"
+        },
+        {
+            "@id": "gnd:4325471-8",
+            "sameAs": "Kellerautomat"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A840811519",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: X, 163 S., 1,39 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Leucker, Martin",
+                "Gastin, Paul"
+            ],
+            "creator": "Mennicke, Roy",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:840811519",
+                "(ppn)840811519"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Model checking concurrent systems using temporal logics",
+            "abstract": "In dieser Arbeit wird die Komplexit\u00e4t der automatischen Verifikation von parallelen Systemen mittels Temporallogiken untersucht. Es werden dabei zwei verschiedene Typen von Systemen betrachtet: mehrl\u00e4ufige Programme, die rekursive Prozeduren aufrufen, und verteilte Prozesse, die zur Kommunikation untereinander Nachrichten austauschen. Erstere werden typischerweise durch endliche Automaten mit mehreren Kellern modelliert; Letztere \u00fcblicherweise durch endliche Automaten, die \u00fcber FIFO-Kan\u00e4le miteinander kommunizieren (CFMs). In beiden F\u00e4llen ist das allgemeine Verifikationsproblem selbst f\u00fcr sehr einfache temporale Logiken unentscheidbar. Daher richten wir das Augenmerk auf Heuristiken, die die L\u00e4ufe des zu untersuchenden Systems unterapproximieren. Im Kontext der message sequence charts (MSCs), welche als L\u00e4ufe von CFMs aufgefasst werden k\u00f6nnen, betrachten wir ausschlie\u00dflich Verhalten, die eine Ausf\u00fchrung mit beschr\u00e4nkt gro\u00dfen Kan\u00e4len zulassen. Im Rahmen der Mehrkellerautomaten konzentrieren wir uns auf geschachtelte W\u00f6rter, die bez\u00fcglich der Anzahl ihrer Phasen, der Gr\u00f6\u00dfe ihrer Bereiche bzw. ihrer Teilungsweite beschr\u00e4nkt sind. Dabei sind geschachtelte W\u00f6rter Zeichenketten, die f\u00fcr jeden Keller eine Relation aufweisen, die zusammengeh\u00f6rige Schreib- und Leseoperationen auf dem jeweiligen Keller explizit miteinander in Verbindung setzt. Die Art der Spezifikationssprache betreffend untersuchen wir temporale Logiken, deren Modalit\u00e4ten mittels Formeln der monadischen Logik zweiter Stufe definiert werden k\u00f6nnen. Dieser Typ von Temporallogiken umfasst nahezu alle bisher in der Literatur behandelten temporalen Logiken. F\u00fcr jedes von uns untersuchte beschr\u00e4nkte Verifikationsproblem geben wir ein Entscheidungsverfahren an, dessen Komplexit\u00e4t n-fach exponentiell in der jeweilig gew\u00e4hlten Verhaltensbeschr\u00e4nkung (beispielsweise in der Gr\u00f6\u00dfe der Kan\u00e4le) ist. Dabei ist n linear in der Anzahl der monadischen Quantorenalternierungen in den Modalit\u00e4tsdefinitionen. \u00dcberraschenderweise ist die Komplexit\u00e4t nur einfach exponentiell in den Gr\u00f6\u00dfen der temporalen Formel und des Systemmodells. Weiterhin geben wir f\u00fcr jedes Problem beinahe scharfe untere Schranken an. Mit anderen Worten: Es stellt sich beinahe als ein allgemeines Naturgesetz heraus, dass die Komplexit\u00e4t der automatischen Verifikation im Rahmen von parallelen Systemen im Wesentlichen von der Kompliziertheit der temporalen Logik (gemessen in der Anzahl der Quantorenalternierungen in den Modalit\u00e4tsdefinitionen) und der gew\u00e4hlten Verhaltensbeschr\u00e4nkung beeinflusst wird und viel weniger von den Gr\u00f6\u00dfen der temporalen Formel und des Systemmodells. Au\u00dferdem betrachten wir im Fall der automatischen Verifikation von CFMs zwei weitere Arten von Temporallogiken.  Zum einen erforschen wir konkrete Modalit\u00e4ten, die \u00fcblicherweise im Zusammenhang mit parallelen Systemen Verwendung finden. Hier l\u00e4sst sich zeigen, dass die Platzkomplexit\u00e4t des beschr\u00e4nkten Verifikationsproblems polynomiell in der Beschr\u00e4nkung und exponentiell in der Anzahl der Prozesse ist. Zum anderen zeigen wir f\u00fcr eine Variante der propositional dynamic logic (PDL) die Vollst\u00e4ndigkeit des beschr\u00e4nkten Verifikationsproblems f\u00fcr polynomiellen Platz.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122813375"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4075860-6",
+                "gnd:4325471-8",
+                "gnd:4137542-7",
+                "gnd:4175841-9",
+                "gnd:4135577-5"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

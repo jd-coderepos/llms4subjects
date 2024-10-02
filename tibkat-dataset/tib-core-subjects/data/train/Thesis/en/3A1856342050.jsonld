@@ -1,0 +1,154 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1070019461",
+            "sameAs": "Hochschule des Bundes f\u00fcr \u00d6ffentliche Verwaltung"
+        },
+        {
+            "@id": "gnd:1073303705",
+            "sameAs": "Stenz, Hartmut Jacob"
+        },
+        {
+            "@id": "gnd:170635775",
+            "sameAs": "Breitung, J\u00f6rg"
+        },
+        {
+            "@id": "gnd:171292162",
+            "sameAs": "Dyckerhoff, Rainer"
+        },
+        {
+            "@id": "gnd:4016338-6",
+            "sameAs": "Faktorenanalyse"
+        },
+        {
+            "@id": "gnd:4116599-8",
+            "sameAs": "Statistische Analyse"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:4425827-6",
+            "sameAs": "Seltenes Ereignis"
+        },
+        {
+            "@id": "gnd:4428654-5",
+            "sameAs": "Data Mining"
+        },
+        {
+            "@id": "gnd:4505517-8",
+            "sameAs": "Support-Vektor-Maschine"
+        },
+        {
+            "@id": "gnd:7862975-5",
+            "sameAs": "Hochdimensionale Daten"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1856342050",
+            "@type": "bibo:Thesis",
+            "P1053": "vii, 94 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(isbn13)9783967440065",
+                "(firstid)DNB:1299314368",
+                "(ppn)1856342050"
+            ],
+            "publisher": "Hochschule des Bundes f\u00fcr \u00d6ffentliche Verwaltung",
+            "subject": [
+                "(classificationName=rvk)SK 850",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=rvk)QH 234",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Topics in the statistical analysis of rare events and high-dimensional data sets",
+            "abstract": "This thesis is a general work in the field of data science that cannot be assigned to any specific application context. Rather, contributions are made to several topics. Common to all contributions in this work is the focus on the statistical analysis of data sets by supervised learning. In total, the present work includes three independent essays: The second chapter corresponds to the paper 'Depth-based support vector classifiers to detect data nests of rare events' by Dyckerhoff and Stenz (2021) and designs a hybrid classification method: Instead of carrying out a classification directly on a data set with a binary target variable, the data is transferred to a DD-Plot (depth-versus-depth Plot) in a first step. The third chapter provides a generalization of the approach of supervised factor models. And the fourth and final chapter is a purely empirical project: A data mining analysis is performed on medical billing data with the aim of determining the possibility of algorithmic pre-screening for birth defects in newborn children. The analysis uses variants of the random forest as well as logistic regression.",
+            "contributor": [
+                "gnd:170635775",
+                "gnd:171292162"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1070019461",
+                "gnd:1073303705"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4505517-8"
+                },
+                {
+                    "@id": "gnd:4016338-6"
+                },
+                {
+                    "@id": "gnd:4428654-5"
+                },
+                {
+                    "@id": "gnd:4425827-6"
+                },
+                {
+                    "@id": "gnd:4116599-8"
+                },
+                {
+                    "@id": "gnd:4123037-1"
+                },
+                {
+                    "@id": "gnd:7862975-5"
+                }
+            ],
+            "tableOfContents": "https://d-nb.info/1299314368/04",
+            "volume": "64",
+            "P30128": "Schriftenreihe / Hochschule des Bundes f\u00fcr \u00d6ffentliche Verwaltung",
+            "P60163": "Br\u00fchl/Rheinland"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

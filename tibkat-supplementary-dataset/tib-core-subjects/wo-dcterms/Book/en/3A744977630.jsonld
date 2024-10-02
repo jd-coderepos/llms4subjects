@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A744977630",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XVIII, 201 p)",
+            "creator": "Tomita, Masaru",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781475718850",
+                "(firstid)GBV:744977630",
+                "(doi)10.1007/978-1-4757-1885-0",
+                "(ppn)744977630"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=loc)TJ210.2-211.495",
+                "Artificial intelligence",
+                "Computational linguistics",
+                "Computer science",
+                "(classificationName=ddc)006.3",
+                "(classificationName=loc)Q334-342"
+            ],
+            "title": "Efficient Parsing for Natural Language : A Fast Algorithm for Practical Systems",
+            "abstract": [
+                "1. Introduction -- 2. Informal Description of the Algorithm -- 3. Examples -- 4. Formal Specification of the Algorithm -- 5. Comparison with Other Algorithms -- 6. Empirical Results -- 7. Left-to-Right on-Line Parsing -- 8. Sentence Disambiguation by Asking -- 9. Interactive/Personal Machine Translation -- 10. Concluding Remarks -- Appendix A. The Parsing Table Constructor -- Appendix B. Earley\u2019s Algorithm -- Appendix C. Proof of Correctness of the Algorithm -- C.1. Introduction -- C.2. Soundness of the Algorithm -- C.3. Completeness of the Algorithm -- Appendix D. Raw Empirical Data -- Appendix E. Programs Used in the Experiments -- E.1. Tomita\u2019s Algorithm -- E.2. Earley\u2019s Algorithm -- E.3. Earley\u2019s Algorithm with an Improvement -- E.4. LR(0) Table Construction Algorithm -- E.5. Utility Functions -- Appendix F. Grammars Used in the Experiments -- Appendix G. Sentences Used in the Experiments -- Appendix H. Nishida and Doshita\u2019s System -- References -- Author Index.",
+                "Parsing Efficiency is crucial when building practical natural language systems. 'Ibis is especially the case for interactive systems such as natural language database access, interfaces to expert systems and interactive machine translation. Despite its importance, parsing efficiency has received little attention in the area of natural language processing. In the areas of compiler design and theoretical computer science, on the other hand, parsing algorithms 3 have been evaluated primarily in terms of the theoretical worst case analysis (e.g. lXn\u00bb, and very few practical comparisons have been made. This book introduces a context-free parsing algorithm that parses natural language more efficiently than any other existing parsing algorithms in practice. Its feasibility for use in practical systems is being proven in its application to Japanese language interface at Carnegie Group Inc., and to the continuous speech recognition project at Carnegie-Mellon University. This work was done while I was pursuing a Ph.D degree at Carnegie-Mellon University. My advisers, Herb Simon and Jaime Carbonell, deserve many thanks for their unfailing support, advice and encouragement during my graduate studies. I would like to thank Phil Hayes and Ralph Grishman for their helpful comments and criticism that in many ways improved the quality of this book. I wish also to thank Steven Brooks for insightful comments on theoretical aspects of the book (chapter 4, appendices A, B and C), and Rich Thomason for improving the linguistic part of tile book (the very beginning of section 1.1)."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1986",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "8",
+            "isLike": "doi:10.1007/978-1-4757-1885-0",
+            "P30128": "The Springer International Series in Engineering and Computer Science, Natural Language Processing and Machine Translation",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

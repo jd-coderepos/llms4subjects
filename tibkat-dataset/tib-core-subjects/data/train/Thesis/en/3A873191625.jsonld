@@ -1,0 +1,118 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1120622646",
+            "sameAs": "Rabczuk, Timon"
+        },
+        {
+            "@id": "gnd:135943620",
+            "sameAs": "Lahmer, Tom"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4134341-4",
+            "sameAs": "Faserverbundwerkstoff"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A873191625",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (157 Seiten)",
+            "contributor": "Areias, Pedro",
+            "http://purl.org/dc/elements/1.1/creator": "Ghasemi Meyghani, Hamid",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)873191625",
+                "(firstid)GBV:873191625"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=10642050X)50.31 - Technische Mechanik",
+                "Finite-Elemente-Methode",
+                "(classificationName=ddc-dbn)624",
+                "Optimierung",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Stochastic optimization of fiber reinforced composites considering uncertainties",
+            "abstract": "Briefly, the two basic questions that this research is supposed to answer are: 1. Howmuch fiber is needed and how fibers should be distributed through a fiber reinforced composite (FRC) structure in order to obtain the optimal and reliable structural response? 2. How do uncertainties influence the optimization results and reliability of the structure? Giving answer to the above questions a double stage sequential optimization algorithm for finding the optimal content of short fiber reinforcements and their distribution in the composite structure, considering uncertain design parameters, is presented. In the first stage, the optimal amount of short fibers in a FRC structure with uniformly distributed fibers is conducted in the framework of a Reliability Based Design Optimization (RBDO) problem. Presented model considers material, structural and modeling uncertainties. In the second stage, the fiber distribution optimization (with the aim to further increase in structural reliability) is performed by defining a fiber distribution function through a Non-Uniform Rational BSpline (NURBS) surface. The advantages of using the NURBS surface as a fiber distribution function include: using the same data set for the optimization and analysis; high convergence rate due to the smoothness of the NURBS; mesh independency of the optimal layout; no need for any post processing technique and its non-heuristic nature. The output of stage 1 (the optimal fiber content for homogeneously distributed fibers) is considered as the input of stage 2. The output of stage 2 is the Reliability Index (b ) of the structure with the optimal fiber content and distribution. First order reliability method (in order to approximate the limit state function) as well as different material models including Rule of Mixtures, Mori-Tanaka, energy-based approach and stochastic multi-scales are implemented in different examples. The proposed combined model is able to capture the role of available uncertainties in FRC structures through a computationally efficient algorithm using all sequential, NURBS and sensitivity based techniques. The methodology is successfully implemented for interfacial shear stress optimization in sandwich beams and also for optimization of the internal cooling channels in a ceramic matrix composite. Finally, after some changes and modifications by combining Isogeometric Analysis, level set and point wise density mapping techniques, the computational framework is extended for topology optimization of piezoelectric / flexoelectric materials.",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:135943620"
+                },
+                {
+                    "@id": "gnd:1120622646"
+                }
+            ],
+            "creator": "gnd:5180842-0",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4043664-0"
+                },
+                {
+                    "@id": "gnd:4017233-8"
+                },
+                {
+                    "@id": "gnd:4134341-4"
+                }
+            ],
+            "volume": "2016,1",
+            "P30128": "ISM-Bericht",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

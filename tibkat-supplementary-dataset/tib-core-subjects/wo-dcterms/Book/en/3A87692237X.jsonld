@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1026359023",
+            "sameAs": "Grottel, Sebastian"
+        },
+        {
+            "@id": "gnd:1103837133",
+            "sameAs": "Krone, Michael"
+        },
+        {
+            "@id": "gnd:139176322",
+            "sameAs": "Reina, Guido"
+        },
+        {
+            "@id": "gnd:4188417-6",
+            "sameAs": "Visualisierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A87692237X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xii, 109 Seiten)",
+            "creator": "Falk, Martin Samuel",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen"
+            ],
+            "identifier": [
+                "(isbn)1627054871",
+                "(firstid)GBV:87692237X",
+                "(ppn)87692237X",
+                "(isbn13)9781627054874"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Information visualization",
+                "Big data",
+                "Graphics processing units",
+                "(classificationName=ddc)001.4/226",
+                "(classificationName=loc)QA76.9.I52",
+                "(classificationName=rvk)ST 270"
+            ],
+            "title": "Interactive GPU-based visualization of large dynamic particle data",
+            "abstract": [
+                "Introduction -- History -- GPU-based Glyph Ray Casting -- Acceleration Strategies -- Data Structures -- Efficient Nearest Neighbor Search on the GPU -- Improved Visual Quality -- Application-driven Abstractions -- Summary and Outlook",
+                "Prevalent types of data in scientific visualization are volumetric data, vector field data, and particle-based data. Particle data typically originates from measurements and simulations in various fields, such as life sciences or physics. The particles are often visualized directly, that is, by simple representants like spheres. Interactive rendering facilitates the exploration and visual analysis of the data. With increasing data set sizes in terms of particle numbers, interactive high-quality visualization is a challenging task. This is especially true for dynamic data or abstract representations that are based on the raw particle data. This book covers direct particle visualization using simple glyphs as well as abstractions that are application-driven such as clustering and aggregation. It targets visualization researchers and developers who are interested in visualization techniques for large, dynamic particle-based data. Its explanations focus on GPU-accelerated algorithms for high-performance rendering and data processing that run in real-time on modern desktop hardware. Consequently, the implementation of said algorithms and the required data structures to make use of the capabilities of modern graphics APIs are discussed in detail. Furthermore, it covers GPU-accelerated methods for the generation of application-dependent abstract representations. This includes various representations commonly used in application areas such as structural biology, systems biology, thermodynamics, and astrophysics"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1103837133"
+                },
+                {
+                    "@id": "gnd:139176322"
+                },
+                {
+                    "@id": "gnd:1026359023"
+                }
+            ],
+            "isPartOf": "(collectioncode)H-ZDB-4-NLEBK",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": "gnd:4188417-6",
+            "volume": "#8",
+            "P30128": "Synthesis lectures on visualization",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

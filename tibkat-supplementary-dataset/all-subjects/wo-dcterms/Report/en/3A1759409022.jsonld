@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1051035163",
+            "sameAs": "Kroll, Henning"
+        },
+        {
+            "@id": "gnd:1163358843",
+            "sameAs": "Neuh\u00e4usler, Peter"
+        },
+        {
+            "@id": "gnd:123845890",
+            "sameAs": "Frietsch, Rainer"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1759409022",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (circa 42 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Feidenheimer, Alexander",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1759409022",
+                "(ppn)1759409022"
+            ],
+            "publisher": "Fraunhofer ISI",
+            "subject": [
+                "Produktklassifikation",
+                "(classificationName=linseach:automatic)inf",
+                "Markenartikel",
+                "Markenrecht",
+                "EU-Staaten"
+            ],
+            "title": "Generating a classification for EUIPO trademark filings : a string matching approach",
+            "abstract": "This paper aims to analyze topics within the international classification of goods and services (NICE classes) applied for the registration of trademarks at the EUIPO. This is accomplished by introducing a more fine-grained classification of trademarks as a \"sub-section\" of the rather rough NICE classes. To do this, we relate the descriptions of the trademarks that the applicants provide upon filing to the list of pre-defined keywords that are available from the WIPO to assist the applicant in describing his or her mark. In order to relate the keywords to the classifications, i.e. to assign trademarks to the classification, we use two algorithms including a Levenshtein-based matching and a Jaro-Winkler al-gorithm based matching. The Levenshtein-based approach already leads to a coverage of 75% of matched trademarks. With the help of the Jaro-Winkler matching algorithm (in combination with the Levenshtein distance) we could assign another 10%, leading to a coverage of 85% of all EUIPO trademarks matched to at least one classification key in 2018. Based on this matching we generate a hierarchical classification including five layers, the first layer including 234 classes up to the 5th layer which comprises 8,613 distinct classes.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:123845890",
+                "gnd:1163358843",
+                "gnd:1051035163"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Nr. 69",
+            "P30128": "Fraunhofer ISI discussion papers innovation systems and policy analysis",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

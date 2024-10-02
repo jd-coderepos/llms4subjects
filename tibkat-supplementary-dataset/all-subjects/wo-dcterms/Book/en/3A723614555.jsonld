@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614555",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (120 Seiten)",
+            "creator": [
+                "He, Xiadong",
+                "Deng, Li"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781598293098",
+                "(doi)10.2200/S00134ED1V01Y200807SAP004",
+                "(ppn)723614555",
+                "(firstid)GBV:723614555"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=loc)TK7895.S65",
+                "(classificationName=ddc)621.399",
+                "(classificationName=linseach:mapping)elt",
+                "Automatic speech recognition",
+                "Electronic books"
+            ],
+            "title": "Discriminative Learning for Speech Recognition : Theory and Practice",
+            "abstract": [
+                "In this book, we introduce the background and mainstream methods of probabilistic modeling and discriminative parameter optimization for speech recognition. The specific models treated in depth include the widely used exponential-family distributions and the hidden Markov model. A detailed study is presented on unifying the common objective functions for discriminative learning in speech recognition, namely maximum mutual information (MMI), minimum classification error, and minimum phone/word error. The unification is presented, with rigorous mathematical analysis, in a common rational-function form. This common form enables the use of the growth transformation (or extended Baum-Welch) optimization framework in discriminative learning of model parameters. In addition to all the necessary introduction of the background and tutorial material on the subject, we also included technical details on the derivation of the parameter optimization formulas for exponential-family distributions, discrete hidden Markov models (HMMs), and continuous-density HMMs in discriminative learning. Selected experimental results obtained by the authors in firsthand are presented to show that discriminative learning can lead to superior speech recognition performance over conventional parameter learning. Details on major algorithmic implementation issues with practical significance are provided to enable the practitioners to directly reduce the theory in the earlier part of the book into engineering practice",
+                "Introduction and background -- What is discriminative learning? -- What is speech recognition? -- Roles of discriminative learning in speech recognition -- Background: basic probability distributions -- Background: basic optimization concepts and techniques -- Organization of the book -- Statistical speech recognition: a tutorial -- Language modeling -- Acoustic modeling and HMMs -- Discriminative learning: a unified objective function -- A unified discriminative training criterion -- MMI and its unified form -- MCE and its unified form -- Minimum phone/word error and its unified form -- Discussions and comparisons -- Discriminative learning algorithm for exponential-family distributions -- Exponential-family models for classification -- Construction of auxiliary functions -- GT learning for exponential-family distributions -- Estimation formulas for two exponential-family distributions -- Discriminative learning algorithm for hidden Markov model -- Estimation formulas for discrete HMM -- Estimation formulas for CDHMM -- Relationship with gradient-based methods -- Setting constant D for GT-based optimization -- Practical implementation of discriminative learning -- Computing Dg (i, r, t) in growth-transform formulas -- Computing Dg (i, r, t) using lattices -- Arbitrary exponent scaling in MCE implementation -- Arbitrary slope in defining MCE cost function -- Selected experimental results -- Experimental results on small ASR tasks TIDIGITS -- Telephony LV-ASR applications -- Epilogue -- Summary of book contents -- Summary of contributions -- Remaining theoretical issue and future direction"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598293081.pdf",
+            "volume": "#4",
+            "isLike": "doi:10.2200/S00134ED1V01Y200807SAP004",
+            "P30128": "Synthesis Lectures on Speech and Audio Processing",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

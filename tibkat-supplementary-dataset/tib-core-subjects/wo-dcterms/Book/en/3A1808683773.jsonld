@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1054435278",
+            "sameAs": "Multigate-Transistor"
+        },
+        {
+            "@id": "gnd:1077446799",
+            "sameAs": "Soft Error"
+        },
+        {
+            "@id": "gnd:4183508-6",
+            "sameAs": "Strahlenresistenz"
+        },
+        {
+            "@id": "gnd:4207266-9",
+            "sameAs": "MOS-FET"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1808683773",
+            "@type": "bibo:Book",
+            "P1053": "xiii, 131 Seiten",
+            "creator": [
+                "Meinhardt, Cristina",
+                "Reis, Ricardo",
+                "Artola, Laurent",
+                "Zimpeck, Alexandra"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(isbn13)9783030683672",
+                "(firstid)KXP:1808683773",
+                "(ppn)1808683773"
+            ],
+            "publisher": "Springer",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=10641867X)53.51 - Bauelemente der Elektronik"
+            ],
+            "title": "Mitigating process variability and soft errors at circuit-level for FinFETs",
+            "abstract": "This book evaluates the influence of process variations (e.g. work-function fluctuations) and radiation-induced soft errors in a set of logic cells using FinFET technology, considering the 7nm technological node as a case study. Moreover, for accurate soft error estimation, the authors adopt a radiation event generator tool (MUSCA SEP3), which deals both with layout features and electrical properties of devices. The authors also explore four circuit-level techniques (e.g. transistor reordering, decoupling cells, Schmitt Trigger, and sleep transistor) as alternatives to attenuate the unwanted effects on FinFET logic cells. This book also evaluates the mitigation tendency when different levels of process variation, transistor sizing, and radiation particle characteristics are applied in the design. An overall comparison of all methods addressed by this work is provided allowing to trace a trade-off between the reliability gains and the design penalties of each approach regarding the area, performance, power consumption, single event transient (SET) pulse width, and SET cross-section. Explains how to measure the influence of process variability (e.g. work-function fluctuations) and radiation-induced soft errors in FinFET logic cells; Enables designers to improve the robustness of FinFET integrated circuits without focusing on manufacturing adjustments; Discusses the benefits and downsides of using circuit-level approaches such as transistor reordering, decoupling cells, Schmitt Trigger, and sleep transistor for mitigating the impact of process variability and soft errors; Evaluates the techniques described in the context of different test scenarios: distinct levels of process variations, transistor sizing, and different radiation features; Helps readers identify the best circuit design considering the target application and design requirements like area constraints or power/delay limitations.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:1077446799",
+                "gnd:1054435278",
+                "gnd:4183508-6",
+                "gnd:4207266-9"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1808683773.pdf",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

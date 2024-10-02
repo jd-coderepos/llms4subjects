@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1023275317",
+            "sameAs": "Ulbrich, Stefan"
+        },
+        {
+            "@id": "gnd:131835475",
+            "sameAs": "Hinterm\u00fcller, Michael"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A884373657",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (34 Seiten, 442 kB)",
+            "http://purl.org/dc/elements/1.1/creator": "Hajian, Soheil",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)884373657",
+                "(firstid)GBV:884373657",
+                "(doi)10.20347/WIAS.PREPRINT.2383"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Total variation diminishing schemes in optimal control of scalar conservation laws",
+            "abstract": "In this paper, optimal control problems subject to a nonlinear scalar conservation law are studied. Such optimal control problems are challenging both at the continuous and at the discrete level since the control-to-state operator poses difficulties as it is, e.g., not differentiable. Therefore discretization of the underlying optimal control problem should be designed with care. Here the discretize-then-optimize approach is employed where first the full discretization of the objective function as well as the underlying PDE is considered. Then, the derivative of the reduced objective is obtained by using an adjoint calculus. In this paper total variation diminishing Runge-Kutta (TVD-RK) methods for the time discretization of such problems are studied. TVD-RK methods, also called strong stability preserving (SSP), are originally designed to preserve total variation of the discrete solution. It is proven in this paper that providing an SSP state scheme, is enough to ensure stability of the discrete adjoint. However requiring SSP for both discrete state and adjoint is too strong. Also approximation properties that the discrete adjoint inherits from the discretization of the state equation are studied. Moreover order conditions are derived. In addition, optimal choices with respect to CFL constant are discussed and numerical experiments are presented.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:131835475",
+                "gnd:1023275317"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2383",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2383",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

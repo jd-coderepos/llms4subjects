@@ -1,0 +1,139 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1082328561",
+            "sameAs": "Falk, Thorsten"
+        },
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4054947-1",
+            "sameAs": "Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4079468-4",
+            "sameAs": "Zebrab\u00e4rbling"
+        },
+        {
+            "@id": "gnd:4141299-0",
+            "sameAs": "Ackerschmalwand"
+        },
+        {
+            "@id": "gnd:4162209-1",
+            "sameAs": "Invariantentheorie"
+        },
+        {
+            "@id": "gnd:4176604-0",
+            "sameAs": "Quantitative Bildanalyse"
+        },
+        {
+            "@id": "gnd:4190343-2",
+            "sameAs": "Wurzelspitze"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4279469-9",
+            "sameAs": "Absorptionskoeffizient"
+        },
+        {
+            "@id": "gnd:4336446-9",
+            "sameAs": "Konfokale Mikroskopie"
+        },
+        {
+            "@id": "gnd:4505517-8",
+            "sameAs": "Support-Vektor-Maschine"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A848913574",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 117 Seiten)",
+            "identifier": [
+                "(doi)10.6094/UNIFR/10607",
+                "(firstid)BSZ:456394206",
+                "(contract)FRUB-opus-10607",
+                "(ppn)848913574"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "From voxels to models : towards quantification in 3-D confocal microscopy",
+            "abstract": "Zusammenfassung: Current microscopic imaging techniques allow to record biological specimen with sub-micrometer resolution in 3-D (over time). They open completely new ways to observe and understand signaling in living organisms. Although these advances in microscopic hardware provide means to perform exciting new studies that have not been possible so far, their potential is rarely exploited due to a lack of tools for reducing the terabytes of recorded images to the small number of meaningful quantities required to answer an underlying biological question. The pure amount of data precludes manual analysis, and many questions, microscopic images could answer, will never be asked.To allow large scale microscopic image analysis, algorithms are required that detect events of interest, relate them to the anatomical structure under investigation and automatically output quantitative measurements with statistical confidences. Although vague, this description already contains very important key words, namely \"detect\": we need general detectors that can be trained for specific structures using manually annotated sample data; \"relate\": we have to model the surrounding anatomy and give means of uniquely assigning anatomically relevant coordinates to these structures; \"quantitative\": we want to be able to get an unbiased quantification of structure parameters or event distributions; \"confidence\": we must be able to measure statistical significance.Within this thesis we will develop a system that fulfills this specification at the example of modeling the root apical meristem of Arabidopsis thaliana. We will present an end-to-end image analysis pipeline that is able to automatically correct light attenuation in confocal multiview recordings, detect nuclei using a trainable general-purpose detector specifically trained for that task, map detected events to a root specific coordinate system and automatically extract statistical data of mitosis distributions in different mutant populations.To reach all these goals different techniques from image processing and machine learning have to be combined.On the measured image intensities we apply a variational energy minimization to estimate their underlying fluorophore distribution. We designed a physically motivated image formation model based on ray optics which is able to simulate the effects of tissue dependent local signal attenuation, photo bleaching and noise introduced by the detector. Based on a comparison of the measur ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1082328561",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4505517-8",
+                "gnd:4176604-0",
+                "gnd:4006684-8",
+                "gnd:4079468-4",
+                "gnd:4336446-9",
+                "gnd:4141299-0",
+                "gnd:4040936-3",
+                "gnd:4193754-5",
+                "gnd:4054947-1",
+                "gnd:4279469-9",
+                "gnd:4190343-2",
+                "gnd:4162209-1"
+            ],
+            "isLike": "doi:10.6094/UNIFR/10607",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

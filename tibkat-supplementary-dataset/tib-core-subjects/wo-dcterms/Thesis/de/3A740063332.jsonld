@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1033283630",
+            "sameAs": "Alferenok, Artem"
+        },
+        {
+            "@id": "gnd:1195900805",
+            "sameAs": "L\u00fcdtke, Ulrich"
+        },
+        {
+            "@id": "gnd:139255710",
+            "sameAs": "T\u00f6pfer, Hannes"
+        },
+        {
+            "@id": "gnd:172280745",
+            "sameAs": "Nacke, Bernard"
+        },
+        {
+            "@id": "gnd:4129610-2",
+            "sameAs": "Str\u00f6mungsmesstechnik"
+        },
+        {
+            "@id": "gnd:4142400-1",
+            "sameAs": "Anemometrie"
+        },
+        {
+            "@id": "gnd:4236803-0",
+            "sameAs": "Ber\u00fchrungslose Messung"
+        },
+        {
+            "@id": "gnd:4296739-9",
+            "sameAs": "Lorentz-Kraft"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A740063332",
+            "@type": "bibo:Thesis",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:740063332",
+                "(ppn)740063332"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)670"
+            ],
+            "title": "Numerical simulation and optimization of the magnet system for Lorentz Force Velocimetry of low-conducting materials",
+            "abstract": "Die Anwendung von Lorentz-Kraft-Anemometern (LKA) f\u00fcr schwach leitf\u00e4hige Materialien wurde numerisch untersucht. Das Modell des LKA wurde mit Hilfe des kommerziellen Programms COMSOL Multiphysics entwickelt. Das Ziel der Untersuchungen war die Optimierung der Magnetsysteme f\u00fcr eine konstante Geschwindigkeit (v=5m/s) und eine vorgegebene elektrische Leitf\u00e4higkeit (sigma=4S/m) des Elektrolyten. Der Querschnitt des Elektrolyten betr\u00e4gt 0,05m*0,05m, der Abstand zwischen dem Elektrolyt und dem Magnetsystem (MS) betr\u00e4gt 3mm. Als Material f\u00fcr die MS wurde Nd-Fe-B verwendet. Optimierung bedeutet Maximierung der Lorentzkraft FL und Minimierung der Masse m des MS. Aus konstruktiven Gr\u00fcnden bez\u00fcglich der Kraftmesseinrichtung wurde die Masse des Messsystems auf maximal 1kg beschr\u00e4nkt und eine Aufl\u00f6sung der Messgr\u00f6\u00dfe FL von wenigstens 10^-5 N gefordert. Das Modell wurde, bez\u00fcglich des Magnetfeldes mit Hilfe von analytischen L\u00f6sungen, verifiziert. Fast alle Ergebnisse dieser Arbeit wurden unter der Voraussetzung des konstanten Geschwindigkeitsprofils vom Elektrolyten ermittelt (Festk\u00f6rperapproximation). Diese Annahme reduziert die Rechenzeit wesentlich und wurde mit Hilfe der experimentellen Ergebnisse und auch numerisch mittels k-epsilon Turbulenzmodell validiert. F\u00fcr ein konstantes und ein turbulentes Geschwindigkeitsprofil betragen die Unterschiede bei den FL weniger als 5%. Die optimierten Abmessungen von den Magneten bei der Festk\u00f6rperbewegung sind deswegen n\u00e4herungsweise auch f\u00fcr turbulente Str\u00f6mungen zul\u00e4ssig. Die niedrige magnetische Reynolds Zahl (Rm<<1) hat uns erlaubt, die Differentialgleichungen im Modell zu entkoppeln. Das Rechengebiet wurde mit dem Faktor 4 f\u00fcr N=1 und mit Faktor 2 f\u00fcr N>1 reduziert, wobei N die Anzahl der Magnete in einem von beiden Halbach-Arrays im MS ist. Unterschiedliche MS (Halbach-Arrays) wurden mit Hilfe der Optimierungs-Toolbox in MATLAB optimiert, wobei die Funktion fmincon verwendet wurde. Um das Polynom f\u00fcr die FL zu bekommen, wurde die Methode der kleinsten Quadrate verwendet. Die Optimierungen mittels Polynom 2. und 4. Grades wurden f\u00fcr N=1 und N=3 durchgef\u00fchrt. Da der Unterschied zwischen den Ergebnissen unwesentlich war, wurde das Polynom 2. Grades weiter benutzt, um die Rechenzeit zu reduzieren. Die Sensibilit\u00e4t der optimierten Ergebnisse wurde bez\u00fcglich der \u00c4nderung der v, sigma, der Magnetisierung M und der Position vom Kanal relativ zum MS entlang der y und z Achse f\u00fcr verschiedene MS analysiert. Die Sensibilit\u00e4t der Lorentzkraft bez\u00fcglich v und sigma ist etwa 1 und bez\u00fcglich der M etwa 2,05 f\u00fcr alle N. Das MS mit 18 Magneten (N=9) und mit den optimalen Abmessungen der Magnete wurde als das optimalste MS f\u00fcr die angegebenen Ausgangsdaten und Beschr\u00e4nkungen ermittelt.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:139255710"
+                },
+                {
+                    "@id": "gnd:172280745"
+                },
+                {
+                    "@id": "gnd:1195900805"
+                }
+            ],
+            "creator": "gnd:1033283630",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4236803-0",
+                "gnd:4142400-1",
+                "gnd:4296739-9",
+                "gnd:4129610-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

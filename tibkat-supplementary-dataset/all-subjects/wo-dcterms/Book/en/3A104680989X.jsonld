@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A104680989X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "creator": [
+                "National Bureau of Economic Research",
+                "Gay, David M."
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.3386/w0124",
+                "(ppn)104680989X",
+                "(firstid)GBV:104680989X"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "(classificationName=linseach:automatic)tec",
+                "(classificationName=linseach:automatic)mat"
+            ],
+            "title": "Representing Symmetric Rank Two Updates",
+            "abstract": "Various quasi-Newton methods periodically add a symmetric \"correction\" matrix of rank at most 2 to a matrix approximating some quantity A of interest (such as the Hessian of an objective function). In this paper we examine several ways to express a symmetric rank 2 matrix [delta] as the sum of rank 1 matrices. We show that it is easy to compute rank 1 matrices [delta1] and [delta2] such that [delta] = [delta1] + [delta2] and [the norm of delta1]+ [the norm of delta2]   is minimized, where ||.|| is any inner product norm. Such a representation recommends itself for use in those computer programs that maintain A explicitly, since it should reduce cancellation errors and/or improve efficiency over other representations. In the common case where [delta] is indefinite, a choice of the form [delta1] = [delta2 to the power of T] = [xy to the power of T] appears best. This case occurs for rank 2 quasi- Newton updates [delta] exactly when [delta] may be obtained by symmetrizing some rank 1 update; such popular updates as the DFP, BFGS, PSB, and Davidon's new optimally conditioned update fall into this category",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "1976",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w0124",
+            "isLike": "doi:10.3386/w0124",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

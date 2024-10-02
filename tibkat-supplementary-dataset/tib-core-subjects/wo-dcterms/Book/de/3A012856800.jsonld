@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:11851735X",
+            "sameAs": "Bukowski, Charles"
+        },
+        {
+            "@id": "gnd:136768059",
+            "sameAs": "Hermann, Hans"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A012856800",
+            "@type": "bibo:Book",
+            "P1053": "172 S",
+            "description": "20 cm",
+            "identifier": [
+                "(ppn)012856800",
+                "(firstid)GBV:012856800",
+                "(isbn)3462015346"
+            ],
+            "publisher": "Kiepenheuer & Witsch",
+            "subject": [
+                "(classificationName=bk, id=181571714)17.97 - Texte eines einzelnen Autors",
+                "(classificationName=dbn)59",
+                "(classificationName=bk, id=106415417)18.06 - Angloamerikanische Literatur",
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=rvk)HU 3264",
+                "(classificationName=loksys-fbl)EV 900 buo 3"
+            ],
+            "title": "Der Mann mit der Ledertasche : Roman",
+            "abstract": "Der Autor berichtet von seinen Erlebnissen, die er in 15 Jahren als Postangestellter in den USA machte.",
+            "alternative": "Post office <dt.>",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:136768059"
+                }
+            ],
+            "creator": "gnd:11851735X",
+            "issued": "1982",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "volume": "11",
+            "P30128": "KiWi",
+            "P60163": "K\u00f6ln"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

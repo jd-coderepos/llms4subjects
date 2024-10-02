@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1073142930",
+            "sameAs": "Heise, Arvid"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A828586098",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: II, 179 S., 3257 KB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)828586098",
+                "(firstid)GBV:828586098"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.31"
+            ],
+            "title": "Data cleansing and integration operators for a parallel data analytics platform",
+            "abstract": "The @data quality of real-world datasets need to be constantly monitored and maintained to allow organizations and individuals to reliably use their data. Especially, data integration projects suffer from poor initial data quality and as a consequence consume more effort and money. Commercial products and research prototypes for data cleansing and integration help users to improve the quality of individual and combined datasets. They can be divided into either standalone systems or database management system (DBMS) extensions. On the one hand, standalone systems do not interact well with DBMS and require time-consuming data imports and exports. On the other hand, DBMS extensions are often limited by the underlying system and do not cover the full set of data cleansing and integration tasks. We overcome both limitations by implementing a concise set of five data cleansing and integration operators on the parallel data analytics platform Stratosphere. We define the semantics of the operators, present their parallel implementation, and devise optimization techniques for individual operators and combinations thereof. Users specify declarative queries in our query language METEOR with our new operators to improve the data quality of individual datasets or integrate them to larger datasets. By integrating the data cleansing operators into the higher level language layer of Stratosphere, users can easily combine cleansing operators with operators from other domains, such as information extraction, to complex data flows. Through a generic description of the operators, the Stratosphere optimizer reorders operators even from different domains to find better query plans. As a case study, we reimplemented a part of the large Open Government Data integration project GovWILD with our new operators and show that our queries run significantly faster than the original GovWILD queries, which rely on relational operators. Evaluation reveals that our operators exhibit good scalability on up to 100 cores, so that even larger inputs can be efficiently processed by scaling out to more machines. Finally, our scripts are considerably shorter than the original GovWILD scripts, which results in better maintainability of the scripts.",
+            "alternative": "Datenreinigungs- und Integrationsoperatoren f\u00fcr ein paralleles Datenanalyseframework",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1073142930",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

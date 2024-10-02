@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104234339X",
+            "sameAs": "Leonard, Anghel"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1697210945",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XXVII, 1033 p., 148 illus., 143 illus. in color.)",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)KEP:052003132",
+                "(ppn)1697210945",
+                "(doi)10.1007/978-1-4842-5626-8",
+                "(isbn13)9781484256268"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Java (Computer program language).",
+                "Programming languages (Electronic computers).",
+                "(classificationName=ddc)005.133",
+                "Computer programming."
+            ],
+            "title": "Spring boot persistence best practices : optimize Java persistence performance in spring boot applications",
+            "abstract": [
+                "This book is a collection of developer code recipes and best practices for persisting data using Spring, particularly Spring Boot. The book is structured around practical recipes, where each recipe discusses a performance case or performance-related case, and almost every recipe has one or more applications. Mainly, when we try to accomplish something (e.g., read some data from the database), there are several approaches to do it, and, in order to choose the best way, you have to know the implied trades-off from a performance perspective. You\u2019ll see that in the end, all these penalties slow down the application. Besides presenting the arguments that favor a certain choice, the application is written in Spring Boot style which is quite different than plain Hibernate. Persistence is an important set of techniques and technologies for accessing and using data, and this book demonstrates that data is mobile regardless of specific applications and contexts. In Java development, persistence is a key factor in enterprise, ecommerce, cloud and other transaction-oriented applications. After reading and using this book, you'll have the fundamentals to apply these persistence solutions into your own mission-critical enterprise Java applications that you build using Spring. You will: Shape *-to-many associations for best performances Effectively exploit Spring Projections (DTO) Learn best practices for batching inserts, updates and deletes Effectively fetch parent and association in a single SELECT Learn how to inspect Persistent Context content Dissect pagination techniques (offset and keyset) Handle queries, locking, schemas, Hibernate types, and more.",
+                "Chapter 1: Associations -- Chapter 2: Entities -- Chapter 3: Fetching -- Chapter 4: Batching -- Chapter 5: Collections -- Chapter 6: Connections and Transactions -- Chapter 7: Identifiers -- Chapter 8: Calculating Properties -- Chapter 9: Monitoring -- Chapter 10: Configuring DataSource and Connection Pool -- Chapter 11: Audit -- Chapter 12: Schemas -- Chapter 13: Pagination -- Chapter 14: Queries -- Chapter 15: Inheritance -- Chapter 16: Types and Hibernate Types -- Appendix A: JPA Fundamentals -- Appendix B: Associations Efficiency -- Appendix C: 5 SQL Performance Tips That Will Save Your Day -- Appendix D: How to Create Useful Database Indexes -- Appendix E: SQL Phenomena -- Appendix F: Spring Transaction Isolation Level -- Appendix G: Spring Transaction Propagation -- Appendix H: Understanding Flushing Mechanism -- Appendix I: Second Level Cache -- Appendix J: Tools -- Appendix K: Hibernate 6."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:104234339X",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-5626-8",
+            "P30128": "Springer eBook Collection",
+            "P60163": "[Berkeley, CA]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

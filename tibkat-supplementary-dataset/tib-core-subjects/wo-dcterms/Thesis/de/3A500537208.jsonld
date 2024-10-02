@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A500537208",
+            "@type": "bibo:Thesis",
+            "P1053": "163 p., 60,8 Mb",
+            "http://purl.org/dc/elements/1.1/contributor": "Dierks, Andreas",
+            "identifier": [
+                "(ppn)500537208",
+                "(firstid)GBV:500537208"
+            ],
+            "subject": [
+                "(classificationName=dbn)004",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
+                "(classificationName=bk, id=106414070)53.52 - Elektronische Schaltungen"
+            ],
+            "title": "VidAs : Aufbau einer robusten, frei programmierbaren Maschine aus Assoziativmatrizen ; Simulation und Hardware-L\u00f6sung",
+            "abstract": "Durch Assoziativmatrizen gebildete Assoziativspeicher k\u00f6nnen als k\u00fcnstliche neuronale Netze aufgefasst werden, die sich zur fehlerrobusten Datenspeicherung, Mustererkennung, Mustererg\u00e4nzung und f\u00fcr zahlreiche daraus abgeleitete Aufgaben einsetzen lassen. Die vorliegende Arbeit weitet den Einsatzbereich von Assoziativmatrizen auf das st\u00f6runanf\u00e4llige Speichern und Abarbeiten von Programmen aus, indem mehrere Assoziativmatrizen zweier Typen zu einer frei programmierbaren Maschine zusammengesetzt werden. In der Programmierung dieser Maschine werden keine Zahlen oder Z\u00e4hler eingesetzt, sondern Assoziationsketten benutzt. Das Anwendungsprogramm und seine Daten befinden sich gemeinsam im fehlertoleranten Assoziativspeicher, was verglichen mit anderen fehlertoleranten Systemen prinzipielle oder Geschwindigkeitsvorteile zeitigt. Der Konstruktionsplan dieser Maschine (Vidas-Maschine) wurde mit Hilfe eines Digitalsimulators detailliert erarbeitet. In der Maschine arbeiten sechs Assoziativmatrizen f\u00fcr verschiedene Aufgabenbereiche zusammen. Eine der Matrizen assoziiert eine Programmzeile mit der n\u00e4chsten, eine weitere Matrix liefert die zu den Programmzeilen geh\u00f6renden Befehle und zwei weitere Matrizen \u00fcbernehmen die Parameterversorgung. Variablen werden \u00fcber eine besondere Assoziativmatrix mit schnellen Hebb-Synapsen verwaltet, damit Variablen ihre alten Werte \"vergessen\" k\u00f6nnen. Daten werden hingegen in einer gew\u00f6hnlichen Assoziativmatrix abgelegt, um dem Anwendungsprogramm in der bew\u00e4hrten, fehlertoleranten Weise zur Verf\u00fcgung zu stehen. In der Programmierung der Vidas-Maschine greift man bei der Konstruktion von Schleifen auf Assoziationsketten zu, da die Maschine kein Rechenwerk besitzt. Die Assoziative Programmierung erlaubt dennoch, der Maschine das Rechnen beizubringen. Als Anwendungsfelder dieser neuen Technik werden solche vorgestellt, in denen St\u00f6rungen oder Ungenauigkeiten herk\u00f6mmliche Technik zu Fehlverhalten oder Ausf\u00e4llen f\u00fchren. Zum Test der St\u00f6runanf\u00e4lligkeit wurde die Vidas-Maschine in der Simulation mit vier Arten von Zerst\u00f6rungen \u00fcberpr\u00fcft. Sie zeigte dabei ihre St\u00f6rfestigkeit in der f\u00fcr den Einsatz von Assoziationmatrizen typischen Weise. Die St\u00e4rken der Maschine liegen zudem in der F\u00e4higkeit des schnellen Lernens und Abfragens von Mustern, womit sie als Grundbaustein f\u00fcr den Aufbau von Systemen zur Mustererkennung dienen kann.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Hildesheim"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

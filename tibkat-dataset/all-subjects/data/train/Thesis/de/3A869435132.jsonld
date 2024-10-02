@@ -1,0 +1,131 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1114925705",
+            "sameAs": "Mauch, Steffen"
+        },
+        {
+            "@id": "gnd:129394947",
+            "sameAs": "Reger, Johann"
+        },
+        {
+            "@id": "gnd:130851493",
+            "sameAs": "Beckert, Erik"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4151002-1",
+            "sameAs": "Echtzeitverarbeitung"
+        },
+        {
+            "@id": "gnd:4206985-3",
+            "sameAs": "Robuste Regelung"
+        },
+        {
+            "@id": "gnd:4285929-3",
+            "sameAs": "Adaptive Optik"
+        },
+        {
+            "@id": "gnd:4347749-5",
+            "sameAs": "Field programmable gate array"
+        },
+        {
+            "@id": "gnd:4581671-2",
+            "sameAs": "Wellenfrontsensor"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869435132",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (181 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Horn, Martin",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)869435132",
+                "(firstid)GBV:869435132"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)670"
+            ],
+            "title": "Robust real-time control of an adaptive optics system",
+            "abstract": "Die wissenschaftliche Arbeit tr\u00e4gt ma\u00dfgeblich zum Verst\u00e4ndnis der g\u00e4ngigen Limitierungen bei robusten echtzeitf\u00e4higen Regelungssystemen f\u00fcr Adaptiv Optische (AO) Systeme bei. Ein wesentlicher Teil der Arbeit befasst sich mit einer neuartigen Methode der Auswertung eines Shack-Hartmann Wellenfrontsensors (SHWFS). Die Methode basiert auf der Anwendung eines Field Programmable Gate Arrays (FPGA) zur Auswertung des SHWFS. Die zu Grunde liegende Methode ist ein Resultat der Graphentheorie zur Erkennung zusammenh\u00e4ngender Bildbereiche. Der Einsatz eines FPGA erm\u00f6glicht hierbei, dass die resultierende Verz\u00f6gerung durch die Auswertung des SHWFS auf ein Minimum reduziert wird. Hinzu kommt, dass die neuartige Auswertungsmethode den dynamischen Bereich des Wellenfrontsensors gegen\u00fcber dem \u00fcblichen Verfahren erweitert, da f\u00fcr die Methode keine feste Zuordnung der Spots zu dem Linsenarray notwendig ist. Zus\u00e4tzlich zu dem neuartigen Verfahren f\u00fcr die Auswertung wurde ein Rapid Control Prototyping (RCP) System entworfen, welches auf einem echtzeitf\u00e4higen Linux Kernel basiert. Die Echtzeitf\u00e4higkeit wird durch die Verwendung des Real-Time Application Interface for Linux (RTAI) erreicht. Der Entwurf des RCP Systems umfasst die Entwicklung spezieller Hardware wie beispielsweise eine analoge Ausgangskarte und der PCIe FPGA Framegrabber. Aus einem Simulink Modell wird automatisch C/C++ Quellcode generiert. Dieser generierte Code nutzt die vorhandenen parallelen Erweiterungen des Prozessors zur Beschleunigung der vorkommenden Berechnungen. Basierend auf diesem System wurde ein robustes Regelungsverfahren angewendet, welches auf der H_infty Entwurfsmethodik basiert. Das Entwurfverfahren des Reglers (non-smooth mu Synthese) ber\u00fccksichtigt die vorhandene Unsicherheit der identifizierten Modelle bereits w\u00e4hrend der Synthese. Das Verfahren erm\u00f6glicht die H_infty Norm des geschlossenen Regelkreises zu minimieren, wobei die Regler-Struktur vorgegeben werden kann. Basierend auf verschiedenen Simulationen und experimentellen Versuchen wurde die G\u00fcltigkeit der identifizierten Modelle des AO Systems nachgewiesen. Zudem wird gezeigt, dass das entworfene RCP System deutlich leistungsf\u00e4higer als vergleichbare Systeme ist und somit eine deutlich verbesserte Performance aufweist.",
+            "contributor": [
+                "gnd:129394947",
+                "gnd:130851493"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1114925705",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4285929-3"
+                },
+                {
+                    "@id": "gnd:4151002-1"
+                },
+                {
+                    "@id": "gnd:4206985-3"
+                },
+                {
+                    "@id": "gnd:4581671-2"
+                },
+                {
+                    "@id": "gnd:4347749-5"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

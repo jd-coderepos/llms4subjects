@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1020782862",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxvii, 277 Seiten)",
+            "creator": "Mindermann, Bj\u00f6rn",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:1020782862",
+                "(ppn)1020782862"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Untersuchung eines hybriden Brain-Computer Interfaces (BCIs) zur optimalen Auslegung als Mensch-Maschine-Schnittstelle",
+            "abstract": [
+                "People with partial or complete paralysis are usually dependent on nursing staff to cope with their daily activities. Alternatively, an assistance robotics system serves as a substitute for the lost motor skills and enables an improvement in the quality of life. With the help of a human-machine interface, the user can operate the system and initiate autonomous processes. If the system consists of a robot arm, the disabled person is able to grab and move objects. In the case of an error caused by the system, the user should be able to control the robot arm directly. With the interface developed in this work, a human being can open or close as well as move the robot gripper into any position and orientation. Since the target group of the system is people with very limited body movements, a Brain-Computer Interface (BCI) is used for communication. It establishes a communication channel between the human brain and the controlled robot arm. A special helmet is used for recording the brain signals, which, in addition to the measuring electrodes, has a stimulator in the peripheral field of vision of the user. This stimulator has four stimuli by which an evocation of event-related and visual potentials are provided. By detecting Steady State Visual Evoked Potentials (SSVEPs) and P300 potentials, the system can determine which stimulus the user has focused on. With this, four discrete commands are provided for the user to control the robot. For switching the stimulator on and off motor imaginations are used. A state machine with a control group for each translational and rotational movement is used to control the robot. A stepwise control, in which the gripper performs discrete steps, and a speed-based control, in which the movement of the gripper is started and stopped has been implemented. Switching between groups is performed by the sequential sending of two commands. In each group, the user can perform a movement in the positive and negative direction of the selected axis, change the step width or speed, and leave the group. Stopping at the target position and in dangerous situations occurs by closing the eyes and the thereby occurring artifacts and alpha waves in the signals. Both control concepts were tested in a study and evaluated with objective and subjective criteria. The experiments have shown that BCI-based robot arm control is feasible and useful.",
+                "brain-computer interface (BCI), electroencephalography (EEG), human-machine interface (HMI), 7 degrees of freedom (DOF), robot arm, steady-state visual evoked potential (SSVEP), event-related desynchronization/synchronization (ERD/ERS), event-related potential (ERP), error potential (ErrP), alpha waves, eye artifacts, P300, minimum distance to riemannian mean (MDRM), minimum-energy-combination (MEC), maximum-contrast-combination (MCC)."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1795849371",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (211 Seiten)",
+            "creator": "Geirhos, Robert",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1795849371",
+                "(firstid)KXP:1795849371",
+                "(doi)10.15496/publikation-66217"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.31"
+            ],
+            "title": "To err is human? A functional comparison of human and machine decision-making",
+            "abstract": "It is hard to imagine what a world without objects would look like. While being able to rapidly recognise objects seems deceptively simple to humans, it has long proven challenging for machines, constituting a major roadblock towards real-world applications. This has changed with recent advances in deep learning: Today, modern deep neural networks (DNNs) often achieve human-level object recognition performance. However, their complexity makes it notoriously hard to understand how they arrive at a decision, which carries the risk that machine learning applications outpace our understanding of machine decisions - without knowing when machines will fail, and why; when machines will be biased, and why; when machines will be successful, and why. We here seek to develop a better understanding of machine decision-making by comparing it to human decision-making. Most previous investigations have compared intermediate representations (such as network activations to neural firing patterns), but ultimately, a machine's behaviour (or output decision) has the most direct relevance: humans are affected by machine decisions, not by \"machine thoughts\". Therefore, the focus of this thesis and its six constituent projects (P1-P6) is a functional comparison of human and machine decision-making. This is achieved by transferring methods from human psychophysics - a field with a proven track record of illuminating complex visual systems - to modern machine learning. The starting point of our investigations is a simple question: How do DNNs recognise objects, by texture or by shape? Following behavioural experiments with cue-conflict stimuli, we show that the textbook explanation of machine object recognition - an increasingly complex hierarchy based on object parts and shapes - is inaccurate. Instead, standard DNNs simply exploit local image textures (P1). Intriguingly, this difference between humans and DNNs can be overcome through data augmentation: Training DNNs on a suitable dataset induces a human-like shape bias and leads to emerging human-level distortion robustness in DNNs, enabling them to cope with unseen types of image corruptions much better than any previously tested model. Motivated by the finding that texture bias is pervasive throughout object classification and object detection (P2), we then develop \"error consistency\". Error consistency is an analysis to understand how machine decisions differ from one another depending on, for instance, model architecture or training objective. This analysis reveals remarkable similarities between feedforward vs. recurrent (P3) and supervised vs. self-supervised models (P4). At the same time, DNNs show little consistency with human observers, reinforcing our finding of fundamentally different decision-making between humans and machines. In the light of these results, we then take a step back, asking where these differences may originate from. We find that many DNN shortcomings can be seen as symptoms of the same underlying pattern: \"shortcut learning\", a tendency to exploit unintended patterns that fail to generalise to unexpected input (P5). While shortcut learning accounts for many functional differences between human and machine perception, some of them can be overcome: In our last investigation, a large-scale behavioural comparison, toolbox and benchmark (P6), we report partial success in closing the gap between human and machine vision. Taken together our findings indicate that our understanding of machine decision-making is riddled with (often untested) assumptions. Putting these on a solid empirical footing, as done here through rigorous quantitative experiments and functional comparisons with human decision-making, is key: for when humans better understand machines, we will be able to build machines that better understand humans - and the world we all share.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:36187-2"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-66217",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

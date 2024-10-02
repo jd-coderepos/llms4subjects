@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A88774317X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ix, 240 Seiten)",
+            "creator": "Nyga, Daniel",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)88774317X",
+                "(firstid)GBV:88774317X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Interpretation of Natural-language Robot Instructions : Probabilistic Knowledge Representation, Learning, and Reasoning",
+            "abstract": [
+                "Natural-language Understanding, Robotics, Probabilistic Models, Knowledge Representation, Statistical Relational Learning, Markov logic networks.",
+                "A robot that can be simply told in natural language what to do -- this has been one of the ultimate long-standing goals in both Artificial Intelligence and Robotics research. In near-future applications, robotic assistants and companions will have to understand and perform commands such as set the table for dinner'', make pancakes for breakfast'', or cut the pizza into 8 pieces.'' Although such instructions are only vaguely formulated, complex sequences of sophisticated and accurate manipulation activities need to be carried out in order to accomplish the respective tasks. The acquisition of knowledge about how to perform these activities from huge collections of natural-language instructions from the Internet has garnered a lot of attention within the last decade. However, natural language is typically massively unspecific, incomplete, ambiguous and vague and thus requires powerful means for interpretation. This work presents PRAC -- Probabilistic Action Cores -- an interpreter for natural-language instructions which is able to resolve vagueness and ambiguity in natural language and infer missing information pieces that are required to render an instruction executable by a robot. To this end, PRAC formulates the problem of instruction interpretation as a reasoning problem in first-order probabilistic knowledge bases. In particular, the system uses Markov logic networks as a carrier formalism for encoding uncertain knowledge. A novel framework for reasoning about unmodeled symbolic concepts is introduced, which incorporates ontological knowledge from taxonomies and exploits semantically similar relational structures in a domain of discourse. The resulting reasoning framework thus enables more compact representations of knowledge and exhibits strong generalization performance when being learnt from very sparse data. Furthermore, a novel approach for completing directives is presented, which applies semantic analogical reasoning to transfer knowledge collected from thousands of natural-language instruction sheets to new situations. In addition, a cohesive processing pipeline is described that transforms vague and incomplete task formulations into sequences of formally specified robot plans. The system is connected to a plan executive that is able to execute the computed plans in a simulator. Experiments conducted in a publicly accessible, browser-based web interface showcase that PRAC is capable of closing the loop from natural-language instructions to their execution by a robot."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

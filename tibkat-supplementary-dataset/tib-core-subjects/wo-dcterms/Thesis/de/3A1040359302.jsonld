@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1171000405",
+            "sameAs": "F\u00f6rster, Ronny"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4039238-7",
+            "sameAs": "Mikroskopie"
+        },
+        {
+            "@id": "gnd:4067537-3",
+            "sameAs": "Zelle"
+        },
+        {
+            "@id": "gnd:4143114-5",
+            "sameAs": "Artefakt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1040359302",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (127 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1040359302",
+                "(doi)10.22032/dbt.35497",
+                "(ppn)1040359302"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=106419102)33.18 - Optik",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=bk, id=10641013X)42.03 - Methoden und Techniken der Biologie",
+                "(classificationName=ddc-dbn)500"
+            ],
+            "title": "Detektion und Klassifizierung von Bewegungsartefakten in der Mikroskopie mit strukturierter Beleuchtung",
+            "abstract": "Mikroskopie mit strukturierter Beleuchtung (SIM) ist eine Technik zur hochaufgel\u00f6sten Mikroskopie an lebenden Zellen. Die Aufnahme von lebenden biologischen Zellen durch Mikroskopie mit strukturierter Beleuchtung leidet an Bewegungsartefakten. Diese nehmen mit steigender Geschwindigkeit der abgebildeten Struktur zu und sind nur im Extremfall als Artefakte zu identifizieren. Um das Auftreten von Bewegungsartefakten im Vorfeld zu unterbinden, lohnt sich eine Absch\u00e4tzung der Geschwindigkeit der zu beobachtenden Struktur und ein Vergleich mit der Aufnahmegeschwindigkeit des verwendeten Mikroskops. Zellkomponenten k\u00f6nnen jedoch auch ruckartige Bewegung vollf\u00fchren, sodass diese Absch\u00e4tzung nicht ausreicht, um Bewegungsartefakte sicher auszuschlie\u00dfen. Kner et al. sehen beispielsweise deutliche Bewegungsartefakte in ihren SIM-Daten beim Aufbrechen von Mikrotubuli. Die Regeln guter wissenschaftlicher Praxis fordern \u201ealle Ergebnisse konsequent selbst anzuzweifeln\u201c. Zweifel, an der Richtigkeit der Abbildung und den daraus abgeleiteten Schlussfolgerungen, k\u00f6nnen bisher nicht widerlegt werden, da es kein Verfahren gibt, welche Bewegungsartefakte in SIM-Bilder sicher identifiziert. Dies f\u00fchrt zu Kritik an Mikroskopie mit strukturierter Beleuchtung. Ziel dieser Arbeit ist die vollautomatische Detektion und Lokalisation von Bewegungsartefakten. Dies ist ein elementarer Schritt um die Glaubw\u00fcrdigkeit einer SIM-Aufnahme zu verifizieren, sodass die eigentliche Aufgabe - die Erforschung der Zelle - im Fokus stehen kann.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1171000405"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4039238-7",
+                "gnd:4143114-5",
+                "gnd:4067537-3"
+            ],
+            "isLike": "doi:10.22032/dbt.35497",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

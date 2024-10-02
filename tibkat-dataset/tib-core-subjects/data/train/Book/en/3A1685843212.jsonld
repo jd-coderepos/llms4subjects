@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1229958150",
+            "sameAs": "Srdanov, Aleksa"
+        },
+        {
+            "@id": "gnd:1229958673",
+            "sameAs": "Jankovic, Aleksandra"
+        },
+        {
+            "@id": "gnd:4125617-7",
+            "sameAs": "Lineares System"
+        },
+        {
+            "@id": "gnd:4128130-5",
+            "sameAs": "Numerisches Verfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1685843212",
+            "@type": "bibo:Book",
+            "P1053": "ix, 60 Seiten",
+            "description": "Diagramme",
+            "identifier": [
+                "(isbn13)9781627347389",
+                "(firstid)KXP:1685843212",
+                "(ppn)1685843212",
+                "(isbn13)9781627347396"
+            ],
+            "publisher": "BrownWalker Press",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "Cybernetics",
+                "Algorithms",
+                "Linear systems",
+                "(classificationName=loc)QA402",
+                "(classificationName=ddc)003/.74",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik"
+            ],
+            "title": "How to solve large linear systems : using a stable cybernetic approach for non-cumulative computation, avoiding underflow and overflow, with unconditional and uniform convergence",
+            "abstract": [
+                "\"In this paper an approximate and exact methods for solving a system of linear equations with an arbitrary number of equations and the same number of unknowns is presented. All the mentioned problems can be avoided by the proposed methods. It is possible to define an algorithms that does not solve the system of equations in the usual mathematical way, but still finds its exact solution in the exact number of steps already defined. The methods consists of simple computations that are not cumulative. At the same time, the number of operations is acceptable even for a relatively large number of equations and unknowns. In addition, the algorithms allows the process to start from an arbitrary initial n-tuple and always leads to the exact solution if it exists\"--",
+                "Method of internal spiral for solving large linear systems -- The method of external spiral for solving large linear systems -- The method of trihedrals for finding the exact solution of a linear system with a large number of unknowns -- Reducing the number of dimensions of the possible solution space as the method for finding exact solution of large linear systems."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1229958673",
+                "gnd:1229958150"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4125617-7"
+                },
+                {
+                    "@id": "gnd:4128130-5"
+                }
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1685843212.pdf",
+            "P60163": "Irvine"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

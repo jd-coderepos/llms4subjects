@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10182148-7",
+            "sameAs": "SPIE"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1018189246",
+            "@type": "bibo:Book",
+            "P1053": "1 online resource (xv, 232 p. : ill.)",
+            "creator": [
+                "Society of Photo-optical Instrumentation Engineers",
+                "Welstead, Stephen T."
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9780819478597",
+                "(doi)10.1117/3.353798",
+                "(firstid)GBV:1018189246",
+                "(isbn)0819435031",
+                "(ppn)1018189246",
+                "(isbn13)9780819435033"
+            ],
+            "publisher": "SPIE",
+            "subject": [
+                "(classificationName=loc)TA1637",
+                "Image compression",
+                "Fractals",
+                "Wavelets (Mathematics)",
+                "Mathematics",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)621.367",
+                "(classificationName=ddc)621.36/7",
+                "Digital techniques",
+                "Image processing"
+            ],
+            "title": "Fractal and wavelet image compression techniques",
+            "abstract": [
+                "Interest in image compression for internet and other multimedia applications has spurred research into compression techniques that will increase storage capabilities and transmission speed. This tutorial provides a practical guide to fractal and wavelet approaches--two techniques with exciting potential. It is intended for scientists, engineers, researchers, and students. It provides both introductory information and implementation details. Three Windows-compatible software systems are included so that readers can explore the new technologies in depth. Complete C/C++ source code is provided, enabling readers to go beyond the accompanying software. The mathematical presentation is accessible to advanced undergraduate or beginning graduate students in technical fields",
+                "1. Introduction -- Images -- The image compression problem -- Information, entropy, and data modeling -- Scalar and vector quantization -- Transform methods -- Color images -- The focus of this book",
+                "Pt. I: Fractal image compression. 2. Iterated Function Systems -- Iterated function systems as the motivation for fractal image compression -- Metric spaces -- Iterated function systems -- Implementation of an iterated function system -- Examples -- 3. Fractal encoding of grayscale images -- A metric space for grayscale images -- Partitioned iterated function systems (PIFS) -- Fractal image encoding -- Image decoding -- Storing the encoded image -- Resolution independence -- Operator representation of fractal image encoding -- 4. Speeding up fractal encoding -- Feature extraction -- Domain classification -- Other approaches for speeding up fractal encoding",
+                "Pt. II. Wavelet image compression. 5. Simple wavelets -- Introduction -- Averaging and detail -- Scaling functions and wavelet functions -- Multiresolution analysis -- Normalization -- Wavelet transform -- Inverse wavelet transform -- Wavelet transform in two dimensions -- 6. Daubechies wavelets -- Weighted averages and differences -- Properties and conditions on the coefficients -- Wavelet transform -- Scaling functions and wavelet functions -- Daubechies wavelets -- Simple image compression with Daubechies wavelets -- Other wavelet systems -- 7. Wavelet image compression techniques -- Introduction -- Wavelet zerotrees -- Hybrid fractal-wavelet coding -- 8. Comparison of fractal and wavelet image compression -- Rate distortion -- Encoding speed -- Larger images -- Conclusions -- Appendix A: Using the accompanying software -- IFS System -- IMG System: fractal image compression -- WAV System: wavelet image compression -- Appendix B: Utility Windows Library (UWL) -- Windows programming -- Utility Windows Library (UWL) -- Windows programming references -- Appendix C: Organization of the accompanying software source code -- IFS System -- IMG System -- WAV System"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:10182148-7"
+            },
+            "isPartOf": "(collectioncode)ZDB-50-SPI",
+            "issued": "1999",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "40",
+            "isLike": "doi:10.1117/3.353798",
+            "P30128": "Tutorial texts in optical engineering",
+            "P60163": "Bellingham, Wash. <1000 20th St. Bellingham WA 98225-6705 USA>"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:114014121X",
+            "sameAs": "Roijers, Diederik M."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A893064564",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (131 Seiten)",
+            "creator": "Whiteson, Shimon",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:893064564",
+                "(ppn)893064564",
+                "(isbn13)9781627056991",
+                "(isbn)1627056998"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Artificial intelligence",
+                "(classificationName=msc)68T05",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)90C59",
+                "Multiple criteria decision making",
+                "(classificationName=loc)T57.95",
+                "(classificationName=ddc)658.4/033",
+                "(classificationName=msc)68T20",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)*68-02",
+                "(classificationName=msc)90C29"
+            ],
+            "title": "Multi-objective decision making",
+            "abstract": [
+                "Design ConsiderationsInner Loop Planning for MO-CoGs; Variable Elimination; Transforming the MO-CoG; Multi-Objective Variable Elimination; Comparing PMOVE and CMOVE; Inner Loop Planning for MOMDPs; Value Iteration; Multi-Objective Value Iteration; Pareto vs. Convex Value Iteration; Outer Loop Planning; Outer Loop Approach; Scalarized Value Functions; The Relationship with POMDPs; Optimistic Linear Support; Analysis; Approximate Single-Objective Solvers; Value Reuse; Comparing an Inner and Outer Loop Method; Theoretical Comparison; Empirical Comparison; Outer Loop Methods for PCS Planning",
+                "Preface; Acknowledgments; Table of Abbreviations; Introduction; Motivation; Utility-based Approach; Multi-Objective Decision Problems; Multiple Objectives; Multi-Objective Coordination; Single-Objective Coordination Graphs; Multi-Objective Coordination Graphs; Multi-Objective Markov Decision Processes; Single-Objective Markov Decision Processes; Multi-Objective Markov Decision Processes; Taxonomy; Critical Factors; Single vs. Multiple Policies; Linear vs. Monotonically Increasing Scalarization Functions; Deterministic vs. Stochastic Policies; Solution Concepts",
+                "LearningOffline MORL; Online MORL; Applications; Energy; Health; Infrastructure and Transportation; Conclusions and Future Work; Conclusions; Future Work; Scalarization of Expectation vs. Expectation of Scalarization; Other Decision Problems; Users in the Loop; Bibliography; Authors' Biographies; Blank Page",
+                "Case #1: Linear Scalarization and a Single PolicyCase #2: Linear Scalarization and Multiple Policies; Case #3: Monotonically Increasing Scalarization and a Single Deterministic Policy; Case #4: Monotonically Increasing Scalarization and a Single Stochastic Policy; Case #5: Monotonically Increasing Scalarization and Multiple Deterministic Policies; Case #6: Monotonically Increasing Scalarization and Multiple Stochastic Policies; Implications for MO-CoGs; Approximate Solution Concepts; Beyond the Taxonomy; Inner Loop Planning; Inner Loop Approach; A Simple MO-CoG; Finding a PCS; Finding a CCS",
+                "Many real-world decision problems have multiple objectives. For example, when choosing a medical treatment plan, we want to maximize the efficacy of the treatment, but also minimize the side effects. These objectives typically conflict, e.g., we can often increase the efficacy of the treatment, but at the cost of more severe side effects. In this book, we outline how to deal with multiple objectives in decision-theoretic planning and reinforcement learning algorithms. To illustrate this, we employ the popular problem classes of multi-objective Markov decision processes (MOMDPs) and multi-objective coordination graphs (MO-CoGs). First, we discuss different use cases for multi-objective decision making, and why they often necessitate explicitly multi-objective algorithms. We advocate a utility-based approach to multi-objective decision making, i.e., that what constitutes an optimal solution to a multi-objective decision problem should be derived from the available information about user utility. We show how different assumptions about user utility and what types of policies are allowed lead to different solution concepts, which we outline in a taxonomy of multi-objective decision problems. Second, we show how to create new methods for multi-objective decision making using existing single-objective methods as a basis. Focusing on planning, we describe two ways to creating multi-objective algorithms: in the inner loop approach, the inner workings of a single-objective method are adapted to work with multi-objective solution concepts; in the outer loop approach, a wrapper is created around a single-objective method that solves the multi-objective problem as a series of single-objective problems. After discussing the creation of such methods for the planning setting, we discuss how these approaches apply to the learning setting. Next, we discuss three promising application domains for multi-objective decision making algorithms: energy, health, and infrastructure and transportation. Finally, we conclude by outlining important open problems and promising future directions"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:114014121X"
+            },
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#34",
+            "P30128": "Synthesis lectures on artificial intelligence and machine learning",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

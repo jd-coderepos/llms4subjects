@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A66186619X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 173 S., 1,3 MB)",
+            "creator": "Schulz, Oliver",
+            "identifier": [
+                "(firstid)GBV:66186619X",
+                "(ppn)66186619X"
+            ],
+            "publisher": "Staats- und Universitaetsbibliothek [Host]",
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc)620"
+            ],
+            "title": "Entwurf und Analyse sicherheitsrelevanter Kommunikationsarchitekturen",
+            "abstract": "Communication Architecture, Railway Interlocking, Safety Protocol, Domain Specific Modeling, Reliability Analysis, EN 50159. - In the future, system engineers of railway control systems have to consider digital communication between components more than ever. The number of communicating systems rises steadily, while the offer of commercial off the shelf products for digital transmission networks is also growing. Safety protocols be included in the architecture in order to guarantee that safety-critical systems could be used on unsafe transmission channels. Safety layers have to detect different types of message errors to grant functional safety. It is highly recommended to prove the specification of a safety protocol with model checking methods to ensure a correct specification. The safety reaction on such errors must be a safe state, which usually stops the communication service until the system is reinitialised or reset by an operator. Therefore a safe communication reduces the fault tolerance against arbitrary transmission errors and lowers the reliability of the communication architecture. To improve the fault tolerance against message errors it is necessary to use a reliable message transmission service before the safety check is executed. A reliable transmission service can be included in the safety layer, in the upper protocol layer of the grey channel or in both layers. A naive combination of fault-tolerance mechanisms in the grey channel and safety layers will not necessarily increase the overall fault-tolerance: if, for example, lost messages in the grey channel lead to retransmissions after timeouts, the message eventually passed to the receiving safety layer may be out-dated and therefore has to be discarded. As a consequence, it is necessary to perform analyses whether the design of safety related communication architectures is safe and reliable. This thesis describes a common concept for reliability and safety analysis of communication architectures in safety-critical systems. Case studies of industrial sized communication architectures evaluate this new approach. Besides, the analysis results are used to improve the design.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

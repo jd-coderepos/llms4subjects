@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A770613551",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIII, 173 S., 4100 KB)",
+            "creator": "Perscheid, Michael",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:770613551",
+                "(ppn)770613551"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)610"
+            ],
+            "title": "Test-driven fault navigation for debugging reproducible failures",
+            "abstract": "The correction of software failures tends to be very cost-intensive because their debugging is an often time-consuming development activity. During this activity, developers largely attempt to understand what causes failures: Starting with a test case that reproduces the observable failure they have to follow failure causes on the infection chain back to the root cause (defect). This idealized procedure requires deep knowledge of the system and its behavior because failures and defects can be far apart from each other. Unfortunately, common debugging tools are inadequate for systematically investigating such infection chains in detail. Thus, developers have to rely primarily on their intuition and the localization of failure causes is not time-efficient. To prevent debugging by disorganized trial and error, experienced developers apply the scientific method and its systematic hypothesis-testing. However, even when using the scientific method, the search for failure causes can still be a laborious task. First, lacking expertise about the system makes it hard to understand incorrect behavior and to create reasonable hypotheses. Second, contemporary debugging approaches provide no or only partial support for the scientific method.In this dissertation, we present test-driven fault navigation as a debugging guide for localizing reproducible failures with the scientific method. Based on the analysis of passing and failing test cases, we reveal anomalies and integrate them into a breadth-first search that leads developers to defects. This systematic search consists of four specific navigation techniques that together support the creation, evaluation, and refinement of failure cause hypotheses for the scientific method. First, structure navigation localizes suspicious system parts and restricts the initial search space. Second, team navigation recommends experienced developers for helping with failures. Third, behavior navigation allows developers to follow emphasized infection chains back to root causes. Fourth, state navigation identifies corrupted state and reveals parts of the infection chain automatically. We implement test-driven fault navigation in our Path Tools framework for the Squeak/Smalltalk development environment and limit its computation cost with the help of our incremental dynamic analysis. This lightweight dynamic analysis ensures an immediate debugging experience with our tools by splitting the run-time overhead over multiple test runs depending on developers\u2019 needs. Hence, our test-driven fault navigation in combination with our incremental dynamic analysis answers important questions in a short time: where to start debugging, who understands failure causes best, what happened before failures, and which state properties are infected.",
+            "alternative": "Die test-getriebene Fehlernavigation zur Beseitigung von reproduzierbaren Softwarefehlern",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

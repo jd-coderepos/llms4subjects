@@ -26,7 +26,7 @@ Before running the [subject_gnd_formatting.py](scripts/subject_gnd_formatting.py
 
 ```python
 #The path for the GND subject specification file 
-subject_gnd_filepath = '../../../../authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml'
+subject_gnd_filepath = '../authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml'
 ```
 
 ```python
@@ -41,7 +41,7 @@ Additionally, you can filter the subjects to include only those part of the TIB 
 all_subjects = False
 ```
 
-#### **Step 2: EExecuting the Script**
+#### **Step 2: Executing the Script**
 
 To execute the script, run the following command:
 

@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1287976891",
+            "sameAs": "Merling, Daniel"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1844594416",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 350 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-81724",
+                "(firstid)KXP:1844594416",
+                "(ppn)1844594416"
+            ],
+            "subject": [
+                "Computer",
+                "Router",
+                "Effizienz",
+                "Streaming",
+                "(classificationName=ddc-dbn)004",
+                "Internet",
+                "Optimierung",
+                "Informatik",
+                "Resilienz",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Resilient and scalable forwarding for software-defined networks with P4-programmable switches",
+            "abstract": "Traditional networking devices support only fixed features and limited configurability. Network softwarization leverages programmable software and hardware platforms to remove those limitations. In this context the concept of programmable data planes allows directly to program the packet processing pipeline of networking devices and create custom control plane algorithms. This flexibility enables the design of novel networking mechanisms where the status quo struggles to meet high demands of next-generation networks like 5G, Internet of Things, cloud computing, and industry 4.0. P4 is the most popular technology to implement programmable data planes. However, programmable data planes, and in particular, the P4 technology, emerged only recently. Thus, P4 support for some well-established networking concepts is still lacking and several issues remain unsolved due to the different characteristics of programmable data planes in comparison to traditional networking. The research of this thesis focuses on two open issues of programmable data planes. First, it develops resilient and efficient forwarding mechanisms for the P4 data plane as there are no satisfying state of the art best practices yet. Second, it enables BIER in high-performance P4 data planes. BIER is a novel, scalable, and efficient transport mechanism for IP multicast traffic which has only very limited support of high-performance forwarding platforms yet. The main results of this thesis are published as 8 peer-reviewed and one post-publication peer-reviewed publication. The results cover the development of suitable resilience mechanisms for P4 data planes, the development and implementation of resilient BIER forwarding in P4, and the extensive evaluations of all developed and implemented mechanisms. Furthermore, the results contain a comprehensive P4 literature study. Two more peer-reviewed papers contain additional content that is not directly related to the main results. They implement congestion avoidance mechanisms in P4 and develop a scheduling concept to find cost-optimized load schedules based on day-ahead forecasts.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1287976891",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-81724",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

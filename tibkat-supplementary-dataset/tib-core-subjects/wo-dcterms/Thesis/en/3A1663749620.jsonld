@@ -1,0 +1,145 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1089254296",
+            "sameAs": "Villard, Laurent"
+        },
+        {
+            "@id": "gnd:1168504872",
+            "sameAs": "Universit\u00e4t Greifswald"
+        },
+        {
+            "@id": "gnd:173518982",
+            "sameAs": "Helander, Per"
+        },
+        {
+            "@id": "gnd:4030669-0",
+            "sameAs": "Kinetische Theorie"
+        },
+        {
+            "@id": "gnd:4046249-3",
+            "sameAs": "Plasma"
+        },
+        {
+            "@id": "gnd:4046259-6",
+            "sameAs": "Plasmaphysik"
+        },
+        {
+            "@id": "gnd:4055072-2",
+            "sameAs": "Simulation"
+        },
+        {
+            "@id": "gnd:4130803-7",
+            "sameAs": "Magnetohydrodynamik"
+        },
+        {
+            "@id": "gnd:4139323-5",
+            "sameAs": "Tokamak"
+        },
+        {
+            "@id": "gnd:4183081-7",
+            "sameAs": "Stellarator"
+        },
+        {
+            "@id": "gnd:4206066-7",
+            "sameAs": "Alfv\u00e9n-Welle"
+        },
+        {
+            "@id": "gnd:4235813-9",
+            "sameAs": "Energiereiches Teilchen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1663749620",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (PDF-Datei: 195 Seiten, 19593 Kilobyte)",
+            "contributor": [
+                "K\u00f6nies, Axel",
+                "Kleiber, Ralf"
+            ],
+            "creator": "Slaby, Christoph",
+            "description": "Illustrationen (teilweise farbig), Diagramme (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1663749620",
+                "(ppn)1663749620"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=bk, id=106408046)33.80 - Plasmaphysik",
+                "(classificationName=bk, id=181569833)33.81 - Kernfusion",
+                "(classificationName=ddc)530.44"
+            ],
+            "title": "Gyro-kinetic simulations of tokamaks and stellarators including collisions",
+            "abstract": [
+                "Plasma, Plasmaphysik, Tokamak, Stellarator, Magnetohydrodynamik, Kinetische Theorie, Simulation, Alfv\u00e9n-Welle, Energiereiches Teilchen, Alfv\u00e9n Waves, Collisions, Fast Particles, Gyro-kinetic Theory, Plasma Physics",
+                "This dissertation focusses on the numerical modelling of resonant destabilization of Alfv\u00e9n eigenmodes by fast ions in fusion plasmas. It especially addresses non-linear simulations of stellarator plasmas in which particle collisions are retained. It is shown that collisions are required for a realistic description of Alfv\u00e9n waves in plasmas relevant to nuclear fusion. We start by carefully verifying the implementation of the collision operators into the electromagnetic version of the gyro-kinetic delta-f particle-in-cell code EUTERPE. After these initial benchmarks are completed successfully, the code is in a position to be applied to realistic tokamak and stellarator scenarios. Since every collision operator needs to fulfil conservation laws, a momentum-conserving version of the pitch-angle scattering operator is implemented. This is in particular important for neoclassical transport simulations aimed at computing flux-surface variations of the electrostatic potential in stellarators. Using the simplified CKA-EUTERPE model (employing a fixed-mode-structure approximation), we perform non-linear simulations in tokamaks and stellarators. We show that the non-linear dynamics of fast-ion-driven Alfv\u00e9n eigenmodes is significantly influenced by collisions. They have the potential to enhance the saturation level and to affect the frequency chirping of the modes. It is thus concluded that collisions play an essential role in determining Alfv\u00e9n-eigenmode-induced fast-ion transport ..."
+            ],
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:173518982"
+                },
+                {
+                    "@id": "gnd:1089254296"
+                }
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:1168504872"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4235813-9",
+                "gnd:4139323-5",
+                "gnd:4046249-3",
+                "gnd:4055072-2",
+                "gnd:4183081-7",
+                "gnd:4046259-6",
+                "gnd:4206066-7",
+                "gnd:4130803-7",
+                "gnd:4030669-0"
+            ],
+            "P60163": "Greifswald"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

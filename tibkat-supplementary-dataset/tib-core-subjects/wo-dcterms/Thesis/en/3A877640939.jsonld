@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A877640939",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 157 Seiten)",
+            "creator": "Herff, Christian Emanuel",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)877640939",
+                "(firstid)GBV:877640939"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Speech Processes for Brain-Computer Interfaces",
+            "abstract": [
+                "Speech interfaces have become widely used and are integrated in many applications and devices. However, speech interfaces require the user to produce intelligible speech, which might be hindered by loud environments, concern to bother bystanders or the general in- ability to produce speech due to disabilities. Decoding a usera s imagined speech instead of actual speech would solve this problem. Such a Brain-Computer Interface (BCI) based on imagined speech would enable fast and natural communication without the need to actually speak out loud. These interfaces could provide a voice to otherwise mute people. This dissertation investigates BCIs based on speech processes using functional Near In- frared Spectroscopy (fNIRS) and Electrocorticography (ECoG), two brain activity imaging modalities on opposing ends of an invasiveness scale. Brain activity data have low signal- to-noise ratio and complex spatio-temporal and spectral coherence. To analyze these data, techniques from the areas of machine learning, neuroscience and Automatic Speech Recog- nition are combined in this dissertation to facilitate robust classification of detailed speech processes while simultaneously illustrating the underlying neural processes. fNIRS is an imaging modality based on cerebral blood flow. It only requires affordable hardware and can be set up within minutes in a day-to-day environment. Therefore, it is ideally suited for convenient user interfaces. However, the hemodynamic processes measured by fNIRS are slow in nature and the technology therefore offers poor temporal resolution. We investigate speech in fNIRS and demonstrate classification of speech processes for BCIs based on fNIRS. ECoG provides ideal signal properties by invasively measuring electrical potentials artifact- free directly on the brain surface. High spatial resolution and temporal resolution down to millisecond sampling provide localized information with accurate enough timing to capture the fast process underlying speech production. This dissertation presents the Brain-to- Text system, which harnesses automatic speech recognition technology to decode a textual representation of continuous speech from ECoG. This could allow to compose messages or to issue commands through a BCI. While the decoding of a textual representation is unparalleled for device control and typing, direct communication is even more natural if the full expressive power of speech - including emphasis and prosody - could be provided. For this purpose, a second system is presented, which directly synthesizes neural signals into audible speech, which could enable conversation with friends and family through a BCI. Up to now, both systems, the Brain-to-Text and synthesis system are operating on audibly produced speech. To bridge the gap to the final frontier of neural prostheses based on imagined speech processes, we investigate the differences between audibly produced and imagined speech and present first results towards BCI from imagined speech processes. This dissertation demonstrates the usage of speech processes as a paradigm for BCI for the first time. Speech processes offer a fast and natural interaction paradigm which will help patients and healthy users alike to communicate with computers and with friends and family efficiently through BCIs.",
+                "Speech, brain, ecog, fnirs, electrocorticography, functional near infrared spectroscopy, brain-computer interface, bci, speech production, automatic speech recognition."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

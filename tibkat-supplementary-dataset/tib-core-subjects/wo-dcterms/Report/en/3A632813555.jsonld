@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128742402",
+            "sameAs": "Geiser, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A632813555",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (28 S., 506 KB)",
+            "creator": "Steijl, Rene",
+            "identifier": [
+                "(ppn)632813555",
+                "(firstid)GBV:632813555"
+            ],
+            "publisher": "Inst. f\u00fcr Mathematik",
+            "subject": [
+                "(classificationName=msc)65L06",
+                "(classificationName=msc)76D05",
+                "(classificationName=msc)74N15",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)47E05",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ssg)17,1",
+                "(classificationName=msc)65M06"
+            ],
+            "title": "Coupled Navier Stokes- Molecular dynamics simulation using iterative operator-splitting methods",
+            "abstract": "In this paper, we contribute a multi-scale method based on an iterative operator splitting method, which takes into account the disparity of the macro- and microscopic scales. We couple Navier Stokes and Molecular Dynamics equations, while taken into account their underlying scales. Combining relaxation methods and averaging techniques we can optimize the computational effort. The proposed method enables simulations in which the continuum flow aspects of the flow are described by the Navier-Stokes equations at timescales appropriate for this level of modeling, while the viscous stresses within the Navier-Stokes equations are the result of Molecular Dynamics Simulations, with much smaller time-scales. The main benefit of the proposed method is that time-dependent flows can then be modeled with a computational work which is significantly smaller than when the complete flow would be modeled at molecular level, as a result of the different time-scales at the continuum and molecular levels, enabled by the application of the iterative operator-splitting method. We discuss the convergence analysis to the splitting methods, see also [27]. Finally we present  numerical results for the modified methods and applications to real-life flow problems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:128742402"
+            },
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2009, 11",
+            "P30128": "Preprints / Institut f\u00fcr Mathematik, Humboldt-Universit\u00e4t zu Berlin",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

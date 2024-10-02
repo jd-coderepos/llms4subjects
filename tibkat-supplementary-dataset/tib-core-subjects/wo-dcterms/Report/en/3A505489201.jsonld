@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A505489201",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (17 S., 176,8 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Schintke, Florian",
+                "Reinefeld, Alexander",
+                "Sch\u00fctt, Thorsten"
+            ],
+            "identifier": [
+                "(ppn)505489201",
+                "(firstid)GBV:505489201"
+            ],
+            "publisher": "ZIB",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Chord #: structured overlay network for non-uniform load-distribution",
+            "abstract": "Data lookup is a fundamental problem in peer-to-peer systems: Given a key, find the node that stores the associated object. Chord and other P2P algorithms use distributed hash tables (DHTs) to distribute the keys and nodes evenly across a logical ring. Using an efficient routing strategy, DHTs provide a routing performance of  in networks of  nodes. While the routing performance has been shown to be optimal, the uniform key distribution makes it impossible for DHTs to support range queries. For range queries, consecutive keys must be stored on lo gically neighboring nodes. In this paper, we present an enhancement of Chord that eliminates the hash function while keeping the same routing performance. The resulting algorithm, named Chord, provides a richer function ality while maintaining the same complexity. In addition to Chord, Chord adapts to load imbalance.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2005, 40",
+            "P30128": "ZIB-report",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1089098030",
+            "sameAs": "Maten, Evert Jan Willem Ter"
+        },
+        {
+            "@id": "gnd:141561335",
+            "sameAs": "De Gersem, Herbert"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A168497111X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XXX, 587 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Brachtendorf, Hans-Georg",
+                "Pulch, Roland",
+                "Schoenmaker, Wim"
+            ],
+            "description": [
+                "Illustrationen, Diagramme",
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9783030307264",
+                "(ppn)168497111X",
+                "(doi)10.1007/978-3-030-30726-4",
+                "(firstid)KEP:048672394"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Mathematical Modeling and Industrial Mathematics",
+                "Mathematical models",
+                "(classificationName=loc)TA342-343",
+                "(classificationName=ddc)003.3",
+                "(classificationName=linseach:mapping)rest",
+                "Mathematical optimization"
+            ],
+            "title": "Nanoelectronic Coupled Problems Solutions",
+            "abstract": [
+                "Equations, discretizations -- Time integration for coupled problems -- Uncertainty quantification -- Model order reduction -- Robustness, reliability, ageing -- Testcases and measurements",
+                "Designs in nanoelectronics often lead to challenging simulation problems and include strong feedback couplings. Industry demands provisions for variability in order to guarantee quality and yield. It also requires the incorporation of higher abstraction levels to allow for system simulation in order to shorten the design cycles, while at the same time preserving accuracy. The methods developed here promote a methodology for circuit-and-system-level modelling and simulation based on best practice rules, which are used to deal with coupled electromagnetic field-circuit-heat problems, as well as coupled electro-thermal-stress problems that emerge in nanoelectronic designs. This book covers: (1) advanced monolithic/multirate/co-simulation techniques, which are combined with envelope/wavelet approaches to create efficient and robust simulation techniques for strongly coupled systems that exploit the different dynamics of sub-systems within multiphysics problems, and which allow designers to predict reliability and ageing; (2) new generalized techniques in Uncertainty Quantification (UQ) for coupled problems to include a variability capability such that robust design and optimization, worst case analysis, and yield estimation with tiny failure probabilities are possible (including large deviations like 6-sigma); (3) enhanced sparse, parametric Model Order Reduction techniques with a posteriori error estimation for coupled problems and for UQ to reduce the complexity of the sub-systems while ensuring that the operational and coupling parameters can still be varied and that the reduced models offer higher abstraction levels that can be efficiently simulated. All the new algorithms produced were implemented, transferred and tested by the EDA vendor MAGWEL. Validation was conducted on industrial designs provided by end-users from the semiconductor industry, who shared their feedback, contributed to the measurements, and supplied both material data and process data. In closing, a thorough comparison to measurements on real devices was made in order to demonstrate the algorithms\u2019 industrial applicability"
+            ],
+            "contributor": [
+                "gnd:1089098030",
+                "gnd:141561335"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "29",
+            "isLike": "doi:10.1007/978-3-030-30726-4",
+            "P30128": [
+                "The European Consortium for Mathematics in Industry",
+                "Springer eBooks",
+                "Mathematics and Statistics"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

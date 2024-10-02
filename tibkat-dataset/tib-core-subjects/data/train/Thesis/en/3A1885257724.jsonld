@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "gnd:4035843-4",
+            "sameAs": "Computerlinguistik"
+        },
+        {
+            "@id": "gnd:4077722-4",
+            "sameAs": "Sprachkompetenz"
+        },
+        {
+            "@id": "gnd:4113292-0",
+            "sameAs": "Deutsch"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1885257724",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxx, 423 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Wei\u00df, Zarah Leonie",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-93806",
+                "(firstid)KXP:1885257724",
+                "(ppn)1885257724"
+            ],
+            "subject": [
+                "Fremdsprache",
+                "Lesbarkeit",
+                "Sprachkompetenz",
+                "Sprachverarbeitung",
+                "Computerlinguistik",
+                "Maschinelles Lernen",
+                "Fremdsprachenlernen",
+                "Komplexit\u00e4t",
+                "Common European Framework of Reference for Languages",
+                "Deutsch",
+                "(classificationName=ddc-dbn)410.285",
+                "(classificationName=ddc-dbn)400",
+                "(classificationName=linseach:mapping)lin",
+                "Spracherwerb"
+            ],
+            "title": "An integrative approach to linguistic complexity analysis for German",
+            "abstract": [
+                "This thesis develops an integrative approach to automatic linguistic complexity analyses for German and applies it to predict the proficiency of learner writing and the readability of texts for native and non-native speakers of German. Complexity is a central concept in applied linguistics and has been used in Second Language Acquisition (SLA) research to characterize and benchmark language proficiency and to track developmental trajectories of learners (Ortega, 2012). However, the focus of SLA complexity research has been on the analysis of syntax and lexicon and the English language (Housen et al., 2019; Wolfe-Quintero et al., 1998). More research on other linguistic domains\u2014such as morphology or discourse\u2014is needed to model complexity as a multidimensional construct. Furthermore, more languages should be studied to promote complexity research. Measures of linguistic complexity have also been found to be important features in computational linguistic research on Automatic Proficiency Assessment (APA) and Automatic Readability Assessment (ARA). This thesis combines insights from SLA complexity research and computational linguistic approaches to APA and ARA to address important research gaps in SLA complexity research and work on APA and ARA for education contexts. We propose a linguistically broad approach to complexity that combines measures of syntactic, lexical, and morphological complexity, as well as measures of discourse, human processing, and language use. In doing so, we integrate theories and concepts form different research disciplines including SLA complexity research, computational linguistics, and psychology. We implemented a system to automatically calculate these measures relying on Natural Language Processing (NLP) techniques. With 543 measures, it calculates to the best of our knowledge the largest and most diverse collection of measures of absolute and relative complexity for German. To make this resource accessible to other researchers and thereby promote the comparability and reproducibility of complexity research for German, we integrated this system into the Common Text Analysis Platform (CTAP) by Chen and Meurers (2016). We generalized the originally monolingual web platform for English to support multilingual analyses, leading to its extension to several additional languages. In an empirical study on the impact of non-standard language on the NLP annotations and subsequent calculation of measures, we confirmed that even on language from beginning learners, our analysis remains overall robust and errors hardly impact our complexity estimates or models trained with them. We then demonstrate the value of our integrative broad linguistic modeling approach to linguistic complexity for APA and ARA. First, we provide an overview of the current research landscape for both domains by conducting two systematic surveys focusing on automatic approaches for German published in the past twenty years. Both surveys showcase the need for more research on approaches targeting second or foreign language (L2) learners and young native speakers, more cross-corpus testing, and more accessible models. For ARA, we observed that traditional readability formulas remain the de facto standard in research that is not specifically dedicated to the development of new ARA approaches, even though they have been criticized as overly simplistic by ARA researchers and generally perform below the current state-of-the-art (SOTA). Second, we report on several machine learning experiments that build on these insights and take into consideration the research needs we identified. We train models for predicting language proficiency for L2 learners on long texts at the full Common European Framework of Reference for Languages (CEFR) scale (A1 to C1/C2) and short answers to reading comprehension questions in the form of course levels (ranging from A1.1 to A2.2). We also train a model for capturing early native language (L1) academic language proficiency of students using grade levels (1st to 8th grade). For text readability, we train models for L2 learners for longer texts (distinguishing texts for learners at the CEFR levels A2, B1/B2, C1) and sentences (using a 7-point Likert scale) as well as a model for German media language aimed at children or adults (making a binary distinction). We test these models across corpora and on hold-out data sets. With this, we illustrate the generalizability of our models across different task contexts, elicitation contexts, languages, and publishers. We also perform linguistic analyses on all data sets studied, which yields important insights into the characterization of developmental trajectories in German. This thesis makes a special methodological contribution to ARA, as we compile a total of three new readability corpora which for the first time facilitate cross-corpus testing and cross-language testing for German ARA. In sum, this thesis provides novel insights into the developmental variation of linguistic complexity in German and its role for text readability. It also contributes important new resources for research on complexity, ARA, and APA by making available the multilingual CTAP system, new readability corpora, and new models for German.",
+                "Diese Dissertation entwickelt einen integrativen Ansatz zur automatischen Analyse linguistischer Komplexit\u00e4t f\u00fcr das Deutsche und wendet ihn an, um die Schreibkompetenz von Lernenden und die Lesbarkeit von Texten f\u00fcr deutsche Muttersprachler:innen und Nicht-Muttersprachler:innen vorherzusagen. Komplexit\u00e4t ist ein zentrales Konzept in der angewandten Linguistik und wurde in der Forschung zum Zweitspracherwerb (SLA) verwendet, um die Sprachkompetenz von Lernenden zu charakterisieren und zu messen (Ortega, 2012). Der Schwerpunkt der SLA-Komplexit\u00e4tsforschung lag hierbei auf der Analyse von Syntax und Lexikon im Englischen (Housen et al., 2019; Wolfe-Quintero et al., 1998). Um Komplexit\u00e4t als multidimensionales Konstrukt zu modellieren, sind weitere Forschungen zu anderen sprachlichen Bereichen erforderlich (beispielsweise Morphologie oder Diskurs). Zudem m\u00fcssen mehr unterschiedliche Sprachen untersucht werden, um die Komplexit\u00e4tsforschung voranzubringen. Ma\u00dfe f\u00fcr sprachliche Komplexit\u00e4t haben sich auch in der computerlinguistischen Forschung zur automatischen Sprachkompetenzbewertung (APA) und zur automatischen Lesbarkeitserfassung (ARA) als wichtige Merkmale erwiesen. In dieser Arbeit werden Erkenntnisse aus der SLA-Komplexit\u00e4tsforschung und computergest\u00fctzte linguistische Ans\u00e4tze f\u00fcr APA und ARA kombiniert, um wichtige Forschungsl\u00fccken in den jeweiligen Disziplinen zu schlie\u00dfen. Wir schlagen einen linguistisch breit angelegten Ansatz f\u00fcr Komplexit\u00e4t vor, der Ma\u00dfe f\u00fcr syntaktische, lexikalische und morphologische Komplexit\u00e4t sowie Ma\u00dfe f\u00fcr Diskurs, menschliche Sprachverarbeitung und Sprachgebrauch kombiniert. Dabei integrieren wir Theorien und Konzepte aus verschiedenen Forschungsdisziplinen wie der SLA-Komplexit\u00e4tsforschung, der Computerlinguistik und der Psychologie. Wir haben ein System zur automatischen Berechnung dieser Ma\u00dfe implementiert, das auf Techniken der nat\u00fcrlichen Sprachverarbeitung (NLP) beruht. Mit 543 Ma\u00dfen berechnet es nach unserem derzeitigen Kenntnisstand die gr\u00f6\u00dfte und vielf\u00e4ltigste Sammlung von Ma\u00dfen der absoluten und relativen Komplexit\u00e4t f\u00fcr das Deutsche. Um diese Ressource anderen Forschern zug\u00e4nglich zu machen und damit die Vergleichbarkeit und Reproduzierbarkeit der Komplexit\u00e4tsforschung f\u00fcr das Deutsche zu f\u00f6rdern, haben wir dieses System in CTAP (Chen und Meurers, 2016) integriert. Wir haben die urspr\u00fcnglich nur f\u00fcr Englisch entwickelte Webplattform generalisiert, um mehrsprachige Analysen zu unterst\u00fctzen. Dies f\u00fchrte bereits zu ihrer Erweiterung auf mehrere andere Sprachen. In einer empirischen Studie zu den Auswirkungen von nicht-standardisierter Sprache auf die NLP Annotationen und die anschlie\u00dfende Berechnung der Ma\u00dfe haben wir best\u00e4tigen k\u00f6nnen, dass unsere Analyse selbst bei Sprache von Deutsch-Anf\u00e4ngern insgesamt robust bleibt und etwaige Fehler nur geringe Auswirkungen auf unsere Komplexit\u00e4tsmessungen oder die damit trainierten Modelle haben. Im Weiteren demonstrieren wir den Wert unseres integrativen, breit angelegten linguistischen Modellierungsansatzes f\u00fcr linguistische Komplexit\u00e4t f\u00fcr APA und ARA. Zun\u00e4chst geben wir einen \u00dcberblick \u00fcber die aktuelle Forschungslandschaft f\u00fcr beide Bereiche, indem wir zwei systematische Literaturrecherchen zu automatischen Ans\u00e4tzen f\u00fcr das Deutsche in den vergangenen zwanzig Jahren durchf\u00fchren. Beide Erhebungen zeigen den Bedarf an mehr Forschung zu Ans\u00e4tzen, die sich an Zweit- oder Fremdsprachenlerner und junge Muttersprachler richten, an mehr korpus\u00fcbergreifenden Tests und an besser zug\u00e4nglichen Modellen. In Bezug auf ARA stellen wir fest, dass traditionelle Lesbarkeitsformeln weiterhin den Standard in der Forschung darstellen, die sich nicht speziell mit der Entwicklung neuer ARA-Ans\u00e4tze befasst. Dies ist der Fall, obwohl diese Formeln von ARA-Forschern als zu vereinfachend kritisiert wurden und im Allgemeinen schlechtere Ergebnisse als zeitgen\u00f6ssische Verfahren liefern. Zweitens berichten wir \u00fcber mehrere Experimente zum maschinellen Lernen, die die von uns so ermittelten Forschungsl\u00fccken adressieren. Wir trainieren Modelle zur Vorhersage der Sprachkompetenz von L2-Lernern f\u00fcr lange Texte auf der gesamten Skala des Gemeinsamen Europ\u00e4ischen Referenzrahmens f\u00fcr Sprachen (GER; A1 bis C1/C2) und kurze Antworten auf Fragen zum Leseverst\u00e4ndnis in Form von Kursstufen (von A1.1 bis A2.2). Au\u00dferdem trainieren wir ein Modell zur Erfassung der fr\u00fchen muttersprachlichen akademischen Sprachkenntnisse von Sch\u00fclern anhand von Klassenstufen (1. bis 8. Klasse). F\u00fcr die Lesbarkeit von Texten trainieren wir Modelle f\u00fcr L2-Lerner f\u00fcr l\u00e4ngere Texte (mit Unterscheidung von Texten f\u00fcr Lerner auf den GER-Niveaustufen A2, B1/B2, C1) und S\u00e4tze (unter Verwendung einer 7-Punkte-Likert-Skala) sowie ein Modell f\u00fcr deutsche Mediensprache, das sich an Kinder oder Erwachsene richtet (mit einer bin\u00e4ren Unterscheidung). Wir testen diese Modelle \u00fcber Korpora hinweg und an Hold-out-Datens\u00e4tzen. Damit illustrieren wir die Generalisierbarkeit unserer Modelle \u00fcber verschiedene Aufgabenkontexte, Erhebungskontexte, Sprachen und Verlage hinweg. Dar\u00fcber hinaus f\u00fchren wir f\u00fcr alle untersuchten Datens\u00e4tze linguistische Analysen durch, die wichtige Erkenntnisse \u00fcber die Charakterisierung von Entwicklungsverl\u00e4ufen im Deutschen liefern. Wir leisten dabei einen besonderen methodischen Beitrag zu ARA, indem wir drei neue Lesbarkeitskorpora erstellen, die erstmals die korpus- und sprachen\u00fcbergreifende Evaluation von ARA-Modellen f\u00fcr das Deutsche erm\u00f6glichen. Insgesamt liefert die vorliegende Arbeit neue Einsichten in die entwicklungsbedingte Variation sprachlicher Komplexit\u00e4t im Deutschen und ihre Rolle f\u00fcr die Lesbarkeit von Texten. Durch die Bereitstellung des mehrsprachigen CTAP-Systems, neuer Lesbarkeitskorpora und neuer Modelle f\u00fcr das Deutsche stellt sie au\u00dferdem wichtige neue Ressourcen f\u00fcr die Forschung zu Komplexit\u00e4t, APA und ARA bereit."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:36187-2",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4113292-0"
+                },
+                {
+                    "@id": "gnd:4035843-4"
+                },
+                {
+                    "@id": "gnd:4077722-4"
+                }
+            ],
+            "isLike": "doi:10.15496/publikation-93806",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

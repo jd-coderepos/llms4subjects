@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027205658",
+            "sameAs": "McKenna, Russell"
+        },
+        {
+            "@id": "gnd:1141084457",
+            "sameAs": "Fischer, David"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1022323385",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (circa 257 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Harbrecht, Alexander",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1022323385",
+                "(doi)10.5445/IR/1000082537",
+                "(firstid)GBV:1022323385"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie",
+            "subject": [
+                "Elektrofahrzeug",
+                "Deutschland",
+                "Verkehrsverhalten",
+                "Tankstelle",
+                "Privater Haushalt",
+                "(classificationName=linseach:automatic)rest"
+            ],
+            "title": "Behavior-oriented modeling of electric vehicle load profiles : a stochastic simulation model considering different household characteristics, charging decisions and locations",
+            "abstract": "This paper presents a stochastic bottom-up model to assess electric vehicles' (EV) impact on load profiles at different parking locations as well as their load management potential assuming different charging strategies. The central innovation lies in the consideration of socio-economic, technical and spatial factors, all of which influence charging behavior and location. Based on a detailed statistical analysis of a large dataset on German mobility, the most statistically significant influencing factors on residential charging behavior could be identified. Whilst household type and economic status are the most important factors for the number of cars per household, the driver's occupation has the strongest influence on the first departure time and parking time whilst at work. An inhomogeneous Markov-chain is used to sample a sequence of destinations of each car trip, depending (amongst other factors) on the occupation of the driver, the weekday and the time of the day. Probability distributions for the driven kilometres, driving durations and parking durations are used to derive times and electricity demand. The probability distributions are retrieved from a national mobility dataset of 70,000 car trips and filtered for a set of socio-economic and demographic factors. Individual charging behaviour is included in the model using a logistic function accounting for the sensitivity of the driver towards (low) battery SOC. The presented model is validated with this mobility dataset and shown to have a deviation in key household mobility characteristics of just a few percentage points. The model is then employed to analyse the impact of uncontrolled charging of BEV on the residential load profile. It is found that the absolute load peaks will increase by up to factor 8.5 depending on the loading infrastructure, the load in high load hours will increase by approx. a factor of 3 and annual electricity demand will approximately double.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:171556542",
+                "gnd:1141084457",
+                "gnd:1027205658"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 29 (April 2018)",
+            "isLike": "doi:10.5445/IR/1000082537",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

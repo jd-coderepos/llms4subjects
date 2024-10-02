@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1297867742",
+            "sameAs": "Gulde, Thomas"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1853602213",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (124, circa 30 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1853602213",
+                "(doi)10.15496/publikation-84948",
+                "(firstid)KXP:1853602213"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3",
+                "Neuronales Netz",
+                "Deep learning",
+                "Robotik",
+                "Maschinelles Sehen",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)629.892",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Two-dimensional pose estimation of industrial robotic arms in highly dynamic collaborative environments",
+            "abstract": "In modern collaborative production environments where industrial robots and humans are supposed to work hand in hand, it is mandatory to observe the robot\u2019s workspace at all times. Such observation is even more crucial when the robot\u2019s main position is also dynamic e.g. because the system is mounted on a movable platform. As current solutions like physically secured areas in which a robot can perform actions potentially dangerous for humans, become unfeasible in such scenarios, novel, more dynamic, and situation aware safety solutions need to be developed and deployed. This thesis mainly contributes to the bigger picture of such a collaborative scenario by presenting a data-driven convolutional neural network-based approach to estimate the two-dimensional kinematic-chain configuration of industrial robot-arms within raw camera images. This thesis also provides the information needed to generate and organize the mandatory data basis and presents frameworks that were used to realize all involved subsystems. The robot-arm\u2019s extracted kinematic-chain can also be used to estimate the extrinsic camera parameters relative to the robot\u2019s three-dimensional origin. Further a tracking system, based on a two-dimensional kinematic chain descriptor is presented to allow for an accumulation of a proper movement history which enables the prediction of future target positions within the given image plane. The combination of the extracted robot\u2019s pose with a simultaneous human pose estimation system delivers a consistent data flow that can be used in higher-level applications. This thesis also provides a detailed evaluation of all involved subsystems and provides a broad overview of their particular performance, based on novel generated, semi automatically annotated, real datasets.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1297867742",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-84948",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

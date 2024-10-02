@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1765542197",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Flath, Christoph",
+                "Pibernik, Richard"
+            ],
+            "creator": "Notz, Pascal Markus",
+            "identifier": [
+                "(doi)10.25972/OPUS-24042",
+                "(ppn)1765542197",
+                "(firstid)DNB:123654806X"
+            ],
+            "publisher": "Universit\u00e4t W\u00fcrzburg",
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ddc-dbn)338",
+                "(classificationName=ddc)658.403",
+                "(classificationName=ddc-dbn)650"
+            ],
+            "title": "Prescriptive Analytics for Data-driven Capacity Management",
+            "abstract": "Digitization and artificial intelligence are radically changing virtually all areas across business and society. These developments are mainly driven by the technology of machine learning (ML), which is enabled by the coming together of large amounts of training data, statistical learning theory, and sufficient computational power. This technology forms the basis for the development of new approaches to solve classical planning problems of Operations Research (OR): prescriptive analytics approaches integrate ML prediction and OR optimization into a single prescription step, so they learn from historical observations of demand and a set of features (co-variates) and provide a model that directly prescribes future decisions. These novel approaches provide enormous potential to improve planning decisions, as first case reports showed, and, consequently, constitute a new field of research in Operations Management (OM). First works in this new field of research have studied approaches to solving comparatively simple planning problems in the area of inventory management. However, common OM planning problems often have a more complex structure, and many of these complex planning problems are within the domain of capacity planning. Therefore, this dissertation focuses on developing new prescriptive analytics approaches for complex capacity management problems. This dissertation consists of three independent articles that develop new prescriptive approaches and use these to solve realistic capacity planning problems. The first article, Prescriptive Analytics for Flexible Capacity Management\", develops two prescriptive analytics approaches, weighted sample average approximation (wSAA) and kernelized empirical risk minimization (kERM), to solve a complex two-stage capacity planning problem that has been studied extensively in the literature: a logistics service provider sorts daily incoming mail items on three service lines that must be staffed on a weekly basis. This article is the first to develop a kERM approach to solve a complex two-stage stochastic capacity planning problem with matrix-valued observations of demand and vector-valued decisions. The article develops out-of-sample performance guarantees for kERM and various kernels, and shows the universal approximation property when using a universal kernel. The results of the numerical study suggest that prescriptive analytics approaches may lead to significant improvements in performance compared to traditional two-step approaches or SAA and that their performance is more robust to variations in the exogenous cost parameters. The second article, \"Prescriptive Analytics for a Multi-Shift Staffing Problem\", uses prescriptive analytics approaches to solve the (queuing-type) multi-shift staffing problem (MSSP) of an aviation maintenance provider that receives customer requests of uncertain number and at uncertain arrival times throughout each day and plans staff capacity for two shifts. This planning problem is particularly complex because the order inflow and processing are modelled as a queuing system, and the demand in each day is non-stationary. The article addresses this complexity by deriving an approximation of the MSSP that enables the planning problem to be solved using wSAA, kERM, and a novel Optimization Prediction approach. A numerical evaluation shows that wSAA leads to the best performance in this particular case. The solution method developed in this article builds a foundation for solving queuing-type planning problems using prescriptive analytics approaches, so it bridges the \"worlds\" of queuing theory and prescriptive analytics. The third article, \"Explainable Subgradient Tree Boosting for Prescriptive Analytics in Operations Management\" proposes a novel prescriptive analytics approach to solve the two capacity planning problems studied in the first and second articles that allows decision-makers to derive explanations for prescribed decisions: Subgradient Tree Boosting (STB). STB combines the machine learning method Gradient Boosting with SAA and relies on subgradients because the cost function of OR planning problems often cannot be differentiated. A comprehensive numerical analysis suggests that STB can lead to a prescription performance that is comparable to that of wSAA and kERM. The explainability of STB prescriptions is demonstrated by breaking exemplary decisions down into the impacts of individual features. The novel STB approach is an attractive choice not only because of its prescription performance, but also because of the explainability that helps decision-makers understand the causality behind the prescriptions. The results presented in these three articles demonstrate that using prescriptive analytics approaches, such as wSAA, kERM, and STB, to solve complex planning problems can lead to significantly better decisions compared to traditional approaches that neglect feature data or rely on a parametric distribution estimation.",
+            "alternative": "Prescriptive Analytics f\u00fcr datengetriebenes Kapazit\u00e4tsmanagement",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)GBV-ODiss",
+                "(collectioncode)GBV-BASE-ODISS"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25972/OPUS-24042",
+            "P60163": "W\u00fcrzburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749144718",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (252p)",
+            "creator": "Stone, Henry W.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(firstid)GBV:749144718",
+                "(isbn13)9781461319993",
+                "(ppn)749144718",
+                "(doi)10.1007/978-1-4613-1999-3"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Automation.",
+                "Mechanical engineering",
+                "Artificial intelligence",
+                "Robotics.",
+                "Control engineering.",
+                "(classificationName=loc)TJ210.2-211.495",
+                "(classificationName=linseach:mapping)mas",
+                "Engineering",
+                "(classificationName=ddc)629.8",
+                "(classificationName=loc)TJ163.12"
+            ],
+            "title": "Kinematic Modeling, Identification, and Control of Robotic Manipulators",
+            "abstract": [
+                "The objective of this dissertation is to advance the state-of-the-art in the kinematic modeling, identification, and control of robotic manipulators with rigid links in an effort to improve robot kinematic performance. The positioning accuracy of commercially-available industrial robotic manipulators depends upon a kinematic model which describes the robot geometry in a parametric form. Manufacturing error in the machining and assembly of manipulators lead to discrepancies between the design parameters and the physical structure. Improving the kinematic perfor\u00ad mance thus requires the identification of the actual kinematic parameters of each individual robot. The identified kinematic parameters are referred to as the arm signature. Existing robot kinematic models, such as the Denavit-Hartenberg model, are not directly applicable to kinematic parameter identification. In this dissertation we introduce a new kinematic model, called the 5-Model, which is applicable to kinematic parameter identification, and use it as the foundation for our development of a general technique for identifying the kinematic parameters of any robot with rigid links.",
+                "1. Introduction -- 1.1. Overview -- 1.2. Motivation -- 1.3. Dissertation Goals and Contributions -- 1.4. Dissertation Outline -- 2. Review of Robot Kinematics, Identification, and Control -- 2.1. Overview -- 2.2. Coordinate Frame Kinematic Models -- 2.3. Models of Revolute Joint Manipulators -- 2.4. Modeling Assumptions -- 2.5. Kinematic Identification -- 2.6. Kinematic Control -- 2.7. Conclusions -- 3. Formulation of the S-Model -- 3.1. Overview -- 3.2. S-Model -- 3.3. Computing S-Model Parameters -- 3.4.Conclusions -- 4. Kinematic Identification -- 4.1. Overview -- 4.2.Kinematic Features -- 4.3 S-Model Identification -- 4.4. Conclusions -- 5. Inverse Kinematics -- 5.1. Overview -- 5.2. Newton-Raphson Algorithm -- 5.3. Jacobi Iterative Method -- 5.4. Performance Evaluation -- 5.5. Comparative Computational Complexity -- 5.6. Conclusions -- 6. Prototype System and Performance Evaluation -- 6.1. Overview -- 6.2. System Overview -- 6.3. Sensor System -- 6.4. Generating Features -- 6.5. Measuring Performance -- 6.6. Kinematic Performance Evaluation -- 6.7. Conclusions -- 7. Performance Evaluation Based Upon Simulation -- 7.1. Overview -- 7.2. A Monte-Carlo Simulator -- 7.3. Simulator Verification -- 7.4. Results -- 7.5. Conclusions -- 8. Summary and Conclusions -- 8.1. Introduction -- 8.2. Summary and Contributions -- 8.3. Suggestions for Future Research -- Appendix A. Primitive Transformations -- Appendix B. Ideal Kinematics of the Puma 560 -- B.1. Forward Kinematics -- B.2. Inverse Kinematics -- Appendix C. Inverse Kinematics -- C.1. Newton-Raphson Computations -- C.2. Jacobi Iterative Computations -- Appendix D. Identified Arm Signtaures -- Appendix E. Sensor Calibration -- E.1. Calibration Rods -- E.2. Slant Range Compensation -- Appendix F. Simulator Components -- F.1. Robot Manufacturing Error Model -- F.2. Simulator Input Parameters -- Appendix G. Simulation Results -- G.1. Encoder Calibration Errors -- G.2. Machining and Assembly Errors -- G.3. Sensor Measurement Errors -- G.4. Number of Measurements -- G.5. Target Radius -- References."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "29",
+            "isLike": "doi:10.1007/978-1-4613-1999-3",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Robotics: Vision, Manipulation, and Sensors",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

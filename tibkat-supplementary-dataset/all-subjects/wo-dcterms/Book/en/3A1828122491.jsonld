@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1828122491",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(XIX, 111 p. 61 illus., 59 illus. in color.)",
+            "creator": [
+                "Dokken, Tor",
+                "Kermarrec, Ga\u00ebl",
+                "Skytt, Vibeke"
+            ],
+            "identifier": [
+                "(firstid)KEP:083411127",
+                "(doi)10.1007/978-3-031-16954-0",
+                "(isbn13)9783031169540",
+                "(ppn)1828122491"
+            ],
+            "publisher": "Springer International Publishing",
+            "subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=linseach:mapping)his",
+                "Mathematics\u2014Data processing.",
+                "Geographic information systems.",
+                "Mathematical statistics\u2014Data processing.",
+                "Mathematical statistics",
+                "(classificationName=ddc)910.285",
+                "Mathematics"
+            ],
+            "title": "Optimal Surface Fitting of Point Clouds Using Local Refinement : Application to GIS Data",
+            "abstract": [
+                "This open access book provides insights into the novel Locally Refined B-spline (LR B-spline) surface format, which is suited for representing terrain and seabed data in a compact way. It provides an alternative to the well know raster and triangulated surface representations. An LR B-spline surface has an overall smooth behavior and allows the modeling of local details with only a limited growth in data volume. In regions where many data points belong to the same smooth area, LR B-splines allow a very lean representation of the shape by locally adapting the resolution of the spline space to the size and local shape variations of the region. The iterative method can be modified to improve the accuracy in particular domains of a point cloud. The use of statistical information criterion can help determining the optimal threshold, the number of iterations to perform as well as some parameters of the underlying mathematical functions (degree of the splines, parameter representation). The resulting surfaces are well suited for analysis and computing secondary information such as contour curves and minimum and maximum points. Also deformation analysis are potential applications of fitting point clouds with LR B-splines.",
+                "Introduction -- Locally Refined Splines -- Adaptive surface Fitting with Local Refinement: LR B-spline Surfaces -- A Statistical Criterion to Judge the Goodness of Fit of LR B-splines Surface Approximation -- LR B-splines for Representation of Terrain and Seabed: Data Fusion, Outliers, and Voids -- LR B-spline Surfaces and Volumes for Deformation Analysis of Terrain Data -- Conclusion."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXEE",
+                "(collectioncode)ZDB-2-EES",
+                "(collectioncode)ZDB-2-SOB",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-031-16954-0",
+            "P30128": "SpringerBriefs in Earth System Sciences",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

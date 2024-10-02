@@ -1,0 +1,124 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046434314",
+            "sameAs": "Witting, Michael"
+        },
+        {
+            "@id": "gnd:1138059420",
+            "sameAs": "Metabolomik"
+        },
+        {
+            "@id": "gnd:1168929873",
+            "sameAs": "B\u00f6cker, Sebastian"
+        },
+        {
+            "@id": "gnd:1278704256",
+            "sameAs": "Hoffmann, Martin"
+        },
+        {
+            "@id": "gnd:1278983929",
+            "sameAs": "Martens, Lennart"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4037882-2",
+            "sameAs": "Massenspektrometrie"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1831905701",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (123 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1831905701",
+                "(firstid)KXP:1831905701"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)572.63",
+                "(classificationName=linseach:mapping)bio",
+                "Strukturaufkl\u00e4rung",
+                "(classificationName=bk, id=106421425)42.11 - Biomathematik, Biokybernetik",
+                "Massenspektrometrie",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)570"
+            ],
+            "title": "Confident metabolite structure annotation with COSMIC",
+            "abstract": "Small molecules are key to biomarker discovery, drug development, toxicity screenings of ecosystems like rivers and lakes, and many more important research areas in multiple life sciences. Elucidating the exact structure of these metabolites is often crucial in determining their functionality, however, confident annotation of these structures remains a major challenge. To analyse samples of small molecules occurring in nature, mass spectrometry is the currently predominant technique. While mass spectrometry is used to measure the mass of a compound, tandem mass spectrometry can be used to additionally measure the mass of its fragments. The resulting spectral data however is highly non-trivial to interpret. This bottleneck accelerates the development of computational tools to annotate metabolite structures from mass spectrometry data, which enables rapid, large-scale structure annotation independent from spectral libraries. These tools return some proportion of incorrect annotations, which can vastly outnumber correct annotations. Scientists using these tools need to be able to differentiate correct from incorrect annotations. We develop an E-value computation that is based on proxy decoys drawn from the PubChem database and show that this E-value score outperforms the current CSI:FingerID hit score for the task of separating correct from incorrect annotations. To further improve on this, we develop a Percolator inspired machine learning approach, where we train linear support vector machines for this separation task. The confidence score outperforms the original CSI:FingerID hit score, the E-value score and all other tools that participated in the CASMI 2016 contest by a wide margin. Arguably, our confidence score enables confident structure annotation for a relevant portion of a dataset for the first time. We then show the power of this COSMIC workflow by annotating novel bile acid conjugate structures never reported before in a mouse fecal dataset.",
+            "contributor": [
+                "gnd:1046434314",
+                "gnd:1168929873",
+                "gnd:1278983929"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1278704256"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4611085-9"
+                },
+                {
+                    "@id": "gnd:4037882-2"
+                },
+                {
+                    "@id": "gnd:1138059420"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

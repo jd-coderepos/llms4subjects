@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723616787",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (126 Seiten)",
+            "creator": "B\u00e9renger, Jean-Pierre",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn)1598290835",
+                "(isbn13)9781598290837",
+                "(ppn)723616787",
+                "(firstid)GBV:723616787",
+                "(doi)10.2200/S00030ED1V01Y200605CEM008"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Electronic books",
+                "(classificationName=linseach:mapping)phy",
+                "Maxwell equations",
+                "Time-domain analysis",
+                "(classificationName=ddc)621.3",
+                "(classificationName=loc)QC670 .B47 2007",
+                "Finite differences"
+            ],
+            "title": "Perfectly Matched Layer (PML) for Computational Electromagnetics",
+            "abstract": [
+                "Introduction -- 1. The requirements for the simulation of free space and a review of existing absorbing boundary conditions -- 1.1. The Maxwell equations and the boundary conditions -- 1.2. The actual problems to be solved with numerical methods -- 1.3. The requirements to be satisfied by the absorbing boundary conditions -- 1.4. The existing ABCs before the introduction of the PML ABC -- 2. The two-dimensional perfectly matched layer -- 2.1. A medium without reflection at normal and grazing incidences -- 2.2. The PML medium in the 2D TE case -- 2.3. Reflection of waves from a vacuum-PML interface and from a PML-PML interface -- 2.4. The perfectly matched layer absorbing boundary condition -- 2.5. Evanescent waves in PML media -- 3. Generalizations and interpretations of the perfectly matched layer -- 3.1. The three-dimensional PML matched to a vacuum -- 3.2. The three-dimensional PML absorbing boundary condition -- 3.3. Interpretation of the PML medium in terms of stretched coordinates -- 3.4. Interpretation in terms of dependent currents -- 3.5. The PML matched to general media -- 3.6. The PML matched to nonhomogeneous media -- 3.7. The uniaxial PML medium -- 3.8. The complex frequency shifted PML -- 4. Time domain equations for the PML medium -- 4.1. Time domain PML matched to a vacuum -- 4.2. Time domain PML for lossy media -- 4.3. Time domain PML for anisotropic media -- 4.4. Time domain PML for dispersive media -- 5. The PML ABC for the FDTD method -- 5.1. FDTD schemes for the PML matched to a vacuum -- 5.2. FDTD schemes for PMLs matched to lossy isotropic media -- 5.3. FDTD schemes for PMLs matched to anisotropic media -- 5.4. FDTD schemes for PMLs matched to dispersive media -- 5.5. Profiles of conductivity in the PML ABC -- 5.6. The PML ABC in the discretized FDTD space -- 6. Optmization of the PML ABC in wave-structure interaction and waveguide problems -- 6.1. Wave-structure interaction problems -- 6.2. Waveguide problems -- 6.3. Concluding remarks to the application of the PML ABC to FDTD problems -- 7. Some extensions of the PML ABC -- 7.1. The perfectly matched layer in other systems of coordinates -- 7.2. The perfectly matched layer with other numerical techniques -- 7.3. Use of the perfectly matched layer with other equations of physics -- Bibliography -- Author biography",
+                "This lecture presents the perfectly matched layer (PML) absorbing boundary condition (ABC) used to simulate free space when solving the Maxwell equations with such finite methods as the finite difference time domain (FDTD) method or the finite element method. The frequency domain and the time domain equations are derived for the different forms of PML media, namely the split PML, the CPML, the NPML, and the uniaxial PML, in the cases of PMLs matched to isotropic, anisotropic, and dispersive media. The implementation of the PML ABC in the FDTD method is presented in detail. Propagation and reflection of waves in the discretized FDTD space are derived and discussed, with a special emphasis on the problem of evanescent waves. The optimization of the PML ABC is addressed in two typical applications of the FDTD method: first, wave-structure interaction problems, and secondly, waveguide problems. Finally, a review of the literature on the application of the PML ABC to other numerical techniques of electromagnetics and to other partial differential equations of physics is provided. In addition, a software package for computing the actual reflection from a FDTD-PML is provided"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598290820.pdf",
+            "volume": "#8",
+            "isLike": "doi:10.2200/S00030ED1V01Y200605CEM008",
+            "P30128": "Synthesis Lectures on Computational Electromagnetics",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

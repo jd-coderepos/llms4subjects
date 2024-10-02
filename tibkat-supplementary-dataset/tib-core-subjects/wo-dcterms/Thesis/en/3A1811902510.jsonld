@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1264147732",
+            "sameAs": "Milazzo, Nadia"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1811902510",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (verschiedene Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-70830",
+                "(ppn)1811902510",
+                "(firstid)KXP:1811902510"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)530.12",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "Optimal measurement strategies for quantum states and quantum channels estimation",
+            "abstract": "The rapid advance of quantum information technology requires precise control and manipulation of quantum systems and of their properties; in particular, it is essential to certify that quantum processors truly work quantum mechanically, in order to validate experiments and their results. The problem of certification of quantum states and devices is a demanding one, thus many attempts have been put forward to find ways of efficiently test their basic functionalities, such as their entanglement properties. The main problems addressed in this thesis concern indeed finding optimal strategies for the estimation and characterization of quantum states and channels, with a special focus on entanglement correlations. In our first work we considered the certification of entanglement across a given partition of a multi-qubit system, when only partial information about the corresponding quantum state is available; we tackled the problem of finding the best measurement strategy introducing the statistics of lengths of measurement sequences, choosing multi-qubit Pauli-measurements as observables. Using a sample of random unknown states, we were able to identify the (on average) shortest, i.e. most efficient, measurement sequence to detect entanglement. The investigation was carried out with an algorithm based on the truncated moment sequences (tms) problem, which provides necessary and sufficient conditions for entanglement or separability of a quantum state of a finite dimensional system. This study results in a very efficient strategy especially for symmetric states, for which only a tiny fraction ($10^{-6}$) of randomly chosen entangled states are undetected for systems with 6 qubits or more. We continued in our second work with the problem of separability of quantum channels to answer the question whether a given quantum device is able to create entanglement or not. The Choi matrix representation, provided by the Choi\u2013Jamio\u0142kowski isomorphism, casts the problem in terms of systems and ancillas, giving different classes of separability depending on the cut considered between them. Once again, the tms framework turned out to be well suited for this study, giving a unifying approach for the different separability problems; a solution is found in terms of the tms associated to the coordinates of the Choi state, in a fixed basis, and semidefinite programming is used to get a separability certificate. We explored examples of families of 2-qubit and single-qutrit channels, for which our algorithm can give an answer in cases where other criteria remain inconclusive. In a further work we shifted our attention to a different direction, highlighting a connection between the fields of quantum information, Bose-Einstein condensation (BEC) and analogue gravity, thus showing the relevance of quantum information notions in a broader context. We studied the entanglement properties of a BEC analogue of a black hole, which is described by a three-mode Gaussian state; we investigated bipartite and tripartite entanglement measures based on the covariance matrix description, both at zero and finite temperature, providing the best experimental configuration for entanglement detection. In a final stage of this thesis, we started looking at different measurement strategies for testing quantum devices whose functionality can be described by a single parameter; we used a Bayesian approach to estimate this parameter, exploiting the information collected through measurements to update a conditional probability distribution, without the need of estimating expected values of observables. The problem of finding the optimal experimental design can be in this case translated in the optimization of a utility function, which usually guides the update process adaptively at each step; we tried to outperform this approach looking ahead not only at the next step, but at a few ones, in order to obtain an answer of correct or wrong functioning as soon as possible. Moreover, we chose the input state for the quantum channel considered minimizing the error probability given by the Chernoff distance between the outputs of an ideal and a faulty channel; finally, we considered two different final decision criteria and compared their efficiency.",
+            "alternative": "Optimal measurement strategies for quantum states and quantum channels estimation",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1264147732"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-70830",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

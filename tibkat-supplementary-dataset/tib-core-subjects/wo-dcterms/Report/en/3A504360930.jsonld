@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:125008082",
+            "sameAs": "Rei\u00df, Oliver"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504360930",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 410,04 KB)",
+            "description": "Diagramm",
+            "identifier": [
+                "(ppn)504360930",
+                "(doi)10.20347/WIAS.PREPRINT.760",
+                "(firstid)GBV:504360930"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "A generalized non-square Cholesky decomposition algorithm with applications to finance",
+            "abstract": "In several applications there is the need to compute a Cholesky decomposition of a given symmetric matrix. The usual Cholesky decomposition algorithm will fail if the given matrix is semi-positive, although such a decomposition exists. To overcome this problem there exists a LDLT decomposition for semi-positive matrices. In the case that the given symmetric matrix is not semi-positive, no Cholesky decomposition exists. In such a situation one aims to approximate this matrix by a (semi-)positive one and computes the Cholesky decomposition of the approximation. From the context of numerical optimization there exist algorithms by Gill, Murray and Wright and a refinement by Eskow and Schnabel. Both methods basicly return a Cholesky decomposition of a positive approximation of an indefinite input matrix. In this paper we extend the LDLT algorithm such that it coincides for a semi-definite input with the LDLT decomposition and for indefinite input it gives the decomposition of a semi-positive approximation. In contrast to the algorithms mentioned before, for indefinite input matrices our algorithm gives a decomposition, which has a lower rank. This gives the important opportunity to introduce a dimension reduction, if possible, and we will show that this algorithm can save computation time in several applications in finance, especially for risk management.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:125008082",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 760",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.760",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

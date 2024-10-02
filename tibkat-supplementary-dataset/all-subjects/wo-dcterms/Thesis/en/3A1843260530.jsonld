@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1286964490",
+            "sameAs": "Hassan, Mohamed"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1843260530",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (122 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1843260530",
+                "(doi)10.15496/publikation-80539",
+                "(ppn)1843260530"
+            ],
+            "subject": [
+                "machine vision, computer graphics",
+                "(classificationName=linseach:mapping)inf",
+                "Maschinelles Sehen",
+                "Computergrafik",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)006.69"
+            ],
+            "title": "Reconstruction and synthesis of human-scene interaction",
+            "abstract": "In this thesis, we argue that the 3D scene is vital for understanding, reconstructing, and synthesizing human motion. We present several approaches which take the scene into consideration in reconstructing and synthesizing Human-Scene Interaction (HSI). We first observe that state-of-the-art pose estimation methods ignore the 3D scene and hence reconstruct poses that are inconsistent with the scene. We address this by proposing a pose estimation method that takes the 3D scene explicitly into account. We call our method PROX for Proximal Relationships with Object eXclusion. We leverage the data generated using PROX and build a method to automatically place 3D scans of people with clothing in scenes. The core novelty of our method is encoding the proximal relationships between the human and the scene in a novel HSI model, called POSA for Pose with prOximitieS and contActs. POSA is limited to static HSI, however. We propose a real-time method for synthesizing dynamic HSI, which we call SAMP for Scene-Aware Motion Prediction. SAMP enables virtual humans to navigate cluttered indoor scenes and naturally interact with objects. Data-driven kinematic models, like SAMP, can produce high-quality motion when applied in environments similar to those shown in the dataset. However, when applied to new scenarios, kinematic models can struggle to generate realistic behaviors that respect scene constraints. In contrast, we present InterPhys which uses adversarial imitation learning and reinforcement learning to train physically-simulated characters that perform scene interaction tasks in a physical and life-like manner.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1286964490",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-80539",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

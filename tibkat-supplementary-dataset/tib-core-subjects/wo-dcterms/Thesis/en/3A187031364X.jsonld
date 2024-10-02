@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1309889937",
+            "sameAs": "Bordt, Sebastian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A187031364X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 105 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)187031364X",
+                "(firstid)KXP:187031364X",
+                "(doi)10.15496/publikation-89082"
+            ],
+            "subject": [
+                "Merkmalsextraktion",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen"
+            ],
+            "title": "Explainable machine learning and its limitations",
+            "abstract": "In the last decade, machine learning evolved from a sub-field of computer science into one of the most impactful scientific disciplines of our time. While this has brought impressive scientific advances, there are now increasing concerns about the applications of artificial intelligence systems in societal contexts. Many concerns are rooted in the fact that machine learning models can be incredibly opaque. To overcome this problem, the nascent field of explainable machine learning attempts to provide human-understandable explanations for the behavior of complex models. After an initial period of method development and excitement, researchers in this field have now recognized the many difficulties inherent in faithfully explaining complex models. In this thesis, we review the developments within the first decade of explainable machine learning. We outline the main motivations for explainable machine learning, as well as some of the debates within the field. We also make three specific contributions that attempt to clarify what is and is not possible when explaining complex models. The first part of the thesis studies the learning dynamics of the human-machine decision making problem. We show how this learning problem is different from other forms of collaborative decision making, and derive conditions under which it can be efficiently solved. We also clarify the role of algorithmic explanations in this setup. In the second part of the thesis, we study the suitability of local post-hoc explanation algorithms in societal contexts. Focusing on the draft EU Artificial Intelligence Act, we argue that these methods are unable to fulfill the transparency objectives that are inherent in the law. Our results also suggest that regulating artificial intelligence systems implicitly via their explanations is unlikely to succeed with currently available methods. In the third part of the thesis, we provide a detailed mathematical analysis of Shapley Values, a prominent model explanation technique, and show how it is connected with Generalized Additive Models, a popular class of interpretable models. The last part of the thesis serves as an interesting case study of a connection between a post-hoc method and a class of interpretable models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1309889937"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-89082",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

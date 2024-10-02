@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1251899706",
+            "sameAs": "Friedrich, Andreas"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1789697557",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (C-U, 130 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1789697557",
+                "(firstid)KXP:1789697557",
+                "(doi)10.15496/publikation-65976"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc)570.28",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Computational methods for interactive and explorative study design and integration of high-throughput biological data",
+            "abstract": "The increase in the use of high-throughput methods to gain insights into biological systems has come with new challenges. Genomics, transcriptomics, proteomics, and metabolomics lead to a massive amount of data and metadata. While this wealth of information has resulted in many scientific discoveries, new strategies are needed to cope with the ever-growing variety and volume of metadata. Despite efforts to standardize the collection of study metadata, many experiments cannot be reproduced or replicated. One reason for this is the difficulty to provide the necessary metadata. The large sample sizes that modern omics experiments enable, also make it increasingly complicated for scientists to keep track of every sample and the needed annotations. The many data transformations that are often needed to normalize and analyze omics data require a further collection of all parameters and tools involved. A second possible cause is missing knowledge about statistical design of studies, both related to study factors as well as the required sample size to make significant discoveries. In this thesis, we develop a multi-tier model for experimental design and a portlet for interactive web-based study design. Through the input of experimental factors and the number of replicates, users can easily create large, factorial experimental designs. Changes or additional metadata can be quickly uploaded via user-defined spreadsheets including sample identifiers. In order to comply with existing standards and provide users with a quick way to import existing studies, we provide full interoperability with the ISA-Tab format. We show that both data model and portlet are easily extensible to create additional tiers of samples annotated with technology-specific metadata. We tackle the problem of unwieldy experimental designs by creating an aggregation graph. Based on our multi-tier experimental design model, similar samples, their sources, and analytes are summarized, creating an interactive summary graph that focuses on study factors and replicates. Thus, we give researchers a quick overview of sample sizes and the aim of different studies. This graph can be included in our portlets or used as a stand alone application and is compatible with the ISA-Tab format. We show that this approach can be used to explore the quality of publicly available experimental designs and metadata annotation. The third part of this thesis contributes to a more statistically sound experiment planning for differential gene expression experiments. We integrate two tools for the prediction of statistical power and sample size estimation into our portal. This integration enables the use of existing data, in order to arrive at more accurate calculation for sample variability. Additionally, the statistical power of existing experimental designs of certain sample sizes can be analyzed. All results and parameters are stored and can be used for later comparison. Even perfectly planned and annotated experiments cannot eliminate human error. Based on our model we develop an automated workflow for microarray quality control, enabling users to inspect the quality of normalization and cluster samples by study factor levels. We import a publicly available microarray dataset to assess our contributions to reproducibility and explore alternative analysis methods based on statistical power analysis.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1251899706",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-65976",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1020782099",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvii, 149 Seiten)",
+            "creator": "Chirila, Dragos Bogdan",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:1020782099",
+                "(ppn)1020782099"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "Towards lattice Boltzmann models for climate sciences : The GeLB programming language with applications",
+            "abstract": [
+                "Computational fluid dynamics, CFD, numerical methods, lattice Boltzmann methods, LBM, Rayleigh-Benard convection, wind-driven ocean circulation.",
+                "The complexity of Earth system models (ESMs) is continuously increasing a both quantitatively (higher spatio-temporal resolution for existing models) and qualitatively (accounting for additional processes). These trends are sustained by growing capabilities of computers and (equally important) by innovative algorithms. Better algorithms can lead to more accurate and/or more efficient numerical solutions. Efficiency attracted more attention during the last decade when, due to thermal limitations, the driving force behind increased computing performance has shifted from higher clock-frequencies (lower latencies) to more hardware parallelism (higher throughput). Not all numerical algorithms are suited for the new massively-parallel machines a some established approaches can reach plateaus in terms of performance scalability, which motivates ongoing research to find alternatives that thrive on the new hardware. In this thesis the potential of the lattice Boltzmann method (LBM) is analyzed, as a promising alternative for modeling processes relevant to ESMs . During the last two decades, this relatively new approach was successfully applied to many flow problems in engineering (simulation of multi-phase and multi-component flows, melting processes, flows in porous media, and direct numerical simulation (DNS) of turbulence). At the core of any LBM algorithm is a simplified physical landscape inspired by the kinetic theory of gases, with a mesoscopica particles which interact (collisions) and then propagate freely (streaming). This idealized dynamics (usually with local interactions) leads to algorithms which are particularly suited for parallel execution a a key property, which is also interesting for ESMs . However, the impact of LBM on Earth system models was small so far, due to limitations of the early LBM algorithms. The method deserves reconsideration, due to recent advances on improving its stability, a simplified implementation of accurate body-forces, and accurate simulation of thermal flows. This thesis adds two main contributions to this direction: (a) From a computer science (CS) / technical perspective, the new GeLB domain-specific language (DSL) is introduced, to facilitate testing and development of new LBM algorithms. By isolating many of the technical implementation side-issues away from the core physical algorithm, this new tool aims to counteract some of the a fragmentationa of the LBM research, by: (i) shortening the time to develop a parallel simulation from an algorithm idea, (ii) serving as a basis for objective comparisons of different physical algorithms, and by (iii) facilitating sharing of algorithms. (b) From a physical point of view, several flow-problems related to climate sciences are simulated, taking advantage of the recent progress in the LBM research literature. First, the Rayleigh-Benard ( RB ) problem is simulated (in 2D and 3D configurations). The evolution of the flow in this problem is driven by buoyancy forces which can trigger convection (similar to convection in the atmosphere, or to the intermittent bursts of deep-reaching convection, which significantly influence the composition and circulation of oceanic water-masses). As a last application, simulation results are shown for the wind-driven ocean circulation (WDOC) of an idealized barotropic ocean, to which one of the more recent LBM algorithms is applied for the first time (first with an idealized geometry, then with a realistic global land-mask)."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

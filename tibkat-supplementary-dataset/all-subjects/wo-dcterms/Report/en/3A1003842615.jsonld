@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1159793581",
+            "sameAs": "Goyal, Pawan Kumar"
+        },
+        {
+            "@id": "gnd:1194855482",
+            "sameAs": "Redmann, Martin"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1003842615",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (21 Seiten, 364 kB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:1003842615",
+                "(ppn)1003842615",
+                "(doi)10.20347/WIAS.PREPRINT.2441"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Towards time-limited H2-optimal model order reduction",
+            "abstract": "In order to solve partial differential equations numerically and accurately, a high order spatial discretization is usually needed. Model order reduction (MOR) techniques are often used to reduce the order of spatially-discretized systems and hence reduce computational complexity. A particular class of MOR techniques are H2-optimal methods such as the iterative rational Krylov subspace algorithm (IRKA) and related schemes. However, these methods are used to obtain good approximations on a infinite time-horizon. Thus, in this work, our main goal is to discuss MOR schemes for time-limited linear systems. For this, we propose an alternative time-limited H2-norm and show its connection with the time-limited Gramians. We then provide first-order optimality conditions for an optimal reduced order model (ROM) with respect to the time-limited H2-norm. Based on these optimality conditions, we propose an iterative scheme which upon convergences aims at satisfying these conditions. Then, we analyze how far away the obtained ROM is from satisfying the optimality conditions.We test the efficiency of the proposed iterative scheme using various numerical examples and illustrate that the newly proposed iterative method can lead to a better reduced-order compared to unrestricted IRKA in the time interval of interest.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1194855482",
+                "gnd:2140666-2",
+                "gnd:1159793581"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2441",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2441",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

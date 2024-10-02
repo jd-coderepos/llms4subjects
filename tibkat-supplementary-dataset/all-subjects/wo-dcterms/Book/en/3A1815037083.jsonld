@@ -1,0 +1,135 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:17058111X",
+            "sameAs": "Aitkin, Murray A."
+        },
+        {
+            "@id": "gnd:4057633-4",
+            "sameAs": "Stochastisches Modell"
+        },
+        {
+            "@id": "gnd:4077852-6",
+            "sameAs": "Statistischer Test"
+        },
+        {
+            "@id": "gnd:4124382-1",
+            "sameAs": "Verallgemeinertes lineares Modell"
+        },
+        {
+            "@id": "gnd:4129903-6",
+            "sameAs": "Regressionsanalyse"
+        },
+        {
+            "@id": "gnd:4204326-8",
+            "sameAs": "Bayes-Verfahren"
+        },
+        {
+            "@id": "gnd:4247120-5",
+            "sameAs": "Inferenzstatistik"
+        },
+        {
+            "@id": "gnd:7530717-0",
+            "sameAs": "Frequentistisches Verfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1815037083",
+            "@type": "bibo:Book",
+            "P1053": "xvi, 374 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1815037083",
+                "(isbn13)9781032105710",
+                "(isbn13)9781032105734",
+                "(ppn)1815037083",
+                "(doi)10.1201/9781003216025"
+            ],
+            "publisher": "CRC Press, Taylor & Francis Group",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)SK 850",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=bk, id=106415921)44.32 - Medizinische Mathematik, medizinische Statistik",
+                "Mathematical models",
+                "(classificationName=ddc)519.5",
+                "(classificationName=msc)62G09",
+                "(classificationName=msc)62-08",
+                "(classificationName=loc)QA276",
+                "Mathematical statistics",
+                "(classificationName=msc)62-01",
+                "(classificationName=msc)62D05",
+                "(classificationName=msc)62R07",
+                "(classificationName=msc)62J12",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=msc)62F15",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Introduction to statistical modelling and inference",
+            "abstract": "\"The complexity of large-scale data sets (\"Big Data\") has stimulated the development of advanced computational methods for analyzing them. There are two different kinds of methods to aid this. The model-based method uses probability models and likelihood and Bayesian theory, while the model-free method does not require a probability model, likelihood or Bayesian theory. These two approaches are based on different philosophical principles of probability theory, espoused by the famous statisticians Ronald Fisher and Jerzy Neyman Introduction to Statistical Modelling and Inference covers simple experimental and survey designs, and probability models up to and including generalised linear (regression) models and some extensions of these, including finite mixtures. A wide range of examples from different application fields are also discussed and analyzed. No special software is used, beyond that needed for maximum likelihood analysis of generalised linear models. Students are expected to have a basic mathematical background of algebra, coordinate geometry and calculus. Features Probability models are developed from the shape of the sample empirical cumulative distribution function, (cdf) or a transformation of it. Bounds for the value of the population cumulative distribution function are obtained from the Beta distribution at each point of the empirical cdf. Bayes's theorem is developed from the properties of the screening test for a rare condition. The multinomial distribution provides an always-true model for any randomly sampled data. The model-free bootstrap method for finding the precision of a sample estimate has a model-based parallel - the Bayesian bootstrap - based on the always-true multinomial distribution. The Bayesian posterior distributions of model parameters can be obtained from the maximum likelihood analysis of the model. This book is aimed at students in a wide range of disciplines including Data Science. The book is based on the model-based theory, used widely by scientists in many fields, and compares it, in less detail, with the model-free theory, popular in computer science, machine learning and official survey analysis. The development of the model-based theory is accelerated by recent developments in Bayesian analysis\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:17058111X",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "https://zbmath.org/1499.62001",
+            "subject": [
+                "gnd:4057633-4",
+                "gnd:4204326-8",
+                "gnd:4077852-6",
+                "gnd:4129903-6",
+                "gnd:4124382-1",
+                "gnd:7530717-0",
+                "gnd:4247120-5"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1815037083.pdf",
+            "isLike": "doi:10.1201/9781003216025",
+            "P60163": "Boca Raton"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "relation": "http://purl.org/dc/terms/relation",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

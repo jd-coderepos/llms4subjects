@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1162846755",
+            "sameAs": "Al-Khazraji, Yusra"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4033447-8",
+            "sameAs": "K\u00fcnstliche Intelligenz"
+        },
+        {
+            "@id": "gnd:4113446-1",
+            "sameAs": "Entscheidungsfindung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1027324983",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (104 Seiten)",
+            "identifier": [
+                "(contract)FRUB-opus-16093",
+                "(ppn)1027324983",
+                "(firstid)BSZ:507615131",
+                "(doi)10.6094/UNIFR/16093"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)000"
+            ],
+            "title": "Analysis of partial order reduction techniques for automated planning",
+            "abstract": "Abstract: Automated planning is an area of Arti\ufb01cial Intelligence (AI) that is closely related to decision making. Given a planning problem, which is described as an initial state (i.e., a start con\ufb01guration of the problem), a set of actions, and a goal description, a planning algorithm is concerned with \ufb01nding a sequence of actions or a strategy for achieving the goal conditions from the initial state. Planning, in all its variations, is a hard problem. Classical planning is one of the simplest forms of planning. Despite its simplicity, it is still computationally intractable. Therefore, planning problems cannot be solved by brute-force algorithms, but rather by goal-directed algorithms that tackle the complexity of planning. Planning as heuristic search is a prominent technique that has been considered in the area of automated planning. However, recent research has shown that planning as heuristic search needs the aid of orthogonal techniques. Partial order reduction is a well-known and reliable approach that has originally been introduced in the area of computer aided veri\ufb01cation to tackle the state explosion problem. It is usually used for explicit state-space search to reduce the size of the generated state space. There are two categories of partial order reduction techniques: State reduction and transition reduction techniques. The former are specialized to prune some states that are guaranteed to be uncritical for reaching some \ufb01nal states (e.g., goal states in planning), while the latter are designed to prune only redundant states. Later, new partial order reduction techniques have been proposed for optimal planning algorithms. However, the formal relationships between the previous and later techniques were unclear, and furthermore, some of the novel techniques were faulty. In the context of classical planning, we investigate two variants of a powerful state reduction technique from the area of model checking, called stubborn sets. Furthermore, we propose a new de\ufb01nition of stubborn sets for Fully Observable Non-Deterministic planning (FOND). For classical planning, we show that stubborn sets are completeness and optimality preserving, whereas for FOND planning, we show that they are at least completeness preserving. In addition, we compare between stubborn sets and previous partial order reduction techniques proposed for optimal planning. Moreover, we study a transition reduction technique from the area of model checking, called sleep  ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1162846755",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4001183-5"
+                },
+                {
+                    "@id": "gnd:4033447-8"
+                },
+                {
+                    "@id": "gnd:4113446-1"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/16093",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

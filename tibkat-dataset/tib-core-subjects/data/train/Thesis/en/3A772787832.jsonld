@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4010450-3",
+            "sameAs": "Computergrafik"
+        },
+        {
+            "@id": "gnd:4033824-1",
+            "sameAs": "Kurve"
+        },
+        {
+            "@id": "gnd:4130267-9",
+            "sameAs": "Algorithmische Geometrie"
+        },
+        {
+            "@id": "gnd:4139969-9",
+            "sameAs": "Raumkurve"
+        },
+        {
+            "@id": "gnd:4188417-6",
+            "sameAs": "Visualisierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A772787832",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (185 Bl. = 16,53 mb)",
+            "contributor": [
+                "Chalmoviansky, Pavel",
+                "Schenzel, Peter"
+            ],
+            "creator": "Stussak, Christian",
+            "identifier": [
+                "(doi)10.25673/993",
+                "(firstid)GBV:772787832",
+                "(ppn)772787832"
+            ],
+            "publisher": "Universit\u00e4ts- und Landesbibliothek Sachsen-Anhalt",
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=bk, id=106418920)54.73 - Computergraphik",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "On reliable visualization algorithms for real algebraic curves and surfaces",
+            "abstract": [
+                "computer graphics; visualization; computational geometry; real algebraic plane curve; real algebraic space curve; blowup; resultant; subresultant; GPU programming; ray casting",
+                "This work presents algorithms for visualizing real algebraic plane and space curves as well as a certain type of algebraic surface given by embedding blowups of the plane into affine space. An exact curve tracing based rasterization method for real algebraic plane curves is proposed. The efficiency of the new method, which combines symbolic and certified numerical methods, is illustrated by means of complexity analysis and practical experiments. The segments of real algebraic space curves are approximated by line strips using a projection and lifting approach. A novel efficient method for lifting multiple components of the projection is developed and tested. Certain embeddings of blowups of the plane are visualized using real time ray casting of their implicit form. The computation of bivariate polynomial resultants incorporated in the above algorithms is sped up by implementing a parallel resultant algorithm on graphics processing units.",
+                "Computergrafik; Visualisierung; algorithmische Geometrie; ebene reelle algebraische Kurve; reelle algebraische Raumkurve; Resultante; Subresultante; GPU-Programmierung; Raycasting",
+                "In dieser Arbeit werden Visualisierungsverfahren f\u00fcr reelle algebraische Kurven in der Ebene und im Raum, sowie f\u00fcr Einbettungen von Aufblasungen der Ebene entwickelt. Ebene Kurven werden durch einen Kurvenverfolgungsalgorithmus exakt gerastert. Die Effizienz des auf symbolischen und selbstvalidierenden numerischen Methoden basierenden Verfahrens wird durch eine Komplexit\u00e4tsanalyse sowie durch Experimente belegt. Die Segmente von Raumkurven werden mit Hilfe eines auf Projektion und Lifting beruhenden Ansatzes durch Streckenz\u00fcge approximiert. Es wird eine neuartige Methode zum Liften mehrfacher Komponenten der Projektion entwickelt und auf Ihre Effizienz \u00fcberpr\u00fcft. Spezielle Einbettungen von Aufblasungen der Ebene werden durch Raycasting ihrer impliziten Form visualisiert. Die Berechnungen von Resultanten bivariater Polynome, die in den obigen Verfahren vorkommen, werden durch die Implementierung eines parallelen Algorithmus auf Grafikkarten beschleunigt."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4139969-9"
+                },
+                {
+                    "@id": "gnd:4033824-1"
+                },
+                {
+                    "@id": "gnd:4188417-6"
+                },
+                {
+                    "@id": "gnd:4130267-9"
+                },
+                {
+                    "@id": "gnd:4010450-3"
+                }
+            ],
+            "isLike": "doi:10.25673/993"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

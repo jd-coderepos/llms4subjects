@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1197178317",
+            "sameAs": "Shun, Julian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1669914526",
+            "@type": "bibo:Thesis",
+            "P1053": "xv, 426 Seiten",
+            "description": [
+                "25 cm",
+                "Illustrationen"
+            ],
+            "identifier": [
+                "(firstid)KXP:1669914526",
+                "(ppn)1669914526",
+                "(isbn)1970001887",
+                "(isbn13)9781970001884",
+                "(isbn)1970001917",
+                "(isbn13)9781970001914"
+            ],
+            "publisher": "ACM",
+            "subject": [
+                "Nebenl\u00e4ufigkeit",
+                "Multithreading",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=linseach:mapping)inf",
+                "Parallel programming (Computer science)",
+                "(classificationName=ddc)005.275",
+                "Parallelverarbeitung",
+                "Parallel computers ; Programming",
+                "Computerarchitektur",
+                "Parallel computers",
+                "(classificationName=loc)QA76.642",
+                "Mehrkernprozessor"
+            ],
+            "title": "Shared-memory parallelism can be simple, fast, and scalable",
+            "abstract": [
+                "Parallelism is the key to achieving high performance in computing. However, writing efficient and scalable parallel programs is notoriously difficult, and often requires significant expertise. To address this challenge, it is crucial to provide programmers with high-level tools to enable them to develop solutions easily, and at the same time emphasize the theoretical and practical aspects of algorithm design to allow the solutions developed to run efficiently under many different settings. This thesis addresses this challenge using a three-pronged approach consisting of the design of shared-memory programming techniques, frameworks, and algorithms for important problems in computing. The thesis provides evidence that with appropriate programming techniques, frameworks, and algorithms, shared-memory programs can be simple, fast, and scalable, both in theory and in practice. The results developed in this thesis serve to ease the transition into the multicore era.--",
+                "Preliminaries and notation -- Internally deterministic parallelism : techniques and algorithms -- Deterministic parallelism in sequential iterative algorithms -- A deterministic phase-concurrent parallel hash table -- Priority updates : a contention-reducing primitive for deterministic programming -- Ligra : a lightweight graph processing framework for shared memory -- Ligra++ : adding compression to Ligra -- Linear-work parallel graph connectivity -- Parallel and cache-oblivious triangle computations -- Parallel cartesian tree and suffix tree construction -- Parallel computation of longest common prefixes -- Parallel Lempel-Ziv factorization -- Parallel wavelet tree construction -- Conclusion and future work."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1197178317",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1669914526.pdf",
+            "volume": "#15",
+            "P30128": "ACM books",
+            "P60163": "[New York, New York]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

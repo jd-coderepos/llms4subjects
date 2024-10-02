@@ -1,0 +1,75 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122164458",
+            "sameAs": "Saake, Gunter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1698007345",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 0,6 MB)",
+            "http://purl.org/dc/elements/1.1/creator": "Meister, Andreas",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(contract)FIN-02-2020",
+                "(ppn)1698007345",
+                "(firstid)KXP:1698007345"
+            ],
+            "publisher": "Fakult\u00e4t f\u00fcr Informatik, Otto-von-Guericke-Universit\u00e4t Magdeburg",
+            "subject": [
+                "(classificationName=linseach:automatic)inf",
+                "(classificationName=linseach:automatic)mat"
+            ],
+            "title": "GPU-accelerated dynamic programming for join-order optimization",
+            "abstract": "Relational databases need to select efficient join orders, as inefficient join orders can increase the query execution time by several orders of magnitude. To select efficient join orders, relational databases can apply an exhaustive search using dynamic programming. Unfortunately, the applicability of sequential dynamic programming variants is limited to simple queries due to the exhaustive search, complexity, and time constraints of the optimization. To extend the applicability, different parallel CPU-based dynamic programming variants were proposed. As GPUs provide more computational resources than CPUs, we propose to use GPUs to further extend the applicability of dynamic programming by reducing the optimization time. Specifically, in this paper, we discuss and evaluate different parallel GPUbased dynamic programming variants, based on DPSIZE and DPSUB. For our evaluation, we used four different query topologies with an increasing query size of up to 20 tables. Our evaluation results indicate that specialized GPUbased dynamic programming variants can significantly reduce the optimization time for complex queries (e.g. up to 93% for clique queries with 15 tables). For larger queries with a lower complexity (linear, cyclic, or star), the evaluated GPU-based dynamic programming variants can provide equivalent optimization times, providing the option to outsource the join-order optimization to GPUs.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:122164458",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "02-2020",
+            "P30128": "Technical Report / Otto-von-Guericke-Universit\u00e4t Magdeburg, Fakult\u00e4t f\u00fcr Informatik",
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

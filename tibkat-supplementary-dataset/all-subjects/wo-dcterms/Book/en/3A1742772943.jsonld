@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1227967810",
+            "sameAs": "Sesto, Vincent"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1742772943",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XVIII, 261 Seiten)",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen, Diagramme"
+            ],
+            "identifier": [
+                "(isbn13)9781484264850",
+                "(ppn)1742772943",
+                "(firstid)KEP:060633085",
+                "(doi)10.1007/978-1-4842-6485-0"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Computer programming.",
+                "(classificationName=ddc)006.76",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Practical Ansible : Configuration Management from Start to Finish",
+            "abstract": [
+                "Go from the basics of using Ansible to becoming proficient at implementing configuration management in your projects. This book uses a unique approach to teaching Ansible and configuration management while including realistic examples in its day-to-day use from server-based infrastructure to Amazon cloud-based deployments. Practical Ansible is separated into seven chapters that allow you to build your knowledge with each chapter, developing further as we move through the examples provided. It begins with the basics of Ansible, providing you with details on how to install and configure your environment while working with different Ansible modules from the command line. Next, it introduces you to working with Ansible tasks and organizing configuration code into playbooks. The book then shows you how to extend playbooks further, using roles and templates within the configuration code. Then, it extends your knowledge further by covering custom Ansible modules using Python and Linux shell scripts, and demonstrating how you can start to keep your secret values encrypted and secure using Ansible Vault. You\u2019ll also extend Ansible roles with the use of Ansible Galaxy to reuse existing roles other users have created. The second half of the book moves configuration management to the Amazon cloud providing an introduction on what Amazon Web Services are, and how you can start to work with Ansible roles in AWS. The AWS examples use EC2 and CloudFormation services with Ansible template functions, Ansible Pull, and Ansible Git code deployment. The final part of the book includes a demonstration on how to use the numerous tools available to both Ansible and supporting libraries and modules to allow you to troubleshoot and test your configuration code before you deploy your changes to production systems. By the end of this book, you will have the skills for managing technology configuration management. You will be ready to work on real-world projects and be able to implement Ansible in your own technology projects. You will: Understand the basics of Ansible and how to install and configure the application on your system Make changes to your system using Ansible directly in the command line using some of the more common Ansible modules Group your modules together as tasks in Ansible playbooks for more efficient deployment of configuration changes Use Ansible roles to help group and reuse configuration management changes and deployments Search for community-created roles using Ansible Galaxy and how you can also host your own Ansible roles Deploy code to Amazon Web Services and how to utilize different AWS services in your deployment projects Use external modules and libraries such as Molecule and Ansible Lint to help test your configurations before the configuration code is deployed .",
+                "Chapter 1: Configuration Management With Ansible -- Chapter 2: Ansible Playbooks -- Chapter 3: Expanding Playbooks With Roles and Templates -- Chapter 4: Custom Ansible Modules, Vaults And Galaxay\u2019s -- Chapter 5:Working with Ansible In The Cloud -- Chapter 6 : AWS Templates and CloudFormation Scripts -- Chapter 7: Ansible Testing And Variables."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1227967810",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-6485-0",
+            "P30128": "Springer eBook Collection",
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

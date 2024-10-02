@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:172047439",
+            "sameAs": "Dougherty, Edward R."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1669286975",
+            "@type": "bibo:Book",
+            "P1053": "xv, 344 Seiten",
+            "creator": "Dalton, Lori A.",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1669286975",
+                "(isbn13)9781510630697",
+                "(ppn)1669286975"
+            ],
+            "publisher": "SPIE Press",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "Bayesian statistical decision theory",
+                "(classificationName=ddc)519.5/42",
+                "Statistical decision",
+                "(classificationName=loc)QA279.5"
+            ],
+            "title": "Optimal Bayesian classification",
+            "abstract": "\"The most basic problem of engineering is the design of optimal operators. Design takes different forms depending on the random process constituting the scientific model and the operator class of interest. This book treats classification, where the underlying random process is a feature-label distribution, and an optimal operator is a Bayes classifier, which is a classifier minimizing the classification error. With sufficient knowledge we can construct the feature-label distribution and thereby find a Bayes classifier. Rarely, do we possess such knowledge. On the other hand, if we had unlimited data, we could accurately estimate the feature-label distribution and obtain a Bayes classifier. Rarely do we possess sufficient data. The aim of this book is to best use whatever knowledge and data are available to design a classifier.  The book takes a Bayesian approach to modeling the feature-label distribution and designs an optimal classifier relative to a posterior distribution governing an uncertainty class of feature-label distributions. In this way it takes full advantage of knowledge regarding the underlying system and the available data. Its origins lie in the need to estimate classifier error when there is insufficient data to hold out test data, in which case an optimal error estimate can be obtained relative to the uncertainty class. A natural next step is to forgo classical ad hoc classifier design and simply find an optimal classifier relative to the posterior distribution over the uncertainty class-this being an optimal Bayesian classifier\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:172047439"
+            },
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1669286975.pdf",
+            "volume": "vol. no. 310",
+            "P30128": "SPIE PM",
+            "P60163": "Bellingham, Washington  USA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

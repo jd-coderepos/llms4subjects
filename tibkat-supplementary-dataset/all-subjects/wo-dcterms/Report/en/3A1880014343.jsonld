@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1880014343",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (36 Seiten, 442,39 KB)",
+            "creator": "Rathsfeld, Andreas",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1880014343",
+                "(doi)10.20347/WIAS.PREPRINT.3081",
+                "(ppn)1880014343"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Convergence of the method of rigorous coupled-wave analysis for the diffraction by two-dimensional periodic surface structures",
+            "abstract": "The @scattering matrix algorithm is a popular numerical method to simulate the diffraction of optical waves by periodic surfaces. The computational domain is divided into horizontal slices and, by a domain decomposition method coupling neighbour slices over the common interface via scattering data, a clever recursion is set up to compute an approximate operator, mapping incoming waves into outgoing. Combining this scattering matrix algorithm with numerical schemes inside the slices, methods like rigorous coupled wave analysis and Fourier modal methods were designed. The key for the analysis is the scattering problem over the slices. These are scattering problems with a radiation condition generalized for inhomogeneous cover and substrate materials and were first analyzed in [7]. In contrast to [7], where the scattering matrix algorithm for transverse electric polarization was treated without full discretization (no approximation by truncated Fourier series), we discuss the more challenging case of transverse magnetic polarization and look at the convergence of the fully-discretized scheme, i.e., at the rigorous coupled wave analysis for a fixed slicing into layers with vertically invariant optical index.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3081",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3081",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

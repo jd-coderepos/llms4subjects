@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1333576390",
+            "sameAs": "Fritsch, Martin"
+        },
+        {
+            "@id": "gnd:136367119",
+            "sameAs": "Wolter, Martin"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1890799661",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XVII, 107 Seiten, 48,46 MB)",
+            "description": "Illustrationen (teilweise farbig), Diagramme (teilweise farbig)",
+            "identifier": [
+                "(firstid)KXP:1890799661",
+                "(ppn)1890799661",
+                "(doi)10.25673/116274"
+            ],
+            "publisher": "Otto-von-Guericke-Universit\u00e4t Magdeburg",
+            "subject": [
+                "(classificationName=rvk)ZN 8340",
+                "(classificationName=bk, id=106418610)53.15 - Elektrische Messtechnik und Pr\u00fcftechnik",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.319",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Measurement of partial discharges on power cables : a step towards successful online monitoring",
+            "abstract": [
+                "The electrical distribution grids, which are mainly build on power cables, will face higher loads in the future and will thus play an increasingly important role in the power supply system. This is a problem because most power cables are already several decades old and the dielectric strength of their insulation deteriorates over time. Since the condition of the power cable insulation is usually unknown to the distribution system operators (DSO), the risk of cable failures will increase accordingly. To prevent costly supply interruptions, the DSOs require a condition-based maintenance strategy for their power cables. The most common method for condition monitoring is partial discharge (PD) measurement, which detects small electrical discharges occurring at insulation defects at an early stage. However, today\u2019s PD sensors are usually not designed for continuous online monitoring and are often very expensive, which limits their usefulness for DSOs. This dissertation thesis aims to develop a cost-effective and reliable PD sensor for online monitoring of power cables. The research focuses on improving high-frequency current transformers (HFCT) to overcome magnetic saturation issues and optimize their sensitivity. The research begins by investigating the nature of PD signals transmitted along power cables and their measurable bandwidth. An analytical power cable model is developed to simulate the transmission process and determine the remaining bandwidth at the cable ends where the PD sensors are installed. Based on these findings, an optimized HFCT sensor design is investigated, which guarantees maximum sensitivity to PD pulses. For this purpose, an analytical HFCT model is derived. However, the challenge with HFCTs is their susceptibility to magnetic saturation caused by the high 50 Hz operating currents of power cables. To address this issue, an improved split-core HFCT design is proposed, capable of self-adjusting its air gap length based on the saturation level. A microcontroller controls a servo motor to optimize the air gap length in real-time, ensuring maximum sensitivity without saturation. This solution enables online monitoring of power cables using HFCT technology. The key contributions of this thesis include the improved split-core HFCT design with self-adjusting air gap length, an analytical power cable model for HF signal transmission, an analytical HFCT model for design optimization, and a method for real-time PD signal evaluation. Future work should focus on further optimizing the sensor design and integrating advanced methods for PD detection and signal evaluation.",
+                "Die elektrischen Verteilnetze, welche zu einem hohen Anteil aus Energiekabeln bestehen, werden in Zukunft einer zunehmenden Auslastung ausgesetzt sein und eine wichtigere Rolle im Energieversorgungssystem spielen. Die h\u00f6here Auslastung ist ein Problem, da die meisten Energiekabel bereits Jahrzehnte alt sind und die elektrische Festigkeit ihrer Isolierung sich mit der Zeit verschlechtert. Da der Zustand der Kabelisolierung den Verteilnetzbetreibern (VNB) im Allgemeinen nicht bekannt ist, wird das Risiko f\u00fcr Kabelausf\u00e4lle entsprechend steigen. Um kostspielige Versorgungsunterbrechungen zu vermeiden, ben\u00f6tigen die VNB daher eine zustandsorientierte Instandhaltungsstrategie f\u00fcr ihre Energiekabel. Die gebr\u00e4uchlichste Methode zur Zustands\u00fcberwachung ist die Teilentladungsmessung (TE), die kleine elektrische Entladungen an Isolierungsdefekten fr\u00fchzeitig erkennt. Heutige TE-Sensoren sind jedoch \u00fcblicherweise nicht f\u00fcr eine kontinuierliche Online-\u00dcberwachung konzipiert und oft schlicht zu teuer, weshalb ihre Anwendung f\u00fcr VNB erheblich eingeschr\u00e4nkt ist. Ziel dieser Dissertation ist daher die Entwicklung eines g\u00fcnstigen und zuverl\u00e4ssigen TE-Sensors zur Online-\u00dcberwachung von Energiekabeln. Der Fokus der Forschung liegt auf der Verbesserung von Hochfrequenz-Stromwandlern (HFCT), um deren Probleme bez\u00fcglich magnetischer S\u00e4ttigung zu \u00fcberwinden und ihre Empfindlichkeit zu optimieren. Zu Beginn der Arbeit wird hierzu das \u00dcbertragungsverhalten von TE-Signalen auf Energiekabeln und ihre messbare Bandbreite untersucht. Hierzu wird ein analytisches Energiekabelmodell hergeleitet, um die verbleibende Bandbreite der TE-Impulse an den Kabelenden, an denen die TE-Sensoren installiert werden, zu bestimmen. Auf Grundlage dieser Erkenntnisse wird ein optimiertes HFCT-Sensordesign ermittelt. Zu diesem Zweck wird ein analytisches HFCT-Modell entwickelt. Die eigentliche Herausforderung bei der Nutzung von HFCTs zur Online-TE-Messung ist jedoch deren Anf\u00e4lligkeit f\u00fcr magnetische S\u00e4ttigung, verursacht durch die hohen 50-Hz-Betriebsstr\u00f6me der Energiekabel. Zur L\u00f6sung dieses Problems wird ein verbessertes HFCT-Design mit geteiltem Kern vorgeschlagen, wobei der Sensor in der Lage ist, die Luftspaltl\u00e4nge selbstst\u00e4ndig entsprechend des derzeitigen S\u00e4ttigungsniveaus zu variieren. Ein Mikrocontroller steuert hierzu einen Servomotor an, um die Luftspaltl\u00e4nge in Echtzeit zu regeln und maximale Empfindlichkeit ohne S\u00e4ttigung zu gew\u00e4hrleisten. Diese L\u00f6sung erm\u00f6glicht die Online-\u00dcberwachung von Energiekabeln mit HFCT-Technologie. Zu den wichtigsten Beitr\u00e4gen dieser Arbeit geh\u00f6ren das verbesserte Split-Core HFCT- Design mit selbstregelnder Luftspaltl\u00e4nge, ein analytisches \u00dcbertragungsleitungsmodell f\u00fcr die HF-Signal\u00fcbertragung, ein analytisches HFCT-Modell zur Designoptimierung und eine Methode zur Echtzeitauswertung der TE-Messung. Zuk\u00fcnftige Arbeiten sollten sich der weiteren Optimierung des Sensordesigns und der Integration fortgeschrittener Methoden zur TE-Detektion und Signalauswertung widmen."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:136367119"
+                }
+            ],
+            "creator": "gnd:1333576390",
+            "isPartOf": [
+                "(collectioncode)OAEPF-ST-GESAMT",
+                "(collectioncode)GBV-ODiss"
+            ],
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Band 98",
+            "isLike": "doi:10.25673/116274",
+            "P30128": "Res electricae Magdeburgenses",
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

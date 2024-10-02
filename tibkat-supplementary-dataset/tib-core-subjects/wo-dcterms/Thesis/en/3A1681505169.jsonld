@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1165867907",
+            "sameAs": "Dittrich, Peter"
+        },
+        {
+            "@id": "gnd:1199125342",
+            "sameAs": "Ilie, Iulia"
+        },
+        {
+            "@id": "gnd:1199126233",
+            "sameAs": "Mahecha, Miguel"
+        },
+        {
+            "@id": "gnd:171970144",
+            "sameAs": "Beckstein, Clemens"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1681505169",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (193 Seiten)",
+            "description": "Illustrationen, Diagramme, Karten",
+            "identifier": [
+                "(ppn)1681505169",
+                "(firstid)KXP:1681505169",
+                "(doi)10.22032/dbt.39800"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc)577.14",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)che"
+            ],
+            "title": "CMAGEP : a new method for automatic model discovery from data and its application to terrestrial ecosystem carbon exchange fluxes",
+            "abstract": "Accurately representing and understanding the dynamics driving the global carbon cycle are of strong significance for the study of the Earth System as well as for reliable climate change projections. Model development in the biogeochemistry field traditionally relies on empirical studies and on already established theoretical foundations. With increased data availability, model development in the field of biogeochemistry has started to open more to the use of machine learning approaches for helping to validate and calibrate the existing model formulations. However, the validity of the studied model structures are not often debated. This thesis introduces a novel framework for modelling biogeochemistry fluxes by using symbolic regression approaches to automatically generate interpretable mathematical models. The thesis starts by first illustrating the potential of gene expression programming (GEP) to discover interesting models as mathematical formulas based entirely on real time series data measured at a single monitoring site. The GEP discovered models perform better predictions than already established models in the ecology community. Further, the GEP models have the advantage of being represented as mathematical formulas that can be used similarly to natural laws from the ecology community. Still, the complexity of GEP models makes it difficult to really interpret the described model dynamics. To tackle model complexity GEP is extended with CMA-ES for performing local parameter optimizations in the evolution process. The resulting algorithm is CMAGEP, a novel system that is a GEP and ES hybrid approach capable of delivering more accurate and more compact solutions compared to standard GEP. Generating compact solutions means that CMAGEP discovers mathematical models that can be more easily interpretable, and that can be more easily combined with already established knowledge. CMAGEP is successfully used for modelling various carbon fluxes; first it helps discover non-linear dynamics in the carbon cycle at an Arctic site and produce a very compact solution, and secondly, it reveals interesting and relevant patterns in the underlying processes determining the global terrestrial carbon exchanges. Considering the important results shown in this extensive interdisciplinary study it becomes clear that by introducing the new CMAGEP system, an important contribution was made to the field of symbolic regression by giving deserved attention to the often neglected aspect of interpretability. Furthermore, the application of CMAGEP in a symbolic regression framework to model terrestrial carbon fluxes helped build novel knowledge in the ecology field, giving this approach a significant potential for other future applications.",
+            "contributor": [
+                "gnd:1199126233",
+                "gnd:171970144",
+                "gnd:1165867907"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1199125342",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.22032/dbt.39800",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

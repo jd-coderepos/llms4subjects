@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027593704",
+            "sameAs": "Leonard, Andy"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1750010801",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XXII, 692 Seiten)",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Illustrationen, Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1750010801",
+                "(firstid)KEP:06178172X",
+                "(isbn13)9781484264829",
+                "(doi)10.1007/978-1-4842-6482-9"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "(classificationName=ddc)004.165",
+                "(classificationName=linseach:mapping)inf",
+                "Microsoft software.",
+                "Computer software.",
+                "Database management.",
+                "Microsoft .NET Framework."
+            ],
+            "title": "Building Custom Tasks for SQL Server Integration Services : The Power of .NET for ETL for SQL Server 2019 and Beyond",
+            "abstract": [
+                "1. The Story of This Book -- 2. Preparing the Environment -- 3. Creating the Assembly Project -- 4. Check-In the Project Code -- 5. Signing the Assembly -- 6. Preparing to Build -- 7. Coding the Task -- 8. Coding a Simple Task Editor -- 9. Signing and Binding -- 10. Expanding Editor Functionality -- 11. Minimal Coding for the Complex Editor -- 12. Editor Integration -- 13. Implement Views and Properties -- 14. Implement New Connection -- 15. Implement Use32bit, Synchronized, and LoggingLevel SettingsView Properties -- 16. Refactoring SourceConnection -- 17. Refactoring the SSIS Package Hierarchy -- 18. Instrumentation and Validation -- 19. Crushing Bugs -- 20. Adding Synchronous Execution Properties -- 21. Testing the Task -- 22. Building the Setup Project -- 23. Using the Execute Catalog Package Task in an SSIS Framework -- 24. Deploying to Azure-SSIS -- 25. Test the Task in Azure Data Factory -- 26. Notes from my Experience.",
+                "Build custom SQL Server Integration Services (SSIS) tasks using Visual Studio Community Edition and C#. Bring all the power of Microsoft .NET to bear on your data integration and ETL processes, and for no added cost over what you\u2019ve already spent on licensing SQL Server. New in this edition is a demonstration deploying a custom SSIS task to the Azure Data Factory (ADF) Azure-SSIS Integration Runtime (IR). All examples in this new edition are implemented in C#. Custom task developers are shown how to implement custom tasks using the widely accepted and default language for .NET development. Why are custom components necessary? Because even though the SSIS catalog of built-in tasks and components is a marvel of engineering, gaps remain in the available functionality. One such gap is a constraint of the built-in SSIS Execute Package Task, which does not allow SSIS developers to select SSIS packages from other projects in the SSIS Catalog. Examples in this book show how to create a custom Execute Catalog Package task that allows SSIS developers to execute tasks from other projects in the SSIS Catalog. Building on the examples and patterns in this book, SSIS developers may create any task to which they aspire, custom tailored to their specific data integration and ETL needs. You will: Configure and execute Visual Studio in the way that best supports SSIS task development Create a class library as the basis for an SSIS task, and reference the needed SSIS assemblies Properly sign assemblies that you create in order to invoke them from your task Implement source code control via Azure DevOps, or your own favorite tool set Troubleshoot and execute custom tasks as part of your own projects Create deployment projects (MSIs) for distributing code-complete tasks Deploy custom tasks to Azure Data Factory Azure-SSIS IRs in the cloud Create advanced editors for custom task parameters."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1027593704",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-6482-9",
+            "P30128": "Springer eBook Collection",
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

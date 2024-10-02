@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723616760",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "creator": "Sarris, Costas D.",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn)1598290797",
+                "(ppn)723616760",
+                "(doi)10.2200/S00052ED1V01Y200609CEM011",
+                "(isbn13)9781598290790",
+                "(firstid)GBV:723616760"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=ddc)621.34",
+                "Maxwell equations",
+                "(classificationName=loc)QC760.4.M37 S27 2007",
+                "Time-domain analysis",
+                "Electronic books",
+                "(classificationName=linseach:mapping)phy",
+                "Numerical grid generation (Numerical analysis)",
+                "Electromagnetism",
+                "Finite differences"
+            ],
+            "title": "Adaptive Mesh Refinement in Time-Domain Numerical Electromagnetics",
+            "abstract": [
+                "1. Introduction -- 2. A numerical interface between FDTD and Haar MRTD : formulation and applications -- 2.1. Introduction -- 2.2. Multiresolution analysis : a brief overview -- 2.3. Derivation of time-domain schemes by the method of moments -- 2.4. Two-dimensional hybrid arbitrary-order Haar MRTD/FDTD scheme : formulation -- 2.5. Numerical results : validation -- 2.6. Numerical results : applications -- 2.7. Conclusions -- 3. Efficient implementation of adaptive mesh refinement in the Haar wavelet-based MRTD technique -- 3.1. Introduction -- 3.2. Wavelet-based front-tracking -- 3.3. Adaptive Haar wavelet simulation of pulse compression in an optical fiber filter -- 3.4. Conclusions -- 4. The dynamically adaptive mesh refinement (AMR)-FDTD technique : theory -- 4.1. Introduction -- 4.2. AMR-FDTD : overview of the algorithm -- 4.3. Mesh tree and field update procedure in AMR-FDTD -- 4.4. Adaptive mesh refinement -- 4.5. AMR-FDTD and MRTD : similarities and differences -- 5. Dynamically adaptive mesh refinement in FDTD : microwave circuit applications -- 5.1. Introduction -- 5.2. Microstrip low-pass filter -- 5.3. Microstrip branch coupler -- 5.4. Microstrip spiral inductor -- 5.5. Discussion : stability and accuracy of AMR-FDTD results -- 5.6. Conclusion -- 6. Dynamically adaptive mesh refinement in FDTD : optical applications and error estimates -- 6.1. Multilevel AMR-FDTD -- 6.2. Dielectric waveguide with a corrugated permittivity profile -- 6.3. Dielectric waveguide power splitter -- 6.4. Dielectric waveguide y-junction -- 6.5. Dielectric ring resonator -- 6.6. Numerical error estimation and control -- 6.7. Conclusion",
+                "This monograph is a comprehensive presentation of state-of-the-art methodologies that can dramatically enhance the efficiency of the finite-difference time-domain (FDTD) technique, the most popular electromagnetic field solver of the time-domain form of Maxwell's equations. These methodologies are aimed at optimally tailoring the computational resources needed for the wideband simulation of microwave and optical structures to their geometry, as well as the nature of the field solutions they support. That is achieved by the development of robust \"adaptive meshing\" approaches, which amount to varying the total number of unknown field quantities in the course of the simulation to adapt to temporally or spatially localized field features. While mesh adaptation is an extremely desirable FDTD feature, known to reduce simulation times by orders of magnitude, it is not always robust. The specific techniques presented in this book are characterized by stability and robustness.  Therefore, they are excellent computer analysis and design (CAD) tools. The book starts by introducing the FDTD technique, along with challenges related to its application to the analysis of real-life microwave and optical structures. It then proceeds to developing an adaptive mesh refinement method based on the use of multiresolution analysis and, more specifically, the Haar wavelet basis.  Furthermore, a new method to embed a moving adaptive mesh in FDTD, the dynamically adaptive mesh refinement (AMR) FDTD technique, is introduced and explained in detail. To highlight the properties of the theoretical tools developed in the text, a number of applications are presented, including: Microwave integrated circuits (microstrip filters, couplers, spiral inductors, cavities); Optical power splitters, Y-junctions, and couplers; Optical ring resonators; Nonlinear optical waveguides. Building on first principles of time-domain electromagnetic simulations, this book presents advanced concepts and cutting-edge modeling techniques in an intuitive  way for programmers, engineers, and graduate students. It is designed to provide a solid reference for highly efficient time-domain solvers, employed in a wide range of exciting applications in microwave/millimeter-wave and optical engineering"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598290783.pdf",
+            "volume": "#11",
+            "isLike": "doi:10.2200/S00052ED1V01Y200609CEM011",
+            "P30128": "Synthesis Lectures on Computational Electromagnetics",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1013824474",
+            "sameAs": "Kunze, Matthias"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A773527931",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 5656 KB, XV, 275 S.)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)773527931",
+                "(firstid)DNB:1044466316"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Searching business process models by example",
+            "abstract": "Business processes are fundamental to the operations of a company. Each product manufactured and every service provided is the result of a series of actions that constitute a business process. Business process management is an organizational principle that makes the processes of a company explicit and offers capabilities to implement procedures, control their execution, analyze their performance, and improve them. Therefore, business processes are documented as process models that capture these actions and their execution ordering, and make them accessible to stakeholders. As these models are an essential knowledge asset, they need to be managed effectively. In particular, the discovery and reuse of existing knowledge becomes challenging in the light of companies maintaining hundreds and thousands of process models. In practice, searching process models has been solved only superficially by means of free-text search of process names and their descriptions. Scientific contributions are limited in their scope, as they either present measures for process similarity or elaborate on query languages to search for particular aspects. However, they fall short in addressing efficient search, the presentation of search results, and the support to reuse discovered models. This thesis presents a novel search method, where a query is expressed by an exemplary business process model that describes the behavior of a possible answer. This method builds upon a formal framework that captures and compares the behavior of process models by the execution ordering of actions. The framework contributes a conceptual notion of behavioral distance that quantifies commonalities and differences of a pair of process models, and enables process model search. Based on behavioral distances, a set of measures is proposed that evaluate the quality of a particular search result to guide the user in assessing the returned matches. A projection of behavioral aspects to a process model enables highlighting relevant fragments that led to a match and facilitates its reuse. The thesis further elaborates on two search techniques that provide concrete behavioral distance functions as an instantiation of the formal framework. Querying enables search with a notion of behavioral inclusion with regard to the query. In contrast, similarity search obtains process models that are similar to a query, even if the query is not precisely matched. For both techniques, indexes are presented that enable efficient search. Methods to evaluate the quality and performance of process model search are introduced and applied to the techniques of this thesis. They show good results with regard to human assessment and scalability in a practical setting",
+            "alternative": "Prozessmodellsuche mittels Beispielmodellen",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1013824474",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122498909",
+            "sameAs": "Scheideler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A800488830",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Els\u00e4sser, Robert",
+            "creator": "Ogierman, Adrian",
+            "identifier": [
+                "(ppn)800488830",
+                "(firstid)HBZ:CT004001186"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Epidemic spreading and information dissemination in technological and social systems",
+            "abstract": "In dieser Arbeit betrachten wir Probleme aus dem Bereich der Nachrichten- und Krankheitsverbreitung in dynamischen als auch statischen Strukturen aus dem Gebiet der technologischen und der sozialen Netzwerke. Als erste Fragestellung untersuchen wir, ob ein verteiltes Protokoll zur Nachrichtenverbreitung in Netzwerken mit Power Law Knotengradverteilung existiert, so dass sich die Knotengradverteilung nicht negativ bemerkbar macht. Wir pr\u00e4sentieren ein Protokoll, welches mit hoher Wahrscheinlichkeit nur O(log n) viele Runden mit O(n loglog n) vielen Nachrichten ben\u00f6tigt um alle n Knoten zu informieren. Als n\u00e4chstes untersuchen wir wie Strategien zur Eind\u00e4mmung einer solchen Ausbreitung aussehen k\u00f6nnten. Sei V der f\u00fcr die Ausbreitung der sch\u00e4dlichen Nachricht verantwortliche Prozess. Wir lassen V sich von jedem infizierten Knoten \u00fcber eine konstante Anzahl von Verbindungen verbreiten. Unsere Strategie zur Bek\u00e4mpfung von V wird an jedem infizierten Knoten nach einer konstanten Anzahl von Schritten aktiviert. Ist der minimale Knotengrad loglog n, so zeigen wir, dass die Immunisierung der direkten Nachbarschaft ausreicht um die Infektion mit hoher Wahrscheinlichkeit zu eliminieren. Ist der minimale Knotengrad eine Konstante und immunisiert jeder infizierte Knoten v alle Knoten in seiner O(log(d(v)))-Nachbarschaft, wobei d(v) den Knotengrad von Knoten v bezeichnet, lassen sich \u00e4hnliche Absch\u00e4tzungen zeigen. Zudem betrachten wir eine Epidemie in einer st\u00e4dtischen Umgebung mit mobilen Einwohnern. Werden keinerlei Gegenma\u00dfnahmen getroffen, so bleibt dennoch mit hoher Wahrscheinlichkeit ein polynomieller Anteil der Population von der Epidemie unber\u00fchrt. Werden jedoch Gegenma\u00dfnahmen genutzt, so werden mit Wahrscheinlichkeit 1-o(1) nur polylogarithmisch viele Individuen infiziert.. - In this thesis we consider the problems of information dissemination and epidemic spreading in dynamic as well as static technological and social networks. We start by wondering if there might be a fast decentralized dissemination protocol, such that a power law degree distribution does not slow down the dissemination process in the network. We present a protocol that informs all n nodes within O(log n) many rounds using O(n loglog n) many transmissions with high probability. But how do we design a counteracting dissemination process to combat the malicious one denoted by V? Suppose V uses a constant number of randomly chosen connections of each infected node to infect others for one time only and suppose that the counteracting dissemination process is activated on each infected node after a constant delay. We show that it suffices to immunize the neighborhood of each infected node, provided the minimum degree of the network is loglog n. Otherwise, if the minimum degree of the network is constant, we propose to immunize every node within O(log(d(v))) many hops of each infected node v, where d(v) denotes the degree of node v. Executing these strategies we prove that V does not infect more than o(n) many nodes until it is eliminated with high probability. Finally, we take mobility into account and examine an epidemic outbreak in an urban environment inhabited by mobile individuals on a small and on a large scale. Amongst others, we show that at least a polynomial fraction of the individuals remains uninfected even if they do not respond to the epidemic outbreak in any way. However, if the epidemic outbreak does influence the individual's behavioral pattern and certain countermeasures are applied, then only a polylogarithmic amount of individuals is infected until the epidemic is embanked with probability 1-o(1).",
+            "contributor": "gnd:122498909",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1136402950",
+            "sameAs": "Marx, Brian D."
+        },
+        {
+            "@id": "gnd:1231398183",
+            "sameAs": "Eilers, Paul H. C."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1702001563",
+            "@type": "bibo:Book",
+            "P1053": "xii, 199 Seiten",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.1017/9781108610247",
+                "(firstid)KXP:1702001563",
+                "(isbn13)9781108482950",
+                "(ppn)1702001563"
+            ],
+            "publisher": "Cambridge University Press",
+            "subject": [
+                "(classificationName=msc)65D07",
+                "(classificationName=msc)62G08",
+                "Smoothing (Statistics)",
+                "(classificationName=loc)QA278",
+                "(classificationName=msc)62F15",
+                "(classificationName=msc)00A00",
+                "(classificationName=msc)62J12",
+                "(classificationName=msc)62-04",
+                "Spline theory",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)511/.4223",
+                "(classificationName=msc)62-02"
+            ],
+            "title": "Practical smoothing : the joys of P-splines",
+            "abstract": "\"This is a practical guide to P-splines, a simple, flexible and powerful tool for smoothing. P-splines combine regression on B-splines with simple, discrete, roughness penalties. They were introduced by the authors in 1996 and have been used in many diverse applications. The regression basis makes it straightforward to handle non-normal data, like in generalized linear models. The authors demonstrate optimal smoothing, using mixed model technology and Bayesian estimation, in addition to classical tools like cross-validation and AIC, covering theory and applications with code in R. Going far beyond simple smoothing, they also show how to use P-splines for regression on signals, varying-coefficient models, quantile and expectile smoothing, and composite links for grouped data. Penalties are the crucial elements of P-splines; with proper modifications they can handle periodic and circular data as well as shape constraints. Combining penalties with tensor products of B-splines extends these attractive properties to multiple dimensions. An appendix offers a systematic comparison to other smoothers\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1231398183",
+                "gnd:1136402950"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "https://zbmath.org/?q=an%3A1458.62002",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1702001563.pdf",
+            "isLike": "doi:10.1017/9781108610247",
+            "P60163": "Cambridge, UK"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "relation": "http://purl.org/dc/terms/relation",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

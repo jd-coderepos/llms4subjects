@@ -1,0 +1,61 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832382532",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (241 p.)",
+            "creator": "Kaczmarczyk, Andrzej",
+            "identifier": [
+                "(ppn)1832382532",
+                "(isbn13)9783798332157",
+                "(firstid)KEP:083814752",
+                "(isbn13)9783798332164"
+            ],
+            "publisher": "Universit\u00e4tsverlag der Technischen Universit\u00e4t Berlin",
+            "subject": [
+                "(classificationName=linseach:lexicon)inf",
+                "Algorithms & data structures",
+                "Applied mathematics"
+            ],
+            "title": "Algorithmic aspects of resource allocation and multiwinner voting: theory and experiments",
+            "abstract": "This thesis is concerned with investigating elements of computational social choice in the light of real-world applications. We contribute to a better understanding of the areas of fair allocation and multiwinner voting. For both areas, inspired by real-world scenarios, we propose several new notions and extensions of existing models. Then, we analyze the complexity of answering the computational questions raised by the introduced concepts. To this end, we look through the lens of parameterized complexity. We identify different parameters which describe natural features specific to the computational problems we investigate. Exploiting the parameters, we successfully develop efficient algorithms for spe- cific cases of the studied problems. We complement our analysis by showing which parameters presumably cannot be utilized for seeking efficient algorithms. Thereby, we provide comprehensive pictures of the computational complexity of the studied problems. Specifically, we concentrate on four topics that we present below, grouped by our two areas of interest. For all but one topic, we present experimental studies based on implementations of newly developed algorithms. We first focus on fair allocation of indivisible resources. In this setting, we consider a collection of indivisible resources and a group of agents. Each agent reports its utility evaluation of every resource and the task is to \"fairly\" allocate the resources such that each resource is allocated to at most one agent. We concentrate on the two following issues regarding this scenario. The social context in fair allocation of indivisible resources. In many fair allocation settings, it is unlikely that every agent knows all other agents. For example, consider a scenario where the agents represent employees of a large corporation. It is highly unlikely that every employee knows every other employee. Motivated by such settings, we come up with a new model of graph envy-freeness by adapting the classical envy-freeness notion to account for social relations of agents modeled as social networks. We show that if the given social network of agents is simple (for example, if it is a directed acyclic graph), then indeed we can sometimes find fair allocations efficiently. However, we contrast tractability results with showing NP-hardness for several cases, including those in which the given social network has a constant degree. Fair allocations among few agents with bounded rationality. Bounded rationality is the idea that humans, due to cognitive limitations, tend to simplify problems that they face. One of its emanations is that human agents usually tend to report simple utilities over the resources that they want to allocate; for example, agents may categorize the available resources only into two groups of desirable and undesirable ones. Applying techniques for solving integer linear programs, we show that exploiting bounded rationality leads to efficient algorithms for finding envy-free and Pareto-efficient allocations, assuming a small number of agents. Further, we demonstrate that our result actually forms a framework that can be applied to a number of different fairness concepts like envy-freeness up to one good or envy-freeness up to any good. This way, we obtain efficient algorithms for a number of fair allocation problems (assuming few agents with bounded rationality). We also empirically show that our technique is applicable in practice. Further, we study multiwinner voting, where we are given a collection of voters and their preferences over a set of candidates. The outcome of a multiwinner voting rule is a group (or a set of groups in case of ties) of candidates that reflect the voters' preferences best according to some objective. In this context, we investigate the following themes. The robustness of election outcomes. We study how robust outcomes of multiwinner elections are against possible mistakes made by voters. Assuming that each voter casts a ballot in a form of a ranking of candidates, we represent a mistake by a swap of adjacent candidates in a ballot. We find that for rules such as SNTV, k-Approval, and k-Borda, it is computationally easy to find the minimum number of swaps resulting in a change of an outcome. This task is, however, NP-hard for STV and the Chamberlin-Courant rule. We conclude our study of robustness with experimentally studying the average number of random swaps leading to a change of an outcome for several rules. Strategic voting in multiwinner elections. We ask whether a given group of cooperating voters can manipulate an election outcome in a favorable way. We focus on the k-Approval voting rule and we show that the computational complexity of answering the posed question has a rich structure. We spot several cases for which our problem is polynomial-time solvable. However, we also identify NP-hard cases. For several of them, we show how to circumvent the hardness by fixed-parameter tractability. We also present experimental studies indicating that our algorithms are applicable in practice",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-94-OAB",
+            "issued": "2021",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P30128": "Foundations of computing",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

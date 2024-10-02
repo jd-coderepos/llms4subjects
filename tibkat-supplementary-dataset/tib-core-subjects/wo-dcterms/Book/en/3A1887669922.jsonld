@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135746257",
+            "sameAs": "Chen, Yi"
+        },
+        {
+            "@id": "gnd:13050663X",
+            "sameAs": "Fang, Hanming"
+        },
+        {
+            "@id": "gnd:1329400267",
+            "sameAs": "Zhao, Zibo"
+        },
+        {
+            "@id": "gnd:1329401239",
+            "sameAs": "Zhao, Yi"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1887669922",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1887669922",
+                "(firstid)KEP:102823367"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "K\u00fcnstliche Intelligenz",
+                "Economics of Gender; Non-labor Discrimination",
+                "Large Data Sets: Modeling and Analysis",
+                "Human Capital; Skills; Occupational Choice; Labor Productivity",
+                "Empirische Methode",
+                "Arbeitsmarktforschung",
+                "Wage Level and Structure; Wage Differentials",
+                "(classificationName=linseach:automatic)inf"
+            ],
+            "title": "Recovering Overlooked Information in Categorical Variables with LLMs : An Application to Labor Market Mismatch",
+            "abstract": "Categorical variables have no intrinsic ordering, and researchers often adopt a fixed-effect (FE) approach in empirical analysis. However, this approach has two significant limitations: it overlooks textual labels associated with the categorical variables; and it produces unstable results when there are only limited observations in a category. In this paper, we propose a novel method that utilizes recent advances in large language models (LLMs) to recover overlooked information in categorical variables. We apply this method to investigate labor market mismatch. Specifically, we task LLMs with simulating the role of a human resources specialist to assess the suitability of an applicant with specific characteristics for a given job. Our main findings can be summarized in three parts. First, using comprehensive administrative data from an online job posting platform, we show that our new match quality measure is positively correlated with several traditional measures in the literature, and at the same time, we highlight the LLM's capability to provide additional information conditional on the traditional measures. Second, we demonstrate the broad applicability of the new method with a survey data containing significantly less information than the administrative data, which makes it impossible to compute most of the traditional match quality measures. Our LLM measure successfully replicates most of the salient patterns observed in a hard-to-access administrative dataset using easily accessible survey data. Third, we investigate the gender gap in match quality and explore whether there exists gender stereotypes in the hiring process. We simulate an audit study, examining whether revealing gender information to LLMs influences their assessment. We show that when gender information is disclosed to the GPT, the model deems females better suited for traditionally female-dominated roles",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1329400267",
+                "gnd:13050663X",
+                "gnd:1329401239",
+                "gnd:1135746257",
+                "gnd:39157-8"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w32327",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

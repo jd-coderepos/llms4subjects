@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1829463950",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (20 Seiten, 492,56 KB)",
+            "creator": [
+                "Kr\u00fcger, J\u00f6rg",
+                "Sommer, David",
+                "Johanni, Theresa",
+                "Thiele, Gregor"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2980",
+                "(firstid)KXP:1829463950",
+                "(ppn)1829463950"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Decomposition of a cooling plant for energy efficiency optimization using OptTopo",
+            "abstract": "The operation of industrial supply technology is a broad field for optimization. Industrial cooling plants are often a) composed of several components, b) linked using network technology, c) physically interconnected and d) complex regarding the effect of set-points and operating points in every entity. This leads to the possibility of overall optimization. An example containing a cooling tower, water circulations and chillers entails a non-linear optimization problem with five dimensions. The decomposition of such a system allows the modeling of separate subsystems which can be structured according to the physical topology. An established method for energy performance indicators (EnPI) helps to formulate an optimization problem in a coherent way. The novel optimization algorithm OptTopo strives for efficient set-points by traversing a graph representation of the overall system. The advantages are a) the ability to combine models of several types (e.g neural networks and polynomials) and b) an constant runtime independent from the number of operation points requested because new optimization needs just to be performed in case of plant model changes. An experimental implementation of the algorithm is validated using a simscape simulation. For a batch of five requests, OptTopo needs 61 min while the solvers Cobyla, SDPEN and COUENNE need 0.3 min, 1.4 min and 3.1 min respectively. OptTopo achieves a similar efficiency improvement like established solvers. This paper demonstrated general feasibility of the concept and fortifies further improvements to reduce the computing time.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2980",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2980",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

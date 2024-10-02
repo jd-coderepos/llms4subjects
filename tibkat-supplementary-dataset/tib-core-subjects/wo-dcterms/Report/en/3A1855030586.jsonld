@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:122864026",
+            "sameAs": "Bank, Peter"
+        },
+        {
+            "@id": "gnd:14055839X",
+            "sameAs": "Friz, Peter K."
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1855030586",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (36 Seiten, 584,87 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "Pelizzari, Luca",
+            "description": "Diagramme",
+            "identifier": [
+                "(contract)DFG390685689",
+                "(firstid)KXP:1855030586",
+                "(doi)10.20347/WIAS.PREPRINT.3034",
+                "(contract)DFGEXC-2046/1",
+                "(ppn)1855030586"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Rough PDEs for local stochastic volatility models",
+            "abstract": "In this work, we introduce a novel pricing methodology in general, possibly non-Markovian local stochastic volatility (LSV) models. We observe that by conditioning the LSV dynamics on the Brownian motion that drives the volatility, one obtains a time-inhomogeneous Markov process. Using tools from rough path theory, we describe how to precisely understand the conditional LSV dynamics and reveal their Markovian nature. The latter allows us to connect the conditional dynamics to so-called rough partial differential equations (RPDEs), through a Feynman-Kac type of formula. In terms of European pricing, conditional on realizations of one Brownian motion, we can compute conditional option prices by solving the corresponding linear RPDEs, and then average over all samples to find unconditional prices. Our approach depends only minimally on the specification of the volatility, making it applicable for a wide range of classical and rough LSV models, and it establishes a PDE pricing method for non-Markovian models. Finally, we present a first glimpse at numerical methods for RPDEs and apply them to price European options in several rough LSV models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1017122695",
+                "gnd:2140666-2",
+                "gnd:14055839X",
+                "gnd:122864026"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3034",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3034",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
