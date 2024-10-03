@@ -1,4 +1,4 @@
-# 🗂️ The **LLMs4Subjects** Shared Task GND Subjects Taxonomy
+# 🏷 The **LLMs4Subjects** Shared Task GND Subjects Taxonomy
 
 ## 🔍 About
 
