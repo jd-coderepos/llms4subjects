@@ -1,3 +1,6 @@
+
+- **Analysis Repository:** The [analysis](https://github.com/jd-coderepos/llms4subjects/tree/main/analysis) repository contains statistical information and files detailing the TIBKAT collection's composition, which helped in organizing the main and supplementary datasets.
+
 # Released TIBKAT dataset records format
 
 This guide provides an overview of how to interpret a TIBKAT record, with a particular focus on understanding the `dcterms:subject` property. This property is part of the Dublin Core Metadata Element Set, a standard used for describing the content and metadata of web resources.

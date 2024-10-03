@@ -1,40 +1,13 @@
+The **LLMs4Subjects** shared task datasets!
+
 # About
 
-The LLMs4Subjects shared task invites LLM-based solutions for the task of automated subject indexing of the TIB's ever-growing collection of technical records.
- 
-comprises five types of technical records viz. `article`, `book`, `conference`, `report`, and `thesis` each represented by its title and abstract. The records are in English or German languages.   
+To develop LLM-based solutions for the shared task participants in two main data files. 1. A file with the GND subjects taxonomy as the comprehensive subjects knowledge base for the LLMs and 2. The training and development datasets with technical records annotated with GND subjects as supervision signals for aligning LLMs. Those are the respositories included. Visit each of the repositories and download the relevant corresponding GND subjects file or folder of annotated technical records.  
 
 # Repositories Included
 
-- **GND:** The [dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/dataset) repository houses the main training and testing datasets for the shared task. Given that the TIBKAT collections are primarily in German and English, this task will only evaluate LLMs capable of processing both languages.
+- [**GND**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/GND): It contains the preprocessed GND subjects file in human-readable form to use in development of **LLMs4Subjects** shared task systems. Participants are requested to download the pertinent GND subjects file from this repository. Note the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), is an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works. Of all files in the GND, the TIB subject matter experts use the GND Sachbegriff (or subject terms file) to catalogue the TIB's technical records.
 
-- **TIBKAT:** The [supplementary-dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-dataset) repository includes records from TIBKAT that are not part of the main dataset due to being in languages other than English or German, or because the dataset for a specific record type is too sparse. Although the focus is on English and German, these records are made available for participants to utilize as needed.
+- [**TIBKAT**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT): As briefly alluded to above, it contains the selected portion of the subject-indexed or subject-annotated TIBKAT limited to only German and English records and for the following five record types, viz. `article`, `book`, `conference`, `report`, and `thesis`. The dataset is provided with training and development set splits.
 
-- **Analysis Repository:** The [analysis](https://github.com/jd-coderepos/llms4subjects/tree/main/analysis) repository contains statistical information and files detailing the TIBKAT collection's composition, which helped in organizing the main and supplementary datasets.
-
-
-# Released TIBKAT dataset records format
-
-This guide provides an overview of how to interpret a TIBKAT record, with a particular focus on understanding the `dcterms:subject` property. This property is part of the Dublin Core Metadata Element Set, a standard used for describing the content and metadata of web resources.
-
-## Understanding TIBKAT Records
-TIBKAT records contain metadata about various resources, such as books, journals, and digital files, cataloged by the German National Library of Science and Technology. These records are structured in a way that includes multiple properties, each describing a different aspect of the resource.
-
-### [The `dcterms:subject` Property](#how-to-subjects)
-The `dcterms` subject property (often represented as `<dc:subject>` in XML or similar syntax) is used to describe the subject or topics covered by the resource. This can include keywords, phrases, or classification codes that reflect the content of the resource. The TIBKAT records subject annotations were made by a dedicated team of 17 expert subject specialists responsible for 28 different subjects, viz. Architecture, Civil Engineering, Biochemistry, Biology, Chemistry, Chemical Engineering, Electrical Engineering, Energy Technology, Educational Science, Earth Sciences, History, Information Technology, Literary Studies and Linguistics, Mechanical Engineering, Mathematics, Medical Technology, Plant Sciences, Philosophy, Physics, Law, Study of Religions, Social Sciences, Sports Sciences, Theology, Environmental Engineering, Traffic Engineering, Materials Science, and Economics.
-
-#### How to read the `dcterms:subject` property
-
-1. **Access the TIBKAT Record:** Begin by accessing the released JSON-LD TIBKAT records in the dataset or supplementary dataset folders.
-
-2. **Locate the `dcterms:subject` Property:** Within the record, look for the `dcterms:subject` property. This property can have one or more subject headings. Each subject heading is obtained from the GND Sachbegriff (subject headings) taxonomy. More information on the GND as it pertains to TIBKAT can be found [here](https://github.com/jd-coderepos/llms4subjects/tree/main/gnd-how-to). 
-
-3. **Interpret the Subject Entries:** Each entry under the `dcterms:subject` property represents a subject or topic that the resource relates to. These entries are available as:
-   - **Classification Codes:** Standardized GND subject heading codes can be found as values.
-
-4. **Use the Subjects for Research:** Within libaray systems, the subjects codes listed under the `dcterms:subject` property when mapped to their labels can be valuable for understanding the focus of the resource, conducting research, or finding related materials in the catalog.
-
-## Conclusion
-
-Understanding the `dcterms:subject` property within TIBKAT records is crucial for researchers, librarians, and anyone looking to categorize or find resources based on their subject matter. By focusing on this property, users can gain insights into the content and relevance of resources cataloged in the TIBKAT system.
 
