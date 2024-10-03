@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1202516181",
+            "sameAs": "Takahashi, Daisuke"
+        },
+        {
+            "@id": "gnd:4136070-9",
+            "sameAs": "Schnelle Fourier-Transformation"
+        },
+        {
+            "@id": "gnd:4532701-4",
+            "sameAs": "Hochleistungsrechnen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1735462969",
+            "@type": "bibo:Book",
+            "P1053": "ix, 114 Seiten",
+            "identifier": [
+                "(doi)10.1007/978-981-13-9965-7",
+                "(ppn)1735462969",
+                "(firstid)KXP:1735462969",
+                "(isbn13)9789811399640"
+            ],
+            "publisher": "Springer Nature",
+            "subject": [
+                "(classificationName=ddc)005.1",
+                "Algorithm Analysis and Problem Complexity",
+                "Applied mathematics",
+                "(classificationName=msc)65-02",
+                "(classificationName=bk, id=106418122)54.51 - Programmiermethodik",
+                "Algorithms",
+                "(classificationName=bk, id=106403265)54.62 - Datenstrukturen",
+                "Engineering mathematics",
+                "(classificationName=loc)QA76.9.A43",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)65T",
+                "(classificationName=msc)65Y"
+            ],
+            "title": "Fast Fourier transform algorithms for parallel computers",
+            "abstract": [
+                "Following an introduction to the basis of the fast Fourier transform (FFT), this book focuses on the implementation details on FFT for parallel computers. FFT is an efficient implementation of the discrete Fourier transform (DFT), and is widely used for many applications in engineering, science, and mathematics. Presenting many algorithms in pseudo-code and a complexity analysis, this book offers a valuable reference guide for graduate students, engineers, and scientists in the field who wish to apply FFT to large-scale problems.Parallel computation is becoming indispensable in solving the large-scale problems increasingly arising in a wide range of applications. The performance of parallel supercomputers is steadily improving, and it is expected that a massively parallel system with hundreds of thousands of compute nodes equipped with multi-core processors and accelerators will be available in the near future. Accordingly, the book also provides up-to-date computational techniques relevant to the FFT in state-of-the-art parallel computers. Following the introductory chapter, Chapter 2 introduces readers to the DFT and the basic idea of the FFT. Chapter 3 explains mixed-radix FFT algorithms, while Chapter 4 describes split-radix FFT algorithms. Chapter 5 explains multi-dimensional FFT algorithms, Chapter 6 presents high-performance FFT algorithms, and Chapter 7 addresses parallel FFT algorithms for shared-memory parallel computers. In closing, Chapter 8 describes parallel FFT algorithms for distributed-memory parallel computers",
+                "Chapter 1: Introduction -- Chapter 2: Fast Fourier Transform -- Chapter 3: Mixed-Radix FFT Algorithms -- Chapter 4: Split-Radix FFT Algorithms -- Chapter 5: Multidimensional FFT Algorithms -- Chapter 6: High-Performance FFT Algorithms -- Chapter 7: Parallel FFT Algorithms for Shared-Memory Parallel Computers -- Chapter 8: Parallel FFT Algorithms for Distributed-Memory Parallel Computers"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1202516181",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "https://zbmath.org/?q=an%3A07097322",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4136070-9"
+                },
+                {
+                    "@id": "gnd:4532701-4"
+                }
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1735462969.pdf",
+            "volume": "volume 2",
+            "isLike": "doi:10.1007/978-981-13-9965-7",
+            "P30128": "High-Performance Computing Series",
+            "P60163": "Singapore"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "relation": "http://purl.org/dc/terms/relation",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

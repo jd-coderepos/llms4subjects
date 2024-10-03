@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1120622646",
+            "sameAs": "Rabczuk, Timon"
+        },
+        {
+            "@id": "gnd:1322250960",
+            "sameAs": "L\u00f3pez Zerme\u00f1o, Jorge Alberto"
+        },
+        {
+            "@id": "gnd:135943620",
+            "sameAs": "Lahmer, Tom"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4069794-0",
+            "sameAs": "CAD"
+        },
+        {
+            "@id": "gnd:4329076-0",
+            "sameAs": "Gestaltoptimierung"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "gnd:7662388-9",
+            "sameAs": "Topologieoptimierung"
+        },
+        {
+            "@id": "gnd:7718401-4",
+            "sameAs": "Isogeometrische Analyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1815515295",
+            "@type": "bibo:Thesis",
+            "P1053": "xxxv, 170 Seiten",
+            "http://purl.org/dc/elements/1.1/contributor": "Reali, Alessandro",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1815515295",
+                "(firstid)KXP:1815515295"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation",
+                "(classificationName=ddc)624.177",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Isogeometric and CAD-based methods for shape and topology optimization: Sensitivity analysis, B\u00e9zier elements and phase-field approaches",
+            "abstract": "The Finite Element Method (FEM) is widely used in engineering for solving Partial Differential Equations (PDEs) over complex geometries. To this end, it is required to provide the FEM software with a geometric model that is typically constructed in a Computer-Aided Design (CAD) software. However, FEM and CAD use different approaches for the mathematical description of the geometry. Thus, it is required to generate a mesh, which is suitable for FEM, based on the CAD model. Nonetheless, this procedure is not a trivial task and it can be time consuming. This issue becomes more significant for solving shape and topology optimization problems, which consist in evolving the geometry iteratively. Therefore, the computational cost associated to the mesh generation process is increased exponentially for this type of applications.  The main goal of this work is to investigate the integration of CAD and CAE in shape and topology optimization. To this end, numerical tools that close the gap between design and analysis are presented. The specific objectives of this work are listed below:  \u2022 Automatize the sensitivity analysis in an isogeometric framework for applications in shape optimization. Applications for linear elasticity are considered.  \u2022 A methodology is developed for providing a direct link between the CAD model and the analysis mesh. In consequence, the sensitivity analysis can be performed in terms of the design variables located in the design model.  \u2022 The last objective is to develop an isogeometric method for shape and topological optimization. This method should take advantage of using Non-Uniform Rational B-Splines (NURBS) with higher continuity as basis functions.  Isogeometric Analysis (IGA) is a framework designed to integrate the design and analysis in engineering problems. The fundamental idea of IGA is to use the same basis functions for modeling the geometry, usually NURBS, for the approximation of the solution fields. The advantage of integrating design and analysis is two-fold. First, the analysis stage is more accurate since the system of PDEs is not solved using an approximated geometry, but the exact CAD model. Moreover, providing a direct link between the design and analysis discretizations makes possible the implementation of efficient sensitivity analysis methods. Second, the computational time is significantly reduced because the mesh generation process can be avoided. ...",
+            "alternative": "Isogeometrische und CAD-basierte Methoden zur Form- und Topologieoptimierung: Sensitivit\u00e4tsanalyse, B\u00e9zier-Elemente und Phasenfeldanwendungen",
+            "contributor": [
+                "gnd:135943620",
+                "gnd:1120622646"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:5180842-0",
+                "gnd:1322250960"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:7718401-4",
+                "gnd:4017233-8",
+                "gnd:4069794-0",
+                "gnd:7662388-9",
+                "gnd:4329076-0"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/weimar/toc/1815515295_toc.pdf",
+            "volume": "2022,4",
+            "P30128": "ISM-Bericht",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

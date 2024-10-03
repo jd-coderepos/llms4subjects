@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1255869976",
+            "sameAs": "Ziegler, Jonathan D."
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1798107929",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 62, circa 100 unterschiedlich gez\u00e4hlte Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1798107929",
+                "(doi)10.15496/publikation-67240",
+                "(ppn)1798107929"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)621.3828",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "From algorithmic to neural beamforming",
+            "abstract": "Human interaction increasingly relies on telecommunication as an addition to or replacement for immediate contact. The direct interaction with smart devices, beyond the use of classical input devices such as the keyboard, has become common practice. Remote participation in conferences, sporting events, or concerts is more common than ever, and with current global restrictions on in-person contact, this has become an inevitable part of many people's reality. The work presented here aims at improving these encounters by enhancing the auditory experience. Augmenting fidelity and intelligibility can increase the perceived quality and enjoyability of such actions and potentially raise acceptance for modern forms of remote experiences. Two approaches to automatic source localization and multichannel signal enhancement are investigated for applications ranging from small conferences to large arenas. Three first-order microphones of fixed relative position and orientation are used to create a compact, reactive tracking and beamforming algorithm, capable of producing pristine audio signals in small and mid-sized acoustic environments. With inaudible beam steering and a highly linear frequency response, this system aims at providing an alternative to manually operated shotgun microphones or sets of individual spot microphones, applicable in broadcast, live events, and teleconferencing or for human-computer interaction. The array design and choice of capsules are discussed, as well as the challenges of preventing coloration for moving signals. The developed algorithm, based on Energy-Based Source Localization, is discussed and the performance is analyzed. Objective results on synthesized audio, as well as on real recordings, are presented. Results of multiple listening tests are presented and real-time considerations are highlighted. Multiple microphones with unknown spatial distribution are combined to create a large-aperture array using an end-to-end Deep-Learning approach. This method combines state-of-the-art single-channel signal separation networks with adaptive, domain-specific channel alignment. The Neural Beamformer is capable of learning to extract detailed spatial relations of channels with respect to a learned signal type, such as speech, and to apply appropriate corrections in order to align the signals. This creates an adaptive beamformer for microphones spaced on the order of up to 100m. The developed modules are analyzed in detail and multiple configurations are considered for different use cases. Signal processing inside the Neural Network is interpreted and objective results are presented on simulated and semi-simulated datasets.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1255869976",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-67240",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

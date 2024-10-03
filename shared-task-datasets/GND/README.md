@@ -1,0 +1,1 @@
+- **GND How-To Repository:** The [gnd-how-to](https://github.com/jd-coderepos/llms4subjects/tree/main/gnd-how-to) repository provides an introduction to the GND (Gemeinsame Normdatei or Integrated Authority File) taxonomy used for subject classification in TIBKAT, along with detailed instructions on accessing and using the relevant taxonomy file for the collection.

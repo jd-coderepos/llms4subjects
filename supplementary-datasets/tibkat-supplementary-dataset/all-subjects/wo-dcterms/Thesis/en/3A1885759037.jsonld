@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1326177109",
+            "sameAs": "Kr\u00e4mer, Nicholas"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1885759037",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 170 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1885759037",
+                "(ppn)1885759037"
+            ],
+            "subject": [
+                "Simulation",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc-dbn)518",
+                "(classificationName=linseach:mapping)mat",
+                "Maschinelles Lernen"
+            ],
+            "title": "Implementing probabilistic numerical solvers for differential equations",
+            "abstract": "The numerical solution of differential equations underpins a large share of simulation methods that are used in the natural sciences and engineering, both in research and in industrial applications. The usability of a differential equation model depends, often crucially, on the choice of the simulation algorithm. Probabilistic numerical algorithms promise to combine efficient simulations with well-calibrated uncertainty quantification. Being able to handle various sources of uncertainty without a severely increased computational burden simplifies the combination of differential equation models with, for example, observational data and thereby improves the fusion of mechanistic and statistical information. However, until now, the general usability of probabilistic numerical solvers had not reached a level comparable to non-probabilistic approaches. A lack of numerical stability and scalability, combined with a strong focus on ordinary differential equations and initial value problems, put probabilistic numerical algorithms out of the scope of an implementation in the physical and the life sciences, which would require the efficient simulation of dynamics that may exhibit spatiotemporal patterns or could be constrained by boundary information. This thesis explains a series of contributions to the solution of this problem by discussing the implementation of a class of probabilistic numerical differential equation solvers that shares many features with collocation methods and with Gaussian filtering and smoothing: 1. A set of instructions for the numerically stable implementation of probabilistic numerical differential equation solvers that scales to high-dimensional problems. 2. The generalisation of solvers for ordinary-differential-equation-based initial value problems to boundary value problems and partial differential equations. Many of the techniques have already been implemented successfully in various software libraries for probabilistic numerical differential equation solvers. Altogether, the contributions improve the usability of existing and future probabilistic numerical algorithms. The simulation of challenging differential equation models and an application of the probabilistic numerical paradigm to real-world problems is no longer out of reach.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1326177109",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

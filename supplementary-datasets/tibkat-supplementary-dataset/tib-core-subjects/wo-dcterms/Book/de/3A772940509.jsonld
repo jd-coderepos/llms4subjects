@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A772940509",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (VIII, 128 S)",
+            "creator": [
+                "Koltnow, Joanne",
+                "Franklin, Howard",
+                "Finkel, LeRoy"
+            ],
+            "description": [
+                "online resource",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9783663139355",
+                "(ppn)772940509",
+                "(doi)10.1007/978-3-663-13935-5",
+                "(firstid)GBV:772940509"
+            ],
+            "publisher": "Vieweg+Teubner Verlag",
+            "subject": [
+                "Ethnology.",
+                "(classificationName=ddc)306.091",
+                "Humanities",
+                "Culture.",
+                "(classificationName=ddc)001.3",
+                "(classificationName=linseach:mapping)sow"
+            ],
+            "title": "Spielprogramme f\u00fcr den APPLE IIe : Spiele sowie Anleitungen, Techniken und Unterprogramme f\u00fcr die Eigenentwicklung von Spielen",
+            "abstract": "Im ersten Kapitel haben wir gezeigt, wie die BELL-Taste und der SPEED\u00ad Befehl genutzt werden k\u00f6nnen. Wir haben au\u00dferdem ein eigenst\u00e4ndiges Pro\u00ad gramm zur Simulation eines Pianos erhalten und ein weiteres, das eine Orgel simuliert. Das n\u00fctzlichste Programm dieses Kapitels ist KLANG EINHEIT. Dieser Bau\u00ad stein erlaubt es, Musikt\u00f6ne aller Art zu erzeugen und exotische Klangeffekte zu produzieren. Wir werden KLANG EINHEIT in einigen weiteren Program\u00ad men in diesem Buch verwenden. Unterprogramm zur Klangerzeugung: Zusammenfassende Hinweise Wir haben gezeigt, wie die verschiedenen Klangm\u00f6glichkeiten des APPLE be\u00ad einflu\u00dft werden k\u00f6nnen. Nun wollen wir demonstrieren, wie eigene Program\u00ad me des Lesers mit T\u00f6nen und Musik ausgestattet werden k\u00f6nnen. Die Variablenbezeichnungen W, X, Y, und Z werden in unseren Unterpro\u00ad gramm-Einheiten benutzt und sollten daher in eigenen Programmen nicht mehr verwendet werden. (mit Ausnahme der Kommunikation mit unseren Unterprogrammen). Weiter sollten die Programme keine Zeilennummern zwischen 10000 und 50000 enthalten, denn dort sind unsere Programm\u00ad listings angesiedelt. T\u00f6ne und Melodien: Zusammenfassung Um Musik mit den Tasten der Buchstaben A bis Z zu erzeugen, m\u00fcssen wir folgendes wissen: Beginn des Unterprogramms: 13300 Eingangsvariablen: ZUSD Textvariable WDTondauer Ein Musikprogramm kann zum Beispiel so aussehen: 1220 ZUSD = \"LUSTIGE APPLE SPIELE\" 1230 WD = 100 1240 GOSUB 13300 1250: 1260 REM FORTSETZUNG DES PROGRAMMS. So einfach ist das Ganze! Klangeffekte: Zusammenfassung Um Klangeffekte zu erzeugen, k\u00f6nnen Sie bis zu sieben Variablen festlegen oder ihren vorbestimmten Wert benutzen.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SGR",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAD"
+            ],
+            "issued": "1984",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-663-13935-5",
+            "P60163": "Wiesbaden"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

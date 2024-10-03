@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128742402",
+            "sameAs": "Geiser, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A665582102",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (18 S., 200 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "G\u00fcttel, Stefan",
+            "identifier": [
+                "(firstid)GBV:665582102",
+                "(ppn)665582102"
+            ],
+            "publisher": "Humboldt-Univ., Inst. f\u00fcr Mathematik",
+            "subject": [
+                "(classificationName=msc)65M71",
+                "(classificationName=msc)65L05",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=msc)65M15"
+            ],
+            "title": "Coupling methods for heat-transfer and heat-flow : operator splitting and parareal",
+            "abstract": "In this paper, we propose an operator splitting method for coupling heat-transfer and heat-flow equations. The motivation arose of industrial software packages, which have developed independently heat-transfer solvers (e.g. Aura-Fluid software package) and heat-flow solvers (e.g. Openfoam). Such packages are often simple coupled by A-B splitting and they simulate the influence of solar heat in car bodies. One of the main problems is to accelerate the code by iterative operator splitting methods and with a parallel interfaces. We propose Parareal as well applicable for parallel method for parabolic problems and also a speedup to mixed parabolic and hyperbolic problems is possible and delicate. Our idea is to combine the splitting schemes as a time-splitting method to adapt the time steps with Parareal as a time-parallelization method. Our analysis of these new splitting techniques provides error estimates which are validated at certain benchmark problems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:128742402",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2011,08",
+            "P30128": "Preprints / Institut f\u00fcr Mathematik, Humboldt-Universit\u00e4t zu Berlin",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

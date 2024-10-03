@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1046664689",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Manning, Willard G.",
+                "Polsky, Daniel"
+            ],
+            "creator": [
+                "Basu, Anirban",
+                "National Bureau of Economic Research"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.3386/w14086",
+                "(ppn)1046664689",
+                "(firstid)GBV:1046664689"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Use of Propensity Scores in Non-Linear Response Models : The Case for Health Care Expenditures",
+            "abstract": "Under the assumption of no unmeasured confounders, a large literature exists on methods that can be used to estimating average treatment effects (ATE) from observational data and that spans regression models, propensity score adjustments using stratification, weighting or regression and even the combination of both as in doubly-robust estimators. However, comparison of these alternative methods is sparse in the context of data generated via non-linear models where treatment effects are heterogeneous, such as is in the case of healthcare cost data. In this paper, we compare the performance of alternative regression and propensity score-based estimators in estimating average treatment effects on outcomes that are generated via non-linear models. Using simulations, we find that in moderate size samples (n= 5000), balancing on estimated propensity scores balances the covariate means across treatment arms but fails to balance higher-order moments and covariances amongst covariates, raising concern about its use in non-linear outcomes generating mechanisms.  We also find that besides inverse-probability weighting (IPW) with propensity scores, no one estimator is consistent under all data generating mechanisms. The IPW estimator is itself prone to inconsistency due to misspecification of the model for estimating propensity scores. Even when it is consistent, the IPW estimator is usually extremely inefficient. Thus care should be taken before naively applying any one estimator to estimate ATE in these data. We develop a recommendation for an algorithm which may help applied researchers to arrive at the optimal estimator. We illustrate the application of this algorithm and also the performance of alternative methods in a cost dataset on breast cancer treatment",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w14086",
+            "isLike": "doi:10.3386/w14086",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

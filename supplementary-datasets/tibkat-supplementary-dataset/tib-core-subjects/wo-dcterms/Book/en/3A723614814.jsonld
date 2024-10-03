@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614814",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (141 Seiten)",
+            "creator": "Zhai, Chengxiang",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:723614814",
+                "(ppn)723614814",
+                "(isbn13)9781598295917"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=loc)P98.5.S83",
+                "(classificationName=ddc)025.04",
+                "(classificationName=ddc)025.524",
+                "(classificationName=linseach:mapping)rest",
+                "Electronic books",
+                "Web search engines",
+                "Computational linguistics"
+            ],
+            "title": "Statistical Language Models for Information Retrieval",
+            "abstract": [
+                "As online information grows dramatically, search engines such as Google are playing a more and more important role in our lives. Critical to all search engines is the problem of designing an effective retrieval model that can rank documents accurately for a given query. This has been a central research problem in information retrieval for several decades. In the past ten years, a new generation of retrieval models, often referred to as statistical language models, has been successfully applied to solve many different information retrieval problems. Compared with the traditional models such as the vector space model, these new models have a more sound statistical foundation and can leverage statistical estimation to optimize retrieval parameters. They can also be more easily adapted to model nontraditional and complex retrieval problems. Empirically, they tend to achieve comparable or better performance than a traditional model with less effort on parameter tuning. This book systematically reviews the large body of literature on applying statistical language models to information retrieval with an emphasis on the underlying principles, empirically effective language models, and language models developed for non-traditional retrieval tasks. All the relevant literature has been synthesized to make it easy for a reader to digest the research progress achieved so far and see the frontier of research in this area. The book also offers practitioners an informative introduction to a set of practically useful language models that can effectively solve a variety of retrieval problems. No prior knowledge about information retrieval is required, but some basic knowledge about probability and statistics would be useful for fully digesting all the details",
+                "Introduction -- Basic concepts in information retrieval -- Statistical language models -- Overview of information retrieval models -- Similarity-based models -- Probabilistic relevance models -- Probabilistic inference models -- Axiomatic retrieval framework -- Decision-theoretic retrieval framework -- Summary -- Simple query likelihood retrieval model -- Basic idea -- Event models for [theta] d -- Multinomial [theta] d -- Multiple Bernoulli [theta] d -- Multiple Poisson [theta] d -- Comparison of the three models -- Estimation of [theta] d -- A general smoothing strategy using collection language model -- Jelinek-Mercer smoothing (fixed coefficient interpolation) -- Dirichlet prior smoothing -- Absolute discounting smoothing -- Interpolation vs. backoff -- Other smoothing methods -- Comparison of different smoothing methods -- Smoothing and TF-IDF weighting -- Two-stage smoothing -- Exploit document prior -- Summary -- Complex query likelihood retrieval model -- Document-specific smoothing of [theta]d -- Cluster-based smoothing -- Document expansion -- Beyond unigram models -- Parsimonious language models -- Full Bayesian query likelihood -- Translation model -- Summary -- Probabilistic distance retrieval model -- Difficulty in supporting feedback with query likelihood -- Kullback-Leibler divergence retrieval model -- Estimation of query models -- Model-based feedback -- Markov chain query model estimation -- Relevance model -- Structured query models -- Negative relevance feedback -- Summary -- Language models for special retrieval tasks -- Cross-lingual information retrieval -- Distributed information retrieval -- Structured document retrieval and combining representations -- Personalized and context-sensitive search -- Expert finding -- Passage retrieval -- Subtopic retrieval -- Other retrieval-related tasks -- Modeling redundancy and novelty -- Predicting query difficulty -- Summary -- Language models for latent topic analysis -- Probabilistic latent semantic analysis (PLSA) -- Latent dirichlet allocation (LDA) -- Extensions of PLSA and LDA -- Topic model labeling -- Using topic models for retrieval -- Summary -- Conclusions -- Language models vs.traditional retrieval models -- Summary of research progress -- Future directions"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#1",
+            "P30128": "Synthesis Lectures on Human Language Technologies",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

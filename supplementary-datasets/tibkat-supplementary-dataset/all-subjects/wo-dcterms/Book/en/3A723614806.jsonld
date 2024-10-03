@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614806",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (77 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Srinivasan, Sadagopan",
+                "Wang, David T."
+            ],
+            "creator": "Jacob, Bruce",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781598295887",
+                "(firstid)GBV:723614806",
+                "(ppn)723614806",
+                "(doi)10.2200/S00201ED1V01Y200907CAC007"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7895.M4",
+                "Computer storage devices",
+                "Memory management (Computer science)",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)621.39732",
+                "(classificationName=ddc)004.5",
+                "Electronic books"
+            ],
+            "title": "The Memory System : You Can't Avoid it, You Can't Ignore it, You Can't Fake it",
+            "abstract": [
+                "Today, computer-system optimization, at both the hardware and software levels, must consider the details of the memory system in its analysis; failing to do so yields systems that are increasingly inefficient as those systems become more complex. This lecture seeks to introduce the reader to the most important details of the memory system; it targets both computer scientists and computer engineers in industry and in academia. Roughly speaking, computer scientists are the users of the memory system, and computer engineers are the designers of the memory system. Both can benefit tremendously from a basic understanding of how the memory system really works: the computer scientist will be better equipped to create algorithms that perform well, and the computer engineer will be better equipped to design systems that approach the optimal, given the resource limitations. Currently, there is consensus among architecture researchers that the memory system is \"the bottleneck,\" and this consensus has held for over a decade. Somewhat inexplicably, most of the research in the field is still directed toward improving the CPU to better tolerate a slow memory system, as opposed to addressing the weaknesses of the memory system directly. This lecture should get the bulk of the computer science and computer engineering population up the steep part of the learning curve. Not every CS/CE researcher/developer needs to do work in the memory system, but, just as a carpenter can do his job more efficiently if he knows a little of architecture, and an architect can do his job more efficiently if he knows a little of carpentry, giving the CS/CE worlds better intuition about the memory system should help them build better systems, both software and hardware",
+                "Prelude: Why should I care about the memory system -- Primers -- Your code does not run in a vacuum -- Data and its representation -- Variables and stack allocation -- Random access is anything but -- Performance perspective -- Memory-system organization and operation -- State of the (DRAM) union -- It must be modeled accurately -- Some context -- Modeling the memory system -- Comparing the models -- Let's add prefetching to the mix -- Summary -- And it will change soon -- Problems and trends -- The use of multiple cores increases working-set demands -- Multicore bandwidth requirement is roughly 1GB/s per core -- TLB reach does not scale well (... or at all, really) -- You cannot physically connect to all the DRAM you can afford to purchase -- DRAM refresh is becoming expensive in both power and time -- Flash is eating disk's lunch -- For large systems, power dissipation of DRAM exceeds that of CPUs -- On-chip cache hierarchies are complex -- Disk access is still slow -- There are too many wires on a typical motherboard as it is -- Numerous new technologies are in development -- Some obvious conclusions -- A new DRAM-system organization is needed -- Flash needs to be integrated -- Possibly revisit superpages -- Some suggestions -- Fully buffered DIMM, take 2 (aka \"BOMB\") -- Some uses for flash -- Superpages (take 2) and SuperTLBs -- The hash-associative cache -- Virtual memory in the age of cheap memory -- Postlude: you can't fake it -- Bibliography -- Biography"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#7",
+            "isLike": "doi:10.2200/S00201ED1V01Y200907CAC007",
+            "P30128": "Synthesis Lectures on Computer Architecture",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

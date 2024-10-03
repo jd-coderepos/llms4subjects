@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128891327",
+            "sameAs": "Steimel, Andreas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1018320334",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (129 Seiten)",
+            "contributor": "B\u00f6cker, Joachim",
+            "creator": "Tao, Junbing",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1018320334",
+                "(firstid)HBZ:CT004002052",
+                "(doi)10.17619/UNIPB/1-284"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)620",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Half-cycle-sampled discrete model of series-parallel resonant converter with optimized modulation and its control design",
+            "abstract": "Bei der Entwicklung von isolierten DC-DC-Wandlern zeichnet sich die Topologie des Serien-Parallel-Resonanzkonverters (SPRC) durch einen breiten Betriebsbereich, einen hohen Wirkungsgrad sowie durch eine hohe Dynamik aus. Eine aufw\u00e4ndige Modellierung sowie der Entwurf einer geeigneten Regelung sind die wesentlichen Herausforderungen, die der Einsatz eines Serien-Parallel-Resonanzkonverters aufgrund seiner Komplexit\u00e4t mit sich bringt.Das prim\u00e4re Ziel dieser Arbeit war es, eine ausgewogene Modellierungsmethode f\u00fcr den SPRC zu finden, die einen Kompromiss zwischen Komplexit\u00e4t und Genauigkeit bez\u00fcglich der nichtlinearen Charakteristik erlaubt. Heraus erscheint es sinnvoll, das Verfahren der Abtastung mit variabler Schrittweite in die Modellierung und den Reglerentwurf mit einzubeziehen. Das zeitdiskretisierte System mit synchronisierten Abtastschritten f\u00fcr Konverter, Modulator und Regelung wird \"Halbperioden-abgetastetes diskretes (HSD) System\" genannt. Es hat sich als ausgewogenster Modellansatz zur Beschreibung des SPRC herausgestellt. Dieser nutzt die zur Verf\u00fcgung stehenden Rechenressourcen in effizienter Weise und garantiert dabei gleichzeitig eine ausreichende Genauigkeit f\u00fcr den SPRC.Ein weiteres Ziel dieser Arbeit war es, den entsprechenden Regler auszulegen, um die Dynamik des SPRC zu verbessern. Mit dem akkuraten, dynamischen Modell des SPRC kann auch der diskrete Regler mit variabler Abtastzeit als eine zus\u00e4tzliche Verbesserung angesehen werden. Zu einer weiteren Verbesserung f\u00fchrte die Verwendung der Pulsbreite anstatt des Tastverh\u00e4ltnisses als Stellsignal. Mit einem neuartigen Regelalgorithmus, der HSD-PW-Regelung, k\u00f6nnen diese beiden Verbesserungen erzielt werden. Die HSD-PW-Regelung f\u00fchrte in praktischen Versuchsdurchf\u00fchrungen zu einer reduzierten Ausregelzeit der Ausgangsspannung.. - In the development of isolated DC-DC converters, series-parallel-resonant converter (SPRC)demonstrates its advantages with regard to wide operation range, high efficiency and highly dynamic performance. The complexity of its model and further difficulties of its control design are the bottle-necks of this problem.Due to the nonlinear characteristics of the SPRC, the primary objective of this work is to find a balanced modelling method for the SPRC between its complexity and accuracy. In the research of optimized modulation strategy (OM), it is interesting to find out the control signals in the OM modulator are sampled every half cycle of resonant oscillation with varying the switching frequency. From this point, this varying-step sampling can be applied in the modelling approach and also in the control design. This discrete system, with synchronized sampling steps in converter, modulator and controller, is called \"half-cycle-sampled discrete (HSD) system\". It is proved to be the best balanced modelling approach for describing the SPRC. It efficiently utilizes the calculation resources and has sufficient accuracy for the SPRC. This HSD modelling approach takes the dynamic behaviour of the modulator into consideration.The second objective of this work is to design the appropriate controller in order to improve the dynamic performance of the SPRC. A novel control algorithm, HSD-PW control, is proposed combining discrete control and width of pulses regulation improvements. It demonstrates that HSD-PW control clearly reduces the control settling time of output voltage in the experiment.Subsequently, the calculation system of the entire controlled SPRC is implemented in the computer, in order to simulate the dynamic behaviour of SPRC. All the design options are added to the calculation system as the modules. The calculation system has a simple and rapid algorithm ...",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:128891327"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-284",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

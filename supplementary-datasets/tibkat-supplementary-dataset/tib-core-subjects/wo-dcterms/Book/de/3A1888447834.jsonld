@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1888447834",
+            "@type": "bibo:Book",
+            "P1053": "208 Seiten",
+            "creator": "Lutz, Benjamin Samuel",
+            "identifier": [
+                "(firstid)KXP:1888447834",
+                "(isbn13)9783961477036",
+                "(ppn)1888447834"
+            ],
+            "publisher": "FAU University Press",
+            "subject": [
+                "Bildverarbeitung",
+                "(classificationName=ddc-dbn)620",
+                "Stoffeigenschaft",
+                "Intelligente Fertigung",
+                "Maschinenbau",
+                "K\u00fcnstliche Intelligenz",
+                "Fertigungstechnik und Ingenieurwesen",
+                "Prozessoptimierung",
+                "Maschinelles Lernen",
+                "Computeranwendungen in Industrie und Technologie",
+                "(classificationName=linseach:mapping)tec",
+                "Bildsegmentierung"
+            ],
+            "title": "Smart Manufacturing System for Process Optimization Regarding Deviations among Material Batches",
+            "abstract": "Aufgrund der Fortschritte digitaler Technologien strebt die subtraktive Fertigung nach intelligenten Werkzeugmaschinen, welche eine datengetriebene Selbstoptimierung erm\u00f6glichen. Als Beitrag zur Erreichung dieses Ziels wird in dieser Arbeit ein Ansatz zur Ber\u00fccksichtigung der Einfl\u00fcsse von Materialchargen vorgestellt.Das beschriebene System nutzt dabei Bilder der verwendeten Schneidwerkzeuge, um deren Zustand zu erfassen. Es werden Methoden f\u00fcr die semantische Bildsegmentierung vorgeschlagen, durch welche die unterschiedlichen Verschlei\u00dfdefekte erkannt und vermessen werden k\u00f6nnen. Zus\u00e4tzlich werden neuartige Ans\u00e4tze zur Generierung neuer sowie zur Adaption existierender Trainingsdaten auf neue Anwendungsf\u00e4lle dargestellt.Die Erkennung der Materialcharge w\u00e4hrend der Bearbeitung erfolgt anhand interner Steuerungssignale. Im Rahmen einer Signalvorverarbeitung werden dabei die hochfrequenten Signale zu charakteristischen Kennwerten aggregiert. Ein Algorithmus bewertet nun den Neuheitsgrad der aktuellen Charge. Ist diese bekannt wird eine Klassifizierung durchgef\u00fchrt, andernfalls kommt ein Clusteralgorithmus zum Einsatz.Mit diesen Informationen kann nun historisches Wissen f\u00fcr die Berechnung optimierter, chargen-spezifischer Schnittparameter verwendet werden. Zus\u00e4tzlich erm\u00f6glicht das vorgestellte System das automatische Charakterisieren neuartiger Chargen, das kontinuierliche Verbessern der Modelle, sowie die effektive Anpassung an neue Anwendungsf\u00e4lle",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "P30128": "FAU Studien aus dem Maschinenbau",
+            "P60163": "Erlangen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

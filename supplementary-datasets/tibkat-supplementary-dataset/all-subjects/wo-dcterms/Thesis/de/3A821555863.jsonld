@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:13628096X",
+            "sameAs": "Bremer, J\u00f6rg"
+        },
+        {
+            "@id": "gnd:139941231",
+            "sameAs": "Renz, Wolfgang"
+        },
+        {
+            "@id": "gnd:17410149X",
+            "sameAs": "Sonnenschein, Michael"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4046235-3",
+            "sameAs": "Planung"
+        },
+        {
+            "@id": "gnd:4121926-0",
+            "sameAs": "Wirkleistung"
+        },
+        {
+            "@id": "gnd:4123043-7",
+            "sameAs": "Decoder"
+        },
+        {
+            "@id": "gnd:4505517-8",
+            "sameAs": "Support-Vektor-Maschine"
+        },
+        {
+            "@id": "gnd:7708028-2",
+            "sameAs": "Intelligentes Stromnetz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A821555863",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XVIII, 279 S., 13 MB)",
+            "contributor": "Kramer, Oliver",
+            "identifier": [
+                "(ppn)821555863",
+                "(firstid)DNB:106831222X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Constraint-Handling mit Supportvektor-Dekodern in der verteilten Optimierung",
+            "abstract": [
+                "Optimierungsans\u00e4tze in dynamisch organisierten, kooperativen Systemen stehen oft vor dem Problem, nicht auf ein statisches Optimierungsmodell zur\u00fcckgreifen zu k\u00f6nnen. Im Smart Grid muss bei der Koordination dezentraler Energieerzeugungsanlagen jeder Anlage ein Fahrplan aus dem eigenen, spezifischen L\u00f6sungsraum zugewiesen werden, um einen gew\u00fcnschten Gesamtlastgang zu erzielen. Diese Arbeit entwickelt ein Verfahren, mit dem abstrakte Darstellungen von L\u00f6sungsr\u00e4umen einschlie\u00dflich sie beschr\u00e4nkender Nebenbedingungen ohne spezifisches Wissen \u00fcber die individuelle Modellierung automatisiert zu einem gemeinsamen Optimierungsmodell integriert werden k\u00f6nnen. Durch einen Supportvektor-Dekoder werden zul\u00e4ssige L\u00f6sungen systematisch generiert, sodass das Optimierungsverfahren \u00fcber keine eigene Constraintbehandlung mehr verf\u00fcgen m\u00fcssen. Pr\u00e4sentiert werden alle Schritte von der Abstraktion durch die spezielle L\u00f6sungsraumdarstellung bis zur Einbettung in zentrale als auch verteilte Verfahren. <dt.>",
+                "Optimization in dynamically organized systems usually cannot access a static optimization model. In a smart grid load planning scenario individual energy units have to be assigned a schedule from their own specific solution space to gain a desired accumulated load schedule. This work develops a solution that integrates abstract representations of search spaces and restricting constraints into a dynamic optimization model. A solver will need no domain specific information about original models. With the help of a support vector based decoder, valid solutions are systematically generated. The solver does not need any own constraint handling. All steps including evaluation results are presented from gaining the abstract search space representation to the integration into several centralized as well as distributed optimization algorithms. <engl.>"
+            ],
+            "alternative": "Constraint-Handling with Support Vector Decoders in Distributed Optimization",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:139941231"
+                },
+                {
+                    "@id": "gnd:17410149X"
+                }
+            ],
+            "creator": "gnd:13628096X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4121926-0",
+                "gnd:4123043-7",
+                "gnd:4505517-8",
+                "gnd:4043664-0",
+                "gnd:4046235-3",
+                "gnd:7708028-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

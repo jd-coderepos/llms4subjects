@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1036742962",
+            "sameAs": "Tischendorf, Caren"
+        },
+        {
+            "@id": "gnd:133152286",
+            "sameAs": "Henrion, Ren\u00e9"
+        },
+        {
+            "@id": "gnd:133825841",
+            "sameAs": "Heitsch, Holger"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1873410948",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (30 Seiten, 434,72 KB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1873410948",
+                "(firstid)KXP:1873410948",
+                "(doi)10.20347/WIAS.PREPRINT.3066"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Probabilistic maximization of time-dependent capacities in a gas network",
+            "abstract": "The determination of free technical capacities belongs to the core tasks of a gas network owner. Since gas loads are uncertain by nature, it makes sense to understand this as a probabilistic problem as far as stochastic modeling of available historical data is possible. Future clients, however, don\u2019t have a history or they do not behave in a random way, as is the case, for instance, in gas reservoir management. Therefore, capacity maximization turns into an optimization problem with uncertainty-related constrained which are partially of probabilistic and partially of robust (worst case) type. While previous attempts to solve this problem had be devoted to models with static (time-independent) gas flow, we aim at considering here transient gas flow subordinate to a PDE (Euler equations). The basic challenge here is two-fold: first, a proper way of joining probabilistic constraints to the differential equations has to be found. This will be realized on the basis of the so-called spherical-radial decomposition of Gaussian random vectors. Second, a suitable  characterization of the worst-case load behaviour of future customers has to be figured out. It will be shown, that this is possible for quasi-static flow and can be transferred to the transient case. The complexity of the problem forces us to constrain ourselves in this first analysis to simple pipes or to a V-like structure of the network. Numerical solutions are presented and show that the differences between quasi-static and transient solutions are small, at least in these elementary examples.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1036742962",
+                "gnd:133825841",
+                "gnd:2140666-2",
+                "gnd:133152286"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3066",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3066",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

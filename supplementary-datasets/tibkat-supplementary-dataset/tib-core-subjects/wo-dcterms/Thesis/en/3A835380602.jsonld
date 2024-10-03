@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A835380602",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Fendji Kedieng Ebongue, Jean Louis",
+            "identifier": [
+                "(ppn)835380602",
+                "(firstid)GBV:835380602"
+            ],
+            "publisher": "Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Wireless Mesh Network : a rural community case",
+            "abstract": [
+                "We observe an emphasis on deploying wireless networks in a mesh topology, which is a cost-effective approach to extend their coverage, since a decade. But this approach of planning a network is lowly adopted in Africa, especially in rural regions, despite the suitability of this type of network for bridging the digital divide. In this thesis, we tackle the planning problem of wireless mesh networks in rural regions: How they can be deployed in rural communities using a landline node such as a telecentre at low cost. Since this problem is not only a technical one, it is important to study the feasibility of such a planning process. We consider two rural communities in Cameroon that are hosting a telecentre as a case study for this purpose. Then we investigate, which wireless technology could be appropriate, and discuss the propagation of the signal in rural regions. After justifying the choice of the 802.11n wireless network, empirical studies are conducted in different scenarios: free space, built-up areas, and wooded areas. Different path loss models are compared and the best one is improved. The main part of this work deals with the placement problem of mesh routers in a given rural region hosting a predefined Internet gateway. This issue is a critical one, especially in rural regions where we usually observe low density and sparse population. We suppose the planning of wireless mesh networks to be coverage-driven, meaning that we are more concerned about the space to cover than about the capacity to provide. We provide a network model tied to rural regions by considering the area to cover as decomposed into a set of elementary areas. Each elementary area may be of different types: an area of interest in terms of coverage, an area representing an obstacle, an area where a node can be placed or an area requiring a lower settlement cost. The placement problem is therefore considered as a multi-objective optimisation problemwith conflicted objectives such as maximising the coverage while minimising the cost. To solve this problem, we consider at first the case where the area to cover is continuous. We propose different algorithms based on simulated annealing. The first onemaximises the coverage while reducing the number of routers; the second one improves the cost by relocating nodes into cost-effective locations. A set of trade-offs resulting from a Pareto optimisation is produced. The case where areas of interest are disjoint is considered later. The approach proposed to solve this new model reuses the previous optimisation algorithms and adapts some algorithms used in graph theory, such as Depth First Search, Breath First Search, closest pair, and Graham Scan for Convex Hull. They are used in order to detect sub-networks and to link them efficiently. Finally, the problem of channel assignment is addressed. After assimilating this problem to the one of list edge colouring, a strategy aiming to assign channels by creating a spanning tree from the sole Internet gateway is proposed. All proposed algorithms are evaluated on different regions. The results show a certain convergence and an efficiency of the approach despite the probabilistic nature of underlying algorithms.",
+                "Wireless Mesh Network, Rural Community, Path loss Models, Simulated annealing, PARSA, Channel Assignment."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

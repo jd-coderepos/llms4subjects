@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120963205",
+            "sameAs": "Meinel, Christoph"
+        },
+        {
+            "@id": "gnd:136634370",
+            "sameAs": "Shaabani, Nuhad"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1733194258",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 119 Bl\u00e4tter, 2863 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-47186",
+                "(firstid)KXP:1733194258",
+                "(ppn)1733194258"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.31",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "On discovering and incrementally updating inclusion dependencies",
+            "abstract": "In today's world, many applications produce large amounts of data at an enormous rate. Analyzing such datasets for metadata is indispensable for effectively understanding, storing, querying, manipulating, and mining them. Metadata summarizes technical properties of a dataset which rang from basic statistics to complex structures describing data dependencies. One type of dependencies is inclusion dependency (IND), which expresses subset-relationships between attributes of datasets. Therefore, inclusion dependencies are important for many data management applications in terms of data integration, query optimization, schema redesign, or integrity checking. So, the discovery of inclusion dependencies in unknown or legacy datasets is at the core of any data profiling effort. For exhaustively detecting all INDs in large datasets, we developed S-indd++, a new algorithm that eliminates the shortcomings of existing IND-detection algorithms and significantly outperforms them. S-indd++ is based on a novel concept for the attribute clustering ...",
+            "alternative": "Beitrag zur Entdeckung und inkrementellen Aktualisierung von Inklusionsabh\u00e4ngigkeiten",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120963205"
+                }
+            ],
+            "creator": [
+                "gnd:2120681-8",
+                "gnd:136634370"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-47186",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

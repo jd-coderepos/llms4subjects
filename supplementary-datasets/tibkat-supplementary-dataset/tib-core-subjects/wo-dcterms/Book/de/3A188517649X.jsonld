@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1278484620",
+            "sameAs": "Ehlers, Tobias"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188517649X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (62.9 MByte)",
+            "identifier": [
+                "(doi)10.25835/0vlqu43y",
+                "(ppn)188517649X",
+                "(firstid)KXP:188517649X"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)rest",
+            "title": "Characterization of hand-arm vibration (HAV) on the Ducati Monster 796 ABS motorcycle",
+            "abstract": "Dieser Datensatz beinhaltet f\u00fcnf experimentelle Versuchsdaten um Hand-Arm-Schwingungen am Motorrad zu charakterisieren. Die Versuchsdaten wurden durch Fahrversuche am Motorrad, einer Ducati Monster 796 ABS, erhoben. Zur Charakterisierung der HAV wird ein triaxialer Beschleunigungssensor (PCB 356A45) am Lenkerende mithilfe eines Sensorhalters nach den Vorgaben der ISO 5349-2 befestigt. Zur Messwerterfassung werden zwei mobile 4-Kanal-Messwerterfassungssysteme vom Modell DT9837C verwendet und mit einem Laptop (Dell Precision 7730) verbunden. Die Datenerfassung und Speicherung erfolgten \u00fcber ein Matlab-Skript. Gem\u00e4\u00df den Vorgaben der Worldwide harmonized Light vehicles Test Procedure (WLTP) wurden sowohl Fahrten auf Stadtstra\u00dfen, Landstra\u00dfen und Autobahnen durchgef\u00fchrt. F\u00fcr jede Messfahrt wurde ein 60 min\u00fctiges Fahrsignal aufgenommen, aus dem die Fahrten f\u00fcr die Stadtstra\u00dfen, Landstra\u00dfen und Autobahnen extrahiert werden k\u00f6nnen. Der Datensatz weist folgende Struktur auf:  Rohdaten: F\u00fcr jede Versuchsfahrt wurden die Beschleunigungsdaten am triaxialen Beschleunigungssensor am Lenker mit einer Abtastrate von 9000 Hz bzw. 12000 Hz aufgezeichnet. Die Rohdaten liegen im .mat Format vor. Zus\u00e4tzlich werden die Geschwindigkeits- und GPS-Daten mittels der App phybox auf dem Handy OnePlus6, mit einer Abtastrate von 1 Hz aufgenommen.  Versuchsauswertung: F\u00fcr die Auswertung der Daten wurden Matlab-Skripte hochgeladen. Dieses Skript berechnet die folgenden Parameter: Tages-Schwingungsbelastung A(8), Schwingungsgesamtwert a_hv, Zeit t, Strecke s, Geschwindigkeit v. Die Parameter werden f\u00fcr die Stadt-, Land- und Autobahnfahrt berechnet. Des Weiteren wird der Streckenverlauf w\u00e4hrend der Versuchsfahrt graphisch in einer Landkarte dargestellt.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1278484620",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/0vlqu43y",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

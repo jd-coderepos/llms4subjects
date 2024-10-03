@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:119075857",
+            "sameAs": "Honigmann, Barbara 1949"
+        },
+        {
+            "@id": "gnd:122789822",
+            "sameAs": "Weiss-Sussex, Godela"
+        },
+        {
+            "@id": "gnd:138410127",
+            "sameAs": "Gillett, Robert"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A183854688X",
+            "@type": "bibo:Conference",
+            "P1053": "vi, 252 Seiten",
+            "identifier": [
+                "(isbn13)9781800792494",
+                "(ppn)183854688X",
+                "(firstid)KXP:183854688X",
+                "(ean)9781800792494"
+            ],
+            "publisher": "Peter Lang",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=ddc-dbn)830",
+                "(classificationName=rvk)GN 6592",
+                "(classificationName=loksys-fbl)GT 900 hon 6"
+            ],
+            "title": "Barbara Honigmann",
+            "abstract": "This is the first full-length book in English devoted to the work of one of the most widely read and intriguing contemporary German-language writers: Barbara Honigmann. The book covers her entire oeuvre, exploring her treatment of identity and belonging, Jewishness across generations, migration and multiculturalism, postmemory and language.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:138410127"
+                },
+                {
+                    "@id": "gnd:122789822"
+                }
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": {
+                "@id": "gnd:119075857"
+            },
+            "tableOfContents": "https://d-nb.info/1282085492/04",
+            "volume": "volume 6",
+            "P30128": "Contemporary German writers and filmmakers",
+            "P60163": "Oxford"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

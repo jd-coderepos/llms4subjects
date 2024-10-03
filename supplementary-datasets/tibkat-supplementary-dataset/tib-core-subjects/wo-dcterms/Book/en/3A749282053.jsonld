@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749282053",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (276p)",
+            "creator": "Ackley, David H.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)749282053",
+                "(isbn13)9781461319979",
+                "(firstid)GBV:749282053",
+                "(doi)10.1007/978-1-4613-1997-9"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=loc)TJ210.2-211.495",
+                "Artificial intelligence",
+                "(classificationName=loc)Q334-342",
+                "(classificationName=ddc)006.3",
+                "(classificationName=linseach:mapping)mas",
+                "Computer science"
+            ],
+            "title": "A Connectionist Machine for Genetic Hillclimbing",
+            "abstract": [
+                "1. Introduction -- 1.1. Satisfying hidden strong constraints -- 1.2. Function optimization -- 1.3. High-dimensional binary vector spaces -- 1.4. Dissertation overview -- 1.5. Summary -- 2. The model -- 2.1. Design goal: Learning while searching -- 2.2. Design goal: Sustained exploration -- 2.3. Connectionist computation -- 2.4. Stochastic iterated genetic hillclimbing -- 2.5. Summary -- 3. Empirical demonstrations -- 3.1. Methodology -- 3.2. Seven algorithms -- 3.3. Six functions -- 4. Analytic properties -- 4.1. Problem definition -- 4.2. Energy functions -- 4.3. Basic properties of the learning algorithm -- 4.4. Convergence -- 4.5. Divergence -- 5. Graph partitioning -- 5.1. Methodology -- 5.2. Adding a linear component -- 5.3. Experiments on random graphs -- 5.4. Experiments on multilevel graphs -- 6. Related work -- 6.1. The problem space formulation -- 6.2. Search and learning -- 6.3. Connectionist modelling -- 7. Limitations and variations -- 7.1. Current limitations -- 7.2. Possible variations -- 8. Discussion and conclusions -- 8.1. Stability and change -- 8.2. Architectural goals -- 8.3. Discussion -- 8.4. Conclusions -- References.",
+                "In the \"black box function optimization\" problem, a search strategy is required to find an extremal point of a function without knowing the structure of the function or the range of possible function values. Solving such problems efficiently requires two abilities. On the one hand, a strategy must be capable of learning while searching: It must gather global information about the space and concentrate the search in the most promising regions. On the other hand, a strategy must be capable of sustained exploration: If a search of the most promising region does not uncover a satisfactory point, the strategy must redirect its efforts into other regions of the space. This dissertation describes a connectionist learning machine that produces a search strategy called stochastic iterated genetic hillclimb\u00ad ing (SIGH). Viewed over a short period of time, SIGH displays a coarse-to-fine searching strategy, like simulated annealing and genetic algorithms. However, in SIGH the convergence process is reversible. The connectionist implementation makes it possible to diverge the search after it has converged, and to recover coarse-grained informa\u00ad tion about the space that was suppressed during convergence. The successful optimization of a complex function by SIGH usually in\u00ad volves a series of such converge/diverge cycles."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "28",
+            "isLike": "doi:10.1007/978-1-4613-1997-9",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Knowledge Representation, Learning and Expert Systems",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

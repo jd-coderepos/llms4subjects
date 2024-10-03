@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128661631",
+            "sameAs": "Knees, Dorothee"
+        },
+        {
+            "@id": "gnd:135945550",
+            "sameAs": "Schr\u00f6der, Andreas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A679707573",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (40 S., 629 KB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)679707573",
+                "(firstid)GBV:679707573"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften",
+                "(classificationName=ddc)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ssg)17,1",
+                "(classificationName=msc)74R10",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=bk, id=106418769)51.32 - Werkstoffmechanik",
+                "(classificationName=linseach:mapping)fer"
+            ],
+            "title": "Computational aspects of quasi-static crack propagation",
+            "abstract": "The focus of this note lies on the numerical analysis of models describing the propagation of a single crack in a linearly elastic material. The evolution of the crack is modeled as a rate-independent process based on the Griffith criterion. We follow two different approaches for setting up mathematically well defined models: the global energetic approach and an approach based on a viscous regularization. We prove the convergence of solutions of fully discretized models (i.e. with respect to time and space) and derive relations between the discretization parameters (mesh size, time step size, viscosity parameter, crack increment) which guarantee the convergence of the schemes. Further, convergence rates are provided for the approximation of energy release rates by certain discrete energy release rates. Thereby we discuss both, models with self-contact conditions on the crack faces as well as models with pure Neumann conditions on the crack faces. The convergence proofs rely on regularity estimates for the elastic fields close to the crack tip and local and global finite element error estimates. Finally the theoretical results are illustrated with some numerical calculations.",
+            "contributor": [
+                "gnd:128661631",
+                "gnd:135945550"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1611",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

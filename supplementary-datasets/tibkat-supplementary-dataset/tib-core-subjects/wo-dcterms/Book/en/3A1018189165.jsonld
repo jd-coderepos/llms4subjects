@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10182148-7",
+            "sameAs": "SPIE"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1018189165",
+            "@type": "bibo:Book",
+            "P1053": "1 online resource (xv, 221 p. : ill.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Jones, Paul W.",
+            "creator": [
+                "Society of Photo-optical Instrumentation Engineers",
+                "Rabbani, Majid"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1117/3.34917",
+                "(isbn)0819406481",
+                "(isbn13)9780819406484",
+                "(isbn13)9780819478528",
+                "(firstid)GBV:1018189165",
+                "(ppn)1018189165"
+            ],
+            "publisher": "SPIE",
+            "subject": [
+                "Image processing",
+                "(classificationName=ddc)621.367",
+                "(classificationName=loc)TA1632",
+                "(classificationName=ddc)621.36/7",
+                "(classificationName=linseach:mapping)phy",
+                "Digital techniques",
+                "(classificationName=linseach:mapping)ver",
+                "Coding theory",
+                "Image compression",
+                "Data processing"
+            ],
+            "title": "Digital image compression techniques",
+            "abstract": [
+                "I. Background -- Digital images and image compression -- II. Information theory concepts -- Source models and entropy -- Variable-length codes -- Entropy estimation and lossless compression -- Rate-distortion theory and lossy compression -- III. Lossless compression techniques -- Introduction -- Bit plane encoding -- Lossy plus lossless residual encoding -- IV. Lossy compression techniques -- Introduction -- Lossy predictive coding -- Transform coding -- Block truncation coding -- Vector quantization -- Subband coding -- Hierarchical coding -- Choosing a lossy compression technique -- Appendix Compression of color images",
+                "In order to utilize digital images effectively, specific techniques are needed to reduce the number of bits required for their representation. This Tutorial Text provides the groundwork for understanding these image compression tecniques and presents a number of different schemes that have proven useful. The algorithms discussed in this book are concerned mainly with the compression of still-frame, continuous-tone, monochrome and color images, but some of the techniques, such as arithmetic coding, have found widespread use in the compression of bilevel images. Both lossless (bit-preserving) and lossy techniques are considered. A detailed description of the compression algorithm proposed as the world standard (the JPEG baseline algorithm) is provided. The book contains approximately 30 pages of reconstructed and error images illustrating the effect of each compression technique on a consistent image set, thus allowing for a direct comparison of bit rates and reconstucted image quality. For each algorithm, issues such as quality vs. bit rate, implementation complexity, and susceptibility to channel errors are considered"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:10182148-7"
+            },
+            "isPartOf": "(collectioncode)ZDB-50-SPI",
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "v. TT 7",
+            "isLike": "doi:10.1117/3.34917",
+            "P30128": "Tutorial texts in optical engineering",
+            "P60163": "Bellingham, Wash. <1000 20th St. Bellingham WA 98225-6705 USA>"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

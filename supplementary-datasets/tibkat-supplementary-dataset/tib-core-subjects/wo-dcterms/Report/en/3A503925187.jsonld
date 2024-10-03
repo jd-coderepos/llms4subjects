@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A503925187",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (15 Seiten, 152 kB)",
+            "creator": [
+                "Shalimova, Irina",
+                "Levykin, Alexander",
+                "Sabelfeld, Karl"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:503925187",
+                "(ppn)503925187"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=ddc)519.282",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Random walk on fixed spheres method for electro- and elastostatics",
+            "abstract": "Stochastic algorithms for solving Dirichlet boundary value problems for the Laplace and Lame equations governing 2D elasticity problems are developed. The approach presented is based on the Poisson integral formula written for each disc of a domain consisting of a family of overlapping discs. The original differential boundary value problem is reformulated in the form of equivalent system of integral equations defined on the intersection surfaces, i.e., arcs in 2D. A Random Walk algorithm can be applied then directly to the obtained system of integral equations where the random walks are living on the intersecting surfaces. We develop also a discrete random walk technique for solving the system of linear equations approximating the system of integral equations. We construct a randomized version of the successive over relaxation (SOR) method. In [6] we have demonstrated that in the case of classical potential theory our method considerably improves the convergence rate of the standard Random Walk on Spheres method. In this paper we extend the algorithm to the system of Lame equations which cannot be solved by the conventional Random Walk on Spheres method. Illustrating computations for 2D Laplace and Lame equations, and comparative analysis of different stochastic algorithms are presented.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1073",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

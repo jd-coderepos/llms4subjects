@@ -1,0 +1,116 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1216252750",
+            "sameAs": "Weise, Christoph"
+        },
+        {
+            "@id": "gnd:129394947",
+            "sameAs": "Reger, Johann"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4125617-7",
+            "sameAs": "Lineares System"
+        },
+        {
+            "@id": "gnd:4139504-9",
+            "sameAs": "Beobachter (Kybernetik)"
+        },
+        {
+            "@id": "gnd:4213493-6",
+            "sameAs": "Zeitinvariantes System"
+        },
+        {
+            "@id": "gnd:4365956-1",
+            "sameAs": "Ableitung gebrochener Ordnung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1747385522",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Ruderman, Michael",
+                "Mercorelli, Paolo"
+            ],
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)1747385522",
+                "(firstid)KXP:1747385522"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)515.3"
+            ],
+            "title": "Applications of equivalent representations of fractional- and integer-order linear time-invariant systems",
+            "abstract": "Nicht-ganzzahlige - fraktionale - Ableitungsoperatoren beschreiben Prozesse mit Ged\u00e4chtniseffekten, deshalb werden sie zur Modellierung verschiedenster Ph\u00e4nomene, z.B. viskoelastischen Verhaltens, genutzt. In der Regelungstechnik wird das Konzept vor allem wegen des erh\u00f6hten Freiheitsgrades im Frequenzbereich verwendet. Deshalb wurden in den vergangenen Dekaden neben einer Verallgemeinerung des PID-Reglers auch fortgeschrittenere Regelungskonzepte auf nicht-ganzzahlige Operatoren erweitert. Das Ged\u00e4chtnis der nicht-ganzzahligen Ableitung ist zwar essentiell f\u00fcr die Modellbildung, hat jedoch Nachteile, wenn z.B. Zust\u00e4nde gesch\u00e4tzt oder Regler implementiert werden m\u00fcssen: Das Ged\u00e4chtnis f\u00fchrt zu einer langsamen, algebraischen Konvergenz der Transienten und da eine numerische Approximation ist speicherintensiv. Im Zentrum der Arbeit steht die Frage, mit welchen Ma\u00dfnahmen sich das Konvergenzverhalten dieser nicht ganzzahligen Systeme beeinflussen l\u00e4sst. Es wird vorgeschlagen, die Ordnung der nicht ganzzahligen Ableitung zu \u00e4ndern. Zun\u00e4chst werden Beobachter f\u00fcr verschiedene Klassen linearer zeitinvarianter Systeme entworfen. Die Entwurfsmethodik basiert dabei auf einer assoziierten Systemdarstellung, welche einen Differenzialoperator mit h\u00f6herer Ordnung verwendet. Basierend auf dieser Systembeschreibung k\u00f6nnen Beobachter entworfen werden, welche das Ged\u00e4chtnis besser mit einbeziehen und so schneller konvergieren. Anschlie\u00dfend werden ganzzahlige lineare zeitinvariante Systeme mit Hilfe nicht-ganzzahliger Operatoren dargestellt. Dies erm\u00f6glicht eine erh\u00f6hte Konvergenz im Zeitintervall direkt nach dem Anfangszeitpunkt auf Grund einer unbeschr\u00e4nkten ersten Ableitung. Die periodische L\u00f6schung des so eingef\u00fchrten Ged\u00e4chtnisses wird erzielt, indem die nicht ganzzahlige Dynamik periodisch zur\u00fcckgesetzt wird. Damit wird der algebraischen Konvergenz entgegen gewirkt und exponentielle Stabilit\u00e4t erzielt. Der Reset reduziert den Speicherbedarf und induziert eine unterlagerte zeitdiskrete Dynamik. Diese bestimmt die Stabilit\u00e4t des hybriden nicht-ganzzahligen Systems und kann genutzt werden um den Frequenzgang f\u00fcr niedrige Frequenzen zu bestimmen. So lassen sich Beobachter und Regler f\u00fcr ganzzahlige System entwerfen. Im Rahmen des Reglerentwurfs k\u00f6nnen durch den Resets das Verhalten f\u00fcr niedrige und hohe Frequenzen in gewissen Grenzen getrennt voneinander entworfen werden.",
+            "contributor": "gnd:129394947",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1216252750"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4213493-6",
+                "gnd:4125617-7",
+                "gnd:4365956-1",
+                "gnd:4139504-9"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A670540064",
+            "@type": "bibo:Thesis",
+            "P1053": "XIV, 264 S.",
+            "contributor": "Engels, Gregor",
+            "creator": "Mlynarski, Michael",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)HBZ:CT004000734",
+                "(ppn)670540064"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)005",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc)005.14",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Holistic use of analysis models in model-based system testing",
+            "abstract": "Die heutigen Techniken des Softwaretestens m\u00fcssen der steigenden Komplexit\u00e4t von langlebigen Systemen gerecht werden. Derzeit erfreuen sich die Techniken des modellbasierten Testens (MBT) starkem Interesse sowohl in der Forschung als auch der Industrie. Obwohl MBT seit Jahrzehnten erforscht wird, gibt es praxisrelevante Probleme die bislang nicht gel\u00f6st worden sind. Im Kontext der modellbasierten Softwareentwicklung fehlt es an Ans\u00e4tzen die Entwicklermodelle automatisch wiederverwenden, dabei aber die interne Testqualit\u00e4t im Sinne der Vollst\u00e4ndigkeit, Verst\u00e4ndlichkeit, Analysierbarkeit oder Verfolgbarkeit der automatisch generierten Testartefakte betrachten. Insbesondere fehlt auf der Stufe des funktionalen Systemtests in MBT eine ganzheitliche Sicht auf Analysemodelle die unterschiedliche Modellierungssichten (wie Struktur, Verhalten und Interaktion) bei der Generierung eines Testmodells betrachten w\u00fcrde. Wir nennen es die holistische Sicht und untersuchen dessen Anwendung in MBT und die dabei entstehende Korrelation zu Verbesserung der internen Testqualit\u00e4t sowie des sinkenden Modellierungsaufwands. In dieser Arbeit stellen wir den holistischen MBT Testspezifikationsprozess vor, der die genannten Probleme behandelt. Der Prozess besteht aus vier Schritten, von denen zwei automatisch und zwei manuell durchgef\u00fchrt werden. Im ersten Schritt wird das Analysemodell, welches durch Business-Analysten erstellt wurde, von Testdesignern auf Testbarkeit gepr\u00fcft und mit einer Annotationssprache prorisiert. Im zweiten Schritt wird mit Hilfe mehrerer Algorithmen ein Testmodell generiert und die erreichte Modellabdeckung des Analysemodells automatisch berechnet. Das Testmodell wird im dritten Schritt manuell untersucht und um Testdaten erg\u00e4nzt. Am Ende werden konkrete Testf\u00e4lle in platformspezifischen Formaten automatisch generiert.. - Nowadays software testing techniques have to fulfill the requirements of growing complexity of evolving software systems. To handle the requirements current research is strongly interested in the field of model-based testing (MBT). While MBT is becom- ing the next generation of testing, using it in practice at the system test level two main problems arise: missing use of analysis models for testing purposes and low internal quality (as completeness, understandability, analysability or traceability) of automatically generated test artefacts. Those problems arise in the context of the model-driven development, when several inter-related modelling viewpoints of an analysis model (e.g. structure, behaviour and interaction) are not used while generating a test model. Such a holistic view on all viewpoints is needed to ensure the testability of the analysis model and to generate high-quality test artefacts from it. Therefore, a holistic usage of analysis models in functional model-based system testing is missing. In order to tackle the mentioned problems, we introduce a novel model-based test specification process. It consist of four steps, which result in automatically generated high quality test cases. In the first two steps a test model is automatically generated from a manually annotated analysis model. Afterwards, the test model has to be manually reviewed and extended with test data. In the last step concrete test cases are automatically generated. In our approach we use the meta-models of a representative analysis model from an industry research project and the customized meta-model of the UML Testing Profile. The whole approach is prototypically implemented and an experiment providing empirical evidence for the improvement of the internal test quality and improvement of the modelling effort is conducted.",
+            "alternative": "Holistiche Nutzung von Analysemodellen im modellbasierten Systemtest",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

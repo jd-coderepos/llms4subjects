@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1101593679",
+            "sameAs": "Goldsmith-Pinkham, Paul"
+        },
+        {
+            "@id": "gnd:1211404803",
+            "sameAs": "Hull, Peter"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1809718775",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "creator": "Koles\u00e1r, Michal",
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1809718775",
+                "(firstid)KEP:080140335"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Systematischer Fehler",
+                "Cross-Sectional Models; Spatial Models; Treatment Effect Models; Quantile Regressions",
+                "Kausalanalyse",
+                "Semiparametric and Nonparametric Methods: General",
+                "Theorie",
+                "Randomisierte kontrollierte Studie",
+                "Regressionsanalyse",
+                "Time-Series Models; Dynamic Quantile Regressions; Dynamic Treatment Effect Models; Diffusion Processes",
+                "General",
+                "(classificationName=linseach:automatic)mat"
+            ],
+            "title": "Contamination Bias in Linear Regressions",
+            "abstract": "We study the interpretation of regressions with multiple treatments and flexible controls. Such regressions are often used to analyze stratified randomized control trials with multiple intervention arms, to estimate value-added (for, e.g., teachers) with observational data, and to leverage the quasi-random assignment of decision-makers (e.g. bail judges). We show that these regressions generally fail to estimate convex averages of heterogeneous treatment effects, even when the treatments are conditionally randomly assigned and the controls are sufficiently flexible to avoid omitted variables bias. Instead, estimates of each treatment's effects are generally contaminated by a non-convex average of the effects of other treatments. Thus, recent concerns about heterogeneity-induced bias in regressions leveraging potential outcome restrictions (e.g. parallel trends assumptions) also arise with \"design-based\" identification strategies. We discuss solutions to the contamination bias and propose a new class of efficient estimators of weighted average effects that avoid bias. In a re-analysis of the Project STAR trial, we find minimal bias because treatment effect heterogeneity is largely idiosyncratic. But sizeable contamination bias arises when effect heterogeneity becomes correlated with treatment propensity scores",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:39157-8"
+                },
+                {
+                    "@id": "gnd:1101593679"
+                },
+                {
+                    "@id": "gnd:1211404803"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w30108",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

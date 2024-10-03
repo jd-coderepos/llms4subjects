@@ -1,41 +1,28 @@
+Welcome to the LLMs4Subjects SemEval 2025 Shared Task Dataset Repository! 
+
 # About
 
-The `llms4subjects` repository hosts data designed for a task that involves using large language models (LLMs) for automated subject tagging within the [TIB](https://www.tib.eu/)'s (German National Library of Science and Technology) open access catalogue of technical records, known as TIBKAT, restricted to only those with abstracts metadata. This collection can be browsed on the TIB portal [here](https://www.tib.eu/en/search?tx_tibsearch_search%5Baction%5D=search&tx_tibsearch_search%5Bcnt%5D=20&tx_tibsearch_search%5Bcontroller%5D=Search&tx_tibsearch_search%5BgroupField%5D=matchTitleTypeFirstAuthor_str&tx_tibsearch_search%5Bpg%5D=1&tx_tibsearch_search%5Bquery%5D=prefix%3Atibkat%20%2Babstract%3A%2A%20%2BxmlPath%3Asubject%2F%40type%3Dgnd&cHash=f451c3e5094da4379c764584d10afc8d). The collection, which includes a variety of records like articles, conference proceedings, and books, is already open access but is re-released in this repository as it is specifically systematically re-organized to introduce researchers to the collection, its various formats, and to thereby facilitate researchers to more easily develop their LLM-based applications. The aim is to leverage the best system as the outcome of the proposed task for the automated subject tagging of TIB's future collections, supporting a broader vision of enhancing efficiency through technology.
+The `LLMs4Subjects` shared task invites the research community to develop cutting-edge, LLM-based semantic solutions for automated subject indexing of the TIB—the German National Library of Science and Technology's ever-growing collection of technical records in various natural languages. This task, also known as subject tagging or subject classification, utilizes the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information such as people, organizations, topics, and works.
+
+To support the development of systems for the **LLMs4Subjects** shared task, we provide participants with two types of datasets:
+
+1. **Curated, human-readable form of the GND subjects' taxonomy**.
+2. **A large-scale dataset of technical records from the TIB's open-access collection, annotated with GND subjects and available in either English or German**.
+
+Although the TIB's technical records span various languages, this shared task focuses on the most representative collections in English and German. We have leveraged the TIB's open-access catalogue of technical records, known as TIBKAT, restricting it to records that include abstract metadata. This collection can be dynamically browsed on the TIB portal [here](https://www.tib.eu/en/search?tx_tibsearch_search%5Baction%5D=search&tx_tibsearch_search%5Bcnt%5D=20&tx_tibsearch_search%5Bcontroller%5D=Search&tx_tibsearch_search%5BgroupField%5D=matchTitleTypeFirstAuthor_str&tx_tibsearch_search%5Bpg%5D=1&tx_tibsearch_search%5Bquery%5D=prefix%3Atibkat%20%2Babstract%3A%2A%20%2BxmlPath%3Asubject%2F%40type%3Dgnd&cHash=f451c3e5094da4379c764584d10afc8d). While the overall collection includes various types of technical records, this shared task focuses only on its most representative types: `article`, `book`, `conference`, `report`, and `thesis`. Therefore, the official shared task dataset comprises records of only these five types.
+
+For convenience of our participants, both the GND and the TIBKAT has been reorganized and appropriately formated with human-readable tags and released as the official shared task dataset in this repository. We have noted that standardized library taxonomies and collections refer to age-old identifier mechanisms and ridden with codes. Processing and interpreting all the codes can take a considerable amount of time. Hence for the shared task, also in consultation with the TIB's subject matter experts, we have preprocessed the raw datatsets for both the GND and TIBKAT including its fine-grained coding and converted them into human-readable formats which should help the LLMs4Subjects participants download the relevant data and get started right away.
+
+
+This shared task offers the research community an opportunity to creatively utilize LLMs for subject tagging of technical records based on the GND taxonomy. Systems need to demonstrate bilingual language modeling by understanding technical documents in both German and English. Moreover, successful solutions may be directly integrated into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library.
 
 
 # Repositories Included
 
-- **Dataset Repository:** The [dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/dataset) repository houses the main training and testing datasets for the shared task. Given that the TIBKAT collections are primarily in German and English, this task will only evaluate LLMs capable of processing both languages.
+- **Shared Task Dataset Repository:** The [dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets) repository includes the training and developments sets for both the GND subjects taxonomy files and the TIBKAT records. Participants of the `LLMs4Subjects` shared task are requested to download the relevant files from this repository for their systems development.
 
-- **Supplementary Dataset Repository:** The [supplementary-dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-dataset) repository includes records from TIBKAT that are not part of the main dataset due to being in languages other than English or German, or because the dataset for a specific record type is too sparse. Although the focus is on English and German, these records are made available for participants to utilize as needed.
+- **Supplementary Dataset Repository:** The [supplementary-dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-datasets) repository
 
-- **Analysis Repository:** The [analysis](https://github.com/jd-coderepos/llms4subjects/tree/main/analysis) repository contains statistical information and files detailing the TIBKAT collection's composition, which helped in organizing the main and supplementary datasets.
+ includes records from TIBKAT that are not part of the main dataset due to being in languages other than English or German, or because the dataset for a specific record type is too sparse. Although the focus is on English and German, these records are made available for participants to utilize as needed.
 
-- **GND How-To Repository:** The [gnd-how-to](https://github.com/jd-coderepos/llms4subjects/tree/main/gnd-how-to) repository provides an introduction to the GND (Gemeinsame Normdatei or Integrated Authority File) taxonomy used for subject classification in TIBKAT, along with detailed instructions on accessing and using the relevant taxonomy file for the collection.
-
-
-# Released TIBKAT dataset records format
-
-This guide provides an overview of how to interpret a TIBKAT record, with a particular focus on understanding the `dcterms:subject` property. This property is part of the Dublin Core Metadata Element Set, a standard used for describing the content and metadata of web resources.
-
-## Understanding TIBKAT Records
-TIBKAT records contain metadata about various resources, such as books, journals, and digital files, cataloged by the German National Library of Science and Technology. These records are structured in a way that includes multiple properties, each describing a different aspect of the resource.
-
-### [The `dcterms:subject` Property](#how-to-subjects)
-The `dcterms` subject property (often represented as `<dc:subject>` in XML or similar syntax) is used to describe the subject or topics covered by the resource. This can include keywords, phrases, or classification codes that reflect the content of the resource. The TIBKAT records subject annotations were made by a dedicated team of 17 expert subject specialists responsible for 28 different subjects, viz. Architecture, Civil Engineering, Biochemistry, Biology, Chemistry, Chemical Engineering, Electrical Engineering, Energy Technology, Educational Science, Earth Sciences, History, Information Technology, Literary Studies and Linguistics, Mechanical Engineering, Mathematics, Medical Technology, Plant Sciences, Philosophy, Physics, Law, Study of Religions, Social Sciences, Sports Sciences, Theology, Environmental Engineering, Traffic Engineering, Materials Science, and Economics.
-
-#### How to read the `dcterms:subject` property
-
-1. **Access the TIBKAT Record:** Begin by accessing the released JSON-LD TIBKAT records in the dataset or supplementary dataset folders.
-
-2. **Locate the `dcterms:subject` Property:** Within the record, look for the `dcterms:subject` property. This property can have one or more subject headings. Each subject heading is obtained from the GND Sachbegriff (subject headings) taxonomy. More information on the GND as it pertains to TIBKAT can be found [here](https://github.com/jd-coderepos/llms4subjects/tree/main/gnd-how-to). 
-
-3. **Interpret the Subject Entries:** Each entry under the `dcterms:subject` property represents a subject or topic that the resource relates to. These entries are available as:
-   - **Classification Codes:** Standardized GND subject heading codes can be found as values.
-
-4. **Use the Subjects for Research:** Within libaray systems, the subjects codes listed under the `dcterms:subject` property when mapped to their labels can be valuable for understanding the focus of the resource, conducting research, or finding related materials in the catalog.
-
-## Conclusion
-
-Understanding the `dcterms:subject` property within TIBKAT records is crucial for researchers, librarians, and anyone looking to categorize or find resources based on their subject matter. By focusing on this property, users can gain insights into the content and relevance of resources cataloged in the TIBKAT system.
 

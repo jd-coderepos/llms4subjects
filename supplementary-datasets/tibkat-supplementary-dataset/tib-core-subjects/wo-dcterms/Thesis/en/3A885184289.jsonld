@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:112868005X",
+            "sameAs": "Lawrinenko, Alexander"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A885184289",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (164 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:885184289",
+                "(ppn)885184289"
+            ],
+            "subject": [
+                "(classificationName=ddc)658.5",
+                "(classificationName=rvk)ZM 9200",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=rvk)QP 542",
+                "Scheduling-Verfahren",
+                "Produktionsplanung",
+                "(classificationName=bk, id=106405373)83.03 - Methoden und Techniken der Volkswirtschaft",
+                "Branch-and-Bound",
+                "(classificationName=ddc-dbn)650",
+                "Algorithmus"
+            ],
+            "title": "Identical parallel machine scheduling problems : structural patterns, bounding techniques and solution procedures",
+            "abstract": "The work is about fundamental parallel machine scheduling problems which occur in manufacturing systems where a set of jobs with individual processing times has to be assigned to a set of machines with respect to several workload objective functions like makespan minimization, machine covering or workload balancing. In the first chapter of the work an up-to-date survey on the most relevant literature for these problems is given, since the last review dealing with these problems has been published almost 20 years ago. We also give an insight into the relevant literature contributed by the Artificial Intelligence community, where the problem is known as number partitioning. The core of the work is a universally valid characterization of optimal makespan and machine-covering solutions where schedules are evaluated independently from the processing times of the jobs. Based on these novel structural insights we derive several strong dominance criteria. Implemented in a branch-and-bound algorithm these criteria have proved to be effective in limiting the solution space, particularly in the case of small ratios of the number of jobs to the number of machines. Further, we provide a counter-example to a central result by Ho et al. (2009) who proved that a schedule which minimizes the normalized sum of squared workload deviations is necessarily a makespan-optimal one. We explain why their proof is incorrect and present computational results revealing the difference between workload balancing and makespan minimization. The last chapter of the work is about the minimum cardinality bin covering problem which is a dual problem of machine-covering with respect to bounding techniques. We discuss reduction criteria, derive several lower bound arguments and propose construction heuristics as well as a subset sum-based improvement algorithm. Moreover, we present a tailored branch-and-bound method which is able to solve instances with up to 20 bins.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:112868005X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/zbw/883726114.pdf",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

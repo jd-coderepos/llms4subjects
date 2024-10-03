@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1028791852",
+            "sameAs": "Schr\u00f6der, Ulf-Peter"
+        },
+        {
+            "@id": "gnd:114399213X",
+            "sameAs": "Berenbrink, Petra"
+        },
+        {
+            "@id": "gnd:115498370",
+            "sameAs": "H\u00fcllermeier, Eyke"
+        },
+        {
+            "@id": "gnd:134054741",
+            "sameAs": "Skopalik, Alexander"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1005070784",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 130 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Meyer auf der Heide, Friedhelm",
+            "creator": "Riechers, S\u00f6ren",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1005070784",
+                "(doi)10.17619/UNIPB/1-231",
+                "(firstid)HBZ:CT004001996"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)000"
+            ],
+            "title": "Scheduling with scarce resources",
+            "abstract": "Heutzutage ist in gro\u00dfen Daten- und Rechenzentren oft nicht mehr die Rechenkapazit\u00e4t der Flaschenhals des Systems, sondern der Speicher oder die verf\u00fcgbare Datenrate. Scheduling-Algorithmen treffen Entscheidungen, wie Jobs an einzelnen Knoten abgearbeitet werden, aber ber\u00fccksichtigen meistens keine zus\u00e4tzlichen Ressourceneinschr\u00e4nkungen in bez\u00fcglich des gesamten Rechenzentrums. In dieser Arbeit sollen solche globalen Ressourcen ber\u00fccksichtigt werden.Es werden vier Modelle entsprechende eingef\u00fchrt: Die ersten drei Modelle \u00e4hneln sich insofern, dass jeweils eine Ressource mit begrenzter Kapazit\u00e4t von mehreren Prozessoren geteilt wird, und das Ziel gr\u00f6\u00dftenteils darin besteht, die Gesamtabarbeitungszeit zu minimieren. Im ersten Modell liegt der Fokus auf der Zuordnung der Ressource zu den Prozessoren, w\u00e4hrend die Jobs zusammen mit ihrer Reihenfolge den Prozessoren bereits zugewiesen sind. Im zweiten Modell werden Kommunikationsanforderungen zwischen Jobs betrachtet, die auf einem gemeinsamen Kommunikationskanal erf\u00fcllt werden m\u00fcssen. Das dritte Modell ist allgemeiner insofern, dass Jobs an Prozessoren verteilt werden m\u00fcssen, aber auch die Ressource noch zugeteilt werden muss.Das vierte Modell erfasst dagegen m\u00f6gliche Strategien f\u00fcr hochdynamische Systeme, in denen kontinuierlich ver\u00e4nderliche Beschr\u00e4nkungen eingehalten werden m\u00fcssen. Genauer wird hier der Energieverbrauch eines einzelnen Prozessors unter dynamischen Geschwindigkeitsschranken und variablen Energiekosten minimiert.. - In today's data and computing centers, the available computing power of a system often is sufficient, but memory and the data rate become the bottleneck instead. Scheduling algorithms usually deal with the assignment of jobs to processors, but without any global constraint on the computing center as a whole. In this thesis, new scheduling problems incorporating such global properties are introduced. Four (slightly) different models capturing aspects of these properties are studied.The first three models are similar in that a resource with a limited capacity is shared among multiple processors, and mostly the objective is to minimize the makespan, i.e., the time until all jobs are completed. The focus of the first model is on the assignment of the resource to the processors, where for each processor a queue of jobs is already fixed. The second model focuses on interjob communication, where given communication requirements between jobs need to be scheduled on a common communication channel. Finally, the third model is the most general case, where jobs with a certain resource requirement need to be scheduled on the different processors, but the resource has to be assigned as well.On the other hand, the fourth model captures possible strategies for highly dynamic systems, where constraints may even change continuously over time. Here, the energy consumption of a single processor is minimized while adhering to variable speed limits and incorporating fluctuating energy costs.",
+            "alternative": "Scheduling mit knappen Ressourcen",
+            "contributor": [
+                "gnd:115498370",
+                "gnd:134054741",
+                "gnd:1028791852",
+                "gnd:114399213X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-231",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
