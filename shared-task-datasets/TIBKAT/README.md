@@ -18,10 +18,12 @@ Each dataset folder is organized into two directories: `data`, which contains th
 
 ## 🧐 How to interpret a Formatted Record in the TIBKAT shared task dataset
 
+Each technical record in the repositories linked above is provided 
+
 This guide provides an overview of how to interpret a TIBKAT record, with a particular focus on understanding the `dcterms:subject` property. This property is part of the Dublin Core Metadata Element Set, a standard used for describing the content and metadata of web resources.
 
 ### Understanding TIBKAT Records
-TIBKAT records contain metadata about various resources, such as books, journals, and digital files, cataloged by the German National Library of Science and Technology, i.e. the TIB. These records are structured in a way that includes multiple properties, each describing a different aspect of the resource.
+TIBKAT records contain metadata about various resources, such as books, journals, and digital files, and are structured in a way that includes multiple properties, each describing a different aspect of the resource.
 
 #### [The `dcterms:subject` Property](#how-to-subjects)
 The `dcterms` subject property (often represented as `<dc:subject>` in XML or similar syntax) is used to describe the subject or topics covered by the resource. This can include keywords, phrases, or classification codes that reflect the content of the resource. The TIBKAT records subject annotations were made by a dedicated team of 17 expert subject specialists responsible for 28 different subjects, viz. Architecture, Civil Engineering, Biochemistry, Biology, Chemistry, Chemical Engineering, Electrical Engineering, Energy Technology, Educational Science, Earth Sciences, History, Information Technology, Literary Studies and Linguistics, Mechanical Engineering, Mathematics, Medical Technology, Plant Sciences, Philosophy, Physics, Law, Study of Religions, Social Sciences, Sports Sciences, Theology, Environmental Engineering, Traffic Engineering, Materials Science, and Economics.
