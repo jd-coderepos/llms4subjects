@@ -2,7 +2,7 @@
 
 ## 💡 About
 
-The **LLMs4Subjects** shared task invites the research community 🤝 to develop cutting-edge, LLM-based semantic solutions for automated subject indexing 📑 of [TIB](https://www.tib.eu/en/)—the German National Library of Science and Technology’s ever-growing collection of technical records 📚 in various natural languages. This task, also known as subject tagging or subject classification, leverages the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works.
+The **LLMs4Subjects** shared task invites the research community 🤝 to develop cutting-edge, LLM-based semantic solutions for automated subject indexing 📑 of [TIB](https://www.tib.eu/en/)—the German National Library of Science and Technology’s ever-growing collection of technical records in various natural languages. This task, also known as subject tagging or subject classification, leverages the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works.
 
 
 To support the development of systems for the **LLMs4Subjects** shared task, we provide participants with two types of datasets:
