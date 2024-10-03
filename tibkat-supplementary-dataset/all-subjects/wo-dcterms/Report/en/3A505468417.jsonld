@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A505468417",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (39 S., 1,14 MB)",
+            "contributor": [
+                "Helmberg, Christoph",
+                "R\u00f6hl, Stefan"
+            ],
+            "identifier": [
+                "(ppn)505468417",
+                "(firstid)GBV:505468417"
+            ],
+            "publisher": "ZIB",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "A case study of joint online truck scheduling and inventory management for multiple warehouses",
+            "abstract": "For a real world problem -- transporting pallets between warehouses in order to guarantee sufficient supply for known and additional stochastic demand -- we propose a solution approach via convex relaxation of an integer programming formulation, suitable for online optimization. The essential new element linking routing and inventory management is a convex piecewise linear cost function that is based on minimizing the expected number of pallets that still need transportation. For speed, the convex relaxation is solved approximately by a bundle approach yielding an online schedule in 5 to 12 minutes for up to 3 warehouses and 40000 articles; in contrast, computation times of state of the art LP-solvers are prohibitive for online application. In extensive numerical experiments on a real world data stream, the approximate solutions exhibit negligible loss in quality; in long term simulations the proposed method reduces the average number of pallets needing transportation due to short term demand to less than half the number observed in the data stream.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2005, 11",
+            "P30128": "ZIB-report",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

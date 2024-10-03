@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1005462283",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (VIII, 204 Seiten)",
+            "creator": "Monsees, Fabian",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1005462283",
+                "(firstid)GBV:1005462283"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Signal processing for compressed sensing multiuser detection",
+            "abstract": [
+                "Signal Processing, Compressed Sensing, Multiuser Detection, Machine to Machine Communication, Machine Type Communication, Bayesian Inference.",
+                "The era of human based communication was longly believed to be the main driver for the development of communication systems. Already nowadays we observe that other types of communication impact the discussions of how future communication system will look like. One emerging technology in this direction is machine to machine (M2M) communication. M2M addresses the communication between autonomous entities without human interaction in mind. A very challenging aspect is the fact that M2M strongly differ from what communication system were designed for. Compared to human based communication, M2M is often characterized by small and sporadic uplink transmissions with limited data-rate constraints. While current communication systems can cope with several 100 transmissions, M2M envisions a massive number of devices that simultaneously communicate to a central base-station. Therefore, future communication systems need to be equipped with novel technologies facilitating the aggregation of massive M2M. The key design challenge lies in the efficient design of medium access technologies that allows for efficient communication with small data packets. Further, novel physical layer aspects have to be considered in order to reliable detect the massive uplink communication. Within this thesis physical layer concepts are introduced for a novel medium access technology tailored to the demands of sporadic M2M. This concept combines advances from the field of sporadic signal processing and communications. The main idea is to exploit the sporadic structure of the M2M traffic to design physical layer algorithms utilizing this side information. This concept considers that the base-station has to jointly detect the activity and the data of the M2M nodes. The whole framework of joint activity and data detection in sporadic M2M is known as Compressed Sensing Multiuser Detection (CS-MUD). This thesis introduces new physical layer concepts for CS-MUD. One important aspect is the question of how the activity detection impacts the data detection. It is shown that activity errors have a fundamentally different impact on the underlying communication system than data errors have. To address this impact, this thesis introduces new algorithms that aim at controlling or even avoiding the activity errors in a system. It is shown that a separate activity and data detection is a possible approach to control activity errors in M2M. This becomes possible by considering the activity detection task in a Bayesian framework based on soft activity information. This concept allows maintaining a constant and predictable activity error rate in a system. Beyond separate activity and data detection, the joint activity and data detection problem is addressed. Here a novel detector based on message passing is introduced. The main driver for this concept is the extrinsic information exchange between different entities being part of a graphical representation of the whole estimation problem. It can be shown that this detector is superior to state-of-the-art concepts for CS-MUD. Besides analyzing the concepts introduced simulatively, this thesis also shows an implementation of CS-MUD on a hardware demonstrator platform using the algorithms developed within this thesis. This implementation validates that the advantages of CS-MUD via over-the-air transmissions and measurements under practical constraints."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

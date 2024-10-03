@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1130181243",
+            "sameAs": "Malkmus, Tobias"
+        },
+        {
+            "@id": "gnd:4077970-1",
+            "sameAs": "Str\u00f6mungsmechanik"
+        },
+        {
+            "@id": "gnd:4314754-9",
+            "sameAs": "Fluid-Struktur-Wechselwirkung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1737404540",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (154 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1737404540",
+                "(contract)FRUB-opus-167636",
+                "(ppn)1737404540",
+                "(doi)10.6094/UNIFR/167636"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)532",
+                "(classificationName=bk, id=106413783)50.33 - Technische Str\u00f6mungsmechanik",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)tec"
+            ],
+            "title": "Fluid-structur-interaction simulations of non-Newtonian fluids interacting with thin elastic koiter shells",
+            "abstract": "Abstract: In this thesis we consider the numerical treatment of fluid-structure interaction prob- lems. We focus on incompressible non-Newtonian fluids interacting with thin elastic Koiter shells. In this thesis we develop tools, which are necessary for the numerical simulation of fluid-structure interaction problems. We start with a short introduc- tion into the mathematical description of an incompressible non-Newtonian fluids and the Koiter shell model. The mathematical model consists of the generalized incompressible Navier-Stokes equations, where the extra stress tensor is assumed to have a (p, \u03b4)-structure, and the equation for a thin elastic Koiter shell model. Both equations are coupled by the assumption of continuous velocities, continuous displacements and the continuity of stresses. The Arbitrary Lagrangian-Euelerian (ALE) approach is used in order to take into account the movement of the com- putational domain. The fluid-structure interaction model is presented in its nat- ural framework and in the ALE framework. For non-Newtonian fluids we present the discretization on moving domains using the Discontinuous Galerkin methods. Three different Discontinuous Galerkin methods will be presented, that are designed to solve numerically accurate problems where the extra stress tensor has a (p, \u03b4)- structure. We present series of experiments including numerical error analysis, com- parison of the proposed numerical schemes in terms of accuracy and efficiency. For the thin elastic Koiter shell model, we present the discretization using the so-called Surface-Finite-Element method and analyse the approximation quality in numerical experiments. Finally, we describe two different types of discrete coupling strategies, a direct approach which uses nested sub-iterations and the so-called kinematic cou- pling approach. Numerical analysis and extensive experimental study for standard geometries confirm reliability and accuracy of the proposed schemes in order to ap- proximate fluid-structure interaction problems of non-Newtonian fluids interacting with thin elastic structures",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1130181243",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4077970-1"
+                },
+                {
+                    "@id": "gnd:4314754-9"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/167636",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

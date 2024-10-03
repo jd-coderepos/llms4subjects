@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A744980925",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 175 p)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Sansen, Willy",
+                "Gielen, Georges"
+            ],
+            "creator": "Lampaert, Koen",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:744980925",
+                "(ppn)744980925",
+                "(isbn13)9781475745016",
+                "(doi)10.1007/978-1-4757-4501-6"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)621.3815",
+                "Computer engineering",
+                "Engineering",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf",
+                "Electrical engineering.",
+                "Electronic circuits.",
+                "(classificationName=loc)TK7888.4",
+                "Systems engineering"
+            ],
+            "title": "Analog Layout Generation for Performance and Manufacturability",
+            "abstract": "Analog integrated circuits are very important as interfaces between the digital parts of integrated electronic systems and the outside world. A large portion of the effort involved in designing these circuits is spent in the layout phase. Whereas the physical design of digital circuits is automated to a large extent, the layout of analog circuits is still a manual, time-consuming and error-prone task. This is mainly due to the continuous nature of analog signals, which causes analog circuit performance to be very sensitive to layout parasitics. The parasitic elements associated with interconnect wires cause loading and coupling effects that degrade the frequency behaviour and the noise performance of analog circuits. Device mismatch and thermal effects put a fundamental limit on the achievable accuracy of circuits. For successful automation of analog layout, advanced place and route tools that can handle these critical parasitics are required. In the past, automatic analog layout tools tried to optimize the layout without quantifying the performance degradation introduced by layout parasitics. Therefore, it was not guaranteed that the resulting layout met the specifications and one or more layout iterations could be needed. In Analog Layout Generation for Performance and Manufacturability, the authors propose a performance driven layout strategy to overcome this problem. In this methodology, the layout tools are driven by performance constraints, such that the final layout, with parasitic effects, still satisfies the specifications of the circuit. The performance degradation associated with an intermediate layout solution is evaluated at runtime using predetermined sensitivities. In contrast with other performance driven layout methodologies, the tools proposed in this book operate directly on the performance constraints, without an intermediate parasitic constraint generation step. This approach makes a complete and sensible trade-off between the different layout alternatives possible at runtime and therefore eliminates the possible feedback route between constraint derivation, placement and layout extraction. Besides its influence on the performance, layout also has a profound impact on the yield and testability of an analog circuit. In Analog Layout Generation for Performance and Manufacturability, the authors outline a new criterion to quantify the detectability of a fault and combine this with a yield model to evaluate the testability of an integrated ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1999",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "501",
+            "isLike": "doi:10.1007/978-1-4757-4501-6",
+            "P30128": "The Springer International Series in Engineering and Computer Science, Analog Circuits and Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

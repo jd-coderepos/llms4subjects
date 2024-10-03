@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1168810922",
+            "sameAs": "D\u00fchrkop, Kai"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4207952-4",
+            "sameAs": "Tandem-Massenspektrometrie"
+        },
+        {
+            "@id": "gnd:7535626-0",
+            "sameAs": "Fragmentierung (Informatik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1032674148",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (155 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.35296",
+                "(ppn)1032674148",
+                "(firstid)GBV:1032674148"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=bk, id=106417312)35.26 - Massenspektrometrie",
+                "(classificationName=linseach:mapping)che",
+                "(classificationName=bk, id=106417231)35.06 - Computeranwendungen"
+            ],
+            "title": "Computational methods for small molecule identification",
+            "abstract": "Identification of small molecules remains a central question in analytical chemistry, in particular for natural product research, metabolomics, environmental research, and biomarker discovery. Mass spectrometry is the predominant technique for high-throughput analysis of small molecules. But it reveals only information about the mass of molecules and, by using tandem mass spectrometry, about the mass of molecular fragments. Automated interpretation of mass spectra is often limited to searching in spectral libraries, such that we can only dereplicate molecules for which we have already recorded reference mass spectra. In this thesis we present methods for answering two central questions: What is the molecular formula of the measured ion and what is its molecular structure? SIRIUS is a combinatorial optimization method for annotating a spectrum and identifying the ion's molecular formula by computing hypothetical fragmentation trees. We present a new scoring for computing fragmentation trees, transforming the combinatorial optimization into a maximum a posteriori estimator. This allows us to learn parameters and hyperparameters of the scoring directly from data. We demonstrate that the statistical model, which was fitted on a small dataset, generalises well across many different datasets and mass spectrometry instruments. In addition to tandem mass spectra, isotope pattern can be used for identifying the molecular formula of the precursor ion. We present a novel scoring for comparing isotope patterns based on maximum likelihood. We describe how to integrate the isotope pattern analysis into the fragmentation tree optimisation problem to analyse  data were fragment peaks and isotope peaks occur within the same spectrum. We demonstrate that the new scorings significantly improves on the task of molecular formula assignment. We evaluate SIRIUS on several datasets and show that it outperforms all other methods for molecular formula annotation by a large margin. We also present CSI:FingerID, a method for predicting a molecular fingerprint from a tandem mass spectrum using kernel support vector machines. The predicted fingerprint can be searched in a structure database to identify the molecular structure. CSI:FingerID is based on FingerID, that uses probability product kernels on mass spectra for this task. We describe several novel kernels for comparing fragmentation trees instead of spectra. These kernels are combined using multiple kernel learning. We present a new scoring based on posterior probabilities and extend the method to use additional molecular fingerprints. We demonstrate on several datasets that CSI:FingerID identifies more molecules than its predecessor FingerID and outperforms all other methods for this task. We analyse how each of the methodological improvements of CSI:FingerID contributes to its identification performance and make suggestions for future improvements of the method. Both methods, SIRIUS and CSI:FingerID, are available as commandline tool and as user interface. The molecular fingerprint prediction is implemented as web service and receives over one million requests per month.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1168810922",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4207952-4"
+                },
+                {
+                    "@id": "gnd:7535626-0"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.35296",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

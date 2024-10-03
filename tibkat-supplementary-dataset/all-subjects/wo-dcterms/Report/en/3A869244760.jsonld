@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:111231787",
+            "sameAs": "Polzehl, J\u00f6rg"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869244760",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (20 Seiten, 2.941 kB)",
+            "creator": "Tabelow, Karsten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)869244760",
+                "(firstid)GBV:869244760"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Modeling high resolution MRI: Statistical issues with low SNR",
+            "abstract": "Noise is a common issue for all Magnetic Resonance Imaging (MRI) techniques and obviously leads to variability of the estimates in any model describing the data. A number of special MR sequences as well as increasing spatial resolution in MR experiments further diminish the signal-to-noise ratio (SNR). However, with low SNR the expected signal deviates from its theoretical value. Common modeling approaches therefore lead to a bias in estimated model parameters. Adjustments require an analysis of the data generating process and a characterization of the resulting distribution of the imaging data. We provide an adequate quasi-likelihood approach that employs these characteristics. We elaborate on the effects of typical data preprocessing and analyze the bias effects related to low SNR for the example of the diffusion tensor model in diffusion MRI. We then demonstrate that the problem is relevant even for data from the Human Connectome Project, one of the highest quality diffusion MRI data available so far.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:111231787"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2179",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

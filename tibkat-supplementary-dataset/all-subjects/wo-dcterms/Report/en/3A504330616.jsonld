@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:121035409",
+            "sameAs": "Hau\u00dfer, Frank"
+        },
+        {
+            "@id": "gnd:1214655343",
+            "sameAs": "B\u00e4nsch, Eberhard"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504330616",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (34 Seiten, 1,75 MB)",
+            "creator": [
+                "Voigt, Axel",
+                "Lakkis, Omar",
+                "Li, Bo"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)504330616",
+                "(firstid)GBV:504330616"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Finite element method for epitaxial growth with attachment-detachment kinetics",
+            "abstract": "An adaptive finite element method is developed for a class of free or moving boundary problems modeling island dynamics in epitaxial growth. Such problems consist of an adatom (adsorbed atom) diffusion equation on terraces of different height, boundary conditions on terrace boundaries including the kinetic asymmetry in the adatom attachment and detachment, and the normal velocity law for the motion of such boundaries determined by a two-sided flux, together with the one-dimensional ``surface'' diffusion. The problem is solved using two independent meshes: a two-dimensional mesh for the adatom diffusion and a one-dimensional mesh for the boundary evolution. The diffusion equation is discretized by the first-order implicit scheme in time and the linear finite element method in space. A technique of extension is used to avoid the complexity in the spatial discretization near boundaries. All the elements are marked, and the marking is updated in each time step, to trace the terrace height. The evolution of the terrace boundaries includes both the mean curvature flow and the surface diffusion. Its governing equation is solved by a semi-implicit front-tracking method using parametric finite elements ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1214655343"
+                },
+                {
+                    "@id": "gnd:121035409"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 848",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A893733334",
+            "@type": "bibo:Conference",
+            "P1053": "1 Online-Ressource (xvii, 427 Seiten)",
+            "creator": "Shun, Julia",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Diagramme"
+            ],
+            "identifier": [
+                "(ppn)893733334",
+                "(isbn13)9781970001891",
+                "(doi)10.1145/3018787",
+                "(isbn13)9781970001907",
+                "(firstid)GBV:893733334"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.275",
+                "Parallel programming (Computer science)",
+                "Electronic books",
+                "Parallel computers ; Programming"
+            ],
+            "title": "Shared-memory parallelism can be simple, fast and scalable",
+            "abstract": "Parallelism is the key to achieving high performance in computing. However, writing efficient and scalable parallel programs is notoriously difficult, and often requires significant expertise. To address this challenge, it is crucial to provide programmers with high-level tools to enable them to develop solutions easily, and at the same time emphasize the theoretical and practical aspects of algorithm design to allow the solutions developed to run efficiently under many different settings. This book, a revised version of the thesis that won the 2015 ACM Doctoral Dissertation Award, addresses this challenge using a three-pronged approach consisting of the design of shared-memory programming techniques, frameworks, and algorithms for important problems in computing. It provides evidence that with appropriate programming techniques, frameworks, and algorithms, shared-memory programs can be simple, fast, and scalable, both in theory and in practice. The results serve to ease the transition into the multicore era. The book starts by introducing tools and techniques for deterministic parallel programming, including means for encapsulating nondeterminism via powerful commutative building blocks, as well as a novel framework for executing sequential iterative loops in parallel, which lead to deterministic parallel algorithms that are efficient both in theory and in practice. The book then introduces Ligra, the first high-level shared-memory framework for parallel graph traversal algorithms. The framework enables short and concise implementations that deliver performance competitive with that of highly optimized code and up to orders of magnitude faster than previous systems designed for distributed memory. Finally, the book bridges the gap between theory and practice in parallel algorithm design by introducing the first algorithms for a variety of important problems on graphs and strings that are both practical and theoretically efficient.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-15-ACA",
+                "(collectioncode)ZDB-15-ACM"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "15",
+            "isLike": "doi:10.1145/3018787",
+            "P30128": [
+                "ACM Books",
+                "ACM Digital Library"
+            ],
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

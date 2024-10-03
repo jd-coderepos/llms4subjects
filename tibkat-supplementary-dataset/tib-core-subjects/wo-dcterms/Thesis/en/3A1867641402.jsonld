@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1307901964",
+            "sameAs": "Collenberg, Maximilian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1867641402",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (195 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-88182",
+                "(firstid)KXP:1867641402",
+                "(ppn)1867641402"
+            ],
+            "subject": [
+                "Molekulare Evolution",
+                "(classificationName=ddc-dbn)570",
+                "Genom",
+                "(classificationName=linseach:mapping)bio",
+                "Gentechnologie",
+                "Genanalyse",
+                "Ackerschmalwand",
+                "Pflanzen"
+            ],
+            "title": "Arabidopsis thaliana genome assemblies and their use in hybrid transcriptome analyses",
+            "abstract": "Arabidopsis thaliana exhibits tremendous phenotypic and genotypic variation while having a rather small, mostly homozygous genome. It was the first plant where a sequenced genome became available in 2000. However, this reference genome has its limitations especially when it comes to highly repetitive regions which currently are not well resolved. Moreover, it is widely recognized that the full spectrum of genetic diversity of a species cannot be represented by a single reference genome. Besides fundamental research, A. thaliana is also used to tackle questions that are relevant to plant breeding. Two important fields here are plant immune (R) genes and heterosis in F1 hybrids. Plant immune genes often encode intracellular nucleotide-binding leucine-rich repeat receptors (NLRs) that enable the plant to directly or indirectly sense the presence of a pathogen via its effector proteins. Thus, knowing the NLR gene repertoire of a species is key to breed novel, more pathogen resistant plants. However, NLR genes are highly diverse even within a species, they can exhibit extensive presence-absence or copy number variation, and are often located in repetitive clusters. These three factors make it unlikely that this gene family can be assessed using a single reference genome that in addition has a lower resolution in highly repetitive regions. In the first part of my work I established a robust workflow for processing the latest PacBio HiFi long-read data. This enabled me to generate high quality genome assemblies for 18 differential A. thaliana lines with a high resolution in repetitive regions. I found that the genomes differ in size which I can explain with length variation in highly repetitive centromeric regions that are absent in the current gold-standard reference. In these 18 differential lines I annotated genes with a focus on NLRs. I found variation in the NLR gene repertoire of the 18 lines. Moreover, I annotated NLR genes that were not present in the current reference genome of A. thaliana. The crossing of two inbred parents leads to the generation of F1 hybrids. Heterosis, a phenomenon where multiple explanations were proposed, describes the superiority of such hybrids compared to their parents. In contrast to this, there are inferior hybrid phenotypes such as hybrid necrosis. Biomass heterosis of F1 hybrids is widely exploited in agriculture. When analyzing transcriptomes of F1 hybrids one can compare their gene expression levels to the mean of both parents (Mid-parent value; MPV). Identifying genes that deviate from the MPV can give insights into the molecular basis of heterosis. However, F1 hybrid genomes are composed of two parental inbred genomes. Thus, having only a single reference genome available impedes hybrid transcriptome analysis. In the second part of my work I utilized full genome information of two A. thaliana inbred parents in order to analyze corresponding F1 hybrid transcriptomes. I established a computational workflow that enabled the identification of genes with significant deviation from the MPV. Moreover, for these genes I demonstrated that the degree of deviation from the MPV correlates with expression divergence between the two parents. Together the results of this thesis give an insight into intraspecies genomic and NLR gene variation of Arabidopsis thaliana while providing a large dataset for future research projects.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1307901964",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-88182",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A492878803",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (25 S., 363,5 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Becchetti, Luca",
+            "identifier": [
+                "(ppn)492878803",
+                "(firstid)GBV:492878803"
+            ],
+            "publisher": "ZIB",
+            "subject": [
+                "(classificationName=linseach:automatic)mat",
+                "(classificationName=linseach:automatic)inf"
+            ],
+            "title": "Smoothening helps : a probabilistic analysis of the multi-level feedback algorithm",
+            "abstract": "In this paper we introduce the notion of smoothed competitive analysis of online algorithms. Smoothed analysis has been proposed by [Spielman and Teng STOC 2001] to explain the behaviour of algorithms that work well in practice while performing very poorly from a worst case analysis point of view. We apply this notion to analyze the Multi-Level Feedback (MLF) algorithm to minimize the total flow time on a sequence of jobs released over time when the processing time of a job is only known at time of completion. The initial processing times are integers in the range . We use a partial bit randomization model, where the initial processing times are smoothened by changing the  least significant bits under a quite general class of probability distributions. We show that MLF admits a smoothed competitive ratio of , where  denotes the standard deviation of the distribution. In particular, we obtain a competitive ratio of  if . stronger adaptive We also prove an  lower bound for any deterministic algorithm that is run on processing times smoothened according to the partial bit randomization model. For various other smoothening models ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2003, 14",
+            "P30128": "ZIB-report",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10167110-6",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Nachrichtentechnik"
+        },
+        {
+            "@id": "gnd:122165527",
+            "sameAs": "Turau, Volker"
+        },
+        {
+            "@id": "gnd:143269097",
+            "sameAs": "Chen, Ting"
+        },
+        {
+            "@id": "gnd:172335477",
+            "sameAs": "Rohling, Hermann"
+        },
+        {
+            "@id": "gnd:4511937-5",
+            "sameAs": "Online-Ressource"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A642698511",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VIII, 112 S., 3373 KB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:642698511",
+                "(ppn)642698511"
+            ],
+            "publisher": "Techn. Univ. Hamburg-Harburg, Univ.-Bibl.",
+            "subject": [
+                "zellulares Netz",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=bk, id=106417665)53.74 - Hochfrequenztechnik, Funktechnik",
+                "(classificationName=ddc-dbn)620",
+                "radio communication",
+                "Funk\u00fcbertragung",
+                "cellular network"
+            ],
+            "title": "Self-organized radio resource management in OFDM based cellular systems",
+            "abstract": [
+                "Future mobile communication systems require higher data rates and more flexibility. The OFDM transmission technique, as a special form of multi-carrier transmission, achieves high efficiency by subdividing the bandwidth into narrow and orthogonal subcarriers with specific spectra. The consequent long symbol duration also facilitates a simple receiver structure in a multi-path propagation environment. Moreover, each subcarrier can use independently individual transmission parameters. In this thesis, a scheme for a self-organized radio resource management (SO-RRM) is proposed for an OFDM based cellular system. All base stations in a cellular network operate on the same central carrier frequency, but with different radio resources. A resource can be defined as a timeslot, a subcarrier, or any frequency-time block. All resources are accessible at any cell in the cellular network. Neither central controllers nor direct communication between base stations is needed. Each base station allocates radio resources and selects transmission parameters independently in accordance with the requirement and the measured real-time network condition. The powers of signal and interference are measured at both base stations and mobile terminals. To have an interference free measurement of the signal power, a dedicated signal measurement timeslot is designed in the uplink. A resource quality function is defined to predict the transmission result in a time variant channel, applying both adaptive modulation and coding, and link adaptation. Those resources with highest possible data rates are allocated. In this way, an adaptive and up-to-date resource reuse can be realized. To reduce the amount of dropped connections due to unpredictable new interference after allocation, a security margin is introduced, which reserves a priori a space for new interference. A suitable margin brings a 13% capacity increase. More efficiently, a reallocation procedure can be triggered when service degradation is observed for certain duration. This method can even bring about two times more capacity. The SO-RRM shows its high flexibility in a cellular network with a non-uniform or fast changing user distribution. Hotspot cells can claim more resources, while the cells with few users use only few resources. Furthermore, the multi-user diversity enables adaptive resource rearrangement in the downlink. Resources used inside a cell are exchanged based on instantaneous channel conditions. Three different algorithms are compared. They can bring a higher spectral efficiency of up to 80%.",
+                "Die OFDM-\u00dcbertragungstechnik erreicht eine hohe Effizienz in zuk\u00fcnftigen breitbandigen Mobilfunksystemen. Mit selbstorganisierender Verwaltung der zur Verf\u00fcgung stehenden Funkressourcen kann ein OFDM-basiertes zellulares Gleichwellennetz die volle Flexibilit\u00e4t erreichen, insbesondere in einem Netzwerk mit ungleichm\u00e4\u00dfiger Nutzerverteilung (Hotspots). Jede Basisstation vergibt die Ressourcen bei Bedarf und basierend auf Echtzeit-Messungen des Nutzsignals sowie der Interferenzen. Weder eine zentrale Kontrollinstanz noch eine direkte Kommunikation zwischen den Basisstationen wird damit ben\u00f6tigt. In der Arbeit werden verschiedene Verfahren einer solchen selbstorganisierenden Ressourcenvergabe entwickelt und quantitativ verglichen. Dabei wird gezeigt, dass sich im Vergleich zu herk\u00f6mmlicher Frequenzplanung eine Steigerung der spektralen Effizienz von bis zu 80% erreichen l\u00e4sst."
+            ],
+            "alternative": "Selbstorganisierende Ressourcenvergabe in OFDM-basierten zellularen Systemen",
+            "contributor": [
+                "gnd:172335477",
+                "gnd:122165527"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:143269097",
+                "gnd:10167110-6"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": {
+                "@id": "gnd:4511937-5"
+            }
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

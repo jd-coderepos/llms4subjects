@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128742402",
+            "sameAs": "Geiser, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A665461569",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (31 S., 358 KB)",
+            "creator": [
+                "Calov, Reinhard",
+                "Recknagel, Thomas"
+            ],
+            "identifier": [
+                "(firstid)GBV:665461569",
+                "(ppn)665461569"
+            ],
+            "publisher": "Humboldt-Univ., Inst. f\u00fcr Mathematik",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)80A20",
+                "(classificationName=msc)35J60",
+                "(classificationName=msc)74S10",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=msc)35J65",
+                "(classificationName=msc)80M25",
+                "(classificationName=msc)65N12",
+                "(classificationName=msc)65M99",
+                "(classificationName=ssg)17,1",
+                "(classificationName=msc)76R50",
+                "(classificationName=msc)65Z05"
+            ],
+            "title": "Operator-splitting methods respecting eigenvalue problems for shallow shelf equations with basal drag",
+            "abstract": "We discuss different numerical methods for solving the shallow shelf equations with basal drag. The coupled equations are decomposed into operators for membranes stresses, basal shear stress and driving stress. Applying reasonable parameter values, we demonstrate that the operator of the membrane stresses is much stiffer than operator of the basal shear stress. Therefore, we propose a new splitting method, which alternates between the iteration on the membrane-stress operator and the basal-shear operator, with a stronger iteration on the operator of the membrane stress. We show that this splitting improves the computational performance of the numerical method, although the choice of the (standard) method to solve for all operators in one step speeds up the scheme too. (Based on the delicate and coupled equation we propose a new decomposition method to decouple into simpler solvable sub-equations. After a number of approximations we consider the error of the method and proposed a choice of the operators.)",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:128742402"
+            },
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2010,17",
+            "P30128": "Preprints / Institut f\u00fcr Mathematik, Humboldt-Universit\u00e4t zu Berlin",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

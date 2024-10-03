@@ -1,0 +1,71 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A780063635",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Karl, Holger",
+            "creator": "Herlich, Matthias",
+            "identifier": [
+                "(ppn)780063635",
+                "(firstid)HBZ:CT004000966"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)rest"
+            ],
+            "title": "Reducing energy consumption of radio access networks",
+            "abstract": "Mobilfunknetze (MFNe) sind zu einem der gr\u00f6\u00dften Energieverbraucher der Informations- und Telekommunikationsbranche geworden und es wird erwartet, dass ihr Verbrauch weiter steigt. Eine der vielversprechendsten Techniken um den Energieverbrauch zu verringern ist der Einsatz eines stromsparenden Schlafmodus. Ich beschreibe, wie viel Energie durch einen Schlafmodus eingespart werden kann und welche Auswirkungen dieser auf die Leistungsf\u00e4higkeit hat. Als erstes quantifiziere ich den Effekt der Ein- und Ausschaltdauer auf die Latenz und den Energieverbrauch in einem abstrakten Warteschlangensystem. Dies resultiert in einer Austauschbeziehung zwischen Energieverbrauch und Latenz f\u00fcr eine einzelne Basisstation (BS). Als zweites demonstriere ich, dass der Energieverbrauch weiter reduziert werden kann, wenn man das gesamte Netz betrachtet (statt jeder BS einzeln). Nach diesen beiden Analysen, welche nicht speziell auf MFNe zugeschnitten sind, betrachte ich im Rest der Dissertation nur noch MFNe. MFNe m\u00fcssen sowohl die Anforderungen der Nutzer detektieren als auch durchf\u00fchren. Ich quantifiziere, wie die Anzahl der aktiven BSen gesenkt werden kann, wenn ihre Detektierungsreichweite durch Kooperation erh\u00f6ht wird. Als n\u00e4chstes stelle ich dar, wie mehr BSen abgeschaltet werden k\u00f6nnen, wenn die restlichen aktiven BSen kooperieren, um Daten zu den Nutzern zu \u00fcbertragen. Zuletzt zeige ich die Ergebnisse einer Simulation, welche alle vorher analytisch betrachteten Effekte zusammenfasst. Ein Schlafmodus kann den Energieverbrauch eines MFNes reduzieren, wenn Ein- und Ausschaltdauer, Leistungsprofile und die Interaktion von BSen ber\u00fccksichtigt werden. Wenn dieses Wissen kombiniert wird, kann der Energieverbrauch von MFNen reduziert werden, ohne dass die Leistungsf\u00e4higkeit nennenswert beeintr\u00e4chtigt wird.. - Radio access networks (RANs) have become one of the largest energy consumers of communication technology and their energy consumption is predicted to increase. One of the most promising techniques to reduce the energy consumption is the use of a low-power sleep mode. However, a sleep mode can also reduce the performance. In this dissertation, I quantify how much energy can be conserved with a sleep mode and which negative effects it has on the performance of RANs. Additionally, I analyze how a sleep mode can be enabled more often and how the performance can be kept high. First, I quantify the effect of power-cycle durations on energy consumption and latency in an abstract queuing system. This results in a trade-off between energy consumption and latency for a single base station (BS). Second, I show that considering a network as a whole (instead of each BS individually) allows the energy consumption to be reduced even further. After these analyses, which are not specific for RANs, I study RANs for the rest of the dissertation. RANs need to both detect and execute the requests of users. Because detection and execution of requests have different requirements, I analyze them independently. I quantify how the number of active BSs can be reduced if the detection ranges of BSs are increased by cooperative transmissions. Next, I analyze how more BSs can be deactivated if the remaining active BSs cooperate to transmit data to the users. At last, I show the results of a simulation that incorporates all effects I studied analytically earlier. In conclusion, I show that a sleep mode can reduce the energy consumption of RANs if applied correctly. To apply a sleep mode correctly, it is necessary to consider power-cycle durations, power profile, and the interaction of BSs. When this knowledge is combined the energy consumption of RANs can be reduced with only a slight loss of performance.",
+            "alternative": "Reduzieren des Energieverbrauches von Mobilfunknetzen",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:110026063"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

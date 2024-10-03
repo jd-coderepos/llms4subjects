@@ -1,0 +1,71 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130090786",
+            "sameAs": "Hahn, Horst Karl"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A819256846",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Szwillus, Gerd",
+                "Domik, Gitta"
+            ],
+            "creator": "Arens, Stephan",
+            "identifier": [
+                "(firstid)HBZ:CT004001233",
+                "(ppn)819256846"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "A dataflow-based shader framework for visualizing dissections of the heart using individual patient data",
+            "abstract": "In dieser Dissertation werden die technischen Anforderungen ergr\u00fcndet, um basierend auf Volumendaten individueller Patienten Illustrationen wie im Anatomieatlas zu erzeugen. Handgezeichnete anatomische Illustrationen dienen dem Verst\u00e4ndnis der Morphologie und der Funktionsweise des menschlichen K\u00f6rpers. Daf\u00fcr gebrauchen sie verschiedene Visualisierungstechniken wie Einf\u00e4rbungen, Schnitte, Deformationen und Beleuchtung. F\u00fcr die computerbasierte Nachahmung solcher Visualisierungen aus Volumendaten ist folglich eine hohe Flexibilit\u00e4t bei gleichzeitig geringem Aufwand erstrebenswert. In dieser Dissertation wird deshalb die Erzeugung von Shaderprogrammen durch ein datenflussbasiertes Verfahren vorgeschlagen, welches eine hohe Flexibilit\u00e4t bei gleichzeitig gro\u00dfer Wiederverwendbarkeit von Programmbausteinen gew\u00e4hrleistet. Es erlaubt beliebige Zusammenstellungen von Datens\u00e4tzen, Transferfunktionen, logischen Operatoren, Deformationen und Beleuchtungsalgorithmen. Trotz vieler Volumenvisualisierungstechniken konnte die Qualit\u00e4t der Atlanten nicht erreicht werden. Einer der Gr\u00fcnde ist die Abh\u00e4ngigkeit von klinischen Volumendaten, die nicht gen\u00fcgend Informationen aufweisen oder stark rauschen. Es wird gezeigt, dass vorab bekannte Informationen in dem vorgeschlagenen Verfahren auf einfache Weise zu der Visualisierung hinzugef\u00fcgt werden k\u00f6nnen, um dem Informationsmangel entgegenzuwirken. Ein anderer Grund f\u00fcr die bisher nicht erreichte Qualit\u00e4t ist aber sicherlich der n\u00f6tige Aufwand verschiedene Techniken zu kombinieren. Das entworfene Verfahren hingegen erlaubt einfaches Zusammenstecken beliebiger Techniken, wodurch der Aufwand auf ein Minimum reduziert wird. Die Anwendbarkeit des Verfahren wird mit CT Volumendaten mehrerer menschlicher Herzen \u00fcberpr\u00fcft, indem diese so visualisiert werden, wie im Anatomieatlas.. - This PhD Thesis addresses the technical demands to create illustrations as in hand-drawn anatomy atlases but based on real volume datasets of the human heart. Hand-drawn illustrations in anatomy atlases serve to understand the human morphology or functioning. These illustrations use a wide variety of visualization techniques for emphases, e.g. coloring, cuts, deformations, and illumination. High flexibility and low effort is of major importance when prototyping such visualizations in volume rendering. This thesis proposes a dataflow-based approach for shader generation to meet the requirement for high flexibility in multi-volume rendering while providing the user with reusable building blocks. The approach allows for any composition of transfer functions, logical combinations, and deformations in multi-volume rendering with correct shading and shadowing without introducing special case handling. Hence, it combines the GPU-power of modern approaches with the flexibility and reusability of dataflow-based programs. Many volume visualization techniques have been presented. Nevertheless, the quality of anatomy atlases has not been achieved yet. One reason is, of course, the reliance on real clinic volume datasets which do not exhibit enough information and suffer from noise or too low resolution. To overcome this issue, the visualizations in this thesis will be enriched with a priori known information of the human heart. It will be shown that the aforementioned dataflow-based approach promotes the use of this information. However, another reason why the quality of anatomy atlases has not yet been achieved is the effort to combine the needed techniques. The dataflow-design, that allows arbitrary graph compositions without reprogramming, reduces this effort to a minimum. The applicability of the proposed methods will be demonstrated on a set of CT volume data of human hearts that are visualized as in anatomy atlases.",
+            "contributor": "gnd:130090786",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

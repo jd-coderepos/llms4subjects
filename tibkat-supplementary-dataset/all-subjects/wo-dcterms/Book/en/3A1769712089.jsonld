@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1222781131",
+            "sameAs": "Mallett, Andrew"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1769712089",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XVIII, 230 p. 14)",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen"
+            ],
+            "identifier": [
+                "(firstid)KEP:068218761",
+                "(doi)10.1007/978-1-4842-7237-4",
+                "(ppn)1769712089",
+                "(isbn13)9781484272374"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Computer programming.",
+                "Open source software.",
+                "(classificationName=ddc)006.76"
+            ],
+            "title": "Salt Open : Automating Your Enterprise and Your Network",
+            "abstract": [
+                "Chapter 1: Understanding Salt and Configuration Automation -- Chapter 2: Installing Salt -- Chapter 3: Adding and Removing Salt Minions -- Chapter 4: Targeting Salt Minions -- Chapter 5: Working with Remote Execution Modules in Salt Open -- Chapter 6: Writing YAML Files -- Chapter 7: Writing Salt State Files -- Chapter 8: Building an effective state tree -- Chapter 9: Creating Reusable State Files- Chapter 10: Implementing Reactors and Beacons -- Chapter 11: Using Salt-SSH -- Chapter 12: Deploy Virtual Machines Using Salt-Cloud -- Chapter 13: Scaling Configuration Management Using Salt-Syndic -- Chapter 14: Automating Network Infrastructure with Salt Proxy.",
+                "There is a rapid growth of automation in server rooms and data centers. The days of having many administrators running around busily configuring and maintaining servers are gone and have been replaced with droves of Salt-Minions; agents beavering away on the target nodes ensuring the configuration is as specified. This book covers Salt Open (also known as SaltStack Open) from the ground up and shows you how to work with two Linux distributions. You'll see how Salt Open is duplicated with ArubaOS and IOS networking devices, which can be configured without the underlying OS. As you step through the configuration options, you'll learn how to run remote execution modules from the CLI before looking at stateful configuration using SLS files. Moving on, you'll learn how to configure the systems where you also need to monitor your devices and that is when reactors and beacons come into play. Creating beacons to alert the server when thresholds are exceeded, you will be able to create reactors to mitigate the issues identified by the beacons. By the end of this book, you will be able to deploy Salt to your servers and network infrastructure. You will be able to install the Salt-Master and Salt-Minion, executing commands from both the Master and the Minion. The networking devices you need to manage will be controlled through the Salt_Proxy Minions that you have configured. Finally, you will be able to load-balance connections to the master with Salt-Syndic. You will: Install Salt Services on Ubuntu and CentOS based systems Work with remote execution modules Format YAML files correctly Provide defined configuration using state files Use Salt-Proxy to configure network devices Automate the configuration of Linux servers and networking devices Providing value for both the server and network automation team."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1222781131",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-7237-4",
+            "P30128": "Springer eBook Collection",
+            "P60163": "[New York]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027168965",
+            "sameAs": "Mehrpunktwechselrichter"
+        },
+        {
+            "@id": "gnd:115363866",
+            "sameAs": "Eckel, Hans-G\u00fcnter"
+        },
+        {
+            "@id": "gnd:136858481",
+            "sameAs": "Hiller, Marc"
+        },
+        {
+            "@id": "gnd:143248340",
+            "sameAs": "Petzoldt, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4058102-0",
+            "sameAs": "Stromrichter"
+        },
+        {
+            "@id": "gnd:4186778-6",
+            "sameAs": "Umrichter"
+        },
+        {
+            "@id": "gnd:4207266-9",
+            "sameAs": "MOS-FET"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1027921965",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 137 Seiten)",
+            "creator": "Dudin, Andrey",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)GBV:1027921965",
+                "(ppn)1027921965"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "IGBT",
+                "(classificationName=linseach:mapping)elt",
+                "Schaltvorgang",
+                "Verlust",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Analyse und Minimierung der Verluste im modularen Multilevelumrichter",
+            "abstract": "Diese Arbeit befasst sich mit der Wirkung der internen Kreisstr\u00f6me auf die Effizienz des modularen Multilevelumrichters (MMC). Aus internationalen Ver\u00f6ffentlichungen sind simulative und experimentelle Ergebnisse bekannt, die sich f\u00fcr verschiedene Dimensionierungen unterscheiden. Das Ziel der Arbeit ist das Formulieren eines verallgemeinerten Verfahrens, welches die Bestimmung des verlustoptimalen Kreisstromes f\u00fcr einen pulsweitenmodulierten MMC in jedem Arbeitspunkt und mit beliebigem Design erlaubt. Weiterhin wird die Frage behandelt, von welchen Stromrichtereigenschaften das Optimierungspotential abh\u00e4ngt. Der Ansatz f\u00fcr die Effizienzoptimierung ist, eine Gesamtverlustfunktion des Stromrichters zu definieren und die stromrichterinternen Str\u00f6me so einzuspeisen, dass diese Funktion minimiert wird. Die Verlustfunktion wird zu einer verallgemeinerten Form gebracht, sodass die Eigenschaften der IGBT- und MOSFET-Schalter ber\u00fccksichtigt werden k\u00f6nnen. Das beschriebene Verlustmodell auf Basis des Mittelwertansatzes ist f\u00fcr pulsweitenmodulierte Schaltungen einsetzbar. Nach der Bildung eines Verlustmodells und einer Analyse der Gesamtverlustfunktion werden verschiedene Minimierungsverfahren erprobt und ein Optimierungsalgorithmus zum Einsatz ausgesucht. Der direkte, simplexbasierte Nelder-Mead-Algorithmus hat in allen Betriebspunkten eine gute Genauigkeit, Konvergenzgeschwindigkeit und Stabilit\u00e4t gezeigt. Aus diesem Ergebnis zusammen mit den diskutierten Funktionseigenschaften folgt, dass direkte Suchalgorithmen f\u00fcr die L\u00f6sung der gestellten Aufgabe im Allgemeinen besser geeignet sind, als gradientenbasierte Verfahren. Die analytische Optimierung f\u00fcr einen verallgemeinerten Fall hat sich als zu zeitintensiv und zustandsspezifisch bewiesen und wurde nicht weiterverfolgt. Bei den simulationstechnischen Untersuchungen wurden die Implementierbarkeit des Optimierungsansatzes und die erwarteten Verlustersparnisse best\u00e4tigt. Die Effizienzoptimierung wurde an Stromrichtern mit verschiedenen Modulationsverfahren und Verlusteigenschaften erprobt. F\u00fcr die meisten untersuchten F\u00e4lle gilt: je h\u00f6her die Verluste vor der Optimierung, desto h\u00f6her die Verlustersparnis danach. Konverter mit SiC-MOSFETs passen allerdings in diese Faustregel nicht aufgrund der nahezu identischen Verlusteigenschaften bei positivem und negativem Schalterstrom.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:136858481"
+                },
+                {
+                    "@id": "gnd:115363866"
+                },
+                {
+                    "@id": "gnd:143248340"
+                }
+            ],
+            "dcterms:creator": {
+                "@id": "gnd:2125187-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4207266-9",
+                "gnd:4186778-6",
+                "gnd:1027168965",
+                "gnd:4058102-0"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

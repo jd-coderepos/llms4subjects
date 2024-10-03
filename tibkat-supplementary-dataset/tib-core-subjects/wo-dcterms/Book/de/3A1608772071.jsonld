@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118720392",
+            "sameAs": "Haringer, Jakob"
+        },
+        {
+            "@id": "gnd:120163489",
+            "sameAs": "Serke, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1608772071",
+            "@type": "bibo:Book",
+            "P1053": "124 S.",
+            "identifier": [
+                "(firstid)BSZ:00704271X",
+                "(ppn)1608772071",
+                "(isbn)3446126929"
+            ],
+            "publisher": "Hanser",
+            "subject": [
+                "(classificationName=bk, id=106405047)18.10 - Deutsche Literatur",
+                "(classificationName=rvk)GM 3476",
+                "(classificationName=dbn)08a",
+                "(classificationName=ddc)831.912 HAR",
+                "(classificationName=rvk)GM 3475",
+                "(classificationName=bk, id=181571714)17.97 - Texte eines einzelnen Autors",
+                "(classificationName=linseach:mapping)lit"
+            ],
+            "title": "Das Schnarchen Gottes und andere Gedichte",
+            "abstract": "Jakob Haringer: \"Das Schnarchen Gottes und andere Gedichte\". Hrsg. v. J\u00fcrgen Serke. Carl Hanser Verlag, M\u00fcnchen 1979. 124 S., br., 22,- DM",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120163489"
+                }
+            ],
+            "creator": "gnd:118720392",
+            "issued": "1979",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "P60163": "M\u00fcnchen [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

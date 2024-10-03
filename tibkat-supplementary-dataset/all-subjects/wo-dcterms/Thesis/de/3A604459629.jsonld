@@ -1,0 +1,147 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058278150",
+            "sameAs": "Ament, Christoph"
+        },
+        {
+            "@id": "gnd:130244864",
+            "sameAs": "Wernstedt, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:138647445",
+            "sameAs": "Goldbach, Daniel"
+        },
+        {
+            "@id": "gnd:4016278-3",
+            "sameAs": "Fahrdynamik"
+        },
+        {
+            "@id": "gnd:4048971-1",
+            "sameAs": "Regelung"
+        },
+        {
+            "@id": "gnd:4073757-3",
+            "sameAs": "Kraftfahrzeug"
+        },
+        {
+            "@id": "gnd:4124547-7",
+            "sameAs": "Anh\u00e4nger"
+        },
+        {
+            "@id": "gnd:4132163-7",
+            "sameAs": "Fahrzeugverhalten"
+        },
+        {
+            "@id": "gnd:4140205-4",
+            "sameAs": "Anh\u00e4ngerkupplung"
+        },
+        {
+            "@id": "gnd:4177447-4",
+            "sameAs": "Reglerentwurf"
+        },
+        {
+            "@id": "gnd:4203620-3",
+            "sameAs": "Zugmaschine"
+        },
+        {
+            "@id": "gnd:4309013-8",
+            "sameAs": "Verbesserung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A604459629",
+            "@type": "bibo:Thesis",
+            "P1053": "XII, 171 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Cuno, Bernd",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:604459629",
+                "(isbn13)9783183703128",
+                "(ppn)604459629"
+            ],
+            "publisher": "VDI-Verl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106416383)55.20 - Stra\u00dfenfahrzeugtechnik",
+                "(classificationName=ddc)629.27",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Zur Verbesserung des Fahrverhaltens von Zugfahrzeug-Anh\u00e4nger-Gespannen",
+            "abstract": "Die Bildung von Zugfahrzeug-Anh\u00e4nger-Gespannen erh\u00f6ht die Flexibilit\u00e4t von Fahrzeugen und erm\u00f6glicht es so, gr\u00f6\u00dfere Lasten und sperrige G\u00fcter zu transportieren. Allerdings ver\u00e4ndert sich das Fahrverhalten von Zugfahrzeug-Anh\u00e4nger-Gespannen verglichen mit dem Fahrverhalten von Solofahrzeugen. Da unge\u00fcbten Fahrern das F\u00fchren von Gespannen schwer f\u00e4llt, geht von Gespannen ein erh\u00f6htes Gef\u00e4hrdungspotential f\u00fcr sich und andere Verkehrsteilnehmer aus. Bei schneller Vorw\u00e4rtsfahrt k\u00f6nnen sich im Gespannbetrieb aufklingende Pendelschwingungen aufbauen, die bei herk\u00f6mmlichen Gespannen schon im Ansatz durch Bremsen ged\u00e4mpft werden sollten, um das Gespann kontrollierbar zu halten. Beim Durchfahren enger Kurven sollten diese weiter angefahren werden, da der Anh\u00e4nger die Kurve schneidet. Besonders das R\u00fcckw\u00e4rtsfahren f\u00e4llt unge\u00fcbten Fahrern schwer, da der Anh\u00e4nger durch permanente, nicht intuitive Lenkman\u00f6ver stabilisiert und auf dem gew\u00fcnschten Kurs gehalten werden muss. Heute \u00fcbliche Ans\u00e4tze wie zum Beispiel Schlingerd\u00e4mpfer, ESC-Systeme oder Systeme zur Gewichtsverteilung verbessern das Fahrverhalten nicht in allen Fahrsituationen. Aus diesem Grund wird in dieser Arbeit ein Ansatz - genannt Aktive Anh\u00e4ngerkupplung - untersucht, der mit Hilfe einer gezielten Verschiebung des Anh\u00e4ngerkupplungspunktes quer zur Fahrtrichtung das Gespannfahrverhalten in s\u00e4mtlichen Fahrsituationen verbessert. Es werden verschiedene Regler und Beobachter zur Gespannfahrverhaltensverbesserung parametriert. Die Sensitivit\u00e4tsanalyse zeigt, dass Parameterschwankungen im Gespannbetrieb gro\u00df sind. Daher werden alle Regler und Beobachter f\u00fcr den Parameterraum robust ausgelegt. Auf Basis parametrierter Einspurmodelle werden mit einem evolution\u00e4ren Optimierungsalgorithmus Zustandsregler zur Stabilisierung von Gespannen mit Aktiver Anh\u00e4ngerkupplung parametriert. Die Nulld\u00e4mpfungsgeschwindigkeit wird im Fahrversuch um \u00fcber 30% gesteigert. Das Durchfahren enger Kurven wird verbessert, indem bei Kurvenradien bis 25m das Kurvenschneiden vollst\u00e4ndig unterbunden und bei kleineren Radien deutlich verringert wird. Bei R\u00fcckw\u00e4rtsfahrt wird der Anh\u00e4nger mit der Aktiven Anh\u00e4ngerkupplung stabilisiert und abh\u00e4ngig vom Lenkwinkel wird ein Sollgespannknickwinkel eingeregelt. Es wird bei R\u00fcckw\u00e4rtsfahrt im Vergleich zu einem Gespann mit konventioneller Anh\u00e4ngerkupplung sowohl eine h\u00f6here Geschwindigkeit bei Geradeausfahrt erreicht wie auch das Gespann auf Kreisbahnen stabilisiert. Die Beobachter werden im Parameterraum robust stabil eingestellt. Abstriche mussten nur in der G\u00fcte des Einschwingverhaltens gemacht werden. Bei guter \u00dcbereinstimmung der Beobachter und der Gespannparameter im Geltungsbereich des Einspurmodells liefert der Beobachter gute Werte im gesamten Geschwindigkeitsbereich. Mit der gezielten Querverschiebung des Anh\u00e4ngerkupplungspunktes wird das Gespannfahrverhalten in allen Situationen deutlich verbessert. Die Regler k\u00f6nnen in einem Gesamtkonzept je nach Fahrsituation ausgew\u00e4hlt werden. Reserven des neu entwickelten Konzepts sind im Beobachterkonzept bez\u00fcglich der St\u00f6reinfl\u00fcsse, der online-Adaption der Beobachterparameter und im Regelungskonzept bez\u00fcglich der Ermittlung des Gespannknickwinkels bei langsamer R\u00fcckw\u00e4rtsfahrt f\u00fcr die zuk\u00fcnftige Forschung vorhanden.",
+            "contributor": [
+                "gnd:1058278150",
+                "gnd:130244864"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:138647445",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4203620-3",
+                "gnd:4132163-7",
+                "gnd:4309013-8",
+                "gnd:4016278-3",
+                "gnd:4140205-4",
+                "gnd:4048971-1",
+                "gnd:4124547-7",
+                "gnd:4073757-3",
+                "gnd:4177447-4"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/604459629.PDF",
+            "volume": "703",
+            "P30128": [
+                "Reihe 12, Verkehrstechnik, Fahrzeugtechnik",
+                "Fortschritt-Berichte VDI"
+            ],
+            "P60163": "D\u00fcsseldorf"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

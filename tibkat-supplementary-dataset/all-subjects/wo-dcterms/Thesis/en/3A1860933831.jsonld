@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1306593336",
+            "sameAs": "Mo, An"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1860933831",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (circa 120 Seiten in verschiedenen Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1860933831",
+                "(doi)10.15496/publikation-87400",
+                "(ppn)1860933831"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "Biomechanik",
+                "Mechatronik",
+                "Bionik",
+                "Schreitroboter",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)621.8",
+                "Reglerentwurf",
+                "Bahnplanung"
+            ],
+            "title": "Fast sensing and adaptive actuation for robust legged locomotion",
+            "abstract": "Robust legged locomotion in complex terrain demands fast perturbation detection and reaction. In animals, due to the neural transmission delays, the high-level control loop involving the brain is absent from mitigating the initial disturbance. Instead, the low-level compliant behavior embedded in mechanics and the mid-level controllers in the spinal cord are believed to provide quick response during fast locomotion. Still, it remains unclear how these low- and mid-level components facilitate robust locomotion. This thesis aims to identify and characterize the underlining elements responsible for fast sensing and actuation. To test individual elements and their interplay, several robotic systems were implemented. The implementations include active and passive mechanisms as a combination of elasticities and dampers in multi-segment robot legs, central pattern generators inspired by intraspinal controllers, and a synthetic robotic version of an intraspinal sensor. The first contribution establishes the notion of effective damping. Effective damping is defined as the total energy dissipation during one step, which allows quantifying how much ground perturbation is mitigated. Using this framework, the optimal damper is identified as viscous and tunable. This study paves the way for integrating effective dampers to legged designs for robust locomotion. The second contribution introduces a novel series elastic actuation system. The proposed system tackles the issue of power transmission over multiple joints, while featuring intrinsic series elasticity. The design is tested on a hopper with two more elastic elements, demonstrating energy recuperation and enhanced dynamic performance. The third contribution proposes a novel tunable damper and reveals its influence on legged hopping. A bio-inspired slack tendon mechanism is implemented in parallel with a spring. The tunable damping is rigorously quantified on a central-pattern-generator-driven hopping robot, which reveals the trade-off between locomotion robustness and efficiency. The last contribution explores the intraspinal sensing hypothesis of birds. We speculate that the observed intraspinal structure functions as an accelerometer. This accelerometer could provide fast state feedback directly to the adjacent central pattern generator circuits, contributing to birds\u2019 running robustness. A biophysical simulation framework is established, which provides new perspectives on the sensing mechanics of the system, including the influence of morphologies and material properties. Giving an overview of the hierarchical control architecture, this thesis investigates the fast sensing and actuation mechanisms in several control layers, including the low-level mechanical response and the mid-level intraspinal controllers. The contributions of this work provide new insight into animal loco-motion robustness and lays the foundation for future legged robot design.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1306593336"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-87400",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

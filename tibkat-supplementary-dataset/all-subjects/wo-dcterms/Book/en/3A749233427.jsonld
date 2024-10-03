@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749233427",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXVII, 316 p)",
+            "contributor": [
+                "Parker, John",
+                "Grostick, Dan",
+                "Rabbat, Guy",
+                "McRoberts, Meg",
+                "Gluch, David"
+            ],
+            "creator": "Furht, Borko",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(ppn)749233427",
+                "(firstid)GBV:749233427",
+                "(isbn13)9781461539780",
+                "(doi)10.1007/978-1-4615-3978-0"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)005.13",
+                "Computer architecture.",
+                "Microprocessors.",
+                "Compilers (Computer programs).",
+                "(classificationName=loc)QA76.7-76.73",
+                "Operating systems (Computers)",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)005.45",
+                "(classificationName=linseach:mapping)inf",
+                "Computer science",
+                "(classificationName=loc)QA76.76.C65"
+            ],
+            "title": "Real-Time UNIX\u00ae Systems : Design and Application Guide",
+            "abstract": [
+                "1 Introduction to Real-Time Computing -- 1.1 Definition and Classification of Real-Time Computer Systems -- 1.2 Computer Requirements for Real-Time Applications -- 1.3 Systems Issues -- 1.4 Real-Time Measures -- 1.5 Model of an Open Real-Time System -- 2 Real-Time Operating Systems -- 2.1 Requirements for Real-Time Operating Systems -- 2.2 Real-Time UNIX Operating Systems -- 3 Concept of a Fully Preemptive UNIX Operating System -- 3.1 System Concept -- 3.2 Process Subsystem -- 3.3 Memory Management -- 3.4 Process Scheduling -- 3.5 Interprocess Communication -- 3.6 File Subsystem -- 3.7 I/O Subsystem -- 4 Designing Real-Time Applications -- 4.1 Programming Guidelines -- 4.2 Scheduling Processes -- 4.3 Real-Time Memory Allocation -- 4.4 Interprocess Communications: Pipes, Signals and Events -- 4.5 Interprocess Communications Using Shared Memory -- 4.6 Interprocess Communications Using Semaphores -- 4.7 Interprocess Communications Using Messages -- 4.8 Using Files -- 4.9 Interfacing Devices -- 4.10 Writing System Calls -- 4.11 Porting Applications -- 4.12 Performance Management -- 5 Case Studies -- 5.1 The Data Acquisition and Space Shuttle Launch Control System at NASA Kennedy Space Center -- 5.2 The Communication Processor at Jet Propulsion Laboratory.",
+                "A growing concern of mine has been the unrealistic expectations for new computer-related technologies introduced into all kinds of organizations. Unrealistic expectations lead to disappointment, and a schizophrenic approach to the introduction of new technologies. The UNIX and real-time UNIX operating system technologies are major examples of emerging technologies with great potential benefits but unrealistic expectations. Users want to use UNIX as a common operating system throughout large segments of their organizations. A common operating system would decrease software costs by helping to provide portability and interoperability between computer systems in today's multivendor environments. Users would be able to more easily purchase new equipment and technologies and cost-effectively reuse their applications. And they could more easily connect heterogeneous equipment in different departments without having to constantly write and rewrite interfaces. On the other hand, many users in various organizations do not understand the ramifications of general-purpose versus real-time UNIX. Users tend to think of \"real-time\" as a way to handle exotic heart-monitoring or robotics systems. Then these users use UNIX for transaction processing and office applications and complain about its performance, robustness, and reliability. Unfortunately, the users don't realize that real-time capabilities added to UNIX can provide better performance, robustness and reliability for these non-real-time applications. Many other vendors and users do realize this, however. There are indications even now that general-purpose UNIX will go away as a separate entity. It will be replaced by a real-time UNIX. General-purpose UNIX will exist only as a subset of real-time UNIX."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "121",
+            "isLike": "doi:10.1007/978-1-4615-3978-0",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Real-Time Systems",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

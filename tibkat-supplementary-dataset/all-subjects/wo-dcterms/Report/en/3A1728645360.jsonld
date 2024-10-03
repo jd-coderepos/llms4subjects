@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1728645360",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (23 Seiten, 363,86 KB)",
+            "creator": [
+                "Gasnikov, Alexander",
+                "Pasechnyuk, Dmitry",
+                "Vorontsova, Evgeniya",
+                "Dvurechensky, Pavel",
+                "Ivanova, Anastasiya",
+                "Tyurin, Alexander",
+                "Dvinskikh, Darina"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1728645360",
+                "(doi)10.20347/WIAS.PREPRINT.2711",
+                "(ppn)1728645360"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Oracle complexity separation in convex optimization",
+            "abstract": "Ubiquitous in machine learning regularized empirical risk minimization problems are often composed of several blocks which can be treated using different types of oracles, e.g., full gradient, stochastic gradient or coordinate derivative. Optimal oracle complexity is known and achievable separately for the full gradient case, the stochastic gradient case, etc. We propose a generic framework to combine optimal algorithms for different types of oracles in order to achieve separate optimal oracle complexity for each block, i.e. for each block the corresponding oracle is called the optimal number of times for a given accuracy. As a particular example, we demonstrate that for a combination of a full gradient oracle and either a stochastic gradient oracle or a coordinate descent oracle our approach leads to the optimal number of oracle calls separately for the full gradient part and the stochastic/coordinate descent part.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2711",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2711",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

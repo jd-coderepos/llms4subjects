@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749125063",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (192p)",
+            "creator": "Joobbani, Rostam",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)749125063",
+                "(doi)10.1007/978-1-4613-2555-0",
+                "(firstid)GBV:749125063",
+                "(isbn13)9781461325550"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Electrical engineering.",
+                "Systems engineering",
+                "Engineering",
+                "(classificationName=ddc)621.3815",
+                "Computer aided design",
+                "Computer engineering",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7888.4",
+                "Computer-aided engineering.",
+                "Electronic circuits.",
+                "Artificial intelligence",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "An Artificial Intelligence Approach to VLSI Routing",
+            "abstract": [
+                "Routing of VLSI chips is an important, time consuming, and difficult problem. The difficulty of the problem is attributed to the large number of often conflicting factors that affect the routing quality. Traditional techniques have approached routing by ignoring some of these factors and imposing unnecessary constraints in order to make routing tractable. In addition to the imposition of these restrictions, which simplify the problems to a degree but at the same time reduce the routing quality, traditional approaches use brute force. They often transform the problem into mathematical or graph problems and completely ignore the specific knowledge about the routing task that can greatly help the solution. This thesis overcomes some of the above problems and presents a system that performs routing close to what human designers do. In other words it heavily capitalizes on the knowledge of human expertise in this area, it does not impose unnecessary constraints, it considers all the different factors that affect the routing quality, and most importantly it allows constant user interaction throughout the routing process. To achieve the above, this thesis presents background about some representative techniques for routing and summarizes their characteristics. It then studies in detail the different factors (such as minimum area, number of vias, wire length, etc.) that affect the routing quality, and the different criteria (such as vertical/horizontal constraint graph, merging, minimal rectilinear Steiner tree, etc.) that can be used to optimize these factors.",
+                "1. Introduction -- 1.1. Motivation -- 1.2. Outline -- 2. Detailed Routing -- 2.1. Problem Statement -- 2.2. Important Factors in Routing -- 2.3. Previous Approaches -- 2.4. Characteristics of Previous Approaches -- 3. WEAVER Approach -- 3.1. Congestion -- 3.2. Wire Length -- 3.3. Rectilinear Steiner Tree -- 3.4. Merging -- 3.5. Vertical/Horizontal Constraint Graph -- 3.6. Intersection -- 3.7. Conflicting Effects -- 4. Knowledge-Based Expert Systems -- 4.1. Productions Systems -- 4.2. OPS5 -- 4.3. Applicability of Knowledge-Based Expert Systems to VLSI Design -- 4.4. Advantages and Disadvantages of Knowledge-Based Expert Systems -- 5. WEAVER Implementation -- 5.1. Problem State Representation -- 5.2. WEAVER Architecture -- 5.3. Blackboard Organization -- 5.4. WEAVER Experts -- 5.5. WEAVER Control Structure -- 5.6. Program Organization -- 6. Experiments and Results -- 6.1. Input/Output -- 6.2. Step by Step Trace of Routing a Channel -- 6.3. Experiments -- 6.4. WEAVER\u2019s Performance Under Conditions of Disabled Experts -- 6.5. Efficiency Issues -- 7. Conclusions and Future Work -- References."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "1985",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "9",
+            "isLike": "doi:10.1007/978-1-4613-2555-0",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Knowledge Representation, Learning and Expert Systems",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

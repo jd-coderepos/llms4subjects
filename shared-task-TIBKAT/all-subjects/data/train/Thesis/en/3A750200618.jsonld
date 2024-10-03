@@ -1,0 +1,117 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1048167658",
+            "sameAs": "Thaden, Eike Martin"
+        },
+        {
+            "@id": "gnd:141393858",
+            "sameAs": "Damm, Werner"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4131397-5",
+            "sameAs": "Echtzeitsystem"
+        },
+        {
+            "@id": "gnd:4179449-7",
+            "sameAs": "Scheduling"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A750200618",
+            "@type": "bibo:Thesis",
+            "P1053": "XXVIII, 232 S.",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)750200618",
+                "(firstid)GBV:750200618"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.22",
+                "(classificationName=bk, id=106410903)54.31 - Rechnerarchitektur",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=10641884X)54.27 - Prozessrechner"
+            ],
+            "title": "Semi-automatic optimiziation of hardware architectures in embedded systems",
+            "abstract": [
+                "In this work a semi-automatic approach for the optimization of hardware architectures of safety-critical embedded systems is presented that supports developers in extending already existing systems with additional functionality given as software tasks. A two-tier optimization process explores the design space for valid allocations of the software tasks to the hardware architecture. The method exploits that large embedded systems typically are hierarchically composed of hardware subsystems: A global optimization step computes pre-allocations of all software tasks onto subsystems based on an abstract notion of the computation capacity. Separately for each subsystem, those tasks are then allocated to processors by local optimization steps such that they are schedulable and all constraints are satisfied. For both the global and the local optimization problem exact optimization methods bundled with experimental results are presented. <engl.>",
+                "In dieser Arbeit wird ein teil-automatisiertes Verfahren zur Optimierung von sicherheitskritischen eingebetteten Systemen vorgestellt, das Entwickler bei der Erweiterung existierender Systeme um neue Funktionalit\u00e4t in Form von Softwaretasks unterst\u00fctzt. Ein zweistufiges Optimierungsverfahren durchsucht den Entwurfsraum nach g\u00fcltigen Allokationen der Tasks auf die Hardware-Architektur. Das Verfahren nutzt aus, dass gro\u00dfe eingebettete Systeme oft hierarchisch aus Hardware-Subsystemen aufgebaut sind: Eine globale Optimierung berechnet Vorplatzierungen der Softwaretasks auf Subsysteme, basierend auf einer abstrakten Charakterisierung der Rechenkapazit\u00e4t. In separat f\u00fcr jedes Subsystem durchgef\u00fchrten lokalen Optimierungsschritten werden diese Tasks dann so auf Prozessoren allokiert, dass sie schedulbar und alle Rahmenbedingungen erf\u00fcllt sind. F\u00fcr das globale und das lokale Optimierungsproblem werden jeweils optimale Verfahren und dazugeh\u00f6rige experimentelle Ergebnisse vorgestellt. <dt.>"
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:17228242X"
+                },
+                {
+                    "@id": "gnd:141393858"
+                }
+            ],
+            "creator": "gnd:1048167658",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4043664-0"
+                },
+                {
+                    "@id": "gnd:4396978-1"
+                },
+                {
+                    "@id": "gnd:4179449-7"
+                },
+                {
+                    "@id": "gnd:4131397-5"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

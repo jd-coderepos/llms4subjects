@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1054926220",
+            "sameAs": "Hansen, Benjamin"
+        },
+        {
+            "@id": "gnd:1129112306",
+            "sameAs": "Chalfin, Aaron"
+        },
+        {
+            "@id": "gnd:1185803424",
+            "sameAs": "Yan, Shi"
+        },
+        {
+            "@id": "gnd:1210511037",
+            "sameAs": "Tahamont, Sarah"
+        },
+        {
+            "@id": "gnd:1289629315",
+            "sameAs": "McNeill, Melissa"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1844079473",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": "Jelveh, Zubin",
+            "description": [
+                "illustrations (black and white)",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)KEP:091918448",
+                "(ppn)1844079473"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "Statistische Daten",
+                "Big Data",
+                "Other Computer Software",
+                "(classificationName=linseach:automatic)inf",
+                "Statistical Simulation Methods: General",
+                "Statistische Methode",
+                "Metadaten"
+            ],
+            "title": "No Ground Truth? : No Problem : Improving Administrative Data Linking Using Active Learning and a Little Bit of Guile",
+            "abstract": "While linking records across large administrative datasets [\"big data\"] has the potential to revolutionize empirical social science research, many administrative data files do not have common identifiers and are thus not designed to be linked to others. To address this problem, researchers have developed probabilistic record linkage algorithms which use statistical patterns in identifying characteristics to perform linking tasks. Naturally, the accuracy of a candidate linking algorithm can be substantially improved when an algorithm has access to \"ground-truth\" examples -- matches which can be validated using institutional knowledge or auxiliary data. Unfortunately, the cost of obtaining these examples is typically high, often requiring a researcher to manually review pairs of records in order to make an informed judgement about whether they are a match. When a pool of ground-truth information is unavailable, researchers can use \"active learning\" algorithms for linking, which ask the user to provide ground-truth information for select candidate pairs. In this paper, we investigate the value of providing ground-truth examples via active learning for linking performance. We confirm popular intuition that data linking can be dramatically improved with the availability of ground truth examples. But critically, in many real-world applications, only a relatively small number of tactically-selected ground-truth examples are needed to obtain most of the achievable gains. With a modest investment in ground truth, researchers can approximate the performance of a supervised learning algorithm that has access to a large database of ground truth examples using a readily available off-the-shelf tool",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1185803424",
+                "gnd:1289629315",
+                "gnd:1210511037",
+                "gnd:1054926220",
+                "gnd:39157-8",
+                "gnd:1129112306"
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w31100",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

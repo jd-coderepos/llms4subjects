@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1077748272",
+            "sameAs": "Kommer, Christoph"
+        },
+        {
+            "@id": "gnd:1132596769",
+            "sameAs": "H\u00f6fer, Thomas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1665543167",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (iv, 272 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.11588/heidok.00025489",
+                "(ppn)1665543167",
+                "(firstid)KXP:1665543167"
+            ],
+            "subject": [
+                "T-Lymphozyt",
+                "Enhancer",
+                "Angewandte Mathematik",
+                "Multistabilit\u00e4t",
+                "Markov-Prozess",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio",
+                "Mathematische Modellierung",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.54",
+                "Netzwerktheorie",
+                "Systembiologie",
+                "Epigenetik",
+                "Maschinelles Lernen"
+            ],
+            "title": "Statistical learning based inference and analysis of epigenetic regulatory network topologies in T-helper cells",
+            "abstract": "Abstract: The reliable statistical inference of epigenetic regulatory networks that govern mammalian cell fates is very challenging. In this thesis we study this question for the differentiation decisions of T-helper (Th) cells, which have recently been shown to adopt a continuum of differentiated states in response to cytokine signals. To infer the underlying regulatory networks we introduce a novel framework for the inference of epigenetic regulatory network topologies based on statistical learning. First, we infer, via a Hidden Markov Model, chromatin states based on histone modification patterns in na\u00efve Th cells and differentiated Th1, Th2 and mixed Th1/2 states; these states are controlled by external cytokine stimuli and the gene dose of the Th1 master transcription factor Tbet (Tbx21). We then introduce a linear multivariate correlation measure for mapping enhancers to their target genes, which is parametrized on a training set of known enhancers. This analysis is refined further by the application of partial correlations to distinguish direct from indirect effects. Applying this approach to our data, we recover known enhancers and obtain a genomewide enhancer-gene mapping. We also extend this to the correlation of repressive regulatory elements with gene expression. Next, we focus on the enhancers that regulate differentially expressed Th1 and Th2 specific transcripts. Building machine learning based predictors, we identify Th1 and Th2 specific enhancer and repressive state classes characterized by their response patterns to cytokine stimuli and Tbet dose. In turn, we use chromatin immunoprecipitation data of transcription factors to define the transcriptional regulatory logic governing the activities of the enhancer classes. Finally, we combine enhancer-target gene maps and enhancer regulatory logic as well as inhibitory elements to infer a bipartite epigenetic network. The network architecture builds on enhancer and repressive state classes as well as on genes and transcription factors leading to a weighted multidigraph. The network topology reveals distinct community structures related to Th1, Th2 and hybrid functionality. We furthermore analyse multiplex networks resulting in condition-specific topologies. From these analyses we obtain unique contributions of distinct network nodes. Utilizing random walks on multidigraphs we extract metastable processes underlying the observed system. In conclusion we present a robust quantitative framework for mapping chromatin states to gene activity, and, by factoring in transcription factor regulation of enhancers, inferring epigenetic regulatory networks. This methodology is applicable to a wide range of systems.",
+            "alternative": "Inferenz und Analyse epigenetischer regulatorischer Netzwerktopologien basierend auf statistischen Lernmethoden in T-Helfer Zellen",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1132596769"
+                }
+            ],
+            "creator": "gnd:1077748272",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.11588/heidok.00025489",
+            "P60163": "Heidelberg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

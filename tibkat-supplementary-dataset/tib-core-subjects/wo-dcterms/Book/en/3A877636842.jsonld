@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:141006978",
+            "sameAs": "Erleben, Kenny"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A877636842",
+            "@type": "bibo:Book",
+            "P1053": "Online Ressource (1 PDF (viii, 151 pages))",
+            "contributor": "Niebe, Sarah",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "illustrations."
+            ],
+            "identifier": [
+                "(isbn13)9781627053723",
+                "(isbn13)9781627053716",
+                "(firstid)GBV:877636842",
+                "(ppn)877636842"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=ddc)793.9326696",
+                "(classificationName=ddc)006.696",
+                "(classificationName=loc)TR897.7",
+                "(classificationName=linseach:mapping)rest",
+                "Mathematics",
+                "Computer animation",
+                "Linear complementarity problem"
+            ],
+            "title": "Numerical methods for linear complementarity problems in physics-based animation",
+            "abstract": [
+                "Linear complementarity problems (LCPs) have for many years been used in physics-based animation to model contact forces between rigid bodies in contact. More recently, LCPs have found their way into the realm of fluid dynamics. Here, LCPs are used to model boundary conditions with fluid-wall contacts. LCPs have also started to appear in deformable models and granular simulations. There is an increasing need for numerical methods to solve the resulting LCPs with all these new applications. This book provides a numerical foundation for such methods, especially suited for use in computer graphics. This book is mainly intended for a researcher/Ph.D. student/post-doc/professor who wants to study the algorithms and do more work/research in this area. Programmers might have to invest some time brushing up on math skills, for this we refer to Appendices A and B. The reader should be familiar with linear algebra and differential calculus. We provide pseudo code for all the numerical methods, which should be comprehensible by any computer scientist with rudimentary programming skills. The reader can find an online supplementary code repository, containing Matlab implementations of many of the core methods covered in these notes, as well as a few Python implementations [Erleben, 2011]",
+                "A. Basic calculus -- Order notation -- What is a limit? -- The small-o notation -- The big-o notation -- Lipschitz functions -- Derivatives -- B. First-order optimality conditions -- C. Convergence, performance and robustness experiments -- D. Num4LCP -- Using Num4LCP -- Bibliography -- Authors' biographies",
+                "1. Introduction -- 1.1 Understanding the problem -- 1.1.1 First-order optimality is a linear complementarity problem -- 1.1.2 Nonsmooth root search reformulations -- 1.1.3 The boxed linear complementarity problem -- 1.1.4 Other reformulations -- 1.2 The problem in n-dimensions -- 1.2.1 1D BLCP to 4D LCP -- 1.2.2 The boxed linear complementarity problem in higher dimensions -- 1.2.3 BLCP and the QP formulation -- 1.2.4 Converting BLCP to LCP -- 1.2.5 Nonsmooth reformulations of BLCP -- 1.3 Examples from physics-based animation -- 1.3.1 Fluid-solid wall boundary conditions -- 1.3.2 Free-flowing granular matter -- 1.3.3 Density correction -- 1.3.4 Joint limits in inverse kinematics -- 1.3.5 Contact force examples --",
+                "3. Guide for software and selecting methods -- 3.1 Overview of numerical properties of methods covered -- 3.2 Existing practice on mapping models to methods -- 3.2.1 Existing software solutions -- 3.3 Future of LCPs in computer graphics --",
+                "2. Numerical methods -- 2.1 Pivoting methods -- 2.1.1 Direct methods for small-sized problems -- 2.1.2 Incremental pivoting \"Baraff style\" -- 2.2 Projection or sweeping methods -- 2.2.1 Splitting methods -- 2.2.2 Using a quadratic programming problem -- 2.2.3 The blocked Gauss-Seidel method -- 2.2.4 Staggering -- 2.2.5 The projected Gauss-Seidel subspace minimization method -- 2.2.6 The nonsmooth nonlinear conjugate gradient method -- 2.3 The interior point method -- 2.4 Newton methods -- 2.4.1 The minimum map Newton method -- 2.4.2 The Fischer-Newton method -- 2.4.3 Penalized Fischer-Newton method -- 2.4.4 Tips, tricks and implementation hacks --"
+            ],
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:141006978"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-37-IEX",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "# 18",
+            "P30128": "Synthesis lectures on computer graphics and animation",
+            "P60163": "San Rafael, California <1537 Fourth Street, San Rafael, CA  94901 USA>"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

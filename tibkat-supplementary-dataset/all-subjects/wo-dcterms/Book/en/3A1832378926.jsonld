@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1832378926",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (213 p.)",
+            "creator": "Bentert, Matthias",
+            "identifier": [
+                "(isbn13)9783798332102",
+                "(firstid)KEP:083818332",
+                "(isbn13)9783798332096",
+                "(ppn)1832378926"
+            ],
+            "publisher": "Universit\u00e4tsverlag der Technischen Universit\u00e4t Berlin",
+            "subject": [
+                "(classificationName=linseach:lexicon)inf",
+                "Algorithms & data structures"
+            ],
+            "title": "Elements of dynamic and 2-SAT programming: paths, trees, and cuts",
+            "abstract": "This thesis presents faster (in terms of worst-case running times) exact algorithms for special cases of graph problems through dynamic programming and 2-SAT programming. Dynamic programming describes the procedure of breaking down a problem recursively into overlapping subproblems, that is, subproblems with common subsubproblems. Given optimal solutions to these subproblems, the dynamic program then combines them into an optimal solution for the original problem. 2-SAT programming refers to the procedure of reducing a problem to a set of 2-SAT formulas, that is, boolean formulas in conjunctive normal form in which each clause contains at most two literals. Computing whether such a formula is satisfiable (and computing a satisfying truth assignment, if one exists) takes linear time in the formula length. Hence, when satisfying truth assignments to some 2-SAT formulas correspond to a solution of the original problem and all formulas can be computed efficiently, that is, in polynomial time in the input size of the original problem, then the original problem can be solved in polynomial time. We next describe our main results. Diameter asks for the maximal distance between any two vertices in a given undirected graph. It is arguably among the most fundamental graph parameters. We provide both positive and negative parameterized results for distance-from-triviality-type parameters and parameter combinations that were observed to be small in real-world applications. In Length-Bounded Cut, we search for a bounded-size set of edges that intersects all paths between two given vertices of at most some given length. We confirm a conjecture from the literature by providing a polynomial-time algorithm for proper interval graphs which is based on dynamic programming. k-Disjoint Shortest Paths is the problem of finding (vertex-)disjoint paths between given vertex terminals such that each of these paths is a shortest path between the respective terminals. Its complexity for constant k > 2 has been an open problem for over 20 years. Using dynamic programming, we show that k-Disjoint Shortest Paths can be solved in polynomial time for each constant k. The problem Tree Containment asks whether a phylogenetic tree T is contained in a phylogenetic network N. A phylogenetic network (or tree) is a leaf-labeled single-source directed acyclic graph (or tree) in which each vertex has in-degree at most one or out-degree at most one. The problem stems from computational biology in the context of the tree of life (the history of speciation). We introduce a particular variant that resembles certain types of uncertainty in the input. We show that if each leaf label occurs at most twice in a phylogenetic tree N, then the problem can be solved in polynomial time and if labels can occur up to three times, then the problem becomes NP-hard. Lastly, Reachable Object is the problem of deciding whether there is a sequence of rational trades of objects among agents such that a given agent can obtain a certain object. A rational trade is a swap of objects between two agents where both agents profit from the swap, that is, they receive objects they prefer over the objects they trade away. This problem can be seen as a natural generalization of the well-known and well-studied Housing Market problem where the agents are arranged in a graph and only neighboring agents can trade objects. We prove a dichotomy result that states that the problem is polynomial-time solvable if each agent prefers at most two objects over its initially held object and it is NP-hard if each agent prefers at most three objects over its initially held object. We also provide a polynomial-time 2-SAT program for the case where the graph of agents is a cycle",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-94-OAB",
+            "issued": "2021",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P30128": "Foundations of computing",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614792",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (141 Seiten)",
+            "creator": [
+                "Jerger, Natalie Enright",
+                "Peh, Li-shiuan"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9781598295856",
+                "(ppn)723614792",
+                "(firstid)GBV:723614792",
+                "(doi)10.2200/S00209ED1V01Y200907CAC008"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "Networks on a chip",
+                "(classificationName=loc)TK5105.546",
+                "Electronic books",
+                "(classificationName=ddc)004.22",
+                "(classificationName=loc)TK7895.E42",
+                "(classificationName=ddc)004.1",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "On-Chip Networks",
+            "abstract": [
+                "With the ability to integrate a large number of cores on a single chip, research into on-chip networks to facilitate communication becomes increasingly important. On-chip networks seek to provide a scalable and high-bandwidth communication substrate for multi-core and many-core architectures. High bandwidth and low latency within the on-chip network must be achieved while fitting within tight area and power budgets. In this lecture, we examine various fundamental aspects of on-chip network design and provide the reader with an overview of the current state-of-the-art research in this field",
+                "Introduction -- The advent of the multi-core era -- Communication demands of multi-core architectures -- On-chip vs. off-chip networks -- Network basics: a quick primer -- Evolution to on-chip networks -- On-chip network building blocks -- Performance and cost -- Commercial on-chip network chips -- This book -- Interface with system architecture -- Shared memory networks in chip multiprocessors -- Impact of coherence protocol on network performance -- Coherence protocol requirements for the on-chip network -- Protocol-level network deadlock -- Impact of cache hierarchy implementation on network performance -- Home node and memory controller design issues -- Miss and transaction status holding registers -- Synthesized NoCs in MPSoCs -- The role of application characterization in NoC design -- Design requirements for on-chip network -- NoC synthesis -- NoC network interface standards -- Bibliographic notes -- Case studies -- Brief state-of-the-art survey -- Topology -- Metrics for comparing topologies -- Direct topologies: rings, meshes and Tori -- Indirect topologies: butterflies, Clos networks and fat trees -- Irregular topologies -- Splitting and merging -- Topology synthesis algorithm example -- Layout and implementation -- Concentrators -- Implication of abstract metrics on on-chip implementation -- Bibliographic notes -- Case studies -- Brief state-of-the-art survey -- Routing -- Types of routing algorithms -- Deadlock avoidance -- Deterministic dimension-ordered routing -- Oblivious routing -- Adaptive routing -- Adaptive turn model routing -- Implementation -- Source routing -- Node table-based routing -- Combinational circuits -- Adaptive routing -- Routing on irregular topologies -- Bibliographic notes -- Case studies -- Brief state-of-the-art survey -- Flow control -- Messages, packets, flits and phits -- Message-based flow control -- Circuit switching -- Packet-based flow control -- Store and forward -- Cut-through -- Flit-based flow control -- Wormhole -- Virtual channels -- Deadlock-free flow control -- Escape VCs -- Buffer backpressure -- Implementation -- Buffer sizing for turnaround time -- Reverse signaling wires -- Flow control implementation in MPSoCs -- Bibliographic notes -- Case studies -- Brief state-of-the-art survey -- Router microarchitecture -- Virtual channel router microarchitecture -- Pipeline -- Pipeline implementation -- Pipeline optimizations -- Buffer organization -- Switch design -- Crossbar designs -- Crossbar speedup -- Crossbar slicing -- Allocators and arbiters -- Round-robin arbiter -- Matrix arbiter -- Separable allocator -- Wavefront allocator -- Allocator organization -- Implementation -- Router floorplanning -- Buffer implementation -- Bibliographic notes -- Case studies -- Brief state-of-the-art survey -- Conclusions -- Gap between state-of-the-art and ideal -- Definition of ideal interconnect fabric -- Definition of state-of-the-art -- Network power-delay-throughput gap -- Key research challenges -- Low-power on-chip networks -- Beyond conventional interconnects -- Resilient on-chip networks -- NoC infrastructures -- On-chip network benchmarks -- On-chip networks conferences -- Bibliographic notes"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#8",
+            "isLike": "doi:10.2200/S00209ED1V01Y200907CAC008",
+            "P30128": "Synthesis Lectures on Computer Architecture",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

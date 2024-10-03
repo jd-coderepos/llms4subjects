@@ -1,0 +1,107 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1022346466",
+            "sameAs": "Krau\u00dfe, Dominik"
+        },
+        {
+            "@id": "gnd:120094665",
+            "sameAs": "Hedrich, Lars"
+        },
+        {
+            "@id": "gnd:133159523",
+            "sameAs": "Sommer, Ralf"
+        },
+        {
+            "@id": "gnd:4112519-8",
+            "sameAs": "Analoge integrierte Schaltung"
+        },
+        {
+            "@id": "gnd:4146535-0",
+            "sameAs": "Breitbandverst\u00e4rker"
+        },
+        {
+            "@id": "gnd:4155400-0",
+            "sameAs": "Frequenzgang"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A71557499X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 121 S., 7,53 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Hennig, Eckhard",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:71557499X",
+                "(ppn)71557499X"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)m",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)m"
+            ],
+            "title": "Synthese von Frequenzgangskompensationsnetzwerken f\u00fcr integrierte Breitband-Signalverst\u00e4rker",
+            "abstract": "Die moderne Kommunikationstechnik unterliegt der Forderung, immer gr\u00f6\u00dfere Datenmengen zu \u00fcbertragen. Dabei werden z.B. von Sensoren sehr schwache Signale aufgenommen, die anschlie\u00dfend verst\u00e4rkt werden m\u00fcssen. Die Signalverst\u00e4rker, die heutzutage daf\u00fcr ben\u00f6tigt werden, m\u00fcssen Frequenzbereiche von Null bis zu mehreren hundert MHz und damit mehrere Frequenzdekaden abdecken. Gleichzeitig wird aufgrund dieser Bandbreitenforderung die Stabilit\u00e4t von Verst\u00e4rkerschaltungen mit zunehmender Frequenz zu einem Problem in der Schaltungstechnik. Stabilit\u00e4t bedeutet im weitesten Sinne, dass ein Verst\u00e4rker bei beliebiger Anregung keine Schwingungsneigung am Ausgang zeigt. \u00dcblicherweise wird Stabilit\u00e4t bei Verst\u00e4rkern dadurch erreicht, indem man den Frequenzgang kompensiert. Das kann dadurch geschehen, dass der Frequenzbereich, in dem der Verst\u00e4rker zu Schwingungen neigt, durch Kompensationsnetzwerke bed\u00e4mpft wird und damit keine Anregung durch R\u00fcckkopplung auf den Eingang der Schaltung mehr vorhanden ist. Der Nachteil, der dadurch erkauft wird, ist, dass die Bandbreite eines frequenzgangskompensierten Verst\u00e4rkers gegen\u00fcber der unkompensierten aber instabilen Schaltung sehr stark verringert wird. Der Grund dieser Verringerung liegt in der Art und Weise der Kompensationsmethodik. Im Rahmen dieser Arbeit soll ein methodischer Ansatz vorgestellt werden, der automatisch mit Hilfe des Rechners Frequenzgangskompensationsnetzwerke f\u00fcr Breitband-Signalverst\u00e4rker synthetisiert. Diese Methodik basiert auf der Bestimmung von Eigenwerten und Eigenwertempfindlichkeiten, aus denen Schlussfolgerungen \u00fcber einzubringende komplexe Kompensationsnetzwerke gezogen werden. Diese Kompensationsnetzwerke werden anschlie\u00dfend mit den Methoden der mathematischen Optimierung dimensioniert und nachtr\u00e4glich mit modernen Schaltungsoptimierern frequenzgangsoptimiert. Der Vorteil des Verfahrens, welches auch direkte Kompensation genannt wird, ist, dass die nun kompensierte Verst\u00e4rkerschaltung genau f\u00fcr ihren speziellen Anwendungsfall konzipiert ist und somit Bandbreiten erreicht werden, die durch konservative Ans\u00e4tze nicht m\u00f6glich waren. Das Syntheseverfahren l\u00e4uft vollautomatisch ab und kommt ohne Kenntnis der Eigenschaften der Verst\u00e4rkerstrukturen und ohne Expertenwissen aus. Die gesamte Methodik wird anhand eines Komplettentwurfs eines industriell gefertigten Signalverst\u00e4rkers f\u00fcr HD-TV-Anwendungen demonstriert.",
+            "contributor": [
+                "gnd:133159523",
+                "gnd:120094665"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1022346466",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4146535-0",
+                "gnd:4112519-8",
+                "gnd:4155400-0"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

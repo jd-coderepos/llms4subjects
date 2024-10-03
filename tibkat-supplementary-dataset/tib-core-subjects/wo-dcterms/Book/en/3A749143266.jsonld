@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749143266",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (268p)",
+            "creator": "Dally, William J.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4613-1995-5",
+                "(ppn)749143266",
+                "(firstid)GBV:749143266",
+                "(isbn13)9781461319955"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Electrical engineering.",
+                "Systems engineering",
+                "Electronic circuits.",
+                "(classificationName=ddc)621.3815",
+                "(classificationName=loc)TK7888.4",
+                "Microprocessors.",
+                "Computer architecture.",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf",
+                "Computer science",
+                "Computer engineering",
+                "Engineering"
+            ],
+            "title": "A VLSI Architecture for Concurrent Data Structures",
+            "abstract": [
+                "1 Introduction -- 1.1 Original Results -- 1.2 Motivation -- 1.3 Background -- 1.4 Concurrent Computers -- 1.5 Summary -- 2 Concurrent Smalltalk -- 2.1 Object-Oriented Programming -- 2.2 Distributed Objects -- 2.3 Concurrency -- 2.4 Locks -- 2.5 Blocks -- 2.6 Performance Metrics -- 2.7 Summary -- 3 The Balanced Cube -- 3.1 Data Structure -- 3.2 Search -- 3.3 Insert -- 3.4 Delete -- 3.5 Balance -- 3.6 Extension to B-Cubes -- 3.7 Experimental Results -- 3.8 Applications -- 3.9 Summary -- 4 Graph Algorithms -- 4.1 Nomenclature -- 4.2 Shortest Path Problems -- 4.3 The Max-Flow Problem -- 4.4 Graph Partitioning -- 4.5 Summary -- 5 Architecture -- 5.1 Characteristics of Concurrent Algorithms -- 5.2 Technology -- 5.3 Concurrent Computer Interconnection Networks -- 5.4 A Message-Driven Processor -- 5.5 Object Experts -- 5.6 Summary -- 6 Conclusion -- A Summary of Concurrent Smalltalk -- B Unordered Sets -- B.1 Dictionaries -- B.2 Union-Find Sets -- C On-Chip Wire Delay.",
+                "Concurrent data structures simplify the development of concurrent programs by encapsulating commonly used mechanisms for synchronization and commu\u00ad nication into data structures. This thesis develops a notation for describing concurrent data structures, presents examples of concurrent data structures, and describes an architecture to support concurrent data structures. Concurrent Smalltalk (CST), a derivative of Smalltalk-80 with extensions for concurrency, is developed to describe concurrent data structures. CST allows the programmer to specify objects that are distributed over the nodes of a concurrent computer. These distributed objects have many constituent objects and thus can process many messages simultaneously. They are the foundation upon which concurrent data structures are built. The balanced cube is a concurrent data structure for ordered sets. The set is distributed by a balanced recursive partition that maps to the subcubes of a binary 7lrcube using a Gray code. A search algorithm, VW search, based on the distance properties of the Gray code, searches a balanced cube in O(log N) time. Because it does not have the root bottleneck that limits all tree-based data structures to 0(1) concurrency, the balanced cube achieves 0C.:N) con\u00ad currency. Considering graphs as concurrent data structures, graph algorithms are pre\u00ad sented for the shortest path problem, the max-flow problem, and graph parti\u00ad tioning. These algorithms introduce new synchronization techniques to achieve better performance than existing algorithms."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "27",
+            "isLike": "doi:10.1007/978-1-4613-1995-5",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

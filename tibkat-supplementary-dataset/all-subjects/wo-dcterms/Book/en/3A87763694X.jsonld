@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A87763694X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xiii, 133 pages)",
+            "creator": "McCracken, James M.",
+            "description": [
+                "illustrations.",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781627059343",
+                "(firstid)GBV:87763694X",
+                "(ppn)87763694X",
+                "(doi)10.2200/S00707ED1V01Y201602DMK012"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=loc)QA280",
+                "Time-series analysis",
+                "(classificationName=ddc)519.55",
+                "Causality (Physics)",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Exploratory causal analysis with time series data",
+            "abstract": [
+                "1. Introduction -- 1.1 Notation and terminology -- 1.2 Time series causality framework -- 1.3 Exploratory causal analysis framework -- 1.4 Moving forward with data causality --",
+                "2. Causality studies -- 2.1 Foundational causality -- 2.1.1 Philosophical studies -- 2.1.2 Natural science studies -- 2.1.3 Psychological (and other social science) studies -- 2.2 Data causality -- 2.2.1 Statistical causality -- 2.2.2 Computational causality -- 2.2.3 Time series causality --",
+                "4. Exploratory causal analysis -- 4.1 ECA summary -- 4.2 Synthetic data examples -- 4.2.1 Impulse with linear response -- 4.2.2 Cyclic driving with linear response -- 4.2.3 RL series circuit -- 4.2.4 Cyclic driving with non-linear response -- 4.2.5 Coupled logistic map -- 4.2.6 Impulse with multiple linear responses -- 4.3 Empirical data examples -- 4.3.1 Snowfall data -- 4.3.2 OMNI data --",
+                "5. Conclusions -- 5.1 ECA results and efficacy -- 5.2 Future work -- Bibliography -- Author's biography",
+                "Many scientific disciplines rely on observational data of systems for which it is difficult (or impossible) to implement controlled experiments. Data analysis techniques are required for identifying causal information and relationships directly from such observational data. This need has led to the development of many different time series causality approaches and tools including transfer entropy, convergent cross-mapping (CCM), and Granger causality statistics. A practicing analyst can explore the literature to find many proposals for identifying drivers and causal connections in time series data sets. Exploratory causal analysis (ECA) provides a framework for exploring potential causal structures in time series data sets and is characterized by a myopic goal to determine which data series from a given set of series might be seen as the primary driver. In this work, ECA is used on several synthetic and empirical data sets, and it is found that all of the tested time series causality tools agree with each other (and intuitive notions of causality) for many simple systems but can provide conflicting causal inferences for more complicated systems. It is proposed that such disagreements between different time series causality tools during ECA might provide deeper insight into the data than could be found otherwise.",
+                "3. Time series causality tools -- 3.1 Granger causality -- 3.1.1 Background -- 3.1.2 Practical usage -- 3.2 Information-theoretic causality -- 3.2.1 Background -- 3.2.2 Practical usage -- 3.3 State space reconstruction causality -- 3.3.1 Background -- 3.3.2 Practical usage -- 3.4 Correlation causality -- 3.4.1 Background -- 3.4.2 Practical usage -- 3.5 Penchant causality -- 3.5.1 Background -- 3.5.2 Practical usage --"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MC8",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "# 12",
+            "isLike": "doi:10.2200/S00707ED1V01Y201602DMK012",
+            "P30128": "Synthesis lectures on data mining and knowledge discovery",
+            "P60163": "San Rafael, California (1537 Fourth Street, San Rafael, CA  94901 USA)"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

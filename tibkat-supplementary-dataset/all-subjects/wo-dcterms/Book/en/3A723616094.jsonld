@@ -1,0 +1,98 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723616094",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (116 Seiten)",
+            "creator": [
+                "Gonzalez, Antonio",
+                "Latorre, Fernando"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)723616094",
+                "(isbn13)9781608454532",
+                "(doi)10.2200/S00309ED1V01Y201011CAC012",
+                "(firstid)GBV:723616094"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=ddc)004.22",
+                "Electronic books",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=loc)QA76.9.A73",
+                "Microprocessors",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)001.64",
+                "(classificationName=loc)TK7895.M5 .G889 2010",
+                "Computer architecture"
+            ],
+            "title": "Processor microarchitecture : an implementation perspective",
+            "abstract": [
+                "6. The issue stage -- Introduction -- In-order issue logic -- Out-of-order issue logic -- Issue process when source operands are read before issue -- Issue queue allocation -- Instruction wakeup -- Instruction selection -- Entry reclamation -- Issue process when source operands are read after issue -- Read port reduction -- Other implementations for out-of-order issue -- Distributed issue queue -- Reservation stations -- Issue logic for memory operations -- Nonspeculative memory disambiguation -- Case study 1. Load ordering and store ordering on an AMD K6 processor -- Case study 2. Partial ordering on a MIPS R10000 processor -- Speculative memory disambiguation -- Case study. Alpha 21264 -- Speculative wakeup of load consumers --",
+                "4. Decode -- RISC decoding -- The x86 ISA -- Dynamic translation -- High-performance x86 decoding -- The instruction length decoder -- The dynamic translation unit --",
+                "1. Introduction -- Classification of microarchitectures -- Pipelines/nonpipelined processors -- In-order/out-of-order processors -- Scalar/superscalar processors -- Vector processors -- Multicore processors -- Multithreaded processors -- Classification of market segments -- Overview of a processor -- Overview of the pipeline --",
+                "8. The commit stage -- Introduction -- Architectural state management -- Architectural state based on a retire register file -- Architectural state based on a merged register file -- Recovery of the speculative state -- Recovery from a branch misprediction -- Handling branch mispredictions on an ROB-based architecture with RRF -- Handling branch mispredictions on a merged register file -- Recovery from an exception -- References -- Author biographies",
+                "2. Caches -- Address translation -- Cache structure organization -- Parallel tag and data array access -- Serial tag and data array access -- Associativity considerations -- Lockup-free caches -- Implicitly addressed MSHRs -- Explicitly addressed MSHRs -- In-cache MSHRs -- Multiported caches -- True multiported cache design -- Array replication -- Virtual multiporting -- Multibanking -- Instruction caches -- Multiported vs. single ported -- Lockup free vs. blocking -- Other considerations --",
+                "7. Execute -- Functional units -- The integer arithmetic and logical unit -- Integer multiplication and division -- The address generation unit -- The branch unit -- The floating-point unit -- The SIMD unit -- Result bypassing -- Bypass in a small out-of-order machine -- Multilevel bypass for wide out-of-order machines -- Bypass for in-order machines -- Organization of functional units -- Clustering -- Clustering the bypass network -- Clustering with replicated register files -- Clustering with distributed issue queue and register files --",
+                "5. Allocation -- Renaming through the reorder buffer -- Renaming through a rename buffer -- Merged register file -- Register file read -- Recovery in case of misspeculation -- Comparison of the three schemes --",
+                "3. The instruction fetch unit -- Instruction cache -- Trace cache -- Branch target buffer -- Return address stack -- Conditional branch prediction -- Static prediction -- Dynamic prediction --",
+                "This lecture presents a study of the microarchitecture of contemporary microprocessors. The focus is on implementation aspects, with discussions on their implications in terms of performance, power, and cost of state-of-the-art designs. The lecture starts with an overview of the different types of microprocessors and a review of the microarchitecture of cache memories. Then, it describes the implementation of the fetch unit, where special emphasis is made on the required support for branch prediction. The next section is devoted to instruction decode with special focus on the particular support to decoding x86 instructions. The next chapter presents the allocation stage and pays special attention to the implementation of register renaming. Afterward, the issue stage is studied. Here, the logic to implement out-of-order issue for both memory and non-memory instructions is thoroughly described. The following chapter focuses on the instruction execution and describes the different functional units that can be found in contemporary microprocessors, as well as the implementation of the bypass network, which has an important impact on the performance. Finally, the lecture concludes with the commit stage, where it describes how the architectural state is updated and recovered in case of exceptions or misspeculations. This lecture is intended for an advanced course on computer architecture, suitable for graduate students or senior undergrads who want to specialize in the area of computer architecture. It is also intended for practitioners in the industry in the area of microprocessor design. The book assumes that the reader is familiar with the main concepts regarding pipelining, out-of-order execution, cache memories, and virtual memory"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#12",
+            "isLike": "doi:10.2200/S00309ED1V01Y201011CAC012",
+            "P30128": "Synthesis Lectures on Computer Architecture",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

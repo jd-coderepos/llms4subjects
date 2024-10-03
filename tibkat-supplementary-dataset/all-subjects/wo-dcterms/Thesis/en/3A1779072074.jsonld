@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1247129004",
+            "sameAs": "Heinitz, Cornelia Bettina"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1779072074",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vi, 181 Seiten)",
+            "identifier": [
+                "(firstid)KXP:1779072074",
+                "(doi)10.15496/publikation-62088",
+                "(ppn)1779072074"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "Weltraumteleskop",
+                "Astronomie",
+                "(classificationName=ddc-dbn)520",
+                "(classificationName=ddc)522.6",
+                "Astrophysik",
+                "R\u00f6ntgenastronomie",
+                "Neutronenstern"
+            ],
+            "title": "Empirical cross-calibration of XMM-Newton's EPIC effective areas and search for a compact object associated with the SNR G96.0+2.0",
+            "abstract": "The X-ray satellite XMM-Newton, also called the X-ray Multi Mirror Mission, is a highly successful mission of the European Space Agency (ESA). It was launched in 1999 and is expected to continue to provide high sensitivity observations in the soft to mid-energy X-ray range for several more years to come. This thesis is dedicated to two XMM-related topics. Three X-ray cameras on board the satellite together constitute XMM-Newton\u2019s European Photon Imaging Camera (EPIC). Differences between the fluxes measured with the individual cameras indicated a discrepancy in their effective area calibration, which sets a limit to the quality that the scientific analysis of XMM data can have. Until now, a reliable correction of the effective area calibration to reconcile the three EPIC cameras is missing. The first part of this thesis is concerned with the further development of the CORRAREA tool included in the standard data reduction and analysis software for XMM-Newton, pursuing the aim of making it fit to serve as a default correction for the EPIC on-axis effective area calibration in the future. CORRAREA applies an energy-dependent, multiplicative correction factor to the data, based on correction functions determined by empirical cross-calibration of the EPIC cameras with the stacked residual ratio method. The underlying procedure was revised and extended in the scope of this work to suit the purpose of a default correction tool. A script package was developed to largely automate the necessary steps for validation purposes and future updates. From the hundreds of thousands of source detections in the XMM database, 163 sources were identified as being suitable to be included in the analysis to determine the required correction functions. The dependence of the results on different factors was investigated for validation, revealing that the combination of different XMM science modes requires an adjustment of the originally applied stacking method. New correction functions were determined for an updated, recalibrated non-default application. It was successfully shown that the procedure performed with the developed scripts can, in addition, be used for an independent validation of other calibration works. The presented routine also offers the potential to be extended to involve a cross-calibration with instruments on other X-ray observatories in the future. In the second part of this thesis, the first search for a compact object associated with the Galactic supernova remnant (SNR) G96.0+2.0, using an XMM-Newton observation, is presented. Compact objects are astronomical objects with very high densities and include neutron stars (NSs), which are prominent X-ray sources. NSs are the most dense objects that can be directly observed and are, thus, extremely interesting for the study of superdense matter. An identified SNR-NS-pair can provide information about each of the two objects that would otherwise be inaccessible. A special focus was set on searching for one particular kind of compact object, a so-called central compact object (CCO), which is an isolated, purely thermally emitting NS located in the centre of a SNR. Because CCOs offer an undisturbed view onto their surface, they are considered ideal targets to obtain constraints on NS parameters and the properties of their superdense matter. Both, identifying SNR-NS-pairs and increasing the small number of known CCOs, are an important contribution to the study of NSs and of the fundamental physics concerning superdense matter. A source detection was carried out for each image in the XMM observation of G96.0+2.0 and 22 X-ray point sources were identified. A possible NS nature of the individual sources was investigated by conducting a cross-match with optical catalogues to search for potential counterparts, by performing a spectral and timing analysis for each source and by analysing their X-ray-to-optical flux ratios as well as their positions in a hardness ratio diagram. The results led to the exclusion of the possibility of the SNR having an associated CCO. In addition, 17 of the identified X-ray point sources could be dismissed as potential candidates for any type of associated NS altogether. Of the remaining sources, one was found to be a particularly promising candidate for a potentially associated NS, with all characteristics being consistent with a NS nature.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1247129004",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-62088",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

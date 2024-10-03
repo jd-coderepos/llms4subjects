@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A634640100",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (180 S., 3,83 MB)",
+            "creator": "Gurris, Marcel",
+            "identifier": [
+                "(ppn)634640100",
+                "(firstid)DNB:1003163009"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Implicit finite element schemes for compressible gas and particle-laden gas flows",
+            "abstract": "Implicit finite element schemes are developed for the stationary compressible Euler equations and extended to a two-fluid model that describes the flow of an inviscid gas carrying a suspension of solid particles. Due to the lack of diffusive terms, the standard Galerkin discretization is potentially unstable and oscillatory. Therefore, the discretization of inviscid fluxes is performed using a high-resolution finite element scheme based on algebraic flux correction. The artificial diffusion operator is constructed on the algebraic level and fitted to the local solution  behavior using a multidimensional flux limiter of TVD type. The numerical treatment of the boundary conditions for the Euler equations relies on a characteristic decomposition into incoming and outgoing waves. To avoid stability restrictions and severe convergence problems, characteristic boundary conditions of weak Neumann-type are imposed. The fluxes that appear in the boundary integrals of the weak formulation are computed using an approximate or exact Riemann solver, which avoids unphysical boundary states particularly at the early stage of a simulation. Since the fully coupled two-fluid model lacks hyperbolicity, Neumann-type boundary conditions are prescribed separately for each phase. Special care is taken on solid wall boundaries, where standard techniques developed for the gas phase do not prevent the particles from penetrating the wall. To enforce the free-slip condition, a penalty term is added to the momentum equations for both phases. The weak form of boundary conditions is shown to be very accurate and to exhibit far superior robustness and convergence compared to its strong counterpart ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1778517005",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (139 p.)",
+            "creator": "Meng, Fanyu",
+            "identifier": [
+                "(firstid)KEP:069741913",
+                "(ppn)1778517005",
+                "(isbn13)9783832547592"
+            ],
+            "publisher": "Logos Verlag Berlin",
+            "subject": [
+                "(classificationName=linseach:lexicon)phy",
+                "Other technologies & applied sciences"
+            ],
+            "title": "Modeling of Moving Sound Sources Based on Array Measurements",
+            "abstract": "When auralizing moving sound sources in Virtual Reality (VR) environments, the two main input parameters are the location and radiated signal of the source. An array measurement-based model is developed to characterize moving sound sources regarding the two parameters in this thesis. This model utilizes beamforming, i.e. delay and sum beamforming (DSB) and compressive beamforming (CB) to obtain the locations and signals of moving sound sources. A spiral and a pseudorandom microphone array are designed for DSB and CB, respectively, to yield good localization ability and meet the requirement of CB. The de-Dopplerization technique is incorporated in the time-domain DSB to address moving source problems. Time-domain transfer functions (TDTFs) are calculated in terms of the spatial locations within the steering window of the moving source. TDTFs then form the sensing matrix of CB, thus allowing CB to solve moving source problem. DSB and CB are further extended to localize moving sound sources, and the reconstructed signals from the beamforming outputs are investigated to obtain the source signals. Moreover, localization and signal reconstruction are evaluated through varying parameters in the beamforming procedures, i.e. steering position, steering window length and source speed for a moving periodic signal using DSB, and regularization parameter, signal to noise ratio (SNR), steering window length, source speed, array to source motion trajectory and mismatch for a moving engine signal using CB. The parameter studies show guidelines of parameter selection based on the given situations in this thesis for modeling moving source using beamforming. Both algorithms are able to reconstruct the moving signals in the given scenarios. Although CB outperforms DSB in terms of signal reconstruction under particular conditions, the localization abilities of the two algorithms are quite similar. The practicability of the model has been applied on pass-by measurements of a moving loudspeaker using the designed arrays, and the results can match the conclusions drawn above from simulations. Finally, a framework on how to apply the model for moving source auralization is proposed",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-94-OAB",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "29",
+            "P30128": "Aachener Beitr\u00e4ge zur Akustik",
+            "P60163": "Berlin/Germany"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1102965472",
+            "sameAs": "Keller, Thomas"
+        },
+        {
+            "@id": "gnd:4024772-7",
+            "sameAs": "Heuristik"
+        },
+        {
+            "@id": "gnd:4168927-6",
+            "sameAs": "Markov-Entscheidungsprozess"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A860833259",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 206 Seiten, Diagramme)",
+            "identifier": [
+                "(contract)FRUB-opus-11034",
+                "(ppn)860833259",
+                "(firstid)BSZ:470460768",
+                "(doi)10.6094/UNIFR/11034"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Anytime optimal MDP planning with trial-based heuristic tree search",
+            "abstract": "Zusammenfassung: Planning and acting in a dynamic environment is a challenging task for an autonomous agent, especially in the presence of uncertain and exogenous effects, a large number of states, and a long-term planning horizon. In this thesis, we approach the problem by considering algorithms that interleave planning for the current state and execution of the taken decision. The main challenge of the agent is to use its tight deliberation time wisely.One solution are determinizations, which simplify the Markov Decision Process that describes the uncertain environment to a deterministic planning problem. We introduce an all-outcomes determinization where, unlike in comparable methods, the number of deterministic actions is not exponentially but polynomially bounded in the number of parallel probabilistic effects. We discuss three algorithms that base their decision solely on the solution to a determinization, and show that they have fundamental limitations that prevent optimal behavior even if provided with unlimited resources.The main contribution of this thesis, the Trial-based Heuristic Tree Search (THTS) framework, allows the description of algorithms in terms of only six ingredients that can be mixed and matched at will. We present a selection of ingredients and analyze theoretically which combinations yield asymptotically optimal behavior",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1102965472",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4024772-7",
+                "gnd:4168927-6"
+            ],
+            "isLike": "doi:10.6094/UNIFR/11034",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

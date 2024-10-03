@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130020761",
+            "sameAs": "Dietzfelbinger, Martin"
+        },
+        {
+            "@id": "gnd:4132315-4",
+            "sameAs": "Suchverfahren"
+        },
+        {
+            "@id": "gnd:4145661-0",
+            "sameAs": "Bipartiter Graph"
+        },
+        {
+            "@id": "gnd:4198185-6",
+            "sameAs": "Matching-Problem"
+        },
+        {
+            "@id": "gnd:4323071-4",
+            "sameAs": "Hash-Algorithmus"
+        },
+        {
+            "@id": "gnd:4343107-0",
+            "sameAs": "Laufzeitsystem"
+        },
+        {
+            "@id": "gnd:4378490-2",
+            "sameAs": "Abfrageverarbeitung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A824090810",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XVII, 267 S., 1,95 MB)",
+            "contributor": [
+                "Panagiotou, Konstantinos",
+                "Pagh, Rasmus"
+            ],
+            "creator": "Rink, Michael",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:824090810",
+                "(ppn)824090810"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Thresholds for matchings in random bipartite graphs with applications to hashing-based data structures",
+            "abstract": "Wir betrachten randomisierte Algorithmen, die bei Eingabe einer Menge S von n Schl\u00fcsseln aus einem Universum U, oder einer Menge von n Schl\u00fcssel-Wert-Paaren eine Datenstruktur f\u00fcr eine der folgenden Aufgaben bauen. Bei Aufruf der Operation lookup f\u00fcr einen Schl\u00fcssel x aus U: * Entscheide, ob x Element von S ist (Mengenzugeh\u00f6rigkeitstester [MZT]). * Falls x aus S ist, gib den Wert zur\u00fcck welcher x zugeordnet ist. Ansonsten gib einen Wert mit der Interpretation \"x ist nicht aus S\" zur\u00fcck (W\u00f6rterbuch [WB]) oder gib einen beliebigen Wert zur\u00fcck (Retrieval-Datenstruktur [RDS]). * Falls x aus S ist, gib eine von x abh\u00e4ngige nat\u00fcrliche Zahl zur\u00fcck, wobei f\u00fcr alle x aus S diese Zahlen paarweise verschieden sind und ihr Wertebereich in etwa die Gr\u00f6\u00dfe n hat (perfekte Hashfunktion [PHF]). Die Datenstrukturen die wir behandeln sind Varianten von Cuckoo-Hashing und des Bloomier-Filters, welchen die gleiche einfache Struktur zu Grunde liegt. Sie bestehen aus einer Tabelle mit m Zellen der Breite r Bits sowie einer konstanten Anzahl an Hashfunktionen, welche benutzt werden, um die Elemente aus U auf eine konstante Anzahl an Tabellenzellen abzubilden. Unter der Annahme voll zuf\u00e4lliger Hashfunktionen besch\u00e4ftigen wir uns damit, wie diese Datenstrukturen in Linearzeit (bez\u00fcglich n) konstruiert werden k\u00f6nnen und welche Ladung n/m bzw. welcher Platzverbrauch m\u00b7r in Abh\u00e4ngigkeit vom Zeitbedarf f\u00fcr lookup erreicht werden kann. Dies f\u00fchrt zu der Frage, ob ein bipartiter Zufallsgraph mit n Knoten (Schl\u00fcsseln) links und m Knoten (Zellen) rechts und Kanten bestimmt \u00fcber die Hashfunktionenein Matching eines bestimmten Typs hat und dar\u00fcber hinaus, wie solch ein Matching effizient berechnet werden kann. Schwerpunkte der Dissertation sind: * die Optimierung der Lookup-Zeit f\u00fcr WB und MZT (basierend auf Cuckoo-Hashing) bez\u00fcglich: (i) einer Beschr\u00e4nkung der durchschnittlichen Anzahl an Zellenzugriffen, (ii) der erwarteten Anzahl an Seitenzugriffen unter der Annahme, dass die Tabelle (Speicher) in Speicherseiten gleicher Gr\u00f6\u00dfe unterteilt ist. * die Minimierung des Platzbedarfs von RDS und PHF (basierend auf dem Bloomier-Filter), wobei f\u00fcr jeden Schl\u00fcssel die Anzahl der Zellenzugriffe nach oben durch eine Konstante beschr\u00e4nkt ist. * eine effiziente Simulation voll zuf\u00e4lliger Hashfunktionen, welche von allen behandelten Datenstrukturen vorausgesetzt werden",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130020761"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4145661-0",
+                "gnd:4132315-4",
+                "gnd:4198185-6",
+                "gnd:4323071-4",
+                "gnd:4343107-0",
+                "gnd:4378490-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

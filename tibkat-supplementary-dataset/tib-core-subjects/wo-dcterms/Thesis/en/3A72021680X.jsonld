@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A72021680X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 203 S., 20.676 KB)",
+            "creator": "Hemmerling, Reinhard",
+            "description": "Ill., graph. Darst",
+            "identifier": [
+                "(ppn)72021680X",
+                "(firstid)GBV:72021680X"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106418890)54.53 - Programmiersprachen",
+                "(classificationName=ddc-dbn)330"
+            ],
+            "title": "Extending the programming language XL to combine graph structures with ordinary differential equations",
+            "abstract": "Natural sciences try to discover laws that allow to explain and predict observations. Often, models are created with the purpose to verify or falsify proposed theories, which are based on these laws and certain other assumptions. This frequently involves the solution of differential equations, and in many cases this can only be done numerically. In the context of plant simulation, functional-structural plant models (FSPMs) combine a simulated structure (3D geometry) with functional aspects (physiology of the plant). L-systems are often used to describe the structural development of plants. Relational graph grammars (RGGs) are a generalization to graph structures. GroIMP (http://sf.net/projects/groimp) is a 3D modelling software, which was developed mainly for the simulation of FSPMs. A core part of GroIMP is a compiler for the programming language XL, which is based on Java and extends it by the ability to specify graph rewriting rules. Functional aspects of such FSPMs were traditionally described by ordinary Java code. However, frequently the functional aspects of such models are biological processes like photosynthesis or transport of nutrients that can be described by ordinary differential equations (ODEs). Often these equations were solved as part of the rewriting step, resulting in a forward Euler integration, with numerical issues like instability and a low accuracy. Usage of improved numerical methods is possible, but can result in a high complexity (concerning memory management issues when mapping node attributes to the state vector) and thus is prone to errors ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058842633",
+            "sameAs": "Meyer, Hanna"
+        },
+        {
+            "@id": "gnd:1218251085",
+            "sameAs": "Schratz, Patrick"
+        },
+        {
+            "@id": "gnd:130437638",
+            "sameAs": "Brenning, Alexander"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1837366543",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (159 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1837366543",
+                "(ppn)1837366543"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)006.31",
+                "Geoinformationssystem",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)004",
+                "Fernerkundung",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Benchmarking environmental machine-learning models : methodological progress and an application to forest health",
+            "abstract": "Geospatial machine learning is a versatile approach to analyze environmental data and can help to better understand the interactions and current state of our environment. Due to the artificial intelligence of these algorithms, complex relationships can possibly be discovered which might be missed by other analysis methods. Modeling the interaction of creatures with their environment is referred to as ecological modeling, which is a subcategory of environmental modeling. A subfield of ecological modeling is SDM, which aims to understand the relation between the presence or absence of certain species in their environments. SDM is different from classical mapping/detection analysis. While the latter primarily aim for a visual representation of a species spatial distribution, the former focuses on using the available data to build models and interpreting these. Because no single best option exists to build such models, different settings need to be evaluated and compared against each other. When conducting such modeling comparisons, which are commonly referred to as benchmarking, care needs to be taken throughout the analysis steps to achieve meaningful and unbiased results. These steps are composed out of data preprocessing, model optimization and performance assessment. While these general principles apply to any modeling analysis, their application in an environmental context often requires additional care with respect to data handling, possibly hidden underlying data effects and model selection. To conduct all in a programmatic (and efficient) way, toolboxes in the form of programming modules or packages are needed. This work makes methodological contributions which focus on efficient, machine-learning based analysis of environmental data. In addition, research software to generalize and simplify the described process has been created throughout this work.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1058842633"
+                },
+                {
+                    "@id": "gnd:130437638"
+                }
+            ],
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1218251085"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1773879782",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource(XIV, 148 p.)",
+            "creator": [
+                "Roberts, G.W.",
+                "Dufort, Benoit"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1007/978-1-4615-4377-0",
+                "(isbn13)9781461543770",
+                "(firstid)KEP:040048446",
+                "(ppn)1773879782"
+            ],
+            "publisher": "Imprint: Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "Electrical engineering.",
+                "(classificationName=ddc)621.3",
+                "Engineering",
+                "(classificationName=loc)TK1-9971",
+                "Computer engineering"
+            ],
+            "title": "Analog Test Signal Generation Using Periodic \u03a3\u0394-Encoded Data Streams",
+            "abstract": [
+                "1: Introduction -- 2: Mixed-Signal Testing -- 3: Periodic ?? Bit Stream Theory -- 4: Analog Signal Generation -- 5: Integrated Circuit Prototypes -- 6: Application to Arbitrary Waveform Generators -- 7: Conclusions -- References.",
+                "Analog Test Signal Generation Using Periodic SigmaDelta-Encoded Data Streams presents a new method to generate high quality analog signals with low hardware complexity. The theory of periodic SigmaDelta-encoded bitstreams is presented along with a set of empirical tables to help select the appropriate parameters of a bitstream. An optimization procedure is also outlined to help select a bit sequence with the desired attributes. A large variety of signals can be generated using this approach. Silicon implementation issues are discussed with a specific emphasis on area overhead and ease of design. One FPGA circuit and three different silicon implementations are presented along with experimental results. It is shown that simple designs are capable of generating very high precision signals-on-chip. The technique is further extended to multi-bit signal generation where it is shown how to increase the performance of arbitrary waveform, generators commonly found in past and present-day mixed-signal testers. No hardware modifications are required, only the numbers in memory are changed. Three different calibration techniques to reduce the effects of the AWG's non-linearities are also introduced, together with supporting experimental evidence. The main focus of this text is to describe an area-efficient technique for analog signal generation using SigmaDelta-encoded data stream. The main characteristics of the technique are: High quality signals (SFDR of 110 dB observed); Large variety of signals generated; Bitstreams easily obtained with a fast optimization program; Good frequency resolution, compatible with coherent sampling; Simple and fast hardware implementation; Mostly digital, except an easily testable 1-bit DAC and possibly a reconstruction filter; Memory already available on-chip can be reused, reducing area overhead; Designs can be incorporated into existing CAD tools; High frequency generation."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "591",
+            "isLike": "doi:10.1007/978-1-4615-4377-0",
+            "P30128": "The Springer International Series in Engineering and Computer Science",
+            "P60163": "New York, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1173803424",
+            "sameAs": "Greitschus, Marius"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A104380515X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (158 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)BSZ:515715832",
+                "(ppn)104380515X",
+                "(contract)FRUB-opus-17100",
+                "(doi)10.6094/UNIFR/17100"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.14",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc)000"
+            ],
+            "title": "New techniques for abstraction refinement",
+            "abstract": [
+                "Abstract: Abstraktionsverfeinerung beschreibt ein Verfahren zur automatischen Konstruktion eines abstrakten Modells f\u00fcr ein Systemmodell. Ziel ist es, ein abstraktes Modell zu erhalten, welches sich f\u00fcr das Anwenden von Model-Checking-Methoden eignet. Die Motivation dieser Arbeit entstammt der Beobachtung, dass die Konstruktion eines passenden abstrakten Modells f\u00fcr das Originalmodell ausschlaggebend f\u00fcr die Durchf\u00fchrbarkeit von Model-Checking-Methoden ist. Wenn das abstrakte Modell eine zu grobe Abstraktion des Systemmodells darstellt, wird die gegebene Korrektheitseigenschaft nicht mehr vom abstrakten Modell erf\u00fcllt, obwohl sie vom originalen Systemmodell erf\u00fcllt wird. In diesem Fall muss das abstrakte Modell verfeinert werden. Im CEGAR Schema wird die Abstraktion basierend auf einem unechten Gegenbeispiel verfeinert. Ein unechtes Gegenbeispiel entspricht einer zul\u00e4ssigen Ausf\u00fchrung im abstrakten Modell, welche jedoch im Originalmodell unzul\u00e4ssig ist. Dieses Verfahren zur Abstraktionsverfeinerung, welches auf unechten Gegenbeispielen basiert, wird so lange wiederholt, bis das abstrakte Modell die gegebene Korrektheitseigenschaft erf\u00fcllt, oder kein unechtes Gegenbeispiel existiert.<br><br>Diese Arbeit pr\u00e4sentiert neue Techniken, um neue Abstraktionen mit Hilfe von unechten Gegenbeispielen zu konstruieren. Hierbei werden Softwaresysteme und cyber-physische Systeme betrachtet. Die Ideen, auf denen die neuen Techniken basieren, stammen aus Bereichen wie abstrakter Interpretation, Assume-Guarantee-Reasoning und linearer Optimierung. Zu jeder Abstraktionsverfeinerungstechnik werden eine Implementierung und eine experimentelle Auswertung vorgestellt, die das praktische Potenzial der jeweiligen Technik verdeutlichen",
+                "Abstract: Abstraction refinement refers to the automatic construction of an abstract model from a model of a system. The goal is to obtain an abstract model that is amenable to model checking methods. The motivation for this thesis lies in the observation that the pivotal point of model checking is the construction of a suitable abstract model from the original model. If the abstract model is a too coarse abstraction of the given model of the system, the abstract model no longer satisfies the given correctness property even though the original model does. In this case, the abstraction needs to be refined. In the CEGAR scheme, the abstraction is refined based on a spurious counterexample. A spurious counterexample is an execution which is admitted by the abstract model but not by the original model. This process of counterexample-guided abstraction refinement is iterated until the abstract model satisfies the given correctness property or no spurious counterexample exists.<br><br>This thesis presents new techniques to construct new abstractions from spurious counterexamples for the case of software systems and for the case of cyber-physical systems. The ideas for the new techniques stem from fields as diverse as abstract interpretation, assume-guarantee reasoning, and linear optimization. For each abstraction refinement technique, we present an implementation and an experimental evaluation which shows the practical potential of the respective technique"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1173803424",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/17100",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1235549402",
+            "sameAs": "Dutt, Hem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1759334324",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XVII, 284 Seiten)",
+            "description": [
+                "Illustrationen, Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(firstid)KEP:064480410",
+                "(doi)10.1007/978-1-4842-7045-5",
+                "(isbn13)9781484270455",
+                "(ppn)1759334324"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Apple computer.",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.165"
+            ],
+            "title": "Interprocess Communication with macOS : Apple IPC Methods",
+            "abstract": [
+                "Chapter 1 : Introduction to IPC on macOS -- Chapter 2 : IPC Through Shared Memory -- Chapter 3 : IPC Through Mach Ports -- Chapter 4 : IPC Through Sockets -- Chapter 5 : IPC Through Apple Events -- Chapter 6 : IPC Through Distributed Notifications -- Chapter 7 : IPC Through Pasteboards -- Chapter 8 : IPC Through XPC -- Chapter 9 : IPC Between a Native App and Web App -- Chapter 10 : Privilege Elevation.",
+                "Build highly modular software in macOS that interacts deeply and intuitively with other programs. This book explores all techniques available for Inter-process communications (IPC) from high level macOS layers to deep kernel options while applying theoretical concepts into practical implementations on real world scenarios. You'll see how IPC techniques are used for exchanging data and messages among multiple threads in one or more processes, which may be running on one or more computers connected by a network or running locally. IPC methods can be divided into methods for message passing, synchronization, shared memory, and remote procedure calls (RPC). A poorly conceived IPC can even expose an entire network to over-the-network attacks. Despite the risks, processes and applications absolutely need to communicate with each other across your system and the network. You'll see how these communications facilitate information sharing, computational speedup, modularity, convenience, and privilege separation. In macOS, a program has a number of ways to communicate with other programs. These mechanisms for IPC often exist in different layers of the system. You'll examine how each has its own specific purposes, limitations, and intended scenarios. Some are more suitable than others for code written at a certain level of the system. For example, a kernel extension would not make use of Apple events. Additionally, the book reveals that different users have different rights when it comes to accessing files, changing system wide settings, and so on, depending on whether they are admin users or ordinary users. Running code with root or administrative privileges can intensify the dangers posed by security vulnerabilities. You'll learn that to elevate privileges safely, it is mandatory for the application to perform the task through a secure Helper process. You will: Expand the capabilities of your programs by sharing data within multiple applications Understand and dig deep into the world of Helper tools to create apps that need user privilege elevation Enhance the modularity of a system by allowing your applications to interact and share data with a website."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1235549402",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-7045-5",
+            "P30128": "Springer eBook Collection",
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

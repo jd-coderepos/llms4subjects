@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1278484620",
+            "sameAs": "Ehlers, Tobias"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188517859X",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (15.2 MByte)",
+            "identifier": [
+                "(ppn)188517859X",
+                "(doi)10.25835/yghdt8rk",
+                "(firstid)KXP:188517859X"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)rest",
+            "title": "Experimental characterization of additively manufactured particle dampers",
+            "abstract": "Dieser Datensatz beinhaltet umfangreiche experimentelle Versuchsdaten anhand derer der Effekt der Partikeld\u00e4mpfung charakterisiert werden konnte. Die Partikeld\u00e4mpfer weisen die Besonderheit auf, dass diese mittels der Additiven Fertigung im speziellen im PBF-LB/M hergestellt wurden. Als Versuchsaufbau wurde eine automatisierte Impulshammeranregung (5800SL von Dytran) von auf Schaumstoff gelagerten Balken durchgef\u00fchrt. Die Anregung wurde von 10N bis maximal 200N variiert. Die Beschleunigung wurde \u00fcber ein Beschleunigungssensor (M353B17 von PCB Piezotronics), welcher mittig an der Balkenunterseite befestigt wurde, erfasst. Des Weiteren beinhaltet die Messkette ein Datenerfassungsger\u00e4t (VibRunner von m+p International) und die Software m+p Analyzer. Mittels der Software k\u00f6nnen die Zeitdaten vom Impulshammer und vom Beschleunigungssensor aufgezeichnet und anschlie\u00dfend die \u00dcbertragungsfunktion berechnet werden. Final kann die Eigenfrequenz und das D\u00e4mpfungsma\u00df in Matlab \u00fcber das Circle-Fit Verfahren im Frequenzbereich berechnet werden. Der Datensatz weist folgende Struktur auf: Versuchsplan: Im Versuchsplan sind alle untersuchten Parameterkombinationen dargestellt. Dabei unterscheiden sich die Balken hinsichtlich des Materials (Aluminium AlSi10Mg, Stahl 1.2709, und Titan Ti6Al4V), der \u00e4u\u00dferen Balkenabmessungen, sowie den inneren Balkenabmessungen. Rohdaten: Zu jeder Messkampagne die im Versuchsplan mit \u201eParameter\u201c bezeichnet ist, existiert eine ZIP-Datei in der alle Rohdaten vorliegen. Die Rohdaten wurden nach dem folgenden Schema bezeichnet, sodass eine automatisierte Auswertung erm\u00f6glicht wird. Die ersten ein bzw. zwei Zahlen geben den Parameter an. Die Nummer nach dem ersten Bindestrich gibt an um welchen Balken es sich handelt, wenn mehrere Balken pro Parameter gefertigt wurden. Die anschlie\u00dfenden zwei Buchstaben geben an, in welche Raumrichtung die Balken zu Schwingungen angeregt wurden. Daran anschlie\u00dfend gibt die Zahl nach dem \u201eV\u201c die Versuchsnummer an. Dabei wurde mit steigender Versuchssummer die Anregungskraft erh\u00f6ht. F\u00fcr den Fall, dass bei den Messungen mehrere Versuche pro Anregungslevel durchgef\u00fchrt wurden, wurde am Ende der Bezeichnung ein Unterstrich mit einer entsprechenden Nummer eingef\u00fchrt. Die Rohdaten wurden in der Software m+p Analyzer erstellt und beinhalten die Zeitdaten sowie die \u00dcbertragungsfunktion. Die Daten wurden als Matlab Datei im .mat Format bereitgestellt. Versuchsauswertung: F\u00fcr die Auswertung der Daten wurde ein Matlab-Skript hochgeladen. Das Matlab Skript wertet die Eigenfrequenz und die D\u00e4mpfung \u00fcber das Circle-Fit Verfahren aus. Die Ergebnisse werden tabellarisch in eine Exceldatei gespeichert. Ergebnisdarstellung: Charakteristische Zusammenh\u00e4nge wie der kraft- und frequenzabh\u00e4ngige D\u00e4mpfungsverlauf sind als .eps als auch im .fig Format in einer ZIP-Datei bereitgestellt. Computertomographie Aufnahmen (CT-Scan) vom Balken: F\u00fcr ausgew\u00e4hlte Balken wurden CT-Aufnahmen bereitgestellt.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1278484620",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/yghdt8rk",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

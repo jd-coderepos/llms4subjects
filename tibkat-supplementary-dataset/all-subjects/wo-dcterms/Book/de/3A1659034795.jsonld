@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1659034795",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XII, 120 S. 10 Abb)",
+            "creator": "Naundorf, Holger",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1659034795",
+                "(isbn13)9783322930835",
+                "(firstid)BSZ:497671581",
+                "(doi)10.1007/978-3-322-93083-5"
+            ],
+            "publisher": "Vieweg+Teubner Verlag",
+            "subject": [
+                "Engineering",
+                "(classificationName=msc)68-02",
+                "(classificationName=loc)TA1-2040",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=msc)*68N99",
+                "(classificationName=ddc)620"
+            ],
+            "title": "MAMMUT : Eine verteilte Speicherverwaltung f\u00fcr symbolische Manipulation",
+            "abstract": "Viele moderne Programmiersprachen und insbesondere alle Computeralgebra-Systeme entheben den Programmierer von der Aufgabe der Deallokation nicht mehr ben\u00f6tigten Speichers. F\u00fcr den Programmierer ist es auch unm\u00f6glich zu wissen, wann ein Speicherbereich wirklich freigegeben werden mu\u00df, wenn dieser von verschiedenen, sich dynamisch \u00e4ndernden Stellen aus ben\u00f6tigt wird. Beim Programmieren ist deshalb eine Schnittstelle unverzichtbar, die dem Benutzer die Aufgabe abnimmt zu entscheiden, wann ein Speicherbereich wirklich freigegeben werden kann. Eine solche Schnittstelle nennt man Garbage Kollektor oder einfach Kollektor. Es wird immer Probleme geben, f\u00fcr die die Leistung eines einzelnen Rechners nicht ausreicht. Eine nat\u00fcrliche Methode, sowohl die Rechenleistung als auch den zur Verf\u00fcgung stehenden Speicher zu erh\u00f6hen, ist die Benutzung von parallelen und verteilten Rechnern. Insbesondere verteilte Rechner haben den Vorteil, da\u00df sich ihre Rechenleistung und der benutzbare Speicher beinahe beliebig skalieren l\u00e4\u00dft. Bei der L\u00f6sung sehr speicherplatzintensiver Probleme sollte m\u00f6glichst das mehrmalige Speichern von Daten auch auf verteilten Rechnern vermieden werden. Dies bedeutet, da\u00df von allen verteilten Rechnern eine Art gemeinsamer Speicher benutzt werden mu\u00df. In diesem Buch wird eine Schnittstelle vorgestellt, die sowohl f\u00fcr die Freigabe von Speicher als auch f\u00fcr den Zugriff auf einen m\u00f6glicherweise virtuellen gemeinsamen Speicher benutzt werden kann. Diese Schnittstelle ist Grundlage des Computeralgebra-Systems MuPAD. Inhalt Einleitung - Grundlagen der Garbage Collection - Die MAMMUT-Schnittstelle intuitiv - Porgrammbeispiele - Die Speicherverwaltung MAMMUT - Tabellen der Funktionen - Existierende Implementationen - Literaturverzeichnis - Index",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAD",
+                "(collectioncode)ZDB-2-STI"
+            ],
+            "issued": "1997",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-322-93083-5",
+            "P30128": [
+                "Springer eBook Collection",
+                "Computer Science and Engineering"
+            ],
+            "P60163": "Wiesbaden"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

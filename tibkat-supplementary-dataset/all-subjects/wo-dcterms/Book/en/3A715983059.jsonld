@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:170636143",
+            "sameAs": "Frank, Ulrich"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A715983059",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (PDF-Datei: V, 36 S., 2,39 MB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)715983059",
+                "(firstid)GBV:715983059"
+            ],
+            "publisher": "ICB",
+            "subject": [
+                "Softwareentwicklung",
+                "Modellierung",
+                "(classificationName=ddc)004",
+                "Datenmodell",
+                "Programmiersprache",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "The MEMO meta modelling language (MML) and language architecture",
+            "abstract": "The family of languages that builds the foundation of the MEMO method is intended to feature a high degree of inter-language integration. For this purpose, the languages need to share common concepts. In order to define concepts that are semantically equivalent, it is recommendable to use the same meta modelling language for specifying the MEMO modelling languages. The previous version of the meta modelling language used for this purpose needed a revision. At the same time, there was need to account for alternative approaches to specifying modelling languages, especially those offered by the OMG or the Eclipse foundation. This report starts with an analysis of requirements that should be accounted for by a meta modelling language. Subsequently, the UML infrastructure library and meta object facility (MOF) are evaluated against these requirements. In addition to that, the report presents an evaluation of the Ecore model, which serves to represent meta models within the Eclipse Graphical Modeling Framework (GMF). The evaluation of both approaches shows that none of them is satisfactory as a meta modelling language for enterprise modelling. Then, the new version of the MEMO meta modelling language (MML) is presented. The language specification consists of a meta meta model that specifies that semantics and abstract syntax and a corresponding graphical notation (concrete syntax). The new version features a concept called intrinsic features that allows for differentiating between features that apply to types and those that apply to instances. It also includes a modified graphical notation that supports a clear distinction of meta models from models on other levels of abstraction. Finally, the report presents the outline of a tool that supports the creation and editing of MEMO meta models as well as their transformation into representations which can be used in the Eclipse modelling framework.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:170636143",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "24",
+            "P30128": "ICB research report",
+            "P60163": "Essen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1284326764",
+            "sameAs": "Boss, Mark"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1839870699",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 155 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-79535",
+                "(ppn)1839870699",
+                "(firstid)KXP:1839870699"
+            ],
+            "subject": [
+                "Maschinelles Sehen",
+                "Bilderzeugung",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Bidirektionale Reflektanzverteilungsfunktion",
+                "Grafik",
+                "(classificationName=ddc-dbn)006.69",
+                "Rendering"
+            ],
+            "title": "Neural reflectance decomposition",
+            "abstract": [
+                "Creating relightable objects from images or collections is a fundamental challenge in computer vision and graphics. This problem is also known as inverse rendering. One of the main challenges in this task is the high ambiguity. The creation of images from 3D objects is well defined as rendering. However, multiple properties such as shape, illumination, and surface reflectiveness influence each other. Additionally, an integration of these influences is performed to form the final image. Reversing these integrated dependencies is highly ill-posed and ambiguous. However, solving the task is essential, as automated creation of relightable objects has various applications in online shopping, augmented reality (AR), virtual reality (VR), games, or movies. In this thesis, we propose two approaches to solve this task. First, a network architecture is discussed, which generalizes the decomposition of a two-shot capture of an object from large training datasets. The degree of novel view synthesis is limited as only a singular perspective is used in the decomposition. Therefore, the second set of approaches is proposed, which decomposes a set of 360-degree images. These multi-view images are optimized per object, and the result can be directly used in standard rendering software or games. We achieve this by extending recent research on Neural Fields, which can store information in a 3D neural volume. Leveraging volume rendering techniques, we can optimize a reflectance field from in-the-wild image collections without any ground truth (GT) supervision. Our proposed methods achieve state-of-the-art decomposition quality and enable novel capture setups where objects can be under varying illumination or in different locations, which is typical for online image collections.",
+                "Die Erstellung von fotorealistischen Modellen von Objekten aus Bildern oder Bildersammlungen ist eine grundlegende Herausforderung in der Computer Vision und Grafik. Dieses Problem wird auch als inverses Rendering bezeichnet. Eine der gr\u00f6\u00dften Herausforderungen bei dieser Aufgabe ist die vielf\u00e4ltige Ambiguit\u00e4t. Der Prozess Bilder aus 3D-Objekten zu erzeugen wird Rendering genannt. Allerdings beeinflussen sich mehrere Eigenschaften wie Form, Beleuchtung und die Reflektivit\u00e4t der Oberfl\u00e4che gegenseitig. Zus\u00e4tzlich wird eine Integration dieser Einfl\u00fcsse durchgef\u00fchrt, um das endg\u00fcltige Bild zu erzeugen. Die Umkehrung dieser integrierten Abh\u00e4ngigkeiten ist eine \u00e4u\u00dferst schwierige und mehrdeutige Aufgabenstellung. Die L\u00f6sung dieser Aufgabe ist jedoch von entscheidender Bedeutung, da die automatisierte Erstellung solcher wieder beleuchtbaren Objekte verschiedene Anwendungen in den Bereichen Online-Shopping, Augmented Reality (AR), Virtual Reality (VR), Spiele oder Filme hat. In dieser Arbeit werden zwei Ans\u00e4tze zur L\u00f6sung dieser Aufgabe beschrieben. Erstens wird eine Netzwerkarchitektur vorgestellt, die die Erfassung eines Objekts und dessen Materialien von zwei Aufnahmen erm\u00f6glicht. Der Grad der Blicksynthese von diesen Objekten ist jedoch begrenzt, da bei der Dekomposition nur eine einzige Perspektive verwendet wird. Daher wird eine zweite Reihe von Ans\u00e4tzen vorgeschlagen, bei denen eine Sammlung von 360 Grad verteilten Bildern in die Form, Reflektanz und Beleuchtung gespalten werden. Diese Multi-View-Bilder werden pro Objekt optimiert. Das resultierende Objekt kann direkt in handels\u00fcblicher Rendering-Software oder in Spielen verwendet werden. Wir erreichen dies, indem wir die aktuelle Forschung zu neuronalen Feldern erweitern Reflektanz zu speichern. Durch den Einsatz von Volumen-Rendering-Techniken k\u00f6nnen wir ein Reflektanzfeld aus nat\u00fcrlichen Bildsammlungen ohne jegliche Ground Truth (GT) \u00dcberwachung optimieren. Die von uns vorgeschlagenen Methoden erreichen eine erstklassige Qualit\u00e4t der Dekomposition und erm\u00f6glichen neuartige Aufnahmesituationen, in denen sich Objekte unter verschiedenen Beleuchtungsbedingungen oder an verschiedenen Orten befinden k\u00f6nnen, was \u00fcblich f\u00fcr Online-Bildsammlungen ist."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1284326764",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-79535",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

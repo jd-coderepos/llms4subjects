@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1291212523",
+            "sameAs": "Meinke, Alexander"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1847051723",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XIII, 124 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-82785",
+                "(firstid)KXP:1847051723",
+                "(ppn)1847051723"
+            ],
+            "subject": [
+                "Neuronales Netz",
+                "(classificationName=ddc-dbn)006.31",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Robustheit",
+                "Deep learning"
+            ],
+            "title": "Robust out-of-distribution detection in deep classifiers",
+            "abstract": "Over the past decade, deep learning has gone from a fringe discipline of computer science to a major driver of innovation across a large number of industries. The deployment of such rapidly developing technology in safety-critical applications necessitates the careful study and mitigation of potential failure modes. Indeed, many deep learning models are overconfident in their predictions, are unable to flag out-of-distribution examples that are clearly unrelated to the task they were trained on and are vulnerable to adversarial vulnerabilities, where a small change in the input leads to a large change in the model\u2019s prediction. In this dissertation, we study the relation between these issues in deep learning based vision classifiers. First, we benchmark various methods that have been proposed to enable deep learning meth- ods to detect out-of-distribution examples and we show that a classifier\u2019s predictive confidence is well-suited for this task, if the classifier has had access to a large and diverse out-distribution at train time. We theoretically investigate how different out-of-distribution detection methods are related and show that several seemingly different approaches are actually modeling the same core quantities. In the second part we study the adversarial robustness of a classifier\u2019s confidence on out- of-distribution data. Concretely, we show that several previous techniques for adversarial robustness can be combined to create a model that inherits each method\u2019s strength while sig- nificantly reducing their respective drawbacks. In addition, we demonstrate that the enforce- ment of adversarially robust low confidence on out-of-distribution data enhances the inherent interpretability of the model by imbuing the classifier with certain generative properties that can be used to query the model for counterfactual explanations for its decisions. In the third part of this dissertation we will study the problem of issuing mathematically provable certificates for the adversarial robustness of a model\u2019s confidence on out-of-distribution data. We develop two different approaches to this problem and show that they have comple- mentary strength and weaknesses. The first method is easy to train, puts no restrictions on the architecture that our classifier can use and provably ensures that the classifier will have low confidence on data very far away. However, it only provides guarantees for very specific types of adversarial perturbations and only for data that is very easy to distinguish from the in-distribution. The second approach works for more commonly studied sets of adversarial perturbations and on much more challenging out-distribution data, but puts heavy restrictions on the architecture that can be used and thus the achievable accuracy. It also does not guar- antee low confidence on asymptotically far away data. In the final chapter of this dissertation we show how ideas from both of these techniques can be combined in a way that preserves all of their strengths while inheriting none of their weaknesses. Thus, this thesis outlines how to develop high-performing classifiers that provably know when they do not know.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1291212523"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-82785",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

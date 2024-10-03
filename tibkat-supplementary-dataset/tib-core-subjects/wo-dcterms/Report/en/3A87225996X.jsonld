@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1065476779",
+            "sameAs": "Heltai, Luca"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A87225996X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (22 Seiten, 1.106 kB)",
+            "http://purl.org/dc/elements/1.1/creator": "Rotundo, Nella",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)87225996X",
+                "(firstid)GBV:87225996X"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Error estimates in weighted Sobolev norms for finite element immersed interface methods",
+            "abstract": "When solving elliptic partial differential equations in a region containing immersed interfaces (possibly evolving in time), it is often desirable to approximate the problem using a uniform background discretisation, not aligned with the interface itself. Optimal convergence rates are possible if the discretisation scheme is enriched by allowing the discrete solution to have jumps aligned with the surface, at the cost of a higher complexity in the implementation. A much simpler way to reformulate immersed interface problems consists in replacing the interface by a singular force field that produces the desired interface conditions, as done in immersed boundary methods. These methods are known to have inferior convergence properties, depending on the global regularity of the solution across the interface, when compared to enriched methods. In this work we prove that this detrimental effect on the convergence properties of the approximate solution is only a local phenomenon, restricted to a small neighbourhood of the interface. In particular we show that optimal approximations can be constructed in a natural and inexpensive way, simply by reformulating the problem in a distributionally consistent way, and by resorting to weighted norms when computing the global error of the approximation.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1065476779",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2323",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A382487982",
+            "@type": "bibo:Thesis",
+            "P1053": "189 p. = 5611 KB, text and images",
+            "creator": "Nerger, Lars",
+            "identifier": [
+                "(ppn)382487982",
+                "(firstid)GBV:382487982"
+            ],
+            "publisher": "Staats-  und Universit\u00e4tsbibliothek [Host]",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Parallel filter algorithms for data assimilation in Oceanography",
+            "abstract": "Data assimilation, Kalman filter, oceanography, parallelization. - A consistent systematic comparison of filter algorithms based on the Kalman filter and intended for data assimilation with large-scale nonlinear models is presented. Considered are the EnsembleKalman Filter (EnKF), the Singular Evolutive Extended Kalman (SEEK) filter, and the Singular Evolutive Interpolated Kalman (SEIK) filter. Within the two parts of this thesis, the filter algorithms are compared with a focus on their mathematical properties as Error Subspace KalmanFilters (ESKF). Further, the filters are studied as parallel algorithms. This study includes the development of an efficient framework for parallel filtering. In the first part, the filters are motivated in the context of statistical estimation. The unified interpretation as ESKF algorithms provides the basis for the consistent comparison of the filters. Numerical data assimilation experiments with a model based on the shallow water equations show how choices of the filter schemeand particular state ensembles for the filter initialization lead to variations of the data assimilation performance.The application of the three filter algorithms on parallel computers is studied in the second part. The parallelization possibilities of the different phases of the algorithms are examined. Further, a framework for parallel filtering is developed which allows to combine filter algorithms with existing numerical models requiring only minimal changes ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

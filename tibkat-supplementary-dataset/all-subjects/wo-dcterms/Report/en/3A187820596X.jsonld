@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1239770626",
+            "sameAs": "HANSA Klimasysteme GmbH"
+        },
+        {
+            "@id": "gnd:142106313",
+            "sameAs": "Steinigeweg, Sven"
+        },
+        {
+            "@id": "gnd:5090756-6",
+            "sameAs": "Deutsche Bundesstiftung Umwelt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A187820596X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online Ressource (96 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Lamping, Matthias",
+                "Beck, Tom"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)187820596X",
+                "(firstid)KXP:187820596X",
+                "(contract)AZ 35561/01",
+                "(contract)DBU3556101"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)690",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=linseach:mapping)arc",
+                "(classificationName=ddc-dbn)697.9"
+            ],
+            "title": "\u00dcbergeordnete selbstlernende energieeffiziente Regelung mehrerer zusammenwirkender komplexer Raumlufttechnischer Ger\u00e4te \u201eSmart-RLT Net\u201c",
+            "abstract": "In the previous project funded by the DBU with the AZ 33401/01 \"Selbstlernende energieeffiziente Regelung komplexer raumlufttechnischer Ger\u00e4tet\", it was basically proven that the approach of model-based control of a swimming pool air handling unit has a clear potential for reduced energy consumption. A short test phase showed a reduction of about 20%. However, the swimming pool is ventilated by two devices and it became apparent that both devices must be equipped with the appropriate control approach and, in addition, the default values for the devices must be generated via a superordinate coordination level. This was implemented in this project. The project was divided into 7 phases, which were partly worked on in parallel by HANSA and the cooperation partner Eden/Leer University of Applied Sciences. After the project conception, the sensor and data concept was updated and the necessary sensor technology was reduced to the required minimum on the basis of the results. The models developed in the previous project were transferred to two new AHU\u2019s in the swimming pool and validated. Based on the data collected in the first project, a higher-level neural control model was developed. After the end of the Corona phase, more data could be collected to further train the models. Approaches could be developed to normalize the models created in one building in order to transfer them to other buildings. The control quality is sufficient for this purpose. When adapting the existing gray and black box models to the second device, it also became apparent that a physically based model offers advantages because sufficient data must be available for each operating state in order to train the neural networks, but in some cases this data was only available in small numbers. Furthermore, a neural learning model requires a larger number of sensors. This is negative for the later marketing, because the acquisition costs increase. In principle, it was possible to adapt the device models very quickly via scaling. In further operation, further learning can then be implemented quickly. In this project, the basic possibility was created to continuously use the collected data for the optimization of the NN model during the operation of the devices and to continuously train it automatically. The automatic linearization required in the second step for the MPC was investigated, but could not yet be achieved. A manual step is still necessary here. A higher-level neural building model and a two-level MPC cascade controller for the building and the devices were developed. This makes it possible to coordinate multiple devices acting on one room to be conditioned. It was possible, after the end of the Corona restriction, to compare the energy consumptions for more than one year. The results show a saving of energy demand of 25% each of electrical energy and thermal energy in the swimming pool Ramsloh. To verify this, three other swimming pools were equipped with this technology. The results are comparable. A detailed description of these pools is omitted in this final report. The developed controller has the further advantage that the control quality is better and thus also the comfort feeling of the visitors as well as the employees. A corresponding analysis is presented in the report. All project goals were achieved. The controller was further developed to such an extent that a market launch was possible. The controller has already been sold in several new projects (Vahrenwalder Bad, Sylter Welle, Schwimmbad Delitzsch, Ernst-Th\u00e4lmann Platz) and also as a retrofit in various pools where HANSA equipment is installed (e.g. Kusel, Erlangen). We will now further develop this control approach for other applications and hire several more engineers for this purpose. We would like to thank the DBU for their support and assistance. Without these projects, we would not have been able to develop this forward-looking technology.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:5090756-6",
+                "gnd:142106313",
+                "gnd:1239770626"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Str\u00fccklingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

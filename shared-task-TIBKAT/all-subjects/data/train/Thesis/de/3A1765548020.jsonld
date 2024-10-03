@@ -1,0 +1,121 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:106064178X",
+            "sameAs": "Quorum (Informatik)"
+        },
+        {
+            "@id": "gnd:1107031117",
+            "sameAs": "Kramer, Oliver"
+        },
+        {
+            "@id": "gnd:1235726134",
+            "sameAs": "Schadek, Robert"
+        },
+        {
+            "@id": "gnd:4021842-9",
+            "sameAs": "Graph"
+        },
+        {
+            "@id": "gnd:4208537-8",
+            "sameAs": "Netzwerktopologie"
+        },
+        {
+            "@id": "gnd:4742677-9",
+            "sameAs": "Datenreplikation"
+        },
+        {
+            "@id": "gnd:7624291-2",
+            "sameAs": "Hochverf\u00fcgbarkeit"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1765548020",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ii, 256 Seiten, 3,4 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Theel, Oliver",
+            "identifier": [
+                "(ppn)1765548020",
+                "(firstid)DNB:1236691792"
+            ],
+            "publisher": "BIS der Universit\u00e4t Oldenburg",
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.3"
+            ],
+            "title": "Analysis and Development of Quorum Protocols for Real-World Network Topologies",
+            "abstract": [
+                "Hochverf\u00fcgbare Dienste k\u00f6nnen mit Hilfe von sogenannten Quorum Protokollen realisiert werden. Leider gestaltet sich die Anwendung von Quorum-Protokollen in realen Netzwerken als schwierig, da effiziente Quorum-Protokolle oft von einer bestimmten Graphenstruktur abh\u00e4ngen, die den von ihnen verwalteten Replikaten auferlegt sind. In dieser Arbeit zeigen wir, dass die Kosten- und Verf\u00fcgbarkeits\\-vorhersagen von Quorum-Protokollen oft ungenau sind, wenn sie in einem realen Netzwerk eingesetzt werden. Wir stellen den Mapping-Ansatz vor. Der Mapping-Ansatz erh\u00f6ht die Genauigkeit der der Kosten- und Verf\u00fcgbarkeits\\-vorhersagen der meisten Quorum-Protokolle in realen Netzwerken. Da der Mapping-Ansatz sehr rechenintensiv ist, wird das k-nearest neighbors Verfahren benutzt, um die Verf\u00fcgbarkeit der durch die Quoren Protokolle erbrachten Dienste vorherzusagen. Da selbst diese Technik bei bestimmten Netzwerkgr\u00f6\u00dfen nicht praktikabel ist, werden zwei neue Quorum-Protokoll, namentlich das Circle-Protokoll und das Crossing-Protokoll, vorgestellt. Diese beiden Protokolle arbeiten direkt auf einem realen Netzwerk. Alle diese verschiedenen Techniken werden ausf\u00fchrlich analysiert und verglichen. Abschlie\u00dfend wird ein Algorithmus vorgestellt, der alle diese Techniken verwendet um das beste Quorum-Protokoll f\u00fcr ein gegebenes reales Netzwerk zu finden.",
+                "Highly available services can be implemented by means of so-called quorum protocols. Unfortunately, applying quorum protocols in real-world physical networks turns out to be difficult since efficient quorum protocols often depend on a particular graph structure imposed on the replicas managed by it. In this work, we show that the cost and availability predictions of the operations provided by quorum protocols are often not accurate when they are executed in a real-world physical network. We present the mapping approach, the mapping approach increases the accuracy of the cost and availability predictions of most quorum protocols on real-world networks. The mapping approach is used to analyze multiple existing quorum protocols when applied on real-world networks. As the mapping approach is computational expensive, the k-nearest neighbors algorithm is novelly employed to predict availability of the services facilitated by the quorum protocols when used on a real-world network. As even this technique is infeasible at certain network sizes two new quorum protocol, namely the Circle Protocol and the Crossing Protocol, are presented that directly work on the real-world network of arbitrary size. All these different techniques are extensively analyzed and compared. Concluding, an algorithm is presented that uses all these techniques to find the best quorum protocol for a given real-world network."
+            ],
+            "alternative": "Analyse und Entwicklung von Quorum-Protokollen f\u00fcr reale Netzwerktopologien",
+            "contributor": "gnd:1107031117",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1235726134",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:106064178X"
+                },
+                {
+                    "@id": "gnd:4021842-9"
+                },
+                {
+                    "@id": "gnd:4208537-8"
+                },
+                {
+                    "@id": "gnd:7624291-2"
+                },
+                {
+                    "@id": "gnd:4742677-9"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

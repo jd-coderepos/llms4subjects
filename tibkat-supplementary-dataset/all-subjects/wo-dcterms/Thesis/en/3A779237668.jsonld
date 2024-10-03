@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:124875556",
+            "sameAs": "Sohler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A779237668",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Bl\u00f6mer, Johannes",
+            "creator": "Kuntze, Daniel",
+            "identifier": [
+                "(firstid)HBZ:CT004000964",
+                "(ppn)779237668"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=ddc-dbn)000"
+            ],
+            "title": "Practical algorithms for clustering and modeling large data sets : analysis and improvements",
+            "abstract": "In Zeiten von Big Data sind gro\u00dfe Datenbankanwendungen von wachsender Bedeutung. Eine zentrale Aufgabe aus diesem Bereich ist die Reduzierung der zu verarbeitenden Datenmenge. Diese Aufgabe l\u00e4sst sich beispielsweise l\u00f6sen, indem die Struktur der gegebenen Daten erfasst wird. In dieser Dissertation besch\u00e4ftigen wir uns mit zwei Techniken zur Strukturierung von gro\u00dfen Datenmengen. Im ersten Teil der Arbeit geht es um Clusteranalyse, speziell um das Durchmesser-k-Clustering-Problem. Wir liefern die erste Analyse des agglomerativen Complete-Linkage Clusteringalgorithmus. Wir zeigen, dass die vom Algorithmus berechnete L\u00f6sung f\u00fcr konstante Dimension d f\u00fcr jedes k eine O(log k)-Approximation des Durchmesser-k-Clustering-Problems ist. Au\u00dferdem analysieren wir das k-Center-Problem und das diskrete k-Center-Problem. F\u00fcr die dazugeh\u00f6rigen agglomerativen Algorithmen leiten wir ebenfalls einen Approximationsfaktor von O(log k) her. Der zweite Teil der Arbeit besch\u00e4ftigt sich mit der Parametersch\u00e4tzung f\u00fcr allgemeine und Gau\u00dfsche Mixturverteilungen. Wir analysieren eine probabilistische Variante des Expectation-Maximization (EM) Algorithmus, die als Stochastic EM oder SEM Algorithmus bekannt ist. F\u00fcr Gau\u00dfsche Mixturmodelle zeigen wir, dass die Updates des EM Algorithmus und seiner probabilistischen Variante mit hoher Wahrscheinlichkeit fast identisch sind, wenn die Datenmenge gro\u00df genug ist. Eine Reihe von Experimenten best\u00e4tigt, dass dies auch f\u00fcr eine gro\u00dfe Anzahl aufeinanderfolgender Updateschritte noch gilt. Dar\u00fcber hinaus er\u00f6rtern wir, warum der SEM Algorithmus schneller arbeitet als der klassische EM Algorithmus. Insbesondere zeigen wir f\u00fcr Gau\u00dfsche Mixturmodelle, dass die probabilistische Variante eine Beschleunigung um einen konstanten Faktor erreicht.. - In times of big data, large-scale database applications are of increasing importance. A central task in this field is to reduce the amount of data that has to be processed. One way to approach this task is to capture the structure of the given data. This thesis deals with two particular data structuring techniques. The first part of this thesis is about cluster analysis. More precisely, we consider the diameter k-clustering problem. We provide the first analysis of the agglomerative complete linkage clustering algorithm. Assuming that the dimension d is a constant, we show that for any k the solution computed by this algorithm is an O(log k)-approximation to the diameter k-clustering problem. Our analysis does not only hold for the Euclidean distance but for any metric that is based on a norm. Furthermore, we analyze the closely related k-center and discrete k-center problem. For the corresponding agglomerative algorithms, we deduce an approximation factor of O(log k) as well. The second part of this thesis deals with the parameter estimation problem for general and Gaussian mixture distributions. We analyze a probabilistic variant of the Expectation-Maximization (EM) algorithm, known as the Stochastic EM or SEM algorithm. Unlike the original work, we focus on the analysis of a single run of the algorithm. We focus on the SEM algorithm for Gaussian mixture models and show that with high probability the updates of the EM algorithm and its probabilistic variant are almost the same, given that the data set is sufficiently large. A series of experiments confirms that this still holds for a large number of successive update steps. Furthermore, we explain why the SEM algorithm is considerably faster than the classical EM algorithm. In particular, we show that the probabilistic variant establishes a constant factor speedup for Gaussian mixture models.",
+            "contributor": "gnd:124875556",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

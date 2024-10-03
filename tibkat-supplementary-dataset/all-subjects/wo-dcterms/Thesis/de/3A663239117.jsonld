@@ -1,0 +1,61 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A663239117",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (Online-Ressource)",
+            "http://purl.org/dc/elements/1.1/contributor": "Belli, Fevzi",
+            "creator": "Hollmann, Axel",
+            "identifier": [
+                "(firstid)HBZ:CT004000027",
+                "(ppn)663239117"
+            ],
+            "subject": [
+                "(classificationName=ddc)005.14",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Model-based mutation testing for test generation and adequacy analysis",
+            "abstract": "Die Mutationsanalyse wurde in den Siebzigerjahren prim\u00e4r zur Beurteilung der Effizienz einer vorgegebenen Testfallmenge eingef\u00fchrt. Zur systematischen Modifizierung des Quellcodes des zu pr\u00fcfenden Systems (Pr\u00fcfling) und somit zur Simulierung typischer Programmierfehler benutzt das Verfahren spezielle Mutationsoperatoren. F\u00fcr jeden der erzeugten Mutanten wird \u00fcberpr\u00fcft, ob die gegebene Testfallmenge den bzw. die injizierten Fehler erkennt. Das Verh\u00e4ltnis aus erkannten zu nicht erkannten Fehlern wird abschlie\u00dfend zur Beurteilung der Effizienz der gegebenen Testfallmenge genutzt. Die vorliegende Arbeit f\u00fchrt eine modellbasierte Mutationsanalyse ein. Anstatt des Quellcodes des zu pr\u00fcfenden Systems wird nun das gegebene, als korrekt angenommene Modell des Systems systematisch modifiziert. F\u00fcr jeden so erzeugten Mutanten wird eine Testfallmenge mittels eines modellbasierten Testfallgenerators generiert, welche auf das zu pr\u00fcfende System angewandt wird. Im Gegensatz zur code-basierten Mutationsanalyse erm\u00f6glicht es diese modellbasierte Sichtweise, auch \"echte\", d.h. nicht-injizierte Fehler im Pr\u00fcfling zu erkennen. Ein weiterer Vorteil ist, dass der Quellcode des Pr\u00fcflings nicht ben\u00f6tigt wird, weil die Mutationsanalyse auf Modellebene durchgef\u00fchrt wird. Das erleichtert den Einsatz in der Praxis, weil der Quellcode des Pr\u00fcflings nicht immer verf\u00fcgbar ist. Der Ansatz und die benutzten elementaren Mutationsoperatoren werden zun\u00e4chst syntaktisch anhand von gerichteten Graphen erl\u00e4utert. Zur Ber\u00fccksichtigung praktischer Belange werden exemplarisch einige bekannte Modelle herangezogen: Ereignis-Sequenz-Graphen, endliche Automaten und Statecharts. Mit Hilfe dieser Modelle identifizieren und analysieren mehrere Fallstudien die charakteristischen Eigenschaften und Vorteile des eingef\u00fchrten Ansatzes.. - Mutation analysis was introduced in the seventies of the last century to assess the efficiency of a given test set. This approach makes use of specific mutation operators to systematically modify the source code of the system under test (SUT) to simulate typical programming errors. For each of the generated mutants, it checks whether or not the given test set detects the injected fault(s). The ratio of detected to undetected faults is finally used to assess the efficiency of the given test set. This thesis introduces a model-based mutation analysis. Instead of the source code of the SUT, its given model, which is assumed to be correct, is systematically modified. A test set is generated for each mutant using a model-based test generation algorithm, which is then applied to the SUT. In contrast to code-based mutation analysis the present model-based approach also enables the detection of \"real,\" non-injected faults in the SUT. Another advantage is that the source code of the SUT is not needed, as the mutation analysis is performed on the model level. This eases the use in practice since the source code of the SUT is not always available. The beginning of the thesis explains the approach and syntactically introduces the basic mutation operators by means of directed graphs. To take the practical issues into account, well-known models are considered: event sequence graphs, finite-state machines, and statecharts. Using these models, several case studies identify and analyze the characteristics and advantages of the approach.",
+            "alternative": "Modellbasiertes Mutationstesten zur Testfallgenerierung und Wirksamkeitsanalyse",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

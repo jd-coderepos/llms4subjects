@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1685182488",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 657 KB)",
+            "creator": [
+                "Tempone, Ra\u00fal F.",
+                "Ben Hammouda, Chiheb"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1685182488",
+                "(doi)10.20347/WIAS.PREPRINT.2652",
+                "(firstid)KXP:1685182488"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Hierarchical adaptive sparse grids and quasi Monte Carlo for option pricing under the rough Bergomi model",
+            "abstract": "The rough Bergomi (rBergomi) model, introduced recently in [4], is a promising rough volatility model in quantitative finance. It is a parsimonious model depending on only three parameters, and yet exhibits remarkable fit to empirical implied volatility surfaces. In the absence of analytical European option pricing methods for the model, and due to the non-Markovian nature of the fractional driver, the prevalent option is to use the Monte Carlo (MC) simulation for pricing. Despite recent advances in the MC method in this context, pricing under the rBergomi model is still a timeconsuming task. To overcome this issue, we design a novel, hierarchical approach, based on i) adaptive sparse grids quadrature (ASGQ), and ii) quasi Monte Carlo (QMC). Both techniques are coupled with Brownian bridge construction and Richardson extrapolation. By uncovering the available regularity, our hierarchical methods demonstrate substantial computational gains with respect to the standard MC method, when reaching a sufficiently small relative error tolerance in the price estimates across different parameter constellations, even for very small values of the Hurst parameter. Our work opens a new research direction in this field, i.e., to investigate the performance of methods other than Monte Carlo for pricing and calibrating under the rBergomi model.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1017122695"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2652",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2652",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

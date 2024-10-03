@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:171608402",
+            "sameAs": "Schoenmakers, John"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869411071",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (21 Seiten, 1.261 kB)",
+            "creator": [
+                "Anker, Felix",
+                "Eigel, Martin",
+                "Neumann, Johannes"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)869411071",
+                "(firstid)GBV:869411071"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "A fully adaptive interpolated stochastic sampling method for random PDEs",
+            "abstract": "A numerical method for the fully adaptive sampling and interpolation of PDE with random data is presented. It is based on the idea that the solution of the PDE with stochastic data can be represented as conditional expectation of a functional of a corresponding stochastic differential equation (SDE). The physical domain is decomposed subject to a non-uniform grid and a classical Euler scheme is employed to approximately solve the SDE at grid vertices. Interpolation with a conforming finite element basis is employed to reconstruct a global solution of the problem. An a posteriori error estimator is introduced which provides a measure of the different error contributions. This facilitates the formulation of an adaptive algorithm to control the overall error by either reducing the stochastic error by locally evaluating more samples, or the approximation error by locally refining the underlying mesh. Numerical examples illustrate the performance of the presented novel method.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1017122695"
+                },
+                {
+                    "@id": "gnd:171608402"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2200",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A846484641",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xix, 331 Seiten)",
+            "creator": "Hartmann, Tobias",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)846484641",
+                "(firstid)GBV:846484641"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Testing End-To-End Chains using Domain Specific Languages",
+            "abstract": [
+                "Testing systems is a time consuming (and hence expensive) activity. Nevertheless, it is a very important and necessary step before using systems, especially safety critical systems. Therefore, many different test procedures are used: Unit Tests, Black-Box Tests, Software Integration Tests (SWI), Hardware-Software Integration Tests (HSI), Hardware-In-The-Loop Tests, just to name a few. Especially in the avionics domain, a variety of systems and applications communicate which each other. Furthermore, they depend and rely on the received information. However, some faults are only detected when all systems are connected and in operational mode. A new testing approach is to create model based End-To-End Chain scenarios with original and simulated equipment in any combination. The first aim is to automatically derive test data and test cases from the model, which is defined by a Domain Specific Language (DSL). Test data generators can be attached to quickly create a variety of stimuli for the systems under test. Furthermore, the system under test can be stimulated by either original equipment \u00e2 which is connected to the test bench \u00e2 or the test bench can simulate equipment and create inputs for the tested systems. Any mixture of simulated and original equipment is possible and can be changed on the fly. In the end, the results from the system under test are collected. These results can then be displayed back in the model. This method was used and improved in the project \u00e2 E-Enabled Cabin (E-Cab)\u00e2 in which the author was involved. Passengers traveling by plane are in the focus of this project. Complete services and service chains \u00e2 ranging from booking at home with a computer, being en route using mobile devices to leaving the destination airport \u00e2 are created and used by many systems communicating with each other. A special focus is set on a guidance scenario at an airport. The user of the system signs in to a guidance and notification system which will inform him via his own digital equipment (mobile device/smart phone). The system notifies the user about his in-time status. Either he is in-time for his flight, or he needs to hurry up and proceed to the next area or he will be too late and cannot catch his flight. The DSL itself is designed according to the comprehension of information processes. The ability of the human brain to process visual information in parallel \u00e2 in contrast to sequential processing of textual information \u00e2 is described and applied in the design of the DSL and the concepts of the project. The development of the DSL and the workflow is developed with the \u00e2 real world\u00e2 in mind. This means that the work fits in established workflows and enhances the current situation. As this project took place in the aircraft industry, the appropriate development standards, like DO178B and ABD100/200 (Airbus Directives ABD100/ABD200), build the foundation. The generation of clean code is established by applying generator guidelines (through coding standards) in order to create maintainable tests and test data.",
+                "Domain Specific Language, DSL, Test, Avionic, End-To-End Chain, Test Data Generation, Test Generation, DO178B"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

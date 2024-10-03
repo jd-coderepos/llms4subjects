@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122222776",
+            "sameAs": "Sch\u00e4fer, Wilhelm"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1000116824",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XVI, 429 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Tichy, Matthias",
+            "creator": "Dziwok, Stefan",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1000116824",
+                "(firstid)HBZ:CT004001964",
+                "(doi)10.17619/UNIPB/1-196"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Specification and verification for real-time coordination protocols of cyber-physical systems",
+            "abstract": "Cyber-physische Systeme (CPSs) sind die n\u00e4chste Generation von eingebetteten Systemen, die fortw\u00e4hrend ihre Zusammenarbeit koordinieren, um anspruchsvolle Funktionen zu erf\u00fcllen. Die Koordination zwischen ihnen kann in Software mittels asynchroner Nachrichtenkommunikation realisiert werden. Um die funktionale Korrektheit der Software zu gew\u00e4hrleisten, ist aufgrund der Kritikalit\u00e4t dieser Systeme eine formale Verifikation wie z.B. Model Checking notwendig. Die Eingabesprache eines Model Checkers unterst\u00fctzt jedoch dom\u00e4nenspezifische Aspekte wie asynchrone Kommunikation nicht direkt, wodurch diese vom Softwareingenieur mittels zahlreicher Modellelemente spezifiziert werden m\u00fcssen. Dies ist hochgradig komplex und somit fehleranf\u00e4llig. Im Rahmen dieser Arbeit wird eine modellgetriebene Methode zur dom\u00e4nenspezifischen Spezifikation und vollautomatischen Verifikation der nachrichtenbasierten Koordination von CPSs pr\u00e4sentiert. Mit Hilfe dieser Methode kann der Softwareingenieur die Koordination kompakt modellieren und muss nicht l\u00e4nger verstehen, wie seine Spezifikation auf der Ebene des Model Checkers ausgedr\u00fcckt wird. Insgesamt wird die Komplexit\u00e4t f\u00fcr den Softwareingenieur somit deutlich handhabbarer. Bez\u00fcglich der Spezifikation einer solchen Koordination definiert die Arbeit eine dom\u00e4nenspezifische Sprache namens Real-Time Coordination Protocols (RTCPs). Dar\u00fcber hinaus wird eine dom\u00e4nenspezifische Sprache zur Spezifikation von Verifikationseigenschaften eingef\u00fchrt und Entwurfsmuster f\u00fcr RTCPs pr\u00e4sentiert, um die Anzahl der Modellierungsfehler zu senken.. - Cyber-physical systems (CPSs) are the next generation of embedded systems that heavily interact with each other and their environment to fulfill advanced functionality. The coordination between them may be realized in software by means of asynchronous message communication. Due to the criticality of these systems, a formal verification like model checking is required in order to guarantee the functional correctness of the software. However, the input language of a model checker does not directly support domain-specific aspects such as asynchronous communication. Thus, a software engineer has to specify them using numerous model elements. This is highly complex and, thus, error-prone. This thesis presents a model-driven method for the domain-specific specification and fully automatic verification of the message-based coordination of CPSs. By using this method, the software engineer can model the coordination in a compact manner and does no longer need to understand how his specification is represented at the level of the model checker. Consequently, this thesis makes the complexity for the software engineer more manageable. Concerning the specification of such a coordination, this thesis defines a domain-specific language called Real-Time Coordination Protocols (RTCPs). In addition, it introduces a domain-specific language for the specification of verification properties and design patterns for RTCPs to reduce the number of modeling errors.",
+            "alternative": "Specification and verification of real-time coordination protocols for cyber-physical systems",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122222776"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-196",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

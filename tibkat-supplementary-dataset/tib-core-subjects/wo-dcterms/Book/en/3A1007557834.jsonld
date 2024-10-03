@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1007557834",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xvii, 208 Seiten)",
+            "creator": [
+                "Yang, Shenghao",
+                "Yeung, Raymond W."
+            ],
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Illustrationen",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:1007557834",
+                "(ppn)1007557834",
+                "(isbn)1627057153",
+                "(isbn13)9781627057158"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Packet switching (Data transmission)",
+                "(classificationName=rvk)ZN 6045",
+                "(classificationName=msc)*94-02",
+                "(classificationName=ddc)004.6",
+                "(classificationName=loc)TK5105.383",
+                "(classificationName=msc)94C05",
+                "(classificationName=msc)94B60",
+                "(classificationName=msc)68M10",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "BATS codes : theory and practice",
+            "abstract": [
+                "A. Proof of theorem 5.7 -- A general theorem -- Completing the proof -- A system of differential equations -- B. Incomplete beta function -- C. Vertices of convex polytope -- D. Proofs about finite-length analysis -- Proof of theorem 7.1 -- Initial status of BP decoding -- Recursive formula -- Proofs of several properties -- Proofs about stopping time distribution -- Proofs about Poisson number of batches -- E. Proofs about inactivation -- Bibliography -- Authors' biographies -- Index",
+                "1. Preliminaries -- 1.1 Communication through networks with packet loss -- 1.2 Link-by-link retransmission -- 1.2.1 Retransmission in line networks -- 1.2.2 Wireless erasure relay network -- 1.2.3 Retransmission for multicast -- 1.3 Erasure coding -- 1.3.1 Introduction to fountain codes -- 1.3.2 Fountain codes for wireless broadcast -- 1.3.3 Fountain codes for line networks -- 1.3.4 Fountain codes for wireless erasure relay network -- 1.4 Network coding -- 1.4.1 Random linear network coding -- 1.4.2 Fountain codes with network coding -- 1.4.3 Chunks -- 1.4.4 BATS codes -- 1.4.5 Other approaches -- 1.5 Performance comparison --",
+                "6. Asymptotic degree distribution optimizations -- 6.1 Optimization for single rank distribution -- 6.2 Achievable rates -- 6.3 Optimizations for multiple rank distributions -- 6.3.1 Optimization problems -- 6.3.2 Simplifications -- 6.4 Guaranteed rates and universality -- 6.4.1 Guaranteed multicast rates -- 6.4.2 Universality --",
+                "8. Inactivation decoding -- 8.1 Introduction of inactivation decoding -- 8.2 Finite-length analysis of inactivation decoding -- 8.2.1 Expected number of inactivation -- 8.2.2 Poisson number of batches -- 8.2.3 Evaluation examples -- 8.3 Practical design -- 8.3.1 High-density parity check and pre-inactivation -- 8.3.2 Encoding with HDPC and pre-inactivation -- 8.3.3 Decoding of inactive packets --",
+                "3. First BATS code protocol -- 3.1 BATS protocol stack -- 3.2 BATS-Pro-0 specification -- 3.2.1 Coefficient vectors -- 3.2.2 Transport layer -- 3.2.3 Network layer -- 3.3 Performance of BATS-Pro-0 -- 3.3.1 Intermediate storage and transmission delay -- 3.3.2 Rank distribution for RLNC recoding -- 3.3.3 Optimality when batch size is large -- 3.3.4 Achievable rate for fixed batch size --",
+                "5. Asymptotic analysis of BP decoding -- 5.1 Main result -- 5.2 Asymptotic analysis: differential equation approach -- 5.2.1 Random decoding graph -- 5.2.2 Density evolution -- 5.2.3 Expected density evolution -- 5.2.4 Sufficient and necessary conditions -- 5.3 Tree analysis of BATS codes -- 5.3.1 An extension of and-or tree analysis -- 5.3.2 Tree analysis of BP decoding -- 5.3.3 Recoverable probability of a variable node --",
+                "This book discusses an efficient random linear network coding scheme, called BATched Sparse code, or BATS code, which is proposed for communication through multi-hop networks with packet loss. Multi-hop wireless networks have applications in the Internet of Things (IoT), space, and under-water network communications, where the packet loss rate per network link is high, and feedbacks have long delays and are unreliable. Traditional schemes like retransmission and fountain codes are not sufficient to resolve the packet loss so that the existing communication solutions for multi-hop wireless networks have either long delay or low throughput when the network length is longer than a few hops. These issues can be resolved by employing network coding in the network, but the high computational and storage costs of such schemes prohibit their implementation in many devices, in particular, IoT devices that typically have low computational power and very limited storage. A BATS code consists of an outer code and an inner code. As a matrix generalization of a fountain code, the outer code generates a potentially unlimited number of batches, each of which consists of a certain number (called the batch size) of coded packets. The inner code comprises (random) linear network coding at the intermediate network nodes, which is applied on packets belonging to the same batch. When the batch size is 1, the outer code reduces to an LT code (or Raptor code if precode is applied), and network coding of the batches reduces to packet forwarding. BATS codes preserve the salient features of fountain codes, in particular, their rateless property and low encoding/decoding complexity. BATS codes also achieve the throughput gain of random linear network coding. This book focuses on the fundamental features and performance analysis of BATS codes, and includes some guidelines and examples on how to design a network protocol using BATS codes",
+                "2. BATS codes basics -- 2.1 Encoding of batches -- 2.1.1 Outer code: generation of batches -- 2.1.2 Inner code: transmission of batches -- 2.2 Gaussian elimination decoding -- 2.3 Belief propagation decoding -- 2.3.1 BP(n) decoder -- 2.3.2 Rateless BP decoder -- 2.3.3 BP decoding complexity -- 2.3.4 Solvability of a batch -- 2.3.5 Layered decoding graph -- 2.4 Precoding -- 2.5 Performance metrics -- 2.6 Special case: LT codes -- 2.7 Summary and performance comparison --",
+                "9. BATS codes in general networks -- 9.1 Unicast networks -- 9.1.1 Homogeneous unicast -- 9.1.2 Heterogeneous unicast -- 9.2 Multicast networks -- 9.2.1 Tree packing -- 9.2.2 Multicast protocol I -- 9.2.3 Multicast protocol II -- 9.3 More wireless network applications --",
+                "4. Advanced recoding techniques -- 4.1 Proper linear recoding -- 4.1.1 General guidelines -- 4.1.2 Proper transition matrix -- 4.2 Systematic recoding -- 4.2.1 First systematic recoding scheme (SR-1) -- 4.2.2 Simplified systematic recoding (SR-2) -- 4.2.3 Comparison of RLNC and systematic recoding -- 4.3 Number of recoded packets -- 4.3.1 Global optimization -- 4.3.2 Numerical evaluations -- 4.3.3 Optimization using local information -- 4.4 Adaptive recoding --",
+                "7. Finite-length analysis of BP decoding -- 7.1 Stopping time of BP decoding -- 7.1.1 Basic recursive formula -- 7.1.2 Explanations of some notations -- 7.1.3 Special cases -- 7.2 Further results on BP decoding -- 7.2.1 Stopping time distribution -- 7.2.2 Power-sum formula -- 7.2.3 Error probability and error exponent -- 7.2.4 Number of batches consumed -- 7.3 Poisson number of batches -- 7.3.1 Recursive formulae -- 7.3.2 Evaluation approaches -- 7.3.3 Error probability and exponent -- 7.3.4 Another formula for E[NBP*] -- 7.4 Finite-length degree-distribution optimization -- 7.4.1 A general framework -- 7.4.2 Choice of the objective function -- 7.4.3 Evaluations for BP decoding --"
+            ],
+            "alternative": "BATched Sparse codes",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#19",
+            "P30128": "Synthesis lectures on communication networks",
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

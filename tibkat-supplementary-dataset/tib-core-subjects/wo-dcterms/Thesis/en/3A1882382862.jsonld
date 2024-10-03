@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1322451028",
+            "sameAs": "Contisciani, Martina"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1882382862",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (circa 200 Seiten in verschiedenen Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1882382862",
+                "(ppn)1882382862",
+                "(doi)10.15496/publikation-92750"
+            ],
+            "subject": [
+                "Statistik",
+                "(classificationName=ddc-dbn)004.6",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Probabilistic generative models for inference on complex systems",
+            "abstract": "Network models are powerful and flexible tools to represent the complex interactions between individual elements in diverse domains. They offer scientists and practitioners willing to exploit the growing abundance of networked datasets meaningful insights into the fundamental patterns underlying such interactions. A popular approach to identify these hidden structures is that of generative models, in particular latent variable models: probabilistic models that introduce latent variables to incorporate domain knowledge, capture complex interactions, and uncover statistically meaningful network structures. Existing methods are frequently insufficient to capture the complexity of real-world data, and they often do not provide a general framework to fully leverage the additional information carried within the data, such as edges and nodes metadata or higher-order interactions. In this thesis, we present principled and efficient approaches that aim to broaden the range of techniques available for modelling complex networks. Specifically, we work in three principal directions: i) developing flexible methods to perform inference on attributed multilayer networks, ii) exploring innovative theoretical perspectives for incorporating reciprocity and loosening the assumption of conditional independence in network models, iii) designing foundational models to characterize the structural organization of higher-order data. We first extend standard generative models for the analysis of multilayer networks to integrate node metadata into the inference process with the network topology. In addition to applying these methods to already explored real-world data, such as social and biological networks, we introduce this methodology to another field for the first time, that is patent citation networks. We show how incorporating additional information not only boosts performance, but also leads to more interpretable structures. Next, we propose approaches to handle the pairwise dependencies between two directed edges connecting node pairs, which come with the relaxation of the assumption that edges are independent of each other. We demonstrate the flexibility and relevancy of our mathematical frameworks in various contexts, such as the analysis of dynamic networks, identification of anomalies, and estimation of unobserved network structures using multiple reports. By explicitly accounting for reciprocity, it improves edge prediction and network reconstruction, while also shedding light on the underlying mechanisms driving edge formation. Finally, we present principled methods to define and identify the mesoscale organization of higher-order data. We evaluate their effectiveness on a variety of small- and large-scale real-world systems. Notably, these models display good performance in effectively retrieving both robust and flexible community structures, while reliably predicting higher-order interactions of arbitrary size. As an additional contribution, we present a newly developed python library specifically designed for analyzing data with higher-order interactions. This work thus introduces cutting-edge techniques that go beyond what has been previously established in the field of network inference and contribute to the enhancement of the current literature. These developed approaches account for the additional complexity present in real-world systems, enabling a more profound understanding of data across a range of different disciplines.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1322451028",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-92750",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

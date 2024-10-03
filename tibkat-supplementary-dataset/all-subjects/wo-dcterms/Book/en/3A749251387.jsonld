@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749251387",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIII, 306 p)",
+            "contributor": "Parhi, Keshab K.",
+            "creator": "Hartley, Richard",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461523277",
+                "(ppn)749251387",
+                "(firstid)GBV:749251387",
+                "(doi)10.1007/978-1-4615-2327-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Systems engineering",
+                "Electronic circuits.",
+                "(classificationName=linseach:mapping)inf",
+                "Computer engineering",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)621.3815",
+                "Electrical engineering.",
+                "Engineering",
+                "(classificationName=loc)TK7888.4",
+                "Signal processing."
+            ],
+            "title": "Digit-Serial Computation",
+            "abstract": "The sampling rates for digital signal processing (DSP) in such applications as speech, telephony, mobile radio, video, radar and sonar, ranges from 10 kHz to 100 MHz. Real-time implementation of such systems requires design of hardware that can process signal samples as these are received from the source, rather than storing them in buffers for batch-mode processing. Efficient implementation of DSP hardware demands a study of families of architectures and styles, selecting an appropriate architecture for a specific application. Digit-Serial Computation is proposed as an appropriate design methodology when bit-serial systems cannot meet sampling rate requirements, and where bit-parallel systems require excessive hardware. A family of implementations can be obtained by changing the digit size parameter, allowing an optimum trade-off between throughput and size. Digit-Serial Computation describes the architecture, and the design and layout methods used in Parsifal: the silicon compiler developed at GEC's Corporate R&D Laboratory. The structures architecture of digit-serial designs lends itself to automatic compilation from algorithmic descriptions. The book also goes on to discuss wider-ranging issues in digit-serial design in chapters on `folding' and `unfolding', as well as in chapters on systolic arrays, canonic-signed-digit number representation and carry-save arithmetic. The book is an excellent source of reference and may be used as a text for an advanced course on the subject",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1995",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "316",
+            "isLike": "doi:10.1007/978-1-4615-2327-7",
+            "P30128": "The Springer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

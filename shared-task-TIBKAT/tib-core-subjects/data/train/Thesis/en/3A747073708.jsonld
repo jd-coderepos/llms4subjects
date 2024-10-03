@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4042907-6",
+            "sameAs": "Oberfl\u00e4che"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A747073708",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Berner, Alexander",
+            "identifier": [
+                "(ppn)747073708",
+                "(firstid)HBZ:HT017648372"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.42",
+                "(classificationName=ddc)006.69",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Analysis and manipulation of repetitive structures of varying shape",
+            "abstract": "Self-similarity and repetitions are ubiquitous in man-made and natural objects. Such structural regularities often relate to form, function, aesthetics, and design considerations. Discovering structural redundancies along with their dominant variations from 3D geometry not only allows us to better understand the underlying objects, but is also beneficial for several geometry processing tasks including compact representation, shape completion, and intuitive shape manipulation. - To identify these repetitions, we present a novel detection algorithm based on analyzing a graph of surface features. We combine general feature detection schemes with a RANSAC-based randomized subgraph searching algorithm in order to reliably detect recurring patterns of locally unique structures. A subsequent segmentation step based on a simultaneous region growing is applied to verify that the actual data supports the patterns detected in the feature graphs. We introduce our graph based detection algorithm on the example of rigid repetitive structure detection. Then we extend the approach to allow more general deformations between the detected parts. We introduce subspace symmetries whereby we characterize similarity by requiring the set of repeating structures to form a low dimensional shape space. We discover these structures based on detecting linearly correlated correspondences among graphs of invariant features. The found symmetries along with the modeled variations are useful for a variety of applications including non-local and non-rigid denoising. - Employing subspace symmetries for shape editing, we introduce a morphable part model for smart shape manipulation. The input geometry is converted to an assembly of deformable parts with appropriate boundary conditions. Our method uses self-similarities from a single model or corresponding parts of shape collections as training input and allows the user also to reassemble the identified parts in new configurations, thus exploiting both the discrete and continuous learned variations while ensuring appropriate boundary conditions across part boundaries. - We obtain an interactive yet intuitive shape deformation framework producing realistic deformations on classes of objects that are difficult to edit using repetition-unaware deformation techniques.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4042907-6"
+                },
+                {
+                    "@id": "gnd:4040936-3"
+                },
+                {
+                    "@id": "gnd:4006684-8"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

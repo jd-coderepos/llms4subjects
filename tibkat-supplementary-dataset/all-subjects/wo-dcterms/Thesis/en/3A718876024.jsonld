@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1072583682",
+            "sameAs": "Thiele, Sven"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A718876024",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 794 KB, VI, 108 S.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Schaub, Torsten",
+            "identifier": [
+                "(ppn)718876024",
+                "(firstid)DNB:1023164612"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Modeling biological systems with Answer Set Programming",
+            "abstract": "Biology has made great progress in identifying and measuring the building blocks of life. The availability of high-throughput methods in molecular biology has dramatically accelerated the growth of biological knowledge for various organisms. The advancements in genomic, proteomic and metabolomic technologies allow for constructing complex models of biological systems. An increasing number of biological repositories is available on the web, incorporating thousands of biochemical reactions and genetic regulations. Systems Biology is a recent research trend in life science, which fosters a systemic view on biology. In Systems Biology one is interested in integrating the knowledge from all these different sources into models that capture the interaction of these entities. By studying these models one wants to understand the emerging properties of the whole system, such as robustness. However, both measurements as well as biological networks are prone to considerable incompleteness, heterogeneity and mutual inconsistency, which makes it highly non-trivial to draw biologically meaningful conclusions in an automated way. Therefore, we want to promote Answer Set Programming (ASP) as a tool for discrete modeling in Systems Biology. ASP is a declarative problem solving paradigm, in which a problem is encoded as a logic program such that its answer sets represent solutions to the problem. ASP has intrinsic features to cope with incompleteness, offers a rich modeling language and highly efficient solving technology. We present ASP solutions, for the analysis of genetic regulatory networks, determining consistency with observed measurements and identifying minimal causes for inconsistency. We extend this approach for computing minimal repairs on model and data that restore consistency. This method allows for predicting unobserved data even in case of inconsistency. Further, we present an ASP approach to metabolic network expansion. This approach exploits the easy characterization of reachability in ASP and its various reasoning methods, to explore the biosynthetic capabilities of metabolic reaction networks and generate hypotheses for extending the network. Finally, we present the BioASP library, a Python library which encapsulates our ASP solutions into the imperative programming paradigm. The library allows for an easy integration of ASP solution into system rich environments, as they exist in Systems Biology.zeige weniger",
+            "alternative": "Modellierung biologischer Systeme mit Answer Set Programming",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1072583682",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

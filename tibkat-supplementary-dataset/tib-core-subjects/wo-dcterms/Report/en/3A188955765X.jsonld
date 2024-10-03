@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:13284625X",
+            "sameAs": "Caiazzo, Alfonso"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188955765X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (31 Seiten, 7,22 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Mura, Joaqu\u00edn",
+                "Galarce, Felipe",
+                "C\u00e1rcamo, Cristian"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:188955765X",
+                "(doi)10.20347/WIAS.PREPRINT.3101",
+                "(ppn)188955765X"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "A stabilized total pressure-formulation of the Biot\u2019s poroelasticity equations in frequency domain : numerical analysis and applications",
+            "abstract": "This work focuses on the numerical solution of the dynamics of a poroelastic material in the frequency domain. We provide a detailed stability analysis based on the application of the Fredholm alternative in the continuous case, considering a total pressure formulation of the Biot\u2019s equations. In the discrete setting, we propose a stabilized equal order finite element method complemented by an additional pressure stabilization to enhance the robustness of the numerical scheme with respect to the fluid permeability. Utilizing the Fredholm alternative, we extend the well-posedness results to the discrete setting, obtaining theoretical optimal convergence for the case of linear finite elements. We present different numerical experiments to validate the proposed method. First, we consider model problems with known analytic solutions in two and three dimensions. As next, we show that the method is robust for a wide range of permeabilities, including the case of discontinuous coefficients. Lastly, we show the application for the simulation of brain elastography on a realistic brain geometry obtained from medical imaging.",
+            "alternative": "A stabilized for the Biot\u2019s poroelasticity equations",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:13284625X",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3101",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3101",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

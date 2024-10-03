@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:170636143",
+            "sameAs": "Frank, Ulrich"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A733989799",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)733989799",
+                "(firstid)GBV:733989799"
+            ],
+            "publisher": "ICB",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Theorie",
+                "Softwareentwicklung",
+                "Modellierung",
+                "Klassifikation"
+            ],
+            "title": "Thoughts on classification - instantiation and generalisation - specialisation",
+            "abstract": "Classification and generalisation are arguably the most important abstractions used in conceptual modelling. From a software developer's perspective it may seem that there is a clear difference between classification and generalisation. However, this impression is deceptive. It is indeed relatively easy to decide whether classification or generalisation - and instantiation or specialisation respectively - is the better choice as long as models are considered on the M1 layer only. However, as soon as higher levels of abstractions are included, as it is characteristic for meta modelling, this decision can become very demanding. Starting with focussing on obvious criteria to distinguish between classification/instantiation and generalisation/specialisation, this report will first illustrate why these criteria become blurred on higher levels of abstraction. Also, it will be shown that often neither generalisation/specialisation nor classification/instantiation is sufficient. Instead, there is need for further abstractions. Against that background an approach to structure the problem is presented. While it does not allow to strictly determine the decision between the two abstractions, it provides guidelines which support the decision in a particular modelling context.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:170636143",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "53",
+            "P30128": "ICB-research report",
+            "P60163": "Essen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

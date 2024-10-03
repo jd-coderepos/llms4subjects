@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1081117737",
+            "sameAs": "Fourie, Christoffel"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4116326-6",
+            "sameAs": "Satellitenbildauswertung"
+        },
+        {
+            "@id": "gnd:4145448-0",
+            "sameAs": "Bildsegmentierung"
+        },
+        {
+            "@id": "gnd:4224344-0",
+            "sameAs": "Satellitenfernerkundung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A843618051",
+            "@type": "bibo:Thesis",
+            "P1053": "xxiv, 194 Bl\u00e4tter",
+            "description": [
+                "30 cm",
+                "Illustrationen, Diagramme"
+            ],
+            "identifier": [
+                "(firstid)GBV:843618051",
+                "(ppn)843618051"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106411284)38.03 - Methoden und Techniken der Geowissenschaften",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Sample supervised search centric approaches in geographic object-based image analysis",
+            "abstract": "Sample supervised search centric image segmentation denotes a general method where quality segments are generated based on the provision of a selection of reference segments. The main purpose of such a method is to correctly segment a multitude of identical elements in an image based on these reference segments. An efficient search algorithm traverses the parameter space of a given segmentation algorithm. A supervised quality measure guides the search for the best segmentation results, or rather the best performing parameter set. This method, which is academically pursued in the context of remote sensing and elsewhere, shows promise in assisting the generation of earth observation information products. The method may find applications specifically within the context of user driven geographic object-based image analysis approaches, mainly in respect of very high resolution optical data. Rapid mapping activities as well as general land-cover mapping or targeted element identification may benefit from such a method. In this work it is suggested that sample supervised search centric geographic segment generation forms the basis of a set of methods, or rather a methodological avenue. The original formulation of the method, although promising, is limited in the quality of the segments it can produce it is still limited by the inherent capability of the given segmentation algorithm. From an optimisation viewpoint, various structures may be encoded forming the fitness or search landscape traversed by a given search algorithm. These structures may interact or have an interplay with the given segmentation algorithm. Various method variants considering expanded fitness landscapes are possible. Additional processes, or constituents, such as data mapping, classification and post-segmentation heuristics may be embedded into such a method. Three distinct and novel method variants are proposed and evaluated based on this concept of expanded fitness landscapes.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1081117737"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4224344-0",
+                "gnd:4116326-6",
+                "gnd:4145448-0"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/843618051.pdf",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

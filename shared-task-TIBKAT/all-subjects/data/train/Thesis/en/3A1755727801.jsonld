@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:113818122",
+            "sameAs": "K\u00f6nig-Ries, Birgitta"
+        },
+        {
+            "@id": "gnd:1231549416",
+            "sameAs": "Babalou, Samira"
+        },
+        {
+            "@id": "gnd:133871967",
+            "sameAs": "Paschke, Adrian"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4520890-6",
+            "sameAs": "Skalierbarkeit"
+        },
+        {
+            "@id": "gnd:4688372-1",
+            "sameAs": "Semantic Web"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1755727801",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (278 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1755727801",
+                "(doi)10.22032/dbt.48522",
+                "(firstid)KXP:1755727801"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.33"
+            ],
+            "title": "Building high-quality merged ontologies from multiple sources with requirements customization",
+            "abstract": "Ontologies are the prime way of organizing data in the Semantic Web. Often, it is necessary to combine several, independently developed ontologies to obtain a knowledge graph fully representing a domain of interest. Existing approaches scale rather poorly to the merging of multiple ontologies due to using a binary merge strategy. Thus, we aim to investigate the extent to which the n-ary strategy can solve the scalability problem. This thesis contributes to the following important aspects: 1. Our n-ary merge strategy takes as input a set of source ontologies and their mappings and generates a merged ontology. For efficient processing, rather than successively merging complete ontologies pairwise, we group related concepts across ontologies into partitions and merge first within and then across those partitions. 2. We take a step towards parameterizable merge methods. We have identified a set of Generic Merge Requirements (GMRs) that merged ontologies might be expected to meet. We have investigated and developed compatibilities of the GMRs by a graph-based method. 3. When multiple ontologies are merged, inconsistencies can occur due to different world views encoded in the source ontologies To this end, we propose a novel Subjective Logic-based method to handling the inconsistency occurring while merging ontologies. We apply this logic to rank and estimate the trustworthiness of conflicting axioms that cause inconsistencies within a merged ontology. 4. To assess the quality of the merged ontologies systematically, we provide a comprehensive set of criteria in an evaluation framework. The proposed criteria cover a variety of characteristics of each individual aspect of the merged ontology in structural, functional, and usability dimensions. 5. The final contribution of this research is the development of the CoMerger tool that implements all aforementioned aspects accessible via a unified interface.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:133871967"
+                },
+                {
+                    "@id": "gnd:113818122"
+                }
+            ],
+            "creator": [
+                "gnd:1231549416",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4520890-6"
+                },
+                {
+                    "@id": "gnd:4688372-1"
+                }
+            ],
+            "isLike": "doi:10.22032/dbt.48522",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

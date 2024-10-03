@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135678308",
+            "sameAs": "Karlsruher Institut f\u00fcr Technologie, Lehrstuhl f\u00fcr Energiewirtschaft"
+        },
+        {
+            "@id": "gnd:1212805089",
+            "sameAs": "Ruppert, Manuel"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1860232078",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (10 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Langenmayr, Uwe",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1860232078",
+                "(ppn)1860232078",
+                "(doi)10.5445/IR/1000162460"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie (KIT)",
+            "subject": [
+                "(classificationName=linseach:automatic)cet",
+                "k-means clustering",
+                "synthetic energy carriers",
+                "linear programming",
+                "Power-to-X",
+                "(classificationName=linseach:automatic)mas"
+            ],
+            "title": "Calculation of synthetic energy carrier production costs with high temporal and geographical resolution",
+            "abstract": "While the decarbonization of the electricity sector is proceeding globally with the ongoing increase of wind and solar generation, reducing the carbon footprint of other sectors such as industry, transportation, and agriculture proves more challenging. One reason is the challenge of electrifying processes in these sectors. Here, power-to-X applications can support the transformation of these sectors by replacing conventional energy carriers with synthetic energy carriers from renewable sources. In this work, an approach to determine the production cost of synthetic energy carriers with a high temporal and spatial resolution on a global scale is presented and applied to Australia, New Zealand, and Germany. Hourly weather data with a spatial resolution of 0.25\u00b0 x 0.25\u00b0 is processed into capacity factor profiles. These capacity factor profiles, covering 11 years, are clustered into profiles including the representative weeks for each cell in the covered area using k-means clustering. The production processes of green hydrogen, ammonia, methanol as well as green crude are modeled with a generalized linear program. The results show that low production costs can be achieved especially in Australia. Combined with large land availability, this enables large-scale synthetic energy carrier production and possible export opportunities. Hydrogen derivatives are more expensive in production, but transportation might play a significant role when deciding which synthetic energy carrier should be produced. Production costs of synthetic energy carriers in Germany are higher when compared to the model results for Australia, however, regions with favorable renewable potential might still be attractive for domestic demand.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1135678308",
+                "gnd:1212805089"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 72 (September2023)",
+            "isLike": "doi:10.5445/IR/1000162460",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

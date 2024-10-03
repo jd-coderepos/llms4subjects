@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1896613594",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (655.9 Kbyte)",
+            "creator": "Herrmann, Michael",
+            "identifier": [
+                "(doi)10.25835/0y26b2ml",
+                "(firstid)KXP:1896613594",
+                "(ppn)1896613594"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": [
+                "(classificationName=linseach:automatic)inf",
+                "(classificationName=linseach:automatic)elt"
+            ],
+            "title": "PowerFactory EMT model of a meshed AC offshore wind park grid connected by five HVDC connections",
+            "abstract": "This dataset is to be used for time domain simulations in DIgSILENT PowerFactory v2019 SP4 and above. The dataset contains the model of a meshed AC offshore wind park grid that is connected to simplified onshore grid representations by means of five VSC HVDC connections. Up to two VSC HVDC connections can be switched to diode-rectifier unit (DRU) HVDC connections. Aside from the grid model itself, generic wind turbine, wind park and HVDC onshore converter controls are implemented. Special focus is on the implemented HVDC offshore converter controls, which were developed within the German North Seas Offshore Network II (NSON II) project. Python scripts for simulating different events resembling normal operation and balanced faults under variation of HVDC connection types and load flow distribution are included. Detailed model descriptions can be found in the corresponding project reports (see references below). The dataset consists of the PowerFactory project file (.pfd) and an archive (.zip) with all external project files (scripts, wind park generation curves) necessary for automated simulations.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/0y26b2ml",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

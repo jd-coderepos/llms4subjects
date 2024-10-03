@@ -1,0 +1,128 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1080182039",
+            "sameAs": "Sprunk, Christoph"
+        },
+        {
+            "@id": "gnd:4016284-9",
+            "sameAs": "Fahrerloses Transportsystem"
+        },
+        {
+            "@id": "gnd:4026779-9",
+            "sameAs": "Industrie"
+        },
+        {
+            "@id": "gnd:4137156-2",
+            "sameAs": "Fitting"
+        },
+        {
+            "@id": "gnd:4144457-7",
+            "sameAs": "Benchmark"
+        },
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "gnd:4234398-7",
+            "sameAs": "Genauigkeit"
+        },
+        {
+            "@id": "gnd:4272321-8",
+            "sameAs": "Teach-in-Methode"
+        },
+        {
+            "@id": "gnd:4304075-5",
+            "sameAs": "Autonomer Roboter"
+        },
+        {
+            "@id": "gnd:7569134-6",
+            "sameAs": "Lokalisierung (Robotik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A844400823",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(ppn)844400823",
+                "(doi)10.6094/UNIFR/10410",
+                "(contract)FRUB-opus-10410",
+                "(firstid)BSZ:453377912"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Highly accurate mobile robot navigation",
+            "abstract": [
+                "Zusammenfassung: The ongoing automation of manufacturing processes increases productivity and reduces physically demanding labor, a cornerstone for today\u2019s living standards and economic wealth in industrialized countries. However, industrial automation requires a costly setup phase. Therefore, it is only worthwhile when manufacturing large quantities of identical products. As globalization increases the pace of market changes and due to the trend towards product customization, there is a demand for more flexible, adaptable automation to retain global competitiveness for smaller batch sizes and changing products. Here, autonomous navigation is a key technology to reduce setup costs and increase flexibility.In this thesis, we present contributions towards the deployment of mobile robot navigation in real-world industrial settings. We provide vehicle-based material transport between processes that is fast and intuitive to set up. Since our approaches only rely on wheel encoders and the mandatory safety scanners of an autonomous vehicle, they work without additional, inflexible infrastructure. We first propose a navigation system that enables omnidirectional vehicles to autonomously navigate with high accuracy while respecting safety constraints. Our system accounts for the dynamics of the vehicle when optimizing smooth, curvature continuous trajectories that are frequently updated in changing environments. We furthermore present a localization and docking method to achieve millimeter accuracy at target locations. For use cases that require automated vehicles to follow predefined routes, we propose an approach for intuitive instruction that relies on user demonstrations and can be combined with our navigation system to realize different levels of autonomy. For scenarios with predefined routes only, we further reduce the setup costs. Our teach-and-repeat framework needs no pre-built environment map and only a single, non-expert demonstration to track taught trajectories with millimeter accuracy.For realistic estimates of the performance and reliability of navigation systems, we propose a benchmark protocol that instead of individual components evaluates complete systems. The tested system and a reference system interact with a carefully specified and scripted dynamic environment to ensure comparability between different evaluations.We conducted extensive experiments for all our systems. Through the combination of high accuracy and reliability with flexibility ...",
+                "Zusammenfassung: Die herstellende Industrie erh\u00f6ht durch die fortschreitende Automatisierung von Prozessen ihre Produktivit\u00e4t und reduziert gleichzeitig den Anteil k\u00f6rperlich beanspruchender Arbeit. Damit tr\u00e4gt Automatisierung einen wesentlichen Teil zu dem in industrialisierten Gesellschaften heute \u00fcblichen wirtschaftlichen Wohlstand und Lebensstandard bei. Die Automatisierung eines Produktionsprozesses erfordert heute \u00fcblicherweise eine aufwendige und dadurch kostenintensive Aufbau- und Inbetriebnahmephase, in der ein komplexes System bestehend zum Beispiel aus F\u00f6rderb\u00e4ndern, Flurf\u00f6rderfahrzeugen, Roboterarmen und produktspezifischen Maschinen montiert und eingerichtet wird. Aus Gr\u00fcnden der Wirtschaftlichkeit wird industrielle Automatisierung daher nur bei der Produktion gro\u00dfer Mengen baugleicher Produkte eingesetzt. Infolge der Globalisierung nimmt jedoch die Geschwindigkeit von Marktver\u00e4nderungen zu, was in der herstellenden Industrie zu k\u00fcrzeren Zeitfenstern f\u00fcr die Anpassung ihrer Produktpalette und der zu produzierenden St\u00fcckzahlen f\u00fchrt. Zusammen mit dem Trend zur Individualisierung von Produkten entsteht hierdurch ein Bedarf f\u00fcr flexiblere, anpassbare Automatisierungstechniken, um die globale Wettbewerbsf\u00e4higkeit f\u00fcr kleine Losgr\u00f6\u00dfen und sich ver\u00e4ndernde Produkte zu erhalten. Hierf\u00fcr sind k\u00fcrzere Umr\u00fcstzeiten und geringere Kosten f\u00fcr den Auf- und Umbau von Automatisierungsl\u00f6sungen erforderlich. F\u00fcr das Erreichen dieser Ziele ist autonome Navigation eine Schl\u00fcsseltechnologie.In dieser Arbeit stellen wir Beitr\u00e4ge vor, die den Einsatz von Roboternavigation in industriellen Anwendungsszenarien zum Ziel haben. Unsere Verfahren stellen Materialtransport zwischen einzelnen Prozessschritten bereit und sind schnell und einfach in Betrieb zu nehmen. Da unsere Systeme lediglich auf Inkrementgeber an den R\u00e4dern der Fahrzeuge und auf Messdaten der vorgeschriebenen Sicherheitslaserscanner zur\u00fcckgreifen, k\u00f6nnen wir auf zus\u00e4tzliche unflexible Infrastruktur wie Reflektoren, Markierungen, oder F\u00fchrungsdr\u00e4hte und -Schienen verzichten. Wir stellen zun\u00e4chst ein vollst\u00e4ndiges Navigationssystem vor, das es omnidirektionalen Robotern erm\u00f6glicht, autonom, mit hoher Genauigkeit und unter Einhaltung sicherheitsrelevanter Rahmenbedingungen zu navigieren. Unser System ber\u00fccksichtigt die Dynamik des Fahrzeugs bei der auf Optimierung basierenden Planung von glatten, kr\u00fcmmungskontinuierlichen Trajekt ..."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1080182039",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4234398-7",
+                "gnd:7569134-6",
+                "gnd:4026779-9",
+                "gnd:4016284-9",
+                "gnd:4144457-7",
+                "gnd:4191911-7",
+                "gnd:4304075-5",
+                "gnd:4137156-2",
+                "gnd:4272321-8"
+            ],
+            "isLike": "doi:10.6094/UNIFR/10410"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

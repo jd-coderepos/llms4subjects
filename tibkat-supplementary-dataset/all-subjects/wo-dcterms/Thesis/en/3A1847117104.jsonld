@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1847117104",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 39, 20, 12 Seiten)",
+            "creator": "K\u00f6se, Emre",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1847117104",
+                "(doi)10.15496/publikation-82889",
+                "(firstid)KXP:1847117104"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "Quantenmetrologie",
+                "(classificationName=ddc-dbn)530.12",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "High-resolution imaging with multi-parameter quantum metrology in passive remote sensing",
+            "abstract": "Super-resolution quantum imaging is a recently developed technique that allows high-resolution imaging beyond the classical diffraction limit. To obtain super-resolution, one can use quantum tools, such as squeezed states, photon-number-resolving detectors, or mode demultiplexing, to get a better spatial or radiometric resolution. In this thesis, we study super-resolution imaging theoretically with a distant n-mode interferometer in the microwave regime. Interferometers play an essential role in passive remote sensing, particularly for observing the surface of the Earth in missions such as the Soil Moisture and Ocean Salinity (SMOS) mission. The SMOS is a passive remote sensing satellite in the microwave regime to measure the brightness temperature of Earth. The correlation of spatially-resolved electric field measurements obtained by SMOS helps determine Earth's surface's moisture level and ocean water's salinity and has a pixel size of approximately 35km. Our focus is a complete quantum mechanical analysis of estimating the parameters of the sources. Starting from the thermal distributions of microscopic currents on the surface leads to partially coherent quantum states of the electromagnetic field on the n-mode interferometer. In passive remote sensing, we have no control over the quantum states. However, we can look for a quantum enhancement in the measurement scheme. We combine incoming modes with an optimized unitary to achieve the optimal detection modes for that aim. This approach allows for the most informative measurement based on photon counting in the detection modes. It also saturates the quantum Cram\u00e9r-Rao bound from the symmetric logarithmic derivative for the parameter set of temperatures. In our first work, we studied single-parameter estimation problems such as single source size, temperature, two-point source separation, and centroid. A quantum enhancement in spatial resolution is theoretically achievable for a single circular source to approximately 1m and less than 0.1 K when using the proposed maximum number of measurements with a single detector. We showed that one can resolve the source separation for any distance for two-point sources using the correct phase shift and a 50:50 beam splitter for a two-mode interferometer. The quantum Fisher information scales linearly with the number of modes when we keep the maximum baseline constant for the array interferometer. In our second work, we focused on multiparameter estimations of the source temperature distributions. Unlike the single parameter case, quantum Cram\u00e9r Rao Bound is not always saturable in the multiparameter scenario. It can be saturable asymptotically if the SLDs for different parameters commute on average. Then, one must find the optimal POVM, in our case, optimal unitary for mode mixing, to achieve the quantum limit. Our numerical analysis demonstrates quantum-enhanced super-resolution by reconstructing an image using the maximum likelihood estimator with a pixel size of 3 km. This resolution is ten times smaller than the spatial resolution of SMOS with comparable parameters. Furthermore, we identify the optimized unitary for uniform temperature distribution on the source plane, with the temperatures corresponding to the average temperatures of the image. Although this unitary was not optimized for the specific image, it yields a super-resolution compared to local measurement scenarios for the theoretically possible maximum number of measurements.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:36187-2"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-82889",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

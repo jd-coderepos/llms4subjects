@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129109703",
+            "sameAs": "Suhl, Leena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A777096692",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "F\u00e1bi\u00e1n, Csaba I.",
+            "creator": "Wolf, Christian",
+            "identifier": [
+                "(ppn)777096692",
+                "(firstid)HBZ:CT004000961"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)rest"
+            ],
+            "title": "Advanced acceleration techniques for Nested Benders decomposition in stochastic programming",
+            "abstract": "Reale Optimierungsprobleme werden oft von Unsicherheiten beeinflusst. Diese Probleme k\u00f6nnen mithilfe stochastischer Programmierung modelliert und gel\u00f6st werden. Das deterministische \u00c4quivalent mehrstufiger Probleme mit Kompensation kann leicht unl\u00f6sbar werden, wenn L\u00f6sungsmethoden eingesetzt werden, die die spezielle Struktur von stochastischen Programmen ignorieren. Spezialisierte Dekompositionsmethoden, die es erlauben stochastische Programme in angemessener Zeit zu l\u00f6sen, sind deshalb von gro\u00dfer Bedeutung. Diese Arbeit pr\u00e4sentiert fortgeschrittene Beschleunigungstechniken f\u00fcr die Nested Benders Dekomposition. Alle Beschleunigungstechniken werden auf einer gro\u00dfen und vielf\u00e4ltigen Menge von Testinstanzen evaluiert um ihre generelle Anwendbarkeit zu zeigen. Die Aggregation von Cuts erlaubt es die Anzahl an Iterationen gegen die Laufzeit des Masterproblems einzutauschen. Cuts zu konsolidieren hilft dabei die laufzeitverl\u00e4ngernden Effekte der Cut Proliferation zu reduzieren. Durch die Benutzung der Manhattan- oder der Unendlichdistanz anstelle der euklidischen Distanz wird das Projektionsproblem der Level Dekompositionsmethode zu einem linearen Programm. Die Genauigkeit-auf-Nachfrage Technik wird erweitert und auf die Benders und Level Dekomposition angewendet. Die thread-basierte Parallelisierung des Algorithmus reduziert die Rechenzeit mit einem guten Beschleunigungsfaktor. Die Kombination der Genauigkeit-auf-Nachfrage Technik mit Level Dekomposition und einem moderaten Cut Aggregationslevel f\u00fchrt zu einem substantiell verbesserten Algorithmus. Desweiteren wird eine Modellierungssprache f\u00fcr lineare Programme f\u00fcr stochastische Programme erweitert. Das erlaubt es den parallelen Nested Benders Solver zum L\u00f6sen von Problemen zu benutzen, die entweder mit der Modellierungsumgebung erstellt werden oder im SMPS Format vorliegen.. - Real world optimization problems are often subject to uncertainty. These problems can be modeled and solved with stochastic programming, a mathematical programming technique.Deterministic equivalent formulations of multi-stage recourse problems can easily become unsolvable by solution techniques that do not take the special structure of stochastic programs into account. Specialized decomposition methods, which allow to solve stochastic problems in a reasonable time frame, are therefore important. This work presents advanced acceleration techniques for Nested Benders decomposition. All acceleration techniques are evaluated on a large and diverse test set to show their general applicability.Cut aggregation allows to trade off the number of iterations against the time to solve the master problem. Consolidating optimality cuts is a valid approach to reduce the runtime extending effects of cut proliferation. The projection problem in Level decomposition can be solved with a linear programming solver due to the usage of the manhattan or infinity distance instead of the euclidean distance. On-demand accuracy is extended and applied to both Benders and Level decomposition. Thread-based parallelization of the algorithm reduces the computing time with a good speed-up factor.The combination of on-demand accuracy with level decomposition and a modest level of cut aggregation leads to a substantially improved algorithm. Furthermore, a modeling language for linear programs is extended with the capability to model stochastic programs. This allows to use the parallelized Nested Benders solver to solve both problems modeled with this modeling environment and problems in SMPS format.",
+            "alternative": "Fortgeschrittene Beschleunigungstechniken f\u00fcr die Nested Benders Dekomposition in stochastischer Programmierung",
+            "contributor": "gnd:129109703",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

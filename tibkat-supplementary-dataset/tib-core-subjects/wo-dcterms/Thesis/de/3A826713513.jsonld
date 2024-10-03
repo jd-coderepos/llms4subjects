@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:123313937",
+            "sameAs": "Bankhofer, Udo"
+        },
+        {
+            "@id": "gnd:129958646",
+            "sameAs": "Trost, Ralf"
+        },
+        {
+            "@id": "gnd:142825344",
+            "sameAs": "Joenssen, Dieter William"
+        },
+        {
+            "@id": "gnd:4155950-2",
+            "sameAs": "Ganzzahlige Optimierung"
+        },
+        {
+            "@id": "gnd:4609617-6",
+            "sameAs": "Imputationstechnik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A826713513",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: IX, 220 S., 3,73 MB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:826713513",
+                "(ppn)826713513"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Hot-Deck-Verfahren zur Imputation fehlender Daten : Auswirkungen des Donor Limits",
+            "abstract": "Imputationsverfahren stellen eine von mehreren M\u00f6glichkeiten dar, dem Problem fehlender Daten bei empirischen Untersuchungen zu begegnen. Im Gegensatz zu den Eliminierungsverfahren, die Objekte und/oder Merkmale mit fehlenden Werten aus der weiteren Analyse ausschlie\u00dfen, und den Parametersch\u00e4tzverfahren, die auf der Basis von Verteilungsannahmen die gew\u00fcnschten Parameter aus einer unvollst\u00e4ndigen Datenmatrix direkt sch\u00e4tzen, werden bei den Imputationsverfahren die fehlenden durch geeignete Werte ersetzt. Dadurch resultiert letztendlich eine vollst\u00e4ndige Datenmatrix, bei der herk\u00f6mmliche statistische Verfahren zur Datenauswertung herangezogen werden k\u00f6nnen. Hot-Deck-Verfahren sind spezielle Imputationsverfahren, die auf der Duplizierung vorhandener Werte basieren. Das Objekt, das dabei die vorhandenen Daten zur Imputation liefert, wird als Spender bezeichnet, und das Objekt, bei dem die Werte fehlen, wird als Empf\u00e4nger bezeichnet. Da beim grundlegenden Algorithmus die M\u00f6glichkeit besteht, dass ein Spender mehreren Empf\u00e4ngern zugeordnet wird, beschr\u00e4nken einige Hot-Deck-Varianten, wie h\u00e4ufig ein Spender zur Imputation ausgew\u00e4hlt werden kann. Dieses sogenannte Donor-Limit f\u00fchrt theoretisch zu einer Reihe an w\u00fcnschenswerten Algorithmuseigenschaften. Unter anderem wird das Risiko, dass ein Spender zu h\u00e4ufig verwendet oder gar allen Empf\u00e4ngern zugeordnet wird, beschr\u00e4nkt. Die vorliegende Dissertation untersucht, ob die theoretischen Vorteile des Donor-Limits empirisch haltbar sind, und im Spannungsfeld mit den m\u00f6glichen Nachteilen \u00fcberwiegen. Hierzu werden zun\u00e4chst Grundlagen der Missing-Data-Theorie dargestellt und erarbeitet. Danach erfolgt eine Darstellung der historischen Entwicklung der Hot-Deck-Verfahren, auf deren Basis eine allgemeing\u00fcltige Definition aufgestellt wird. Im Anschluss werden existente Hot-Deck-Varianten anhand der vier identifizierten Eigenschaften systematisiert und dargestellt. Abgeschlossen wird die Dissertation mit empirischen Untersuchungen zu der Vorteilhaftigkeit des Donor-Limits. Diese umfassenden Simulationsstudien weisen darauf hin, dass ein Donor-Limit zur Verbesserung der Impuationsqualit\u00e4t in vielen Situationen zwingend erforderlich ist. Ferner k\u00f6nnen Grenzf\u00e4lle und Tendenzen identifiziert werden, unter denen ein Donor-Limit zu schlechteren Imputationsergebnissen f\u00fchrt.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:123313937"
+                },
+                {
+                    "@id": "gnd:129958646"
+                }
+            ],
+            "creator": "gnd:142825344",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4609617-6",
+                "gnd:4155950-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

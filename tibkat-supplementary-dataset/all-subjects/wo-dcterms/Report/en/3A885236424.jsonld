@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:134070666",
+            "sameAs": "Werner, Frank"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A885236424",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (20 Seiten, 0,4 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "D\u00edaz-Ram\u00edrez, Arnoldo",
+                "Burtseva, Larysa",
+                "Amaro-Ortega, Vidblain",
+                "Gonz\u00e1lez-Navarro, F\u00e9lix Fernando",
+                "Flores-Rios, Brenda Leticia"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)885236424",
+                "(firstid)GBV:885236424"
+            ],
+            "publisher": "[Otto-von-Guericke-Universit\u00e4t Magdeburg, Fakult\u00e4t f\u00fcr Mathematik]",
+            "subject": [
+                "(classificationName=linseach:automatic)inf",
+                "(classificationName=linseach:automatic)mat"
+            ],
+            "title": "A scheduling scheme extension of the Earliest Deadline First policy for hard real-time uniprocessor systems integrated on POSIX threads based on Linux",
+            "abstract": "Abstract: In recent years, Linux has been employed to execute numerous real-time applications. However, it is limited to support soft real-time systems. For real-time systems with critical constraints, the soft real-time support and the scheduling policies offered by Linux are still insufficient. In this work, the Earliest Deadline First scheduling policy, which has been shown in theory to be an optimal one in uniprocessor systems, is introduced as an extension of the Linux kernel. This policy is implemented into the real-time class, without the necessity of defining an additional class. The Linux kernel affords capabilities of a hard real-time operating system by an RT-Preempt patch, enabling the use of Linux to implement hard real-time systems. The integration is compliant with the POSIX real-time and thread standards, ensuring applications portability, employing the GLIBC library. In order to validate the proposed implementation, a set of experiments is conducted, showing that a real-time system that cannot be feasibly scheduled using existing policies, attains feasibility when it is scheduled using the integrated Earliest Deadline First policy.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:134070666",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2016,07",
+            "P30128": "Preprint / Fakult\u00e4t f\u00fcr Mathematik, Otto-von-Guericke-Universit\u00e4t Magdeburg",
+            "P60163": "[Magdeburg]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104493350X",
+            "sameAs": "Rammig, Franz Josef"
+        },
+        {
+            "@id": "gnd:132285355",
+            "sameAs": "Plessl, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A895936690",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 104 Seiten)",
+            "contributor": [
+                "Scheytt, Christoph",
+                "Platzner, Marco",
+                "Hellebrand, Sybille"
+            ],
+            "creator": "Anwer, Jahanzeb",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)895936690",
+                "(firstid)HBZ:CT004001934",
+                "(doi)10.17619/UNIPB/1-168"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)600"
+            ],
+            "title": "Dynamic reliability management",
+            "abstract": "Strahlungs-tolerantes Rechnen auf FPGAs ist ein wichtiges Forschungsfeld geworden, da die Nutzung von FPGAs in Weltraummissionen stark angestiegen ist. Verschiedene H\u00e4rtetechniken gegen Strahlung auf Transistor- und Entwurfsebene wurden in der Vergangenheit genutzt um Fehler, insbesondere Single-Event-Upsets welche durch ionisierende Strahlung w\u00e4hrend Weltraummissionen entstehen, abzuschw\u00e4chen. Redundanz ist hierbei die am meisten benutzte Technik um solchen Fehlern entgegen zu wirken. Der traditionelle Hardwareentwurfsansatz benutzt statische Strukturen und nimmt somit zus\u00e4tzliche Kosten in Form von gr\u00f6\u00dferer Chipfl\u00e4che, Latenz und Leistungsaufnahme in Kauf. Diese Strukturen wurden entworfen um auch die ung\u00fcnstigsten Strahlungsbedingungen zu \u00fcberstehen. Jedoch haben Experimente zur Intensit\u00e4t der Strahlung im Weltraum ergeben, dass die Strahlungsintensit\u00e4t w\u00e4hrend einer Satellitenmission starken Schwankungen unterworfen ist. Daher resultiert die Benutzung von statisch allokierten redundanten Strukturen in einer Verschwendung von Ressourcen und Rechenleistung, da w\u00e4hrend Zeiten mit niedriger Strahlungsintensit\u00e4t geringere Anspr\u00fcche an die Fehlertoleranz gestellt werden k\u00f6nnen. Da mehrfach redundant ausgelegte Systeme hohe Kosten verursachen, ist der beste Ansatz um den Kompromiss aus Zuverl\u00e4ssigkeit und Leistungsf\u00e4higkeit zu erhalten der, den FPGA dynamisch, abh\u00e4ngig von der Strahlungsintensit\u00e4t, auf die ben\u00f6tigte Redundanz zu rekonfigurieren. Gl\u00fccklicherweise erlauben FPGAs diese Art von Flexibilit\u00e4t durch ihre F\u00e4higkeit zur Laufzeit neu konfiguriert zu werden. Dieses Konzept zur Laufzeit-Rekonfiguration von FPGAs zur Steuerung der Zuverl\u00e4ssigkeit wird in dieser Arbeit \"Dynamic Reliability Management\" (DRM) genannt.. - Radiation-tolerant computing for FPGAs has become an important field of research due to the increased usage of FPGAs in space missions. Various device and design hardening techniques have been used in the past to mitigate errors, particularly single event upsets, that appear due to ionizing radiation particles in aerospace missions. Redundancy is the most commonly used technique to counter such errors. However, the traditional hardware design approaches use statically redundant structures and incur a fixed overhead in performance factors of area consumption, latency and power dissipation. These structures are designed to handle the worst case radiation scenarios. However, it has been shown by experiments, depicting radiation patterns of space, that the radiation strength varies a lot during the operation time span of satellite missions. Therefore, incurring a fixed overhead of static redundant structures for FPGA hardware, results in the wastage of resources as well as performance loss since lower levels of redundancy provide sufficient level of reliability in relatively calm regions of space radiation. Since high orders of redundancy cost large overheads in performance factors, the best approach of maintaining the reliability-performance tradeoff is to dynamically reconfigure the FPGAs to required reliability levels, based on the radiation strength of the environment. Fortunately, FPGAs provide this level of flexibility since they are run-time reconfigurable. This concept of run-time reconfiguration for reliability has been named Dynamic Reliability Management (DRM) in this research.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:104493350X"
+                },
+                {
+                    "@id": "gnd:132285355"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-168",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

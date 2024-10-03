@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1295736659",
+            "sameAs": "Selzer, Philipp"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A185224027X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XVIII, 95 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-84515",
+                "(ppn)185224027X",
+                "(firstid)KXP:185224027X"
+            ],
+            "subject": [
+                "Finite-Elemente-Methode",
+                "Numerisches Verfahren",
+                "Numerisches Modell",
+                "Por\u00f6ser Stoff",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo",
+                "Numerische Str\u00f6mungssimulation",
+                "(classificationName=ddc-dbn)551.49"
+            ],
+            "title": "Flux postprocessing and semi-analytical particle tracking for finite-element-type models of variably saturated flow in porous media",
+            "abstract": "Aquifers are predominantly conceptualized as porous media. In real-world applications, the material properties and boundary conditions are heterogeneous requiring numerical models for an accurate description of flow and transport processes. Such numerical models yield discretized hydraulic heads and velocities on nodes or within elements. Particle tracking is a computationally advantageous and fast scheme to determine trajectories and travel times. Accurate particle tracking relies on conforming velocity fields that ensure local mass conservation in elements, and a continuous normal velocity component on element boundaries. While cell-centered finite-volume and mixed finite-element methods result in conforming velocity fields by definition, this is not the case for continuous Galerkin methods, such as the standard finite element method (FEM), and some finite-difference discretizations. Nonetheless standard FEM and also finite difference methods (FDM), formulated in finite-element terms, are often used for subsurface flow modeling because they yield a continuous approximations of hydraulic heads, and easily handle unstructured grids and material anisotropy. Acknowledging these advantages and the wide-spread use of finite-element-type simulations, the aim of this thesis is to present a novel framework for computing conforming velocity fields and accurate particle trajectories for finite-element type primal solutions of variably saturated flow in porous media. In this thesis, two different postprocessing methods to compute conforming velocity fields based on non-conforming primal solutions and semi-analytical particle tracking techniques for triangles, tetrahedra, and triangular prisms are presented. The first postprocessing method is a projection mapping a non-conforming, element-wise given velocity field onto a conforming velocity field in lowest-order Raviart-Thomas-N\u00e9d\u00e9lec (RTN0) space, which meets the requirements of accurate particle tracking. The projection is based on minimizing the difference in the hydraulic gradients at the element centroids between a finite-element-type primal solution and the hydraulic gradients consistent with the RTN0 velocity field imposing element-wise mass conservation for variably saturated flow in porous media. The results of the RTN0-projection are close to those of a cell-centered finite volume method (FVM) defined for comparison and the finite-element-type primal solution. Consistency and convergence of the RTN0-projection are empirically shown for saturated flow based on a test case including hydraulic anisotropy. However, the RTN0-projection requires solving a large indefinite system of linear equations, which strongly reduces the choice of appropriate solvers, and occasionally shows numerical artifacts like velocities of wrong magnitude and unphysical direction in sub-regions of the domain in special cases. The second postprocessing technique reconstructs a cell-centered finite-volume solution from a finite-element-type primal solution of variably saturated flow in porous media to obtain conforming, mass-conservative fluxes in RTN0-space. The method is exemplified for triangular prisms because this is one of the most common elements used for catchment-scale subsurface discretization. The finite-volume flux reconstruction only solves a linear elliptic problem whose size is on the order of the number of elements, which is computationally much faster than solving the RTN0-projection or the initial Richards equation describing non-linear transient and variably saturated flow. Compared to other postprocessing schemes, the finite-volume flux reconstruction is numerically stable, fast to compute, and does not induce severe numerical artifacts when applied to heterogeneous domains with strongly varying velocities. Its advantage lies in the application to non-linear flow laws and transient problems, because it is assumed that the non-linearities are already solved by the primal solution and the transient term can be treated as a change in storage. It is shown that the results of the finite-volume flux reconstruction are close to the finite-element-type primal solution for variably saturated three-dimensional flow with heterogeneous material properties and boundary conditions. Semi-analytical particle tracking is based on element-wise analytical solutions for particle trajectories and associated travel times given a numerically approximated velocity field. This facilitates the direct computation of the spatial coordinates where the particle exits an element from its entry point and the attributes of the element-wise velocity field. In this thesis, element-wise analytical solutions are given for triangles, tetrahedra, and triangular prisms using the linear average velocity field derived from the fluid fluxes in RTN0-space. The contribution of this thesis is to provide a computational framework for approximating conforming, mass-conservative velocity fields and, based on this, semi-analytical particle tracking routines applicable to finite-element-type models of variably saturated flow in porous media on unstructured grids.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1295736659",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-84515",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

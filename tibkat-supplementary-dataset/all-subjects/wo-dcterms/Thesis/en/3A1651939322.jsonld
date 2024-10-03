@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1029382964",
+            "sameAs": "Villar\u00edn Pilda\u00edn, Lilian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1651939322",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (XI, 101 S.)",
+            "identifier": [
+                "(doi)10.11588/heidok.00014062",
+                "(firstid)BSZ:377254150",
+                "(ppn)1651939322"
+            ],
+            "subject": [
+                "(classificationName=msc)62-02",
+                "(classificationName=ddc-dbn)610",
+                "Verallgemeinertes lineares Modell",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)62J12",
+                "(classificationName=ddc)519.5",
+                "EM-Algorithmus",
+                "Multivariate Analyse",
+                "(classificationName=msc)62P25",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=msc)62P10",
+                "(classificationName=msc)62M10"
+            ],
+            "title": "Alcohol drinking pattern analysis : an in silico tool to model and predict addictive behaviors",
+            "abstract": "We present methods for the systematic modelling and clustering of time series. Our data is associated with behavioral studies of alcoholism in animals. We analyze multivariate time series obtained from an automated drinkometer system. Here, rats have free access to water and three alcoholic solutions (this being the baseline treatment level), which is then interrupted by repeated deprivation phases. We develop a methodology to simultaneously classify into- and characterize dynamic patterns of the observed drinking behavior. This is achieved by extending known results on generalized linear models (GLM) for univariate time series to the multivariate case. We simplify the computational fitting procedure, by assuming a shared seasonal pattern throughout individuals and implementing an estimation maximization (EM) algorithm to fit mixtures of the mentioned multivariate GLM. A partition of the data, as well as a characterization of each group is obtained. The observed patterns of drinking behavior differ in their preference profile for the three alcoholic solutions, and also in the net alcohol intake. We observe an evolution of the drinking behavior over the repeated cycles of alcohol admission and deprivation, with a clear initial preference profile and a development to one of the advanced profiles. Furthermore, to measure the alcohol deprivation effect in this 4-bottle setting, a new criterion is developed, which enables us to classify each rat into presenting ADE or not. This classification shows that the rats develop a tolerance to taste adulteration after few deprivation phases. The proposed framework can be employed to find differences in behavior between different conditions and/or groups of animals and in the prediction of alcoholism from early phases of alcohol intake. The developed methods can also be used in different fields, where the analysis of time series plays an important role (e.g. microarray analysis and neuroscience).",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1029382964",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.11588/heidok.00014062"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

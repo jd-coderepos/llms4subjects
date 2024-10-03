@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104493350X",
+            "sameAs": "Rammig, Franz Josef"
+        },
+        {
+            "@id": "gnd:174074417",
+            "sameAs": "Wagner, Flavio Rech"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A785580662",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Oliveira, Marcio Ferreira da Silva",
+            "identifier": [
+                "(firstid)HBZ:CT004001071",
+                "(ppn)785580662"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)003",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Model-driven engineering methodology for design space exploration of embedded systems",
+            "abstract": "Bei dem \"Platform-Based Design\" (PBD) von Eingebetteten Systemen f\u00fchrt die zunehmende Anzahl von Design-Entscheidungen auf mehreren Abstraktionsebenen zu einer Explosion der m\u00f6glichen Kombinationen von Alternativen, was auch f\u00fcr aktuelle Design Space Exploration (DSE) Methoden eine Herausforderung darstellt. Jedoch vermag \u00fcblicherweise nur eine begrenzte Anzahl von Entwurfs-Alternativen die zus\u00e4tzlich formulierten nicht-funktionalen Anforderungen zu erf\u00fcllen. Dar\u00fcber hinaus beeinflusst jede Entwurfs-Entscheidung weitere Entscheidungen und damit die resultierenden Systemeigenschaften.Um die genannten Herausforderungen zu l\u00f6sen wird eine Modellgetriebene Entwicklung Methodik f\u00fcr DSE vorgeschlagen. F\u00fcr diese Methodik wird ein DSE-Domain-Metamodell eingef\u00fchrt um relevante DSE-Konzepte wie Entwurfsraum, Entwurfs-Alternativen, Auswertungs- und Bewertungsverfahren, Einschr\u00e4nkungen und andere abzubilden. Dar\u00fcber hinaus modelliert das Metamodell verschiedenen DSE-Frage- stellungen, was zur Verbesserung der Flexibilit\u00e4t der vorgeschlagenen Methodik beitr\u00e4gt. Zur Umsetzung von DSE-Regeln, welche zur Steuerung, Einschr\u00e4nkung und Generierung der Entwurfs-Alternativen genutzt werden, finden Modell-zu-Modell-Transformationen Anwendung. Durch die Fokussierung auf die Zuordnung zwischen den Schichten in einem PBD-Ansatz wird eine neuartige Entwurfsraumabstraktion eingef\u00fchrt. Diese auf dem Categorial Graph Product aufbauende Abstraktion entkoppelt den Explorations-Algorithmus vom Entwurfsraum und ist f\u00fcr Umsetzung in automatisierte Werkzeugketten gut geeignet. Basierend auf dieser Abstraktion profitiert die DSE-Methode durch die eingef\u00fchrte MDE-Methodik als solche und erm\u00f6glicht nunmehr neue Optimierungsm\u00f6glichkeiten sowie die Verbesserung der Integration von DSE in Entwicklungsprozesse und die Spezifikation von DSE-Szenarien.. - In embedded system development, specifically in Platform-Based Design (PBD), current Design Space Exploration (DSE) methodologies are challenged by the increasing number of design decisions at multiple abstraction levels, which leads to an explosion of combination of alternatives. However, only a reduced number of these alternatives leads to feasible designs, which fulfill non-functional requirements. Moreover, each design decision influences subsequent decisions and system properties, hence there are inter-dependencies between design decisions, so that the order decisions are made matters to the final system implementation. Furthermore, there is a trade-off between heuristics for specific DSE, which improves the optimization results, and global optimizers, which improve the flexibility to be applied in different DSE scenarios.In order to overcome the identified challenges an MDE methodology for DSE is proposed. For this methodology a DSE Domain metamodel is proposed to represent relevant DSE concepts such as design space, design alternatives, evaluation method, constraints and others. Moreover, this metamodel represents different DSE problems, improving the flexibility of the proposed framework. Model transformations are used to implement DSE rules, which are used to constrain, guide, and generate design candidates. Focusing on the mapping between layers in a PBD approach, a novel design space abstraction is provided to represent multiple design decisions involved in the mapping as a single DSE problem. This abstraction is based on Categorical Graph Product, decoupling the exploration algorithm from the design space and being well suited to be implemented in automatic exploration tools. Upon this abstraction, the DSE method can benefit from the MDE methodology, opening new optimization opportunities, and improving the DSE integration into the development process and specification of DSE scenarios.",
+            "alternative": [
+                "Metodologia de engenharia dirigida por modelos para explora\u00e7\u00e3o do espa\u00e7o de projeto de sistemas embarcados",
+                "Modellgetriebene Entwicklungsmethodik f\u00fcr die Entwurfsraumexploration von Eingebetteten Systeme"
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:104493350X"
+                },
+                {
+                    "@id": "gnd:174074417"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

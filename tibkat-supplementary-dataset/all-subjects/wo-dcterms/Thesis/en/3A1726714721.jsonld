@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1059760320",
+            "sameAs": "Schuster, Stefan"
+        },
+        {
+            "@id": "gnd:1162854359",
+            "sameAs": "Kastritis, Panagiotis L."
+        },
+        {
+            "@id": "gnd:1215521677",
+            "sameAs": "Gore, Sagar"
+        },
+        {
+            "@id": "gnd:124018092",
+            "sameAs": "Hoffmeister, Dirk"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1726714721",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (88 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.45628",
+                "(firstid)KXP:1726714721",
+                "(ppn)1726714721"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106410458)42.13 - Molekularbiologie",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc)571.9",
+                "(classificationName=bk, id=106410105)42.10 - Theoretische Biologie",
+                "(classificationName=bk, id=106419501)42.30 - Mikrobiologie",
+                "(classificationName=linseach:mapping)bio"
+            ],
+            "title": "Pattern recognition methods for the prediction of chemical structures of fungal secondary metabolites",
+            "abstract": "Non-Ribosomal Peptide Synthetases (NRPS) are mega synthetases that are predominantly found in bacteria and fungi. They produce small peptides that serve numerous biological functions and crucial ecological roles. Adenylation (A) domains of NRPSs catalyze ATP dependent activation of substrates harboring carboxy terminus. A-domain substrates include not only natural amino acids (D and L forms) but also non-proteinogenic amino acids. As the substrate repertoire is large and specificity rules for fungi are not established well, there is a difficulty in predicting substrates for fungal A-domains. In bacteria, ten amino acid residues were established as \u201cNRPS code\u201d, which determine specificity of A-domains. To study relationships between fungal A-domains and their specificity, the cluster analysis of NRPS code residues was done. NRPS code residues were encoded by physicochemical properties essential for binding small molecules and these residues were clustered. Cluster analysis showed similar NRPS codes for \u03b1-amino adipic acid, and tryptophan, etc. between bacteria and fungi. Fungal NRPS codes for substrates such as tyrosine, and proline, did not cluster together with bacteria, which indicates an independent evolution of substrate specificity in fungi. This emphasizes the need for the development of a fungus-specific prediction tool. Currently available A-domain substrate specificity prediction tools accurately identify substrates for bacteria but fail to provide correct predictions for fungi. A novel approach for fungal A-domain substrate specificity prediction is presented here. Neural Network based A-domain substrate specificity classifier (NNassc) was developed using Keras with TensorFlow backend. NNassc was trained solely using fungal NRPS codes and combines physicochemical and structural features for specificity predictions. Internal and external validation datasets of experimentally verified NRPS codes were used to assess the performance of NNassc.",
+            "contributor": [
+                "gnd:1059760320",
+                "gnd:1162854359",
+                "gnd:124018092"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1215521677",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.22032/dbt.45628",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

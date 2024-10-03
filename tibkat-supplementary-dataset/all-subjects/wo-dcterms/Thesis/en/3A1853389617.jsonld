@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1297156994",
+            "sameAs": "B\u00f6lts, Jan"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1853389617",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (58, 19, 30, 5 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1853389617",
+                "(doi)10.15496/publikation-84898",
+                "(ppn)1853389617"
+            ],
+            "subject": [
+                "Unsicherheit",
+                "(classificationName=ddc-dbn)006.31",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Inferenzstatistik",
+                "Simulation",
+                "Bayes-Inferenz",
+                "Bayes-Verfahren",
+                "Computersimulation"
+            ],
+            "title": "Advancing methods and applicability of simulation-based inference in neuroscience",
+            "abstract": [
+                "The use of computer simulations as models of real-world phenomena plays an increasingly important role in science and engineering. Such models allow us to build hypotheses about the processes underlying a phenomenon and to test them, e.g., by simulating synthetic data from the model and comparing it to observed data. A key challenge in this approach is to find those model configurations that reproduce the observed data. Bayesian statistical inference provides a principled way to address this challenge, allowing us to infer multiple suitable model configurations and quantify uncertainty. However, classical Bayesian inference methods typically require access to the model's likelihood function and thus cannot be applied to many commonly used scientific simulators. With the increase in available computational resources and the advent of neural network-based machine learning methods, an alternative approach has recently emerged: simulation-based inference (SBI). SBI enables Bayesian parameter inference but only requires access to simulations from the model. Several SBI methods have been developed and applied to individual inference problems in various fields, including computational neuroscience. Yet, many problems in these fields remain beyond the reach of current SBI methods. In addition, while there are many new SBI methods, there are no general guidelines for applying them to new inference problems, hindering their adoption by practitioners. In this thesis, I want to address these challenges by (a) advancing SBI methods for two particular problems in computational neuroscience and (b) improving the general applicability of SBI methods through accessible guidelines and software tools. In my first project, I focus on the use of SBI in cognitive neuroscience by developing an SBI method designed explicitly for computational models used in decision-making research. By building on recent advances in probabilistic machine learning, this new method is substantially more efficient than previous methods, allowing researchers to perform SBI on a broader range of decision-making models. In a second project, I turn to computational connectomics and show how SBI can help to discover connectivity rules underlying the complex connectivity patterns between neurons in the sensory cortex of the rat. As a third contribution, I help establish a software package to facilitate access to current SBI methods, and I present an overview of the workflow required to apply SBI to new inference problems as part of this thesis. Taken together, this thesis enriches the arsenal of SBI methods available for models of decision-making, demonstrates the potential of SBI for applications in computational connectomics, and bridges the gap between SBI method development and applicability, fostering scientific discovery in computational neuroscience and beyond.",
+                "Der Einsatz von Computermodellen spielt in Wissenschaft und Technik eine immer gr\u00f6\u00dfere Rolle. Solche Modelle erlauben es, Hypothesen \u00fcber die einem Forschungsgegenstand zugrundeliegenden Prozesse aufzustellen und diese schrittweise zu verbessern, indem z.B. synthetische Daten aus dem Modell simuliert und mit beobachteten Daten verglichen werden. Allerdings haben Modelle in der Regel unbekannte Parameter. Eine zentrale Herausforderung besteht daher darin, Modellparameter zu finden, die in der Lage sind, die beobachteten Daten zu reproduzieren. Die statistische Methode der Bayes'schen Inferenz bietet eine ideale L\u00f6sung f\u00fcr diese Herausforderung: Sie erm\u00f6glicht es, viele verschiedene Modellparameter gleichzeitig zu testen, alle geeigneten zu identifizieren und dabei statistische Unsicherheiten zu ber\u00fccksichtigen. Klassische Methoden der Bayes'schen Inferenz erfordern jedoch den Zugriff auf die sogenannte Likelihood-Funktion des Modells, was f\u00fcr viele g\u00e4ngige wissenschaftliche Modelle nicht m\u00f6glich ist, da es sich oft um komplexe Computersimulationen handelt. Mit der Zunahme der Rechenressourcen und dem Aufkommen des maschinellen Lernens wurde ein alternativer Ansatz entwickelt, um dieses Problem zu l\u00f6sen: Simulationsbasierte Inferenz (SBI). SBI verwendet vom Modell simulierte Daten, um Algorithmen des maschinellen Lernens zu trainieren und erm\u00f6glicht so Bayes'sche Parameter-Inferenz f\u00fcr komplexe simulationsbasierte wissenschaftliche Modelle. In den letzten Jahren wurden viele SBI-Methoden entwickelt und auf Inferenzprobleme sowohl in den Neurowissenschaften als auch in vielen anderen Bereichen angewendet. Dennoch gibt es noch offene Herausforderungen: Zum einen bleiben viele Modelle aufgrund ihrer Komplexit\u00e4t au\u00dferhalb der Reichweite aktueller SBI-Methoden. Zum anderen mangelt es an zug\u00e4nglichen Softwaretools und Anleitungen, um SBI-Methoden auf neue Inferenzprobleme anzuwenden. In meiner Dissertation m\u00f6chte ich diese Probleme angehen, indem ich einerseits die SBI-Methodik f\u00fcr konkrete Fragestellungen in den Neurowissenschaften verbessere und andererseits die allgemeine Anwendbarkeit von SBI-Methoden durch zug\u00e4ngliche Leitlinien und Softwaretools verbessere. In meinem ersten Projekt besch\u00e4ftige ich mich mit der Anwendung von SBI in den kognitiven Neurowissenschaften und entwickle eine neue SBI-Methode, die speziell f\u00fcr Modelle der Entscheidungsfindung konzipiert ist. Da diese neue Methode auf den j\u00fcngsten Fortschritten im Bereich des maschinellen Lernens basiert, ist sie um ein Vielfaches effizienter als fr\u00fchere Methoden und kann daher auf ein breiteres Spektrum von Modellen angewendet werden. In einem zweiten Projekt wende ich mich der Konnektomie zu, einem Bereich der Neurowissenschaften, der versucht, die Prinzipien hinter den komplexen Konnektivit\u00e4tsmustern im Gehirn zu verstehen. Ich zeige, wie SBI dabei helfen kann, Modelle \u00fcber neue Konnektivit\u00e4tsregeln im sensorischen Kortex der Ratte zu testen und an die gemessenen Daten anzupassen. Als drittes Projekt pr\u00e4sentiere ich einen Leitfaden f\u00fcr die Anwendung von SBI auf neue Inferenzprobleme, und ich bin einer der Hauptentwickler eines neuen Softwarepakets, das den Zugang zu aktuellen SBI-Methoden erleichtert. Zusammengenommen wird diese Arbeit den wissenschaftlichen Fortschritt in den Neurowissenschaften und dar\u00fcber hinaus f\u00f6rdern, indem sie das Arsenal an SBI-Methoden bereichert, das Potential von SBI f\u00fcr die Konnektomie aufzeigt und die L\u00fccke zwischen Entwicklung und Anwendbarkeit von SBI-Methoden im Allgemeinen \u00fcberbr\u00fcckt."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1297156994"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-84898",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

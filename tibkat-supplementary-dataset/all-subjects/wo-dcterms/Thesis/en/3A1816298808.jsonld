@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118122363",
+            "sameAs": "Arnold, Martin"
+        },
+        {
+            "@id": "gnd:126763233X",
+            "sameAs": "Hante, Stefan"
+        },
+        {
+            "@id": "gnd:2024276-1",
+            "sameAs": "Martin-Luther-Universit\u00e4t Halle-Wittenberg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1816298808",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (135 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Br\u00fcls, O.",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25673/91397",
+                "(firstid)KXP:1816298808",
+                "(ppn)1816298808"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)518"
+            ],
+            "title": "Geometric integration of a constrained Cosserat beam model",
+            "abstract": [
+                "beam theory, geometric numerical integration, Lie groups, variational integrators, constrained mechanical systems",
+                "Balkentheorie, Geometrische numerische Integration, Lie-Gruppen, Variationelle Integratoren, Beschr\u00e4nkte Mechanische Systeme",
+                "The present thesis is concerned with the numerical solution of the equations of motion of a Cosserat beam model which is reduced to a Kirchhoff beam model by introducing constraints. The equations of motion take the form of differential equations on Lie groups with the structure of a semi-direct product. To parametrize orientation in space, we use unit quaternions. First, we discretize the equations of motion of the beam in space. This leads to differential-algebraic equations of index 3 on a higher dimensional Lie group. Second, in order to solve these equations, we develop a new algorithm called \u201cRATTLie\u201d. It belongs to the class of variational integrators and is based on the wellknown RATTLE method. We prove that RATTLie converges with second order. Finally, we carry out several numerical experiments that confirm our analytical considerations.",
+                "Die vorliegende Arbeit besch\u00e4ftigt sich mit der numerischen L\u00f6sung der Bewegungsgleichungen eines Cosserat-Balkenmodells, welches mittels Zwangsbedingungen auf ein Kirchhoff-Balkenmodell reduziert wird. Diese Bewegungsgleichungen sind Differentialgleichungen auf Lie-Gruppen, die die Struktur eines semidirekten Produktes haben. Zur Parametrisierung der Orientierung im Raum werden Einheitsquaternionen verwendet. Die Bewegungsgleichungen des Balkens werden zun\u00e4chst bez\u00fcglich des Ortes diskretisiert und f\u00fchren dann auf differential-algebraische Gleichungen vom Index 3 auf einer h\u00f6herdimensionalen Lie-Gruppe. Zur L\u00f6sung dieser Gleichungen wird ausgehend vom bekannten RATTLE-Verfahren ein neuer Algorithmus \u201eRATTLie\u201c hergeleitet, der der Klasse der variationellen Integratoren zuzuordnen ist. Es wird bewiesen, dass RATTLie mit zweiter Ordnung konvergiert. Die Untersuchungen werden durch zahlreiche numerische Experimente untermauert."
+            ],
+            "contributor": "gnd:118122363",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:126763233X",
+                "gnd:2024276-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25673/91397",
+            "P60163": "Halle"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

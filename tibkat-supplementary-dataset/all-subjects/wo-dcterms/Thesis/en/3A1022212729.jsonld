@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1022212729",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 201 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Wehrheim, Heike",
+            "creator": "Walther, Sven",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.17619/UNIPB/1-307",
+                "(firstid)HBZ:CT004002076",
+                "(ppn)1022212729"
+            ],
+            "subject": [
+                "(classificationName=ddc)005",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)000",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc)006"
+            ],
+            "title": "Knowledge-based verification of service compositions",
+            "abstract": "Software wird heute als Dienstleistung (Software-as-a-Service) angeboten. In Visionen wie dem On-The-Fly Computing werden diese Dienste automatisch auf Basis von konkreten Nutzeranforderungen innerhalb einer Anwendungsdom\u00e4ne erzeugt. Das bedeutet, dass auch die Korrektheit der komponierten Dienste automatisch und \"on-the-fly\" sichergestellt werden muss.Software-Verifikation \"on-the-fly\" durchzuf\u00fchren ist eine besondere Herausforderung, da sie nur dann Resultate erzeugt, wenn sie auf formalen Spezifikationen arbeitet. Dabei arbeitet sie auf den Bereichen von Service-Spezifikation, Komposition und Wissensmodellierung, die ihre eigenen Formalismen und Semantiken mitbringen. Daher ben\u00f6tigen wir ein Gesamtsystem, das uns einerseits die Modellierung von dom\u00e4nenspezifischem Wissen, Diensten und Kompositionen erm\u00f6glicht und andererseits die theoretischen Grundlagen f\u00fcr eine formale Verifikation bereitstellt.Die vorliegende Arbeit bietet ein solches Gesamtsystem. Auf Basis von Pr\u00e4dikatenlogik erm\u00f6glicht sie die Modellierung von Dom\u00e4nenwissen und nutzt dieses Wissen, um Dienste zu spezifieren und eine Kompositionssprache zu definieren. Zus\u00e4tzlich erm\u00f6glicht sie die Beschreibung von Vorlagen und definiert eine Semantik, die durch logische Strukturen und durch m\u00f6gliche Instanziierungen der Vorlagen zu Kompositionen innerhalb beliebiger Wissensdom\u00e4nen parametriert ist.Die Arbeit definiert einen Beweiskalk\u00fcl zum Nachweis der Korrektheit von Vorlagen und zeigt seine Korrektheit und Vollst\u00e4ndigkeit. Sie zeigt, dass ein Korrektheitsnachweis einer Komposition auf Basis einer korrekten Vorlage durch den Nachweis von Nebenbedingungen im Rahmen der Instanziierung ersetzt werden kann. Au\u00dferdem bietet sie eine logische Kodierung der Korrektheitseigenschaften, um eine automatische Verifikation auf Basis von Erf\u00fcllbarkeitspr\u00fcfern zu erm\u00f6glichen.. - As of today, modern software is already provided as-a-service and no longer sold as monolithic application. Tomorrow, with visions as on-the-fly computing, these services will be created automatically, composed from existing services according to the request of a user, based in an actual business domain. Therefore, correctness of such a composition has to be guaranteed on the fly, as well.Verifying software in an on-the-fly context leads to a major challenge: It can only yield results if it is rooted in formal specification. At the same time, verification meets the domains of service description, composition, and knowledge modeling, all using different formalisms with different semantics. Therefore, we need a framework which enables domain knowledge modeling as well as service and composition specification, while at the same time using a shared theoretical foundation to enable formal verification.This thesis provides such a framework. It uses predicate logic as a common ground to build an integrated framework to model knowledge, use this knowledge to create service descriptions, and to define a workflow, or composition, language. Additionally, it lifts compositions to templates, and provides a semantics which is parameterized not only in the logical structures, but also in the possible instantiations of templates in arbitrary business domains.It also provides a sound and complete proof calculus to show correctness of templates. Additionally, it leverages the use of the framework in an on-the-fly context by replacing the need of composition verification with a check of side conditions of a template during instantiation, and by providing an encoding of correctness checks to make use of automatic verification using satisfiability solvers.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-307",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

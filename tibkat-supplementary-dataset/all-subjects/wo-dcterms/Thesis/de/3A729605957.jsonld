@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4116522-6",
+            "sameAs": "Softwareentwicklung"
+        },
+        {
+            "@id": "gnd:4131193-0",
+            "sameAs": "Datenauswertung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A729605957",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (133 Bl. = 5,73 mb)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Kohlbacher, Oliver",
+                "M\u00fcller-Hannemann, Matthias"
+            ],
+            "creator": "Wolf, Sebastian",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)729605957",
+                "(doi)10.25673/781",
+                "(firstid)GBV:729605957"
+            ],
+            "publisher": "Universit\u00e4ts- und Landesbibliothek Sachsen-Anhalt",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)540",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "In silico Fragmentierung f\u00fcr die computergest\u00fctzte Auswertung von Tandem-Massenspektrometrie Daten",
+            "abstract": [
+                "MetFrag; Massenspektrometrie; Tandem-Massenspektrometrie; MassStruct; Metabolomik; Fragmentierungsalgorithmus",
+                "With mass spectrometry the identification of unknown compounds is the main bottleneck. Tandem MS spectra measures fragment ions, but the coverage of spectral libraries of measured reference compounds are far from covering the complete chemical space. Compound libraries such as PubChem describe a larger number of compounds, which can be used to compare their in silico fragmentation with spectra of unknown metabolites. The developed software MetFrag obtains a candidate list from compound libraries based on the precursor mass, subsequently ranked by the agreement between measured and in silico fragments. Compared to a previously published study, MetFrag obtained better results than the MassFrontier 4. Especially for large compound libraries, the candidates with a good score show a high structural similarity, a subsequent clustering based on chemical distances reduces this redundancy and MassStruct allows the preordering of candidate compounds already in the database.",
+                "MetFrag; mass spectrometry; tandem mass spectrometry; MassStruct; Metabolomics; fragmentation algorithm",
+                "In der Massenspektrometrie ist die Identifizierung unbekannter Substanzen besonders zeitaufwendig. Die Tandem-Massenspektrometrie misst Fragmentionen, aber Spektrendatenbanken decken nur einen kleinen Teil der Verbindungen ab. Auf der anderen Seite enthalten Strukturdatenbanken wie PubChem viel mehr Verbindungen, die benutzt werden k\u00f6nnen, um deren in silico Fragmentierung mit dem Spektrum des unbekannten Metaboliten zu Vergleichen. Die entwickelte Software MetFrag sucht in einer Strukturdatenbank entsprechend der Masse des Vorl\u00e4uferions und sortiert diese nach der \u00dcbereinstimmung mit dem gemessenen Spektrum. Im Vergleich mit MassFrontier 4 schneidet MetFrag besser ab. Besonders gro\u00dfe Strukturdatenbanken enthalten viele sehr \u00e4hnliche Strukturen, weshalb ein Clustering zur Vermeidung von Redundanzen durchgef\u00fchrt wird, wobei MassStruct au\u00dferdem eine Vorsortierung der Kandidaten erm\u00f6glicht."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4131193-0",
+                "gnd:4116522-6"
+            ],
+            "isLike": "doi:10.25673/781"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

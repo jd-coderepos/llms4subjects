@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1322679827",
+            "sameAs": "Schmitt, Carolin"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1882720598",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xix, 147 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-92654",
+                "(ppn)1882720598",
+                "(firstid)KXP:1882720598"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)006.69",
+                "(classificationName=ddc-dbn)004",
+                "Rekonstruktion",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Towards scalable multi-view reconstruction of poses, geometry, and materials",
+            "abstract": "Accurately reconstructing the geometry and materials of indoor scenes from 2D images is a challenging research problem in Computer Vision and Computer Graphics. It is particularly difficult for input data captured by mobile acquisition systems of larger, multi-object scenes. The main challenges arise from the strong correlation between geometry and material parameters, the scale of the scene, and the sparse samples obtained from handheld data. In this dissertation, we address all these problems by presenting a novel method for joint recovery of object geometry, material reflectance, and camera pose of 3D scenes that exceed object-scale. The input is high-resolution RGB-D images captured by a mobile, handheld sensor system with active illumination by point lights. Recovering scene parameters given RGB-D images is ill-posed due to the strong link between geometry and material parameters. The image formation process renders the appearance of a scene in 2D by estimating the light hitting the camera. In detail, it models the light that gets reflected from the scene surfaces based on the surface orientation, geometrical scene configuration, and material properties. Here, different combinations of geometry and material parameter estimates can result in the same appearance on a pixel level. To recover these scene parameters from appearance, the image formation needs to be reversed -- a highly under-constraint problem. While previous works estimate geometry and material properties in alternation, these correlated entities are best optimized jointly. Therefore, we formulate the problem using a single objective function that can be minimized jointly using off-the-shelf gradient-based solvers, resulting in cleanly separated parameters. Next, accurately reconstructing a scene that exceeds object scale requires a scalable scene representation, i.e., one that allows for the optimization of large numbers of input views and many parameters while still being computationally feasible and memory-efficient. To this end, we introduce a scene representation based on a set of local 2.5D keyframes and a distributed optimization algorithm; together, these enable accurate scene reconstructions with a memory footprint that does not scale with the scene size. Additionally, our novel multi-view consistency regularizer effectively synchronizes neighboring keyframes, allowing seamless integration into a globally consistent 3D model. Finally, sparse samples obtained from handheld capture systems contain insufficient information to estimate material parameters accurately. Therefore, prior knowledge in the form of carefully designed regularizers must be added to the optimization objective. We present a novel smoothness term that effectively propagates material information over the scene surface while preserving clean material boundaries. We thus achieve accurate parameter estimates and realistic appearance reconstruction from sparse observations, even for challenging materials like glossy surfaces and specular highlights. Backed up by thorough ablations and experiments, we believe this work is a valuable step towards large-scale, indoor 3D reconstruction of poses, geometry, and materials.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1322679827",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-92654",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

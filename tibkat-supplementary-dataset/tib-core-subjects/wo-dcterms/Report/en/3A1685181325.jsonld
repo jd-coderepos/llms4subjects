@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017122695",
+            "sameAs": "Bayer, Christian"
+        },
+        {
+            "@id": "gnd:1080151796",
+            "sameAs": "Wolfers, S\u00f6ren"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1685181325",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (21 Seiten, 773 KB)",
+            "creator": "Tempone, Ra\u00fal F.",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1685181325",
+                "(ppn)1685181325",
+                "(doi)10.20347/WIAS.PREPRINT.2651"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Pricing American options by exercise rate optimization",
+            "abstract": "We present a novel method for the numerical pricing of American options based on Monte Carlo simulation and the optimization of exercise strategies. Previous solutions to this problem either explicitly or implicitly determine so-called optimal exercise regions, which consist of points in time and space at which a given option is exercised. In contrast, our method determines the exercise rates of randomized exercise strategies. We show that the supremum of the corresponding stochastic optimization problem provides the correct option price. By integrating analytically over the random exercise decision, we obtain an objective function that is differentiable with respect to perturbations of the exercise rate even for finitely many sample paths. The global optimum of this function can be approached gradually when starting from a constant exercise rate. Numerical experiments on vanilla put options in the multivariate Black\u2013Scholes model and a preliminary theoretical analysis underline the efficiency of our method, both with respect to the number of time-discretization steps and the required number of degrees of freedom in the parametrization of the exercise rates. Finally, we demonstrate the flexibility of our method through numerical experiments on max call options in the classical Black\u2013Scholes model, and vanilla put options in both the Heston model and the  non-Markovian rough Bergomi model.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1080151796"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:1017122695"
+                }
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2651",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2651",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

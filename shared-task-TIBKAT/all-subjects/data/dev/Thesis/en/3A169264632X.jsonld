@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1080960317",
+            "sameAs": "Morgenthal, Guido"
+        },
+        {
+            "@id": "gnd:119277311X",
+            "sameAs": "Solari, Giovanni"
+        },
+        {
+            "@id": "gnd:135943620",
+            "sameAs": "Lahmer, Tom"
+        },
+        {
+            "@id": "gnd:4000589-6",
+            "sameAs": "Aerodynamik"
+        },
+        {
+            "@id": "gnd:4008408-5",
+            "sameAs": "Br\u00fccke"
+        },
+        {
+            "@id": "gnd:4202469-9",
+            "sameAs": "Aeroelastizit\u00e4t"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A169264632X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xxiii, 289 Seiten)",
+            "creator": "Kavrakov, Igor",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25643/bauhaus-universitaet.4109",
+                "(ppn)169264632X",
+                "(firstid)KXP:169264632X"
+            ],
+            "publisher": "Bauhaus-Universit\u00e4tsverlag als Imprint von art + science weimar GmbH",
+            "subject": [
+                "Aerodynamics",
+                "(classificationName=ddc)620.001",
+                "Bridge",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620",
+                "Computational Fluid Dynamics",
+                "Aeroelasticity",
+                "Category Theory"
+            ],
+            "title": "Synergistic Framework for Analysis and Model Assessment in Bridge Aerodynamics and Aeroelasticity",
+            "abstract": "Wind-induced vibrations often represent a major design criterion for long-span bridges. This work deals with the assessment and development of models for aerodynamic and aeroelastic analyses of long-span bridges. Computational Fluid Dynamics (CFD) and semi-analytical aerodynamic models are employed to compute the bridge response due to both turbulent and laminar free-stream. For the assessment of these models, a comparative methodology is developed that consists of two steps, a qualitative and a quantitative one. The first, qualitative, step involves an extension of an existing approach based on Category Theory and its application to the field of bridge aerodynamics. Initially, the approach is extended to consider model comparability and completeness. Then, the complexity of the CFD and twelve semi-analytical models are evaluated based on their mathematical constructions, yielding a diagrammatic representation of model quality. In the second, quantitative, step of the comparative methodology, the discrepancy of a system response quantity for time-dependent aerodynamic models is quantified using comparison metrics for time-histories. Nine metrics are established on a uniform basis to quantify the discrepancies in local and global signal features that are of interest in bridge aerodynamics. These signal features involve quantities such as phase, time-varying frequency and magnitude content, probability density, non-stationarity, and nonlinearity. The two-dimensional (2D) Vortex Particle Method is used for the discretization of the Navier-Stokes equations including a Pseudo-three dimensional (Pseudo-3D) extension within an existing CFD solver. The Pseudo-3D Vortex Method considers the 3D structural behavior for aeroelastic analyses by positioning 2D fluid strips along a line-like structure. A novel turbulent Pseudo-3D Vortex Method is developed by combining the laminar Pseudo-3D VPM and a previously developed 2D method for the generation of free-stream turbulence. Using analytical derivations, it is shown that the fluid velocity correlation is maintained between the CFD strips. Furthermore, a new method is presented for the determination of the complex aerodynamic admittance under deterministic sinusoidal gusts using the Vortex Particle Method. The sinusoidal gusts are simulated by modeling the wakes of flapping airfoils in the CFD domain with inflow vortex particles. Positioning a section downstream yields sinusoidal forces that are used for determining all six components of the complex aerodynamic admittance. A closed-form analytical relation is derived, based on an existing analytical model. With this relation, the inflow particles\u2019 strength can be related with the target gust amplitudes a priori. The developed methodologies are combined in a synergistic framework, which is applied to both fundamental examples and practical case studies. Where possible, the results are verified and validated. The outcome of this work is intended to shed some light on the complex wind\u2013bridge interaction and suggest appropriate modeling strategies for an enhanced design.",
+            "contributor": [
+                "gnd:1080960317",
+                "gnd:135943620",
+                "gnd:119277311X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:5180842-0"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4008408-5"
+                },
+                {
+                    "@id": "gnd:4000589-6"
+                },
+                {
+                    "@id": "gnd:4202469-9"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/weimar/toc/1692242830_toc.pdf",
+            "volume": "Heft 21",
+            "isLike": "doi:10.25643/bauhaus-universitaet.4109",
+            "P30128": "Schriftenreihe des DFG Graduiertenkollegs 1462, Modellqualit\u00e4ten",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

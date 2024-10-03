@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017108900",
+            "sameAs": "K\u00f6stler, Christoph"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4012469-1",
+            "sameAs": "Diskretisierung"
+        },
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4138985-2",
+            "sameAs": "Erdmantel"
+        },
+        {
+            "@id": "gnd:4515829-0",
+            "sameAs": "Stokes-Gleichung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A66926170X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (109 Seiten)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)66926170X",
+                "(firstid)GBV:66926170X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "Partielle Differentialgleichung",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106407236)38.70 - Geophysik: Allgemeines",
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc-dbn)550"
+            ],
+            "title": "Iterative solvers for modeling mantle convection with strongly varying viscosity",
+            "abstract": "Die Dissertation beschreibt Verbesserungen der FEM-Diskretisierung und des L\u00f6sers der Stokes-Gleichungen im sph\u00e4rischen Mantelkonvektionsmodell Terra. Zun\u00e4chst wurde in einem zweidimensionalen quadratischen Gitter mit jeweils st\u00fcckweise linearen Ansatzfunktionen f\u00fcr Druck und Geschwindigkeit eine stabilisierte Diskretisierung nach Dohrmann & Bochev (2004) mit Projektionen auf st\u00fcckweise konstante Druckfunktionen implementiert. Deren spektrale Eigenschaften wurden systematisch untersucht. Die Stabilisierung bewirkt eine Gitterunabh\u00e4ngigkeit des Spektrums des Schurkomplements S. Die Viskosit\u00e4tsunabh\u00e4ngigkeit wird durch Pr\u00e4konditionierung von S mit einer viskosit\u00e4tsabh\u00e4ngigen Massenmatrix M? bzw. durch Skalierung mit deren Diagonale erreicht. Damit wurden drei Krylov-Unterraumverfahren hinsichtlich ihrer Robustheit gegen\u00fcber Viskosit\u00e4tsvariationen und L\u00f6sertoleranzen untersucht: Druckkorrektur- (PC), Minimierte Residuen- (MINRES) und ein konjugiertes Gradientenverfahren (BPCG) mit einem von Bramble and Pasciak (1988) entwickelten Blockpr\u00e4konditionierer. PC und BPCG wurden in einer \u00e4u\u00dferen Schleife mit aus Eigenwertabsch\u00e4tzungen berechneten Abbruchkriterien mehrfach gestartet. In der Rechenzeit unterscheiden sich die L\u00f6ser um weniger als Faktor 2. Bei starken Viskosit\u00e4tskontrasten ist PC der einfachste und schnellste L\u00f6ser.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1017108900"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4515829-0",
+                "gnd:4017233-8",
+                "gnd:4138985-2",
+                "gnd:4012469-1"
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1201383196",
+            "sameAs": "Sester, Julian"
+        },
+        {
+            "@id": "gnd:4060694-6",
+            "sameAs": "Transportproblem"
+        },
+        {
+            "@id": "gnd:4112584-8",
+            "sameAs": "Arbitrage-Pricing-Theorie"
+        },
+        {
+            "@id": "gnd:4122918-6",
+            "sameAs": "Bewertungstheorie"
+        },
+        {
+            "@id": "gnd:4126481-2",
+            "sameAs": "Robustheit"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1687237964",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (153 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.6094/UNIFR/151466",
+                "(contract)FRUB-opus-151466",
+                "(firstid)KXP:1687237964",
+                "(ppn)1687237964"
+            ],
+            "subject": [
+                "(classificationName=msc)91G20",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)330",
+                "(classificationName=msc)91-02",
+                "(classificationName=msc)60G44"
+            ],
+            "title": "On the improvement of robust price bounds",
+            "abstract": "Abstract: This thesis studies several topics related to the area of model-independent and robust finance.<br>In particular, the work addresses valuation approaches that can be applied to determine robust price bounds for exotic derivatives which are calculable without imposing assumptions on the dynamics or joint distributions of an underlying process. However, it turns out that the drawback of avoiding specific model assumptions is a lack of applicability in practice since the resulting price bounds are usually rather coarse.<br>We show in several approaches how to respect additional constraints yielding a tightened interval of possible prices. For this, we either derive additional market-implied price information and use this information to obtain restrictions on the set of admissible pricing measures or we study the influence of common assumptions in particular situations. Both approaches enable to compute improved price bounds by using adjusted martingale transport techniques which respect the resulting supplementary constraints.<br>In a first investigation we take information on the variance of the returns into account. Our study reveals that this information indeed effectively tightens the admissible price range for numerous derivatives whose payoff relies on a single security. We then extend the investigations to derivatives depending on several different underlying securities. The results have important implications on the valuation of exotic basket options. <br>We further study the incorporation of price information on options which do not directly influence the payoff of the derivative of interest. Surprisingly, taking into account such information can also result in tighter price bounds. We provide an extensive study on this issue in the three-marginal case. In some situations it also seems sensible to impose an assumption which implies that the underlying process is Markovian. We show how this assumption leads to a modified martingale transport problem and as well to tightened price bounds. Eventually we study a weaker notion of arbitrage, called G-arbitrage which allows to deploy profitable robust strategies even in markets free of robust arbitrage",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1201383196",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4060694-6"
+                },
+                {
+                    "@id": "gnd:4112584-8"
+                },
+                {
+                    "@id": "gnd:4126481-2"
+                },
+                {
+                    "@id": "gnd:4122918-6"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/151466",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

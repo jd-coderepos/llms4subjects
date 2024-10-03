@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1218031905",
+            "sameAs": "Boniardi, Federico"
+        },
+        {
+            "@id": "gnd:4167607-5",
+            "sameAs": "Lidar"
+        },
+        {
+            "@id": "gnd:7569134-6",
+            "sameAs": "Lokalisierung (Robotik)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1735094099",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (110 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-167265",
+                "(doi)10.6094/UNIFR/167265",
+                "(ppn)1735094099",
+                "(firstid)DNB:1218464003"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)629.893"
+            ],
+            "title": "Methods for mobile robot localization using architectural floor plans",
+            "abstract": "Abstract: In the near future, mobile robots are envisioned to autonomously operate in many complex scenarios such as assembly lines, warehouses, or domestic environments for assisting or even replacing people in repetitive and tedious tasks. In this context, robot localization is a crucial technology for every mobile vehicle to be fully operational. Localization methods commonly rely on accurate maps that are built fusing sensory measurements collected with the sensor modality on board the robot. To build those maps, robots have to be teleoperated through the entire area where they are required to operate, which in turn results in increased deployment time and costs for robot manufacturers, or additional effort for customers. In addition, map representations such as occupancy grids, can be hard to interpret for inexperienced operators. To overcome these drawbacks, in this dissertation we investigate methods for mobile robot localization using 2D architectural floor plans. In this thesis, we first propose a robust LiDAR-based system that uses architectural floor plans as map for localization. During operation, the robot builds and maintains an accurate representation of the environment while keeping it aligned to the floor plan. This allows the robot to cope with occlusion produced by obstacles and large structures that are not represented in the floor plan and which can significantly affect localization methods that only compare the current LiDAR measurements with the floor plan. Second, we propose a monocular camera-based localization system. Instead of creating map of the environment during navigation, we employ a Convolutional Neural Network to estimate room layout edges from single monocular images. To track the robot pose, we use Monte Carlo Localization and compare the estimated layout with a 3D model inferred from the 2D floor plan. The methods proposed in this dissertation have been evaluated using real-world datasets in order to assess their robustness and accuracy as well as their computational performance. The experiments show that the methods can be used in complex scenarios, such industrial and service applications",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1218031905",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4167607-5"
+                },
+                {
+                    "@id": "gnd:7569134-6"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/167265",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

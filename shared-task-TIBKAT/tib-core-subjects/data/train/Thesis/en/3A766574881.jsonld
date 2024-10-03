@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1037012690",
+            "sameAs": "Brinkmeyer, Malte"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4174591-7",
+            "sameAs": "Phylogenetik"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A766574881",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (129 Seiten)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:766574881",
+                "(ppn)766574881"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106421425)42.11 - Biomathematik, Biokybernetik",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=bk, id=106418122)54.51 - Programmiermethodik",
+                "(classificationName=ddc-dbn)910",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc)576.880151152",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Polynomial supertree methods in phylogenomics : algorithms, simulations and software",
+            "abstract": "One of the objectives in modern biology, especially phylogenetics, is to build larger clades of the Tree of Life. Large-scale phylogenetic analysis involves several serious challenges. The aim of this thesis is to contribute to some of the open problems in this context. In computational phylogenetics, supertree methods provide a way to reconstruct larger clades of the Tree of Life. We present a novel polynomial time approach for the computation of supertrees called FlipCut supertree. Our method combines the computation of minimum cuts from graph-based methods with a matrix representation method, namely Minimum Flip Supertrees. Here, the input trees are encoded in a 0/1/?-matrix. We present a heuristic to search for a minimum set of 0/1-flips such that the resulting matrix admits a directed perfect phylogeny. In contrast to other polynomial time approaches, our results can be interpreted in the sense that we try to minimize a global objective function, namely the number of flips in the input matrix. We extend our approach by using edge weights to weight the columns of the 0/1/?-matrix. In order to compare our new FlipCut supertree method with other recent polynomial supertree methods and matrix representation methods, we present a large scale simulation study using two different data sets. Our findings illustrate the trade-off between accuracy and running time in supertree construction, as well as the pros and cons of different supertree approaches. Furthermore, we present EPoS, a modular software framework for phylogenetic analysis and visualization. It fills the gap between command line-based algorithmic packages and visual tools without sufficient support for computational methods. By combining a powerful graphical user interface with a plugin system that allows simple integration of new algorithms, visualizations and data structures, we created a framework that is easy to use, to extend and that covers all important steps of a phylogenetic analysis.",
+            "contributor": "gnd:1037012690",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:36164-1",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4611085-9"
+                },
+                {
+                    "@id": "gnd:4174591-7"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

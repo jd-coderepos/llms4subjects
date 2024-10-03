@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749233176",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (208p)",
+            "creator": "Frederking, Robert E.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:749233176",
+                "(ppn)749233176",
+                "(isbn13)9781461320197",
+                "(doi)10.1007/978-1-4613-2019-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=loc)TJ210.2-211.495",
+                "Computer science",
+                "(classificationName=loc)Q334-342",
+                "(classificationName=ddc)006.3",
+                "Artificial intelligence",
+                "(classificationName=linseach:mapping)mas"
+            ],
+            "title": "Integrated Natural Language Dialogue : A Computational Model",
+            "abstract": [
+                "1. Introduction -- 1.1. Ellipsis in natural language -- 1.2. Ellipsis in natural language interfaces -- 1.3. Computational architecture -- 1.4. Outline of the book -- 2. Relevant Previous Work -- 2.1. Work on ellipsis resolution -- 2.2. Work on dialogue modelling -- 2.3. Work on chart parsing -- 2.4. How Psli3 differs from other systems -- 3. An Analysis of Natural Language Dialogue -- 3.1. An Analysis of intersentential ellipsis -- 3.2. Other dialogue phenomena -- 3.3. Relationship of theory to implementation -- 4. The Implementation -- 4.1. Top-level organization -- 4.2. Semantic chart parsing -- 4.3. Ellipsis handling in the chart -- 4.4. Correction, elaboration, and dialogue charts -- 4.5. The response phase -- 4.6. Future chart developments -- 5. The Program in Action -- 5.1. Introduction -- 5.2. The initial full sentence -- 5.3. Functional verb phrase ellipsis -- 5.4. Constituent verb phrase ellipsis -- 5.5. Another functional verb phrase ellipsis -- 5.6. Conclusion -- 6. Conclusion -- 6.1. Contributions -- 6.2. Future work -- References.",
+                "Natural language dialogue is a continuous, unified phenomenon. Speakers use their conversational context to simplify individual utterances through a number of linguistic devices, including ellipsis and definite references. Yet most computational systems for using natural language treat individual utterances as separate entities, and have distinctly separate processes for handling ellipsis, definite references, and other dialogue phenomena. This book, a slightly revised version of the Ph. D. dissertation that I completed in December 1986, describes a different approach. It presents a computational system, Psli3, that uses the uniform framework of a production system architecture to carry out natural language understanding and generation in a well-integrated way. This is demonstrated primarily through intersentential ellipsis resolution, in addition to examples of definite reference resolution and interactive error correction. The system's conversational context arises naturally as the result of the persistence of the internal representations of previous utterances in working memory. Natural language input is interpreted within this framework using a modification of the syntactic technique of chart parsing, extended to include semantics, and adapted to the production system architecture. This technique, called semantic chart parsing, provides a graceful way of handling ambiguity within this architecture, and allows separate knowledge sources to interact smoothly across different utterances in a highly integrated fashion. xvi Integrated Natural Language Dialogue The design of this system demonstrates how flexible and natural user interactions can be carried out using a system with a naturally flexible control structure."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "41",
+            "isLike": "doi:10.1007/978-1-4613-2019-7",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Natural Language Processing and Machine Translation",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

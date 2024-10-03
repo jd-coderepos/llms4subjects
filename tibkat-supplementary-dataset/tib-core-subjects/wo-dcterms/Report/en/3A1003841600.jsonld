@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:131835475",
+            "sameAs": "Hinterm\u00fcller, Michael"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1003841600",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (39 Seiten, 628 KB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Papafitsoros, Kostas",
+                "Holler, Martin"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1003841600",
+                "(doi)10.20347/WIAS.PREPRINT.2437",
+                "(ppn)1003841600"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A function space framework for structural total variation regularization with applications in inverse problems",
+            "abstract": "In this work, we introduce a function space setting for a wide class of structural/weighted total variation (TV) regularization methods motivated by their applications in inverse problems. In particular, we consider a regularizer that is the appropriate lower semi-continuous envelope (relaxation) of a suitable total variation type functional initially defined for sufficiently smooth functions. We study examples where this relaxation can be expressed explicitly, and we also provide refinements for weighted total variation for a wide range of weights. Since an integral characterization of the relaxation in function space is, in general, not always available, we show that, for a rather general linear inverse problems setting, instead of the classical Tikhonov regularization problem, one can equivalently solve a saddle-point problem where no a priori knowledge of an explicit formulation of the structural TV functional is needed. In particular, motivated by concrete applications, we deduce corresponding results for linear inverse problems with norm and Poisson log-likelihood data discrepancy terms. Finally, we provide proof-of-concept numerical examples where we solve the saddle-point problem for weighted TV denoising as well as for MR guided PET image reconstruction.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:131835475"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2437",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2437",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027205658",
+            "sameAs": "McKenna, Russell"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1020521503",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (circa 103 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Hofmann, Leon",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1020521503",
+                "(firstid)GBV:1020521503",
+                "(doi)10.5445/IR/1000053151"
+            ],
+            "publisher": "Karlsruhe Institute of Technology",
+            "subject": [
+                "Wohnimmobilien",
+                "Simulation",
+                "Energiekonsum",
+                "(classificationName=ddc-dbn)330",
+                "Energieversorgung",
+                "(classificationName=linseach:mapping)oek"
+            ],
+            "title": "Development of a multi-energy residential service demand model for evaluation of prosumers' effects on current and future residential load profiles for heat and electricity",
+            "abstract": "The motivation of this thesis is to develop a multi-energy residential service demand (MESD) model. The approach is based on earlier modelling concepts. Electricity is simulated by the help of a first-order Markov-chain approach simulating pseudorandom solar irradiation data as well as occupancy patterns, which are matched to stochastically determined electric appliance activities (McKenna et al., 2015; Richardson & Thomson, 2012). A lumped-parameter model simulating indoor temperatures is utilized to estimate space heating (SH) demand (Nielsen, 2005). Measurement data on domestic hot water (DHW) consumption in dwellings is analysed in order to implement a DHW model. The model generates output in 1-minute resolution. It features various possibilities of dwelling customization: Among others, number of residents, building physics, electric appliances and heating regime may be adjusted. An interface providing a link to the Cambridge Housing Model (DECC, 2012) is implemented, which supports automated retrieval of relevant building parameters. Electricity and DHW demand values may also be extracted to be used for model calibration. The added value of this work is the implementation of a DHW model and the combination of above named approaches to an integrated multi-energy service demand model. The electricity model is enhanced by improving the calibration mechanism and increasing electric appliance variety. The SH model is extended by random heating regime generation based on field data. The model features full year simulations incorporating seasonal effects on DHW and SH demand. In addition, seven representative archetypes have been developed, which allow for detailed investigation of load profiles for heat and electricity of representative UK dwellings. The model has a wide scope of application. It can be used to explore the impact of different dwelling configurations on load matching and grid interaction throughout the seasons. Synthetic energy service demand profiles may support research on the optimal configuration of on-site supply appliances such as mCHP, PV and heat pumps. Furthermore, the model allows for drawing conclusions on the net carbon emissions of a dwelling and for assessing energy-efficiency measures.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1027205658",
+                "gnd:171556542"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 11 (February 2016)",
+            "isLike": "doi:10.5445/IR/1000053151",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

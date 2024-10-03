@@ -1,0 +1,59 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A837287081",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Cordero Hernandez, Yovany",
+            "identifier": [
+                "(ppn)837287081",
+                "(firstid)GBV:837287081"
+            ],
+            "publisher": "Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Covariance update in data assimilation for state and parameter estimation",
+            "abstract": "Data assimilation, covariance, update, parameter, estimation, low rank, efficient. - The goal of Data Assimilation (DA) is to estimate, with the aid of numerical methods, the true state of a dynamical system, taking into account observations (measurements), a forecast model and state, as well as statistical information of observation, model and forecast errors. DA is also crucial for improving mathematical models, which are defective or inaccurate and contain unproven data and unknown parameters respectively, for simulation and control. This research field has an extraordinary number of application areas, being the simulation and computation of climate and ocean models among the most important and studied. In the context of data assimilation problems it is common that models depend on poorly known parameters. A well-known approach is to solve both problems, data assimilation and parameter estimation, at the same time following the so-called augmented state approach. The idea is to solve a modified DA problem, where the parameters are considered state variables and included in an augmented state vector, and the parameter evolution dynamics are incorporated into a new augmented forecast model. Typically, parameters are not directly observed; therefore, their estimation depends on the ability of the assimilation scheme to infer parameter updates using the information obtained from the observational data. The interrelation between state variables and parameters is given by their correlations. In this work we investigate the influence of the augmented state covariance matrix on the joint state-parameter data assimilation problem. Moreover, using the augmented approach we propose a novel method based on a low-cost update of the augmented state covariance matrix. Furthermore, we find necessary and sufficient conditions for the convergence of 3D-Var methods, and in particular of our proposed strategy, when applied to linear state-parameter DA problems. The suitability of our proposed method is tested using several benchmark problems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

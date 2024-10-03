@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1262800153",
+            "sameAs": "Eigel, Martin"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1855033577",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (26 Seiten, 407,69 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "Hegemann, Nando",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(contract)DFG22IND04-ATMOC",
+                "(ppn)1855033577",
+                "(firstid)KXP:1855033577",
+                "(doi)10.20347/WIAS.PREPRINT.3036"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Guaranteed quasi-error reduction of adaptive Galerkin FEM for parametric PDEs with lognormal coefficients",
+            "abstract": "Solving high-dimensional random parametric PDEs poses a challenging computational problem. It is well-known that numerical methods can greatly benefit from adaptive refinement algorithms, in particular when functional approximations in polynomials are computed as in stochastic Galerkin and stochastic collocations methods. This work investigates a residual based adaptive algorithm used to approximate the solution of the stationary diffusion equation with lognormal coefficients. It is known that the refinement procedure is reliable, but the theoretical convergence of the scheme for this class of unbounded coefficients remains a challenging open question. This paper advances the theoretical results by providing a quasi-error reduction results for the adaptive solution of the lognormal stationary diffusion problem. A computational example supports the theoretical statement.",
+            "alternative": "Lognormal ASGFEM error reduction",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:1262800153"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3036",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3036",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

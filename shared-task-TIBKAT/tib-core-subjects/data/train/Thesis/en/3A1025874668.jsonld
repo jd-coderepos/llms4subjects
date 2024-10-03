@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1053807805",
+            "sameAs": "Virtueller Sensor"
+        },
+        {
+            "@id": "gnd:1107031117",
+            "sameAs": "Kramer, Oliver"
+        },
+        {
+            "@id": "gnd:122201930",
+            "sameAs": "Zielinski, Oliver"
+        },
+        {
+            "@id": "gnd:4050851-1",
+            "sameAs": "R\u00fcckkopplung"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "gnd:4341298-1",
+            "sameAs": "Meeres\u00f6kosystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1025874668",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vi, 168 Seiten, 21 MB)",
+            "contributor": "Riedhammer, Korbinian",
+            "creator": "Oehmcke, Stefan",
+            "identifier": [
+                "(ppn)1025874668",
+                "(firstid)DNB:1161845720"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Deep learning of virtual marine sensors",
+            "abstract": [
+                "This thesis proposes an approach to build virtual sensors based on machine learning to replace broken physical sensors. These virtual sensors are trained with sensor data from the Time Series Station Spiekeroog (TSS) and the Biodiversity-Ecosystem Functioning across marine and terrestrial ecosystems (BEFmate) project in the Wadden Sea. In the first part of my work, I begin by explaining the data and its preprocessing. Next, an unsupervised extreme event detection task on the TSS data with a subsequent expert evaluation is presented. I propose an imputation method for longer consecutively missing values, which penalizes previously interpolated values based on the length of the gaps with a k-nearest neighbors approach. In the second part, I design a neural network architecture to model broken sensors. The foundation is a bidirectional recurrent neural network with long short-term memory (bLSTM) that utilizes my time dimensionality reduction method exPAA. Then, I introduce convolutional layers, uncertainty predictions, and my input quality based dropout layer to the architecture, which proves to outperform the architecture with only bLSTM layers. <engl.>",
+                "Diese Arbeit stellt einen Ansatz vor, wie virtuelle Sensoren basierend auf maschinellem Lernen erstellt werden k\u00f6nnen, um nicht funktionierende physikalische Sensoren zu ersetzen. Diese virtuellen Sensoren werden mit Daten von der Time Series Station Spiekeroog (TSS) und dem BEFmate-Projekt im Wattenmeer trainiert. Im ersten Teil meiner Arbeit erkl\u00e4re ich die Daten und deren Vorverarbeitung. Als n\u00e4chstes wird eine un\u00fcberwachte Extremereigniserkennungsaufgabe auf den TSS-Daten pr\u00e4sentiert. Dann schlage ich eine Imputationsmethode f\u00fcr fortlaufend fehlende Werte vor, welche zuvor interpolierte Werte basierend auf der L\u00fcckenl\u00e4nge und einem k-n\u00e4chste-Nachbarn-Verfahren bestraft. Im zweiten Teil entwickle ich eine neuronale Netzwerkarchitektur, um ausgefallene Sensoren zu modellieren. Die Grundlage ist ein bidirektionales rekurrentes Netzwerk mit Langzeit-Kurzzeitged\u00e4chtnis (bLSTM), welches meine zeitliche Dimensionalit\u00e4tsreduktionsmethode exPAA verwendet. Ich f\u00fchre Schichten mit Faltungen, Unsicherheitsvorhersagen und meine auf Eingangsqualit\u00e4t basierendes Dropout hinzu, welche sich als besser als das bLSTM-Netz erweist. <dt.>"
+            ],
+            "alternative": "Deep Learning f\u00fcr virtuelle marine Sensoren",
+            "dcterms:contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:122201930"
+                },
+                {
+                    "@id": "gnd:1107031117"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4341298-1"
+                },
+                {
+                    "@id": "gnd:1053807805"
+                },
+                {
+                    "@id": "gnd:4050851-1"
+                },
+                {
+                    "@id": "gnd:4226127-2"
+                }
+            ],
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

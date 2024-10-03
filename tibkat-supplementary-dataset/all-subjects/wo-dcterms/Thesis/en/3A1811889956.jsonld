@@ -1,0 +1,124 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1059760320",
+            "sameAs": "Schuster, Stefan"
+        },
+        {
+            "@id": "gnd:121507076",
+            "sameAs": "K\u00f6nig, Rainer"
+        },
+        {
+            "@id": "gnd:1263779964",
+            "sameAs": "Thanamit, Kulwadee"
+        },
+        {
+            "@id": "gnd:141333707",
+            "sameAs": "Kaleta, Christoph"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4057699-1",
+            "sameAs": "Stoffwechsel"
+        },
+        {
+            "@id": "gnd:4164538-8",
+            "sameAs": "Kohlenstoff"
+        },
+        {
+            "@id": "gnd:4775956-2",
+            "sameAs": "Transkriptomanalyse"
+        },
+        {
+            "@id": "gnd:4807318-0",
+            "sameAs": "Metabolom"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1811889956",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (115 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1811889956",
+                "(firstid)KXP:1811889956"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106421484)42.49 - Prokaryota",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=bk, id=106410458)42.13 - Molekularbiologie",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc)577.14"
+            ],
+            "title": "Predicting the carbon source for Bacillus subtilis by integrating gene expression profiles into a constraintbased metabolic model",
+            "abstract": "Elucidating cellular metabolism led to many breakthroughs in biotechnology, synthetic biology, and health sciences. To date, deriving metabolic fluxes by 13C tracer experiments is the most prominent approach for studying metabolic fluxes quantitatively with high accuracy and precision. However, the technique has a high demand for experimental resources. Alternatively, flux balance analysis (FBA) has been employed to estimate metabolic fluxes without labeling experiments. It is less informative but can benefit from the low costs and low experimental efforts; especially, in experimentally difficult conditions. Methods to integrate experimental data have emerged to improve FBA flux estimations. Transcriptomic data is often used since it is easy to generate at the genome scale, typically embedded by a binarization of expression of genes coding for the respective enzymes. However, employing defined thresholds can result in disregarding the fine-grained regulation of metabolism. Besides this, thermodynamically infeasible loops (TIL) are a well-known complication in constraint-based modeling, leading to unrealistic flux distributions. Linear Programming based Gene Expression Model (LPM-GEM) was established to improve a context-specific model extraction method. LPM-GEM linearly embeds gene expression into FBA constraints, and three strategies were implemented to reduce TILs. A model of Bacillus subtilis (B. subtilis) grown in eight different carbon sources was built as a case study. The method obtained good flux predictions based on the respective transcription profiles when validating with 13C-tracer based metabolic flux data of the same conditions. LPM-GEM could well predict the specific carbon sources. Good prediction performance was also observed when testing the model on another unseen dataset. LPM-GEM supports gene expression-based FBA models and can be applied as an alternative to estimate metabolic fluxes when tracer experiments are inappropriate.",
+            "contributor": [
+                "gnd:141333707",
+                "gnd:121507076",
+                "gnd:1059760320"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1263779964"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4807318-0",
+                "gnd:4775956-2",
+                "gnd:4164538-8",
+                "gnd:4057699-1"
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

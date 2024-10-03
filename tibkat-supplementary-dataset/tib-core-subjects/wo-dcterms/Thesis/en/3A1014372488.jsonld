@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122498909",
+            "sameAs": "Scheideler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1014372488",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 129 Seiten)",
+            "contributor": "Meyer auf der Heide, Friedhelm",
+            "creator": "Jung, Daniel",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1014372488",
+                "(doi)10.17619/UNIPB/1-271",
+                "(firstid)HBZ:CT004002033"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)100",
+                "(classificationName=linseach:mapping)phi",
+                "(classificationName=ddc)005",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Local strategies for swarm formations on a grid",
+            "abstract": "Meine Dissertation besch\u00e4ftigt sich mit dem Gathering Problem f\u00fcr Schw\u00e4rme von n punktf\u00f6rmigen Robotern auf einem Gitter, bei dem sich alle Roboter des Schwarms auf einemzuvor nicht festgelegten Punkt versammeln sollen. Besonderes Augenmerk liegt auf der starken Einschr\u00e4nkung der Roboterf\u00e4higkeiten. Hierzu z\u00e4hlen insbesondere das Fehlen einer globalen Steuerung, eines globalen Kompasses, einer globalen Sichtweite und einer (globalen) Kommunikationsf\u00e4higkeit. Dar\u00fcber hinaus sind alle Roboter identisch. Den Robotern sind nur lokale F\u00e4higkeiten gegeben. Hierzu z\u00e4hlt etwa eine nur konstante Sichtweite. Die Roboter arbeiten alle vollst\u00e4ndig synchron. Wir pr\u00e4sentieren und analysieren drei Gatheringstrategien unter verschiedenen Robotermodellen undbeweisen jeweils formal Korrektheit und Gesamtlaufzeit: In Kapitel 4 liegt der Fokus auf der Minimierung der zur Verf\u00fcgung stehenden Roboterf\u00e4higkeiten. Die zugrundeliegende Strategie schlie\u00dft das Gathering in Zeit O(n^2) ab. In den Kapiteln 5 und 6 ist das Ziel die Laufzeitoptimierung unter weiterhin nur lokalen Roboterf\u00e4higkeiten: Wir erlauben zus\u00e4tzlich einen konstant gro\u00dfen Speicher und eine konstante Anzahl lokal sichtbarer Status (Lichter, Flaggen)und beweisen jeweils eine asymptotisch optimale Laufzeit O(n). Anders als in den Kapiteln 4 und 5, beschr\u00e4nken wir in Kapitel 6 Konnektivit\u00e4t und Sicht zus\u00e4tzlich durch eine initial gegebene Kettenstruktur mit Kantenl\u00e4nge 1.. - My dissertation deals with the Gathering problem for swarms of n point-shaped robots on a grid, in which all robots of the swarm are supposed to gather at a previously undefined point. Special attention is paid to the strong limitation of robot capabilities. These include in particular the lack of global control, a global compass, global visibility and (global) communication skills. Furthermore, all robots are identical. The robots are given only local abilities. This includes a constant range of vision. The robots all work completely synchronously. In this work we present and analyze three different Gathering strategies in different robot models. We formally prove correctness and total running time: Chapter 4 focuses on minimizing the available robot capabilities. The underlying strategy completes the gathering in O(n^2) time. For the following Chapters 5 and 6, the aim is to optimize the total running time under using only local robot capabilities: We additionally allow a constant-sized memory and a constant number of locally visible statuses (lights, flags). For the strategies of both chapters we show an asymptotically optimal running time of O(n). Unlike in Chapters 4 and 5, we additionally restrict connectivity and vision to an initially given chain connectivity in Chapter 6, where two chain neighbors must have a distance of 1 from each other. A robot can only see and interact with a constant number of its direct chain neighbors.",
+            "alternative": "Lokale Strategien f\u00fcr Schwarm-Formationen auf einem Gitter",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:122498909"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-271",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

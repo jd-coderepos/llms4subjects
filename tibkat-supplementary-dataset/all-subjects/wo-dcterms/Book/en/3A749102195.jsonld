@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749102195",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XIII, 141 p)",
+            "http://purl.org/dc/elements/1.1/contributor": "Gray, Robert M.",
+            "creator": "Li, Jia",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461544975",
+                "(ppn)749102195",
+                "(firstid)GBV:749102195",
+                "(doi)10.1007/978-1-4615-4497-5"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Information Systems",
+                "(classificationName=ddc)006.6",
+                "Computer vision",
+                "(classificationName=linseach:mapping)phy",
+                "Image processing.",
+                "(classificationName=loc)TA1637-1638",
+                "Computer graphics",
+                "Electronic data processing",
+                "Optical data processing.",
+                "Management information systems.",
+                "Signal processing.",
+                "Computer science",
+                "Electrical engineering.",
+                "(classificationName=ddc)006.37",
+                "Computer engineering",
+                "Speech processing systems."
+            ],
+            "title": "Image Segmentation and Compression Using Hidden Markov Models",
+            "abstract": "In the current age of information technology, the issues of distributing and utilizing images efficiently and effectively are of substantial concern. Solutions to many of the problems arising from these issues are provided by techniques of image processing, among which segmentation and compression are topics of this book. Image segmentation is a process for dividing an image into its constituent parts. For block-based segmentation using statistical classification, an image is divided into blocks and a feature vector is formed for each block by grouping statistics of its pixel intensities. Conventional block-based segmentation algorithms classify each block separately, assuming independence of feature vectors. Image Segmentation and Compression Using Hidden Markov Models presents a new algorithm that models the statistical dependence among image blocks by two dimensional hidden Markov models (HMMs). Formulas for estimating the model according to the maximum likelihood criterion are derived from the EM algorithm. To segment an image, optimal classes are searched jointly for all the blocks by the maximum a posteriori (MAP) rule. The 2-D HMM is extended to multiresolution so that more context information is exploited in classification and fast progressive segmentation schemes can be formed naturally. The second issue addressed in the book is the design of joint compression and classification systems using the 2-D HMM and vector quantization. A classifier designed with the side goal of good compression often outperforms one aimed solely at classification because overfitting to training data is suppressed by vector quantization. Image Segmentation and Compression Using Hidden Markov Models is an essential reference source for researchers and engineers working in statistical signal processing or image processing, especially those who are interested in hidden Markov models. It is also of value to those working on statistical modeling",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE"
+            ],
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "571",
+            "isLike": "doi:10.1007/978-1-4615-4497-5",
+            "P30128": "The Springer International Series in Engineering and Computer Science",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

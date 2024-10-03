@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A772940444",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (IX, 271 p)",
+            "contributor": "Gentzsch, Wolfgang",
+            "creator": "Sch\u00f6nauer, Willi",
+            "description": [
+                "online resource",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:772940444",
+                "(isbn13)9783663139126",
+                "(doi)10.1007/978-3-663-13912-6",
+                "(ppn)772940444"
+            ],
+            "publisher": "Vieweg+Teubner Verlag",
+            "subject": [
+                "Astronomy.",
+                "(classificationName=ddc)530.1",
+                "(classificationName=ddc)531.7",
+                "(classificationName=loc)QC19.2-20.85",
+                "Mathematical physics.",
+                "Physics",
+                "(classificationName=linseach:mapping)phy",
+                "Continuum mechanics."
+            ],
+            "title": "The Efficient Use of Vector Computers with Emphasis on Computational Fluid Dynamics : A GAMM-Workshop",
+            "abstract": [
+                "to the Workshop: Some Bottlenecks and Deficiencies of Existing Vector Computers and their Consequences for the Development of General PDE Software -- Development of Efficient Algorithms for the Solutions of Full Potential and Euler Equations on Vector Computers -- Implementation of 3D Explicit Euler Codes on a CRAY-1S Vector Computer -- Breaking the I/O Bottleneck with the CRAY Solid-State Storage Device -- Simulating 3D Euler Flows on a CYBER 205 Vector Computer -- Vector Algorithm for Large-Memory CYBER 205 Simulations of Euler Flows -- Effective Programming of Finite Element Methods for Computational Fluid Dynamics on Supercomputers -- Performance Evaluation of Explicit Shallow-Water Equations Solvers on the CYBER 205 -- Methods for Optimisation and Acceleration of an Explicit Navier-Stokes Code with Application to Shock/Boundary-Layer Interaction -- On Vectorization of a 2.D. Navier-Stokes Solver -- On the Efficient Use of Large Data Bases in the Numerical Solution of the Navier-Stokes Equations on a CRAY Computer -- N3S: A 3D Finite Element Code for Fluid Mechanics; Emphasis to Vectorization and Sparse Matrix Problems -- Multitasking the Code ARC3D -- The Efficient Use of the CRAY X-MP Multiprocessor Vector Computer in Computational Fluid Dynamics -- Development of an Atmospheric Mesoscale Model on a CRAY \u2014 Experiences with Vectorization and Input/Output -- Techniques for Speeding up Climate Models on the CYBER 205 -- Experience with the Vectorisation of Some Fluid Flow Prediction Codes on the Harwell CRAY-1 -- Summary of the Workshop -- List of Participants.",
+                "The GAMM Committee for Numerical Methods in Fluid Mechanics organizes workshops which should bring together experts of a narrow field of computational fluid dynamics (CFD) to exchange ideas and experiences in order to speed-up the development in this field. In this sense it was suggested that a workshop should treat the solution of CFD problems on vector computers. Thus we organized a workshop with the title \"The efficient use of vector computers with emphasis on computational fluid dynamics\". The workshop took place at the Computing Centre of the University of Karlsruhe, March 13-15,1985. The participation had been restricted to 22 people of 7 countries. 18 papers have been presented. In the announcement of the workshop we wrote: \"Fluid mechanics has actively stimulated the development of superfast vector computers like the CRAY's or CYBER 205. Now these computers on their turn stimulate the development of new algorithms which result in a high degree of vectorization (sca1ar/vectorized execution-time). But with 3-D problems we quickly reach the limit of present vector computers. If we want e.g. to solve a system of 6 partial differential equations (e.g. for u, v, w, p, k, \u20ac or for the vectors u, curl u) on a 50x50x50 grid we have 750.000 unknowns and for a 4th order difference method we have circa 60 million nonzero coefficients in the highly sparse matrix. This characterizes the type of problems which we want to discuss in the workshop\"."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-PHA",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1986",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DE004B40A1FE0FF8A9088C12579B200718C58.pdf",
+            "volume": "12",
+            "isLike": "doi:10.1007/978-3-663-13912-6",
+            "P30128": "Notes on Numerical Fluid Mechanics",
+            "P60163": "Wiesbaden"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

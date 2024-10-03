@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:172050081",
+            "sameAs": "Dumke, Reiner"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A786473762",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Belli, Fevzi",
+            "creator": "Beyaz\u0131t, Mutlu",
+            "identifier": [
+                "(firstid)HBZ:CT004001089",
+                "(ppn)786473762"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Exploiting model morphology for event-based testing",
+            "abstract": "Testen ist der Prozess zur \u00dcberpr\u00fcfung eines betrachteten Systems, ob dieses sich wie durch den Benutzer vorgesehen verh\u00e4lt. Modell-basiertes Testen wendet Modelle zur Generierung von Testf\u00e4llen an. Zur Testfall-Generierung benutzt modell-basiertes Mutation Testen (MBMT) zus\u00e4tzlich Fehlermodelle, sogenannte Mutanten, welche durch die Anwendung der Mutationsoperatoren auf dem urspr\u00fcnglichen Modell erzeugt werden. Ein Problem mit MBMT entsteht durch Mutanten, die \u00e4quivalent zu dem urspr\u00fcnglichen Modell sind (\u00e4quivalente Mutanten) und mehrfache Mutanten, welche die gleichen Fehler modellieren. Diese Mutanten m\u00fcssen eliminiert werden, sie verursachen unn\u00f6tige Tests und erh\u00f6hen damit die Kosten. Ein weiteres Problem des MBMT ist die Notwendigkeit f\u00fcr die Testgenerierung, ein Mutant mit dem urspr\u00fcnglichen Modell zu vergleichen. Au\u00dferdem kann die Verwendung eines einzigen festen Modells aus einem Menge von verschiedenen strukturell, d.h. morphologisch, unterschiedlichen Modellen, welche ein gegebenes System beschreiben, auch als ein Problem mit MBMT betrachtet werden. Diese Arbeit schl\u00e4gt einen ereignis-basierten Ansatz f\u00fcr MBMT vor, der nicht auf einzelne Ereignisse und ein einziges Modell fixiert ist, sondern auf Sequenzen von Ereignissen der L\u00e4nge k1 arbeitet. Dabei wird eine Sequenz von Modellen hergeleitet, die von dem urspr\u00fcnglichen Modell durch Variation ihrer Morphologie basierend auf die Sequenzl\u00e4nge k abgeleitet sind. Der Ansatz verwendet formalen Grammatiken, f\u00fchrt entsprechende Mutationsoperatoren ein und konstruiert Algorithmen, welche folgendes leisten und damit die o.g. Nachteile des MBMT vermeiden: (1) der Ausschluss der Mutanten, die \u00e4quivalent zu dem urspr\u00fcnglichen Modell sind und der merhrfachen Mutanten, die die gleichen Fehler modellieren; (2) die Erzeugung eines Testfalls in .... - Testing is the process of checking a system under consideration whether it behaves as intended by the user. Model-based testing employs models for generation of test cases. Model-based mutation testing (MBMT) additionally involves fault models, called mutants, which are generated from the original model by applying mutation operators. A problem encountered in MBMT is caused by mutants that are equivalent to the original model (equivalent mutants) and multiple mutants that model the same faults. These mutants should be eliminated, because they lead to unnecessary test cases and thus increase the costs. Another problem of MBMT is the need to compare a mutant to the original model for test generation. Furthermore, using a single fixed model out of a set of various structurally, that is, morphologically, different models that describe a given system can also be considered as a problem of MBMT. This work proposes an event-based approach to MBMT that is not fixed on single events and a single model but rather operates on sequences of events of length k1 and invokes a sequence of models that are derived from the original one by varying its morphology based on the sequence length k. The approach employs formal grammars, introduces related mutation operators, and constructs algorithms, which enable the following and thus avoid the aforementioned drawbacks of MBMT: (1) the exclusion of mutants that are equivalent to the original model and multiple mutants that model the same faults; (2) the generation of a test case in linear time to kill a selected mutant without the necessity of comparing it to the original model; (3) the analysis of morphologically different models enabling the systematic generation of mutants, thereby extending the set of fault models under consideration or studied in related literature. Three case studies validate the approach, analyze its characteristics and compare it to two other MBMT ...",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:172050081"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1280637021",
+            "sameAs": "Rendsburg, Luca"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1833785614",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ix, 121 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-77339",
+                "(firstid)KXP:1833785614",
+                "(ppn)1833785614"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)006.31",
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen"
+            ],
+            "title": "Inductive bias in machine learning",
+            "abstract": [
+                "Inductive bias describes the preference for solutions that a machine learning algorithm holds before seeing any data. It is a necessary ingredient for the goal of machine learning, which is to generalize from a set of examples to unseen data points. Yet, the inductive bias of learning algorithms is often not specified explicitly in practice, which prevents a theoretical understanding and undermines trust in machine learning. This issue is most prominently visible in the contemporary case of deep learning, which is widely successful in applications but relies on many poorly understood techniques and heuristics. This thesis aims to uncover the hidden inductive biases of machine learning algorithms. In the first part of the thesis, we uncover the implicit inductive bias of NetGAN, a complex graph generative model with seemingly no prior preferences. We find that the root of its generalization properties does not lie in the GAN architecture but in an inconspicuous low-rank approximation. We then use this insight to strip NetGAN of all unnecessary parts, including the GAN, and obtain a highly simplified reformulation. Next, we present a generic algorithm that reverse-engineers hidden inductive bias in approximate Bayesian inference. While the inductive bias is completely described by the prior distribution in full Bayesian inference, real-world applications often resort to approximate techniques that can make uncontrollable errors. By reframing the problem in terms of incompatible conditional distributions, we arrive at a generic algorithm based on pseudo-Gibbs sampling that attributes the change in inductive bias to a change in the prior distribution. The last part of the thesis concerns a common inductive bias in causal learning, the assumption of independent causal mechanisms. Under this assumption, we consider estimators for confounding strength, which governs the generalization ability from observational distribution to the underlying causal model. We show that an existing estimator is generally inconsistent and propose a consistent estimator based on tools from random matrix theory.",
+                "Induktive Verzerrung beschreibt die Pr\u00e4ferenz f\u00fcr L\u00f6sungen, welche ein Algorithmus f\u00fcr maschinelles Lernen hat, bevor er Daten sieht. Sie ist notwendiger Bestandteil f\u00fcr das Ziel des maschinellen Lernens, n\u00e4mlich von einer Menge an Beispielen auf ungesehene Datenpunkte zu verallgemeinern. In der Praxis wird die induktive Verzerrung jedoch oft nicht explizit spezifiziert, was theoretisches Verst\u00e4ndnis verhindert und das Vertrauen in maschinelles Lernen untergr\u00e4bt. Am deutlichsten wird dieses Problem am zeitgen\u00f6ssischen Beispiel von deep learning, das zwar in vielen Anwendungen erfolgreich ist, aber auf einer Vielzahl schlecht verstandener Techniken und Heuristiken beruht. Ziel dieser Dissertation ist es, die versteckten induktiven Verzerrungen von Algorithmen des maschinellen Lernens aufzudecken. Im ersten Teil der Dissertation decken wir die induktive Verzerrung von NetGAN auf, einem komplexen generativen Graphenmodell, das scheinbar keine Pr\u00e4ferenzen hat. Wir stellen fest, dass die Ursache der Generalisierung nicht in der GAN-Architektur liegt, sondern in einer unscheinbaren Approximation mit niedrigem Rang. Wir nutzen diese Erkenntnis, um NetGAN von allen unn\u00f6tigen Teilen, einschlie\u00dflich des GAN, zu befreien und eine stark vereinfachte Reformulierung zu erhalten. Als N\u00e4chstes pr\u00e4sentieren wir einen generischen Algorithmus, der die versteckte induktive Verzerrung in der approximativen Bayesschen Inferenz enth\u00fcllt. W\u00e4hrend die induktive Verzerrung bei der Bayesschen Inferenz vollst\u00e4ndig durch den Prior beschrieben wird, greifen reale Anwendungen oft auf approximative Techniken zur\u00fcck, die unkontrollierbare Fehler machen k\u00f6nnen. Indem wir das Problem in Form von inkompatiblen bedingten Verteilungen reformulieren, kommen wir zu einem generischen Algorithmus, der auf Pseudo-Gibbs-Sampling basiert und die \u00c4nderung der induktiven Verzerrung auf eine \u00c4nderung des Priors zur\u00fcckf\u00fchrt. Der letzte Teil der Dissertation betrifft eine h\u00e4ufige induktive Verzerrung beim kausalen Lernen, die Annahme unabh\u00e4ngiger kausaler Mechanismen. Unter dieser Annahme betrachten wir Sch\u00e4tzer f\u00fcr die St\u00e4rke von St\u00f6rfaktoren, die die Generalisierung von der Beobachtungsverteilung auf das zugrunde liegende kausale Modell bestimmt. Wir zeigen, dass ein bestehender Sch\u00e4tzer im Allgemeinen inkonsistent ist und pr\u00e4sentieren einen konsistenten Sch\u00e4tzer mit Werkzeugen aus der Theorie von Zufallsmatrizen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1280637021",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-77339",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

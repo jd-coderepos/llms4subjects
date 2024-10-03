@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A719680018",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": [
+                "Wehrheim, Heike",
+                "Becker, Steffen"
+            ],
+            "creator": "Ruhroth, Thomas",
+            "identifier": [
+                "(ppn)719680018",
+                "(firstid)HBZ:CT004000783"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)005.12028",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.131",
+                "(classificationName=ddc-dbn)000"
+            ],
+            "title": "Generische Refactoring-Spezifikation f\u00fcr Korrektheitsbeweise in mehrsichtigen Modellsprachen",
+            "abstract": "In der Softwareentwicklung sollen Code und Modelle wartbar sein. Refactorings sind ein bew\u00e4hrtes Hilfsmittel der Codeentwicklung, um die innere Qualit\u00e4t von Code zu verbessern. Refactorings sind \u00c4nderungen am Code, wobei das sichtbare Verhalten unver\u00e4ndert bleibt. Diese Verbesserungen sind auch f\u00fcr formale Modelle erstrebenswert. Modelle sind im Gegensatz zu Programmen meist nicht ausf\u00fchrbar, daher ist es notwendig die verwendeten Refactoringtechniken anzupassen. Beispielsweise muss eine brauchbare Definition der Verhaltenserhaltung gefunden werden, da ein Modell nicht ausf\u00fchrbar ist. H\u00e4ufig werden mehrere Sichten in Modellen eingesetzt, um verschiedene Aspekte eines Modells abzubilden. Um mehrere Sichten unterst\u00fctzen zu k\u00f6nnen, m\u00fcssen bestehende Techniken weiter angepasst werden.Ziel dieser Arbeit ist die Darstellung von mehrsichtigen Refactorings und die Sicherstellung der Verhaltenserhaltung der Refactorings f\u00fcr formale Modelle. Es wird die Sprachfamilie ReL (Refactoring Language) genutzt, um Refactorings von einer einfachen imperativen Programmiersprache (FWHILE) und einer integrierten formalen Methode (CSP-OZ) zu beschreiben. ReL erm\u00f6glicht durch seine Struktur, dass die Verhaltenserhaltung direkt bewiesen werden kann, ohne auf eine andere Darstellung zur\u00fcckgreifen zu m\u00fcssen. F\u00fcr die Beschreibung wird die Sprachfamilie ReL genutzt, die Refactorings anhand des Codezustandes vor und nach dem Refactoring beschreibt. Dies wird durch Templates beschrieben, deren Subtemplates Refactorings mehrsichtiger Modelle unterst\u00fctzen. Die Struktur von ReL erlaubt sowohl die Ausf\u00fchrung eines Refactorings in einer Entwicklungsumgebung als auch die formale Analyse.. - In software development it is necessary that program code and models can be maintained. Refactoring is a best practice in code development which can be used to improve the internal quality of given code. Refactoring means modifying code without changing its behaviour. It is also desirable to improve the internal quality of formal models. Unlike programs most models are not executable. Thus, refactoring techniques need to be adapted. For example, a suitable definition of behaviour preservation is needed. A technique often used in the context of models is the usage of multiple views on one model, e.g. to specify several aspects using different diagrams. This also implies the need to adapt existing refactoring techniques.The aim of this work is to describe refactorings of formal models and to ensure the behaviour preservation of these refactorings. The language family ReL (Refactoring Language) is used to describe refactorings of simple imperative programs (FWHILE) and specifications given in an integrated formal method (CSP-OZ). In particular, the structure of ReL allows proving behaviour preservation without transferring the refactoring to a different representation.ReL uses templates to describe the state of the code before and after the refactoring. These templates are divided into subtemplates. These subtemplates can be used in different views and therefore provide the possibility to describe multi-view refactorings. Also the structure of ReL allows a refactoring to be applied to a model as well as the formal analysis. ReL is derived using techniques of Domain Specivic Languages. Thus, ReL depends on the syntax definition of the language to be refactored. This process allows ReL to derive a ReL-Instance for all languages that be described as Backus-Naur Form (BNF). The application is therefore not restricted to formal model languages, but can also be applied to programming languages.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

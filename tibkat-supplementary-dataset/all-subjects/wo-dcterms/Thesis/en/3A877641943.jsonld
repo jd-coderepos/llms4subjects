@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A877641943",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ii, 107 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Baasch, Benjamin",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)877641943",
+                "(firstid)GBV:877641943"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Electromagnetic Imaging of the marine subsurface : a novel approach to assess sediment patterns and dynamics on clastic shelf systems",
+            "abstract": [
+                "Electromagnetic (EM) imaging is a new approach to investigate marine near-surface sediments. The EM data provide information about electric conductivity and magnetic susceptibility of the sediments. Both are important physical parameters in exploration geophysics. Electric conductivity of marine sediments is a function of porosity, tortuosity and chemistry of the pore fluid. Magnetic susceptibility indicates the magnetic particle concentration and is hence related to the mineral composition of the sediment. In this thesis data processing, inversion and machine learning methods for a novel marine EM profiling system are developed, with the goal to explore the internal structure and spatial variability of sediment patterns in coastal and shelf regions. The investigated EM data were acquired on the NW Iberian shelf during the Meteor cruise M84/4b with the bottom towed electromagnetic profiler MARUM NERIDIS III. This non-conductive, non-magnetic fiberglass sled accommodates a controlled source electromagnetic system based on a frequency-domain concentric-loop EM induction sensor. In order to estimate quantitative seafloor sediment properties from the NERIDIS III EM data, the approach developed in this thesis follows three main steps: The first step is to calibrate the EM data such that instrument related bias is removed and the EM response is solely controlled by the frequency of the source signal, the system geometry, the electric conductivity and magnetic susceptibility of the seawater and the sediment. Calibration is necessary to make data from different measurements and surveys comparable and to enable solving of the ill-posed inverse problem for electric conductivity and magnetic susceptibility. This thesis shows that calibrating the primary EM field alone, by means of independently measured water conductivity and constant water susceptibility, is not sufficient. Therefore, a calibration methodology is developed which firstly calibrates the recorded EM data to compensate for bias in the primary EM field followed by a secondary EM field calibration by means of ground-truth data. The second step involves the inversion of the EM data, which can be subdivided into a half-space and 1-D inversion. The half-space inversion aims for the reconstruction of bulk sediment conductivity and susceptibility of the uppermost approximately 0.5 to 1 m. It is demonstrated that recovered half-space conductivity and susceptibility well reflect the main sediment patterns on the NW Iberian shelf and allow the reconstruction of sediment pathways. The 1-D inversion can be used to reconstruct the vertical conductivity structure of the subsurface. An algorithm is developed which employs the half-space susceptibility as a priori information and hence allows the utilisation of the in-phase component of the complex earth response increasing the depth of investigation. It is shown that vertical conductivity variations down to approximately 3 m below the seafloor can be reconstructed revealing the internal structure of the Galician Mud Belt. The third step covers the predictive modelling of grain-size from the electric conductivity and magnetic susceptibility of the sediment. Correlation analyses are carried out which reveal a strong relation between the electromagnetic and textural sediment properties. A radial basis function network is developed which predicts the entire grain-size distribution for each EM measurement location along shelf wide survey lines. The predicted grain-size distributions are used to identify the well-known sediment facies on the NW Iberian shelf and give new insights into their distribution and transitions.",
+                "Electromagnetic Imaging, NW Iberia, Marine electromagnetics, Electrical conductivity, Magnetic susceptibility, Machine learning, Inversion."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2001386-3",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

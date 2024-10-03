@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1246371154",
+            "sameAs": "Braun, Wolfgang"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1778918034",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vi, 186 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1778918034",
+                "(doi)10.15496/publikation-61418",
+                "(ppn)1778918034"
+            ],
+            "subject": [
+                "(classificationName=ddc)004.6",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "MPLS"
+            ],
+            "title": "Scalability and resilience analysis of software-defined networking",
+            "abstract": [
+                "Software-defined Networking (SDN) ist eine moderne Architektur f\u00fcr Kommunikationsnetze, welche entwickelt wurde, um die Einf\u00fchrung von neuen Diensten und Funktionen in Netzwerke zu erleichtern. Durch eine Trennung der Weiterleitungs- und Kontrollfunktionen sind nur wenige Kontrollelemente mit Software-Updates zu versehen, um Ver\u00e4nderungen am Netz vornehmen zu k\u00f6nnen. Allerdings wirft die Netzstrukturierung von SDN neue Fragen bez\u00fcglich Skalierbarkeit und Ausfallsicherheit auf, welche in dezentralen Netzstrukturen nicht auftreten. In dieser Arbeit befassen wir uns mit Fragestellungen zu Skalierbarkeit und Ausfallsicherheit in Bezug auf Unicast- und Multicast-Verkehr in SDN-basierten Netzen. Wir f\u00fchren eine Komprimierungstechnik f\u00fcr Routingtabellen ein, welche die Skalierungsproblematik aktueller SDN Weiterleitungsger\u00e4te verbessern soll und ermitteln ihre Effizienz in einer Leistungsbewertung. Au\u00dferdem diskutieren wir unterschiedliche Methoden, um die Ausfallsicherheit in SDN zu verbessern. Wir analysieren sie auf \u00f6ffentlich zug\u00e4nglichen Netzwerken und benennen Vor- und Nachteile der Ans\u00e4tze. Abschlie\u00dfend schlagen wir eine skalierbare und ausfallsichere Architektur f\u00fcr Multicast-basiertes SDN vor. Wir untersuchen ihre Effizienz in einer Leistungsbewertung und zeigen ihre Umsetzbarkeit mithilfe eines Prototypen.",
+                "Software-Defined Networking (SDN) is a novel architecture for communication networks that has been developed to ease the introduction of new network services and functions. It leverages the separation of the data plane and the control plane to allow network services to be deployed solely in software. Although SDN provides great flexibility, the applicability of SDN in communication networks raises several questions with regard to scalability and resilience against network failures. These concerns are not prevalent in current decentralized network architectures. In this thesis, we address scalability and resilience issues with regard to unicast and multicast traffic for SDN-based networks. We propose a new compression method for inter-domain routing tables to address hardware limitations of current SDN switches and analyze its effectiveness. We propose various resilience methods for SDN and identify their key performance indicators in the context of carrier-grade and datacenter networks. We discuss the advantages and disadvantages of these proposals and their appropriate use cases. Finally, we propose a scalable and resilient software-defined multicast architecture. We study the effectiveness of our approach and show its feasibility using a prototype implementation."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1246371154"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-61418",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

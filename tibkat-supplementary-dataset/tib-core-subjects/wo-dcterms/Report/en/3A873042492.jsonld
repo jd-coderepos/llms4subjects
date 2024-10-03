@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:173381804",
+            "sameAs": "Fuhrmann, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A873042492",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 1.965 kB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Farrell, Patricio",
+                "Koprucki, Thomas"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:873042492",
+                "(ppn)873042492"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Computational and analytical comparison of flux discretizations for the semiconductor device equations beyond Boltzmann statistics",
+            "abstract": "For a Vorono\u00ef finite volume discretization of the van Roosbroeck system with general charge carrier statistics we compare three thermodynamically consistent numerical fluxes known in the literature. We discuss an extension of the Scharfetter-Gummel scheme to non-Boltzmann (e.g. Fermi-Dirac) statistics. It is based on the analytical solution of a two-point boundary value problem obtained by projecting the continuous differential equation onto the interval between neighboring collocation points. Hence, it serves as a reference flux. The exact solution of the boundary value problem can be approximated by computationally cheaper fluxes which modify certain physical quantities. One alternative scheme averages the nonlinear diffusion (caused by the non-Boltzmann nature of the problem), another one modifies the effective density of states. To study the differences between these three schemes, we analyze the Taylor expansions, derive an error estimate, visualize the flux error and show how the schemes perform for a carefully designed p-i-n benchmark simulation. We present strong evidence that the flux discretization based on averaging the nonlinear diffusion has an edge over the scheme based on modifying the effective density of states.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:173381804"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2331",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

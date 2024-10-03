@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1132730600",
+            "sameAs": "Bugnion, Edouard"
+        },
+        {
+            "@id": "gnd:4259076-0",
+            "sameAs": "VM"
+        },
+        {
+            "@id": "gnd:4839180-3",
+            "sameAs": "Virtualisierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1005629218",
+            "@type": "bibo:Book",
+            "P1053": "xix, 186 Seiten",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Tsafrir, Dan",
+                "Nieh, Jason"
+            ],
+            "description": [
+                "24 cm",
+                "Illustrationen"
+            ],
+            "identifier": [
+                "(ppn)1005629218",
+                "(firstid)BVB:BV044560069",
+                "(isbn13)9781627056939"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)005.43",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)621.3815",
+                "(classificationName=bk, id=106410903)54.31 - Rechnerarchitektur"
+            ],
+            "title": "Hardware and software support for virtualization",
+            "abstract": "This book focuses on the core question of the necessary architectural support provided by hardware to efficiently run virtual machines, and of the corresponding design of the hypervisors that run them. Virtualization is still possible when the instruction set architecture lacks such support, but the hypervisor remains more complex and must rely on additional techniques. Despite the focus on architectural support in current architectures, some historical perspective is necessary to appropriately frame the problem. The first half of the book provides the historical perspective of the theoretical framework developed four decades ago by Popek and Goldberg. It also describes earlier systems that enabled virtualization despite the lack of architectural support in hardware. As is often the case, theory defines a necessary-but not sufficient-set of features, and modern architectures are the result of the combination of the theoretical framework with insights derived from practical systems. The second half of the book describes state-of-the-art support for virtualization in both x86-64 and ARM processors. This book includes an in-depth description of the CPU, memory, and I/O virtualization of these two processor architectures, as well as case studies on the Linux/KVM, VMware, and Xen hypervisors. It concludes with a performance comparison of virtualization on current-generation x86- and ARM-based systems across multiple hypervisors",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1132730600",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4259076-0",
+                "gnd:4839180-3"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/1005629218.pdf",
+            "volume": "# 38",
+            "P30128": "Synthesis Lectures on Computer Architecture",
+            "P60163": "[San Rafael, CA]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

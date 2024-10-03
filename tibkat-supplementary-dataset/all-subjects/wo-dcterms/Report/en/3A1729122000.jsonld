@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1015963641",
+            "sameAs": "Schmidt, Volker"
+        },
+        {
+            "@id": "gnd:1055915567",
+            "sameAs": "Landstorfer, Manuel"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1729122000",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (28 Seiten, 12,08 MB)",
+            "http://purl.org/dc/elements/1.1/creator": "Prifling, Benedikt",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1729122000",
+                "(doi)10.20347/WIAS.PREPRINT.2738",
+                "(firstid)KXP:1729122000"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Mesh generation for periodic 3D microstructure models and computation of effective properties",
+            "abstract": "Understanding and optimizing effective properties of porous functional materials, such as permeability or conductivity, is one of the main goals of materials science research with numerous applications. For this purpose, understanding the underlying 3D microstructure is crucial since it is well known that the materials\u2019 morphology has an significant impact on their effective properties. Because tomographic imaging is expensive in time and costs, stochastic microstructure modeling is a valuable tool for virtual materials testing, where a large number of realistic 3D microstructures can be generated and used as geometry input for spatially-resolved numerical simulations. Since the vast majority of numerical simulations is based on solving differential equations, it is essential to have fast and robust methods for generating high-quality volume meshes for the geometrically complex microstructure domains. The present paper introduces a novel method for generating volume-meshes with periodic boundary conditions based on an analytical representation of the 3D microstructure using spherical harmonics. Due to its generality, the present method is applicable to many scientific areas. In particular, we present some numerical examples with applications to battery research by making use of an already existing stochastic 3D microstructure model that has been calibrated to eight differently compacted cathodes.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1055915567",
+                "gnd:2140666-2",
+                "gnd:1015963641"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2738",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2738",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

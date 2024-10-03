@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4038974-1",
+            "sameAs": "Methode der kleinsten Quadrate"
+        },
+        {
+            "@id": "gnd:4141377-5",
+            "sameAs": "Adaptives Filter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1030520321",
+            "@type": "bibo:Book",
+            "P1053": "xii, 223 Seiten",
+            "creator": "Ozeki, Kazuhiko",
+            "identifier": [
+                "(ppn)1030520321",
+                "(firstid)GBV:1030520321",
+                "(isbn13)9784431557371"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Algorithms",
+                "(classificationName=ddc)621.3815324",
+                "Adaptive filters",
+                "(classificationName=msc)93E11",
+                "(classificationName=msc)*94-02",
+                "(classificationName=loc)TK7872.F5",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=msc)94A12",
+                "(classificationName=bk, id=10641870X)53.71 - Theoretische Nachrichtentechnik",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)621.3815/324015164"
+            ],
+            "title": "Theory of affine projection algorithms for adaptive filtering",
+            "abstract": [
+                "This book focuses on theoretical aspects of the affine projection algorithm (APA) for adaptive filtering. The APA is a natural generalization of the classical, normalized least-mean-squares (NLMS) algorithm. The book first explains how the APA evolved from the NLMS algorithm, where an affine projection view is emphasized. By looking at those adaptation algorithms from such a geometrical point of view, we can find many of the important properties of the APA, e.g., the improvement of the convergence rate over the NLMS algorithm especially for correlated input signals. After the birth of the APA in the mid-1980s, similar algorithms were put forward by other researchers independently from different perspectives. This book shows that they are variants of the APA, forming a family of APAs. Then it surveys research on the convergence behavior of the APA, where statistical analyses play important roles. It also reviews developments of techniques to reduce the computational complexity of the APA, which are important for real-time processing. It covers a recent study on the kernel APA, which extends the APA so that it is applicable to identification of not only linear systems but also nonlinear systems. The last chapter gives an overview of current topics on variable parameter APAs. The book is self-contained, and is suitable for graduate students and researchers who are interested in advanced theory of adaptive filtering",
+                "Introduction -- Classical Adaptation Algorithms -- Affine Projection Algorithm -- Family of Affine Projection Algorithms -- Convergence Behavior of APA -- Reduction of Computational Complexity -- Kernel Affine Projection Algorithm -- Variable Parameter APAs"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4141377-5"
+                },
+                {
+                    "@id": "gnd:4038974-1"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/1030520321.pdf",
+            "volume": "22",
+            "P30128": "Mathematics for industry",
+            "P60163": "Tokyo"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

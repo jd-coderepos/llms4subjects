@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A773905960",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Meyer auf der Heide, Friedhelm",
+            "creator": "Pietrzyk, Peter",
+            "identifier": [
+                "(firstid)HBZ:CT004000947",
+                "(ppn)773905960"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc)001",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)his",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc-dbn)910",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)519.6"
+            ],
+            "title": "Local and Online Algorithms for Facility Location",
+            "abstract": "Diese Arbeit besch\u00e4ftigt sich mit dem Facility Location Problem. Dies ist ein Optimierungsproblem, bei dem festgelegt werden muss an welchen Positionen Ressourcen zur Verf\u00fcgung gestellt werden, so dass diese von Nutzern gut erreicht werden k\u00f6nnen. Es sollen dabei Kosten minimiert werden, die zum einen durch Bereitstellung von Ressourcen und zum anderen durch Verbindungskosten zwischen Nutzern und Ressourcen entstehen. In dieser Arbeit werden drei Varianten des Problems modelliert und neue Algorithmen f\u00fcr sie entwickelt und bez\u00fcglich ihres Approximationsfaktors und ihrer Laufzeit analysiert. Jede dieser drei untersuchten Varianten hat einen besonderen Schwerpunkt. Bei der ersten Varianten handelt es sich um ein Online Problem, da hier die Eingabe nicht von Anfang an bekannt ist, sondern Schritt f\u00fcr Schritt enth\u00fcllt wird. Die Schwierigkeit hierbei besteht darin unwiderrufliche Entscheidungen treffen zu m\u00fcssen ohne dabei die Zukunft zu kennen und trotzdem eine zu jeder Zeit gute L\u00f6sung angeben zu k\u00f6nnen. Der Schwerpunkt der zweiten Variante liegt auf Lokalit\u00e4t. Hier soll eine L\u00f6sung verteilt und nur mit Hilfe von lokalen Information berechnet werden. Schlie\u00dflich besch\u00e4ftigt sich die dritte Variante mit einer verteilten Berechnung, bei welcher nur eine stark beschr\u00e4nkte Datenmenge verschickt werden darf und dabei trotzdem ein sehr guter Approximationsfaktor erreicht werden muss. Die bei der Analyse der Approximationsfaktoren bzw. der Kompetitivit\u00e4t verwendeten TecTechniken basieren zum gro\u00dfen Teil auf Absch\u00e4tzung der primalen L\u00f6sung mit Hilfe einer L\u00f6sung des zugeh\u00f6rigen dualen Problems. F\u00fcr die Modellierung von Lokalit\u00e4t wird das weitverbreitete LOCAL Modell verwendet. In diesem Modell werden f\u00fcr die Algorithmen subpolynomielle obere Laufzeitschranken gezeigt.. - The topic of this thesis is approximation and online algorithms for an optimization problem known as Facility Location. This problem, or one of its many variants, arises as a sub problem in many practical applications, and is thus of significant importance in the field of Operations Research. Furthermore, it is also one of the most studied optimization problems in theoretical computer science with hundreds of research papers published during the last decades. In this thesis, we focus on the theoretical aspects of Facility Location by designing and analyzing approximation and online algorithms. Our algorithms deal with three distinct scenarios in which Facility Location occurs: (i) networks that are exposed to perpetual changes, (ii) wireless sensor networks with strong locality constraints, and (iii) distributed settings where the focus lies, first and foremost, on the quality of the computed approximation. Chapter 2 covers Scenario (i). It presents an online algorithm designed for a highly dynamic network where additional nodes are perpetually added. The difficulty here is that these new nodes' requests have to be handled efficiently without any knowledge of the network's future development. Scenario (ii) is considered in Chapter 3. Two distributed algorithms for wireless sensor networks are presented here. Due to the nodes' limited communication range, locality is of high importance in this scenario. Additional aspects like inaccurate measurement data, power consumption, and dynamics are also taken into account. Finally, Scenario (iii) is considered in Chapter 4. Our objective here is to distributedly compute a solution with an approximation ratio that is as close as possible to the best achievable ratio. In order to accomplish this, we allow, compared to Scenario (ii), a higher running time, but still require that the algorithm terminates in sub-linear time.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

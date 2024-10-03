@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1043393188",
+            "sameAs": "Keles, Dogan"
+        },
+        {
+            "@id": "gnd:1147805520",
+            "sameAs": "Kraft, Emil"
+        },
+        {
+            "@id": "gnd:1152295829",
+            "sameAs": "Fraunholz, Christoph"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1726746267",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (50 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1726746267",
+                "(doi)10.5445/IR/1000122364",
+                "(ppn)1726746267"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie (KIT)",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "The merge of two worlds : integrating artificial neural networks into agent-based electricity market simulation",
+            "abstract": "Machine learning and agent-based modeling are two popular tools in energy research. In this article, we propose an innovative methodology that combines these methods. For this purpose, we develop an electricity price forecasting technique using artificial neural networks and integrate the novel approach into the established agent-based electricity market simulation model PowerACE. In a case study covering ten interconnected European countries and a time horizon from 2020 until 2050 at hourly resolution, we benchmark the new forecasting approach against a simpler linear regression model as well as a naive forecast. Contrary to most of the related literature, we also evaluate the statistical significance of the superiority of one approach over another by conducting Diebold-Mariano hypothesis tests. Our major results can be summarized as follows. Firstly, in contrast to real-world electricity price forecasts, we find the naive approach to perform very poorly when deployed model-endogenously. Secondly, although the linear regression performs reasonably well, it is outperformed by the neural network approach. Thirdly, the use of an additional classifier for outlier handling substantially improves the forecasting accuracy, particularly for the linear regression approach. Finally, the choice of the model-endogenous forecasting method has a clear impact on simulated electricity prices. This latter finding is particularly crucial since these prices are a major results of electricity market models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1152295829",
+                "gnd:171556542",
+                "gnd:1147805520",
+                "gnd:1043393188"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 45",
+            "isLike": "doi:10.5445/IR/1000122364",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

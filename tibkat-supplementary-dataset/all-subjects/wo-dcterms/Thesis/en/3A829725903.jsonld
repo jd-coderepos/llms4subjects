@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1031401431",
+            "sameAs": "Thiede, Andreas"
+        },
+        {
+            "@id": "gnd:1073251853",
+            "sameAs": "Awny, Ahmed Sanaa Ahmed"
+        },
+        {
+            "@id": "gnd:123032210",
+            "sameAs": "Ellinger, Frank"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A829725903",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(firstid)HBZ:CT004001328",
+                "(ppn)829725903"
+            ],
+            "subject": [
+                "(classificationName=ddc)629",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Design and measurement techniques for decision feedback equalizers up to 110Gb/s in SiGe technologies",
+            "abstract": "Cloud-Computing, Video-on-Demand, Voice-/Video-over-IP und andere Internetdienste erzeugen einen stetig steigenden Bedarf an hochratigen Datenverbindungen.F\u00fcr diesen steigenden Bedarf bietet die Glasfaser durch ihre hohe Bandbreite eine sehr gute L\u00f6sung. Einer der Hauptfaktoren, der die Nutzung der Bandbreite der Glasfaser einschr\u00e4nkt, ist die Interzeichen\u00fcberlagerung (intersymbol-interference,ISI), welche aus den verschiedenen Typen der Faserdispersion resultiert.Ein effektives Mittel zur Minderung der ISI ist die Nutzung von Linear-Equalizern in Form von Vorw\u00e4rtskopplung-Equalizers (feedforward equalizers, FFEs) sowie von Nichtlinear-Equalizern in Form von Datenentscheidern mit R\u00fcckkopplungsschleife(decision feedback equalizers, DFEs). Beide Equalizer-Typen werden in Glasfaserkommunikationssystemenzur Kompensation unterschiedlicher Dispersions-Typeneingesetzt. Im Gegensatz zu FFEs k\u00f6nnen DFEs Diskontinuit\u00e4ten im Frequenzgang des Kanals kompensieren und verst\u00e4rken das hochfrequente Rauschen nicht; bei sehrhohen Bitraten ist ihr Design jedoch durch die Zeitbedingungen der R\u00fcckkopplungsschleifesehr anspruchsvoll.Diese Dissertation pr\u00e4sentiert den Entwurf und die Charakterisierung von DFEs f\u00fcr 80 und 110Gb/s in der IHP-Technologie 0.13 m SiGe:C BiCMOS. Eine modifizierte Architektur wurde beschrieben und zur Implementierung der DFE benutzt,um die Zeitbedingungen sowie das Verhalten der R\u00fcckkopplungsschleife zu verbessern. Schaltungs-Techniken zur Erh\u00f6hung der Bandbreite der DFE-Bausteine wurden erkl\u00e4rt. Dar\u00fcber hinaus wurden neue Mess-Techniken eingesetzt, um die F\u00e4higkeitdes DFE, bei derart hohen Bitraten zu arbeiten, nachzuweisen. Die Funktionalit\u00e4tdes 80Gb/s DFE wurde in einem Experiment zur Minderung der ISI f\u00fcr bandbreitenbegrenzte Kan\u00e4le demonstriert.. - Cloud computing, video-on-demand, voice and video-over-IP and other Internet services present an ever-increasing demand on high bit rate data connections. Optical fibers offer a very good solution for this ever-growing demand, due to their large bandwidth. One of the main factors limiting the utilization of this large bandwidth is intersymbol interference (ISI) that results from the different types of fiber dispersion.To mitigate ISI, the use of linear equalizers in form of feedforward equalizers(FFEs) and non-linear equalizers in form of decision feedback equalizers (DFEs) has proved to be an effective means. Both types of equalizers are employed in fiber communication systems to compensate different kinds of dispersions. DFEs, as opposed to FFEs, can compensate for the deep nulls (discontinuities) in the channel frequency response and do not amplify high-frequency noise. Their design, however, is rather challenging at very high bit rates, due to the timing condition of their feedback loop.This dissertation presents the design and characterization of 80 and 110Gb/s DFEs in 0.13 m SiGe:C BiCMOS technology. A modified architecture is described and utilized for the implementation of the DFEs to relax the timing condition and improve the behavior of the feedback loop. Circuit techniques to enhance the bandwidth of the DFE building blocks are explained. Furthermore, new measurement techniques are employed to prove the ability of the DFEs to work at such high bit rates. The functionality of the 80Gb/s DFE is demonstrated in an experiment to mitigate ISI for bandwidth-limited channels. The application of the DFEs developed in this work is not limited to optical fiber communication systems, but can be also employed in chip-to-chip and board-to-board communication systems.",
+            "contributor": [
+                "gnd:123032210",
+                "gnd:1031401431"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1073251853",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

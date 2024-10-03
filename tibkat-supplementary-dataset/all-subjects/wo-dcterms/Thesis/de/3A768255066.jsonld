@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A768255066",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "No\u00e9, Reinhold",
+                "R\u00fcckert, Ulrich"
+            ],
+            "creator": "Al-Bermani, Ali",
+            "identifier": [
+                "(firstid)HBZ:CT004000935",
+                "(ppn)768255066"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)600"
+            ],
+            "title": "Implementation and investigation of a real-time optical 16-QAM transmission system with FPGA-based coherent receiver",
+            "abstract": "Diese Dissertation stellt die erste Echtzeit\u00fcbertragung von 16-QAM mit FPGA-basierter DSPU vor. 2.5 Gb/s wurden dabei \u00fcber 20 und 100 km \u00fcbertragen und koh\u00e4rent (heterodyn) in Echtzeit empfangen. Die Bitfehlerquote (BER) lag dabei unterhalb der Schwelle moderner Fehlervorw\u00e4rtskorrekturverfahren mit 7% Overhead. Mit BPS (Blind Phase Search) und QPSK partitioning (QPSKP) wurden zwei unterschiedliche Techniken zur Phasenr\u00fcckgewinnung implementiert und durch Echtzeitmessung verglichen. Der Einfluss der Aufl\u00f6sung der erforderlichen Analog-Digital-Umsetzer (ADC) wurde ebenfalls untersucht, welche ebenfalls eine Herausforderung f\u00fcr koh\u00e4rente Echtzeit\u00fcbertragung darstellt. Der Einfluss von Phasenrauschen wird hier auch gezeigt, welches vorwiegend von den verwendeten Lasern, optischen Verst\u00e4rkern und nichtlinearen Effekten in den optischen Fasern abh\u00e4ngt. Dar\u00fcber hinaus wurden verschiedene Arbeitspunkte des 16-QAM-Modulators in Echtzeit getestet und die optimalen Bedingungen f\u00fcr eine minimale Bitfehlerquote gefunden.. - In this dissertation the first published real-time implementation of a 16-QAM transmission system with FPGA-based DSP is presented. 2.5 Gb/s coherent 16-QAM data has been optically transmitted over 20 and 100 km and synchronously received by heterodyning in a real-time I&Q receiver, with BER below the threshold of a state-of-the-art FEC (7% overhead). Two techniques of feed-forward carrier phase recovery (Blind Phase Search (BPS) and QPSK partitioning (QPSKP)) were tested in a real-time transmission experiment and compared with each other. The influence of the required resolution of the analog-to-digital converter (ADC) has been investigated, which is a challenge of real-time coherent transmission systems. The influence of phase noise in 16-QAM, which is mainly contributed from laser sources, optical amplifiers, and nonlinear effects in optical fibers is also shown. Moreover, different operation points of a 16-QAM modulator were tested in real-time and an optimal condition is found which minimizes the BER.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

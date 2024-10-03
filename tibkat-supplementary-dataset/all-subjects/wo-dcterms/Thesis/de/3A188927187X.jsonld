@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120512726",
+            "sameAs": "Hahn, Axel"
+        },
+        {
+            "@id": "gnd:1334891451",
+            "sameAs": "Steidel, Matthias"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188927187X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": "Wingerath, Wolfram",
+            "identifier": [
+                "(ppn)188927187X",
+                "(firstid)DNB:1327399512"
+            ],
+            "subject": [
+                "Kontextbezogenes System",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)623.82",
+                "(classificationName=linseach:mapping)tec",
+                "Schiff"
+            ],
+            "title": "Kontextsensitive Verhaltenspr\u00e4diktion von Schiffen",
+            "abstract": [
+                "Schiffskollisionen sind selten, aber verheerend f\u00fcr Umwelt, Passagiere und Maschinen. Die Kollisionsvermeidung ist Aufgabe der Besatzung, unterst\u00fctzt durch Assistenzsysteme. Diese nutzen eine lineare Bewegungspr\u00e4diktion zur Gefahrenabsch\u00e4tzung, ignorieren dabei allerdings Kontextfaktoren wie Wetter und den Wasserstra\u00dfenverlauf, was zu Fehlalarmen f\u00fchrt. Dies erh\u00f6ht das Kollisionsrisiko in k\u00fcstennahen Gew\u00e4ssern. In dieser Arbeit wird eine neue Methode zur Verhaltenspr\u00e4diktion pr\u00e4sentiert, die Bewegungsdaten und Kontextinformationen miteinander kombiniert. Zur eigentlichen Vorhersage wird ein LSTM-Netzwerk f\u00fcr pr\u00e4zisere genutzt. Die Evaluationen in der Jade, Weser und Elbe zeigen, dass insbesondere die Ber\u00fccksichtigung von Seewetter pr\u00e4zisere Ergebnisse liefert. Die Methode tr\u00e4gt somit zur Verbesserung der Kollisionsvermeidung bei.",
+                "Ship collisions are rare, but devastating for the environment, passengers and machinery. Collision avoidance is the task of the crew, supported by assistance systems. They use linear motion prediction to assess the risk, however, they neglect contextual factors such as weather and the course of the waterway, which leads to false alarms. This increases the risk of collision in coastal waters. In this thesis, a new method for behavior prediction is presented that combines movement data and context information. For the actual prediction, an LSTM network is used for more precise predictions. The evaluations in the Jade, Weser and Elbe show that the incorporation of sea weather in particular provides more precise results. The method therefore contributes to improving collision avoidance."
+            ],
+            "alternative": "Context-sensitive behavior prediction of vessels",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:120512726"
+                }
+            ],
+            "creator": "gnd:1334891451",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135808198",
+            "sameAs": "Reconfigurable Computing"
+        },
+        {
+            "@id": "gnd:123615732X",
+            "sameAs": "Hettwer, Benjamin"
+        },
+        {
+            "@id": "gnd:142977179",
+            "sameAs": "Ziener, Daniel"
+        },
+        {
+            "@id": "gnd:4075860-6",
+            "sameAs": "Parallelverarbeitung"
+        },
+        {
+            "@id": "gnd:4238872-7",
+            "sameAs": "Verteiltes System"
+        },
+        {
+            "@id": "gnd:4347749-5",
+            "sameAs": "Field programmable gate array"
+        },
+        {
+            "@id": "gnd:4396978-1",
+            "sameAs": "Eingebettetes System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1769453547",
+            "@type": "bibo:Article",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Karimov, Emil",
+                "Asghar, Ali"
+            ],
+            "identifier": [
+                "(ppn)1769453547",
+                "(doi)10.1007/978-3-030-79025-7_12",
+                "(firstid)KXP:1769453547"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106410903)54.31 - Rechnerarchitektur",
+                "(classificationName=rvk)ST 150",
+                "(classificationName=bk, id=10640623X)54.32 - Rechnerkommunikation"
+            ],
+            "title": "Increasing side-channel resistance by netlist randomization and FPGA-based reconfiguration",
+            "abstract": "Modern FPGAs are equipped with the possibility of Partial Reconfiguration (PR) which along with other benefits can be used to enhance the security of cryptographic implementations. This feature requires development of alternative designs to be exchanged during run-time. In this work, we propose dynamically alterable circuits by exploring netlist randomization which can be utilized with PR as a countermeasure against physical attacks, in particular side-channel attacks. The proposed approach involves modification of an AES implementation at the netlist level in order to create circuit variants which are functionally identical but structurally different. In preliminary experiments, power traces of these variants have been shuffled to replicate the effect of partial reconfiguration. With these dynamic circuits, our experimental results show an increase in the resistance against power side-channel attacks by a factor of [Tilde] 12.6 on a Xilinx ZYNQ UltraScale+ device.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:142977179",
+                "gnd:123615732X"
+            ],
+            "extent": "173-187",
+            "isPartOf": [
+                "(ppn)1771295945",
+                "(isbn13)9783030790240"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4347749-5"
+                },
+                {
+                    "@id": "gnd:1135808198"
+                },
+                {
+                    "@id": "gnd:4075860-6"
+                },
+                {
+                    "@id": "gnd:4238872-7"
+                },
+                {
+                    "@id": "gnd:4396978-1"
+                }
+            ],
+            "pageStart": "173",
+            "isLike": "doi:10.1007/978-3-030-79025-7_12",
+            "P30128": "Applied reconfigurable computing",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "extent": "http://purl.org/dc/terms/extent",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

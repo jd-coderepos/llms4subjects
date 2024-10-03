@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A748986731",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (VIII, 243S)",
+            "http://purl.org/dc/elements/1.1/contributor": "Brauer, W.",
+            "creator": "Walter, Ingrid",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.1007/978-3-642-74954-4",
+                "(isbn13)9783642749544",
+                "(firstid)GBV:748986731",
+                "(ppn)748986731"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Artificial intelligence",
+                "Computer science",
+                "(classificationName=loc)Q334-342",
+                "(classificationName=ddc)006.3",
+                "Computer vision",
+                "(classificationName=loc)TJ210.2-211.495",
+                "(classificationName=linseach:mapping)mas",
+                "Database management"
+            ],
+            "title": "Datenbankgest\u00fctzte Repr\u00e4sentation und Extraktion von Episodenbeschreibungen aus Bildfolgen",
+            "abstract": "Die in Bildfolgen enthaltene Information kann mit sehr unterschiedlichen Abstraktionsgraden beschrieben werden: Die Angabe eines Helligkeitswerts f\u00fcr jeden Punkt jedes Einzelbildes ist eine sehr niedrige Beschreibungsebene, die Darstellung einer Geschichte eine sehr hohe. Eine automatische Erzeugung von Beschreibungen aus den Bilddaten ist bisher nur f\u00fcr niedrigere Abstraktionsstufen m\u00f6glich, eine Beschreibung auf der Ebene von Episoden wird hier entwickelt. Die vorliegende Arbeit entwirft ein System f\u00fcr die Extraktion von Beschreibungen auf der Ebene von Episoden, ausgehend von einer Beschreibung, die f\u00fcr jedes Objekt die Koordinaten zu jedem Zeitpunkt enth\u00e4lt. Typische Episoden aus dem Diskursbereich \"Stra\u00dfenverkehr\" sind \"Parkplatzsuchen\" oder \"auf die Stra\u00dfenbahn warten\" oder \"Vorfahrt mi\u00dfachten\". Zu diesem Zweck wird eine Darstellungsform f\u00fcr Episodenmodelle entwickelt, die sich an KL-ONE orientiert und unter anderem die Modellierung von zeitlichen Aspekten erm\u00f6glicht. Da der Datenumfang f\u00fcr Bildfolgen, die Episoden enthalten k\u00f6nnen, sehr gro\u00df ist, erscheint die Unterst\u00fctzung durch Datenbanksysteme ratsam. Daher wird die \u00dcbertragung der Darstellungsform auf das relationale Datenmodell eingehend untersucht. Zur Beschreibung der Prozesse, die die Zuordnung zwischen Episodenmodellen und Bilddaten herstellen, dienen Regelsysteme auf der Gundlage von erweiterten \u00dcbergangsnetzen. Der implementierte Prototyp extrahiert Episoden aus einer Bildfolge aus dem Diskursbereich \"Stra\u00dfenverkehr\". Die Arbeit liegt im \u00dcberschneidungsbereich der Gebiete Bilddeutung, Wissensrepr\u00e4sentation und Datenbanken. Anregungen aus den verschiedenen Gebieten k\u00f6nnen f\u00fcr jeweils andere Gebiete \u00fcbernommen werden. Es wird gezeigt, da\u00df die Kopplung von zwei Problemkreisen - komplexe Strukturen und gro\u00dfe Datenmengen - im Prinzip m\u00f6glich ist. Noch zu l\u00f6sende Probleme bei der Kopplung werden angesprochen",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAD",
+                "(collectioncode)ZDB-2-STI"
+            ],
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "213",
+            "isLike": "doi:10.1007/978-3-642-74954-4",
+            "P30128": "Informatik-Fachberichte",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

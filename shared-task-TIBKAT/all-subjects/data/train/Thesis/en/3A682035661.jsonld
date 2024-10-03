@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017807051",
+            "sameAs": "Trummer, Michael"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4150634-0",
+            "sameAs": "Dreidimensionale Rekonstruktion"
+        },
+        {
+            "@id": "gnd:4582015-6",
+            "sameAs": "Objektmodell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A682035661",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (285 Seiten)",
+            "identifier": [
+                "(firstid)GBV:682035661",
+                "(ppn)682035661"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)a",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)a"
+            ],
+            "title": "Purposive three-dimensional reconstruction by means of a controlled environment",
+            "abstract": "Retrieving 3D data using imaging devices is a relevant task for many applications in medical imaging, surveillance, industrial quality control, and others. As soon as we gain procedural control over parameters of the imaging device, we encounter the necessity of well-defined reconstruction goals and we need methods to achieve them. Hence, we enter next-best-view planning. In this work, we present a formalization of the abstract view planning problem and deal with different planning aspects, whereat we focus on using an intensity camera without active illumination. As one aspect of view planning, employing a controlled environment also provides the planning and reconstruction methods with additional information. We incorporate the additional knowledge of camera parameters into the Kanade-Lucas-Tomasi method used for feature tracking. The resulting Guided KLT tracking method benefits from a constrained optimization space and yields improved accuracy while regarding the uncertainty of the additional input. Serving other planning tasks dealing with known objects, we propose a method for coarse registration of 3D surface triangulations. By the means of exact surface moments of surface triangulations we establish invariant surface descriptors based on moment invariants. These descriptors allow to tackle tasks of surface registration, classification, retrieval, and clustering, which are also relevant to view planning. In the main part of this work, we present a modular, online approach to view planning for 3D reconstruction. Based on the outcome of the Guided KLT tracking, we design a planning module for accuracy optimization with respect to an extended E-criterion. Further planning modules endow non-discrete surface estimation and visibility analysis. The modular nature of the proposed planning system allows to address a wide range of specific instances of view planning. The theoretical findings in this work are underlined by experiments evaluating the relevant terms.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1017807051",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4150634-0"
+                },
+                {
+                    "@id": "gnd:4582015-6"
+                }
+            ],
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

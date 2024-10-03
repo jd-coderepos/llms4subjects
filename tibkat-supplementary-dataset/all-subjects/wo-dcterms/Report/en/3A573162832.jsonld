@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A573162832",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (9 S., 127 KB)",
+            "contributor": "Naumann, Uwe",
+            "identifier": [
+                "(contract)AIB-2008-06",
+                "(firstid)GBV:573162832",
+                "(ppn)573162832"
+            ],
+            "publisher": "RWTH",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "A framework for proving correctness of adjoint message passing programs",
+            "abstract": "Adjoint programs play a central role in modern numerical algorithms such as large-scale sensitivity analysis, parameter tuning, and general nonlinear optimization. They can be generated automatically by compilers. In such cases, the data flow of the original  program needs to be reversed.  If message passing is used, then any communication needs to be reversed, too.  Crucial properties of the original program such as deadlock-freeness and determinism must be preserved in the adjoint code. A formalism for proving the correctness of compiler-generated adjoints is required but has been missing so far, to the best of our knowledge. To rectify this situation, we propose a proof technique that relies on data dependences in partitioned global address space versions of the adjoint message-passing program. If the original program is deadlock-free, the transformation rules can be shown to be correct in the sense that the automatically generated adjoint program is also deadlock free while implementing the mathematical mapping from given independent inputs onto their corresponding adjoints correctly.  As an example we discuss asynchronous unbuffered send/receive using MPI.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2008,6",
+            "P30128": "Aachener Informatik-Berichte",
+            "P60163": "Aachen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

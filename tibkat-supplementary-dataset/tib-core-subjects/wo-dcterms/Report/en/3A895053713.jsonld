@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1077613059",
+            "sameAs": "Schwarz, Hannes"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A895053713",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (17 Seiten)",
+            "creator": [
+                "Hoos, Holger H.",
+                "Bertsch, Valentin",
+                "Kotthoff, Lars"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)895053713",
+                "(doi)10.5445/IR/1000072492",
+                "(firstid)BSZ:9895053711"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie (KIT)",
+            "subject": "(classificationName=linseach:automatic)rest",
+            "title": "Using automated algorithm configuration to improve the optimization of decentralized energy systems modeled as large-scale, two-stage stochastic programs",
+            "abstract": "The optimization of decentralized energy systems is an important practical problem that can be modeled using stochastic programs and solved via their large-scale, deterministic equivalent formulations. Unfortunately, using this approach, even when leveraging a high degree of parallelism on large high-performance computing (HPC) systems, finding close-to-optimal solutions still requires long computation. In this work, we present a procedure to reduce this computational effort substantially, using a stateof-the-art automated algorithm configuration method. We apply this procedure to a well-known example of a residential quarter with photovoltaic systems and storages, modeled as a two-stage stochastic mixed-integer linear program (MILP). We demonstrate substantially reduced computing time and costs of up to 50% achieved by our procedure. Our methodology can be applied to other, similarly-modeled energy systems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:171556542"
+                },
+                {
+                    "@id": "gnd:1077613059"
+                }
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 24 (July 2017)",
+            "isLike": "doi:10.5445/IR/1000072492",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614733",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (120 Seiten)",
+            "creator": [
+                "Barroso, Luiz",
+                "Hoelzle, Urs"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.2200/S00193ED1V01Y200905CAC006",
+                "(firstid)GBV:723614733",
+                "(ppn)723614733",
+                "(isbn13)9781598295573"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Electronic books",
+                "Cloud computing",
+                "(classificationName=loc)TK5105.5",
+                "Computer networks",
+                "(classificationName=ddc)004.6",
+                "(classificationName=ddc)004.22",
+                "Data libraries",
+                "Electronic data processing",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "The Datacenter as a Computer : An Introduction to the Design of Warehouse-Scale Machines",
+            "abstract": [
+                "As computation continues to move into the cloud, the computing platform of interest no longer resembles a pizza box or a refrigerator, but a warehouse full of computers. These new large datacenters are quite different from traditional hosting facilities of earlier times and cannot be viewed simply as a collection of co-located servers. Large portions of the hardware and software resources in these facilities must work in concert to efficiently deliver good levels of Internet service performance, something that can only be achieved by a holistic approach to their design and deployment. In other words, we must treat the datacenter itself as one massive warehouse-scale computer (WSC). We describe the architecture of WSCs, the main factors influencing their design, operation, and cost structure, and the characteristics of their software base. We hope it will be useful to architects and programmers of today's WSCs, as well as those of future many-core platforms which may one day implement the equivalent of today's WSCs on a single board",
+                "Introduction -- Warehouse-scale computers -- Emphasis on cost efficiency -- Not just a collection of servers -- One datacenter vs. several datacenters -- Why WSCs might matter to you -- Architectural overview of WSCs -- Storage -- Networking fabric -- Storage hierarchy -- Quantifying latency, bandwidth, and capacity -- Power usage -- Handling failures -- Workloads and software infrastructure -- Datacenter vs. desktop -- Performance and availability toolbox -- Cluster-level infrastructure software -- Resource management -- Hardware abstraction and other basic services -- Deployment and maintenance -- Programming frameworks -- Application-level software -- Workload examples -- Online: web search -- Offline: scholar article similarity -- A monitoring infrastructure -- Service-level dashboards -- Performance debugging tools -- Platform-level monitoring -- Buy vs. build -- Further reading -- Hardware building blocks -- Cost-efficient hardware -- How about parallel application performance -- How low-end can you go -- Balanced designs -- Datacenter basics -- Datacenter tier classifications -- Datacenter power systems -- UPS systems -- Power distribution units -- Datacenter cooling systems -- CRAC units -- Free cooling -- Air flow considerations -- In-rack cooling -- Container-based datacenters -- Energy and power efficiency -- Datacenter energy efficiency -- Sources of efficiency losses in datacenters -- Improving the energy efficiency of datacenters -- Measuring the efficiency of computing -- Some useful benchmarks -- Load vs. efficiency -- Energy-proportional computing -- Dynamic power range of energy-proportional machines -- Causes of poor energy proportionality -- How to improve energy proportionality -- Relative effectiveness of low-power modes -- The role of software in energy proportionality -- Datacenter power provisioning -- Deployment and power management strategies -- Advantages of oversubscribing facility power -- Trends in server energy usage -- Conclusions -- Further reading -- Modeling costs -- Capital costs -- Operational costs -- Case studies -- Real-world datacenter costs -- Modeling a partially filled datacenter -- Dealing with failures and repairs -- Implications of software-based fault tolerance -- Categorizing faults -- Fault severity -- Causes of service-level faults -- Machine-level failures -- What causes machine crashes -- Predicting faults -- Repairs -- Tolerating faults, not hiding them -- Closing remarks -- Hardware -- Software -- Economics -- Key challenges -- Rapidly changing workloads -- Building balanced systems from imbalanced components -- Curbing energy usage -- Amdahl's cruel law -- Conclusions -- References"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#6",
+            "isLike": "doi:10.2200/S00193ED1V01Y200905CAC006",
+            "P30128": "Synthesis Lectures on Computer Architecture",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

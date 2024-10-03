@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1294221825",
+            "sameAs": "Speiser, Artur"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1850984298",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (35 Seiten, 65 verschieden gez\u00e4hlte Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1850984298",
+                "(doi)10.15496/publikation-83562",
+                "(ppn)1850984298"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio",
+                "Maschinelles Lernen",
+                "Neuronales Netz"
+            ],
+            "title": "Generative model based training of deep neural networks for event detection in microscopy data",
+            "abstract": "Several imaging techniques employed in the life sciences heavily rely on machine learning methods to make sense of the data that they produce. These include calcium imaging and multi-electrode recordings of neural activity, single molecule localization microscopy, spatially-resolved transcriptomics and particle tracking, among others. All of them only produce indirect readouts of the spatiotemporal events they aim to record. The objective when analysing data from these methods is the identification of patterns that indicate the location of the sought-after events, e.g. spikes in neural recordings or fluorescent particles in microscopy data. Existing approaches for this task invert a forward model, i.e. a mathematical description of the process that generates the observed patterns for a given set of underlying events, using established methods like MCMC or variational inference. Perhaps surprisingly, for a long time deep learning saw little use in this domain, even though it became the dominant approach in the field of pattern recognition over the previous decade. The principal reason is that in the absence of labeled data needed for supervised optimization it remains unclear how neural networks can be trained to solve these tasks. To unlock the potential of deep learning, this thesis proposes different methods for training neural networks using forward models and without relying on labeled data. The thesis rests on two publications: In the first publication we introduce an algorithm for spike extraction from calcium imaging time traces. Building on the variational autoencoder framework, we simultaneously train a neural network that performs spike inference and optimize the parameters of the forward model. This approach combines several advantages that were previously incongruous: it is fast at test-time, can be applied to different non-linear forward models and produces samples from the posterior distribution over spike trains. The second publication deals with the localization of fluorescent particles in single molecule localization microscopy. We show that an accurate forward model can be used to generate simulations that act as a surrogate for labeled training data. Careful design of the output representation and loss function result in a method with outstanding precision across experimental designs and imaging conditions. Overall this thesis highlights how neural networks can be applied for precise, fast and flexible model inversion on this class of problems and how this opens up new avenues to achieve performance beyond what was previously possible.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1294221825",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-83562",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

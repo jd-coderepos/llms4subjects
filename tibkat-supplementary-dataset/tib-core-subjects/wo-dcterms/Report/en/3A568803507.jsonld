@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128742402",
+            "sameAs": "Geiser, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:2145810-8",
+            "sameAs": "Humboldt-Universit\u00e4t zu Berlin, Institut f\u00fcr Mathematik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A568803507",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (25 Seiten, 213,60 KB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:568803507",
+                "(ppn)568803507"
+            ],
+            "publisher": "Humboldt-Universit\u00e4t, Institut f\u00fcr Mathematik",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Discretization methods with analytical solutions for a convection reaction equation with higher order discretizations",
+            "abstract": "We introduce an improved second-order discretization method for the convection-reaction equation by combining analytical and numerical solutions. The method is derived from Godunov's scheme, see [Godunov 1959] and [Leveque 2002], and uses analytical solutions to solve the one-dimensional convection-reaction equation. We can also generalize the second-order methods for discontinuous solutions, because of the analytical test functions. One-dimensional solutions are used in the higher-dimensional solution of the numerical method. The method is based on the flux-based characteristic methods and is an attractive alternative to the classical higher-order TVD-methods, see [Harten 1983]. In this article we will focus on the derivation of analytical solutions embedded into a finite volume method, for general and special solutions of the characteristic methods. For the analytical solution, we use the Laplace transformation to reduce the equation to an ordinary differential equation. With general initial conditions, e.g. spline functions, the Laplace transformation is accomplished with the help of numerical methods. The proposed discretization method skips the classical error between the convection and reaction equation by using the operator-splitting method.At the end of the article, we illustrate the higher-order method for different benchmark problems. Finally, the method is shown to produce realistic results.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:128742402",
+                "gnd:2145810-8"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "[2007,16]",
+            "P30128": "[Preprint / Institut f\u00fcr Mathematik]",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

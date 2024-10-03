@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1298282616",
+            "sameAs": "Wenger, Jonathan"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A185427581X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XIV, 153 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)185427581X",
+                "(doi)10.15496/publikation-85113",
+                "(firstid)KXP:185427581X"
+            ],
+            "subject": [
+                "Maschinelles Lernen",
+                "Numerische Mathematik",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc-dbn)518",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Probabilistic numerical linear algebra for machine learning",
+            "abstract": "Machine learning models are becoming increasingly essential in domains where critical decisions must be made under uncertainty, such as in public policy, medicine or robotics. For a model to be useful for decision-making, it must convey a degree of certainty in its predictions. Bayesian models are well-suited to such settings due to their principled uncertainty quantification, given a set of assumptions about the problem and data-generating process. While in theory, inference in a Bayesian model is fully specified, in practice, numerical approximations have a significant impact on the resulting posterior. Therefore, model-based decisions are not just determined by the data but also by the numerical method. This begs the question of how we can account for the adverse impact of numerical approximations on inference. Arguably, the most common numerical task in scientific computing is the solution of linear systems, which arise in probabilistic inference, graph theory, differential equations and optimization. In machine learning, these systems are typically large-scale, subject to noise and arise from generative processes. These unique characteristics call for specialized solvers. In this thesis, we propose a class of probabilistic linear solvers, which infer the solution to a linear system and can be interpreted as learning algorithms themselves. Importantly, they can leverage problem structure and propagate their error to the prediction of the underlying probabilistic model. Next, we apply such solvers to accelerate Gaussian process inference. While Gaussian processes are a principled and flexible model class, for large datasets inference is computationally prohibitive both in time and memory due to the required computations with the kernel matrix. We show that by approximating the posterior with a probabilistic linear solver, we can invest an arbitrarily small amount of computation and still obtain a provably coherent prediction that quantifies uncertainty exactly. Finally, we demonstrate that Gaussian process hyperparameter optimization can similarly be accelerated by leveraging structural prior knowledge in the model via preconditioning of iterative methods. Combined with modern parallel hardware, this enables training Gaussian process models on datasets with hundreds of thousands of data points. In summary, we demonstrate that interpreting numerical methods in linear algebra as probabilistic learning algorithms unlocks significant performance improvements for Gaussian process models. Crucially, we show how to account for the impact of numerical approximations on model predictions via uncertainty quantification. This enables an explicit trade-off between computational resources and confidence in a prediction. The techniques developed in this thesis have advanced the understanding of probabilistic linear solvers, they have shifted the goalposts of what can be expected from Gaussian process approximations and they have defined the way large-scale Gaussian process hyperparameter optimization is performed in GPyTorch, arguably the most popular library for Gaussian processes in Python.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1298282616",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-85113",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A751281921",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (197p)",
+            "creator": "Wagner, Siegfried",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:751281921",
+                "(isbn13)9783322894540",
+                "(doi)10.1007/978-3-322-89454-0",
+                "(ppn)751281921"
+            ],
+            "publisher": "Vieweg+Teubner Verlag",
+            "subject": [
+                "Physics",
+                "(classificationName=msc)68-06",
+                "Continuum mechanics.",
+                "(classificationName=ddc)530",
+                "(classificationName=loc)QC1-75",
+                "(classificationName=ddc)531.7",
+                "(classificationName=msc)*00B25",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=msc)76-06"
+            ],
+            "title": "Computational Fluid Dynamics on Parallel Systems : Proceedings of a CNRS-DFG Symposium in Stuttgart, December 9 and 10, 1993",
+            "abstract": [
+                "Within the DFG -Schwerpunktprogramm \"Stromungssimulation mit Hochleistungsrechnern\" and within the activities of the French-German cooperation of CNRS and DFG a DFG symposium on \"Computational Fluid Dynamics (CFD) on Parallel Systems\" was organized at the Institut fur Aerodynamik and Gasdynamik of the Stuttgart University, 9-10 December 1993. This symposium was attended by 37 scientists. The scientific program consisted of 18 papers that considered finite element, finite volume and a two step Taylor\u00ad Galerkin algorithm for the numerical solution of the Euler and Navier-Stokes equations on massively parallel computers with MIMD and SIMD architecture and on work station clusters. Incompressible and compressible, steady and unsteady flows were considered including turbu\u00ad lent combustion with complex chemistry. Structured and unstructured grids were used. High numerical efficiency was demonstrated by multiplicative, additive and multigrid methods. Shared memory, virtual shared memory and distributed memory systems were investigated, in some cases based on an automatic grid partitioning technique. Various methods for domain decomposition were investigated. The key point of these methods is the resolution of the inter\u00ad face problem because the matrix involved can be block dense. Multilevel decomposition can be very efficient using multifrontal algorithm. The numerical methods include explicit and implicit schemes. In the latter case the system of equations is often solved by a Gauss -Seidel line re\u00ad laxation technique.",
+                "Dynamic Load Balancing for Parallel Adaptive Multigrid Methods on Unstrured Meshes -- Domain Decomposition Methods and Adaptive Flow Simulation on Unstructured Meshes -- Parallel Simulation of Compressible Turbulent Flows Using Non-Structured Domains Partitioning and Object Oriented Programming -- First Experiments with Turbulence Simulation on Workstation Networks Using Sparse Grid Methods -- Time-Adaptive Solution of Discrete Parabolic Problems with Time-Parallel Multigrid Methods -- Efficient 3-D Flow Prediction on Parallel High-Performance Computers -- Numerical Simulation of the Unsteady Turbomachinery Flow on a MIMD Computer -- A Hierarchical Domain Decomposition Method for the Parallel Treatment of Linear Problems -- Parallel Solution Schemes for the Navier-Stokes Equations -- The Massively Parallel Computer System of the DFG Priority Research Programme \u201cFlow Simulation on Supercomputers\u201d at RWTH Aachen -- Unstructured CFD Computations on M.I.M.D. Systems -- NSFLEX 90 \u2014 A 3d Euler and Navier-Stokes Solver in Fortran 90 -- Parallelization of Implicit Methods for Flow Simulation -- Flow Simulation with FEM on Massively Parallel Systems -- Big Computations with a 3-D Parallel Navier-Stokes Solver on Different Multiprocessors -- An Integrated Concept for the Parallelization of Finite Element Simulations of Flow Problems -- A Parallelization Strategy for a Navier-Stokes Multigrid Solver Based on Macroelements -- Turbulent Combustion Modeling with Complex Chemistry on SIMD Architecture."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-PHA",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE"
+            ],
+            "issued": "1995",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "50",
+            "isLike": "doi:10.1007/978-3-322-89454-0",
+            "P30128": "Notes on Numerical Fluid Mechanics (NNFM)",
+            "P60163": "Wiesbaden"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

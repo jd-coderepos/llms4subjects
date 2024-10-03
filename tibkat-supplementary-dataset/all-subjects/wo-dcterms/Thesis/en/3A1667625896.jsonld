@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1188624202",
+            "sameAs": "Gei\u00dfer, Florian"
+        },
+        {
+            "@id": "gnd:4033447-8",
+            "sameAs": "K\u00fcnstliche Intelligenz"
+        },
+        {
+            "@id": "gnd:4211191-2",
+            "sameAs": "Automatische Handlungsplanung"
+        },
+        {
+            "@id": "gnd:4362839-4",
+            "sameAs": "Entscheidungsgraph"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1667625896",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (159 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.6094/UNIFR/149749",
+                "(ppn)1667625896",
+                "(firstid)KXP:1667625896",
+                "(contract)FRUB-opus-149749"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.3",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "On planning with state-dependent action costs",
+            "abstract": "Abstract: Automated Planning is an established research field of Artificial Intelligence. While in probabilistic planning models, such as Stochastic Shortest Path problems, the cost of an action can be state-dependent, the classical deterministic planning literature mostly considers the cost of actions to be constant. Therefore, even if a planning task naturally admits state-dependent costs, the modeler has to distribute these costs over multiple copies of the action. This does not only introduce additional burden on the modeler, but it also hides structure which may be apparent in the action cost function and may provide useful information for planning algorithms.<br><br>In this thesis we do away this restriction to constant costs, by considering classical planning with state-dependent action costs. We show how we can make use of edge-valued multi-valued decision diagrams (EVMDDs) to represent the action cost functions and provide compilations of state-dependent action cost tasks to classical tasks with constant costs, which allows us to leverage classical planning tools. These compilations are polynomial in the size of the underlying EVMDDs.<br>While their size is worst-case exponential, for many commonly encountered cost functions this results in a classical planning task with compact size.<br><br>Heuristic search is one of the most prominent tools in classical planning to produce optimal solutions. Two well-known families of heuristics are delete relaxation and abstraction heuristics.<br>We generalize both families to planning with state-dependent action costs and show how we can use the EVMDD representation to efficiently compute the generalized heuristics. Furthermore, we provide a theoretical analysis of our introduced compilations, showing that many heuristics are invariant under compilation, i.e. the compilation preserves the heuristic estimates and does not lead to a loss of information. We empirically evaluate how these theoretical results behave in practice, by comparing different compilations and heuristics on a benchmark set consisting of tasks with state-dependent action costs",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1188624202",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4033447-8",
+                "gnd:4362839-4",
+                "gnd:4211191-2"
+            ],
+            "isLike": "doi:10.6094/UNIFR/149749",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1780874375",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 521,09 KB)",
+            "creator": [
+                "Farchmin, Nando",
+                "Heidenreich, Sebastian",
+                "Eigel, Martin",
+                "Trunschke, Philipp"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1780874375",
+                "(ppn)1780874375",
+                "(doi)10.20347/WIAS.PREPRINT.2897"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Adaptive non-intrusive reconstruction of solutions to high-dimensional parametric PDEs",
+            "abstract": "Numerical methods for random parametric PDEs can greatly benefit from adaptive refinement schemes, in particular when functional approximations are computed as in stochastic Galerkin and stochastic collocations methods. This work is concerned with a non-intrusive generalization of the adaptive Galerkin FEM with residual based error estimation. It combines the non-intrusive character of a randomized least-squares method with the a posteriori error analysis of stochastic Galerkin methods. The proposed approach uses the Variational Monte Carlo method to obtain a quasi-optimal low-rank approximation of the Galerkin projection in a highly efficient hierarchical tensor format. We derive an adaptive refinement algorithm which is steered by a reliable error estimator. Opposite to stochastic Galerkin methods, the approach is easily applicable to a wide range of problems, enabling a fully automated adjustment of all discretization parameters. Benchmark examples with affine and (unbounded) lognormal coefficient fields illustrate the performance of the non-intrusive adaptive algorithm, showing best-in-class performance.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2897",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2897",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

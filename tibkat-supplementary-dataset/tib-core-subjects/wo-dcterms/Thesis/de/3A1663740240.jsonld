@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10178437-5",
+            "sameAs": "HafenCity Universit\u00e4t Hamburg"
+        },
+        {
+            "@id": "gnd:122059360",
+            "sameAs": "Sternberg, Harald"
+        },
+        {
+            "@id": "gnd:173178995",
+            "sameAs": "Lichtenberg, Gerwald"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1663740240",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (IX, 246 Seiten)",
+            "creator": "Kruppa, Kai",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1663740240",
+                "(firstid)KXP:1663740240"
+            ],
+            "subject": [
+                "(classificationName=ddc)621.3: Elektrotechnik, Elektronik",
+                "Pr\u00e4diktive Regelung",
+                "Heizungsregelung",
+                "Multilineare Algebra",
+                "(classificationName=ddc)515.6",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)elt",
+                "Dynamische Modellierung",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Multilinear Design of Decentralized Controller Networks for Building Automation Systems",
+            "abstract": [
+                "In Deutschland werden 35% der Endenergie im Geb\u00e4udebereich verbraucht. Modellbasierte Reglerentwurfsmethoden erm\u00f6glichen das gro\u00dfe Energieeinsparpotenzial zu nutzen, um den Energieverbrauch zu reduzieren. F\u00fcr lineare Zustandsraummodelle sind dazu zahlreiche Methoden bekannt. Jedoch k\u00f6nnen diese Methoden versagen, wenn nichtlineare Effekte entscheidend sind, wie im Geb\u00e4udebereich. Multilineare zeitinvariante (MTI) Modelle erweitern die lineare Modellklasse und f\u00fchren zu besseren Modellierungseigenschaften, z.B. f\u00fcr Heizungssysteme. In heutigen Anwendungen werden die betrachteten Systeme immer komplexer. Zur Modellierung solch gro\u00dfer Systeme werden hier Tensorzerlegungsverfahren angewendet, um eine speicherplatzeffiziente Modelldarstellung zu erreichen. Tensormethoden werden weiterhin dazu verwendet, verschiedene Methoden zur Modellanalyse und zum Reglerentwurf zu entwickeln. Da sich MTI Modelle dazu eignen das Verhalten sehr gro\u00dfer Systeme zu beschreiben, werden, basierend auf der Tensorstruktur, Methoden f\u00fcr verteilte Regelungen entworfen, um den Kommunikationsaufwand und die Komplexit\u00e4t der Regler zu reduzieren. Die entworfenen Regler werden in der Simulation auf verschiedene Beispiele aus dem Bereich der Heizungssysteme angewendet, um deren Vorteile zu zeigen. Zudem erfolgt die erfolgreiche Echtzeitanwendung eines pr\u00e4diktiven Reglers auf ein reales B\u00fcrogeb\u00e4ude, der die multilineare Tensorstruktur des Modells nutzt.",
+                "In Germany 35% of the end energy is currently consumed in the buildings sector. Model-based controller design methods offer the possibility to use the high energy saving potential to reduce this energy demand. Several tools for model-based design are available for linear state space models. But linear methods may fail when nonlinear effects are essential as e.g. in the area of buildings. Multilinear time-invariant (MTI) models extend the linear model class and lead to better modeling properties, e.g. for heating systems. Today's applications focus more and more on complex systems. To deal with these large-scale systems a MTI model representation with different decomposed tensor methods is derived here to get a memory efficient model description. Tensor methods are used to develop different model analysis and controller design methods especially for MTI models. Since decomposed MTI models allow to describe the dynamics of large-scale systems, methods for distributed controller design of such systems are derived based on the decomposed tensor structure of the models to reduce the communication effort as well as the computational complexity. The controller algorithms are applied in simulation to different heating systems examples to show their advantages for building automation. The results of a successful realtime application of a predictive controller at a realworld office building using the MTI tensor structure are presented."
+            ],
+            "contributor": [
+                "gnd:173178995",
+                "gnd:122059360"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:10178437-5"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

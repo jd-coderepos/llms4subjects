@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118112546",
+            "sameAs": "John, Volker"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1873397798",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (22 Seiten, 1,95 MB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Frerichs-Mihov, Derk",
+                "Henning, Linus"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1873397798",
+                "(ppn)1873397798",
+                "(doi)10.20347/WIAS.PREPRINT.3063"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "On loss functionals for physics-informed neural networks for convection-dominated convection-diffusion problems",
+            "abstract": "In the convection-dominated regime, solutions of convection-diffusion problems usually possesses layers, which are regions where the solution has a steep gradient. It is well known that many classical numerical discretization techniques face difficulties when approximating the solution to these problems. In recent years, physics-informed neural networks (PINNs) for approximating the solution to (initial-)boundary value problems received a lot of interest. In this work, we study various loss functionals for PINNs that are novel in the context of PINNs and are especially designed for convection-dominated convection-diffusion problems. They are numerically compared to the vanilla and a hp-variational loss functional from the literature based on two benchmark problems whose solutions possess different types of layers. We observe that the best novel loss functionals reduce the L2 (\u03a9) error by 17.3% for the first and 5.5% for the second problem compared to the methods from the literature.",
+            "alternative": "On loss functionals for PINNs for convection-dominated convection-diffusion problems",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:118112546"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3063",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3063",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

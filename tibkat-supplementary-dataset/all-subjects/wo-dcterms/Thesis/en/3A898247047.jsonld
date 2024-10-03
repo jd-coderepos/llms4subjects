@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10179296-7",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Telematik"
+        },
+        {
+            "@id": "gnd:1140504185",
+            "sameAs": "Siegemund, Gerry"
+        },
+        {
+            "@id": "gnd:122165527",
+            "sameAs": "Turau, Volker"
+        },
+        {
+            "@id": "gnd:172719569",
+            "sameAs": "Nolte, J\u00f6rg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898247047",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 146 Seiten)",
+            "creator": "Technische Universit\u00e4t Hamburg-Harburg",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)898247047",
+                "(doi)10.15480/882.1426",
+                "(firstid)GBV:898247047"
+            ],
+            "subject": [
+                "Self-stabilization",
+                "(classificationName=ddc)004: Informatik",
+                "Distributed algorithms",
+                "Cyber physical systems",
+                "Internet of things (IoT)",
+                "Wireless sensor networks",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Self-stabilizing algorithms in wireless sensor networks",
+            "abstract": "The presented dissertation focuses on the applicability of self-stabilizing algorithms in systems using wireless communication. Especially wireless sensor networks (WSN) which use low power radios that are prone to message loss and corruption. Furthermore, temporary node failures (e.g., due to exhausted batteries) are common sources of nonconformances. Thus, distributed algorithms, middleware systems, and applications have to respond to these faults. A typical approach is to foresee such error situations and program routines to react to them. Algorithms defined in a self- stabilizing manner (SSA) on the other hand always converge to a defined system state and remain in it while no fault occurs. Hence, the anticipation of error situations is no longer a necessity. Entities in a distributed system (nodes) share certain informations among their neighborhood (adjacent nodes) and react following the distinct routine of the used SSA. To this day self-stabilization is primarily a theoretical approach, well studied concerning, e.g., the bounds of execution steps. Profound practical evaluation, espe- cially in the presents of rapidly changing neighbor states, as common in WSNs, is still an open issue. This work firstly establishes necessities to use SSAs in the wireless domain, con- cluding that a certain degree of forced stability concerning a nodes neighborhood is vital. Nevertheless, such a topology control cannot be rigid, e.g., by using a fixed predefined setup, because node additions or removals cannot be supported. Hence, a topology control algorithm (TCA) is introduced, generating a trade-off between forced stability and agility. Using this TCA as a cornerstone, multiple SSAs are evaluated, and high level al- gorithms are developed, culminating in a publish/subscribe middleware defined in a self-stabilizing fashion. The publish/subscribe system relies on a self-stabilizing spanning tree algorithm and a novel self-stabilizing virtual ring algorithm. Further- more, the publication routing uses shortcuts in the virtual ring, decreasing routing paths in the process. The presented algorithms are evaluated using simulations employing realistic radio models, as well as implementation on sensor node hardware with low power radios, low computation power, and restricted memory. The novel publish/subscribe system is executable on such limited hardware, uses less messages to deliver data to pub- lishers than a comparable tree-based approach, due to the mentioned shortcuts, and scales well with the network size. It achieves a compromise between the size and maintenance effort for routing tables and the length of routing paths. Concluding, the dissertation provides an incentive to use self-stabilization algo- rithms in wireless sensor network applications. As shown, even high level systems like a publish/subscribe middleware can be realized with this inherently fault-tolerant approach.",
+            "contributor": [
+                "gnd:172719569",
+                "gnd:122165527"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1140504185"
+                },
+                {
+                    "@id": "gnd:10179296-7"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15480/882.1426",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

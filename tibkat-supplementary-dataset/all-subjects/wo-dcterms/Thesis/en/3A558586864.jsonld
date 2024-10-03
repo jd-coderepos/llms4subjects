@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4037687-4",
+            "sameAs": "Mars (Planet)"
+        },
+        {
+            "@id": "gnd:4179066-2",
+            "sameAs": "Sandsturm"
+        },
+        {
+            "@id": "gnd:4186290-9",
+            "sameAs": "Trombe"
+        },
+        {
+            "@id": "gnd:4264283-8",
+            "sameAs": "Bilderkennung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A558586864",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 158 S., 8653 KB)",
+            "creator": "Stanzel, Christina",
+            "identifier": [
+                "(ppn)558586864",
+                "(firstid)DNB:98679287X"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)551.559099923",
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=bk, id=106407635)39.53 - Planeten"
+            ],
+            "title": "Studying Martian dust devils by applying pattern recognition algorithms to multi-mission camera images",
+            "abstract": "A pattern recognition and classification software was developed to detect dust devils automatically in surface images from Mars. The amount of images taken by spacecraft orbiting Mars is increasing continuously and the expenditure of time is too high to search every image for spatially and temporally highly variable features like dust devils. The pattern recognition method was therefore used to conduct a completely new kind of search for dust devils. Images from the three different Mars missions Viking, Mars Global Surveyor and Mars Express can be processed and for the first time automatically scanned for the desired objects. Viking images including dust devils were used as the database to filter unique dust devil features and the derived parameters built the feature vector. Various Classification methods have been tested resulting in a two-layer perceptron (neural network) as the best classifier. Necessary adjustments and increments complete the software so that it can be applied to Mars Global Surveyor Mars Orbiter Camera (MOC), Mars Express High Resolution Stereo Camera (HRSC) and probably coming images from future missions. It was shown that the standard dust devil is filtered and correctly classified. The two main features, the bright spot representing the dust column and the shadow, must be filterable from the background. Crater rims and hills are the most false-positive objects ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4179066-2",
+                "gnd:4186290-9",
+                "gnd:4264283-8",
+                "gnd:4037687-4"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

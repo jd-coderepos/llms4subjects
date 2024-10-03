@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:111379433X",
+            "sameAs": "Peterson, Andrew F."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A722646534",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (124 Seiten)",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn)1598290134",
+                "(firstid)GBV:722646534",
+                "(ppn)722646534",
+                "(doi)10.2200/S00008ED1V01Y200508CEM001",
+                "(isbn13)9781598290134"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Boundary element methods",
+                "Moments method (Statistics)",
+                "(classificationName=loc)QC760.4.M37",
+                "(classificationName=linseach:mapping)phy",
+                "Integral equations",
+                "Electronic books",
+                "Electromagnetism",
+                "(classificationName=ddc)537.0151545"
+            ],
+            "title": "Mapped Vector Basis Functions for Electromagnetic Integral Equations",
+            "abstract": [
+                "The method-of-moments solution of the electric field and magnetic field integral equations (EFIE and MFIE) is extended to conducting objects modeled with curved cells. These techniques are important for electromagnetic scattering, antenna, radar signature, and wireless communication applications. Vector basis functions of the divergence-conforming and curl-conforming types are explained, and specific interpolatory and hierarchical basis functions are reviewed. Procedures for mapping these basis functions from a reference domain to a curved cell, while preserving the desired continuity properties on curved cells, are discussed in detail. For illustration, results are presented for examples that employ divergence-conforming basis functions with the EFIE and curl-conforming basis functions with the MFIE. The intended audience includes electromagnetic engineers with some previous familiarity with numerical techniques",
+                "1. Introduction -- 1.1. Integral equations -- 1.2. The method of moments -- 2. The surface model -- 2.1. Differential geometry -- 2.2. Mapping from square cells using Lagrangian interpolation polynomials -- 2.3. A specific example : quadratic polynomials mapped from a square reference cell -- 2.4. Mapping from triangular cells via interpolation polynomials -- 2.5. Example : quadratic polynomials mapped from a triangular reference cell -- 2.6. Constraints on node distribution -- 2.7. Hermitian mapping from square cells -- 2.8. Connectivity -- 3. Divergence-conforming basis functions -- 3.1. Characteristics of vector fields and vector basis functions -- 3.2. What does divergence-conforming mean? -- 3.3. History of the use of divergence-conforming basis functions -- 3.4. Basis functions of order p = 0 for a square reference cell -- 3.5. Basis functions of order p = 0 for a triangular reference cell -- 3.6. Nedelec's mixed-order spaces and the EFIE -- 3.7. Higher-order interpolatory functions for square cells -- 3.8. Higher-order interpolatory functions for triangular cells -- 3.9. Higher-order hierarchical functions for square cells -- 3.10. Higher-order hierarchical functions for triangular cells -- 4. Curl-conforming basis functions -- 4.1. What does curl-conforming mean? -- 4.2. History of the use of curl-conforming basis functions -- 4.3. Relation between the divergence-conforming and curl-conforming functions -- 4.4. Basis functions of order p = 0 for a square reference cell -- 4.5. Basis functions of order p = 0 for a triangular reference cell -- 4.6. Higher-order interpolatory functions for square cells -- 4.7. Higher-order interpolatory functions for triangular cells -- 4.8. Higher-order hierarchical functions for square cells -- 4.9. Higher-order hierarchical functions for triangular cells -- 5. Transforming vector basis functions to curved cells -- 5.1. Base vectors and reciprocal base vectors -- 5.2. Jacobian relations -- 5.3. Representation of vector fields -- 5.4. Restriction to surfaces -- 5.5. Curl-conforming basis functions on curvilinear cells -- 5.6. Divergence-conforming basis functions on curvilinear cells -- 5.7. The implementation of vector derivatives -- 5.8. Summary -- 6. Use of divergence-conforming basis functions with the electric field integral equation -- 6.1. Tested form of the EFIE -- 6.2. The subsectional model -- 6.3. Mapped MoM matrix entries -- 6.4. Normalization of divergence-conforming basis functions -- 6.5. Treatment of the singularity of the Green's function -- 6.6. Quadrature rules -- 6.7. Example : scattering cross section of a sphere -- 7. Use of curl-conforming bases with the magnetic field integral equation -- 7.1. Tested form of the MFIE -- 7.2. Entries of the MoM matrix -- 7.3. Mapped MoM matrix entries -- 7.4. Normalization of curl-conforming basis functions -- 7.5. Treatment of the singularity of the Green's function -- 7.6. Results"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:111379433X",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.2200/S00008ED1V01Y200508CEM001",
+            "P30128": "Synthesis Lectures on Computational Electromagnetics",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

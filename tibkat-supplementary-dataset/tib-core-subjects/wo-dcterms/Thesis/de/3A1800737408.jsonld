@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1256709115",
+            "sameAs": "Winkler, Sebastian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1800737408",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 160 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1800737408",
+                "(firstid)KXP:1800737408",
+                "(doi)10.15496/publikation-67669"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc)572.86"
+            ],
+            "title": "De-novo pathway discovery for multi-omics data",
+            "abstract": [
+                "In der vorliegenden Arbeit werden Methoden und Software vorgestellt, die es erlauben, aus Hochdurchsatz Omics-Daten und biomolekularen Interaktionsnetzwerken biologisch relevante Muster zu extrahieren. Es wird ein Algorithmus entwickelt, der es erm\u00f6glicht, aus gro\u00dfen gerichteten molekularen Interaktionsnetzwerken sog. deregulierte Teilnetzwerke zu extrahieren. Deregulierung wird hierbei \u00fcber auf die Knoten des Netzwerkes abgebildete Omics-Daten definiert. Es wird eine statistische Grundlage f\u00fcr den vorgestellten Algorithmus diskutiert und eine Evaluierung hinsichtlich methodisch verwandter Verfahren vorgenommen. Der Algorithmus und seine Implementierung, DeRegNet, beruhen auf fraktionaler ganzzahliger Optimierung und erlauben zahlreiche Anwendungsszenarien. Exemplarisch wird die Anwendung auf \u00f6ffentlich zug\u00e4ngliche Daten des TCGA-Projekts vorgestellt (TCGA: The Cancer Genome Atlas), hier genauer an Hand der Daten zum hepatozellul\u00e4ren Karzinom (Leberkrebs). Weiterhin werden Anwendungen auf eine Studie des Folate One-Carbon Metabolismus im Leberkrebs, als auch auf die phosphoproteomische Regulierung des Saccharomyces cerevisiae (Backhefe) Zellzyklus beschrieben. Abschlie\u00dfend wird auf die allgemeine Architektur und einige Implementationsdetails einer web-basierten API (Application Programming Interface) zur Bereitstellung von DeRegNet eingegangen.",
+                "This thesis presents algorithms and software which allow the extraction of biologically meaningful patterns from high-throughput multi-omics data and biomolecular networks. It describes the concept and implementation of an algorithm which allows the extraction of deregulated subnetworks from large directed molecular interaction networks based on node scores derived from omics data. Statistical underpinnings of the algorithms are derived and the algorithm is benchmarked against its closest methodological relative. Relying on fractional integer programming, the algorithm and its implementation, DeRegNet, allow many flexible modes of application. I demonstrate the application of the algorithm in the context of the public TCGA (The Cancer Genome Atlas) liver cancer dataset, a study investigating the role of folate one-carbon metabolism in liver cancer and a study about the phosphoproteomic regulation of the Saccharomyces cerevisiae (baker's yeast) cell cycle. Finally, the general architecture and some implementation details of a web-based API for DeRegNet are presented."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1256709115"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-67669",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

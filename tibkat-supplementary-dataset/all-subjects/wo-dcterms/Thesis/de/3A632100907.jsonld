@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:142639257",
+            "sameAs": "Di Pietro Paolo, Dania"
+        },
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:4161879-8",
+            "sameAs": "Instation\u00e4rer Zustand"
+        },
+        {
+            "@id": "gnd:4177102-3",
+            "sameAs": "Rauschunterdr\u00fcckung"
+        },
+        {
+            "@id": "gnd:4181260-8",
+            "sameAs": "Signalanalyse"
+        },
+        {
+            "@id": "gnd:4327812-7",
+            "sameAs": "St\u00f6rabstand"
+        },
+        {
+            "@id": "gnd:4328701-3",
+            "sameAs": "Magnetokardiografie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A632100907",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 150 S., 15,7 MB)",
+            "contributor": [
+                "Trahms, Lutz",
+                "Leeuven, Peter"
+            ],
+            "identifier": [
+                "(ppn)632100907",
+                "(firstid)GBV:632100907"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)621.3",
+                "(classificationName=bk, id=106409417)44.85 - Kardiologie, Angiologie",
+                "(classificationName=bk, id=106421557)44.09 - Medizintechnik",
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=linseach:mapping)med"
+            ],
+            "title": "Numerical methods for improved signal to noise ratios in spatio-temporal biomedical data",
+            "abstract": "Magnetorkardiographie (MKG) ist eine Methode zur Messung des Herzmagnetfeldes, welches durch elektrische Aktivit\u00e4t hervorgerufen wird.  Die Auswertung von MKG Signalen wird durch \u00dcberlagerung mit Rauschen und verschiedener anderer St\u00f6rungen erschwert.  Verschiedene Methoden, wie Mittelung, Bandpass- und Bandsperrenfilter wurden zur Rauschunterdr\u00fcckung  herangezogen. Ein allgemeines System, welches verschiedene Typologien des MKG Signals (Schlagpausen, Stress und Patienten mit implantiertem ICD -Intrakardialer Defibrillator-) mit einer angemessenen Anzahl an Aufzeichnungen gibt es noch nicht. Daher ist ein vorrangiges Ziel dieser Arbeit ist es, Methoden zur Unterdr\u00fcckung von Rauschen und Artefakten zu entwickeln. - Aufgrund der Nichtstationarit\u00e4t von Rauschen erh\u00e4lt man durch herk\u00f6mmliche Mittelung der Daten nicht die theoretisch m\u00f6gliche Verbesserung. Um dieses Problem zu beherrschen wurde ein Algorithmus zur Datenmittelung angewendet, der die meisten verrauschten Herzschl\u00e4ge ignoriert. Das Ergebnis dieser Methode best\u00e4tigt im Fall von nicht station\u00e4rem Rauschen die Ergebnisse aus der Literatur und zeigte ein Maximum im Signal to Noise Ratio (SNR) nach einer bestimmten Anzahl von ausgew\u00e4hlten Herzschl\u00e4gen. Ein theoretisches Kriterium f\u00fcr das Optimum des SNR wurde daraus abgeleitet. - Der zweite Teil der Arbeit besch\u00e4ftigt sich mit der Blind Source Separation (BSS) als Vorbereitender Schritt f\u00fcr die Mittelungsmethode im Fall vom MCG Signalen mit niedrigem SNR. Verschiedene BSS Algorithmen zur Rauschunterdr\u00fcckung, Separation und Rechenzeit f\u00fcr verschiedene Datentypen wurden getestet. Ein Nachteil der BSS Algorithmen besteht in der nicht a priori feststellbaren Reihenfolge der zerlegten Quellen. Deshalb wurden drei unterschiedliche statistische Methoden zur R\u00fcckgewinnung des Herzsignals entwickelt. - Im letzten Teil der vorliegenden Arbeit wurden die BSS Methoden auf Messungen an Patienten mit implantierten ICDs angewendet. Diese Patienten galten bisher als weder mess- noch auswertbar. Die Ergebnisse zeigten, dass es m\u00f6glich war das Herzsignal zu extrahieren, wenn auch nicht mit einer automatischen Prozedur. Die Temporal Decorrelation Source Separation als beste Methode erwiesen. - Zusammenfassend konnte gezeigt werden, dass durch die vorgestellten Methoden zur SNR Unterdr\u00fcckung  MKGs auch in der klinischen Routine zum Einsatz kommen k\u00f6nnen.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:143795244"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:142639257",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4161879-8",
+                "gnd:4177102-3",
+                "gnd:4181260-8",
+                "gnd:4327812-7",
+                "gnd:4328701-3"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

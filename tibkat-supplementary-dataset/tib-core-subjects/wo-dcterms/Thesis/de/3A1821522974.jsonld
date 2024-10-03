@@ -1,0 +1,144 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1022831690",
+            "sameAs": "R\u00fcckverfolgbarkeit (Informatik)"
+        },
+        {
+            "@id": "gnd:1051764955",
+            "sameAs": "Riebisch, Matthias"
+        },
+        {
+            "@id": "gnd:1196738262",
+            "sameAs": "Rath, Michael"
+        },
+        {
+            "@id": "gnd:1196738718",
+            "sameAs": "M\u00e4der, Patrick"
+        },
+        {
+            "@id": "gnd:134295390",
+            "sameAs": "Zimmermann, Armin"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4116522-6",
+            "sameAs": "Softwareentwicklung"
+        },
+        {
+            "@id": "gnd:4122795-5",
+            "sameAs": "Analyse"
+        },
+        {
+            "@id": "gnd:4132652-0",
+            "sameAs": "Softwaretest"
+        },
+        {
+            "@id": "gnd:4153834-1",
+            "sameAs": "Fehlerbehandlung"
+        },
+        {
+            "@id": "gnd:4329116-8",
+            "sameAs": "Softwareprodukt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1821522974",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 142, XXX Seiten)",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(doi)10.22032/dbt.53717",
+                "(firstid)KXP:1821522974",
+                "(ppn)1821522974"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=rvk)ST 233",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)005.1"
+            ],
+            "title": "Utilizing traceable software artifacts to improve bug localization",
+            "abstract": "Die Entwicklung von Softwaresystemen ist eine komplexe Aufgabe. Qualit\u00e4tssicherung versucht auftretenden Softwarefehler (bugs) in Systemen zu vermeiden, jedoch k\u00f6nnen Fehler nie ausgeschlossen werden. Sobald ein Softwarefehler entdeckt wird, wird typischerweise ein Fehlerbericht (bug report) erstellt. Dieser dient als Ausgangspunkt f\u00fcr den Entwickler den Fehler im Quellcode der Software zu finden und zu beheben (bug fixing). Fehlerberichte sowie weitere Softwareartefakte, z.B. Anforderungen und der Quellcode selbst, werden in Software Repositories abgelegt. Diese erlauben die Artefakte mit trace links zur Nachvollziehbarkeit (traceability) zu verkn\u00fcpfen. Oftmals ist die Erstellung der trace links im Entwicklungsprozess vorgeschrieben. Dazu z\u00e4hlen u.a. die Luftfahrt- und Automobilindustrie, sowie die Entwicklung von medizinischen Ger\u00e4ten. Das Auffinden von Softwarefehlern in gro\u00dfen Systemen mit tausenden Artefakten ist eine anspruchsvolle, zeitintensive und fehleranf\u00e4llige Aufgabe, welche eine umfangreiche Projektkenntnis erfordert. Deswegen wird seit Jahren aktiv an der Automatisierung dieses Prozesses geforscht. Weiterhin wird die manuelle Erstellung und Pflege von trace links als Belastung empfunden und sollte weitgehend automatisiert werden. In dieser Arbeit wird ein neuartiger Algorithmus zum Auffinden von Softwarefehlern vorgestellt, der aktiv die erstellten trace links ausnutzt. Die Artefakte und deren Beziehungen dienen zur Erstellung eines Nachvollziehbarkeitsgraphen, welcher analysiert wird um fehlerhafte Quellcodedateien anhand eines Fehlerberichtes zu finden. Jedoch muss angenommen werden, dass nicht alle notwendigen trace links zwischen den Softwareartefakten eines Projektes erstellt wurden. Deswegen wird ein vollautomatisierter, projektunabh\u00e4ngiger Ansatz vorgestellt, der diese fehlenden trace links erstellt (augmentation). Die Grundlage zur Entwicklung dieses Algorithmus ist der typische Entwicklungsprozess eines Softwareprojektes. Die entwickelten Ans\u00e4tze wurden mit mehr als 32.000 Fehlerberichten von 27 Open-Source Projekten evaluiert und die Ergebnisse zeigen, dass die Einbeziehung von traceability signifikant das Auffinden von Fehlern im Quellcode verbessert. Weiterhin kann der entwickelte Augmentation Algorithmus zuverl\u00e4ssig fehlende trace links erstellen.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:134295390"
+                },
+                {
+                    "@id": "gnd:1196738718"
+                },
+                {
+                    "@id": "gnd:1051764955"
+                }
+            ],
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1196738262"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4122795-5",
+                "gnd:4329116-8",
+                "gnd:4132652-0",
+                "gnd:4116522-6",
+                "gnd:4153834-1",
+                "gnd:1022831690"
+            ],
+            "isLike": "doi:10.22032/dbt.53717",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

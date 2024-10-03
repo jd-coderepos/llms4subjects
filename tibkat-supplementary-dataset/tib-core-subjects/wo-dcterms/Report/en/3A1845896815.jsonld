@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1191402355",
+            "sameAs": "Kantner, Markus"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1845896815",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (10 Seiten, 2,05 MB)",
+            "http://purl.org/dc/elements/1.1/creator": "Mertensk\u00f6tter, Lutz",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.3014",
+                "(firstid)KXP:1845896815",
+                "(ppn)1845896815"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Bayesian estimation of laser linewidth from delayed self-heterodyne measurements",
+            "abstract": "We present a statistical inference approach to estimate the frequency noise characteristics of ultra-narrow linewidth lasers from delayed self-heterodyne beat note measurements using Bayesian inference. Particular emphasis is on estimation of the intrinsic (Lorentzian) laser linewidth. The approach is based on a statistical model of the measurement process, taking into account the effects of the interferometer as well as the detector noise. Our method therefore yields accurate results even when the intrinsic linewidth plateau is obscured by detector noise. The regression is performed on periodogram data in the frequency domain using a Markov-chain Monte Carlo method. By using explicit knowledge about the statistical distribution of the observed data, the method yields good results already from a single time series and does not rely on averaging over many realizations, since the information in the available data is evaluated very thoroughly. The approach is demonstrated for simulated time series data from a stochastic laser rate equation model with 1/f\u2013type non-Markovian noise.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1191402355",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 3014",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.3014",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

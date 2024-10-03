@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1298283302",
+            "sameAs": "Borisov, Vadim"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1854273221",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XXI, 227 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1854273221",
+                "(ppn)1854273221",
+                "(doi)10.15496/publikation-85086"
+            ],
+            "subject": [
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)004",
+                "K\u00fcnstliche Intelligenz",
+                "(classificationName=ddc-dbn)006.32",
+                "(classificationName=linseach:mapping)inf",
+                "Data Science"
+            ],
+            "title": "Deep neural networks and tabular data : inference, generation, and explainability",
+            "abstract": "Over the last decade, deep neural networks have enabled remarkable technological advancements, potentially transforming a wide range of aspects of our lives in the future. It is becoming increasingly common for deep-learning models to be used in a variety of situations in the modern life, ranging from search and recommendations to financial and healthcare solutions, and the number of applications utilizing deep neural networks is still on the rise. However, a lot of recent research efforts in deep learning have focused primarily on neural networks and domains in which they excel. This includes computer vision, audio processing, and natural language processing. It is a general tendency for data in these areas to be homogeneous, whereas heterogeneous tabular datasets have received relatively scant attention despite the fact that they are extremely prevalent. In fact, more than half of the datasets on the Google dataset platform are structured and can be represented in a tabular form. The first aim of this study is to provide a thoughtful and comprehensive analysis of deep neural networks' application to modeling and generating tabular data. Apart from that, an open-source performance benchmark on tabular data is presented, where we thoroughly compare over twenty machine and deep learning models on heterogeneous tabular datasets. The second contribution relates to synthetic tabular data generation. Inspired by their success in other homogeneous data modalities, deep generative models such as variational autoencoders and generative adversarial networks are also commonly applied for tabular data generation. However, the use of Transformer-based large language models (which are also generative) for tabular data generation have been received scant research attention. Our contribution to this literature consists of the development of a novel method for generating tabular data based on this family of autoregressive generative models that, on multiple challenging benchmarks, outperformed the current state-of-the-art methods for tabular data generation. Another crucial aspect for a deep-learning data system is that it needs to be reliable and trustworthy to gain broader acceptance in practice, especially in life-critical fields. One of the possible ways to bring trust into a data-driven system is to use explainable machine-learning methods. In spite of this, the current explanation methods often fail to provide robust explanations due to their high sensitivity to the hyperparameter selection or even changes of the random seed. Furthermore, most of these methods are based on feature-wise importance, ignoring the crucial relationship between variables in a sample. The third aim of this work is to address both of these issues by offering more robust and stable explanations, as well as taking into account the relationships between variables using a graph structure. In summary, this thesis made a significant contribution that touched many areas related to deep neural networks and heterogeneous tabular data as well as the usage of explainable machine learning methods.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1298283302",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-85086",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

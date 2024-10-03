@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A546476600",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (21 S., 1,02 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Schintke, Florian",
+                "Sch\u00fctt, Thorsten",
+                "Reinefeld, Alexander"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)546476600",
+                "(firstid)GBV:546476600"
+            ],
+            "publisher": "Konrad-Zuse-Zentrum f\u00fcr Informationstechnik",
+            "subject": [
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "P2P routing of range queries in skewed multidimensional data sets",
+            "abstract": "We present a middleware to store multidimensional data sets on Internet-scale distributed systems and to efficiently perform range queries on them. Our structured overlay network SONAR (Structured Overlay Network with Arbitrary Range queries) puts keys which are adjacent in the key space on logically adjacent nodes in the overlay and is thereby able to process multidimensional range queries with a single logarithmic data lookup and local forwarding. The specified ranges may have arbitrary shapes like rectangles, circles, spheres or polygons. Empirical results demonstrate the routing performance of SONAR on several data sets, ranging from real-world data to artificially constructed worst case distributions. We study the quality of SONARs routing information which is based on local knowledge only and measure the indegree of the overlay nodes to find potential hot spots in the routing process. We show that SONARs routing table is self-adjusting, even under extreme situations, keeping always a maximum of  routing entries.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2007,23",
+            "P30128": "ZIB-Report / Konrad-Zuse-Zentrum f\u00fcr Informationstechnik Berlin",
+            "P60163": "Berlin-Dahlem"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

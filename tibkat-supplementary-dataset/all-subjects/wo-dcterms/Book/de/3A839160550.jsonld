@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1250721-0",
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Softwaresystemtechnik"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A839160550",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (148 Seiten, 5253 KB)",
+            "http://purl.org/dc/elements/1.1/creator": "Beyhl, Thomas",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)839160550",
+                "(firstid)GBV:839160550"
+            ],
+            "publisher": "Univ.-Verl.",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Efficient and scalable graph view maintenance for deductive graph databases based on generalized discrimination networks",
+            "abstract": "Graphdatenbanken bieten nat\u00fcrliche M\u00f6glichkeiten Graphdaten zu speichern und abzufragen. Im Gegensatz zu relationalen Datenbanken erm\u00f6glichen Graphdatenbanken Anfragen, die direkt auf der Graphstruktur der Daten arbeiten. Zum Beispiel k\u00f6nnen Graphmuster zur Formulierung von Anfragen an die Graphdatenbanken verwendet werden. Allerdings k\u00f6nnen wie f\u00fcr relationale Datenbanken komplexe Anfragen sehr zeitaufwendig sein und interaktive Anfrageszenarien mit der Datenbank verhindern. Ein m\u00f6glicher Ansatz mit diesem Geschwindigkeitsproblem umzugehen, ist das Vorberechnen von Antworten f\u00fcr komplexe und h\u00e4ufig gestellt Suchanfragen in Form von sogenannten Datenbanksichten. Dabei muss sichergestellt sein, dass Anfragen, die mit Hilfe von Datenbanksichten beantwortet werden, zu jeder Zeit die gleichen Suchergebnisse zur\u00fcckliefern als wenn sie ohne Datenbanksichten beantwortet werden, sodass Datenbanksichten gewartet werden m\u00fcssen bevor Suchanfragen mit Hilfe dieser Datenbanksichten beantwortet werden. Eine solche Wartung von Datenbanksichten muss effizient erfolgen, anderenfalls kann sich der Aufwand f\u00fcr die Erzeugung und Wartung der Datenbanksichten nicht auszahlen. Zum Zeitpunkt der Anfertigung dieses technischen Berichts, ist keine Graphdatenbank bekannt, die solche Datenbanksichten unterst\u00fctzt. Lediglich Indizes werden durch Graphdatenbanken unterst\u00fctzt, die es erm\u00f6glichen Knoten und Kanten eines Graphen f\u00fcr die schnelle Anfragenbeantwortung zu indizieren, aber erm\u00f6glichen es nicht vorberechnete Antworten auf Suchanfragen zu warten. Die Unterst\u00fctzung von Datenbanksichten durch Graphdatenbanken wird zus\u00e4tzlich erschwert wenn Negation und Rekursion unterst\u00fctzt werden sollen wie bei relationalen deduktiven Datenbanken. In diesen technischen Bericht beschreiben wir einen effizienten und skalierenden Ansatz zur inkrementellen Wartung von Dankenbanksichten f\u00fcr deduktive Graphdatenbanken. Das Hauptkonzept des Ansatzes ist ein sogenanntes verallgemeinertes Discrimination Network, dass es erm\u00f6glicht geschachtelte Graph Conditions inklusive Negation und Rekursion zu modellieren, die es erm\u00f6glichen den Inhalt von Datenbanksichten f\u00fcr Graphdatenbanken in Form von Graphmustern zu spezifizieren. Das Discrimination Network erlaubt die Ableitung von Regeln f\u00fcr die Wartung der Datenbanksichten wenn die Graphdaten von denen die Datenbanksichten abgeleitet wurden modifiziert werden. Wir evaluieren den Ansatz in Form einer Fallstudie und mehreren Graphdatens\u00e4tzen, die aus Open Source Projekten abgeleitet wurden.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1250721-0",
+                "gnd:173277950"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "99",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Softwaresystemtechnik an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

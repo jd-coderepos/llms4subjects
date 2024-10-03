@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017462127",
+            "sameAs": "Schmidt, Bernd"
+        },
+        {
+            "@id": "gnd:129394947",
+            "sameAs": "Reger, Johann"
+        },
+        {
+            "@id": "gnd:4145511-3",
+            "sameAs": "Bilineares System"
+        },
+        {
+            "@id": "gnd:4165203-4",
+            "sameAs": "Konverter (Elektronik)"
+        },
+        {
+            "@id": "gnd:4183750-2",
+            "sameAs": "Stromrichterregler"
+        },
+        {
+            "@id": "gnd:4190653-6",
+            "sameAs": "Zeitvariantes Regelungssystem"
+        },
+        {
+            "@id": "gnd:4488490-4",
+            "sameAs": "H-unendlich-Kontrolltheorie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A669432318",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 149 S., 1798 KB)",
+            "contributor": [
+                "Fossas-Colet, Enric",
+                "Zinober, Alan"
+            ],
+            "identifier": [
+                "(ppn)669432318",
+                "(firstid)GBV:669432318"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=bk, id=106417991)53.35 - Stromrichter, Transformatoren",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)a",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)a"
+            ],
+            "title": "H\u221e suboptimal tracking control for bilinear power converter systems with dynamic feedback : theory and experiment",
+            "abstract": "In der vorliegenden Dissertation werden bilineare Leistungskonvertersysteme untersucht, wie sie f\u00fcr Modellgleichungen mit gemittelten Zust\u00e4nden im kontinuierlichen Betrieb (engl. \"continuous conduction mode\") auftreten. Da eine gro\u00dfe Zahl dieser Leistungskonverter nicht eingangs-zustandslinearisierbar hinsichtlich des Regelausgangs und dann oft sogar nicht-minimalphasig sind, z\u00e4hlen sie zur Klasse der schwierig zu regelnden Systeme. Ein Regelungsziel f\u00fcr die betrachtete Systemklasse ist die Ber\u00fccksichtigung von Referenztrajektorien f\u00fcr einen Wunschausgang des Systemmodells. Dazu wird ein sogenanntes Fehlersystem eingef\u00fchrt, das die Differenz zwischen tats\u00e4chlichen Gr\u00f6\u00dfen und Referenzgr\u00f6\u00dfen widerspiegelt. Aufgrund der Bilinearit\u00e4t der urspr\u00fcnglichen Modellgleichung ist dieses Fehlersystem dann zeitvariant. Ein weiteres Ziel ist das Ausregeln von auftretenden St\u00f6rungen, Messrauschen, Modellunsicherheiten, usw., was \u00fcblicherweise anhand eines Integratoranteils (kurz: I-Anteils) im Regelgesetz ber\u00fccksichtigt wird. Ein I-Anteil ist eine dynamische Erweiterung der Zustandsgleichungen und f\u00fchrt zu einem zus\u00e4tzlichen Zustand. Damit die zus\u00e4tzliche Differentialgleichung nicht entkoppelt vorliegt, muss mit einer geeigneten Eingangstransformation daf\u00fcr gesorgt werden, dass der Integriererzustand im Regelgesetz vorkommt. Dadurch wird jedoch die urspr\u00fcngliche Bilinearit\u00e4t der Gleichungen zerst\u00f6rt, so dass am Ende ein eingangsaffines System vorliegt, das aber nat\u00fcrlich aufgrund der Bilinearit\u00e4t der urspr\u00fcnglichen Systemgleichungen eine spezifische Struktur aufweist. Eine \u00e4hnliche Herangehensweise wie beim I-Anteil erm\u00f6glicht die Sch\u00e4tzung und R\u00fcckf\u00fchrung der St\u00f6rung, womit dieselben Regelungsziele verfolgt werden wie bei der Variante mit dem I-Anteil. Hier f\u00fchrt die dynamische Erweiterung mit dem Sch\u00e4tzer im Gegensatz zum I-Anteil allerdings wieder auf eine bilineare Systemgleichung. Allerdings ist dieser Ansatz weniger allgemein und erfordert eine Neuplanung der Referenztrajektorien in Echtzeit, birgt aber mehr Freiheiten in der Wahl der Reglerparameter f\u00fcr den geschlossenen Regelkreis. Als R\u00fcckf\u00fchrstrategie wird eine H8-Zustandsregelung gew\u00e4hlt, um auftretenden St\u00f6rungen mit m\u00f6glichst minimalem Stellaufwand auszuregeln. Au\u00dferdem soll gleichzeitig der Fehler des Regelausgangs klein gehalten werden. Um schlie\u00dflich die Stabilit\u00e4t des geschlossenen Regelkreises f\u00fcr nichtverschwindende St\u00f6rungen untersuchen zu k\u00f6nnen, wird die sogenannten integral Input-to-State Stability (iISS) verwendet. Als Ergebnis der Arbeit k\u00f6nnen Bedingungen formuliert werden, wann eine suboptimale H8-Zustandsregelung gefunden werden kann. Unter Annahme dieser Bedingungen folgt dann sofort die iISS-Eigenschaft des geschlossenen Regelkreises. Die Allgemeinheit des Verfahrens zeigt sich dadurch, dass es sogar m\u00f6glich ist, den vorgestellten Ansatz auf allgemeine bilineare Systeme mit mehreren Eing\u00e4ngen zu erweitern. Das experimentelle Beispiel eines Hochsetzstellers in Kombination mit einem Gleichstrommotor wird dann zum Testen des Regelentwurfsverfahrens herangezogen. Dabei ist die Regelungsaufgabe, die Winkelgeschwindigkeit der Motorwelle einer vorgegeben Referenztrajektorie nachfahren zu lassen und auftretende Lastst\u00f6rungenauszuregeln. Dazu wurde die Variante der dynamischen Erweiterung anhand der R\u00fcckf\u00fchrung der St\u00f6rung mit Trajektorienneuplanung verwendet. Mit einer suboptimalen H8-Zustandsregelung wird der Regelkreis geschlossen, so dass iISS gew\u00e4hrleistet werden kann. F\u00fcr die Echtzeitgenerierung der durch ein Approximationsverfahren erm\u00f6glichten Trajektorienneuplanung wird au\u00dferdem Beschr\u00e4nktheit gezeigt. Eine Vielzahl von Experimenten dient der genaueren Untersuchung des Verfahrens.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:129394947"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:1017462127",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4488490-4"
+                },
+                {
+                    "@id": "gnd:4145511-3"
+                },
+                {
+                    "@id": "gnd:4165203-4"
+                },
+                {
+                    "@id": "gnd:4190653-6"
+                },
+                {
+                    "@id": "gnd:4183750-2"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

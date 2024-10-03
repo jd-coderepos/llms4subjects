@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1019443391",
+            "sameAs": "Potschka, Andreas"
+        },
+        {
+            "@id": "gnd:1180536177",
+            "sameAs": "Gutekunst, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1656014572",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (IV, 191 Seiten)",
+            "identifier": [
+                "(ppn)1656014572",
+                "(firstid)BSZ:520205553",
+                "(doi)10.11588/heidok.00026106"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)502.82",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Feedback control for average output systems",
+            "abstract": "Abstract: In this work we propose new methods for the design of economic Nonlinear Model Predictive Control (NMPC) feedback schemes for Average Output Optimal Control Problems (AOCPs). AOCPs are Optimal Control Problems (OCPs) defined on infinite time horizons with averaging performance critera as objective functionals. Such problems arise frequently for continuously operating systems such as for example power plants. Due to the infinite time horizon and the resulting intrinsic nonuniqueness of solutions, the design of appropriate NMPC schemes for AOCPs is challenging. Often, the analysis of the closed-loop behavior of economic NMPC schemes depends on dissipativity conditions on the dynamical system and the associated performance criterion, which sometimes can be hard to check. The methods we develop are based on the observation that periodic solutions exhibit excellent approximation properties for AOCPs, which is exploited by splitting the time horizon and the objective functional of the NMPC subproblems into a transient and a periodic part. For the analysis of the closed-loop behavior of the resulting controller we develop new methods that essentially work by showing that the (appropriately defined) difference of two subsequent NMPC subproblem solutions vanishes asymptotically. Complementary to many other economic NMPC schemes, this approach is not based on dissipativity assumptions on the dynamical system and the associated performance criterion but rather on assumptions on existence of periodic orbits, controllability of the dynamical system, and uniqueness of the NMPC subproblem solutions itself. As a result, we can show that the economic performance of the closed-loop system is equal to the economic performance of the optimal periodic solutions. Furthermore, the approach is extended in two directions. First, we consider the general setting of a parameter dependent dynamical system where the parameter can be subject to change during operation. This parameter change can lead to a change in the optimal periodic behavior, in particular also to a change of the optimal period, which we take into account by including the period as an optimization variable in the NMPC subproblem. Second, we show that the approach can also be applied to systems with time-dependent periodic performance criteria. All the described methods are implemented within the MATLAB NMPC toolkit MLI and are applied to a number of demanding applications. The simulation results confirm that the generated closed-loop trajectories perform economically equally well as the optimal periodic trajectories.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1019443391"
+                }
+            ],
+            "creator": "gnd:1180536177",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.11588/heidok.00026106",
+            "P60163": "Heidelberg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

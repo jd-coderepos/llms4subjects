@@ -1,0 +1,136 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1107448530",
+            "sameAs": "Ganganalyse"
+        },
+        {
+            "@id": "gnd:4038261-8",
+            "sameAs": "Medizinische Informatik"
+        },
+        {
+            "@id": "gnd:4038824-4",
+            "sameAs": "Sensor"
+        },
+        {
+            "@id": "gnd:4040936-3",
+            "sameAs": "Mustererkennung"
+        },
+        {
+            "@id": "gnd:4121663-5",
+            "sameAs": "Sensortechnik"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4226127-2",
+            "sameAs": "Neuronales Netz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1877468975",
+            "@type": "bibo:Book",
+            "P1053": "iii, 186 Seiten",
+            "creator": "Hoffmann, Raoul",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(isbn13)9783832557485",
+                "(ppn)1877468975",
+                "(firstid)KXP:1877468975"
+            ],
+            "publisher": "Logos Verlag",
+            "subject": [
+                "Medizinische Informatik",
+                "Informatik",
+                "Computeranwendungen in Industrie und Technologie",
+                "Informatik und Informationstechnologie",
+                "Sensortechnik",
+                "K\u00fcnstliche Intelligenz",
+                "Sensoren",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)610",
+                "Neuronale Netze und Fuzzysysteme",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz",
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik",
+                "Mustererkennung",
+                "Medizininformatik",
+                "Medizinische Ausstattung und Technik",
+                "Maschinelles Lernen",
+                "Angewandte Informatik",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Analysing data from capacitive floor sensors for human gait assessment using artificial neural networks",
+            "abstract": "Gait analysis is valuable in medical research and diagnosis, by delivering information that helps in choosing methods of intervention and rehabilitation that are beneficial for a patient. In gait laboratories, cameras or IMUs are often used to gather gait patterns. This thesis explores the possibility of using sensors below the floor as a gait data source. These sensors measure changes in the electrical capacitance to recognise steps. The construction is designed for indoor environments and is hidden under common flooring layer types. Therefore, it is very robust and suitable for practical use in daily clinical routine. A formal framework was developed to represent the measurements, considering the special characteristics of this floor sensor. The data were then used as input for artificial neural networks that were applied on classification and regression tasks. In a feature construction and extraction approach, the spatial spread of footfalls was derived and used with a feed-forward neural network. Then, in a feature learning approach, the time series data was transformed into a local receptive field, and used with a recurrent neural network. Three studies were conducted for the goals to distinguish between people with low and high risk of falling, to estimate age, and to recognise walking challenges as an external gait intervention. The combination of a robust and hidden floor sensor and machine learning opens up the prospect of future applications in health and care",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4226127-2"
+                },
+                {
+                    "@id": "gnd:4121663-5"
+                },
+                {
+                    "@id": "gnd:4038261-8"
+                },
+                {
+                    "@id": "gnd:4038824-4"
+                },
+                {
+                    "@id": "gnd:1107448530"
+                },
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4040936-3"
+                }
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1877468975.pdf",
+            "volume": "volume 5",
+            "P30128": "Human data understanding - sensors, models, knowledge",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

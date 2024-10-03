@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1300290900",
+            "sameAs": "K\u00fcbler, Jonas Matthias"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1856082369",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (126 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1856082369",
+                "(firstid)KXP:1856082369",
+                "(doi)10.15496/publikation-85411"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)006.31",
+                "Maschinelles Lernen",
+                "Statistischer Test",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Softwaretest"
+            ],
+            "title": "Learning and testing powerful hypotheses",
+            "abstract": "Progress in science is driven through the formulation of hypotheses about phenomena of interest and by collecting evidence for their validity or refuting them. While some hypotheses are amenable to deductive proofs, other hypotheses can only be accessed in a data-driven manner. For most phenomena, scientists cannot control all degrees of freedom and hence data is often inherently stochastic. This stochasticity disallows to test hypotheses with absolute certainty. The field of statistical hypothesis testing formalizes the probabilistic assessment of hypotheses, enabling researchers to control the error rates, for example, at which they reject a true hypothesis, while aiming to reject false hypotheses as often as possible. But how do we come up with promising hypotheses, and how can we test them efficiently? Can we use machine learning systems to automatically generate promising hypotheses? This thesis studies different aspects of this question. A simple rule for statistical hypothesis testing states that one should not peek at the data when formulating a hypothesis. This is indeed true if done naively, that is, when the hypothesis is then simply tested with the data as if one had not looked at it yet. However, we show that in principle using the same data for learning the hypothesis and testing it is feasible if we can correct for the selection of the hypothesis. We treat this in the case of the two-sample problem. Given two samples, the hypothesis to be tested is whether the samples originate from the same distribution. We can reformulate this by testing whether the maximum mean discrepancy over a (unit ball of a) reproducing kernel Hilbert space is zero. We show that we can learn the kernel function, hence the exact test we use, and perform the test with the same data, while still correctly controlling the Type-I error rates. Likewise, we demonstrate experimentally that taking all data into account can lead to more powerful testing procedures than the data splitting approach. However, deriving the formulae that correct for the selection procedure requires strong assumptions, which are only valid for a specific, the linear-time, estimate of the maximum mean discrepancy. In more general settings it is difficult, if not impossible, to adjust for the selection. We thus also analyze the case where we split the data and use part of it to learn a test statistic. The maximum mean discrepancy implicitly optimizes a mean discrepancy over the unit ball of a reproducing kernel Hilbert space, and often the kernel itself is optimized on held-out data.We instead propose to optimize a witness function directly on held-out data and use its mean discrepancy as a test statistic. This allows us to directly maximize the test power, simplifies the theoretical treatment, and makes testing more efficient.We provide and implement algorithms to learn the test statistics. Furthermore, we show analytically that the optimization objective to learn powerful tests for the two-sample problem is closely related to the objectives used in standard supervised learning tasks, namely the least-square loss and cross-entropy loss. This allows us to indeed use existing machine learning tools when learning powerful hypotheses. Furthermore, since we use held-out data for learning the test statistic, we can use any kind of model-selection and cross-validation techniques to maximize the performance. To facilitate this for practitioners, we provide an open-source Python package \u2019autotst\u2019 implementing an interface to existing libraries and running the whole testing pipeline, including the learning of the hypothesis. Our presented methods reach state-of-the-art performance on two-sample testing tasks. We also show how to trade off the computational resources required for the test by sacrificing some statistical power, which can be important in practice. Furthermore, our test easily allows interpreting the results. Having more computational power potentially allows extracting more information from data and thus obtain more significant results. Hence, investigating whether quantum computers can help in machine learning tasks has gained popularity over the past years. We investigate this in light of the two-sample problem. We define the quantum mean embedding, mapping probability distributions onto quantum states, and analyze when this mapping is injective. While this is conceptually interesting on its own, we do not find a straight-forward way of harnessing any speed-up. The main problem here is that there is no known way to efficiently create the quantum mean embedding. On the contrary, fundamental results in quantum information theory show that this might generally be hard to do. For two-sample testing, the usage of reproducing kernel Hilbert spaces has been established for many years and proven important both theoretically and practically. In this case, we thus focused on practically relevant aspects to make the tests as powerful and easy to use as possible. For other hypothesis testing tasks, the usage of advanced machine learning tools still lags far behind. For specification tests based on conditional moment restrictions, popular in econometrics, we do the first steps by defining a consistent test based on kernel methods. Our test already has promising performance, but optimizing it, potentially with the other insights gained in this thesis, is an open task.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1300290900",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-85411",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

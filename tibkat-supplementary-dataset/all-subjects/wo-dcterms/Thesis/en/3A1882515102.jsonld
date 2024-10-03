@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1322590397",
+            "sameAs": "Ershadi, M. Reza"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1882515102",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 110 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1882515102",
+                "(ppn)1882515102",
+                "(doi)10.15496/publikation-92608"
+            ],
+            "subject": [
+                "Eis",
+                "Radar",
+                "(classificationName=ddc-dbn)551.31",
+                "(classificationName=ddc-dbn)550",
+                "Anisotropie",
+                "Roboter",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Unveiling the ansiotropy of Antarctic ice across spatial scales using phase coherent radar",
+            "abstract": "Climate change and the associated rise in temperatures have raised concerns about Antarctica's substantial contribution to sea level rise and climate change. Evaluating this impact involves utilizing ice flow models, where the implementation of ice rheology plays a crucial role in influencing predictions. Ice is an anisotropic material, meaning as ice flows, crystals within it align in response to compression and extension, forming what is known as \"ice fabric.\" Ice fabric properties significantly affect ice flow dynamics. However, many models currently assume isotropic ice behavior, mainly due to limited observational data and the complexity involved in incorporating ice fabric anisotropy into the models. This assumption poses challenges in accurately predicting Antarctica's impact on sea level rise and climate change. To address this issue and improve the precision of ice flow models, it is essential to develop methodologies to enhance the quantity of observational data pertaining to ice fabric properties, which is the main focus of my doctoral research. Ice cores provide reliable ice fabric anisotropy observations but are impractical for expanding spatial coverage.Geophysical methods, including seismic and ultrasonic techniques, show potential. However, recent advancements in phase-coherent radar technology, specifically the phase-sensitive radio echo sounder (pRES radar), coupled with improved processing techniques, offer the most promise in bridging the observational gap in ice fabric properties. My thesis focuses on developing a data processing technique to estimate ice fabric properties from pRES radar measurements and mobilizing the pRES system to increase the quantity of the collected data. The initial phase of my doctoral research involves developing a nonlinear multivariable inverse algorithm, utilizing a matrix-based forward model to simulate radar backscattered signals in an anisotropic medium such as ice. In addition to that, I also developed a technique to approximate the full ice fabric orientation tensor, crucial for parameterizing ice fabric anisotropy in flow models. This method has undergone testing in three separate flow regimes in Antarctica, and the results have been validated through observations from nearby ice cores. Analyzing pRES measurements along a profile on an ice dome has demonstrated that estimated ice fabric anisotropy can reveal the Raymond effect, even when Raymond arches are absent. Although this method resolves ice fabric properties, it is limited by assumptions around initial model parameters, vertical eigenvector, and depth-invariant horizontal ice fabric orientation. The second phase of my research centers on modifying a commercial rover's hardware and software to develop a data acquisition system. The resultant system, named SLEDGE, is a customized ice rover, towing four pRES antennas in a quad-polarimetric setup on two sleds. It employs RTK GPS for precise positioning and drives autonomously to predefined locations and actively triggers the radar system capable of collecting data for profiles spanning several kilometers. A deployment to Antarctica as proof of concept yielded 23 kilometers of quad-polarimetric pRES measurements within 20 operational hours, covering 450 points. While the first deployment was a success, SLEDGE requires additional hardware and software refinement for future field deployment. Overall, the developed inverse approach and SLEDGE, together, show great potential to enhance the spatial coverage of ice fabric properties in the observational data archive\u2014a necessary step towards parameterizing ice fabric anisotropy in ice flow models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1322590397"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-92608",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

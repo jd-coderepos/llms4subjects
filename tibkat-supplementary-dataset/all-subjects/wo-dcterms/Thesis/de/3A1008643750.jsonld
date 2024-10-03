@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1029079021",
+            "sameAs": "Rinderle-Ma, Stefanie"
+        },
+        {
+            "@id": "gnd:1147859310",
+            "sameAs": "Prinz, Thomas M."
+        },
+        {
+            "@id": "gnd:120457342",
+            "sameAs": "Amme, Wolfram"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1008643750",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (153 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1008643750",
+                "(firstid)GBV:1008643750"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106405292)85.10 - Unternehmensplanung, Unternehmenskontrolle",
+                "(classificationName=bk, id=106417320)85.03 - Methoden und Techniken der Betriebswirtschaft",
+                "(classificationName=linseach:mapping)oek"
+            ],
+            "title": "Entwicklung von kontrollflussbasierten Methoden und Techniken f\u00fcr einen benutzerfreundlichen Entwurf von sicheren Gesch\u00e4ftsprozessen",
+            "abstract": "Arbeitsprozesse (Workflows) werden sehr h\u00e4ufig in visuellen Notationen als Graphen aus Knoten und Kanten formalisiert. Dabei gibt es verschiedene Arten von Knoten mit unterschiedlichen Semantiken. Durch diese k\u00f6nnen einzelne Aufgaben beschrieben sowie Entscheidungen und Parallelit\u00e4ten modelliert werden. Die Erstellung eines Arbeitsprozesses ist schwierig und wird deswegen von geschulten Experten \u00fcbernommen. Leider treten dabei dennoch h\u00e4ufig Fehler auf. Diese Fehler f\u00fchren zu einem inkorrekten Prozessverhalten, welches zum Nichterreichen von Unternehmenszielen und sogar im schlimmsten Fall zum Verlust von Menschenleben f\u00fchren kann. Kurzum: Fehlverhalten sind teuer und gef\u00e4hrlich! Die vorliegende Arbeit untersucht solches Fehlverhalten und deckt deren Ursachen auf, bevor sie Schaden verursachen k\u00f6nnen. Als Grundlage dient der Korrektheitsbegriff (Soundness). Er schlie\u00dft das Auftreten von Verklemmungen und \u00dcberfl\u00fcssen aufgrund des Kontrollflusses aus. Um die Ursachen dieser Fehlerwirkungen aufzudecken, wird eine partielle Analyse eingef\u00fchrt, die es erlaubt potentielle Fehlerursachen hinter anderen Fehlern aufzudecken. Darauf aufbauend pr\u00e4sentiert diese Arbeit zwei neue Techniken: Die erste Technik findet die Ursachen aller unmittelbar auftretenden, potentiellen Verklemmungen; die zweite ermittelt die Ursachen aller potentiellen \u00dcberfl\u00fcsse. Beide Techniken besitzen eine kubisch asymptotische Laufzeitkomplexit\u00e4t f\u00fcr realit\u00e4tsnahe Prozesse hinsichtlich der Anzahl der Kanten. Zudem liefern sie noch detaillierte diagnostische Informationen. Beide Eigenschaften der Algorithmen zertifizieren sie f\u00fcr den Einsatz als unterst\u00fctzendes Analyseverfahren. Als Nachweis der Effizienz und Qualit\u00e4t dieser Techniken wird zudem ein Werkzeug, Mojo, eingef\u00fchrt, welches diese implementiert. Dieses Werkzeug wird au\u00dferdem f\u00fcr eine Evaluation mit \u00fcber 1.300 Arbeitsprozessen aus der Praxis genutzt und mit zwei anderen Techniken des aktuellen Stands der Forschung verglichen.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1029079021"
+                },
+                {
+                    "@id": "gnd:120457342"
+                }
+            ],
+            "creator": [
+                "gnd:1147859310",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1068096934",
+            "sameAs": "Universit\u00e4tsverlag Potsdam"
+        },
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Digital Engineering"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851540180",
+            "@type": "bibo:Report",
+            "P1053": "1 Online Ressource (73 Seiten, 15322 KB)",
+            "creator": "Weber, Benedikt",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-56719",
+                "(ppn)1851540180",
+                "(firstid)KXP:1851540180",
+                "(isbn13)9783869565514"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "subject": [
+                "(classificationName=ddc-dbn)004.6",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Human pose estimation for decubitus prophylaxis",
+            "abstract": [
+                "Decubitus is one of the most relevant diseases in nursing and the most expensive to treat. It is caused by sustained pressure on tissue, so it particularly affects bed-bound patients. This work lays a foundation for pressure mattress-based decubitus prophylaxis by implementing a solution to the single-frame 2D Human Pose Estimation problem. For this, methods of Deep Learning are employed. Two approaches are examined, a coarse-to-fine Convolutional Neural Network for direct regression of joint coordinates and a U-Net for the derivation of probability distribution heatmaps. We conclude that training our models on a combined dataset of the publicly available Bodies at Rest and SLP data yields the best results. Furthermore, various preprocessing techniques are investigated, and a hyperparameter optimization is performed to discover an improved model architecture. Another finding indicates that the heatmap-based approach outperforms direct regression. This model achieves a mean per-joint position error of 9.11 cm for the Bodies at Rest data and 7.43 cm for the SLP data. We find that it generalizes well on data from mattresses other than those seen during training but has difficulties detecting the arms correctly. Additionally, we give a brief overview of the medical data annotation tool annoto we developed in the bachelor project and furthermore conclude that the Scrum framework and agile practices enhanced our development workflow.",
+                "Dekubitus ist eine der relevantesten Krankheiten in der Krankenpflege und die kostspieligste in der Behandlung. Sie wird durch anhaltenden Druck auf Gewebe verursacht, betrifft also insbesondere bettl\u00e4gerige Patienten. Diese Arbeit legt eine Grundlage f\u00fcr druckmatratzenbasierte Dekubitusprophylaxe, indem eine L\u00f6sung f\u00fcr das Einzelbild-2D-Posenabsch\u00e4tzungsproblem implementiert wird. Daf\u00fcr werden Methoden des tiefen Lernens verwendet. Zwei Ans\u00e4tze, basierend auf einem Gefalteten Neuronalen grob-zu-fein Netzwerk zur direkten Regression der Gelenkkoordinaten und auf einem U-Netzwerk zur Ableitung von Wahrscheinlichkeitsverteilungsbildern, werden untersucht. Wir schlussfolgern, dass das Training unserer Modelle auf einem kombinierten Datensatz, bestehend aus den frei verf\u00fcgbaren Bodies at Rest und SLP Daten, die besten Ergebnisse liefert. Weiterhin werden diverse Vorverarbeitungsverfahren untersucht und eine Hyperparameteroptimierung zum finden einer verbesserten Modellarchitektur durchgef\u00fchrt. Der wahrscheinlichkeitsverteilungsbasierte Ansatz \u00fcbertrifft die direkte Regression. Dieses Modell erreicht einen durchschnittlichen -Gelenk-Positionsfehler von 9,11 cm auf den Bodies at Rest und von 7,43 cm auf den SLP Daten. Wir sehen, dass es gut auf Daten anderer als der im Training verwendeten Matratzen funktioniert, aber Schwierigkeiten mit der korrekten Erkennung der Arme hat. Weiterhin geben wir eine kurze \u00dcbersicht des medizinischen Datenannotationstools annoto, welches wir im Zusammenhang mit dem Bachelorprojekt entwickelt haben, und schlussfolgern au\u00dferdem, dass Scrum und agile Praktiken unseren Entwicklungsprozess verbessert haben."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1155270444"
+                },
+                {
+                    "@id": "gnd:1068096934"
+                }
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Nr. 153",
+            "isLike": "doi:10.25932/publishup-56719",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Digital Engineering an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

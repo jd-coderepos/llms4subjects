@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749167092",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (228p)",
+            "creator": "Lam, Monica S.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4613-1705-0",
+                "(isbn13)9781461317050",
+                "(ppn)749167092",
+                "(firstid)GBV:749167092"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer architecture.",
+                "Signal processing.",
+                "Computer science",
+                "Engineering",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TA1637-1638",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)621.382",
+                "(classificationName=loc)TK5102.9",
+                "(classificationName=loc)TK7882.S65",
+                "Microprocessors."
+            ],
+            "title": "A Systolic Array Optimizing Compiler",
+            "abstract": [
+                "1. Introduction -- 1.1. Research approach -- 1.2. Overview of results -- 1.3. This presentation -- 2. Architecture of Warp -- 2.1. The architecture -- 2.2. Application domain of Warp -- 2.3. Programming complexity -- 3. A Machine Abstraction -- 3.1. Previous systolic array synthesis techniques -- 3.2. Comparisons of machine abstractions -- 3.3. Proposed abstraction: asynchronous communication -- 3.4. Hardware and software support -- 3.5. Chapter summary -- 4. The W2 Language and Compiler -- 4.1. The W2 language -- 4.2. Compiler overview -- 4.3. Scheduling a basic block -- 5. Software Pipelining -- 5.1. Introduction to software pipelining -- 5.2. The scheduling problem -- 5.3. Scheduling algorithm -- 5.4. Modulo variable expansion -- 5.5. Code size requirement -- 5.6. Comparison with previous work -- 5.7. Chapter summary -- 6. Hierarchical Reduction -- 6.1. The iterative construct -- 6.2. The conditional construct -- 6.3. Global code motions -- 6.4. Comparison with previous work -- 7. Evaluation -- 7.1. The experiment -- 7.2. Performance analysis of global scheduling techniques -- 7.3. Performance of software pipelining -- 7.4. Livermore Loops -- 7.5. Summary and discussion -- 8. Conclusions -- 8.1. Machine abstraction for systolic arrays -- 8.2. Code scheduling techniques -- References.",
+                "This book is a revision of my Ph. D. thesis dissertation submitted to Carnegie Mellon University in 1987. It documents the research and results of the compiler technology developed for the Warp machine. Warp is a systolic array built out of custom, high-performance processors, each of which can execute up to 10 million floating-point operations per second (10 MFLOPS). Under the direction of H. T. Kung, the Warp machine matured from an academic, experimental prototype to a commercial product of General Electric. The Warp machine demonstrated that the scalable architecture of high-peiformance, programmable systolic arrays represents a practical, cost-effective solu\u00ad tion to the present and future computation-intensive applications. The success of Warp led to the follow-on iWarp project, a joint project with Intel, to develop a single-chip 20 MFLOPS processor. The availability of the highly integrated iWarp processor will have a significant impact on parallel computing. One of the major challenges in the development of Warp was to build an optimizing compiler for the machine. First, the processors in the xx A Systolic Array Optimizing Compiler array cooperate at a fine granularity of parallelism, interaction between processors must be considered in the generation of code for individual processors. Second, the individual processors themselves derive their performance from a VLIW (Very Long Instruction Word) instruction set and a high degree of internal pipelining and parallelism. The compiler contains optimizations pertaining to the array level of parallelism, as well as optimizations for the individual VLIW processors."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1988",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "64",
+            "isLike": "doi:10.1007/978-1-4613-1705-0",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

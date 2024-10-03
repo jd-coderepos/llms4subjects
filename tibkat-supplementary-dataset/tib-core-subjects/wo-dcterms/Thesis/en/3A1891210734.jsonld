@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1334792054",
+            "sameAs": "Raj, Anant"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1891210734",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvi, 327 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-95119",
+                "(ppn)1891210734",
+                "(firstid)KXP:1891210734"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)519.6",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Optimization algorithms for machine learning",
+            "abstract": "With the advent of massive datasets and increasingly complex tasks, modern machine learning systems pose several new challenges in terms of scalability to high dimensional data as well as to large datasets. In this thesis, we consider to study scalable descent methods such as coordinate descent and stochastic coordinate descent which are based on the stochastic approximation of full gradient. In the first part of the thesis, we propose faster and scalable coordinate based opti- mization which scales to high dimensional problems. As a first step to achieve scalable coordinate based descent approaches, we propose a new framework to derive screening rules for convex optimization problems based on duality gap which covers a large class of constrained and penalized optimization formulations. In later stages, we develop new approximately greedy coordinate selection strategy in coordinate descent for large-scale optimization. This novel coordinate selection strategy provavbly works better than uni- formly random selection, and can reach the efficiency of steepest coordinate descent (SCD) in the best case. In best case scenario, this may enable an acceleration of a factor of up to n, the number of coordinates. Having similar objective in mind, we further propose an adaptive sampling strategy for sampling in stochastic gradient based optimization. The proposed safe sampling scheme provably achieves faster convergence than any fixed deterministic sampling schemes for coordinate descent and stochastic gradient descent methods. Exploiting the connection between matching pursuit where a more generalized notion of directions is considered and greedy coordinate descent where all the moving directions are orthogonal, we also propose a unified analysis for both the approaches and extend it to get the accelerated rate. In the second part of this thesis, we focus on providing provably faster and scalable mini batch stochastic gradient descent (SGD) algorithms. Variance reduced SGD methods converge significantly faster than the vanilla SGD counterpart. We propose a variance reduce algorithm k-SVRG that addresses issues of SVRG [98] and SAGA[54] by making best use of the available memory and minimizes the stalling phases without progress. In later part of the work, we provide a simple framework which utilizes the idea of optimistic update to obtain accelerated stochastic algorithms. We obtain accelerated variance reduced algorithm as well as accelerated universal algorithm as a direct consequence of this simple framework. Going further, we also employ the idea of local sensitivity based importance sampling in an iterative optimization method and analyze its convergence while optimizing over the selected subset. In the final part of the thesis, we connect the dots between coordinate descent method and stochastic gradient descent method in the interpolation regime. We show that better stochastic gradient based dual algorithms with fast rate of convergence can be obtained to optimize the convex objective in the interpolation regime.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1334792054",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-95119",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1285314182",
+            "sameAs": "Laube, Kevin Alexander"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1841021377",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 147 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1841021377",
+                "(ppn)1841021377",
+                "(doi)10.15496/publikation-79991"
+            ],
+            "subject": [
+                "Neuronales Netz",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)006.32",
+                "(classificationName=ddc-dbn)004",
+                "Maschinelles Lernen"
+            ],
+            "title": "Improving the automated search of neural network architectures",
+            "abstract": "Machine learning is becoming increasingly common in our society, from recommendation systems, audio assistants, and autonomous cars to gadgets like image filters for social media. Many other branches in research and industry are also planning to integrate artificial intelligence in their workflows shortly. However, developing and improving such algorithms for many specific tasks requires corresponding quantities of funding and labor, both of which are often scarce. In machine learning, automated hyper-parameter optimization techniques are widely used to find suitable training parameters such as learning rates and batch sizes. They do not just reduce the required labor but mostly exceed their human competition in speed and quality. Based on similar concepts, automatically designed neural network architectures achieved state-of-the-art performance on modern tasks for the first time in 2016. The study of such processes, known as Neural Architecture Search, quickly gained interest as a possible solution to the shortage of labor and a logical next step in the development of machine learning. This thesis focuses primarily on two aspects of neural architecture search: Firstly, we systematically analyze and improve a baseline search space for the network latency. Architectures discovered in the revised space design have an equivalent network accuracy but are twice as fast. In a second step, we investigate whether search space designs can be automated as well. The proposed Prune and Replace algorithm can progressively search through and specialize a weakly defined search space, even if it contains vastly more architectures than before. Due to multiple technical optimizations and considerations, the search requires less time than before and can discover better architectures. Secondly, we study performance predicting methods in different contexts. We conducted a large-scale hardware prediction study for various common predictors and studied in detail how multi-objective architecture search is affected by multiple factors such as predictor quality. We also evaluate a modification to super-networks, a widely used accuracy prediction approach. While the change is currently hard to apply, it results in a consistently improved selection of architectures. We conclude by presenting UniNAS, a framework built to unify various architecture search concepts and approaches in a single code base. Based on argument trees, experiments can be designed flexibly, in great detail, and even from a graphical user interface.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1285314182",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-79991",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

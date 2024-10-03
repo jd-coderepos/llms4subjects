@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1072583011",
+            "sameAs": "Menzel, Michael"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "gnd:4261480-6",
+            "sameAs": "Systementwurf"
+        },
+        {
+            "@id": "gnd:4832365-2",
+            "sameAs": "Modellgetriebene Entwicklung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A827815026",
+            "@type": "bibo:Thesis",
+            "P1053": "xiii, 137 Seiten",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:827815026",
+                "(ppn)827815026"
+            ],
+            "subject": [
+                "(classificationName=bk, id=106418866)54.38 - Computersicherheit",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)m",
+                "(classificationName=bk, id=475288998)54.65 - Webentwicklung, Webanwendungen"
+            ],
+            "title": "Model-driven security in service-oriented architectures : leveraging security patterns to transform high-level security requirements to technical policies",
+            "abstract": "Service-oriented Architectures (SOA) facilitate the provision and orchestration of business services to enable a faster adoption to changing business demands. Web Services provide a technical foundation to implement this paradigm on the basis of XML-messaging. However, the enhanced flexibility of message-based systems comes along with new threats and risks. To face these issues, a variety of security mechanisms and approaches is supported by the Web Service specifications. The usage of these security mechanisms and protocols is configured by stating security requirements in security policies. However, security policy languages for SOA are complex and difficult to create due to the expressiveness of these languages. To facilitate and simplify the creation of security policies, this thesis presents a model-driven approach that enables the generation of complex security policies on the basis of simple security intentions. SOA architects can specify these intentions in system design models and are not required to deal with complex technical security concepts. The approach introduced in this thesis enables the enhancement of any system design modelling languages \u2013 for example FMC or BPMN \u2013 with security modelling elements. The syntax, semantics, and notion of these elements is defined by our security modelling language SecureSOA. The metamodel of this language provides extension points to enable the integration into system design modelling languages. In particular, this thesis demonstrates the enhancement of FMC block diagrams with SecureSOA. To enable the model-driven generation of security policies, a domain-independent policy model is introduced in this thesis. This model provides an abstraction layer for security policies. Mappings are used to perform the transformation from our model to security policy languages. However, expert knowledge is required to generate instances of this model on the basis of simple security intentions. Appropriate security mechanisms, protocols and options must be chosen and combined to fulfil these security intentions. In this thesis, a formalised system of security patterns is used to represent this knowledge and to enable an automated transformation process. Moreover, a domain-specific language is introduced to state security patterns in an accessible way. On the basis of this language, a system of security configuration patterns is provided to transform security intentions related to data protection and identity management. The formal semantics of the security pattern language enable the verification of the transformation process introduced in this thesis and prove the correctness of the pattern application. Finally, our SOA Security LAB is presented that demonstrates the application of our model-driven approach to facilitate a dynamic creation, configuration, and execution of secure Web Service-based composed applications.zeige weniger",
+            "alternative": "Modell-getriebene Sicherheit in Service-orientierten Architekturen",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2120681-8",
+                "gnd:1072583011"
+            ],
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4832365-2"
+                },
+                {
+                    "@id": "gnd:4261480-6"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/827815026.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

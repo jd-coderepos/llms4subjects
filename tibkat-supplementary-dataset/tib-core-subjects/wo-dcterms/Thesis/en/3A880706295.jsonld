@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A880706295",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XIX, 75 Seiten)",
+            "creator": "Sch\u00fcthe, Dennis",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)880706295",
+                "(firstid)GBV:880706295"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Dynamic Bat-Control of a Redundant Ball Playing Robot",
+            "abstract": [
+                "Entertainment robot, optimal control, redundant, flexible joint, task level optimal control, calibration, state estimation, gyroscope.",
+                "This thesis shows a control algorithm for coping with a ball batting task for an entertainment robot. The robot is a three jointed robot with a redundant degree of freedom and its name is \"Doggy\". Doggy because of its dog-like costume. Design, mechanics and electronics were developed by us. DC-motors control the tooth belt driven joints, resulting in elasticities between the motor and link. Redundancy and elasticity have to be taken into account by our developed controller and are demanding control tasks. In this thesis we show the structure of the ball playing robot and how this structure can be described as a model. We distinguish two models: One model that includes a flexible bearing, the other does not. Both models are calibrated using the toolkit Sparse Least Squares on Manifolds (SLOM) - i.e. the parameters for the model are determined. Both calibrated models are compared to measurements of the real system. The model with the flexible bearing is used to implement a state estimator - based on a Kalman filter - on a microcontroller. This ensures real time estimation of the robot states. The estimated states are also compared with the measurements and are assessed. The estimated states represent the measurements well. In the core of this work we develop a Task Level Optimal Controller (TLOC), a model-predictive optimal controller based on the principles of a Linear Quadratic Regulator (LQR). We aim to play a ball back to an opponent precisely. We show how this task of playing a ball at a desired time with a desired velocity at a desired position can be embedded into the LQR principle. We use cost functions for the task description. In simulations, we show the functionality of the control concept, which consists of a linear part (on a microcontroller) and a nonlinear part (PC software). The linear part uses feedback gains which are calculated by the nonlinear part. The concept of the ball batting controller with precalculated feedback gains is evaluated on the robot. This shows successful batting motions. The entertainment aspect has been tested on the Open Campus Day at the University of Bremen and is summarized here shortly. Likewise, a jointly developed audience interaction by recognition of distinctive sounds is summarized herein. In this thesis we answer the question, if it is possible to define a rebound task for our robot within a controller and show the necessary steps for this."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2001386-3"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

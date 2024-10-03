@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1303981742",
+            "sameAs": "Magoni, Matteo"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1860222862",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 148, 11 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1860222862",
+                "(doi)10.15496/publikation-87185",
+                "(ppn)1860222862"
+            ],
+            "subject": [
+                "Quantenmechanisches System",
+                "Bose-Einstein-Kondensation",
+                "Rydberg-Zustand",
+                "(classificationName=linseach:mapping)phy",
+                "Ultrakaltes Atom",
+                "(classificationName=ddc-dbn)530"
+            ],
+            "title": "Exploring the non-equilibrium dynamics of kinetically constrained spin systems : Rydberg quantum simulation and artificial dissipation",
+            "abstract": "This thesis discusses the non-equilibrium dynamics of one-dimensional quantum many-body systems. In particular, we investigate two distinct situations in which interesting dynamical properties arise, i.e., when the quantum evolution is subject to kinetic constraints or competes with an artificial dissipation through stochastic resets. Both topics have attracted considerable interest in the last decade, as they offer a playground to theoretically investigate the long-standing question of how isolated quantum systems evolve under non-equilibrium conditions. From the experimental point of view, the recent technological progress in the control and manipulation of ultracold atomic gases has led to new breakthroughs in the domains of quantum simulation and quantum computation. Key for the latter applications is the utilization of atomic Rydberg states in which atoms, trapped in optical tweezers, interact via state-dependent electrostatic dipolar forces. These strong interactions make Rydberg systems ideal for the realization of kinetic constraints, which cause a restriction of the connectivity between many-body states in the Hilbert space. A prominent example of a kinetic constraint is the Rydberg blockade, in which an excited Rydberg atom prevents the surrounding atoms to be excited to the Rydberg state. This effect has been largely exploited to implement controlled gates and complex many-body dynamics. Much less explored is the opposite situation, called the facilitation (or anti-blockade) constraint, where the interactions shift the otherwise detuned laser in resonance. In this case only atoms at the correct distance to an already excited atom are resonantly driven by the laser, thereby creating an \u201cavalanche\u201d of excitations. The first part of the thesis is devoted to the study of the facilitation dynamics in Rydberg chains. The facilitation constraint favours the dynamical creation of contiguous Rydberg excitations. We find that the resulting Rydberg excitation \u201ccluster\u201d develops long-range interactions that cause the onset of Bloch oscillations, preventing the system from reaching an ergodic stationary state. Contrary to the blockade constraint, facilitation is more challenging to implement in current Rydberg quantum simulators. The reason for this difficulty is that facilitation is particularly affected by mechanical effects and position disorder. These two problems originate respectively from the mechanical forces that displace the atoms from their initial positions and the spreading of the atomic wave functions in the optical traps. The interplay between the electronic degrees of freedom and the vibrational ones leads to a coupling between the (internal) Rydberg dynamics and the (external) atomic motion. We find that such spin-phonon coupling inhibits the facilitation mechanism, suppressing the expansion of the excitation cluster. This vibronic interaction can be also exploited to explore molecular physics in Rydberg atom arrays. We show this by considering a system composed of three atoms trapped in optical tweezers that form an equilateral triangle. We find that the atomic vibrations in the traps break the electronic degeneracy and generate a structural Jahn-Teller distortion, paving the way towards the exploration of molecular physics at the exaggerated length scales typical of Rydberg systems. The second part of the thesis investigates the effects of stochastic resetting on the stationary properties of quantum many-body spin systems. Stochastic resetting is a process that interrupts the dynamics of a system at random times and resets it to a certain state. Then the dynamics restarts again. This process leads very generally to a non-equilibrium stationary state. When the choice of the reset state is determined by the outcome of a measurement taken immediately before resetting, we find that resetting induces an emergent non-Markovian open dynamics, described by a generalized Lindblad equation. We also show that stochastic resetting can generate quantum correlation and collective behaviour even in a non-interacting system, showing its potential for quantum sensing applications. The structure of the thesis is as follows. In the first chapter we introduce the topics covered in the thesis and provide useful references for the reader. In the second chapter we review the physics of Rydberg systems, including their single-body properties and their interactions. We also explain how Rydberg quantum simulators are used for the implementation of kinetic constraints. In the third chapter we review the physics of stochastic resetting and the main mathematical techniques used in the thesis. In the fourth chapter we summarize the original results contained in the thesis. The fifth chapter is dedicated to the conclusions and an outlook on possible future research directions.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1303981742"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-87185",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1062730054",
+            "sameAs": "Cano, Estefan\u00eda"
+        },
+        {
+            "@id": "gnd:1067162437",
+            "sameAs": "Grollmisch, Sascha"
+        },
+        {
+            "@id": "gnd:4031630-0",
+            "sameAs": "Kognition"
+        },
+        {
+            "@id": "gnd:4040802-4",
+            "sameAs": "Musik"
+        },
+        {
+            "@id": "gnd:4135339-0",
+            "sameAs": "Notenschrift"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1759391212",
+            "@type": "bibo:Article",
+            "creator": [
+                "Mora \u00c1ngel, Fernando",
+                "Gil, Gustavo L\u00f3pez",
+                "\u00c1ngel, Fernando Mora",
+                "L\u00f3pez Gil, Gustavo"
+            ],
+            "identifier": [
+                "(ppn)1759391212",
+                "(firstid)KXP:1759391212",
+                "(doi)10.1007/978-3-030-70210-6_4"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=bk, id=106417967)54.80 - Angewandte Informatik",
+                "(classificationName=rvk)SS 4800",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Ensemble size classification in Colombian Andean string music recordings",
+            "abstract": "Reliable methods for automatic retrieval of semantic information from large digital music archives can play a critical role in musicological research and musical heritage preservation. With the advancement of machine learning techniques, new possibilities for information retrieval in scenarios where ground-truth data is scarce are now available. This work investigates the problem of ensemble size classification in music recordings. For this purpose, a new dataset of Colombian Andean string music was compiled and annotated by musicological experts. Different neural network architectures, as well as pre-processing steps and data augmentation techniques were systematically evaluated and optimized. The best deep neural network architecture achieved 81.5% file-wise mean class accuracy using only feed forward layers with linear magnitude spectrograms as input representation. This model will serve as a baseline for future research on ensemble size classification.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1062730054"
+                },
+                {
+                    "@id": "gnd:1067162437"
+                }
+            ],
+            "extent": "60-74",
+            "isPartOf": [
+                "(isbn13)9783030702090",
+                "(ppn)1758231645"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4040802-4"
+                },
+                {
+                    "@id": "gnd:4135339-0"
+                },
+                {
+                    "@id": "gnd:4031630-0"
+                }
+            ],
+            "pageStart": "60",
+            "isLike": "doi:10.1007/978-3-030-70210-6_4",
+            "P30128": "Perception, representations, image, sound, music",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "extent": "http://purl.org/dc/terms/extent",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

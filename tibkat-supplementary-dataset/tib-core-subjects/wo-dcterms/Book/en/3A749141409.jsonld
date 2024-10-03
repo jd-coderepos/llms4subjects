@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749141409",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XVII, 181 p)",
+            "http://purl.org/dc/elements/1.1/contributor": "Devadas, Srinivas",
+            "creator": "Monteiro, Jos\u00e9",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(firstid)GBV:749141409",
+                "(doi)10.1007/978-1-4615-6319-8",
+                "(isbn13)9781461563198",
+                "(ppn)749141409"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Electronic circuits.",
+                "Engineering",
+                "Computer-aided engineering.",
+                "Computer aided design",
+                "Computer engineering",
+                "Systems engineering",
+                "(classificationName=ddc)621.3815",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7888.4",
+                "(classificationName=linseach:mapping)inf",
+                "Electrical engineering."
+            ],
+            "title": "Computer-Aided Design Techniques for Low Power Sequential Logic Circuits",
+            "abstract": "Rapid increases in chip complexity, increasingly faster clocks, and the proliferation of portable devices have combined to make power dissipation an important design parameter. The power consumption of a digital system determines its heat dissipation as well as battery life. For some systems, power has become the most critical design constraint. Computer-Aided Design Techniques for Low Power Sequential Logic Circuits presents a methodology for low power design. The authors first present a survey of techniques for estimating the average power dissipation of a logic circuit. At the logic level, power dissipation is directly related to average switching activity. A symbolic simulation method that accurately computes the average switching activity in logic circuits is then described. This method is extended to handle sequential logic circuits by modeling correlation in time and by calculating the probabilities of present state lines. Computer-Aided Design Techniques for Low Power Sequential Logic Circuits then presents a survey of methods to optimize logic circuits for low power dissipation which target reduced switching activity. A method to retime a sequential logic circuit where registers are repositioned such that the overall glitching in the circuit is minimized is also described. The authors then detail a powerful optimization method that is based on selectively precomputing the output logic values of a circuit one clock cycle before they are required, and using the precomputed value to reduce internal switching activity in the succeeding clock cycle. Presented next is a survey of methods that reduce switching activity in circuits described at the register-transfer and behavioral levels. Also described is a scheduling algorithm that reduces power dissipation by maximising the inactivity period of the modules in a given circuit. Computer-Aided Design Techniques for Low Power Sequential Logic Circuits concludes with a summary and directions for future research",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE"
+            ],
+            "issued": "1997",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "387",
+            "isLike": "doi:10.1007/978-1-4615-6319-8",
+            "P30128": "The Springer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4002498-2",
+            "sameAs": "Approximation"
+        },
+        {
+            "@id": "gnd:4013396-5",
+            "sameAs": "Dynamisches System"
+        },
+        {
+            "@id": "gnd:4194626-1",
+            "sameAs": "Finite-Differenzen-Methode"
+        },
+        {
+            "@id": "gnd:4234594-7",
+            "sameAs": "Quasiperiodischer Torus"
+        },
+        {
+            "@id": "gnd:4552037-9",
+            "sameAs": "Invarianter Torus"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A383800048",
+            "@type": "bibo:Thesis",
+            "P1053": "136 S.",
+            "creator": "Schilder, Frank",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)383800048",
+                "(firstid)GBV:383800048"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc)510",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Numerische Approximation quasiperiodischer invarianter Tori unter Anwendung erweiterter Systeme",
+            "abstract": "In der vorliegenden Arbeit wird ein Algorithmus zur Approximation quasiperiodischer invarianter Tori entwickelt. Er basiert auf einer Invarianzgleichung f\u00fcr Tori die von einer quasiperiodischen L\u00f6sung dicht ausgef\u00fcllt werden. F\u00fcr die Herleitung dieser Gleichung ist keine Transformation des Systems in (lokale) Toruskoordinaten n\u00f6tig, was die Konstruktion von Diskretisierungsverfahren erheblich vereinfacht und den vorgestellten Zugang von Fr\u00fcheren unterscheidet. - In Analogie zu periodischen L\u00f6sungen autonomer Systeme besitzt auch eine L\u00f6sung dieser Gleichung f\u00fcr jede unbekannte Basisfrequenz jeweils eine freie Phase, die durch Erweiterung der Gleichung um Phasenbedingungen fixiert werden k\u00f6nnen. Die hier konstruierten Phasenbedingungen sind dabei Verallgemeinerungen der f\u00fcr periodische Orbits bekannten Integralbedingung. F\u00fcr die erweiterte Invarianzgleichung wird die Durchf\u00fchrbarkeit des Newton-Verfahrens f\u00fcr Funktionen gezeigt.  - Konkrete Algorithmen werden durch Diskretisierung der Invarianzgleichung mittels Finiten-Differenzen- und, f\u00fcr Vergleichsrechnungen, Fourier-Galerkin-Verfahren konstruiert. Diese sind unabh\u00e4ngig vom Stabilit\u00e4tstyp des Torus. Die Konvergenz der Finiten-Differenzen-Methode wird unter den Einschr\u00e4nkungen nachgewiesen, da\u00df das System partitioniert vorliegt und der Torus asymptotisch stabil bzw. nach Zeitumkehr asymptotisch stabil ist. Der Nachweis der Stabilit\u00e4t des um Phasenbedingungen erweiterten diskretisierten Systems ist noch offen. Im Softwarepaket torcont, wurde eine Pseudo-Bogenl\u00e4ngen-Parameterfortsetzung auf der Grundlage der beschriebenen Verfahren (als Korrektor) implementiert und an zahlreichen Beispielen erfolgreich getestet, von denen eine Auswahl in der vorliegenden Arbeit diskutiert wird.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4013396-5",
+                "gnd:4194626-1",
+                "gnd:4002498-2",
+                "gnd:4234594-7",
+                "gnd:4552037-9"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/383800048.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

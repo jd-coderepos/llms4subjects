@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1831905906",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvvi, 168 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "St\u00f6riko, Anna",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-76584",
+                "(firstid)KXP:1831905906",
+                "(ppn)1831905906"
+            ],
+            "subject": [
+                "Unsicherheit",
+                "Stickstoffkreislauf",
+                "Grundwasser",
+                "Parametersch\u00e4tzung",
+                "Stickstoff",
+                "Molekularbiologie",
+                "Mikroorganismus",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=ddc-dbn)572.8",
+                "Biogeochemie",
+                "Modellierung"
+            ],
+            "title": "Integrating molecular-biological data and process-based models of nitrogen cycling",
+            "abstract": "Microorganisms play a key role in the transformation of nutrients and contaminants in the environment, with significant consequences for drinking water quality, eutrophication, or green house gas emissions. Advances in molecular-biological and omics tools have revolutionized microbiology, providing information about the abundance, diversity and function of microorganisms in the environment. Mathematical models of microbial processes present a potential link between molecular-biological data and biogeochemical reaction rates, but it is important to consider whether the added complexity of these models is justified by the information gained from molecular-biological data. In this thesis, I present modeling approaches that integrate gene and transcript data of functional genes, using nitrogen cycling as an example. By comparing an enzyme-based model to a traditional Monod-type model, I assess the value of accounting for enzymatic regulation in the prediction of denitrification rates. Both model formulations perform similarly with respect to nitrogen species, but the enzyme-based model offers a valuable tool for understanding the relationship between biomolecular quantities and reaction rates. Based on the simulations, I examine whether transcript and enzyme concentrations can directly serve as proxies for reaction rates. My analysis shows that under environmental conditions, the prediction of reaction rates from transcript concentrations is impractical due to time delays in enzyme production, and the limitation of reaction rates by substrates and inhibitors. Building on these findings, I propose sampling strategies to improve the integration of molecular-biological data and reactive-transport modeling. Finally, I investigate how functional-gene data affects the uncertainty of nitrogen cycling rates and model parameters in a flow-through column experiment. Using Bayesian parameter estimation, I quantify uncertainty of the model parameters and reaction rates. My results also provide insights on the poor identifiability of the parameters in the standard Monod rate law. While functional gene data do not reduce the uncertainty of nitrogen cycling rates, they influence the estimates and reduce uncertainty of several parameters related to microbial nitrogen cycling.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:36187-2",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-76584",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

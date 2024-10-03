@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A719680085",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": [
+                "Kleine B\u00fcning, Hans",
+                "Meyer auf der Heide, Friedhelm"
+            ],
+            "creator": "Kemmerich, Thomas",
+            "identifier": [
+                "(firstid)HBZ:CT004000790",
+                "(ppn)719680085"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.31"
+            ],
+            "title": "Learning and coordination in sequential multiagent problems",
+            "abstract": "In dieser Arbeit besch\u00e4ftigen wir uns damit, wie Ger\u00e4te (oder Agenten) in gro\u00dfen verteilen Systemen autonom lernen k\u00f6nnen, ihre Aktionen so zu koordinieren, dass eine gemeinsame Aufgabe m\u00f6glichst gut gel\u00f6st wird. Insbesondere konzentrieren wir uns auf Probleme, die aus einer Abfolge verschiedener Situationen bestehen. Wir nehmen an, dass eine Probleml\u00f6sung (Strategie) w\u00e4hrend des Betriebs gelernt wird und nur f\u00fcr die aktuelle Situation relevant ist. In der folgenden Situation k\u00f6nnen gelernte Strategien ggf. angepasst und weiter verwendet werden, oder sie m\u00fcssen wegen zu gro\u00dfen Unterschieden verworfen werden. Wir stellen ein Modell auf, mit dessen Hilfe solche Probleme formal modelliert werden k\u00f6nnen und entwickeln darauf aufbauend einen verteilten Lernansatz. Dieses sogenannte Distributed Stateless Learning (DSL) Verfahren lernt mittels Reinforcement Learning, d.h. es lernt welche individuelle Aktion im Zusammenspiel mit dem Verhalten der anderen Agenten aktuell sinnvoll ist, indem Aktionen ausgef\u00fchrt und numerische R\u00fcckmeldungen \u00fcber die Aktionsg\u00fcte in den Lernprozess einbezogen werden. Um das Lernen in sehr gro\u00dfen Systemen zu beschleunigen, untersuchen wir zus\u00e4tzlich verschiedene Koordinationsstrategien, die beispielsweise Wissen in der Umgebung ablegen oder bei denen Agenten lokal Informationen austauschen. Der entwickelte Ansatz wird theoretisch und empirisch untersucht, und wir zeigen, dass DSL in der Lage ist, optimale oder beinahe optimale L\u00f6sungen zu lernen. Neben diesen Ergebnissen stellen wir weitere Verfahren und Konzepte vor und geben Einblicke in relevante Fragestellungen, wie bspw. das Lernen mit verrauschten Wahrnehmungen. Am Ende bleibt festzuhalten, dass diese Arbeit erste Einsichten in das betrachtete Problemszenario bietet und dass effizientes Lernen in diesem Umfeld mittels DSL m\u00f6glich ist.. - This thesis deals with learning and coordination in large and distributed systems. We focus on settings that show an interesting and frequently observable structure. Namely, devices (agents, hereafter) are often confronted with a sequence of different-probably, but not necessarily comparable-situations. The agents have to solve a common task and, thus, have to learn a good coordinated behavior for each situation. When a new setting occurs, old strategies might either become useless or establish a good basis for further adaption, depending on the similarity of the previous and the new situation. Models for these problems quickly become complex and introduce research questions on their own. Hence, to focus on the learning process, we will deal with simple sequences of stateless games. Each game is played repeatedly for a certain number of iterations, which the agents do not know in advance, before a new game occurs. We develop a model, called sequential stage games (SSG), that formalizes such problems, and establish some required foundations. Then, we propose Distributed Stateless Learning (DSL), which is a multiagent reinforcement learning approach for cooperative SSGs. To speed up learning in systems with thousands of agents, we also develop several coordination strategies. These strategies coordinate the agents' action choices, e.g., using communication or by storing learned knowledge on so-called storage media in the environment. We provide a careful theoretical analysis of our approach and prove its convergence to (near-)optimal solutions, if each game is played sufficiently long. Furthermore, we show that DSL enables learning under agent-individual noised reward perceptions. Our theoretical results are supported by empirical analyses. To summarize, we provided first insights into learning and coordination in sequences of games and developed efficient approaches for the considered scenarios.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

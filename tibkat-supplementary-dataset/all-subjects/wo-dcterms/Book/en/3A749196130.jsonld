@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749196130",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (224p)",
+            "creator": "Agarwal, Anant",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(ppn)749196130",
+                "(isbn13)9781461316237",
+                "(doi)10.1007/978-1-4613-1623-7",
+                "(firstid)GBV:749196130"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)004.22",
+                "Computer architecture.",
+                "Computer science",
+                "(classificationName=ddc)004.1",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=loc)TK7895.M5",
+                "Operating systems (Computers)",
+                "(classificationName=linseach:mapping)elt",
+                "Microprocessors."
+            ],
+            "title": "Analysis of Cache Performance for Operating Systems and Multiprogramming",
+            "abstract": [
+                "As we continue to build faster and fast. er computers, their performance is be\u00ad coming increasingly dependent on the memory hierarchy. Both the clock speed of the machine and its throughput per clock depend heavily on the memory hierarchy. The time to complet. e a cache acce88 is oft. en the factor that det. er\u00ad mines the cycle time. The effectiveness of the hierarchy in keeping the average cost of a reference down has a major impact on how close the sustained per\u00ad formance is to the peak performance. Small changes in the performance of the memory hierarchy cause large changes in overall system performance. The strong growth of ruse machines, whose performance is more tightly coupled to the memory hierarchy, has created increasing demand for high performance memory systems. This trend is likely to accelerate: the improvements in main memory performance will be small compared to the improvements in processor performance. This difference will lead to an increasing gap between prOCe880r cycle time and main memory acce. time. This gap must be closed by improving the memory hierarchy. Computer architects have attacked this gap by designing machines with cache sizes an order of magnitude larger than those appearing five years ago. Microproce880r-based RISe systems now have caches that rival the size of those in mainframes and supercomputers.",
+                "1 Introduction -- 1.1 Overview of Cache Design -- 1.2 Review of Past Work -- 1.3 Then, Why This Research? -- 1.4 Contributions -- 1.5 Organization -- 2 Obtaining Accurate Trace Data -- 2.1 Current Tracing Techniques -- 2.2 Tracing Using Microcode -- 2.3 An Experimental Implementation -- 2.4 Trace Description -- 2.5 Applications in Performance Evaluation -- 2.6 Extensions and Summary -- 3 Cache Analyses Techniques \u2014 An Analytical Cache Model -- 3.1 Motivation and Overview -- 3.2 A Basic Cache Model -- 3.3 A Comprehensive Cache Model -- 3.4 Model Validation and Applications -- 3.5 Summary -- 4 Transient Cache Analysis \u2014 Trace Sampling and Trace Stitching -- 4.1 Introduction -- 4.2 Transient Behavior Analysis and Trace Sampling -- 4.3 Obtaining Longer Samples Using Trace Stitching -- 4.4 Trace Compaction \u2014 Cache Filtering with Blocking -- 5 Cache Performance Analysis for System References -- 5.1 Motivation -- 5.2 Analysis of the Miss Rate Components due to System References -- 5.3 Analysis of System Miss Rate -- 5.4 Associativity -- 5.5 Block Size -- 5.6 Evaluation of Split Caches -- 6 Impact of Multiprogramming on Cache Performance -- 6.1 Relative Performance of Multiprogramming Cache Techniques -- 6.2 More on Warm Start versus Cold Start -- 6.3 Impact of Shared System Code on Multitasking Cache Performance -- 6.4 Process Switch Statistics and Their Effects on Cache ModeUng -- 6.5 Associativity -- 6.6 Block Size -- 6.7 Improving the Multiprogramming Performance of Caches -- 7 Multiprocessor Cache Analysis -- 7.1 Tracing Multiprocessors -- 7.2 Characteristics of Traces -- 7.3 Analysis -- 8 Conclusions and Suggestions for Future Work -- 8.1 Concluding Remarks -- 8.2 Suggestions for Future Work -- Appendices -- B.1 On the Stability of the Collision Rate -- B.2 Estimating Variations in the Collision Rate -- C Inter-Run Intervals and Spatial Locality -- D Summary of Benchmark Characteristics -- E Features of ATUM-2 -- E.1 Distributing Trace Control to All Processors -- E.2 Provision of Atomic Accesses to Trace Memory -- E.3 Instruction Stream Compaction Using a Cache Simulated in Microcode -- E.4 Microcode Patch Space Conservation."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "69",
+            "isLike": "doi:10.1007/978-1-4613-1623-7",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Parallel Processing and Fifth Generation Computing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

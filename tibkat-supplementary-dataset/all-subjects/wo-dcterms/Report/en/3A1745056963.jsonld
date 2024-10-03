@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1222283212",
+            "sameAs": "Farrell, Patricio"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1745056963",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (11 Seiten, 690,67 KB)",
+            "creator": [
+                "Fuhr, J\u00fcrgen",
+                "Abdel, Dilara"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2787",
+                "(firstid)KXP:1745056963",
+                "(ppn)1745056963"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Assessing the quality of the excess chemical potential flux scheme for degenerate semiconductor device simulation",
+            "abstract": "The van Roosbroeck system models current flows in (non-)degenerate semiconductor devices. Focusing on the stationary model, we compare the excess chemical potential discretization scheme, a flux approximation which is based on a modification of the drift term in the current densities,with another state-of-the-art Scharfetter-Gummel scheme, namely the diffusion-enhanced scheme. Physically, the diffusion-enhanced scheme can be interpreted as a flux approximation which modifies the thermal voltage. As a reference solution we consider an implicitly defined integral flux, using Blakemore statistics. The integral flux refers to the exact solution of a local two point boundary value problem for the continuous current density and can be interpreted as a generalized Scharfetter-Gummel scheme. All numerical discretization schemes can be used within a Voronoi finite volume method to simulate charge transport in (non-)degenerate semiconductor devices. The investigation includes the analysis of Taylor expansions, a derivation of error estimates and a visualization of errors in local flux approximations to extend previous discussions. Additionally, drift-diffusion simulations of a p-i-n device are performed.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1222283212"
+                },
+                {
+                    "@id": "gnd:2140666-2"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2787",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2787",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

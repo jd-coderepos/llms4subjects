@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:104493350X",
+            "sameAs": "Rammig, Franz Josef"
+        },
+        {
+            "@id": "gnd:108476464",
+            "sameAs": "Kastens, Uwe"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A780662105",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Baldin, Daniel",
+            "identifier": [
+                "(ppn)780662105",
+                "(firstid)HBZ:CT004000979"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Reconfiguration of legacy software artifacts in resource constraint embedded systems",
+            "abstract": "Hochgradig ressourcenbeschr\u00e4nkte eingebettete Systeme befinden sich \u00fcberall. Einige dieser Systeme befinden sich in Smart-Phones oder elektronischen Kontroll-Einheiten, andere in Sensor-Netzwerken oder auch Smart-Cards. Gerade die zuletzt genannten geh\u00f6ren zu den in Bezug auf Prozessorleistung und Speicherplatz am meist beschr\u00e4nkten Systemen. Um bei gleicher Ressourcenauslastung mehr Funktionalit\u00e4t bereitzustellen f\u00fchrt diese Arbeit ein Verfahren ein, welche es erlaubt durch Rekonfigurationstechniken dieses Problem zu l\u00f6sen. Im Gegensatz zu traditionellen Verwendungszwecken von Rekonfigurationstechniken wird in dieser Arbeit Rekonfiguration zur Reduktion der Anwendungsgr\u00f6\u00dfe verwendet. Heutige Architekturen, welche Rekonfiguration erm\u00f6glichen, basieren auf der Unterst\u00fctzung dieser Mechanismen auf Entwurfs- bzw. Source-Code Ebene. Software L\u00f6sungen basieren jedoch zum gro\u00dfen Teil auf wiederverwertbaren Bibliotheken oder Drittanbieter-Komponenten, welche keine Unterst\u00fctzung von Rekonfiguration mit sich bringen und zumeist im Bin\u00e4rformat vorliegen. Diese Arbeit stellt eine Methode vor, um ein existierendes System unter Verwendung von Bin\u00e4rcode automatisch in ein rekonfigurierbares System umzuwandeln, mit dem Ziel die Anwendungsgr\u00f6\u00dfe zuverringern und dabei weiterhin harten Echtzeitbedingungen zu gen\u00fcgen. Das Verfahren basiert auf der Verwendung von Bin\u00e4rcode-Analyse Techniken zur Rekonstruktion der Anwendungssemantik, welche es erlauben dem Benutzer durch Bedingungen in einer Hochsprache Komponenten aus der Anwendungen zu extrahieren. Diese Komponenten werden anschlie\u00dfend optimiert. Mit dem Verfahren ist es m\u00f6glich nicht rekonfigurierbare bin\u00e4re Softwaresysteme in rekonfigurierbare Systeme umzuwandeln, welche die Anwendungsgr\u00f6\u00dfe reduzieren und dabei harte Echtzeit-Bedingungen erf\u00fcllen.. - Highly resource-constrained embedded systems are everywhere. Some of them can be found inside smartphones, electronic control units, others in wireless sensor networks or smart cards. The last two systems are among the most restrictive ones in the sense of processing power, energy consumption and memory availability. Pricing policies often lead to a reduction in software functionality as cheaper hardware with less resources is demanded for the final product. In order to allow more complex software to run on such constrained systems, this thesis proposes the use of software reconfiguration. In contrast to traditional uses of reconfiguration this thesis proposes the use of reconfiguration mechanisms in order to reduce the footprint of an deeply embedded application while maintaining real-time constraints. Todays adaptable architectures require the support of reconfigurability and adaptability at design level. However, modern software products are often constructed out of reusable but non-adaptable legacy software artifacts to meet early time-to-market requirements. This thesis proposes a methodology to semiautomatically use existing binaries in a reconfigurable manner. It is based on using binary analysis techniques to reconstruct the semantics of the binary application in order to allow the system developer to select meaningful code parts as components from the binary code. Using a set of high level constraints the user is able to extract components from the binary application. These components are then subject to a design space exploration step, which optimizes the resulting reconfigurable system regarding parameters as, e.g., worst case blocking time and flash lifetime. With this approach, reconfiguration can be added with a low effort to non-adaptive binary software in order to decrease the footprint of the application while maintaining real-time constraints.",
+            "contributor": [
+                "gnd:104493350X",
+                "gnd:108476464"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

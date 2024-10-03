@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130857203",
+            "sameAs": "Walther, Andrea"
+        },
+        {
+            "@id": "gnd:172915937",
+            "sameAs": "Steinbach, Marc"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898222133",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (viii, 109 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Griewank, Andreas",
+            "creator": "Fiege, Sabrina",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)HBZ:CT004001960",
+                "(ppn)898222133",
+                "(doi)10.17619/UNIPB/1-193"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)519"
+            ],
+            "title": "Minimization of Lipschitzian piecewise smooth objective functions",
+            "abstract": "Nichtglattheit ist eine typische Eigenschaft vieler Optimierungsprobleme, die ihren Ursprung sowohl in industriellen als auch in akademischen Anwendungen haben. Bekannte Beispiele sind Minimax-Probleme aus der Robusten Optimierung sowie die Umformulierung beschr\u00e4nkter Optimierungsprobleme in unbeschr\u00e4nkte Probleme indem man die Beschr\u00e4nkungen als nichtglatten Strafterme additiv zur Zielfunktion hinzuf\u00fcgt. Obwohl es viele Ver\u00f6ffentlichungen zur nichtglatter Analysis und Optimierung gibt, sind nur wenige Software-Pakete verf\u00fcgbar. Daher ist das Ziel dieser Dissertation die Entwicklung und Implementierung eines Algorithmus zur L\u00f6sung unbeschr\u00e4nkter, nichtkonvexer und nichtglatter Optimierungsprobleme. Es wird angenommen, dass alle Nichtdifferenzierbarkeiten der Zielfunktion durch den Absolutbetrag verursacht werden. Dies umfasst auch Funktionen wie die Minimums- und Maximumsfunktion.Die Idee des entwickelten Optimierungsalgorithmus LiPsMin ist die Minimierung einer zusammengesetzten st\u00fcckweise differenzierbaren Funktionen durch wiederholtes Generieren einer st\u00fcckweisen Linearisierung. Dieses lokale Modell wird durch einen quadratische Term \u00fcbersch\u00e4tzt. Die Minimierung des lokalen Modells profitiert von den zus\u00e4tzlichen Informationen, die durch Strukturausnutzung gewonnen werden. Die Untersuchung von LiPsMin wird durch Konvergenzergebnisse bzgl. optimaler Punkte erster Ordnung abgerundet. Abschlie\u00dfend wird die numerische Effizienz des Algorithmus untersucht.. - Nonsmoothness is a typical characteristic of numerous optimization problems originating from both real world and scientific applications. Well known examples from practical optimization are minimax problems used in robust optimization and the reformulation of a constrained optimization problem by adding nonsmooth penalty terms of constraint violations to the original function. Although there are plenty of publications dealing with nonsmooth analysis and optimization, there are only a few software tools available for nonsmooth optimization problems. Therefore, the purpose of this thesis is to develop, implement, and examine an algorithm for unconstrained, nonconvex, and nonsmooth optimization problems. It will be assumed that all nondifferentiabilities occurring in the objective function are caused by the absolute value and those functions that can be expressed in terms of the absolute value as the maximum and minimum function. The idea of the developed optimization method LiPsMin is the minimization of composite piecewise differentiable objective functions via successive piecewise linearization overestimated by a quadratic term. The minimization of the resulting local quadratic subproblem benefits from additional information obtained by exploiting the structure of the underlying piecewise linearization. Convergence results of LiPsMin towards first order optimal points are developed and the numerical performance of the algorithm is investigated.",
+            "contributor": [
+                "gnd:172915937",
+                "gnd:130857203"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-193",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

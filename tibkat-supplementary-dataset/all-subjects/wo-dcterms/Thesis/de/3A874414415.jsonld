@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:132285355",
+            "sameAs": "Plessl, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A874414415",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xviii, 184 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Platzner, Marco",
+                "Cardoso, Jo\u00e3o M. P.",
+                "Fischer, Matthias"
+            ],
+            "creator": "Kenter, Tobias",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)874414415",
+                "(firstid)HBZ:CT004001760"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Reconfigurable accelerators in the world of general-purpose computing",
+            "abstract": "Die Architektur von FPGAs (Field Programmable Gate Arrays) kombiniert Programmierbarkeit mit einem hohen Potenzial zur Spezialisierung f\u00fcr verschiedene Rechenlasten. Wir analysieren in dieser Arbeit zun\u00e4chst aktuelle Ans\u00e4tze, die Produktivit\u00e4t bei der Entwicklung von FPGA-Anwendungen zu steigern, arbeiten konzeptuelle und praktische Vor- und Nachteile heraus, und identifizieren drei S\u00e4ulen, die einander dabei erg\u00e4nzen k\u00f6nnen, die Verwendung von FPGAs f\u00fcr allgemeine Rechenaufgaben voranzutreiben.Anschlie\u00dfend konzentrieren wir uns auf \u00fcbergelagerte Architekturen als Ansatz f\u00fcr produktive Entwicklungsprozesse f\u00fcr FPGAs. Solche Architekturen bedingen aber auch bisher unzureichend verstandene Nachteile bei der resultierenden Rechenleistung. Unsere Arbeit quantifiziert f\u00fcr eine solche Architektur diese Nachteile anhand einer Auswahl unterschiedlicher Programmschleifen, die zu einer modernen Anwendung f\u00fcr stereoskopischen Bildabgleich geh\u00f6ren. Wir zeigen, dass die Architektur trotz dieser Nachteile als praktisch nutzbarer Beschleuniger dienen kann und identifizieren verschiede Unterschiede im Vergleich zu vollst\u00e4ndig spezialisierten Konfigurationen. Dar\u00fcber hinaus stellen wir Werkzeuge vor, die automatisch geeignete Schleifen aus Hochsprachenquelltexten oder Bin\u00e4rcode extrahieren und auf einem Vektorprozessor zur Ausf\u00fchrung bringen, der als \u00fcbergelagerte Architektur auf FPGAs umgesetzt ist.Mit einem abstrakten Modell zur Absch\u00e4tzung von Rechenleistung, das die gegenseitige Abh\u00e4ngigkeit zwischen Architekturen und Programmierentscheidungen ber\u00fccksichtigt, erkunden wir schlie\u00dflich systematisch Alternativen f\u00fcr Rechnersysteme, die Prozessoren und FPGAs enger koppeln als bisher. Insbesondere die Integration der Speicherhierarchie hat einen erheblichen Einfluss auf das Beschleunigungspotenzial des Systems.. - The architecture of field programmable gate arrays (FPGAs) combines programmability with a high potential for specialization for different workloads. In this work, by analyzing current approaches to tackle this productivity challenge along with their conceptual and practical trade-offs, we identify three pillars that can complement each other to jointly drive general-purpose adoption of FPGAs.Subsequently, we focus on overlay architectures as one of theses paths towards productive FPGA design processes. Such architectures also incur until now insufficiently understood overheads compared to custom designs implemented directly on FPGA resources. Our work quantifies such overheads with a diverse set of program loops from a state-of-the-art stereo-matching application for an instruction-programmable overlay. It demonstrates that the architecture can, despite overheads, serve as a practically usable accelerator, and identifies specific differences to fully customized FPGA designs. Additionally, we present a fast tool flow that automatically extracts suitable loops from a high-level source or binary code and offloads them to a vector coprocessor realized as an FPGA overlay.With a high-level performance estimation model that takes into account the interdependency of architectures and program designs, we furthermore explore the design space for systems coupling processors and FPGAs more closely as before. We highlight that integration of the memory hierarchy has considerable influence on the acceleration potential of the platform.",
+            "alternative": "Rekonfigurierbare Beschleuniger in der Welt von allgemeinen Rechenaufgaben",
+            "contributor": [
+                "gnd:132285355",
+                "gnd:110026063"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

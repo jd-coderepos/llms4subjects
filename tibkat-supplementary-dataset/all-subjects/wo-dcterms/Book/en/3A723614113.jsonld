@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723614113",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (98 Seiten)",
+            "creator": "Ellis Schlatter, Carla",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)723614113",
+                "(doi)10.2200/S00089ED1V01Y200704MPC002",
+                "(firstid)GBV:723614113",
+                "(isbn13)9781598291292",
+                "(isbn)1598291297"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=loc)QA76.59",
+                "(classificationName=linseach:mapping)inf",
+                "Electronic books",
+                "(classificationName=ddc)005.268",
+                "(classificationName=linseach:mapping)mat",
+                "Mobile computing",
+                "(classificationName=loc)QA76.59 .E45 2007",
+                "Computers"
+            ],
+            "title": "Controlling Energy Demand in Mobile Computing Systems",
+            "abstract": [
+                "Introduction -- System energy models andmetrics -- Management ofdevice power states -- Dynamic voltage scheduling (DVS) -- Multiple devices-interactions and tradeoffs -- Energy-aware application code -- Challenges and opportunities -- References",
+                "This lecture provides an introduction to the problem of managing the energy demand of mobile devices. Reducing energy consumption, primarily with the goal of extending the lifetime of battery-powered devices, has emerged as a fundamental challenge in mobile computing and wireless communication. The focus of this lecture is on a systems approach where software techniques exploit state-of-the-art architectural features rather than relying only upon advances in lower-power circuitry or the slow improvements in battery technology to solve the problem. Fortunately, there are many opportunities to innovate on managing energy demand at the higher levels of a mobile system. Increasingly, device components offer low power modes that enable software to directly affect the energy consumption of the system. The challenge is to design resource management policies to effectively use these c apabilities. The lecture begins by providing the necessary foundations, including basic energy terminology and widely accepted metrics, system models of how power is consumed by a device, and measurement methods and tools available for experimental evaluation. For components that offer low power modes, management policies are considered that address the questions of when to power down to a lower power state and when to power back up to a higher power state. These policies rely on detecting periods when the device is idle as well as techniques for modifying the access patterns of a workload to increase opportunities for power state transitions. For processors with frequency and voltage scaling capabilities, dynamic scheduling policies are developed that determine points during execution when those settings can be changed without harming quality of service constraints. The interactions and tradeoffs among the power management policies of multiple devices are discussed. We explore how the effective power management on one component of a system may have either a positive or negative impact on overall energy consumption or on the design of policies for another component. The important role that application-level involvement may play in energy management is described, with several examples of cross-layer cooperation. Application program interfaces (APIs) that provide information flow across the application-OS boundary are valuable tools in encouraging development of energy-aware applications. Finally, we summarize the key lessons of this lecture and discuss future directions in managing en ..."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCIA",
+                "(collectioncode)ZDB-105-MCS"
+            ],
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781598291285.pdf",
+            "volume": "#2",
+            "isLike": "doi:10.2200/S00089ED1V01Y200704MPC002",
+            "P30128": "Synthesis Lectures on Mobile and Pervasive Computing",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

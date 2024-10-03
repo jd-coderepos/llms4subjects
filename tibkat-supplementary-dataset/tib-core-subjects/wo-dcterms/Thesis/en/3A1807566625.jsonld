@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:126105122X",
+            "sameAs": "Sun, Huanbo"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1807566625",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xix, 152 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1807566625",
+                "(ppn)1807566625",
+                "(doi)10.15496/publikation-69547"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.31"
+            ],
+            "title": "Machine-learning-driven haptic sensor design",
+            "abstract": "Similar to biological systems, robots may need skin-like sensing ability to perceive interactions in complex, changing, and human-involved environments. Current skin-like sensing technologies are still far behind their biological counterparts when considering resolution, dynamics range, robustness, and surface coverage together. One key challenge is the wiring of sensing elements. During my Ph.D. study, I explore how machine learning can enable the design of a new kind of haptic sensors to deal with such a challenge. On the one hand, I propose super-resolution-oriented tactile skins, reducing the number of physical sensing elements while achieving high spatial accuracy. On the other hand, I explore vision-based haptic sensor designs. In this thesis, I present four types of machine-learning-driven haptic sensors that I designed for coarse and fine robotic applications, varying from large surface (robot limbs) to small surface sensing (robot fingers). Moreover, I propose a super-resolution theory to guide sensor designs at all levels ranging from hardware design (material/structure/transduction), data collection (real/simulated), and signal processing methods (analytical/data-driven). I investigate two designs for large-scale coarse-resolution sensing, e.g., robotic limbs. HapDef sparsely attaches a few strain gauges on a large curved surface internally to measure the deformation over the whole surface. ERT-DNN wraps a large surface with a piece of multi-layered conductive fabric, which varies its conductivity upon contacts exerted. I also conceive two approaches for small-scale fine-resolution sensing, e.g., robotic fingertips. BaroDome sparsely embeds a few barometers inside a soft elastomer to measure internal pressure changes caused by external contact. Insight encloses a high-resolution camera to view a soft shell from within. Generically, an inverse problem needs to be solved when trying to obtain high-resolution sensing with a few physical sensing elements. I develop machine-learning frameworks suitable for solving this inverse problem. They process various raw sensor data and extract useful haptic information in practice. Machine learning methods rely on data collected by an automated robotic stimulation device or synthesized using finite element methods. I build several physical testbeds and finite element models to collect copious data. I propose machine learning frameworks to combine data from different sources that are good enough to deal with the noise in real data and generalize well from seen to unseen situations. While developing my prototype sensors, I have faced reoccurring design choices. To help my developments and guide future research, I propose a unified theory with the concept of taxel-value-isolines. It captures the physical effects required for super-resolution, ties them to all parts of the sensor design, and allows us to assess them quantitatively. The theory offers an explanation about physically achievable accuracies for localizing and quantifying contact based on uncertainties introduced by measurement noise in sensor elements. The theoretical analysis aims to predict the best performance before a physical prototype is built and helps to evaluate the hardware design, data collection, and data processing methods during implementation. This thesis presents a new perspective on haptic sensor design. Using machine learning to substitute the entire data-processing pipeline, I present several haptic sensor designs for applications ranging from large-surface skins to high-resolution tactile fingertip sensors. The developed theory for obtaining optimal super-resolution can guide future sensor designs.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:126105122X",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-69547",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

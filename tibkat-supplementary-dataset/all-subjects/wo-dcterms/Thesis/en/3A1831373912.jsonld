@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1278386262",
+            "sameAs": "Lange, Manuel"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1831373912",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xv, 129 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-76350",
+                "(ppn)1831373912",
+                "(firstid)KXP:1831373912"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)006.31",
+                "(classificationName=ddc-dbn)004",
+                "Lokalisation",
+                "Wegmessung",
+                "Linie",
+                "Maschinelles Sehen"
+            ],
+            "title": "Visual odometry using line features and machine learning enhanced line description",
+            "abstract": "The research on 2D lines in images has increased strongly in the last decade; on the one hand, due to more computing power available, on the other hand, due to an increased interest in odometry methods and autonomous systems. Line features have some advantages over the more thoroughly researched point features. Lines are detected on gradients, they do not need texture to be found. Thus, as long as there are gradients between homogeneous regions, they can cope with difficult situations in which mostly homogeneous areas are present. By being detected on gradients, they are also well suited to represent structure. Furthermore, lines have a very high accuracy orthogonal to their direction, as they consist of numerous points which all lie on the gradient contributing to this locational accuracy. First, we introduce a visual odometry approach which achieves real-time performance and runs solely using lines features, it does not require point features. We developed a heuristic filter algorithm which takes neighbouring line features into account and thereby improves tracking of lines and matching of lines in images taken from arbitrary camera locations. This increases the number of tracked lines and is especially beneficial in difficult scenes where it is hard to match lines by tracking them. Additionally, we employed the Cayley representation for 3D lines to avoid overparameterization in the optimization. To show the advancement of the method, it is benchmarked on commonly used datasets and compared to other state of the art approaches. Second, we developed a machine learning based line feature descriptor for line matching. This descriptor can be used to match lines from arbitrary camera locations. The training data was created synthetically using the Unreal Engine 4. We trained a model based on the ResNet architecture using a triplet loss. We evaluated the descriptor on real world scenes and show its improvement over the famous Line Band Descriptor. Third, we build upon our previous descriptor to create an improved version. Therefor, we added an image pyramid, gabor wavelets and increased the descriptor size. The evaluation of the new descriptor additionally contains competing new approaches which are also machine learning based. It shows that our improved approach outperforms them. Finally, we provide an extended evaluation of our descriptor which shows the influences of different settings and processing steps. And we present an analysis of settings for practical usage scenarios. The influence of a maximum descriptor distance threshold, of a Left-Right consistency check and of a descriptor distance ratio threshold between the first and second best match were investigated. It turns out that, for the ratio of true to false matches, it is almost always better to use a descriptor distance ratio threshold than a maximum descriptor distance threshold.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1278386262",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-76350",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

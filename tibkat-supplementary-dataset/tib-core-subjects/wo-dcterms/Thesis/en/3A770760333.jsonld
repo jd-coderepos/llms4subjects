@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A770760333",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: X, 179 S., 2602 KB)",
+            "creator": "Scheffler, Thomas",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)770760333",
+                "(firstid)GBV:770760333"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)meda"
+            ],
+            "title": "Privacy enforcement with data owner-defined policies",
+            "abstract": "This thesis proposes a privacy protection framework for the controlled distribution and use of personal private data. The framework is based on the idea that privacy policies can be set directly by the data owner and can be automatically enforced against the data user. Data privacy continues to be a very important topic, as our dependency on electronic communication maintains its current growth, and private data is shared between multiple devices, users and locations. The growing amount and the ubiquitous availability of personal private data increases the likelihood of data misuse. Early privacy protection techniques, such as anonymous email and payment systems have focused on data avoidance and anonymous use of services. They did not take into account that data sharing cannot be avoided when people participate in electronic communication scenarios that involve social interactions. This leads to a situation where data is shared widely and uncontrollably and in most cases the data owner has no control over further distribution and use of personal private data. Previous efforts to integrate privacy awareness into data processing workflows have focused on the extension of existing access control frameworks with privacy aware functions or have analysed specific individual problems such as the expressiveness of policy languages. So far, very few implementations of integrated privacy protection mechanisms exist and can be studied to prove their effectiveness for privacy protection. Second level issues that stem from practical application of the implemented mechanisms, such as usability, life-time data management and changes in trustworthiness have received very little attention so far, mainly because they require actual implementations to be studied. Most existing privacy protection schemes silently assume that it is the privilege of the data user to define the contract under which personal private data is released. Such an approach simplifies policy management and policy enforcement for the data user, but leaves the data owner with a binary decision to submit or withhold his or her personal data based on the provided policy. We wanted to empower the data owner to express his or her privacy preferences through privacy policies that follow the so-called Owner-Retained Access Control (ORAC) model. ORAC has been proposed by McCollum, et al. as an alternate access control mechanism that leaves the authority over access decisions by the originator of the data. The data owner is given control over the release policy for his or her personal data, and he or she can set permissions or restrictions according to individually perceived trust values. Such a policy needs to be expressed in a coherent way and must allow the deterministic policy evaluation by different entities. The privacy policy also needs to be communicated from the data owner to the data user, so that it can be enforced. Data and policy are stored together as a Protected Data Object that follows the Sticky Policy paradigm as defined by Mont, et al. and others. We developed a unique policy combination approach that takes usability aspects for the creation and maintenance of policies into consideration. Our privacy policy consists of three parts: A Default Policy provides basic privacy protection if no specific rules have been entered by the data owner. An Owner Policy part allows the customisation of the default policy by the data owner. And a so-called Safety Policy guarantees that the data owner cannot specify disadvantageous policies, which, for example, exclude him or her from further access to the private data. The combined evaluation of these three policy-parts yields the necessary access decision. The automatic enforcement of privacy policies in our protection framework is supported by a reference monitor implementation. We started our work with the development of a client-side protection mechanism that allows the enforcement of data-use restrictions after private data has been released to the data user. The client-side enforcement component for data-use policies is based on a modified Java Security Framework. Privacy policies are translated into corresponding Java permissions that can be automatically enforced by the Java Security Manager. When we later extended our work to implement server-side protection mechanisms, we found several drawbacks for the privacy enforcement through the Java Security Framework. We solved this problem by extending our reference monitor design to use Aspect-Oriented Programming (AOP) and the Java Reflection API to intercept data accesses in existing applications and provide a way to enforce data owner-defined privacy policies for business applications.",
+            "alternative": "Schutz privater Daten durch besitzer-definierte Richtlinien",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

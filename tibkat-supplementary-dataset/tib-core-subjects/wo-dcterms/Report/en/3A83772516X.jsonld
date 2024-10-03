@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1077613059",
+            "sameAs": "Schwarz, Hannes"
+        },
+        {
+            "@id": "gnd:171556542",
+            "sameAs": "Fichtner, Wolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A83772516X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (circa 36 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Bertsch, Valentin",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.5445/IR/1000049862",
+                "(ppn)83772516X",
+                "(firstid)BSZ:9837725168"
+            ],
+            "publisher": "Karlsruher Institut f\u00fcr Technologie",
+            "subject": [
+                "Elektrizit\u00e4tsversorgung",
+                "Dezentrale Organisation",
+                "Energiekonsum",
+                "Entscheidung unter Unsicherheit",
+                "(classificationName=linseach:automatic)mas",
+                "Kapazit\u00e4tsplanung",
+                "Siedlung",
+                "Nachfrage",
+                "Wohnung",
+                "Deutschland"
+            ],
+            "title": "Two-stage stochastic, large-scale optimization of a decentralized energy system - a residential quarter as case study",
+            "abstract": "The trend towards decentralized energy systems with an emphasis on renewable energy sources (RES) causes increased fluctuations and non-negligible weather-related uncertainties on the future supply side. Stochastic modeling techniques enable an adequate consideration of uncertainties in the investment and operation planning process of decentralized energy systems. The challenge is that modeling of real energy systems ends up in large-scale problems, already as deterministic program. In order to keep the stochastic problem feasible, we present a module-based, parallel computing approach using decomposing techniques and a hill-climbing algorithm in combination with high-performance computing (HPC) for a two-stage stochastic optimization problem. Consistent ensembles of the required input data are simulated by a Markov process and transformed into sets of energy demand and supply profiles. The approach is demonstrated for a residential quarter using photovoltaic (PV) systems in combination with heat pumps and storages. Depending on the installed technologies, the quarter is modeled either as stochastic linear program (SLP) or stochastic mixed-integer linear program (SMILP). Our results show that thermal storages in such a decentralized energy system prove beneficial and that they are more profitable for domestic hot water than for space heating. Moreover, the storage capacity for space heating is generally larger when uncertainties are considered in comparison to the deterministic optimization, i.e. stochastic optimization can help to avoid bad layout decisions.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1077613059",
+                "gnd:171556542"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 10 (October 2015)",
+            "isLike": "doi:10.5445/IR/1000049862",
+            "P30128": "Working paper series in production and energy",
+            "P60163": "Karlsruhe"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

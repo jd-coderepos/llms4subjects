@@ -1,0 +1,75 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1017735298",
+            "sameAs": "Grad, Mariusz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A67961348X",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 168 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Platzner, Marco",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)HBZ:CT004000745",
+                "(ppn)67961348X"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)005.453",
+                "(classificationName=ddc)621.392",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)004.2",
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Just-in-time processor customization on the feasibility and limitations of FPGA-based dynamically reconfigurable instruction set architectures",
+            "abstract": "In dieser Arbeit haben wir ein einzigartiges System, bestehend aus Hardwarearchitektur und Software 'tool-flow' entworfen, dass eine komplett automatische Anpassung erlaubt. Die Hardwarearchitektur ist ein dynamisch rekonfigurierbarer Befehlssatzprozessor, der 'just-in-time' Prozessoranpassung w\u00e4hrend der Laufzeit erlaubt, wohingegen der Software 'tool-flow' auf einer virtuellen Maschine beruht und gestattet die Architektur gleichzeitig mit der Programmausf\u00fchrung, und ohne jeglichen manuellen Aufwand, anzupassen. Dieser 'tool-flow' enth\u00e4lt ein Set von Heuristiken, die die Laufzeit von Methoden zur Identifizierung und Auswahl von eigenen Anweisungen f\u00fcr die 'just-in-time' Prozessoranpassung reduzieren, sowie eine Schaltkreisbibliothek und einen Datenpfadgenerator f\u00fcr ben\u00f6tigte bitstreams f\u00fcr die Hardwareanpassung.Dieses dynamische System, im Gegensatz zum statischen, hat mehrere Vorteile. Erstens, ist es v\u00f6llig automatisiert und ben\u00f6tigt keinen manuellen Aufwand. Es kann seinen Ablauf optimieren, indem die Befehlssatzarchitektur des Prozessors rekonfiguriert und der Code ver\u00e4ndert wird, was fundamental leistungsst\u00e4rker ist als die statische Herangehensweise. Dieses entwickelte System kann die Ausf\u00fchrungszeit, Profilierung und Maschinenlevelinformationen sammeln, um die Codeteile zu erkennen, die bei der Laufzeit tats\u00e4chlich leistungslimitierend sind und daher ideale Kandidaten zur Hardwarebeschleunigung sind. Dar\u00fcberhinaus hat die virtuelle Maschine die M\u00f6glichkeit, verschiedene dynamische Optimierungen auszuf\u00fchren, wie Hotspoterkennung, Aliasanalyse oder Branchvorhersage, um die Leistung weiter zu optimieren. Letztlich sind die Abh\u00e4ngigkeiten zwischen Variablen und der dazugeh\u00f6rigen Speicherbelegung zug\u00e4nglich, was die Hardware-Software-Partitionierung zwischen dem Prozessor und dem Hardwarebeschleuniger vereinfacht.. - In this work, a unique system consisting of hardware architecture and a software tool flow was designed, and allows for a fully automatic and online processor customization.The designed hardware architecture is a dynamically reconfigurable instruction set processor that allows for the just-in-time processor customization during the runtime, whereas the software tool flow is based on a virtual machine and allows to customize this architecture concurrently to the application execution and without any manual efforts. This tool flow contains a set of heuristics that reduce the runtime of methods for identifying and selecting custom instructions for the just-in-time processor customization as well as a circuit library and a data path generator of required bitstreams for the hardware customization. This dynamic system, in contrast to the static one, has several advantages. First of all, it is fully automated and no manual efforts are required. It can optimize its operation by reconfiguring the instruction set architecture of the processor and by changing the code at runtime, which is fundamentally more powerful than a static approach.This developed system can collect the execution time, profiling, and machine level information in order to identify the code sections that are actually performance limiting at runtime and therefore, constitute the ideal candidates for hardware acceleration.Moreover, the virtual machine has the capability of executing various dynamic optimizations such as hotspot detection, alias analysis, or branch prediction to further optimize the performances.Finally, the dependencies between variables and the corresponding memory layout are available, which simplifies the task of the hardware-software partitioning between the processor and the hardware accelerator.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1017735298",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

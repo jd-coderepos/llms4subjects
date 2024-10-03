@@ -1,0 +1,147 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1011994682",
+            "sameAs": "Aburajabaltamimi, Jasem"
+        },
+        {
+            "@id": "gnd:1058278150",
+            "sameAs": "Ament, Christoph"
+        },
+        {
+            "@id": "gnd:120642689",
+            "sameAs": "Li, Pu"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4121428-6",
+            "sameAs": "Optimale Kontrolle"
+        },
+        {
+            "@id": "gnd:4125677-3",
+            "sameAs": "Dynamische Optimierung"
+        },
+        {
+            "@id": "gnd:4128192-5",
+            "sameAs": "Nichtlineare Optimierung"
+        },
+        {
+            "@id": "gnd:4132964-8",
+            "sameAs": "Nichtlineare Regelung"
+        },
+        {
+            "@id": "gnd:4151002-1",
+            "sameAs": "Echtzeitverarbeitung"
+        },
+        {
+            "@id": "gnd:4271836-3",
+            "sameAs": "Pr\u00e4diktive Regelung"
+        },
+        {
+            "@id": "gnd:4728094-3",
+            "sameAs": "Regelbasiertes Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A659378930",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 144 S., 2258 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Findeisen, Rolf",
+            "identifier": [
+                "(ppn)659378930",
+                "(firstid)GBV:659378930"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=bk, id=106417932)58.17 - Chemische Prozesstechnik",
+                "(classificationName=ddc)510",
+                "(classificationName=ddc)629.836",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik",
+                "(classificationName=linseach:mapping)cet"
+            ],
+            "title": "Development of efficient algorithms for model predictive control of fast systems",
+            "abstract": "Die nichtlineare modellpr\u00e4diktive Regelung (NMPC) ist ein vielversprechender Regelungsalgorithmus, der auf der Echtzeitl\u00fcsung eines nichtlinearen dynamischen Optimierungsproblems basiert. Nichtlineare Modellgleichungen wie auch die Steuerungs- und Zustandsbeschr\u00e4nkungen werden als Gleichungs- bzw. Ungleichungsbeschr\u00e4nkungen des Optimalsteuerungsproblems behandelt. Jedoch wurde die NMPC wegen des recht hohen Rechenaufwandes bisher meist auf relativ langsame Prozesse angewendet. Daher bildet die Rechenzeit bei Anwendung der NMPC auf schnelle Prozesse einen gewissen Engpass wie z. B. bei mechanischen und/oder elektrischen Prozessen. In dieser Arbeit wird eine neue L\u00fcsungsstrategie f\u00fcr dynamische Optimierungsprobleme vorgeschlagen, wie sie in NMPC auftreten, die auch auf sog. schnelle Systeme anwendbar ist. Diese Strategie kombiniert Mehrschie\u00df-Verfahrens mit der Methode der Kollokation auf finiten Elementen. Mittels Mehrschie\u00df-Verfahren wird das nichtlineare dynamische Optimierungsproblem in ein hochdimensionales statisches Optimierungsproblem (nonlinear program problem, NLP) \u00fcberf\u00fchrt, wobei Diskretisierungs- und Parametrisierungstechniken zum Einsatz kommen. Um das NLP-Problem zu l\u00fcsen, m\u00fcssen die Zustandswerte und ihre Gradienten am Ende jedes Diskretisierung-Intervalles berechnet werden. In dieser Arbeit wird die Methode der Kollokation auf finiten Elementen benutzt, um diese Aufgabe zu l\u00fcsen. Dadurch lassen sich die Zustandsgr\u00fc\u00df en und ihre Gradienten am Ende jedes Diskretisierungs-Intervalls auch mit gro\u00df er Genauigkeit berechnen. Im Ergebnis k\u00fcnnen die Vorteile beider Methoden (Mehrschie\u00df-Verfahren und Kollokations-Methoden) ausgenutzt werden und die Rechenzeit l\u00e4sst sich deutlich reduzieren. Wegen des komplexen Optimierungsproblems ist es im Allgemeinen schwierig, eine Stabilit\u00e4tsanalyse f\u00fcr das zugeh\u00fcrige NMPC durchzuf\u00fchren. In dieser Arbeit wird eine neue Formulierung des Optimalsteuerungsproblems vorgeschlagen, durch die die Stabilit\u00e4t des NMPC gesichert werden kann. Diese Strategie besteht aus den folgenden drei Eigenschaften. Zun\u00e4chst wird ein Hilfszustand \u00fcber eine lineare Zustandsgleichung in das Optimierungsproblem eingef\u00fchrt. Die Zustandsgleichungen werden durch Hilfszust\u00e4nde erg\u00e4nzt, die man in Form von Ungleichungsnebenbedingungen einf\u00fchrt. Wenn die Hilfszust\u00e4nde stabil sind, l\u00e4sst sich damit die Stabilit\u00e4t des Gesamtsystems sichern. Die Eigenwerte der Hilfszust\u00e4nde werden so gew\u00e4hlt, dass das Optimalsteuerungsproblem l\u00fcsbar ist. Dazu benutzt man die Eigenwerte als Optimierungsvariable. Damit lassen sich die Stabilit\u00e4tseigenschaften in einem station\u00e4ren Punkt des Systemmodells untersuchen. Leistungsf\u00e4higkeit und Effektivit\u00e4t des vorgeschlagenen Algorithmus werden an Hand von Fallstudien belegt. Die Bibliothek Numerische Algorithmus Group (NAG), Mark 8, wird eingesetzt, um die linearen und nichtlinearen Gleichungen, die aus der Kollokation resultieren, zu l\u00fcsen. Weiterhin wird zur L\u00fcsung des NLP-Problems der L\u00fcser IPOPT f\u00fcr C/C++- Umgebung eingesetzt. Insbesondere wird der vorgeschlagene Algorithmus zur Steuerung einer Verladebr\u00fccke im Labor des Institutes f\u00fcr Automatisierungs- und Systemtechnik angewendet.",
+            "contributor": [
+                "gnd:1058278150",
+                "gnd:120642689"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1011994682",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4728094-3"
+                },
+                {
+                    "@id": "gnd:4271836-3"
+                },
+                {
+                    "@id": "gnd:4132964-8"
+                },
+                {
+                    "@id": "gnd:4128192-5"
+                },
+                {
+                    "@id": "gnd:4121428-6"
+                },
+                {
+                    "@id": "gnd:4151002-1"
+                },
+                {
+                    "@id": "gnd:4125677-3"
+                },
+                {
+                    "@id": "gnd:4001183-5"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1080960139",
+            "sameAs": "Biskupek, Liliane"
+        },
+        {
+            "@id": "gnd:1298784743",
+            "sameAs": "Singh, Vishwa Vijay"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1891376357",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (555.5 KByte)",
+            "identifier": [
+                "(doi)10.25835/3h1r07a7",
+                "(firstid)KXP:1891376357",
+                "(ppn)1891376357"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)rest",
+            "title": "Earth rotation parameters from LLR with NPs for timespan 1970 - 2021",
+            "abstract": "Lunar Laser Ranging (LLR) measures the distance between observatories on Earth and retro-reflectors on Moon since 1969. From the mesurements it is possible to estimate the Earth Rotation Parameters (ERP) using LLR data. For the determination of the published ERP data 28093 LLR normal points for the time span April 1970 - April 2021 were used. The analysis was done with the LUNAR software of the Insitute of Geodesy (IfE). The data contains 32 files which show the estimated values and their 3-sigma uncertainties of the Earth Rotation Phase (\u0394UT1) and the terrestrial pole offsets (xp and yp). The data is devided in 3 subsets according to the minimum number of normal points (NPs) per night (e.g. 5, 10, or 15 NPs). Each subset contains files with ERPs calculated from NPs observed from either only APOLLO (USA), or only OCA (France), or all LLR observatories. For APOLLO, the case of 15 NPs per night was not considered. Each case has four individual files - one each for results of the estimation of \u0394UT1, xp, yp, and xp & yp. The a-priori data used to estimate the ERP values is a combination of: KEOF COMB2019 series (from JD 2440575.5 until JD 2445335.5) [Ratcliff, J. T., & Gross, R. S. (2020).Combinations of Earth Orientation Measurements: SPACE2019, COMB2019, and POLE2019. Technical Report JPLPublication 20-3 Jet Propulsion Laboratory.], and     IERS 14 C04 series (from JD 2445336.5 until JD 2458967.5) [IERS 14 C04 (IAU 2000A) series downloaded on 06.05.2021 from: https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html]. The given estimated ERP values are the differences to the ERP values from the a-priori time series (i.e. final ERP value on one night = the given value + ERP value from the a-priori time series). The error of these estimated values are given as 3-sigma uncertainties.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1298784743",
+                "gnd:1080960139"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/3h1r07a7",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A672973839",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (91 Bl. = 21,57 mb)",
+            "contributor": [
+                "Lang, Jens",
+                "Weiner, R\u00fcdiger"
+            ],
+            "creator": "Jebens, Stefan",
+            "identifier": [
+                "(ppn)672973839",
+                "(doi)10.25673/1204",
+                "(firstid)GBV:672973839"
+            ],
+            "publisher": "Universit\u00e4ts- und Landesbibliothek Sachsen-Anhalt",
+            "subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)550"
+            ],
+            "title": "Explicit and linearly implicit peer methods for the solution of the compressible Euler equations",
+            "abstract": [
+                "numerische Wettervorhersage; kompressible Euler-Gleichungen; Finite-Volumen-Verfahren; angeschnittene Zellen; Operator-Splitting; Peer-Verfahren; split-explizite Verfahren; linear-implizite Verfahren; approximierte Jacobimatrix",
+                "numerical weather prediction; compressible Euler Equations; finite volume methods; cut cells; operator splitting; peer methods; split-explicit methods; linearly implicit methods; approximate Jacobian",
+                "Wir entwickeln neue Verfahren f\u00fcr die L\u00f6sung der der numerischen Wettervorhersage zugrundeliegenden Gleichungen. Die erste Schwierigkeit dabei ist, dass Schallwellen auf Grund der Kompressibilit\u00e4t auftreten. Wenn man ein explizites Verfahren benutzt, beschr\u00e4nken Schallwellen die maximale Zeitschrittweite auf Grund der CFL-Bedingung. Um diese Einschr\u00e4nkung zu vermeiden, werden split-explizite Verfahren benutzt. Wir haben ein Verfahren der Ordnung 2 entwickelt, das im Gegensatz zu den verbreiteten Modellen ohne k\u00fcnstliche D\u00e4mpfung stabil ist. Die zweite Schwierigkeit ist die Implementierung der Orografie mittels angeschnittener Zellen. Diese haben den Vorteil, dass keine k\u00fcnstlichen Kr\u00e4fte wie bei bodenfolgenden Koordinaten auftreten. Andererseits k\u00f6nnen beliebig kleine Zellen auftauchen. Deshalb haben wir partiell-implizite Verfahren entwickelt. In den vollen Zellen der freien Atmosph\u00e4re enth\u00e4lt die Jacobimatrix nur die Akustik. Diese Verfahren sind in der freien Atmosph\u00e4re genauso stabil und genau wie das split-explizite Verfahren aber sie k\u00f6nnen au\u00dferdem fast ohne Mehraufwand mit angeschnittenen Zellen rechnen."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25673/1204"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

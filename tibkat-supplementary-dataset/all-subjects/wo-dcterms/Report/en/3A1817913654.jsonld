@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1224894111",
+            "sameAs": "Fricke, Hartmut"
+        },
+        {
+            "@id": "gnd:2116834-9",
+            "sameAs": "Deutschland, Umweltbundesamt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1817913654",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (177 Seiten, 8,42 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Thierbach, Roman",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Thiel, Christoph",
+                "Lindner, Martin",
+                "Vogel, Markus"
+            ],
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(ppn)1817913654",
+                "(contract)Forschungskennzahl 3718 54 103 0",
+                "(contract)FB000760",
+                "(firstid)KXP:1817913654"
+            ],
+            "publisher": "Umweltbundesamt",
+            "subject": [
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=bk, id=106410660)55.88 - Luftverkehr, Raumfahrt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=bk, id=106420518)50.36 - Technische Akustik"
+            ],
+            "title": "Flugverlaufsdaten als Grundlage f\u00fcr Flugl\u00e4rmberechnungen : Abschlussbericht",
+            "abstract": [
+                "The feasibility study \"Aircraft Noise Calculations based on Flight Data\" investigates the potential of historical flight data to improve the accuracy of aircraft noise calculation methods. Suitable sources of flight data (radar, ADS-B, MLAT, WAM), their characteristic error and methods of error correction and improvement of data quality (filtering, smoothing, data fusion) are researched, implemented, and tested. Then, methods for aircraft mass estimation and thrust calculation are developed. Available aircraft performance models are assessed regarding suitability, level of detail and licensing requirements. As a proof of concept, and to demonstrate the quality of results, noise calculations are performed in five different variants for two major German airports and the busiest half-year of 2019. The results are compared between the variants which use an increasing amount of flight data: The baseline variant 0 uses geometric routes and fixed-point flight profiles (AzB being the currently prescribed method for noise calculations in Germany). Starting from the real lateral flight path (Variant 1: XY), the height above ground is added (Variant 2: XY, H), then the velocity (Variant 3: XY, H, V) and finally the thrust (Variant 4: XY, H, V, P). The last variant switches to ECAC Doc. 29 for the calculations, utilizing its noise-power-distance lookup tables. The results are discussed using absolute noise maps and differential noise maps comparing a dedicated couple of variants, each and the comparison to the baseline Variant 0. Finally, a reference dataset for the validation of future implementations of the most complex Variant 4 is created (a so-called 'test task').",
+                "Die Konzept- und Machbarkeitsstudie \"Flugverlaufsdaten als Grundlage von Flugl\u00e4rmberechnungen\" untersucht, ob und in welchem Umfang sich reale Flugverlaufsdaten einsetzen lassen, um bestehende Flugl\u00e4rmberechnungsverfahren in ihrer Abbildungsgenauigkeit zu verbessern. Ausgehend vom Stand der Literatur wird untersucht, welche Daten sich hierf\u00fcr grunds\u00e4tzlich eignen (Radar, ADS-B, MLAT, WAM), welche jeweiligen Fehler zu ber\u00fccksichtigen sind und wie diese minimiert werden k\u00f6nnen (Filterung, Gl\u00e4ttung, Datenfusion), um dem Studienziel bestm\u00f6glich gerecht zu werden. Sodann wird eine Methode entwickelt, die die bis dato unber\u00fccksichtigte Luftfahrzeugmasse und den gesetzten Schub aus den Bewegungsdaten zu sch\u00e4tzen erlaubt, um diese l\u00e4rmsensitiven Parameter erg\u00e4nzend einbeziehen zu k\u00f6nnen. Hierzu werden verf\u00fcgbare Flugleistungsmodelle auf deren Tauglichkeit eingehend analysiert. Als Nachweis der Machbarkeit und sodann Ergebnisqualit\u00e4t wird der Flugl\u00e4rm in f\u00fcnf verschiedenen Varianten f\u00fcr zwei deutsche Verkehrsflugh\u00e4fen und das verkehrsreichste Halbjahr des Jahres 2019 exemplarisch errechnet und einem konventionell nach AzB gerechneten Ergebnis (Variante 0) gegen\u00fcbergestellt: Ausgehend vom realen lateralen Flugverlauf (Variante 1) wird die Flugh\u00f6he erg\u00e4nzt (Variante 2), sodann die Geschwindigkeit (Variante 3) und zuletzt der Schub (Variante 4) hinzugenommen. Die jeweils errechneten L\u00e4rmkarten werden als jeweilige Pegeldifferenzen gegen\u00fcber Variante 0 ausgewiesen und diskutiert. Abschlie\u00dfend wird f\u00fcr die komplexeste Variante 4 eine Testaufgabe erstellt und dokumentiert."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2116834-9",
+                "gnd:1224894111"
+            ],
+            "isPartOf": [
+                "(collectioncode)GBV-UBA-Texte",
+                "(collectioncode)OAEPF-ST-GESAMT"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2022, 22",
+            "P30128": [
+                "Ressortforschungsplan des Bundesministerium f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit",
+                "Texte / Umweltbundesamt"
+            ],
+            "P60163": "Dessau-Ro\u00dflau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:11384610X",
+            "sameAs": "Brunnett, Guido"
+        },
+        {
+            "@id": "gnd:128935308",
+            "sameAs": "Michalik, Pavol"
+        },
+        {
+            "@id": "gnd:130020729",
+            "sameAs": "Br\u00fcderlin, Beat"
+        },
+        {
+            "@id": "gnd:4069794-0",
+            "sameAs": "CAD"
+        },
+        {
+            "@id": "gnd:4154388-9",
+            "sameAs": "Filter (Mathematik)"
+        },
+        {
+            "@id": "gnd:4182396-5",
+            "sameAs": "Spline-Interpolation"
+        },
+        {
+            "@id": "gnd:4198736-6",
+            "sameAs": "Freiformfl\u00e4che"
+        },
+        {
+            "@id": "gnd:4348101-2",
+            "sameAs": "Singul\u00e4rwertzerlegung"
+        },
+        {
+            "@id": "gnd:4384798-5",
+            "sameAs": "B-Spline"
+        },
+        {
+            "@id": "gnd:4567206-4",
+            "sameAs": "Constraint-Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A374818258",
+            "@type": "bibo:Thesis",
+            "P1053": "IX. 140 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Hagen, Hans",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)374818258",
+                "(firstid)GBV:374818258"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=10642002X)52.72 - Fertigungsautomatisierung",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc)620.00420285",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Methods for constraint-based conceptual free-form surface design",
+            "abstract": "Der constraint-basierte Entwurf von Freiformfl\u00e4chen ist eine m\u00e4chtige Methode im Computer gest\u00fctzten Entwurf. Bekannte Realisierungen beschr\u00e4nken sich jedoch meist auf Interpolation von Rand- und isoparametrischen Kurven. In diesem Zusammenhang sind die sog. \"Multi-patch\" Methoden die am weitesten verbreitete Vorgehensweise. Hier versucht man Fl\u00e4chenverb\u00e4nde aus einem Netz von dreidimensionalen Kurven (oft gemischt mit unstrukturierten Punktewolken) derart zu generieren, dass die Kurven und Punkte von den Fl\u00e4chen interpoliert werden. Die Kurven werden als R\u00e4nder von rechteckigen oder dreieckigen bi-polynomialen oder polynomialen Fl\u00e4chen betrachtet. Unter dieser Einschr\u00e4nkung leidet die Flexibilit\u00e4t des Verfahrens. In dieser Dissertation schlagen wir vor, beliebige, d.h. auch nicht iso-parametrische, Kurven zu verwenden. Dadurch ergeben sich folgende Vorteile: Erstens kann so beispielsweise eine B-spline Fl\u00e4che entlang einer benutzerdefinierten Kurve verformt werden w\u00e4hrend andere Kurven oder Punkte fixiert sind. Zweitens, kann eine B-spline Fl\u00e4che Kurven interpolieren, die sich nicht auf iso-parametrische Linien der Fl\u00e4che abbilden lassen. Wir behandeln drei Arten von Constraints: Inzidenz einer beliebigen Kurve auf einer B-spline Fl\u00e4che, Fixieren von Fl\u00e4chennormalen entlang einer beliebigen Kurve (dieser Constraint dient zur Herstellung von tangentialen \u00dcberg\u00e4ngen zwischen zwei Fl\u00e4chen) und die sog. Variational Constrains. Letztere dienen unter anderem zur Optimierung der physikalischen und optischen Eigenschaften der Fl\u00e4chen. Es handelt sich hierbei um die Gausschen Normalgleichungen der Fl\u00e4chenfunktionale zweiter Ordnung, wie sie in der Literatur bekannt sind. - Die Dissertation gliedert sich in zwei Teile. Der erste Teil befasst sich mit der Aufstellung der linearen Gleichungssysteme, welche die oben erw\u00e4hnten Constraints repr\u00e4sentieren. Der zweite Teil behandelt Methoden zum L\u00f6sen dieser Gleichungssysteme. - Der Kern des ersten Teiles ist die Erweiterung und Generalisierung des auf Polarformen (Blossoms) basierenden Algorithmus f\u00fcr Verkettung von Polynomen auf Bezier und B-spline Basis: Gegeben sei eine B-spline Fl\u00e4che und eine B-spline Kurve im Parameterraum der Fl\u00e4che. Wir zeigen, dass die Kontrollpunkte der dreidimensionalen Fl\u00e4chenkurve, welche als polynomiale Verkettung der beiden definiert ist, durch eine im Voraus berechenbare lineare Tranformation (eine Matrix) der Fl\u00e4chenkontrollpunkte ausgedr\u00fcckt werden k\u00f6nnen. Dadurch k\u00f6nnen Inzidenzbeziehungen zwischen Kurven und Fl\u00e4chen exakt und auf eine sehr elegante und kompakte Art definiert werden. Im Vergleich zu den bekannten Methoden ist diese Vorgehensweise effizienter, numerisch stabiler und erh\u00f6ht nicht die Konditionszahl der zu l\u00f6senden linearen Gleichungen. Die Effizienz wird erreicht durch Verwendung von eigens daf\u00fcr entwickelten Datenstrukturen und sorgf\u00e4ltige Analyse von kombinatorischen Eigenschaften von Polarformen. - Die Gleichungen zur Definition von Tangentialit\u00e4ts- und Variational Constraints werden als Anwendung und Erweiterung dieses Algorithmus implementiert. Beschrieben werden auch symbolische und numerische Operationen auf B-spline Polynomen (Multiplikation, Differenzierung, Integration). Dabei wird konsistent die Matrixdarstellung von B-spline Polynomen verwendet. - Das L\u00f6sen dieser Art von Constraintproblemen bedeutet das Finden der Kontrollpunkte einer B-spline Fl\u00e4che derart, dass die definierten Bedingungen erf\u00fcllt werden. Dies wird durch L\u00f6sen von, im Allgemeinen, unterbestimmten und schlecht konditionierten linearen Gleichungssystemen bewerkstelligt. Da in solchen F\u00e4llen keine eindeutige, numerisch stabile L\u00f6sung existiert, f\u00fchren die \u00fcblichen Methoden zum L\u00f6sen von linearen Gleichungssystemen nicht zum Erfolg. - Wir greifen auf die Anwendung von sog. Regularisierungsmethoden zur\u00fcck, die auf der Singul\u00e4rwertzerlegung (SVD) der Systemmatrix beruhen. Insbesondere wird die L-curve eingesetzt, ein \"numerischer Hochfrequenzfilter\", der uns in die Lage versetzt eine stabile L\u00f6sung zu berechnen. Allerdings reichen auch diese Methoden im Allgemeinen nicht aus, eine Fl\u00e4che zu generieren, welche die erw\u00fcnschten \u00e4sthetischen und physikalischen Eigenschaften besitzt. Verformt man eine Tensorproduktfl\u00e4che entlang einer nicht isoparametrischen Kurve, entstehen unerw\u00fcnschte Oszillationen und Verformungen. Dieser Effekt wird \"Surface-Aliasing\" genannt. Wir stellen zwei Methoden vor um diese Aliasing-Effekte zu beseitigen: Die erste Methode wird vorzugsweise f\u00fcr Deformationen einer existierenden B-spline Fl\u00e4che entlang einer nicht isoparametrischen Kurve angewendet. Es erfogt eine Umparametrisierung der zu verformenden Fl\u00e4che derart, dass die Kurve in der neuen Fl\u00e4che auf eine isoparametrische Linie abgebildet wird. Die Umparametrisierung einer B-spline Fl\u00e4che ist keine abgeschlossene Operation; die resultierende Fl\u00e4che besitzt i.A. keine B-spline Darstellung. Wir berechnen eine beliebig genaue Approximation der resultierenden Fl\u00e4che mittels Interpolation von Kurvennetzen, die von der umzuparametrisierenden Fl\u00e4che gewonnen werden. Die zweite Methode ist rein algebraisch: Es werden zus\u00e4tzliche Bedingungen an die L\u00f6sung des Gleichungssystems gestellt, die die Aliasing-Effekte unterdr\u00fccken oder ganz beseitigen. Es wird ein restriktionsgebundenes Minimum einer Zielfunktion gesucht, deren globales Minimum bei \"optimaler\" Form der Fl\u00e4che eingenommen wird. Als Zielfunktionen werden Gl\u00e4ttungsfunktionale zweiter Ordnung eingesetzt. Die stabile L\u00f6sung eines solchen Optimierungsproblems kann aufgrund der nahezu linearen Abh\u00e4ngigkeit des Gleichungen nur mit Hilfe von Regularisierungsmethoden gewonnen werden, welche die vorgegebene Zielfunktion ber\u00fccksichtigen. Wir wenden die sog. Modifizierte Singul\u00e4rwertzerlegung in Verbindung mit dem L-curve Filter an. Dieser Algorithmus minimiert den Fehler f\u00fcr die geometrischen Constraints so, dass die L\u00f6sung gleichzeitig m\u00f6glichst nah dem Optimum der Zielfunktion ist.",
+            "contributor": [
+                "gnd:130020729",
+                "gnd:11384610X"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:128935308",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4348101-2",
+                "gnd:4198736-6",
+                "gnd:4567206-4",
+                "gnd:4154388-9",
+                "gnd:4182396-5",
+                "gnd:4069794-0",
+                "gnd:4384798-5"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/374818258.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

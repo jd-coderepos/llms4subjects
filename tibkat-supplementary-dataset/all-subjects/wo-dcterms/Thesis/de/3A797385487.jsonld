@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:130020788",
+            "sameAs": "Haardt, Martin"
+        },
+        {
+            "@id": "gnd:143663798",
+            "sameAs": "Li, Jianhui"
+        },
+        {
+            "@id": "gnd:4018908-9",
+            "sameAs": "Funktechnik"
+        },
+        {
+            "@id": "gnd:4054947-1",
+            "sameAs": "Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4161707-1",
+            "sameAs": "Infrarot\u00fcbertragung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A797385487",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XIII, 151 S., 2,46 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Sezgin, Aydin",
+                "Jorswieck, Eduard"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:797385487",
+                "(ppn)797385487"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Signal processing for high data rate wireless communications",
+            "abstract": "Die vorliegende Arbeit behandelt Signalverarbeitungsverfahren f\u00fcr drahtlose Kommunikationssysteme mit sehr hohen Datenraten. Dabei werden zum einen Funksysteme und zum anderen Infrarot-basierte optische \u00dcbertragungssysteme als Anwendungsgebiete betrachtet. Im ersten Teil der Arbeit wird das Konzept des \"resource sharing\" beleuchtet, was die willentliche und koordinierte gemeinsame Nutzung von Ressourcen zwischen mehreren Betreibern beschreibt. Dieses Ziel wurde im Rahmen des europ\u00e4ischen Forschungsprojektes SAPHYRE eingehend untersucht. Die Arbeit beschreibt die Vision des SAPHYRE-Projektes und geht auf zwei konkrete Topologien n\u00e4her ein: die gemeinsame Nutzung der Spektren (\"spectrum sharing\") sowie die gemeinsame Nutzung der Spektren und der Infrastruktur wie etwa der Relay-Stationen (\"spectrum and infrastructure sharing\"). In der ersten Topologie teilen sich mehrere Betreiber Teile des Spektrums. Hierf\u00fcr wird die Abw\u00e4rtsstrecke betrachtet, in welcher die Basisstationen (BS) der verschiedenen Betreiber jeweils zu einem eigenen User-Terminal (UT) senden und sich daf\u00fcr denselben Kanal teilen. Zuerst werden f\u00fcr dieses Modell geschlossene L\u00f6sungen f\u00fcr die Antennengewichte der Sender entwickelt. Basierend auf diesem Ansatz wird dann ein iteratives Verfahren namens \"Flexible Coordinated Beamforming (FlexCoBF)\" f\u00fcr den Spectrum-Sharing-Fall entwickelt, welches es erlaubt, die Interferenz zwischen den Betreibern effektiv auszunutzen, um so die Summenrate des Systems zu steigern. Im Anschluss wird die zweite Topologie betrachtet, in der sowohl das Spektrum als auch Teile der Infrastruktur gemeinsam genutzt werden. Insbesondere wird dabei ein Relay-basiertes Kommunikationssystem untersucht, f\u00fcr welches mehrere Betreiber sowohl das Spektrum als auch die Relay-Station gemeinsam nutzen. Das Relay wird im \"Amplifyand Forward\" (AF)-Betrieb verwendet und ist mit mehreren Sende- und Empfangsantennen ausgestattet. Zun\u00e4chst wird der Fall betrachtet, dass die direkte Verbindung zwischen BS und UT zu schwach ist und daher vernachl\u00e4ssigt werden kann. F\u00fcr diesen Fall werden Sendestrategien f\u00fcr die Relay-Station untersucht. Dabei wird zuerst eine Gruppe von Verfahren namens \"efficient relay sharing ratemaximization (EReSh-RM)\" entwickelt, welche die Summenrate des Systems, unter Ber\u00fccksichtigung einer Sendeleistungsbeschr\u00e4nkung des Relays, steigern. Im Anschluss wird der systematische Entwurf der Sendestrategien f\u00fcr energieeffiziente \u00dcbertragungen beleuchtet. F\u00fcr den Spezialfall, in dem alle Basisstationen und alle User-Terminalsnur eine Antenne besitzen, wird zun\u00e4chst die global optimale L\u00f6sung unter Verwendung von konvexer Optimierung hergeleitet. Diese L\u00f6sung dient als Benchmark zur Bewertung einfacher suboptimaler L\u00f6sungen, die im Anschluss vorgeschlagen werden. Diese stellen einen Kompromiss zwischen der erreichbaren Energieeffizienz und dem n\u00f6tigen Rechenaufwand dar, beispielsweise die geschlossene L\u00f6sungnamens \"Efficient Resource Sharing Power Minimization (EReSh-PM)\" sowie Ans\u00e4tze die auf dem \"Block Diagonalization (BD)\"-Verfahren basieren. Dar\u00fcber hinaus wird eine neuartige robuste Sendestrategie f\u00fcr das Relay vorgeschlagen, die die Unsicherheiten \u00fcber den genauen Kanalzustand am Relay ber\u00fccksichtigt. Schlie\u00dflich werden die Konzepte auf den allgemeinen Fall erweitert, in dem jede Basisstation und jedes User-Terminal mehrere Antennen besitzen k\u00f6nnen. F\u00fcr dieses Szenario wird ebenfalls eine Sendestrategie am Relay hergeleitet, die die \u00dcbertragung mehrerer Datenstr\u00f6me zwischen jedem Paar von BS und UT erlaubt. F\u00fcr den Fall, dass die direkte Verbindung zwischen BS und UT nicht vernachl\u00e4ssigbar schwach ist, werden im Anschluss ebenfalls \u00dcbertragungsverfahren beleuchtet, wobei BS, UT und das Relay mehrere Antennen besitzen k\u00f6nnen. Hierbei wird unterschieden zwischen der \u00dcbertragung von jeweils einem Datenstrom und mehreren Datenstr\u00f6men von jeder BS zu dem zugeh\u00f6rigen UT. Um den Vorteil des Resource-Sharings zu quantifizieren wird der \"SAPHYRE sharing gain\" verwendet welcher die erreichbare Summenrate mit und ohne Sharing ins Verh\u00e4ltnis setzt. Im zweiten Teil der Arbeit wird das Design der physikalischen \u00dcbertragungsschicht f\u00fcr schnelle Infrarot (IR)-basierte Indoor-\u00dcbertragungssysteme untersucht. Dies geschah im Rahmen des europ\u00e4ischen Forschungsprojektes OMEGA. Die j\u00fcngsten Entwicklungen in Indoor-IR-\u00dcbertragungssystemen haben gezeigt, dass IR hochratige Daten\u00fcbertragung unterst\u00fctzt und im Indoor-Bereich entscheidende Vorteile besitzt. Deshalb wird erwartet, dass IR Technologien f\u00fcr zuk\u00fcnftige drahtlose Netzwerke eine wichtige Rolle spielen werden.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130020788"
+                }
+            ],
+            "creator": "gnd:143663798",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4161707-1",
+                "gnd:4018908-9",
+                "gnd:4054947-1"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

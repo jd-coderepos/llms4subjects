@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042724849",
+            "sameAs": "Macardle, Dorothy"
+        },
+        {
+            "@id": "gnd:143245325",
+            "sameAs": "Gibbons, Luke"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1838556907",
+            "@type": "bibo:Book",
+            "P1053": "xiv, 315 Seiten",
+            "identifier": [
+                "(ppn)1838556907",
+                "(firstid)KXP:1838556907",
+                "(isbn13)9780992817077"
+            ],
+            "publisher": "TrampPress",
+            "subject": [
+                "(classificationName=linseach:mapping)lit",
+                "(classificationName=bk, id=10640539X)18.05 - Englische Literatur",
+                "(classificationName=loksys-fbl)ER 900 mcr 3",
+                "(classificationName=bk, id=181571714)17.97 - Texte eines einzelnen Autors"
+            ],
+            "title": "The uninvited",
+            "abstract": "A gothic, bone-chilling Irish ghost story first published in 1941 and now brought back into print. The title benefits from an introduction by well-known academic Professor Luke Gibbons and Martin Scorsese and various critics, including William K. Everson and Leonard Maltin, regard The Uninvited as one of the best ghost stories ever filmed.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:143245325"
+                }
+            ],
+            "creator": "gnd:1042724849",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": "https://tramppress.com/product/the-uninvited/",
+            "P60163": "Dublin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "relation": "http://purl.org/dc/terms/relation",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

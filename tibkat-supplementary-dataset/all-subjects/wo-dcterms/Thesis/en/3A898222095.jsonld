@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118138529",
+            "sameAs": "Volkwein, Stefan"
+        },
+        {
+            "@id": "gnd:134180712",
+            "sameAs": "Ober-Bl\u00f6baum, Sina"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898222095",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (VIII, 176 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Dellnitz, Michael",
+            "creator": "Peitz, Sebastian",
+            "description": "Diagramme",
+            "identifier": [
+                "(doi)10.17619/UNIPB/1-176",
+                "(firstid)HBZ:CT004001941",
+                "(ppn)898222095"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Exploiting structure in multiobjective optimization and optimal control",
+            "abstract": "Mehrzieloptimierung bekommt einen immer gr\u00f6\u00dferen Stellenwert in modernen Anwendungen, in denen verschiedene Zielkriterien h\u00e4ufig von gleich gro\u00dfer Bedeutung sind. Ziel der Mehrzieloptimierung bzw. der Mehrzieloptimalsteuerung ist es daher, die Menge optimaler Kompromisse (die Paretomenge) f\u00fcr die in Konflikt stehenden Ziele zu berechnen.Der numerische Aufwand zum L\u00f6sen von Mehrzieloptimierungsproblemen kann schnell zu einer gro\u00dfen Herausforderung werden. Dies tritt umso mehr zutage, wenn zus\u00e4tzliche Faktoren hinzukommen, wie z. B. das L\u00f6sen einer Vielzahl von Problemen, die Ber\u00fccksichtigung vieler Zielfunktionen oder ein hoher Rechenaufwand zur Berechnung der Zielfunktionswerte. Diese Arbeit widmet sich daher der Identifikation sowie der Ausnutzung von Strukturen sowie der Entwicklung effizienter Algorithmen f\u00fcr parameterabh\u00e4ngige Probleme, Probleme mit vielen Zielfunktionen oder durch partielle Differentialgleichungen (PDGLn) beschriebene Probleme.Im ersten Teil werden weit verbreitete predictor-corrector-Methoden auf die Fortsetzung ganzer Paretomengen erweitert. Der resultierende Algorithmus wird an einem Beispiel aus dem autonomen Fahren validiert.Im zweiten Teil wird die hierarchische Struktur von Paretomengen untersucht. Durch die Betrachtung einer Teilmenge der Zielfunktionen l\u00e4sst sich eine Teilmenge einer Paretomenge berechnen. Auf diese Weise l\u00e4sst sich deren Skelett berechnen, was an einem Beispiel aus der industriellen W\u00e4scherei veranschaulicht wird.Im dritten Teil werden Mehrzieloptimalsteuerungsprobleme behandelt, deren Dynamik durch PDGLn beschrieben wird, und mit Verfahren aus der Modellreduktion gekoppelt. Die reduzierten Modelle resultieren in Fehlern in der Zielfunktion sowie im Gradienten, was bei der Entwicklung von Algorithmen ber\u00fccksichtigt werden muss. Verschiedene Ans\u00e4tze werden mit Modellreduktion gekoppelt .... - Multiobjective optimization plays an increasingly important role in modern applications, where several criteria are often of equal importance. The task in multiobjective optimization and multiobjective optimal control is therefore to compute the set of optimal compromises (the Pareto set) between the conflicting objectives.Since the Pareto set generally consists of an infinite number of solutions, the computational effort can quickly become challenging. This is even more the case when many problems have to be solved, when the number of objectives is high, or when the objectives are costly to evaluate. Consequently, this thesis is devoted to the identification and exploitation of structure and to the development of efficient algorithms for solving problems with additional parameters, with a high number of objectives or with PDE-constraints.In the first part, predictor-corrector methods are extended to entire Pareto sets. When certain smoothness assumptions are satisfied, then the set of parameter dependent Pareto sets possesses additional structure which can be exploited. The resulting algorithm is applied to an example from autonomous driving.In the second part, the hierarchical structure of Pareto sets is investigated. When considering a subset of the objectives, the resulting solution is a subset of the Pareto set of the original problem. This way, the skeleton of a Pareto set can be computed significantly faster which is demonstrated using an example from industrial laundries.In the third part, PDE-constrained multiobjective optimal control problems are addressed by reduced order modeling methods. The model reduction introduces an error in both the function values and their gradients, which has to be taken into account in the development of algorithms. Different Approaches are coupled with reduced order modeling. Convergence results are presented ...",
+            "contributor": [
+                "gnd:134180712",
+                "gnd:118138529"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-176",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

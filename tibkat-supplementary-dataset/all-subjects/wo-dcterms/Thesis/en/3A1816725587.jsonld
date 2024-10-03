@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1268140287",
+            "sameAs": "Schneider, Frank"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1816725587",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 177 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-73068",
+                "(firstid)KXP:1816725587",
+                "(ppn)1816725587"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Benchmark",
+                "Algorithmus",
+                "(classificationName=ddc-dbn)004",
+                "Deep learning",
+                "Neuronales Netz",
+                "Optimierung",
+                "(classificationName=ddc)006.32",
+                "Vorbereitung"
+            ],
+            "title": "Understanding deep learning optimization via benchmarking and debugging",
+            "abstract": [
+                "The central paradigm of machine learning (ML) is the idea that computers can learn the strategies needed to solve a task without being explicitly programmed to do so. The hope is that given data, computers can recognize underlying patterns and figure out how to perform tasks without extensive human oversight. To achieve this, many machine learning problems are framed as minimizing a loss function, which makes optimization methods a core part of training ML models. Machine learning and in particular deep learning is often perceived as a cutting-edge technology, the underlying optimization algorithms, however, tend to resemble rather simplistic, even archaic methods. Crucially, they rely on extensive human intervention to successfully train modern neural networks. One reason for this tedious, finicky, and lengthy training process lies in our insufficient understanding of optimization methods in the challenging deep learning setting. As a result, training neural nets, to this day, has the reputation of being more of an art form than a science and requires a level of human assistance that runs counter to the core principle of ML. Although hundreds of optimization algorithms for deep learning have been proposed, there is no widely agreed-upon protocol for evaluating their performance. Without a standardized and independent evaluation protocol, it is difficult to reliably demonstrate the usefulness of novel methods. In this thesis, we present strategies for quantitatively and reproducibly comparing deep learning optimizers in a meaningful way. This protocol considers the unique challenges of deep learning such as the inherent stochasticity or the crucial distinction between learning and pure optimization. It is formalized and automatized in the Python package DeepOBS and allows fairer, faster, and more convincing empirical comparisons of deep learning optimizers. Based on this benchmarking protocol, we compare fifteen popular deep learning optimizers to gain insight into the field\u2019s current state. To provide evidence-backed heuristics for choosing among the growing list of optimization methods, we extensively evaluate them with roughly 50,000 training runs. Our benchmark indicates that the comparably traditional Adam optimizer remains a strong but not dominating contender and that newer methods fail to consistently outperform it. In addition to the optimizer, other causes can impede neural network training, such as inefficient model architectures or hyperparameters. Traditional performance metrics, such as training loss or validation accuracy, can show if a model is learning or not, but not why. To provide this understanding and a glimpse into the black box of neural networks, we developed Cockpit, a debugging tool specifically for deep learning. It combines novel and proven observables into a live monitoring tool for practitioners. Among other findings, Cockpit reveals that well-tuned training runs consistently overshoot the local minimum, at least for significant portions of the training. The use of thorough benchmarking experiments and tailored debugging tools improves our understanding of neural network training. In the absence of theoretical insights, these empirical results and practical tools are essential for guiding practitioners. More importantly, our results show that there is a need and a clear path for fundamentally different optimization methods to make deep learning more accessible, robust, and resource-efficient.",
+                "Das zentrale Prinzip des maschinellen Lernens (ML) ist die Vorstellung, dass Computer die notwendigen Strategien zur L\u00f6sung einer Aufgabe erlernen k\u00f6nnen, ohne explizit daf\u00fcr programmiert worden zu sein. Die Hoffnung ist, dass Computer anhand von Daten die zugrunde liegenden Muster erkennen und selbst feststellen, wie sie Aufgaben erledigen k\u00f6nnen, ohne dass sie dabei von Menschen geleitet werden m\u00fcssen. Um diese Aufgabe zu erf\u00fcllen, werden viele Probleme des maschinellen Lernens als Minimierung einer Verlustfunktion formuliert. Daher sind Optimierungsverfahren ein zentraler Bestandteil des Trainings von ML-Modellen. Obwohl das maschinelle Lernen und insbesondere das tiefe Lernen oft als innovative Spitzentechnologie wahrgenommen wird, basieren viele der zugrunde liegenden Optimierungsalgorithmen eher auf simplen, fast archaischen Verfahren. Um moderne neuronale Netze erfolgreich zu trainieren, bedarf es daher h\u00e4ufig umfangreicher menschlicher Unterst\u00fctzung. Ein Grund f\u00fcr diesen m\u00fchsamen, umst\u00e4ndlichen und langwierigen Trainingsprozess ist unser mangelndes Verst\u00e4ndnis der Optimierungsmethoden im anspruchsvollen Rahmen des tiefen Lernens. Auch deshalb hat das Training neuronaler Netze bis heute den Ruf, eher eine Kunstform als eine echte Wissenschaft zu sein und erfordert ein Ma\u00df an menschlicher Beteiligung, welche dem Kernprinzip des maschinellen Lernens widerspricht. Obwohl bereits Hunderte Optimierungsverfahren f\u00fcr das tiefe Lernen vorgeschlagen wurden, gibt es noch kein allgemein anerkanntes Protokoll zur Beurteilung ihrer Qualit\u00e4t. Ohne ein standardisiertes und unabh\u00e4ngiges Bewertungsprotokoll ist es jedoch schwierig, die N\u00fctzlichkeit neuartiger Methoden zuverl\u00e4ssig nachzuweisen. In dieser Arbeit werden Strategien vorgestellt, mit denen sich Optimierer f\u00fcr das tiefe Lernen quantitativ, reproduzierbar und aussagekr\u00e4ftig vergleichen lassen. Dieses Protokoll ber\u00fccksichtigt die einzigartigen Herausforderungen des tiefen Lernens, wie etwa die inh\u00e4rente Stochastizit\u00e4t oder die wichtige Unterscheidung zwischen Lernen und reiner Optimierung. Die Erkenntnisse sind im Python-Paket DeepOBS formalisiert und automatisiert, wodurch gerechtere, schnellere und \u00fcberzeugendere empirische Vergleiche von Optimierern erm\u00f6glicht werden. Auf der Grundlage dieses Benchmarking-Protokolls werden anschlie\u00dfend f\u00fcnfzehn popul\u00e4re Deep-Learning-Optimierer verglichen, um einen \u00dcberblick \u00fcber den aktuellen Entwicklungsstand in diesem Bereich zu gewinnen. Um fundierte Entscheidungshilfen f\u00fcr die Auswahl einer Optimierungsmethode aus der wachsenden Liste zu erhalten, evaluiert der Benchmark sie umfassend anhand von fast 50 000 Trainingsprozessen. Unser Benchmark zeigt, dass der vergleichsweise traditionelle Adam-Optimierer eine gute, aber nicht dominierende Methode ist und dass neuere Algorithmen ihn nicht kontinuierlich \u00fcbertreffen k\u00f6nnen. Neben dem verwendeten Optimierer k\u00f6nnen auch andere Ursachen das Training neuronaler Netze erschweren, etwa ineffiziente Modellarchitekturen oder Hyperparameter. Herk\u00f6mmliche Leistungsindikatoren, wie etwa die Verlustfunktion auf den Trainingsdaten oder die erreichte Genauigkeit auf einem separaten Validierungsdatensatz, k\u00f6nnen zwar zeigen, ob das Modell lernt oder nicht, aber nicht warum. Um dieses Verst\u00e4ndnis und gleichzeitig einen Blick in die Blackbox der neuronalen Netze zu liefern, wird in dieser Arbeit Cockpit pr\u00e4sentiert, ein Debugging-Tool speziell f\u00fcr das tiefe Lernen. Es kombiniert neuartige und bew\u00e4hrte Observablen zu einem Echtzeit-\u00dcberwachungswerkzeug f\u00fcr das Training neuronaler Netze. Cockpit macht unter anderem deutlich,dass gut getunte Trainingsprozesse konsequent \u00fcber das lokale Minimum hinausgehen, zumindest f\u00fcr wesentliche Phasen des Trainings. Der Einsatz von sorgf\u00e4ltigen Benchmarking-Experimenten und ma\u00dfgeschneiderten Debugging-Tools verbessert unser Verst\u00e4ndnis des Trainings neuronaler Netze. Angesichts des Mangels an theoretischen Erkenntnissen sind diese empirischen Ergebnisse und praktischen Instrumente unerl\u00e4sslich f\u00fcr die Unterst\u00fctzung in der Praxis. Vor allem aber zeigen sie auf, dass es einen Bedarf und einen klaren Weg f\u00fcr grundlegend neuartigen Optimierungsmethoden gibt, um das tiefe Lernen zug\u00e4nglicher, robuster und ressourcenschonender zu machen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1268140287"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-73068",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

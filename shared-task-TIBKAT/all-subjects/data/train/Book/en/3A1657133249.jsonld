@@ -1,0 +1,114 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4702244-9",
+            "sameAs": "Softwareplattform"
+        },
+        {
+            "@id": "gnd:7623494-0",
+            "sameAs": "Cloud Computing"
+        },
+        {
+            "@id": "gnd:7693533-4",
+            "sameAs": "Windows Azure"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1657133249",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 227 p. 105 illus., 101 illus. in color, online resource)",
+            "creator": "Preston, Stuart",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1657133249",
+                "(firstid)BSZ:470412666",
+                "(isbn13)9781484214763",
+                "(doi)10.1007/978-1-4842-1476-3"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Computer science",
+                "Computer Science",
+                "(classificationName=ddc)004.5",
+                "(classificationName=rvk)ST 510",
+                "Data structures (Computer science)",
+                "Microsoft software.",
+                "(classificationName=loc)QA76.9.D35",
+                "Microsoft .NET Framework.",
+                "(classificationName=ddc)004.165",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Using Chef with Microsoft Azure",
+            "abstract": [
+                "This book is your hands-on guide to infrastructure provisioning and configuration management in the cloud using Chef\u2019s open source, cross-platform toolset. With over 10,000 customers joining the Microsoft Azure cloud platform each week and steadily increasing usage, the need for automation approaches has never been greater. This book provides both practical examples and a much needed strategic overview of how these two technologies can be combined. Using Chef with Microsoft Azure takes you through the process of writing \u2018recipes\u2019 in Chef to describe your infrastructure as code, and simplify your configuration management processes. You\u2019ll also meet the Chef tools that can be used to provision complete environments within Microsoft Azure. There are now a wide variety of tools and approaches that can be taken to provision resources such as virtual machines within Microsoft Azure. This book demonstrates them, discusses the benefits and weaknesses of each approach, and shows how a continuous provisioning pipeline can be established as part of a reliable, repeatable, and robust provisioning process. Each chapter has practical exercises that highlight the capabilities of both Chef and Microsoft Azure from an automation perspective and can be executed on Windows, Mac, or Linux platforms. In this book, you\u2019ll learn: The purpose and principles behind automated provisioning Microsoft Azure concepts and management options How to deploy Chef Azure Virtual Machine Extensions using PowerShell, Azure command-line tools, and Chef Provisioning Chef Provisioning techniques, including provisioning PaaS resources such as KeyVault How to integrate quality tooling into the Chef development lifecycle, including Test Kitchen and InSpec with Azure compute resources How to set up a pipeline for continuous provisioning with Chef and Azure.",
+                "Chapter 1: Configuration Management Using Chef -- Chapter 2: Microsoft Azure Terminology and Concepts -- Chapter 3: Chef Azure VM Extensions -- Chapter 4: Using Chef Provisioning to Provision Machines -- Chapter 5: Advanced Chef Provisioning Techniques -- Chapter 6: Integrating Quality Tooling Into the Chef Development Lifecycle -- Chapter 7: Chef Concepts in the Real World -- Chapter 8: Pulling It All Together: Continuous Provisioning with Chef and Azure -- Chapter 9: Further Reading."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4702244-9"
+                },
+                {
+                    "@id": "gnd:7693533-4"
+                },
+                {
+                    "@id": "gnd:7623494-0"
+                }
+            ],
+            "isLike": "doi:10.1007/978-1-4842-1476-3",
+            "P30128": [
+                "SpringerLink",
+                "B\u00fccher"
+            ],
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

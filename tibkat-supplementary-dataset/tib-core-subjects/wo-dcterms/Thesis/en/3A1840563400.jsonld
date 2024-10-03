@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1284886204",
+            "sameAs": "Bassetto, Giacomo"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1840563400",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 146 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-79998",
+                "(firstid)KXP:1840563400",
+                "(ppn)1840563400"
+            ],
+            "subject": [
+                "Statistische Analyse",
+                "Statistik",
+                "Maschinelles Lernen",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=ddc-dbn)570",
+                "Neurowissenschaften",
+                "(classificationName=ddc-dbn)573.86"
+            ],
+            "title": "Bayesian parametric receptive-field identification from sparse or noisy data",
+            "abstract": [
+                "Characterizing the stimulus selectivity of sensory neurons is an important step towards understanding how information about the world is represented in the brain. However, this is a computationally challenging task, in particular due to the probabilistic nature of the relationship between external stimuli and neural responses and the high dimensionality of the space of natural stimuli. State-of-the-art receptive field identification methods based on empirical Bayes scale poorly to high-dimensional settings, and computationally efficient implementations rely on stringent assumptions about the spike generation process. Furthermore, these models fail to provide principled credible intervals for experimentally relevant parameters making it hard to propagate uncertainty for hypothesis testing in regimes of sparse or noisy data. Here, we present a full Bayesian approach to identify receptive fields in sparse data regimes, which provides also a principled quantification of the estimation uncertainty. We take advantage of the fact that, for many sensory areas, there are canonical models that explain how neurons encode their inputs into firing rates. These models usually rely on few, interpretable parameters and can be used to constrain the space of receptive fields that can explain the data. While such models may not be flexible enough to capture all nuances of a particular receptive field, they can be effective for obtaining a fast characterization of the encoding properties of a neuron. We perform Bayesian inference directly on these model parameters and we show that we can detect the presence of a receptive field with a few tenths of measured spikes in physiological conditions. Furthermore, we investigate how different amounts of data constrain the model parameters and we illustrate how a full Bayesian approach can be used to test competing hypotheses and characterize a dataset of real, sparsely-sampled neurons. In this work, our focus is directed in modeling neurons in visual cortical areas, but our flexible approach has the potential to be generalized to neurons in other brain areas, with different input-output properties.",
+                "Die Charakterisierung der Stimulusselektivit\u00e4t sensorischer Neuronen ist ein wichtiger Schritt zum Begreifen, wie die Information \u00fcber die Umgebung im Gehirn dargestellt werden. Aufgrund der probabilistischen Natur der Beziehung zwischen externen Stimuli und neuronalen Reaktionen und der hohen Dimensionalit\u00e4t des Raums der nat\u00fcrlichen Stimuli ist dies jedoch eine besonders rechenintensive Aufgabe. Moderne, auf empirischen Bayes-Modellen basierte Methoden zur Identifizierung des rezeptiven Feldes skalieren alles andere als optimal f\u00fcr ein hochdimensionale Raum. Rechnerisch effiziente Implementierungen beruhen sich aber auf strengen Annahmen \u00fcber den Spike-Generierungsprozess. Zudem liefern diese Modelle keine prinzipiell Glaubw\u00fcrdigkeitintervalle f\u00fcr experimentell relevante Parameter, so dass es schwierig ist, die Messunsicherheit f\u00fcr Hypothesentests in Situationen mit sp\u00e4rlichen oder verrauschten Daten zu propagieren. Hier stellen wir einen vollst\u00e4ndigen Bayes'schen Ansatz zur Identifizierung rezeptiver Felder bei sp\u00e4rlichen Daten vor, der auch eine prinzipielle Quantifizierung der Messunsicherheit erm\u00f6glicht. Wir profitieren davon, dass f\u00fcr viele sensorische Bereiche kanonische Modelle bereits existieren, die erkl\u00e4ren, wie Neuronen ihre Eingangssignale in Feuerungsraten kodieren. Diese Modelle bestehen in der Regel aus wenigen, interpretierbaren Parametern und k\u00f6nnen den Raum der mit den Daten kompatiblen rezeptiven Felder einschr\u00e4nken. Obwohl solche Modelle m\u00f6glicherweise nicht alle Nuancen eines bestimmten rezeptiven Feldes erfassen, k\u00f6nnen sie eine schnelle Charakterisierung der Kodierungseigenschaften eines Neurons erm\u00f6glichen. Wir f\u00fchren eine Bayes'sche Inferenz direkt auf diesen Modellparametern durch und zeigen, dass wir das Vorhandensein eines rezeptiven Feldes mit einigen Zehntel der gemessenen Spikes unter physiologischen Bedingungen erkennen k\u00f6nnen. Dar\u00fcber hinaus untersuchen wir, wie unterschiedliche Datenmengen die Modellparameter einschr\u00e4nken. Wir zeigen auch, wie ein vollst\u00e4ndiger Bayes'scher Ansatz verwendet werden kann, um konkurrierende Hypothesen zu testen und einen Datensatz realer, sp\u00e4rlich gemessener Neuronen zu charakterisieren. In dieser Arbeit liegt unser Schwerpunkt zwar auf der Modellierung von Neuronen in visuellen kortikalen Bereichen, aber unser flexibler Ansatz hat das Potenzial, auf Neuronen in anderen Hirnbereichen mit unterschiedlichen Input-Output-Eigenschaften generalisiert zu werden."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1284886204",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-79998",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:122498909",
+            "sameAs": "Scheideler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A835669009",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Kniesburges, Sebastian",
+            "identifier": [
+                "(ppn)835669009",
+                "(firstid)HBZ:CT004001360"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Distributed data structures and the power of topological self-stabilization",
+            "abstract": "In dieser Arbeit betrachten wir Probleme im Bereich verteilter Systeme und lokaler Algorithmen. Wir betrachten verteilte Systeme, die gegeben sind durch bestimmte Topologien miteinander vernetzter Knoten, und stellen die Frage, ob solche Topologien wiederhergestellt werden k\u00f6nnen, wenn das Netzwerk durch den Ausfall oder Hinzukommen von Knoten oder Kanten ver\u00e4ndert wird. Dabei sollen lokale verteilte Algorithmen entwickelt werden, die das Netzwerk von einer beliebigen schwach zusammenh\u00e4ngenden Starttopologie in eine Zieltopologie \u00fcberf\u00fchren. Diese Eigenschaft eines Algorithmus nennen wir topologische Selbststabilisierung. Motiviert wird diese Betrachtung durch die zunehmende Nutzung von Peer-to-Peer Systemen und von Cloud Dienstleistern, also Szenarien in denen das System aus Ressourcen besteht, f\u00fcr die Ausf\u00e4lle nicht mehr kontrolliert werden k\u00f6nnen. Zur Analyse von topologisch selbststabilisierenden Algorithmen oder Protokollen f\u00fchren wir geeignete Modelle ein. Wir pr\u00e4sentieren dann f\u00fcr einige bestimme Topologien mit welchen topologisch selbststabilisierenden Protokollen diese erreicht werden k\u00f6nnen. Wir betrachten dabei als einf\u00fchrendes Beispiel eine sortierte Liste von Knoten und fahren dann mit komplexeren Topologien wie einem Small-World Netzwerk und einem vollst\u00e4ndigem Graphen fort. Als n\u00e4chstes wenden wir die Idee von topologisch selbststabilisierenden Protokollen auf das Konzept von verteilten Hashtabellen an. Dabei zeigen wir, dass eine solche L\u00f6sung f\u00fcr bereits existierende verteilte Hashtabellen m\u00f6glich ist und entwickeln dann eine weitere verteilte Hashtabelle, die heterogene Kapazit\u00e4ten unterst\u00fctzt. Zum Schluss betrachten wir, wie verteilte Hashtabellen erweitert werden k\u00f6nnen, sodass nicht nur exakte Suchanfragen sondern auch Suchanfragen nach \u00e4hnlichen Schl\u00fcsseln unterst\u00fctzt werden.. - This thesis considers problems located in the fields of distributed systems and local algorithms. In particular we consider such systems given by specific topologies of interconnected nodes and want to examine whether these topologies can be rebuilt in case the network is (massively) changed by failing or joining nodes or edges. For this case we search for local distributed algorithms, i.e. the algorithms are executed on every single node and only use local information stored at the nodes like their neighborhood of nodes. By executing these algorithms we will show that the desired goal topologies can be reached from any weakly connected start topology. We call this property of an algorithm topological self-stabilization and motivate it by the increasing usage of peer-to-peer (P2P) systems and of cloud computing. In both cases the user or owner of the data and executed algorithms cannot control the resources and their connectivity. In order to analyze topological self-stabilizing algorithms or protocols we introduce suited models. For some specific topologies we then present and analyze topological self-stabilizing protocols. We consider topologies like a sorted list of nodes, which we use as a simple introductory example. We then proceed with more complex topologies like a specific small-world network and a clique. We then show that the concept of topological self-stabilization can be used for distributed hash tables. In particular we show that for existing distributed hash tables a topological self-stabilizing protocol canbe found. We also construct a new overlay network, that builds a distributed hash table that supports heterogeneous capacities, and a corresponding topological self-stabilizing protocol. At last we leave the concept of topological self-stabilization behind and instead show how to extend the usage of distributed hash tables, in order to answer more than only exact queries.",
+            "alternative": "Verteilte Datenstrukturen und das Potential topologischer Selbststabilisierung",
+            "contributor": [
+                "gnd:110026063",
+                "gnd:122498909"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

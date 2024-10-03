@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749285788",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXIII, 212 p)",
+            "contributor": "Brayton, Robert K.",
+            "creator": "McGeer, Patrick C.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(firstid)GBV:749285788",
+                "(ppn)749285788",
+                "(doi)10.1007/978-1-4615-3960-5",
+                "(isbn13)9781461539605"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Computer engineering",
+                "Computer-aided engineering.",
+                "Electrical engineering.",
+                "(classificationName=loc)TA345-345.5",
+                "Computer science",
+                "(classificationName=ddc)620.00420285",
+                "(classificationName=ddc)670.285",
+                "(classificationName=linseach:mapping)rest",
+                "Computer aided design"
+            ],
+            "title": "Integrating Functional and Temporal Domains in Logic Design : The False Path Problem and Its Implications",
+            "abstract": [
+                "This book is an extension of one author's doctoral thesis on the false path problem. The work was begun with the idea of systematizing the various solutions to the false path problem that had been proposed in the literature, with a view to determining the computational expense of each versus the gain in accuracy. However, it became clear that some of the proposed approaches in the literature were wrong in that they under\u00ad estimated the critical delay of some circuits under reasonable conditions. Further, some other approaches were vague and so of questionable accu\u00ad racy. The focus of the research therefore shifted to establishing a theory (the viability theory) and algorithms which could be guaranteed correct, and then using this theory to justify (or not) existing approaches. Our quest was successful enough to justify presenting the full details in a book. After it was discovered that some existing approaches were wrong, it became apparent that the root of the difficulties lay in the attempts to balance computational efficiency and accuracy by separating the tempo\u00ad ral and logical (or functional) behaviour of combinational circuits. This separation is the fruit of several unstated assumptions; first, that one can ignore the logical relationships of wires in a network when considering timing behaviour, and, second, that one can ignore timing considerations when attempting to discover the values of wires in a circuit.",
+                "1 Introduction -- 1.1 Timing Analysis of Circuits -- 1.2 The General False Path Problem -- 1.3 A Note on Notation -- 1.4 Logic Notation -- 1.5 Outline -- 2 The False Path Problem -- 2.1 Introduction -- 2.2 Dynamic Timing Analysis -- 2.3 Viable Paths -- 2.4 Symmetric Networks and Monotonicity -- 2.5 Viability Under Network Transformations -- 2.6 The Viability Function -- 2.7 Summary -- 3 False Path Detection Algorithms -- 3.1 Generic False Path Detection Algorithm -- 3.2 Viability Analysis Procedure -- 3.3 Dynamic Programming Algorithm Example -- 3.4 Finding all the Longest Viable Paths -- 3.5 Recent Work -- 4 System Considerations and Approximations -- 4.1 Approximation Theory and Practice -- 4.2 \u201cWeak\u201d Viability -- 4.3 The Brand-Iyengar Procedure -- 4.4 The Du-Yen-Ghanta Criteria -- 4.5 The Chen-Du Criterion -- 4.6 More Macroexpansion Transformations -- 4.7 Biased Satisfiability Tests -- 4.8 Axes of Approximation -- 4.9 The Lllama Timing Environment -- 4.10 Experimental Results -- 5 Hazard Prevention in Combinational Circuits -- 5.1 Introduction -- 5.2 Hazards -- 5.3 The Boolean n-Space -- 5.4 The SDC Set and Restricted Cubes -- 5.5 Ordering The Inputs -- 6 Timing Analysis in Hazard-Free Networks -- 6.1 Introduction -- 6.2 Robustness of Dynamic Sensitization -- 6.3 The Dynamic Sensitization Function -- 6.4 Algorithms -- 6.5 Conclusion -- A Complexity Results -- A.1 An Introduction to Polynomial Reducibility -- B A Family of Operators -- C Fast Procedures for Computing Dataflow Sets -- C.1 Introduction -- C.2 Terminology -- C.3 The New Approach -- C.4 Computations -- C.4.1 Basic Algorithms -- C.4.2 Transitivity -- C.4.4 Evaluation Algorithms -- C.5 Correctness -- C.6 Complexity Analysis -- C.7 Efficiency -- C.8 Sparse Matrix Implementation -- C.9 An Improvement -- C.10 Results -- C.11 Extensions -- C.11.1 Extending Arbitrary Cubes -- C.11.2 The Fanout Care Set and the Test Function -- D Precharged, Unate Circuits."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "139",
+            "isLike": "doi:10.1007/978-1-4615-3960-5",
+            "P30128": "The Springer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

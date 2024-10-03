@@ -1,0 +1,133 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4057633-4",
+            "sameAs": "Stochastisches Modell"
+        },
+        {
+            "@id": "gnd:4123192-2",
+            "sameAs": "Fehlertoleranz"
+        },
+        {
+            "@id": "gnd:4154497-3",
+            "sameAs": "Fixpunkt (Datensicherung)"
+        },
+        {
+            "@id": "gnd:4197459-1",
+            "sameAs": "Softwarewartung"
+        },
+        {
+            "@id": "gnd:4542599-1",
+            "sameAs": "Booten"
+        },
+        {
+            "@id": "gnd:4584423-9",
+            "sameAs": "Systemstart"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1649984960",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (XVI, 269p, digital)",
+            "creator": "Wolter, Katinka",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)BSZ:32701394X",
+                "(doi)10.1007/978-3-642-11257-7",
+                "(isbn13)9783642112577",
+                "(ppn)1649984960"
+            ],
+            "publisher": "Springer-Verlag Berlin Heidelberg",
+            "subject": [
+                "(classificationName=ddc)004.2",
+                "(classificationName=rvk)SK 820",
+                "Computer science",
+                "(classificationName=bk, id=106415158)54.33 - Computerbewertung",
+                "(classificationName=ddc)004.24",
+                "Computer system performance",
+                "Computer Science",
+                "(classificationName=linseach:mapping)inf",
+                "Computer simulation",
+                "(classificationName=loc)QA76.9.E94",
+                "(classificationName=msc)68-02",
+                "(classificationName=msc)*68M15",
+                "(classificationName=loc)QA76.9.F38"
+            ],
+            "title": "Stochastic Models for Fault Tolerance : Restart, Rejuvenation and Checkpointing",
+            "abstract": "\"As modern society relies on the fault-free operation of complex computing systems, system fault-tolerance has become an indispensable requirement. Therefore, we need mechanisms that guarantee correct service in cases where system components fail, be they software or hardware elements. Redundancy patterns are commonly used, for either redundancy in space or redundancy in time. Wolter's book details methods of redundancy in time that need to be issued at the right moment. In particular, she addresses the so-called \"\"timeout selection problem\"\", i.e., the question of choosing the right time for different fault-tolerance mechanisms like restart, rejuvenation and checkpointing. Restart indicates the pure system restart, rejuvenation denotes the restart of the operating environment of a task, and checkpointing includes saving the system state periodically and reinitializing the system at the most recent checkpoint upon failure of the system. Her presentation includes a brief introduction to the methods, their detailed stochastic description, and also aspects of their efficient implementation in real-world systems. The book is targeted at researchers and graduate students in system dependability, stochastic modeling and software reliability. Readers will find here an up-to-date overview of the key theoretical results, making this the only comprehensive text on stochastic models for restart-related problems.\"",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-2-SCS",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4197459-1"
+                },
+                {
+                    "@id": "gnd:4584423-9"
+                },
+                {
+                    "@id": "gnd:4154497-3"
+                },
+                {
+                    "@id": "gnd:4057633-4"
+                },
+                {
+                    "@id": "gnd:4542599-1"
+                },
+                {
+                    "@id": "gnd:4123192-2"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9783642112560.pdf",
+            "isLike": "doi:10.1007/978-3-642-11257-7",
+            "P30128": [
+                "B\u00fccher",
+                "SpringerLink"
+            ],
+            "P60163": "Berlin, Heidelberg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

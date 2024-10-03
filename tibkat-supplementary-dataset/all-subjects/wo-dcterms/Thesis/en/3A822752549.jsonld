@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:115498370",
+            "sameAs": "H\u00fcllermeier, Eyke"
+        },
+        {
+            "@id": "gnd:170661903",
+            "sameAs": "Lettmann, Theodor"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A822752549",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Sch\u00e4fer, Wilhelm Fr.",
+                "Wehrheim, Heike"
+            ],
+            "creator": "Steenken, Dominik",
+            "identifier": [
+                "(ppn)822752549",
+                "(firstid)HBZ:CT004001256"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Verification of infinite-state graph transformation systems via abstraction",
+            "abstract": "Im Bereich der modellgetriebenen Softwareentwicklung ist der Gebrauch von visuellen Modellierungssprachen weit verbreitet. Eine Anwendung solcher Modellierungssprachen ist die Spezifikation von strukturell dynamischen Systemen, also solchen Systemen die in der Lage sind, ihre strukturelle Konfiguration zur Laufzeit zu \u00e4ndern. Um n\u00fctzlich zu sein, m\u00fcssen solche Systeme bestimmten Qualit\u00e4tsanforderungen gen\u00fcgen, wie etwa die Eigenschaft, dass potenziell gef\u00e4hrliche Konfigurationen von dem System nicht generiert werden k\u00f6nnen. Wenn modellgetriebene Softwareentwicklung eine gangbare Alternative zur klassischen Softwareentwicklung darstellen soll, muss sie mit formalen Methoden untermauert werden, um eine automatische \u00dcberpr\u00fcfung solcher Qualit\u00e4tsanforderungen auf der Modellebene zu erm\u00f6glichen. Die naheliegendste Formalisierung von strukturell dynamischen Systemen ist das mathematische Konzept der Graphtransformationssysteme. Die formale Verifikation solcher Systeme stellt eine Herausforderung dar, da sie h\u00e4ufig unendlich gro\u00dfe Zustandsr\u00e4ume aufweisen, d.h. sie sind in der Lage, eine unendliche Vielfalt unterschiedlicher Konfigurationen zu erzeugen. In dieser Arbeit entwickeln wir eine neue Methode um Graphtransformationssysteme mit unendlichem Zustandsraum mittels einer endlichen Abstraktion auf ihre F\u00e4higkeit, potenziell gef\u00e4hrliche Konfigurationen zu erzeugen, zu \u00fcberpr\u00fcfen. Das Ergebnis ist eine Methode die eine hoch flexible Analyse von Graphtransformationssystemen mit unendlichem Zustandsraum erlaubt. Sie stellt daher einen Beitrag zum Gebiet der Verifikation komplexer, strukturell dynamischer Systeme im Kontext der modellgetriebenen Softwareentwicklung dar. Wir stellen eine prototypische Implementation, sowie erste experimentelle Ergebnisse vor.. - In the field of model-driven software development (MDSD), the use of visual modeling languages is abundant. One particular application of such modeling languages is the specification of structurally dynamic systems, i.e. systems that are able to dynamically change their structural configuration at run-time. To be useful, such systems must adhere to certain quality constraints, such as the inability to produce configurations that are deemed dangerous.If MDSD is to be a viable alternative to traditional software development, it must be firmly grounded in formal methods, so as to support the automatic checking of such quality constraints at the model level. The natural formalization of structurally dynamic systems is the mathematical notion of graph transformation systems. The formal verification of such systems poses a challenge, since they often exhibit infinite state spaces, i.e. they are able to generate an unbounded variety of different configurations.In this thesis, we develop a new way to check infinite-state graph transformation systems for their capacity to produce potentially dangerous configurations using finite abstractions. In order to do so, we adapt established methods from other fields of verification to the graph transformation domain.The result is a method that allows for a highly flexible analysis of infinite-state graph transformation systems and thus represents a contribution to the verification of complex, structurally dynamic systems in the context of MDSD. We present a proof-of-concept implementation and report on first experimental results.",
+            "alternative": "Verifikation von Graphtransformationssystemen mit unendlichem Zustandsraum mittels Abstraktion",
+            "contributor": [
+                "gnd:115498370",
+                "gnd:173277950",
+                "gnd:170661903"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

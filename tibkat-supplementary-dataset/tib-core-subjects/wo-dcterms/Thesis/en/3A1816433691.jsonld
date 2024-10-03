@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1268391360",
+            "sameAs": "L\u00fcckmann, Jan-Matthis"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1816433691",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (190 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1816433691",
+                "(ppn)1816433691",
+                "(doi)10.15496/publikation-72542"
+            ],
+            "subject": [
+                "Bayes-Inferenz",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Statistisches Modell",
+                "Neuronales Netz",
+                "(classificationName=ddc)006.32",
+                "Maschinelles Lernen",
+                "Inferenzstatistik",
+                "Statistische Schlussweise",
+                "Datenanalyse"
+            ],
+            "title": "Simulation-based inference for neuroscience and beyond",
+            "abstract": "Science makes extensive use of simulations to model the world. Statistical inference identifies which models are consistent with observed phenomena, thus bridging the gap between theory and reality. However, conventional statistical inference is often inapplicable to detailed simulation models because their associated likelihood functions are intractable. Simulation-based inference (SBI) addresses this problem: It allows statistical inference from simulations alone and can thus be used with implicit models, which lack evaluable likelihoods. This thesis consists of four publications that draw on advances in machine learning to contribute to the transition away from heuristic approaches towards principled statistical inference with SBI, which allows to identify data-consistent models. To this end, this thesis proposes new algorithms, applications to neuroscience, and the first unified benchmark for SBI. Overall, it shows the potential for fast and flexible likelihood-free algorithms to facilitate scientific discovery in neuroscience and beyond. The trade-off between models of neural dynamics that are statistically amenable or mechanistically plausible was the starting point for the work presented in this thesis. In the first publication, we introduce an SBI algorithm for sequential neural posterior estimation, which overcomes the drawbacks of an earlier method. We provide several extensions motivated by challenging problems in neuroscience, including end-to-end learning of summary statistics for high-dimensional time series data. In the second publication, we demonstrate its broad applicability to mechanistic models in neuroscience\u2014from the scale of ion channels, which are the basic building blocks of biophysical neuron models, to network models of neural dynamics. Our approach overcomes the limitations of heuristic alternatives and narrows the divide between statistical and mechanistic models. The third publication proposes a novel SBI algorithm that proceeds by learning an emulator of the simulator. This approach enables the use of active learning schemes to adaptively acquire new simulations, which allows scaling to problems that are computationally highly expensive. With rapid progress in SBI, the need for a unified benchmark became apparent: In the fourth publication, we propose the first benchmark for the field to transparently evaluate progress and to contribute to more efficient and reproducible science.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1268391360"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-72542",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1138801909",
+            "sameAs": "Dyck, Johannes"
+        },
+        {
+            "@id": "gnd:1250721-0",
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Softwaresystemtechnik"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4274073-3",
+            "sameAs": "Graphersetzungssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A896076377",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (45 Seiten, 4920 KB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:896076377",
+                "(ppn)896076377"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106418882)54.52 - Software engineering"
+            ],
+            "title": "k-Inductive invariant checking for graph transformation systems",
+            "abstract": "While offering significant expressive power, graph transformation systems often come with rather limited capabilities for automated analysis, particularly if systems with many possible initial graphs and large or infinite state spaces are concerned. One approach that tries to overcome these limitations is inductive invariant checking. However, the verification of inductive invariants often requires extensive knowledge about the system in question and faces the approach-inherent challenges of locality and lack of context. To address that, this report discusses k-inductive invariant checking for graph transformation systems as a generalization of inductive invariants. The additional context acquired by taking multiple (k) steps into account is the key difference to inductive invariant checking and is often enough to establish the desired invariants without requiring the iterative development of additional properties. To analyze possibly infinite systems in a finite fashion, we introduce a symbolic encoding for transformation traces using a restricted form of nested application conditions. As its central contribution, this report then presents a formal approach and algorithm to verify graph constraints as k-inductive invariants. We prove the approach's correctness and demonstrate its applicability by means of several examples evaluated with a prototypical implementation of our algorithm.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:173277950",
+                "gnd:1138801909",
+                "gnd:1250721-0"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": "gnd:4274073-3",
+            "volume": "119",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Softwaresystemtechnik an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

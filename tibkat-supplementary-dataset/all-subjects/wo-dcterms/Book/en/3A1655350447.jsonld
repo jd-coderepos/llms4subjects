@@ -1,0 +1,141 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4054947-1",
+            "sameAs": "Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4057625-5",
+            "sameAs": "Stochastische Optimierung"
+        },
+        {
+            "@id": "gnd:4183371-5",
+            "sameAs": "Stochastische Approximation"
+        },
+        {
+            "@id": "gnd:4196864-5",
+            "sameAs": "Anwendung"
+        },
+        {
+            "@id": "gnd:4247928-9",
+            "sameAs": "Adaptives System"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655350447",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 360 p, online resource)",
+            "creator": "Chen, Han-Fu",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.1007/b101987",
+                "(firstid)BSZ:404670784",
+                "(ppn)1655350447",
+                "(isbn13)9780306481666"
+            ],
+            "publisher": "Kluwer Academic Publishers",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=msc)94A12",
+                "Mathematics",
+                "(classificationName=ddc)519.6",
+                "Systems theory",
+                "(classificationName=loc)QA315-316",
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=loc)QA274.2",
+                "(classificationName=ddc)515.64",
+                "(classificationName=ddc)519.2",
+                "(classificationName=loc)QA402.5-QA402.6",
+                "Mechanical engineering",
+                "(classificationName=msc)90C15",
+                "Mechanical Engineering",
+                "(classificationName=msc)*62L20",
+                "(classificationName=linseach:mapping)mat",
+                "Statistics",
+                "(classificationName=msc)62-02",
+                "System theory.",
+                "(classificationName=loc)QA402.3",
+                "Control theory.",
+                "Electrical engineering.",
+                "(classificationName=msc)93B40",
+                "Calculus of variations.",
+                "Mathematical optimization"
+            ],
+            "title": "Stochastic Approximation and Its Applications",
+            "abstract": [
+                "Estimating unknown parameters based on observation data conta- ing information about the parameters is ubiquitous in diverse areas of both theory and application. For example, in system identification the unknown system coefficients are estimated on the basis of input-output data of the control system; in adaptive control systems the adaptive control gain should be defined based on observation data in such a way that the gain asymptotically tends to the optimal one; in blind ch- nel identification the channel coefficients are estimated using the output data obtained at the receiver; in signal processing the optimal weighting matrix is estimated on the basis of observations; in pattern classifi- tion the parameters specifying the partition hyperplane are searched by learning, and more examples may be added to this list. All these parameter estimation problems can be transformed to a root-seeking problem for an unknown function. To see this, let - note the observation at time i. e. , the information available about the unknown parameters at time It can be assumed that the parameter under estimation denoted by is a root of some unknown function This is not a restriction, because, for example, may serve as such a function.",
+                "Robbins-Monro Algorithm -- Stochastic Approximation Algorithms with Expanding Truncations -- Asymptotic Properties of Stochastic Approximation Algorithms -- Optimization by Stochastic Approximation -- Application to Signal Processing -- Application to Systems and Control."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4247928-9",
+                "gnd:4057625-5",
+                "gnd:4183371-5",
+                "gnd:4196864-5",
+                "gnd:4054947-1"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781402008061.pdf",
+            "volume": "64",
+            "isLike": "doi:10.1007/b101987",
+            "P30128": [
+                "Nonconvex Optimization and Its Applications",
+                "SpringerLink",
+                "B\u00fccher"
+            ],
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

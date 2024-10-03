@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723615578",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (91 Seiten)",
+            "creator": "Lagae, Ares",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)723615578",
+                "(isbn13)9781598299663",
+                "(firstid)GBV:723615578",
+                "(doi)10.2200/S000179ED1V01Y200903CGR009"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "Tiling (Mathematics)",
+                "(classificationName=loc)T385",
+                "(classificationName=loc)T385 .L889 2009",
+                "(classificationName=ddc)006.6869",
+                "Electronic books",
+                "Computer graphics",
+                "(classificationName=ddc)006.6"
+            ],
+            "title": "Wang Tiles in Computer Graphics : Ares Lagae, Katholieke Universiteit Leuven",
+            "abstract": [
+                "Many complex signals in computer graphics, such as point distributions and textures, cannot be efficiently synthesized and stored. This book presents tile-based methods based on Wang tiles and corner tiles to solve both these problems. Instead of synthesizing a complex signal when needed, the signal is synthesized beforehand over a small set of Wang tiles or corner tiles. Arbitrary large amounts of that signal can then efficiently be generated when needed by generating a stochastic tiling,and storing only a small set of tiles reduces storage requirements. A tile-based method for generating a complex signal consists of a method for synthesizing the signal over a set of Wang tiles or corner tiles, and a method for generating a stochastic tiling using the set of tiles. The method for generating a stochastic tiling using the set of tiles is independent of the signal. This book covers scanline stochastic tiling algorithms and direct stochastic tiling algorithms for Wang tiles and corner tiles.The method for synthesizing the signal over a set of tiles is dependent on the signal. This book covers tile-based methods for texture synthesis and for generating Poisson disk distributions. This book also explores several applications such as tile-based texture mapping and procedural modeling and texturing. Although the methods for constructing a complex signal over a set of Wang tiles or corner tiles are dependent on the signal, the general idea behind these methods generalizes to other kinds of signals. The methods presented in this book therefore have the potential to make the generation and storage of almost any complex signal efficient",
+                "Introduction -- Wang tiles and corner tiles -- Tilings -- Tilings in computer graphics -- Wang tiles -- Wang tiles in computer graphics -- Corner tiles and the corner problem -- Definitions, conventions, and notations -- Enumerating Wang tile sets and corner tile sets -- Corner tiles as Wang tiles -- Dominoes, Wang cubes, and corner cubes -- Tiling algorithms for Wang tiles and corner tiles -- Scanline stochastic tiling algorithms -- A scanline stochastic tiling algorithm for Wang tiles -- A scanline stochastic tiling algorithm for corner tiles -- Direct stochastic tiling algorithms -- A direct stochastic tiling algorithm for corner tiles -- Direct stochastic tiling algorithms for Wang tiles -- Hash functions -- Traditional hash functions based on permutation tables -- Long-period hash functions based on permutation tables -- Hash functions for direct stochastic tiling algorithms -- Hash functions for procedural texturing -- Example code -- Tile-based methods for texture synthesis -- Texture mapping and texture synthesis -- Tile-based texture synthesis -- Tile-based texture mapping -- The tile packing problem -- The one-dimensional tile packing problem -- The Wang tile packing problem -- The corner tile packing problem -- Puzzles derived from the tile packing problem -- Tile-based methods for generating Poisson disk distributions -- Poisson disk distributions -- Definition -- History and background -- Radius specification -- Generation -- Corner-based Poisson disk tiles -- Other methods -- Analysis -- Applications of Poisson disk distributions -- Sampling -- Non-photorealistic rendering -- Scientific visualization -- Procedural modeling, geometric object distribution, and geometry instancing -- Procedural texturing -- History and background -- A 2D procedural object distribution function -- A 3D procedural object distribution function -- Conclusion -- Bibliography -- Author biography"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#9",
+            "isLike": "doi:10.2200/S000179ED1V01Y200903CGR009",
+            "P30128": "Synthesis Lectures on Computer Graphics and Animation",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

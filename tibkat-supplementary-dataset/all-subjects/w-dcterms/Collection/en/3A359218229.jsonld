@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4125424-7",
+            "sameAs": "Zeitschriftenaufsatz"
+        },
+        {
+            "@id": "gnd:4318576-9",
+            "sameAs": "Elektronische Zeitschrift"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A359218229",
+            "@type": "bibo:Collection",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(ppn)359218229",
+                "(firstid)ZDB:2098516-2",
+                "(zdb)2098516-2"
+            ],
+            "publisher": "JSTOR",
+            "subject": [
+                "(classificationName=linseach:mapping)rest",
+                "(classificationName=rvk)AZ 10000",
+                "(classificationName=bk, id=106403338)01.18 - Spezialbibliographien",
+                "(classificationName=loksys-fbw)oek 1",
+                "(classificationName=ddc-dbn)000"
+            ],
+            "title": "JSTOR",
+            "abstract": "JSTOR provides access to more than 12 million academic journal articles, books, and primary sources in 75 disciplines",
+            "alternative": "Trusted archives for scholarship",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "relation": [
+                "https://dbis.ur.de/frontdoor.php?titel_id=716",
+                "https://www.jstor.org/"
+            ],
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4318576-9"
+                },
+                {
+                    "@id": "gnd:4125424-7"
+                }
+            ],
+            "P60163": "New York, N.Y."
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "relation": "http://purl.org/dc/terms/relation",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1323071016",
+            "sameAs": "Duffhau\u00df, Fabian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1883056497",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 189 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-92963",
+                "(firstid)KXP:1883056497",
+                "(ppn)1883056497"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)004",
+                "Lernen",
+                "Maschinelles Sehen",
+                "Robotik",
+                "(classificationName=linseach:mapping)inf",
+                "Deep learning",
+                "(classificationName=ddc-dbn)006.37",
+                "Informatik",
+                "Automation"
+            ],
+            "title": "Deep sensor data fusion for environmental perception of automated systems",
+            "abstract": "Automated systems require a comprehensive understanding of their surroundings to safely interact with the environment. By effectively fusing sensory information from multiple sensors or from different points in time, the accuracy and reliability of environmental perception tasks can be enhanced significantly. Besides, learning multiple environmental perception tasks simultaneously can further improve the performance of these tasks due to synergy effects while reducing memory requirements. However, developing deep data fusion networks targeting multiple tasks concurrently is very challenging, leaving substantial room for research and further advancements. The primary objective of this dissertation is to advance the development of novel data fusion techniques for enhancing the environmental perception of automated systems. It contains a comprehensive investigation of deep learning-based data fusion techniques including extensive experimentation with a focus on the domains of automated driving and industrial robotics. Furthermore, this thesis explores multi-task learning approaches for exploiting synergy effects, reducing computational effort, and lowering memory requirements. Firstly, this dissertation investigates the encoding and fusion of 3D point clouds for LiDAR-based environmental perception of automated vehicles. In particular, we study novel approaches for simultaneous 3D object detection and scene flow estimation in dynamic scenarios. Our research efforts have yielded a novel deep multi-task learning approach that outperforms previous methods in terms of accuracy and runtime, establishing it as the first real-time solution for this task combination. Secondly, this dissertation involves research about novel fusion strategies specifically designed to handle multi-modal input data within the field of industrial robotics. In the course of this research, we have developed two novel RGB-D data fusion networks for multi-view 6D object pose estimation. Furthermore, we examine the ambiguity issues associated with object symmetries and propose a novel symmetry-aware training procedure to effectively handle these issues. To comprehensively assess the performance of our proposed methods, we conduct rigorous experiments on challenging real-world and self-generated photorealistic synthetic datasets, revealing significant improvements over previous methods. Moreover, we demonstrate the robustness of our approaches towards imprecise camera calibration and variable camera setups. Finally, this dissertation explores novel fusion methodologies to integrate multiple imperfect visual data streams, taking into account uncertainty and prior knowledge associated with the data. In the context of this exploration, we have devised a novel deep hierarchical variational autoencoder that can be utilized as a fundamental framework for various fusion tasks. In addition to leveraging prior knowledge acquired during training, our method can generate diverse high-quality image samples, which are conditioned on multiple input images, even in the presence of strong occlusions, noise, or partial visibility. Furthermore, we have conducted extensive experiments demonstrating a substantial superiority of our method in comparison to conventional approaches.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1323071016",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-92963",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

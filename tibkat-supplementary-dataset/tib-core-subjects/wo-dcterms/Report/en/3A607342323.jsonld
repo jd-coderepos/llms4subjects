@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A607342323",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (24 S., 743 KB)",
+            "description": "graph. Darst., Tab.",
+            "identifier": [
+                "(firstid)GBV:607342323",
+                "(ppn)607342323"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=ddc)510",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ssg)17,1",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Collision in a cross-shaped domain - a steady 2d navier-stokes example demonstrating the importance of mass conservation in CFD",
+            "abstract": "In the numerical simulation of the incompressible Navier-Stokes equations different numerical instabilities can occur. While instability in the discrete velocity due to dominant convection and instability in the discrete pressure due to a vanishing discrete LBB constant are well-known, instability in the discrete velocity due to a poor mass conservation at high Reynolds numbers sometimes seems to be underestimated. At least, when using conforming Galerkin mixed finite element methods like the Taylor-Hood element, the classical grad-div stabilization for enhancing discrete mass conservation is often neglected in practical computations. Though simple academic flow problems showing the importance of mass conservation are well-known, these examples differ from practically relevant ones, since specially designed force vectors are prescribed. Therefore we present a simple steady Navier-Stokes problem in two space dimensions at Reynolds number 1024, a colliding flow in a cross-shaped domain, where the instability of poor mass conservation is studied in detail and where no force vector is prescribed.",
+            "contributor": "gnd:134253523",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1408",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

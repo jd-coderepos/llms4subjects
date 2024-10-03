@@ -1,0 +1,101 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:107404844X",
+            "sameAs": "Grigoli, Francesco"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "gnd:4172886-5",
+            "sameAs": "Ortsbestimmung"
+        },
+        {
+            "@id": "gnd:4189545-9",
+            "sameAs": "Wellenform"
+        },
+        {
+            "@id": "gnd:4303176-6",
+            "sameAs": "Automatische Messung"
+        },
+        {
+            "@id": "gnd:4502320-7",
+            "sameAs": "Mikroerdbeben"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A830340610",
+            "@type": "bibo:Thesis",
+            "P1053": "93 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:830340610",
+                "(ppn)830340610"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=106407120)38.38 - Seismologie",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Automated seismic event location by waveform coherence analysis",
+            "abstract": "Automated location of seismic events is a very important task in microseismic monitoring operations as well for local and regional seismic monitoring. Since microseismic records are generally characterised by low signal-to-noise ratio, such methods are requested to be noise robust and sufficiently accurate. Most of the standard automated location routines are based on the automated picking, identification and association of the first arrivals of P and S waves and on the minimization of the residuals between theoretical and observed arrival times of the considered seismic phases. Although current methods can accurately pick P onsets, the automatic picking of the S onset is still problematic, especially when the P coda overlaps the S wave onset. In this thesis I developed a picking free automated method based on the Short-Term-Average/Long-Term-Average (STA/LTA) traces at different stations as observed data. I used the STA/LTA of several characteristic functions in order to increase the sensitiveness to the P wave and the S waves. For the P phases we use the STA/LTA traces of the vertical energy function, while for the S phases, we use the STA/LTA traces of the horizontal energy trace and then a more optimized characteristic function which is obtained using the principal component analysis technique. The orientation of the horizontal components can be retrieved by robust and linear approach of waveform comparison between stations within a network using seismic sources outside the network (chapter 2). To locate the seismic event, we scan the space of possible hypocentral locations and origin times, and stack the STA/LTA traces along the theoretical arrival time surface for both P and S phases. Iterating this procedure on a three-dimensional grid we retrieve a multidimensional matrix whose absolute maximum corresponds to the spatial and temporal coordinates of the seismic event. Location uncertainties are then estimated by perturbing the STA/LTA parameters (i.e the length of both long and short time windows) and relocating each event several times. In order to test the location method I firstly applied it to a set of 200 synthetic events. Then we applied it to two different real datasets. A first one related to mining induced microseismicity in a coal mine in the northern Germany (chapter 3). In this case we successfully located 391 microseismic event with magnitude range between 0.5 and 2.0 Ml. To further validate the location method I compared the retrieved locations with those obtained by manual picking procedure. The second dataset consist in a pilot application performed in the Campania-Lucania region (southern Italy) using a 33 stations seismic network (Irpinia Seismic Network) with an aperture of about 150 km (chapter 4). We located 196 crustal earthquakes (depth < 20 km) with magnitude range 1.1 < Ml < 2.7. A subset of these locations were compared with accurate locations retrieved by a manual location procedure based on the use of a double difference technique. In both cases results indicate good agreement with manual locations. Moreover, the waveform stacking location method results noise robust and performs better than classical location methods based on the automatic picking of the P and S waves first arrivals.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:107404844X",
+                "gnd:2120681-8"
+            ],
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4189545-9",
+                "gnd:4172886-5",
+                "gnd:4303176-6",
+                "gnd:4502320-7"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/830340610.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

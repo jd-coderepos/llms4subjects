@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027903738",
+            "sameAs": "Raspberry Pi"
+        },
+        {
+            "@id": "gnd:4076370-5",
+            "sameAs": "Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655569325",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXIII, 439 p. 8 illus. in color, online resource)",
+            "creator": "Newmarch, Jan",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)BSZ:482174633",
+                "(isbn13)9781484224724",
+                "(doi)10.1007/978-1-4842-2472-4",
+                "(ppn)1655569325"
+            ],
+            "publisher": "Apress",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=rvk)ZN 4980",
+                "Computer science",
+                "Computer input-output equipment.",
+                "(classificationName=rvk)ST 160",
+                "(classificationName=bk, id=181569876)54.50 - Programmierung: Allgemeines",
+                "Microelectronics",
+                "(classificationName=ddc)004",
+                "Electronics",
+                "Power electronics",
+                "(classificationName=bk, id=106419315)54.26 - Mikrocomputer",
+                "Computer Science",
+                "(classificationName=linseach:mapping)inf",
+                "Programming languages (Electronic computers)"
+            ],
+            "title": "Raspberry Pi GPU Audio Video Programming",
+            "abstract": [
+                "Delve into the Broadcom VideoCore GPU used on the Raspberry Pi and master topics such as OpenGL ES and OpenMAX. Along the way, you\u2019ll also learn some Dispmanx, OpenVG, and GPGPU programming. The author, Jan Newmarch bumped into a need to do this kind of programming while trying to turn the RPi into a karaoke machine: with the CPU busting its gut rendering MIDI files, there was nothing left for showing images such as karaoke lyrics except for the GPU, and nothing really to tell him how to do it. Raspberry Pi GPU Audio Video Programming scratches his itch and since he had to learn a lot about RPi GPU programming, he might as well share it with you. What started as a side issue turned into a full-blown project of its own; and this stuff is hard. What You'll Learn Use Dispmanx and EGL on Raspberry Pi Work with OpenMAX and its components, state, IL Client Library, * * Buffers, and more on RPi Process images and video on RPi Handle audio on RPi Render OpenMAX to OpenGL on the RPi Play multimedia files on the RPi Use OpenVG for text processing and more Master overlays Who This Book Is For You should be comfortable with C programming and at least some concurrency and thread programming using it. This book is for experienced programmers who are new or learning about Raspberry Pi",
+                "1. Introduction to Raspberry Pi -- 2. Khronos Group -- 3. Compiling Programs for the Raspberry Pi -- 4. Dispmanx on the Raspberry Pi -- 5. EGL on RPi -- 6. OpenGL ES on RPi -- 7. OpenMAX on RPi Concepts -- 8. OpenMAX Components -- 9. OpenMAX on the RPi State -- 10. OpenMAX IL Client Library on the RPi -- 11. OpenMAX Buffers on the RPi -- 12. Image Processing on the RPi -- 13. OpenMAX Video Processing on the RPi -- 14. OpenMAX Audio on the RPi -- 15. Rendering OpenMAX to OpenGL on the RPi -- 16. Playing Multimedia Files on the RPi -- 17. Basic OpenVG on the RPi -- 18. Text Processing in OpenVG on the RPi -- 19. Overlays on the RPi"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-CWD"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4076370-5",
+                "gnd:1027903738"
+            ],
+            "isLike": "doi:10.1007/978-1-4842-2472-4",
+            "P30128": [
+                "B\u00fccher",
+                "SpringerLink"
+            ],
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1098214617",
+            "sameAs": "Goldschlag, Nathan"
+        },
+        {
+            "@id": "gnd:121862542",
+            "sameAs": "Garfinkel, Simson"
+        },
+        {
+            "@id": "gnd:122611462",
+            "sameAs": "Abowd, John M."
+        },
+        {
+            "@id": "gnd:1315146185",
+            "sameAs": "Moore, Scott"
+        },
+        {
+            "@id": "gnd:133187926",
+            "sameAs": "Vilhuber, Lars"
+        },
+        {
+            "@id": "gnd:39157-8",
+            "sameAs": "National Bureau of Economic Research"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1877417602",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "creator": [
+                "Lew, Ethan",
+                "Adams, Tamara",
+                "Kifer, Daniel",
+                "Rodr\u00edguez, Rolando A.",
+                "Ashmead, Robert",
+                "Tadros, Ramy N.",
+                "Darais, David",
+                "Dey, Sourya",
+                "Leclerc, Philip"
+            ],
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "illustrations (black and white)"
+            ],
+            "identifier": [
+                "(ppn)1877417602",
+                "(firstid)KEP:100091687"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": [
+                "USA",
+                "General",
+                "Personenbezogene Daten",
+                "Other",
+                "Datenschutz",
+                "(classificationName=linseach:automatic)inf",
+                "Volksz\u00e4hlung"
+            ],
+            "title": "The 2010 Census Confidentiality Protections Failed, Here's How and Why",
+            "abstract": "Using only 34 published tables, we reconstruct five variables (census block, sex, age, race, and ethnicity) in the confidential 2010 Census person records. Using the 38-bin age variable tabulated at the census block level, at most 20.1% of reconstructed records can differ from their confidential source on even a single value for these five variables. Using only published data, an attacker can verify that all records in 70% of all census blocks (97 million people) are perfectly reconstructed. The tabular publications in Summary File 1 thus have prohibited disclosure risk similar to the unreleased confidential microdata. Reidentification studies confirm that an attacker can, within blocks with perfect reconstruction accuracy, correctly infer the actual census response on race and ethnicity for 3.4 million vulnerable population uniques (persons with nonmodal characteristics) with 95% accuracy, the same precision as the confidential data achieve and far greater than statistical baselines. The flaw in the 2010 Census framework was the assumption that aggregation prevented accurate microdata reconstruction, justifying weaker disclosure limitation methods than were applied to 2010 Census public microdata. The framework used for 2020 Census publications defends against attacks that are based on reconstruction, as we also demonstrate here. Finally, we show that alternatives to the 2020 Census Disclosure Avoidance System with similar accuracy (enhanced swapping) also fail to protect confidentiality, and those that partially defend against reconstruction attacks (incomplete suppression implementations) destroy the primary statutory use case: data for redistricting all legislatures in the country in compliance with the 1965 Voting Rights Act",
+            "alternative": "The Two thousand and ten Census confidentiality protections failed, here's how and why",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:122611462"
+                },
+                {
+                    "@id": "gnd:133187926"
+                },
+                {
+                    "@id": "gnd:121862542"
+                },
+                {
+                    "@id": "gnd:39157-8"
+                },
+                {
+                    "@id": "gnd:1098214617"
+                },
+                {
+                    "@id": "gnd:1315146185"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. w31995",
+            "P30128": "NBER working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

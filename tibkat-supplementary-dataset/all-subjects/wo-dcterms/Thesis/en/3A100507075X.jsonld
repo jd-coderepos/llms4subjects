@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:115498370",
+            "sameAs": "H\u00fcllermeier, Eyke"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A100507075X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (229 Seiten)",
+            "contributor": "Bl\u00f6mer, Johannes",
+            "creator": "Bujna, Kathrin",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)100507075X",
+                "(firstid)HBZ:CT004001993",
+                "(doi)10.17619/UNIPB/1-226"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Soft clustering algorithms : theoretical and practical improvements",
+            "abstract": "In dieser Arbeit betrachten wir zwei Soft-Clustering Methoden: Fuzzy K-Means Clustering und modellbasiertes Clustering mittels Gau\u00dfmixturen. Im Gegensatz zum popul\u00e4ren K-Means Clustering gibt es f\u00fcr diese beiden Ans\u00e4tze kaum Algorithmen, die Garantien f\u00fcr die G\u00fcte der berechneten Clusterings bieten. Im ersten Teil der Arbeit pr\u00e4sentieren wir die allerersten Approximationsalgorithmen f\u00fcr das Fuzzy K-Means Problem: Wir zeigen, dass die sogenannte Superset-Sampling Technik auf das Fuzzy K-Means Problem angewendet werden kann. Dar\u00fcber hinaus zeigen wir, dass sich eine Kernmenge f\u00fcr das Fuzzy K-Means Problem berechnen l\u00e4sst. Wir nutzen diese Kernmengen-Konstruktion auch, um einen weiteren Approximationsalgorithmus f\u00fcr das Fuzzy K-Means Problem herzuleiten. Dar\u00fcber hinaus betrachten wir verschiedene Varianten des Fuzzy K-Means Problems und verallgemeinern all diese Ergebnisse. Der zweite Teil dieser Arbeit dreht sich um den modellbasierten Clustering Ansatz, genauer gesagt, die Maximum-Likelihood-Methode f\u00fcr das Sch\u00e4tzen von Gau\u00dfmixturen. Als erstes vergleichen wir den klassischen Expectation-Maximization Algorithmus mit einer seiner randomisierten Varianten. Zweitens besch\u00e4ftigen wir uns mit dem Problem, eine vern\u00fcnftige initiale L\u00f6sung f\u00fcr den Expectation-Maximization Algorithmus f\u00fcr Gau\u00dfmixturen zu finden. Wir pr\u00e4sentieren zwei neue Initialisierungsmethoden und versuchen damit die L\u00fccke zwischen den einfachen, aber eher unzuverl\u00e4ssigen Methoden und komplizierten Methoden, deren Qualit\u00e4t stark von den gew\u00e4hlten Hyperparametern abh\u00e4ngt, zu schlie\u00dfen. Drittens analysieren wir einen Spezialfall des Problems, der auch schlicht als das Soft-Clustering Problem bekannt ist.. - In this thesis, we study two soft clustering approaches: fuzzy K-means clustering and model-based clustering with Gaussian mixture models. In contrast to the popular K-means hard clustering, there are hardly any algorithms for these approaches that provide guarantees on the quality of the computed clusterings. In the first part of this thesis, we present the very first approximation algorithms for the fuzzy K-means problem: We show how the so-called superset sampling technique can be applied to compute an approximation for the fuzzy K-means problem. Moreover, we show that there is a refined version of a coreset construction for the K-means problem that yields a coreset for the fuzzy K-means problem. Furthermore, we use this construction to derive another approximation algorithm for the fuzzy K-means problem. Finally, we also consider alternative notions of fuzziness and generalize all of our results to a large class of soft clustering problems. In the second part of this thesis, we consider a model-based clustering approach, namely, the method of maximum likelihood for estimating Gaussian mixture models. Our contribution is threefold: First, we compare two popular heuristics with one another, namely the expectation-maximization algorithm and a stochastic variant thereof. Second, we tackle the problem of initializing the expectation-maximization algorithm. We propose two new initialization methods. Thereby, we aim to close the gap between simple, but rather unreliable, methods and complex methods, whose performance crucially depends on the right choice of hyperparameters. Third, we initiate the theoretical analysis of a constrained version of the maximum likelihood estimation problem, which is known as the soft K-means problem.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:115498370"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-226",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1227898304",
+            "sameAs": "Wang, Zongzhao"
+        },
+        {
+            "@id": "gnd:1227898878",
+            "sameAs": "Wyrowski, Frank"
+        },
+        {
+            "@id": "gnd:1227899246",
+            "sameAs": "Turunen, Jari"
+        },
+        {
+            "@id": "gnd:17408823X",
+            "sameAs": "Jahns, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4018014-1",
+            "sameAs": "Fourier-Transformation"
+        },
+        {
+            "@id": "gnd:4043650-0",
+            "sameAs": "Optik"
+        },
+        {
+            "@id": "gnd:4170297-9",
+            "sameAs": "Modellierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1749116367",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (129 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)KXP:1749116367",
+                "(doi)10.22032/dbt.47852",
+                "(ppn)1749116367"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)535"
+            ],
+            "title": "Fourier transform techniques for fast physical optics modeling",
+            "abstract": "Motivated by the ever-growing demand for high-quality optical systems, the field tracing approach becomes increasingly significant in physical-optics modeling. Instead of employing a universal Maxwell solver for the whole system, we follow the concept of field tracing, to decompose the system into regions and apply various regional Maxwell solvers. The field solvers may work in the spatial (x) or the spatial frequency (k) domain. To enable the connection of different solvers and functions, the transforming between the x and k domains is a crucial step. Since the Fourier transform gives the connection between these two domains, it becomes paramount to optimize the Fourier-transforming step. The Fast Fourier Transform (FFT) constitutes a huge improvement on the original Discrete Fourier Transform (DFT), since its (the former\u2019s) numerical effort is approximately linear on the sample number of the function to be transformed. However, this orders-of-magnitude improvement in the number of operations required can fall short in optics, where the tendency is to work with field components that present strong wavefront phases. In this work, we propose two innovative Fourier transform techniques. The Semi-analytical Fourier Transform (SFT) is a rigorous approach without any approximation, in which we avoid the sampling of quadratic phases, handling them analytically instead. The homeomorphic Fourier transform (HFT) is an approximate approach, but highly efficient and accurate for fields with intense wavefront phases. Furthermore, we investigate these Fourier transform techniques (FFT, SFT, and HFT) applied to the problem of light propagation, to verify their influence on the system modeling. Consequently, the unified free space propagation operator is concluded. All proposed techniques in this thesis are implemented and diverse numerical examples are presented to illustrate their vast potential.",
+            "contributor": [
+                "gnd:1227899246",
+                "gnd:17408823X",
+                "gnd:1227898878"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1227898304"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4043650-0",
+                "gnd:4018014-1",
+                "gnd:4170297-9"
+            ],
+            "isLike": "doi:10.22032/dbt.47852",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

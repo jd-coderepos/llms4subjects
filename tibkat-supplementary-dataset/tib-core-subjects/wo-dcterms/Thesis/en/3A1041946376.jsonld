@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1041946376",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (138 Seiten)",
+            "creator": "Nguyen, Thi Hong Hanh",
+            "identifier": [
+                "(firstid)DNB:1171987838",
+                "(ppn)1041946376",
+                "(doi)10.25528/881"
+            ],
+            "publisher": "Universit\u00e4t Hildesheim",
+            "subject": [
+                "(classificationName=bk, id=106415212)06.74 - Informationssysteme",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)rest"
+            ],
+            "title": "Recommending Tags for Images: Deep Learning Approaches for Personalized Tag Recommendation",
+            "abstract": "Social media has become an integral part of numerous individuals as well as organizations, with many services being used frequently by a majority of people. Along with its widespread use, the amount of information explodes when people use these services. This demands for efficient tools as well as methods to assist data management and retrieval. Annotating resources by keywords, known as the tagging task, is a solution to improve categorizability and findability of resources. However, tagging is a human, time-consuming task, which requires the user's focus to figure out many keywords in a short moment and manually enter them into the system. To encourage users to tag their resources more correctly and frequently, tag recommendation is adopted into the social tagging systems to suggest relevant keywords for resources. In this thesis, we will address the problem of personalized tag recommendation for images and present ways to solve this problem by combining the advantages of the user relation with the images' content. In order to suggest tags for unobserved images, their visual contents are used to replace the index-based information of the image entity in the tagging relations. Because the limitation of low-level features does not show the \"content\" of images, we propose to utilize a deep learning based approach to learn high-level visual features concurrently with the scoring-tag estimator. For the tag predictor, a latent factor model or a multi-layer perceptron is selected to compute scores of tags by which the top selected tags are sorted in descending order. As a further development upon our findings, we examine the inside and outside context of images to enhance the accuracy of estimators. Regarding the image-inside context, we are motivated by the fact that objects, such as cars or cats are influential on the user's selection criteria. Regarding the image-outside context, the image's surrounding text contributes to the clarity of the image's content for different users. We consider these contextual features as a supporting part which is combined with the mainly visual representation to enhance the tag recommendation performance. Finally, as an additional technique, transfer learning is also adapted to support the proposed models to overcome the limitations of too small training data and boost up their performance. This thesis demonstrates the usefulness and versatility of deep learning approaches for tag recommendation and highlights the importance of the learned image's content in predicting personalized tags. Directions for future work include semantic enhancements to context-based representation and extensions of the content-aware approaches to different recommendation scenarios.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25528/881",
+            "P60163": "Hildesheim"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

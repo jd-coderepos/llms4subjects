@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1153570890",
+            "sameAs": "Solowjow, Friedrich"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1817807129",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvi, 149 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1817807129",
+                "(ppn)1817807129",
+                "(doi)10.15496/publikation-73432"
+            ],
+            "subject": [
+                "Reglerentwurf",
+                "Best\u00e4rkendes Lernen",
+                "Regelungssystem",
+                "(classificationName=ddc)006.31",
+                "Nichtlineares dynamisches System",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf",
+                "Maschinelles Lernen",
+                "Ereignisgesteuertes System"
+            ],
+            "title": "Event-triggered learning",
+            "abstract": "Machine learning has seen many recent breakthroughs. Inspired by these, learningcontrol systems emerged. In essence, the goal is to learn models and control policies for dynamical systems. Dealing with learning-control systems is hard and there are several key challenges that differ from classical machine learning tasks. Conceptually, excitation and exploration play a major role in learning-control systems. On the one hand, we usually aim for controllers that stabilize a system with the goal of avoiding deviations from a setpoint or reference. However, we also need informative data for learning, which is often not the case when controllers work well. Therefore, there is a problem due to the opposing objectives of many control theoretical tasks and the requirements for successful learning outcomes. Additionally, change of dynamics or other conditions is often encountered for control systems in practice. For example, new tasks, changing load conditions, or different external conditions have a substantial influence on the underlying distribution. Learning can provide the flexibility to adapt the behavior of learning-control systems to these events. Since learning has to be applied with sufficient excitation there are many practical situations that hinge on the following problem: \"When to trigger learning updates in learning-control systems?\" This is the core question of this thesis and despite its relevance, there is no general method that provides an answer. We propose and develop a new paradigm for principled decision making on when to learn, which we call event-triggered learning (ETL). The first triggers that we discuss are designed for networked control systems. All agents use model-based predictions to anticipate the other agents\u2019 behavior which makes communication only necessary when the predictions deviate too much. Essentially, an accurate model can save communication, while a poor model leads to poor predictions and thus frequent updates. The learning triggers are based on the inter-communication times (the time between two communication instances). They are independent and identically distributed random variables, which directly leads to sound guarantees. The framework is validated in experiments and leads to 70% communication savings for wireless sensor networks that monitor human walking. In the second part, we consider optimal control algorithms and start with linear quadratic regulators. A perfect model yields the best possible controller, while poor models result in poor controllers. Thus, by analyzing the control performance, we can infer the model\u2019s accuracy. From a technical point of view, we have to deal with correlated data and work with more sophisticated tools to provide the desired theoretical guarantees. While we obtain a powerful test that is tightly tailored to the problem at hand, it does not generalize to different control architectures. Therefore, we also consider a more general point of view, where we recast the learning of linear systems as a filtering problem. We leverage Kalman filter-based techniques to derive a sound test and utilize the point estimate of the parameters for targeted learning experiments. The algorithm is independent of the underlying control architecture, but demonstrated for model predictive control. Most of the results in the first two parts critically depend on linearity assumptions in the dynamics and further problem-specific properties. In the third part, we take a step back and ask the fundamental question of how to compare (nonlinear) dynamical systems directly from state data. We propose a kernel two-sample test that compares stationary distributions of dynamical systems. Additionally, we introduce a new type of mixing that can directly be estimated from data to deal with the autocorrelations. In summary, this thesis introduces a new paradigm for deciding when to trigger updates in learning-control systems. Additionally, we develop three instantiations of this paradigm for different learning-control problems. Further, we present applications of the algorithms that yield substantial communication savings, effective controller updates, and the detection of anomalies in human walking data.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1153570890",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-73432",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128592257",
+            "sameAs": "Qamar, Shamsul"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504325027",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Resource (26 Seiten, 1,62 MB)",
+            "http://purl.org/dc/elements/1.1/creator": "Dreyer, Wolfgang",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:504325027",
+                "(ppn)504325027"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": [
+                "(classificationName=ddc)530",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Kinetic flux vector splitting schemes for the hyperbolic heat conduction",
+            "abstract": "A kinetic solver is developed for the initial and boundary value problems (IBVP) of the symmetric hyperbolic moment system. This nonlinear system of equations is related to the heat conduction in solids at low temperatures. The system consists of a conservation equation for the energy density e and a balance equation for the heat flux $Q^i$, where $e$ and $Q^i$ are the four basic fields of the theory. We use kinetic flux vector splitting (KFVS) scheme to solve these equations in one and two space dimensions. The flux vectors of the equations are splitted on the basis of the local equilibrium distribution of phonons. The resulting computational procedure is efficient and straightforward to implement. The second order accuracy of the scheme is acheived by using MUSCL-type reconstruction and min-mod nonlinear limitters. The solutions exhibit second order accuracy, and satisfactory resolution of gradients with no spurious oscillations. The secheme is extended to the two-dimensional case in a usual dimensionally split manner. In order to prescribe the boundary data we need the knowledge of the $e$ and $Q^i$. However, in experiments only one of the quantities can be controlled at the boundary ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:128592257",
+                "gnd:2140666-2"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 861",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

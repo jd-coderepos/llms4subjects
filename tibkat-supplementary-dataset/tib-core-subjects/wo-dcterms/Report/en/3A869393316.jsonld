@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1020155698",
+            "sameAs": "Di Pietro, Daniele Antonio"
+        },
+        {
+            "@id": "gnd:114186839",
+            "sameAs": "Ern, Alexandre"
+        },
+        {
+            "@id": "gnd:115550186",
+            "sameAs": "Schieweck, Friedhelm"
+        },
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A869393316",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (25 Seiten, 874 kB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)869393316",
+                "(firstid)GBV:869393316"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "A discontinuous skeletal method for the viscosity-dependent Stokes problem",
+            "abstract": "We devise and analyze arbitrary-order nonconforming methods for the discretization of the viscosity-dependent Stokes equations on simplicial meshes. We keep track explicitly of the viscosity and aim at pressure-robust schemes that can deal with the practically relevant case of body forces with large curl-free part in a way that the discrete velocity error is not spoiled by large pressures. The method is inspired from the recent Hybrid High-Order (HHO) methods for linear elasticity. After elimination of the auxiliary variables by static condensation, the linear system to be solved involves only discrete face-based velocities, which are polynomials of degree k \u2265 0, and cell-wise constant pressures. Our main result is a pressure-independent energy-error estimate on the velocity of order (k+1). The main ingredient to achieve pressure-independence is the use of a divergencepreserving velocity  econstruction operator in the discretization of the body forces. We also prove an L2-pressure estimate of order (k+1) and an L2-velocity estimate of order (k+2), the latter under elliptic regularity. The local mass and momentum conservation properties of the discretization are also established. Finally, two- and three-dimensional numerical results are presented to support the analysis.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:114186839",
+                "gnd:1020155698",
+                "gnd:2140666-2",
+                "gnd:134253523",
+                "gnd:115550186"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "No. 2195",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

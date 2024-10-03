@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A640776906",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (229 S., 2,27 MB)",
+            "creator": "Walter, Dennis",
+            "identifier": [
+                "(firstid)GBV:640776906",
+                "(ppn)640776906"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "A formal verification environment for use in the certification of safety-related C programs",
+            "abstract": "In this thesis the design and the development of an environment for the formal verification of functional properties of safety-related software written in the programming language C is described. The main focus lies on the partly automated and partly user-guided verification of non-trivial mathematical computations that play an important role in modern sensor technology, among others. The demonstration of the correctness of these computations is an absolute prerequisite for their approval by a certification authority. The relevant legal and normative setting is analysed at the beginning of this work, which applies to safety-related systems that make use of programmable electronic devices and software in particular. There are three major achievements contained in this work. Firstly, a formal connection is established between the expressive language of higher-order logic, as it is formalised in the theorem prover Isabelle, and a specification language which stays close to the syntax and semantics of the programming language and which lies in the tradition of the design by contract methodology. This connection allows to specify functional properties of programs in a code-centric and at the same time appropriately abstract fashion, so that the clean mathematical character of higher-level specifications is retained. Secondly, a memory model for the programming language C is formalised within the theorem prover Isabelle which is sufficiently detailed to model low-level memory operations while still keeping the entailed verification overhead in tolerable bounds. Finally, a denotational semantics for a subset of C is formally defined and a Hoare style proof calculus is derived from it such that the  correctness of programs with respect to their specifications can be shown in one integrated framework. The applicability of the approach is demonstrated by describing its use in a real project. Concretely, a substantial number of the verification measures stipulated by an international safety standard for safety-related software is covered by employing the verification environment described here. The compliance of both the safety-related software developed in the project as well as the verification environment itself have been officially asserted by a responsible certification authority.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2010",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

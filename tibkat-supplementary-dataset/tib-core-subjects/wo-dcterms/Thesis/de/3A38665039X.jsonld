@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1023504375",
+            "sameAs": "Wolf, Roland"
+        },
+        {
+            "@id": "gnd:4044614-1",
+            "sameAs": "Parametersch\u00e4tzung"
+        },
+        {
+            "@id": "gnd:4127980-3",
+            "sameAs": "Regressionsmodell"
+        },
+        {
+            "@id": "gnd:4133270-2",
+            "sameAs": "Messfehler"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A38665039X",
+            "@type": "bibo:Thesis",
+            "P1053": "III, 141 S",
+            "description": [
+                "21 cm",
+                "graph. Darst"
+            ],
+            "identifier": [
+                "(ean)9783832505615",
+                "(isbn)383250561X",
+                "(ppn)38665039X",
+                "(firstid)GBV:38665039X"
+            ],
+            "publisher": "Logos-Verl.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)510",
+                "(classificationName=rvk)QH 234",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=ddc-dbn)510"
+            ],
+            "title": "Vergleich von funktionalen und strukturellen Messfehlerverfahren",
+            "abstract": "In dieser Arbeit werden verschiedene Sch\u00e4tzverfahren bei Messfehlermodellen, insbesondere bei polynomialen und Poisson FV-Regressionen verglichen. Das Hauptaugenmerk liegt dabei auf den Parametersch\u00e4tzungen, bei den quadratischen Messfehlermodellen werden auch die Sch\u00e4tzungen der Extremwerte der Parabel einer genaueren Betrachtung unterzogen. Die Analyse der Eigenschaften der Verfahren geschieht sowohl auf rechnerischem Weg als auch mit Hilfe von Simulationen und Beispieldaten. Neben dem Benchmark-Sch\u00e4tzer, der nur als Vergleich dienen kann, und dem naiven Verfahren, das die Messfehler schlichtweg ignoriert, werden das naiv-korrigierte (NK), das SimEx-, das (M)ALS- bzw. CS-Verfahren sowie die Regressionskalibrierung (RK), und das SQS-Verfahren bei Normalverteilung untersucht. Eine weiterf\u00fchrende Variante des SQS-Verfahrens, die MSQS-Sch\u00e4tzung, wird im Zuge der Untersuchung der Missspezifikationen ebenfalls analysiert. Dabei wird die zugrundegelegte Verteilung durch eine Mischung von Normalverteilungen approximiert. In der Regel reichen hier h\u00f6chstens drei Komponenten um die Verteilung der latenten Variable zu approximieren. Grunds\u00e4tzlich l\u00e4sst sich festhalten, dass der naive Sch\u00e4tzer und teilweise auch der SimEx-Sch\u00e4tzer stark verzerren. Ersteres liegt am Messfehlerprozess, letzteres ist gr\u00f6\u00dftenteils auf nicht-optimale Extrapolationsfunktionen zur\u00fcckzuf\u00fchren. Bei normalverteilten latenten Variablen schneidet die Regressionskalibrierung sehr gut ab, abgesehen von den Absolutgliedern, die in der Regel nicht konsistent gesch\u00e4tzt werden. Der naiv-korrigierte Sch\u00e4tzer liefert in den untersuchten Modellen auch dort konsistente Sch\u00e4tzungen, hat aber den Nachteil, dass die Korrekturfaktoren f\u00fcr FV-Regressionen explizit errechnet werden m\u00fcssen. Das SQS-Verfahren ist in der klassischen Situation konsistent, flexibel und effektiv. Das CS-Verfahren, das bei den Polynomen auch MALS-Verfahren bezeichnet wird, ist unabh\u00e4ngig von der Verteilung der latenten Variablen. Es liefert bei h\u00f6heren Fallzahlen und moderaten Messfehlervarianzen robuste Sch\u00e4tzwerte. Bei geringen Fallzahlen und/oder h\u00f6heren Messfehlervarianzen ist es vereinzelt anf\u00e4llig f\u00fcr grobe Fehlsch\u00e4tzungen. Es kann hier zu numerischen Problemen und damit zu unplausiblen Parametersch\u00e4tzungen kommen. Dies d\u00fcrfte in der Praxis aber kaum eine Rolle spielen, da diese F\u00e4lle oft einfach zu erkennen sind. Neben dem CS-Verfahren liefert auch das MSQS-Verfahren r ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1023504375",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4044614-1",
+                "gnd:4133270-2",
+                "gnd:4127980-3"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/hebis-darmstadt/toc/122262298.pdf",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

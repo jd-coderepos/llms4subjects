@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:143071831",
+            "sameAs": "Zhang, Jianing"
+        },
+        {
+            "@id": "gnd:171608402",
+            "sameAs": "Schoenmakers, John"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A721269974",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (25 S., 1,21 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Ladkau, Marcel",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)721269974",
+                "(firstid)GBV:721269974"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=msc)91G30",
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Libor model with expiry-wise stochastic volatility and displacement",
+            "abstract": "We develop a multi-factor stochastic volatility Libor model with displacement, where each individual forward Libor is driven by its own square-root stochastic volatility process. The main advantage of this approach is that, maturity-wise, each square-root process can be calibrated to the corresponding cap(let)vola-strike panel at the market. However, since even after freezing the Libors in the drift of this model, the Libor dynamics are not affine, new affine approximations have to be developed in order to obtain Fourier based (approximate) pricing procedures for caps and swaptions. As a result, we end up with a Libor modeling package that allows for efficient calibration to a complete system of cap/swaption market quotes that performs well even in crises times, where structural breaks in vola-strike-maturity panels are typically observed",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:143071831"
+                },
+                {
+                    "@id": "gnd:171608402"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1702",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

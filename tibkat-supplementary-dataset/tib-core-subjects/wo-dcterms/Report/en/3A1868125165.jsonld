@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2116834-9",
+            "sameAs": "Deutschland, Umweltbundesamt"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1868125165",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (30 Seiten, 0,43 MB)",
+            "contributor": [
+                "W\u00f6ltjen, Janina",
+                "Meinecke, Stefan"
+            ],
+            "creator": "Ranke, Johannes",
+            "identifier": [
+                "(firstid)KXP:1868125165",
+                "(contract)Project No. 173340",
+                "(ppn)1868125165",
+                "(contract)Report No. (UBA-FB) FB001177/ENG"
+            ],
+            "publisher": "Umweltbundesamt",
+            "subject": [
+                "(classificationName=linseach:mapping)cet",
+                "(classificationName=bk, id=106423290)43.00 - Umweltforschung, Umweltschutz: Allgemeines",
+                "(classificationName=bk, id=106420747)58.52 - Technischer Bodenschutz, technischer Gew\u00e4sserschutz",
+                "(classificationName=bk, id=106416952)43.03 - Methoden der Umweltforschung und des Umweltschutzes"
+            ],
+            "title": "Application of nonlinear hierarchical models to the kinetic evaluation of chemical degradation data : guidance for the use of an R markdown template file : final report",
+            "abstract": [
+                "The currently used procedures for the kinetic evaluation of chemical degradation data are based on the separate application of different nonlinear regression models to each of the available datasets. In many cases, some of the degradation parameters cannot reliably be quantified in at least some of the datasets. Current guidance suggests to use default values in such cases, which were more or less arbitrarily chosen. Also, different kinetic models provide the best fit in different datasets, so mean parameters can only be calculated using workarounds with a weak scientific basis. Both of these problems can be avoided by the use of hierarchical nonlinear models, where parameter distributions are fitted to the complete data set. In this report, a short introduction to this type of model is presented. Furthermore, it is described how to use the R markdown template recently added to the mkin R package, in combination with the newly developed spreadsheet file for entering data, making it easier to apply this method to new data. To implement hierarchical kinetic modelling in regulatory practice, a guidance document would need to be developed, providing recommendations how the results from hierarchical degradation kinetics should be used in the various regulatory areas where kinetic degradation endpoints are relied upon.",
+                "Derzeit werden chemische Abbaudaten ausgewertet, indem verschiedene nichtlineare Regressionsmodelle einzeln auf die verf\u00fcgbaren Datens\u00e4tze angewandt werden. In vielen F\u00e4llen k\u00f6nnen dabei einige der Abbauparameter nicht f\u00fcr alle Datens\u00e4tze verl\u00e4sslich bestimmt werden. Die aktuell g\u00fcltigen regulatorischen Leitlinien empfehlen in solchen F\u00e4llen die Verwendung von mehr oder weniger willk\u00fcrlich gew\u00e4hlten Standardwerten f\u00fcr diese Parameter. Des Weiteren ergeben oft unterschiedliche Modelle die beste Anpassung in den verschiedenen Datens\u00e4tzen, so dass mittlere Modellparameter mit Hilfe von Behelfsl\u00f6sungen mit schwacher wissenschaftlicher Grundlage bestimmt werden m\u00fcssen. Beide Probleme k\u00f6nnen vermieden werden, wenn hierarchische nichtlineare Modelle verwendet werden, bei denen Parameterverteilungen an die Gesamtheit der Daten angepasst werden. In diesem Bericht wird eine kurze Einf\u00fchrung in diesen Modelltyp gegeben. Weiterhin wird die Verwendung einer R markdown Vorlage und einer Tabellenkalkulationsdatei f\u00fcr die Eingabe von Daten beschrieben. Beide Dateien wurden k\u00fcrzlich in das R-Paket mkin integriert und erleichtern damit die Anwendung dieser Methode auf neue Daten. Um hierarchische kinetische Modelle in der regulatorischen Auswertung von Abbaudaten zu etablieren, m\u00fcsste ein Leitfaden erarbeitet werden, in dem erl\u00e4utert wird, wie die Ergebnisse der hierarchischen Abbaukinetiken in den verschiedenen regulatorischen Anwendungsbereichen verwendet werden sollten."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2116834-9"
+            },
+            "isPartOf": [
+                "(collectioncode)GBV-UBA-Texte",
+                "(collectioncode)OAEPF-ST-GESAMT"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "relation": "https://www.umweltbundesamt.de/publikationen/application-of-nonlinear-hierarchical-models-to-the",
+            "volume": "2023, 151",
+            "P30128": "Texte / Umweltbundesamt",
+            "P60163": "Dessau-Ro\u00dflau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "relation": "http://purl.org/dc/terms/relation",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

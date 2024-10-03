@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1276455712",
+            "sameAs": "Borowski, Judith"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1827178582",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (verschiedene Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1827178582",
+                "(doi)10.15496/publikation-74982",
+                "(ppn)1827178582"
+            ],
+            "subject": [
+                "Visuelles System",
+                "Merkmalsextraktion",
+                "(classificationName=ddc-dbn)006.37",
+                "(classificationName=linseach:mapping)inf",
+                "Visualisierung",
+                "Neuronales Netz",
+                "Maschinelles Lernen",
+                "Objekterkennung",
+                "Deep learning",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Toward understanding visual perception in machines with human psychophysics",
+            "abstract": "Over the last several years, Deep Learning algorithms have become more and more powerful. As such, they are being deployed in increasingly many areas including ones that can directly affect human lives. At the same time, regulations like the GDPR or the AI Act are putting the request and need to better understand these artificial algorithms on legal grounds. How do these algorithms come to their decisions? What limits do they have? And what assumptions do they make? This thesis presents three publications that deepen our understanding of deep convolutional neural networks (DNNs) for visual perception of static images. While all of them leverage human psychophysics, they do so in two different ways: either via direct comparison between human and DNN behavioral data or via an evaluation of the helpfulness of an explainability method. Besides insights on DNNs, these works emphasize good practices: For comparison studies, we propose a checklist on how to design, conduct and interpret experiments between different systems. And for explainability methods, our evaluations exemplify that quantitatively testing widely spread intuitions can help put their benefits in a realistic perspective. In the first publication, we test how similar DNNs are to the human visual system, and more specifically its capabilities and information processing. Our experiments reveal that DNNs (1)~can detect closed contours, (2)~perform well on an abstract visual reasoning task and (3)~correctly classify small image crops. On a methodological level, these experiments illustrate that (1)~human bias can influence our interpretation of findings, (2)~distinguishing necessary and sufficient mechanisms can be challenging, and (3)~the degree of aligning experimental conditions between systems can alter the outcome. In the second and third publications, we evaluate how helpful humans find the explainability method feature visualization. The purpose of this tool is to grant insights into the features of a DNN. To measure the general informativeness and causal understanding supported via feature visualizations, we test participants on two different psychophysical tasks. Our data unveil that humans can indeed understand the inner DNN semantics based on this explainability tool. However, other visualizations such as natural data set samples also provide useful, and sometimes even \\emph{more} useful, information. On a methodological level, our work illustrates that human evaluations can adjust our expectations toward explainability methods and that different claims have to match the experiment.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1276455712",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-74982",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749247266",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (300p)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Brebbia, C. A.",
+                "Wrobel, L. C."
+            ],
+            "creator": "Partridge, P. W.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)GBV:749247266",
+                "(ppn)749247266",
+                "(isbn13)9789401136907",
+                "(doi)10.1007/978-94-011-3690-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)35K15",
+                "(classificationName=msc)35J25",
+                "(classificationName=msc)35J65",
+                "(classificationName=msc)35J05",
+                "Engineering",
+                "(classificationName=loc)TJ1-1570",
+                "(classificationName=msc)*65N38",
+                "(classificationName=msc)65-02",
+                "(classificationName=msc)45E10",
+                "(classificationName=msc)35C15",
+                "(classificationName=ddc)621",
+                "Mechanical engineering",
+                "(classificationName=msc)65R20"
+            ],
+            "title": "The Dual Reciprocity Boundary Element Method",
+            "abstract": [
+                "1 Introduction -- 2 The Boundary Element Method for Equations ?2u = 0 and ?2u = b -- 2.1 Introduction -- 2.2 The Case of the Laplace Equation -- 2.3 Formulation for the Poisson Equation -- 2.4 Computer Program 1 -- 2.5 References -- 3 The Dual Reciprocity Method for Equations of the Type ?2u = b(x, y) -- 3.1 Equation Development -- 3.2 Different f Expansions -- 3.3 Computer Implementation -- 3.4 Computer Program 2 -- 3.5 Results for Different Functions b = b(x,y) -- 3.6 Problems with Different Domain Integrals on Different Regions -- 3.7 References -- 4 The Dual Reciprocity Method for Equations of the Type ?2u = b(x, y, u) -- 4.1 Introduction -- 4.2 The Convective Case -- 4.3 The Helmholtz Equation -- 4.4 Non-Linear Cases -- 4.5 Computer Program 3 -- 4.6 Three-Dimensional Analysis -- 4.7 References -- 5 The Dual Reciprocity Method for Equations of the Type ?2u = b(x, y, u, t) -- 5.1 Introduction -- 5.2 The Diffusion Equation -- 5.3 Computer Program 4 -- 5.4 Special f Expansions -- 5.5 The Wave Equation -- 5.6 The Transient Convection-Diffusion Equation -- 5.7 Non-Linear Problems -- 5.8 References -- 6 Other Fundamental Solutions -- 6.1 Introduction -- 6.2 Two-Dimensional Elasticity -- 6.3 Plate Bending -- 6.4 Three-Dimensional Elasticity -- 6.5 Transient Convection-Diffusion -- 6.6 References -- 7 Conclusions -- Appendix 1 -- Appendix 2 -- The Authors.",
+                "The boundary element method (BEM) is now a well-established numerical technique which provides an efficient alternative to the prevailing finite difference and finite element methods for the solution of a wide range of engineering problems. The main advantage of the BEM is its unique ability to provide a complete problem solution in terms of boundary values only, with substantial savings in computer time and data preparation effort. An initial restriction of the BEM was that the fundamental solution to the original partial differential equation was required in order to obtain an equivalent boundary in\u00ad tegral equation. Another was that non-homogeneous terms accounting for effects such as distributed loads were included in the formulation by means of domain integrals, thus making the technique lose the attraction of its \"boundary-only\" character. Many different approaches have been developed to overcome these problems. It is our opinion that the most successful so far is the dual reciprocity method (DRM), which is the subject matter of this book. The basic idea behind this approach is to employ a fundamental solution corresponding to a simpler equation and to treat the remaining terms, as well as other non-homogeneous terms in the original equation, through a procedure which involves a series expansion using global approximating functions and the application of reciprocity principles."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1991",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-94-011-3690-7",
+            "P30128": "International Series on Computational Engineering",
+            "P60163": "Dordrecht"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

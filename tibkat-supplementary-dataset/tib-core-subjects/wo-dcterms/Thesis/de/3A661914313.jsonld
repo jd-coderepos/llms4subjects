@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1013135733",
+            "sameAs": "Hoyer, Marko"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "gnd:4048715-5",
+            "sameAs": "Rechenzentrum"
+        },
+        {
+            "@id": "gnd:4431979-4",
+            "sameAs": "Ressourcenmanagement"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A661914313",
+            "@type": "bibo:Thesis",
+            "P1053": "XIII, 185 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Sonnenschein, Michael",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:661914313",
+                "(ppn)661914313"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106410857)54.61 - Datenverarbeitungsmanagement",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Resource management in virtualized data centers regarding performance and energy aspects",
+            "abstract": [
+                "Rechenzentren z\u00e4hlen mit einem Anteil von etwa 17% zu den Gro\u00dfverbrauchern der IKT. Ziel dieser Arbeit ist es deren Verbrauch zu reduzieren, indem die f\u00fcr eine Menge an IT-Diensten ben\u00f6tigte Anzahl aktiver Server zu jedem Zeitpunkt minimal gehalten wird. Dieser Ansatz f\u00e4llt in den Bereich des Ressourcenmanagements. Das Einsparpotential ergibt sich durch gezielte Nutzung des Bedarfsverhaltens der Dienste. Dessen Modellierung ist daher wichtiger Kernbestandteil der Arbeit. Auch die Abw\u00e4gung zwischen angebotener Ressourcenkapazit\u00e4t und der Performanz der Dienste wurde verfolgt. Schlussendlich bilden die Algorithmen, welche die Zuordnung der Dienste zu den Servern vornehmen, eine weitere Herausforderung, der sich diese Arbeit stellt. Das entwickelte Konzept wurde mit Simulationen evaluiert. Bereits bei der initialen Verteilung der Dienste wurden Energieeinsparungen von zwischen 12.5% und 42% erzielt. Die zus\u00e4tzlich dynamische Umsortierung der Dienste f\u00fchrte zu weiteren 20% an Einsparungen. <dt.>",
+                "Today\u2019s data centers take an ever growing share of the energy consumption of Germany's ICT. The main goal of this work is to reduce such part of the consumption by minimizing the number of active servers required to deploy a given set of services.  This approach belongs to the field of resource management. In contrast to known work, the new approach takes the resource demand behavior of the services into account in special way. Hence, an important part of this work is to properly model this behavior. In addition, it is supported to trade off resources against service performance. Finally, the algorithms that assign the services to servers form another challenge that is addressed within this thesis. The developed approach was evaluated based on simulations. Already the initial distribution of services to servers achieved between 12.5% and 42% of energy savings. The consumption could be further reduced by additional 20%, when services are dynamically redistributed at runtime. <engl.>"
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:17228242X"
+                }
+            ],
+            "creator": "gnd:1013135733",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4431979-4",
+                "gnd:4048715-5"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

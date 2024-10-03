@@ -1,0 +1,63 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1778426123",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (262 p.)",
+            "http://purl.org/dc/elements/1.1/contributor": "Sato, Mitsuhisa",
+            "creator": "Sato, Mitsuhisa",
+            "identifier": [
+                "(ppn)1778426123",
+                "(isbn13)9789811576836",
+                "(firstid)KEP:069391440"
+            ],
+            "publisher": "Springer Nature",
+            "subject": [
+                "Programming & scripting languages: general",
+                "(classificationName=linseach:lexicon)inf"
+            ],
+            "title": "XcalableMP PGAS Programming Language : From Programming Model to Applications",
+            "abstract": "XcalableMP is a directive-based parallel programming language based on Fortran and C, supporting a Partitioned Global Address Space (PGAS) model for distributed memory parallel systems. This open access book presents XcalableMP language from its programming model and basic concept to the experience and performance of applications described in XcalableMP.\u3000 XcalableMP was taken as a parallel programming language project in the FLAGSHIP 2020 project, which was to develop the Japanese flagship supercomputer, Fugaku, for improving the productivity of parallel programing. XcalableMP is now available on Fugaku and its performance is enhanced by the Fugaku interconnect, Tofu-D. The global-view programming model of XcalableMP, inherited from High-Performance Fortran (HPF), provides an easy and useful solution to parallelize data-parallel programs with directives for distributed global array and work distribution and shadow communication. The local-view programming adopts coarray notation from Coarray Fortran (CAF) to describe explicit communication in a PGAS model. The language specification was designed and proposed by the XcalableMP Specification Working Group organized in the PC Consortium, Japan. The Omni XcalableMP compiler is a production-level reference implementation of XcalableMP compiler for C and Fortran 2008, developed by RIKEN CCS and the University of Tsukuba. The performance of the XcalableMP program was used in the Fugaku as well as the K computer. A performance study showed that XcalableMP enables a scalable performance comparable to the message passing interface (MPI) version with a clean and easy-to-understand programming style requiring little effort",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-94-OAB",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "[Erscheinungsort nicht ermittelbar]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

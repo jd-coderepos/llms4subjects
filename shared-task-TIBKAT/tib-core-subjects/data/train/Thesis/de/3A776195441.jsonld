@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1117236927",
+            "sameAs": "Cheng, Yao"
+        },
+        {
+            "@id": "gnd:130020788",
+            "sameAs": "Haardt, Martin"
+        },
+        {
+            "@id": "gnd:4113314-6",
+            "sameAs": "Digitale Signalverarbeitung"
+        },
+        {
+            "@id": "gnd:4348101-2",
+            "sameAs": "Singul\u00e4rwertzerlegung"
+        },
+        {
+            "@id": "gnd:4642063-0",
+            "sameAs": "Signalunterraum"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A776195441",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: IX, 81 S., 2,42 MB)",
+            "creator": "Khatib, Olaa",
+            "identifier": [
+                "(ppn)776195441",
+                "(firstid)GBV:776195441"
+            ],
+            "publisher": "ilmedia",
+            "subject": [
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=ddc-dbn)620"
+            ],
+            "title": "Tensor-based subspace tracking",
+            "abstract": "F\u00fcr verschiedene Anwendungen auf dem Gebiet der digitalen Signalverarbeitung sind die Bestimmung der Unterr\u00e4ume sowie deren Tracking, zum Besispiel f\u00fcr die Signalparametersch\u00e4tzung, die Datenkomprimierung, Radar und die Bildverarbeitung, erforderlich. Eine der vielversprechendsten Techniken zur Sch\u00e4tzung der Signalunterr\u00e4ume basiert auf dem Konzept der Singul\u00e4rwertzerlegung (Singular Value Decomposition, SVD). In letzter Zeit wurde f\u00fcr mehrdimensionale Daten die SVD h\u00f6herer Ordnung (Higher-Order SVD, HOSVD) verwendet, um verbesserte Sch\u00e4tzungen des Unterraums im Vergleich zum SVD-Konzept zu schaffen. Dar\u00fcber hinaus kann durch Verwendung der HOSVD die Sch\u00e4tzung des Unterraums f\u00fcr die Parametersch\u00e4tzung in einem harmonischen Wiedergewinnungsproblem mit mehrdimensionaler Struktur in den Daten, durchgef\u00fchrt werden. Sind jedoch die multidimensionalen Daten zeitvariant, werden adaptive Algorithmen, die auf der Tensoralgebra zum Tracking des Unterraums beruhen, ben\u00f6tigt. Durch den Einsatz dieser Algorithmen k\u00f6nnen auch die Signalparameter wie die Richtung (direction of arrival, DOA) bestimmt werden. Au\u00dferdem, wenn die Anzahl der Messungen gering ist oder die Quellen stark korreliert sind, kann dann durch die Anwendung der Vorw\u00e4rts-R\u00fcckw\u00e4rts-Durchschnittsbestimmung (Forward Backward Averaging, FBA) die Leistungsf\u00e4higkeit weiter verbessert werden. In dieser Arbeit ber\u00fccksichtigen wir FBA und schlagen den erweiterten FBA-PAST-Algorithmus, der auf dem Tensor-Based Subspace Tracking via Kronecker structured projections (TeTraKron) basiert, vor. Wir zeigen, dass FBA zu einer verbesserten Genauigkeit des Unterraum-Tracking und einem niedrigeren Rechenaufwand durch reellwertige Rechenoperationen f\u00fchrt. Au\u00dferdem bewerten wir die Leistungsf\u00e4higkeit der Parametersch\u00e4tzungsalgorithmen in vielen nicht-station\u00e4ren Szenarien, in denen die Unterr\u00e4ume durch Verwendung des Unterraum-Tracking gesch\u00e4tzt werden. Dar\u00fcber hinaus erweitern wir den adaptiven ESPRIT-Algorithmus zu einem allgemeineren Fall, in dem die Unterarrays nicht notwendigerweise eine maximale \u00dcberlappung haben. Weiterhin entwickeln wir eine adaptive Version f\u00fcr Unitary ESPRIT sowie 2-D Unitary ESPRIT. Im Vergleich zu der direkten Kombination des PAST- Algorithmus mit Unitary ESPRIT oder 2-D Unitary ESPRIT, erreichen die vorgeschlagenen adaptiven Algortihmen die gleiche Leistung mit einer geringeren mathematischen Komplexit\u00e4t.",
+            "contributor": [
+                "gnd:1117236927",
+                "gnd:130020788"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4348101-2"
+                },
+                {
+                    "@id": "gnd:4113314-6"
+                },
+                {
+                    "@id": "gnd:4642063-0"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

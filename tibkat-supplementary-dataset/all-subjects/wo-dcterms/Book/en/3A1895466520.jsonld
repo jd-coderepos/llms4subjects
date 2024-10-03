@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:118691565X",
+            "sameAs": "H\u00fcbler, Clemens Janek"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1895466520",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (1.1 MByte)",
+            "identifier": [
+                "(firstid)KXP:1895466520",
+                "(ppn)1895466520",
+                "(doi)10.25835/0078042"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)mas",
+            "title": "Wind turbine simulation data for meta-modelling",
+            "abstract": "This data set correlates environmental conditions acting on an offshore wind turbine (inputs) with fatigue loads of the turbine (outputs). The investigated wind turbine is the NREL 5MW reference turbine and the OC3 monopile. Environmental conditions are based on FINO3 data (https://www.fino3.de/en/). Time series of bending moments and shear forces at mudline and blade root bending moments are computed using the FASTv8 simulation code by the NREL. 10.000 simulations for varying environmental conditions (and varying random seeds) were conducted. Short-term damage equivalent loads (DELs) representing fatigue were calculated for several relevant positions (at mudline and at the blade root).",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118691565X",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/0078042",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

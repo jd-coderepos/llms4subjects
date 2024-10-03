@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749164883",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (160p)",
+            "creator": "Mace, Mary E.",
+            "description": [
+                "digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781461320012",
+                "(doi)10.1007/978-1-4613-2001-2",
+                "(ppn)749164883",
+                "(firstid)GBV:749164883"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=ddc)004.22",
+                "Computer architecture.",
+                "Computer science",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc)004.1",
+                "(classificationName=loc)TK7895.M5",
+                "Microprocessors.",
+                "(classificationName=linseach:mapping)inf",
+                "Computer engineering",
+                "Artificial intelligence",
+                "Electrical engineering."
+            ],
+            "title": "Memory Storage Patterns in Parallel Processing",
+            "abstract": [
+                "1 Introduction -- 2 Solution For Graphs Without Shared Nodes -- 3 Solution For Graphs With Shared Nodes -- 4 Illustration of Collapsible Graph Algorithm -- 5 Shapes Problem Complexity Issues -- 6 Shapes Solution for Jacobi Iteration -- Appendices: -- A Definition of Collapsible Graphs -- B Restriction 1 -- C Properties of Collapsible Graph Transformations -- D Equivalence of a, b, c to A, B -- E Time Bounds of Collapsible Graph Algorithm -- F Cost Function for Shared Nodes -- References.",
+                "This project had its beginnings in the Fall of 1980. At that time Robert Wagner suggested that I investigate compiler optimi\u00ad zation of data organization, suitable for use in a parallel or vector machine environment. We developed a scheme in which the compiler, having knowledge of the machine's access patterns, does a global analysis of a program's operations, and automatically determines optimum organization for the data. For example, for certain architectures and certain operations, large improvements in performance can be attained by storing a matrix in row major order. However a subsequent operation may require the matrix in column major order. A determination must be made whether or not it is the best solution globally to store the matrix in row order, column order, or even have two copies of it, each organized differently. We have developed two algorithms for making this determination. The technique shows promise in a vector machine environ\u00ad ment, particularly if memory interleaving is used. Supercomputers such as the Cray, the CDC Cyber 205, the IBM 3090, as well as superminis such as the Convex are possible environments for implementation."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "1987",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "30",
+            "isLike": "doi:10.1007/978-1-4613-2001-2",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, Parallel Processing and Fifth Generation Computing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

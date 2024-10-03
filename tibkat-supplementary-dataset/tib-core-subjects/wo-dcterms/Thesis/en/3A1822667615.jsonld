@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1273081218",
+            "sameAs": "Jordan, Julian"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1822667615",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 128 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-74287",
+                "(firstid)KXP:1822667615",
+                "(ppn)1822667615"
+            ],
+            "subject": [
+                "Wegmessung",
+                "Lokalisierung",
+                "Trajektorie",
+                "Befahrbarkeit",
+                "(classificationName=ddc-dbn)620",
+                "(classificationName=ddc-dbn)629.2",
+                "(classificationName=linseach:mapping)ver",
+                "Robotik"
+            ],
+            "title": "Visual odometry and traversability nalysis for wheeled robots in complex environments",
+            "abstract": [
+                "The application of wheeled mobile robots (WMRs) is currently expanding from rather controlled industrial or domestic scenarios into more complex urban or outdoor environments, allowing a variety of new use cases. One of these new use cases is described in this thesis: An intelligent personal mobility assistant, based on an electrical rollator. Such a system comes with several requirements: It must be safe and robust, lightweight, inexpensive and should be able to navigate in real-time in order to allow direct physical interaction with the user. As these properties are desirable for most WMRs, all methods proposed in this thesis can also be used with other WMR platforms.First, a visual odometry method is presented, which is tailored to work with a downward facing RGB-D camera. It projects the environment onto a ground plane image and uses an efficient image alignment method to estimate the vehicle motion from consecutive images. As the method is designed for use on a WMR, further constraints can be employed to improve the accuracy of the visual odometry. For a non-holonomic WMR with a known vehicle model, either differential drive, skid steering or Ackermann, the motion parameters of the corresponding kinematic model, instead of the generic motion parameters, can be estimated directly from the image data. This significantly improves the accuracyand robustness of the method. Additionally, an outlier rejection scheme is presented that operates in model space, i.e. the motion parameters of the kinematic model, instead of data space, i.e. image pixels. Furthermore, the projection of the environment onto the ground plane can also be used to create an elevation map of the environment. It is investigated if this map, in conjunction with a detailed vehicle model, can be used to estimate future vehicle poses. By using a common image-based representation of the environment and the vehicle, a very efficient and still highly accurate pose estimation method is proposed. Since the traversability of an area can be determined by the vehicle poses and potential collisions, the pose estimation method is employed to create a novel real-time path planning method. The detailed vehicle model is extended to also represent the vehicle\u2019s chassis for collision detection. Guided by an A*-like planner, a search graph is constructed by propagating the vehicle using its kinematic model to possible future poses and calculating a traversability score for each of these poses. The final system performs safe and robust real-time navigation even in challenging indoor and outdoor environments.",
+                "Durch die technische Entwicklung im Bereich der radbasierten mobilen Roboter (WMRs) erweitern sich deren Anwendungsszenarien. Neben den eher strukturierten industriellen und h\u00e4uslichen Umgebungen sind nun komplexere st\u00e4dtische Szenarien oder Au\u00dfenbereiche m\u00f6gliche Einsatzgebiete. Einer dieser neuen Anwendungsf\u00e4lle wird in dieser Arbeit beschrieben: ein intelligenter pers\u00f6nlicher Mobilit\u00e4tsassistent, basierend auf einem elektrischen Rollator. Ein solches System hat mehrere Anforderungen: Es muss sicher, robust, leicht und preiswert sein und sollte in der Lage sein, in Echtzeit zu navigieren, um eine direkte physische Interaktion mit dem Benutzer zu erm\u00f6glichen. Da diese Eigenschaften f\u00fcr fast alle Arten von WMRs w\u00fcnschenswert sind, k\u00f6nnen alle in dieser Arbeit pr\u00e4sentierten Methoden auch mit anderen Typen von WMRs verwendet werden. Zuerst wird eine visuelle Odometriemethode vorgestellt, welche auf die Arbeit mit einer nach unten gerichteten RGB-D-Kamera ausgelegt ist. Hierzu wird die Umgebung auf die Bodenebene projiziert, um eine 2-dimensionale Repr\u00e4sentation zu erhalten. Nun wird ein effizientes Bildausrichtungsverfahren verwendet, um die Fahrzeugbewegung aus aufeinander folgenden Bildern zu sch\u00e4tzen. Da das Verfahren f\u00fcr den Einsatz auf einem WMR ausgelegt ist, k\u00f6nnen weitere Annahmen verwendet werden, um die Genauigkeit der visuellen Odometrie zu verbessern. F\u00fcr einen nicht-holonomischen WMR mit einem bekannten Fahrzeugmodell, entweder Differentialantrieb, Skid-Lenkung oder Ackermann-Lenkung, k\u00f6nnen die Bewegungsparameter direkt aus den Bilddaten gesch\u00e4tzt werden. Dies verbessert die Genauigkeit und Robustheit des Verfahrens erheblich. Zus\u00e4tzlich wird eine Ausrei\u00dfererkennung vorgestellt, die im Modellraum, d.h. den Bewegungsparametern des kinematischen Models, arbeitet. \u00dcblicherweise wird die Ausrei\u00dfererkennung im Datenraum, d.h. auf den Bildpunkten, durchgef\u00fchrt. Mittels der Projektion der Umgebung auf die Bodenebene kann auch eine H\u00f6henkarte der Umgebung erstellt werde. Es wird untersucht, ob diese Karte, in Verbindung mit einem detaillierten Fahrzeugmodell, zur Absch\u00e4tzung zuk\u00fcnftiger Fahrzeugposen verwendet werden kann. Durch die Verwendung einer gemeinsamen bildbasierten Darstellung der Umgebung und des Fahrzeugs wird eine sehr effiziente und dennoch sehr genaue Posensch\u00e4tzmethode vorgeschlagen. Da die Befahrbarkeit eines Bereichs durch die Fahrzeugposen und m\u00f6gliche Kollisionen bestimmt werden kann, wird diese Methode f\u00fcr eine neue echtzeitf\u00e4hige Pfadplanung verwendet. Aus der Fahrzeugpose werden verschiedene Sicherheitskriterien bestimmt, die als Heuristik f\u00fcr einen A*-\u00e4hnlichen Planer verwendet werden. Hierzu werden mithilfe des kinematischen Models m\u00f6gliche zuk\u00fcnftige Fahrzeugposen ermittelt und f\u00fcr jede dieser Posen ein Befahrbarkeitswert berechnet.Das endg\u00fcltige System erm\u00f6glicht eine sichere und robuste Echtzeit-Navigation auch in schwierigen Innen- und Au\u00dfenumgebungen."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1273081218"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-74287",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

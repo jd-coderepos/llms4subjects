@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046070290",
+            "sameAs": "Renken, Hendrik"
+        },
+        {
+            "@id": "gnd:110026063",
+            "sameAs": "Meyer auf der Heide, Friedhelm"
+        },
+        {
+            "@id": "gnd:115514155",
+            "sameAs": "Dangelmaier, Wilhelm"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A776089358",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (VI, 142 S.)",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)776089358",
+                "(firstid)HBZ:CT004000955"
+            ],
+            "subject": [
+                "Materialfluss",
+                "(classificationName=ddc)658.781",
+                "Simulation",
+                "(classificationName=ddc)004",
+                "(classificationName=ddc)003",
+                "(classificationName=ddc)670",
+                "Automatisierte Produktion",
+                "Theorie",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=linseach:mapping)inf",
+                "Produktionsplanung",
+                "(classificationName=linseach:mapping)mas"
+            ],
+            "title": "Acceleration of material flow simulations : using model coarsening by token sampling and online error estimation and accumulation controlling",
+            "abstract": "Die heutige Produktionsplanung steht for grossen Herausforderungen: Der Lebenszyklus neuer Produkte wird immer k\u00fcrzer w\u00e4hrend die Entwicklungs- und Produktionskosten steigen. Das erfordert immer komplexere Produktionssysteme. Simulation als Werkzeug unterst\u00fctzt das Verst\u00e4ndnis und damit das Beherrschen solcher Produktionssysteme. \u00dcblicherweise werden daf\u00fcr sehr detaillierte Modelle ben\u00f6tigt. W\u00e4hrend aktuelle Simulationsmodelle bereits sehr detailliert sind, wird der Detaillierungsgrad immer weiter hochgeschraubt. Selbst mit der immer weiter steigenden Geschwindigkeit der Computer ist es nicht m\u00f6glich diesen komplexen Modellen gerecht zu werden. Dieses Problem l\u00e4sst sich durch die Reduktion der Modellkomplexit\u00e4t l\u00f6sen. Diese Reduktion muss normalerweise von einem sehr erfahrenen Ingenieur durchgef\u00fchrt werden um die Validit\u00e4t der Modelle zu gew\u00e4hrleisten. Weil solch ein erfahrener Ingenieur sehr teuer in Bezug auf Bezahlung und Arbeitszeit ist wurden automatisierte Verfahren vorgestellt. Die meisten dieser Verfahren sind auf Daten aus mehreren Zeit-intensiven Simulationsl\u00e4ufen angewiesen. Die erfassten Daten sind nur f\u00fcr beobachte Szenarien valide. Werden diese Daten in unbekannten Situationen benutzt f\u00fchrt das zu Fehlern. Dar\u00fcber hinaus k\u00f6nnen die meisten Verfahren nur auf spezielle Modelle angewandt werden. Das in dieser Arbeit vorgestellte, automatisierte Verfahren \u00fcberwindet mehrere der angesprochenen Beschr\u00e4nkungen. Anstatt jedes Material individuell zu behandeln, werden mehrere Materialen genauso wie ein Referenzmaterial behandelt. Ein Zeit-intensives Preprocessing wird vermieden, indem das simulierte Produktionssystem andauernd \u00fcberwacht und vergr\u00f6bert wird. Dies erm\u00f6glicht es, dass sich das Verfahren leicht auf neue Szenarien einstellen kann.. - Today's production planning faces major challenges: The life cycle of new products gets noticeably shortened while development and production costs rise. This demands increasingly complex production systems are required. To minimize costs, these systems must be well understood and controlled. Simulation offers an extensive degree of understanding and controlling of production systems. However, such a utilization of simulation requires detailed models. While current models are already very detailed, the desire for even more detailed simulation models continues. Even with the ever increasing computing power, this hunger for more detailed and widespread simulation models cannot be satisfied. To solve this problem, the complexity of the simulation model can be reduced. This reduction process is normally done by the modeling engineer who must have a certain degree of experience to create valid reduced models. Because the work of such an engineer is very expensive in terms of time and monetary costs, automated approaches have been proposed. Most of the automated approaches rely on observed data from several cost-intensive simulation runs. The gathered data is only valid for observed conditions. Using this data in unknown conditions can be erroneous. Furthermore, most automated approaches are restricted to very specific simulation models. The concept of this thesis is an automated approach that overcomes several of the mentioned drawbacks. Instead of processing every token individually, several tokens are handled in the same manner as one reference token. The presented method doesn't need a cost-intensive preprocessing step to gather data. Instead, the analysis of the system's behavior is constantly redone to adapt the behavior of the coarsening to new conditions. Due to this highly dynamic approach, the presented concept is capable of adapting to changing conditions at runtime.",
+            "contributor": [
+                "gnd:110026063",
+                "gnd:115514155"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1046070290",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

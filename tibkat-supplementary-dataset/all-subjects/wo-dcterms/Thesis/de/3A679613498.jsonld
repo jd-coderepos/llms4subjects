@@ -1,0 +1,68 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A679613498",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": [
+                "Kastens, Uwe",
+                "R\u00fcckert, Ulrich",
+                "Platzner, Marco"
+            ],
+            "creator": "Dreesen, Ralf",
+            "identifier": [
+                "(firstid)HBZ:CT004000746",
+                "(ppn)679613498"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)005.45",
+                "(classificationName=ddc)004.22",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005.265"
+            ],
+            "title": "Generating Processors from Specifications of Instruction Sets",
+            "abstract": "Viele digitale Systeme beinhalten Mikroprozessoren, weil sie aufgrund ihrer Programmierbarkeit sehr flexibel einsetzbar sind. Einige dieser Mikroprozessoren sind auf den jeweiligen Anwendungsbereich zugeschnitten, um die Ausf\u00fchrungsgeschwindigkeit von Programmen zu steigern und Energie zu sparen. Eine effiziente Entwicklung solcher anwendungsspezifischer Prozessoren bedarf geeigneter Entwicklungswerkzeuge. Dazu tr\u00e4gt diese Arbeit, sowohl durch die Spezifikationssprache ViDL, als auch durch zwei Generatoren zur schnellen Entwicklung anwendungsspezifischer Prozessoren bei. Ein Entwickler spezifiziert einen Instruktionssatz in ViDL und generiert daraus sowohl einen Simulator, als auch eine mikroarchitektonische Implementierung eines Prozessors. Um die praktische Anwendbarkeit von ViDL zu demonstrieren, wurden reale Instruktionss\u00e4tze wie ARM, MIPS, Power und CoreVA spezifiziert und entsprechende Simulatoren und Prozessoren generiert. Generierte Prozessoren erreichen eine Geschwindigkeit von ca. 600MHz f\u00fcr eine 65 nm STMicroelectronics low power Technologie. Der Prozessorgenerator erzeugt eine n-stufige Pipeline, wobei n automatisch anhand einer vom Benutzer gegebenen Zielfrequenz ermittelt wird (z.B. 600MHz). Folglich k\u00f6nnen ohne zus\u00e4tzlichen Aufwand verschiedenste mikroarchitektonische Implementierungen generiert werden. Alle Prozessoren und der Simulator sind garantiert konsistent, weil sie vollautomatisch aus derselben Spezifikation erzeugt werden. Die Eignung ViDLs zur Exploration von Entwurfsr\u00e4umen und Erweiterung von Instruktionss\u00e4tzen wurde durch die Entwicklung eines anwendungsspezifischen Prozessors im Rahmen dieser Arbeit nachgewiesen. Der Prozessor namens DNACore basiert auf MIPS und wurde durch einen Satz anspruchsvoller SIMD Instruktionen erweitert, die die Ausf\u00fchrung des Smith-Waterman Algorithmus erheblich beschleunigen.. - Most digital systems include microprocessors, as they are very flexible. Some of these microprocessors are tailored to the respective area of application, to optimize execution time and power consumption. An efficient development of such processors necessitates convenient development tools. This thesis contributes a specification language called ViDL and two generators for rapid development of application specific processors. A developer specifies an instruction set in ViDL, then generates an instruction set simulator as well as a microarchitectural processor implementation from that specification. ViDL provides powerful concepts to specify a wide range of instruction sets at a high level of abstraction. To demonstrate the power of ViDL, real world instruction sets, such as MIPS, ARM, Power and CoreVA have rapidly been specified. The processor generator produces a pipelined n-stage microarchitecture, where n is automatically derived from a user defined target clock frequency (e.g. 600MHz) and instruction semantics. As a result, different microarchitectural implementations (e.g. 2-stage and 6-stage) can be generated at no extra effort. All processors and the simulator are guaranteed to be consistent, as they are generated from the very same specification. To prove the fitness of ViDL for design space exploration (DSE) and instructionset extension (ISE), a new application specific processor has been developed as part of this thesis. The processor called DNACore is based on MIPS and includes a sophisticated SIMD instruction set extension to accelerate the Smith-Waterman algorithm.",
+            "alternative": "Generierung von Prozessoren aus Instruktionssatzspezifikationen",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

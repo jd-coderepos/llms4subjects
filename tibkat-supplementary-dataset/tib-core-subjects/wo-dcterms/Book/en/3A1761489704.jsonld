@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1228552304",
+            "sameAs": "Liwicki, Marcus"
+        },
+        {
+            "@id": "gnd:1228552525",
+            "sameAs": "Ingold, Rolf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1761489704",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xiii, 254 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Fischer, Andreas",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots",
+            "identifier": [
+                "(isbn13)9789811203251",
+                "(firstid)KEP:066091993",
+                "(doi)10.1142/11353",
+                "(ppn)1761489704",
+                "(isbn13)9789811203244"
+            ],
+            "publisher": "World Scientific",
+            "subject": [
+                "(classificationName=linseach:mapping)ver",
+                "Digital libraries",
+                "Image analysis",
+                "Document imaging systems",
+                "Text processing (Computer science)",
+                "Electronic books",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)006.42",
+                "Optical pattern recognition",
+                "(classificationName=loc)TA1650"
+            ],
+            "title": "Handwritten historical document analysis, recognition, and retrieval : state of the art and future trends",
+            "abstract": [
+                "Introduction / Andreas Fischer, Marcus Liwicki and Rolf Ingold -- The HisDoc project. IAM-HistDB : a dataset of handwritten historical documents / Andreas Fischer. DIVA-HisDB : a precisely annotated dataset of challenging medieval manuscripts / Foteini Simistira Liwicki. Layout analysis in handwritten historical documents / Mathias Seuret. Automatic handwriting recognition in historical documents / Andreas Fischer. Handwritten keyword spotting in historical documents / Volkmar Frinken and Shriphani Palakodety. DIVAServices : transforming document analysis methods into web services / Marcel Gygli. GraphManuscribble : interactive annotation of historical manuscripts / Angelika Garz -- Related research projects. OldDocPro : old greek document recognition / Basilis Gatos, Georgios Louloudis, Nikolaos Stamatopoulos, George Retsinas, Giorgos Sfikas, Angelos P Giotis, Foteini Simistira Liwicki, Vassilis Papavassiliou and Vassilis Katsouros. Advances in handwritten keyword indexing and search technologies / Joan Puigcerver, Alejandro H Toselli and Enrique Vidal. Browsing of the social network of the past: Information extraction from population manuscript images / Alicia Forn\u00e9s, Josep Llad\u00f3s and Joana Maria Pujadas-Mora. Lifelong learning for text retrieval and recognition in historical handwritten document collections / Lambert Schomaker. Conclusions and future trends / Andreas Fischer, Marcus Liwicki and Rolf Ingold -- Index.",
+                "\"In recent years, libraries and archives all around the world have increased their efforts to digitize historical manuscripts. To integrate the manuscripts into digital libraries, pattern recognition and machine learning methods are needed to extract and index the contents of the scanned images. The unique compendium describes the outcome of the HisDoc research project, a pioneering attempt to study the whole processing chain of layout analysis, handwriting recognition, and retrieval of historical manuscripts. This description is complemented with an overview of other related research projects, in order to convey the current state of the art in the field and outline future trends. This must-have volume is a relevant reference work for librarians, archivists and computer scientists\"--Publisher's website"
+            ],
+            "contributor": [
+                "gnd:1228552525",
+                "gnd:1228552304"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-124-WPC",
+                "(collectioncode)ZDB-124-AII",
+                "(collectioncode)ZDB-124-WOP"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "volume 89",
+            "isLike": "doi:10.1142/11353",
+            "P30128": "Series in machine perception and artificial intelligence",
+            "P60163": "New Jersey"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

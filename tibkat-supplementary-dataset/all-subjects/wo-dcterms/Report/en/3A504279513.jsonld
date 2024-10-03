@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128689471",
+            "sameAs": "Tischler, Thorsten"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A504279513",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (16 Seiten, 257,61 KB)",
+            "creator": [
+                "Hebermehl, Georg",
+                "Schefter, J\u00fcrgen",
+                "Heinrich, Wolfgang",
+                "Zscheile, Horst",
+                "Schlundt, Rainer"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)504279513",
+                "(firstid)GBV:504279513"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS)",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=ddc)530",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Simulation of microwave circuits and laser structures including PML by means of FIT",
+            "abstract": "Field-oriented methods which describe the physical properties of microwave circuits and optical structures are an indispensable tool to avoid costly and time-consuming redesign cycles. Commonly the electromagnetic characteristics of the structures are described by the scattering matrix which is extracted from the orthogonal decomposition of the electric field. The electric field is the solution of an eigenvalue and a boundary value problem for Maxwell's equations in the frequency domain. We discretize the equations with orthogonal grids using the Finite Integration Technique (FIT). Maxwellian grid equations are formulated for staggered nonequidistant rectangular grids and for tetrahedral nets with corresponding dual Voronoi cells. The interesting modes of smallest attenuation are found solving a sequence of eigenvalue problems of modified matrices. To reduce the execution time for high-dimensional problems a coarse and a fine grid is used. The calculations are carried out, using two levels of parallelization. The discretized boundary value problem, a large-scale system of linear algebraic equations with different right-hand sides, is solved by a block Krylov subspace method with various preconditioning techniques ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:2140666-2"
+                },
+                {
+                    "@id": "gnd:128689471"
+                }
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 905",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

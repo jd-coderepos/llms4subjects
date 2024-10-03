@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1175009199",
+            "sameAs": "Wenige, Lisa"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A104612949X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (306 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.22032/dbt.38049",
+                "(ppn)104612949X",
+                "(firstid)GBV:104612949X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)020",
+                "Bewertung",
+                "Personalisierung",
+                "Kundendaten",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=bk, id=106414704)85.20 - Betriebliche Information und Kommunikation",
+                "Electronic Commerce"
+            ],
+            "title": "On-the-fly recommendation retrieval from linked open data repositories",
+            "abstract": "Some recommender systems (RS) utilize Linked Open Data (LOD) to enhance the item descriptions in the local database. However, these systems do not yet take full advantage of the potential of RDF data for personalized retrieval. The work describes the strengths of LOD repositories as well as the challenges of RDF processing for recommendation tasks. Against the background of these characteristics, a recommendation engine, called SKOSRecommender (SKOSRec), was developed. The system utilizes SKOS annotations to determine similar items and provides a graph-based query language for on-the-fly retrieval from SPARQL endpoints. This enables novel retrieval approaches. For instance, the SKOSRec language facilitates the representation of individual user preferences as query-based statements. Hence, it is possible to generate a user profile with the help of a SPARQL-like request (preference querying). Additionally, the language enables subquerying with recommendation results and the usage of graph-based query patterns to formulate powerful filter conditions for result lists (expressive constraint-based queries). Besides, the language allows flexible combinations of graph- and search-based query patterns (i.e., advanced recommendation requests). Examples of such requests are rollup retrieval patterns or cross-domain queries. The novel approaches were evaluated in a series of offline and online experiments in different domains (travel RS, multimedia RS and scientific publication retrieval). The results show that most of the developed methods improve the quality of existing recommendation methods. Effects predominantly occurred in the performance dimensions of recall, novelty, and diversity. The positive evaluation results demonstrate the effectiveness of the new methods. Thus, the work can contribute to the advancement of personalized search techniques, which can be applied for semantic retrieval in LOD repositories as well as for typical recommendation tasks.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1175009199",
+                "gnd:36164-1"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.22032/dbt.38049",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

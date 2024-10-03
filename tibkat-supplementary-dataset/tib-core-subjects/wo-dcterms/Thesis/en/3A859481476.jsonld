@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1100572775",
+            "sameAs": "Cattania, Camilla"
+        },
+        {
+            "@id": "gnd:121190080",
+            "sameAs": "Hainzl, Sebastian"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "gnd:4587352-5",
+            "sameAs": "Nachbeben"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A859481476",
+            "@type": "bibo:Thesis",
+            "P1053": "xvi, 123 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:859481476",
+                "(ppn)859481476"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)geo",
+                "(classificationName=bk, id=106407120)38.38 - Seismologie"
+            ],
+            "title": "Improvement of aftershock models based on Coulomb stress changes and rate-and-state dependent friction",
+            "abstract": "Earthquake clustering has proven the most useful tool to forecast changes in seismicity rates in the short and medium term (hours to months), and efforts are currently being made to extend the scope of such models to operational earthquake forecasting. The overarching goal of the research presented in this thesis is to improve physics-based earthquake forecasts, with a focus on aftershock sequences. Physical models of triggered seismicity are based on the redistribution of stresses in the crust, coupled with the rate-and-state constitutive law proposed by Dieterich to calculate changes in seismicity rate. This type of models are known as Coulomb- rate and-state (CRS) models. In spite of the success of the Coulomb hypothesis, CRS models typically performed poorly in comparison to statistical ones, and they have been underepresented in the operational forecasting context. In this thesis, I address some of these issues, and in particular these questions: (1) How can we realistically model the uncertainties and heterogeneity of the mainshock stress field? (2) What is the effect of time dependent stresses in the postseismic phase on seismicity? I focus on two case studies from different tectonic settings: the Mw 9.0 Tohoku megathrust and the Mw 6.0 Parkfield strike slip earthquake. I study aleatoric uncertainties using a Monte Carlo method. I find that the existence of multiple receiver faults is the most important source of intrinsic stress heterogeneity, and CRS models perform better when this variability is taken into account. Epistemic uncertainties inherited from the slip models also have a significant impact on the forecast, and I find that an ensemble model based on several slip distributions outperforms most individual models. I address the role of postseismic stresses due to aseismic slip on the mainshock fault (afterslip) and to the redistribution of stresses by previous aftershocks (secondary triggering). I find that modeling secondary triggering improves model performance. The effect of afterslip is less clear, and difficult to assess for near-fault aftershocks due to the large uncertainties of the afterslip models. Off-fault events, on the other hand, are less sensitive to the details of the slip distribution: I find that following the Tohoku earthquake, afterslip promotes seismicity in the Fukushima region. To evaluate the performance of the improved CRS models in a pseudo-operational context, I submitted them for independent testing to a collaborative experiment carried out by CSEP for the 2010-2012 Canterbury sequence. Preliminary results indicate that physical models generally perform well compared to statistical ones, suggesting that CRS models may have a role to play in the future of operational forecasting. To facilitate efforts in this direction, and to enable future studies of earthquake triggering by time dependent processes, I have made the code open source. In the final part of this thesis I summarize the capabilities of the program and outline technical aspects regarding performance and parallelization strategies.",
+            "alternative": "Verbesserte Nachbebenmodelle durch Ber\u00fccksichtigung von Coulombspannungs\u00e4nderungen und Rate-State abh\u00e4ngiger Reibung",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:121190080"
+                }
+            ],
+            "creator": [
+                "gnd:2120681-8",
+                "gnd:1100572775"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": "gnd:4587352-5",
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/859481476.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

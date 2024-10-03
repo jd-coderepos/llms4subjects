@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1264537506",
+            "sameAs": "Bogdanovic, Miroslav"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A181282243X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (unterschiedliche Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-71149",
+                "(ppn)181282243X",
+                "(firstid)KXP:181282243X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc)629.892"
+            ],
+            "title": "Learning robust control policies for real robots",
+            "abstract": "In this thesis we deal with the problem of using deep reinforcement learning to generate robust policies for real robots. We identify three key issues that need to be tackled in order to make progress along these lines. How to perform exploration in robotic tasks, with discontinuities in the environment and sparse rewards. How to ensure policies trained in simulation transfer well to real systems. How to build policies that are robust to environment variability we encounter in the real world. We aim to tackle these issues through three papers that are part of this thesis. In the first one, we present an approach for learning an exploration process based on data from previously solved tasks to aid in solving new ones. In the second, we show how learning variable gain policies can produce better performing solutions on contact sensitive tasks, as well as propose a way to regularize these policies to enable direct transfer to real systems and improve their interpretability. In the final work, we propose a two-stage approach that goes from simple demonstrations to robust adaptive behaviors that can be directly deployed on real systems.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1264537506",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-71149",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

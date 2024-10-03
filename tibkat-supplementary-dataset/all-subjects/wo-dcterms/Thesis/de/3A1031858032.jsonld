@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1047680785",
+            "sameAs": "Kaufmann, Paul"
+        },
+        {
+            "@id": "gnd:1148340319",
+            "sameAs": "Platzner, Marco"
+        },
+        {
+            "@id": "gnd:132285355",
+            "sameAs": "Plessl, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1031858032",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vii, 139 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "M\u00fcller, Wolfgang",
+                "Hellebrand, Sybille"
+            ],
+            "creator": "Ho, Nam",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1031858032",
+                "(doi)10.17619/UNIPB/1-376",
+                "(firstid)HBZ:CT004002149"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "FPGA-based reconfigurable cache mapping schemes: design and optimization",
+            "abstract": "Traditionelle Cachedesigns verwenden konsolidierte Bl\u00f6cke von Speicheradressbits um einen Cachesatz zu indizieren, vergleichbar mit der Anwendung einer Modulofunktion. Obwohl dieses modulobasierte Abbildungsschema in heutigen Cachestrukturen weit verbreitet ist, vor allem wegen seiner einfachen Anforderungen an das Hardwaredesign und seiner Effizienz f\u00fcr die Indizierung eufeinanderfolgender Speicheradressen, kann seine Verwendung f\u00fcr eine Vielzahl von Anwendungsdom\u00e4nen mit unterschiedlichen Charakteristiken zu suboptimalen Ergebnissen f\u00fchren. Diese Dissertation pr\u00e4sentiert einen neuen Typ von Cacheabbildungsschema, motiviert durch die Kombination programmierbarer Ressourcen mit der naturinspirierten Optimierung rekonfigurierbarer Hardware. Im Fokus dieser Forschung steht eine FPGA-basierte Cachestruktur f\u00fcr den first level Cache einer Mehrkernprozessorarchitektur, welche die Cacheindizierung dynamisch \u00e4ndern kann. Um die Herausforderung rekonfigurierbarer Cacheabbildungen zu l\u00f6sen, wird eine reprogrammierbare Boolesche Schaltung eingef\u00fchrt, die auf Look-up Table (LUT) Speicherelementen basiert. Weiterhin wird eine Infrastruktur zur Effizienzmessung eingef\u00fchrt, welche die zugrundeliege Mikroarchitektur \u00fcberwachen kann, sowie eine adaptive Evaluationsstrategie pr\u00e4sentiert, die evolution\u00e4re Algorithmen wirksam einsetzt, und die nicht nur anwendungsspezifische Abbildungen von Speicheradressen zu Cacheindizes f\u00fcr level one Caches evolvieren sondern dabei auch die Optimierungszeiten reduzieren kann. All diese Aspekte zusammen in einer prototypischen Implementierung auf einem FPGA f\u00fcr einen LEON3/Linux-basierten Mehrkernprozessor zeigen, dass evolvierbare Cacheabbildungsfunktionen Cache Misses reduzieren, sowie die Effizienz im Vergleich zu konventionellen Caches erh\u00f6hen k\u00f6nnen.. - Traditional cache design uses a consolidated block of memory address bits to index a cache set, equivalent to the use of modulo functions. While this module-based mapping scheme is widely used in contemporary cache structures due to the simplicity of its hardware design and its good performance for sequences of consecutive addresses, its use may not be satisfactory for a variety of application domains having different characteristics.This thesis presents a new type of cache mapping scheme, motivated by programmable capabilities combined with Nature-inspired optimization of reconfigurable hardware. This research has focussed on an FPGA-based evolvable cache structure of the first level cache in a multi-core processor architecture, able to dynamically change cache indexing. To solve the challenge of reconfigurable cache mappings, a programmable Boolean circuit based on a combination of Look-up Table (LUT) memory elements is proposed. Focusing on optimization aspects at the system level, a Performance Measurement Infrastructure is introduced that is able to monitor the underlying microarchitectural metrics, and an adaptive evaluation strategy is presented that leverages on Evolutionary Algorithms, that is not only capable of evolving application-specific address-to-cache-index mappings for level one split caches but also of reducing optimization times. Putting this all together and prototyping in an FPGA for a LEON3/Linux-based multi-core processor, the creation of a system architecture reduces cache misses and improves performance over the use of conventional caches.",
+            "contributor": [
+                "gnd:1047680785",
+                "gnd:1148340319",
+                "gnd:132285355"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-376",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

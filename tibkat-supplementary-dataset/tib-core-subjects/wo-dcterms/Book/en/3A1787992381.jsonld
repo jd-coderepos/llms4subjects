@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1202878512",
+            "sameAs": "Buchanan, Steve"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1787992381",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xxi, 299 Seiten)",
+            "contributor": "Maurer, Thomas",
+            "creator": "Joyner, John",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Illustrationen, Diagramme, Karten"
+            ],
+            "identifier": [
+                "(isbn13)9781484277683",
+                "(doi)10.1007/978-1-4842-7768-3",
+                "(ppn)1787992381",
+                "(firstid)KEP:072914408"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Client/server computing\u2014Equipment and supplies.",
+                "Cloud Computing.",
+                "Microsoft software.",
+                "(classificationName=linseach:mapping)inf",
+                "Microsoft .NET Framework.",
+                "(classificationName=ddc)005.268",
+                "Computer science."
+            ],
+            "title": "Azure arc-enabled kubernetes and servers : extending hyperscale cloud management to your datacenter",
+            "abstract": [
+                "Welcome to this introductory guide to using Microsoft\u2019s Azure Arc service, a new multi-cloud management platform that belongs in every cloud or DevOps estate. As many IT pros know, servers and Azure Kubernetes Service drive a huge amount of consumption in Azure\u2014so why not extend familiar management tools proven in Azure to on-premise and other cloud networks? This practical guide will get you up to speed quickly, with instruction that treads light on the theory and heavy on the hands-on experience to make setting up Azure Arc servers and Kubernetes across multiple clouds a lot less complex. Azure experts and MVPs Buchanan and Joyner provide just the right amount of context so you can grasp important concepts, and get right to the business of using and gaining value from Azure Arc. If your organization has resources across hybrid cloud, multi-cloud, and edge environments, then this book is for you. You will learn how to configure and use Azure Arc to uniformly manage workloads across all of these environments. What You Will Learn Introduces the basics of hybrid, multi-cloud, and edge computing and how Azure Arc fits into that IT strategy Teaches the fundamentals of Azure Resource Manager, setting the reader up with the knowledge needed on the technology that underpins Azure Arc Offers insights into Azure native management tooling for managing on-premises servers and extending to other clouds Details an end-to-end hybrid server monitoring scenario leveraging Azure Monitor and/or Azure Sentinel that is seamlessly delivered by Azure Arc Defines a blueprint to achieve regulatory compliance with industry standards using Azure Arc, delivering Azure Policy from Azure Defender for Servers Explores how Git and GitHub integrate with Azure Arc; delves into how GitOps is used with Azure Arc Empowers your DevOps teams to perform tasks that typically fall under IT operations Dives into how to best use Azure CLI with Azure Arc This book is for DevOps, system administrators, security professionals, and IT workers responsible for servers both on-premises and in the cloud. Some experience in system administration, DevOps, containers, and use of Git/GitHub is helpful. Steve Buchanan is a Director, Azure Platform Lead & Containers Services Lead on a Cloud Transformation team with a large consulting firm. He is a 10-time Microsoft MVP, Pluralsight author, and the author of six technical books. He has presented at tech events, including DevOpsDays, Midwest Management Summit (MMS), Microsoft Ignite, BITCon, Experts Live Europe, OSCON, Inside Azure management, and user groups. He stays active in the technical community and enjoys blogging about his adventures in the world of IT at www.buchatech.com. John Joyner is Senior Director, Technology at AccountabilIT, a managed services provider of 24x7 Network Operations and Security Operations Center (NOC & SOC) services. As an Azure Solutions Architect Expert, he designs and builds modern management and security solutions based on Azure Lighthouse, Azure Arc, Azure Monitor Logs, Azure Sentinel, Azure Defender, and Microsoft Defender. John is also an authority on System Center products in private cloud and hybrid cloud environments and has been awarded Microsoft MVP 14 times. John is a retired U.S. Navy Lt. Cmdr., where he was a computer scientist, worked for NATO in Europe and was aboard an aircraft carrier in the Pacific. He is a veteran of the Persian Gulf War.",
+                "Chapter 1: Azure Arc as an Extension of the Azure Control Plane -- Chapter 2: Azure Resource Manager Insights -- Chapter 3: Azure Management Insights -- Chapter 4: Azure Arc Servers: Getting Started -- Chapter 5: Azure Arc Servers: Using at Scale -- Chapter 6: Hybrid Server Monitoring Solution -- Chapter 7: Regulatory and Security Compliance for Azure Arc Servers -- Chapter 8: GitOps Insights -- Chapter 9: Azure Arc Enabled Kubernetes: Getting Started."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:1202878512"
+            },
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXPC"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-7768-3",
+            "P60163": "New York, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

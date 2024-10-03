@@ -1,0 +1,73 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2001386-3",
+            "sameAs": "Universit\u00e4t Bremen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A863007805",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 115 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Ye, Yugang",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)863007805",
+                "(firstid)GBV:863007805"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)550",
+                "(classificationName=linseach:mapping)geo"
+            ],
+            "title": "Correcting multiyear sea ice concentration estimates from microwave satellite observations with air temperature, sea ice drift and dynamic tie points",
+            "abstract": [
+                "Arctic sea ice cover is a sensitive climate indicator. Due to the warming climate, it has decreased dramatically in the Arctic over the past three decades. Moreover, multiyear ice (MYI), ice which has survived at least one summer, is decreasing at a much higher rate. MYI concentration can be retrieved from microwave remote sensing data. However, the retrieval shows flaws under specific weather conditions. The current thesis is motivated by the need of better estimates of MYI distribution. It introduces three methods to improve/correct the MYI concentration estimates from microwave satellite observations. The first method builds upon the NASA Team algorithm and uses dynamic tie points to compensate the temporal variations of tie points (typical brightness temperatures of each surface type at all the channels). The MYI retrievals in winters (Oct-May) of the years 1989-2012 show that the method with dynamic tie points yields higher estimates than the original method in most years. Both methods show clear declining trends of the MYI area from 1989 to 2012, which is consistent with the sea ice extent minimum. The MYI concentration retrieval with the NASA Team algorithm is most sensitive to the tie points of MYI and FYI at 19 GHz vertical polarized channel. These tie points should be treated with more caution when dynamic tie points are used. The second and third methods are two correction schemes used to account for radiometric anomalies that trigger the erroneous MYI concentration retrievals from microwave satellite observations. The correction based on air temperature is introduced to restore the underestimated MYI concentration under warm conditions. It utilizes the fact that the warm spell in autumn lasts for a few days and replaces the erroneous MYI concentrations with interpolated ones. It is applied to MYI retrievals from the Environment Canada Ice Concentration Extractor (ECICE) using inputs from QuikSCAT and AMSR-E data, acquired over the Arctic in a series of autumn seasons (Sep-Dec) from 2003 to 2008. The correction works well by identifying and correcting the anomalous MYI concentrations. For September of the six years, it introduces over 1.0x105 km2 MYI area, except for 2005. The correction based on ice drift is designed to correct the overestimated MYI concentrations that are impacted by factors such ice deformation, snow wetness and metamorphism. It utilizes ice drift records to constrain the MYI changes within a predicted contour and uses two thresholds of passive microwave radiometric parameters to account for snow wetness and metamorphism. It is applied to the MYI concentration retrievals from ECICE in winters (Oct-May) from 2002 to 2009. Qualitative comparison with Radarsat-1 SAR images and quantitative comparison against results from previous studies show that the correction works well by removing the anomalous high MYI concentrations. On average, the correction reduces 5.2x105 km2 of the estimated MYI area in Arctic except for the April-May time frame, when the reduction is larger as the warmer weather prompts the condition of the anomalous snow radiometric signatures. Both corrections can be used as post-processings to all the microwave-based MYI concentration retrieval algorithms. Due to the regional effect of weather conditions, they could be important in the operational applications. In addition, both corrections take the spatial and temporal continuity of MYI into account, which gives a new insight that instantaneous observations alone of sea ice may lead to ambiguities in determination of partial ice concentrations. This approach may be applicable to the retrieval of other sea ice parameters as well.",
+                "Multiyear sea ice, ice concentration, microwave remote sensing, air temperature, sea ice drift, tie points,ECICE."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:2001386-3",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Bremen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

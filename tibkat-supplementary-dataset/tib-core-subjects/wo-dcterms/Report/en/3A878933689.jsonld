@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1042154953",
+            "sameAs": "Merdon, Christian"
+        },
+        {
+            "@id": "gnd:134253523",
+            "sameAs": "Linke, Alexander"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A878933689",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (26 Seiten, 389 kB)",
+            "http://purl.org/dc/elements/1.1/creator": "Ahmed, Naveed",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:878933689",
+                "(ppn)878933689",
+                "(doi)10.20347/WIAS.PREPRINT.2368"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "On really locking-free mixed finite element methods for the transient incompressible Stokes equations",
+            "abstract": "Inf-sup stable mixed methods for the steady incompressible Stokes equations that relax the divergence constraint are often claimed to deliver locking-free discretizations. However, this relaxation leads to a pressure-dependent contribution in the velocity error, which is proportional to the inverse of the viscosity, thus giving rise to a (different) locking phenomenon. However, a recently proposed modification of the right hand side alone leads to a discretization that is really locking-free, i.e., its velocity error converges with optimal order and is independent of the pressure and the smallness of the viscosity. In this contribution, we extend this approach to the transient incompressible Stokes equations, where besides the right hand side also the velocity time derivative requires an improved space discretization. Semi-discrete and fully-discrete a-priori velocity and pressure error estimates are derived, which show beautiful robustness properties. Two numerical examples illustrate the superior accuracy of pressure-robust space discretizations in the case of small viscosities.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:134253523",
+                "gnd:1042154953"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2368",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2368",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

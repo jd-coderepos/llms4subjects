@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1259464601",
+            "sameAs": "Chen, Jieen"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1806524163",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 130 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1806524163",
+                "(firstid)KXP:1806524163",
+                "(doi)10.15496/publikation-69205"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)770",
+                "(classificationName=linseach:mapping)pae"
+            ],
+            "title": "Programmable optics for computational photography",
+            "abstract": [
+                "Programmable optics is generating considerable interest in terms of computational photography. Recent developments regarding spatial light modulators (SLMs) have made optical coding in photography possible, which bears the promise of solving imaging tasks more cost-effectively. This thesis examines the joint design of optics and digital processing regarding both optical wavefront and ray encoding and inverse solvers and neural networks. We start with an introduction to the fundamentals of image formation, the design paradigm, the details of the facilitated SLM, and the basics of image reconstruction. We then identify the point spread functions (PSFs) as a link between the optics and digital modules of the imaging chain and set up a computational camera, allowing user-defined PSFs through the phase-coded aperture. Once the camera is verified, we realize snapshot multispectral imaging by inspecting the chromatic dispersion of PSFs. A model-based framework is constructed to encode per-pixel spectra on a single image and then to decode multiple full-resolution spectral images with a regularizer-assisted inverse solver. While hand-tuned PSFs are effective, a holistic approach takes advantage of the large amounts of image data to learn the optical phase pattern. Next, we constitute and validate a data-driven joint-design method that optimizes physical parameters and digital reconstruction in an end-to-end fashion on a classical imaging problem: extended depth of field. In addition, the joint-design scheme sheds light to solve an imaging conundrum: how to achieve an optically true hybrid zooming with a single lens on a single camera? We approach the solution by establishing a computational camera that modifies the chief ray distribution; ergo, it enables a programmable field of view.",
+                "Die programmierbare Optik st\u00f6\u00dft auf gro\u00dfes Interesse in Bezug auf die computergest\u00fctzte Fotografie. J\u00fcngste Entwicklungen bez\u00fcglich r\u00e4umlicher Lichtmodulatoren (SLMs) haben dazu gef\u00fchrt, dass eine optische Kodierung in der Fotografie m\u00f6glich ist, die das Versprechen birgt, Abbildungsaufgaben kosteng\u00fcnstiger zu l\u00f6sen. Diese Arbeit untersucht die gemeinsame Gestaltung von Optik und digitaler Verarbeitung sowohl hinsichtlich optischer Wellenfront- und Strahlencodierung als auch Inverser-Solver und neuronaler Netze. Wir beginnen mit einer Einf\u00fchrung in die Grundlagen der Bildentstehung, das Gestaltungsparadigma, die Details des erleichterten SLM und die Grundlagen der Bildrekonstruktion. Anschlie\u00dfend identifizieren wir die Punktspreizfunktionen (PSF) als Bindeglied zwischen optischen und digitalen Modulen der Abbildungskette und bauen eine computerbasierte Kamera auf, die benutzerdefinierte PSF durch die phasenkodierte Blende erm\u00f6glicht. Sobald die Kamera verifiziert ist, realisieren wir eine Schnappschuss-Multispektral-Bildgebung, indem wir die chromatische Dispersion der PSFs untersuchen. Ein modellbasierter Rahmen wird konstruiert, um Spektren pro Pixel in einem einzigen Bild zu kodieren und anschlie\u00dfend mehrere Spektralbilder in voller Aufl\u00f6sung mit einem inversen Solver zu dekodieren. W\u00e4hrend handabgestimmte PSFs effektiv sind, nutzt ein ganzheitlicher Ansatz die gro\u00dfen Mengen an Bilddaten, um das optische Phasenmuster zu lernen. Als n\u00e4chstes wird eine datengetriebene Joint-Design-Methode entwickelt und validiert, die die physikalischen Parameter und die digitale Rekonstruktion in einer End-to-End-Methode f\u00fcr ein klassisches Bildgebungsproblem optimiert: die erweiterte Tiefensch\u00e4rfe. Dar\u00fcber hinaus wirft die Joint-Design-Methode Licht auf die L\u00f6sung eines Abbildungsproblems: Wie kann man ein optisch echtes Hybrid-Zoom mit einem einzigen Objektiv an einer einzigen Kamera erreichen? Wir n\u00e4hern uns der L\u00f6sung, indem wir eine computerbasierte Kamera einrichten, die die Hauptstrahlverteilung modifiziert, soda\u00df ein programmierbares Sichtfeld erm\u00f6glicht wird."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1259464601"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-69205",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

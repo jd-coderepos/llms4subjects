@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1105066940",
+            "sameAs": "Findeisen, Rolf"
+        },
+        {
+            "@id": "gnd:1190748371",
+            "sameAs": "Li, Qiucheng"
+        },
+        {
+            "@id": "gnd:120642689",
+            "sameAs": "Li, Pu"
+        },
+        {
+            "@id": "gnd:138070326",
+            "sameAs": "Rauschenbach, Thomas"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4041457-7",
+            "sameAs": "Navigation"
+        },
+        {
+            "@id": "gnd:4167607-5",
+            "sameAs": "Lidar"
+        },
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1669318583",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xvii, 154 Seiten)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1669318583",
+                "(firstid)KXP:1669318583"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Development of an adaptive navigation system for indoor mobile handling and manipulation platforms",
+            "abstract": "Eine der grundlegenden Funktionen, welche die Autonomie in der mobilen Robotik erm\u00f6glicht, ist die Navigation. Sie ist eine wesentliche Voraussetzung daf\u00fcr, dass mobile Roboter selbst\u00e4ndig anspruchsvolle Aufgaben erf\u00fcllen k\u00f6nnen. Die Umsetzung der Navigation wird dabei oft als eine der wichtigsten Herausforderungen identifiziert. Die Kartenerstellung und Lokalisierung als Grundlage f\u00fcr die Navigation wurde in den letzten Jahrzehnten intensiv erforscht. Es existieren jedoch immer noch eine Reihe von Problemen, z.B. die Anwendung auf gro\u00dfe Areale oder bei der Umsetzung auf kosteng\u00fcnstigen und energiesparenden Embedded-Systemen. Diese Arbeit stellt neue Ans\u00e4tze und L\u00f6sungen im Bereich der LiDAR-basierten simultanen Positionsbestimmung und Kartenerstellung (SLAM) vor. Eine Schl\u00fcsselkomponente der LiDAR-basierten SLAM, die so genannten Scan-Matching-Algorithmen, wird n\u00e4her untersucht. Verschiedene Scan-Matching-Algorithmen werden zum ersten Mal systematisch mit verschiedenen LiDARs f\u00fcr den Innenbereich getestet. Der Einfluss von LiDARs auf die Eigenschaften der Algorithmen wird quantitativ analysiert. Verbesserungen an Bayes-filterbasierten und graphoptimierten SLAMs werden in dieser Arbeit vorgestellt. Bayes-filterbasierte SLAMs verwenden haupts\u00e4chlich die aktuellen Sensorinformationen, um die beste Sch\u00e4tzung zu finden. Eine neue effiziente Implementierung des auf Partikel-Filter basierenden SLAM unter der Verwendung einer Lookup-Tabelle und der Parallelisierung wird vorgestellt. Die neue Implementierung kann effizient auf aktuellen Embedded-Systemen laufen. Im Gegensatz dazu verwenden Graph-SLAMs alle Sensorinformationen und minimieren den Gesamtfehler im System. Ein neues Echtzeitmodel f\u00fcr die Grafenerstellung und eine robuste integrierte SLAM-L\u00f6sung werden vorgestellt. Die Verbesserungen umfassen die Definition von eindeutigen Richtungsnormen f\u00fcr Scan, effiziente Algorithmen zur Erkennung von Loop Closures und eine parallele und adaptive Implementierung. Der entwickelte und auf eingebetteten Systemen eingesetzte Algorithmus \u00fcbertrifft die aktuellen Algorithmen in Geschwindigkeit und Robustheit, insbesondere f\u00fcr gro\u00dfe Areale. Die Ergebnisse der Arbeit k\u00f6nnen f\u00fcr die Verbesserung der Navigation von autonomen Robotern im Innenbereich, h\u00e4uslichen Umfeld sowie der Intra-Logistik genutzt werden.",
+            "contributor": [
+                "gnd:1105066940",
+                "gnd:120642689",
+                "gnd:138070326"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1190748371",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4167607-5",
+                "gnd:4191911-7",
+                "gnd:4041457-7"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

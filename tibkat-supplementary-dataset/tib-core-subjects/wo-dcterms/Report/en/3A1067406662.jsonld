@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1067406662",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (35 Seiten, 3.254 KB)",
+            "creator": [
+                "Eigel, Martin",
+                "Gruhlke, Robert"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.20347/WIAS.PREPRINT.2565",
+                "(ppn)1067406662",
+                "(firstid)GBV:1067406662"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A hybrid FETI-DP method for non-smooth random partial differential equations",
+            "abstract": "A domain decomposition approach exploiting the localization of random parameters in highdimensional random PDEs is presented. For high efficiency, surrogate models in multi-element representations are computed locally when possible. This makes use of a stochastic Galerkin FETI-DP formulation of the underlying problem with localized representations of involved input random fields. The local parameter space associated to a subdomain is explored by a subdivision into regions where the parametric surrogate accuracy can be trusted and where instead Monte Carlo sampling has to be employed. A heuristic adaptive algorithm carries out a problemdependent hp refinement in a stochastic multi-element sense, enlarging the trusted surrogate region in local parametric space as far as possible. This results in an efficient global parameter to solution sampling scheme making use of local parametric smoothness exploration in the involved surrogate construction. Adequately structured problems for this scheme occur naturally when uncertainties are defined on sub-domains, e.g. in a multi-physics setting, or when the Karhunen-Lo\u00e9ve expansion of a random field can be localized. The efficiency of this hybrid technique is demonstrated with numerical benchmark problems illustrating the identification of trusted (possibly higher order) surrogate regions and non-trusted sampling regions.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2565",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2565",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

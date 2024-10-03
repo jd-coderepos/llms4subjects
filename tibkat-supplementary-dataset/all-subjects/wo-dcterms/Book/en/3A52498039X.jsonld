@@ -1,0 +1,100 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A52498039X",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Kirkpatrick, Desmond A.",
+                "Keutzer, Kurt"
+            ],
+            "creator": "Chen, Pinhong",
+            "description": [
+                "v.: digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)52498039X",
+                "(firstid)GBV:52498039X",
+                "(doi)10.1007/b117251",
+                "(isbn13)9781402080920"
+            ],
+            "publisher": "Kluwer Academic Publishers",
+            "subject": [
+                "(classificationName=msc)90C09",
+                "(classificationName=ddc)621.38224",
+                "Electrical engineering.",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)*94C05",
+                "(classificationName=msc)94C10",
+                "Computer aided design",
+                "Systems engineering",
+                "Engineering",
+                "(classificationName=msc)68M10",
+                "(classificationName=loc)TK7871.99.M44",
+                "Electronic circuits.",
+                "(classificationName=ddc)621.3815",
+                "(classificationName=linseach:mapping)inf",
+                "Computer-aided engineering."
+            ],
+            "title": "Static Crosstalk-Noise Analysis : For Deep Sub-Micron Digital Designs",
+            "abstract": [
+                "Miller Factor Computation for Coupling Delay -- Convergence of Switching Window Computation -- Speeding-Up Switching Window Computation -- Refinement of Switching Windows -- Functional Crosstalk Analysis -- Conclusions.",
+                "As the feature size decreases in deep sub-micron designs, coupling capacitance becomes the dominant factor in total capacitance. The resulting crosstalk noise may be responsible for signal integrity issues and significant timing variation. Traditionally, static timing analysis tools have ignored cross coupling effects between wires altogether. Newer tools simply approximate the coupling capacitance by a 2X Miller factor in order to compute the worst case delay. The latter approach not only reduces delay calculation accuracy, but can also be shown to underestimate the delay in certain scenarios. This book describes accurate but conservative methods for computing delay variation due to coupling. Furthermore, most of these methods are computationally efficient enough to be employed in a static timing analysis tool for complex integrated digital circuits. To achieve accuracy, a more accurate computation of the Miller factor is derived. To achieve both computational efficiency and accuracy, a variety of mechanisms for pruning the search space are detailed, including: -Spatial pruning - reducing aggressors to those in physical proximity, -Electrical pruning - reducing aggressors by electrical strength, -Temporal pruning - reducing aggressors using timing windows, -Functional pruning - reducing aggressors by Boolean functional analysis."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781402080913.pdf",
+            "isLike": "doi:10.1007/b117251",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

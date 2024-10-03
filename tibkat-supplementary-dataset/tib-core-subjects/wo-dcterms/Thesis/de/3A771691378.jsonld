@@ -1,0 +1,62 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A771691378",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Engels, Gregor",
+            "creator": "Soltenborn, Christian",
+            "identifier": [
+                "(ppn)771691378",
+                "(firstid)HBZ:CT004000945"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ddc-dbn)650",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)005"
+            ],
+            "title": "Quality assurance with dynamic meta modeling",
+            "abstract": "Dynamic Meta Modeling (DMM) ist eine Semantikbeschreibungstechnik, die sich auf MOF-basierte Sprachen fokussiert und deren Verhalten durch graphische, operationale Regeln beschreibt. Der DMM-Ansatz wurde im Jahr 2000 von Engels et al. erstmals beschrieben und von Hausmann in 2006 in seiner Dissertation ausgearbeitet. Der n\u00e4chste Schritt war nun, an verschiedenen Modellierungssprachen zu erproben, um die gemachten Erfahrungen in die Verbesserung von DMM und seinen Werkzeugen einflie\u00dfen zu lassen. Das Ergebnis ist die DMM++-Methode, die in dieser Arbeit vorgestellt wird. Wir haben vorwiegend an drei Stellen Verbesserungen vorgenommen: Erstens haben wir basierend auf unseren Erfahrungen mit DMM neue Sprachkonzepte wie die Verfeinerung von Regeln entwickelt, und wir haben bestehende Konzepte wie die Behandlung von universell quantifizierten Strukturen oder Attributen verbessert. Zweitens haben wir einen testgetriebenen Semantikspezifizierungsprozess entwickelt: Zun\u00e4chst wird eine Menge von Beispielmodellen erzeugt und deren erwartetes Verhalten formalisiert. Die DMM-Regeln werden dann inkrementell entwickelt, wobei gepr\u00fcft wird, ob die Beispielmodelle tats\u00e4chlich das erwartete Verhalten erzeugen. Zudem haben wir Abdeckungskriterien f\u00fcr Tests von DMM-Spezifikationen entwickelt, die die Beurteilung der Qualit\u00e4t der Tests erlauben. Drittens haben wir gezeigt, wie funktionale und nichtfunktionale Anforderungen an Modelle und ihre DMM-Spezifikation formuliert und gepr\u00fcft werden k\u00f6nnen. F\u00fcr ersteres haben wir eine graphische Sprache zur Formulierung temporallogischer Eigenschaften zur Verf\u00fcgung gestellt, die dann mit Model Checking gepr\u00fcft werden. F\u00fcr zweiteres erm\u00f6glichen wir dem Modellierer das Hinzuf\u00fcgen von Performanceinformationen zu den Modellen, aufgrund dessen dann z.B. der average throughput eines Modells berechnet werden kann.. - Dynamic Meta Modeling (DMM) is a semantics specification technique targeted at MOF-based modeling languages, where a language's behavior is defined by means of graphical operational rules which change runtime models. The DMM approach has first been suggested by Engels et al. in 2000; Hausmann has then defined the DMM language on a conceptual level within his PhD thesis in 2006. Consequently, the next step was to bring the existing DMM concepts alive, and then to apply them to different modeling languages, making use of the lessons learned to improve the DMM concepts as well as the DMM tooling. The result of this process is the DMM++ method, which is presented within this thesis. Our contributions are three-fold: First, and according to our experiences with the DMM language, we have introduced new concepts such as refinement by means of rule overriding, and we have strengthened existing concepts such as the dealing with universal quantified structures or attributes. Second, we have developed a test-driven process for semantics specification: A set of test models is created, and their expected behavior is fixed. Then, the DMM rules are created incrementally, finally resulting in a DMM ruleset realizing at least the expected behavior of the test models. Additionally, we have defined a set of coverage criteria for DMM rulesets which allow to measure the quality of a set of test models. Third, we have shown how functional as well as non-functional requirements can be formulated against models and their DMM specifications. The former is achieved by providing a visual language for formulating temporal logic properties, which are then verified with model checking techniques, and by allowing for visual debugging of models failing a requirement. For the latter, the modeler can add performance information to models and analyze their performance properties, e.g. average throughput.",
+            "alternative": "Qualit\u00e4tssicherung mit Dynamic Meta Modeling",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1890428698",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (1.5 MByte)",
+            "creator": [
+                "Harke, Franz",
+                "Otto, Philipp"
+            ],
+            "identifier": [
+                "(firstid)KXP:1890428698",
+                "(ppn)1890428698",
+                "(doi)10.25835/r1myox7h"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)mas",
+            "title": "Solar self-sufficient households as a driving factor for sustainability transformation",
+            "abstract": "To get the consumption model from Section 3.1, one needs load execute the file consumption_data.R. Load the data for the 3 Phases ./data/CONSUMPTION/PL1.csv, PL2.csv, PL3.csv, transform the data and build the model (starting line 225). The final consumption data can be found in one file for each year in ./data/CONSUMPTION/MEGA_CONS_list.Rdata. To get the results for the optimization problem, one needs to execute the file analyze_data.R. It provides the functions to compare production and consumption data, and to optimize for the different values (PV, MBC,). To reproduce the figures one needs to execute the file visualize_results.R. It provides the functions to reproduce the figures. To calculate the solar radiation that is needed in the Section Production Data, follow file calculate_total_radiation.R. To reproduce the radiation data from from ERA5, that can be found in data.zip, do the following steps: 1. ERA5 - download the reanalysis datasets as GRIB file. For FDIR select \"Total sky direct solar radiation at surface\", for GHI select \"Surface solar radiation downwards\", and for ALBEDO select \"Forecast albedo\". 2. convert GRIB to csv with the file era5toGRID.sh 3. convert the csv file to the data that is used in this paper with the file convert_year_to_grid.R",
+            "alternative": "Solar self-sufficient households as a driving factor for sustainability transformation / Forschungsdaten",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/r1myox7h",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

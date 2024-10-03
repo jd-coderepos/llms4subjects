@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1255865814",
+            "sameAs": "Behl, Aseem"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1797765140",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 103 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-66935",
+                "(firstid)KXP:1797765140",
+                "(ppn)1797765140"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)006.37"
+            ],
+            "title": "Towards recognition as a regularizer in autonomous driving",
+            "abstract": "Autonomous driving promises great potential for social and economic benefits. While autonomous driving remains an unsolved problem, recent advances in computer vision have enabled considerable progress in development of autonomous vehicles. For instance, recognition methods such as object detection, semantic and instance semantic segmentation affords the self driving vehicles with the precise understanding of their surroundings which is critical to safe autonomous driving. Furthermore, with the advent of deep learning, machine recognition methods have reached human-like performance. Therefore, in this thesis, we propose different methods to exploit semantic cues from state-of-the-art recognition methods to improve performance of other tasks required to solve autonomous driving. To this end, in this thesis, we examine the effectiveness of recognition as a regularizer in two prominent problems in autonomous driving, namely, scene flow estimation and end-to-end learned autonomous driving. Besides recognizing traffic participants and predicting their position, an autonomous car needs to precisely predict their 3D position in the future for tasks like navigation and planning. Scene flow is a prominent representation for such motion estimation where a 3D position and 3D motion vector is associated with every observed surface point in the scene. However, existing methods for 3D scene flow estimation often fail in the presence of large displacement or local ambiguities, e.g., at texture-less or reflective surfaces which are omnipresent in dynamic road scenes. Therefore, first, we address the problem of large displacements or local ambiguities by exploiting recognition cues such as semantic grouping and fine-grained geometric recognition to regularize scene flow estimation. We compute these cues using CNNs trained on a newly annotated dataset of stereo images and integrate them into a CRF-based model for robust 3D scene flow estimation. We also investigate the importance of recognition granularity, from coarse 2D bounding box estimates over 2D instance segmentations to fine-grained 3D object part predictions. From this study, we show that regularization from recognition cues significantly boosts the scene flow accuracy, in particular in challenging foreground regions. Secondly, we conclude that the instance segmentation cue is by far strongest, in our setting. Alongside, we demonstrate the effectiveness of our method on challenging scene flow benchmarks. In contrast to cameras, laser scanners provide a 360 degree field of view with just one sensor, are generally unaffected by lighting conditions, and do not suffer from the quadratic error behavior of stereo cameras. Therefore, second, in this work, we extend the idea of semantic grouping as a regularizer for 3D motion to 3D point cloud measurements from LIDAR sensor observations. We achieve this goal by jointly predicting 3D scene flow as well as the 3D bounding box and semantically grouping the motion vectors using 3D object detections. In order to semantically group the motion vectors using 3D object detections, we need to predict pointiwise rigid motion. We show that the traditional global representation of rigid body motion prohibits inference by CNNs, and propose a translation equivariant representation to circumvent this problem and amenable to CNN learning. For training our deep network, we augment real scans from with virtual objects, realistically modeling occlusions and simulating sensor noise. A thorough comparison with classic and learning-based techniques highlights the robustness of the proposed approach. It is well known that recognition cues such as semantic segmentation can be used as an effective intermediate representation to regularize learning end-to-end learned driving policies. However, the task of street scene semantic segmentation requires expensive annotations. Furthermore, segmentation algorithms are often trained irrespective of the actual driving task, using auxiliary image-space loss functions which are not guaranteed to maximize driving metrics such as safety or distance traveled per intervention. Therefore, third, in this work, we analyze several recognition-based intermediate representations for end-to-end learned driving policies. We seek to quantify the impact of reducing segmentation annotation costs on learned behavior cloning agents. We systematically study the trade-off between annotation efficiency and driving performance, i.e., the types of classes labeled, the number of image samples used to learn the visual abstraction model, and their granularity (e.g., object masks vs. 2D bounding boxes). Our analysis uncovers several practical insights into how segmentation-based visual abstractions can be exploited in a more label efficient manner. Surprisingly, we find that state-of-the-art driving performance can be achieved with orders of magnitude reduction in annotation cost.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1255865814"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-66935",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1289410755",
+            "sameAs": "Benbarka, Nuri"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1845116550",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 109 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1845116550",
+                "(doi)10.15496/publikation-82277",
+                "(firstid)KXP:1845116550"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc-dbn)620",
+                "Merkmalsextraktion",
+                "Visuelles System",
+                "Szenenanalyse",
+                "Objekterkennung",
+                "Autonomes Fahrzeug",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)629.2",
+                "Bildsegmentierung"
+            ],
+            "title": "Instance segmentation and 3D multi-object tracking for autonomous driving",
+            "abstract": "Autonomous driving promises to change the way we live. It could save lives, provide mobility, reduce wasted time driving, and enable new ways to design our cities. One crucial component in an autonomous driving system is perception, understanding the environment around the car to take proper driving commands. This dissertation focuses on two perception tasks: instance segmentation and 3D multi-object tracking (MOT). In instance segmentation, we discuss different mask representations and propose representing the mask\u2019s boundary as Fourier series. We show that this implicit representation is compact and fast and gives the highest mAP for a small number of parameters on the dataset MS COCO. Furthermore, during our work on instance segmentation, we found that the Fourier series is linked with the emerging field of implicit neural representations (INR). We show that the general form of the Fourier series is a Fourier-mapped perceptron with integer frequencies. As a result, we know that one perceptron is enough to represent any signal if the Fourier mapping matrix has enough frequencies. Furthermore, we used INR to represent masks in instance segmentation and got results better than the dominant grid mask representation. In 3D MOT, we focus on tracklet management systems, classifying them into count-based and confidence-based systems. We found that the score update functions used previously for confidence-based systems are not optimal. Therefore, we propose better score update functions that give better score estimates. In addition, we used the same technique for the late fusion of object detectors. Finally, we tested our algorithm on the NuScenes and Waymo datasets, giving a consistent AMOTA boost.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1289410755"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-82277",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

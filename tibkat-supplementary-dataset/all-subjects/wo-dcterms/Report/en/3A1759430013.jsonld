@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1759430013",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 364,96 KB)",
+            "creator": [
+                "Farchmin, Nando",
+                "Eigel, Martin",
+                "Trunschke, Philipp",
+                "Heidenreich, Sebastian"
+            ],
+            "identifier": [
+                "(ppn)1759430013",
+                "(doi)10.20347/WIAS.PREPRINT.2844",
+                "(firstid)KXP:1759430013"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS) Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Efficient approximation of high-dimensional exponentials by tensor networks",
+            "abstract": "In this work a general approach to compute a compressed representation of the exponential exp(h) of a high-dimensional function h is presented. Such exponential functions play an important role in several problems in Uncertainty Quantification, e.g. the approximation of log-normal random fields or the evaluation of Bayesian posterior measures. Usually, these high-dimensional objects are intractable numerically and can only be accessed pointwise in sampling methods. In contrast, the proposed method constructs a functional representation of the exponential by exploiting its nature as a solution of an ordinary differential equation. The application of a Petrov\u2013Galerkin scheme to this equation provides a tensor train representation of the solution for which we derive an efficient and reliable a posteriori error estimator. Numerical experiments with a log-normal random field and a Bayesian likelihood illustrate the performance of the approach in comparison to other recent low-rank representations for the respective applications. Although the present work considers only a specific differential equation, the presented method can be applied in a more general setting. We show that the composition of a generic holonomic function and a high-dimensional function corresponds to a differential equation that can be used in our method. Moreover, the differential equation can be modified to adapt the norm in the a posteriori error estimates to the problem at hand.",
+            "alternative": "Tensor network exponentials",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2844",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2844",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

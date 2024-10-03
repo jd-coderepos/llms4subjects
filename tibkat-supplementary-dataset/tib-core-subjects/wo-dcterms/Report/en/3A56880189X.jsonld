@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128742402",
+            "sameAs": "Geiser, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:2145810-8",
+            "sameAs": "Humboldt-Universit\u00e4t zu Berlin, Institut f\u00fcr Mathematik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A56880189X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (27 Seiten, 271,60 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)56880189X",
+                "(firstid)GBV:56880189X"
+            ],
+            "publisher": "Humboldt-Universit\u00e4t",
+            "subject": [
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc)510"
+            ],
+            "title": "Discretization methods with analytical characteristic methods for advection-diffusion-reaction equations and 2d applications",
+            "abstract": "Our studies are motivated by a desire to model long-time simulations of possible scenarios for a waste disposal. Numerical methods are developed for solving the arising systems of convection-diffusion-dispersion-reaction equations, and the received results of several discretization methods are presented. For the methods we allow large time steps to reach major simulation periods of about 10,000 [a]. For that we use higher-order discretization methods, which allow us to use large time steps without losing accuracy. By decoupling a multi-physical and multi-dimensional equation, simpler physical and one-dimensional equations are obtained and can be discretized with higher-order methods. The results of each equation are thereby coupled with an operator-splitting method. The discretization methods are described for the convection-reaction equation and for the diffusion-dispersion equation. Both are based on finite volume methods, which elements are centered in vertexes. For the convection-reaction equation a new modified discretization method is presented by embedding analytical one-dimensional solutions in the multi-dimensional finite volume methods. Using meliorated higher-order operator-splitting methods, we can improve our methods for the solution of the full equations. Some applications containing this methods are computed with the underlying program tool R3T, and the main concepts are presented. A benchmark problem based on analytical solutions is introduced for testing the new discretization method and for presenting higher-order results. Furthermore, a complex problem for the simulation of radioactive waste disposals with underlying flowing groundwater is presented. The transport and reaction simulations for the decay chains are presented in 2d realistic domains, and we discuss the received results. At the end, we present our conclusions and outlook for further works.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:128742402",
+                "gnd:2145810-8"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2007",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "[2007,5]",
+            "P30128": "[Preprint / Humboldt-Universit\u00e4t zu Berlin, Mathematisch-Naturwissenschaftliche Fakult\u00e4t II, Institut f\u00fcr Mathematik]",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

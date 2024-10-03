@@ -1,0 +1,103 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1077999496",
+            "sameAs": "Arndt, Daniel"
+        },
+        {
+            "@id": "gnd:13002077X",
+            "sameAs": "Seitz, Jochen"
+        },
+        {
+            "@id": "gnd:130347604",
+            "sameAs": "Heuberger, Albert"
+        },
+        {
+            "@id": "gnd:4121605-2",
+            "sameAs": "Satellitenrundfunk"
+        },
+        {
+            "@id": "gnd:4179147-2",
+            "sameAs": "Satellitenfunksignal"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A836715918",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: IX, 194 S., 9,21 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "P\u00e9rez-Font\u00e1n, Fernando",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)836715918",
+                "(firstid)GBV:836715918"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=rvk)ZN 6520"
+            ],
+            "title": "On channel modelling for land mobile satellite reception",
+            "abstract": "In modernen Satellitenrundfunksystemen werden Methoden wie Zeitdiversit\u00e4t (Empfang von zeitlich verteilter Information) und Winkeldiversit\u00e4t (Empfang von mehreren Satelliten mit unterschiedlichen Positionen) angewandt, um die geforderte Dienstequalit\u00e4t f\u00fcr den mobilen Empfang zu gew\u00e4hrleisten. Zur Untersuchung der Ausbreitungseffekte des landmobilen Satellitenkanals sowohl der Wirksamkeit von Diversit\u00e4t werden statistische Modelle ben\u00f6tigt, die den zeitlichen Signalschwund des Empfangssignals nachbilden. In der vorliegenden Arbeit wird ein Kanalmodell f\u00fcr den Mehrsatellitenempfang entwickelt, welches genaue Versorgungsvorhersagen mit Zeit- und Winkeldiversit\u00e4t erlaubt. Grundlage ist ein Einsatellitenmodell, welches gro\u00dfr\u00e4umige Schwankungen im Kanal durchdie Zust\u00e4nde 'gut' und 'schlecht' definiert, und den langsamen und schnellen Signalschwund gem\u00e4\u00df einer variablen Loo-Verteilung beschreibt, deren Parameter nach jedem Zustandswechsel stochastisch bestimmt werden. F\u00fcr die Zustandsmodellierung mit zwei Satelliten wird ein 'semi-Markov Modell f\u00fcr korrellierte Zustandssequenzen' erarbeitet. Damit k\u00f6nnen, unter Ber\u00fccksichtigung der Statistiken der Einzelkan\u00e4le und deren Korrelationskoeffizient, die Zustandswahrscheinlichkeiten und -l\u00e4ngen exakt simuliert werden. F\u00fcr die Zustandsmodellierung mit drei Satelliten wird ein 'Master-Slave'-Ansatz entwickelt. Dabei sind die Zustandssequenzen zweier 'Slaves' bedingt abh\u00e4ngig zur 'Master'-Sequenz. Der 'Master-Slave'-Ansatz erm\u00f6glicht die Parametrisierung eines Dreisatellitenmodells. Zur Beschreibung des langsamen und schnellen Signalschwunds im Mehrsatellitenkanal wirddie Wechselbeziehung zwischen synchron gemessenen Satellitensignalen n\u00e4her untersucht. Es stellt sich heraus dass weitere Signalkorrelationen ber\u00fccksichtigt werden sollten, die erstmalig im neuen LMS-Kanalmodell implementiert werden. Die Simulationssergebnisse werden in Statistiken erster und zweiter Ordnung den Messdaten gegen\u00fcbergestellt. Im Vergleich zu bestehenden Modellen werden Verbesserungen nach Ber\u00fccksichtigung von Diversit\u00e4t deutlich. Die Parameter f\u00fcr das Mehrsatellitenkanalmodell wurden aus umfassenden Messkampagnen abgeleitet und gew\u00e4hrleisten die Signalsimulation f\u00fcr verschiedene Umgebungen und Satellitenpositionen. Abschlie\u00dfend wird das Kanalmodell f\u00fcr einen ersten Vergleich verschiedener Satellitenkonfigurationen mit Zeit- und Winkeldiversit\u00e4t angewandt.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:13002077X"
+                },
+                {
+                    "@id": "gnd:130347604"
+                }
+            ],
+            "creator": "gnd:1077999496",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4179147-2"
+                },
+                {
+                    "@id": "gnd:4121605-2"
+                }
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

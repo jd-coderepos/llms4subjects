@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A728924099",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xxxv, 123 Seiten)",
+            "creator": "Pawate, B. I.",
+            "description": [
+                "Illustrationen",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)728924099",
+                "(doi)10.2200/S00189ED1V01Y200904DCS021",
+                "(isbn13)9781598299793",
+                "(firstid)GBV:728924099"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "Embedded computer systems",
+                "(classificationName=ddc)004.16",
+                "Signal processing",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7895.E42",
+                "Software engineering",
+                "Computer software"
+            ],
+            "title": "Developing embedded software using DaVinci & OMAP technology",
+            "abstract": [
+                "This book discusses how to develop embedded products using DaVinci & OMAP Technology from Texas Instruments Incorporated. It presents a single software platform for diverse hardware platforms. DaVinci & OMAP Technology refers to the family of processors, development tools, software products, and support. While DaVinci Technology is driven by the needs of consumer video products such as IP network cameras, networked projectors, digital signage and portable media players, OMAP Technology is driven by the needs of wireless products such as smart phones. Texas Instruments offers a wide variety of processing devices to meet our users' price and performance needs. These vary from single digital signal processing devices to complex, system-on-chip (SoC) devices with multiple processors and peripherals. As a software developer you question: Do I need to become an expert in signal processing and learn the details of these complex devices before I can use them in my application? As a senior executive you wonder: How can I reduce my engineering development cost? How can I move from one processor to another from Texas Instruments without incurring a significant development cost? This book addresses these questions with sample code and gives an insight into the software architecture and associated component software products that make up this software platform. As an example, we show how we develop an IP network camera. Using this software platform, you can choose to focus on the application and quickly create a product without having to learn the details of the underlying hardware or signal processing algorithms. Alternatively, you can choose to differentiate at both the application as well as the signal processing layer by developing and adding your algorithms using the xDAIS for Digital Media, xDM, guidelines for component software. Finally, you may use one code base across different hardware platforms",
+                "Software platform -- Introduction -- Three software products along with APIs -- Codecs and codec combos -- Drivers integrated into an OS -- Domain-specific accelerator libraries -- Obtaining these software products -- Software architecture -- Signal processing layer -- Input output layer (IOL) -- Application layer (APL) -- Software stack for the DaVinci & OMAP platforms of processors -- Rising software costs & increasingly diverse hardware platforms -- A single software interface across many, different hardware platforms -- More about xDM, VISA, & CE -- Different levels of abstraction - xDM, VISA and Codec Engine (CE) -- XDM compliant software component -- Categorizing Codecs into classes -- Benefits of xDM -- Codec engine & VISA -- Benefits of VISA API -- Building a product/application based on DaVinci technology--An example -- Creation of an Internet Protocol (IP) based network camera (IPNetcam) -- Reducing development cost while introducing multiple products -- Reducing development cost while introducing multiple products -- Summary -- EXpressDSP digital media (xDM) -- Introduction -- Overview of xDAIS and xDM -- XDAIS overview -- XDM overview -- Relationship between xDM and xDAIS-8 classes of generic interfaces -- Scope of the standard -- Goals of the standard -- XDM interface history and roadmap -- Extending the xDM interfaces -- Sample application using xDM -- Overview -- Test application, overview -- Parameter setup -- Algorithm instance creation and initialization -- Process call, xDM 0.9 -- Process call, xDM 1.0 -- Algorithm instance deletion -- Frame buffer management by application, xDM 1.0 -- Frame buffer input and output -- Frame buffer management by application -- Handshaking between application and algorithm -- Sample test application -- Embedded peripheral software interface (EPSI) -- Overview -- Input / output Layer -- EPSI APIs -- EDM for Linux -- VPFE_open -- VPFE_getBuffer -- VPFE_returnBuffer -- VPFE_close -- EDM for DSP/BIOS -- VPFE_open -- VPFE_getBuffer -- VPFE_returnBuffer -- VPFE_close -- Summary -- Sample application using EPSI -- Overview -- Video capture application -- Application control flow -- Application implementation -- Sample application using EPSI and xDM -- Overview -- Controller application development -- Video encode application -- Leveraging the application -- Performance measurements -- Measuring the Codec engine latency -- Multi-channel application -- IP network camera on DM355 using TI software platform -- Introduction -- System overview -- Operating system -- Device drivers -- Supported services and features -- Acronyms -- Assumptions and dependencies -- Source code organization -- Development tools environment(s) -- Installation and getting started -- List of installable components -- Build procedure -- Execution procedure -- ARM9EJ programming -- ARM9EJ task partitioning -- ARM CPU utilization -- IMX programming -- IMX program execution -- Conclusion -- Adding your secret sauce to the signal processing layer (SPL) -- Introduction -- From any C model to golden C model on PC -- Further reading"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#21",
+            "isLike": "doi:10.2200/S00189ED1V01Y200904DCS021",
+            "P30128": "Synthesis lectures on digital circuits and systems",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

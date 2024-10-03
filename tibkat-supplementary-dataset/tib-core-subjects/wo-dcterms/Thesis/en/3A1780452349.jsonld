@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1780452349",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Habbal, Abderrahmane",
+                "Borz\u00ec, Alfio"
+            ],
+            "creator": "Cal\u00e0 Campana, Francesca",
+            "identifier": [
+                "(ppn)1780452349",
+                "(doi)10.25972/OPUS-24590",
+                "(firstid)DNB:1242916946"
+            ],
+            "publisher": "Universit\u00e4t W\u00fcrzburg",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=ddc)519.3"
+            ],
+            "title": "Numerical methods for solving open-loop non zero-sum differential Nash games",
+            "abstract": "This thesis is devoted to a theoretical and numerical investigation of methods to solve open-loop non zero-sum differential Nash games. These problems arise in many applications, e.g., biology, economics, physics, where competition between different agents appears. In this case, the goal of each agent is in contrast with those of the others, and a competition game can be interpreted as a coupled optimization problem for which, in general, an optimal solution does not exist. In fact, an optimal strategy for one player may be unsatisfactory for the others. For this reason, a solution of a game is sought as an equilibrium and among the solutions concepts proposed in the literature, that of Nash equilibrium (NE) is the focus of this thesis. The building blocks of the resulting differential Nash games are a dynamical model with different control functions associated with different players that pursue non-cooperative objectives. In particular, the aim of this thesis is on differential models having linear or bilinear state-strategy structures. In this framework, in the first chapter, some well-known results are recalled, especially for non-cooperative linear-quadratic differential Nash games. Then, a bilinear Nash game is formulated and analysed. The main achievement in this chapter is Theorem 1.4.2 concerning existence of Nash equilibria for non-cooperative differential bilinear games. This result is obtained assuming a sufficiently small time horizon T, and an estimate of T is provided in Lemma 1.4.8 using specific properties of the regularized Nikaido-Isoda function. In Chapter 2, in order to solve a bilinear Nash game, a semi-smooth Newton (SSN) scheme combined with a relaxation method is investigated, where the choice of a SSN scheme is motivated by the presence of constraints on the players' actions that make the problem non-smooth. The resulting method is proved to be locally convergent in Theorem 2.1, and an estimate on the relaxation parameter is also obtained that relates the relaxation factor to the time horizon of a Nash equilibrium and to the other parameters of the game. For the bilinear Nash game, a Nash bargaining problem is also introduced and discussed, aiming at determining an improvement of all players' objectives with respect to the Nash equilibrium. A characterization of a bargaining solution is given in Theorem 2.2.1 and a numerical scheme based on this result is presented that allows to compute this solution on the Pareto frontier. Results of numerical experiments based on a quantum model of two spin-particles and on a population dynamics model with two competing species are presented that successfully validate the proposed algorithms. In Chapter 3 a functional formulation of the classical homicidal chauffeur (HC) Nash game is introduced and a new numerical framework for its solution in a time-optimal formulation is discussed. This methodology combines a Hamiltonian based scheme, with proximal penalty to determine the time horizon where the game takes place, with a Lagrangian optimal control approach and relaxation to solve the Nash game at a fixed end-time. The resulting numerical optimization scheme has a bilevel structure, which aims at decoupling the computation of the end-time from the solution of the pursuit-evader game. Several numerical experiments are performed to show the ability of the proposed algorithm to solve the HC game. Focusing on the case where a collision may occur, the time for this event is determined. The last part of this thesis deals with the analysis of a novel sequential quadratic Hamiltonian (SQH) scheme for solving open-loop differential Nash games. This method is formulated in the framework of Pontryagin's maximum principle and represents an efficient and robust extension of the successive approximations strategy in the realm of Nash games. In the SQH method, the Hamilton-Pontryagin functions are augmented by a quadratic penalty term and the Nikaido-Isoda function is used as a selection criterion. Based on this fact, the key idea of this SQH scheme is that the PMP characterization of Nash games leads to a finite-dimensional Nash game for any fixed time. A class of problems for which this finite-dimensional game admits a unique solution is identified and for this class of games theoretical results are presented that prove the well-posedness of the proposed scheme. In particular, Proposition 4.2.1 is proved to show that the selection criterion on the Nikaido-Isoda function is fulfilled. A comparison of the computational performances of the SQH scheme and the SSN-relaxation method previously discussed is shown. Applications to linear-quadratic Nash games and variants with control constraints, weighted L1 costs of the players' actions and tracking objectives are presented that corroborate the theoretical statements. ; Diese Dissertation handelt von eine theoretischen und numerischen Untersuchung von Methoden zur L\u00f6sung von Open-Loop-Nicht-Nullsummen-Differential-Nash-Spielen. Diese Probleme treten in vielen Anwendungen auf, z.B., Biologie, Wirtschaft, Physik, in denen die Konkurrenz zwischen verschiedenen Wirkstoffen bzw. Agenten auftritt. In diesem Fall steht das Ziel jedes Agenten im Gegensatz zu dem der anderen und ein Wettbewerbsspiel kann als gekoppeltes Optimierungsproblem interpretiert werden. Im Allgemeinen gibt es keine optimale L\u00f6sung f\u00fcr ein solches Spiel. Tats\u00e4chlich kann eine optimale Strategie f\u00fcr einen Spieler f\u00fcr den anderen unbefriedigend sein. Aus diesem Grund wird ein Gle- ichgewicht eines Spiels als L\u00f6sung gesucht, und unter den in der Literatur vorgeschlagenen L\u00f6sungskonzepten steht das Nash-Gleichgewicht (NE) im Mittelpunkt dieser Arbeit. .",
+            "alternative": "Numerische Methoden zur L\u00f6sung von Open-Loop-Nicht-Nullsummen-Differential-Nash-Spielen",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)GBV-BASE-ODISS",
+                "(collectioncode)GBV-ODiss"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25972/OPUS-24590",
+            "P60163": "W\u00fcrzburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

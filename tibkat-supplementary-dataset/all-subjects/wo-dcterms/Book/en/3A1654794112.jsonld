@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1654794112",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (X, 103 p. 50 illus., 17 illus. in color, online resource)",
+            "contributor": "Kitagawa, Genshiro",
+            "creator": "Tanokura, Yoko",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1654794112",
+                "(doi)10.1007/978-4-431-55276-5",
+                "(firstid)BSZ:455230307",
+                "(isbn13)9784431552765"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)*91-02",
+                "(classificationName=msc)62P05",
+                "Mathematical statistics",
+                "Statistics",
+                "(classificationName=rvk)SK 980",
+                "(classificationName=ddc)519.5",
+                "(classificationName=msc)91G70",
+                "(classificationName=loc)QA276-280",
+                "(classificationName=msc)91B84",
+                "(classificationName=msc)91G10"
+            ],
+            "title": "Indexation and Causation of Financial Markets",
+            "abstract": [
+                "1 Introduction (1.1 Indexation of Financial Markets -- 1.2 Causation of Financial Markets -- 1.3 Nonstationarity of Financial Time Series -- 1.4 State-Space Modeling -- 1.5 Organization of the Book and Related Web Information -- References)  -- 2 Method for Constructing a Distribution-Free Index (2.1 Nonstationary Time Series Modeling -- 2.2 Transformation of Non-Gaussian Distributed Prices of a Financial Market -- 2.3 Construction of a Distribution-Free Index -- References)  -- 3 Power Contribution Analysis of a Multivariate Feedback System (3.1 Akaike\u2019s Power Contribution and its Generalization -- 3.2 Algorithm for Decomposing a Variance Covariance Matrix -- 3.3 Example of Power Contribution Analysis  -- References)  -- 4 Application to Financial and Economic Time Series Data (4.1 Detecting Crisis Spillovers in Terms of Sovereign CDS Distribution-Free Indices -- 4.2 Measuring the Impact of the US Subprime Crisis on Japanese Financial Markets -- 4.3 Other Applications: Usability of the Distribution-Free Index)  -- References",
+                "This book presents a new statistical method of constructing a price index of a financial asset where the price distributions are skewed and heavy-tailed and investigates the effectiveness of the method. In order to fully reflect the movements of prices or returns on a financial asset, the index should reflect their distributions. However, they are often heavy-tailed and possibly skewed, and identifying them directly is not easy. This book first develops an index construction method depending on the price distributions, by using nonstationary time series analysis. Firstly, the long-term trend of the distributions of the optimal Box-Cox transformed prices is estimated by fitting a trend model with time-varying observation noises. By applying state space modeling, the estimation is performed and missing observations are automatically interpolated. Finally, the index is defined by taking the inverse Box-Cox transformation of the optimal long-term trend. This book applies the method to various financial data. For example, applying it to the sovereign credit default swap market where the number of observations varies over time due to the immaturity, the spillover effects of the financial crisis are detected by using the power contribution analysis measuring the information flows between indices. The investigations show that applying this method to the markets with insufficient information such as fast-growing or immature markets can be effective"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-4-431-55276-5",
+            "P30128": [
+                "JSS Research Series in Statistics",
+                "B\u00fccher",
+                "SpringerBriefs in Statistics",
+                "SpringerLink"
+            ],
+            "P60163": "[Tokyo]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

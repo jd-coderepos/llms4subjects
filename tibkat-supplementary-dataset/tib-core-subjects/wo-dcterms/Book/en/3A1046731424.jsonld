@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1046731424",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "contributor": [
+                "Imbens, Guido W.",
+                "Ridder, Geert"
+            ],
+            "creator": [
+                "National Bureau of Economic Research",
+                "Hirano, Keisuke"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.3386/t0251",
+                "(ppn)1046731424",
+                "(firstid)GBV:1046731424"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Efficient Estimation of Average Treatment Effects Using the Estimated Propensity Score",
+            "abstract": "We are interested in estimating the average effect of a binary treatment on a scalar outcome.  If assignment to the treatment is independent of the potential outcomes given pretreatment variables, biases associated with simple treatment-control average comparisons can be removed by adjusting for differences in the pre-treatment variables.  Rosenbaum and Rubin (1983, 1984) show that adjusting solely for differences between treated and control units in a scalar function of the pre-treatment, the propensity score, also removes the entire bias associated with differences in pre-treatment variables.  Thus it is possible to obtain unbiased estimates of the treatment effect without conditioning on a possibly high-dimensional vector of pre-treatment variables.  Although adjusting for the propensity score removes all the bias, this can come at the expense of efficiency. We show that weighting with the inverse of a nonparametric estimate of the propensity score, rather than the true propensity score, leads to efficient estimates of the various average treatment effects.  This result holds whether the pre-treatment variables have discrete or continuous distributions.  We provide intuition for this result in a number of ways.  First we show that with discrete covariates, exact adjustment for the estimated propensity score is identical to adjustment for the pre-treatment variables.  Second, we show that weighting by the inverse of the estimated propensity score can be interpreted as an empirical likelihood estimator that efficiently incorporates the information about the propensity score.  Finally, we make a connection to results to other results on efficient estimation through weighting in the context of variable probability sampling",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. t0251",
+            "isLike": "doi:10.3386/t0251",
+            "P30128": "NBER technical working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

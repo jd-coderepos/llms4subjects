@@ -1,0 +1,59 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A829059504",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "creator": "Dembovskis, Andis",
+            "identifier": [
+                "(ppn)829059504",
+                "(firstid)GBV:829059504"
+            ],
+            "publisher": "Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=linseach:mapping)mas",
+                "(classificationName=ddc-dbn)670"
+            ],
+            "title": "AIS message extraction from overlapped AIS signals for SAT-AIS applications",
+            "abstract": "The AIS (Automatic Identification System) is a communication standard for ships traveling the seas and oceans. It serves as a collision avoidance system by identifying nearby ships, thus assisting in safe navigation. The SAT-AIS (Satellite based Automatic Identification System) is a communication technology for ship traffic surveillance from space and is under active research and development worldwide. The basic principle of the SAT-AIS system is to monitor AIS channels. The motivation for using terrestrial AIS technologies with space applications is of great interest to safety organizations that monitor ship traffic in high seas and oceans. These regions far away from coastal zones are unreachable from the terrestrial antennas, which have a usual range of 40 kilometres. Successful application of the SAT-AIS could provide AIS data to coast guards and other agencies, with an hourly ship location update from every place on the planet. The first trials of SAT-AIS in 2006 suffered from some serious difficulties. As AIS was initially designed to be a terrestrial traffic avoidance application for ships, with the traffic participants communicating among their neighbours and the nearby coast guard, it was developed without resistivity against effects which arise when applied for space applications. Apart from signal strength and Doppler shift effects, which could be constructively handled, the demodulation of overlapped AIS messages proved to be a great challenge. This work analyses the problem of overlapping AIS signals and proposes innovative approaches for reconstructing these based on L\u00b2 norm orthogonalization and projections. Moreover, the work showcases results of demodulation efficiency analysis for simulated real world application of satellite passes over a dedicated shipping region based on AIS channel simulation in noisy environment. For more reliable AIS data reception in space, new dedicated frequencies are allocated for channels AIS3 and AIS4, which are being affirmed for all AIS transceiver installations from 2013. These new frequency channels carry dedicated messages with a ship position report, encapsulated into smaller data packets at lower report rates, which promises to partly eliminate the packet overlapping problem. Since the new Space-AIS format does not completely solve the packet collision problem and as the steady growth of interest on terrestrial-AIS message content received from space continues to persist, the topic of solving overlapped AIS signals remains vital for SAT-AIS applications.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

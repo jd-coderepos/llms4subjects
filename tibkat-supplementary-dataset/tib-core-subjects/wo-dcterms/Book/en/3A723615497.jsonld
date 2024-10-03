@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A723615497",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (150 Seiten)",
+            "creator": "Marshall, Andrew",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:723615497",
+                "(isbn13)9781598299427",
+                "(ppn)723615497",
+                "(doi)10.2200/S00171ED1V01Y200901DCS019"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "subject": [
+                "(classificationName=ddc)621.3815",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=loc)TK7874",
+                "Integrated circuits",
+                "Electronic books"
+            ],
+            "title": "Mismatch and Noise in Modern IC Processes : Andrew Marshall",
+            "abstract": [
+                "Introduction -- Semiconductor materials -- NMOS operation -- Linear region -- Saturation region -- Channel modulation -- Subthreshold mode (cutoff ) -- PMOS design -- Variability and mismatch -- How do they happen -- Classes of variability -- Random dopant fluctuation -- Line edge roughness -- Variability and mismatch -- Temperature-induced variability/mismatch -- Leakages and I-drives -- CMOS gates -- Ring oscillators and gate chains -- Variability and mismatch in digital systems -- Effect of interconnect -- Ring oscillator switching characteristics -- Digital correlation -- Defining Idtran voltage -- Simulation of statistical and mismatch effects -- Variability and mismatch parameters -- Verifying randomness -- Variability and mismatch in analog systems I -- Current mirrors -- Global variation -- Cascode current mirror -- Wilson current mirror -- Variability and mismatch in analog systems II -- Operational amplifier -- Input pair matching -- Ideal op-amp -- Open-loop gain -- Negative feedback operation -- DC imperfections in op-amps -- Finite gain -- Nonzero output resistance -- Input bias current -- Input offset voltage -- Common mode gain -- Reducing the common mode effect -- Temperature effects -- AC op-amp nonlinearities -- Mismatch issues in SRAM -- Mismatch and variability -- Lifetime-induced variability -- End of life in digital systems -- Hot carrier injection -- Negative bias temperature instability -- Effects on circuits of NBTI: current mirrors -- Effects on circuits of NBTI: op-amps -- Effects on circuits of NBTI: static random access memory -- Mismatch in nonconventional processes -- What is SOI -- Partially depleted SOI -- Fully depleted SOI (FinFET) -- Considerations that affect both FDSOI and PDSOI -- Circuit effects of high-temperature leakage -- Self-heating and dissipation problems within a device -- DC heating from elsewhere on the same chip -- Transient or AC thermal coupling -- Digital circuits in SOI -- Analog circuits in SOI -- Current mirror: Kink region operation -- Operational amplifier -- Operational transconductance amplifier -- Mismatch correction circuits -- Trimming methods -- Laser fuse -- E-fuse circuit -- Sizing the fusing transistor -- E-fuse sense circuit -- Importance of margin -- EPROM/EEPROM -- FeRAM cell design -- Circuits that can be trimmed -- Frequency -- Voltage trim -- Mismatch trimming -- Case study: power IC design for testability -- Noise -- Component and digital circuit noise -- Component/silicon-induced noise -- Thermal noise -- 1/f noise -- Shot noise -- Burst noise -- Physical sources of noise -- Noise simulations -- 1/f noise BSIM modeling -- Thermal noise -- Jitter and noise in digital circuits: circuit effects -- Noise effects in digital systems -- Noise in ring oscillators -- Dynamic logic -- Input protection -- Noise effects in analog systems -- System on a chip -- Noise in an op-amp -- Effect of noise due to two cascaded amplifiers -- LC oscillator -- Static random access memory -- Radiation hardness in static random access memory -- Circuit design to minimize noise effects -- Guard ringing -- Noise suppression through interconnect -- Supply line noise -- Substrate noise reduction -- Reducing component noise -- Circuit effects and noise -- Smart sensors -- Operational amplifiers -- Noise considerations in SOI -- Substrate coupling -- Substrate capacitance/supply capacitance -- Radiation effects -- SOI component noise -- References -- Index -- Author biography",
+                "Component variability, mismatch, and various noise effects are major contributors to design limitations in most modern IC processes. \"Mismatch and Noise in Modern IC Processes\" examines these related effects and how they affect the building block circuits of modern integrated circuits, from the perspective of a circuit designer. Variability usually refers to a large scale variation that can occur on a wafer to wafer and lot to lot basis, and over long distances on a wafer. This phenomenon is well understood and the effects of variability are included in most integrated circuit design with the use of corner or statistical component models. Mismatch, which is the emphasis of section I of the book, is a local level of variability that leaves the characteristics of adjacent transistors unmatched. This is of particular concern in certain analog and memory systems, but also has an effect on digital logic schemes, where uncertainty is introduced into delay times, which can reduce margins and introduce 'race' conditions. Noise is a dynamic effect that causes a local mismatch or variability that can vary during operation of a circuit, and is considered in section II. Noise can be the result of atomic effects in devices or circuit interactions, and both of these are discussed in terms of analog and digital circuitry"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-105-MCS",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#19",
+            "isLike": "doi:10.2200/S00171ED1V01Y200901DCS019",
+            "P30128": "Synthesis Lectures on Digital Circuits and Systems",
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

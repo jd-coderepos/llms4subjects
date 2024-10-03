@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1038693748",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (IX, 321 p. 29 illus, online resource)",
+            "creator": "Masters, Timothy",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(firstid)GBV:1038693748",
+                "(doi)10.1007/978-1-4842-4173-8",
+                "(isbn13)9781484241738",
+                "(ppn)1038693748"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Programming languages (Electronic computers).",
+                "Programming Languages, Compilers, Interpreters",
+                "Computer science",
+                "(classificationName=ddc)005.13",
+                "(classificationName=loc)QA76.7-76.73",
+                "Software engineering",
+                "(classificationName=loc)QA76.76.C65",
+                "(classificationName=linseach:mapping)inf",
+                "Financial engineering",
+                "(classificationName=linseach:mapping)mat",
+                "Algorithms.",
+                "Computer software"
+            ],
+            "title": "Testing and Tuning Market Trading Systems : Algorithms in C++",
+            "abstract": [
+                "\"The algorithms in this book are essential tools for any serious trading system developer.\" --David R. Aronson, Hood River Research Inc. Build, test, and tune financial, insurance or other market trading systems using C++ algorithms and statistics. You\u2019ve had an idea and have done some preliminary experiments, and it looks promising. Where do you go from here? Well, this book discusses and dissects this case study approach. Seemingly good backtest performance isn't enough to justify trading real money. You need to perform rigorous statistical tests of the system's validity. Then, if basic tests confirm the quality of your idea, you need to tune your system, not just for best performance, but also for robust behavior in the face of inevitable market changes. Next, you need to quantify its expected future behavior, assessing how bad its real-life performance might actually be, and whether you can live with that. Finally, you need to find its theoretical performance limits so you know if its actual trades conform to this theoretical expectation, enabling you to dump the system if it does not live up to expectations. This book does not contain any sure-fire, guaranteed-riches trading systems. Those are a dime a dozen.. But if you have a trading system, this book will provide you with a set of tools that will help you evaluate the potential value of your system, tweak it to improve its profitability, and monitor its on-going performance to detect deterioration before it fails catastrophically. Any serious market trader would do well to employ the methods described in this book. You will: See how the 'spaghetti-on-the-wall' approach to trading system development can be done legitimately Detect overfitting early in development Estimate the probability that your system's backtest results could have been due to just good luck Regularize a predictive model so it automatically selects an optimal subset of indicator candidates Rapidly find the global optimum for any type of parameterized trading system Assess the ruggedness of your trading system against market changes Enhance the stationarity and information content of your proprietary indicators Nest one layer of walkforward analysis inside another layer to account for selection bias in complex trading systems Compute a lower bound on your system's mean future performance Bound expected periodic returns to detect on-going system deterioration before it becomes severe Estimate the probability of catastrophic drawdo ...",
+                "1. Introduction -- 2. Pre-Optimization Issues -- 3. Optimization Issues -- 4. Post-Optimization Issues -- 5. Estimating Future Performance I: Unbiased Trade Simulation -- 6. Estimating Future Performance II: Trade Analysis -- 7. Permutation Tests"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-CWD",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-4173-8",
+            "P30128": [
+                "B\u00fccher",
+                "Springer eBook Collection",
+                "SpringerLink"
+            ],
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

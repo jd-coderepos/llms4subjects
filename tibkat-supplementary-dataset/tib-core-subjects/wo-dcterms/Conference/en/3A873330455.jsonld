@@ -1,0 +1,94 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129275646",
+            "sameAs": "Sadeghi, Ahmad-Reza"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A873330455",
+            "@type": "bibo:Conference",
+            "P1053": "1 Online-Ressource (xiii, 288 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Larsen, Per",
+            "description": [
+                "Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9781970001822",
+                "(ppn)873330455",
+                "(firstid)HBZ:HT019159358",
+                "(isbn13)9781970001815",
+                "(doi)10.1145/3129743"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=ddc)005.8",
+                "Electronic books",
+                "(classificationName=linseach:mapping)inf",
+                "Computer security"
+            ],
+            "title": "The continuing arms race : code-reuse attacks and defenses",
+            "abstract": "As human activities moved to the digital domain, so did all the well-known malicious behaviors including fraud, theft, and other trickery. There is no silver bullet, and each security threat calls for a specific answer. One specific threat is that applications accept malformed inputs, and in many cases it is possible to craft inputs that let an intruder take full control over the target computer system. The nature of systems programming languages lies at the heart of the problem. Rather than rewriting decades of well-tested functionality, this book examines ways to live with the (programming) sins of the past while shoring up security in the most efficient manner possible. We explore a range of different options, each making significant progress towards securing legacy programs from malicious inputs. The solutions explored include enforcement-type defenses, which excludes certain program executions because they never arise during normal operation. Another strand explores the idea of presenting adversaries with a moving target that unpredictably changes its attack surface thanks to randomization. We also cover tandem execution ideas where the compromise of one executing clone causes it to diverge from another thus revealing adversarial activities. The main purpose of this book is to provide readers with some of the most influential works on run-time exploits and defenses. We hope that the material in this book will inspire readers and generate new ideas and paradigms.",
+            "contributor": "gnd:129275646",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-15-ACM",
+                "(collectioncode)ZDB-15-ACA"
+            ],
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "18",
+            "isLike": "doi:10.1145/3129743",
+            "P30128": [
+                "ACM Digital Library",
+                "ACM books"
+            ],
+            "P60163": "[San Rafael]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

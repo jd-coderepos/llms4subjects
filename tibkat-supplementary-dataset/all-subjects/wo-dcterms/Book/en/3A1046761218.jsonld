@@ -1,0 +1,74 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1046761218",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource",
+            "contributor": "Segal, Lewis M.",
+            "creator": [
+                "Altonji, Joseph G.",
+                "National Bureau of Economic Research"
+            ],
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(doi)10.3386/t0156",
+                "(firstid)GBV:1046761218",
+                "(ppn)1046761218"
+            ],
+            "publisher": "National Bureau of Economic Research",
+            "subject": "(classificationName=linseach:automatic)mat",
+            "title": "Small Sample Bias in GMM Estimation of Covariance Structures",
+            "abstract": "We examine the small sample properties of the GMM estimator for models of covariance structures, where the technique is often referred to as the optimal minimum distance (OMD) estimator.  We present a variety of Monte Carlo experiments based on simulated data and on the data used by Abowd and Card (1987, 1990) in an examination of the covariance structure of hours and earnings changes.  Our main finding is that OMD is seriously biased in small samples for many distributions and in relatively large samples for poorly behaved distributions.  The bias is almost always downward in absolute value. It arises because sampling errors in the second moments are correlated with sampling errors in the weighting matrix used by OMD. Furthermore, OMD usually has a larger root mean square error and median absolute error than equally weighted minimum distance (EWMD). We also propose and investigate an alternative estimator, which we call independently weighted optimal minimum distance (IWOMD). IWOMD is a split sample estimator using separate groups of observations to estimate the moments and the weights.  IWOMD has identical large sample properties to the OMD estimator but is unbiased regardless of sample size.  However, the Monte Carlo evidence indicates that IWOMD is usually dominated by EWMD",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)ZDB-194-NBW",
+            "issued": "1994",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. t0156",
+            "isLike": "doi:10.3386/t0156",
+            "P30128": "NBER technical working paper series",
+            "P60163": "Cambridge, Mass"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1196630593",
+            "sameAs": "Khosrawi-Sardroudi, Wahid"
+        },
+        {
+            "@id": "gnd:4017195-4",
+            "sameAs": "Finanzmathematik"
+        },
+        {
+            "@id": "gnd:4134948-9",
+            "sameAs": "Markov-Prozess"
+        },
+        {
+            "@id": "gnd:4180967-1",
+            "sameAs": "Semimartingal"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1681353121",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (185 Seiten)",
+            "identifier": [
+                "(ppn)1681353121",
+                "(firstid)DNB:1198109718",
+                "(contract)FRUB-opus-150904",
+                "(doi)10.6094/UNIFR/150904"
+            ],
+            "subject": [
+                "(classificationName=msc)60G48",
+                "(classificationName=ddc-dbn)330",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=msc)60-02",
+                "(classificationName=msc)68T05",
+                "(classificationName=msc)91G80",
+                "(classificationName=msc)60H30",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Polynomial semimartingales and a deep learning approach to local stochastic volatility calibration",
+            "abstract": "Abstract: Financial markets have experienced a precipitous increase in complexity over the past decades, posing a significant challenge from a risk management point of view. This complexity motivates the application and development of sophisticated models based on the theory of stochastic processes and in particular stochastic calculus. In this regard, the contribution of this thesis is twofold, namely by extending the class if tractable stochastic processes in form of polynomial processes and polynomial semimartingales and by showing how efficient calibration of local stochastic volatility models is possible by applying machine learning techniques. <br><br>In the first part - the main part - we extend the class of polynomial processes that has previously been established to include beyond stochastic discontinuity. This extension is motivated by the fact that certain events in financial markets take place at a deterministic time point but without foreseeable outcome. Such events consist e.g. of decisions regarding interest rates of central banks or political elections/votes. Since the outcome has a significant impact on markets, it is therefore desirable to consider stochastic processes, that can reproduce such jumps at previously specified time points. Such an extension has already been introduced in the affine framework. We will show that similar modifications hold true in the polynomial case. In particular, we will show how after this extension, computation of mixed moments in a multivariate setting reduces to solving a measure ordinary differential equation, posing a significant reduction in complexity to the measure partial differential case in the context of Kolmogorow equations. A central role in the theory of time-homogeneous polynomial processes is played by the theory of one parameter matrix semigroups. Hence, we will develop a two parameter version of the matrix semigroup theory under lower regularity then what exists in the literature. This accounts for time-inhomogeneity of the stochastic processes we consider. While in the one parameter case, full regularity follows already from very mild assumptions, we will see that this is not the case anymore in the two parameter case.<br><br>In the second part of this thesis we investigate a more applied topic, namely the exact calibration of local stochastic volatility models to financial data. We show how this computationally challenging problem can be efficiently solved by applying machine learning te ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1196630593",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4134948-9"
+                },
+                {
+                    "@id": "gnd:4180967-1"
+                },
+                {
+                    "@id": "gnd:4017195-4"
+                }
+            ],
+            "isLike": "doi:10.6094/UNIFR/150904",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

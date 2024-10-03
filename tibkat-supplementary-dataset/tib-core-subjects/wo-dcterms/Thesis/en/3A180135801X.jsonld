@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1257336509",
+            "sameAs": "Sadeghi, Mahdi"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A180135801X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (iii, 102 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-67976",
+                "(firstid)KXP:180135801X",
+                "(ppn)180135801X"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.32",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Gestalt perception of biological motion with a generative artificial neural network model",
+            "abstract": "In cognitive modelling understanding of biological motion by inference of own sensorimotor skills is extremely valued and is known as a fundamental element of social intelligence. It has been suggested that a proper Gestalt perception depends on suitably binding visual features, decently adapting the matching perspective, and mapping the bound features onto the correct Gestalt templates. This thesis introduces a generative artificial neural network model, which implements such Gestalt perception mechanisms proposing an algorithmic explanation. The architectural design of the model is an extension, modification and further investigation of previous work by Fabian Schrodt \\cite{Schrodt:2018} which relies on the principle of active inference and predictive coding, coupled with suitable inductive learning and processing biases. At first we train the model to learn sufficiently accurate generative models of dynamic biological, or other harmonic, motion patterns. Afterwards we scramble the input and vary the perspective onto it. To be able to properly route the input and adapt the internal perspective onto a known frame of reference, the suggested modularized architecture propagates the prediction error back onto a binding matrix which consists of hidden neural states that determine feature binding, and further back onto perspective taking neurons, which rotate and translate the input features. The resulting process ensures that various types of biological motion are inferred upon observation, resolving the challenges of (I) feature binding into Gestalten, (II) perspective taking, and (III) behavior interpretation. Ablation studies underline that, 1.~the separation of spatial input encodings into relative positional, directional, and motion magnitude pathways boost the quality of Gestalt perception, 2.~population encodings implicitly enable the parallel testing of alternative interpretation hypotheses and therefore further improve accurate inference, 3.~a temporal predictive processing module of the autoencoder-based compressed stimuli enables the retrospective inference of the unfolding behavior. I believe that similar components should be employed in other architectures where temporal bindings of information sources are beneficial. Moreover, given that binding, perspective taking, and intention interpretation are universal problems in cognitive science, our introduced mechanisms may be very useful for addressing similar challenges in other domains beyond biological motion patterns.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1257336509",
+                "gnd:36187-2"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-67976",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

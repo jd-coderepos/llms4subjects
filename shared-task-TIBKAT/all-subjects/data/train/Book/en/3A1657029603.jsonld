@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:4705956-4",
+            "sameAs": "R (Programm)"
+        },
+        {
+            "@id": "gnd:4776397-8",
+            "sameAs": "Genomik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1657029603",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XVI, 270 p. 79 illus., 74 illus. in color, online resource)",
+            "creator": "Gondro, Cedric",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(isbn13)9783319144757",
+                "(firstid)BSZ:433321482",
+                "(ppn)1657029603",
+                "(doi)10.1007/978-3-319-14475-7"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=loc)QA276-280",
+                "(classificationName=bk, id=106410458)42.13 - Molekularbiologie",
+                "Microarrays.",
+                "Statistics",
+                "Gene expression",
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=msc)*92-01",
+                "(classificationName=msc)92D15",
+                "(classificationName=msc)92C40",
+                "DNA microarrays",
+                "(classificationName=msc)92D10",
+                "(classificationName=msc)92-04",
+                "(classificationName=ddc)519.5",
+                "(classificationName=rvk)ST 250",
+                "Mathematical statistics"
+            ],
+            "title": "Primer to Analysis of Genomic Data Using R",
+            "abstract": "Through this book, researchers and students will learn to use R for analysis of large-scale genomic data and how to create routines to automate analytical steps. The philosophy behind the book is to start with real world raw datasets and perform all the analytical steps needed to reach final results. Though theory plays an important role, this is a practical book for advanced undergraduate and graduate classes in bioinformatics, genomics and statistical genetics or for use in lab sessions. This book is also designed to be used by students in computer science and statistics who want to learn the practical aspects of genomic analysis without delving into algorithmic details. The datasets used throughout the book may be downloaded from the publisher\u2019s website.  Chapters show how to handle and manage high-throughput genomic data, create automated workflows and speed up analyses in R. A wide range of R packages useful for working with genomic data are illustrated with practical examples. In recent years R has become the de facto tool for analysis of gene expression data, in addition to its prominent role in the analysis of genomic data. Benefits to using R include the integrated development environment for analysis, flexibility and control of the analytic workflow.  At a time when genomic data is decidedly big, the skills from this book are critical. The key topics covered are association studies, genomic prediction, estimation of population genetic parameters and diversity, gene expression analysis, functional annotation of results using publically available databases and how to work efficiently in R with large genomic datasets. Important principles are demonstrated and illustrated through engaging examples which invite the reader to work with the provided datasets. Some methods that are discussed in this volume include: signatures of selection; population parameters (LD, FST, FIS, etc); use of a genomic relationship matrix for population diversity studies; use of SNP data for parentage testing; snpBLUP and gBLUP for genomic prediction. Step-by-step, all the R code required for a genome-wide association study is shown: starting from raw SNP data, how to build databases to handle and manage the data, quality control and filtering measures, association testing and evaluation of results, through to identification and functional annotation of candidate genes. Similarly, gene expression analyses are shown using microarray and RNAseq data.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS"
+            ],
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4776397-8"
+                },
+                {
+                    "@id": "gnd:4123037-1"
+                },
+                {
+                    "@id": "gnd:4705956-4"
+                }
+            ],
+            "isLike": "doi:10.1007/978-3-319-14475-7",
+            "P30128": [
+                "B\u00fccher",
+                "Mathematics and Statistics",
+                "Springer eBook Collection",
+                "SpringerLink",
+                "Use R!"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

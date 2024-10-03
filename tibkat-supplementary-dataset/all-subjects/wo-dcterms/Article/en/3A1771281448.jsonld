@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1172976953",
+            "sameAs": "Bedini, Francesco"
+        },
+        {
+            "@id": "gnd:1251490662",
+            "sameAs": "Hammer, Maximilian"
+        },
+        {
+            "@id": "gnd:1327630605",
+            "sameAs": "Jungebloud, Tino"
+        },
+        {
+            "@id": "gnd:134295390",
+            "sameAs": "Zimmermann, Armin"
+        },
+        {
+            "@id": "gnd:137841248",
+            "sameAs": "Maschotta, Ralph"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1771281448",
+            "@type": "bibo:Article",
+            "creator": "Wichmann, Alexander",
+            "identifier": [
+                "(doi)10.5220/0010267801000109",
+                "(ppn)1771281448",
+                "(firstid)KXP:1771281448"
+            ],
+            "publisher": "SCITEPRESS - Science and Technology Publications, Lda.",
+            "subject": [
+                "(classificationName=bk, id=106418882)54.52 - Software engineering",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=181571455)50.03 - Methoden und Techniken der Ingenieurwissenschaften"
+            ],
+            "title": "A model-driven implementation of PSCS specification for C++",
+            "abstract": "OMG's PSCS specification extends the execution model of fUML by precise runtime semantics for UML composite structures. With composite structures being a concept for describing structural properties of a model, the majority of execution semantics specified by PSCS concern analysis and processing of static information about the model's fine-grained structure at runtime. Using Model-To-Text-Transformation to generate source code, which serves as an input for PSCS's actual execution environment, the runtime level of model execution can be relieved by outsourcing analysis and processing of static information to the level of code generation. By inserting this step of preprocessing, the performance of the actual model execution at runtime can be improved. This paper introduces an implementation of the PSCS specification for C++ based on code generation using Model-to-Text-Transformation. Moreover, it presents a set of test models validating the correct functionality of the implementation a s well as a performance benchmark. The PSCS implementation presented by this paper was developed as a part of the MDE4CPP* project.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1327630605"
+                },
+                {
+                    "@id": "gnd:1172976953"
+                },
+                {
+                    "@id": "gnd:134295390"
+                },
+                {
+                    "@id": "gnd:137841248"
+                },
+                {
+                    "@id": "gnd:1251490662"
+                }
+            ],
+            "extent": "100-109",
+            "isPartOf": [
+                "(isbn13)9789897584879",
+                "(ppn)1747737364"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "pageStart": "100",
+            "isLike": "doi:10.5220/0010267801000109",
+            "P30128": "MODELSWARD 2021",
+            "P60163": "[Set\u00fabal]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "pageStart": "http://purl.org/ontology/bibo/pageStart",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "issued": "http://purl.org/dc/terms/issued",
+        "extent": "http://purl.org/dc/terms/extent",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:133647811",
+            "sameAs": "Romberger, Detlef"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A511041160",
+            "@type": "bibo:Thesis",
+            "P1053": "153 p., 6,83 Mb",
+            "identifier": [
+                "(ppn)511041160",
+                "(firstid)GBV:511041160"
+            ],
+            "subject": [
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "(classificationName=dbn)004",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Bildmustererkennung mit Hilfe sp\u00e4rlich codierter Assoziativmatrizen (SpaCAM) am Beispiel von Kfz-Kennzeichen",
+            "abstract": "In dieser Arbeit geht es um Mustererkennung f\u00fcr \"standardisierte\" Schriftbilder. Sie baut auf fr\u00fcheren Untersuchungen der Projektgruppe \"Neuronale Netze - SpaCAM\" an der Universit\u00e4t Hildesheim auf, wobei es damals um die Wiedererkennung handgeschriebener Unterschriften auf \u00dcberweisungsvordrucken ging, also um ein Erkennungsproblem, bei der es in den Daten typischerweise kein Standard- Referenzmuster gibt. Da kein Mensch (physikalisch) identische Unterschriften produzieren kann, muss die Referenz(menge) aus einer Sammlung gegebener Samples \"willk\u00fcrlich\" festgesetzt werden. Grundlage f\u00fcr jene Problembehandlung war die Verwendung von \"Sp\u00e4rlich Codierten Assoziativmatrizen SpaCAM\", die man als eine spezielle Variante der k\u00fcnstlichen neuronalen Netze auffassen kann. Die SpaCAM-Technik hat sich dabei - wie auch schon beim Einsatz in anderen Problembereichen - als besonders vorteilhaft in Bezug auf Fehlertoleranz, Robustheit und Geschwindigkeit erwiesen. Das Ziel der vorliegenden Arbeit ist es zu untersuchen, ob sich diese Technik auch zum Erkennen von Bildmustern eignet, bei denen die Referenzmuster bereits (extern) vorgegeben sind. Als Anwendungsfall wurden \"Autokennzeichen\" gew\u00e4hlt, auch weil es hierf\u00fcr eine konkrete Problemstellung aus der Praxis gab, mit Zusatzparametern, die den Komplexit\u00e4tsgrad des Erkennungsprozesses bereicherten. In Bezug auf die SpaCAM-Technologie soll gepr\u00fcft werden, welche Merkmale bzw. Merkmalsgruppen f\u00fcr die Codierung von Zeichen besonders gut geeignet sind, insb. beim Lernen aus Schriftarten, um die Erkennung praktikabel zu machen. F\u00fcr die Analyse und Diskussion der Ph\u00e4nomene wird eine Arbeitsumgebung entwickelt, die auf die sich ergebenden unterschiedlichen Teilaufgaben ausgerichtet ist, also Probleme der Vorverarbeitung (u.a. Grauwerte, Monochrome, Segmentierung), der Speicherprozesse (u.a. Merkmalscodierung, Referenzmengen) aber auch der Nachbestimmung (z.B. durch fehlertoleranten Datenbankabgleich) behandelt und zudem einen Spielraum f\u00fcr weitere Anpassungen bietet.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:133647811"
+                }
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Hildesheim"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

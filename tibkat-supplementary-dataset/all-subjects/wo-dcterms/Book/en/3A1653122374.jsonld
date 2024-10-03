@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1653122374",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 198 p. 73 illus, online resource)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Herzig, Andreas",
+                "Schwarzentruber, Fran\u00e7ois",
+                "Said, Bilal"
+            ],
+            "creator": "Gasquet, Olivier",
+            "description": [
+                "Erworben aus Studienbeitr\u00e4gen",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(firstid)BSZ:398194289",
+                "(doi)10.1007/978-3-7643-8504-0",
+                "(ppn)1653122374",
+                "(isbn13)9783764385040"
+            ],
+            "publisher": "Springer Basel",
+            "subject": [
+                "(classificationName=ddc)511.3",
+                "Mathematical logic.",
+                "(classificationName=bk, id=10640847X)31.10 - Mathematische Logik, Mengenlehre",
+                "(classificationName=msc)05C90",
+                "(classificationName=msc)*03-01",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)03B42",
+                "(classificationName=msc)68T15",
+                "(classificationName=rvk)SK 130",
+                "(classificationName=msc)03B35",
+                "Logic, Symbolic and mathematical",
+                "Mathematics",
+                "Nonclassical mathematical logic",
+                "(classificationName=msc)03B45",
+                "(classificationName=loc)QA8.9-10.3",
+                "(classificationName=msc)68Q60"
+            ],
+            "title": "Kripke\u2019s Worlds : An Introduction to Modal Logics via Tableaux",
+            "abstract": [
+                "Preface -- 1 Modelling things with graphs -- 2 Talking about graphs -- 3 The basics of the model construction method -- 4 Logics with simple constraints on models -- 5 Logics with transitive accessibility relations -- 6 Model Checking -- 7 Modal logics with transitive closure -- Bibliography -- Index",
+                "Possible worlds models were introduced by Saul Kripke in the early 1960s. Basically, a possible worlds model is nothing but a graph with labelled nodes and labelled edges. Such graphs provide semantics for various modal logics (alethic, temporal, epistemic and doxastic, dynamic, deontic, description logics) and also turned out useful for other nonclassical logics (intuitionistic, conditional, several paraconsistent and relevant logics). All these logics have been studied intensively in philosophical and mathematical logic and in computer science, and have been applied increasingly in domains such as program semantics, artificial intelligence, and more recently in the semantic web. Additionally, all these logics were also studied proof theoretically. The proof systems for modal logics come in various styles: Hilbert style, natural deduction, sequents, and resolution. However, it is fair to say that the most uniform and most successful such systems are tableaux systems. Given a logic and a formula, they allow one to check whether there is a model in that logic. This basically amounts to trying to build a model for the formula by building a tree. This book follows a more general approach by trying to build a graph, the advantage being that a graph is closer to a Kripke model than a tree. It provides a step-by-step introduction to possible worlds semantics (and by that to modal and other nonclassical logics) via the tableaux method. It is accompanied by a piece of software called LoTREC (www.irit.fr/Lotrec). LoTREC allows to check whether a given formula is true at a given world of a given model and to check whether a given formula is satisfiable in a given logic. The latter can be done immediately if the tableau system for that logic has already been implemented in LoTREC. If this is not yet the case LoTREC offers the possibility to implement a tableau system in a relatively easy way via a simple, graph-based, interactive language. >dy>"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA"
+            ],
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-7643-8504-0",
+            "P30128": [
+                "SpringerLink",
+                "Studies in Universal Logic",
+                "B\u00fccher"
+            ],
+            "P60163": "Basel"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

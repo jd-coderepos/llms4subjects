@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1251481043",
+            "sameAs": "H\u00f6mberg, Dietmar"
+        },
+        {
+            "@id": "gnd:127959389X",
+            "sameAs": "Weiss, Wolf"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A50431470X",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (20 Seiten, 528,64 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)50431470X",
+                "(firstid)GBV:50431470X"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=ddc)530"
+            ],
+            "title": "PID control of laser surface hardening of steel",
+            "abstract": "We discuss control strategies for the laser surface hardening of steel. The goal is to acchieve a prescribed hardening depth avoiding surface melting. Our mathematical model consists of a system of ODEs for the phase volume fractions coupled with the heat equation. The system is solved semi-implicitely using the finite element method. To obtain a uniform hardening depth the first attempt is to use PID control to achieve a constant temperature in the hot spot of the laser beam on the surface. However, the numerical results prove that this is not sufficient. We show that the best strategy is to control the temperature close to the lower boundary of the hardening zone. Then one can compute the optimal temperature in the hot spot of the beam and use it as the set-point for the pyrometer control of the real process.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1251481043",
+                "gnd:2140666-2",
+                "gnd:127959389X"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2003",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 876",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

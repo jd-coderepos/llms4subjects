@@ -1,0 +1,91 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1126258431",
+            "sameAs": "Sibbertsen, Philipp"
+        },
+        {
+            "@id": "gnd:1243264896",
+            "sameAs": "Meier, Johanna"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1773291505",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (circa 32 Seiten)",
+            "creator": [
+                "Flock, Teresa",
+                "Dissanayake, Pushpa"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1773291505",
+                "(ppn)1773291505"
+            ],
+            "publisher": "Wirtschaftswissenschaftliche Fakult\u00e4t der Leibniz Universit\u00e4t Hannover",
+            "subject": [
+                "(classificationName=linseach:automatic)phy",
+                "peaks-over-threshold",
+                "extremal clustering",
+                "Sefton coast",
+                "ARFIMA models",
+                "significant wave heights",
+                "extreme value theory",
+                "long-range dependence"
+            ],
+            "title": "Modelling short- and long-term dependencies of clustered high-threshold exceedances in significant wave heights",
+            "abstract": "The peaks-over-threshold (POT) method has a long tradition in modelling extremes in environmental variables. However, the assumption of independently and identically distributed (iid) data is likely to be violated in practical settings, leading to clustering of high-threshold exceedances. These violations can be the result of short- and long-term dependencies in the underlying time series. We review popular approaches that either focus on modelling short- or long-range dynamics explicitly. In particular, we consider conditional POT variants and the Mittag-Leffler distribution modelling waiting times between exceedances. Further, we propose a two-step approach capturing both short- and long-range correlations simultaneously. We suggest the autoregressive fractionally integrated moving average (ARFIMA)-POT model, which first fits an ARFIMA model to the original series and then utilises a classical POT model for the residuals. Applying these models to an oceanographic time series of significant wave heights measured on the Sefton coast (UK), we find that neither solely modelling short- nor long-range dependencies satisfactorily explains the clustering of extremes. The ARFIMA-POT approach however provides a significant improvement in terms of model fit. We therefore conclude that there is a need for developing new models that jointly incorporate short- and long-range dependence to address extremal clustering.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": [
+                {
+                    "@id": "gnd:1126258431"
+                },
+                {
+                    "@id": "gnd:1243264896"
+                }
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Nummer: 690 (Sep 2021)",
+            "P30128": "Hannover economic papers (HEP) / Wirtschaftswissenschaftliche Fakult\u00e4t der Leibniz Universit\u00e4t Hannover",
+            "P60163": "[Hannover]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

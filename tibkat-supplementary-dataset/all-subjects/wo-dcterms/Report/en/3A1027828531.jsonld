@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1027828531",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (32 Seiten, 559 kB)",
+            "creator": [
+                "Pfeffer, Max",
+                "Schneider, Reinhold",
+                "Marschall, Manuel",
+                "Eigel, Martin"
+            ],
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1027828531",
+                "(firstid)GBV:1027828531",
+                "(doi)10.20347/WIAS.PREPRINT.2515"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines"
+            ],
+            "title": "Adaptive stochastic Galerkin FEM for lognormal coefficients in hierarchical tensor representations",
+            "abstract": "Stochastic Galerkin methods for non-affine coefficient representations are known to cause major difficulties from theoretical and numerical points of view. In this work, an adaptive Galerkin FE method for linear parametric PDEs with lognormal coefficients discretized in Hermite chaos polynomials is derived. It employs problem-adapted function spaces to ensure solvability of the variational formulation. The inherently high computational complexity of the parametric operator is made tractable by using hierarchical tensor representations. For this, a new tensor train format of the lognormal coefficient is derived and verified numerically. The central novelty is the derivation of a reliable residual-based a posteriori error estimator. This can be regarded as a unique feature of stochastic Galerkin methods. It allows for an adaptive algorithm to steer the refinements of the physical mesh and the anisotropic Wiener chaos polynomial degrees. For the evaluation of the error estimator to become feasible, a numerically efficient tensor format discretization is developed. Benchmark examples with unbounded lognormal coefficient fields illustrate the performance of the proposed Galerkin discretization and the fully adaptive algorithm.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:2140666-2"
+            },
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2515",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2515",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

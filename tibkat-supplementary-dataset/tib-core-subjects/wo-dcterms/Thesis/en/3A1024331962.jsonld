@@ -1,0 +1,138 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1058990551",
+            "sameAs": "Brown, Dan"
+        },
+        {
+            "@id": "gnd:1160949948",
+            "sameAs": "Nachtweide, Stefanie"
+        },
+        {
+            "@id": "gnd:1168504872",
+            "sameAs": "Universit\u00e4t Greifswald"
+        },
+        {
+            "@id": "gnd:121483991",
+            "sameAs": "Reinert, Knut"
+        },
+        {
+            "@id": "gnd:128916303",
+            "sameAs": "Stanke, Mario"
+        },
+        {
+            "@id": "gnd:4128987-0",
+            "sameAs": "Gen"
+        },
+        {
+            "@id": "gnd:4139408-2",
+            "sameAs": "Biomathematik"
+        },
+        {
+            "@id": "gnd:4200230-8",
+            "sameAs": "Genanalyse"
+        },
+        {
+            "@id": "gnd:4560829-5",
+            "sameAs": "Annotation"
+        },
+        {
+            "@id": "gnd:4611085-9",
+            "sameAs": "Bioinformatik"
+        },
+        {
+            "@id": "gnd:4776397-8",
+            "sameAs": "Genomik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1024331962",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (PDF-Datei: 155 Seiten, 2487 Kilobyte)",
+            "description": "Diagramme (farbig)",
+            "identifier": [
+                "(ppn)1024331962",
+                "(firstid)GBV:1024331962"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)bio",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106410296)54.89 - Angewandte Informatik: Sonstiges",
+                "(classificationName=ddc-dbn)570",
+                "(classificationName=bk, id=106421425)42.11 - Biomathematik, Biokybernetik",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "The simultaneous identification of genes in related species",
+            "abstract": [
+                "Biomathematik, Bioinformatik, Clade Annotation, Comparative Gene Finding, Comparative Genomics, Dual Decomposition, Gene Structure Prediction, Genome Annotation, Lagrangian Relaxation",
+                "As the tree of life is populated with sequenced genomes ever more densely, the new challenge is the accurate and consistent annotation of entire clades of genomes. In my dissertation, I address this problem with a new approach to comparative gene finding that takes a multiple genome alignment of closely related species and simultaneously predicts the location and structure of protein-coding genes in all input genomes, thereby exploiting negative selection and sequence conservation. The model prefers potential gene structures in the different genomes that are in agreement with each other, or\u2014if not\u2014where the exon gains and losses are plausible given the species tree. The multi-species gene finding problem is formulated as a binary labeling problem on a graph. The resulting optimization problem is NP hard, but can be efficiently approximated using a subgradient-based dual decomposition approach. I tested the novel approach on whole-genome alignments of 12 vertebrate and 12 Drosophila species. The accuracy was evaluated for human, mouse and Drosophila melanogaster and compared to competing methods. Results suggest that the new method is well-suited for annotation of a large number of genomes of closely related species within a clade, in particular, when RNA-Seq data are available for many of the genomes. The transfer of existing annotations from one genome to another via the genome alignment is more accurate than previous approaches that are based on protein-spliced alignments, ..."
+            ],
+            "contributor": [
+                "gnd:128916303",
+                "gnd:1058990551",
+                "gnd:121483991"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1168504872",
+                "gnd:1160949948"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4776397-8",
+                "gnd:4139408-2",
+                "gnd:4611085-9",
+                "gnd:4560829-5",
+                "gnd:4200230-8",
+                "gnd:4128987-0"
+            ],
+            "P60163": "Greifswald"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

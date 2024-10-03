@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120512726",
+            "sameAs": "Hahn, Axel"
+        },
+        {
+            "@id": "gnd:1214674860",
+            "sameAs": "Yarza Perez, Irune"
+        },
+        {
+            "@id": "gnd:17228242X",
+            "sameAs": "Nebel, Wolfgang"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1728690730",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiii, 170 Seiten, 15 MB)",
+            "identifier": [
+                "(firstid)DNB:1215293356",
+                "(ppn)1728690730"
+            ],
+            "subject": [
+                "Veraltete Software",
+                "(classificationName=ddc-dbn)004",
+                "Echtzeit",
+                "(classificationName=ddc)005.14",
+                "Zeitvertrag",
+                "(classificationName=linseach:mapping)inf",
+                "Portierung"
+            ],
+            "title": "Legacy software migration based on timing contract aware real-time execution environments",
+            "abstract": [
+                "Die schnell fortschreitende Marktentwicklung f\u00fcr eingebettete Systeme weckt das stetige Interesse an verbesserten eingebetteten Mikroprozessoren und den zugeh\u00f6rigen Hardwareplattformen (sog. Systems-on-a-Chip). Daraus ergibt sich als unmittelbare Folge, dass auch die Veraltung von existierenden eingebetteten Mikroprozessoren und der zugrundeliegenden Hardware immer schneller voranschreiten. Eingebettete Software die einmal geschrieben wurde und f\u00fcr den jeweils eingesetzten Prozessor und die umgebenden Hardwareplattform hin angepasst, optimiert und validiert wurde, l\u00e4sst sich in der Regel nicht auf triviale Weise auf eine neue Prozessorplattform portieren. Dies wird noch einmal dadurch erschwert, dass eingebettet System neben den funktionalen Eigenschaften auch noch Echtzeiteigenschaften einzuhalten haben. Bei einer Portierung der alten Software auf eine neue Hardwareplattform m\u00fcssen demnach die Einhaltung der vollen Funktionalit\u00e4t und der zeitlichen Eigenschaften garantiert werden. Traditionelle Ans\u00e4tze zur Portierung alter und hardwarearchitekturabh\u00e4ngiger Software auf neue Prozessorsystem nutzen h\u00e4ufig sog. \u201eBinary Translation\u201c Techniken. Diese Techniken k\u00f6nnen in der Regel nur die Erhaltung der korrekten Funktionalit\u00e4t nicht aber die zus\u00e4tzliche Einhaltung der Zeiteigenschaften sicherstellen. Im Rahmen dieser Arbeit wird die Verwendung der \u201eBinary Translation\u201c Technik in Kombination mit Zeit- und Kontrollbl\u00f6cken zur automatisierbaren funktionalit\u00e4ts- und zeiteigenschaftserhaltende \u00dcbersetzung von bestehender echtzeitkritischer Software auf neue Hardwarearchitekturen untersucht. Im Rahmen der Arbeit wurde zun\u00e4chst eine Vergleichs- und Realisierbarkeitsstudie verschiedener \u201eBinary Translation\u201c Techniken und Werkzeuge durchgef\u00fchrt. Das in diese Studie ausgew\u00e4hlte Werkzeug wurde mit kontraktbasierten Zeitspezifikations- und Zeitkontrollbl\u00f6cken angereichert, um die korrekte Funktionalit\u00e4t und eine Einhaltung des spezifizierten und akzeptablen Zeitverhaltens auf der neuen Hardwareplattform zu erm\u00f6glichen.",
+                "The fast evolution of embedded systems market is generating interest on improved embedded microprocessor technologies. As a consequence, the obsolescence period for the underlying hardware is being shortened. As this happens, software designed for those platforms, that might be functionally correct and validated code, may be lost in the architecture and peripheral change. As embedded systems usually have real-time computing constraints, the legacy code retargeting issue directly affects real-time systems. When it comes to legacy code migration, binary translation appears to be a standard approach. However, when dealing with real-time legacy code, not just the functional behaviour, but also the timing behaviour has to be preserved. In the direction to solve this problem, the overall goal of this research line is to enhance the latest low-overhead machine-adaptable binary translation tool with the ability to preserve the timing behaviour on the translated binary. Through a feasibility study, a static binary translation tool is selected, which is latter enhanced with a timing enforcement mechanism that at the same time provides means for validating the enforced timing behaviour on the new platform using formal timing specification in the form of contracts."
+            ],
+            "alternative": "Migration von Legacy-Software auf der Basis von Echtzeit-Ausf\u00fchrungsumgebungen mit Zeitvertr\u00e4gen",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:17228242X"
+                },
+                {
+                    "@id": "gnd:120512726"
+                }
+            ],
+            "creator": "gnd:1214674860",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

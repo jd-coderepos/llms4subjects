@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1235613356",
+            "sameAs": "Gerlach, Andreas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1759330825",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (176 Seiten, 15,72 MB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.24352/UB.OVGU-2021-056",
+                "(ppn)1759330825",
+                "(isbn13)9783948749033",
+                "(firstid)KXP:1759330825"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "Drehzahl",
+                "(classificationName=ddc)629.25",
+                "(classificationName=rvk)ZL 5500",
+                "Drehmoment",
+                "Maschine",
+                "Leistungsregelung",
+                "(classificationName=ddc-dbn)620",
+                "Verbrennungsmotor",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=bk, id=106421344)50.23 - Regelungstechnik, Steuerungstechnik",
+                "Freikolbenmotor"
+            ],
+            "title": "Regelung von direktangetriebenen elektrischen Maschinen f\u00fcr Verbrennungsmotoren",
+            "abstract": "Diese Arbeit handelt von der Regelung von elektrischen Maschinen, welche an einem Verbrennungsmotor direkt gekoppelt sind. Zu Beginn werden einige Grundlagen zur Regelung von permanent erregten Synchronmaschinen (PMSM) und die Funktionsweise von Vier-Takt-Ottomotoren erl\u00e4utert. Es folgen dann die verschiedenen Versuchsaufbauten, die in dieser Arbeit genutzt wurden, um verschiedene mittelwert und dynamikbasierte Regelverfahren zu validieren. Zu den mittelwertbasierten Regelverfahren werden Verfahren gez\u00e4hlt, welche keine hochdynamische Drehmoment\u00e4nderung innerhalb der vier Takte des Verbrennungsmotors ben\u00f6tigen. Hierzu geh\u00f6rt unter anderem die drosselklappenaktorlose Leistungsregelung. Das zu regelnde System ist nichtlinear. Zur Regelung des Systems wurde es zum einen mithilfe einer Taylorann\u00e4herung und zum anderen mit einer Ausgangsr\u00fcckf\u00fchrung linearisiert. Zu dem linearisierten System konnte anschlie\u00dfend ein Regler ausgelegt werden. Ein weiteres mittelwertbasiertes Regelverfahren ist die winkelgeberlose Regelung. Hierbei wurden verschiedene Winkelsch\u00e4tzverfahren f\u00fcr die PMSM angewendet, um den elektrischen Winkel und das Drehmoment des Verbrennungsmotors zu sch\u00e4tzen, welches mit einem theoretischen Kompressionsdrehmoment verglichen wird, um den Kurbelwinkel zum elektrischen Winkel zu referenzieren. Die dynamikbasierten Regelverfahren sind Verfahren, welche innerhalb der vier Takte den Drehmoment-/ Kraftverlauf der elektrischen Maschine stark ver\u00e4ndern. Hierdurch ist es unter anderem m\u00f6glich, den Kolbenhubverlauf bei einem Verbrennungsmotor mit Kurbelwelle und bei einem Freikolbenmotor anzupassen. Au\u00dferdem kann die Einpr\u00e4gung eines hochdynamischen Drehmoments auf einer Nockenwelle dazu genutzt werden, um die Ventilsteuerzeiten zu variieren. Weiterhin wird eine hohe Regeldynamik ben\u00f6tigt, wenn eine nahezu konstante Drehzahl erforderlich ist. Hierf\u00fcr muss ein Drehmoment eingepr\u00e4gt werden, was das Drehmoment des Verbrennungsmotors kompensiert. Dies wird als Drehmomentd\u00e4mpfung/-kompensation bezeichnet. Es wurden verschiedene Drehmomentd\u00e4mpfungsmethoden getestet und die Ergebnisse nach Implementierungsaufwand und ben\u00f6tigten Sensoren verglichen.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1235613356",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Band 83",
+            "isLike": "doi:10.24352/UB.OVGU-2021-056",
+            "P30128": "Res electricae Magdeburgenses",
+            "P60163": "Magdeburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

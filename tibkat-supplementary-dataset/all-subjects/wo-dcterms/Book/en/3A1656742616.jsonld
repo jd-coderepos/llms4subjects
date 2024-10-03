@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1656742616",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (xv, 97 pages)",
+            "contributor": "Morales-Luna, Guillermo",
+            "creator": "Cruz-Santos, William",
+            "description": [
+                "illustrations.",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1656742616",
+                "(isbn13)9781627055574",
+                "(firstid)BSZ:469715464"
+            ],
+            "publisher": "Morgan & Claypool",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)004.1",
+                "Quantum computers",
+                "Combinatorial optimization",
+                "(classificationName=loc)QA76.889",
+                "Adiabatic invariants",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Approximability of optimization problems through adiabatic quantum computation",
+            "abstract": "The adiabatic quantum computation (AQC) is based on the adiabatic theorem to approximate solutions of the Schrodinger equation. The design of an AQC algorithm involves the construction of a Hamiltonian that describes the behavior of the quantum system. This Hamiltonian is expressed as a linear interpolation of an initial Hamiltonian whose ground state is easy to compute, and a final Hamiltonian whose ground state corresponds to the solution of a given combinatorial optimization problem. The adiabatic theorem asserts that if the time evolution of a quantum system described by a Hamiltonian is large enough, then the system remains close to its ground state. An AQC algorithm uses the adiabatic theorem to approximate the ground state of the final Hamiltonian that corresponds to the solution of the given optimization problem. In this book, we investigate the computational simulation of AQC algorithms applied to the MAX-SAT problem. A symbolic analysis of the AQC solution is given in order to understand the involved computational complexity of AQC algorithms. This approach can be extended to other combinatorial optimization problems and can be used for the classical simulation of an AQC algorithm where a Hamiltonian problem is constructed. This construction requires the computation of a sparse matrix of dimension 2n x 2n, by means of tensor products, where n is the dimension of the quantum system. Also, a general scheme to design AQC algorithms is proposed, based on a natural correspondence between optimization Boolean variables and quantum bits. Combinatorial graph problems are in correspondence with pseudo-Boolean maps that are reduced in polynomial time to quadratic maps. Finally, the relation among NP-hard problems is investigated, as well as its logical representability, and is applied to the design of AQC algorithms. It is shown that every monadic second-order logic (MSOL) expression has associated pseudo- Boolean maps that can be obtained by expanding the given expression, and also can be reduced to quadratic forms.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)ZDB-105-MCIA"
+            ],
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "# 9",
+            "P30128": "Synthesis lectures on quantum computing",
+            "P60163": "San Rafael, California (1537 Fourth Street, San Rafael, CA  94901 USA)"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1268389196",
+            "sameAs": "Koppak, Raghavendra"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A181465545X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (164 Seiten)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.15496/publikation-71663",
+                "(ppn)181465545X",
+                "(firstid)KXP:181465545X"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=linseach:mapping)ver",
+                "(classificationName=ddc)629.831",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Multi-domain fault simulation using virtual prototypes",
+            "abstract": "Industrial electronic systems that control manufacturing and machine motion in modern, highly automated production facilities have become highly complex, which combine a variety of electronic, electrical, and mechanical components that need to interact smoothly during their operation. The high critical issues in the development of future production plants are imposed by motion control systems, which manage the fast and most accurate positioning and motion control of conveyor belts and robot arms, for instance. These systems are required to properly cope with failures of all kinds to guarantee safety of operators and machine integrity at any time. But what happens, if for instance single chips in a robot\u2018s control unit fail, if a motor due to a bearing damage overheats or a sensor delivers faulty data? Is it possible to develop and test the control software of these systems in a way that in case of faults in one or more components the total system always remains in a safe state? Is it guaranteed that humans near to these machines are not harmed and expensive parts like motors or robot arms are not destroyed? As of today, the final tests of those systems are mainly based on physical prototypes to ensure the correct and safe operation. In conventional system development, physical prototypes and extensive system tests are needed. However, those prototypes are available only in later phases of the design process. These tests are complex and expensive already today and are not able to completely cover all possible kinds of failures, as certain failures cannot be provoked in real hardware. Moreover, the late execution of the tests may cause long iteration loops in case weaknesses are detected in the final tests. The validation becomes even more challenging for the highly flexible, self-configuring, self-healing control systems of future manufacturing scenarios with focus on automation of small lot sizes, which requires much higher configurability of the systems and closer interaction between humans and manufacturing machines. Fault injection into low level simulation models is widely used for validating the satisfactory operation under unexpected conditions like intrinsic failures of electronics or failures caused by the environment. However, a high level of abstraction of models is required for fast simulation of the systems and fault simulation is a trade-off between accuracy and simulation performance. Virtual prototypes (VPs) provide a possibility to perform system tests in an early stage of development. But they still suffer from less tool support and methodology features e.g. VPs lack simulator support with inherent fault-injection features. Additionally, engineering groups of different domains exploit different modeling languages and tools to develop models and evaluate their designs in industry. In this work, combined techniques to model faults in multi-domain systems are proposed which make early validation of these heterogeneous systems possible. The validation is performed by conducting virtual stress tests after bringing together different domains into one simulation platform. Suitable techniques are described, to enhance or develop physical component models such that they incorporate fault injection possibilities before being imported into a virtual platform. Only physical components models that are modeled using MATLAB/Simulink are considered, as non-digital parts of the system are often modeled in industry using MATLAB/Simulink. The TLM-based fault injection infrastructure developed under the EffektiV project is used to inject faults in digital parts by developing appropriate fault models. Furthermore, a generic fault injection framework is proposed and implemented to conduct fault injection experiments based on virtual prototypes. Using this framework, the faults in heterogeneous parts of the industrial systems (motion control systems) are either activated interactively during simulation runtime or executed as regression tests using scripts. Also, the post processing techniques are proposed to automatically evaluate the results of regression tests. Later, these pre-validated fault models are integrated in a hardware-in-the-loop (HIL) test system at Siemens, which enables a final validation of the systems\u2019 safety against faults before product release. The proposed methodologies are evaluated using an industrial motor control application example with two virtual HIL and one HIL demonstrators: (i) Industrial motor control system with motor signal conditioning using acceleration sensor. (ii) Industrial motor control system along with conveyor-belt application based on the V-REP (Virtual Robotic Experimentation Platform) simulator. (iii) HIL test system based on a Siemens SINAMICS G120 drive. It has been shown that the contributions from this study provided further directions in future product development for industrial electronic systems at Siemens AG. Keywords: Industrial 4.0, Cyber Physical Systems, Virtual Prototype, Fault Simulation, Hardware-in-the-loop (HIL), Virtual Hardware-In-the-Loop (vHIL), Physical Component Models, Fault Transfer, SystemC/TLM, Multi-Domain Simulation, MATLAB/Simulink, Simscape, Validation.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1268389196"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-71663",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

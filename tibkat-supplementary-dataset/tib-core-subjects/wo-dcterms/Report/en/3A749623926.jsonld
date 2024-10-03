@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749623926",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (35 S., 2,18 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Caiazzo, Alfonso",
+            "identifier": [
+                "(ppn)749623926",
+                "(firstid)GBV:749623926"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=ssg)17,1",
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=msc)76D05",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A numerical investigation of velocity-pressure reduced order models for incompressible flows",
+            "abstract": "This report has two main goals. First, it numerically investigates three velocity-pressure reduced order models (ROMs) for incompressible flows. The proper orthogonal decomposition (POD) is used to generate the modes. One method computes the ROM pressure solely based on the velocity POD modes, whereas the other two ROMs use pressure modes as well. To the best of the authors\u2019 knowledge, one of the latter methods is novel. The second goal is to numerically investigate the impact of the snapshot accuracy on the ROMs accuracy. Numerical studies are performed on a two-dimensional laminar flow past a circular obstacle. It turns out that, both in terms of accuracy and efficiency, the two ROMs that utilize pressure modes are clearly superior to the ROM that uses only velocity modes. The numerical results also show a strong correlation of the accuracy of the snap shots with the accuracy of the ROMs.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1765",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

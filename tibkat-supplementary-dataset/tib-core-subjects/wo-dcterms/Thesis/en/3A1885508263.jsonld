@@ -1,0 +1,79 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1325761885",
+            "sameAs": "Michaelis, Claudio"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1885508263",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (circa 150 Seiten in verschiedenen Seitenz\u00e4hlungen)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1885508263",
+                "(firstid)KXP:1885508263"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Maschinelles Sehen",
+                "(classificationName=ddc-dbn)006.37",
+                "Maschinelles Lernen",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Why machine learning models fail : a benchmarking perspective",
+            "abstract": "Over the last years, machine performance at object recognition, language understanding and other capabilities that we associate with human intelligence has rapidly improved. One central element of this progress are machine learning models that learn the solution for a task directly from data. The other are benchmarks that use data to quantitatively measure model performance. In combination, they form a virtuous cycle where models can be optimized directly on benchmark performance. But while the resulting models perform very well on their benchmarks, they often fail unexpectedly outside the controlled setting. Innocuous changes such as image noise, rain or the wrong background can lead to wrong predictions. In this dissertation, I argue that to understand these failures, it is necessary to understand the relationship between benchmark performance and the desired capability. To support this argument, I study benchmarks in two ways. In the first part, I investigate how to learn and evaluate a new capability. Therefore, I introduce one-shot object detection and define different benchmarks to analyze what makes this task hard for machine learning models and what is needed to solve it. I find that CNNs struggle to separate individual objects in cluttered environments, and that one-shot recognition of objects from novel categories can be challenging with real-world objects. I then continue to investigate what makes one-shot generalization difficult in real-world scenes, and identify the number of categories in the training dataset as the central factor. Using this insight, I show that excellent one-shot generalization can be achieved by training on broader datasets. These results highlight how much benchmark design influences what is measured, and that limitations in benchmarks can be confused for limitations of the models developed with them. In the second part, I broaden the view and analyze the connection between model failures in different areas of machine learning. I find that many of these failures can be explained by shortcut learning, models exploiting a mismatch between a benchmark and its associated capability. Shortcut solutions use superficial cues that work very well within the training domain, but are unrelated to the capability. This demonstrates that good benchmarks performance is not sufficient to prove that a model acquired the associated capability, and that results have to be interpreted carefully. Taken together, these findings put in question the common practice of evaluating models on a single, or at maximum a few, benchmarks. Rather, my results indicate that to anticipate model failures, it is essential to measure broadly. And to avoid them, it is necessary to verify that models acquire the desired capability. This will require investment into better data, new benchmarks and other complementary forms of evaluation, but provides the basis for further progress towards powerful, reliable and safe models.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1325761885"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

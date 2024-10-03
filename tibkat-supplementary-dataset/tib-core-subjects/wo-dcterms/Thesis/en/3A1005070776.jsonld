@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:122498909",
+            "sameAs": "Scheideler, Christian"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1005070776",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 100 Seiten)",
+            "contributor": "Meyer auf der Heide, Friedhelm",
+            "creator": "Podlipyan, Pavel",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)HBZ:CT004001995",
+                "(doi)10.17619/UNIPB/1-230",
+                "(ppn)1005070776"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Local algorithms for the continuous gathering problem",
+            "abstract": "Im Zentrum unserer Betrachtung steht eine Gruppe von mobilen Robotern auf euklidischer Ebene. Roboter haben begrenzte Sicht und keine zentrale Steuerung. Sie agieren ausschlie\u00dflich auf Grundlage lokaler Informationen. In diesem Rahmen ergeben sich viele algorithmische Probleme. In der vorliegenden Arbeit widmen wir uns dem Problem der kontinuierlichen Versammlung. Wir wollen herausfinden, wie schnell sich Roboter innerhalb eines kontinuierlichen Zeitmodells, an einem zuvor nicht definierten Punkt, sammeln k\u00f6nnen. In einem solchen Modell beobachtet ein Roboter seine unmittelbare Nachbarschaft kontinuierlich, w\u00e4hrend er gleichzeitig Geschwindigkeit und Richtung nach lokalen Vorgaben anpasst. Diesbez\u00fcglich legen wir eine Klasse von Algorithmen vor, die wir kontrahierende Algorithmen nennen. Algorithmen dieser Klasse veranlassen Roboter sich in der Zeit von O(nd) zu sammeln, wobei n die Anzahl der Roboter und d den Durchmesser der Anfangskonfiguration beschreiben. Ferner zeigen wir einige konkrete kontrahierende Algorithmen, die wir auf ihre Effizienz hin untersuchen. Wir setzen Obere und Untere Schranken hinsichtlich der ben\u00f6tigten Zeit f\u00fcr die Versammlung von allen Robotern in einem zuvor nicht definierten Punkt. Daneben untersuchen wir, inwiefern sog. Proximity Untergraphen des Sichtbarkeitsgraph den Sammlungsprozess beeinflussen. Simulationen zeigen einen deutlichen Unterschied im Verhalten von solchen Robotern, die den Gabriel- oder Relativen Nachbarschaftsgraph als Sichtbarkeitsgraph nutzen. W\u00e4hrend viele der Zusammenst\u00f6\u00dfe w\u00e4hrend des Sammlungsprozesses auftreten, l\u00e4sst sich bei der Verwendung von Proximity Graphen typischerweise nur ein Zusammensto\u00df (endg\u00fcltig) ausmachen. In dieser Arbeit pr\u00e4sentieren wir eine kontrahierende Strategie, welche einen kollisionsfreien Sammlungsprozess gew\u00e4hrleistet.. - We consider a group of mobile robots in the Euclidean plane. Robots have a limited vision range and do not have a central control. Each robot acts by depending solely on local information. Many algorithmic problems arise in such a setting. In this work, we explore the continuous gathering problem. The goal is to know how fast the robots can gather in one not-predefined point in the continuous time model. In this model, each robot continuously observes its local neighborhood and adapts its speed and direction following a local rule. We present a class of algorithms, which we call the \\emph{contracting algorithms}, that perform gathering in time O(nd), where n is the number of robots and d is the diameter of the initial configuration. We also present several contracting algorithms and analyze their efficiency. Upper and lower bounds on the time needed to gather all robots in one not-predefined point are given. Besides that, we investigate how the use of proximity subgraphs of visibility graphs influences the gathering processes. Simulations exhibit a severe difference in the behavior of robots using a Gabriel or Relative Neighborhood graphs as the visibility graph. While a lot of collisions occur during the gathering process, typically only one collision (the final one) takes place if robots use proximity graphs. We present a contracting algorithm which ensures that no collision occurs during the gathering process. This algorithm requires the robots to have some additional capabilities, such as memory and chirality.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:122498909"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-230",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

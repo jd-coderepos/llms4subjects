@@ -1,0 +1,80 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:137528221",
+            "sameAs": "Di Stefano, Vincenza"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A590201220",
+            "@type": "bibo:Report",
+            "P1053": "Online-Ressource (29 S., 319 KB)",
+            "contributor": [
+                "Muscato, Orazio",
+                "Wagner, Wolfgang"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)590201220",
+                "(firstid)GBV:590201220"
+            ],
+            "publisher": "WIAS",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=ssg)17,1",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Numerical study of the systematic error in Monte Carlo schemes for semiconductors",
+            "abstract": "The paper studies the convergence behavior of Monte Carlo schemes for semiconductors. A detailed analysis of the systematic error with respect to numerical parameters is performed. Different sources of systematic error are pointed out and illustrated in a spatially one-dimensional test case. The error with respect to the number of simulation particles occurs during the calculation of the internal electric field. The time step error, which is related to the splitting of transport and electric field calculations, vanishes sufficiently fast. The error due to the approximation of the trajectories of particles depends on the ODE solver used in the algorithm. It is negligible compared to the other sources of time step error, when a second order Runge-Kutta solver is used. The error related to the approximate scattering mechanism is the most significant source of error with respect to the time step.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:137528221"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "1371",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A775313939",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXII, 298 p)",
+            "creator": "Stroobandt, Dirk",
+            "description": [
+                "online resource",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(doi)10.1007/978-1-4419-8499-9",
+                "(isbn13)9781441984999",
+                "(ppn)775313939",
+                "(firstid)GBV:775313939"
+            ],
+            "publisher": "Springer US",
+            "subject": [
+                "Systems theory",
+                "(classificationName=linseach:mapping)inf",
+                "Electronic circuits.",
+                "Electrical engineering.",
+                "Control theory.",
+                "Systems engineering",
+                "Computer-aided engineering.",
+                "(classificationName=ddc)621.3815",
+                "Engineering",
+                "(classificationName=linseach:mapping)elt",
+                "System theory.",
+                "(classificationName=loc)TK7888.4",
+                "Computer engineering",
+                "Computer aided design"
+            ],
+            "title": "A Priori Wire Length Estimates for Digital Design",
+            "abstract": "The design of digital (computer) systems requires several design phases: from the behavioural design, over the logical structural design to the physical design, where the logical structure is implemented in the physical structure of the system (the chip). Due to the ever increasing demands on computer system performance, the physical design phase being one of the most complex design steps in the entire process. The major goal of this book is to develop a priori wire length estimation methods that can help the designer in finding a good lay-out of a circuit in less iterations of physical design steps and that are useful to compare different physical architectures. For modelling digital circuits, the interconnection complexity is of major importance. It can be described by the so called Rent's rule and the Rent exponent. A Priori Wire Length Estimates for Digital Design will provide the reader with more insight in this rule and clearly outlines when and where the rule can be used and when and where it fails. Also, for the first time, a comprehensive model for the partitioning behaviour of multi-terminal nets is developed. This leads to a new parameter for circuits that describes the distribution of net degrees over the nets in the circuit. This multi-terminal net model is used throughout the book for the wire length estimates but it also induces a method for the generation of synthetic benchmark circuits that has major advantages over existing benchmark generators. In the domain of wire length estimations, the most important contributions of this work are (i) a new model for placement optimization in a physical (computer) architecture and (ii) the inclusion of the multi-terminal net model in the wire length estimates. The combination of the placement optimization model with Donath's model for a hierarchical partitioning and placement results in more accurate wire length estimates. The multi-terminal net model allows accurate assessments of the impact of multi-terminal nets on wire length estimates. We distinguish between `delay-related applications,' for which the length of source-sink pairs is important, and `routing-related applications,' for which the entire (Steiner) length of the multi-terminal net has to be taken into account. The wire length models are further extended by taking into account the interconnections between internal components and the chip boundary. The application of the models to three-dimensional systems broadens the scope to more exot ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "2001",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9780792373605.pdf",
+            "isLike": "doi:10.1007/978-1-4419-8499-9",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

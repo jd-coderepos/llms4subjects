@@ -1,0 +1,119 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120420392",
+            "sameAs": "Sattler, Kai-Uwe"
+        },
+        {
+            "@id": "gnd:131374567",
+            "sameAs": "Heimrich, Thomas"
+        },
+        {
+            "@id": "gnd:4113276-2",
+            "sameAs": "Datenbanksystem"
+        },
+        {
+            "@id": "gnd:4130847-5",
+            "sameAs": "Synchronisierung"
+        },
+        {
+            "@id": "gnd:4131465-7",
+            "sameAs": "Datenausgabe"
+        },
+        {
+            "@id": "gnd:4192358-3",
+            "sameAs": "Multimedia"
+        },
+        {
+            "@id": "gnd:4567206-4",
+            "sameAs": "Constraint-Programmierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A507703189",
+            "@type": "bibo:Thesis",
+            "P1053": "150 S.",
+            "contributor": [
+                "Meyer-Wegner, Klaus",
+                "\u00d6zsu, Tamer"
+            ],
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)507703189",
+                "(firstid)GBV:507703189"
+            ],
+            "subject": [
+                "(classificationName=ddc)006.7",
+                "(classificationName=bk, id=106410865)54.64 - Datenbanken",
+                "(classificationName=bk, id=181570912)54.87 - Multimedia",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Output constraints in multimedia database systems",
+            "abstract": "Semantische Fehler treten bei jeder Art von Datenverwaltung auf. Herk\u00f6mmliche Datenbanksysteme verwenden eine Integrit\u00e4tskontrolle, um semantische Fehler zu vermeiden. Um die Integrit\u00e4t der Daten zu gew\u00e4hrleisten werden Integrit\u00e4tsregeln benutzt. Diese Regeln k\u00f6nnen allerdings nur die Konsistenz einfach strukturierter Daten \u00fcberpr\u00fcfen. Multimedia Datenbanksystem verwalten neben einfachen alphanumerischen Daten auch komplexe Mediendaten wie Videos. Um die Konsistenz dieser Daten zu sichern, bedarf es einer erheblichen Erweiterung des bestehenden Integrit\u00e4tskonzeptes. Dabei muss besonders auf die konsistente Datenausgabe geachtet werden. Im Gegensatz zu alphanumerischen Daten k\u00f6nnen Mediendaten w\u00e4hrend der Ausgabe verf\u00e4lscht werden. Dieser Fall kann eintreten,  wenn eine geforderte Datenqualit\u00e4t bei der Ausgabe nicht erreicht werden kann oder wenn Synchronisationsbedingungen zwischen Medienobjekten nicht eingehalten werden k\u00f6nnen. Es besteht daher die Notwendigkeit, Ouptut Constraints einzuf\u00fchren. Mit ihrer Hilfe kann definiert werden, wann die Ausgabe von Mediendaten semantisch korrekt ist. Das Datenbanksystem kann diese Bedingungen \u00fcberpr\u00fcfen und so gew\u00e4hrleisten, dass der Nutzer semantisch einwandfreie Daten erh\u00e4lt. In dieser Arbeit werden alle Aspekte betrachtet, die notwendig sind, um Ausgabebedingungen in ein Multimedia Datenbanksystem zu integrieren. Im einzelnen werden die Modellierung der Bedingungen, deren datenbankinterne Repr\u00e4sentation sowie die Bedingungs\u00fcberpr\u00fcfung betrachtet. F\u00fcr die Bedingungsmodellierung wird eine Constraint Language auf Basis der Pr\u00e4dikatenlogik eingef\u00fchrt. Um die Definition von zeitlichen und r\u00e4umlichen Synchronisationen zu erm\u00f6glichen, verwenden wir Allen-Relationen. F\u00fcr die effiziente \u00dcberpr\u00fcfung der Ausgabebedingungen m\u00fcssen diese aus der Spezifikationssprache in eine datenbankinterne Darstellung \u00fcberf\u00fchrt werden. F\u00fcr die datenbankinterne Darstellung werden Difference Constraints verwendet. Diese erlauben eine sehr effiziente Bedingungs\u00fcberpr\u00fcfung. Wir haben Algorithmen entwickelt, die eine effiziente \u00dcberpr\u00fcfung von Ausgabebedingungen erlauben und dies anhand von Experimenten nachgewiesen. Neben der \u00dcberpr\u00fcfung der Bedingungen m\u00fcssen Mediendaten so synchronisiert werden, dass dies den Ausgabebedingungen entspricht. Wir haben dazu das Konzept des Output Schedules entwickelt. Dieser wird aufgrund der definierten Ausgabebedingungen generiert. Durch die Ausgabebedingungen, die in dieser Arbeit eingef\u00fchrt werden, werden semantische Fehler bei der Verwaltung von Mediendaten erheblich reduziert. Die Arbeit stellt daher einen Beitrag zur qualitativen Verbesserung der Verwaltung von Mediendaten dar.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:120420392"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:131374567",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4130847-5"
+                },
+                {
+                    "@id": "gnd:4131465-7"
+                },
+                {
+                    "@id": "gnd:4567206-4"
+                },
+                {
+                    "@id": "gnd:4113276-2"
+                },
+                {
+                    "@id": "gnd:4192358-3"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/507703189.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

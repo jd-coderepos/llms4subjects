@@ -1,0 +1,113 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:143795244",
+            "sameAs": "Haueisen, Jens"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4014254-1",
+            "sameAs": "Elektroencephalographie"
+        },
+        {
+            "@id": "gnd:4152719-7",
+            "sameAs": "Ereigniskorreliertes Potenzial"
+        },
+        {
+            "@id": "gnd:4254087-2",
+            "sameAs": "Magnetoencephalographie"
+        },
+        {
+            "@id": "gnd:4626990-3",
+            "sameAs": "Zeit-Frequenz-Analyse"
+        },
+        {
+            "@id": "gnd:4846428-4",
+            "sameAs": "Regularisierungsverfahren"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A875845576",
+            "@type": "bibo:Thesis",
+            "P1053": "xiv, 202 Seiten",
+            "contributor": [
+                "Gramfort, Alexandre",
+                "H\u00e4m\u00e4l\u00e4inen, Matti S."
+            ],
+            "http://purl.org/dc/elements/1.1/creator": "Strohmeier, Daniel",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(firstid)GBV:875845576",
+                "(ppn)875845576"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc-dbn)610"
+            ],
+            "title": "Spatio-temporal priors for MEG/EEG sparse source imagimg",
+            "abstract": "Mit Hilfe der Magnetoenzephalographie (MEG) und Elektroenzephalographie (EEG) ist es m\u00f6glich, Hirnaktivit\u00e4t mit hoher zeitlicher und guter r\u00e4umlicher Aufl\u00f6sung auf nichtinvasive Weise zu untersuchen. Beide Verfahren sind daher sowohl f\u00fcr die neurowissenschaftliche Grundlagenforschung als auch f\u00fcr die klinische Diagnostik von besonderer Bedeutung, um dynamische Prozesse im Gehirn zu analysieren. Die Rekonstruktion der neuronalen Aktivit\u00e4t im Gehirn, die gemessenen MEG/EEG-Signalen zugrunde liegt, basiert auf der L\u00f6sung des bioelektromagnetischen inversen Problems, das schlechtgestellt ist. Um eine eindeutige L\u00f6sung zu bestimmen, werden Nebenbedingungen angewendet, die auf a priori Annahmen \u00fcber die Hirnaktivit\u00e4t basieren und beispielsweise deren r\u00e4umlich-zeitliche Eigenschaften widerspiegeln. Bei der Analyse ereigniskorrelierter Signale wird h\u00e4ufig angenommen, dass nur wenige, fokale Hirnareale an der Verarbeitung einer spezifischen kognitiven Aufgabe beteiligt sind. Erste Ans\u00e4tze zur Rekonstruktion fokaler Hirnaktivit\u00e4t auf Basis verteilter Quellenmodelle nutzten die lp-Norm mit p<=1 zur Regularisierung des inversen Problems. Die Quellenaktivit\u00e4t wird dabei f\u00fcr jeden Messzeitpunkt separat berechnet, was zu unphysiologischen Aktivit\u00e4tsverl\u00e4ufen f\u00fchren kann. Die Rekonstruktionsergebnisse h\u00e4ngen zudem stark vom Messrauschen ab, was die Genauigkeit und Stabilit\u00e4t der Quellenrekonstruktion negativ beeinflusst. Um diese Probleme zu umgehen, wurde in verbesserten Ans\u00e4tzen als Nebenbedingung angenommen, dass die Verteilung der fokalen Quellenaktivit\u00e4ten \u00fcber die Zeit konsistent ist. Implizit wird dabei aber die Stationarit\u00e4t der Quellensignale vorausgesetzt. Ereigniskorrelierte Signale weisen jedoch h\u00e4ufig nichtstation\u00e4re, transiente Signalkomponenten auf. Setzt man stattdessen die Stationarit\u00e4t der Quellensignale voraus, kann dies zu unrealistischen Quellenaktivit\u00e4ten und einer Vermischung der Quellensignale f\u00fchren.",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:143795244"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": "gnd:2125187-3",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4014254-1",
+                "gnd:4846428-4",
+                "gnd:4254087-2",
+                "gnd:4152719-7",
+                "gnd:4626990-3"
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/875845576.PDF",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

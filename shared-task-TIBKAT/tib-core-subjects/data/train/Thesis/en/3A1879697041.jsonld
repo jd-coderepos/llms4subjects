@@ -1,0 +1,146 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1065538812",
+            "sameAs": "Logos Verlag Berlin"
+        },
+        {
+            "@id": "gnd:4043664-0",
+            "sameAs": "Optimierung"
+        },
+        {
+            "@id": "gnd:4052385-8",
+            "sameAs": "Schiff"
+        },
+        {
+            "@id": "gnd:4052411-5",
+            "sameAs": "Schiffsantrieb"
+        },
+        {
+            "@id": "gnd:4124833-8",
+            "sameAs": "Energiemanagement"
+        },
+        {
+            "@id": "gnd:4267628-9",
+            "sameAs": "Bahnplanung"
+        },
+        {
+            "@id": "gnd:4825546-4",
+            "sameAs": "Best\u00e4rkendes Lernen (K\u00fcnstliche Intelligenz)"
+        },
+        {
+            "@id": "gnd:7578671-0",
+            "sameAs": "Motorsteuerung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1879697041",
+            "@type": "bibo:Thesis",
+            "P1053": "xiv, 117 Seiten",
+            "http://purl.org/dc/elements/1.1/creator": "Moradi, Mohammad Hossein",
+            "description": "24 cm x 17 cm",
+            "identifier": [
+                "(ean)9783832557720",
+                "(ppn)1879697041",
+                "(firstid)DNB:1317422937",
+                "(isbn13)9783832557720",
+                "(isbn)3832557725"
+            ],
+            "publisher": "Logos",
+            "subject": [
+                "(classificationName=ddc-dbn)380",
+                "Regelungstechnik",
+                "Reinforcement Learning",
+                "combustion engines",
+                "Control Systems",
+                "Technologie, Ingenieurswissenschaft, Landwirtschaft, Industrieprozesse",
+                "Energieeffizienz",
+                "Artificial intelligence",
+                "Intelligente und automatisierte Verkehrssysteme",
+                "(classificationName=linseach:mapping)tec",
+                "Model-free optimization",
+                "Alternative und erneuerbare Energiequellen und -technik",
+                "Technologie, allgemein",
+                "(classificationName=ddc-dbn)620",
+                "Mathematik f\u00fcr Ingenieure",
+                "Verkehrstechnik und Transportwesen",
+                "Energietechnik, Elektrotechnik und Energiemaschinenbau",
+                "Schiffbau und Schifffahrtswesen"
+            ],
+            "title": "Route and operating optimization of maritime vessels using machine learning techniques",
+            "abstract": "The shipping industry handles over 90% of the global trade volume and is responsible for approximately 3% of global CO\u00e2 emissions. Meanwhile, trade by the shipping industry is expected to increase by up to 130% by 2050 compared to 2008. At the same time, the goal is to reduce Green House Gas (GHG) emissions from the shipping industry to half of the 2008 level by 2050. In support of this goal, this thesis is concerned with a comprehensive approach for optimizing the ship's operation, i.e., an optimization approach that simultaneously involves route selection, energy management, propeller pitch, and engine control. In addition, this thesis also analyses the application of wind propulsion systems. The optimization of the ship's operation is implemented in the form of Reinforcement Learning (RL) methods. The use of RL-based methods to simultaneously optimize various aspects of the ship's trajectory and controls is a novel approach compared to the current state-of-art and embodies this thesis' inherent innovation.The results specifically highlight the importance of parallelizing route optimization with the optimization of other control aspects.Ultimately, it is found that the solution emanating from a purely RL-based approach can be further enhanced when the optimized route, speed, and power profiles are used to perform individual DP-based optimizations on the energy management in a post-processing step",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1065538812",
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:7578671-0"
+                },
+                {
+                    "@id": "gnd:4124833-8"
+                },
+                {
+                    "@id": "gnd:4267628-9"
+                },
+                {
+                    "@id": "gnd:4052385-8"
+                },
+                {
+                    "@id": "gnd:4052411-5"
+                },
+                {
+                    "@id": "gnd:4043664-0"
+                },
+                {
+                    "@id": "gnd:4825546-4"
+                }
+            ],
+            "tableOfContents": "https://d-nb.info/1317422937/04",
+            "volume": "Band 2024, 02",
+            "P30128": "Forschungsberichte aus dem Institut f\u00fcr Kolbenmaschinen, Karlsruher Institut f\u00fcr Technologie (KIT)",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

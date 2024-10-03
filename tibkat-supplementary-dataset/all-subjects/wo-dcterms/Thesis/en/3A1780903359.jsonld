@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1245826506",
+            "sameAs": "Schl\u00fcter, Alexander"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1780903359",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (142 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-222552",
+                "(firstid)DNB:1246202239",
+                "(doi)10.6094/UNIFR/222552",
+                "(ppn)1780903359"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ddc-dbn)333.7"
+            ],
+            "title": "Electricity distribution network design under changing demand patterns in modern electricity systems",
+            "abstract": "Abstract: This thesis develops a decision problem that integrates changing demand patterns into the design of electricity distribution networks. Recent trends in the electricity sector change the demand patterns of residential loads. Examples include the coinciding use of air conditioning (AC) during hot summer days, the simultaneous charging of electric vehicles (EVs) over night, but also the coinciding electricity feed-in from photovoltaic (PV) systems. These demand patterns are in contrast to traditional demand patterns that are more stochastic in nature. To model these new demand patterns, a decision problem is developed, namely the capacitated arborescence with voltage drops and load coincidence problem. The novelties of the proposed problem are that it considers voltage drops in a more precise manner than any comparable model for network design and that it considers the way that peak loads coincide. Having such a decision problem brings two advantages. First, integrating voltage drops and load coincidence allows for a better network design, i.e., it yields more cost efficient networks while maintaining or improving reliability. Second, it allows to analyze the effect that changing demand patterns have on network design. Therefore, in a first step, problem-specific heuristics are developed to solve the problem. This is needed because the inherent complexity of the problem prohibits exact solutions even for small instances. The heuristics are tested using simulated problem instances and real-world electricity networks. The results point towards considerable cost savings compared to networks designed using conventional planning methods. In a second step, the solution approaches are used to analyze the effect of load coincidence on network cost and layouts. The results indicate that an increase in load coincidence can cause a significant increase of future network cost. In some cases, network cost might even double. The problem can thus provide valuable insights to decision makers such as system operators or regulators",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1245826506",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/222552",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

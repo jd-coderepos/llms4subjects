@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1145515363",
+            "sameAs": "Samarskij, Aleksandr A."
+        },
+        {
+            "@id": "gnd:1157239846",
+            "sameAs": "Nikolaev, Evgenij S."
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655026186",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (online resource)",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1655026186",
+                "(isbn13)9783034892728",
+                "(firstid)BSZ:404639208",
+                "(doi)10.1007/978-3-0348-9272-8"
+            ],
+            "publisher": "Birkh\u00e4user Basel",
+            "subject": [
+                "Mathematics\u2014Data processing.",
+                "Computer science",
+                "(classificationName=linseach:mapping)mat",
+                "Mathematics",
+                "(classificationName=loc)QA71-90",
+                "(classificationName=ddc)518"
+            ],
+            "title": "Numerical Methods for Grid Equations : Volume I Direct Methods",
+            "abstract": [
+                "The finite-difference solution of mathematical-physics differential equations is carried out in two stages: 1) the writing of the difference scheme (a differ\u00ad ence approximation to the differential equation on a grid), 2) the computer solution of the difference equations, which are written in the form of a high\u00ad order system of linear algebraic equations of special form (ill-conditioned, band-structured). Application of general linear algebra methods is not always appropriate for such systems because of the need to store a large volume of information, as well as because of the large amount of work required by these methods. For the solution of difference equations, special methods have been developed which, in one way or another, take into account special features of the problem, and which allow the solution to be found using less work than via the general methods. This work is an extension of the book Difference M ethod3 for the Solution of Elliptic Equation3 by A. A. Samarskii and V. B. Andreev which considered a whole set of questions connected with difference approximations, the con\u00ad struction of difference operators, and estimation of the ~onvergence rate of difference schemes for typical elliptic boundary-value problems. Here we consider only solution methods for difference equations. The book in fact consists of two volumes.",
+                "1 Direct Methods for Solving Difference Equations -- 1.1 Grid equations. Basic concepts -- 1.2 The general theory of linear difference equations -- 1.3 The solution of linear equations with constant coefficients -- 1.4 Second-order equations with constant coefficients -- 1.5 Eigenvalue difference problems -- 2 The Elimination Method -- 2.1 The elimination method for three-point equations -- 2.2 Variants of the elimination method -- 2.3 The elimination method for five-point equations -- 2.4 The block-elimination method -- 3 The Cyclic Reduction Method -- 3.1 Boundary-value problems for three-point vector equations -- 3.2 The cylic reduction method for a boundary-value problem of the first kind -- 3.3 Sample applications of the method -- 3.4 The cyclic reduction method for other boundary-value problems -- 4 The Separation of Variables Method -- 4.1 The algorithm for the discrete Fourier transform -- 4.2 The solution of difference problems by the Fourier method -- 4.3 The method of incomplete reduction -- 4.4 The staircase algorithm and the reduction method for solving tridiagonal systems of equations."
+            ],
+            "contributor": "gnd:1157239846",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1145515363",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "1989",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-3-0348-9272-8",
+            "P30128": [
+                "SpringerLink",
+                "Springer eBook Collection",
+                "Mathematics and Statistics",
+                "B\u00fccher"
+            ],
+            "P60163": "Basel"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

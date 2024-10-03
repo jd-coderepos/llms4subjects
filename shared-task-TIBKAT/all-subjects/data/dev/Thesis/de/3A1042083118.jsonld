@@ -1,0 +1,131 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1172988560",
+            "sameAs": "Ahmad, Ahmad"
+        },
+        {
+            "@id": "gnd:130015679",
+            "sameAs": "Gutschmidt, Stefanie"
+        },
+        {
+            "@id": "gnd:137611803",
+            "sameAs": "Rangelow, Ivo W."
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4198914-4",
+            "sameAs": "Aktor"
+        },
+        {
+            "@id": "gnd:4333578-0",
+            "sameAs": "Rasterkraftmikroskop"
+        },
+        {
+            "@id": "gnd:4347749-5",
+            "sameAs": "Field programmable gate array"
+        },
+        {
+            "@id": "gnd:4727755-5",
+            "sameAs": "Kantilever"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1042083118",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (180 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Gotszalk, Teodor",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1042083118",
+                "(firstid)GBV:1042083118"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc-dbn)530",
+                "Kompensator",
+                "Field programmable gate array",
+                "Kantilever",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=linseach:mapping)phy",
+                "Scanner",
+                "Rasterkraftmikroskop",
+                "(classificationName=ddc-dbn)621.3"
+            ],
+            "title": "Realisierung der Steuerungs-/Regelungsalgorithmen mittels FPGA f\u00fcr ein hochaufl\u00f6sendes und schnelles Rasterkraftmikroskop mit aktivem Cantilever",
+            "abstract": "Die Entwicklungen des Rasterkraftmikroskops (AFM: atomic force microscope) betrafen alle seine Komponenten, angefangen von Kraftsensoren, Regelungstechniken, Materialien, und Ausr\u00fcstung bis zu den Betriebsmoden. Die meisten dieser Entwicklungen haben das Ziel, die Aufl\u00f6sung des AFM zu verbessern und seine Geschwindigkeit zu erh\u00f6hen. Meine Doktorarbeit versucht, zur Entwicklung der Rasterkraftmikroskopie dadurch beizutragen, dass neue Steuerungs- und Regelungsmethoden f\u00fcr das AFM-System mit dem selbstaktuierten piezoresistiven Cantilever (Aktiver Cantilever) als Kraftsensor entworfen und auf Basis der \"Field Programmable Gate Array\" (FPGA) implementiert werden. In dieser Arbeit wird die Performanz des AFM-Systems mit aktivem Cantilever in der \"Geschwindigkeit-Aufl\u00f6sung-Ebene\" verbessert. Daf\u00fcr werden digitale Regelungs- und Steuerungsalgorithmen mit hohem Durchsatz f\u00fcr das AFM-System entworfen und auf FPGA implementiert. Eine Methode wird im Rahmen dieser Arbeit f\u00fcr die automatische Ann\u00e4herung der Sonde in Richtung der Oberfl\u00e4che der Probe in einer sehr schnellen und sicheren Art und Weise entwickelt. Die schnelle Ann\u00e4herung f\u00fchrt zu Verbesserung der AFM-Produktivit\u00e4t besonders bei den Anwendungen, die eine Wiederholung des Ann\u00e4herungsprozesses w\u00e4hrend der gleichen Sitzung erfordern (step and image). R\u00fcckkoppelungsregelung und Vorw\u00e4rtsregelung auf Basis eines FPGA werden untersucht, entworfen und implementiert, um die Auswirkungen der Hysterese und Vibrationen des Scanners (Positioniersystem) zu kompensieren. Es wird gezeigt, dass sich durch die Normierung der Hysterese-Kurven die Komplexit\u00e4t des Hysterese-Modells und dadurch des inversen Modells der Hysterese stark reduzieren l\u00e4sst. Ein neues alternatives Verfahren zur Charakterisierung der Hysterese mittels des AFM-Amplitudenbilds wird erl\u00e4utert. Der Scanner wird als lineares System h\u00f6herer Ordnung betrachtet und identifiziert. Ein digitaler Kompensator wird zum Unterdr\u00fccken der Scanner-Vibration entwickelt und im FPGA implementiert. Die Scan-Trajektorie in den XY-Richtungen hat einen signifikanten Einfluss auf die Wahl der Steuerungsarchitektur und die erreichbare Scan-Geschwindigkeit. Daf\u00fcr werden verschiedene Methoden (\"Input-Shaper\", sinusf\u00f6rmiges und spirales Scannen) in dieser Arbeit implementiert. Zus\u00e4tzlich werden eine nichtlineare Erfassungsmethode des AFM-Bildes und eine Phasenkorrektur verwendet, um die Verzerrung des AFM-Bildes aufgrund der nicht-linearen Scansignale zu vermeiden. In dieser Arbeit wird eine neue Struktur des digitalen Lock-In entwickelt, der die Amplitude und Phase der Cantilever-Schwingung sehr schnell ermitteln kann. Die Detektionszeit ist kleiner als eine Schwingungsperiode. Die Regelung f\u00fcr ein \"Z-Scanner-lose-AFM\" wird entworfen und auf FPGA implementiert. In diesem System wird der TMA (Thermomechanischer Aktuator) des aktiven Cantilevers anstatt des Z-Piezoaktuator verwendet, um die Topographie der gescannten Oberfl\u00e4che zu verfolgen. Dieses Prinzip wird ausgenutzt, um ein AFM-System mit einem aktiven Cantilever-Array (4 Cantilever) zum parallelen Scannen einer gro\u00dfen Oberfl\u00e4che (0.5mm x 0.2mm) zu entwickeln. Als effektive Scan-Geschwindigkeit werden 5,6 mm/s erreicht. Im Rahmen dieser Arbeit wird eine neuartige adaptive Variante zur Erh\u00f6hung der Scangeschwindigkeit entwickelt. Diese Methode verhindert ebenfalls effektiv das S\u00e4ttigungsproblem, das beim Scannen der Oberfl\u00e4chen-Topographien mit hohem Aspekt-Verh\u00e4ltnis entsteht. Verglichen mit einem Standard-Regler erm\u00f6glicht der adaptive Regler eine deutlich h\u00f6here Stufenaufl\u00f6sung bei vergleichbaren Scanraten. Daher wird das Scannen vier- bis sechsmal schneller bei gleicher Abbildungsqualit\u00e4t. Beim Scannen mit einer kleinen Kraft gibt es sogar eine bis zu 17-fache Verbesserung.",
+            "contributor": [
+                "gnd:130015679",
+                "gnd:137611803"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1172988560"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4333578-0"
+                },
+                {
+                    "@id": "gnd:4347749-5"
+                },
+                {
+                    "@id": "gnd:4198914-4"
+                },
+                {
+                    "@id": "gnd:4727755-5"
+                }
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

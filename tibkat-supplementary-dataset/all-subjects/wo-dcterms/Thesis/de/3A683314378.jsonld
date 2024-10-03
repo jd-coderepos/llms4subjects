@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1018711473",
+            "sameAs": "Kr\u00fcger, Alexander"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A683314378",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "H\u00e4b-Umbach, Reinhold",
+                "Meerk\u00f6tter, Klaus"
+            ],
+            "identifier": [
+                "(ppn)683314378",
+                "(firstid)HBZ:CT004000754"
+            ],
+            "subject": [
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=ddc)006.454",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc)621.3828",
+                "(classificationName=linseach:mapping)elt",
+                "(classificationName=ddc-dbn)500"
+            ],
+            "title": "Modellbasierte Merkmalsverbesserung zur robusten automatischen Spracherkennung in Gegenwart von Nachhall und Hintergrundst\u00f6rungen",
+            "abstract": "Bei der Verwendung von Freisprechsystemen zur automatischen Spracherkennung tritt das Problem auf, dass neben dem gew\u00fcnschten Sprachsignal sowohl dessen Nachhall als auch unerw\u00fcnschte Hintergrundst\u00f6rungen durch das Mikrofon aufgenommen werden. Dieses bewirkt eine Ver\u00e4nderung der f\u00fcr die Dekodierung relevanten akustischen Merkmale, welche aus dem Mikrofonsignal extrahiert werden. Da f\u00fcr das Training des Spracherkenners gew\u00f6hnlich ungest\u00f6rte Sprachsignale herangezogen werden, f\u00fchrt die Diskrepanz zwischen den Trainings- und Einsatzbedingungen zu einer erh\u00f6hten Wortfehlerrate. In dieser Arbeit wird ein neuartiges, auf der Anwendung von Bayes'scher Inferenz basierendes Verfahren zur Verbesserung akustischer Merkmale zur robusten automatischen Spracherkennung in Gegenwart von Nachhall sowie Hintergrundst\u00f6rungen entwickelt. Das Verfahren nutzt einerseits a priori-Modelle zur Beschreibung der Trajektorien der akustischen Merkmale jeweils des sauberen Sprachsignals sowie des Hintergrundst\u00f6rsignals, wobei im ersteren Fall schaltende, lineare dynamische Modelle zur Ausnutzung von Korrelationen zwischen zeitlich aufeinander folgenden Merkmalen eingesetzt werden. Die Arbeit konzentriert sich dabei auf das Training der Modelle sowie die Initialisierung deren Parameter. Andererseits wird f\u00fcr die Merkmalsverbesserung ein Beobachtungsmodell verwendet, welches die Merkmale des verhallten und gest\u00f6rten Sprachsignals mit denen des sauberen in Beziehung setzt. Diese Beziehung h\u00e4ngt von der Raumimpulsantwort zwischen dem Sprecher und dem Mikrofon ab. Da deren blinde Sch\u00e4tzung, die in einer unbekannten Umgebung erforderlich ist, hoch sensibel ist, wird die Raumimpulsantwort durch ein statistisches Modell beschrieben. Dieses besitzt nur zwei Parameter, welche einfacher und robuster als die vollst\u00e4ndige Raumimpulsantwort gesch\u00e4tzt werden k\u00f6nnen.. - Using hands-free systems for automatic speech recognition may contribute to increased convenience and safety in many application areas. In this case, however, the problem occurs that, in addition to the desired speech signal, also reverberation and undesired background noise are captured by the microphone. These influences cause a degradation of the acoustic features, which are extracted from the microphone signal for the subsequent decoding. Since for the training of the recognizer usually clean speech signals are employed, the discrepancy between the training and testing conditions leads to an increased word error rate. In this thesis a new technique for the enhancement of acoustic features for robust speech recognition in the presence of reverberation and noise is developed, which is based on the application of Bayesian inference and whose main focus is on the compensation of the effects of reverberation. On the one hand, the technique involves a priori models to describe the time trajectory of the acoustic features belonging to the clean speech signal and background noise signal. In the former case switching linear dynamic models are employed to exploit correlations between successive features. This thesis concentrates on the training of the models as well as the initialization of the model parameters. On the other hand, the feature enhancement technique uses an observation model, which relates the features of the reverberant and noisy speech signal to those of the clean speech signal. This relation depends on the room impulse response between the speaker and the microphone. As its blind estimation, which is required in an unknown environment, is extremely sensitive, the room impulse response is modeled statistically. The statistic model has only two parameters, which may be estimated from the captured microphone signal easier and more robust than the complete room impulse response.",
+            "alternative": "Model-based feature enhancement for robust automatic speech recognition in presence of reverberation and background noise",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1018711473",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2011",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

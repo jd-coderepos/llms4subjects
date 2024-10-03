@@ -1,0 +1,134 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1018860517",
+            "sameAs": "Stober, Sebastian"
+        },
+        {
+            "@id": "gnd:1142395472",
+            "sameAs": "Goto, Masataka"
+        },
+        {
+            "@id": "gnd:1162701021",
+            "sameAs": "Kruspe, Anna"
+        },
+        {
+            "@id": "gnd:130001112",
+            "sameAs": "Brandenburg, Karlheinz"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "gnd:4003961-4",
+            "sameAs": "Automatische Spracherkennung"
+        },
+        {
+            "@id": "gnd:4045828-3",
+            "sameAs": "Phonem"
+        },
+        {
+            "@id": "gnd:4052602-1",
+            "sameAs": "Schlagwort"
+        },
+        {
+            "@id": "gnd:4072803-1",
+            "sameAs": "Information Retrieval"
+        },
+        {
+            "@id": "gnd:4124195-2",
+            "sameAs": "Singen"
+        },
+        {
+            "@id": "gnd:6040704-9",
+            "sameAs": "Fraunhofer-Institut f\u00fcr Digitale Medientechnologie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1027782469",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (vi, 179 Bl\u00e4tter)",
+            "description": "Diagramme, Illustrationen (teilweise farbig)",
+            "identifier": [
+                "(ppn)1027782469",
+                "(firstid)GBV:1027782469"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)006.45",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004"
+            ],
+            "title": "Application of automatic speech recognition technologies to singing",
+            "abstract": "Das Gebiet des Music Information Retrieval befasst sich mit der automatischen Analyse von musikalischen Charakteristika. Ein Aspekt, der bisher kaum erforscht wurde, ist dabei der gesungene Text. Auf der anderen Seite werden in der automatischen Spracherkennung viele Methoden f\u00fcr die automatische Analyse von Sprache entwickelt, jedoch selten f\u00fcr Gesang. Die vorliegende Arbeit untersucht die Anwendung von Methoden aus der Spracherkennung auf Gesang und beschreibt m\u00f6gliche Anpassungen. Zudem werden Wege zur praktischen Anwendung dieser Ans\u00e4tze aufgezeigt. F\u00fcnf Themen werden dabei betrachtet: Phonemerkennung, Sprachenidentifikation, Schlagwortsuche, Text-zu-Gesangs-Alignment und Suche von Texten anhand von gesungenen Anfragen. Das gr\u00f6\u00dfte Hindernis bei fast allen dieser Themen ist die Erkennung von Phonemen aus Gesangsaufnahmen. Herk\u00f6mmliche, auf Sprache trainierte Modelle, bieten keine guten Ergebnisse f\u00fcr Gesang. Das Trainieren von Modellen auf Gesang ist schwierig, da kaum annotierte Daten verf\u00fcgbar sind. Diese Arbeit zeigt zwei Ans\u00e4tze auf, um solche Daten zu generieren. F\u00fcr den ersten wurden Sprachaufnahmen k\u00fcnstlich gesangs\u00e4hnlicher gemacht. F\u00fcr den zweiten wurden Texte automatisch zu einem vorhandenen Gesangsdatensatz zugeordnet. Die neuen Datens\u00e4tze wurden zum Trainieren neuer Modelle genutzt, welche deutliche Verbesserungen gegen\u00fcber sprachbasierten Modellen bieten. Auf diesen verbesserten akustischen Modellen aufbauend wurden Algorithmen aus der Spracherkennung f\u00fcr die verschiedenen Aufgaben angepasst, entweder durch das Verbessern der Robustheit gegen\u00fcber Gesangscharakteristika oder durch das Ausnutzen von hilfreichen Besonderheiten von Gesang. Beispiele f\u00fcr die verbesserte Robustheit sind der Einsatz von Keyword-Filler-HMMs f\u00fcr die Schlagwortsuche, ein i-Vector-Ansatz f\u00fcr die Sprachenidentifikation sowie eine Methode f\u00fcr das Alignment und die Textsuche, die stark schwankende Phonemdauern nicht bestraft. Die Besonderheiten von Gesang werden auf verschiedene Weisen genutzt: So z.B. in einem Ansatz f\u00fcr die Sprachenidentifikation, der lange Aufnahmen ben\u00f6tigt; in einer Methode f\u00fcr die Schlagwortsuche, die bekannte Phonemdauern in Gesang mit einbezieht; und in einem Algorithmus f\u00fcr das Alignment und die Textsuche, der bekannte Phonemkonfusionen verwertet.",
+            "contributor": [
+                "gnd:130001112",
+                "gnd:1142395472",
+                "gnd:1018860517"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:6040704-9",
+                "gnd:1162701021",
+                "gnd:2125187-3"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4072803-1",
+                "gnd:4003961-4",
+                "gnd:4052602-1",
+                "gnd:4045828-3",
+                "gnd:4124195-2"
+            ],
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1059143054",
+            "sameAs": "Zernike-Polynome"
+        },
+        {
+            "@id": "gnd:1187766399",
+            "sameAs": "Oleszko, Mateusz"
+        },
+        {
+            "@id": "gnd:1194350542",
+            "sameAs": "Lindlein, Norbert"
+        },
+        {
+            "@id": "gnd:1272713482",
+            "sameAs": "D\u00fcrr, Fabian"
+        },
+        {
+            "@id": "gnd:134121201",
+            "sameAs": "Gross, Herbert"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4126186-0",
+            "sameAs": "Optisches System"
+        },
+        {
+            "@id": "gnd:4132894-2",
+            "sameAs": "Abbildungsfehler"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4198736-6",
+            "sameAs": "Freiformfl\u00e4che"
+        },
+        {
+            "@id": "gnd:4338132-7",
+            "sameAs": "Numerisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A166667477X",
+            "@type": "bibo:Thesis",
+            "P1053": "95 Seiten",
+            "description": [
+                "Illustrationen, Diagramme",
+                "30 cm"
+            ],
+            "identifier": [
+                "(ppn)166667477X",
+                "(firstid)KXP:166667477X"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc)530.417",
+                "(classificationName=bk, id=106419102)33.18 - Optik",
+                "(classificationName=bk, id=106407937)33.06 - Mathematische Methoden der Physik",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "Analysis of freeform optical systems based on the decomposition of the total wave aberration into Zernike surface contributions",
+            "abstract": "The increasing use of freeform optical surfaces raises the demand for optical design tools developed for generalized systems. In the design process, surface-by-surface aberration contributions are of special interest. The expansion of the wave aberration function into the field- and pupil-dependent coefficients is an analytical method used for that purpose. An alternative numerical approach utilizing data from the trace of multiple ray sets is proposed. The optical system is divided into segments of the optical path measured along the chief ray. Each segment covers one surface and the distance to the subsequent surface. Surface contributions represent the change of the wavefront that occurs due to propagation through individual segments. Further, the surface contributions are divided with respect to their phenomenological origin into intrinsic induced and transfer components. Each component is determined from a separate set of rays. The proposed method does not place any constraints on the system geometry or the aperture shape. However, in this thesis only plane symmetric systems with near-circular apertures are studied. This enabled characterization of the obtained aberration components with Zernike fringe polynomials. The application of the proposed method in the design process of the freeform systems is demonstrated. The analysis of Zernike surface contributions provides valuable insights for selecting the starting system with the best potential for correcting aberrations with freeform surfaces. Further, it helps in determining the effective location of a freeform element in a system. Consequently, it is possible to design systems corrected for Zernike aberrations of order higher than the order of coefficients used for freeform sag contributions, described with the same Zernike polynomial set.",
+            "contributor": [
+                "gnd:1194350542",
+                "gnd:134121201",
+                "gnd:1272713482"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1187766399",
+                "gnd:36164-1"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "subject": [
+                "gnd:4148259-1",
+                "gnd:1059143054",
+                "gnd:4132894-2",
+                "gnd:4126186-0",
+                "gnd:4198736-6",
+                "gnd:4338132-7"
+            ],
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/166667477x.pdf",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

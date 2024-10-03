@@ -1,0 +1,78 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:128408723",
+            "sameAs": "Dressler, Falko"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1015724086",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (ix, 133 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Karl, Holger",
+            "creator": "Schwabe, Arne",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1015724086",
+                "(doi)10.17619/UNIPB/1-287",
+                "(firstid)HBZ:CT004002048"
+            ],
+            "subject": [
+                "(classificationName=ddc)000",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)inf"
+            ],
+            "title": "Data-centre traffic optimisation using software-defined networks",
+            "abstract": "Das Datenverkehrsaufkommen in Rechenzentren w\u00e4chst stetig an. Die weit ver- breiteten Round-Robin Verfahren k\u00f6nnen dieses Aufkommen nicht mehr bew\u00e4ltigen, da diese die Last ungleich verteilen. Manuelle Planung und Umverteilung, auch Traffic Engineering genannt, lindert dieses Problem und wird vielfach in Weitverkehrsnetzwerken (WANs) eingesetzt.Der hohe manuelle Aufwand und die damit verbundenen Kosten, als auch die Kosten f\u00fcr spezielle Hardware, ma- chen Traffic Engineering in Rechenzentren jedoch unpraktikabel. Diese Dissertation besch\u00e4ftigt sich mit der Frage, ob Software-Defined Networ- king (SDN) genutzt werden kann, um Traffic Engineering im Rechenzentrums- umfeld praktikabel zu gestalten. Um dieses Ziel zu erreichen, muss der manuelle Aufwand minimiert werden und die Anforderungen an die Hardware reduziert werden. Daf\u00fcr zeige ich zun\u00e4chst in dieser Arbeit, dass SDN es erm\u00f6glicht Label Switching, das bessere Verteilung der Fl\u00fcsse erm\u00f6glicht, ohne spezielle Hardware zu realisieren. Ich stelle ich SynRace vor, welches SDN mit Testpaketen kombiniert, um den Status des Netzwerkes besser beobachten zu k\u00f6nnen. Dar\u00fcber hinaus, wird as GlobalFib Framework eingef\u00fchrt, welches SDN Anwendungen erlaubt, direkt ihre Bedarfsanforderungen an eine zentrale Stelle zu melden. Diese Ans\u00e4tze erlauben die Verteilung der Fl\u00fcsse zu automatisieren. Wenn mehrere SDN Anwendungen im gleichen Netzwerk ausgef\u00fchrt werden und versuchen, gleichzeitig ihre Anforderungen und Regeln durchzusetzen, sind Konflikte unausweichbar. In dieser Arbeit analysiere ich die Art dieser Konflikte und M\u00f6glichkeiten, mit diesen umzugehen. Der NetIDE core implementiert diese Konfliktbehandlung und die dynamische Konfiguration des Netzwerkes.. - Traffic demands in data centres are steadily increasing. Simple, yet commonly used round-robin algorithms are notable to meet these demands since they distribute the demands unevenly. Manually planning and redistribution, also called traffic engineering (TE), alleviates this problem. Traffic engineering is common in wide area networks (WANs). The high amount of manual workand associated cost in special hardware makes traffic engineering unpractical in data centre networks. This thesis looks into the question whether software-defined networking (SDN) can be used to bring traffic engineering to the data centre. To reach this goal, the amount of manual labour and requirements for hardware need to be reduced. I first show that label switching, which enables better traffic distribution, is possible withSDN without special hardware. I present SynRace that infers network status by combining probes with SDN. The GlobalFIB framework allows applications to report directly their demands to a central instance. Both allow traffic redistribution to be automated.With running multiple SDN application on the network and trying to fulfil all their demands and rules, conflicts are inevitable. In this thesis I analyse the nature of these conflicts and possibilities to handle them. The NetIDE core implements this conflict resolution and dynamic reconfiguration of the network.",
+            "contributor": "gnd:128408723",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.17619/UNIPB/1-287",
+            "P60163": "Paderborn"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A749142642",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (208p)",
+            "contributor": [
+                "Lee, Edward A.",
+                "Murthy, Praveen K."
+            ],
+            "creator": "Battacharyya, Shuvra S.",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "digital"
+            ],
+            "identifier": [
+                "(isbn13)9781461313892",
+                "(firstid)GBV:749142642",
+                "(doi)10.1007/978-1-4613-1389-2",
+                "(ppn)749142642"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=loc)TK5102.9",
+                "(classificationName=linseach:mapping)elt",
+                "Computer-aided engineering.",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc)621.382",
+                "(classificationName=loc)TA1637-1638",
+                "Engineering",
+                "Electrical engineering.",
+                "(classificationName=loc)TK7882.S65",
+                "Computer engineering",
+                "Computer aided design",
+                "Signal processing."
+            ],
+            "title": "Software Synthesis from Dataflow Graphs",
+            "abstract": "Software Synthesis from Dataflow Graphs addresses the problem of generating efficient software implementations from applications specified as synchronous dataflow graphs for programmable digital signal processors (DSPs) used in embedded real- time systems. The advent of high-speed graphics workstations has made feasible the use of graphical block diagram programming environments by designers of signal processing systems. A particular subset of dataflow, called Synchronous Dataflow (SDF), has proven efficient for representing a wide class of unirate and multirate signal processing algorithms, and has been used as the basis for numerous DSP block diagram-based programming environments such as the Signal Processing Workstation from Cadence Design Systems, Inc., COSSAP from Synopsys\u00ae (both commercial tools), and the Ptolemy environment from the University of California at Berkeley. A key property of the SDF model is that static schedules can be determined at compile time. This removes the overhead of dynamic scheduling and is thus useful for real-time DSP programs where throughput requirements are often severe. Another constraint that programmable DSPs for embedded systems have is the limited amount of on-chip memory. Off-chip memory is not only expensive but is also slower and increases the power consumption of the system; hence, it is imperative that programs fit in the on-chip memory whenever possible. Software Synthesis from Dataflow Graphs reviews the state-of-the-art in constructing static, memory-optimal schedules for programs expressed as SDF graphs. Code size reduction is obtained by the careful organization of loops in the target code. Data buffering is optimized by constructing the loop hierarchy in provably optimal ways for many classes of SDF graphs. The central result is a uniprocessor scheduling framework that provably synthesizes the most compact looping structures, called single appearance schedules, for a certain class of SDF graphs. In addition, algorithms and heuristics are presented that generate single appearance schedules optimized for data buffering usage. Numerous practical examples and extensive experimental data are provided to illustrate the efficacy of these techniques",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-ENG",
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-BAE"
+            ],
+            "issued": "1996",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "360",
+            "isLike": "doi:10.1007/978-1-4613-1389-2",
+            "P30128": "The Kluwer International Series in Engineering and Computer Science, VLSI, Computer Architecture and Digital Signal Processing",
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

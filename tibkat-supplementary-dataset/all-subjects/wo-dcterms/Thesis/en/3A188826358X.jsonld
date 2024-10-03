@@ -1,0 +1,102 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1138799238",
+            "sameAs": "Halfpap, Stefan"
+        },
+        {
+            "@id": "gnd:121975193",
+            "sameAs": "Plattner, Hasso"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A188826358X",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (iii, 185 Seiten, 11044 KB)",
+            "contributor": [
+                "Jacobsen, Hans-Arno",
+                "Sattler, Kai-Uwe"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.25932/publishup-63361",
+                "(ppn)188826358X",
+                "(firstid)KXP:188826358X"
+            ],
+            "subject": [
+                "Datenbanksystem",
+                "Leistungsbewertung",
+                "(classificationName=ddc-dbn)005.74",
+                "Abfrageverarbeitung",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "Heuristik"
+            ],
+            "title": "Integer linear programming-based heuristics for partially replicated database clusters and selecting indexes",
+            "abstract": "Column-oriented database systems can efficiently process transactional and analytical queries on a single node. However, increasing or peak analytical loads can quickly saturate single-node database systems. Then, a common scale-out option is using a database cluster with a single primary node for transaction processing and read-only replicas. Using (the naive) full replication, queries are distributed among nodes independently of the accessed data. This approach is relatively expensive because all nodes must store all data and apply all data modifications caused by inserts, deletes, or updates. In contrast to full replication, partial replication is a more cost-efficient implementation: Instead of duplicating all data to all replica nodes, partial replicas store only a subset of the data while being able to process a large workload share. Besides lower storage costs, partial replicas enable (i) better scaling because replicas must potentially synchronize only subsets of the data modifications and thus have more capacity for ...",
+            "alternative": "Auf ganzzahliger linearer Optimierung basierende Heuristiken f\u00fcr partiell-replizierte Datenbankcluster und das Ausw\u00e4hlen von Indizes",
+            "dcterms:contributor": [
+                {
+                    "@id": "gnd:121975193"
+                },
+                "Technische Informationsbibliothek (TIB)"
+            ],
+            "creator": [
+                "gnd:1138799238",
+                "gnd:2120681-8"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25932/publishup-63361",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

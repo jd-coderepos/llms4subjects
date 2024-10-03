@@ -1,0 +1,60 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A600979121",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 92 S., 503 KB)",
+            "creator": "Torres, Felipe",
+            "identifier": [
+                "(ppn)600979121",
+                "(firstid)DNB:994050542"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "subject": [
+                "(classificationName=ddc)519.2",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=bk, id=106408070)31.70 - Wahrscheinlichkeitsrechnung",
+                "(classificationName=ssg)17,1"
+            ],
+            "title": "On the probabilistic longest common subsequence problem for sequences of independent blocks",
+            "abstract": "Let X and Y be two binary random strings of length n independent of each other. Let Ln denote the length of the Longest Common Subsequence (LCS) of X and Y. In general the order of magnitude in n of VAR[Ln] is not known. So far, Matzinger and his collaborators had been able to prove that VAR[Ln] has order asymptotic n in few cases depending on the distribution of symbols in the sequences X and Y. In this thesis, we prove that VAR[Ln] has order asymptotic n considering a model which is not low entropy, in comparison with some previous cases which are low entropy models. The model for the distribution we consider here is i.i.d. sequences of blocks, where blocks are words consisting only of one symbol. In the present case all the blocks have length l-1, l or l+1 with probability 1/3 for a given integer parameter l>0. We reduce the problem of proving that VAR[Ln] has order asymptotic n to showing that a function under an entropy constraint does not go below zero. The method which we develop could be used for many other more complex cases wherever one pattern tends to influence the LCS score in a biased way. Also, a natural question is what happens if one has a more realistic situation than i.i.d, like Markov chains of words for instance (DNA models). This thesis partially answers this question since the model considered is a Markov chain, but the more general case where one can have blocks with different lengths (for instance, in the Bernoulli case a block of length j>0 has length 0.5j) is still open for future research though the techniques shown here give us new tools for approaching it.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

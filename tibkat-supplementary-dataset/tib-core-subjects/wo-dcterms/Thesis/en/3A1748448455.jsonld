@@ -1,0 +1,115 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120777134",
+            "sameAs": "Fingscheidt, Tim"
+        },
+        {
+            "@id": "gnd:129524913",
+            "sameAs": "Jorswieck, Eduard Axel"
+        },
+        {
+            "@id": "gnd:143794876",
+            "sameAs": "Martin, Rainer"
+        },
+        {
+            "@id": "gnd:36227-X",
+            "sameAs": "Technische Universit\u00e4t Braunschweig"
+        },
+        {
+            "@id": "gnd:4116579-2",
+            "sameAs": "Sprachverarbeitung"
+        },
+        {
+            "@id": "gnd:4177102-3",
+            "sameAs": "Rauschunterdr\u00fcckung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1748448455",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource",
+            "http://purl.org/dc/elements/1.1/creator": "Elshamy, Samy",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.24355/dbbs.084-202102121510-0",
+                "(firstid)KXP:1748448455",
+                "(ppn)1748448455"
+            ],
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=bk, id=10640587X)54.75 - Sprachverarbeitung",
+                "(classificationName=ddc-dbn)621.3",
+                "(classificationName=bk, id=106417657)53.73 - Nachrichten\u00fcbertragung",
+                "(classificationName=ddc)621.3828",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=linseach:mapping)elt"
+            ],
+            "title": "Speech enhancement exploiting the source-filter model",
+            "abstract": "Imagining everyday life without mobile telephony is nowadays hardly possible. Calls are being made in every thinkable situation and environment. Hence, the microphone will not only pick up the user\u2019s speech but also sound from the surroundings which is likely to impede the understanding of the conversational partner. Modern speech enhancement systems are able to mitigate such effects and most users are not even aware of their existence. In this thesis the development of a modern single-channel speech enhancement approach is presented, which uses the divide and conquer principle to combat environmental noise in microphone signals. Though initially motivated by mobile telephony applications, this approach can be applied whenever speech is to be retrieved from a corrupted signal. The approach uses the so-called source-filter model to divide the problem into two subproblems which are then subsequently conquered by enhancing the source (the excitation signal) and the filter (the spectral envelope) separately. Both enhanced signals are then used to denoise the corrupted signal. The estimation of spectral envelopes has quite some history and some approaches already exist for speech enhancement. However, they typically neglect the excitation signal which leads to the inability of enhancing the fine structure properly. Both individual enhancement approaches exploit benefits of the cepstral domain which offers, e.g., advantageous mathematical properties and straightforward synthesis of excitation-like signals. We investigate traditional model-based schemes like Gaussian mixture models (GMMs), classical signal processing-based, as well as modern deep neural network (DNN)-based approaches in this thesis. The enhanced signals are not used directly to enhance the corrupted signal (e.g., to synthesize a clean speech signal) but as so-called a priori signal-to-noise ratio (SNR) estimate in a traditional statistical speech enhancement system. Such a traditional system consists of a noise power estimator, an a priori SNR estimator, and a spectral weighting rule that is usually driven by the results of the aforementioned estimators and subsequently employed to retrieve the clean speech estimate from the noisy observation. As a result the new approach obtains significantly higher noise attenuation compared to current state-of-the-art systems while maintaining a quite comparable speech component quality and speech intelligibility. In consequence, the overall quality of the enhanced speech signal turns out to be superior as compared to state-of-the-art speech ehnahcement approaches.",
+            "contributor": [
+                "gnd:143794876",
+                "gnd:120777134",
+                "gnd:129524913"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:36227-X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4116579-2",
+                "gnd:4177102-3"
+            ],
+            "isLike": "doi:10.24355/dbbs.084-202102121510-0",
+            "P60163": "Braunschweig"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

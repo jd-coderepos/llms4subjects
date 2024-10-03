@@ -1,0 +1,130 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4122832-7",
+            "sameAs": "ARIMA-Modell"
+        },
+        {
+            "@id": "gnd:4178933-7",
+            "sameAs": "Saisonbereinigungsverfahren"
+        },
+        {
+            "@id": "gnd:4323273-5",
+            "sameAs": "Gleitendes Mittel"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1655424262",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XXII, 256p. 24 illus, online resource)",
+            "http://purl.org/dc/elements/1.1/contributor": "Quenneville, Beno\u00eet",
+            "creator": "Ladiray, Dominique",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)1655424262",
+                "(firstid)BSZ:404687091",
+                "(isbn13)9781461301752",
+                "(doi)10.1007/978-1-4613-0175-2"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Saisonkomponente",
+                "(classificationName=ddc)004",
+                "Theorie",
+                "Econometrics.",
+                "(classificationName=bk, id=106419005)31.80 - Angewandte Mathematik",
+                "Computer software.",
+                "(classificationName=ddc)519.5",
+                "(classificationName=msc)62P20",
+                "(classificationName=msc)62-02",
+                "Mathematical statistics",
+                "(classificationName=ddc)510.285",
+                "(classificationName=rvk)SI 856",
+                "(classificationName=bk, id=106418998)31.73 - Mathematische Statistik",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=msc)*62M10",
+                "(classificationName=loc)QA276-280",
+                "Economics",
+                "Statistics",
+                "(classificationName=msc)62P99",
+                "Probabilities."
+            ],
+            "title": "Seasonal Adjustment with the X-11 Method",
+            "abstract": "The most widely used statistical method in seasonal adjustment is without doubt that implemented in the X-11 Variant of the Census Method II Seasonal Adjustment Program. Developed at the US Bureau of the Census in the 1950's and 1960's, this computer program has undergone numerous modifications and improvements, leading especially to the X-11-ARIMA software packages in 1975 and 1988 and X-12-ARIMA, the first beta version of which is dated 1998. While these software packages integrate, to varying degrees, parametric methods, and especially the ARIMA models popularized by Box and Jenkins, they remain in essence very close to the initial X-11 method, and it is this \"core\" that Seasonal Adjustment with the X-11 Method focuses on. With a Preface by Allan Young, the authors document the seasonal adjustment method implemented in the X-11 based software. It will be an important reference for government agencies, macroeconomists, and other serious users of economic data. After some historical notes, the authors outline the X-11 methodology. One chapter is devoted to the study of moving averages with an emphasis on those used by X-11. Readers will also find a complete example of seasonal adjustment, and have a detailed picture of all the calculations",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-SXMS",
+                "(collectioncode)ZDB-2-SMA",
+                "(collectioncode)ZDB-2-SEB"
+            ],
+            "issued": "2001",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4178933-7"
+                },
+                {
+                    "@id": "gnd:4122832-7"
+                },
+                {
+                    "@id": "gnd:4323273-5"
+                }
+            ],
+            "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/DEAGI1053FA.pdf",
+            "volume": "158",
+            "isLike": "doi:10.1007/978-1-4613-0175-2",
+            "P30128": [
+                "SpringerLink",
+                "B\u00fccher",
+                "Mathematics and Statistics",
+                "Springer eBook Collection",
+                "Lecture Notes in Statistics"
+            ],
+            "P60163": "New York, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1163044806",
+            "sameAs": "Fr\u00f6hlich, Bernd"
+        },
+        {
+            "@id": "gnd:123136539",
+            "sameAs": "Staadt, Oliver"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1049315197",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (153 Seiten, 157 MB)",
+            "creator": "Beck, Stephan",
+            "description": "Illustrationen",
+            "identifier": [
+                "(doi)10.25643/bauhaus-universitaet.3856",
+                "(ppn)1049315197",
+                "(firstid)GBV:1049315197"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=bk, id=106417983)54.21 - Rechnerperipherie, Datenkommunikationshardware",
+                "Mensch-Maschine-Kommunikation",
+                "(classificationName=ddc)006.8",
+                "Virtuelle Realit\u00e4t",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=bk, id=106423339)54.76 - Computersimulation",
+                "Telepr\u00e4senz"
+            ],
+            "title": "Immersive telepresence systems and technologies",
+            "abstract": [
+                "Modern immersive telepresence systems enable people at different locations to meet in virtual environments using realistic three-dimensional representations of their bodies. For the realization of such a three-dimensional version of a video conferencing system, each user is continuously recorded in 3D. These 3D recordings are exchanged over the network between remote sites. At each site, the remote recordings of the users, referred to as 3D video avatars, are seamlessly integrated into a shared virtual scenery and displayed in stereoscopic 3D for each user from his or her perspective. This thesis reports on algorithmic and technical contributions to modern immersive telepresence systems and presents the design, implementation and evaluation of the first immersive group-to-group telepresence system in which each user is represented as realistic life-size 3D video avatar. The system enabled two remote user groups to meet and collaborate in a consistent shared virtual environment. The system relied on novel methods for the precise calibration and registration of color- and depth- sensors (RGBD) into the coordinate system of the application as well as an advanced distributed processing pipeline that reconstructs realistic 3D video avatars in real-time. During the course of this thesis, the calibration of 3D capturing systems was greatly improved. While the first development focused on precisely calibrating individual RGBD-sensors, the second stage presents a new method for calibrating and registering multiple color and depth sensors at a very high precision throughout a large 3D capturing volume. This method was further refined by a novel automatic optimization process that significantly speeds up the manual operation and yields similarly high accuracy. A core benefit of the new calibration method is its high runtime efficiency by directly mapping from raw depth sensor measurements into an application coordinate system and to the coordinates of its associated color sensor. As a result, the calibration method is an efficient solution in terms of precision and applicability in virtual reality and immersive telepresence applications. In addition to the core contributions, the results of two case studies which address 3D reconstruction and data streaming lead to the final conclusion of this thesis and to directions of future work in the rapidly advancing field of immersive telepresence research.",
+                "In modernen 3D-Telepresence-Systemen werden die Nutzer realistisch dreidimensional repr\u00e4sentiert und k\u00f6nnen sich in einer gemeinsamen virtuellen Umgebung treffen. Da sich die Nutzer gegenseitig realistisch sehen k\u00f6nnen, werden Limitierungen von herk\u00f6mmlichen zweidimensionalen Videokonferenzsystemen \u00fcberwunden und neue M\u00f6glichkeiten f\u00fcr die Kollaboration geschaffen. F\u00fcr die Realisierung eines immersiven Telepresence-Systems wird jeder Nutzer kontinuierlich in 3D aufgenommen und als sogenannter 3D-Video-Avatar rekonstruiert. Die 3D-Video-Avatare werden \u00fcber eine Netzwerkverbindung zwischen den entfernten Orten ausgetauscht, auf jeder Seite in eine gemeinsame virtuelle Szene integriert und f\u00fcr jeden Nutzer perspektivisch korrekt dreidimensional angezeigt. Diese Arbeit tr\u00e4gt algorithmisch und technisch zur aktuellen Forschung im Bereich 3D-Telepresence bei und pr\u00e4sentiert das Design, die Implementierung und die Evaluation eines neuen immersiven Telepresence-Systems. Benutzergruppen k\u00f6nnen sich dadurch zum ersten Mal von unterschiedlichen Orten in einer konsistenten gemeinsamen virtuellen Umgebung treffen und als realistische lebensgro\u00dfe 3D-Video-Avatare sehen. Das System basiert auf neu entwickelten Methoden, welche die pr\u00e4zise Kalibrierung und Registrierung von mehreren Farb- und Tiefenkameras in ein gemeinsames Koordinatensystem erm\u00f6glichen, sowie auf einer neu entwickelten verteilten Prozesskette, welche die realistische Rekonstruktion von 3D-Video-Avataren in Echtzeit erm\u00f6glicht. Im Rahmen dieser Arbeit wurde die Kalibrierung von 3D-Aufnahmesystemen, die auf mehreren Farb- und Tiefenkameras basieren, deutlich verbessert. Eine erste Entwicklung konzentrierte sich auf die pr\u00e4zise Kalibrierung und Registrierung ein- zelner Tiefenkameras. Eine wesentliche Neuentwicklung erm\u00f6glicht es, mehrere Farb- und Tiefenkameras mit sehr hoher Genauigkeit innerhalb eines gro\u00dfen 3D-Aufnahmebereichs volumetrisch zu kalibrieren und in ein \u00fcbergeordnetes Koordinatensystem zu registrieren. Im Laufe der Arbeit wurde die notwendige Nutzerinteraktion durch ein automatisches Optimierungsverfahren deutlich verringert, was die Kalibrierung von 3D-Aufnahmesystemen innerhalb weniger Minuten mit hoher Genauigkeit erm\u00f6glicht. Ein wesentlicher Vorteil dieser neuen volumetrischen Kalibrierungsmethode besteht darin, dass gemessene Tiefenwerte direkt in das Koordinatensystem der Anwendung und in das Koordinatensystem der korrespondierenden Farbkamera abgebildet werden. Insbesondere sind w\u00e4hrend der Anwendungslaufzeit keine Berechnungen zur Linsenentzerrung n\u00f6tig, da diese bereits implizit durch die volumetrische Kalibrierung ausgeglichen sind. Das in dieser Arbeit entwickelte immersive Telepresence-System hebt sich von verwandten Arbeiten ab. Der durch das System geschaffene virtuelle Begegnungsraum erm\u00f6glicht nat\u00fcrliche Interaktionsformen, wie zum Beispiel Gestik oder Mimik, und bietet gleichzeitig etablierte Interaktionstechniken der Virtuellen Realit\u00e4t, welche die gemeinsame Exploration und Analyse von 3D-Inhalten unterst\u00fctzen. Die in dieser Arbeit neu entwickelte Kalibrierungsmethode stellt eine effiziente L\u00f6sung hinsichtlich Genauigkeit und Flexibilit\u00e4t f\u00fcr Virtual-Reality- und moderne 3D-Telepresence-Anwendungen dar. Zus\u00e4tzlich zu den vorgestellten Entwicklungen tragen die Ergebnisse zweier Fallstudien im Bereich 3D-Rekonstruktion und Netzwerk\u00fcbertragungzu dieser Arbeit bei und unterst\u00fctzen Vorschl\u00e4ge und Ausblicke f\u00fcr zuk\u00fcnftige Entwicklungen im fortschreitenden Gebiet der 3D-Telepresence-Forschung."
+            ],
+            "contributor": [
+                "gnd:123136539",
+                "gnd:1163044806"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:5180842-0"
+            },
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25643/bauhaus-universitaet.3856",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

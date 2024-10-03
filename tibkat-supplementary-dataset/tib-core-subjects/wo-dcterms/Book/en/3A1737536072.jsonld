@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1231739282",
+            "sameAs": "Kyte, Thomas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1737536072",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (XXVIII, 265 Seiten)",
+            "http://purl.org/dc/elements/1.1/creator": "Kuhn, Darl",
+            "description": [
+                "Illustrationen, Diagramme",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(ppn)1737536072",
+                "(isbn13)9781484264256",
+                "(doi)10.1007/978-1-4842-6425-6",
+                "(firstid)KEP:058986871"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Database management.",
+                "(classificationName=ddc)005.74"
+            ],
+            "title": "Oracle Database Transactions and Locking Revealed : Building High Performance Through Concurrency",
+            "abstract": [
+                "Access much-needed information for building scalable, high-concurrency applications and deploying them against the Oracle Database. This new edition is updated to be current with Oracle Database 19. It includes a new chapter with troubleshooting recipes to help you quickly diagnose and resolve locking problems that are urgent and block production. Good transaction design is an important facet of highly-concurrent applications that are run by hundreds, even thousands, of users who are executing transactions at the same time. Transaction design, in turn, relies on a good understanding of how the database engine manages the locking of resources to prevent access conflicts and data loss that might otherwise result from concurrent access to data in the database. This book provides a solid and accurate explanation of how locking and concurrency are dealt with by Oracle Database. You will learn how the Oracle Database architecture accommodates user transactions, and how you can write code to mesh with the way in which Oracle Database is designed to operate. Oracle Database Transactions and Locking Revealed covers in detail the various lock types, and also different locking schemes such as pessimistic and optimistic locking. Then you will learn about transaction isolation and multi-version concurrency, and how the various lock types support Oracle Database\u2019s transactional features. You will learn tips for transaction design, as well as some bad practices and habits to avoid. Coverage is also given to redo and undo, and their role in concurrency. The book is loaded with insightful code examples that drive home each concept. This is an important book that anyone developing highly-concurrent applications will want to have handy on their shelf. You will: Avoid application lockups due to conflicts over accessing the same resource Understand how Oracle prevents one application from overwriting another\u2019s modifications Create transaction designs that mesh with how Oracle Database is designed Build high-throughput applications supporting thousands of concurrent users Design applications to take full advantage of Oracle\u2019s powerful database engine Gain a fundamental knowledge of Oracle\u2019s transaction and locking architecture Develop techniques to quickly diagnose and resolve common locking issues.",
+                "1. Getting Started -- 2. Locking and Blocking -- 3. Locks, Latches, and Mutexes -- 4. Concurrency and Multiversioning -- 5. Transactions -- 6. Redo and Undo -- 7. Investigating Redo -- 8. Investigating Undo -- 9. Troubleshooting."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1231739282",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-CWD"
+            ],
+            "issued": "2021",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.1007/978-1-4842-6425-6",
+            "P30128": "Springer eBook Collection",
+            "P60163": "New York"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

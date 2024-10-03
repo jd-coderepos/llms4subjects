@@ -1,0 +1,64 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A77352794X",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: X, 147 S., 5738 KB)",
+            "contributor": "Naumann, Felix",
+            "creator": "B\u00f6hm, Christoph",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)77352794X",
+                "(firstid)DNB:1044466324"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)oek",
+                "(classificationName=ddc)005.7402854678",
+                "(classificationName=ddc)006.332",
+                "(classificationName=ddc-dbn)650"
+            ],
+            "title": "Enriching the Web of Data with topics and links",
+            "abstract": "This thesis presents novel ideas and research findings for the Web of Data \u2013 a global data space spanning many so-called Linked Open Data sources. Linked Open Data adheres to a set of simple principles to allow easy access and reuse for data published on the Web. Linked Open Data is by now an established concept and many (mostly academic) publishers adopted the principles building a powerful web of structured knowledge available to everybody. However, so far, Linked Open Data does not yet play a significant role among common web technologies that currently facilitate a high-standard Web experience. In this work, we thoroughly discuss the state-of-the-art for Linked Open Data and highlight several shortcomings \u2013 some of them we tackle in the main part of this work. First, we propose a novel type of data source meta-information, namely the topics of a dataset. This information could be published with dataset descriptions and support a variety of use cases, such as data source exploration and selection. For the topic retrieval, we present an approach coined Annotated Pattern Percolation (APP), which we evaluate with respect to topics extracted from Wikipedia portals. Second, we contribute to entity linking research by presenting an optimization model for joint entity linking, showing its hardness, and proposing three heuristics implemented in the LINked Data Alignment (LINDA) system. Our first solution can exploit multi-core machines, whereas the second and third approach are designed to run in a distributed shared-nothing environment. We discuss and evaluate the properties of our approaches leading to recommendations which algorithm to use in a specific scenario. The distributed algorithms are among the first of their kind, i.e., approaches for joint entity linking in a distributed fashion. Also, we illustrate that we can tackle the entity linking problem on the very large scale with data comprising more than 100 millions of entity representations from very many sources. Finally, we approach a sub-problem of entity linking, namely the alignment of concepts. We again target a method that looks at the data in its entirety and does not neglect existing relations. Also, this concept alignment method shall execute very fast to serve as a preprocessing for further computations. Our approach, called Holistic Concept Matching (HCM), achieves the required speed through grouping the input by comparing so-called knowledge representations. Within the groups, we perform complex similarity computations, relation conclusions, and detect semantic contradictions. The quality of our result is again evaluated on a large and heterogeneous dataset from the real Web. In summary, this work contributes a set of techniques for enhancing the current state of the Web of Data. All approaches have been tested on large and heterogeneous real-world input.",
+            "alternative": "Anreicherung des Web of Data mit Themen und Verkn\u00fcpfungen",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

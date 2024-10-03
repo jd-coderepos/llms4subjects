@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1286965918",
+            "sameAs": "Jalali, Hamed"
+        },
+        {
+            "@id": "gnd:36187-2",
+            "sameAs": "Eberhard Karls Universit\u00e4t T\u00fcbingen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1843401991",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XXIX, 162 Bl\u00e4tter)",
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1843401991",
+                "(doi)10.15496/publikation-80752",
+                "(ppn)1843401991"
+            ],
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=ddc-dbn)006.31",
+                "Maschinelles Lernen"
+            ],
+            "title": "Aggregation strategies for distributed Gaussian processes",
+            "abstract": [
+                "Gaussian processes are robust and flexible non-parametric statistical models that benefit from the Bayes theorem by assigning a Gaussian prior distribution to the unknown function. Despite their capability to provide high-accuracy predictions, they suffer from high computational costs. Various solutions have been proposed in the literature to deal with computational complexity. The main idea is to reduce the training cost, which is cubic in the size of the training set. A distributed Gaussian process is a divide-and-conquer approach that divides the entire training data set into several partitions and employs a local approximation scenario to train a Gaussian process at each data partition. An ensemble technique combines the local Gaussian experts to provide final aggregated predictions. Available baselines aggregate local predictions assuming perfect diversity between experts. However, this assumption is often violated in practice and leads to sub-optimal solutions. This thesis deals with dependency issues between experts. Aggregation based on experts' interactions improves accuracy and can lead to statistically consistent results. Few works have considered modeling dependencies between experts. Despite their theoretical advantages, their prediction steps are costly and cubically depend on the number of experts. We benefit from the experts' interactions in both dependence and independence-based aggregations. In conventional aggregation methods that combine experts using a conditional independence assumption, we transform the available experts set into clusters of highly correlated experts using spectral clustering. The final aggregation uses these clusters instead of the original experts. It reduces the effect of the independence assumption in the ensemble technique. Moreover, we develop a novel aggregation method for dependent experts using the latent variable graphical model and define the target function as a latent variable in a connected undirected graph. Besides, we propose two novel expert selection strategies in distributed learning. They improve the efficiency and accuracy of the prediction step by excluding weak experts in the ensemble method. The first is a static selection method that assigns a fixed set of experts to all new entry points in the prediction step using the Markov random field model. The second solution increases the flexibility of the selection step by converting it into a multi-label classification problem. It provides an entry-dependent selection model and assigns the most relevant experts to each data point. We address all related theoretical and practical aspects of the proposed solutions. The findings present valuable insights for distributed learning models and advance the state-of-the-art in several directions. Indeed, the proposed solutions do not need restricted assumptions and can be easily extended to non-Gaussian experts in distributed and federated learning.",
+                "Gau\u00dfsche Prozesse sind robuste und flexible nichtparametrische statistische Modelle, die Bayes-Theorem verwenden, um einer unbekannten Funktion eine Gau\u00dfsche Prior-Verteilung zuzuweisen. Trotz ihrer F\u00e4higkeit, hochgenaue Vorhersagen zu liefern, leiden sie unter hohen Rechenkosten. In der Literatur wurden verschiedene L\u00f6sungen vorgeschlagen, um die Rechenkomplexit\u00e4t zu beherrschen. Die Hauptidee besteht darin, die Trainingskosten zu reduzieren, die in der Gr\u00f6\u00dfe des Trainingssets kubisch sind. Der verteilte Gau\u00dfsche Prozess ist ein Teile-und-Herrsche-Ansatz, der den gesamten Trainingsdatensatz in mehrere Partitionen unterteilt und ein lokales N\u00e4herungsszenario verwendet, um einen Gau\u00dfschen Prozess an jeder Datenpartition zu trainieren. Eine Ensemble-Technik kombiniert die lokalen Gau\u00dfschen Experten, um endg\u00fcltige aggregierte Vorhersagen zu liefern. Verf\u00fcgbare Basisl\u00f6sungen aggregieren lokale Vorhersagen unter der Annahme einer perfekten Diversit\u00e4t zwischen Experten. Diese Annahme wird jedoch in der Praxis oft verletzt und f\u00fchrt zu suboptimalen L\u00f6sungen. Diese Arbeit besch\u00e4ftigt sich mit Abh\u00e4ngigkeitsproblemen zwischen Experten. Die Aggregation basierend auf den Interaktionen von Experten verbessert die Genauigkeit und kann zu statistisch konsistenten Ergebnissen f\u00fchren. Nur wenige Arbeiten haben die Modellierung von Abh\u00e4ngigkeiten zwischen Experten in Betracht gezogen. Trotz ihrer theoretischen Vorteile sind ihre Vorhersageschritte kostspielig und h\u00e4ngen kubisch von der Anzahl der Experten ab. Wir profitieren von den Interaktionen der Experten sowohl bei abh\u00e4ngigkeits- als auch bei unabh\u00e4ngigkeitsbasierten Aggregationen. In konventionellen Aggregationsverfahren, die Experten unter Verwendung einer bedingten Unabh\u00e4ngigkeitsannahme kombinieren, transformieren wir den verf\u00fcgbaren Expertensatz in Cluster von hochgradig korrelierten Experten unter Verwendung von spektralem Clustering. Die endg\u00fcltige Aggregation verwendet diese Cluster anstelle der urspr\u00fcnglichen Experten. Diese Vorgehensweise reduziert den Effekt der Unabh\u00e4ngigkeits- annahme in der Ensemble-Technik. Dar\u00fcber hinaus entwickeln wir eine neuartige Aggregationsmethode f\u00fcr abh\u00e4ngige Experten unter Verwendung eines latenten Variablen-Grafikmodells und definieren die Zielfunktion als latente Variable in einem verbundenen ungerichteten Graphen. Au\u00dferdem schlagen wir zwei neue Expertenauswahlstrategien f\u00fcr verteiltes Lernen vor. Sie verbessern die Effizienz und Genauigkeit des Vorhersageschritts, indem sie schwache Experten in der Ensemble-Methode ausschlie\u00dfen. Das erste ist ein statisches Auswahlverfahren, das allen neuen Eintrittspunkten im Vorhersageschritt unter Verwendung des Markov-Zufallsfeldmodells eine feste Gruppe von Experten zuweist. Die zweite L\u00f6sung erh\u00f6ht die Flexibilit\u00e4t des Auswahlschritts, indem sie ihn in ein Klassifizierungsproblem mit mehreren Labels umwandelt. Es bietet ein eintragsabh\u00e4ngiges Auswahlmodell und ordnet jedem Datenpunkt die relevantesten Experten zu. Wir gehen auf alle damit verbundenen theoretischen und praktischen Aspekte der vorgeschlagenen L\u00f6sungen ein. Die Ergebnisse stellen wertvolle Erkenntnisse f\u00fcr verteilte Lernmodelle dar und bringen den Stand der Technik in mehrere Richtungen voran. Tats\u00e4chlich ben\u00f6tigen sie keine eingeschr\u00e4nkten Annahmen und k\u00f6nnen leicht auf nicht-Gau\u00dfsche Experten f\u00fcr verteiltes und f\u00f6deriertes Lernen erweitert werden."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36187-2",
+                "gnd:1286965918"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.15496/publikation-80752",
+            "P60163": "T\u00fcbingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

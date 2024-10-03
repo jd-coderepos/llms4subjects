@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:131835475",
+            "sameAs": "Hinterm\u00fcller, Michael"
+        },
+        {
+            "@id": "gnd:2140666-2",
+            "sameAs": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1031829199",
+            "@type": "bibo:Report",
+            "P1053": "1 Online-Ressource (41 Seiten, 2.500 kB)",
+            "http://purl.org/dc/elements/1.1/creator": [
+                "Dong, Guozhi",
+                "Papafitsoros, Kostas"
+            ],
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1031829199",
+                "(doi)10.20347/WIAS.PREPRINT.2528",
+                "(ppn)1031829199"
+            ],
+            "publisher": "Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik (WIAS), Leibniz-Institut im Forschungsverbund Berlin e.V.",
+            "subject": [
+                "(classificationName=bk, id=106415808)31.00 - Mathematik: Allgemeines",
+                "(classificationName=linseach:mapping)mat"
+            ],
+            "title": "A physically oriented method for quantitative magnetic resonance imaging",
+            "abstract": "Quantitative magnetic resonance imaging (qMRI) denotes the task of estimating the values of magnetic and tissue parameters, e.g., relaxation times T1, T2, proton density p and others. Recently in [Ma et al., Nature, 2013], an approach named Magnetic Resonance Fingerprinting (MRF) was introduced, being capable of simultaneously recovering these parameters by using a two step procedure: (i) a series of magnetization maps are created and then (ii) these are matched to parameters with the help of a pre-computed dictionary (Bloch manifold). In this paper, we initially put MRF and its variants in the perspective of optimization and inverse problems, providing some mathematical insights into these methods. Motivated by the fact that the Bloch manifold is non-convex, and the accuracy of the MRF type algorithms is limited by the discretization size of the dictionary, we propose here a novel physically oriented method for qMRI. In contrast to the conventional two step models, our model is dictionary-free and it is described by a single nonlinear equation, governed by an operator for which we prove differentiability and other properties. This non-linear equation is efficiently solved via robust Newton type methods. The effectiveness of our method for noisy and undersampled data is shown both analytically and via numerical examples where also improvement over MRF and its variants is observed.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2140666-2",
+                "gnd:131835475"
+            ],
+            "isPartOf": "(collectioncode)ZDB-296-TTN",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "no. 2528",
+            "isLike": "doi:10.20347/WIAS.PREPRINT.2528",
+            "P30128": "Preprint / Weierstra\u00df-Institut f\u00fcr Angewandte Analysis und Stochastik",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

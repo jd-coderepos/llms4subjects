@@ -1,0 +1,95 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4059245-5",
+            "sameAs": "Zuverl\u00e4ssigkeit"
+        },
+        {
+            "@id": "gnd:4236381-0",
+            "sameAs": "Multicastingverfahren"
+        },
+        {
+            "@id": "gnd:4301519-0",
+            "sameAs": "Transportprotokoll"
+        },
+        {
+            "@id": "gnd:4308416-3",
+            "sameAs": "Internet"
+        },
+        {
+            "@id": "gnd:4520890-6",
+            "sameAs": "Skalierbarkeit"
+        },
+        {
+            "@id": "gnd:4535905-2",
+            "sameAs": "Computerunterst\u00fctzte Kommunikation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A376324651",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (262 S., 1763 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": "Maih\u00f6fer, Christian",
+            "identifier": [
+                "(ppn)376324651",
+                "(firstid)GBV:376324651"
+            ],
+            "publisher": "Univ.",
+            "http://purl.org/dc/elements/1.1/subject": [
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=dbn)28",
+                "(classificationName=ddc)004",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=rvk)ST 285"
+            ],
+            "title": "Skalierbare und zuverl\u00e4ssige Gruppenkommunikation im Internet",
+            "abstract": "Multicast erlaubt die bandbreitenschonende Auslieferung einer Nachricht an eine Gruppe von Empf\u00e4ngern. Anwendungen wie Informations- und Softwareverteilung an gro\u00dfe Empf\u00e4ngergruppen, Audio- und Videokonferenzen, verteiltes Rechnen und verteilte Spiele lassen sich mit einem Multicast-Dienst effizient realisieren. Eine Reihe von Anwendungen erfordert dabei eine zuverl\u00e4ssige Nachrichtenauslieferung, die \u00fcber den im Internet verf\u00fcgbaren unzuverl\u00e4ssigen IP-Multicast-Dienst hinausgeht. Aufbauend auf IP-Multicast wird eine zuverl\u00e4ssige Nachrichtenauslieferung mittels Empfangsbest\u00e4tigungen und \u00dcbertragungswiederholungen durch nicht-hierarchische oder hierarchische Transportprotokolle erreicht. Wie sich im Verlauf der Arbeit zeigen wird, erlauben lediglich hierarchische Transportprotokolle die skalierbare Realisierung eines zuverl\u00e4ssigen Multicast-Diensts zur Gruppenkommunikation. Diese ordnen alle Gruppenmitglieder in eine Hierarchie ein, die Kontrollbaum genannt wird. Durch den Kontrollbaum k\u00f6nnen notwendige \u00dcbertragungswiederholungen lokal begrenzt werden und m\u00fcssen nicht mehr notwendigerweise vom urspr\u00fcnglichen Sender durchgef\u00fchrt werden. Die Verteilung dieser Last auf andere Gruppenmitglieder erm\u00f6glicht einen mit der Mitgliederzahl skalierbaren Dienst. Die Voraussetzung f\u00fcr den praktischen Einsatz ist ein skalierbares Verfahren zum Aufbau der Kontrollb\u00e4ume. Mit dem Token-Repository-Service (TRS) wird in dieser Arbeit ein effizientes Verfahren zum Aufbau der Kontrollb\u00e4ume vorgestellt. Drei Realisierungsvarianten des TRS-Diensts, TRS-R, TRS-K und TRS-M, erlauben unterschiedlichste Anforderungen zu ber\u00fccksichtigen. Das wesentliche Entwurfskriterium aller Varianten ist eine skalierbare und effiziente Realisierung. Vergleichende Berechnungen und Simulationen mit alternativen Ans\u00e4tzen unterstreichen nicht nur die Tragf\u00e4higkeit des TRS-Diensts. Dieser stellt momentan die einzige skalierbare L\u00f6sung zum Aufbau von Kontrollb\u00e4umen dar. Aufgrund der Unabh\u00e4ngigkeit des TRS-Diensts von einem Multicast-Routing-Protokoll ist es zudem die einzige L\u00f6sung, die durchg\u00e4ngig im gesamten Internet eingesetzt werden kann. Zur Erleichterung der Auswahl eines geeigneten zuverl\u00e4ssigen Multicast-Transportprotokolls und zur optimalen Konfiguration eines ausgew\u00e4hlten Transportprotokolls mit dem TRS-Dienst wird eine ausf\u00fchrliche probabilistische Analyse durchgef\u00fchrt. Ausgangspunkt der Analyse ist nicht die Untersuchung konkreter Protokolle, sondern die Identifizierung wichtiger generischer Protokollklassen und deren anschlie\u00dfende Beurteilung. Dabei ergeben sich bedeutende Unterschiede bezogen auf den Bandbreitenbedarf, den Durchsatz und die Nachrichtenverz\u00f6gerungen. Die Evaluation zeigt vielfache Vorteile f\u00fcr hierarchische Verfahren. Diese bieten nicht nur Skalierbarkeit, auch bez\u00fcglich des verursachten Nachrichtenaufwands, des Durchsatzes und der erzielbaren Nachrichtenverz\u00f6gerung sind sie durch eine Verteilung der Last und k\u00fcrzere Kommunikationswege gegen\u00fcber nicht-hierarchischen Protokollen im Vorteil. Als ein wesentlicher Parameter zur Konfiguration hierarchischer Transportprotokolle wird der Verzweigungsgrad des Kontrollbaums identifiziert werden. Im Gegensatz zu bisherigen Verfahren erm\u00f6glicht es der TRS-Dienst den Verzweigungsgrad flexibel zu konfigurieren. Die Analysen und Simulationen zeigen, dass bei einer geeigneten Wahl des Verzweigungsgrads der Durchsatz und die Verz\u00f6gerung des zuverl\u00e4ssigen Transportprotokolls betr\u00e4chtlich verbessert werden kann. Zusammenfassend erlaubt es der vorgestellte Token-Repository-Service durch seinen skalierbaren Kontrollbaumaufbau erstmals, zuverl\u00e4ssige Multicast-Kommunikation auch f\u00fcr gro\u00dfe Gruppen zu etablieren. Durch die flexible Wahl des Verzweigungsgrads der entstehenden Kontrollb\u00e4ume ist zudem eine betr\u00e4chtliche Leistungsoptimierung des zuverl\u00e4ssigen Transportprotokolls sowie eine entscheidende Verringerung der Netzbelastung mit dem TRS-Dienst m\u00f6glich.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "subject": [
+                "gnd:4301519-0",
+                "gnd:4308416-3",
+                "gnd:4520890-6",
+                "gnd:4236381-0",
+                "gnd:4059245-5",
+                "gnd:4535905-2"
+            ]
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": {
+            "@id": "http://purl.org/dc/terms/subject",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

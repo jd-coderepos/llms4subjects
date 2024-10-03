@@ -1,0 +1,125 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:136491111",
+            "sameAs": "Bell, Charles A."
+        },
+        {
+            "@id": "gnd:4026894-9",
+            "sameAs": "Informatik"
+        },
+        {
+            "@id": "gnd:4389357-0",
+            "sameAs": "Datenbankverwaltung"
+        },
+        {
+            "@id": "gnd:4559381-4",
+            "sameAs": "MySQL"
+        },
+        {
+            "@id": "gnd:7713781-4",
+            "sameAs": "Internet der Dinge"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A165555929X",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource (XV, 335 p. 92 illus, online resource)",
+            "description": "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+            "identifier": [
+                "(ppn)165555929X",
+                "(doi)10.1007/978-1-4842-1293-6",
+                "(firstid)BSZ:461145766",
+                "(isbn13)9781484212936"
+            ],
+            "publisher": "Apress",
+            "subject": [
+                "Database management",
+                "Computer science",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=rvk)ST 271",
+                "(classificationName=ddc)005.74",
+                "Computer Science",
+                "(classificationName=loc)QA76.9.D3"
+            ],
+            "title": "MySQL for the Internet of Things",
+            "abstract": [
+                "This book introduces the problems facing Internet of Things developers and explores current technologies and techniques to help you manage, mine, and make sense of the data being collected through the use of the world\u2019s most popular database on the Internet - MySQL. The IoT is poised to change how we interact with and perceive the world around us, and the possibilities are nearly boundless. As more and more connected devices generate data, we will need to solve the problem of how to collect, store, and make sense of IoT data by leveraging the power of database systems. The book begins with an introduction of the MySQL database system and storage of sensor data. Detailed instructions and examples are provided to show how to add database nodes to IoT solutions including how to leverage MySQL high availability, including examples of how to protect data from node outages using advanced features of MySQL. The book closes with a comparison of raw and transformed data showing how transformed data can improve understandability and help you cut through a clutter of superfluous data toward the goal of mining nuggets of useful knowledge. In this book, you'll learn to: Understand the crisis of vast volumes of data from connected devices Transform data to improve reporting and reduce storage volume Store and aggregate your IoT data across multiple database servers Build localized, low-cost MySQL database servers using small and inexpensive computers Connect Arduino boards and other devices directly to MySQL database servers Build high availability MySQL solutions among low-power computing devices.",
+                "1. The Internet of Things and Data -- 2. How IOT Data is Stored -- 3. Hardware for IOT Devices and Data Collection -- 4. Data Transformation -- 5. MySQL Primer -- 6. Building Low-Cost MySQL Database Nodes -- 7. High Availability IOT Solutions -- 8. Demonstration of Techniques."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:136491111",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXPC",
+                "(collectioncode)ZDB-2-CWD"
+            ],
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4026894-9"
+                },
+                {
+                    "@id": "gnd:7713781-4"
+                },
+                {
+                    "@id": "gnd:4389357-0"
+                },
+                {
+                    "@id": "gnd:4559381-4"
+                }
+            ],
+            "isLike": "doi:10.1007/978-1-4842-1293-6",
+            "P30128": [
+                "B\u00fccher",
+                "SpringerLink"
+            ],
+            "P60163": "Berkeley, CA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

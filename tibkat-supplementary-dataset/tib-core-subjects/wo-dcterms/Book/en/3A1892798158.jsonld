@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1226179886",
+            "sameAs": "Vollheyde, Anna-Lena"
+        },
+        {
+            "@id": "gnd:129104574",
+            "sameAs": "Haaren, Christina"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1892798158",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (184.3 Kbyte)",
+            "identifier": [
+                "(doi)10.25835/ffwtmdgv",
+                "(firstid)KXP:1892798158",
+                "(ppn)1892798158"
+            ],
+            "publisher": "Leibniz Universit\u00e4t Hannover",
+            "subject": "(classificationName=linseach:automatic)inf",
+            "title": "Dataset on wild flora diversity and associated agri-environmental information on organic legume fields in Tuscany (Italy)",
+            "abstract": "The dataset is presented in a single workbook file comprising five sheets. Four of these sheets contain the essential dataset (general information, management details, environment, species list), while an extra sheet contains metadata providing descriptions of the variables. Each entry in the four core data tables corresponds to a sample-plot and is identified uniquely by an ID, which is a combination of two numbers. The whole number before the decimal point serves as the distinct field identifier, and the decimal number indicates the replicate number for the corresponding field. It's worth noting that all sheets, excluding the metadata table, can be connected through the common ID field.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1226179886",
+                "gnd:129104574"
+            ],
+            "issued": "2024",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.25835/ffwtmdgv",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:133094391",
+            "sameAs": "Vovk, Vladimir"
+        },
+        {
+            "@id": "gnd:4188671-9",
+            "sameAs": "Vorhersagetheorie"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A783071620",
+            "@type": "bibo:Book",
+            "P1053": "XXIII, 298 S.",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Balasubramanian, Vineeth N.",
+                "Ho, Shen-Shyang"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)783071620",
+                "(isbn13)9780123985378",
+                "(firstid)GBV:783071620"
+            ],
+            "publisher": "Elsevier/MK, Morgan Kaufmann",
+            "subject": [
+                "(classificationName=loc)Q325.5",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.3/1",
+                "Machine learning",
+                "(classificationName=msc)68T05",
+                "(classificationName=msc)*68-02",
+                "(classificationName=rvk)ST 300",
+                "(classificationName=bk, id=10641240X)54.72 - K\u00fcnstliche Intelligenz"
+            ],
+            "title": "Conformal prediction for reliable machine learning : theory, adaptations and applications",
+            "abstract": "\"Traditional, low-dimensional, small scale data have been successfully dealt with using conventional software engineering and classical statistical methods, such as discriminant analysis, neural networks, genetic algorithms and others. But the change of scale in data collection and the dimensionality of modern data sets has profound implications on the type of analysis that can be done. Recently several kernel-based machine learning algorithms have been developed for dealing with high-dimensional problems, where a large number of features could cause a combinatorial explosion. These methods are quickly gaining popularity, and it is widely believed that they will help to meet the challenge of analysing very large data sets. Learning machines often perform well in a wide range of applications and have nice theoretical properties without requiring any parametric statistical assumption about the source of data (unlike traditional statistical techniques). However, a typical drawback of many machine learning algorithms is that they usually do not provide any useful measure of con dence in the predicted labels of new, unclassi ed examples. Con dence estimation is a well-studied area of both parametric and non-parametric statistics; however, usually only low-dimensional problems are considered\"--",
+            "contributor": "gnd:133094391",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4193754-5"
+                },
+                {
+                    "@id": "gnd:4188671-9"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/783071620.pdf",
+            "P60163": "Amsterdam [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
