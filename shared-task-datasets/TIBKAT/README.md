@@ -1,4 +1,4 @@
-# 📚 The **LLMs4Subjects** Shared Task TIBKAT Dataset
+# 📑 The **LLMs4Subjects** Shared Task TIBKAT Dataset
 
 ## 🔍 About
 
