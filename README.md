@@ -17,9 +17,9 @@ This shared task offers the research community an opportunity to creatively use 
 
 ## Repositories Included
 
-- **Shared Task Dataset Repository:** The [dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets) repository includes the training and development sets for both the GND subjects taxonomy and the TIBKAT records. Participants in the `LLMs4Subjects` shared task are requested to download the relevant files from this repository for system development.
+- [**shared-task-datasets**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets): This repository includes the training and development sets for both the GND subjects taxonomy and the TIBKAT records. Participants in the **LLMs4Subjects** shared task are requested to download the relevant files from this repository for system development.
 
-- **Supplementary Dataset Repository:** The [supplementary-dataset](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-datasets) repository includes all excluded data from the open-access GND and TIBKAT datasets that are not part of the `LLMs4Subjects` shared task. For instance, this may include records from TIBKAT in languages other than English or German or records where a specific record type is too sparse. Although not part of the official shared task, these records are available for participants to use as needed.
+- [**supplementary-datasets**](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-datasets): This repository includes all excluded data from the open-access GND and TIBKAT datasets that are not part of the **LLMs4Subjects** shared task. For instance, this may include records from TIBKAT in languages other than English or German or records where a specific record type is too sparse. Although not part of the official shared task, these records are available for participants to use as needed.
 
 ## Contact
 
