@@ -2,18 +2,19 @@
 
 ## 🔍 About
 
-The TIB subject matter experts index the TIB's technical records based on the GND subjects taxonomy. Very early on in the conception of TIB record annotation guidelines, certain subject classes of the GND subjects were identified as the TIB's core subject classes. Technical science in a sense has advanced leaps and bounds since then which is why the TIB's records are now annotated with GND subjects that are not classified against those early identified TIB core subject classes. Nevertheless, since the TIBKAT dataset compiled for the shared task contains over 100,000 records, we want to offer the participants of the shared task the choice of using a relatively smaller compilation instead where the records included are only those annotated with at least one of the GND subjects in the TIB's core subject classification scheme.
+TIB subject matter experts index the library’s technical records based on the GND subjects taxonomy. Early in the development of TIB's record annotation guidelines, certain GND subject classes were identified as core to TIB’s focus. However, as technical sciences have advanced, TIB records are now annotated with GND subjects beyond those originally identified core subject classes.
+
+Since the TIBKAT dataset compiled for this shared task contains over 100,000 records, we offer participants the option of using a smaller subset. This smaller compilation includes only records annotated with at least one GND subject from TIB’s core subject classification scheme.
 
 ## 📂 Repositories Included
 
-- [**all-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/all-subjects) **dataset:** The training dataset split contains 85,489 records and the development dataset split contains 14,245 records. This dataset is a superset of the dataset linked below. For this collection, no restrictions 
+- [**all-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/all-subjects) **dataset:** The `train dataset` contains 85,489 records, and the `dev dataset` contains 14,245 records. This dataset is a superset of the dataset linked below and includes all annotated records without restrictions.
 
-- [**tib-core-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/tib-core-subjects) **dataset:** The training dataset split contains 41,902 records and the development dataset split contains 6,980 records. In this subset collection, records were included only if at least one of the annotated GND subjects belonged to the original TIB's core subject classification.
+- [**tib-core-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/tib-core-subjects) **dataset:** The `train dataset` contains 41,902 records, and the `dev dataset` contains 6,980 records. In this subset, records are included only if at least one of the annotated GND subjects belongs to TIB's original core subject classification.
 
-Between the two datasets, participants are free to make their choice, maybe based on dataset size or to focus attention on a smaller more manageable subset of the GND collection for subject indexing, i.e. by looking only at the GND subjects within the TIB's core subject classes, of the dataset to download to align their LLM subject tagging solutions.
+Participants can choose between the two datasets based on their project needs—whether to work with the larger, more comprehensive set or focus on a smaller, more manageable subset of records within TIB’s core subject classes for subject indexing.
 
-Each dataset folder is organized similarly with a `data` directory containing the actual files and a `data-statistics` directory containing a detailed look at various numbers on various aspects of the dataset.
-
+Each dataset folder is organized into two directories: `data`, which contains the actual dataset files, and `data-statistics`, which provides detailed statistical analyses on various aspects of the dataset.
 
 ## 🧐 How to interpret a Formatted Record in the TIBKAT shared task dataset
 
