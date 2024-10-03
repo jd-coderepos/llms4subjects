@@ -1,6 +1,6 @@
-# Welcome to the LLMs4Subjects SemEval 2025 Shared Task Dataset Repository!
+# 🚀 Welcome to the LLMs4Subjects 📚 SemEval 2025 Shared Task Dataset Repository!
 
-## About
+## 💡 About
 
 The `LLMs4Subjects` shared task invites the research community to develop cutting-edge, LLM-based semantic solutions for automated subject indexing of [TIB](https://www.tib.eu/en/)—the German National Library of Science and Technology’s ever-growing collection of technical records in various natural languages. This task, also known as subject tagging or subject classification, leverages the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works.
 
@@ -15,17 +15,17 @@ For the convenience of our participants, both the GND and the TIBKAT datasets ha
 
 This shared task offers the research community an opportunity to creatively use LLMs for subject tagging of technical records based on the GND taxonomy. Systems need to demonstrate bilingual language modeling by processing technical documents in both German and English. Moreover, successful solutions may be integrated directly into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library.
 
-## Repositories Included
+## 📂 Repositories Included
 
 - [**shared-task-datasets**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets): This repository includes the training and development sets for both the GND subjects taxonomy and the TIBKAT records. Participants in the **LLMs4Subjects** shared task are requested to download the relevant files from this repository for system development.
 
 - [**supplementary-datasets**](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-datasets): This repository includes all excluded data from the open-access GND and TIBKAT datasets that are not part of the **LLMs4Subjects** shared task. For instance, this may include records from TIBKAT in languages other than English or German or records where a specific record type is too sparse. Although not part of the official shared task, these records are available for participants to use as needed.
 
-## Contact
+## 📧 Contact
 
 llms4subjects [at] gmail.com
 
-## Acknowledgements
+## ⭐ Acknowledgements
 
 The **LLMs4Subjects** shared task, organized as SemEval 2025 Task 5, is jointly supported by the [SCINEXT project](https://scinext-project.github.io/) (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070) and the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259).
 
