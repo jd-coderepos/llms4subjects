@@ -40,4 +40,4 @@ The `dcterms:subject` property (often represented as `<dc:subject>` in XML or si
 
 Understanding the `dcterms:subject` property within TIBKAT records is crucial for researchers, librarians, and anyone working on categorizing or finding resources by subject. By focusing on this property, users can gain insights into the content and relevance of the resources cataloged in the TIBKAT system.
 
-**Note:** An additional `subject` property appears in records. This property and its values are not relevant to the scope of the **LLMs4Subjects** shared task. Participants are instructed not to use this property as a signal in training systems, as it will not be included in the test dataset during the evaluation phase.
+**⚠️ Note:** An additional `subject` property appears in records. This property and its values are not relevant to the scope of the **LLMs4Subjects** shared task. Participants are instructed not to use this property as a signal in training systems, as it will not be included in the test dataset during the evaluation phase.
