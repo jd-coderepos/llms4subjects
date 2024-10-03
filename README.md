@@ -27,5 +27,5 @@ llms4subjects [at] gmail.com
 
 ## Acknowledgements
 
-The LLMs4Subjects shared task, organized as SemEval 2025 Task 5, is jointly supported by the [SCINEXT project](https://scinext-project.github.io/) (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070) and the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259).
+The **LLMs4Subjects** shared task, organized as SemEval 2025 Task 5, is jointly supported by the [SCINEXT project](https://scinext-project.github.io/) (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070) and the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259).
 
