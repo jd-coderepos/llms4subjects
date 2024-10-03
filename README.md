@@ -13,7 +13,8 @@ Although TIB’s technical records span multiple languages, this shared task foc
 
 For the convenience of our participants, both the GND and the TIBKAT datasets have been reorganized, appropriately formatted with human-readable tags, and released as the official shared task dataset in this repository. We recognize that standardized library taxonomies and collections often refer to age-old identifier mechanisms and are filled with codes. Processing and interpreting these codes can be time-consuming ⏳. Therefore, in consultation with TIB subject matter experts, we have preprocessed both the GND and TIBKAT datasets, converting their fine-grained coding into human-readable formats. This should help the **LLMs4Subjects** participants download the relevant data and get started right away.
 
-This shared task offers the research community an opportunity to creatively use LLMs for subject tagging of technical records based on the GND taxonomy. Systems need to demonstrate bilingual language modeling by processing technical documents in both German and English. Moreover, successful solutions may be integrated directly into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library.
+This shared task offers the research community an opportunity to creatively develop LLMs 🧠 for subject tagging of technical records 📚 based on the GND taxonomy. Systems need to demonstrate bilingual language modeling 🌍 by processing technical documents in both German and English. Moreover, successful solutions may be integrated directly into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library.
+
 
 ## 📂 Repositories Included
 
