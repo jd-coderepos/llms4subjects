@@ -2,7 +2,8 @@
 
 ## 💡 About
 
-The `LLMs4Subjects` shared task invites the research community to develop cutting-edge, LLM-based semantic solutions for automated subject indexing of [TIB](https://www.tib.eu/en/)—the German National Library of Science and Technology’s ever-growing collection of technical records in various natural languages. This task, also known as subject tagging or subject classification, leverages the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works.
+The **LLMs4Subjects** shared task invites the research community 🤝 to develop cutting-edge, LLM-based semantic solutions for automated subject indexing 📑 of [TIB](https://www.tib.eu/en/)—the German National Library of Science and Technology’s ever-growing collection of technical records 📚 in various natural languages. This task, also known as subject tagging or subject classification, leverages the [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) (Gemeinsame Normdatei in German or Integrated Authority File in English), an international authority file primarily used by German-speaking libraries to catalog and link information on people, organizations, topics, and works.
+
 
 To support the development of systems for the **LLMs4Subjects** shared task, we provide participants with two types of datasets:
 
@@ -13,7 +14,7 @@ Although TIB’s technical records span multiple languages, this shared task foc
 
 For the convenience of our participants, both the GND and the TIBKAT datasets have been reorganized, appropriately formatted with human-readable tags, and released as the official shared task dataset in this repository. We recognize that standardized library taxonomies and collections often refer to age-old identifier mechanisms and are filled with codes. Processing and interpreting these codes can be time-consuming ⏳. Therefore, in consultation with TIB subject matter experts, we have preprocessed both the GND and TIBKAT datasets, converting their fine-grained coding into human-readable formats. This should help the **LLMs4Subjects** participants download the relevant data and get started right away.
 
-This shared task offers the research community an opportunity to creatively develop LLMs 🧠 for subject tagging of technical records 📚 based on the GND taxonomy. Systems need to demonstrate bilingual language modeling 🌍 by processing technical documents in both German and English. Moreover, successful solutions may be integrated directly into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library 🏛️.
+This shared task offers the research community an opportunity to creatively develop LLMs 🧠 for subject tagging 📑 of technical records 📚 based on the GND taxonomy. Systems need to demonstrate bilingual language modeling 🌍 by processing technical documents in both German and English. Moreover, successful solutions may be integrated directly into the operational workflows of the TIB Leibniz Information Centre for Science and Technology University Library 🏛️.
 
 
 ## 📂 Repositories Included
