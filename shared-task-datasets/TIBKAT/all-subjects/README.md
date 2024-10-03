@@ -55,4 +55,4 @@ The table below shows the minimum, maximum, and mean length of abstracts in diff
 |        | Thesis      | de       | 8   | 3,325| 169.4 |
 |        |             | en       | 8   | 1,133| 185.6 |
 
-For more insights into dataset statistics, visit the `data-statistics` subfolder. The dataset can be downloaded from the `data` subfolder
+For more insights into dataset statistics, visit the `data-statistics` subfolder. The dataset can be downloaded from the `data` subfolder.
