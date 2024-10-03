@@ -1,4 +1,4 @@
-# 🚀 Welcome to the LLMs4Subjects 📚 SemEval 2025 Shared Task Dataset Repository!
+# 🚀 Welcome to the SemEval 2025 LLMs4Subjects 📚 Shared Task Dataset Repository!
 
 ## 💡 About
 
