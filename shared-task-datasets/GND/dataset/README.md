@@ -12,4 +12,4 @@ For a discussion about the TIB core subject classes, refer to the [README](https
 
 - [**GND-Subjects-Schema.json**](https://github.com/jd-coderepos/llms4subjects/blob/main/shared-task-datasets/GND/dataset/GND-Subjects-Schema.json): This schema defines the structure and properties for each record in the GND subjects files linked above.
 
-- [**gnd-subjects.json**](https://github.com/jd-coderepos/llms4subjects/blob/main/shared-task-datasets/GND/dataset/gnd-subjects.json): Additional supplementary data related to the GND subjects.
+- [**gnd-subjects.json**](https://github.com/jd-coderepos/llms4subjects/blob/main/shared-task-datasets/GND/dataset/gnd-classification-for-gnd-subjects.json): Additional supplementary data related to the GND subjects.
