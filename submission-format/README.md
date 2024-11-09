@@ -26,4 +26,4 @@ The expected output from participants should be a simple list of `gnd` subject t
 
 ##### Output Example
 
-A sample output file is included.
+A sample output file is included in this repository. See [submission-format/3A168396733X.json](https://github.com/jd-coderepos/llms4subjects/blob/main/submission-format/3A168396733X.json).
