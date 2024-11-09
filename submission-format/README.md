@@ -1,16 +1,30 @@
+# Submission Guidelines for the Subject Indexing Task
 
-The subject indexing task is predicated only on the `dcterms:subject` property values.
+## Task Overview
 
-In the evaluation phase, participants will be given a collection of technical records with the subjects hidden.
+The primary focus of this subject indexing task is on predicting the values of the `dcterms:subject` property, which will be hidden in the test dataset. This property captures the subject classification of technical records.
 
-Consider the following json file
+## Data for Evaluation
 
+During the evaluation phase, participants will receive a dataset consisting of technical records similar to those found in the training set, but with the subject classifications (`dcterms:subject`) removed. 
+
+### Example Data File
+
+You can view a sample of a typical training data file here:
 [shared-task-datasets/TIBKAT/all-subjects/data/train/Article/de/3A168396733X.jsonld](https://github.com/jd-coderepos/llms4subjects/blob/main/shared-task-datasets/TIBKAT/all-subjects/data/train/Article/de/3A168396733X.jsonld)
 
-Using this file as an example, the section boxed in green will be empty in the test dataset. 
+In the test dataset, the section highlighted below will be blank:
 
-<img src="https://github.com/jd-coderepos/llms4subjects/blob/main/img/classification-target.png" width="500" height="350" alt="classification target">
+<img src="https://github.com/jd-coderepos/llms4subjects/blob/main/img/classification-target.png" width="500" height="350" alt="Example of blank subject classification area in test data">
 
-The task is essentially to predict these gnd subjects. 
+## Task Objective
 
-During the evaluation phase, participants will be expected to predict or classify the relevant gnd subject tags for each test record. The expected output format is simply a list of gnd subject tags, in a corresponding file with the same name as the original test file. A sample expected output file for the file referenced above is added to this directory.
+The primary objective for participants is to predict or classify the `gnd` subject tags for each record in the test dataset.
+
+## Output Format
+
+The expected output from participants should be a simple list of `gnd` subject tags. Each participant must submit their predictions in a file named identically to the corresponding test file, but containing only the predicted subject tags.
+
+### Output Example
+
+For a detailed example of the expected output format, please refer to the sample output file included in the same directory as the test data.
