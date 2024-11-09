@@ -15,7 +15,7 @@ You can view a sample of a typical training data file here:
 
 In the test dataset, the section highlighted below will be blank:
 
-![Example of blank subject classification area in test data](https://github.com/jd-coderepos/llms4subjects/blob/main/img/classification-target.png)
+<img src="https://github.com/jd-coderepos/llms4subjects/blob/main/img/classification-target.png" width="500" height="350" alt="Example of blank subject classification area in test data">
 
 ## Task Objective 🎯
 
