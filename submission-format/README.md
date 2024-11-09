@@ -9,7 +9,7 @@ Consider the following json file
 
 Using this file as an example, the section boxed in green will be empty in the test dataset. 
 
-<img src="URL_TO_IMAGE" width="500" height="300" alt="Alt text for image">
+<img src="https://github.com/jd-coderepos/llms4subjects/blob/main/img/classification-target.png" width="500" height="300" alt="Alt text for image">
 
 The task is essentially to predict these gnd subjects. 
 
