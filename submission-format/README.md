@@ -22,8 +22,10 @@ For the test dataset provided in the evaluation phase, participants need to appl
 
 #### Output Format
 
-The expected output from participants should be a simple list of `gnd` subject tag IDs as a list in `json` format. Each participant must submit their predictions in a file named identically to the corresponding test file, but containing only the predicted subject tags.
+The expected output from participants should be a simple list of `gnd` subject tag IDs as a list in `json` format. Each participant must submit their predictions in a file named identically to the corresponding test file, but containing only the predicted subject tags as a list of gnd ids in a json file.
 
 ##### Output Example
 
-A sample output file is included in this repository. See [submission-format/3A168396733X.json](https://github.com/jd-coderepos/llms4subjects/blob/main/submission-format/3A168396733X.json).
+A sample output file can be found in this repository. Refer to the following link: [submission-format/3A168396733X.json](https://github.com/jd-coderepos/llms4subjects/blob/main/submission-format/3A168396733X.json).
+
+Each output file must include the top 50 GND tag predictions made by your system, arranged in descending order based on model confidence. This order is crucial, as evaluations will be conducted using top-k ranking methods. Ensure that the tags predicted with the highest confidence are listed at the top.
