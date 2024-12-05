@@ -100,7 +100,7 @@ def format_gnd_subject_code(code):
         return code
 
 #The path for the GND subject specification file 
-subject_gnd_filepath = '../../../../authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml'
+subject_gnd_filepath = '../../../../../authorities-gnd-sachbegriff_dnbmarc_20240213.mrc.xml'
 
 #XML Namespace used in the MARC 21 GND file
 xml_namespace = '{http://www.loc.gov/MARC21/slim}'
@@ -109,7 +109,7 @@ xml_namespace = '{http://www.loc.gov/MARC21/slim}'
 formatted_gnd_subjects = []
 
 #All GND Subject codes 
-gnd_subjects = read_json_file('../dataset/gnd-subjects.json')
+gnd_subjects = read_json_file('../dataset/gnd-classification-for-gnd-subjects.json')
 
 #Only TIB Core GND Subject codes
 tib_core_subjects = [subj for subj in gnd_subjects if subj['TIB Core']]
@@ -123,7 +123,7 @@ tree = ET.parse(subject_gnd_filepath)
 root = tree.getroot()
 
 #Whether to include all GND subjects or only TIB Core subjects
-all_subjects = False
+all_subjects = True
 
 #Iterating over all the record tags
 for record in root.findall(f'{xml_namespace}record'):
@@ -143,17 +143,29 @@ for record in root.findall(f'{xml_namespace}record'):
     subject_code += ':' + extract_tag_value(record.find(f'{xml_namespace}datafield[@tag="024"]/{xml_namespace}subfield[@code="a"]'))
 
     #Extracting the subject name - Code: 150 - Field: a
-    subject_name = extract_tag_value(record.find(f'{xml_namespace}datafield[@tag="150"]/{xml_namespace}subfield[@code="a"]'))
+    subject_name = ''
+    subject_name_tag = record.find(f'{xml_namespace}datafield[@tag="150"]')
+    for subj_child_tag in subject_name_tag.iter():
+        subject_name += extract_tag_value(subj_child_tag) + ' '
+    subject_name = subject_name.strip()
 
     #Extracting the subject alternate name - Code: 450 - Field: a
     alternate_subject_names = []
     for alternate_subjects in record.findall(f'{xml_namespace}datafield[@tag="450"]'):
-        alternate_subject_names.append(extract_tag_value(alternate_subjects.find(f'{xml_namespace}subfield[@code="a"]')))
+        alternate_name = extract_tag_value(alternate_subjects.find(f'{xml_namespace}subfield[@code="a"]'))
+        alternate_name += ',' + extract_tag_value(alternate_subjects.find(f'{xml_namespace}subfield[@code="x"]'))
+        alternate_name = alternate_name.strip(',')
+        alternate_name += ',' + extract_tag_value(alternate_subjects.find(f'{xml_namespace}subfield[@code="g"]'))
+        alternate_subject_names.append(alternate_name.strip(','))
 
     #Extracting all the relevant subjects - Code: 550 - Field: a
     related_subjects = []
     for related_subject in record.findall(f'{xml_namespace}datafield[@tag="550"]'):
-        related_subjects.append(extract_tag_value(related_subject.find(f'{xml_namespace}subfield[@code="a"]')))
+        related_subj = extract_tag_value(related_subject.find(f'{xml_namespace}subfield[@code="a"]'))
+        related_subj += ',' + extract_tag_value(related_subject.find(f'{xml_namespace}subfield[@code="x"]'))
+        related_subj = related_subj.strip(',')
+        related_subj += ',' + extract_tag_value(related_subject.find(f'{xml_namespace}subfield[@code="g"]'))
+        related_subjects.append(related_subj.strip(','))
     
     #Extracting subject source name - Code: 670 - Field: a
     subject_source = extract_tag_value(record.find(f'{xml_namespace}datafield[@tag="670"]/{xml_namespace}subfield[@code="a"]'))
@@ -187,4 +199,4 @@ for record in root.findall(f'{xml_namespace}record'):
 formatted_gnd_subjects = sorted(formatted_gnd_subjects, key = lambda k: format_gnd_subject_code(k['Classification Number']))
 
 #Saving all the subject descriptions as a JSON file
-save_json_file('../dataset','GND-Subjects-tib-core.json', formatted_gnd_subjects)
+save_json_file('../dataset','GND-Subjects-all.json', formatted_gnd_subjects)
