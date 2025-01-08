@@ -1,0 +1,87 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:119831396X",
+            "sameAs": "Halak, Basel"
+        },
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4117388-0",
+            "sameAs": "VLSI"
+        },
+        {
+            "@id": "gnd:4181266-9",
+            "sameAs": "Signaldetektion"
+        },
+        {
+            "@id": "gnd:7540075-3",
+            "sameAs": "MIMO"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1815237503",
+            "@type": "bibo:Book",
+            "P1053": "xxi, 150 Seiten",
+            "creator": "Bello, Ibrahim A.",
+            "description": "Illustrationen",
+            "identifier": [
+                "(ppn)1815237503",
+                "(isbn13)9783031045110",
+                "(firstid)KXP:1815237503"
+            ],
+            "publisher": "Springer",
+            "title": "Algorithms and VLSI implementations of MIMO detection",
+            "abstract": [
+                "Introduction -- Background -- MIMO Preprocessing -- Sphere Decoder -- K-best Detector -- Conclusion and Future Directions.",
+                "This book provides a detailed overview of detection algorithms for multiple-input multiple-output (MIMO) communications systems focusing on their hardware realisation. The book begins by analysing the maximum likelihood detector, which provides the optimal bit error rate performance in an uncoded communications system. However, the maximum likelihood detector experiences a high complexity that scales exponentially with the number of antennas, which makes it impractical for real-time communications systems. The authors proceed to discuss lower-complexity detection algorithms such as zero-forcing, sphere decoding, and the K-best algorithm, with the aid of detailed algorithmic analysis and several MATLAB code examples. Furthermore, different design examples of MIMO detection algorithms and their hardware implementation results are presented and discussed. Finally, an ASIC design flow for implementing MIMO detection algorithms in hardware is provided, including the system simulation and modelling steps and register transfer level modelling using hardware description languages. Provides an overview of MIMO detection algorithms and discusses their corresponding hardware implementations in detail; Highlights architectural considerations of MIMO detectors in achieving low power consumption and high throughput; Discusses design tradeoffs that will guide readers\u2019 efforts when implementing MIMO algorithms in hardware; Describes a broad range of implementations of different MIMO detectors, enabling readers to make informed design decisions based on their application requirements."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "dcterms:creator": {
+                "@id": "gnd:119831396X"
+            },
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1815237503.pdf",
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

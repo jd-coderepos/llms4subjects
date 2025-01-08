@@ -1,0 +1,105 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1068096934",
+            "sameAs": "Universit\u00e4tsverlag Potsdam"
+        },
+        {
+            "@id": "gnd:1069348694",
+            "sameAs": "Schneider, Sven"
+        },
+        {
+            "@id": "gnd:1143617126",
+            "sameAs": "Maximova, Maria"
+        },
+        {
+            "@id": "gnd:1155270444",
+            "sameAs": "Hasso-Plattner-Institut f\u00fcr Digital Engineering"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4274073-3",
+            "sameAs": "Graphersetzungssystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1833739000",
+            "@type": "bibo:Report",
+            "P1053": "1 Online Ressource (38 Seiten, 1849 KB)",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)KXP:1833739000",
+                "(doi)10.25932/publishup-51506",
+                "(isbn13)9783869565170",
+                "(ppn)1833739000"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "title": "Probabilistic metric temporal graph logic",
+            "abstract": [
+                "Cyber-physische Systeme umfassen h\u00e4ufig ein komplexes nebenl\u00e4ufiges Verhalten mit Zeitbeschr\u00e4nkungen und probabilistischen Fehlern auf Anforderung. Die Analyse, ob solche Systeme mit probabilistischem gezeitetem Verhalten einer vorgegebenen Spezifikation entsprechen, ist essentiell. Wenn die Zust\u00e4nde des Systems durch Graphen dargestellt werden k\u00f6nnen, kann der regelbasierte Formalismus von probabilistischen gezeiteten Graphtransformationssystemen (PTGTSs) verwendet werden, um die Strukturdynamik sowie das probabilistische und gezeitete Verhalten des Systems geeignet zu erfassen. Die Modellpr\u00fcfungsunterst\u00fctzung f\u00fcr PTGTSs bzgl. Eigenschaften, die unter Verwendung von Probabilistic Timed Computation Tree Logic (PTCTL) spezifiziert wurden, wurde bereits entwickelt. Dar\u00fcber hinaus wurde das gezeitete graphenbasierte Laufzeitmonitoring mittels metrischer temporaler Graphlogik (MTGL) entwickelt, um metrische temporale Eigenschaften auf identifizierten Untergraphen und ihre strukturellen \u00c4nderungen \u00fcber die Zeit zu erfassen. In diesem Artikel (a) erweitern wir MTGL auf die probabilistische metrische temporale Graphlogik (PMTGL), indem wir die Spezifikation probabilistischer Eigenschaften zulassen, (b) passen unseren MTGL-Pr\u00fcfungsansatz auf PTGTSs an und (c) kombinieren die Ans\u00e4tze f\u00fcr PTCTL-Modellpr\u00fcfung und MTGL-Pr\u00fcfung, um einen beschr\u00e4nkten Modellpr\u00fcfungsansatz (BMC-Ansatz) f\u00fcr PMTGL zu erhalten. In unserer Auswertung wenden wir eine Implementierung unseres BMC-Ansatzes in AutoGraph auf ein Beispiel an.",
+                "Cyber-physical systems often encompass complex concurrent behavior with timing constraints and probabilistic failures on demand. The analysis whether such systems with probabilistic timed behavior adhere to a given specification is essential. When the states of the system can be represented by graphs, the rule-based formalism of Probabilistic Timed Graph Transformation Systems (PTGTSs) can be used to suitably capture structure dynamics as well as probabilistic and timed behavior of the system. The model checking support for PTGTSs w.r.t. properties specified using Probabilistic Timed Computation Tree Logic (PTCTL) has been already presented. Moreover, for timed graph-based runtime monitoring, Metric Temporal Graph Logic (MTGL) has been developed for stating metric temporal properties on identified subgraphs and their structural changes over time. In this paper, we (a) extend MTGL to the Probabilistic Metric Temporal Graph Logic (PMTGL) by allowing for the specification of probabilistic properties, (b) adapt our MTGL satisfaction checking approach to PTGTSs, and (c) combine the approaches for PTCTL model checking and MTGL satisfaction checking to obtain a Bounded Model Checking (BMC) approach for PMTGL. In our evaluation, we apply an implementation of our BMC approach in AutoGraph to a running example."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1143617126",
+                "gnd:1069348694",
+                "gnd:1155270444",
+                "gnd:1068096934",
+                "gnd:173277950"
+            ],
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "Nr. 140",
+            "isLike": "doi:10.25932/publishup-51506",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Digital Engineering an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

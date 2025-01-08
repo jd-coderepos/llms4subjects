@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1187192791",
+            "sameAs": "Ortega Manjavacas, \u00c1lvaro"
+        },
+        {
+            "@id": "gnd:1214650112",
+            "sameAs": "Milano, Federico"
+        },
+        {
+            "@id": "gnd:4134933-7",
+            "sameAs": "Elektrisches Energiesystem"
+        },
+        {
+            "@id": "gnd:4271142-3",
+            "sameAs": "Frequenzteiler"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1694507866",
+            "@type": "bibo:Book",
+            "P1053": "xxxviii, 315 Seiten",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(ppn)1694507866",
+                "(isbn13)9781119551843",
+                "(firstid)KXP:1694507866"
+            ],
+            "publisher": "Wiley, IEEE Press",
+            "title": "Frequency variations in power systems : modeling, state estimation, and control",
+            "abstract": "\"The question that originates this work was how to define the frequency variations at load buses when simulating the transient of a power system modeled with the conventional assumption that the frequency is constant when describing the behaviour of loads and transmission lines. This apparently simple question led to put under discussion the whole foundation of power system models for transient stability analysis and to the definition of the FDF. In their first contribution, the FDF was mainly a tool to improve simulations and is based on the idea that the frequency imposed by synchronous machines at their internal electromotive forces distributes as a continuum in the grid. So the frequency at every point can be extrapolated by knowing the rotor speed of each synchronous machine. The authors quickly realized that, based on the FDF, they could validate, through simulations, the accuracy of the local frequency estimation through common measurement devices, such as phasor measurement units and the phase-lock loops utilized in the power electronic converters. Finally, they found that the FDF works also the other way around, i.e., if one measures the frequency at the buses, it is possible to estimate the rotor speeds of the synchronous machines. This opens the way to a novel dynamic state estimation approach, which (surprisingly) allows to obtain the rotor speeds of the machines without any assumption on the model of the machines themselves except for their internal synchronous reactances. And, even more surprisingly, the very same concept can be applied to determine the ability of converter-interfaced generators to respond to frequency variations\"--",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1214650112",
+                "gnd:1187192791"
+            ],
+            "issued": "2020",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1694507866.pdf",
+            "P60163": "Hoboken, NJ"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

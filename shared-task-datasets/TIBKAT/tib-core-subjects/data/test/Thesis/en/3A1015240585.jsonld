@@ -1,0 +1,93 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1153740621",
+            "sameAs": "Papenbrock, Thorsten"
+        },
+        {
+            "@id": "gnd:129576379",
+            "sameAs": "Naumann, Felix"
+        },
+        {
+            "@id": "gnd:2120681-8",
+            "sameAs": "Universit\u00e4t Potsdam"
+        },
+        {
+            "@id": "gnd:4072806-7",
+            "sameAs": "Informationssystem"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "gnd:7670125-6",
+            "sameAs": "Data-Profiling"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1015240585",
+            "@type": "bibo:Thesis",
+            "P1053": "viii, ii, 141 Seiten",
+            "description": "Diagramme",
+            "identifier": [
+                "(firstid)GBV:1015240585",
+                "(ppn)1015240585"
+            ],
+            "title": "Data profiling : efficient discovery of dependencies",
+            "abstract": "Data profiling is the computer science discipline of analyzing a given dataset for its metadata. The types of metadata range from basic statistics, such as tuple counts, column aggregations, and value distributions, to much more complex structures, in particular inclusion dependencies (INDs), unique column combinations (UCCs), and functional dependencies (FDs). If present, these statistics and structures serve to efficiently store, query, change, and understand the data. Most datasets, however, do not provide their metadata explicitly so that data scientists need to profile them. While basic statistics are relatively easy to calculate, more complex structures present difficult, mostly NP-complete discovery tasks; even with good domain knowledge, it is hardly possible to detect them manually. Therefore, various profiling algorithms have been developed to automate the discovery. None of them, however, can process datasets of typical real-world size, because their resource consumptions and/or execution times exceed effective limits .\u2026",
+            "alternative": "Profilerstellung f\u00fcr Daten - Effiziente Entdeckung von Abh\u00e4ngigkeiten",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129576379"
+                }
+            ],
+            "creator": [
+                "gnd:1153740621",
+                "gnd:2120681-8"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4056243-8",
+            "sameAs": "Spieltheorie"
+        },
+        {
+            "@id": "gnd:4188671-9",
+            "sameAs": "Vorhersagetheorie"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4528688-7",
+            "sameAs": "Spam-Mail"
+        },
+        {
+            "@id": "gnd:4792631-4",
+            "sameAs": "Mail-Filter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A727092774",
+            "@type": "bibo:Thesis",
+            "P1053": "X, 121 S.",
+            "creator": "Br\u00fcckner, Michael",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:727092774",
+                "(isbn13)9783869562032",
+                "(ppn)727092774"
+            ],
+            "publisher": "Universit\u00e4tsverl. Potsdam",
+            "title": "Prediction games : machine learning in the presence of an adversary",
+            "abstract": "A main assumption in machine learning is that the data which are used to build a predictive model are governed by the same distribution as the data which the predictive model will be exposed to at application time. This condition is violated when future data are generated in response to the presence of a predictive model which is the case, for instance, in email spam filtering. In this thesis, we establish the concept of prediction games to handle such tasks: We model the interaction between a learner, who builds the predictive model, and a data generator, who controls the process of data generation, as an one-shot game. The game-theoretic framework enables us to explicitly model the players\u2018 interests, their possible actions, and their level of knowledge about each other. We study three instances of prediction games which differ regarding the order in which the players decide for their action. In case studies on email spam filtering we empirically explore properties of all derived models. We show that spam filters resulting from prediction games in the majority of cases outperform other existing baseline methods.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/727092774.pdf",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

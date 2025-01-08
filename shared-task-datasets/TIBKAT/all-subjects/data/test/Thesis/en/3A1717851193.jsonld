@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1059844419",
+            "sameAs": "Datenstrommanagementsystem"
+        },
+        {
+            "@id": "gnd:1187862797",
+            "sameAs": "Brandt, Tobias Leo"
+        },
+        {
+            "@id": "gnd:129368970",
+            "sameAs": "Sauer, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:130444723",
+            "sameAs": "Brinkhoff, Thomas"
+        },
+        {
+            "@id": "gnd:4410055-3",
+            "sameAs": "Datenstrom"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1717851193",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (XI, 223 Seiten, 8 MB)",
+            "identifier": [
+                "(ppn)1717851193",
+                "(firstid)DNB:1211724530"
+            ],
+            "title": "Query processing on spatio-temporal data streams from moving objects",
+            "abstract": [
+                "The amount of spatio-temporal data, i.e. location data from moving objects, that is available in real time is increasing continuously due to the expanding availability of small and cheap GPS-sensors as well as mobile internet connectivity. This work examines the processing of such data streams, for example, to identify objects that will probably move to close to each other. This is done with data stream management systems (DSMS) on the foundation of the interval approach together with the moving object algebra. The concept is implemented with an open source DSMS. The main idea of the approach is a generic algebra, which combines the concepts of the interval approach for data streams with the moving object algebra for moving object data. The resulting concept allows very flexible continuous spatio-temporal queries on data streams. The approach is evaluated with location data streams from AIS signals from vessels.",
+                "Die Menge an in Echtzeit verf\u00fcgbaren spatio-temporalen Daten, also Positionsdaten von sich bewegenden Objekten nimmt durch die steigende Verbreitung von mobilen Datenverbindungen und kleinen GPS-Empf\u00e4ngern stetig zu. Diese Arbeit behandelt die Verarbeitung solcher Datenstr\u00f6me in Echtzeit, um z.B. Objekte zu identifizieren, die voraussichtlich zu nah aneinander kommen werden. Dies wird mittels Datenstrommanagementsystemen (DSMS) auf Basis des Intervallansatzes zusammen mit der Moving Object Algebra konzeptioniert und mit Hilfe eines open source DSMS implementiert. Kern des L\u00f6sungsansatzes ist die generische Herangehensweise mit Hilfe einer Algebra, die die Konzepte der Moving Object Algebra f\u00fcr spatio-temporale Daten und des Intervallansatzes f\u00fcr Datenstr\u00f6me verbindet und damit sehr flexible spatio-temporale kontinuierliche Anfragen auf Datenstr\u00f6men erm\u00f6glicht. Am Beispiel von AIS-Positionsdaten von Schiffen wird der Ansatz evaluiert."
+            ],
+            "alternative": "Anfrageverarbeitung auf spatio-temporalen Datenstr\u00f6men von sich bewegenden Objekten",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130444723"
+                },
+                {
+                    "@id": "gnd:129368970"
+                }
+            ],
+            "creator": "gnd:1187862797",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Oldenburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

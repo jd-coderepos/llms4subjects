@@ -1,0 +1,112 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:120741512",
+            "sameAs": "Altenburg, Uwe"
+        },
+        {
+            "@id": "gnd:130008338",
+            "sameAs": "Witte, Hartmut"
+        },
+        {
+            "@id": "gnd:130244864",
+            "sameAs": "Wernstedt, J\u00fcrgen"
+        },
+        {
+            "@id": "gnd:4032393-6",
+            "sameAs": "Koordination"
+        },
+        {
+            "@id": "gnd:4129594-8",
+            "sameAs": "Maschinelles Sehen"
+        },
+        {
+            "@id": "gnd:4191911-7",
+            "sameAs": "Mobiler Roboter"
+        },
+        {
+            "@id": "gnd:4199255-6",
+            "sameAs": "Kollisionsschutz"
+        },
+        {
+            "@id": "gnd:4211191-2",
+            "sameAs": "Automatische Handlungsplanung"
+        },
+        {
+            "@id": "gnd:4250471-5",
+            "sameAs": "Umweltmodell (Informatik)"
+        },
+        {
+            "@id": "gnd:4267628-9",
+            "sameAs": "Bahnplanung"
+        },
+        {
+            "@id": "gnd:4734038-1",
+            "sameAs": "Mehrrobotersystem"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A391991027",
+            "@type": "bibo:Thesis",
+            "P1053": "114 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Bergmann, S.",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:391991027",
+                "(ppn)391991027"
+            ],
+            "title": "Ein Beitrag zur Entwicklung von Strategien zur koordinierten Steuerung autonomer mobiler Multirobotersysteme",
+            "abstract": "Die koordinierte Bewegungssteuerung von Multirobotersystemen ist eine vielschichtige und komplexe Aufgabe, f\u00fcr die in der Literatur unterschiedliche L\u00f6sungsans\u00e4tze beschrieben sind. Oft steht dabei die Kollisionsvermeidung oder Aufl\u00f6sung von Konfliktsituationen an Kreuzungspunkten im Vordergrund. In der vorliegenden Arbeit wird insbesondere eine Strategie vorgestellt, mit der es m\u00f6glich ist, eine Gruppe von Robotern so zu steuern, dass diese sowohl eine Formation weitestgehend beibehalten als auch m\u00f6gliche Kollisionen mit Hindernissen vermeiden. Die Strategie umfasst im Wesentlichen die Modellbildung sowie die Missions- und die Verhaltensplanung. Grundlage bildet dabei eine hybride Steuerungsarchitektur, die sich aus einer globalen kartenbasierten Planung und einer lokalen reaktiven Ausf\u00fchrung zusammensetzt. Die Planung erfolgt offline und liefert im Ergebnis eine optimale Route f\u00fcr eine vorgegebene Formation (Missionsplanung). Die Route wird dahingehend erweitert, dass einzelnen Robotern g\u00fcnstige Steuerverhalten vorgeschlagen werden (Verhaltensplanung). Die Aktivierung dieser Steuerverhalten erfolgt dann lokal an zuvor festgelegten Synchronisationspunkten entlang der geplanten Route unter Ausnutzung einer hierarchischen Struktur innerhalb der Gruppe. - Ausgehend von einer geeigneten Modellierung eines solchen Multirobotersystems wird eine konkrete Implementierung dieser Planungsstrategie in allen Schritten vorgestellt. Beginnend mit einer Bildanalyse zur Erstellung einer Karte wird darauf aufbauend ein adaptives Routenplanungsverfahren f\u00fcr die gesamte Formation vorgestellt. Die geplante Route wird im Nachgang analysiert, um der jeweiligen Hindernissituation entsprechend g\u00fcnstige Verhalten f\u00fcr die einzelnen Roboter zu bestimmen. Anhand der Grenzen dieser konkreten Implementierung wird eine alternative Variante abgeleitet, die die Missions- und die Verhaltenplanung integriert. - Schlie\u00dflich wird eine Experimentalplattform mit Kleinstrobotern beschrieben, die im Verlauf der Arbeit entstanden ist und f\u00fcr Versuche mit Multirobotersystemen geeignet erscheint. Es wird die hardwarseitige Umsetzung dokumentiert und vor allem die dazu geschaffene Steuersoftware erl\u00e4utert, zu der auch eine Simulationsumgebung geh\u00f6rt. In diesem Zusammenhang wird detailliert auf eine L\u00f6sung der globalen kameragest\u00fctzten Positionsbestimmung f\u00fcr kleine Roboter eingegangen. Dabei wird ein Verfahren vorgeschlagen, das im Gegensatz zur \u00fcblichen Farberkennung auf der Basis von Bin\u00e4rbildern arbeitet und Farbinformationen lediglich zur Unterscheidung der Roboter sowie zur Erkennung der Hindernisse nutzt. Die Anwendung von Kamerabildern als Erg\u00e4nzung der lokalen Sensorik eines Roboters wird schlie\u00dflich kurz angeschnitten.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:130244864"
+                },
+                {
+                    "@id": "gnd:130008338"
+                }
+            ],
+            "creator": "gnd:120741512",
+            "issued": "2004",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/391991027.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

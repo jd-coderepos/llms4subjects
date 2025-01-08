@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:11574326X",
+            "sameAs": "Arnold, Heinz Ludwig"
+        },
+        {
+            "@id": "gnd:118608703",
+            "sameAs": [
+                "Schmidt, Arno",
+                "Schmidt, Arno 1914-1979"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A01584109X",
+            "@type": "bibo:Book",
+            "P1053": "221 S.",
+            "description": [
+                "graph. Darst.",
+                "23 cm"
+            ],
+            "identifier": [
+                "(firstid)GBV:01584109X",
+                "(ppn)01584109X",
+                "(isbn)388377247X"
+            ],
+            "publisher": "Ed. Text u. Kritik",
+            "title": "Arno Schmidt",
+            "abstract": "Sammelband mit 13 Einzelbeitr\u00e4gen zum Werk von Arno Schmidt und 5 z.T. bisher unver\u00f6ffentlichten Prim\u00e4rtexten.",
+            "contributor": [
+                "gnd:11574326X",
+                "gnd:118608703"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "1986",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://external.dandelon.com/download/attachments/dandelon/ids/FL0011B269604A5FF7896C12571C4002C70E7.pdf",
+            "volume": "20/20a",
+            "P30128": "Text + Kritik",
+            "P60163": "M\u00fcnchen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

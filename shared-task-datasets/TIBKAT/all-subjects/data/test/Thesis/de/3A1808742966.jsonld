@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1259483932",
+            "sameAs": "Kohls, Moritz"
+        },
+        {
+            "@id": "gnd:2002227-X",
+            "sameAs": "Tier\u00e4rztliche Hochschule Hannover"
+        },
+        {
+            "@id": "gnd:4012494-0",
+            "sameAs": "Dissertation"
+        },
+        {
+            "@id": "gnd:4113937-9",
+            "sameAs": "Hochschulschrift"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1808742966",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (x, 105 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Jung, Klaus",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1808742966",
+                "(firstid)KXP:1808742966"
+            ],
+            "publisher": "Tier\u00e4rztliche Hochschule Hannover",
+            "title": "Judging robustness and uncertainty in classifying sequencing reads in viral metagenomics",
+            "abstract": "Die Klassifikation viraler Reads durch Anwendung von Next Generation Sequencing (NGS) auf die biologische Probe eines infizierten Wirts kann beispielsweise durch Mapping oder Methoden des Maschinellen Lernens erfolgen. Das \u00fcbergeordnete Ziel dieser Arbeit ist es, Methoden zur Quantifizierung der Robustheit und Unsicherheit solcher Klassifikationen zu verbessern. Im Rahmen der Mapping-basierten Klassifikation werden Resampling-Ans\u00e4tze vorgestellt, die das urspr\u00fcngliche Analyseergebnis erweitern, indem sie die Bandbreite viralen Materials in der Probe besser darstellen. Dar\u00fcber hinaus wird ein \u00fcberwachter Lernansatz vorgestellt, um Reads in biologische Ordnungen zu klassifizieren und Klassenh\u00e4ufigkeiten zu korrigieren, indem vorherige Informationen \u00fcber Fehlklassifizierungsraten einbezogen werden. Die meisten Bioinformatik-Pipelines, die auf Mapping beruhen, f\u00fchren zu einer Liste potenzieller Viren, die in der Wirtsprobe vorhanden sind. Solche Pipelines mappen Reads oder Contigs, die aus Reads aufgebaut werden, zu einen Satz bekannter Referenzvirusgenome und, falls verf\u00fcgbar, zum Referenzgenom des Wirts. Mehrere technische oder biologische Prozesse k\u00f6nnen zu falsch positiven oder negativen Entschei-dungen f\u00fchren. Das bedeutet, dass tats\u00e4chlich in der Probe vorhandene Viren weggelassen oder umgekehrt Viren, die nicht in der Probe enthalten sind, f\u00e4lschlicherweise identifiziert werden k\u00f6nnen. Die meisten existierenden Berechnungsmethoden f\u00fcr Metagenomikdaten bewerten die Robustheit der Ergebnisse nicht. In dieser Arbeit werden jedoch zwei Resampling-Algorithmen vorgestellt, um die Robustheit von Mapping-Ergebnissen hinsichtlich falsch positiver und negativer Befunde zu beurteilen. Diese Resampling-Strategien umfassen die Generierung k\u00fcnstlicher FASTQ-Dateien, deren Reads und Qualit\u00e4tswerte basierend auf statistischen Verteilungen der urspr\u00fcnglichen Mapping-Ergebnisse gezogen werden. Es wird gezeigt, dass dieser Ansatz im Gegensatz zu einer bestehenden Decoy-Strategie realistischere Reads erzeugt, die mehr statistische \u00c4hnlichkeiten mit den urspr\u00fcnglichen Reads aufweisen. Im Gegensatz zu den hier vorgestellten Mapping-Ans\u00e4tzen zieht der Lernansatz R\u00fcckschl\u00fcsse nicht auf der Ebene der einzelnen Viren, sondern auf der Ebene der Taxonomien. Die virale Taxaverteilung wird gesch\u00e4tzt, indem k\u00fcnstliche neuronale Netze als spezielle Machine-Learning-Modelle entwickelt werden und verschiedene aus den Reads abgeleitete Parameter als m\u00f6gliche Pr\u00e4diktoren verwendet werden. Danach wird die statistische Sch\u00e4tzung korrigiert, indem gesch\u00e4tzte Fehlklassifizierungsraten verwendet werden und ein Theorem aus der Wahrscheinlichkeitsrechnung angewendet wird.",
+            "alternative": "Beurteilung der Robustheit und Unsicherheit bei der Klassifizierung von Sequenzierungs-Reads",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2002227-X",
+                "gnd:1259483932"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2022",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Hannover"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "issued": "http://purl.org/dc/terms/issued",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

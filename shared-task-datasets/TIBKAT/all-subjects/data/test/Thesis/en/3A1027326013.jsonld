@@ -1,0 +1,84 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1162912111",
+            "sameAs": "Schiefer, Jonathan"
+        },
+        {
+            "@id": "gnd:4019752-9",
+            "sameAs": "Gehirn"
+        },
+        {
+            "@id": "gnd:4041638-0",
+            "sameAs": "Nervennetz"
+        },
+        {
+            "@id": "gnd:7618675-1",
+            "sameAs": "Funktionelle Kernspintomografie"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1027326013",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (90 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-16094",
+                "(firstid)BSZ:507689984",
+                "(ppn)1027326013",
+                "(doi)10.6094/UNIFR/16094"
+            ],
+            "title": "Inference of multi-scale connectivity in the brain",
+            "abstract": "Abstract: The brain consists of neurons which are interconnected by synapses. The connectivity of the networks formed by the neurons and synapses is a key feature for the function and dysfunction of the brain. In humans, studying the connectivity comes with various challenges. Thus, the access to connectivity in humans is limited. The aim of this dissertation is to introduce a novel method to estimate effective connectivity of neural populations from continuous recordings of the activity of these populations which overcomes limitations of existing methods. This method estimates the connectivity of neural populations based on the covariance of the measured activity. The key mechanism for doing so is a L1 -minimization via a gradient descent on the manifold of unitary matrices. The fact that the gradient of a matrix on the unitary manifold is skew-hermitian and with this in the corresponding Lie-Algebra, is exploited in the update step to project the gradient back on the manifold via the exponential map. As presented in this thesis, this method works reliably for sparse networks with more than 40 nodes and a sufficient network interaction. The method can be applied on zero-lag covariance matrices, hence there is no restriction on the sampling rate of the measurement. Although based on a linear interaction model, the method also achieves reasonable results for networks which interact non-linearly. A comparison with structural measures based on fMRI data shows better agreement than state-of-the-art methods. Also, the method is robust against noise, unobserved nodes and variable hemodynamics of BOLD signals. In this thesis, a novel method for the estimation of effective connectivity from covariances of neural activity is presented. The features of this method make it applicable on a broad range of data-types, including data based on the BOLD effect or electro physiologic data such as ECoG. Applications of fast fMRI data show plausible and coherent results",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1162912111",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/16094",
+            "P60163": "Freiburg im Breisgau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

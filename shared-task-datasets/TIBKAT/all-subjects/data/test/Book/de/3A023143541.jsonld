@@ -1,0 +1,88 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1046868837",
+            "sameAs": "Scharffenberg, Renate"
+        },
+        {
+            "@id": "gnd:118601024",
+            "sameAs": [
+                "Rilke, Rainer Maria",
+                "Rilke, Rainer Maria 1875-1926"
+            ]
+        },
+        {
+            "@id": "gnd:119543540",
+            "sameAs": [
+                "Juncker, Axel",
+                "Juncker, Axel 1870-1952"
+            ]
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A023143541",
+            "@type": "bibo:Book",
+            "P1053": "349 S",
+            "description": "Ill",
+            "identifier": [
+                "(isbn)3458149724",
+                "(ppn)023143541",
+                "(firstid)GBV:023143541",
+                "(isbn)345804972X"
+            ],
+            "publisher": "Insel-Verl.",
+            "title": "Briefe an Axel Juncker",
+            "abstract": "Rainer Maria Rilke: \"Briefe an Axel Juncker 1900-1926\". Hrsg. von Renate Scharffenberg. Insel Verlag, Frankfurt am Main 1979. 349 S., geb., 36,- DM",
+            "contributor": [
+                "gnd:1046868837",
+                "gnd:119543540"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:118601024",
+            "issued": "1979",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "P60163": "Frankfurt am Main"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

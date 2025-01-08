@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1135214050",
+            "sameAs": "Zhong, Minyi"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4158821-6",
+            "sameAs": "Halbordnung"
+        },
+        {
+            "@id": "gnd:4159528-2",
+            "sameAs": "Helmholtz-Schwingungsgleichung"
+        },
+        {
+            "@id": "gnd:4195918-8",
+            "sameAs": "Lichtbrechung"
+        },
+        {
+            "@id": "gnd:4258960-5",
+            "sameAs": "Wigner-Operator"
+        },
+        {
+            "@id": "gnd:4267405-0",
+            "sameAs": "Lichtwellenleiter"
+        },
+        {
+            "@id": "gnd:4519405-1",
+            "sameAs": "Optische Koh\u00e4renz"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A898741580",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (120 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:898741580",
+                "(ppn)898741580"
+            ],
+            "title": "Propagation of partially coherent light in optical systems",
+            "abstract": "There are in general three approaches to propagate partially coherent light. They include solving the Helmholtz equations for the correlation function, employing the Wigner function to propagate light in phase space, or using modal expansion. In this work, we investigate the interaction of partially spatially coherent light with optical systems. Our modeling methods are based on the Wigner function and modal expansion.  First, we utilize the thin element approximation in the Wigner function to propagate partially coherent light through discontinuous surfaces. Our examples include the phase step, grating, kinoform lens, axicon and lens array. Phase space provides a vivid picture for understanding the diffraction effects, e.g. the diffracted orders formed by a grating, the multiple foci of a kinoform lens, and the beam homogenizing effect of a lens array, etc. This approach facilitates the design of diffractive elements and the interpretation of optical effects. Second, we improve the propagation algorithms for the Wigner function. These implementations include removing a parabolic wavefront of a beam, and an efficient propagator based on rotating the phase space. Both algorithms increase the computational speed without losing any physical accuracy. To overcome certain limitations of our phase space propagators, we investigate the modal expansion method. We use Schell beams as examples, to discuss the advantages and disadvantages of eigenmode and shifted-elementary mode expansions. Afterward, we develop an expansion tool to efficiently propagate partially coherent light inside waveguides. This tool allows quick access to the light fields at any distance inside the waveguide. We thus obtain an accurate modeling of the diffraction effects produced by the waveguide structure. Our modeling methods pave the path to the experimental measurement of coherence. We discuss two schemes to retrieve the spatial coherence of a beam under test. The first scheme is to solve an inverse problem of the modal expansion. It requires iterative phase retrieval algorithms to recover the complex fields of individual modes. We extend this method to a beam with an arbitrary wavefront and discuss the potential and limits of this technique. The second scheme for coherence retrieval is to solve the inverse problem of the Wigner function, also known as the phase space tomography. To reconstruct a Wigner function requires an inverse Radon transform in a four-dimensional space. We present an overview of the two relevant algorithms, i.e. the filtered back projection and the ambiguity function reconstruction. Furthermore, we propose an improved algorithm for the filtered back projection.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1135214050"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

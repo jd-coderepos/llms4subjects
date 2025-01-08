@@ -1,0 +1,76 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:136246885",
+            "sameAs": "M\u00fcller, Thomas"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4113276-2",
+            "sameAs": "Datenbanksystem"
+        },
+        {
+            "@id": "gnd:4737681-8",
+            "sameAs": "XQuery"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A577855190",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (235 Seiten)",
+            "identifier": [
+                "(firstid)GBV:577855190",
+                "(ppn)577855190"
+            ],
+            "title": "Verfahren zur Verarbeitung von XML-Werten in SQL-Anfrageergenissen",
+            "abstract": "Gem\u00e4\u00df der aktuellen Version der SQL-Norm kann ein Anfrageergebnis beliebige XQuery-Sequenzen als Spaltenwerte enthalten. Dies schlie\u00dft insbesondere auch aus mehreren Sequenzeintr\u00e4gen bestehende XQuery-Sequenzen ein, deren Knoten mit Typinformationen angereichert sind. Auf die Frage, wie sich derartige (in einem SQL-Anfrageergebnis enthaltene) XQuery-Sequenzen ad\u00e4quat mit Hilfe eines Anwendungsprogramms verarbeiten lassen, liefert bisher allerdings weder die SQL-Norm noch ein RDBMS-Produkt eine zufriedenstellende Antwort. Zum Schlie\u00dfen dieser L\u00fccke wird in der vorliegenden Arbeit das Verfahren der Sequenzcursor-basierten Verarbeitung eingef\u00fchrt. Die Grundidee dieses Verfahrens (welches eine angemessene und komfortable Verarbeitung der in einem SQL-Anfrageergebnis enthaltenen XQuery-Sequenzen erm\u00f6glicht) besteht darin, mit Hilfe einer neuen Cursorart, den so genannten Sequenzcursorn, in die XQuery-Sequenzen des aktuellen Ergebnistupels einzutauchen, um Sequenzausschnitte zu definieren. Diese Sequenzausschnitte werden dann ins Anwendungsprogramm \u00fcbertragen und dort lokal verarbeitet. Sofern dabei \u00c4nderungen an den Sequenzausschnitten vorgenommen werden, kann das Anwendungsprogramm entscheiden, ob diese \u00c4nderungen in die Datenbank (wieder)eingebracht werden sollen.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:136246885"
+            ],
+            "issued": "2008",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

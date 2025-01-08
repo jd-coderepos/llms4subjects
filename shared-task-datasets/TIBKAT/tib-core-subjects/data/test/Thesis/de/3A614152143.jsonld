@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1209623102",
+            "sameAs": "Kratochv\u00edl, Jan"
+        },
+        {
+            "@id": "gnd:122411986",
+            "sameAs": "Diestel, Reinhard"
+        },
+        {
+            "@id": "gnd:130286311",
+            "sameAs": "Stiebitz, Michael"
+        },
+        {
+            "@id": "gnd:139077405",
+            "sameAs": "Scheide, Diego"
+        },
+        {
+            "@id": "gnd:4113782-6",
+            "sameAs": "Graphentheorie"
+        },
+        {
+            "@id": "gnd:4163212-6",
+            "sameAs": "Kantenf\u00e4rbung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A614152143",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 112 S., 2666 KB)",
+            "identifier": [
+                "(ppn)614152143",
+                "(firstid)DNB:998039640"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "title": "Edge colourings of multigraphs",
+            "abstract": "Das Kantenf\u00e4rbungsproblem besteht darin, den chromatischen Index eines (Multi-)Graphen G zu ermitteln, d.h. die minimale Anzahl an Farben, mit denen man die Kanten von G so f\u00e4rben kann, dass keine zwei benachbarten Kanten die gleiche Farbe erhalten. Kantenf\u00e4rbungsprobleme treten in verschiedenen Scheduling-Anwendungen auf, typischerweise in Verbindung mit Task-Processing oder Netzwerk-Kommunikation. Da das Kantenf\u00e4rbungsproblem NP-schwer ist, sind gute Approximationsalgorithmen gefordert. In dieser Dissertation werden verschiedene F\u00e4rbungstechniken erweitert und neue F\u00e4rbungsalgorithmen entworfen. Ausgehend von einem klassischen Resultat von Vizing, wird ein neuer Graphenparameter - die F\u00e4cherzahl - vorgestellt. Dies f\u00fchrt zu einem F\u00e4rbungsalgorithmus, der durch eine spezielle Kantensortierung Vizings F\u00e4cher in bestm\u00f6glicher Weise nutzen kann. Eines der gr\u00f6\u00dften bisher ungel\u00f6sten Probleme auf dem Gebiet der Kantenf\u00e4rbungen ist Goldbergs Vermutung. Goldberg (und unabh\u00e4ngig davon auch Andersen und Seymour) vermutete eine obere Schranke f\u00fcr den chromatischen Index chi', die vom Maximalgrad Delta und einer maximalen Dichte w abh\u00e4ngt, und zwar chi'<=max{Delta+1,w}. Da Delta und w beides untere Schranken f\u00fcr chi' sind, hat Goldbergs Schranke somit eine absolute Abweichung von h\u00f6chstens 1 vom Optimum. In dieser Dissertation werden einige neue obere Schranken f\u00fcr chi' entwickelt, die die L\u00fccke zwischen den bereits bekannten Schranken und Goldbergs vermuteter Schranke verkleinert. Die beiden wichtigsten neuen Schranken sind max{Delta+1+(Delta-2)/14,w} und max{Delta+sqrt((Delta-1)/2),w}. Die Laufzeiten der zugeh\u00f6rigen F\u00e4rbungsalgorithmen sind polynomiell beschr\u00e4nkt bzgl. der Eckenzahl und der Kantenzahl des zu f\u00e4rbenden Graphen. Da aber ein Graph einfach durch Angabe der Ecken und Kantenvielfachheiten beschrieben werden kann, sind die genannten Algorithmen somit keine echten Polynomialzeitalgorithmen. Im letzten Kapitel der Dissertation wird allerdings gezeigt, wie sich durch alternative Datenstrukturen und ein ivide-and-Conquer-Verfahren diese Algorithmen auch als Polynomialzeitalgorithmen implementieren lassen.",
+            "contributor": [
+                "gnd:130286311",
+                "gnd:1209623102",
+                "gnd:122411986"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:139077405",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

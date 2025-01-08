@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1036289656",
+            "sameAs": "L\u00f6hner, Rainald"
+        },
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universit\u00e4t Hamburg"
+        },
+        {
+            "@id": "gnd:1120147859",
+            "sameAs": "Technische Universit\u00e4t Hamburg, Institut f\u00fcr Fluiddynamik und Schiffstheorie"
+        },
+        {
+            "@id": "gnd:1197746188",
+            "sameAs": "Schubert, Svenja"
+        },
+        {
+            "@id": "gnd:122358910",
+            "sameAs": "Rung, Thomas"
+        },
+        {
+            "@id": "gnd:4220855-5",
+            "sameAs": "Finite-Volumen-Methode"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1679737716",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xiv, 116 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.15480/882.2444",
+                "(isbn13)9783892207122",
+                "(ppn)1679737716",
+                "(firstid)KXP:1679737716"
+            ],
+            "title": "Analysis of coupling techniques for overset-grid finite-volume methods",
+            "abstract": [
+                "Die Kopplung unstrukturierter, \u00fcberlappender 3D Gitter in Finite-Volumen Methoden (FVM) basiert \u00fcblicherweise auf der lokalen Interpolation von Feldwerten, was (a) ungen\u00fcgend ist um Massenkonservativit\u00e4t zu gew\u00e4hrleisten und (b) eine ausreichende \u00dcberlappung der benetzten Bereiche erfordert. Die Effekte der nicht-konservativen Kopplung werden analysiert und eine Stabilisierung des in inkompressiblen FVM an die Masse gekoppelten Drucks durch globale Massenerhaltungsstrategien erreicht. Das numerische Modell wird durch Manipulation der Bereiche mit mangelnder \u00dcberlappung f\u00fcr dynamischen K\u00f6rperkontakt modifiziert. Die erweiterte Methode wird validiert und u.a. f\u00fcr die Simulationen einer Zahnradpumpe und den Kontakt von Zylinder/Kugel mit einer Wand angewendet. Letztere zeigen einen signifikanten Anstieg und eine Kopplung zus\u00e4tzlicher Widerstands- und Tr\u00e4gheitskr\u00e4fte.",
+                "Coupling of unstructured, overlapping 3D grids in finite-volume methods (FVM) is usually based on a local interpolation of field values, which (a) is insufficient to guarantee mass conservation and (b) requires a sufficient overlap of the wetted domain. Effects of the non-conservative coupling are analysed and the mass-dependent pressure in incompressible FVM is stabilised by global mass conservation practices. Areas with an insufficient overlap are numerically manipulated to allow the simulation of dynamic body contact. This enhanced approach is validated and applied, e.g. within the simulation of a gear pump and for contact simulations of a cylinder/sphere with a wall. The latter reveal a significant increase and a coupling of additional resistance and inertia forces."
+            ],
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1036289656"
+                },
+                {
+                    "@id": "gnd:122358910"
+                }
+            ],
+            "creator": [
+                "gnd:1197746188",
+                "gnd:1120147859",
+                "gnd:1112763473"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "712",
+            "isLike": "doi:10.15480/882.2444",
+            "P30128": "Schriftenreihe Schiffbau",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

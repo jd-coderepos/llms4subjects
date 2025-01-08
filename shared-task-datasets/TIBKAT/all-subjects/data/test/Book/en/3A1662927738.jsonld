@@ -1,0 +1,106 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1185769765",
+            "sameAs": "Arulraj, Joy"
+        },
+        {
+            "@id": "gnd:1185777849",
+            "sameAs": "Pavlo, Andrew"
+        },
+        {
+            "@id": "gnd:4113276-2",
+            "sameAs": "Datenbanksystem"
+        },
+        {
+            "@id": "gnd:4728810-3",
+            "sameAs": "Nichtfl\u00fcchtiger Speicher"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1662927738",
+            "@type": "bibo:Book",
+            "P1053": "1 Online-Ressource (xvii, 173 Seiten)",
+            "description": [
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots.",
+                "Erworben aus Studienqualit\u00e4tsmitteln"
+            ],
+            "identifier": [
+                "(isbn13)9781681734859",
+                "(firstid)HEB:445858931",
+                "(doi)10.2200/S00891ED1V01Y201812DTM055",
+                "(ppn)1662927738"
+            ],
+            "publisher": "Morgan & Claypool Publishers",
+            "title": "Non-volatile memory database management systems",
+            "abstract": [
+                "This book explores the implications of non-volatile memory (NVM) for database management systems (DBMSs). The advent of NVM will fundamentally change the dichotomy between volatile memory and durable storage in DBMSs. These new NVM devices are almost as fast as volatile memory, but all writes to them are persistent even after power loss. Existing DBMSs are unable to take full advantage of this technology because their internal architectures are predicated on the assumption that memory is volatile. With NVM, many of the components of legacy DBMSs are unnecessary and will degrade the performance of data-intensive applications. We present the design and implementation of DBMS architectures that are explicitly tailored for NVM. The book focuses on three aspects of a DBMS: (1) logging and recovery, (2) storage and buffer management, and (3) indexing. First, we present a logging and recovery protocol that enables the DBMS to support near-instantaneous recovery. Second, we propose a storage engine architecture and buffer management policy that leverages the durability and byte-addressability properties of NVM to reduce data duplication and data migration. Third, the book presents the design of a range index tailored for NVM that is latch-free yet simple to implement. All together, the work described in this book illustrates that rethinking the fundamental algorithms and data structures employed in a DBMS for NVM improves performance and availability, reduces operational cost, and simplifies software development.",
+                "Acknowledgments -- Introduction -- The Case for a NVM-Oriented DBMS -- Storage Management -- Logging and Recovery -- Buffer Management -- Indexing -- Related Work -- Future Work -- Conclusion -- Bibliography -- Authors' Biographies."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1185777849",
+                "gnd:1185769765"
+            ],
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)BSZ-2-SXSC-mc11",
+                "(collectioncode)ZDB-105-MCS",
+                "(collectioncode)BSZ-2-SXSC-syc8",
+                "(collectioncode)ZDB-2-SXSC",
+                "(collectioncode)ZDB-105-MC11"
+            ],
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "#55",
+            "isLike": "doi:10.2200/S00891ED1V01Y201812DTM055",
+            "P30128": "Synthesis lectures on data management",
+            "P60163": "[San Rafael, California]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

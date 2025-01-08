@@ -1,0 +1,96 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10174118-2",
+            "sameAs": "Verlag Dr. Hut, M\u00fcnchen"
+        },
+        {
+            "@id": "gnd:1135808198",
+            "sameAs": "Reconfigurable Computing"
+        },
+        {
+            "@id": "gnd:1284078914",
+            "sameAs": "Ringlein, Burkhard Johannes"
+        },
+        {
+            "@id": "gnd:2000862-4",
+            "sameAs": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg"
+        },
+        {
+            "@id": "gnd:4193754-5",
+            "sameAs": "Maschinelles Lernen"
+        },
+        {
+            "@id": "gnd:4238872-7",
+            "sameAs": "Verteiltes System"
+        },
+        {
+            "@id": "gnd:4347749-5",
+            "sameAs": "Field programmable gate array"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1838283919",
+            "@type": "bibo:Thesis",
+            "P1053": "vii, 162 Seiten",
+            "identifier": [
+                "(isbn13)9783843952316",
+                "(firstid)KXP:1838283919",
+                "(ppn)1838283919"
+            ],
+            "publisher": "Verlag Dr. Hut",
+            "title": "Mapping of a machine learning algorithm representation to distributed disaggregated FPGAs",
+            "abstract": "The winding down of Moore s law and the end of Dennard scaling have created a demand for specialized accelerators, including field-programmable gate arrays (FPGAs), in cloud and high-performance computing to fuel high demanding workloads, like machine learning models and artificial intelligence. At the same time, compute resources are increasingly consumed by cloud offerings to save costs and avoid the maintenance of sparsely utilized on-premise hardware. Despite their advantages in performance, adaptability, and energy-efficiency, FPGAs are not yet being deployed at scale due to their difficult tool support. Therefore, this thesis intends to contribute to a wider adoption of FPGAs in the future with improvements on three levels:First, a system architecture for managing a large number of disaggregated network-attached FPGAs in an efficient, flexible and scalable way is presented. To ensure the integrity of the infrastructure, partial reconfiguration is used to separate the non-privileged user logic from the privileged system logic.The resulting combination of traditional CPU servers and FPGA nodes, which are all connected via the same network, leads to heterogeneous clusters for which no established programming model exists. Here, as a second level of this thesis, the proposed programming models for such clusters are revisited and it is argued that the Message Passing Interface (MPI) is suitable for programming CPU-FPGA clusters.Finally, as a third level of this thesis, a framework for mapping deep neural network (DNN) models to distributed disaggregated FPGAs is developed. After assessing the current state-of-the-art of compilation frameworks for DNNs, the concepts of a meta-compiler and operation set architectures are presented and implemented. This meta-compiler, called DOSA, enables the evaluation, selection, and combination of existing but restricted DNN-to-FPGA tools to leverage previous research and to generate more efficient solutions",
+            "alternative": "Abbildung einer Repr\u00e4senation eines Algorithmus f\u00fcr maschinelles Lernen auf verteilte disaggregierte FPGAs",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:1284078914",
+                "gnd:10174118-2",
+                "gnd:2000862-4"
+            ],
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "https://www.gbv.de/dms/tib-ub-hannover/1838283919.pdf",
+            "P60163": "M\u00fcnchen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

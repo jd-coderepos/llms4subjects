@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:12900359X",
+            "sameAs": "Wilhelm, Torsten"
+        },
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Gro\u00df, Horst-Michael"
+        },
+        {
+            "@id": "gnd:4129594-8",
+            "sameAs": "Maschinelles Sehen"
+        },
+        {
+            "@id": "gnd:4264283-8",
+            "sameAs": "Bilderkennung"
+        },
+        {
+            "@id": "gnd:4396128-9",
+            "sameAs": "Serviceroboter"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A507972902",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 224 S., 19,3 MB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Zielke, Thomas",
+                "Rigoll, Gerhard"
+            ],
+            "identifier": [
+                "(ppn)507972902",
+                "(firstid)GBV:507972902"
+            ],
+            "publisher": "Univ.-Bibliothek",
+            "title": "Methoden der vision-basierten Nutzerwahrnehmung f\u00fcr eine nat\u00fcrliche Interaktion mit mobilen Servicerobotern",
+            "abstract": "Methoden der vision-basierten Nutzerwahrnehmung f\u00fcr eine nat\u00fcrliche Interaktion mit mobilen Servicerobotern Im Gegensatz zur zwischenmenschlichen Kommunikation, bei der die Beziehungsebene im Vergleich zur Sachebene den weitaus gr\u00f6\u00dferen Anteil einnimmt, wird diese bei der Mensch-Roboter-Interaktion bislang nur in Ans\u00e4tzen ber\u00fccksichtigt. Insbesondere die Nutzerwahrnehmung bleibt in der Regel auf eine reine Personendetektion oder ein einfaches Personen-Tracking beschr\u00e4nkt. Vor diesem Hintergrund wurde eine verbesserte Wahrnehmung des aktuellen Zustandes des Nutzers als Voraussetzung f\u00fcr eine Personalisierung des Dialogs als Zielstellung dieser Arbeit abgeleitet. Beim exemplarischen Anwendungsszenario handelt es sich um einen Shopping-Assistenten, der in einem Baumarkt den Kunden bei der Suche nach Produkten behilflich ist. Dieser sollte zumindest einen gewissen Grad an sozialer Kompetenz zeigen, indem er z.B. Personen in seiner Umgebung detektiert und w\u00e4hrend der Interaktion kontinuierlich Blickkontakt h\u00e4lt. Um Nutzermodelle erstellen, kurzzeitig verlorene Nutzer wiedererkennen und den Gem\u00fctszustand des Nutzers absch\u00e4tzen zu k\u00f6nnen, sollen Geschlecht, Alter, Identit\u00e4t und Gesichtsausdruck des Nutzers aus einem Videobild ermittelt werden. F\u00fcr die Realisierung dieser Aufgabe wurde eine biologisch motivierte Aufteilung in ein peripheres und ein foveales Vision-System vorgeschlagen. Das periphere System arbeitet auf den Bildern einer omnidirektionalen Kamera und verf\u00fcgt damit \u00fcber einen sehr gro\u00dfen Sichtbereich, aber nur eine vergleichsweise geringe Aufl\u00f6sung. In diesem System werden zun\u00e4chst Hypothesen \u00fcber die Position von Personen im Umfeld des Roboters gebildet. Daf\u00fcr werden Hautfarbe, Bewegung und Entfernung in einer Auff\u00e4lligkeitskarte integriert und auff\u00e4llige Bildbereiche mittels eines Multi-Target-Trackers verfolgt. F\u00fcr die omnidirektionale Kamera wurde ein automatischer Wei\u00dfabgleich entwickelt, der die Hautfarbdetektion unempfindlich gegen \u00c4nderungen der Chrominanz der Beleuchtung macht. Nach Auswahl einer Nutzerhypothese wird der Kopf des Roboters kontinuierlich in die entsprechende Richtung ausgerichtet. Damit erh\u00e4lt der Nutzer zum einen eine R\u00fcckmeldung \u00fcber die gerichtete Aufmerksamkeit des Roboters w\u00e4hrend der Interaktion. Zum anderen kann der Roboter hochaufgel\u00f6ste Bilder der Person aufnehmen, so dass eine weitere nachfolgende Analyse erm\u00f6glicht wird. Diese ist wiederum in zwei Teilschritte unterteilt. Der erste Schritt besteht aus einer Detektion des Gesichtes und einer anschlie\u00dfenden Detektion der Augen, anhand derer eine normalisierte Darstellung des Gesichtes erzeugt wird. F\u00fcr den Analyseschritt wurden das Elastic-Graph-Matching, die Independent Component Analysis und die Active-Appearance Models implementiert und vergleichend untersucht. Unter Ber\u00fccksichtigung der Anforderungen einer Geschlechts-, Alters-, Mimik- und Identit\u00e4tssch\u00e4tzung wurde hierf\u00fcr eine umfassende Gesichtsdatenbank zum Training und zum Test der Verfahren angelegt. Die Leistungsf\u00e4higkeit des Gesamtsystems wurde schlie\u00dflich anhand von empirischen Experimenten demonstriert.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129669806"
+                }
+            ],
+            "creator": "gnd:12900359X",
+            "issued": "2005",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

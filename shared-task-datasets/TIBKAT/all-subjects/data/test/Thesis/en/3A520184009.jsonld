@@ -1,0 +1,81 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:132633914",
+            "sameAs": "Hartmann, Andreas"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4076370-5",
+            "sameAs": "Programmierung"
+        },
+        {
+            "@id": "gnd:4151072-0",
+            "sameAs": "Effizienzanalyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A520184009",
+            "@type": "bibo:Thesis",
+            "P1053": "IV, 104 Bl\u00e4tter",
+            "description": [
+                "30 cm",
+                "Diagramme"
+            ],
+            "identifier": [
+                "(ppn)520184009",
+                "(firstid)GBV:520184009"
+            ],
+            "title": "Eine Methode der effizienten und verifizierbaren Programmannotation f\u00fcr den Transport von Escape-Informationen",
+            "abstract": "JIT compilation is frequently employed in order to speedup the execution of platform-independent and dynamically extensible mobile code applications. Since the time required for dynamic compilation directly influences a program's execution time, JIT compilers usually utilize only simple and fast techniques for program analysis and optimization. Program annotations can be used to improve the analysis and optimizitation process of a JIT compiler. Program annotations allow a mobile code system derive information about a program, on the producer side, and transmit that information along with the program to the consumer side. In this work, we present an inherently safe annotation technique for the safe transmission of escape information. The annotation technique described in this work is built on the SafeTSA mobile code format and is implemented as a simple extension of SafeTSA's type system. The space required for these annotations is minimal, and measurements of compilation time show that using information from an offline escape analysis in form of program annotations is evident faster than performing the escape analysis at runtime.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:132633914",
+                "gnd:36164-1"
+            ],
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

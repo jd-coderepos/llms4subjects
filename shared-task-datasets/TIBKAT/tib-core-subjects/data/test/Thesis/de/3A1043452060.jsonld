@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:117328205X",
+            "sameAs": "Keil, Roman Matthias"
+        },
+        {
+            "@id": "gnd:4420180-1",
+            "sameAs": "JavaScript"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1043452060",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (219 Seiten)",
+            "identifier": [
+                "(firstid)BSZ:515143251",
+                "(doi)10.6094/UNIFR/16963",
+                "(ppn)1043452060",
+                "(contract)FRUB-opus-16963"
+            ],
+            "title": "Higher-order contracts for JavaScript",
+            "abstract": [
+                "Abstract: JavaScript ist eine schwach typisierten und dynamische Programmiersprache mit Objekten und Funktionen erster Klasse. Obwohl JavaScript am meisten als clientseitige Skriptsprache f\u00fcr Webseiten bekannt ist wird sie mittlerweile auch vermehrt f\u00fcr nicht-Browser Entwicklungen eingesetzt, wie zum Beispiel f\u00fcr die Entwicklung von serverseitigen Anwendungen mit Node.js, f\u00fcr Spieleentwicklungen, f\u00fcr die Entwicklung von plattformunabh\u00e4ngigen Handy Applikationen, oder als Zwischensprache f\u00fcr andere Sprachen wie TypeScript oder Dart.<br><br>Leider besitzt JavaScript selbst nur ein geringes Sicherheitsbewusstsein: es gibt einen globalen Bereich f\u00fcr Funktionen und Variablen, alle Skripte haben die gleichen Rechte, und jeder kann alles ver\u00e4ndern, von den Feldern und Methoden eines Objekts, \u00fcber die Prototype-Eigenschaft, bis hin zu dem Sichtbarkeitsbereich von Variablen innerhalb einer Funktion. Die Konsequenz davon ist, dass JavaScript anf\u00e4llig f\u00fcr Code-Injektion ist, Bibliotheken alles lesen k\u00f6nnen was \u00fcber den globalen Bereich erreichbar ist und fremder Code Zugriff auf sensibel Daten bekommen kann. Dar\u00fcberhinaus k\u00f6nnen unerwartete Seiteneffekte entstehen und Verst\u00e4ndnis und Wartung von JavaScript Programmcode werden erschwert.<br><br>Um diesen Einschr\u00e4nkungen entgegenzuwirken schlagen wir die Verwendung von einem Vertragssystem mit Laufzeit\u00fcberwachung vor. Vertragssysteme wurden mit Meyer\u2019s Design by Contract Technologie eingef\u00fchrt und sehen die Definition von Invarianten f\u00fcr Objekte, sowie Hoare-\u00e4hnliche Vor- und Nachbedingungen f\u00fcr Funktionen vor. Gerade f\u00fcr dynamisch typisierte Sprachen sind Vertragssysteme interessant da sie starke Programmgarantien erm\u00f6glichen ohne dabei die Flexibilit\u00e4t und Ausdrucksst\u00e4rke der Sprache einzuschr\u00e4nken.<br><br>Diese Dissertation pr\u00e4sentiert Design und Implementierung von TreatJS, einem Ver- tragssystem h\u00f6herer Ordnung f\u00fcr JavaScript. Neben den Standard Abstraktionen f\u00fcr Vertr\u00e4ge stellt TreatJS Schnitt- und Vereinigungsoperatoren f\u00fcr Vertr\u00e4ge und einen Vertragskonstruktor, welcher Vertr\u00e4ge mittels Abstraktion zur Laufzeit erzeugt, zur Verf\u00fcgung. Vertragskonstruktoren sind die Bauelemente f\u00fcr alle zustandsbehafteten Vertrage, wie zum Beispiel argumentab\u00e4ngige Vertr\u00e4ge, parametrierbare Vertr\u00e4ge oder rekursive Vertr\u00e4ge.<br><br>Eine weitere Neuerung in TreatJS ist die Verwendung von Constraints zur Berechnung von Schuldzuweisungen nach Vertr ...",
+                "Abstract: JavaScript is an untyped and dynamic programming language with objects and first-class functions. While it is most well-known as the client-side scripting language for websites, it is also increasingly used for non-browser development, such as developing server-side applications with Node.js, for game development, to implement platform-independent mobile applications, or as a compilation target for other languages like TypeScript or Dart.<br><br>Unfortunately, JavaScript itself has no real security awareness: there is a global scope for functions and variables, all scripts have the same authority, and everything can be modified, from the fields and methods of an object over its prototype property to the scope chain of a function closure. As a consequence, JavaScript code is prone to injection attacks, library code can read and manipulate everything reachable from the global scope, and third-party code can get access to sensitive data. Furthermore, side effects may cause unexpected behavior so that program understanding and maintenance become difficult.<br><br>To overcome these limitations, we propose using contracts with runtime monitoring. Software contracts were introduced with Meyer\u2019s Design by Contract methodology which stipulates invariants for objects as well as Hoare-like pre- and postconditions for functions. Contract monitoring has become a prominent mechanism to provide strong guarantees for programs in dynamically typed languages while preserving their flexibility and expressiveness.<br><br>This dissertation presents the design and implementation of TreatJS, a language-embedded, higher-order contract system for JavaScript which enforces contracts by runtime monitoring. Beyond the standard abstractions for higher-order contracts (flat contracts, function contracts, dependent contracts), TreatJS provides intersection and union operators for contracts and a contract constructor that constructs and composes contracts at runtime using contract abstraction. Contract constructors are the building blocks for dependent contracts, parameterized contracts, and recursive contracts.<br><br>Another novel aspect is TreatJS\u2019s use of constraints to create a structure for computing positive and negative blame according to the semantics of subject and context satisfaction, respectively. Moreover, it applies a compatibility check to distinguish contracts from different sides of an intersection or union, and it provides three general monitoring semanti ..."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:117328205X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/16963",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

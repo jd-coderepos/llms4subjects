@@ -1,0 +1,89 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1088792391",
+            "sameAs": "Markus, Arjen"
+        },
+        {
+            "@id": "gnd:11186982X",
+            "sameAs": "Metcalf, Michael"
+        },
+        {
+            "@id": "gnd:4017984-9",
+            "sameAs": "FORTRAN"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A688224512",
+            "@type": "bibo:Book",
+            "P1053": "XVI, 253 S.",
+            "description": [
+                "Ill., graph. Darst.",
+                "24 cm"
+            ],
+            "identifier": [
+                "(ppn)688224512",
+                "(firstid)GBV:688224512",
+                "(isbn13)9781107017900",
+                "(isbn)1107603471",
+                "(isbn)1107017904",
+                "(isbn13)9781107603479"
+            ],
+            "publisher": "Cambridge Univ. Press",
+            "title": "Modern Fortran in practice",
+            "abstract": [
+                "\"Since the publication of the FORTRAN 77 standard in 1978 the Fortran language has undergone a large number of revisions [61].1 The changes that were introduced reflect both new insights in programming techniques and new developments in computer hardware. From the very start the language has been designed with computing efficiency in mind. The latest standard as of this writing, Fortran 2008, puts even more emphasis on this aspect by introducing explicit support for parallel processing [71]. This first chapter gives an overview of the various standards that have appeared after \" FORTRAN 77\". There is no attempt to be complete or even to describe all major features - that would mean a whole book or even a series of books. Consult Metcalf et al. [63], [65] or Brainerd et al. [36] for a detailed Officially, Fortran 77 should be written as FORTRAN 77. Since the Fortran 90 standard the name is written in lowercase. description of the standards. 1.1 The flavour of modern Fortran The Fortran 90 standard introduced some very significant changes with respect to the widespread FORTRAN 77 standard: free form source code, array operations, modules and derived types to name but a few. To give an impression of what this means for the programmer, consider this simple problem: We have a file with numbers, one per line (to keep it simple) and we want to determine the distribution of these numbers, that is, produce a simple histogram. In FORTRAN 77 a program that does this might look like: * Produce a simple histogram * PROGRAM HIST INTEGER MAXDATA PARAMETER (MAXDATA = 1000) INTEGER NOBND PARAMETER (NOBND = 9) REAL BOUND(NOBND) REAL DATA(MAXDATA) INTEGER I, NODATA\"--",
+                "\"A tutorial guide that shows programmers how to apply features of Fortran 2008 in a modular, concise, object-oriented, and resource-efficient manner, using multiple processors\"--"
+            ],
+            "contributor": "gnd:11186982X",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1088792391",
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9781107603479.pdf",
+            "P60163": "New York, NY [u.a.]"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

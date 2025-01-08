@@ -1,0 +1,92 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1153717182",
+            "sameAs": "Beyhl, Thomas"
+        },
+        {
+            "@id": "gnd:173277950",
+            "sameAs": "Giese, Holger"
+        },
+        {
+            "@id": "gnd:4010450-3",
+            "sameAs": "Computergrafik"
+        },
+        {
+            "@id": "gnd:4113782-6",
+            "sameAs": "Graphentheorie"
+        },
+        {
+            "@id": "gnd:4295335-2",
+            "sameAs": "Entwurfssprache"
+        },
+        {
+            "@id": "gnd:4831446-8",
+            "sameAs": "Matching (Graphentheorie)"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1015216838",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (VII, 293 Seiten, 6736 KB)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1015216838",
+                "(ppn)1015216838"
+            ],
+            "title": "A framework for incremental view graph maintenance",
+            "abstract": "Nowadays, graph data models are employed, when relationships between entities have to be stored and are in the scope of queries. For each entity, this graph data model locally stores relationships to adjacent entities. Users employ graph queries to query and modify these entities and relationships. These graph queries employ graph patterns to lookup all subgraphs in the graph data that satisfy certain graph structures. These subgraphs are called graph pattern matches. However, this graph pattern matching is NP-complete for subgraph isomorphism. Thus, graph queries can suffer a long response time, when the number of entities and relationships in the graph data or the graph patterns increases. One possibility to improve the graph query performance is to employ graph views that keep ready graph pattern matches for complex graph queries for later retrieval. However, these graph views must be maintained by means of an incremental graph pattern matching to keep them consistent with the graph data from which they are derived, when the graph ...",
+            "alternative": "Ein Framework f\u00fcr die inkrementelle Wartung von Sichten auf Graphen",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:173277950"
+                }
+            ],
+            "creator": "gnd:1153717182",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4121677-5",
+            "sameAs": "Softwarearchitektur"
+        },
+        {
+            "@id": "gnd:4240639-0",
+            "sameAs": "Modularit\u00e4t"
+        },
+        {
+            "@id": "gnd:4346172-4",
+            "sameAs": "Objektorientierung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A322760623",
+            "@type": "bibo:Thesis",
+            "P1053": "412 p. = 1825 KB, text and images",
+            "contributor": "Koschke, Rainer",
+            "identifier": [
+                "(ppn)322760623",
+                "(firstid)GBV:322760623"
+            ],
+            "title": "Atomic architectural component recovery for program understanding and evolution",
+            "abstract": "The abundance of published methods for component recovery calls for frameworks to unify, classify, and compare them in order to make informed decisions. This thesis introduces a classification of component recovery techniques based on a unification of 23 techniques. Focussing on structural techniques, 16 fully automatic techniques are classified into connection-, metric-, graph-, and concept-based subcategories and the commonalities and variabilities of these techniques are discussed. Beyond the qualitative comparison, 12 structural techniques are evaluated quantitatively (all but concept-based techniques). To that end, an evaluation scheme is introduced that allows to measure recall and precision of component recovery techniques with respect to a set of manually ascertained reference components. Among the evaluated techniques is our new metric-based technique Similarity Clustering. The evaluation scheme based on a set of expected components manually compiled by 5 software engineers for four C systems (altogether 136 KLOC) shows that Similarity Clustering is among the best techniques for all systems, but it also has more false positives than other techniques. The overall result of this comparison is that none of the fully automatic techniques has a sufficient detection quality. In order to overcome this problem, a semi-automatic method is presented in this thesis in which computer and maintainer collaborate to detect components. The method is supported by a framework that integrates the existing fully automatic techniques. The automatic techniques can be run successively and their results be validated by the user. For this purpose, all the techniques are enhanced to work incrementally. The results of the techniques can be combined by high-level operators modeled on intersection, union, and difference for fuzzy sets. An alternative way of integration is offered by a voting approach that summarizes the individual agreement of automatic techniques.",
+            "alternative": "Wiedergewinnung atomarer Architekturkomponenten f\u00fcr Programmverstehen und -evolution",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2000",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

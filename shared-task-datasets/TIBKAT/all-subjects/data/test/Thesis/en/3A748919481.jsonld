@@ -1,0 +1,61 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4006684-8",
+            "sameAs": "Bildverarbeitung"
+        },
+        {
+            "@id": "gnd:7576897-5",
+            "sameAs": "Behaarung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A748919481",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "contributor": "Lay Herrera, Tom\u00e1s",
+            "identifier": [
+                "(ppn)748919481",
+                "(firstid)HBZ:HT017663834"
+            ],
+            "title": "Image-based approaches to hair modeling",
+            "abstract": "Hair is a relevant characteristic of virtual characters, therefore the modeling of plausible facial hair and hairstyles is an essential step in the generation of computer generated (CG) avatars. However, the inherent geometric complexity of hair together with the huge number of filaments of an average human head make the task of modeling hairstyles a very challenging one. To date this is commonly a manual process which requires artist skills or very specialized and costly acquisition software. In this work we present an image-based approach to model facial hair (beard and eyebrows) and (head) hairstyles. Since facial hair is usually much shorter than the average head hair two different methods are resented, adapted to the characteristics of the hair to be modeled. Facial hair is modeled using data extracted from facial texture images and missing information is inferred by means of a database-driven prior model. Our hairstyle reconstruction technique employs images of the hair to be modeled taken with a thermal camera. The major advantage of our thermal image-based method over conventional image-based techniques lies on the fact that during data capture the hairstyle is \"lit from the inside\": the thermal camera captures heat irradiated by the head and actively re-emitted by the hair filaments almost isotropically. Following this approach we can avoid several issues of conventional image-based techniques, like shadowing or anisotropy in reflectance. The presented technique requires minimal user interaction and a simple acquisition setup. Several challenging examples demonstrate the potential of the proposed approach.",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

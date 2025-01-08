@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1159538492",
+            "sameAs": "K\u00fchne, Lars"
+        },
+        {
+            "@id": "gnd:36164-1",
+            "sameAs": "Friedrich-Schiller-Universit\u00e4t Jena"
+        },
+        {
+            "@id": "gnd:4193615-2",
+            "sameAs": "Paralleler Algorithmus"
+        },
+        {
+            "@id": "gnd:4730061-9",
+            "sameAs": "Hasse-Diagramm"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1023087936",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (110 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(firstid)GBV:1023087936",
+                "(doi)10.22032/dbt.34678",
+                "(ppn)1023087936"
+            ],
+            "title": "A parallel algorithm for computing the flow complex : theory and applications",
+            "abstract": "Wir pr\u00e4sentieren einen parallelen Algorithmus zur Berechnung des Hasse-Diagramms des Flow-Komplexes einer Punktwolke im euklidischen Raum. Bekannte Algorithmen in zwei und drei Dimensionen berechnen zun\u00e4chst dessen geometrische Realisierung und m\u00fcssen vorher die Delaunay-Triangulierung berechnen. Unser Algorithmus berechnet nur das Hasse-Diagramm des Flow-Komplexes, welches, mit ausreichend geometrischen Informationen versehen, die selbe topologische Multiskalenanalyse erm\u00f6glicht wie die Alpha-Shape Filtration. Wir zeigen mit experimentelle Ergebnissen f\u00fcr mittlere Dimensionen, dass unser Algorithmus gut mit der Anzahl der verf\u00fcgbaren Kerne auf einer Mehrkern-Architektur skaliert. Wir wenden unseren Algorithmus an, um den Tr\u00e4ger eines Wahrscheinlichkeitsma\u00dfes auf Basis von Punkten zu skizzieren, welche aus dem euklidischen Raum gezogen wurden. Des Weiteren wenden wir unseren Algorithmus auf Streudiagramme an, welche zur Korrelationsanalyse verwendet werden, aber auch ein n\u00fctzliches Werkzeug sind, um die Verteilung hochdimensionaler Punktwolken zu verstehen.",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:36164-1",
+                "gnd:1159538492"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.22032/dbt.34678",
+            "P60163": "Jena"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

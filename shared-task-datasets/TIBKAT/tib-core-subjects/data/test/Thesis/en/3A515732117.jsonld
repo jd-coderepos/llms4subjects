@@ -1,0 +1,66 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4001158-6",
+            "sameAs": "Algebraische Differentialgleichung"
+        },
+        {
+            "@id": "gnd:4038390-8",
+            "sameAs": "Mehrk\u00f6rpersystem"
+        },
+        {
+            "@id": "gnd:4338132-7",
+            "sameAs": "Numerisches Modell"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A515732117",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: 319 S., 2276 KB)",
+            "creator": "Steinbrecher, Andreas",
+            "identifier": [
+                "(ppn)515732117",
+                "(firstid)GBV:515732117"
+            ],
+            "publisher": "Nieders\u00e4chsische Staats- und Universit\u00e4tsbibliothek",
+            "title": "Numerical solution of quasi-linear differential-Algebraic equations and industrial simulation of multibody systems",
+            "abstract": "In this thesis we discuss the numerical integration of general quasi-linear differential-algebraic equations (DAEs) in view of the numerical simulation of multibody systems. Based on the obtained results we develop and implement two new numerical algorithms for the numerical integration of general equations of motion as they appear in industrial applications. This thesis is focused on three topics as elucidated in the following. The first topic involves the consideration of quasi-linear DAEs in their most general form which may be underdetermined or overdetermined. Their leading matrix and the right-hand side depend on the state as well as on a given control function. As a base for the analytical considerations we develop an iterative procedure which enables us to investigate the quasi-linear DAE. This procedure is only based on relevant equations and their derivatives. This fact reduces the effort significantly in comparison with the use of other analysis concepts. This procedure allows the determination of characteristic properties of a quasi-linear DAE, in particular, the maximal constraint level which corresponds to the differentiation index in case of regular DAEs. Furthermore, based on this procedure, a regularization technique for general quasi-linear DAEs is developed. This regularization technique yields an equivalent DAE which is suited for a robust numerical integration because of its favorable properties. Based on implicit Runge-Kutta methods we develop a discretization technique which connects in an efficient and simple way the developed regularization technique with the solution of the occuring linear algebraic systems ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

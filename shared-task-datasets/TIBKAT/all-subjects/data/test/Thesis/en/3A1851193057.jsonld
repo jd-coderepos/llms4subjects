@@ -1,0 +1,111 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1120622646",
+            "sameAs": "Rabczuk, Timon"
+        },
+        {
+            "@id": "gnd:1294233955",
+            "sameAs": "Ashour, Mohammed H.M."
+        },
+        {
+            "@id": "gnd:4026302-2",
+            "sameAs": "Hydrodynamik"
+        },
+        {
+            "@id": "gnd:4151846-9",
+            "sameAs": "Elektromechanik"
+        },
+        {
+            "@id": "gnd:4206141-6",
+            "sameAs": "Vesikel"
+        },
+        {
+            "@id": "gnd:4736241-8",
+            "sameAs": "Phasenfeldmodell"
+        },
+        {
+            "@id": "gnd:5180842-0",
+            "sameAs": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@id": "gnd:7718401-4",
+            "sameAs": "Isogeometrische Analyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1851193057",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (175 Seiten)",
+            "description": "Diagramme",
+            "identifier": [
+                "(ppn)1851193057",
+                "(doi)10.25643/bauhaus-universitaet.6400",
+                "(firstid)KXP:1851193057"
+            ],
+            "title": "Electromechanics and Hydrodynamics of Single Vesicles and Vesicle Doublet Using Phase-Field Isogeometric Analysis",
+            "abstract": "Biomembranes are selectively permeable barriers that separate the internal components of the cell from its surroundings. They have remarkable mechanical behavior which is characterized by many phenomena, but most noticeably their fluid-like in-plane behavior and solid-like out-of-plane behavior. Vesicles have been studied in the context of discrete models, such as Molecular Dynamics, Monte Carlo methods, Dissipative Particle Dynamics, and Brownian Dynamics. Those methods, however, tend to have high computational costs, which limited their uses for studying atomistic details. In order to broaden the scope of this research, we resort to the continuum models, where the atomistic details of the vesicles are neglected, and the focus shifts to the overall morphological evolution. Under the umbrella of continuum models, vesicles morphology has been studied extensively. However, most of those studies were limited to the mechanical response of vesicles by considering only the bending energy and aiming for the solution by minimizing the total energy of the system. Most of the literature is divided between two geometrical representation methods; the sharp interface methods and the diffusive interface methods. Both of those methods track the boundaries and interfaces implicitly. In this research, we focus our attention on solving two non-trivial problems. In the first one, we study a constrained Willmore problem coupled with an electrical field, and in the second one, we investigate the hydrodynamics of a vesicle doublet suspended in an external viscous fluid flow.   For the first problem, we solve a constrained Willmore problem coupled with an electrical field using isogeometric analysis to study the morphological evolution of vesicles subjected to static electrical fields. The model comprises two phases, the lipid bilayer, and the electrolyte. This two-phase problem is modeled using the phase-field method, which is a subclass of the diffusive interface methods mentioned earlier. The bending, flexoelectric, and dielectric energies of the model are reformulated using the phase-field parameter. A modified Augmented-Lagrangian (ALM) approach was used to satisfy the constraints while maintaining numerical stability and a relatively large time step. This approach guarantees the satisfaction of the constraints at each time step over the entire temporal domain.   In the second problem, we study the hydrodynamics of vesicle doublet suspended in an external viscous fluid flow. Vesicles in this part of the research are also modeled using the phase-field model. The bending energy and energies associated with enforcing the global volume and area are considered. In addition, the local inextensibility condition is ensured by introducing an additional equation to the system. To prevent the vesicles from numerically overlapping, we deploy an interaction energy definition to maintain a short-range repulsion between the vesicles. The fluid flow is modeled using the incompressible Navier-Stokes equations and the vesicle evolution in time is modeled using two advection equations describing the process of advecting each vesicle by the fluid flow. To overcome the velocity-pressure saddle point system, we apply the Residual-Based Variational MultiScale (RBVMS) method to the Navier-Stokes equations and solve the coupled systems using isogeometric analysis. We study vesicle doublet hydrodynamics in shear flow, planar extensional flow, and parabolic flow under various configurations and boundary conditions.   The results reveal several interesting points about the electrodynamics and hydrodynamics responses of single vesicles and vesicle doublets. But first, it can be seen that isogeometric analysis as a numerical tool has the ability to model and solve 4th-order PDEs in a primal variational framework at extreme efficiency and accuracy due to the abilities embedded within the NURBS functions without the need to reduce the order of the PDE by creating an intermediate environment. Refinement whether by knot insertion, order increasing or both is far easier to obtain than traditional mesh-based methods. Given the wide variety of phenomena in natural sciences and engineering that are mathematically modeled by high-order PDEs, the isogeometric analysis is among the most robust methods to address such problems as the basis functions can easily attain high global continuity.   On the applicational side, we study the vesicle morphological evolution based on the electromechanical liquid-crystal model in 3D settings. This model describing the evolution of vesicles is composed of time-dependent, highly nonlinear, high-order PDEs, which are nontrivial to solve. Solving this problem requires robust numerical methods, such as isogeometric analysis. We concluded that the vesicle tends to deform under increasing magnitudes of electric fields from the original sphere shape to an oblate-like shape. This evolution is affected by many factors and requires fine-tuning of several parameters, mainly the regularization parameter which controls the thickness of the diffusive interface width. But it is most affected by the method used for enforcing the constraints. The penalty method in presence of an electrical field tends to lock on the initial phase-field and prevent any evolution while a modified version of the ALM has proven to be sufficiently stable and accurate to let the phase-field evolve while satisfying the constraints over time at each time step. We show additionally the effect of including the flexoelectric nature of the Biomembranes in the computation and how it affects the shape evolution as well as the effect of having different conductivity ratios. All the examples were solved based on a staggered scheme, which reduces the computational cost significantly.   For the second part of the research, we consider vesicle doublet suspended in a shear flow, in a planar extensional flow, and in a parabolic flow. When the vesicle doublet is suspended in a shear flow, it can either slip past each other or slide on top of each other based on the value of the vertical displacement, that is the vertical distance between the center of masses between the two vesicles, and the velocity profile applied. When the vesicle doublet is suspended in a planar extensional flow in a configuration that resembles a junction, the time in which both vesicles separate depends largely on the value of the vertical displacement after displacing as much fluid from between the two vesicles. However, when the vesicles are suspended in a tubular channel with a parabolic fluid flow, they develop a parachute-like shape upon converging towards each other before exiting the computational domain from the predetermined outlets. This shape however is affected largely by the height of the tubular channel in which the vesicle is suspended. The velocity essential boundary conditions are imposed weakly and strongly. The weak implementation of the boundary conditions was used when the velocity profile was defined on the entire boundary, while the strong implementation was used when the velocity profile was defined on a part of the boundary. The strong implementation of the essential boundary conditions was done by selectively applying it to the predetermined set of elements in a parallel-based code. This allowed us to simulate vesicle hydrodynamics in a computational domain with multiple inlets and outlets. We also investigate the hydrodynamics of oblate-like shape vesicles in a parabolic flow. This work has been done in 2D configuration because of the immense computational load resulting from a large number of degrees of freedom, but we are actively seeking to expand it to 3D settings and test a broader set of parameters and geometrical configurations.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:1120622646"
+                }
+            ],
+            "creator": [
+                "gnd:1294233955",
+                "gnd:5180842-0"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2023",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "2023,1",
+            "isLike": "doi:10.25643/bauhaus-universitaet.6400",
+            "P30128": "ISM-Bericht",
+            "P60163": "Weimar"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "issued": "http://purl.org/dc/terms/issued",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
