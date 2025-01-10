@@ -38,9 +38,9 @@ Predictions should be stored in a JSON file, named identically to the correspond
 
 The script requires three user inputs:
 
-1. The path to the dataset containing the records.
+1. The path to the gold-standard dataset with the annotations.
 2. The path to the model's predictions.
-3. The path to save the resultant Excel file with evaluation metrics scores.
+3. The path to save the results as an Excel file.
 
 The script will generate an Excel file containing the evaluation metrics scores, organized into three different sheets, each corresponding to a different level of granularity.
 
@@ -52,10 +52,10 @@ $python gnd_evaluation.py
 LLMs4Subjects Shared Task -- Evaluations
 
 Please specify the directory containing the true GND labels
-Directory path> evaluation/test_samples/true_labels
+Directory path> evaluation/all_subjects
 
 Please specify the directory containing the predicted GND labels
-Directory path> evaluation/test_samples/predicted_labels
+Directory path> evaluation/all_subjects/run1
 
 Please specify the directory to save the evaluation metrics
 Directory path> evaluation/results
