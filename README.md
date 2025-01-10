@@ -23,6 +23,8 @@ This shared task offers the research community an opportunity to creatively deve
 
 - [**supplementary-datasets**](https://github.com/jd-coderepos/llms4subjects/tree/main/supplementary-datasets): This subfolder includes all excluded data from the open-access GND and TIBKAT datasets that are not part of the **LLMs4Subjects** shared task. For instance, this may include records from TIBKAT in languages other than English or German or records where a specific record type is too sparse. Although not part of the official shared task, these records are available for participants to use as needed.
 
+- [**shared-task-eval-script**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-eval-script): This subfolder contains the official evaluation script used to generate the quantitative evaluation results for **LLMs4Subjects** participant team submissions.
+
 ## 📧 Contact
 
 llms4subjects [at] gmail.com
