@@ -24,7 +24,7 @@ Evaluation results will be presented at varying levels of granularity to provide
 
 ## 🛠️ Evaluation Script
 
-Participants are provided with an evaluation [script](scripts/llms4subjects-evaluation.py) to test their model performance on the train and dev sets. The same script will be used during the evaluation phase of the shared task.
+Participants are provided with an evaluation [script](llms4subjects-evaluation.py) to test their model performance on the train and dev sets. The same script will be used during the evaluation phase of the shared task.
 
 ### Execution Instructions
 
