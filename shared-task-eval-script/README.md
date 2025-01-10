@@ -47,7 +47,7 @@ The script will generate an Excel file containing the evaluation metrics scores,
 ### 🧑‍💻 Code Execution Sample
 
 ```bash
-$python gnd_evaluation.py
+$python llms4subjects-evaluation.py
 
 LLMs4Subjects Shared Task -- Evaluations
 
