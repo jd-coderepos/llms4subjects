@@ -26,16 +26,16 @@ The table below shows the number of records for each data split and record type:
 |        |             | en       | 215          |
 |        | Thesis      | de       | 1,404        |
 |        |             | en       | 574          |
-| Test   | Article     | en       | 523          |
-|        |             | de       | 3            |
-|        | Book        | de       | 17,923       |
-|        |             | en       | 13,840       |
-|        | Conference  | en       | 1,837        |
-|        |             | de       | 1,150        |
-|        | Report      | de       | 786          |
-|        |             | en       | 653          |
-|        | Thesis      | de       | 4,303        |
-|        |             | en       | 1,739        |
+| Test   | Article     | en       | 423          |
+|        |             | de       | 1            |
+|        | Book        | de       | 13,554       |
+|        |             | en       | 7,598        |
+|        | Conference  | de       | 908          |
+|        |             | en       | 808          |
+|        | Report      | de       | 524          |
+|        |             | en       | 334          |
+|        | Thesis      | de       | 3,003        |
+|        |             | en       | 833          |
 
 
 ## 📝 Abstract Statistics
