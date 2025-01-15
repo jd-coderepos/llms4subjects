@@ -314,7 +314,7 @@ def read_gnd_files(dir_path: str, true_labels: bool):
             if true_labels:
                 dc_subjects = gnd_codes['@graph'][-1]['dcterms:subject']
                 dc_subjects = [dc_subjects['@id']] if isinstance(dc_subjects, dict) else [code['@id'] for code in dc_subjects]
-            gnd_labels[record_type][language] = {fname: dc_subjects if true_labels else gnd_codes['dcterms:subject']}
+            gnd_labels[record_type][language][fname] = dc_subjects if true_labels else gnd_codes['dcterms:subject']
             
     return gnd_labels
 
