@@ -51,6 +51,9 @@ $python llms4subjects-evaluation.py
 
 LLMs4Subjects Shared Task -- Evaluations
 
+Please enter your Team Name
+Team Name> test
+
 Please specify the directory containing the true GND labels
 Directory path> evaluation/all_subjects
 
@@ -65,7 +68,7 @@ Reading the Predicted GND labels...
 
 Evaluating the predicted GND labels...
 
-File containing the evaluation metrics score is saved at location: evaluation/results/evaluation_metrics.xlsx
+File containing the evaluation metrics score is saved at location: evaluation/results/test_evaluation_metrics.xlsx
 ```
 
 ## 🎯 Conclusion

@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import pandas as pd
 
@@ -100,7 +101,7 @@ def evaluate_combined_record_type_language(true_dict: dict, predicted_dict: dict
             #Iterating over each file containing the true GND labels 
             for filename, true_labels in file_data.items():
                 #Extracting the corresponding predicted GND labels
-                pred_labels = predicted_dict[record_type][language][filename]
+                pred_labels = predicted_dict[record_type][language][f'{os.path.splitext(filename)[0]}.json']
                 
                 #Calculating the recall and precision at k
                 recall_k = recall(true_labels, pred_labels, k)
@@ -152,7 +153,7 @@ def evaluate_record_type_level(true_dict: dict, predicted_dict: dict, k: int):
             #Iterating over each file containing the true GND labels 
             for filename, true_labels in file_data.items():
                 #Extracting the corresponding predicted GND labels
-                pred_labels = predicted_dict[record_type][language][filename]
+                pred_labels = predicted_dict[record_type][language][f'{os.path.splitext(filename)[0]}.json']
                 
                 #Calculating the recall and precision at k
                 recall_k = recall(true_labels, pred_labels, k)
@@ -204,7 +205,7 @@ def evaluate_language_level(true_dict: dict, predicted_dict: dict, k: int):
             #Iterating over each file containing the true GND labels 
             for filename, true_labels in file_data.items():
                 #Extracting the corresponding predicted GND labels
-                pred_labels = predicted_dict[record_type][language][filename]
+                pred_labels = predicted_dict[record_type][language][f'{os.path.splitext(filename)[0]}.json']
                 
                 #Calculating the recall and precision at k
                 recall_k = recall(true_labels, pred_labels, k)
@@ -318,9 +319,67 @@ def read_gnd_files(dir_path: str, true_labels: bool):
             
     return gnd_labels
 
+def validate_directory_structure(true_dict: dict, pred_dict: dict):
+    """
+    Validates the directory structure and files names containing the TIBKAT records
+
+    Args:
+        true_dict (dict): The dictionary containing the list of true GND labels
+        predicted_dict (dict): The dictionary containing the list of predicted GND labels
+
+    Returns:
+        bool: Returns boolean value indicating whether the directory structure is correct or not.
+    """
+    #Boolean variable to store if the directory structure is valid
+    is_valid = True
+
+    #Matching the directory structure of the True test set with the submitted predicted test set
+    for record_type, true_languages in true_dict.items():
+        
+        if record_type not in pred_dict:
+            print(f"Missing record type: {record_type} in predicted test set directory")
+            is_valid = False
+            continue
+        
+        predicted_languages = pred_dict[record_type]
+
+        for language, true_files in true_languages.items():
+            
+            if language not in predicted_languages:
+                print(f"Missing language '{language}' in predicted test set for record type '{record_type}'")
+                is_valid = False
+                continue
+            
+            #Getting the file names for each True and Predicted test sets
+            true_files = true_files.keys()
+            predicted_files = predicted_languages[language].keys()
+
+            #Checking the file extension for predicted files
+            all_json_files = all(file.endswith('.json') for file in predicted_files)
+            if not all_json_files:
+                non_json_files = [file for file in predicted_files if not file.endswith('.json')]
+                print('Predicted Files should be with JSON extension only.')
+                print(f'Non JSON Files: {non_json_files}')
+                is_valid = False
+            
+            # #Checking for any missing files in the predicted test set
+            true_file_set = set([os.path.splitext(file)[0] for file in true_files])
+            predicted_file_set = set([os.path.splitext(file)[0] for file in predicted_files])
+            missing_files = true_file_set - predicted_file_set
+            is_valid = not bool(missing_files)
+            
+            for file_name in missing_files:
+                print(f"Missing file '{file_name}.json' in predicted test set for record type '{record_type}', language '{language}'")
+    
+    #Returning whether the directory structure is correct or not.
+    return is_valid
+
 if __name__ == "__main__":
     
     print('\nLLMs4Subjects Shared Task -- Evaluations')
+
+    print('\nPlease enter your Team Name')
+    team_name = input('Team Name> ')
     
     print('\nPlease specify the directory containing the true GND labels')
     true_labels_dir = input('Directory path> ')
@@ -336,8 +395,14 @@ if __name__ == "__main__":
     
     print('Reading the Predicted GND labels...')
     predicted_dict = read_gnd_files(pred_labels_dir, False)
+
+    print('\nEvaluating the directory structure of the predicted folder...')
+    is_valid = validate_directory_structure(true_dict, predicted_dict)
+    if not is_valid:
+        print(f'The Directory structure: {pred_labels_dir} is NOT valid')
+        sys.exit(0)
     
     print('\nEvaluating the predicted GND labels...')
     list_k = [k for k in range(5, 55, 5)]
-    evaluate_and_save_to_excel(results_dir, 'evaluation_metrics.xlsx', true_dict, predicted_dict, list_k)
-    print(f'\nFile containing the evaluation metrics score is saved at location: {results_dir}/evaluation_metrics.xlsx')
+    evaluate_and_save_to_excel(results_dir, f'{team_name}_evaluation_metrics.xlsx', true_dict, predicted_dict, list_k)
+    print(f'\nFile containing the evaluation metrics score is saved at location: {results_dir}/{team_name}_evaluation_metrics.xlsx')
