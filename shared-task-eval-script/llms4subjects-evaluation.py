@@ -7,10 +7,12 @@ def read_json_file(filepath: str, encoding: str = 'utf-8'):
     """
     Reads the JSON file and return it's content
 
-    :param str file_path: The path to the JSON file
-    :param str encoding: The encoder to use for reading the file
-    
-    :returns json_dict: The JSON file content
+    Args:
+        file_path (str): The path to the JSON file
+        encoding (str): The encoder to use for reading the file
+
+    Returns:
+        dict: The JSON file content
     """
     try:
         with open(filepath, 'r', encoding=encoding) as f:
@@ -22,6 +24,20 @@ def read_json_file(filepath: str, encoding: str = 'utf-8'):
         print('File Not Found: {}'.format(filepath))
     except Exception as e:
         print('Exception Occured: {}'.format(e))
+
+def remove_empty_dicts(d: dict) -> dict:
+    """
+    Recursively remove keys with empty dictionaries as values.
+
+    Args:
+        d (dict): The dictionary containing empty dictionaries as values
+
+    Returns:
+        dict: The updated dictionary without empty values
+    """
+    if not isinstance(d, dict):
+        return d
+    return {k: remove_empty_dicts(v) for k, v in d.items() if remove_empty_dicts(v)}
         
 def precision(true_labels: list, pred_labels: list, k: int):
     """
@@ -268,6 +284,13 @@ def evaluate_and_save_to_excel(dir_path: str, filename: str, true_dict: dict, pr
     # Concatenate all the DataFrames
     final_combined_df = pd.concat(combined_df_list, axis=1)
     final_combined_df = final_combined_df.loc[:, ~final_combined_df.columns.duplicated()]
+    
+    #Calculating the overall metrics score across both record type and language
+    metrics_col = [col for col in final_combined_df if col not in ['Record Type', 'Language']]
+    average_metrics = final_combined_df[metrics_col].mean()
+    average_row = ['Overall', '']
+    average_row.extend(average_metrics)
+    final_combined_df.loc[len(final_combined_df)] = average_row
     final_combined_df.set_index(['Record Type', 'Language'])
     
     final_record_type_df = pd.concat(record_type_df_list, axis=1)
@@ -316,7 +339,10 @@ def read_gnd_files(dir_path: str, true_labels: bool):
                 dc_subjects = gnd_codes['@graph'][-1]['dcterms:subject']
                 dc_subjects = [dc_subjects['@id']] if isinstance(dc_subjects, dict) else [code['@id'] for code in dc_subjects]
             gnd_labels[record_type][language][fname] = dc_subjects if true_labels else gnd_codes['dcterms:subject']
-            
+    
+    #Removing empty dictionary values meaning no files were found for that keys
+    gnd_labels = remove_empty_dicts(gnd_labels)
+
     return gnd_labels
 
 def validate_directory_structure(true_dict: dict, pred_dict: dict):
@@ -366,7 +392,7 @@ def validate_directory_structure(true_dict: dict, pred_dict: dict):
             true_file_set = set([os.path.splitext(file)[0] for file in true_files])
             predicted_file_set = set([os.path.splitext(file)[0] for file in predicted_files])
             missing_files = true_file_set - predicted_file_set
-            is_valid = not bool(missing_files)
+            is_valid = is_valid and (not bool(missing_files))
             
             for file_name in missing_files:
                 print(f"Missing file '{file_name}.json' in predicted test set for record type '{record_type}', language '{language}'")
@@ -400,7 +426,7 @@ if __name__ == "__main__":
     is_valid = validate_directory_structure(true_dict, predicted_dict)
     if not is_valid:
         print(f'The Directory structure: {pred_labels_dir} is NOT valid')
-        sys.exit(0)
+        sys.exit(1)
     
     print('\nEvaluating the predicted GND labels...')
     list_k = [k for k in range(5, 55, 5)]
