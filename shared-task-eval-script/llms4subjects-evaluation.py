@@ -1,3 +1,4 @@
+import argparse
 import os
 import sys
 import json
@@ -402,23 +403,26 @@ def validate_directory_structure(true_dict: dict, pred_dict: dict):
 
 if __name__ == "__main__":
     
+    parser = argparse.ArgumentParser(description='LLMs4Subjects Shared Task -- Evaluations')
+
+    parser.add_argument('--team_name', type=str, help='Team Name')
+    parser.add_argument('--true_labels_dir', type=str, help='Directory containing the true GND labels')
+    parser.add_argument('--pred_labels_dir', type=str, help='Directory containing the predicted GND labels')
+    parser.add_argument('--results_dir', type=str, help='Directory to save the evaluation metrics')
+
+    args = parser.parse_args()
+
     print('\nLLMs4Subjects Shared Task -- Evaluations')
 
-    print('\nPlease enter your Team Name')
-    team_name = input('Team Name> ')
-    
-    print('\nPlease specify the directory containing the true GND labels')
-    true_labels_dir = input('Directory path> ')
-    
-    print('\nPlease specify the directory containing the predicted GND labels')
-    pred_labels_dir = input('Directory path> ')
-    
-    print('\nPlease specify the directory to save the evaluation metrics')
-    results_dir = input('Directory path> ')
-    
+    # Prompt for missing parameters
+    team_name = args.team_name if args.team_name else input('\nTeam Name> ')
+    true_labels_dir = args.true_labels_dir if args.true_labels_dir else input('\nDirectory containing the true GND labels> ')
+    pred_labels_dir = args.pred_labels_dir if args.pred_labels_dir else input('\nDirectory containing the predicted GND labels> ')
+    results_dir = args.results_dir if args.results_dir else input('\nDirectory to save the evaluation metrics> ')
+
     print('\nReading the True GND labels...')
     true_dict = read_gnd_files(true_labels_dir, True)
-    
+
     print('Reading the Predicted GND labels...')
     predicted_dict = read_gnd_files(pred_labels_dir, False)
 
@@ -427,7 +431,7 @@ if __name__ == "__main__":
     if not is_valid:
         print(f'The Directory structure: {pred_labels_dir} is NOT valid')
         sys.exit(1)
-    
+
     print('\nEvaluating the predicted GND labels...')
     list_k = [k for k in range(5, 55, 5)]
     evaluate_and_save_to_excel(results_dir, f'{team_name}_evaluation_metrics.xlsx', true_dict, predicted_dict, list_k)
