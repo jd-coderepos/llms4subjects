@@ -4,7 +4,7 @@ This README provides instructions and information regarding the evaluation proce
 
 ## 📂 Test Dataset
 
-A portion of the TIBKAT collection has been designated as the blind test dataset. In this dataset, subject heading annotations are hidden. This [folder](../shared-task-datasets/TIBKAT/all-subjects/data/test) contains the test dataset for all-subjects, while the [folder](../shared-task-datasets/TIBKAT/tib-core-subjects/data/test) contains the test dataset related to tib-core-subject.
+A portion of the TIBKAT collection has been designated as the blind test dataset. In this dataset, subject heading annotations are hidden. This [folder](../shared-task-datasets/TIBKAT/all-subjects/data) contains the test dataset for all-subjects, while the [folder](../shared-task-datasets/TIBKAT/tib-core-subjects/data) contains the test dataset related to tib-core-subject.
 
 Participants must submit a ranked list of the top 50 relevant subjects for each record, ordered by descending relevance.
 

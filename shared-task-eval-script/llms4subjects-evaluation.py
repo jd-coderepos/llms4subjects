@@ -39,6 +39,24 @@ def remove_empty_dicts(d: dict) -> dict:
     if not isinstance(d, dict):
         return d
     return {k: remove_empty_dicts(v) for k, v in d.items() if remove_empty_dicts(v)}
+
+def update_dir_structure(true_dict: dict, pred_dict: dict) -> dict:
+    """
+    Adds missing keys from dict1 to dict2 with empty list as values.
+    
+    Args:
+        true_dict (dict): The dictionary containing the list of true GND labels
+        pred_dict (dict): The dictionary containing the list of predicted GND labels
+
+    Returns:
+        dict: Updated pred_dict with missing keys from true_dict.
+    """
+    for key, value in true_dict.items():
+        if isinstance(value, dict): 
+            pred_dict[key] = update_dir_structure(value, pred_dict.get(key, {}))
+        elif f'{key.split('.')[0]}.json' not in pred_dict:
+            pred_dict[f'{key.split('.')[0]}.json'] = []
+    return pred_dict
         
 def precision(true_labels: list, pred_labels: list, k: int):
     """
@@ -430,8 +448,10 @@ if __name__ == "__main__":
     is_valid = validate_directory_structure(true_dict, predicted_dict)
     if not is_valid:
         print(f'The Directory structure: {pred_labels_dir} is NOT valid')
-        sys.exit(1)
-
+        continueEval = input('\nDo you still want to continue? (y/n)>')
+        if continueEval != 'y': sys.exit(1)
+        predicted_dict = update_dir_structure(true_dict, predicted_dict)
+    
     print('\nEvaluating the predicted GND labels...')
     list_k = [k for k in range(5, 55, 5)]
     evaluate_and_save_to_excel(results_dir, f'{team_name}_evaluation_metrics.xlsx', true_dict, predicted_dict, list_k)
