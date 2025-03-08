@@ -26,6 +26,16 @@ The table below shows the number of records for each data split and record type:
 |        |             | de       | 126          |
 |        | Thesis      | de       | 621          |
 |        |             | en       | 417          |
+| Test   | Article     | en       | 36           |
+|        |             | de       | 0            |
+|        | Book        | en       | 2,579        |
+|        |             | de       | 1,867        |
+|        | Conference  | en       | 420          |
+|        |             | de       | 104          |
+|        | Report      | en       | 126          |
+|        |             | de       | 112          |
+|        | Thesis      | de       | 547          |
+|        |             | en       | 383          |
 
 
 ## 📝 Abstract Statistics
@@ -54,6 +64,16 @@ The table below shows the minimum, maximum, and mean length of abstracts in diff
 |        |             | en       | 10  | 428   | 88.3   |
 |        | Thesis      | de       | 9   | 1,130 | 179.0  |
 |        |             | en       | 7   | 1,025 | 179.2  |
+| Test   | Article     | de       | 22  | 237   | 124    |
+|        |             | en       | 12  | 341   | 140.8  |
+|        | Book        | de       | 8   | 1,221 | 153.8  |
+|        |             | en       | 9   | 3,404 | 175.2  |
+|        | Conference  | de       | 15  | 1,217 | 158.7  |
+|        |             | en       | 13  | 1,317 | 165.5  |
+|        | Report      | de       | 8   | 478   | 119.8  |
+|        |             | en       | 8   | 600   | 77.2   |
+|        | Thesis      | de       | 6   | 1,927 | 186.1  |
+|        |             | en       | 8   | 1,646 | 182.4  |
 
 
 For more insights into dataset statistics, visit the `data-statistics` subfolder. The dataset can be downloaded from the `data` subfolder.
