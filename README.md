@@ -29,7 +29,7 @@ This shared task offers the research community an opportunity to creatively deve
 
 llms4subjects [at] gmail.com
 
-## Citation
+## 💡 Citation
 
 The recommended citation for this dataset resource is provided below. If you find this resource useful, please consider citing it.
 
