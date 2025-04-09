@@ -1,0 +1,27 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "DCTermsSubjectSchema",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "dcterms:subject": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        },
+                        "required": ["code", "name"]
+                    }
+                }
+            },
+            "required": ["dcterms:subject"]
+        }
+    }
+}
