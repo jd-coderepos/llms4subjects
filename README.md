@@ -34,7 +34,7 @@ llms4subjects [at] gmail.com
 The **LLMs4Subjects** shared task, organized as SemEval 2025 Task 5, is jointly supported by the [SCINEXT project](https://scinext-project.github.io/) (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070) and the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259).
 
 
-This work is licensed under a
+The dataset is archived on Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15185475.svg)](https://doi.org/10.5281/zenodo.15185475). This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
