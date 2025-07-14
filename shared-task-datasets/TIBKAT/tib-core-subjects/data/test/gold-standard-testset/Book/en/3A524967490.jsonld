@@ -1,0 +1,132 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4226013-9",
+            "sameAs": "Voronoi-Diagramm"
+        },
+        {
+            "@id": "gnd:4274176-2",
+            "sameAs": "Digitale Videotechnik"
+        },
+        {
+            "@id": "gnd:4314334-9",
+            "sameAs": "Objekterkennung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A524967490",
+            "@type": "bibo:Book",
+            "P1053": "Online-Ressource",
+            "contributor": "Kung, S. Y.",
+            "creator": "Lin, I-Jong",
+            "description": [
+                "v.: digital",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover). - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(isbn13)9780306470370",
+                "(doi)10.1007/b117225",
+                "(ppn)524967490",
+                "(firstid)GBV:524967490"
+            ],
+            "publisher": "Kluwer Academic Publishers",
+            "subject": [
+                "(classificationName=ddc)621.38833",
+                "Computer vision",
+                "(classificationName=loc)TK6680.5",
+                "(classificationName=linseach:mapping)elt",
+                "Image processing.",
+                "(classificationName=linseach:mapping)inf",
+                "(classificationName=ddc)006.37",
+                "(classificationName=bk, id=10641030X)54.74 - Maschinelles Sehen",
+                "Electrical engineering.",
+                "Signal processing.",
+                "Optical data processing.",
+                "(classificationName=ddc)006.6",
+                "(classificationName=bk, id=10640296X)53.78 - Fernsehtechnik",
+                "Computer Science",
+                "Speech processing systems.",
+                "Computer Graphics",
+                "Multimedia systems",
+                "Multimedia information systems."
+            ],
+            "title": "Video Object Extraction and Representation : Theory and Applications",
+            "abstract": [
+                "to Content-Based Visual Processing -- Existing Techniques of Visual Processing -- Voronoi Ordered Space -- A System for Video Object Segmentation -- Robust Representation of Shape with DAGs -- A System for Image/Video Object Query by Shape -- The Future of Content-Based Video Processing.",
+                "\u201cIf you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them. \u201d - Henry David Thoreau, Walden Although engineering is a study entrenched firmly in belief of pr- matism, I have always believed its impact need not be limited to pr- matism. Pragmatism is not the boundaries that define engineering, just the (sometimes unforgiving) rules by which we sight our goals. This book studies two major problems of content-based video proce- ing for a media-based technology: Video Object Plane (VOP) Extr- tion and Representation, in support of the MPEG-4 and MPEG-7 video standards, respectively. After reviewing relevant image and video p- cessing techniques, we introduce the concept of Voronoi Ordered Spaces for both VOP extraction and representation to integrate shape infor- tion into low-level optimization algorithms and to derive robust shape descriptors, respectively. We implement a video object segmentation system with a novel surface optimization scheme that integrates Voronoi Ordered Spaces with existing techniques to balance visual information against predictions of models of a priori information. With these VOPs, we have explicit forms of video objects that give users the ability to - dress and manipulate video content. We outline a general methodology of robust data representation and comparison through the concept of complex partitioning mapped onto Directed Acyclic Graphs (DAGs)."
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SXE",
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SCS",
+                "(collectioncode)ZDB-2-BAE",
+                "(collectioncode)ZDB-2-ENG"
+            ],
+            "issued": "2002",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4314334-9"
+                },
+                {
+                    "@id": "gnd:4274176-2"
+                },
+                {
+                    "@id": "gnd:4226013-9"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/bowker/toc/9780792379744.pdf",
+            "volume": "584",
+            "isLike": "doi:10.1007/b117225",
+            "P30128": [
+                "The Springer International Series in Engineering and Computer Science",
+                "The International Series in Engineering and Computer Science"
+            ],
+            "P60163": "Boston, MA"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/elements/1.1/contributor",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

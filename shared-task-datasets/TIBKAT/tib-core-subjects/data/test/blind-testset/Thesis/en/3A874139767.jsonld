@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1078452792",
+            "sameAs": "Christ, J\u00fcrgen"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A874139767",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource",
+            "identifier": [
+                "(doi)10.6094/UNIFR/10342",
+                "(ppn)874139767",
+                "(contract)FRUB-opus-10342",
+                "(firstid)DNB:1119805767"
+            ],
+            "publisher": "Universit\u00e4t",
+            "title": "Interpolation modulo theories",
+            "abstract": "Zusammenfassung: We present new concepts and techniques to generate interpolants from the proofs produced by SMT solvers.  The overall result is to expand the scope of interpolation to the wealth of theories that are supported by SMT solvers. SMT solvers can prove satisfiability for an ever growing number of theories (and for their combinations; theories are often combined to account for rich data as commonly used in complex systems). However, according to the present state of the art, SMT solvers can compute interpolants only for a few selected theories (and it is unknown how two existing methods can be combined to compute interpolants in the combination of the theories). The notion of \\emph{interpolant} goes back to Craig's interpolation theorem for first-order logic. An increasing range of software analysis tools use techniques based on interpolants.We present a new algorithm to compute Craig interpolants from the proof produced by an SMT solver, for a wide range of theories and for their combination. The algorithm uses the proof produced by the SMT solver but it does not interfere with the intermediate steps of producing the proof and it does not manipulate the proof. As a consequence, the algorithm is generic in the theory and it can be put on top of an existing SMT solver without impeding its generality and without impeding its efficiency.We also present an extension of the algorithm to tree interpolants. Tree interpolants are used whenever the behaviour of a software is not represented as a linear sequence (for example, to account for the return of a function call in the execution of a program). To our knowledge, this is the first algorithm that computes (provably correct) tree interpolants from SMT proofs. Motivated by the fact that interpolation algorithms without an existing correctness proof are notoriously wrong, we present a proof for the correctness of the tree interpolation algorithm.We show how one can instantiate the algorithm for the quantifier-free fragment of the theory of uninterpreted functions and the theory of linear arithmetic over the integers or the reals, and we have implemented the resulting algorithm. The implementation is part of the interpolating SMT solver SMTInterpol. It is freely available under LGPL.  Feedback from users is encouraging",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1078452792",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2015",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/10342",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

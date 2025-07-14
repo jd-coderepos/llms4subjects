@@ -1,0 +1,69 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1073140997",
+            "sameAs": "Seibel, Andreas"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A740765051",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: VII, 204 S., 6013 KB)",
+            "description": "graph. Darst.",
+            "identifier": [
+                "(ppn)740765051",
+                "(firstid)DNB:1032399120"
+            ],
+            "title": "Traceability and model management with executable and dynamic hierarchical megamodels",
+            "abstract": "Nowadays, model-driven engineering (MDE) promises to ease software development by decreasing the inherent complexity of classical software development. In order to deliver on this promise, MDE increases the level of abstraction and automation, through a consideration of domain-specific models (DSMs) and model operations (e.g. model transformations or code generations). DSMs conform to domain-specific modeling languages (DSMLs), which increase the level of abstraction, and model operations are first-class entities of software development because they increase the level of automation. Nevertheless, MDE has to deal with at least two new dimensions of complexity, which are basically caused by the increased linguistic and technological heterogeneity. The first dimension of complexity is setting up an MDE environment, an activity comprised of the implementation or selection of DSMLs and model operations. Setting up an MDE environment is both time-consuming and error-prone because of the implementation or adaptation of model operations. The second dimension of complexity is concerned with applying MDE for actual software development. Applying MDE is challenging because a collection of DSMs, which conform to potentially heterogeneous DSMLs, are required to completely specify a complex software system. A single DSML can only be used to describe a specific aspect of a software system at a certain level of abstraction and from a certain perspective. Additionally, DSMs are usually not independent but instead have inherent interdependencies, reflecting (partial) similar aspects of a software system at different levels of abstraction or from different perspectives. A subset of these dependencies are applications of various model operations, which are necessary to keep the degree of automation high. This becomes even worse when addressing the first dimension of complexity. Due to continuous changes, all kinds of dependencies, including the applications of model operations, must also be managed continuously. This comprises maintaining the existence of these dependencies and the appropriate (re-)application of model operations. The contribution of this thesis is an approach that combines traceability and model management to address the aforementioned challenges of configuring and applying MDE for software development. The approach is considered as a traceability approach because it supports capturing and automatically maintaining dependencies between DSMs. The approach is considered as a model management approach because it supports managing the automated (re-)application of heterogeneous model operations. In addition, the approach is considered as a comprehensive model management. Since the decomposition of model operations is encouraged to alleviate the first dimension of complexity, the subsequent composition of model operations is required to counteract their fragmentation. A significant portion of this thesis concerns itself with providing a method for the specification of decoupled yet still highly cohesive complex compositions of heterogeneous model operations. The approach supports two different kinds of compositions - data-flow compositions and context compositions. Data-flow composition is used to define a network of heterogeneous model operations coupled by sharing input and output DSMs alone. Context composition is related to a concept used in declarative model transformation approaches to compose individual model transformation rules (units) at any level of detail. In this thesis, context composition provides the ability to use a collection of dependencies as context for the composition of other dependencies, including model operations. In addition, the actual implementation of model operations, which are going to be composed, do not need to implement any composition concerns. The approach is realized by means of a formalism called an executable and dynamic hierarchical megamodel, based on the original idea of megamodels. This formalism supports specifying compositions of dependencies (traceability and model operations). On top of this formalism, traceability is realized by means of a localization concept, and model management by means of an execution concept.",
+            "alternative": "Traceability und Modell Management mit ausf\u00fchrbaren und dynamischen Megamodellen",
+            "contributor": "gnd:173277950",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1073140997",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2013",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "issued": "http://purl.org/dc/terms/issued",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

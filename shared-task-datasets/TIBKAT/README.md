@@ -8,9 +8,9 @@ Since the TIBKAT dataset compiled for this shared task contains over 100,000 rec
 
 ## 📂 Repositories Included
 
-- [**all-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/all-subjects) **dataset:** The `train dataset` contains 81,937 records, and the `dev dataset` contains 13,666 records. This dataset is a superset of the dataset linked below and includes all annotated records without restrictions.
+- [**all-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/all-subjects) **dataset:** The `train dataset` contains 81,937 records, the `dev dataset` contains 13,666 records and the `test dataset` contains 27,986 records. This dataset is a superset of the dataset linked below and includes all annotated records without restrictions.
 
-- [**tib-core-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/tib-core-subjects) **dataset:** The `train dataset` contains 41,902 records, and the `dev dataset` contains 6,980 records. In this subset, records are included only if at least one of the annotated GND subjects belongs to TIB's original core subject classification.
+- [**tib-core-subjects**](https://github.com/jd-coderepos/llms4subjects/tree/main/shared-task-datasets/TIBKAT/tib-core-subjects) **dataset:** The `train dataset` contains 41,902 records, the `dev dataset` contains 6,980 records and the `test dataset` contains 6,174 records. In this subset, records are included only if at least one of the annotated GND subjects belongs to TIB's original core subject classification.
 
 Participants can choose between the two datasets based on their project needs—whether to work with the larger, more comprehensive set or focus on a smaller, more manageable subset of records within TIB’s core subject classes for subject indexing.
 

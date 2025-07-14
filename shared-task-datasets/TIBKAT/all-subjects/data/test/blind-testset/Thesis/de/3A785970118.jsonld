@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1052145566",
+            "sameAs": "Volkert, Ralf"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A785970118",
+            "@type": "bibo:Thesis",
+            "P1053": "XVI, 210 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Wallaschek, J\u00f6rg",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(firstid)GBV:785970118",
+                "(ppn)785970118"
+            ],
+            "title": "Regelung der Luftspaltl\u00e4nge von Elektromagneten f\u00fcr Nanopositioniersysteme mit magnetischer F\u00fchrung",
+            "abstract": "Nanopositioniersysteme werden f\u00fcr zahlreiche moderne Technologien ben\u00f6tigt, beispielsweise f\u00fcr die Fertigung integrierter Schaltkreise. Aktive magnetische F\u00fchrungen sind pr\u00e4destiniert f\u00fcr den Einsatz in diesen Systemen, da sie eine v\u00f6llig reibungsfreie L\u00e4uferf\u00fchrung erm\u00f6glichen. Zugleich dienen die F\u00fchrungsaktoren der vertikalen L\u00e4uferpositionierung, so dass Mehrkoordinatenantriebe mit dem Freiheitsgrad f = 6 realisiert werden k\u00f6nnen.Das Ziel dieser Arbeit besteht darin, die Luftspaltl\u00e4nge von Elektromagneten als Grundbausteine magnetischer F\u00fchrungen trotz ihrer nichtlinearen Eigenschaften und der Einwirkung von St\u00f6rungen mit einer Positionierunsicherheit im Nanometerbereich zu regeln. An einem Linearpr\u00fcfstand werden zun\u00e4chst die Kennlinienfelder f\u00fcr den verketteten Fluss und die Magnetkraft vermessen. Als wesentliche Ursachen f\u00fcr das Positionsrauschen werden die Ankopplung des Pr\u00fcfstandes an das Fundament, die Leistungsendstufen, die Sensorsysteme und die Regelung identifiziert. Auf Basis der am Linearpr\u00fcfstand ermittelten Daten wird ein nichtlineares Modell der Regelstrecke erstellt und die magnetische Hysterese mit Hilfe des Jiles-Atherton-Modells ber\u00fccksichtigt. Mehrere Reglervarianten, wie PIDD 2 - und PI-Zustandsregler, werden auf Basis des Streckenmodells entwickelt und bez\u00fcglich ihrer Eignung f\u00fcr die Nanopositionierung untersucht. Durch die Kompensation der Nichtlinearit\u00e4ten kann die Regelstrecke als lineares Ersatzsystem betrachtet werden. Zur Verminderung des Positionsrauschens werden Laserinterferometer f\u00fcr die Positionserfassung, ein Kalman-Filter und eine algebraische Ableitungssch\u00e4tzung eingesetzt. Mit diesen Ma\u00dfnahmen ergibt sich ein Positionsrauschen mit einer Standardabweichung von 4,72 nm. Eine Erh\u00f6hung der dynamischen Steifigkeit gelingt mit einem zus\u00e4tzlich vorgeschalteten PI-Regler, Schwingungen werden mittels Notch-Filtern ged\u00e4mpft. Die Erkenntnisse aus der Modellierung und Luftspaltregelung einzelner Elektromagnete werden anschlie\u00dfend auf die magnetische F\u00fchrung eines Mehrkoordinatenantriebs \u00fcbertragen. Das verwendete Regelungskonzept erlaubt eine robuste F\u00fchrungsregelung. Das erzielte Positionsrauschen der Magnetf\u00fchrung besitzt eine Standardabweichung von 19,3 nm. Die Ergebnisse zeigen, dass eine Luftspaltregelung von Elektromagneten mit Nanometer-Unsicherheit ohne den Einsatz spezieller Materialien oder Fertigungstechnologien m\u00f6glich ist. Zahlreiche St\u00f6reinfl\u00fcsse k\u00f6nnen mit Hilfe der Regelung ged\u00e4mpft werden. Eine weitere Reduzierung der Positionierunsicherheit ist jedoch nur durch Ber\u00fccksichtigung der St\u00f6reinfl\u00fcsse bereits in der Entwurfsphase erreichbar.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132799448"
+                },
+                {
+                    "@id": "gnd:130008206"
+                }
+            ],
+            "creator": "gnd:1052145566",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/785970118.PDF"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

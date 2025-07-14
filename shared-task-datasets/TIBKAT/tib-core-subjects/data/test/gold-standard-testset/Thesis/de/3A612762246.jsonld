@@ -1,0 +1,138 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:129669806",
+            "sameAs": "Gro\u00df, Horst-Michael"
+        },
+        {
+            "@id": "gnd:140917314",
+            "sameAs": "Sommer, David"
+        },
+        {
+            "@id": "gnd:4132165-0",
+            "sameAs": "Fahrerverhalten"
+        },
+        {
+            "@id": "gnd:4151384-8",
+            "sameAs": "Einschlafen"
+        },
+        {
+            "@id": "gnd:4153572-8",
+            "sameAs": "Fahrsimulator"
+        },
+        {
+            "@id": "gnd:4288547-4",
+            "sameAs": "Klassifikator (Informatik)"
+        },
+        {
+            "@id": "gnd:4531056-7",
+            "sameAs": "\u00dcberm\u00fcdung"
+        },
+        {
+            "@id": "gnd:4834887-9",
+            "sameAs": "Elektrophysiologische Untersuchung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A612762246",
+            "@type": "bibo:Thesis",
+            "P1053": "175 S.",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Golz, Martin",
+                "Brause, R\u00fcdiger"
+            ],
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(isbn13)9783832281755",
+                "(ppn)612762246",
+                "(firstid)GBV:612762246"
+            ],
+            "publisher": "Shaker",
+            "subject": [
+                "(classificationName=ddc-dbn)610",
+                "(classificationName=linseach:mapping)meda",
+                "(classificationName=ddc-dbn)004",
+                "(classificationName=linseach:mapping)pae",
+                "(classificationName=ddc)629.283",
+                "(classificationName=bk, id=106409980)44.90 - Neurologie",
+                "(classificationName=bk, id=106413058)77.47 - Bewusstseinszust\u00e4nde",
+                "(classificationName=ddc-dbn)620",
+                "Informatik"
+            ],
+            "title": "Analyse des Mikroschlafs mit Methoden der computergest\u00fctzten Intelligenz",
+            "abstract": "Die \u00fcberwiegende Zahl der Verkehrsunf\u00e4lle ist durch Humanfaktoren bedingt. Hierbei sind extreme Hypovigilanz, pl\u00f6tzliche Aufmerksamkeitsverluste und Mikroschlafepisoden (MSE) besonders gef\u00e4hrlich. Zu ihrer Vermeidung nehmen unter den technischen Gegenma\u00dfnahmen vor allem die automatische Erkennung und die Prognose solcher Spontanzust\u00e4nde eine zentrale Stellung ein. Auf dem Markt aktuell vorliegende Ger\u00e4te basieren \u00fcberwiegend auf der kontaktlosen Messung von okulomotorischen Variablen, insbesondere Lidschlagvariablen. Zur Validierung dieser Ger\u00e4te wird eine Labor-Referenzmethode ben\u00f6tigt. Ziel dieser Arbeit ist deren Entwicklung, Optimierung und Validierung. Die Auswertung der wissenschaftlichen Literatur der letzten Jahrzehnte zeigt, dass die Themenstellung komplex ist und dass eine umfassende Theorie zu den psychophysiologischen Bedingungen und zu den Abl\u00e4ufen noch im Entstehen ist. Es wird begr\u00fcndet, warum sich elektrophysiologische Signale, wie das Elektroenzephalogramm (EEG) und das Elektrookulogramm (EOG), als aussichtsreiche Zug\u00e4nge f\u00fcr die Detektion von MSE erweisen.Die Befundung, das hei\u00dft die Begutachtung des Probandenverhaltens, insbesondere vor und w\u00e4hrend Mikroschlafereignissen, wird in dieser Arbeit durch visuelle Beobachtungen von mehreren Experten ausgef\u00fchrt. Dabei geh\u00f6ren Video-Nahaufnahmen des Auges und Videoaufnahmen der Fahrtszene zu den wichtigsten Informationsquellen. Es wurden nur evidente Ereignisse und evidente Gegenbeispiele befundet; Episoden mit unsicherer Befundung wurden verworfen.Die Extraktion von Merkmalen aus EEG und EOG wurde im Wesentlichen durch Methoden zur Sch\u00e4tzung der spektralen Leistungsdichten und einer k\u00fcrzlich eingef\u00fchrten Methode im Zustandsraum, der Delay-Vektor-Varianz, realisiert. Erstere Methodik nimmt an, dass die Signale linear sind, w\u00e4hrend letztere auch nichtlineare Signalanteile und Stochastizit\u00e4t parametrisiert. Es wird gezeigt, dass f\u00fcr die Minimierung der empirischen Klassifikationsfehler die zeitliche Region der Signalanalyse exakt zu optimieren ist und neben der Fusion vieler Merkmale aus allen Signalen auch eine Reduktion korrelierender Merkmale auszuf\u00fchren ist.F\u00fcr die automatische Klassifikation wurden sowohl einfache, lokale und einfache, globale Methoden als auch lernf\u00e4hige Methoden verwendet, die mit und ohne Regularisierung der Diskriminanzfunktion arbeiten. Zudem wurden Klassifikatoren mit automatisch adaptierender Metrik eingesetzt, die sich zur Wissensextraktion eignen. Stark gewichtete Merkmale besitzen hohe Relevanz, denn sie dominieren die Distanzberechnungen. Am erfolgreichsten erwies sich in der vorliegenden Anwendungsdom\u00e4ne die Support-Vektor-Maschine (SVM), deren Hyperparameter f\u00fcr verschiedene Kernfunktionen empirisch optimiert werden mussten. F\u00fcr eine Probandengruppe (N=22) konnten mittlere Testfehler von 9,8 % erreicht werden. Die nahezu verzerrungsfreie Leave-One-Out-Validierung konnte effizient f\u00fcr die rechenaufwendige SVM verwendet werden. Hold-Out-Strategien wurden auch auf Datens\u00e4tze kompletter Versuchsn\u00e4chte und einzelner Probanden angewendet. Mit ersterer wurde die zeitliche Stabilit\u00e4t und mit letzterer die Personenunabh\u00e4ngigkeit validiert. Es zeigte sich, dass sich die klassenbedingten Verteilungsdichten interindividuell stark unterscheiden. F\u00fcr einzelne Probanden wurde an evidenten Datenbeispielen eine SVM adaptiert und optimiert und anschlie\u00dfend an fortlaufenden Datensegmenten abgerufen. Diese fortlaufende Klassifikation konnte positiv validiert und damit die Hypothese best\u00e4tigt werden, dass eine Sensorapplikation basierend auf elektrophysiologischen Signalen m\u00f6glich ist. Die Ergebnisse wurden mit denen einer anderen Forschungsgruppe verglichen. Zusammenfassend l\u00e4sst sich feststellen, dass die vorgeschlagene L\u00f6sung das Potential f\u00fcr einen Labor-Referenzstandard besitzt, um einerseits MSE sicher erkennen und andererseits extreme Hypovigilanz objektiv einsch\u00e4tzen zu k\u00f6nnen.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:129669806"
+                }
+            ],
+            "creator": "gnd:140917314",
+            "issued": "2009",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4132165-0"
+                },
+                {
+                    "@id": "gnd:4834887-9"
+                },
+                {
+                    "@id": "gnd:4153572-8"
+                },
+                {
+                    "@id": "gnd:4151384-8"
+                },
+                {
+                    "@id": "gnd:4531056-7"
+                },
+                {
+                    "@id": "gnd:4288547-4"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/612762246.PDF",
+            "P30128": "Berichte aus der medizinischen Informatik und Bioinformatik",
+            "P60163": "Aachen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

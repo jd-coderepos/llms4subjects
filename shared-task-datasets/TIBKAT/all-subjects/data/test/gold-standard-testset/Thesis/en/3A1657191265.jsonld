@@ -1,0 +1,155 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4001183-5",
+            "sameAs": "Algorithmus"
+        },
+        {
+            "@id": "gnd:4003423-9",
+            "sameAs": "Atomphysik"
+        },
+        {
+            "@id": "gnd:4056999-8",
+            "sameAs": "Statistische Mechanik"
+        },
+        {
+            "@id": "gnd:4132140-6",
+            "sameAs": "Phasenumwandlung"
+        },
+        {
+            "@id": "gnd:4148259-1",
+            "sameAs": "Computersimulation"
+        },
+        {
+            "@id": "gnd:4165788-3",
+            "sameAs": "Kritisches Ph\u00e4nomen"
+        },
+        {
+            "@id": "gnd:4188854-6",
+            "sameAs": "W\u00e4rmekapazit\u00e4t"
+        },
+        {
+            "@id": "gnd:4329539-3",
+            "sameAs": "Lennard-Jones-Potenzial"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1657191265",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (XII, 144 p. 30 illus., 25 illus. in color, online resource)",
+            "creator": "Baldock, Robert John Nicholas",
+            "description": [
+                "Erworben aus Studienqualit\u00e4tsmitteln",
+                "Campusweiter Zugriff (Universit\u00e4t Hannover) - Vervielf\u00e4ltigungen (z.B. Kopien, Downloads) sind nur von einzelnen Kapiteln oder Seiten und nur zum eigenen wissenschaftlichen Gebrauch erlaubt. Keine Weitergabe an Dritte. Kein systematisches Downloaden durch Robots."
+            ],
+            "identifier": [
+                "(ppn)1657191265",
+                "(doi)10.1007/978-3-319-66769-0",
+                "(isbn13)9783319667690",
+                "(firstid)BSZ:495981230"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=bk, id=106423266)33.25 - Thermodynamik, statistische Physik",
+                "(classificationName=linseach:mapping)phy",
+                "Dynamical systems.",
+                "Physics",
+                "(classificationName=loc)QC174.7-175.36",
+                "(classificationName=ddc)621",
+                "Phase transitions (Statistical physics)",
+                "(classificationName=bk, id=106408054)33.30 - Atomphysik, Molek\u00fclphysik",
+                "(classificationName=bk, id=106407937)33.06 - Mathematische Methoden der Physik",
+                "Statistical physics.",
+                "System theory"
+            ],
+            "title": "Classical Statistical Mechanics with Nested Sampling",
+            "abstract": [
+                "This thesis develops a nested sampling algorithm into a black box tool for directly calculating the partition function, and thus the complete phase diagram of a material, from the interatomic potential energy function. It represents a significant step forward in our ability to accurately describe the finite temperature properties of materials. In principle, the macroscopic phases of matter are related to the microscopic interactions of atoms by statistical mechanics and the partition function. In practice, direct calculation of the partition function has proved infeasible for realistic models of atomic interactions, even with modern atomistic simulation methods. The thesis also shows how the output of nested sampling calculations can be processed to calculate the complete PVT (pressure\u2013volume\u2013temperature) equation of state for a material, and applies the nested sampling algorithm to calculate the pressure\u2013temperature phase diagrams of aluminium and a model binary alloy.",
+                "Introduction -- A Primer in Probability -- Phase Space Probability Distributions for Various External Conditions -- Relating Probability Density Functions to the Behaviour of Systems -- The Strategy of Nested Sampling -- Nested Sampling for Materials -- Equations of State -- Parallelising Nested Sampling -- Hamiltonian Monte Carlo for the Canonical Distribution -- Hamiltonian Monte Carlo for Nested Sampling -- Conclusion of Thesis and Further Work."
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "isPartOf": [
+                "(collectioncode)ZDB-2-SEB",
+                "(collectioncode)ZDB-2-SXP",
+                "(collectioncode)ZDB-2-PHA"
+            ],
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4001183-5"
+                },
+                {
+                    "@id": "gnd:4165788-3"
+                },
+                {
+                    "@id": "gnd:4329539-3"
+                },
+                {
+                    "@id": "gnd:4132140-6"
+                },
+                {
+                    "@id": "gnd:4148259-1"
+                },
+                {
+                    "@id": "gnd:4188854-6"
+                },
+                {
+                    "@id": "gnd:4056999-8"
+                },
+                {
+                    "@id": "gnd:4003423-9"
+                }
+            ],
+            "isLike": "doi:10.1007/978-3-319-66769-0",
+            "P30128": [
+                "B\u00fccher",
+                "SpringerLink",
+                "Springer Theses, Recognizing Outstanding Ph.D. Research"
+            ],
+            "P60163": "Cham"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

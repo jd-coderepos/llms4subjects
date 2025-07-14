@@ -1,0 +1,85 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:10181818-X",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Sicherheit in Verteilten Anwendungen"
+        },
+        {
+            "@id": "gnd:2067664-5",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A786842083",
+            "@type": "bibo:Thesis",
+            "P1053": "Online-Ressource (PDF-Datei: XI, 151 S., 2.48 MB)",
+            "http://purl.org/dc/elements/1.1/creator": "Khurat, Assadarat",
+            "description": "graph. Darst",
+            "identifier": [
+                "(ppn)786842083",
+                "(firstid)GBV:786842083"
+            ],
+            "publisher": "Techn. Univ. Hamburg-Harburg, Univ.-Bibl.",
+            "title": "Privacy policies and their enforcement in composite service environment",
+            "abstract": [
+                "Zu Beginn leisteten Online-Dienste ihren Dienst unabh\u00e4ngig und losgel\u00f6st von anderen existierenden. Um einen bestimmten Dienst bereitzustellen, war es f\u00fcr den Benutzer notwendig, seine personenbezogenen Daten in die Webseite des Dienstes einzugeben. Dieses machte es notwendig, den Datenschutz n\u00e4her zu betrachten. Heute streben Online-Dienste danach, mit schon existierenden Diensten zusammen zu wirken, und so neue Dienste bereit zu stellen. Aufgrund der anwachsenden Menge an Benutzerdaten, die dabei erhoben, gespeichert und bereitgestellt werden, wird der Datenschutz dabei immer wichtiger. Aus technischer Sicht gibt es zwei F\u00e4lle zur Sicherung der Benutzerdaten, zum einen vor der Benutzung und desweiteren nach der Benutzung des Dienstes. Im ersten Fall ist es wichtig, dass die Datenschutzvorgaben der Benutzer automatisch mit den Datenschutzrichtlinien (Policies) des Services verglichen werden k\u00f6nnen, welche beschreiben, was mit den Benutzerdaten geschehen wird. Hierzu wird P3P (Platform for Privacy Preferences), eine Sprache zur Beschreibung der Datenschutzrichtlinien (P3P-Policy-Language), verwendet. Der Benutzer kann auf Grund der P3P-Policies entscheiden, ob er den Dienst nutzen m\u00f6chte oder nicht. Im zweiten Fall, mit der Nutzung eines Dienstes, werden personenbezogene Daten des Benutzers zum Online-Dienst gesendet. Um den Datenschutz f\u00fcr Online-Dienste sicherzustellen, k\u00f6nnen Zugriffskontrollsysteme verwendet werden. Wie das Zugriffskontrollsystem auf eine Anfrage reagiert, wird durch Policies beschrieben. Hier ist XACML (eXtensible Access Control Markup Language) eine der bekanntesten und weit verbreitetsten Sprachen und gilt als Standard zur Beschreibung von Zugriffskontrollrichtlinien. Der Wechsel vom Einzeldienst zum Diensteverbund betrifft beide oben genannten F\u00e4lle. P3P wurde f\u00fcr Einzeldienste entwickelt. So kann beispielsweise das Recipient\"-Element einer P3P-Policy keinen Zusammenschluss mehrerer der in Frage kommenden Dienste beschreiben. Desweiteren erh\u00f6ht sich der Aufwand zum Abgleich der Datenschutzvorgaben und der Datenschutzrichtlinien. Besteht beispielsweise ein Diensteverbund aus drei Einzeldiensten, so muss der Abgleich f\u00fcr jeden der beteiligten Teildienste erneut durchgef\u00fchrt werden, im Beispiel also drei Mal. Es w\u00e4re von Vorteil, eine einzelne Datenschutzrichtlinie f\u00fcr neue Verbunddienste ableiten zu k\u00f6nnen, mit denen dann der Abgleich zwischen Datenschutzvorgaben und -richtlinien nur einmal durchgef\u00fchrt werden muss. P3P bietet keine Mechanismen an, um Datenschutzrichtlinien von Verbunddiensten zu erbringen. Au\u00dferdem kann es zwischen den P3P-Policies einzelner Teildienste des Diensteverbundes zu Konflikten f\u00fchren. P3P bietet hierf\u00fcr ebenso keine Mechanismen an. Auch wurde festgestellt, dass P3P-Policy-Language potenziell semantische Inkonsistenzen von Wertekombinationen zwischen einigen Elementen der Richtlinie beinhaltet. In dieser Dissertation wird P3P angemessen erweitert, um Dienstzusammenschl\u00fcsse zu unterst\u00fctzen. Um Uneindeutigkeiten in P3P-Policy-Language zu verringern, wird eine formale Semantik mittels OWL (Web Ontology Language) vorgeschlagen und Bedingungen f\u00fcr eine Veriizierung von potentiell semantischen Inkonsistenzen definiert. Zus\u00e4tzlich werden Bedingungen zur Konfliktpr\u00fcfung definiert, die durch P3P-Policies der Teildienste des Diensteverbundes hervorgerufen werden. Anstatt die Bedingungen ein logisch zu definieren, werden spezielle Klassen erstellt, mit denen der Grund jedes Versto\u00dfes der Bedingungen genau erfasst werden kann. Diese Vorgehensweise, jede Policy als Individuum in unserem Modell zu betrachten, und als Instanz von den speziellen Klassen abzuleiten, erm\u00f6glicht es, die Konfliktgr\u00fcnde einer P3P-Policy zu erkennen. Jede definierte Bedingung kann als Klasse ausgedr\u00fcckt werden. Ein Konfliktpr\u00fcfungsmechanismus wurde implementiert, mit dem in akzeptabler Rechenzeit 500 P3P-Policies von einer existierenden Webseite entnommen wurden. Das Testergebnis zeigt, dass \u00fcber die H\u00e4lfte der P3P-Policies Konflikte aufwerfen. Zus\u00e4tzlich wird ein Verbindungsalgorithmus vorgeschlagen, mit dem die Erstellung der P3P-Policies eines Dienstzusammenschlusses erm\u00f6glicht wird. Zweitens, die Schwierigkeiten, die XACML basierte Zugriffskontrollen betreffen, ist eine komplexere Verwaltung und eine ineffizientere Durchsetzung der Regeln. Der Umstand, dass mehrere Dienste in einem Diensteverbund zusammenarbeiten, kann dazu f\u00fchren, dass ein Teildienst ein vollst\u00e4ndiges Datenobjekt (z.B. ein XML Dokument) zur Verf\u00fcgung stellt, w\u00e4hrend andere Teildienste nur einen Teil des Objektes ben\u00f6tigen. Um die OECD Datenschutzrichtlinie zur Datenvermeidung einzuhalten, m\u00fcssen die Regeln der Datenquelle an die Bed\u00fcrfnisse der Datensenke individuell angepasst werden, dies bedeutet einen hohen Verwaltungsaufwand. Zus\u00e4tzlich wird der Berechnungsaufwand im Zusammenhang mit der Zugriffskontrolle mit XACML erh\u00f6ht. Dies ist der Fall, weil XACML entwickelt wurde, um nur eine Entscheidung gleichzeitig zu berechnen. Die Berechnung der Zugriffsentscheidung kann nur f\u00fcr das gesamte Dokument erfolgen oder einen Knoten im Dokument. Soll nur auf einen Teil des Dokumentes zugegriffen werden, m\u00fcssen separate Evaluierungen f\u00fcr jeden Knoten dieses Teils durchgef\u00fchrt werden. Daher wird im Fall eines Dienstzusammenschlusses die Zugriffsberechnung der XACML Policy einen erh\u00f6ten Aufwand erzeugen, besonders wenn XPath-Sprache zum Abfragen von Knoten in einem XML-Dokument verwendet werden. Wir zeigen einen Weg auf, die XACML-Policies auszudr\u00fccken, der sowohl die ben\u00f6tigte Verwaltung vereinfacht als auch den Berechnungsmehraufwand durch ein Nachberechnungskonzept verringert. Der Ausdruck der XACML-Policies wird in mehrere Teile gegliedert, die durch aussagekr\u00e4ftige Namen repr\u00e4sentiert werden. Durch einen erlaubten Zugriff auf einen solchen Teilbereich werden nicht mehr alle, sondern nur solche Informationen zug\u00e4nglich gemacht, die zum jeweiligen Teilbereich geh\u00f6ren. Auf diese Weise ben\u00f6tigt der Mechanismus nur eine einmalige XACML-Policies \u00fcberpr\u00fcfung. Bei einer Zugangsgew\u00e4hrung werden die angeforderten Daten den Informationsdetails nach gefiltert, sodass nur erlaubte Datenobjekte dem Anfordernden offengelegt werden. Die fein abgestufte Zugriffskontrolle bleibt erhalten. Die vorgestellte L\u00f6sung wird durch ein ortsbezogenes Diensteszenario (location-based service scenario) n\u00e4her erl\u00e4utert. Die Implementierung des Mechanismus zeigt im Ergebnis eine bessere XACML-\u00dcberpr\u00fcfungseffizienz bei einer hohen Zahl an Knoten, speziellen, wenn XPath Verwendung finden.",
+                "In their early stage, online services were independent providing services all alone. Online services requiring customers to enter their data through the services websites forced privacy issue to be considered. Nowadays, online services tend to cooperate with other existing services to compose new ones. Privacy thus becomes more important due to the increasing amount of user data being collected, stored and shared. Technically, privacy protection can be considered from two perspectives, i.e. before and after the users use the services. From the first viewpoint, it is beneficial for the users that their privacy preferences can be compared automatically with the services privacy policies that describe what the services will do with their data. P3P (Platform for Privacy Preferences) is a privacy policy language designed to describe this information so that the users can decide whether to use a service or not. After the users have used the services, which means some user data have been given to the services, the actual enforcement on data usage of online services can be achieved by access control systems. How an access control system reacts to an access request is determined according to policies where XACML (eXtensible Access Control Markup Language) is one of the most widely used policy languages for access control. The change of services from the single to the composite paradigm impacts on both viewpoints. First, P3P was designed from a single service perspective. For instance, its recipient element cannot express prospective services that will be combined into a composite service. In addition, when a composite service consists of e.g. three single services, the matching of users privacy preferences with privacy policies of this composite service has to be done three times, one for each service member. It is thus beneficial to have a privacy policy for the new composite service so that the matching can be done only once. However, there is no mechanism provided in P3P to acquire the privacy policy of composite services. Moreover, there may be conflicts between the P3P policies of service members. P3P does not provide any mechanism regarding this issue either. Furthermore, the P3P policy language has some potential semantic inconsistencies from some combination of values between some elements in the policy. In this thesis, we extend P3P to be suitable for composite services. To mitigate ambiguities in the P3P policy language, we propose a formal semantics for P3P using OWL (Web Ontology Language) and define constraints to verify potential semantic inconsistencies. In addition, we define constraints for conflict verification occurring from P3P policies of service members. These constraints are specified, instead of logical constraints, in special classes to capture the constraint violations. This way allows us to know the reason for the conflicts of a P3P policy by checking if the policy, viewed as an individual in our model, is inferred as an instance of any of those special classes. All defined constraints can be expressed in the special classes. We have implemented a P3P verification tool and verified five hundred P3P policies collected from actual websites. The verification result shows that more than half of these P3P policies have conflicts. In addition, a combining algorithm is proposed such that we can automatically derive the P3P policy of a composite service. Secondly, the problem affecting access control systems using XACML as their policy language in a composite service environment is that policy administration can be more complex and policy enforcement can be less efficient. Since there are multiple services cooperating with each other to perform a composite service, there might be the case where a member service normally provides an entire data object, e.g. an XML document, whereas the other member services require only a part of that data object. In order to preserve the collection limitation principle of the OECD Privacy Guidelines, policies at the data provider service governing the data access must be individualized for each data consumer service, which is a burden for policy administration. In addition, this situation could increase the computational cost of authorization decision evaluation in XACML. Because XACML was designed in such a way that it can evaluate one requested resource at a time, its evaluation process, thus, can only be performed for the entire document or for a node in the document. Should only a part of the document be accessed, separate evaluations have to be performed for every node in that part. Therefore, a composite service can highly increase the computational overhead of access control system using XACML especially when the XPath language is used to query nodes in an XML document. We propose a way to express XACML policies that eases policy administration and a mechanism for reducing the overhead performance costs by applying a post-processing concept. The policy expression is achieved by using meaningful names representing parts of a document instead of all nodes and information details on allowed elements in each part. From this way of expression, our mechanism can provide one time XACML policy evaluation. If the evaluation result is permit, the requested resource will be filtered according to the information details such that only allowed data items are revealed. Therefore, fine-grained access control can also be preserved. We illustrate our proposed solution via a location-based service scenario. The implementation result shows that our mechanism brings better XACML evaluation performance when the number of nodes are high, and especially when XPath is used."
+            ],
+            "alternative": "Datenschutzrichtlinien und deren Durchsetzung im Composite-Service Umwelt",
+            "contributor": [
+                "gnd:1209709651",
+                "gnd:1132276268"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:10181818-X",
+                "gnd:2067664-5"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2014",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "alternative": "http://purl.org/dc/terms/alternative",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

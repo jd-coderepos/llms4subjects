@@ -1,0 +1,77 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1118392116",
+            "sameAs": "Master Seminar on Event Processing Systems for Business Process Management Systems"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A870485709",
+            "@type": "bibo:Conference",
+            "P1053": "Online Ressource (vii, 67 Seiten, 6343 KB)",
+            "http://purl.org/dc/elements/1.1/contributor": [
+                "Meyer, Andreas",
+                "Baumgra\u00df, Anne"
+            ],
+            "description": "Illustrationen",
+            "identifier": [
+                "(firstid)GBV:870485709",
+                "(ppn)870485709"
+            ],
+            "publisher": "Universit\u00e4tsverlag Potsdam",
+            "title": "Proceedings of the master seminar on event processing systems for business process management systems",
+            "abstract": "Traditionally, business process management systems only execute and monitor business process instances based on events that originate from the process engine itself or from connected client applications. However, environmental events may also influence business process execution. Recent research shows how the technological improvements in both areas, business process management and complex event processing, can be combined and harmonized. The series of technical reports included in this collection provides insights in that combination with respect to technical feasibility and improvements based on real-world use cases originating from the EU-funded GET Service project \u2013 a project targeting transport optimization and green-house gas reduction in the logistics domain. Each report is complemented by a working prototype. This collection introduces six use cases from the logistics domain. Multiple transports \u2013 each being a single process instance \u2013 may be affected by the same events at the same point in time because of (partly) using the same transportation route, transportation vehicle or transportation mode (e.g. containers from multiple process instances on the same ship) such that these instances can be (partly) treated as batch. Thus, the first use case shows the influence of events to process instances processed in a batch. The case of sharing the entire route may be, for instance, due to origin from the same business process (e.g. transport three containers, where each is treated as single process instance because of being transported on three trucks) resulting in multi-instance process executions. The second use case shows how to handle monitoring and progress calculation in this context. Crucial to transportation processes are frequent changes of deadlines. The third use case shows how to deal with such frequent process changes in terms of propagating the changes along and beyond the process scope to identify probable deadline violations. While monitoring transport processes, disruptions may be detected which introduce some delay. Use case four shows how to propagate such delay in a non-linear fashion along the process instance to predict the end time of the instance. Non-linearity is crucial in logistics because of buffer times and missed connection on intermodal transports (a one-hour delay may result in a missed ship which is not going every hour). Finally, use cases five and six show the utilization of location-based process monitoring. Use case five enriches transport processes with real-time route and traffic event information to improve monitoring and planning capabilities. Use case six shows the inclusion of spatio-temporal events on the example of unexpected weather events.",
+            "contributor": "gnd:113590547",
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1118392116",
+            "issued": "2016",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "volume": "102",
+            "P30128": "Technische Berichte des Hasso-Plattner-Instituts f\u00fcr Softwaresystemtechnik an der Universit\u00e4t Potsdam",
+            "P60163": "Potsdam"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "license": "http://purl.org/dc/terms/license",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "volume": "http://purl.org/ontology/bibo/volume",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

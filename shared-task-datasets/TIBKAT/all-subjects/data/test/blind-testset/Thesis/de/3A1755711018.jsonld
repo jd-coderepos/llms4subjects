@@ -1,0 +1,82 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1228864772",
+            "sameAs": "Tan, Jun"
+        },
+        {
+            "@id": "gnd:2125187-3",
+            "sameAs": "Technische Universit\u00e4t Ilmenau"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1755711018",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xi, 159 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Hennig, Eckhard",
+            "description": "Diagramme, Illustrationen",
+            "identifier": [
+                "(firstid)KXP:1755711018",
+                "(ppn)1755711018"
+            ],
+            "publisher": "Universit\u00e4tsbibliothek",
+            "title": "Design methodology and implementation of fully passive RFID SoC with temperature sensor",
+            "abstract": "Diese Dissertation stellt die Methodik und die Implementierung eines vollst\u00e4ndig passiven RFID SoC mit Temperatursensor zur Reduzierung von Versorgungsrauschen f\u00fcr eine hochgenaue drahtlose Temperaturmessung vor. Die Analyse der modernen eigenst\u00e4ndigen Temperatursensoren und der drahtlosen RFID Temperatursensoren zeigt eine Design Herausforderung, dass die RFID Sensoren aufgrund der RFID Kommunikation erheblich unter dem Versorgungsrauschen leiden. Um die Sensorgenauigkeit zu verbessern, ohne zu viele Kompromisse einzugehen, stellt diese Dissertation die folgenden wissenschaftlichen Beitr\u00e4ge vor. Zuerst wird ein Zeitdomain Niederspannungs Niederleistungs Temperatursensor vorgeschlagen, um eine hohe Genauigkeit zu erreichen, ohne einen hochkomplexen Sigma Delta ADC mit niedriger Abtastrate zu verwenden. Dar\u00fcber hinaus wird die Methodik zur Analyse von Versorgungsrauschen f\u00fcr die Erzeugung, Verst\u00e4rkung und Digitalisierung des Versorgungsrauschens entwickelt. Die Analyseergebnisse zeigen, dass das Versorgungsrauschen \u00fcber ein breites Frequenzspektrum verteilt ist, w\u00e4hrend das Rauschen im Kommunikationsfrequenzband durch das Power Management Unit verst\u00e4rkt wird. F\u00fcr die Analyse der Rauschdigitalisierung erreicht dieser vorgeschlagene Temperatursensor die beste DC Versorgungsempfindlichkeit seiner Klasse, w\u00e4hrend er noch unter Wechselstromwelligkeit leidet. Daher wird das durch die RFID Kommunikation erzeugte Versorgungsrauschen die Sensorleistung erheblich beeinflussen. Die abschlie\u00dfende Optimierung auf Systemebene wird durch die Einf\u00fchrung eines seriellen Auslesekommandos erreicht, das das Versorgungsrauschen f\u00fcr die Sensorauslesung deutlich reduziert. Die experimentellen Ergebnisse zeigen, dass dieser vorgeschlagene RFID Temperatursensor die Genauigkeit von \u00b10.4 \u00b0C (3 sigma) von 0 \u00b0C bis 125 \u00b0C erreicht. Die ist h\u00f6chste Genauigkeit mit dem gr\u00f6\u00dften Arbeitsbereich im Vergleich zu den derzeit berichteten modernen RFID Temperatursensoren. Der neue RFID Befehl verbessert die Aufl\u00f6sung dieses RFID Temperatursensors um den Faktor 16.",
+            "contributor": [
+                "gnd:1198498110",
+                "gnd:133159523"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2125187-3",
+                "gnd:1228864772"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2019",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "P60163": "Ilmenau"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "license": "http://purl.org/dc/terms/license",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

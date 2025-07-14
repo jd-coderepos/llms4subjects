@@ -1,0 +1,104 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1143168526",
+            "sameAs": "Mailund, Thomas"
+        },
+        {
+            "@id": "gnd:4123037-1",
+            "sameAs": "Datenanalyse"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A887308058",
+            "@type": "bibo:Book",
+            "P1053": "xv, 104 Seiten",
+            "description": [
+                "23.5 cm x 15.5 cm",
+                "Illustrationen, Diagramme"
+            ],
+            "identifier": [
+                "(ppn)887308058",
+                "(isbn)148422745X",
+                "(firstid)DNB:112674462X",
+                "(isbn13)9781484227459"
+            ],
+            "publisher": "Apress, Springer Science+Business Media",
+            "subject": [
+                "(classificationName=linseach:mapping)inf",
+                "Functional programming (Computer science)",
+                "(classificationName=msc)62-04",
+                "R (Computer program language)",
+                "(classificationName=rvk)ST 250",
+                "(classificationName=loc)QA276.45.R3",
+                "(classificationName=msc)68N18",
+                "(classificationName=ddc)005.133",
+                "(classificationName=msc)*68-01",
+                "(classificationName=bk, id=106418890)54.53 - Programmiersprachen"
+            ],
+            "title": "Functional programming in R : advanced statistical programming for data science, analysis and finance",
+            "abstract": [
+                "Master functions and discover how to write functional programs in R. In this book, you'll make your functions pure by avoiding side-effects; you'll write functions that manipulate other functions, and you'll construct complex functions using simpler functions as building blocks. In Functional Programming in R, you'll see how we can replace loops, which can have side-effects, with recursive functions that can more easily avoid them. In addition, the book covers why you shouldn't use recursion when loops are more efficient and how you can get the best of both worlds. Functional programming is a style of programming, like object-oriented programming, but one that focuses on data transformations and calculations rather than objects and state. Where in object-oriented programming you model your programs by describing which states an object can be in and how methods will reveal or modify that state, in functional programming you model programs by describing how functions translate input data to output data. Functions themselves are considered to be data you can manipulate and much of the strength of functional programming comes from manipulating functions; that is, building more complex functions by combining simpler functions. You will: Write functions in R including infix operators and replacement functions Create higher order functions Pass functions to other functions and start using functions as data you can manipulate Use Filer, Map and Reduce functions to express the intent behind code clearly and safely Build new functions from existing functions without necessarily writing any new functions, using point-free programming Create functions that carry data along with them.--",
+                "Functions in R -- Pure functional programming -- Scope and closures -- Higher-order functions -- Filter, map, and reduce -- Point-free programming"
+            ],
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:1143168526",
+            "isPartOf": "(collectioncode)GBV-vub-HSOS-PDA",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": [
+                "http://vub.de/cover/data/isbn%3A9781484227459/medium/true/de/vub/cover.jpg",
+                "http://vub.de/cover/data/isbn:9781484227459/medium/true/de/vub/cover.jpg",
+                "http://www.springer.com/"
+            ],
+            "dcterms:subject": {
+                "@id": "gnd:4123037-1"
+            },
+            "tableOfContents": "http://www.gbv.de/dms/tib-ub-hannover/887308058.pdf",
+            "P30128": "For professionals by professionals",
+            "P60163": "New York, NY"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "relation": "http://purl.org/dc/terms/relation",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

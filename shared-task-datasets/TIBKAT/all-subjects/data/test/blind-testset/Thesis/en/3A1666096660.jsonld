@@ -1,0 +1,72 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:105373901X",
+            "sameAs": "Milicevic, Marijo"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1666096660",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (xii, 180 Seiten)",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(contract)FRUB-opus-149583",
+                "(doi)10.6094/UNIFR/149583",
+                "(firstid)KXP:1666096660",
+                "(ppn)1666096660"
+            ],
+            "title": "Finite element discretization and iterative solution of total variation regularized minimization problems and application to the simulation of rate-independent damage evolutions",
+            "abstract": "Abstract: The total variation regularization of optimization problems plays an important role in various applications like image processing and continuum mechanics. In contrast to Sobolev functions, functions with bounded total variation may jump across lower-dimensional subsets. This feature is particularly interesting in applications where solutions that develop sharp transitions between different ``phases'' are desired. For example, image processing models should be designed in such a way that sharp edges in the image are preserved. In continuum mechanics it is in some cases desirable to suggest models which provide solutions that are allowed to exhibit spatial jumps, e.g., in the modelling of the evolution of damage in concrete. However, while the usage of total variation regularization is appealing from the viewpoint of mathematical modelling, the development of efficient and reliable numerical methods for minimization problems including a total variation term is challenging due to the non-differentiability of the total variation.<br><br>An overview of existing numerical methods for a finite element discretization of a popular (bilaterally constrained) total variation minimization problem from image processing - namely the Rudin-Osher-Fatemi (ROF) problem - is given. The stability and convergence of three classes of algorithms is addressed and numerical comparisons are presented to identify the most efficient iterative scheme for our purposes.<br><br>Out of all approaches for total variation minimization, the alternating direction method of multipliers (ADMM), which is a flexible method to solve a large class of convex minimization problems, is analyzed in more detail. Advantages of the ADMM are its unconditional convergence with respect to the involved step size and its direct apllicability. However, the speed of convergence critically depends on the step size. In this thesis, variable step sizes are considered for the ADMM and an adjustment rule for the step size, which relies on the monotonicity of the residual, is proposed to accelerate the algorithm. Numerical experiments reveal significant improvements over established variants of the ADMM.<br><br>When dealing with functions with bounded variation, which may exhibit spatial jumps, the appropriate resolution of the jump sets is important to improve approximation properties of finite element functions and to reduce computational costs. Therefore, adaptive mesh refinement techniques which generate  ...",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": "gnd:105373901X",
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2018",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "isLike": "doi:10.6094/UNIFR/149583",
+            "P60163": "Freiburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "issued": "http://purl.org/dc/terms/issued",
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

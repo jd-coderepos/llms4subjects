@@ -1,0 +1,70 @@
+{
+    "@graph": [
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A721915701",
+            "@type": "bibo:Thesis",
+            "P1053": "224 S.",
+            "http://purl.org/dc/elements/1.1/contributor": "Kargl, Frank",
+            "creator": "Schmidt, Robert Karl",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(ppn)721915701",
+                "(firstid)GBV:721915701",
+                "(isbn13)9783954041633"
+            ],
+            "publisher": "Cuvillier",
+            "title": "Efficient resource management for intervehicle safety communications",
+            "abstract": "Die Einf\u00fchrung von aktiven Sicherheitssystemen, basierend auf Fahrzeug-zu-Fahrzeug (F-zu-F) Kommunikation, verspricht, die immer noch hohe Zahl von Verletzten und t\u00f6dlich Verungl\u00fcckten deutlich zu reduzieren. Dabei werden Fahrzeuge bef\u00e4higt, regelm\u00e4\u00dfig und ereignisbasiert ihren Status anderen umliegenden Fahrzeugen mitzuteilen. Somit wird die aktive Sicherheit erh\u00f6ht, weil jederzeit zuverl\u00e4ssige, hochaktuelle und genaue Informationen zur Verf\u00fcgung stehen. Derzeit werden die Protokolle f\u00fcr die F-zu-F Kommunikation u.a. in ETSI standardisiert. F\u00fcr die Applikationsschicht sieht ETSI vor, dass drei verschiedene Nachrichtentypen f\u00fcr den Broadcast zur Verf\u00fcgung stehen: die periodischen CAM, ereignisbasierte DENM und dienstorientierte SAM. Insbesondere die Kommunikationslast generiert durch CAMs, kann leicht dazu f\u00fchren, dass der Kommunikationskanal in \u00dcberlast ger\u00e4t. In dieser Dissertation wird zun\u00e4chst eine feingranularere Bewertung der Systemparameter vollzogen im Hinblick auf die Optimierungspotentiale und deren Grenzen. Ergebnis dieser Bewertung ist, dass nur ein hybrider Ansatz aus Einzelparameterregelung und schicht\u00fcbergreifender Koordinierung eine bessere Verwaltung der verf\u00fcgbaren Ressourcen durchf\u00fchren kann. In diesem Ansatz, genannt VRM, wird die Rate der CAMs adaptiert, um die Kanallast zu senken und dennoch eine akzeptable Genauigkeit der Information f\u00fcr die Applikationen zu gew\u00e4hrleisten. Zus\u00e4tzlich wird ein Mechanismus zur Weiterleitung von CAMs eingef\u00fchrt, der selektiv ausschlie\u00dflich Nachrichten mit hoher Relevanz wiederholt, um einzelne Verluste auszugleichen. Um den Medienzugriff unter Hochlast besser zu regeln, wird die r\u00e4umliche Wiederverwendung des Kommunikationskanals adaptiert, auf Basis der sogenannten CCA Schwelle. Damit kann die Kommunikation innerhalb des sicherheitskritischen Gebiets sichergestellt werden. Die schicht\u00fcbergreifende Koordinierung verwendet die M\u00f6glichkeit, allen Protokollschichten Steuerungskommandos mitzuteilen. VRM bezieht Informationen \u00fcber den Kanalzustand sowie \u00fcber die Stra\u00dfenverkehrssituation. Auf dieser Basis sowie der Ber\u00fccksichtung der Anforderungen einzelner Schichten und deren komplexen Wechselwirkungen werden angemessene Koordinationseingriffe in den einzelnen Schichten situationsadaptiv ausgef\u00fchrt. Aus Nachvollziehbarkeitsgr\u00fcnden wurde hierf\u00fcr das Schema der Zustandsmaschine gew\u00e4hlt. Umfassende Simulationsstudien wurden durchgef\u00fchrt, um das Konzept von VRM sowie die Einzelmechanismen in gro\u00dfr\u00e4umigen Verkehrsszenarien zu evaluieren. Darin konnte unter anderem gezeigt werden, dass VRM eine deutlich verbesserte Resourcennutzung erreicht, die direkt in einem deutlich verbesserten Umfeldsissen der Fahrzeuge resultiert.",
+            "contributor": [
+                "Technische Informationsbibliothek (TIB)",
+                {
+                    "@id": "gnd:132014971"
+                },
+                {
+                    "@id": "gnd:133950875"
+                }
+            ],
+            "issued": "2012",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/721915701.PDF",
+            "P60163": "G\u00f6ttingen"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "issued": "http://purl.org/dc/terms/issued",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "license": "http://purl.org/dc/terms/license",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
