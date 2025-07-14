@@ -29,12 +29,30 @@ This shared task offers the research community an opportunity to creatively deve
 
 llms4subjects [at] gmail.com
 
+## 💡 Citation
+
+The recommended citation for this dataset resource is provided below. If you find this resource useful, please consider citing it.
+
+```bibtex
+@dataset{dsouza2024llms4subjects,
+  author       = {Jennifer D'Souza and Sameer Sadruddin and Holger Israel and Mathias Begoin and Diana Slawig},
+  title        = {The SemEval 2025 LLMs4Subjects Shared Task Dataset},
+  year         = {2024},
+  version      = {1.0.1},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15185475},
+  url          = {https://doi.org/10.5281/zenodo.15185475},
+  abstract     = {To support the development of systems for the LLMs4Subjects shared task, we provide participants with two types of datasets: (1) a curated, human-readable form of the GND subjects taxonomy, and (2) a large-scale dataset of technical records from TIB’s open-access collection, annotated with GND subjects, available in both English and German.}
+}
+
+```
+
 ## ⭐ Acknowledgements
 
 The **LLMs4Subjects** shared task, organized as SemEval 2025 Task 5, is jointly supported by the [SCINEXT project](https://scinext-project.github.io/) (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070) and the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259).
 
 
-This work is licensed under a
+The dataset is archived on Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15185475.svg)](https://doi.org/10.5281/zenodo.15185475). This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
