@@ -1,0 +1,131 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:1027072291",
+            "sameAs": "Werner, Herbert"
+        },
+        {
+            "@id": "gnd:1043621512",
+            "sameAs": "European XFEL GmbH"
+        },
+        {
+            "@id": "gnd:1112763473",
+            "sameAs": "Technische Universit\u00e4t Hamburg"
+        },
+        {
+            "@id": "gnd:116208426X",
+            "sameAs": "Heuer, Michael"
+        },
+        {
+            "@id": "gnd:16058694-X",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg, Institut f\u00fcr Regelungstechnik"
+        },
+        {
+            "@id": "gnd:173178995",
+            "sameAs": "Lichtenberg, Gerwald"
+        },
+        {
+            "@id": "gnd:2067664-5",
+            "sameAs": "Technische Universit\u00e4t Hamburg-Harburg"
+        },
+        {
+            "@id": "gnd:4132814-0",
+            "sameAs": "Oszillator"
+        },
+        {
+            "@id": "gnd:4257834-6",
+            "sameAs": "Strahl\u00fcberwachung"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1026041996",
+            "@type": "bibo:Thesis",
+            "P1053": "1 Online-Ressource (Seite C-J, 164 Seiten)",
+            "http://purl.org/dc/elements/1.1/contributor": "Schlarb, Holger",
+            "description": "Illustrationen, Diagramme",
+            "identifier": [
+                "(doi)10.15480/882.1703",
+                "(ppn)1026041996",
+                "(firstid)GBV:1026041996"
+            ],
+            "subject": [
+                "(classificationName=bk, id=181571102)33.05 - Experimentalphysik",
+                "(classificationName=bk, id=106407449)33.38 - Quantenoptik, nichtlineare Optik",
+                "(classificationName=ddc)530: Physik",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=linseach:mapping)phy"
+            ],
+            "title": "Identification and control of the laser-based synchronization system for the European X-ray Free Electron Laser",
+            "abstract": "The European X-ray Free-Electron Laser is currently under construction at theDeutsches ElektronenSynchrotron in Hamburg, Germany. This linear accelerator, with a length of 3.4 km,will generate extremely intense and short X-ray laser light pulses with a duration in the femtosecondrange and wavelengths down to 0.05 nm. These laser pulses provide physicists with alight source to take a closer look into small structures on atomic scale.Those precise measurements require timing with an error margin in the femto-second rangefor most subsystems within the facility. Usually, this timing signal is distributed electricallyvia coaxial cables. With the new requirements in timing, this kind of distribution is no longersuitable and a new laser-based synchronization system is used. This system generates a laserpulse train via a master laser oscillator and distributes this via optical fiber to multiple endstationsin the facility.The effective length of the optical path inside the fiber is actively stabilizedby a link stabilizing unit.This thesis analyzes this new system from a control point of view. It is shown that the masterlaser oscillator can be modeled by an integrator, with the H2 norm as the performance criteriaand two filters corresponding to the noise and disturbances of the master laser oscillator itselfas well as the electrical oscillator of the facility. Those influences, as well as the dynamic behaviorof the master laser oscillator, are identified for a laboratory setup. With these models inhand, different controllers are designed and experimentally evaluated. A sufficient controllerperformance can be achieved by a PI controller. However, using a feedback controller witha model-based optimization increase this performance, but these require a high order of thecontroller, which is currently not implementable given the installed hardware.The second part of thiswork analyses the link stabilizing units. This is achievedwith an attachedoptical fiber and a timing measurement by an optical cross correlator. If a short optical fiber isconnected the system can be approximated by a third order system with a time delay of a fewsample. Amodel is identified and used for controller design. It can be shown that a performanceincrease by factor of 4.5 can be achieved if an LQG controller, including a model of the timedelay, is used instead of the previously used PI controller. Moreover, different approaches forlong optical fibers and the operation in the non-linear region of the sensor are shown. Thesecould not be tested in an experiment.The work closes with an analysis of the overall system and gives suggestions of how to increasethe performance of the individual components and of the whole laser-based synchronizationsystem including the attached devices. It will be shown that the optimal performance can beachieved if all systems are connected to the laser-based synchronization system and if the dynamicbehavior of the link stabilizing unit and end-station is equal for all subsystems.",
+            "contributor": [
+                "gnd:1027072291",
+                "gnd:173178995"
+            ],
+            "dcterms:contributor": "Technische Informationsbibliothek (TIB)",
+            "creator": [
+                "gnd:2067664-5",
+                "gnd:1112763473",
+                "gnd:116208426X",
+                "gnd:16058694-X"
+            ],
+            "isPartOf": "(collectioncode)GBV-ODiss",
+            "issued": "2017",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "open access",
+            "medium": "rda:termList/RDACarrierType/1018",
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4257834-6"
+                },
+                {
+                    "@id": "gnd:4132814-0"
+                }
+            ],
+            "isLike": "doi:10.15480/882.1703",
+            "P60163": "Hamburg"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "contributor": {
+            "@id": "http://purl.org/dc/terms/contributor",
+            "@type": "@id"
+        },
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "isLike": {
+            "@id": "http://umbel.org/umbel#isLike",
+            "@type": "@id"
+        },
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "creator": {
+            "@id": "http://purl.org/dc/terms/creator",
+            "@type": "@id"
+        },
+        "license": "http://purl.org/dc/terms/license",
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "issued": "http://purl.org/dc/terms/issued",
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "isPartOf": "http://purl.org/dc/terms/isPartOf",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}

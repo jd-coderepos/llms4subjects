@@ -1,0 +1,110 @@
+{
+    "@graph": [
+        {
+            "@id": "gnd:4017233-8",
+            "sameAs": "Finite-Elemente-Methode"
+        },
+        {
+            "@id": "gnd:4690080-9",
+            "sameAs": "Numerische Str\u00f6mungssimulation"
+        },
+        {
+            "@id": "https://www.tib.eu/de/suchen/id/TIBKAT%3A1625273312",
+            "@type": "bibo:Book",
+            "P1053": "XXI, 727 S.",
+            "creator": "Iannelli, Joe",
+            "description": "Ill., graph. Darst.",
+            "identifier": [
+                "(isbn13)9783540251811",
+                "(ean)9783540251811",
+                "(ppn)1625273312",
+                "(firstid)DNB:973669632",
+                "(isbn)3540251812"
+            ],
+            "publisher": "Springer",
+            "subject": [
+                "Fluid dynamics",
+                "(classificationName=ddc-dbn)620",
+                "Finite element method",
+                "(classificationName=linseach:mapping)phy",
+                "(classificationName=ddc-dbn)510",
+                "(classificationName=rvk)UF 4000",
+                "(classificationName=ddc)532.050151825",
+                "(classificationName=msc)76-02",
+                "(classificationName=linseach:mapping)mat",
+                "(classificationName=ddc-dbn)530",
+                "(classificationName=msc)65M25",
+                "(classificationName=bk, id=106408194)31.76 - Numerische Mathematik",
+                "(classificationName=ddc)532/.050151825",
+                "(classificationName=bk, id=106413783)50.33 - Technische Str\u00f6mungsmechanik",
+                "(classificationName=msc)*76M10",
+                "(classificationName=msc)65M60",
+                "(classificationName=linseach:mapping)tec",
+                "(classificationName=msc)65-02",
+                "(classificationName=rvk)UF 4050",
+                "(classificationName=loc)TA347.F5",
+                "(classificationName=bk, id=10640816X)31.45 - Partielle Differentialgleichungen",
+                "(classificationName=ddc)510"
+            ],
+            "title": "Characteristics finite element methods in computational fluid dynamics",
+            "abstract": "The book details multi-dimensional upstream-bias algorithms for the numerical solution of the Euler and Navier-Stokes equations. Several sections derive the Fluid Dynamics equations from fundamental thermo-mechanics principles and systematically develops multi-dimensional upstream CFD algorithms with finite element procedures and implicit Runge-Kutta time integration algorithms. For mesh independence the formulation is developed at the differential equation level, before any spatial discretization. This formulation generates non-discrete characteristics-bias systems that incorporate an intrinsically multi-dimensional and infinite-directional genuinely upwind dissipation mechanism. A traditional centered discretization of the characteristics-bias system then automatically generates consistent and multi-dimensional arbitrary-mesh upstream discretizations of the Euler and Navier-Stokes Equations. TOC:Overview.- Governing Equations of Fluid Dynamics.- Constitutive and State Equations.- State Equations for Reacting Air.- Euler and Navier-Stokes Systems.- Quasi One-Dimensional and Free-SurfaceFlow Models.- Curvilinear Coordinates.- Multi-Dimensional Characteristics.- Non-Discrete Acoustics-Convection Upstream-Bias Formulations.- Upstream-Bias Controller.- Development of CFD Algorithms.- Numerical Methods.- Finite Elements.- Non-Linearly Stable Implicit Runge-Kutta Time Integrations.- Computational Analysis of Incompressible Flows.- Numerical Study of Open-Channel Flows.- CFD Investigation of Compressible Flows",
+            "contributor": "Technische Informationsbibliothek (TIB)",
+            "issued": "2006",
+            "language": "http://id.loc.gov/vocabulary/iso639-1/en",
+            "license": "commercial licence",
+            "medium": "rda:termList/RDACarrierType/1044",
+            "relation": [
+                "http://www.loc.gov/catdir/enhancements/fy0818/2006925962-d.html",
+                "http://www.loc.gov/catdir/enhancements/fy0818/2006925962-b.html"
+            ],
+            "dcterms:subject": [
+                {
+                    "@id": "gnd:4690080-9"
+                },
+                {
+                    "@id": "gnd:4017233-8"
+                }
+            ],
+            "tableOfContents": "http://www.gbv.de/dms/ilmenau/toc/479462682.PDF",
+            "P30128": "Computational fluid and solid mechanics",
+            "P60163": "Berlin"
+        }
+    ],
+    "@id": "urn:x-arq:DefaultGraphNode",
+    "@context": {
+        "subject": "http://purl.org/dc/elements/1.1/subject",
+        "description": "http://purl.org/dc/elements/1.1/description",
+        "medium": {
+            "@id": "http://purl.org/dc/terms/medium",
+            "@type": "@id"
+        },
+        "language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "abstract": "http://purl.org/dc/terms/abstract",
+        "identifier": "http://purl.org/dc/elements/1.1/identifier",
+        "issued": "http://purl.org/dc/terms/issued",
+        "P30128": "http://www.rdaregistry.info/Elements/m/#P30128",
+        "tableOfContents": "http://purl.org/dc/terms/tableOfContents",
+        "relation": "http://purl.org/dc/terms/relation",
+        "publisher": "http://purl.org/dc/elements/1.1/publisher",
+        "P60163": "http://www.rdaregistry.info/Elements/u/#P60163",
+        "contributor": "http://purl.org/dc/terms/contributor",
+        "title": "http://purl.org/dc/elements/1.1/title",
+        "license": "http://purl.org/dc/terms/license",
+        "P1053": "http://iflastandards.info/ns/isbd/elements/P1053",
+        "creator": "http://purl.org/dc/elements/1.1/creator",
+        "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+        "umbel": "http://umbel.org/umbel#",
+        "rdau": "http://www.rdaregistry.info/Elements/u/#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "bibo": "http://purl.org/ontology/bibo/",
+        "rdam": "http://www.rdaregistry.info/Elements/m/#",
+        "gnd": "http://d-nb.info/gnd/",
+        "isbd": "http://iflastandards.info/ns/isbd/elements/",
+        "rda": "http://rdvocab.info/",
+        "doi": "https://doi.org/"
+    }
+}
